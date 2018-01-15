@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Digitized Inhumanities: Qualitative Inhaltsanalyse von Hexenprozessakten mit MAXQDA</title>
+                <author>
+                    <persName>
+                        <surname>Müller</surname>
+                        <forename>Andreas</forename>
+                    </persName>
+                    <affiliation>Universität Wien, Österreich</affiliation>
+                    <email>andreas.w.mueller@outlook.com</email>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2018-01-10T10:42:00Z</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Prof. Dr. Georg Vogeler</publisher>
+                <address>
+                    <addrLine>UniversitÃ¤t Graz</addrLine>
+                    <addrLine>Zentrum fÃ¼r Informationsmodellierung - Austrian Centre for Digital Humanities</addrLine>
+                    <addrLine>ElisabethstraÃe 59/III</addrLine>
+                    <addrLine>8010 Graz</addrLine>
+                </address>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Converted from a Word document </p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.17">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Poster</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>qualitative Inhaltsanalyse</term>
+                    <term>MAXQDA</term>
+                    <term>Vergleich</term>
+                    <term>Textanalyse</term>
+                    <term>Dokumente</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Inhaltsanalyse</term>
+                    <term>Strukturanalyse</term>
+                    <term>Visualisierung</term>
+                    <term>Manuskript</term>
+                    <term>Software</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div/>
+            <div type="div1" rend="DH-Heading1">
+                <head>Forschungskontext:</head>
+                <p>In den Sozialwissenschaften ist die qualitative Inhaltsanalyse unter Anwendung moderner Analysesoftware wie MAXQDA etabliert. In den Geschichtswissenschaften gewinnen diese Zugänge unter dem Schlagwort der „Digital Humanities“ erst langsam an Verbreitung. Meine Masterarbeit „Die Magie der Inhaltsanalyse: Entwurf einer Inhaltsanalyse für den Vergleich von Hexenprozessakten aus Rostock 1584 und Hainburg 1617/18“ versucht daher diese Zugänge der Sozialwissenschaften in einem methodisch eher „traditionellen“ Forschungsbereich, der historischen Hexenprozessforschung, anzuwenden.</p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Ausgangspunkt:</head>
+                <p>Das Ausgangsmaterial bilden 37 „Geständnisse“ (Urgichten) aus Hexenprozessen in Hainburg 1617/18 und Rostock 1584. Die inhaltlich nach Befragungspunkten strukturierten Dokumente stehen am Ende des juristischen Prozesses vor der Hinrichtung der Angeklagten. Diese bilden eine Synthese aus den Ansichten des Gerichts, den Angaben von Zeugen und den unter Folter entstandenen Aussagen der Angeklagten.</p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Forschungsfrage(n):</head>
+                <p>F1: Wie unterscheiden sich die aus den Urgichten hervorgehenden Hexereiimaginationen in Hainburg 1617/18 und Rostock 1584?</p>
+                <p>F2: Wie spiegeln sich regionale Unterschiede (sozio-ökonomisch, konfessionell, politisch) in den Dokumenten wieder? Welche Elemente der Hexereivorstellung erweisen sich als starr, welche als flexibel?</p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Methodik:</head>
+                <p>Methodische Grundlage bildet das Methodenangebot der qualitativen Inhaltsanalyse“ (Mayring 2015; Kuckartz 2014), die auf die spezifisch geschichtswissenschaftlichen Herausforderungen angepasst wurde. Als Analysetool wurde MAXQDA12 verwendet. Ein auf dem „elaborierten Hexereibegriff“ (Dillinger 2007) basierendes Kategoriensystem wurde deduktiv auf die Texte angewendet. Für die Analyse wurde ein Mixed-Methods Ansatz verfolgt, der die quantitative Auswertung des Kategoriensystems als „Kontrastmittel“ für die qualitative Analyse heranzieht.</p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Ergebnisse</head>
+                <p>Vor allem in der Imagination des Schadenszaubers traten deutliche Unterschiede hervor, welche die sozio-ökonomischen Kontexte widerspiegeln. Im Weinbaugebiet Hainburg findet sich vor allem der Vorwurf des Wetterzaubers gegen Weinreben, Obst und Getreide. In der Seehandelsstadt Rostock fehlen diese Delikte weitgehend und es steht vor allem die Verbreitung von Krankheiten durch Bettlerinnen im Zentrum. Die Vorstellungen vom Teufelspakt, Hexentanz und Flug sind deutlich homogener als der Schadenszauber, wenn sie auch verschiedene Schwerpunktsetzungen und Ausgestaltungen aufweisen. Darüber hinaus hat die quantitative Analyse überraschende Unterschiede in der Inhaltsstruktur zu Tage gefördert, die über den Rahmen der Arbeit offene Fragen aufwirft. Es entsteht dabei der Befund einer wesentlich stärker „integrierten“ bzw. „kohärenten“ Hexereiimagination in Hainburg, die sich in zahlreichen Kategorienüberschneidungen manifestiert, während in Rostock teils völlig isolierte Elemente und Narrative zu Tage treten.</p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Mehrwert und Problematik der digitalen Methodik</head>
+                <p>Durch die Anwendung der Software MAXQDA eröffnen sich neue analytische Möglichkeiten von großem Mehrwert. Durch die Zuordnung von verschiedenen Textabschnitten in analytische Kategorien wird es nicht nur möglich die Kategorien qualitativ auszuwerten, sondern auch Visualisierungen und Quantifizierungen zu erzeugen. Als ein Beispiel wird hier das Dokumentenvergleichsdiagramm herausgegriffen:
+                    <graphic n="1001" width="16.007291666666667cm" height="9.498541666666666cm" url="Pictures/image1.jpeg" rend="inline"/> Die Zeilen bilden hier die einzelnen Dokumente ab, die Spalten die einzelnen Absätze des Textes. Hierdurch wird die thematische Struktur der Texte sichtbar, ähnlich einem „Topic Modelling“ wobei hier jedoch die Zuordnung manuell erfolgt. Ein Vorteil dieses Zugangs ist seine starke Nähe zum Forschungsgegenstand. Ein Klick auf eine der farbigen Flächen (z.B. eine thematische „Lücke“) führt in der Software sofort zurück in die entsprechende Textstelle. MAXQDA ist damit nicht nur eine Möglichkeit zur Ergebnispräsentation sondern auch ein analytisches Tool.
+                </p>
+                <p>Das textnahe Arbeiten mit analytischen Kategorien ist vor allem für die qualitative Forschung ein großer Mehrwert. Die Kategorien sowie ihre Zuordnung zum Text werden dabei vom Forschenden selbst festgelegt und ein Rückbezug in den Originaltext ist zu jedem Zeitpunkt möglich. Zu den problematischen Aspekten in der Arbeit mit einem Kategoriensystem zählt jedoch, dass Textteile, die außerhalb der eigenen analytischen Kategorien liegen, leicht aus dem Fokus geraten und der Blick für die Grundgesamtheit des Texts verloren gehen kann. </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Diskussion:</head>
+                <p>Die Masterarbeit setzte sich als methodisches Ziel, den Vergleich zweier historischer Textkorpora unter Einsatz der qualitativen Inhaltsanalyse vorzunehmen. Angestrebtes Ziel einer nachfolgenden Dissertation ist es eine „vergleichende Inhaltsanalyse“ für den Einsatz insbesondere in den Geschichtswissenschaften zu entwerfen. Dafür scheint es angebracht diesen ersten Schritt zur kritischen Diskussion zu stellen und die Potenziale der qualitativen Inhaltsanalyse, aber auch die Möglichkeiten anderer Analyseverfahren, für den systematischen Textvergleich zu diskutieren.</p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Anliegen der Posterpräsentation:</head>
+                <p>Das Poster selbst wird die Ergebnisse des erfolgten Vergleichs in Form von Grafiken und Diagrammen (Codematrix Browser, Code Relation Browser, Dokumentenvergleichsdiagramm aus MAXQDA) in das Zentrum rücken. Hierfür werden vor allem die über das quantifizierende „Kontrastmittel“ deutlich gewordenen strukturellen Unterschiede der Vergleichsgruppen aufgezeigt und erläutert. Hiermit erfüllt das Poster zwei Zwecke: 1. Ermöglicht es die Diskussion über und Kritik an dem gewählten Analyseverfahren. 2. Können die Ergebnisse als Anregung dienen die Anwendbarkeit ähnliche Verfahren für das jeweils eigene Forschungsfeld zu reflektieren.</p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl>Behringer, Wolfgang (1995): Weather, Hunger, and Fear. The Origins of the European Witch Prosecutions in Climate, Society, and Mentality. In: German History (13), S. 1–27.</bibl>
+                    <bibl>Behringer, Wolfgang (1997): Hexenverfolgung in Bayern. Volksmagie, Glaubenseifer und Staatsräson in der Frühen Neuzeit. 3. Aufl. München: R. Oldenbourg.</bibl>
+                    <bibl>Behringer, Wolfgang (2004a): Geschichte der Hexenforschung. In: Sönke Lorenz (Hg.): Wider alle Hexerei und Teufelswerk. Die Europäische Hexenverfolgung und ihre Auswirkungen auf Südwestdeutschland. Ostfildern: Thorbecke, S. 485–668.</bibl>
+                    <bibl>Behringer, Wolfgang (2004b): Witches and witch-hunts. A global history. Cambridge, UK, Malden, MA: Polity Press.</bibl>
+                    <bibl>Behringer, Wolfgang (2010a): A cultural history of climate. Cambridge: Polity Press.</bibl>
+                    <bibl>Behringer, Wolfgang (Hg.) (2010b): Hexen und Hexenprozesse in Deutschland. 7. Aufl. München: Dt. Taschenbuch-Verl.</bibl>
+                    <bibl>Berelson, Bernard (1952): Content analysis in communication research. Glencoe: Free Press.</bibl>
+                    <bibl>Clark, Stuart (1999): Thinking with demons. The idea of witchcraft in early modern Europe. Oxford: Oxford Univ. Press.</bibl>
+                    <bibl>Dillinger, Johannes (1999): "Böse Leute". Hexenverfolgungen in Schwäbisch-Österreich und Kurtrier im Vergleich. Trier: Spee.</bibl>
+                    <bibl>Dillinger, Johannes (2007): Hexen und Magie. Eine historische Einführung. Frankfurt/Main: Campus-Verl.</bibl>
+                    <bibl>Dillinger, Johannes (2013): Kinder im Hexenprozess. Magie und Kindheit in der Frühen Neuzeit. Stuttgart: Steiner.</bibl>
+                    <bibl>Dorn-Haag, Verena (2015): Hexerei und Magie im Strafrecht. Historische und dogmatische Aspekte. Tübingen: Mohr Siebeck.</bibl>
+                    <bibl>Flossmann, Ursula; Putschögl, Gerhard (1987): Hexenprozesse. Seminar zur Geschichte der Strafrechtspflege. Linz: Universitätsverlag R. Trauner.</bibl>
+                    <bibl>Goodare, Julian (2016): The European witch-hunt. London, New York: Routledge Taylor &amp; Francis Group.</bibl>
+                    <bibl>Ignatieff, Nathalie (2009): Hexenprozesse in Hainburg 1617/18. Diplomarbeit. Universität Wien, Wien.</bibl>
+                    <bibl>Kuckartz, Udo (2014): Qualitative Inhaltsanalyse. Methoden, Praxis, Computerunterstützung. 2. Auflage. Weinheim, Basel: Beltz Juventa.</bibl>
+                    <bibl>Landsteiner, Erich (1999): The Crisis of Wine Production in Late Sixteenth-Century Central Europe. Climatic Causes and Economic Consequences. In: Climatic Change (43), S. 323–334.</bibl>
+                    <bibl>Landsteiner, Erich (2001): Trübselige Zeit? Auf der Suche nach den wirtschaftlichen und sozialen Dimensionen des Klimawandels im späten 16. Jahrhundert. In: Österreichische Zeitschrift für Geschichtswissenschaften 12 (2), S. 79–116.</bibl>
+                    <bibl>Landsteiner, Erich; Weigl, Andreas (2001): „Sonsten finden wir die Sachen sehr übel aufm Landt beschaffen“. Krieg und lokale Gesellschaft in Niederösterreich (1618-1621). In: Benigna von Krusenstjern (Hg.): Zwischen Alltag und Katastrophe. Der Dreißigjährige Krieg aus der Nähe. 2. Aufl. Göttingen: Vandenhoeck &amp; Ruprecht, S. 229–270.</bibl>
+                    <bibl>Lang, Ines (2008): "Das zeichen hab er ihr mitt der prezen ins rechte wang vor 16 jahrn geben […]". zwei Hexenprozesse im Hainburg des Jahres 1624. Diplomarbeit. Universität Wien, Wien.</bibl>
+                    <bibl>Levack, Brian (1995): Hexenjagd. Die Geschichte der Hexenverfolgungen in Europa. München: Beck.</bibl>
+                    <bibl>Lorenz, Sönke (1982): Aktenversendung und Hexenprozeß. Dargestellt am Beispiel der Juristenfakultäten Rostock und Greifswald (1570/82 - 1630). Frankfurt am Main: Lang.</bibl>
+                    <bibl>Lorenz, Sönke (2004): Der Hexenprozess. In: Sönke Lorenz (Hg.): Wider alle Hexerei und Teufelswerk. Die Europäische Hexenverfolgung und ihre Auswirkungen auf Südwestdeutschland. Ostfildern: Thorbecke, S. 131–154.</bibl>
+                    <bibl>Mayring, Philipp (2015): Qualitative Inhaltsanalyse. Grundlagen und Techniken. 12. Auflage. Weinheim, Basel: Beltz Juventa.</bibl>
+                    <bibl>Midelfort, Hans Christian Erik (1968): Recent Witch Hunting Research, or Where Do We Go from Here? In: The Papers of the Bibliographical Society of America 62 (3), S. 373–420.</bibl>
+                    <bibl>Midelfort, Hans Christian Erik (1972): Witch hunting in southwestern Germany, 1562-1684. The social and intellectual foundations. Stanford, Calif.: Stanford University Press.</bibl>
+                    <bibl>Midelfort, Hans Christian Erik (1995): Alte Fragen und neue Methoden in der Geschichte des Hexenwahns. In: Sönke Lorenz (Hg.): Hexenverfolgung. Beiträge zur Forschung unter besonderer Berücksichtigung des südwestdeutschen Raumes. Würzburg: Königshausen und Neumann.</bibl>
+                    <bibl>Moeller, Katrin (2007): Dass Willkür über Recht ginge. Hexenverfolgung in Mecklenburg im 16. und 17. Jahrhundert. Bielefeld: Verl. für Regionalgeschichte.</bibl>
+                    <bibl>Münch, Ernst (2003a): Rostocks Aufstieg zur Stadtkommune. Von den Anfängen bis 1265. In: Karsten Schröder (Hg.): In deinen Mauern herrsche Eintracht und allgemeines Wohlergehen. Eine Geschichte der Stadt Rostock von ihren Ursprüngen bis zum Jahre 1990. Rostock: Koch, S. 12–28.</bibl>
+                    <bibl>Münch, Ernst (2003b): Zwischen Reformation und Dreißigjährigem Krieg. 1532 bis 1648. In: Karsten Schröder (Hg.): In deinen Mauern herrsche Eintracht und allgemeines Wohlergehen. Eine Geschichte der Stadt Rostock von ihren Ursprüngen bis zum Jahre 1990. Rostock: Koch, S. 53–92.</bibl>
+                    <bibl>Neugebauer-Wölk, Monika (2003): Wege aus dem Dschungel. Betrachtungen zur Hexenforschung. In: Geschichte und Gesellschaft (29), S. 316–347.</bibl>
+                    <bibl>Raser, Dorothea (1987): Zauberei und Hexenprozesse in Niederösterreich. Diplomarbeit. Universität Wien, Wien.</bibl>
+                    <bibl>Schild, Wolfgang (1994): Hexenglaube, Hexenbegriff und Hexenphantasie. In: Sönke Lorenz (Hg.): Hexen und Hexenverfolgung im deutschen Südwesten. Volkskundliche Veröffentlichungen des Badische Landesmuseums Karlsruhe. Ostfildern: Hatje Cantz Verl., S. 20–31.</bibl>
+                    <bibl>Schormann, Gerhard (1981): Hexenprozesse in Deutschland. Göttingen: Vandenhoeck &amp; Ruprecht.</bibl>
+                    <bibl>Schulze, Winfried (1993): Untertanenrevolten, Hexenverfolgung und "kleine Eiszeit". Eine Krisenzeit um 1600? In: Bernd Roeck (Hg.): Venedig und Oberdeutschland in der Renaissance. Beziehungen zwischen Kunst und Wirtschaft. Sigmaringen: Thorbecke, S. 290–309.</bibl>
+                    <bibl>Utz Tremp, Kathrin (2008): Von der Häresie zur Hexerei. "wirkliche" und imaginäre Sekten im Spätmittelalter. Hannover: Hahnsche Buchhandlung.</bibl>
+                    <bibl>Venjakob, Judith (2017): Der Hexenflug in der frühneuzeitlichen Druckgrafik. Entstehung, Rezeption und Symbolik eines Bildtypus. Petersberg: Michael Imhof Verlag.</bibl>
+                    <bibl>Voltmer, Rita (2006): Vom getrübten Blick auf die frühneuzeitlichen Hexenverfolgungen. Versuch einer Klärung. In: Gnostika. Zeitschrift für Wissenschaft und Esoterik 11, S. 45–58.</bibl>
+                    <bibl>Voltmer, Rita (2015): Stimmen der Frauen? Gerichtsakten und Gender Studies am Beispiel der Hexenforschung. In: Johanna Blume, Jennifer Moos und Anne Conrad (Hg.): Frauen, Männer, Queer. Ansätze und Perspektiven aus der historischen Genderforschung. St. Ingbert: Röhrig Universitätsverlag, S. 19–46.</bibl>
+                    <bibl>Wieden, Helge bei der (1981): Rostock zwischen Abhängigkeit und Reichsunmittelbarkeit. In: Roderich Schmidt (Hg.): Pommern und Mecklenburg. Beiträge zur mittelalterlichen Städtegeschichte. Köln: Böhlau, S. 111–132.</bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Cäsar Flaischlens „Graphische Litteratur-Tafel“ – digitale Erschließung einer großformatigen Karte zur Deutschen Literatur</title>
+                <author>
+                    <persName>
+                        <surname>Börner</surname>
+                        <forename>Ingo</forename>
+                    </persName>
+                    <affiliation>Universität Wien, Österreich</affiliation>
+                    <email>ingo.boerner@univie.ac.at</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Fischer</surname>
+                        <forename>Frank</forename>
+                    </persName>
+                    <affiliation>National Research University Higher School of Economics, Moskau, Russland</affiliation>
+                    <email>ffischer@hse.ru</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Hechtl</surname>
+                        <forename>Angelika</forename>
+                    </persName>
+                    <affiliation>Wirtschaftsuniversität Wien, Österreich</affiliation>
+                    <email>angelika.hechtl@wu.ac.at</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Jäschke</surname>
+                        <forename>Robert</forename>
+                    </persName>
+                    <affiliation>University of Sheffield, UK</affiliation>
+                    <email>r.jaschke@sheffield.ac.uk</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Trilcke</surname>
+                        <forename>Peer</forename>
+                    </persName>
+                    <affiliation>Universität Potsdam, Deutschland</affiliation>
+                    <email>trilcke@uni-potsdam.de</email>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2018-01-14T18:47:00Z</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Prof. Dr. Georg Vogeler</publisher>
+                <address>
+                    <addrLine>UniversitÃ¤t Graz</addrLine>
+                    <addrLine>Zentrum fÃ¼r Informationsmodellierung - Austrian Centre for Digital Humanities</addrLine>
+                    <addrLine>ElisabethstraÃe 59/III</addrLine>
+                    <addrLine>8010 Graz</addrLine>
+                </address>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Converted from a Word document </p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.17">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Vortrag</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Literaturkarte</term>
+                    <term>Literaturgeschichtsschreibung</term>
+                    <term>TEI Encoding</term>
+                    <term>Bildanalyse</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Transkription</term>
+                    <term>Inhaltsanalyse</term>
+                    <term>Annotieren</term>
+                    <term>Literatur</term>
+                    <term>Karte</term>
+                    <term>Visualisierung</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="div1" rend="DH-Heading1">
+                <head>Vorhaben</head>
+                <p>Cäsar Flaischlens „Graphische Litteratur-Tafel“ von 1890 stellt den Versuch dar, die Entwicklung der Deutschen Literatur mit ihren Einflüssen aus anderen Nationalliteraturen graphisch in der Form eines Flusses darzustellen. Gegenstand des Vortrags ist die digitale Edition und Bereitstellung des Vorwortes und der Karte sowie der entwickelte Workflow: Für die Edition wurde das graphische Karteninventar kodiert. Mithilfe computergestützter Bildanalyse können nicht-textuelle Informationen der Visualisierung erfasst und einer quantitativen Analyse zugeführt werden.</p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Visualisierung von Literaturgeschichte</head>
+                <p>In den letzten Jahren lässt sich ein Trend innerhalb der Literaturwissenschaft – u.a. der Literaturgeschichtsschreibung – ausmachen, Fragestellungen auf der Grundlage von großen Datenkorpora zu beantworten. Charakteristisch für diese Art von Literaturwissenschaft ist ein Methodenimport aus Natur- und Sozialwissenschaften, der sich nicht zuletzt in den Darstellungsformen deutlich zeigt.</p>
+                <p>Auch wenn sich diese Zugänge gegenwärtig großer Beliebtheit erfreuen, sind Darstellungsweisen wie jene in Morettis einflussreichem Buch „Kurven, Karten, Stammbäume: Abstrakte Modelle für die Literaturgeschichte“ (Moretti 2007) keineswegs ein Phänomen der Gegenwart, denn Literaturgeschichtsschreibung bedient sich bereits seit der Antike Bildmedien und anderer – nicht rein textueller – Präsentationsformen. Darstellungen von AutorInnen, wie etwa jene auf Raffaels berühmtem Parnassfresko in den Vatikanischen Museen lassen sich aus heutiger Perspektive wie Diagramme lesen. Information zu Relevanz sowie Verbindungen einzelner AutorInnen sind hier im Bildmedium kodiert. (vgl. Hölter/Schmitz-Emans 2013, Hölter 2005)</p>
+                <p>Das Parnassfresko ist nur eine Art, wie sich Kanonbildung, Rezeption und die Zugehörigkeit zu einer AutorInnengruppe darstellen lassen. Häufig gewählte Darstellungsformen sind (Stamm-)Baum (Lima 2014) und Fluss. Die Literaturwissenschaft greift damit Formen auf, die erst mit Fortschritten in der Buchproduktion durch die Entwicklung der Lithographie möglich geworden sind und zunächst in der Geschichtsschreibung Anwendung gefunden haben (vgl. Rosenberg/Grafton 2010).</p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Cäsar Flaischlens „Graphische Litteratur-Tafel“</head>
+                <p>Wie produktiv sich diese tradierten Denkbilder auf die Konzeptualisierung von (Literatur-)Karten auswirken können, zeigt die „Graphische Litteratur-Tafel” (1890) des deutschen Autors Cäsar Flaischlen (1864–1920). Flaischlens großformatige Karte (58x86,5 cm) visualisiert den – wie es im Untertitel heißt – „Einfluss fremder Literaturen” auf die deutsche Literatur und bedient dafür die Denkfigur geschichtlicher Prozesse als Fluss, bestehend aus einer Summe von Einflüssen. Er knüpft damit an eine Darstellungstradition von Weltgeschichte an, wie sie durch die Graphik „Strom der Zeiten“ (1804) des österreichischen Historiographen Friedrich Strass maßgeblich geprägt wurde (vgl. Rosenberg und Grafton, 2010). </p>
+                <p>In Cäsar Flaischlens Œuvre nimmt die aufwendig gestaltete Litteratur-Tafel eine Sonderstellung ein: Die für ihre Zeit ungewöhnliche literaturwissenschaftliche Arbeit erschien beinahe zeitgleich mit seiner Promotion 1899 und sollte Flaischlens einzige Publikation zur Literaturgeschichte bleiben. Flaischlen verließ die akademische Welt und war als Mitherausgeber und Redakteur von Literatur- und Kunstzeitschriften tätig. Heute ist der Autor hauptsächlich für seine Mundartgedichte und Erzählungen bekannt. </p>
+                <p>Auf der Karte wird die deutschsprachige Literatur von ihren Anfängen bis in Flaischlens Gegenwart dargestellt. Was in der Grafik zunächst als zwei sich schlängelnde Bäche der „Volks- und Kunstpoesie“ um 750 beginnt, entwickelt sich im Laufe der Jahrhunderte zu einem breiten Strom, in welchen über den gesamten (Zeit-)Verlauf Zuflüsse aus anderen (hauptsächlich) europäischen Nationalliteraturen einmünden. In der Legende der Karte führt Flaischlen folgende Einflüsse auf: Altes- und Neues Testament, Englisch, Französisch, Nordisch, Orientalisch, Klassisches Altertum, Spätlateinisch, Niederländisch, Italienisch, Spanisch, Schwedisch/Dänisch/Norwegisch, Russisch. </p>
+                <p>Als Vertreter positivistischer Denkrichtung unternimmt Cäsar Flaischlen also den Versuch, die Darstellung der Zeit als Fluss mit den exakten Wissenschaften zu verbinden. Die Tatsache, dass er keine Quellen für die Zusammenstellung seiner Tafel nennt, spricht dafür, dass er den gängigen Kanon abbildet. Im 8-spaltigen Vorwort zur Tafel spielt Flaischlen zwar den Zusammenhang von quantitativem Befund und Visualisierung herunter – so gibt er etwa zu bedenken, dass die Breite des Flusses „nicht mathematisch berechnet” sei, die Platzierung der Autoren folgt jedoch einem gewissen Prinzip: Die Autoren habe er am „Höhepunkt“ ihres Schaffens eingezeichnet.</p>
+                <p>Der Informationsgehalt der „Litteraturtafel“ ist sehr hoch: Auswahl, Platzierung und Größe der beeinflussenden und beeinflussten Autoren ermöglichen die Rekonstruktion von Flaischlens Datengrundlage und lassen Rückschlüsse auf die hierfür verwendeten Quellen zu.</p>
+                <p>So sind etwa in der Tafel Namen von Autoren, kanonischen Texten, literarischen Gruppierungen und literarischen Schulen enthalten. Ferner nutzt Cäsar Flaischlen typographische Gestaltungsmöglichkeiten wie Schriftart, Schriftgröße, Farbwahl und Unterstreichung), Symbole (Kreise in verschiedenen Größen, römische und lateinische Ziffern) und die farbliche Schraffur der (Zu-)Flüsse. Am unteren Rand der Karte ist zwar eine Legende angebracht, diese weist jedoch lediglich die Bedeutung der Schraffur aus (z.B. blau für Einflüsse aus der Englischen Literatur, rot für Einflüsse aus der Französischen Literatur, etc.). Weitere Angaben, insbesondere Erläuterungen zu verwendeten Schriftarten und -größen fehlen jedoch.</p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Technische Umsetzung</head>
+                <p>Das vorgestellte Projekt „Cäsar Flaischlens Graphische Litteratur-Tafel digital“ unternimmt den Versuch eines ‚reverse engineering‘ und erschließt dieses Dokument früher Visualisierung literaturgeschichtlicher Daten mit Methoden der Digital Humanities. </p>
+                <p>Dazu wurden die Koordinaten von angeführten Personen, Texten, literarischen Strömungen und Schulen unter Verwendung des GIMP ImageMap-Editors ermittelt und entsprechend den in den TEI P5 Guidelines (TEI Consortium 2017) definierten Transkriptionskonventionen („Advanced Uses of surface and zone“) erfasst, um die spatiale Dimension (Kodierung von Information über räumliche Anordnung) ebenfalls zugänglich machen zu können. Die Personen- und Werkreferenzen wurden mit den entsprechenden Normdaten (GND, VIAF, wikidata) verknüpft. Das kartographische Inventar der Karte wurde unter Rückgriff auf CSS innerhalb von @style erfasst. Dies ermöglicht nun, neben den textuellen Informationen zusätzlich die typographische Gestaltung des Textes auszuwerten.</p>
+                <p>Die TEI-Daten werden über ein github-repository bereitgestellt und als Webseite aufbereitet. Das Interface fügt die drei separaten Abschnitte von Flaischlens Karte zusammen. In einer Print- Ausgabe wäre der zusammengefügte Fluss beinahe drei Meter lang und somit nur schwer lesbar. Die Web-Version erlaubt über das Scroll-Interface jedoch einen komfortablen Zugang. Die kodierten Informationen sind über Register erschlossen. Ein Prototyp der Edition ist unter http://litteratur-tafel.weltliteratur.net zugänglich.</p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Computergestützte Analyse des kartographischen Inventars (Zwischenergebnisse)</head>
+                <p>Durch eine Analyse des kartographischen Inventars lässt sich das Zeichensystem rekonstruieren, das zudem gängigen kartographischen Konventionen folgt. Beeinflusste und beeinflussende Autoren werden durch Unterstreichung unterschieden. Die Farbe der Unterstreichung entspricht der farblichen Kennzeichnung der Zuflüsse und ordnet somit die Autoren einer der beeinflussenden Nationalliteraturen zu. Durch die Verwendung unterschiedlicher Schriftgrößen wird die „Relevanz“ eines Autors bzw. Textes für die deutsche Literatur zum Ausdruck gebracht. Besonders wichtige deutsche Autoren sind in Konturschrift ausgeführt, vergleichbar der Beschriftung von Städten in Abhängigkeit von ihrer Einwohnerzahl (vgl. Kohlstock 2004: 100). EIne Analyse der Typografie erlaubt es somit, Flaischlens „Verständnis“ der deutschen Literatur zu rekonstruieren.</p>
+                <p>Um die farblich kodierten Informationen der Karte ebenfalls berücksichtigen zu können, wurde ein Zugang über Verfahren aus dem Bereich computergestützter Bildanalyse gewählt. Mittels der Open Source Computer Vision Library (openCV) wurden die Pixel nach Farbbereichen klassifiziert und quantitativ ausgewertet, um die „Einflüsse“ zu messen und ihre Veränderungen im Laufe der Zeit visualisieren zu können. Abbildung 1 zeigt jene Pixel, der Kategorie „rot“ und somit dem französischen Einfluss zugeordnet wurden. </p>
+                <figure>
+                    <graphic n="1001" width="12.100277777777778cm" height="12.100277777777778cm" url="Pictures/image1.png" rend="inline"/>
+                    <head>Abbildung 1: Original und klassifizierte Pixel</head>
+                </figure>
+                <p>Für Abbildung 2 wurde wurden die Pixel nach Jahren gruppiert und als Liniendiagramm visualisiert. Deutlich erkennbar sind Spitzen um 1620, 1665, 1715 und 1800, die sich verschiedenen Epochen der französischen Literaturgeschichte zuordnen lassen: Dem Französischen Klassizismus und der Aufklärung. Der Peak in den 1860er Jahren ist mit dem französischen Naturalismus verbunden.</p>
+                <figure>
+                    <graphic n="1002" width="16.002cm" height="10.287cm" url="Pictures/image2.png" rend="inline"/>
+                    <head>Abbildung 2: Französischer Einfluss auf Basis der Pixelklassifikation</head>
+                </figure>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Ausblick</head>
+                <p>Das Projekt erschließt nicht nur einen inspirierenden Vorläufer gegenwärtiger Versuche von Visualisierung literaturgeschichtlicher Daten mithilfe von ‘Graphen, Karten und Stammbäumen’, sondern erprobt auch auf einer methodologischen Ebene Möglichkeiten und Workflows zur Erschließung und Kodierung älterer graphischer Darstellungen von (Literatur-)geschichte. Darüber hinaus liefert es Impulse für die Arbeit mit der TEI für das Encoding von Bildmaterial, indem die Eignung von primär zur Kodierung von Manuskripten eingesetzten Tags für Grafiken und Diagramme überprüft werden. </p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl>Flaischlen, Cäsar (1890): 
+                        <hi rend="italic">Graphische Litteratur-Tafel. Die deutsche Litteratur und der Einfluß fremder Litteraturen auf ihren Verlauf vom Beginn der schriftlichen Ueberlieferung an bis heute in graphischer Darstellung</hi>. Berlin: Behr's Verlag.
+                    </bibl>
+                    <bibl>Hölter, Achim (2005): „Überlegungen zu Raffaels Parnass-Fresko als Kanonbild“ in: Heimböckel, Dieter / Werlein, Uwe (eds.): 
+                        <hi rend="italic">Der Bildhunger der Literatur. Festschrift für Gunter E. Grimm</hi>. Würzburg 51-68.
+                    </bibl>
+                    <bibl>Hölter, Achim / Schmitz-Emans, Monika (eds.) (2013): 
+                        <hi rend="italic">Literaturgeschichte und Bildmedien.</hi> Heidelberg: Synchron.
+                    </bibl>
+                    <bibl>Kohlstock, Manuel (2004): 
+                        <hi rend="italic">Kartographie. Eine Einführung.</hi> Stuttgart: UTB.
+                    </bibl>
+                    <bibl>Lima, Manuel (2014): 
+                        <hi rend="italic">The Book of Trees. Visualizing Branches of Knowledge</hi>. New York: Princeton Architectural Press.
+                    </bibl>
+                    <bibl>Moretti, Franco (2007): 
+                        <hi rend="italic">Graphs, Maps, Trees. Abstract Models for Literary History</hi>. London, New York: Verso.
+                    </bibl>
+                    <bibl>openCV: 
+                        <hi rend="italic">Open Source Computer Vision Library</hi>. http://opencv.org [letzter Zugriff 24. September 2017].
+                    </bibl>
+                    <bibl>Rosenberg, Daniel / Grafton, Anthony (2010): 
+                        <hi rend="italic">Cartographies of Time</hi>. New York: Princeton Architectural Press.
+                    </bibl>
+                    <bibl>Strass, Friedrich (1803): 
+                        <hi rend="italic">Der Strom Der Zeiten.</hi> http://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~281767~90054624 [letzter Zugriff 24. September 2017].
+                    </bibl>
+                    <bibl>TEI Consortium (2017). 
+                        <hi rend="italic">TEI P5 – Guidelines for Electronic Text Encoding and Interchange. Version 3.2.0.</hi> http://www.tei-c.org/release/doc/tei-p5-doc/en/html/index.html [letzter Zugriff 25. September 2017].
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

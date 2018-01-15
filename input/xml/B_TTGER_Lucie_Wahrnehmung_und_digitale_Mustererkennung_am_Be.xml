@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Wahrnehmung und digitale Mustererkennung am Beispiel antiker Terrakottastatuetten</title>
+                <author>
+                    <persName>
+                        <surname>Böttger</surname>
+                        <forename>Lucie</forename>
+                    </persName>
+                    <affiliation>Georg-August-Universität Göttingen, Deutschland - GCDH/Archäologisches Institut</affiliation>
+                    <email>Lucie.boettger@stud.uni-goettingen.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Zeckey</surname>
+                        <forename>Alexander</forename>
+                    </persName>
+                    <affiliation>Georg-August-Universität Göttingen, Deutschland - GCDH/Archäologisches Institut</affiliation>
+                    <email>alexander.zeckey@stud.uni-goettingen.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Langner</surname>
+                        <forename>Martin</forename>
+                    </persName>
+                    <affiliation>Georg-August-Universität Göttingen, Deutschland - GCDH/Archäologisches Institut</affiliation>
+                    <email>mlangne@gwdg.de</email>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2017-09-25T12:05:00Z</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Prof. Dr. Georg Vogeler</publisher>
+                <address>
+                    <addrLine>UniversitÃ¤t Graz</addrLine>
+                    <addrLine>Zentrum fÃ¼r Informationsmodellierung - Austrian Centre for Digital Humanities</addrLine>
+                    <addrLine>ElisabethstraÃe 59/III</addrLine>
+                    <addrLine>8010 Graz</addrLine>
+                </address>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Converted from a Word document </p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.17">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Vortrag</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>3D-Objekte</term>
+                    <term>Typologie</term>
+                    <term>Wahrnehmung</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Strukturanalyse</term>
+                    <term>Artefakte</term>
+                    <term>3D-Bilder</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>Sowohl die Informatik als auch die Bild- und Objektwissenschaften nutzen für die Klassifizierung von Objekten und der Bestimmung ihres Ähnlichkeitsgrades Klassifizierungsverfahren und Methoden der Mustererkennung. Während allerdings die Informatik darauf abzielt durch Mustervergleich die Klassifizierung unbekannter Objekte zu automatisieren, dienen Typologien in der Archäologie als Ordnungskriterien für soziokulturelle Fragen, um Informationen über Funktion, Bedeutung oder Produktion zu erfahren. </p>
+            <p>Die in der Archäologie angewandten qualitativen Analysen basieren auf einem wissenschaftlichen Konstrukt von Klassifikationskriterien [Adams – Adams 2008]. In Fällen, in denen eine große Anzahl von Artefakten eine ganz ähnliche Form hat, sich aber in gewissen Einzelheiten deutlich unterscheidet, wie bei seriell hergestellten Terrakotta-Figuren, die nachträglich überarbeitet wurden, hat der Begriff der Typologie jedoch seine Grenzen erreicht. In Bezug auf die Wahrnehmung und den Wert der Figuren gibt es zu viele verschiedene Kriterien, die eine Bedeutung tragen. Nur ein statistischer Ansatz, der die Hauptmerkmale in Kombination mit archäologischen Quellen und den intrinsischen ästhetischen Werten (wie Farbe oder Stil) berücksichtigt, kann das Problem lösen.</p>
+            <p>Die Methoden der 3D-Mustererkennung basieren in der Regel auf Konzepten der kognitiven Psychologie zur Objekterkennung. Die Form eines Objektes wird in geometrische Grundelemente zerlegt und statistisch nach Teilen und Teilsegmentierungen analysiert. Maschinelle Lernalgorithmen helfen, diesen Prozess zu automatisieren. Für die Klassifizierung von Artefakten können diese Methoden jedoch nur grobe Näherungswerte liefern. Auf der Grundlage archäologischer Kategorien kann eine rechnerische Merkmalsextraktion bisher nur manuell durch qualitativen Formvergleich durchgeführt werden. Darüber hinaus könnten in Bereichen, in denen archäologische Methoden keine entsprechenden Typologien schaffen konnten, Methoden der digitalen Formerkennung (shape recognition) hilfreich sein, um geeignete archäologische Kategorien zu definieren.</p>
+            <p>Deshalb sollen qualitative und quantitative Klassifizierungsmethoden kombiniert werden, um die Typologie von Artefakten zu überarbeiten und somit Vorarbeit zur Erschließung großer technischer bzw. mentaler Bildcorpora zu leisten. Hier werden die Methoden der Informatik (Objekterkennung und Formvergleich) und Archäologie (Typologie und Kopienkritik) von einander profitieren, um die oben genannten Mängel zu überwinden. </p>
+            <p>Im Vordergrund steht die Frage nach der computergestützten Analysefähigkeit und ihren Grenzen in der Adressierung von Binnenstrukturen sowie der Möglichkeit, neuartige Analyseverfahren zu entwickeln.</p>
+            <p>Als Materialgrundlage dienen die kleinformatigen, seriell aus Modeln genommenen Tonfiguren. [Burn 2012; Erlich 2015]. Diese bieten sich für Fragen der Klassifizierung zum einen aufgrund ihrer hoch überlieferten Anzahl, zum anderen wegen ihrer großen Formenvarianz an. </p>
+            <p>Die antiken Terrakotten weisen untereinander verschiedene, vom Archäologen präzis definierbare Grade der Ähnlichkeit auf: So existieren die aus derselben Matrize genommenen Figuren, die eine exakte Übereinstimmung verbindet, die aus denselben Patrizen gewonnenen Figuren, die sich nur in der Größe von ihren ansonst genauen Ebenbildern unterscheiden und die ebenfalls aus derselben Matrize genommenen Figuren, die aber nachträglich noch durch zusätzliche Additionen und Abänderungen ein verändertes Erscheinungsbild aufweisen. Zudem die Terrakotten, die nicht derselben Matrize entstammen, sich aber in Haltung und Drapierung der Tracht untereinander ähneln. Zwar kann man auf der handwerklichen Ebene konstatieren, dass zwei Terrakotten aus derselben Produktion stammen, ist dies aber nicht der Fall, fehlen bislang geeignete Kriterien zur Bestimmung der Ähnlichkeit und ihrer Abstufungen.</p>
+            <p>Grundlage einer Interpretation ist in der Archäologie die visuelle Beschaffenheit der Artefakte. Ein Großteil dieser Eigenschaften wie Größe, Form, Farbe oder Material lässt sich genau vermessen, somit verbal erfassen und dient vielen Digitalen Corpora der Klassischen Archäologie als Schlagworte zur Einordnung der Artefakte – eine zeit- und resourcenaufwändige Methode.</p>
+            <p>Ein dem Textmining vergleichbares Objectmining ist in der Klassischen Archäologie bislang noch nicht erprobt. Hier setzt unser Projekt an, das sowohl anwendungsbezogen als auch methodenreflektierend vorgehen möchte, denn es sollen sowohl Verfahren der automatisierten Corpusbildung durch 3D-Mustererkennung entwickelt werden als auch die damit verbundenen Schematisierungen und ihr wissenschaftlicher Nutzen reflektiert werden. In mehreren Schritten werden die Ergebnisse wiederholt evaluiert und die Verfahren feiner kalibriert. Eine systematische Untersuchung formaler Elemente könnte als Schlüssel zur Entwicklung eines Konzepts der Materialisierung von Wissen und Anschauung dienen. </p>
+            <p>Drei zentrale Leitfragen haben sich bisher herauskristallisiert: </p>
+            <p>Lassen sich Figurentypen mit digitalen Methoden der Musterkennung nonverbal erfassen und in welcher Exaktheit? </p>
+            <p>In welchem Umfang ist sprachlogische Begrifflichkeit zur sinnvollen Ausdifferenzierung der Typen notwendig? </p>
+            <p>Sind die von der archäologischen Stilforschung entwickelten Kategorien zur Beschreibung von Typen auch für digitale Verfahren nutzbar oder müssen an ihre Stelle neue diakritische Verfahren treten?</p>
+            <p>Ende des 19. Jhs. erstellte Franz Winter einen Katalog antiker Terrakotten, der ihre „Typen“ möglichst vollständig erfassen sollte [Winter 1903]. Seine Materialanordnung kann als frühe Form der archäologischen Mustererkennung gelten, denn er präsentierte die “Typen” in vereinfachten Umzeichnungen. Für eine weitreichende Erforschung der Terrakotten reichte dies jedoch kaum aus, denn die von Winter erstellten „Typen“ sind weder betitelt noch verbal definiert. Unter diesen somit alleinig durch die Zeichnung definierten „Figurentypen“ subsumierte er vermeintliche Wiederholungen, die keineswegs Typen im Sinne der bereits damals in der Skulpturenforschung etablierten Terminologie und schon gar nicht Terrakotten aus derselben Werkstatt oder gar Form bezeichneten [Heilmeyer 2008; Anguissola 2015]. Zudem wurden Abweichungen vom angezeigten „Typus“ zwar in wenigen Fällen erwähnt, es wurde allerdings nie auf den genauen Ähnlichkeitsgrad der zusammengefassten Terrakotten eingegangen. </p>
+            <p>Aufgrund dieser evidenten Schwächen wurde kein vergleichbarer Versuch unternommen, die Gesamtheit der antiken Terrakotten in Typen zu unterteilen. Deshalb hat sich die archäologische Forschung den Fundkontexten der Terrakotten [Rotroff 1987; Graepler 1997; Rumscheid 2006] oder semiotischen Ansätzen [Haase 2003] zugewandt. Erst unter Einfluss der Material Culture Studies kehrte die archäologische Forschung zur morphologischen und ästhetischen Wirkung der Figurinen zurück [Bailey 2005; Lesure 2011]. Dieser Ansatz erscheint vielversprechend, vor allem, wenn der methodische Rahmen der Material Culture Studies [Berger 2009; Malafouris – Renfrew 2010; Gerritsen –  Riello 2015] mit einer Überprüfung von Konzepten zur Typologie kombiniert wird [Koortbojian 2002; Mattusch 2015]. </p>
+            <p>In diesem Projekt wird der Versuch Winters aufgegriffen eine „Typologie“ der Terrakotten zu erstellen. Um den Typus einer Figur besser klassifizieren zu können, wurde sie in die drei Ebenen Haltung, Gewanddrapierung und Oberflächengestaltung untergliedert. Für diese wurden erste vereinfachte Schemata erstellt. </p>
+            <p>Eine ökonomische Massendigitalisierung von 3D-Artefakten stellt weiterhin ein ungelöstes Problem dar. Obwohl die semantische Anreicherung von 3D-Daten anspruchsvoll ist, sind Methoden zur Verwendung der Geometrie der 3D-Form für das Data Mining ein aktives Forschungsgebiet [De Luca et al. 2014; Aggarwal 2015]. Verschiedene Verfahren der 3D-Object-Recognition sind seit vielen Jahren bekannt: CAD-Modelle, datengesteuerte geometrische Grundelemente, Oberflächen-Klassifizierung auf Grundlage des Gaußschen Image [Amann 1990; Taylor – Kleeman 2006] und digitaler Bildvergleich [Hueting et al. 2015]. Sie basieren meistens darauf, Grundformen automatisch aus Bereichsdaten zu extrahieren und bekannten Mustern zuzuweisen, um unbekannte Objekte zu klassifizieren. Die Formanalyse wird in der Regel statistisch durchgeführt [Dryden – Mardia 1998]. Statistische Werte, die geometrische Eigenschaften ähnlicher Formen beschreiben, werden mit der Hauptkomponentenanalyse (PCA) [Jolliffe 2002] ausgewertet, um die Formvariabilität zu analysieren. Darüber hinaus sind aber auch partielle Formanpassungsmethoden weit verbreitet [Funkhouser – Shilane 2006] Daneben läuft ein Umrissvergleich eines oder mehrerer Scheiben des 3D-Modells [Tal 2014] und mit bildbasierten 3D-Rekonstruktionsansätzen und formalisierten Grundelementen, um eine Elementbibliothek durch die einfache Deklaration einer Sequenz von Formteilen zu erzeugen [De Luca et al. 2014]. Im Allgemeinen ist es viel einfacher, die Form eines konzentrischen Feststoffs abzurufen als die einer komplexen Struktur. Die verfügbaren Methoden und Technologien bieten keine endgültige Lösung für diese. So entstehen Forschungsfragen in der inhaltsbasierten 3D-Objekt-Retrieval-Adressenabfrage und -klassifizierung auf texturierten 3D-Modellen, Bereichs-Scans-basierte 3D-Formwiedergewinnung, Formabfrage auf nicht starren 3D-Wasserdicht-Meshes, umfangreiches 3D-Formular-Retrieval und 3D-Objekt-Retrieval mit multimodalen Ansichten. Diese verschiedenen algorithmenbasierten Ansätze klassifizieren 3D-Modelle nur in Form von Grundinstanzen (wie Frau, Hund, Becher usw.).</p>
+            <p>Eine schnelle Teilzerlegung in einfache geometrische Formen ist daher unzureichend. Vielmehr müssen geeignete Mustererkennungsverfahren entwickelt werden, die den Grad der Simplifizierung und Abstraktion an menschliche recognition and dissemination patterns knüpft und so die Klassifikation unbekannter Objekte schrittweise evaluiert und kalibriert. </p>
+            <p>Zur automatisierten Erfassung von Artefakten kamen diese Methoden bislang kaum zum Einsatz, obwohl Experimente mit Kurvenerkennung und Entlastungserkennung bereits mit archäologischen Artefakten durchgeführt wurden [Tal 2014]. Die Ursache liegt zum einen darin, dass keine hinreichende Zahl an Bildwerken als 3D-Modell vorliegt, um diese Verfahren in signifikantem Ausmaß auf ihre Anwendbarkeit zu überprüfen. Zum anderen stellen Kunstwerke (anders als z.B. Bauteile) wegen ihrer hohen Variabilität eine große Herausforderung an jede computergestützte Klassifikation dar. Die Zuordnung einer spezifischen Instanz zu einer allgemeineren Klasse fällt hier weitaus schwerer, da sie sich untereinander in ihrer Form, Größe und Farbe erheblich unterscheiden können. </p>
+            <p>Daher wurde ein einfacher rechnerischer Formvergleich für "best fit" von Archäologen verwendet, um die Ähnlichkeit von zwei Artefakten zu analysieren [z.B. Beenhouwer 2008]. Best-Fit-Prozesse sind in Engineering und ähnlichen Branchen etabliert und es gibt zahlreiche Software-Lösungen. Diese Tests sind eher qualitativ als quantitativ und wurden bereits für die Toleranz basierte Pass/Fail Shape Analysis antiker Skulptur verwendet [z.B. Www.digitalsculpture.org/laocoon/index.html; Lu et al. 2013; Frischer 2014].</p>
+            <p>Infolgedessen reicht es nicht aus, die Modelle in einfache geometrische Formen zu zerlegen. Ein vielversprechender Ansatz für Formerkennungsverfahren wird derzeit anhand der neu erstellten Terrakotta-Schemata unter Verwendung verschiedener Verfahren der shape comparison im Bereich 2/3D und machine learning entwickelt und evaluiert. Ziel ist es den Grad der Vereinfachung und Abstraktion nicht nur mit den menschlichen Erkennungs- und Verbreitungsmustern zu verknüpfen, um die unbekannten Objekte inkrementell zu bewerten und zu klassifizieren, sondern auch die in der Archäologie und Kunstgeschichte entwickelten Kategorisierungen zu verwenden. Die 3D-Mustererkennung der Hauptkomponenten (Form, Größe und Farbe) muss daher mit archäologischer Subkategorisierung und geeigneten Formen des maschinellen Lernens einhergehen [Bishop 2006].</p>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl>Bibliographie</bibl>
+                    <bibl>W. Adams – E. Adams, Archaeological typology and practical reality. A dialectic approach to </bibl>
+                    <bibl>artifact classification and sorting (Cambridge 2008)</bibl>
+                    <bibl>C. Aggarwal, Data Mining: The Textbook. Heidelberg: Springer comprehensively discusses a </bibl>
+                    <bibl>wide variety of methods (Cham 2015)</bibl>
+                    <bibl>H. Amann, 3D object recognition based on surface representations (Neuchâtel 1990)</bibl>
+                    <bibl>A. Anguissola, Styles and genres. "Idealplastik" and the relationship between Greek and </bibl>
+                    <bibl>Roman sculpture. In: E. A. Friedland, M. Grunow Sobocinski, and E. K. Gazda (Hrsg.), The Oxford handbook of Roman sculpture (Oxford 2015) 240-259</bibl>
+                    <bibl>D. Bailey, Prehistoric Figurines: Representation and Corporeality in the Neolithic (London </bibl>
+                    <bibl>2005) Routledge</bibl>
+                    <bibl>J. de Beenhouwer, Datamanagement for moulded ceramics and digital image </bibl>
+                    <bibl>comparison. A case study of Roman terra cotta figurines. In: Layers of Perception. Proceedings of the 35th International Conference on Computer Applications and Quantitative Methods in Archaeology (CAA), Berlin, Germany, April 2-6, 2007 (Bonn 2008) 160- 163</bibl>
+                    <bibl>A. Berger, What objects mean. An introduction to material culture (Walnut Creek 2009)</bibl>
+                    <bibl>C. Bishop, Pattern Recognition and Machine Learning (Berlin 2006)</bibl>
+                    <bibl>L. Burn, Terracottas. In: T. J. Smith and D. Plantzos (Hrsg.). A companion to Greek art </bibl>
+                    <bibl>(Malden, Mass. 2012) 221-234</bibl>
+                    <bibl>L. De Luca, D. Lo Buglio, Geometry vs Semantics. Open Issues on 3D Reconstruction of </bibl>
+                    <bibl>Architectural Elements, In: Ioannides M. and E. Quak (Hrsg.), 3D Research Challenges in Cultural Heritage. A Roadmap in Digital Heritage Preservation (Heidelberg / New York 2014) 36-49 </bibl>
+                    <bibl>I. Dryden – K. Mardia, Statistical Shape Analysis (New York 1998) </bibl>
+                    <bibl>A. Erlich, Terracottas. In: E. A. Friedland, M. G. Sobocinski with E. K. Gazda (Hrsg.), The </bibl>
+                    <bibl>Oxford handbook of Roman sculpture (Oxford 2015) 155-172</bibl>
+                    <bibl>B. Frischer, 3D data capture, restoration and online publication of sculpture. In: F. </bibl>
+                    <bibl>Remondino and S. Campana (Hrsg.). 3D Recording and Modelling in Archaeology and Cultural Heritage (Oxford 2014) 137–144</bibl>
+                    <bibl>T. Funkhouser – P. Shilane. 2006. Partial matching of 3d shapes with priority-driven search, </bibl>
+                    <bibl>In: Proceedings of the fourth Eurographics symposium on Geometry processing, ser. SGP ’06 (Aire-la-Ville 2006) 131–142</bibl>
+                    <bibl>A. Gerritsen – G. Riello (Hrsg.), Writing material culture history (London 2015)</bibl>
+                    <bibl>D. Graepler, Tonfiguren im Grab : Fundkontexte hellenistischer Terrakotten aus der </bibl>
+                    <bibl>Nekropole von Tarent (München 1997)</bibl>
+                    <bibl>M. Haase, Votivbilder als Werbemedien? Votivterrakotten aus Gravisca als Zeichenträger in </bibl>
+                    <bibl>Prozessen symbolischer Interaktion. In: U. Veit, T. L. Kienlin, C. Kümmel et al. (Hrsg.). Spuren und Botschaften. Interpretationen materieller Kultur (New York 2003) 369-383</bibl>
+                    <bibl>W. Heilmeyer, Kunst und Serie. In: K. Junker, A. Stähli and C. Kunze (Hrsg.), Original und </bibl>
+                    <bibl>Kopie. Formen und Konzepte der Nachahmung in der antiken Kunst. Akten des Kolloquiums in Berlin, 17. - 19. Februar 2005 (Wiesbaden 2008) 243-251</bibl>
+                    <bibl>M. Hueting – M. Ovsjanikov – N. J. Mitra, CrossLink. joint understanding of image and 3D </bibl>
+                    <bibl>model collections through shape and camera pose variations. ACM Transactions on Graphics (TOG) 34(6), (New York 2015) 233</bibl>
+                    <bibl>I. Jolliffe, Principal Component Analysis, 2nd ed. (Heidelberg 2002)</bibl>
+                    <bibl>M. Koortbojian, Forms of attention. Four notes on replication and variation. In: E. K. Gazda </bibl>
+                    <bibl>(Hrsg.), The ancient art of emulation. Studies in artistic originality and tradition from </bibl>
+                    <bibl>the present to classical antiquity (Ann Arbor 2002) 173-204</bibl>
+                    <bibl>R. Lesure, Interpreting Ancient Figurines: Context, Comparison, and Prehistoric Art </bibl>
+                    <bibl>(Cambridge 2011)</bibl>
+                    <bibl>M. Lu – Y. Zhang – B. Zheng et al. 2013. Portrait sculptures of Augustus: Categorization via </bibl>
+                    <bibl>local shape comparison. In: 2013 Digital Heritage International Congress (Marseille 2013)</bibl>
+                    <bibl>L. Malafouris – C. Renfrew (Hrsg.), The cognitive life of things. Recasting the </bibl>
+                    <bibl>boundaries of the mind (Cambridge 2010) </bibl>
+                    <bibl>C. Mattusch, 2015. Repeated images. Beauty with economy. In: J. Daehner – K. Lapatin </bibl>
+                    <bibl>(Hrsg.), Power and pathos. Bronze sculpture of the hellenistic world. Exhibition from March 14 to June 21, 2015 (Los Angeles 2015) 111-125</bibl>
+                    <bibl>S. Rotroff, Three centuries of hellenistic terracottas. Preface. A chronological commentary on </bibl>
+                    <bibl>the contexts. In: H. A. Thompson and D. B. Thompson (Hrsg.). Hellenistic pottery and terracottas (Princeton 1987) 183-194</bibl>
+                    <bibl>F. Rumscheid, Die hellenistischen Wohnhäuser von Priene. Befunde, Funde und </bibl>
+                    <bibl>Raumfunktionen, in: Annete Haug – Dirk Steuernagel (Hrsg.), Hellenistische Häuser und ihre Funktionen. Internationale Tagung Kiel, 4. bis 6. April 2013 (Bonn 2014) 143–160</bibl>
+                    <bibl>A. Tal, 3D Shape Analysis for Archaeology. In: Ioannides M. and E. Quak (Hrsg.). 3D </bibl>
+                    <bibl>Research Challenges in Cultural Heritage. A Roadmap in Digital Heritage Preservation (Heidelberg / New York 2014) 50-63</bibl>
+                    <bibl>G. Taylor – L. Kleeman, Visual Perception and Robotic Manipulation: 3D Object </bibl>
+                    <bibl>Recognition, Tracking and Hand-Eye Coordination (Heidelberg 2006) </bibl>
+                    <bibl>F. Winter, Die Typen der figürlichen Terrakotten, Die antiken Terrakotten III (Berlin 1903) </bibl>
+                    <bibl>(
+                        <hi rend="color(0000FF)">http://digi.ub.uni-heidelberg.de/diglit/winter1903</hi>)
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Von Drupal 8 zur virtuellen Forschungsumgebung - Der WissKI-Ansatz</title>
+                <author>
+                    <persName>
+                        <surname>Fichtner</surname>
+                        <forename>Mark</forename>
+                    </persName>
+                    <affiliation>Germanisches Nationalmuseum, Deutschland</affiliation>
+                    <email>m.fichtner@wiss-ki.eu</email>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2018-01-12T08:42:00Z</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Prof. Dr. Georg Vogeler</publisher>
+                <address>
+                    <addrLine>UniversitÃ¤t Graz</addrLine>
+                    <addrLine>Zentrum fÃ¼r Informationsmodellierung - Austrian Centre for Digital Humanities</addrLine>
+                    <addrLine>ElisabethstraÃe 59/III</addrLine>
+                    <addrLine>8010 Graz</addrLine>
+                </address>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Converted from a Word document </p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.17">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Vortrag</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>WissKI</term>
+                    <term>CIDOC CRM</term>
+                    <term>Ontologie</term>
+                    <term>OWL DL</term>
+                    <term>Drupal</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Modellierung</term>
+                    <term>Kollaboration</term>
+                    <term>Organisation</term>
+                    <term>Visualisierung</term>
+                    <term>Metadaten</term>
+                    <term>virtuelle Forschungsumgebungen</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>Im Rahmen des von der DFG finanzierten Projekts “WissKI” entstand in zwei Projektphasen eine digitale Forschungsumgebung für die Anwendung im Bereich der Digital Humanities. Mit dem Ende der zweiten Projektphase 2017 wurde die Forschungsumgebung grundlegend aktualisiert und setzt nun auf das Open Source Content Management System Drupal 8 auf. Damit ging eine Aktualisierung der gesamten zugrundeliegenden Frameworks und Technologien (php 7, SPARQL 1.1) einher. Die aktuelle Version der Forschungsumgebung steht nun der wissenschaftlichen Öffentlichkeit als Open Source zur freien Verfügung.</p>
+            <p>Auch die aktuelle Fassung der Software setzt auf die bewährten Kernaspekte: Die Datenerfassung und -haltung in WissKI wird zentral bestimmt durch die semantischen Zusammenhänge zwischen einzelnen Fakten und Datensätzen. Dies wird durch umfassende Unterstützung aktueller Semantic Web Technologien erreicht. Die Einordnung und Speicherung der erhobenen Daten erfolgt auf Grundlage einer Domänenontologie, deren Konzepte und Relationen - zu sogenannten Pfaden verbunden - als Vorlage für die Masken und Felder im System dienen. Auf Basis dieser Technologie werden solitär erscheinende Daten zu einem gemeinsamen, semantischen Netzwerk verbunden und damit die unmittelbare Sichtbarkeit weiterer, tiefergehender Zusammenhänge ermöglicht. Hierdurch werden intuitiv Zusammenhänge in den Daten sichtbar, die sich für den Nutzer als Mehrwert anbieten. Das Webbasierte Systemdesign und der dadurch ermöglichte Zugriff über das Internet, die Anbindung von externen kuratierten Datenquellen (sog. Authority Files) und die Möglichkeit zur Bereitstellung ausgewählter Daten über gängige Online-Schnittstellen (Web-Frontend, SPARQL-Endpoint, ...) betonen den Semantic-Web-Gedanken hinter der Infrastruktur. Die Speicherung der Daten erfolgt in einem TripleStore, der die eingegebenen Fakten in einer Subjekt-Prädikat-Objekt-Satzform ablegt. Die Aneinanderreihung der hier verwendeten Prädikate zu Pfaden erfolgt im Kern des Systems, dem sogenannten Pathbuilder, mit dem die semantische Bedeutung der einzelnen Einträge in Bezug auf das beschriebene Objekt (auch Person, Ort o. Ä.) anhand der Ontologie festgelegt wird. Die Eingabe der Daten erfolgt über eine, mit den gängigen Datenbankoberflächen vergleichbare, Editier-Oberfläche. Sie ist aus Feldern aufgebaut, die wiederum je einem bestimmten Feldtyp zugeordnet sind. Feldtypen bestimmen die Ein- und Ausgabemodalitäten der Daten.</p>
+            <p>Dabei verzichtet die Software nicht auf die aus dem Bereich der Content Management Systeme bekannten Funktionalitäten wie z. B. die Generierung von Websites, Foren, Wikis oder auch die detaillierte Verwaltung der Nutzer und ihrer Zugriffsrechte. Inzwischen ist die Software in verschiedenen Forschungsprojekten an unterschiedlichen, namhaften Institutionen im kunst- und kulturhistorischen, sowie biologischen und technischen Bereich erfolgreich im Einsatz. Als Domänenontologie im Museums- und Sammlungsbetrieb kommen individuelle Erweiterungen des “Conceptual Reference Model” des Comité international pour la documentation zum Einsatz (CIDOC-CRM: ISO 21127), dessen Umsetzung in der Web-Ontology-Language OWL ebenfalls vom Projekt besorgt wurde und über die Website http://erlangen-crm.org frei zur Verfügung steht. </p>
+            <p>Das Poster stellt den aktuellen Stand der WissKI-Software nach Vollendung der beiden Projektphasen dar. Neben dem bewährten Modell der Anpassung der Software durch die beiden am DFG-Projekt beteiligten Museen und der Friedrich-Alexander-Universität Erlangen-Nürnberg unterstützt die Interessengemeinschaft für semantische Datenverarbeitung e.V. (http://www.igsd-ev.de/) die gemeinnützigen Aspekte der Software weiter. Darüber hinaus werden bewusst auch Dritte zum Einsatz und zur Anpassung von WissKI eingeladen. Daraus resultierte im vergangenen Jahr der zahlreiche Einsatz der Software in Forschungsprojekten z.B. in Kooperation mit der Landesstelle der Nichtstaatlichen Museen in Bayern oder dem Zentralinstitut für Kunstgeschichte. Das System stellte v.a. durch die Nutzung aller Drupal-Basis-Funktionalitäten wie z.B. „Views“ seine Stärken unter Beweis. So können neben den altbewährten Textfeldern und -bereichen und Bildern (incl. Zoomviewer für sehr hochauflösende Bilder) auch interaktive Landkarten, 3D-Animationen, Zeitstrahlen und alle denkbaren Medientypen, sowohl zur direkten Ansicht als auch zum Download als Funktionalität genutzt werden. Zusätzlich zu diesen gängigen Formaten ermöglicht die Standardkonformität von WissKI-D8 auch die Einbindung anderer, gängiger Feldtypmodule, die für Drupal 8 zur Verfügung stehen. Zu den erwähnten Erleichterungen zählt ebenso ein Update des System-Kerns, dem Pathbuilder, mit dem die Pfadschablonen durch die Domänenontologie auf einer graphischen Oberfläche ausgewählt bzw. erzeugt werden können. Daneben wird eine umfassende Bibliothek mit Musterontologien, -masken und -pfaden bereitgestellt, die die Einstiegshürde für Erstbenutzer minimal zu halten.</p>
+        </body>
+    </text>
+</TEI>

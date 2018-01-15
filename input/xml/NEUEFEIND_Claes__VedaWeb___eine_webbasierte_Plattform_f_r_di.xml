@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="full">
+                    <title type="main"> VedaWeb – eine webbasierte Plattform für die Erforschung altindischer Texte</title>
+                    <title type="sub"/>
+                </title>
+                <author>
+                    <persName>
+                        <surname>Reinöhl</surname>
+                        <forename>Uta</forename>
+                    </persName>
+                    <affiliation>Universität zu Köln</affiliation>
+                    <email>uta.reinoehl@uni-koeln.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Kölligan</surname>
+                        <forename>Daniel</forename>
+                    </persName>
+                    <affiliation>Universität zu Köln</affiliation>
+                    <email>d.koelligan@uni-koeln.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Kiss</surname>
+                        <forename>Börge</forename>
+                    </persName>
+                    <affiliation>Universität zu Köln</affiliation>
+                    <email>kiss@mailbox.org</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Mondaca</surname>
+                        <forename>Francisco</forename>
+                    </persName>
+                    <affiliation>Universität zu Köln</affiliation>
+                    <email>f.mondaca@uni-koeln.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Neuefeind</surname>
+                        <forename>Claes</forename>
+                    </persName>
+                    <affiliation>Universität zu Köln</affiliation>
+                    <email>c.neuefeind@uni-koeln.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Sahle</surname>
+                        <forename>Patrick</forename>
+                    </persName>
+                    <affiliation>Universität zu Köln</affiliation>
+                    <email>sahle@uni-koeln.de</email>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2018-01-14T20:43:49</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Prof. Dr. Georg Vogeler</publisher>
+                <address>
+                    <addrLine>UniversitÃ¤t Graz</addrLine>
+                    <addrLine>Zentrum fÃ¼r Informationsmodellierung - Austrian Centre for Digital Humanities</addrLine>
+                    <addrLine>ElisabethstraÃe 59/III</addrLine>
+                    <addrLine>8010 Graz</addrLine>
+                </address>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Converted from an OASIS Open Document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.17">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Poster</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Sanskrit</term>
+                    <term>Indogermanistik</term>
+                    <term>virtuelle Forschungsumgebungen</term>
+                    <term>Annotation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Annotieren</term>
+                    <term>Veröffentlichung</term>
+                    <term>Webentwicklung</term>
+                    <term>Sprache</term>
+                    <term>Text</term>
+                    <term>virtuelle Forschungsumgebungen</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="div1" rend="DH-Heading">
+                <head>Einleitung</head>
+                <p>Das hier beschriebene Poster thematisiert den technischen Entwurf und den funktionalen Aufbau von 
+                    <hi rend="italic">VedaWeb</hi>, einer webbasierten Plattform für die sprachwissenschaftliche Erforschung altindischer Texte (siehe 
+                    <ref target="http://vedaweb.uni-koeln.de/">http://vedaweb.uni-koeln.de</ref>). Das 2017 begonnene Vorhaben wird als Kooperationsprojekt an der Universität zu Köln durchgeführt, in enger Zusammenarbeit zwischen Fachwissenschaftlern des Instituts für Linguistik (Allgemeine Sprachwissenschaft, Historisch-Vergleichende Sprachwissenschaft und Sprachliche Informationsverarbeitung) sowie des Cologne Center for eHumanities (CCeH). Das Projekt wird von der Deutschen Forschungsgemeinschaft (DFG) in der LIS-Förderlinie „eResearch-Technologien“ gefördert. 
+                </p>
+                <p>Über die 
+                    <hi rend="italic">VedaWeb</hi>-Plattform werden altindische, in Sanskrit verfasste Texte morphologisch und metrisch annotiert, sowie nach lexikographischen und korpuslinguistischen Kriterien durchsuchbar zur Verfügung gestellt. Als Pilottext dient zunächst der 
+                    <hi rend="italic">Rigveda</hi>, einer der ältesten und wichtigsten Texte der indogermanischen Sprachfamilie. Der 
+                    <hi rend="italic">Rigveda</hi> ist in der ältesten Sprachform des Altindischen, dem Vedischen, verfasst. Seine Entstehung kann auf das späte zweite Jahrtausend v. Chr. datiert werden. Mit einem Umfang größer als Homers 
+                    <hi rend="italic">Ilias</hi> und 
+                    <hi rend="italic">Odyssee</hi> zusammen stellt er eine überaus reiche Datengrundlage dar. Perspektivisch sollen auch weitere Texte wie etwa der 
+                    <hi rend="italic">Atharvaveda</hi>, 
+                    <hi rend="italic">Yajurveda</hi> und vedische Prosatexte in die 
+                    <hi rend="italic">VedaWeb</hi>-Plattform integriert werden. Das Projekt wird Forschungen in allen Bereichen des Vedischen erleichtern und voranbringen, beispielsweise in Bezug auf Fragestellungen der Syntax (siehe z.B. zu referentiellen Null-Objekten Keydana/Luraghi 2012, zu Nicht-Konfigurationalität Reinöhl 2016), der Morphologie (siehe z.B. zum vedischen vr̥kī-Typus Widmer 2007, zu ya-Präsentien Kulikov, 2012) oder der Wortbildung (siehe z.B. zu Komposita Scarlata/Widmer 2015). Es wird angestrebt, die 
+                    <hi rend="italic">VedaWeb-</hi>Plattform längerfristig zur zentralen Anlaufstelle für die internationale Fachgemeinschaft, die mit altindischen Primärtexten arbeitet, auszubauen, um den in Köln bestehenden Schwerpunkt auf südasiatische Sprachen weiter zu stärken. 
+                </p>
+            </div>
+            <div type="div1" rend="DH-Heading">
+                <head>Projektziele</head>
+                <p>Ausgangspunkt und Grundlage des Projekts ist eine vollständige morphologische (d.h. wortstrukturelle) Annotation des 
+                    <hi rend="italic">Rigveda</hi>, die im Vorfeld an der Universität Zürich durchgeführt und dem Projekt zur Verfügung gestellt wurde. Hinzu kommen metrische Informationen (Kevin Ryan, Harvard University, siehe 
+                    <ptr target="http://www.meluhha.com/rv/"/>) sowie perspektivisch auch syntaktische Informationen aus verschiedenen abgeschlossenen und andauernden Forschungsprojekten als weitere Annotationsebenen. Anhand dieser Annotationen werden im Projekt verschiedene Recherche- und Analysewerkzeuge entwickelt und sukzessive in die 
+                    <hi rend="italic">VedaWeb</hi>-Plattform integriert. Hierzu gehören eine kombinierte Suchfunktion nach linguistischen Parametern (u.a. Lemmata, Wortformen, morphologische und metrische Informationen), die Verknüpfung mit dem Standardwörterbuch zum 
+                    <hi rend="italic">Rigveda</hi> von Hermann Grassmann (1873), die Anzeige von Übersetzungen (u.a. Grassmann 1876, Geldner 2003, Griffith 1896) und von Kommentaren (Oldenberg 1909/1912), sowie die Möglichkeit des Exports von annotierten Textabschnitten nach vom Nutzer gewählten Kriterien. 
+                </p>
+                <p>Von zentraler Bedeutung ist die Verknüpfung des 
+                    <hi rend="italic">Rigveda</hi> mit der am CCeH angesiedelten Portalseite für Sanskritwörterbücher (
+                    <hi rend="italic">Cologne Digital Sanskrit Dictionaries</hi>, siehe 
+                    <ref target="http://www.sanskrit-lexicon.uni-koeln.de/">http://www.sanskrit-lexicon.uni-koeln.de</ref>), einer zentralen Anlaufstelle für die internationale Sanskritforschung. Auf Basis einer Modellierung der Daten in TEI werden die Wortformen über die jeweiligen Lemmata mit dem digital erfassten Wörterbuch von Grassmann verknüpft, so dass sowohl vom Text auf das Wörterbuch verwiesen wird als auch umgekehrt vom Wörterbuch aus Textstellen aufgesucht werden können. Auf diese Weise kann über das Lemma gleichzeitig auch eine Verknüpfung zu den weiteren Sanskrit-Wörterbüchern hergestellt werden, etwa um vergleichende, wörterbuchübergreifende Recherchen zu ermöglichen. In der direkten Verknüpfung von Text und Wörterbuch und der damit verbundenen Erweiterung der Analysemöglichkeiten besteht das wesentliche Alleinstellungsmerkmal des Projekts gegenüber bestehenden Ressourcen des Altindischen wie z.B. dem 
+                    <hi rend="italic">Thesaurus Indogermanischer Text- und Sprachmaterialien</hi> (TITUS, siehe 
+                    <ref target="http://titus.uni-frankfurt.de/">http://titus.uni-frankfurt.de</ref>).
+                </p>
+            </div>
+            <div type="div1" rend="DH-Heading">
+                <head>Technische Aspekte</head>
+                <p>Der Schwerpunkt des Posters liegt auf der Präsentation des Systementwurfs der 
+                    <hi rend="italic">VedaWeb</hi>-Plattform sowie der dort eingesetzten Technologien. Dies umfasst zum einen eine Beschreibung der funktionalen Elemente der Nutzerschnittstelle, die dem Anwender als Forschungsumgebung dient, indem sie verschiedene Werkzeuge bereitstellt (z.B. Suche, Verlinkung, Export in TEI-Format). Zum anderen werden die Systemarchitektur und die für deren Umsetzung verwendeten Technologien thematisiert. Die 
+                    <hi rend="italic">VedaWeb-</hi>Plattform wird als Webanwendung auf Basis des 
+                    <hi rend="italic">Spring-Frameworks</hi> umgesetzt (siehe 
+                    <ref target="https://spring.io/">https://spring.io</ref>). Durch dessen weite Verbreitung und den großen Funktionsumfang sind sowohl die langfristige Wartbarkeit als auch zahlreiche Möglichkeiten zur späteren Erweiterung der Plattform gewährleistet. Für die Umsetzung der Suchlogik wurde zunächst der Einsatz von etablierten, auf 
+                    <hi rend="italic">Lucene</hi> (siehe 
+                    <ref target="http://lucene.apache.org/">http://lucene.apache.org</ref>) aufbauenden Such-Servern wie 
+                    <hi rend="italic">Solr </hi>oder 
+                    <hi rend="italic">Elasticsearch</hi> geprüft, jedoch wieder verworfen, da ihre Stärken v.a. im Durchsuchen sehr umfangreicher, dabei aber verhältnismäßig einfach strukturierter Textsammlungen liegen. Die 
+                    <hi rend="italic">VedaWeb</hi>-Suche hingegen soll mittels komplexer, kombinierbarer Suchkriterien über die reine Volltextsuche hinaus auch linguistisch motivierte Suchanfragen auf Grundlage der verschiedenen Annotationsebenen zulassen. Anstelle der genannten Such-Server wird deshalb eine eigene, auf den gegebenen Anwendungsfall zugeschnittene Suchlogik direkt mit 
+                    <hi rend="italic">Lucene</hi> implementiert. Das Frontend wird unter Verwendung einer Template Engine (
+                    <hi rend="italic">Thymeleaf,</hi> siehe 
+                    <ref target="http://www.thymeleaf.org/">http://www.thymeleaf.org</ref>) und Client-seitigen JavaScript-Technologien umgesetzt, um eine möglichst flexible und effiziente Arbeitsweise zu ermöglichen. Mit der Fokussierung auf den Systementwurf möchten wir mit dem Poster vor allem einen kompakten Überblick über die Nutzungsmöglichkeiten sowie über die technische Funktionsweise der VedaWeb-Plattform geben.
+                </p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl>
+                        <hi rend="bold">Geldner, Karl Friedrich</hi> (2003)[1951-57]: 
+                        <hi rend="italic">Der Rig-Veda. Aus dem Sanskrit ins Deutsche übersetzt und mit einem laufenden Kommentar versehen von Karl Friedrich Geldner</hi>. Cambridge (Mass.): Harvard University Press.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Grassmann, Hermann</hi> (1873): 
+                        <hi rend="italic">Wörterbuch zum Rig-veda</hi>. Wiesbaden, O. Harrassowitz.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Grassmann, Hermann</hi> (1876): 
+                        <hi rend="italic">Rig-veda. Übersetzt und mit kritischen und erläuternden Anmerkungen versehen von Hermann Grassmann</hi>. Leipzig: F.A. Brockhaus.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Griffith, Ralph T. H.</hi> (1896): 
+                        <hi rend="italic">The Hymns of the Rigveda</hi>. Benares: Lazarus.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Keydana, Götz / Luraghi, Silvia</hi> (2012): 
+                        <hi rend="italic">Definite referential null objects in Vedic Sanskrit and Ancient Greek</hi>. Acta Linguistica Hafniensia 44 (2):116–28. 
+                        <ptr target="https://doi.org/10.1080/03740463.2013.776245"/>.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Kulikov, Leonid</hi> (2012): 
+                        <hi rend="italic">The Vedic -ya-Presents: Passives and Intransitivity in Old Indo-Aryan</hi>. Amsterdam, Netherlands: Rodopi.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Oldenberg, Hermann</hi> (1909/1912): 
+                        <hi rend="italic">R̥gveda. Textkritische und exegetische Noten</hi>. Berlin: Weidmann.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Reinöhl, Uta</hi> (2016): 
+                        <hi rend="italic">Grammaticalization and the Rise of Configurationality in Indo-Aryan.</hi> Oxford: Oxford University Press
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Scarlata, Salvatore / Widmer, Paul</hi> (2015): 
+                        <hi rend="italic">Vedische exozentrische Komposita mit drei Relationen</hi>. Indo-Iranian Journal, 58(1):26-47.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Widmer, Paul</hi> (2007): 
+                        <hi rend="italic">Der altindische vrkī́-Typus und hethitisch nakki-: Der indogermanische Instrumental zwischen Syntax und Morphologie. </hi>Zeitschrift für Sprachwissenschaft, (1-2):190-208.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

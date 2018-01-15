@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Sprachliche Variation in der Germanistik: eine n-Gramm-basierte Stilanalyse</title>
+                <author>
+                    <persName>
+                        <surname>Andresen</surname>
+                        <forename>Melanie</forename>
+                    </persName>
+                    <affiliation>Universität Hamburg, Deutschland</affiliation>
+                    <email>Melanie.Andresen@uni-hamburg.de</email>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2015-10-04T22:02:00Z</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Prof. Dr. Georg Vogeler</publisher>
+                <address>
+                    <addrLine>UniversitÃ¤t Graz</addrLine>
+                    <addrLine>Zentrum fÃ¼r Informationsmodellierung - Austrian Centre for Digital Humanities</addrLine>
+                    <addrLine>ElisabethstraÃe 59/III</addrLine>
+                    <addrLine>8010 Graz</addrLine>
+                </address>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Converted from a Word document </p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.17">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Vortrag</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Stil</term>
+                    <term>n-Gramm-Analyse</term>
+                    <term>Wissenschaftssprache</term>
+                    <term>Germanistik</term>
+                    <term>Dependenzannotation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Annotieren</term>
+                    <term>Stilistische Analyse</term>
+                    <term>Text</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="div1" rend="DH-Heading1">
+                <head>Einleitung</head>
+                <p>An zahlreichen Universitäten werden die wissenschaftlichen Disziplinen Linguistik und Literaturwissenschaft in einem gemeinsamen Studiengang angeboten, der beispielsweise „Germanistik“ oder „Deutsche Sprache und Literatur“ heißt. Dies suggeriert eine große fachliche Nähe dieser Disziplinen, die jedoch im Selbstverständnis der meisten Wissenschaftler/innen dieser Fächer keine Entsprechung hat. Linguistik und Literaturwissenschaft unterscheiden sich in ihrem Erkenntnisinteresse, ihren Methoden und auch in ihrer Sprache, wie punktuell bereits beschrieben wurde: So stellt Haggan (2004) bei der Untersuchung von Titeln wissenschaftlicher Publikationen in Linguistik, Literatur- und Naturwissenschaft fest, dass die Sprache der Literaturwissenschaft sich (auch) an ästhetischen Prinzipien orientiert. Afros und Schryer (2009) kommen zu einem ähnlichen Ergebnis bezüglich der Verwendung von „promotional metadiscourse“ und attestieren sogar verschwimmende Grenzen mit den literarischen Texten selbst (305). Die Studierenden von Studiengängen wie „Germanistik“ finden sich also mit (mindestens) zwei unterschiedlichen Fachkulturen und Sprachen konfrontiert, deren Erwerb überwiegend auf dem Weg der Imitation erfolgt (Graefen 1999). Dieser Beitrag hat das Ziel, die stilistischen Unterschiede zwischen den beiden Fächern mithilfe einer n-Gramm-Analyse zu beschreiben und damit bei Lehrenden und Studierenden zu einem höheren Bewusstsein für die damit verbundenen Herausforderungen beizutragen.</p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Methode</head>
+                <p>Die hier verwendete Methode ist eine n-Gramm-Analyse, die (fast) rein datengeleitet funktioniert und keine spezifischen Hypothesen erfordert. Ein n-Gramm ist eine Sequenz aus 
+                    <hi rend="italic">n</hi> Elementen, im einfachsten Fall aus Wörtern. N-Gramm-basierte Verfahren sind insbesondere in der Computerlinguistik verbreitet, wenn es um einfach zu berechnende Modellierungen von Sprache geht (Jurafsky und Martin 2009). Auch für die linguistische Interpretation wurden n-Gramme bereits genutzt: Scharloth und Bubenhofer (2012) zeigen bei der Analyse von Tonbandprotokollen zweier 68-Kommunen, dass auf diese Weise charakteristische Muster identifiziert werden können, die mit außersprachlichen Merkmalen der beiden Gruppen in Verbindung gebracht werden können. Mahlberg (2013) nutzt ein ähnliches Vorgehen zur Charakterisierung der Prosa Charles Dickens’, Biber et al. (2004) beschreiben unterschiedliche Formen der Wissenschaftssprache anhand sog. lexical bundles. Mit Ausnahme von Scharloth und Bubenhofer (2012) wird in diesen Ansätzen nur die Tokenebene einbezogen. Im Rahmen des hier präsentierten Vorhabens sollen die Potentiale zusätzlicher syntaktischer Informationen ermittelt werden.
+                </p>
+                <p>Die Datengrundlage der folgenden Analyse ist ein Korpus aus 60 deutschen Dissertationen (30 pro Fach, ca. 3,5 Mio. Token) aus dem Zeitraum von 2003 bis 2016, die an 15 unterschiedlichen deutschen Universitäten eingereicht wurden und über universitäre Server online zur Verfügung stehen. Im Rahmen der Datenaufbereitung wurden semiautomatisch Textelemente ausgeschlossen, die nicht zur Zielvarietät gehören (Zitate), nicht aus Fließtext bestehen (Tabellen, Abbildungen,...) oder den Textfluss unterbrechen (Fußnoten). Die Texte wurden außerdem automatisch mit Informationen zu Lemma, Wortart und syntaktischen Dependenzstrukturen annotiert.
+                    <note place="foot" xml:id="ftn1" n="1">
+                        <p> mit einem auf der Dependenzversion des TIGER-Korpus (Seeker und Kuhn 2012) trainierten Modell für MATE (Bohnet 2010)</p>
+                    </note>
+                </p>
+                <p>Aus diesen Daten wurden n-Gramme der Größe 
+                    <hi rend="italic">n</hi> = 1 bis 5 generiert, die aus Token bzw. Wortartentags bestehen. Neben traditionellen, linearen n-Grammen, die der Reihenfolge der Wörter an der Textoberfläche folgen, wurden zusätzlich syntaktische n-Gramme generiert, die der Dependenzstruktur im Satz folgen (siehe Abbildung 1, beschrieben von Sidorov et al. 2012, Goldberg und Orwant 2013). Die Frequenzen aller n-Gramme mit mindestens zehn Vorkommen (rund 500.000) wurden signifikanzbasiert mit dem t-Test verglichen (siehe Empfehlungen in Lijffijt et al. 2014, Paquot und Bestgen 2009). Die Auswertung bezieht sich auf die n-Gramme mit den größten Unterschieden zwischen den linguistischen und literaturwissenschaftlichen Texten.
+                </p>
+                <p>
+                    <graphic n="1001" width="6.526388888888889cm" height="3.3513888888888888cm" url="Pictures/image1.png" rend="inline"/>
+                </p>
+                <p>Abbildung 1: Lineare und syntaktische n-Gramme im Vergleich an einem Beispielsatz (vgl. Andresen und Zinsmeister 2017)</p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Ergebnisse</head>
+                <p>Exemplarisch werden hier die Ergebnisse zu den Wortarten-Unigrammen sowie den linearen und syntaktischen Token-Trigrammen präsentiert. Abbildung 2 zeigt die 20 Wortarten
+                    <note place="foot" xml:id="ftn2" n="2">
+                        <p> Die Wortartentags stammen aus dem STTS (Schiller et al. 1999).</p>
+                    </note> mit den größten Unterschieden zwischen den beiden Disziplinen. Je weiter außen sich die Wortart befindet, desto größer ist der Unterschied. Wortarten auf der rechten Seite sind in der Literaturwissenschaft, die auf der rechten in der Linguistik häufiger. Der mit Abstand größte Unterschied zeigt sich in den attributiv gebrauchten Possessivpronomen (PPOSAT, z. B. 
+                    <hi rend="italic">seine Existenz</hi> (Lit_Stu_30
+                    <note place="foot" xml:id="ftn3" n="3">
+                        <p> Die Bezeichnung der Korpustexte setzt sich aus einem Kürzel für die Disziplin, die Universität und einer fortlaufenden Zahl zusammen.</p>
+                    </note>)). Verwandt hiermit sind Unterschiede in den Reflexivpronomen (PRF) und Personalpronomen (PPER). Zusammen mit einer ebenfalls deutlich höheren Frequenz von Eigennamen (NE) spiegelt sich hier, dass sich literaturwissenschaftliche Texte in weitaus höherem Maße als die Linguistik mit Personen beschäftigen, seien es reale Autor/inn/en oder literarische Figuren, zum Beispiel:
+                </p>
+                <quote>(1) So bildet ihr autobiographisches Werk eine Brücke zwischen Tradition und Moderne. (Lit_Stu_30)</quote>
+                <p>Weitere Unterschiede zeigen sich im Zusammenhang mit der Verbverwendung: Bei den finiten Verben der literaturwissenschaftlichen Texte handelt es sich eher um Vollverben (VVFIN), während finite Modal- und Auxiliarverben
+                    <note place="foot" xml:id="ftn4" n="4">
+                        <p> Bei den Verben 
+                            <hi rend="italic">haben</hi>, 
+                            <hi rend="italic">sein</hi> und 
+                            <hi rend="italic">werden</hi> wird nicht zwischen einer Verwendung als Auxiliar- oder Vollverb unterschieden. 
+                        </p>
+                    </note> (VMFIN, VAFIN) in der Linguistik frequenter sind. Korrespondierend dazu sind Auxiliarverben im Infinitiv (insb. 
+                    <hi rend="italic">werden</hi> in Passivkonstruktionen mit Modalverb) und Vollverben in ihrer Partizipform (VVPP) in der Linguistik häufiger. Lediglich die Form des passiven Perfekts ist in der Literaturwissenschaft häufiger, wie das Tag VAPP zeigt. Insgesamt lässt sich sagen, dass die Sprache der Linguistik im Vergleich mit der Literaturwissenschaft durch komplexe Verbkonstruktionen gekennzeichnet ist. 
+                </p>
+                <p>In der Linguistik zeigt sich außerdem eine höhere Frequenz von attribuierenden Indefinitpronomen (PIAT). Darunter sind die Lemmata 
+                    <hi rend="italic">kein</hi>, 
+                    <hi rend="italic">aller</hi> und 
+                    <hi rend="italic">beide</hi> am häufigsten. Dies kann damit in Verbindung gebracht werden, dass die Linguistik in stärkerem Maße auf Generalisierungen abzielt. Die höhere Frequenz von Zahlen (CARD) in der Linguistik überrascht nicht, da quantitative Verfahren hier deutlich häufiger zum Einsatz kommen als in der Literaturwissenschaft. Das Tag PRELS (Relativpronomen) weist auf eine häufigere Verwendung von Relativsätzen in der Literaturwissenschaft hin.
+                </p>
+                <figure>
+                    <graphic n="1002" width="9.846744444444445cm" height="6.5637694444444445cm" url="Pictures/image2.png" rend="inline"/>
+                </figure>
+                <p>Abbildung 2: Die distinktivsten Wortarten, visualisiert anhand der Teststatistik t. Visualisierung inspiriert durch das R-Paket 
+                    <hi rend="italic">stylo</hi> (Eder et al. 2016).
+                </p>
+                <p>Ergänzend werden in Tabelle 1 Informationen auf Wortebene herangezogen, zunächst ohne zusätzliche syntaktische Information. Gezeigt werden die zehn distinktivsten linearen Trigramme (inkl. Interpunktion). Hier spiegeln sich viele der Phänomene, die bereits auf Ebene der Wortarten erkennbar waren. Die für die Literaturwissenschaft charakteristischen Muster scheinen mehrheitlich aus Relativsätzen zu stammen. Dabei ist zu bedenken, dass der Anfang von Nebensätzen besonders leicht durch eine n-Gramm-Analyse erfasst werden kann, da hier nur ein begrenztes Maß an Variation möglich ist. Das klarste Trigramm für die Linguistik hingegen weist auf die bereits beschriebene häufigere Verwendung von Passiv und Modalverben hin, hier speziell in Kombination miteinander. Interessant ist das n-Gramm
+                    <hi rend="italic"> die bei der</hi>, das in 36 von 43 Fällen aus einem Relativsatz stammt, aber in der Linguistik häufiger ist. Mit dem Relativpronomen 
+                    <hi rend="italic">die</hi> kann es sich auf Feminina beziehen, in der Mehrzahl handelt es sich im Korpus aber um Substantive im Plural. Das passt zu der bereits oben genannten Annahme, dass die Literaturwissenschaft sich tendenziell exemplarisch mit konkreten Einzelphänomenen beschäftigt, die Linguistik hingegen in stärkerem Maße Generalisierungen anstrebt, die den Plural wahrscheinlich machen.
+                </p>
+                <table rend="rules">
+                    <row>
+                        <cell rend="DH-Default">Rang</cell>
+                        <cell rend="DH-Default">n-Gramm</cell>
+                        <cell rend="DH-Default">Häufiger im Fach</cell>
+                    </row>
+                    <row>
+                        <cell rend="DH-Default">1</cell>
+                        <cell rend="DH-Default">, der sich</cell>
+                        <cell rend="DH-Default">Literaturwissenschaft</cell>
+                    </row>
+                    <row>
+                        <cell rend="DH-Default">2</cell>
+                        <cell rend="DH-Default">, der seine</cell>
+                        <cell rend="DH-Default">Literaturwissenschaft</cell>
+                    </row>
+                    <row>
+                        <cell rend="DH-Default">3</cell>
+                        <cell rend="DH-Default">, das sich</cell>
+                        <cell rend="DH-Default">Literaturwissenschaft</cell>
+                    </row>
+                    <row>
+                        <cell rend="DH-Default">4</cell>
+                        <cell rend="DH-Default">werden können .</cell>
+                        <cell rend="DH-Default">Linguistik</cell>
+                    </row>
+                    <row>
+                        <cell rend="DH-Default">5</cell>
+                        <cell rend="DH-Default">, die ihm</cell>
+                        <cell rend="DH-Default">Literaturwissenschaft</cell>
+                    </row>
+                    <row>
+                        <cell rend="DH-Default">6</cell>
+                        <cell rend="DH-Default">, der die</cell>
+                        <cell rend="DH-Default">Literaturwissenschaft</cell>
+                    </row>
+                    <row>
+                        <cell rend="DH-Default">7</cell>
+                        <cell rend="DH-Default">, dass eine</cell>
+                        <cell rend="DH-Default">Linguistik</cell>
+                    </row>
+                    <row>
+                        <cell rend="DH-Default">8</cell>
+                        <cell rend="DH-Default">, vor dem</cell>
+                        <cell rend="DH-Default">Literaturwissenschaft</cell>
+                    </row>
+                    <row>
+                        <cell rend="DH-Default">9</cell>
+                        <cell rend="DH-Default">, die er</cell>
+                        <cell rend="DH-Default">Literaturwissenschaft</cell>
+                    </row>
+                    <row>
+                        <cell rend="DH-Default">10</cell>
+                        <cell rend="DH-Default">die bei der</cell>
+                        <cell rend="DH-Default">Linguistik</cell>
+                    </row>
+                </table>
+                <p>Tabelle 1: Die distinktivsten linearen Token-Trigramme</p>
+                <p>Tabelle 2 zeigt die häufigsten syntaktischen Trigramme, die zusätzlich Informationen zur Dependenzstruktur im Satz nutzen. „&gt;“ zeigt hier ein syntaktisches Dominanzverhältnis an. Die Relativsatzmuster sind hier nicht vorhanden, da ihre gute Erkennbarkeit in der Analyse vermutlich primär auf der linearen Abfolge von Interpunktion, Relativpronomen und folgendem Wort beruht. Das Muster 
+                    <hi rend="italic">können&gt;werden&gt;.</hi> ist höher gerankt als das Gegenstück in der linearen Analyse, da hier nicht nur unmittelbar aufeinanderfolgende Instanzen erfasst werden, sondern auch solche mit Distanzstellung:
+                </p>
+                <quote>(2) Einige Substantive können nicht eindeutig einer Geschlechtskategorie zugeordnet werden [...]. (Lin_Bam_01)</quote>
+                <p>Zusätzlich tauchen Kombinationen von Passiv mit dem Modalverb 
+                    <hi rend="italic">müssen</hi> und 
+                    <hi rend="italic">können</hi> mit 
+                    <hi rend="italic">sein</hi> auf. Viele der für die Literaturwissenschaft charakteristischen Muster haben eine direkte lineare Entsprechung: So steht das syntaktische n-Gramm 
+                    <hi rend="italic">für&gt;Leben&gt;das</hi> für die lineare Abfolge 
+                    <hi rend="italic">für das Leben</hi>. Allerdings umfasst das syntaktische n-Gramm zusätzlich Instanzen, in denen beispielsweise das Substantiv noch durch Attribute modifiziert wird, z. B. 
+                    <hi rend="italic">für das eigene Leben</hi> (Lit_Jen_19).
+                </p>
+                <table rend="rules">
+                    <row>
+                        <cell rend="DH-Default">Rang</cell>
+                        <cell rend="DH-Default">n-Gramm</cell>
+                        <cell rend="DH-Default">Häufiger im Fach</cell>
+                    </row>
+                    <row>
+                        <cell rend="DH-Default">1</cell>
+                        <cell rend="DH-Default">können&gt;werden&gt;.</cell>
+                        <cell rend="DH-Default">Linguistik</cell>
+                    </row>
+                    <row>
+                        <cell rend="DH-Default">2</cell>
+                        <cell rend="DH-Default">in&gt;Regel&gt;der</cell>
+                        <cell rend="DH-Default">Linguistik</cell>
+                    </row>
+                    <row>
+                        <cell rend="DH-Default">3</cell>
+                        <cell rend="DH-Default">und&gt;können&gt;werden</cell>
+                        <cell rend="DH-Default">Linguistik</cell>
+                    </row>
+                    <row>
+                        <cell rend="DH-Default">4</cell>
+                        <cell rend="DH-Default">in&gt;Vorstellung&gt;der</cell>
+                        <cell rend="DH-Default">Literaturwissenschaft</cell>
+                    </row>
+                    <row>
+                        <cell rend="DH-Default">5</cell>
+                        <cell rend="DH-Default">müssen&gt;werden&gt;,</cell>
+                        <cell rend="DH-Default">Linguistik</cell>
+                    </row>
+                    <row>
+                        <cell rend="DH-Default">6</cell>
+                        <cell rend="DH-Default">in&gt;Darstellung&gt;der</cell>
+                        <cell rend="DH-Default">Literaturwissenschaft</cell>
+                    </row>
+                    <row>
+                        <cell rend="DH-Default">7</cell>
+                        <cell rend="DH-Default">für&gt;Leben&gt;das</cell>
+                        <cell rend="DH-Default">Literaturwissenschaft</cell>
+                    </row>
+                    <row>
+                        <cell rend="DH-Default">8</cell>
+                        <cell rend="DH-Default">ist&gt;Wunsch&gt;der</cell>
+                        <cell rend="DH-Default">Literaturwissenschaft</cell>
+                    </row>
+                    <row>
+                        <cell rend="DH-Default">9</cell>
+                        <cell rend="DH-Default">mit&gt;Realität&gt;der</cell>
+                        <cell rend="DH-Default">Literaturwissenschaft</cell>
+                    </row>
+                    <row>
+                        <cell rend="DH-Default">10</cell>
+                        <cell rend="DH-Default">können&gt;sein&gt;.</cell>
+                        <cell rend="DH-Default">Linguistik</cell>
+                    </row>
+                </table>
+                <p>Tabelle 2: Die distinktivsten syntaktischen Token-Trigramme</p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Fazit</head>
+                <p>In der hier präsentierten Analyse konnten deutliche stilistische Unterschiede zwischen Linguistik und Literaturwissenschaft gezeigt werden. Die Linguistik zeichnet sich demzufolge durch komplexe Verben (Passiv und Modalverben), die stärkere Verwendung von Zahlen sowie Mustern der Generalisierung aus. In der Literaturwissenschaft finden sich mehr Bezüge auf Personen und komplexe Nominalphrasen mit Relativsätzen.</p>
+                <p>Die verwendete Methode hat stark explorativen Charakter, sodass viele der hier angebotenen Interpretationen zunächst als Hypothesen betrachtet werden sollten und einer sorgfältigen Prüfung in Folgestudien bedürfen. Zusätzlich ergibt sich mit der Methode eine Beschränkung auf Phänomene, die sich auf konstante Weise auf der sprachlichen Oberfläche niederschlagen.</p>
+                <p>Im Rahmen dieses Beitrags wurden nur besonders hoch gerankten n-Gramme betrachtet und interpretiert. Andresen und Zinsmeister (2017) präsentieren ergänzend ein Annotationsexperiment, in dessen Rahmen insgesamt 420 Token- und Wortarten-n-Gramme auf die enthaltenen linguistischen Informationen hin ausgewertet wurden. In Folgearbeiten gilt es das Potential unterschiedlicher n-Gramm-Typen für eine Stilanalyse zu erforschen. Der Fokus wird dabei auf stärker syntaktisch informierten Formen liegen, die beispielsweise Informationen zu Token und Wortart kombinieren oder die syntaktischen Dependenzrelationen zwischen den Elementen einbeziehen.</p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl>
+                        <hi rend="bold">Afros, Elena / Schryer, Catherine F.</hi> (2009): „Promotional (meta)discourse in research articles in language and literary studies“, in: 
+                        <hi rend="italic">English for Specific Purposes</hi>. 28 (1), 58–68, doi: 10.1016/j.esp.2008.09.001.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Andresen, Melanie / Zinsmeister, Heike</hi> (2017): „Approximating Style by N-gram-based Annotation“, in: 
+                        <hi rend="italic">Proceedings of the Workshop on Stylistic Variation</hi>. Copenhagen, Denmark: Association for Computational Linguistics 105–115.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Biber, Douglas / Conrad, Susan / Cortes, Viviana</hi> (2004): „If you look at…: Lexical bundles in university teaching and textbooks“, in: 
+                        <hi rend="italic">Applied linguistics</hi>. 25 (3), 371–405.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Bohnet, Bernd</hi> (2010): „Very High Accuracy and Fast Dependency Parsing is not a Contradiction“, in: 
+                        <hi rend="italic">Proceedings of the 23rd International Conference on Computational Linguistics (COLING 2010)</hi>. Beijing, China.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Eder, Maciej / Rybicki, Jan / Kestemont, Mike</hi> (2016): Stylometry with R: A Package for Computational Text Analysis. The R Journal 8(1). 107–121.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Goldberg, Yoav / Orwant, Jon</hi> (2013): „A Dataset of Syntactic-Ngrams over Time from a Very Large Corpus of English Books“, in: 
+                        <hi rend="italic">Second Joint Conference on Lexical and Computational Semantics (*SEM), Volume 1: Proceedings of the Main Conference and the Shared Task: Semantic Textual Similarity</hi>. Atlanta, Georgia, USA. 241–247.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Graefen, Gabriele</hi> (1999): „Wie formuliert man wissenschaftlich?“, in: Barkowski, Hans; Wolff, Armin (Hrsg.) 
+                        <hi rend="italic">Alternative Vermittlungsmethoden und Lernformen auf dem Prüfstand. Wissenschaftssprache - Fachsprache. Landeskunde aktuell. Interkulturelle Begegnungen - interkulturelles Lernen</hi>. Regensburg: Fachverband Deutsch als Fremdsprache (Materialien Deutsch als Fremdsprache), 222–239.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Haggan, Madeline</hi> (2004): „Research paper titles in literature, linguistics and science: dimensions of attraction“, in: 
+                        <hi rend="italic">Journal of Pragmatics</hi>. 36 (2), 293–317, doi: 10.1016/S0378-2166(03)00090-0.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Jurafsky, Dan / Martin, James H.</hi> (2009): 
+                        <hi rend="italic">Speech and language processing: An introduction to natural language processing, computational linguistics, and speech recognition</hi>. 2. Aufl. Upper Saddle River, London: Pearson (Prentice Hall series in artificial intelligence).
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Lijffijt, Jefrey / Nevalainen, Terttu / Säily, Tanja / Papapetrou, Panagiotis / Puolamäki, Kai / Mannila, Heikki</hi> (2014): „Significance testing of word frequencies in corpora“, in: 
+                        <hi rend="italic">Digital Scholarship in the Humanities</hi>. 1–24, doi: 10.1093/llc/fqu064.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Mahlberg, Michaela</hi> (2013): 
+                        <hi rend="italic">Corpus stylistics and Dickens’s fiction</hi>. New York: Routledge (Routledge advances in corpus linguistics).
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Paquot, Magali / Bestgen, Yves</hi> (2009): „Distinctive words in academic writing: A comparison of three statistical tests for keyword extraction“, in: Jucker, Andreas H.; Schreier, Daniel; Hundt, Marianne (Hrsg.) 
+                        <hi rend="italic">Corpora: Pragmatics and Discourse</hi>. Brill 247–269, doi: 10.1163/9789042029101_014.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Scharloth, Joachim / Bubenhofer, Noah</hi> (2012): „Datengeleitete Korpuspragmatik. Korpusvergleich als Methode der Stilanalyse“, in: Felder, Ekkehard; Müller, Marcus; Vogel, Friedemann (Hrsg.) 
+                        <hi rend="italic">Korpuspragmatik: thematische Korpora als Basis diskurslinguistischer Analysen</hi>. Berlin [u.a.]: De Gruyter (Linguistik - Impulse &amp; Tendenzen), 195–230.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Schiller, Anne / Teufel, Simone / Thielen, Christine / Stöckert, Christine</hi> (1999): 
+                        <hi rend="italic">Guidelines für das Tagging deutscher Textcorpora mit STTS (kleines und großes Tagset)</hi>. Stuttgart, Tübingen. http://www.sfs.uni-tuebingen.de/resources/stts-1999.pdf [letzter Zugriff am 11.01.2018].
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Seeker, Wolfgang / Kuhn, Jonas</hi> (2012): „Making Ellipses Explicit in Dependency Conversion for a German Treebank“, in: 
+                        <hi rend="italic">Proceedings of the 8th International Conference on Language Resources and Evaluation</hi>. Istanbul, Turkey 3132–3139.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Sidorov, Grigori / Velasquez, Francisco / Stamatatos, Efstathios / Gelbukh, Alexander / Chanona-Hernández, Liliana</hi> (2012): „Syntactic Dependency-Based N-grams as Classification Features“, in: Batyrshin, Ildar; Mendoza, Miguel González (Hrsg.) 
+                        <hi rend="italic">Advances in Computational Intelligence</hi>. Springer (Lecture Notes in Computer Science), 1–11, doi: 10.1007/978-3-642-37798-3_1.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

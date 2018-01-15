@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Praktische Tagger-Kritik. Zur Evaluation des POS-Tagging des Deutschen Textarchivs </title>
+                <author>
+                    <persName>
+                        <surname>Herrmann</surname>
+                        <forename>J. Berenike</forename>
+                    </persName>
+                    <affiliation>Universität Basel, Schweiz</affiliation>
+                    <email>berenike.herrmann@unibas.ch</email>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2018-01-14T15:36:00Z</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Prof. Dr. Georg Vogeler</publisher>
+                <address>
+                    <addrLine>UniversitÃ¤t Graz</addrLine>
+                    <addrLine>Zentrum fÃ¼r Informationsmodellierung - Austrian Centre for Digital Humanities</addrLine>
+                    <addrLine>ElisabethstraÃe 59/III</addrLine>
+                    <addrLine>8010 Graz</addrLine>
+                </address>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Converted from a Word document </p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.17">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Vortrag</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Korpus</term>
+                    <term>POS</term>
+                    <term>Tagger</term>
+                    <term>DTA</term>
+                    <term>Intercoder-Reliabilität</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Annotieren</term>
+                    <term>Bearbeitung</term>
+                    <term>Stilistische Analyse</term>
+                    <term>Kollaboration</term>
+                    <term>Literatur</term>
+                    <term>Text</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p rend="DH-Heading2">Einleitung</p>
+            <p>Der vorliegende Beitrag leistet eine Tool- und Methoden-Kritik der automatischen Auszeichnung von Wortarten (Part of Speech-, bzw. POS-Taggern) an literarischen Texten des 19. und frühen 20. Jahrhunderts. Er geht über eine rein intellektuelle Reflektion hinaus, indem er erste Schritte einer empirischen Evaluation des POS-Tagging des Deutschen Textarchivs (DTA, Berlin-Brandenburgische Akademie der Wissenschaften) und seiner praktischen Verbesserung vorlegt.</p>
+            <p>Aus der Perspektive der Digitalen Literaturstilistik und des Distant Reading sind Wortarten besonders interessante lexiko-grammatikalische Merkmale, ist ihre Verteilung doch ein wichtiger Indikator für Dimensionen wie Autorstil, Gattung und Register (z.B. Biber / Conrad 2009). POS sind vergleichsweise leicht und scheinbar valide zu bestimmen, gilt doch in der Computerlinguistik das Problem der automatischen Wortartenannotation als gelöst – auch für das Deutsche, wo eine durchschnittliche Erkennungsgenauigkeit bei 95-97% liegt (vgl. Giesbrecht / Evert 2009). Für DH-Anwender scheint es also nahe zu liegen, ihre Korpora komfortabel mit out-of-the-box-Taggern zu annotieren, oder sich bereits annotierter Korpora zu bedienen, wie zum Beispiel des DTA.</p>
+            <p>Ein genauerer Blick zeigt jedoch, dass Korpora der Geisteswissenschaft, historische wie literarische, von der sprachlichen Varietät abweichen, die den Sprachmodellen der verfügbaren Tagger zugrunde liegt, also Zeitungtexten der Gegenwart (der für das Deutsche frei verfügbare Goldstandard ist derzeit TIGER, ein Korpus von 900.000 Wörtern aus der Frankfurter Rundschau, vgl. Brants et al. 2004). In Nichtstandardvarietäten sinkt die Genauigkeit des POS-Taggings rapide (vgl. z.B. Scheible et al. 2011), und teilweise sind Aussagen über die Annotationsgenauigkeit mangels Referenzstandards gar nicht möglich. Dies betrifft auch das DTA, dessen POS-Tagging bislang nicht systematisch evaluiert wurde. Insgesamt ist die DH-Community also noch recht weit von einem Goldstandard für historische literarische narrative Texte des Zeitraums entfernt. </p>
+            <p>Unser Beitrag leistet hier einen wichtigen Schritt, indem er erste Ergebnisse zur Einschätzung der Qualität ebenso wie zur Verbesserung des Annotationstools vorlegt. Ausgehend von dem Ziel unser Korpus der Literarischen Moderne (KOLIMO http://kolimo.uni-goettingen.de/) valide mit POS auszuzeichnen, haben wir eine Stichprobe (N= 9.065 ) des DTA manuell nachannotiert. Unsere Methode verbindet einen Tagger-Vergleich mit einer händischen Analyse. Dabei werden folgende Ziele verfolgt:</p>
+            <list type="unordered">
+                <item>Eine erste Evaluation des POS-Tagging des DTA für den Zeitraum 1800-1930 im Vergleich mit der gegenwärtigen Generation der POS-Tagger;</item>
+                <item>Der heuristische Aufweis von interessanten Fällen, die Forschungsdesiderate für Linguistik und Literaturwissenschaft aufzeigen;</item>
+                <item>Die Verbesserung des Sprachmodells und so eine Domänen-Adaptation der Tagger.</item>
+            </list>
+            <p rend="DH-Heading2">Studie</p>
+            <p rend="DH-Heading3">Prozedur</p>
+            <p>Die Evaluation des POS-Taggings wurde durchgeführt auf einer randomisierten Stichprobe des DTA, die aufgrund unseres Forschungsinteresses auf narrative Texte mit Publikationsdatum ab 1800 beschränkt war, wobei sowohl fiktionale wie auch nicht-fiktionale Texte berücksichtigt wurden (ausschlaggebend waren die Metadaten zur Erstveröffentlichung und Gattung im Header des DTA). Die Grundgesamtheit der aus dem DTA entnommenen Stichprobe umfasste N= 64.924.458 Tokens, die der händisch annotierten Tokens umfasste n= 9.065 Tokens/POS-Tags, also 0,014%). Die Stichprobe wurde in ihrer tokenisierten und normalisierten Form aus dem DTA übernommen (vgl. DTA). Der Taggervergleich nutzte neben dem DTA-Tagger 
+                <hi rend="italic">moot </hi>(Jurish / Würzner 2013) den TreeTagger (Schmid 1994), MarMoT (Müller et al. 2013) sowie den Perceptron-Tagger (Rosenblatt 1958), also solche Tagger, die in der digitalen Textanalyse häufig verwendet werden. Input war für alle Tagger dieselbe Stichprobe aus dem DTA.
+            </p>
+            <p>Das Tagging wurde durch vier studentische Hilfskräfte besorgt, wobei iterative Analysen und finale Annotation durch die PI betreut wurden. Mit einem Skript wurden csv-Tabellen erstellt, die die Tokens (fortlaufende Wortformen, inklusive Interpunktion) und POS-Tags in einem 
+                <hi rend="italic">Keyword-in-Context</hi>-Format präsentieren. Abbildung 1 zeigt einen Ausschnitt der Ansicht des Annotationstools: jede Zeile enthält neben dem Token (Wort) die jeweiligen POS-Tags, das Lemma, den linken und rechtem Satzkontext, sowie einen größeren Satzkontext, Angaben zu Werktitel, Autor, und Erscheinungsdatum. Bei der Analyse wurde jeweils nur die Abweichungen zum (von 
+                <hi rend="italic">moot</hi> zugewiesenen) DTA-Tag händisch in eine gesonderte Zelle (
+                <hi rend="italic">newtag</hi>) eingefügt, ebenso wie ein fakultativer Kommentar des Coders.
+            </p>
+            <p>Abbildung 1: 
+                <hi rend="italic">Screenshot POS-Annotationstool (Ausschnitt)</hi>
+            </p>
+            <figure>
+                <graphic n="1001" width="15.699002777777778cm" height="8.536988888888889cm" url="Pictures/image1.png" rend="inline"/>
+            </figure>
+            <p>Dem automatischen wie händischen Tagging lag das Tagset des STTS (Schiller et al. 1999) zugrunde. Wo angezeigt, wurden im Projekt zusätzliche Regeln für der Handhabung des STTS-Manuals vereinbart und dokumentiert. Hierzu gehört auch u.a. die systematische Einbindung eines korpusbasierten Wörterbuchs (http://www.duden.de/) bei Eigennamen und Fremdwörtern.</p>
+            <p>Das Tagging wurde in drei Phasen durchgeführt. Primäres Ziel des Taggings war es, die Genauigkeit von 
+                <hi rend="italic">moot</hi> auf der genannten Stichprobe gegen manuelles und automatisches Tagging (TT, MarMot, Perceptron) zu evaluieren. Die Phase I diente neben der Erarbeitung und Ergänzung des Tagging-Manuals und dem Einarbeiten der Coder einer ersten quantitativen und qualitativen Analyse des 
+                <hi rend="italic">moot</hi>-Taggings. Die untersuchte Stichprobe umfasste N=100 randomisiert extrahierte Sätze (N=3.635 Tokens). Jedes Token wurde bezüglich des zugewiesenen POS-Tag durch alle Coder unabhängig überprüft und ggf. korrigiert.
+            </p>
+            <p>In Phase II wurden dieselben Coder, Tagger und dieselbe Software eingesetzt, ebenso wie die in Phase 1 erarbeiteten Tagging-Guidelines. Anders als in der ersten Phase wurden jedoch nicht ganze Sätze, sondern jeweils einhundert Token pro POS-Kategorie aus dem DTA extrahiert. Dadurch wurde eine Ungleichverteilung der einzelnen POS-Kategorien, welche in natürlichen Sätzen gegeben ist (vgl. Evert 2006; Kilgarriff 2005), vermieden. Für fünfundfünfzig POS-Kategorien des STTS wurden jeweils n=100 Wort/Token-POS-Paare sortiert nach STTS-Tag annotiert. Dies entspricht einer Grundgesamtheit von N=5.500 Tokens. Jedes Token wurde von zwei Codern unabhängig annotiert.</p>
+            <p>In der anschließenden Diskussionsphase wurden die strittigen Fälle besprochen und finale Annotationen erarbeitet. Zu diesem Zweck wurden Statistiken für die Tags (über Coder und Tagger) analysiert und Nichtübereinstimmung der vergebenen Tags identifiziert. Für die statistische Evaluation wurde die Interrater-Reliabilität als 
+                <hi rend="italic">Agreement</hi> und Cohen‘s Kappa berechnet (Package „irr“ in R Version 3.3). Darüber hinaus wurde für die erste Tagging-Phase ein Fleiss’-Kappa für die Coder berechnet (dies steht für Phase 2 noch aus).
+            </p>
+            <p rend="DH-Heading3">Ergebnisse</p>
+            <p>Die Ergebnisse in Tabelle 1 basieren für Phase I auf den finalen Annotationen und für Phase II zum momentanen Zeitpunkt auf etwa der Hälfte der finalen Annotation. Sie zeigen für 
+                <hi rend="italic">moot</hi> verglichen mit dem Referenzstandard eine Gesamtgenauigkeit von 90,16% (TreeTagger 80,88%; MarMoT 83,99%; Perceptron 79,75%). Dies ist eine niedrige Gesamtgenauigkeit gemessen an 98,6% zur modernen Standardvarietät (Brants 2000), entspricht aber in etwa den von Scheible et al. (2011) für das Frühneuhochdeutsche erhobenen 91,6%.
+            </p>
+            <p>Tabelle 1: 
+                <hi rend="italic">Genauigkeit der Tagger bzgl. Coder (Mittelwert über Coder vor Diskussion) und Referenzstandard (nach Diskussion) in Prozent</hi>
+            </p>
+            <table rend="rules">
+                <row>
+                    <cell rend="DH-Default"/>
+                    <cell rend="DH-Default"/>
+                    <cell rend="DH-Default">moot</cell>
+                    <cell rend="DH-Default">TreeTagger</cell>
+                    <cell rend="DH-Default">MarMoT</cell>
+                    <cell rend="DH-Default">Perceptron</cell>
+                </row>
+                <row>
+                    <cell rend="DH-Default">Phase I</cell>
+                    <cell rend="DH-Default">Mittelwert Coder</cell>
+                    <cell rend="DH-Default">93,44</cell>
+                    <cell rend="DH-Default">84,75</cell>
+                    <cell rend="DH-Default">86,43</cell>
+                    <cell rend="DH-Default">86,23</cell>
+                </row>
+                <row>
+                    <cell/>
+                    <cell rend="DH-Default">Referenzstandard</cell>
+                    <cell rend="DH-Default">92,93</cell>
+                    <cell rend="DH-Default">85,47</cell>
+                    <cell rend="DH-Default">87,18</cell>
+                    <cell rend="DH-Default">86,35</cell>
+                </row>
+                <row>
+                    <cell rend="DH-Default">Phase II</cell>
+                    <cell rend="DH-Default">Mittelwert Coder</cell>
+                    <cell rend="DH-Default">84,93</cell>
+                    <cell rend="DH-Default">67,87</cell>
+                    <cell rend="DH-Default">72,32</cell>
+                    <cell rend="DH-Default">62,34</cell>
+                </row>
+                <row>
+                    <cell/>
+                    <cell rend="DH-Default">Referenzstandard</cell>
+                    <cell rend="DH-Default">82,84</cell>
+                    <cell rend="DH-Default">68,73</cell>
+                    <cell rend="DH-Default">72,29</cell>
+                    <cell rend="DH-Default">62,33</cell>
+                </row>
+                <row>
+                    <cell rend="DH-Default">Kombinierter Wert Phase I &amp; II*</cell>
+                    <cell rend="DH-Default">Mittelwert Coder</cell>
+                    <cell rend="DH-Default">89,17</cell>
+                    <cell rend="DH-Default">75,92</cell>
+                    <cell rend="DH-Default">79,11</cell>
+                    <cell rend="DH-Default">73,72</cell>
+                </row>
+                <row>
+                    <cell/>
+                    <cell rend="DH-Default">Referenzstandard</cell>
+                    <cell rend="DH-Default">90,16</cell>
+                    <cell rend="DH-Default">80,88</cell>
+                    <cell rend="DH-Default">83,09</cell>
+                    <cell rend="DH-Default">79,76</cell>
+                </row>
+            </table>
+            <p>*Es handelt sich nicht um den Mittelwert von Phase I und II sondern um eine gewichtete Statistik, die die unterschiedlichen Stichprobengrößen (zum Zeitpunkt der Rechnung) einbezieht.</p>
+            <p>Die Übereinstimmung zwischen Codern vor der Diskussion und Referenzstandard ist hingegen vergleichsweise hoch, auch wenn sie in der zweiten Tagging-Phase etwas abfällt (
+                <hi rend="italic">Agreement</hi> Phase I = 95,47 – 98,13%, 
+                <hi rend="italic">Agreement</hi> Phase II = 95,56 – 96,22%, Cohen‘s Kappa Phase I = 0,95 – 0,98, Cohen‘s Kappa Phase II = 0,95 – 0,96). Gleiches gilt für die Interrater-Reliabilität (Übereinstimmung zwischen Codern vor Diskussion) obwohl die Differenz zwischen den beiden Phasen größer ist (
+                <hi rend="italic">Agreement</hi> Phase I = 94,14 – 95,20%, 
+                <hi rend="italic">Agreement</hi> Phase II = 89,45 – 92,64%, Cohen‘s Kappa Phase I = 0,94 – 0,95, Cohen‘s Kappa Phase II = 0,89 – 0,92). Das Fleiss’ Kappa weist mit 0,94 einen hohen Wert auf. Die Coder annotieren in beiden Phasen also genauer als 
+                <hi rend="italic">moot</hi>.
+            </p>
+            <p>Obwohl die Gesamtergebnisse noch ausstehen, könnte der Unterschied zwischen den Phasen tentativ damit erklärt werden, dass Phase II mehr problematische Tags annotiert, die eine niedrigere Distribution haben und im per-Satz-Tagging seltener auftreten. Für die einzelnen POS-Kategorien variiert die Genauigkeit zwischen 0% und 100%, wobei 
+                <hi rend="italic">moot</hi> die höchste mittlere Genauigkeit (Mittelwert = 88,65%) und niedrigste Streuung (Standardabweichung = 17,25) aufweist (TreeTagger = 67,05 ± 28,52, MarMoT = 73,41 ± 27,49, Perceptron = 62,66 ± 31,37). Eine detaillierte Analyse der einzelnen POS-Tag-Kategorien zeigt, dass 
+                <hi rend="italic">moot</hi> in den meisten, aber nicht allen, POS-Kategorien die besten Ergebnisse erzielt (vgl. Tabelle 2).
+            </p>
+            <p>Tabelle 2: 
+                <hi rend="italic">Genauigkeit einiger STTS-Tags über Tagger (in Prozent)</hi>
+            </p>
+            <table rend="rules">
+                <row>
+                    <cell rend="DH-Default"/>
+                    <cell rend="DH-Default">moot</cell>
+                    <cell rend="DH-Default">TreeTagger</cell>
+                    <cell rend="DH-Default">MarMoT</cell>
+                    <cell rend="DH-Default">Perceptron</cell>
+                </row>
+                <row>
+                    <cell rend="DH-Default">ADJA</cell>
+                    <cell rend="DH-Default">94,5</cell>
+                    <cell rend="DH-Default">93</cell>
+                    <cell rend="DH-Default">93,5</cell>
+                    <cell rend="DH-Default">95</cell>
+                </row>
+                <row>
+                    <cell rend="DH-Default">ADJD</cell>
+                    <cell rend="DH-Default">85,37</cell>
+                    <cell rend="DH-Default">79,67</cell>
+                    <cell rend="DH-Default">78,05</cell>
+                    <cell rend="DH-Default">76,42</cell>
+                </row>
+                <row>
+                    <cell rend="DH-Default">ADV</cell>
+                    <cell rend="DH-Default">81,2</cell>
+                    <cell rend="DH-Default">72,93</cell>
+                    <cell rend="DH-Default">75,56</cell>
+                    <cell rend="DH-Default">68,42</cell>
+                </row>
+                <row>
+                    <cell rend="DH-Default">NE</cell>
+                    <cell rend="DH-Default">75,25</cell>
+                    <cell rend="DH-Default">61,87</cell>
+                    <cell rend="DH-Default">63,55</cell>
+                    <cell rend="DH-Default">87,63</cell>
+                </row>
+                <row>
+                    <cell rend="DH-Default">NN</cell>
+                    <cell rend="DH-Default">92,81</cell>
+                    <cell rend="DH-Default">93,46</cell>
+                    <cell rend="DH-Default">92,32</cell>
+                    <cell rend="DH-Default">91,67</cell>
+                </row>
+            </table>
+            <p rend="DH-Heading2">Diskussion</p>
+            <p>In den Gruppendiskussionen konnten Probleme identifiziert werden, die vornehmlich bei den Taggern lagen (z.B. bei Abkürzungen, Relativpronomen). Es traten aber auch Fälle auf, in denen die STTS-Guideline nicht präzise genug ist (z.B. bei Vergleichspartikeln, Possessivpronomen, Indefinitpronomina). Dabei war die Analyse der Disagreements eine produktive Heuristik, um (computer-)linguistisch und literarturwissenschaftlich interessante Fälle aufzuwerfen. So scheint gerade in literarischen Fällen eine Ambiguität (etwa zwischen Adjektiv und Verb bei Partizipien) geradezu intentional. Ähnlich 
+                <hi rend="italic">und</hi> in 
+                <hi rend="italic">„Bravo! Warum denn nicht? Bravo! </hi>
+                <hi rend="italic underline">Und</hi>
+                <hi rend="italic"> wieder Bravo!“ </hi>(Kafka, 
+                <hi rend="italic">Der Prozess</hi>), welches als Konjunktion, aber auch als Diskurspartikel interpretiert werden kann. 
+            </p>
+            <p>Insgesamt zeigt unsere praktische Taggerkritik, dass auch eine scheinbar gelöste NLP-Aufgabe wie die Wortartenauszeichnung kein Solitär ist, auf den geistes- und literaturwissenschaftliche Projekte ohne genauere Prüfung bauen sollten. Unsere Ergebnisse zeigen trotz der hochqualitativen Vorverarbeitung des DTA eine Fehlerrate von ca. 9% an, die allerdings stark nach POS-Tag variiert. Die diachrone wie synchrone Heterogenität des literarischen Diskurses führt generische POS-Tagger bislang fast zwangsläufig an ihre Grenzen, durch historische Sprachformen, aber auch die Vielfalt der Gattungen, Erzähltechniken und kreative Lexik und Syntax. Zukünftig bieten sich hier wohl zwei Wege an: zum einen die fortlaufende Verbesserung von generischen Tools, zum anderen gerade aber auch die Feinabstimmung der Tools für spezifische Anwendungen, mit flexibel ansprechbaren Tagging- und Sprachmodellen. So haben wir unsere Annotation an 
+                <hi rend="italic">moot</hi> zurückgespielt, um das spezifische Sprachmodell zu verbessern. Die Ergebnisse unseres Taggervergleich deuten zudem für bestimmte Tags auf die Nützlichkeit eines Ensemble-Taggings hin, bei dem verschiedene Algorithmen verschränkt werden (van Halteren et al., 2001).
+            </p>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl>
+                        <hi rend="bold">Biber, Douglas / Conrad, Susan</hi> (2009): 
+                        <hi rend="italic">Register, Genre, and Style</hi>. Cambridge: Cambridge University Press.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Brants, Thorsten</hi> (2000): “Inter-annotator agreement for a German newspaper corpus”, in: 
+                        <hi rend="italic">Proceedings of the Second International Conference on Language Resources and Evaluation (LREC-2000), </hi>Athens, Greece. European Language Resources Association (ELRA). 
+                        <ref target="http://www.lrec-conf.org/proceedings/lrec2000/pdf/333.pdf">
+                            <hi rend="underline color(0000FF)">http://www.lrec-conf.org/proceedings/lrec2000/pdf/333.pdf</hi>
+                        </ref>. 
+                    </bibl>
+                    <bibl>
+                        <hi rend="italic">
+                            <hi rend="bold">Brants</hi>
+                        </hi>
+                        <hi rend="st">
+                            <hi rend="italic bold">,</hi>
+                            <hi rend="bold"> Sabine / Dipper, Stefanie </hi>
+                        </hi>
+                        <hi rend="italic">
+                            <hi rend="bold">/ </hi>
+                        </hi>
+                        <hi rend="st"> </hi>
+                        <hi rend="italic">
+                            <hi rend="bold">Eisenberg</hi>
+                        </hi>
+                        <hi rend="st">
+                            <hi rend="italic bold">,</hi>
+                            <hi rend="bold"> Peter </hi>
+                            <hi rend="italic bold">/ </hi>
+                        </hi>
+                        <hi rend="italic">
+                            <hi rend="bold">Hansen</hi>
+                        </hi>
+                        <hi rend="st">
+                            <hi rend="italic bold">-</hi>
+                        </hi>
+                        <hi rend="italic">
+                            <hi rend="bold">Schirra</hi>
+                        </hi>
+                        <hi rend="st">
+                            <hi rend="italic bold">,</hi>
+                            <hi rend="bold"> Silvia </hi>
+                            <hi rend="italic bold">/ </hi>
+                        </hi>
+                        <hi rend="italic">
+                            <hi rend="bold">König</hi>
+                        </hi>
+                        <hi rend="st">
+                            <hi rend="italic bold">, </hi>
+                            <hi rend="bold">Esther </hi>
+                            <hi rend="italic bold">/ </hi>
+                        </hi>
+                        <hi rend="italic">
+                            <hi rend="bold">Lezius</hi>
+                        </hi>
+                        <hi rend="st">
+                            <hi rend="italic bold">,</hi>
+                            <hi rend="bold"> Wolfgang / Rohrer, Christian / Smith, George / </hi>
+                        </hi>
+                        <hi rend="italic">
+                            <hi rend="bold">Uszkoreit, </hi>
+                        </hi>
+                        <hi rend="st">
+                            <hi rend="bold">Hans</hi> (
+                        </hi>
+                        <hi rend="italic">2004)</hi>
+                        <hi rend="st">
+                            <hi rend="italic">: </hi>“
+                        </hi>TIGER: Linguistic interpretation of a German corpus”, in: 
+                        <hi rend="italic">Research on Language and Computation</hi>, 2(4): 597–620.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Berlin-Brandenburgische Akademie der Wissenschaften.</hi>
+                        <hi rend="italic">Deutsches Textarchiv. </hi>
+                        <ref target="http://www.deutschestextarchiv.de/">http://www.deutschestextarchiv.de/</ref> [Letzter Zugriff 13.01.2018].
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Giesbrecht, Eugenie / Evert, Stefan </hi>(2009). “Part-of-speech tagging - a solved task? An evaluation of POS taggers for the Web as corpus”, in: Alegria, I. / Leturia, I. / Sharoff, S. (eds.): 
+                        <hi rend="italic">Proceedings of the 5th Web as Corpus Workshop</hi> (WAC5), San Sebastian, Spain.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold color(222222)">Evert, Stefan</hi>
+                        <hi rend="color(222222)"> (2006): "How random is a corpus? The library metaphor", in:</hi>
+                        <hi rend="apple-converted-space">
+                            <hi rend="color(222222)"> </hi>
+                        </hi>
+                        <hi rend="italic color(222222)">Zeitschrift für Anglistik und Amerikanistik</hi>
+                        <hi rend="apple-converted-space">
+                            <hi rend="color(222222)"> </hi>
+                        </hi>
+                        <hi rend="color(222222)">54.2: 177-190.</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold color(222222)">Jurish, Bryan / Würzner, Kay-Michael</hi>
+                        <hi rend="color(222222)"> (2013). "Word and sentence tokenization with Hidden Markov Models"</hi>
+                        <hi rend="apple-converted-space">
+                            <hi rend="color(222222)">, in: </hi>
+                        </hi>
+                        <hi rend="italic color(222222)">JLCL</hi>
+                        <hi rend="apple-converted-space">
+                            <hi rend="color(222222)"> </hi>
+                        </hi>
+                        <hi rend="color(222222)">28(2): 61-83.</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold color(222222)">Kilgarriff, Adam</hi>
+                        <hi rend="color(222222)"> (2005): "Language is never, ever, ever, random", in:</hi>
+                        <hi rend="apple-converted-space">
+                            <hi rend="color(222222)"> </hi>
+                        </hi>
+                        <hi rend="italic color(222222)">Corpus linguistics and linguistic theory</hi>
+                        <hi rend="apple-converted-space">
+                            <hi rend="color(222222)"> </hi>
+                        </hi>
+                        <hi rend="color(222222)">1(2): 263-276.</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Müller, Thomas / Schmid, Helmut / Schütze, Hinrich</hi> (2013): "Efficient higher-order CRFs for morphological Tagging", in:
+                        <hi rend="apple-converted-space">
+                            <hi rend="color(222222)"> </hi>
+                        </hi>
+                        <hi rend="italic">Proceedings of the 2013 Conference on Empirical Methods in Natural Language Processing</hi>. 
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Rosenblatt, Frank</hi> (1958): "The perceptron: A probabilistic model for information storage and organization in the brain", in:
+                        <hi rend="apple-converted-space">
+                            <hi rend="color(222222)"> </hi>
+                        </hi>
+                        <hi rend="italic">Psychological Review</hi>
+                        <hi rend="apple-converted-space">
+                            <hi rend="color(222222)">, </hi>
+                        </hi>65(6): 386.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Scheible, S. / Whitt, R. J. / Durrell, M. / Bennett, P. </hi>(2011): “A gold standard corpus of Early Modern German” in: 
+                        <hi rend="italic">Proceedings of the 5th Linguistic Annotation Workshop</hi> 124–128.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Schmid, Helmut </hi>(1994). "Probabilistic part-of speech Tagging using decision trees", in:
+                        <hi rend="italic"> Proceedings of International Conference on New Methods in Language Processing</hi>, Manchester, UK. 
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Halteren, H. / Daelemans, W. / Zavrel, J.</hi> (2001): “Improving accuracy in word class tagging through the combination of Machine Learning systems”, in: 
+                        <hi rend="italic">Computational Linguistics</hi>, 
+                        <hi rend="italic">27</hi>.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

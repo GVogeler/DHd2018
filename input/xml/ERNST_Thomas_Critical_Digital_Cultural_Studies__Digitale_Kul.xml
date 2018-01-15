@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Critical Digital Cultural Studies: Digitale Kulturwissenschaft und die Kritik des Mem-Begriffs </title>
+                <author>
+                    <persName>
+                        <surname>Ernst</surname>
+                        <forename>Thomas</forename>
+                    </persName>
+                    <affiliation>University of Amsterdam, Niederlande</affiliation>
+                    <email>t.ernst@uva.nl</email>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2015-10-04T22:02:00Z</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Prof. Dr. Georg Vogeler</publisher>
+                <address>
+                    <addrLine>UniversitÃ¤t Graz</addrLine>
+                    <addrLine>Zentrum fÃ¼r Informationsmodellierung - Austrian Centre for Digital Humanities</addrLine>
+                    <addrLine>ElisabethstraÃe 59/III</addrLine>
+                    <addrLine>8010 Graz</addrLine>
+                </address>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Converted from a Word document </p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.17">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Vortrag</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Digitale Kulturwissenschaft</term>
+                    <term>Kritische Geisteswissenschaften</term>
+                    <term>Aufklärung</term>
+                    <term>Kritik</term>
+                    <term>Meme</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Kommunikation</term>
+                    <term>Theoretisierung</term>
+                    <term>Community-Bildung</term>
+                    <term>Bewertung</term>
+                    <term>Methoden</term>
+                    <term>Forschung</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>Die Digitalisierung hat weltweit nicht nur positive Effekte hervorgebracht, sondern auch vielfach kritisierte Probleme verursacht – man denke nur an die monopolistische Marktmacht intransparenter Firmen der digitalen Information (Google, Facebook), die neuen Formen der Überwachung (Snowden vs. NSA) oder die Popularisierung politischer Öffentlichkeiten und deren Beitrag zu unerwarteten Entwicklungen (Präsident Trump, Brexit, AfD). Während zwar einerseits die digitalen Medien und Kommunikationsverhältnisse den Alltag der meisten europäischen Bürgerinnen und Bürger bestimmen, hat sich andererseits noch keine digitale Kultur etabliert, in der die Bürger auf breiter Ebene kritisch und bewusst mit der Macht von Algorithmen oder den Inhalten Allgemeiner Geschäftsbedingungen umgingen.</p>
+            <p>In einer solchen Periode eines umfassenden gesellschaftlichen Medienwandels ist es die Aufgabe einer Digitalen Kulturwissenschaft, die sich neben allgemeinen kulturellen Gegenständen auch mit digitalen Öffentlichkeiten, Medien und Methoden kulturtheoretisch und -analytisch beschäftigt, sowohl innerhalb der Geisteswissenschaften als auch in die Gesellschaft hinein den Stand der digitalen Kultur kritisch zu reflektieren. Dazu gehört die Frage des Ausgleichs zwischen dem Schutz und der Öffnung persönlicher und institutioneller Daten, die Frage nach klarer Zuweisung von Identitäten oder der Möglichkeit der anonymisierten Mediennutzung, nach Formen der kollaborativen digitalen Arbeit und ihrer Regulierung oder nach den Online-Marktverhältnissen und der (Nicht-)Offenlegung von Algorithmen, die öffentliche Massenmedien regulieren – sowie deren Auswirkungen auf unterschiedliche Kulturen. Mit solchen Themen beschäftigen sich intensiv die Medien- und Medienkulturwissenschaften (vgl. Engemann 2003, Lovink 2008, Reichert 2013, Schäfer 2011), aber auch Künstler und Publizisten (Lanier 2014, Morozov 2013) sowie Politiker und politisch Bewegte (Albrecht 2014, Wagner 2017).</p>
+            <p>Für den Bereich der Kulturwissenschaft ist eine grundsätzlichere theoretische Begriffsarbeit notwendig, bevor eine Digitale Kulturwissenschaft, die sich explizit als (digital)kulturkritisch versteht, grundiert werden kann. Um solche – in einem internationalen, interdisziplinären und komparatistischen Kontext zu verortende und von mir hiermit eingeführte – 
+                <hi rend="italic">Critical Digital Cultural Studies</hi> zu begründen, muss zunächst ein angemessener Begriff der Kritik bestimmt werden. Dieser lässt sich in einem dreifachen Verfahren konturieren: Zunächst kann ein kulturwissenschaftlicher Begriff der Kritik in einer kritischen Lektüre der Auseinandersetzungen von Theodor W. Adorno, Max Horkheimer und Michel Foucault mit den Begriffen der Kritik und der Aufklärung ermöglichen, einen kulturtheoretisch fundierten Begriff einer Kritik der digitalen Vernunft zu entwickeln.
+            </p>
+            <p>Max Horkheimer hat 1937 mit seiner Unterscheidung von traditioneller und kritischer Theorie „die mathematische Naturwissenschaft, die als ewiger Logos erscheint,“ einer geisteswissenschaftlich-begrifflich ausgerichteten „kritische[n] Theorie der bestehenden Gesellschaft“ (Horkheimer 1995: 215) gegenübergestellt. Als Folge des Nationalsozialismus und des Holocaust denken Horkheimer und Theodor W. Adorno in ihrer 
+                <hi rend="italic">Dialektik der Aufklärung</hi> über die Konsequenzen aus diesem Zivilisationsbruch nach: Fortan müsse das Denken von der „Selbstzerstörung der Aufklärung“ ausgehen, zugleich sei allerdings – so die dialektische Figur – „die Freiheit in der Gesellschaft vom aufklärenden Denken unabtrennbar“ (Horkheimer/Adorno 2000: 3). Eine starke Skepsis gegen die Massenmedien und die technische Entwicklung prägen diesen Ansatz, der die Selbstzerstörung der Aufklärung durch mehr (individuelle) Aufklärung überwinden will.
+            </p>
+            <p>Es mag überraschen, dass Michel Foucault in seiner Arbeit über einen diskursanalytisch fundierten Begriff der Kritik explizit an diese Vernunftkritik der Kritischen Theorie anschließt, wobei die Technikkritik weniger in seinem Fokus steht. Foucault stellt den Begriff der Kritik jenem der Regierung, der „Regierbarmachung der Gesellschaft“ (Foucault 1992: 17), entgegen: Kritik als „die Kunst nicht dermaßen regiert zu werden.“ (Ebd.: 12) Innerhalb dieses Verständnisses der Kritik stehen die Begriffe des Wissens und der Macht zentral: Wissen bezeichnet bei Foucault „alle Erkenntnisverfahren und -wirkungen [...], die in einem bestimmten Moment und in einem bestimmten Gebiet akzeptabel sind“; Macht wiederum jene Mechanismen, „die in der Lage scheinen, Verhalten oder Diskurse zu induzieren“ (ebd.: 32). Foucault plädiert somit für die kritische Analyse jener gesellschaftlichen Vernetzungen, die der Wissensproduktion und zugleich der Legitimation dieses Wissens – und somit der Machtausübung – dienen (vgl. ebd.: 37). Mit Foucault ließe sich ein kulturtheoretisch und diskursanalytisch fundierter Begriff der Kritik formulieren, der gerade nicht – wie noch bei Adorno und Horkheimer – technik- und massenfeindlich ist, sondern vielmehr auch bei der Analyse digitaler Massenmedien genutzt werden und zugleich kritisch gegen die Wissensproduktion der traditionellen und der Digitalen Kulturwissenschaft selbst gewendet werden kann (vgl. auch Foucault 1995, Foucault 2003).</p>
+            <p>Ein solchermaßen konturierter kritischer Begriff des Wissens kann zusätzlich bereichert werden durch bisherige Arbeiten aus verwandten Schulen und Teildisziplinen. Dazu zählen unter anderem die 
+                <hi rend="italic">Critical Code Studies</hi>, die ihre Analysen stärker auf Code und Software selbst konzentrieren, die 
+                <hi rend="italic">Critical Digital Studies</hi> (vgl. Kroker/Kroker 2013) und die 
+                <hi rend="italic">Critical Cultural Studies</hi>. Dies würde zugleich ermöglichen, Gegenstände, Felder und Methoden der 
+                <hi rend="italic">Critical Digital Cultural Studies</hi> zu differenzieren, wobei hier insbesondere eine klare Bestimmung der Objekte der Kritik, eine klare Differenzierung der Kriterien der Kritik sowie eine selbstreflexive Kritik der Kritik (vgl. auch Ullmaier 2017: 71) unabdingbar erscheinen. Eine solche kritische Form der Geisteswissenschaft, die auf digitales Wissen und digitale Methoden fokussiert und zugleich auf kulturtheoretisches Wissen zurückgreifen kann, wird nicht nur eine kritische Funktion in der Gesellschaft einnehmen können, sondern auch innerhalb der Kulturwissenschaften bestehende Konzepte, Theorien und Methoden problematisieren können – und zugleich auch in die Digital Humanities selbst wirken.
+            </p>
+            <p>Die Produktivität einer solchen Engführung von kulturwissenschaftlichen Begriffen der Aufklärung und der kritischen Geisteswissenschaft mit Theoremen, Methoden und Themen der Digital Humanities kann schließlich an einem repräsentativen Beispiel vorgeführt werden. Der Biologe Richard Dawkins führte 1976 den ‚Mem’-Begriff ein, um analog zur Genetik auch die soziokulturelle Evolution begrifflich fassen zu können (vgl. Dawkins 1976). Dieses Konzept hat sich inzwischen auch in den Medien- und Kommunikationswissenschaften sowie teilweise auch in den Kulturwissenschaften durchgesetzt, insbesondere um virale Internetphänomene konzeptionell beschreiben zu können (vgl. u.a. Shifman 2014). Die breite Kritik an der Memtheorie, die unterkomplex sei und viele kultur- und sozialwissenschaftliche Erkenntnisse missachte, kann hier in einer direkten Konfrontation mit der machtkritischen Diskursanalyse Michel Foucaults geleistet werden, die ein wesentlich komplexeres Modell sozialer Entwicklung und Kommunikation zur Verfügung stellt, das über den Diskursbegriff die Produktion, Legitimation und Distribution von Wissen unter den jeweiligen Machtverhältnissen zu beschreiben versucht (Foucault 1995, Foucault 2003). Damit trägt der Vortrag zu einer selbstreflexiven Diskussion einer Erkenntniskategorie der Digital Humanities bei, indem er zwar nicht selbst digitale Methoden oder Daten einsetzt, diese jedoch kulturtheoretisch reflektiert – und somit für eine kulturtheoretische Auseinandersetzung mit ihren Erkenntniskategorien auch innerhalb der Digital Humanities plädiert, die perspektivisch ihre gesellschaftliche Relevanz befördern kann.</p>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl>
+                        <hi rend="bold">Albrecht, Jan Philipp</hi> (2014): 
+                        <hi rend="italic">Finger weg von unseren Daten! Wie wir entmündigt und ausgenommen werden</hi>. München: Droemer Knaur.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Bal, Mieke</hi> (2006): 
+                        <hi rend="italic">Kulturanalyse</hi>. Frankfurt am Main: Suhrkamp.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Dawkins, Richard</hi> (1976): 
+                        <hi rend="italic">The Selfish Gene</hi>. Oxford: Oxford University Press.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Engemann, Christoph</hi> (2003): 
+                        <hi rend="italic">Electronic Government – vom User zum Bürger. Zur kritischen Theorie des Internet</hi>. Bielefeld: transcript.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Foucault, Michel</hi> (1992): 
+                        <hi rend="italic">Was ist Kritik?</hi> Aus dem Französischen von Walter Seitter. Berlin: Merve.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Foucault, Michel</hi> (1995): 
+                        <hi rend="italic">Archäologie des Wissens</hi>. Übersetzt von Ulrich Köppen. 7. Aufl., Frankfurt am Main: Suhrkamp.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Foucault, Michel</hi> (2003): 
+                        <hi rend="italic">Die Ordnung des Diskurses</hi>. Aus dem Französischen von Walter Seitter. Mit einem Essay von Ralf Konersmann. 9. Aufl., Frankfurt am Main: S. Fischer.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Horkheimer, Max</hi> (1995): „Traditionelle und kritische Theorie (1937)“, in: Ders.: 
+                        <hi rend="italic">Traditionelle und kritische Theorie. Fünf Aufsätze</hi>. Frankfurt am Main: S. Fischer 205-259.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Horkheimer, Max / Adorno, Theodor W.</hi> (2000): 
+                        <hi rend="italic">Dialektik der Aufklärung. Philosophische Fragmente</hi>. 12. Aufl., Frankfurt am Main: S. Fischer.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Lanier, Jaron</hi> (2014): 
+                        <hi rend="italic">Wem gehört die Zukunft? Du bist nicht die Zukunft der Internet-Konzerne. Du bist ihr Produkt</hi>. Hamburg: Hoffmann und Campe.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Lovink, Geert</hi> (2008): 
+                        <hi rend="italic">Zero Comments. Elemente einer kritischen Internetkultur</hi>. Bielefeld: transcript.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Morozov, Evgeny</hi> (2013): 
+                        <hi rend="italic">Smarte neue Welt. Digitale Technik und die Freiheit des Menschen</hi>. München: Blessing.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Reichert, Ramón</hi> (2013): 
+                        <hi rend="italic">Die Macht der Vielen. Über den neuen Kult der digitalen Vernetzung</hi>. Bielefeld: transcript.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Schäfer, Mirko Tobias</hi> (2011): 
+                        <hi rend="italic">Bastard Culture! How User Participation Transforms Cultural Production</hi>. Amsterdam: Amsterdam University Press. http://oapen.org/download?type=document&amp;docid=371358 [letzter Zugriff 14. Januar 2018].
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Schäfer, Mirko Tobias / van Es, Karin</hi> (eds., 2017): 
+                        <hi rend="italic">The Datafied Society. Studying Culture Through Data</hi>. Amsterdam: Amsterdam University Press.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Shifman, Limor</hi> (2014): 
+                        <hi rend="italic">Meme. Kunst, Kultur und Politik im digitalen Zeitalter</hi>. Berlin: Suhrkamp.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Ullmaier, Johannes</hi> (2017): „Kategorien der Kritik. Detaillierte Inhaltsübersicht zu einer ungeschriebenen Studie“, in: 
+                        <hi rend="italic">Testcard. Beiträge zur Popgeschichte</hi> 25: 70-88.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Wagner, Thomas</hi> (2017): 
+                        <hi rend="italic">Das Netz in unsere Hand! Vom digitalen Kapitalismus zur Datendemokratie</hi>. Köln: PapyRossa.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

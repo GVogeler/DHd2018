@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="full">
+                    <title type="main">Annotation and beyond – Using ATHEN</title>
+                    <title type="sub">Annotation and Text Highlighting Environment</title>
+                </title>
+                <author>
+                    <persName>
+                        <surname>Krug</surname>
+                        <forename>Markus</forename>
+                    </persName>
+                    <affiliation>Universität Würzburg, Deutschland</affiliation>
+                    <email>markus.krug@uni-wuerzburg.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Tu</surname>
+                        <forename>Ngoc Duyen Tanja</forename>
+                    </persName>
+                    <affiliation>Institut für Deutsche Sprache, Deutschland</affiliation>
+                    <email>tu@ids-mannheim.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Weimer</surname>
+                        <forename>Lukas</forename>
+                    </persName>
+                    <affiliation>Universität Würzburg, Deutschland</affiliation>
+                    <email>lukas.weimer@uni-wuerzburg.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Reger</surname>
+                        <forename>Isabella</forename>
+                    </persName>
+                    <affiliation>Universität Würzburg, Deutschland</affiliation>
+                    <email>isabella.reger@uni-wuerzburg.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Konle</surname>
+                        <forename>Leonard</forename>
+                    </persName>
+                    <affiliation>Universität Würzburg, Deutschland</affiliation>
+                    <email>leonard.konle@uni-wuerzburg.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Jannidis</surname>
+                        <forename>Fotis</forename>
+                    </persName>
+                    <affiliation>Universität Würzburg, Deutschland</affiliation>
+                    <email>fotis.jannidis@uni-wuerzburg.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Puppe</surname>
+                        <forename>Frank</forename>
+                    </persName>
+                    <affiliation>Universität Würzburg, Deutschland</affiliation>
+                    <email>puppe@informatik.uni-wuerzburg.de</email>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2017-09-22T10:20:00Z</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Prof. Dr. Georg Vogeler</publisher>
+                <address>
+                    <addrLine>UniversitÃ¤t Graz</addrLine>
+                    <addrLine>Zentrum fÃ¼r Informationsmodellierung - Austrian Centre for Digital Humanities</addrLine>
+                    <addrLine>ElisabethstraÃe 59/III</addrLine>
+                    <addrLine>8010 Graz</addrLine>
+                </address>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Converted from a Word document </p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.17">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Workshop</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Annotation</term>
+                    <term>Query</term>
+                    <term>NLP</term>
+                    <term>Preprocessing</term>
+                    <term>Extensibility</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Programmierung</term>
+                    <term>Annotieren</term>
+                    <term>Bearbeitung</term>
+                    <term>Visualisierung</term>
+                    <term>Metadaten</term>
+                    <term>Software</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div/>
+            <div type="div1" rend="DH-Heading1">
+                <head>Goals of the workshop</head>
+                <p>The workshop presents ATHEN
+                    <note place="foot" xml:id="ftn1" n="1">
+                        <p>
+                            <ref target="https://gitlab2.informatik.uni-wuerzburg.de/kallimachos/Athen">https://gitlab2.informatik.uni-wuerzburg.de/kallimachos/Athen</ref>
+                        </p>
+                    </note> (
+                    <hi rend="bold">A</hi>nnotation and 
+                    <hi rend="bold">T</hi>ext 
+                    <hi rend="bold">H</hi>ighlighting 
+                    <hi rend="bold">En</hi>vironment), an extensible desktop-based annotation environment which supports more than just regular annotation. Besides being a general purpose annotation environment, ATHEN supports indexing and querying support of your data as well as the ability to automatically preprocess your data with Meta information. It is especially suited for those who want to extend existing general purpose annotation tools by implementing their own custom features, which cannot be fulfilled by other available annotation environments. On the according gitlab, we provide online tutorials, which demonstrate the use of specific features of ATHEN.
+                </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Related Work</head>
+                <p>We compare ATHEN to three web-based and four desktop applications in 12 categories by adapting most criteria defined by Neves and Leser (Neves / Leser 2012) to compare different annotation tools:</p>
+                <p>1. Availability and up-to-dateness of the documentation</p>
+                <p>2. Active development at the present time</p>
+                <p>3. Source code for download</p>
+                <p>4. Complexity of system requirements</p>
+                <p>5. Interoperability by supporting certain formats</p>
+                <p>6. Support of different annotation layers</p>
+                <p>7. Support of NLP-preprocessing to speed up manual annotation</p>
+                <p>8. Support of visualization</p>
+                <p>9. Support of self-learning systems to speed up manual annotation</p>
+                <p>10. Support of querying annotated data</p>
+                <p>11. Possibility to do an inter-annotator-agreement, this is important for projects, in which more than one annotator labels the same documents</p>
+                <p>12. Extensibility </p>
+                <p>We explicitly do not want to compare subjective features like usability or how the annotations are presented.</p>
+                <figure>
+                    <graphic n="1001" width="16.002cm" height="8.225013888888888cm" url="Pictures/image1.png" rend="inline"/>
+                    <head>Table 1: Comparison of three web-based and four desktop applications with ATHEN in twelve categories. No tool excels in every category.</head>
+                </figure>
+                <p>All of the listed tools have an accessible documentation, either web-based or as a PDF, available for download. Besides UAM (O'Donnell 2008), every other application is listed as open source, so at least extensions based on code level can be made. WebAnno (Yimam et al. 2013) is the only application having a tutorial supporting a new developer to make changes in their project. ATHEN stands out in the sense that extensions to its UI can be made at runtime, therefore easing the process of adding functionality to it. WebAnno supports the largest number of formats and comes with a machine learning based automatic annotation, however lacks integrated NLP-preprocessing. CATMA (Meister 2017) is the only project that has a very good visualization component and also supports TEI-XML (Wittern et al 2009), the unspoken standard of text processing. Being a standalone web application, CATMA itself does not support NLP-preprocessing. ATHEN comes with the support of the execution of UIMA analysis engines, accessible from web repositories or a local repository, giving the user a chance to integrate her custom-made annotators. Four tools, ATHEN, UAM, MMAX2 (Müller / Strube 2006) and CATMA feature an integrated query language which helps to analyze existing corpora. Most tools allow the annotation of user-defined annotation schemas earning therefore the title “generic annotation tool”. Alongside UAM, ATHEN supports the annotation based on queries, while UAM defines its own language, ATHEN supports the annotation using Apache UIMA Ruta (Kluegl et al. 2016) rules. Three of the listed tools, MMAX2, Knowtator (Ogren 2006) and WordFreak (Morton / LaCivita 2003) are currently no longer in active development. </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Brief technological description of ATHEN</head>
+                <p>ATHEN is a Java-based desktop application with the vision to be extensible. Therefore, it makes use of the flexible plugin architecture of the eclipse 
+                    <hi rend="bold">R</hi>ich-
+                    <hi rend="bold">C</hi>lient-
+                    <hi rend="bold">P</hi>latform (RCP)
+                    <note place="foot" xml:id="ftn2" n="2">
+                        <p rend="footnote text">A web version of ATHEN with its major features is available at: 
+                            <ref target="https://webathen.informatik.uni-wuerzburg.de">https://webathen.informatik.uni-wuerzburg.de</ref>
+                        </p>
+                    </note>. Internally, it is built around Apache UIMA, which means incoming data is automatically converted into the UIMA specific Common Analysis Subject (CAS) architecture. Working with UIMA allows the integration of standalone analysis engines, which can be used to preprocess data and speed up manual annotation. The use of Apache Lucene enables ATHEN to create an index comprising documents, as well as their annotations, which results in queries that can answer questions based on text and meta information in real time. With the ability to execute Apache UIMA Ruta one can even create queries of far higher complexity. On top of that, ATHEN features OWL-Support, which allows the definition of an ontological annotation schema in a machine- readable format. Using Apache UIMA internally allows ATHEN to even address more complicated input. Currently ATHEN supports the annotation of image regions, based on user defined polygons.
+                </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Program of the workshop</head>
+                <p>The program is split into four sections:</p>
+                <list type="ordered">
+                    <item>Introduction to ATHEN and distinguishing from other existing annotation environments.</item>
+                    <item>Working with ATHEN, which contains the definition of scenarios and annotating sample documents.</item>
+                    <item>Utility of ATHEN (beyond regular annotation), which addresses the following topics:
+                        <list type="ordered">
+                            <item>Defining an annotation schema using OWL</item>
+                            <item>Preprocessing texts based on Apache UIMA Analysis Engines</item>
+                            <item>Creating and executing queries based on Apache Lucene</item>
+                            <item>Annotating images with ATHEN</item>
+                        </list>
+                    </item>
+                    <item>Extending ATHENs functionalities and adapting it to your needs (developer specific)</item>
+                </list>
+                <p>The first section is a presentation which shows the main differences between the existing annotation tools. The second section defines an ordinary annotation scenario and it is used to introduce the participants to the general-purpose annotation view of ATHEN. Afterwards, for tasks to which ATHEN has special support (annotating character references and their coreferences, annotating direct speech and their speaker) an introduction to the special purpose views of ATHEN is given.</p>
+                <p>The third panel introduces the participants to the functionality of ATHEN beyond regular text annotation. It starts with the definition of an OWL ontology (and its utilization for texts). This is centered on relation detection of character references, as well as an attribution of those references.</p>
+                <p>To speed up manual annotation it is helpful to have it preprocessed with existing tools. The task definition is then changed from pure annotation to an application with a consecutive correction of the output of the automatic engines. In this context, Nappi, a submodule of ATHEN is presented and it is shown how to define, execute and integrate custom analysis engines. </p>
+                <p>The next part is dedicated towards extracting knowledge from annotated data, for this purpose, an Apache Lucene Index is created using ATHEN and is queried in a live fashion. This feature allows rapid insight into an existing corpus and enables the user to answer their own hypothesis.</p>
+                <p>The tutorial continues with the presentation of how images can be annotated with polygon-based annotations to show, that ATHEN is not only limited to textual resources.</p>
+                <p>The last part is directed towards Java developers who are interested in developing their own annotation component.</p>
+                <p>Each section starts with a set of slides which introduce the features in focus and presents the participants with one or more tasks that can be fulfilled by using ATHEN.</p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Requirements</head>
+                <p>The participants need their own laptops with an active internet connection. The number of participants is limited to 15 to 20. The last section requires knowledge of Java. Data which is necessary for the tutorials will be hosted on our own server and will be made accessible for download.</p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Research projects</head>
+                <p>ATHEN is mainly developed in the context of the project Kallimachos at the University of Wuerzburg. Its main purpose was to support the annotation process of DROC (
+                    <hi rend="bold">D</hi>eutscher 
+                    <hi rend="bold">RO</hi>man 
+                    <hi rend="bold">C</hi>orpus). Currently automatic creation of literary interaction networks, automatic genre detection of novels and sentiment analysis in literary novels are in the focus of interest.
+                </p>
+                <p>An extension to ATHEN was made in the project “Redewiedergabe” to manually annotate different forms of speech, thought and writing representation (STWR). These annotations will then be used to train an automatic recognizer for STWR.</p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl>
+                        <hi rend="bold">Kluegl, Peter / Toepfer, Martin / Beck, Philip-Daniel / Fette, Georg / Puppe, Frank</hi> (2016): “UIMA Ruta: Rapid Development of Rule-based Information Extraction Applications“, in: 
+                        <hi rend="italic">Natural Language Engineering 22.1</hi> 1-41.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Meister, Jan Christoph / Gius, Evelyn / Jacke, Janina / Petris, Marco</hi>: 
+                        <hi rend="italic">CATMA 5.0.</hi>
+                        <ref target="http://catma.de/">http://catma.de/</ref> [Accessed September 22, 2017].
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Morton, Thomas / LaCivita, Jeremy</hi> (2003): “WordFreak: an open tool for linguistic annotation“, in: 
+                        <hi rend="italic">Proceedings of the 2003 Conference of the North American Chapter of the Association for Computational Linguistics on Human Language Technology: Demonstrations-Volume 4 </hi>17-18.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Müller, Christoph / Strube, Michael </hi>(2006): “Multi-level annotation of linguistic data with MMAX“, in
+                        <hi rend="italic">: Corpus technology and language pedagogy: New resources, new tools, new methods 3</hi> 197-214.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Neves, Mariana / Leser, Ulf </hi>(2012): “A survey on annotation tools for the biomedical literature“, in: 
+                        <hi rend="italic">Briefings in Bioinformatics 15.2</hi> 327-340.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">O'Donnell, Mick</hi> (2008): “Demonstration of the UAM CorpusTool for text and image annotation“, in: 
+                        <hi rend="italic">Proceedings of the 46th annual meeting of the Association for computational linguistics on human language technologies: Demo session</hi> 13-16.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Ogren, Philip V.</hi> (2006): “Knowtator: a Protégé plug-in for annotated corpus construction“, in: 
+                        <hi rend="italic">Proceedings of the 2006 Conference of the North American Chapter of the Association for Computational Linguistics on Human Language Technology: companion volume: demonstrations</hi> 273-275.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Stenetorp, Pontus / Pyysalo, Sampo / Topić, Goran / Ohta, Tomoko / Ananiadou, Sophia / Tsujii, Jun’ichi</hi> (2012): “BRAT: a Web-based Tool for NLP-Assisted Text Annotation“, in : 
+                        <hi rend="italic">Proceedings of the Demonstrations at the 13th Conference of the European Chapter of the Association for Computational Linguistics</hi> 102-107.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Wittern, Christian / Ciula, Arianna / Tuohy, Conal</hi> (2009): “The making of TEI P5“, in: 
+                        <hi rend="italic">Literary and Linguistic Computing 24.3</hi> 281-296.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Yimam, Seid Muhie / Gurevych, Iryna / de Castilho, Richard Eckart / Biemann, Chris</hi> (2013): “WebAnno: A Flexible, Web-based and Visually Supported System for Distributed Annotations“, in: 
+                        <hi rend="italic">Proceedings of ACL-2013, demo session, Sofia, Bulgaria</hi> 1-6
+                        <hi rend="italic">.</hi>
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Eine nachhaltige Präsentationsschicht für digitale Editionen </title>
+                <author>
+                    <persName>
+                        <surname>Fechner</surname>
+                        <forename>Martin</forename>
+                    </persName>
+                    <affiliation>Berlin-Brandenburgische Akademie der Wissenschaften, Deutschland</affiliation>
+                    <email>fechner@bbaw.de</email>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2018-01-11T09:46:00Z</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Prof. Dr. Georg Vogeler</publisher>
+                <address>
+                    <addrLine>UniversitÃ¤t Graz</addrLine>
+                    <addrLine>Zentrum fÃ¼r Informationsmodellierung - Austrian Centre for Digital Humanities</addrLine>
+                    <addrLine>ElisabethstraÃe 59/III</addrLine>
+                    <addrLine>8010 Graz</addrLine>
+                </address>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Converted from a Word document </p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.17">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Vortrag</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Digitale Edition</term>
+                    <term>Präsentation</term>
+                    <term>Standardisierung</term>
+                    <term>IIIF</term>
+                    <term>Langzeitverfügbarkeit</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Teilen</term>
+                    <term>Archivierung</term>
+                    <term>Veröffentlichung</term>
+                    <term>Daten</term>
+                    <term>Bilder</term>
+                    <term>Text</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="div1" rend="DH-Heading1">
+                <head>Einleitung</head>
+                <p>Die Anforderungen an die Erstellung von Editionen sind im letzten Jahrzehnt gestiegen.
+                    <note place="foot" xml:id="ftn1" n="1">
+                        <p> Ziele von Editionen finden sich bei (Förderkriterien 2015, Eggert 2016, Ralle 2016 und Sahle 2016).</p>
+                    </note> Es ist unstreitig, dass digitale Editionen Annäherungen an den edierten Text ermöglichen, die weit über den statischen Druck hinausgehen (Sahle 2016). Gleichzeitig gibt es aber auch noch immer Anforderungen, etwa die Zitierbarkeit, die im Druck gelöst sind, zu denen es aber in der Webpublikation noch keine einheitliche Entsprechung gibt. Insbesondere stellt sich die Frage nach der Nachhaltigkeit und der Langzeitarchivierung.
+                    <note place="foot" xml:id="ftn2" n="2">
+                        <p> Für die Forschungsdaten selbst ist die Langzeitarchivierung grundsätzlich gelöst. Digitalen Editionen wird jedoch nur geringe Zuverlässigkeit zugeschrieben (Pierazzo 2015: 169).</p>
+                    </note>
+                </p>
+                <p>Ein Lösungsansatz besteht darin, Techniken der Data Curation zu etablieren (Pempe 2012: 141f.). Damit ist aber ein Aufwand verbunden, der linear mit der Zahl der Webpublikationen wächst und sogar polynomial ansteigt, wenn auch die Schnittstellen zu verknüpften Ressourcen gepflegt werden müssen. Eine besondere Herausforderung stellt sich, wenn man sinnvollerweise annimmt, dass die Darstellung und die Funktionalitäten Teil der Edition selbst sind (Ralle 2016, Pierazzo 2015: 127-146, Porter 2016 und Turska et al. 2016). Wenn also nur die Forschungsdaten nachhaltig archiviert werden, geht die ursprüngliche Präsentation letztendlich verloren. Es wird zwar momentan auf die Einführung von Standards gesetzt, 
+                    <note place="foot" xml:id="ftn3" n="3">
+                        <p> So wird das Format der Text Encoding Initiative (TEI) verbreitet eingesetzt, das nur ein erster Schritt zur Standardisierung ist (Holmes 2017). Weitere Standards und Identifikatoren sind etwa die GND für Personen, GeoNames-IDs für Orte oder der Canocical Text Service (CTS) für Zitationen, das DITA- oder DocBook-Format für (technische) Dokumentationen. Als Langzeitarchivierungsformat für Metadaten gibt es etwa LMER (Steinke 2005).</p>
+                    </note> einen wirklichen Mehrwert für den Gebrauch von digitalen Editionen entfalten diese aber erst, wenn sie durch das Angebot von technischen Schnittstellen unterstützt werden.
+                    <note place="foot" xml:id="ftn4" n="4">
+                        <p> Gute Ansätze einer Präsentationsoberfläche für Einzeldokumente bietet der "teiPublisher", der auf dem Datenformat ODD aufbaut (Meier 2017, Meier/Turska 2016 und Turska et al. 2016). </p>
+                    </note> Bisher fehlt es jedoch an einem klar definierten Interface, welches die Forschungsdaten in eine nachhaltige funktionale Präsentationsform mit allen Aspekten einer digitalen Edition übersetzt.
+                    <note place="foot" xml:id="ftn5" n="5">
+                        <p> Die Benutzbarkeit digitaler Editionen leidet unter mangelnden Interfaces (Robinson 2016). Pierazzo sieht es als Nachteil, dass viele digitale Editionen unterschiedliche User Interfaces besitzen, hält aber eine zukünftige Angleichung für wahrscheinlich (Pierazzo 2015: 162).</p>
+                    </note>
+                </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Entwurf einer Schnittstelle</head>
+                <p>Hier wird nun ein System für die Nachhaltigkeit von Webpublikationen entworfen. Es verbindet die Daten mit der Präsentationsschicht und kann mithilfe einer projektspezifischen, archivierbaren Konfiguration über eine Schnittstelle gesteuert werden. Durch den Einsatz einer solchen Schnittstelle können Webpublikationen inklusive der entsprechenden Funktionalitäten aus den Forschungsdaten reproduziert werden.
+                    <note place="foot" xml:id="ftn6" n="6">
+                        <p> Es gibt dabei sehr unterschiedliche Anforderungen, die an die Präsentation digitaler Editionen gestellt werden (Shillingsburg 2016, Ralle 2016: 154f. und Sahle 2014).</p>
+                    </note> Digitale Editionen unterscheiden sich technisch zwar zurzeit noch stark voneinander (Robinson 2016), der hier gemachte Vorschlag und das sich anschließende Software-Beispiel zeigen daher, wo es schon jetzt Möglichkeiten zur Standardisierung gibt und wie diese aussehen könnten. 
+                </p>
+                <p>Vorbild für das System ist der erfolgreiche IIIF-Standard, der zu einem ähnlichen Zweck für Bilder eingeführt wurde (Cramer 2011). Der IIIF-Standard sieht eine Aufteilung von Server- und Clientstruktur vor, und als Austauschformat fungiert eine Manifest-Datei. Übertragen auf Digitale Editionen heißt dies, dass eine archivierbare Manifestdatei notwendige Definitionen festhält, mit denen es einem Viewer möglich ist, die vollständige Präsentation und Funktionalität der jeweiligen digitalen Edition herzustellen.
+                    <note place="foot" xml:id="ftn7" n="7">
+                        <p> Für die Langzeitarchivierung könnte eine Kompatibilität der Manifestdatei etwa mit LMER hergestellt werden (Steinke 2005).</p>
+                    </note>
+                </p>
+                <div type="div2" rend="DH-Heading2">
+                    <head>Manifestdatei</head>
+                    <p>Der Vorschlag für eine Manifestdatei, aus der die Funktionalitäten hergestellt werden können, lautet wie folgt (vgl. auch die nachstehende Tabelle):</p>
+                    <p>Ganz konkret sollten die notwendigen Metadaten der digitalen Edition definiert werden. Dabei kann darüber diskutiert werden, welche Informationen für eine digitale Edition notwendig und welche für wünschenswert gehalten werden.</p>
+                    <p>Mit der Definition einer Gliederung der Materialien, also von Editionstexten, Kommentaren und Begleitmaterial, können sinnvolle hierarchische Navigationselemente in der Darstellung umgesetzt werden.</p>
+                    <p>In der Präsentationsoberfläche muss es möglich sein, zu den verschiedenen Datentypen zu navigieren und entsprechende Überblickslisten anzeigen zu lassen. Dafür werden die Typen von Datenobjekten (etwa Textsorten oder Register) definiert. Für die Unterstützung von facettierten Filtern, müssen diese entsprechend festgelegt werden. </p>
+                    <p>Die Darstellung der Dokumente in der Einzelansicht kann unter Einbindung von Schnittstellen für die Transformation geschehen.
+                        <note place="foot" xml:id="ftn8" n="8">
+                            <p> TEI-Dokumente können etwa mit ODD zur Einzelpräsentation transformiert werden (Meier 2017).</p>
+                        </note> Auch können für die Navigation zu Abschnitten im Dokument, die entsprechenden Teile definiert werden. Zu jedem Objekttyp sollten auch die vorhandenen Beziehungen zu Teilen, als auch zu anderen Objekttypen festgehalten werden. Damit können verschiedene Forschungsdaten in einer dynamischen Ansicht zusammengeführt werden.
+                    </p>
+                    <p>Für eine nachhaltige Einbindung externer Ressourcen sollte definiert werden, auf welche Ressourcen die Edition Bezug nimmt und welche Schnittstellen dazu genutzt werden. Die Integration externer Ressourcen kann problematisch sein, wenn deren Verfügbarkeit noch nicht gesichert ist.
+                        <note place="foot" xml:id="ftn9" n="9">
+                            <p> Externe Daten können auch in eine „Standalone“ Version überführt werden (Holmes 2017).</p>
+                        </note>
+                    </p>
+                    <table rend="rules">
+                        <row>
+                            <cell rend="DH-Default">
+                                <hi rend="bold">Zu definierende Elemente</hi>
+                            </cell>
+                            <cell rend="DH-Default">
+                                <hi rend="bold">Zu definierende Eigenschaften</hi>
+                            </cell>
+                            <cell rend="DH-Default">
+                                <hi rend="bold">Steht in Beziehung zu</hi>
+                            </cell>
+                        </row>
+                        <row>
+                            <cell rend="DH-Default">
+                                <hi rend="bold">Metadaten</hi>
+                            </cell>
+                            <cell rend="DH-Default">Titelei, Impressum, Lizenzangaben</cell>
+                            <cell rend="DH-Default"/>
+                        </row>
+                        <row>
+                            <cell rend="DH-Default">
+                                <hi rend="bold">Gliederung der Edition</hi>
+                            </cell>
+                            <cell rend="DH-Default">Hierarchie, Verweise auf Objekte / Objekttypen</cell>
+                            <cell rend="DH-Default">Objekttypen</cell>
+                        </row>
+                        <row>
+                            <cell rend="DH-Default">
+                                <hi rend="bold">Gesamtschau</hi>
+                            </cell>
+                            <cell rend="DH-Default">Typ, Sortierungen</cell>
+                            <cell rend="DH-Default"/>
+                        </row>
+                        <row>
+                            <cell rend="DH-Default">
+                                <hi rend="bold">Filterdefinitionen</hi>
+                            </cell>
+                            <cell rend="DH-Default">
+                                <p>Name, Typ, ID</p>
+                                <p>Kontext: Zugehöriger Objekttyp</p>
+                                <p>Wurzel des Filterobjekts (XPath)</p>
+                                <p>Pfad zum Filterwert (XPath oder XQuery)</p>
+                                <p>Labelingfunktion (XPath oder XQuery)</p>
+                            </cell>
+                            <cell rend="DH-Default"/>
+                        </row>
+                        <row>
+                            <cell rend="DH-Default">
+                                <hi rend="bold">Dokumente und Objekte</hi>
+                            </cell>
+                            <cell rend="DH-Default">
+                                <p>Name, Typ</p>
+                                <p>Schnittstelle: Zugang zu den Objekten</p>
+                                <p>Objekt-Wurzel</p>
+                                <p>Pfad zur Objekt-ID (XPath oder XQuery)</p>
+                                <p>Pfad zum Objekttitel</p>
+                                <p>Thumbnail: Funktionsdefinition für Kurzanzeige (HTML)</p>
+                            </cell>
+                            <cell rend="DH-Default">Gesamtschau, Filter, Einzelpräsentation, Binnenstruktur, Beziehungen, Schnittstellen, Zitation</cell>
+                        </row>
+                        <row>
+                            <cell rend="DH-Default">
+                                <hi rend="bold">Einzelpräsentation</hi>
+                            </cell>
+                            <cell rend="DH-Default">Schnittstelle: Formate und Transformationskripte (ODD)</cell>
+                            <cell rend="DH-Default"/>
+                        </row>
+                        <row>
+                            <cell rend="DH-Default">
+                                <hi rend="bold">Binnenstruktur</hi>
+                            </cell>
+                            <cell rend="DH-Default">
+                                <p>Name, ID</p>
+                                <p>Wurzel der referenzierbaren Objektteile (XPath)</p>
+                                <p>Pfad zur jeweiligen ID (XPath)</p>
+                                <p>Titel und Thumbnail für die Darstellung in einer Liste</p>
+                            </cell>
+                            <cell rend="DH-Default"/>
+                        </row>
+                        <row>
+                            <cell rend="DH-Default">
+                                <hi rend="bold">Beziehungen</hi>
+                            </cell>
+                            <cell rend="DH-Default">
+                                <p>Name, ID</p>
+                                <p>Subjekt, Prädikat, Objekt-Beziehungen</p>
+                            </cell>
+                            <cell rend="DH-Default">Objekttypen, Teile von Objekttypen</cell>
+                        </row>
+                        <row>
+                            <cell rend="DH-Default">
+                                <hi rend="bold">Schnittstellen</hi>
+                            </cell>
+                            <cell rend="DH-Default">Label
+                                <lb/>Pfad zu den Elementen (XPath)
+                                <lb/>Schnittstellen (URLs)
+                            </cell>
+                            <cell rend="DH-Default"/>
+                        </row>
+                    </table>
+                    <p>Tabelle 1: Definitionen für die Schnittstelle</p>
+                </div>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Prototyp</head>
+                <p>Im Forschungprojekt „ediarum“ wird momentan ein Prototyp entwickelt, der das vorgestellte Konzept umsetzt und die Anforderungen der Darstellung erfüllen soll (Dumont/Fechner 2014 und 
+                    <ref target="http://www.bbaw.de/telota/software/ediarum">http://www.bbaw.de/telota/software/ediarum</ref>
+                    <hi rend="Hyperlink">)</hi>. Dieser enthält eine Programmbibliothek, die die Funktionalitäten zur Anzeige bereitstellt. Kern der spezifischen Darstellung einer digitalen Edition wird durch eine Manifestdatei nach obigem Konzept gebildet. Mit diesem Prototypen ist es bereits möglich mithilfe der Manifestdatei und wenigen Anpassungen, die vor allem das Layout betreffen, eine Webseite für eine Digitale Edition zu erstellen. Mit dem Einsatz des Prototyps für mehrere Editionen werden die einzelnen Funktionalitäten und Konfigurationsmöglichkeiten ausgetestet und verbessert. Schließlich soll er als Viewer zur Verfügung stehen, der zur Präsentation lediglich die Manifestdatei und Zugang zu den Daten über eine entsprechende Serverinfrastruktur benötigt. Durch das Zusammenspiel der Kernkomponente, die alle Funktionalitäten bereitstellt, und der projektspezifischen Komponente, die im Layout angepasst werden kann, wird eine hohe Flexibilität erreicht. Somit kann für jedes Projekt ein individueller Auftritt erzeugt werden.
+                </p>
+                <figure>
+                    <graphic n="1001" width="15.42521111111111cm" height="16.272747222222222cm" url="Pictures/image1.gif" rend="inline"/>
+                </figure>
+                <p>Abbildung 1: Manifestdatei des Prototyps</p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Fazit</head>
+                <p>Hier wird die Entwicklung einer neuen Standardschnittstelle vorgeschlagen, um die Nachhaltigkeit digitaler Editionen zu verbessern. Denn es braucht für die Langzeitarchivierung digitaler Editionen auch eine Standardisierung ihrer Funktionalitäten. Editionen sind zwar sehr unterschiedlich, doch mit dem hier beschriebenen Interface und dem zugehörigen Austauschformat wird beispielhaft ein praktikabler Ansatz vorgestellt, um diese Lücke zu schließen. Eine Weiterentwicklung des hier gemachten Entwurfs und die Integration weiterer Standards unter Einbindung unterschiedlicher Editionsprojekte kann in Zukunft die Unabhängigkeit digitaler Editionen von einzelnen technischen Systemen erhöhen und unterstützt damit die Langzeitarchivierung.</p>
+                <p rend="DH-BibliographyHeading">Literatur</p>
+                <p rend="DH-BibliographyHeading">Bibliographie</p>
+                <p>
+                    <hi rend="bold">Cramer, Tom</hi> (2011): The International Image Interoperability Framework (IIIF): Laying the Foundation for Common Services, Integrated Resources and a Marketplace of Tools for Scholars Worldwide. Blogpost. URL: 
+                    <ref target="https://www.cni.org/topics/information-access-retrieval/international-image-interoperability-framework">https://www.cni.org/topics/information-access-retrieval/international-image-interoperability-framework</ref>
+                </p>
+                <p>
+                    <hi rend="bold">Dumont, Stefan / Fechner, Martin</hi> (2014): “Bridging the Gap: Greater Usability for TEI encoding”, in: Journal of the Text Encoding Initiative 8. URL: 
+                    <ref target="http://jtei.revues.org/1242">http://jtei.revues.org/1242</ref>
+                </p>
+                <p>
+                    <hi rend="bold">Eggert, Paul</hi> (2016): “The reader-oriented scholarly edition”, in: Digital Scholarship in the Humanities 31, 4: 797–810. DOI: 
+                    <ref target="https://doi.org/10.1093/llc/fqw043">10.1093/llc/fqw043</ref>
+                </p>
+                <p>Förderkriterien für wissenschaftliche Editionen in der Literaturwissenschaft. In: Informationen für Geistes- und Sozialwissenschaftler/innen (11) 2015.</p>
+                <p>
+                    <hi rend="bold">Holmes, Martin</hi> (2017): “Whatever happened to interchange?” In: Digital Scholarship in the Humanities 32, suppl_1: i63–i68. DOI: 
+                    <ref target="https://doi.org/10.1093/llc/fqw048">10.1093/llc/fqw048</ref>
+                </p>
+                <p>
+                    <hi rend="bold">Meier, Wolfgang</hi> (2017): teiPublisher. The instant publishing toolbox. Version v2.2.0, Stand 8. September 2017. URL: 
+                    <ref target="http://teipublisher.com/index.html">http://teipublisher.com/index.html</ref>
+                </p>
+                <p>
+                    <hi rend="bold">Meier, Wolfgang / Turska, Magdalena</hi> (2016): “TEI Processing Model Toolbox: Power To The Editor”, in: Digital Humanities 2016: Conference Abstracts: 936. URL: 
+                    <ref target="http://dh2016.adho.org/abstracts/401">http://dh2016.adho.org/abstracts/401</ref>
+                </p>
+                <p>
+                    <hi rend="bold">Pempe, Wolfgang</hi> (2012): „Geisteswissenschaften“, in: Langzeitarchivierung von Forschungsdaten: Eine Bestandsaufnahme. Hg. v. Heike Neuroth et al., Version 1.0, Stand 2012: 137-159. URN: 
+                    <ref target="http://www.nestor.sub.uni-goettingen.de/bestandsaufnahme/index.php">urn:nbn:de:0008-2012031401</ref>
+                </p>
+                <p>
+                    <hi rend="bold">Pierazzo, Elena</hi> (2015): Digital Scholarly Editing: Theories, Models and Methods. Abingdon, England.
+                </p>
+                <p>
+                    <hi rend="bold">Porter, Dot</hi> (2016): "What is an edition anyway?" My Keynote for the Digital Scholarly Editions as Interfaces conference, University of Graz. Blogpost, in: Dot Porter Digital. URL: 
+                    <ref target="http://www.deporterdigital.org/?p=309">http://www.deporterdigital.org/?p=309</ref>
+                </p>
+                <p>
+                    <hi rend="bold">Ralle, Inga Hanna</hi> (2016): „Maschinenlesbar – menschenlesbar. Über die grundlegende Ausrichtung der Edition“, in: Editio 30, 1: 144-156. DOI: 
+                    <ref target="https://doi.org/10.1515/editio-2016-0009">10.1515/editio-2016-0009</ref>
+                </p>
+                <p>
+                    <hi rend="bold">Robinson, Peter M. W.</hi> (2016): “Project-based digital humanities and social, digital, and scholarly editions”, in:
+                    <hi rend="al-author-name"> </hi>
+                    <hi rend="italic">Digital Scholarship in the Humanities</hi> 31, 4: 875–889. DOI: 
+                    <ref target="https://doi.org/10.1093/llc/fqw020">10.1093/llc/fqw020</ref>
+                </p>
+                <p>
+                    <hi rend="bold">Sahle, Patrik</hi> (2014): Kriterienkatalog für die Besprechung digitaler Editionen. Version 1.1, Stand Juni 2014. URL: 
+                    <ref target="https://www.i-d-e.de/publikationen/weitereschriften/kriterien-version-1-1/">https://www.i-d-e.de/publikationen/weitereschriften/kriterien-version-1-1/</ref>
+                </p>
+                <p>
+                    <hi rend="bold">Sahle, Patrik</hi> (2016): “What is a Scholarly Digital Edition?” In: Digital Scholarly Editing: Theories and Practices: 19-40. DOI: 
+                    <ref target="http://doi.org/10.11647/obp.0095.02">10.11647/obp.0095.02</ref>
+                </p>
+                <p>
+                    <hi rend="bold">Shillingsburg, Peter</hi> (2016): “Reliable social scholarly editing”, in: 
+                    <hi rend="italic">Digital Scholarship in the Humanities</hi> 31, 4: 890–897. DOI: 
+                    <ref target="https://doi.org/10.1093/llc/fqw044">10.1093/llc/fqw044</ref>
+                </p>
+                <p>
+                    <hi rend="bold">Steinke, Tobias</hi> (Redaktion) (2005): LMER Langzeitarchivierungsmetadaten für elektronische Ressourcen.Version 1.2, Stand 7. April 2005. URN: 
+                    <ref target="http://d-nb.info/97511087x/34">urn:nbn:de:1111-2005041102</ref>
+                </p>
+                <p>
+                    <hi rend="bold">Turska, Magdalena / Cummings, James / Rahtz, Sebastian</hi> (2016): Challenging the Myth of Presentation in Digital Editions, in: Journal of the Text Encoding Initiative 9. DOI: 
+                    <ref target="http://doi.org/10.4000/jtei.1453">10.4000/jtei.1453</ref>
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>

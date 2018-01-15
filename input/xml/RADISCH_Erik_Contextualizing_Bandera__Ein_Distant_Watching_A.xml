@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="full">
+                    <title type="main">Contextualizing Bandera: Ein Distant Watching Ansatz</title>
+                    <title type="sub"/>
+                </title>
+                <author>
+                    <persName>
+                        <surname>Bermeitinger</surname>
+                        <forename>Bernhard</forename>
+                    </persName>
+                    <affiliation>Lehrstuhl für Informatik mit Schwerpunkt Digital Libraries and Web Information Systems, Universität Passau, Deutschland</affiliation>
+                    <email>Bernhard.Bermeitinger@uni-passau.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Howanitz</surname>
+                        <forename>Gernot</forename>
+                    </persName>
+                    <affiliation>Lehrstuhl für Slavische Literaturen und Kulturen, Universität Passau, Deutschland</affiliation>
+                    <email>Gernot.Howanitz@uni-passau.De</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Radisch</surname>
+                        <forename>Erik</forename>
+                    </persName>
+                    <affiliation>Lehrstuhl für Digital Humanities, Universität Passau, Deutschland</affiliation>
+                    <email>Erik.Radisch@uni-passau.de</email>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2016-08-22T21:51:20.48</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Prof. Dr. Georg Vogeler</publisher>
+                <address>
+                    <addrLine>UniversitÃ¤t Graz</addrLine>
+                    <addrLine>Zentrum fÃ¼r Informationsmodellierung - Austrian Centre for Digital Humanities</addrLine>
+                    <addrLine>ElisabethstraÃe 59/III</addrLine>
+                    <addrLine>8010 Graz</addrLine>
+                </address>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Converted from an OASIS Open Document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.17">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Vortrag</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>visual internet</term>
+                    <term>distant watching</term>
+                    <term>trauma studies</term>
+                    <term>new methods</term>
+                    <term>automated image interpretation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Inhaltsanalyse</term>
+                    <term>Kontextsetzung</term>
+                    <term>Bilder</term>
+                    <term>Methoden</term>
+                    <term>Video</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="div1">
+                <head>Einleitung</head>
+                <p>Zahlreiche geisteswissenschaftliche Projekte im Kontext der Digital Humanities sind textlastig. Ein Grund dafür ist das breite Spektrum an etablierten Verfahren, das für solche Fragestellungen zur Verfügung steht. Aus der Perspektive der Kulturwissenschaften ergibt sich hier ein 
+                    <hi rend="italic">desideratum</hi>; schließlich widmen sich diese der (menschlichen) Kultur in ihrer ganzen Bandbreite und decken kulturelle Äußerungen im weitesten Sinne ab, die unterschiedlichste Medien, physische Artefakte und performative Handlungen mit einschließen. Zwar ist es eingeschränkt möglich, kulturelle Phänomene zu transkribieren, also in textuelle Form zu bringen, was aber kaum automatisierbar ist und Informationsverluste birgt. Native Ansätze, welche auf jeweils spezifische Eigenschaften des zu untersuchenden Phänomens eingehen, erscheinen deshalb vielversprechend.
+                </p>
+                <p>Neben Texten spielen Bilder in zahlreichen kulturellen Zusammenhängen eine tragende Rolle, so auch im Internet: Bilder und Videos werden kopiert, bearbeitet, geteilt und damit zu sogenannten Memen (Shifman 2013). Dabei entsteht eine große Zahl an Bildern bzw. Videos, die sich aufgrund ihrer schieren Masse einem traditionellen 
+                    <hi rend="italic">Close Reading</hi> entzieht. Gleichzeitig liegen die Bilder und Videos digitalisiert vor und sind zum Teil durch die verwendete Web-Plattform (z. B. YouTube) mit Metadaten annotiert. Aus diesen Gründen sind Bilder-Meme und virale Videos prädestiniert für den Einsatz quantitativer Verfahren.
+                </p>
+                <p>Die hier vorgestellte neue Methode setzt 
+                    <hi rend="italic">Distant Watching</hi> um und versucht, automatisiert den Bildinhalt zu erfassen. Damit wird im Vergleich zu bisherigen Ansätzen, die entweder nur sehr generische Informationen wie Schnittkurven (Howanitz 2015) oder Farben (Burghardt/Wolff 2016) herauslesen bzw. ganz auf manueller Annotation beruhen (Dunst/Hartel 2016), eine wesentliche Verbesserung erreicht. Ein State-of-the-Art 
+                    <hi rend="italic">Regional Convolutional Neural Network</hi> (RCNN) wird auf konkrete vorselektierte Symbole in Videos trainiert, um diese in einem großen Videokorpus automatisiert erkennen zu können. Damit wird erstmals der Bildinhalt von Videos automatisiert erfass- und quantitativ messbar. Je nach (Co-)Präsenz oder Absenz von Symbolen können Rückschlüsse auf den Inhalt des Videos gezogen werden.
+                </p>
+                <p>Diese Ausweitung des methodischen Repertoires auf Bilder bzw. Videos ermöglicht den Kulturwissenschaften quantitative Perspektiven auf Malerei, Photographie und Film. Auch Objekte oder performative Handlungen können über Bild- bzw. Videodokumentationen einer quantitativen kulturwissenschaftlichen Analyse zugeführt werden. Diese quantitative methodische Innovation muss allerdings durch eine qualitative ergänzt werden. Die vorliegende Studie setzt sich zum Ziel, diese Innovationen anzustoßen.</p>
+            </div>
+            <div type="div1">
+                <head>
+                    <anchor xml:id="id__z5hlghbfndhs"/>MultiPath Network
+                </head>
+                <p>Unsere Studie beruht auf einer Weiterentwicklung eines 
+                    <hi rend="italic">Convolutional Neural Networks</hi> (CNN). Ein konventionelles CNN, beispielsweise 
+                    <hi rend="italic">VGG19</hi> (Russakovsky et al. 2015), ist in der Lage, ein Eingabebild anhand eines vorher durchgeführten Trainings in genau eine vordefinierte Klasse einzuordnen. Für ideale Eingabebilder, etwa jene aus 
+                    <hi rend="italic">MNIST-</hi> (Lecun et al. 1998) oder 
+                    <hi rend="italic">CIFAR100-Korpus</hi> (Krizhevsky 2009), ist das ein praktisch gelöstes Problem. Enthält das Bild allerdings Instanzen mehrerer Klassen, produziert ein konventionelles CNN keine verwertbaren Ergebnisse. CNNs wurden deshalb zu 
+                    <hi rend="italic">Regional Convolutional Neural Networks</hi> (RCNN) weiterentwickelt, wie beispielsweise zu 
+                    <hi rend="italic">MultiPath Network</hi> (Zagoruyko et al. 2016).
+                </p>
+                <p>RCNNs operieren zweistufig: Zuerst werden automatisch Regionen in einem Bild vorgeschlagen und intern noch verfeinert. Anschließend werden diese vorgeschlagenen Ausschnitte klassifiziert. 
+                    <hi rend="italic">MultiPath </hi>ist standardmäßig durch die generischen Bilder des 
+                    <hi rend="italic">COCO</hi>-Korpus (Lin et al. 2014) vortrainiert und erkennt alltägliche Dinge (Katzen, Flugzeuge, Speisen, usw.). Wie kleine explorative Experimente gezeigt haben, ist es notwendig, auf dem allgemeinen Training aufbauend eigene Trainingsläufe für jene visuellen Symbole zu entwickeln und durchzuführen, die uns für die konkrete kulturwissenschaftliche Fragestellung interessieren. Dies bedeutet einen hohen Aufwand an Rechenzeit und verlangt spezialisierte Hardware; dafür lassen sich RCNNs dann aber auf jegliche Arten von Symbolen oder andere visuell unterscheidbare Merkmale trainieren und können zu deren Identifizierung eingesetzt werden.
+                </p>
+            </div>
+            <div type="div1">
+                <head>
+                    <anchor xml:id="id__i2db6zyjnf8h"/>Stepan Bandera
+                </head>
+                <p>Zentrum der Untersuchung dieses Papers ist die Rezeption des ukrainischen Nationalisten Stepan Bandera, die in sich die Ambivalenz ukrainischer Erinnerungskultur vereint und die im gegenwärtigen Ukrainekonflikt immer wieder polarisiert: Für das prorussische Lager ist er ein Faschist und Massenmörder, seine Anhänger werden als 
+                    <hi rend="italic">Banderovcy</hi> mit Faschisten gleichgestellt. Für die ukrainisch-nationalistische Seite ist Bandera ein idealisierter Held, der kompromisslos für die nationale Unabhängigkeit kämpfte. Neue Medien werden intensiv genutzt, um die von der jeweiligen Seite präferierte Sicht auf Bandera durchzusetzen. Eine erste Untersuchung zeigte, dass sich diese Instrumentalisierung durch alle größeren digitalen Medien zieht und bereits vor 2014 immanent war (Fredheim et al. 2014). Unser Paper baut auf dieser Vorarbeit auf; wir vergleichen das Youtube-Korpus vor dem Kriegsausbruch in der Ukraine mit einem heutigen Korpus, um aufzuzeigen, ob und wenn ja, wie der Ukrainekonflikt die bereits vorhandene unterschiedliche Instrumentalisierung verändert hat. Als Korpus dienen uns die jeweils 200 ersten 
+                    <hi rend="italic">YouTube-</hi>Suchresultate für die Begriffe "Stepan Bandera" und "Степан Бандера". Dass die 
+                    <hi rend="italic">YouTube</hi>-Suche keine objektive Übersicht über den Datenbestand liefert, sondern die Ergebnisliste je nach Land, Browser und anderen Details des Suchenden anpasst, sei angemerkt, kann an dieser Stelle allerdings nicht weiter diskutiert werden.
+                </p>
+                <p>Neben der propagandistischen Instrumentalisierung ist ebenso auf die Ebene der "post-memory" (Hirsch 2012) zu verweisen. Marianne Hirsch beschreibt mit diesem Konzept eine Auseinandersetzung mit einer traumatischen Vergangenheit, die man selber nicht erlebt hat. Dabei spielen visuelle Medien eine entscheidende Rolle, weil sie, so Hirsch, emotional aufladbarer sind als Texte. Wie diese emotionale Komponente im Rahmen des 
+                    <hi rend="italic">Distant Watchings</hi> mitbedacht werden kann, ist sowohl aus qualitativer als auch als quantitativer Sicht zu klären.
+                </p>
+            </div>
+            <div type="div1">
+                <head>
+                    <anchor xml:id="id__nizhii8hfbqs"/>Methode
+                </head>
+                <p>Automatische Lokalisierung und Klassifizierung erfordern eine genaue Definition der Objekte, die gefunden werden sollen. Wir haben eine Reihe von 12 typischen Symbolen festgelegt, die im Kontext der Auseinandersetzung über Bandera häufig verwendet werden, darunter Symbole des russischen oder ukrainischen Nationalismus bzw. des Faschismus.</p>
+                <table rend="frame" xml:id="Tabelle1">
+                    <row>
+                        <cell>
+                            <p rend="start italic">Symbole des</p>
+                            <p rend="start italic">ukrainischen Nationalismus:</p>
+                        </cell>
+                        <cell>
+                            <p rend="start italic">Symbole des</p>
+                            <p rend="start">
+                                <hi rend="italic">Faschistische Symbole:</hi>
+                            </p>
+                        </cell>
+                        <cell>
+                            <p rend="start italic">Symbole des</p>
+                            <p rend="start italic">polnischen Nationalismus</p>
+                        </cell>
+                        <cell>
+                            <p rend="start italic">Symbole des</p>
+                            <p rend="start">
+                                <hi rend="italic">russischen (sowjetischen) Nationalismus:</hi>
+                            </p>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell rend="center italic">------------------------------</cell>
+                        <cell rend="center italic">------------------------------</cell>
+                        <cell rend="center italic">------------------------------</cell>
+                        <cell rend="center italic">------------------------------</cell>
+                    </row>
+                    <row>
+                        <cell rend="start">ukrainisches Wappen (182)</cell>
+                        <cell rend="start">Hitler-Bilder (95)</cell>
+                        <cell rend="start">polnisches Wappen (38)</cell>
+                        <cell rend="start">Hammer &amp; Sichel (111)</cell>
+                    </row>
+                    <row>
+                        <cell rend="start">Bandera-Bilder (110)</cell>
+                        <cell rend="start">Hakenkreuz (190)</cell>
+                        <cell rend="start">Falanga (95)</cell>
+                        <cell rend="start">Georgsband (147)</cell>
+                    </row>
+                    <row>
+                        <cell rend="start">ukrainische Flagge (168)</cell>
+                        <cell rend="start">SS-Rune (107)</cell>
+                        <cell rend="start"> </cell>
+                        <cell rend="start"> </cell>
+                    </row>
+                    <row>
+                        <cell rend="start">Flagge der UPA (48)</cell>
+                        <cell rend="start"> </cell>
+                        <cell rend="start"> </cell>
+                        <cell rend="start"> </cell>
+                    </row>
+                    <row>
+                        <cell rend="start">Swoboda-Symbol (129)</cell>
+                        <cell rend="start"> </cell>
+                        <cell rend="start"> </cell>
+                        <cell rend="start"> </cell>
+                    </row>
+                </table>
+                <p> </p>
+                <p>Die Auswahl der Symbole erfolgte aus einem Close Watching einer Reihe von Beispiel-Videos zu Bandera heraus. Es handelt sich hierbei um wiederkehrende Symbole, die klar dafür genutzt wurden, um eine wertende Aussage im Bildprogramm zu platzieren. Die Symbole werden manuell anhand von Bildern aus den Beispielvideos sowie an Bildern aus dem Internet annotiert. Bisherige Tests zeigen, dass die Symbole auf mindestens 80 Bildern annotiert werden müssen, um robuste Ergebnisse erzielen zu können. Die automatische Klassifikation erlaubt es, das gesamte Korpus nach den trainierten Symbolen durchsuchen zu lassen. Außerdem gibt es Auskunft, wie viel Platz es in dem Video eingenommen hat und wie lange es sichtbar war. Mithilfe dieser Daten kann das Korpus statistisch analysiert und beispielsweise festgestellt werden, in welchem symbolischen Kontext Bandera gezeigt wird.</p>
+                <p>Das experimentelle Korpus umfasst 813 Bildern mit insgesamt 1483 Annotationen. Das ergibt im Mittel 123 annotierte Objekte pro Kategorie. Eine Annotation besteht aus Punktkoordinaten, die den Umriss des Objekts angeben und den zugehörigen Name der Klasse. Einem Bild sind zwischen 1 und 13 Annotationen zugeordnet. Im Durchschnitt sind es 1,7; der Median beträgt 1. Um Overfitting zu vermeiden, wird das Korpus, wie üblich, zufällig in Trainings- und Evaluationsdaten in einem Verhältnis 80/20 aufgeteilt.</p>
+                <p>Die Evalutationsmetrik der ersten Stufe wird mit dem numerischen Maß 
+                    <hi rend="italic">Intersection over Union</hi> (IoU) aus dem Intervall von 0 bis 1 angegeben. Je mehr dieser Wert gegen 1 geht, desto mehr stimmt die vorgeschlagene Region mit der vordefinierten Region überein.
+                </p>
+                <p>Experimente mit den beiden Unterstufen der ersten Stufe (Lokalisierung von Objekten und deren Verfeinerung) zeigen einen durchschnittlichen IoU von 0,68 (Median 0,76). Für Symbole, die in deutlich über 80 mal in Bildern annotiert werden konnten ist der IoU mit 0,74 (Median 0,76) nochmals höher. 
+                    <figure>
+                        <graphic url="Pictures/1000000000000283000001E4F00163B99AE29F75.jpg"/>
+                    </figure>
+                </p>
+                <p>
+                    <figure>
+                        <graphic url="Pictures/1000000000000282000001C4A8ACC909B8299B84.jpg"/>
+                    </figure>
+                </p>
+                <p>
+                    <figure>
+                        <graphic url="Pictures/100000000000028200000167A51A57351AC8D605.jpg"/>
+                    </figure>
+                </p>
+                <p>Auf den hier gezeigten Beispielbildern sind automatisch erkannte Regionen trainierter Symbole farblich hervorgehoben. Auf dem ersten Bild wurde die ukrainische Flagge sowie das Konterfei Banderas erkannt, auf dem zweiten Bild Hammer und Sichel, auf dem dritten Bild das Gesicht Adolf Hitlers. Aber nicht nur Vorhandensein und Nichtvorhandensein der Symbole ist feststellbar, auch Position und Größe können extrahiert werden.</p>
+                <p>Unsere Programme sollen es ermöglichen, Videos direkt aus dem Stream heraus in MultiPath zur Verarbeitung laden zu lassen, weil eine Speicherung der Videos auf der Festplatte augenblicklich nicht möglich ist, da dies gegen die AGB von YouTube verstoßen würde. Unsere Abwandlung von MultiPath Network erzeugt aus den Informationen des Videostreams eine Beschreibungsdatei im JSON-Format mit Informationen, welche Symbole in welchen Frames erkannt wurde und wie viel Fläche es eingenommen hatte.</p>
+                <p>Dies ermöglicht eine statistische Auswertung welche Symbole zusammen mit anderen gezeigt werden. und welche nicht. Für jedes Frame wird berechnet, wie viel Platz ein Symbol im Frame einnimmt. Diese Werte können dann für das gesamte Video ausgewertet werden, wie exemplarisch unten in zwei Bildern gezeigt wird. Solche statistischen Auswertungen ermöglichen die automatische Kontextualisierung der Bandera-Videos. Je nach Symbolen, die gleichzeitig, oder im Umfeld mit, Bandera gezeigt werden, lassen sich Aussagen treffen, ob das Video pro-russisch oder pro-ukrainisch einzuordnen ist.</p>
+                <p>Auch lässt sich auf diese Weise untersuchen, ob mit der Zeit bestimmte Symbole (zum Beispiel faschistische) in den Videos zu- oder abnahmen.</p>
+                <p>
+                    <figure>
+                        <graphic url="Pictures/10000000000004CF000001EAC415D89E194E3CB9.png"/>
+                    </figure>
+                    <figure>
+                        <graphic url="Pictures/10000000000004C9000002260D81D214094CA207.png"/>
+                    </figure>
+                </p>
+            </div>
+            <div type="div1">
+                <head>
+                    <anchor xml:id="id__o8go9q59jw3e"/>Zusammenfassung, Ausblick, Kritische Reflexion
+                </head>
+                <p>Die Methode steht und fällt mit der Zusammenstellung der zu trainierenden Symbole. Werden wichtige Symbole beim Training außen vor gelassen, hat dies große Auswirkungen auf die interpretatorische Aussagefähigkeit. Ähnlich wie bei Texten ergeben sich auch bei visuellen Medien erst durch die Kombination von Close und Distant Watching Synergie-Effekte (Hayles 2010).</p>
+                <p>Unser Experiment konnte zeigen, dass der Ansatz, YouTube-Videos mit 
+                    <hi rend="italic">MultiPath</hi> "aus der Ferne" zu betrachten, funktioniert. Derzeit wird das Training von 
+                    <hi rend="italic">MultiPath</hi> optimiert, um bestmögliche Resultate zu generieren. Nächster Schritt ist dann die komplette Auswertung des Korpus und eine Überprüfung der Resultate durch ein Close Watching ausgewählter Videos. Die Ergebnisse dieser Verfeinerung werden mit in den Vortrag einfließen.
+                </p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl>
+                        <hi rend="bold">Burghardt, M. / Wolff, C. </hi>(2016). “Digital Humanities in Bewegung. Ansätze für die computergestützte Filmanalyse” in 
+                        <hi rend="italic">DHd 2016: Book of Abstracts,</hi> 108-112.
+                        <ref target="http://www.digitalicons.org/wp-content/uploads/issue12/files/2014/11/DI12_2_Fredheim.pdf">
+                            <hi rend="color(#1155cc)"> </hi>
+                        </ref>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Dunst, A. / Hartel, R. </hi>(2016). “Die Corpusanalyse multimodaler Erzählungen am Beispiel graphischer Romane” in 
+                        <hi rend="italic">DHd 2016: Book of Abstracts</hi>, 120-122.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Fredheim, R. / Howanitz, G. / Makhortykh, M.</hi> (2014). “Scraping the Monumental: Stepan Bandera through the Lens of Quantitative Memory Studies” in 
+                        <hi rend="italic">Digital Icons</hi> 12 (2014), 25-53.
+                        <ref target="http://www.digitalicons.org/wp-content/uploads/issue12/files/2014/11/DI12_2_Fredheim.pdf">
+                            <hi rend="color(#1155cc)"> </hi>
+                        </ref>
+                        <ptr target="http://www.digitalicons.org/wp-content/uploads/issue12/files/2014/11/DI12_2_Fredheim.pdf"/>[letzer Zugriff 11. September 2017].
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Hayles, N. K. </hi>(2010): “How We Read: Close, hyper, Machine” in: 
+                        <hi rend="italic">ADE Bulletin, 150</hi>: 62-79.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Hirsch, M. </hi>(2012). “The Generation of Postmemory: Writing and Visual Culture After the Holocaust”, New York: Columbia University Press.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Howanitz, G. </hi>(2015). “Jožin z Bažin – Ein Mem, aus der Distanz betrachtet” in: Simonek, Stefan / Doschek, Jolanta (eds.): 
+                        <hi rend="italic">Slawische Popkultur</hi>. Wien: PAN, 63-80.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Shifman, L. </hi>(2013): “Memes in Digital Culture”. Cambridge (MA): MIT Press.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Krizhevsky, A.</hi> (2009). “Learning Multiple Layers of Features from Tiny Images” 
+                        <ptr target="https://www.cs.utoronto.ca/~kriz/learning-features-2009-TR.pdf"/> [letzter Zugriff 12. Januar 2018].
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Lecun, Y. / Bottou, L. / Bengio, Y. / Haffner, P.</hi> (1998): “Gradient-based learning applied to document recognition” in: 
+                        <hi rend="italic">Proceedings of the IEEE</hi>, 86(11): 2278–2324 doi:
+                        <ref target="https://doi.org/10.1109/5.726791">
+                            <hi rend="color(#1155cc)">10.1109/5.726791</hi>
+                        </ref>.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Lin, T. Y. / Maire, M. / Belongie, S. / Hays, J. / Perona, P. / Ramanan, D. / Dollár, P. / Zitnick, C. L.</hi> (2014): “Microsoft COCO: Common objects in context” in: 
+                        <hi rend="italic">Lecture Notes in Computer Science (Including Subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)</hi>, vol. 8693 LNCS. pp. 740–755 doi:10.1007/978-3-319-10602-1_48. 
+                        <ptr target="http://arxiv.org/abs/1405.0312"/>[letzter Zugriff 12. Januar 2018].
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Russakovsky, O. / Deng, J. / Su, H. / Krause, J. / Satheesh, S. / Ma, S. / Huang, Z.</hi> (2015): “ImageNet Large Scale Visual Recognition Challenge” in: 
+                        <hi rend="italic">International Journal of Computer Vision</hi>, 115(3): 211–252 doi:10.1007/s11263-015-0816-y.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Zagoruyko, S. / Lerer, A. / Lin, T.-Y. / Pinheiro, P. O. / Gross, S. / Chintala, S. / Dollár, P.</hi> (2016): “A MultiPath Network for Object Detection”. 
+                        <hi rend="italic">BMVC</hi>
+                        <ptr target="http://arxiv.org/abs/1604.02135"/>[letzter Zugriff 12. Januar 2018].
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

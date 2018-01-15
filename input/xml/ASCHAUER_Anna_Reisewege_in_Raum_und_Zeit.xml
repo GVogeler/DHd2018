@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Reisewege in Raum und Zeit</title>
+                <author>
+                    <persName>
+                        <surname>Aschauer</surname>
+                        <forename>Anna</forename>
+                    </persName>
+                    <affiliation>Institut für Europäische Geschichte, Deutschland</affiliation>
+                    <email>aschauer@ieg-mainz.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Büchler</surname>
+                        <forename>Marco</forename>
+                    </persName>
+                    <affiliation>Institut für Europäische Geschichte, Deutschland</affiliation>
+                    <email>buechler@ieg-mainz.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Gradl</surname>
+                        <forename>Tobias</forename>
+                    </persName>
+                    <affiliation>Otto-Friedrich-Universität Bamberg</affiliation>
+                    <email>tobias.gradl@uni-bamberg.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Henrich</surname>
+                        <forename>Andreas</forename>
+                    </persName>
+                    <affiliation>Otto-Friedrich-Universität Bamberg</affiliation>
+                    <email>andreas.henrich@uni-bamberg.de</email>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2018-01-14T18:30:00Z</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Prof. Dr. Georg Vogeler</publisher>
+                <address>
+                    <addrLine>UniversitÃ¤t Graz</addrLine>
+                    <addrLine>Zentrum fÃ¼r Informationsmodellierung - Austrian Centre for Digital Humanities</addrLine>
+                    <addrLine>ElisabethstraÃe 59/III</addrLine>
+                    <addrLine>8010 Graz</addrLine>
+                </address>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Converted from a Word document </p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.17">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Workshop</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Biographische Daten</term>
+                    <term>Gruppenbildung</term>
+                    <term>Nachnutzbarkeit</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Entdeckung</term>
+                    <term>Beziehungsanalyse</term>
+                    <term>Räumliche Analyse</term>
+                    <term>Karte</term>
+                    <term>Personen</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <p>Reisewege gut und genau zu kennen, ist für die Geschichtsforschung von enormer Bedeutung. Nicht nur, dass so persönliche Kontakte reflektiert werden können, so zeigen die Reisewege vielmehr auf, wie sich Güter oder Ideen verbreitet haben können. Weiterhin zeigen Reisewege auch auf, über welches Ortswissen eine bestimmte Person verfügt hat. So sei bspw. auf die aktuelle Diskussion rund um Shakespeare hingewiesen. Auf der einen Seite wird über stilometrische Analysen gezeigt, dass Shakespeare wirklich der Autor seiner Werke sein soll. Auf der anderen Seite wird in Romeo und Julia Verona so detailreich dargestellt, dass eine gute Ortskenntnis notwendig gewesen sein muss. Da Shakespeare nach jetzigem Kenntnisstand niemals in Italien war, nährt dies die Ansichten der Gegenseite, dass er nicht der Autor gewesen sein kann. Ferner gibt es nach dieser Ansicht auch stilometrische Signale, welche auf eine Frau hinweisen. Zusätzlich wird diese Sichtweise dahingehend unterstützt, dass sich die Charaktere in Shakespeares Werken mit den Namen von Familienmitgliedern von Emilia Lanier aus Bassano, Italien, auffällig gleichen. Das größte Problem in der gesamten Diskussion ist, dass es eine sieben-jährige Lücke in Shakespeares Lebenslauf gibt, in welcher völlig unklar ist, wo er war und mit wem er in Kontakt stand. Das Füllen dieser biographischen Lücke würde, wahrscheinlich, wichtige Impulse in der vorangestellten Diskussion geben. Ferner zeigt es im Allgemeinen wie wichtig die Vollständigkeit von Biographien nicht nur für Historiker, sondern auch für andere Disziplinen in den Geisteswissenschaften ist</p>
+                <p>Neben der dargestellten Vollständigkeit besteht auch die Notwendigkeit der Konzeptualisierung. Hierbei werden mehrere Objekte und Personen zu Gruppen formiert. Derartige Konzeptualisierungen können als latente Variablen verwendet werden, um auch Objekte und Personen zu finden, welche unter einem anderen Namen gefunden werden. Durch den Einsatz digitaler Werkzeuge ist es möglich die Eigenschaften, die einer Gruppe inhärent sind, zusammenzufassen. Diese Aggregation zu Gruppenprofilen ermöglicht historisch Arbeitenden, ihre Hypothesen zu bilden oder zu stärken. Es würde ermöglichen, beispielsweise, etablierte Thesen in der klassischen Geschichtswissenschaft bezüglich der Korrelation zwischen Konfessionalität, bzw. Beruf und Mobilität zu prüfen.</p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Grundlage</head>
+                <p>Die Partner der Otto-Friedrich-Universität Bamberg und des Leibniz-Institutes für Europäische Geschichte arbeiten im Rahmen von DARIAH-DE an einem Werkzeug welches die Basis für diesen Workshop darstellt: Das CosmoTool steht interessierten Nutzern als Prototyp unter 
+                    <ref target="https://cosmotool.de.dariah.eu">https://cosmotool.de.dariah.eu</ref> zur Verfügung. Neben der Darstellung derzeit implementierter Funktionalität zielt der Workshop wesentlich auf die Gewinnung von Anforderungen und Interessen aus der Fachcommunity zur Weiterentwicklung des CosmoTools.
+                </p>
+                <figure>
+                    <graphic n="1001" width="15.927916666666667cm" height="10.768541666666666cm" url="Pictures/image1.png" rend="inline"/>
+                </figure>
+                <p>Motiviert wurde das CosmoTool aus dem Bedürfnis, biographische Datenquellen unterschiedlicher Art und Strukturiertheit zu verarbeiten, analysieren und in so genannte biographische Profile zusammenzuführen. Durch die Integration verschiedener Perspektiven auf historische Personen soll neben der Transnationalität und -kontextualität einzelner Biographien insbesondere auch die aggregierte Betrachtung von Personengruppen ermöglicht werden und Unterschiede beispielsweise in der Mobilität unterschiedlicher Berufsgruppen evaluiert werden können (Panter, Paulmann 2015). Durch den Vergleich biographischer Profile untereinander oder mit benutzerdefinierten Gruppen sollen inhaltliche Vergleiche, Zusammenhänge oder Abweichungen offenbart werden, die hypothesengenerierend auf die qualitative Forschung einwirken können.</p>
+                <p>Aus der infrastrukturellen Perspektive von DARIAH-DE bildet das CosmoTool eine Brücke zwischen der konkreten fachwissenschaftlichen Forschung und den generischen Diensten von DARIAH-DE (Gradl, Henrich 2016a). So bedient sich das CosmoTool zur Umsetzung inhaltlicher Funktionalität insbesondere bei dem DARIAH-DE Data Modeling Environment (DME), welches die Modellierung und Explizierung von Daten z. B. auch durch die Anwendung von Methoden des Natural Language Processings (NLP) kapselt. Einmal modellierte Daten stehen einer Vielzahl möglicher Anwendungsfälle zur Verfügung - von denen einer im CosmoTool besteht.</p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Konzeptualisierung</head>
+                <p>Das CosmoTool ermöglicht eine Selektion und Filterung großer Datenmengen. Eine grundlegende Hypothese ist, dass ein Mehrwert durch die automatisierte Erstellung biographischer Profile entsteht. Die Gruppenprofile können anhand der von FachwissenschaftlerInnen erstellten Wortfelder aggregiert werden. So können Aggregationskriterien wie beispielsweise Berufsfelder oder Konfessions-/Religionsgruppen beschrieben werden.
+                    <graphic n="1002" width="14.419791666666667cm" height="12.950472222222222cm" url="Pictures/image2.png" rend="block"/>
+                </p>
+                <p>Abbildung 1: Auszug aus der Tabelle, die Konfessions-, bzw. religionsspezifische Wörter zur Identifikation eines (vormodernen) Katholiken, Protestanten, Juden oder eines Muslims in modernen (deutschsprachigen) biographischen Lexika, ermöglicht.</p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Thematische Schwerpunkte</head>
+                <p>Der Workshop ist auf einen halben Tag konzipiert. Gegenstand des Workshops ist die geographische Darstellung von Reisewegen sowie deren technischen Anforderungen und wissenschaftlichen Implikationen für die Digital Humanities. Der Fokus des Workshops besteht neben der Präsentation des aktuellen Entwicklungsstandes insbesondere in der Gewinnung von Rückmeldungen und Anforderungen für die weitere Konzeptualisierung und Entwicklung des Werkzeugs.</p>
+                <p>Aus wissenschaftlicher Sicht unterteilt sich der Workshop in zwei Impulsreferate mit je einem Beitrag aus den Geschichtswissenschaften sowie der Informatik. Dem schließt sich eine Gruppenarbeit zu vorgegebenen Themen an. </p>
+                <div type="div2" rend="DH-Heading2">
+                    <head>Impulsvortrag 1 - Informatik und Infrastruktur: Analyse und Kombination forschungsspezifischer Methoden auf dem infrastrukturellen Fundament von DARIAH-DE</head>
+                    <p>Das CosmoTool basiert auf verschiedenen Komponenten der Föderationsarchitektur von DARIAH-DE. Auf Basis der DARIAH-DE Collection Registry und ihrer Schnittstellen werden biographische Datenquellen und deren Zugriffsmöglichkeiten verzeichnet, beschrieben und im CosmoTool nachgenutzt. Mit Hilfe des DARIAH-DE Data Modeling Environment (DME) können strukturierte und unstrukturierte Daten modelliert und anzuwendende Werkzeuge, wie Methoden des Natural Language Processings (NLP) konfiguriert werden (Gradl, Henrich 2016b). Das CosmoTool nutzt die Funktionalität des DME beispielsweise, um auf Basis unstrukturierter Texte biographische Zusammenhänge erkennen und extrahieren zu können.</p>
+                    <p>Das CosmoTool verknüpft die generische Perspektive einer Forschungsinfrastruktur, die stets auch Aspekte der Nachhaltigkeit und Nachnutzbarkeit fokussiert, mit spezifischen historischen Forschungsfragen. Durch das Zusammenwirken der verschiedenen Komponenten kann die Funktionalität des CosmoTools durch Experten unterschiedlicher fachwissenschaftlicher Kontexte um neue analytische Verfahren erweitert werden. Einmal verwendete Verfahren z. B. zur Disambiguierung von Namen oder Zeitangaben können für artverwandte Datenquellen nachgenutzt und angepasst werden.</p>
+                </div>
+                <div type="div2" rend="DH-Heading2">
+                    <head>Impulsvortrag 2: Reise in der Frühen Neuzeit: Rekonstruktion der Bewegung konfessioneller Minderheiten</head>
+                    <p>In der Geschichtsschreibung wird der Fokus oft auf religiöse/kulturelle Minderheiten gelegt, weg vom Blickwinkel der dominierenden Gruppen, da diesen Minderheiten hohe politische, ökonomische und kulturelle Einflüsse zugeschrieben werden. Solche religiösen Gruppen werden oft zu Medien zwischen zwei Kulturen und führen Transfers (u. A. Reisen) durch. In bestimmten Fällen bilden diese Gruppen, wenn sie von Fremden umgegeben sind, ein starkes nationales bzw. religiöses Bewusstsein, assimilieren sich aber nicht und bilden Diasporen heraus. Um die Diasporen zu rekonstruieren ist es hilfreich Reisewege der Gruppen oder einzelnen Reisenden zu verfolgen, da sie Einblicke in das Netzwerk der Vertrauten erlauben. Dabei sind Reisewege in der Frühen Neuzeit eine besondere Herausforderung: z. B. Reise/Ausreisebeschränkung, (aus moderner Sicht) fehlende Infrastruktur wie befestigte Straßen oder fehlende Sicherheit, was die Verlässlichkeit auf eigene Netzwerke noch wichtiger macht. </p>
+                    <p>Die Reisetätigkeiten dieser Gruppen werden anhand der Beispiele der Lutheraner aus deutschsprachigen Gebieten in Russland des 18. Jahrhunderts erläutert: Ausgehend aus ihrer “Beheimatung”, über ihrer Reisewege bis hin zu ihren Tätigkeitsorten.</p>
+                </div>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Arbeitsgruppen:</head>
+                <p>Den Impulsvorträgen schließen sich Gruppenarbeiten zu jeweils einer der folgenden drei Themen an:</p>
+                <p>
+                    <hi rend="underline">Vollständigkeit</hi>: Für Historiker ist die Vollständigkeit ein wichtiges Kriterium. Um Reisewege zu verfolgen, ist es zumindest theoretisch notwendig, eine vollständige Datengrundlage vorzufinden. Jedoch ist dies praktisch nur in den seltensten Fällen realisierbar. Deshalb soll sich eine Arbeitsgruppe mit der Fragestellung beschäftigen, ob und vor allem wie mit unvollständigen Daten umgegangen werden kann und ob sich dennoch ein wissenschaftlicher Mehrwert für Historiker ergibt.
+                </p>
+                <p>
+                    <hi rend="underline">Technische Machbarkeit / Repräsentationsformen:</hi> Eine weitere Arbeitsgruppe bearbeitet das Thema der technischen Machbarkeit. Der Fokus liegt hierbei auf der Frage, wie entsprechende Daten vorgehalten und gespeichert werden sollen, so dass bspw. auch mehrere Datenbanken miteinander verknüpft werden können.
+                </p>
+                <p>
+                    <hi rend="underline">Rechtliche und ethische Aspekte</hi>: Werkzeuge, wie das CosmoTool, entfalten erst dann ihre volle Leistungsfähigkeit, wenn über Personen möglichst viel oder gar alle relevanten Reisewege enthalten sind. Auf der anderen Seite werden so für Forschungszwecke historische Personen völlig transparent dargestellt, ohne dass überhaupt klar ist, ob ebenje Personen einer derartigen Darstellung überhaupt zustimmen würden. Die Kernfrage, die sich demnach stellt, ist, wo die Forschung auch im Interesse der entsprechenden Personen enden muss (vgl. auch Berendt et al 2015: 
+                    <hi rend="italic">Is it research or is it spying? – Rethinking ethics in Big Data AI and other fields of knowledge science</hi>). 
+                </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Zielpublikum</head>
+                <p>Das Zielpublikum sollte sich aus interessierten Forschern aus den Digital Humanities zusammensetzen. Neben potenziellen Anwendern mit ihren spezifischen Forschungsfragen und Anforderungen, könnte der Workshop insbesondere auch für Sammlungsinhaber und Entwickler artverwandter Werkzeuge von Interesse sein. Die Organisatoren würden den Preconference-Workshop auch separat bewerben, um interessierte Historiker auf das Event aufmerksam zu machen. Der Workshop ist für 15-20 Teilnehmer ausgelegt.</p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Geplantes Programm</head>
+                <p>Der Workshop besteht im Wesentlichen aus den drei Teilen Einführung, Impulsreferate sowie einer Gruppenarbeit mit den Workshop-Teilnehmern. Der Workshop gliedert sich im Detail wie folgt:</p>
+                <p>09:00 - 09:30 
+                    <hi rend="apple-tab-span"> </hi>Welcome und Einführung in das Workshopthema (Aschauer, 
+                </p>
+                <p>Büchler, Gradl, Henrich)</p>
+                <p>09:30 - 10:00
+                    <hi rend="apple-tab-span"> </hi>Impulsvortrag Informatik (Gradl, Henrich): 
+                    <hi rend="italic">Informatik und </hi>
+                </p>
+                <p>Infrastruktur: Analyse und Kombination forschungsspezifischer </p>
+                <p>Methoden auf dem infrastrukturellen Fundament von DARIAH-DE</p>
+                <p>10:00 - 10:30
+                    <hi rend="apple-tab-span"> </hi>Impulsvortrag Geisteswissenschaften (Aschauer, Büchler): 
+                </p>
+                <p>Reise in der Frühen Neuzeit: Rekonstruktion der Bewegung </p>
+                <p>konfessioneller Minderheiten</p>
+                <p>10:30 - 11:00 
+                    <hi rend="apple-tab-span"> </hi>Kaffeepause
+                </p>
+                <p>11:30 - 12:30
+                    <hi rend="apple-tab-span"> </hi>Arbeiten in Arbeitsgruppe
+                </p>
+                <p>12:30 - 13:00
+                    <hi rend="apple-tab-span"> </hi>Diskussionsrunde mit dem Publikum (Aschauer, Büchler, Gradl, 
+                </p>
+                <p>Henrich)</p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Kontaktdaten und Forschungsinteressen der Beitragenden </head>
+                <p>In alphabetischer Reihenfolge:</p>
+                <p>Anna Aschauer, Leibniz-Institut für Europäische Geschichte, Mainz. Interessen: Pietismusforschung, Migration der religiösen Minderheiten in der Frühen Neuzeit, Digital Humanities. E-Mail: aschauer@ieg-mainz.de</p>
+                <p>Marco Büchler, Leibniz-Institut für Europäische Geschichte, Mainz. Interessen: Digital Humanities, Text Mining, Information Retrieval, Big Humanities Data. E-Mail: buechler@ieg-mainz.de</p>
+                <p>Tobias Gradl, Otto-Friedrich-Universität Bamberg. Interessen: Forschungsdaten und Forschungsdatenmanagement, Digital Humanities, Datenintegration. E-Mail: tobias.gradl@uni-bamberg.de</p>
+                <p>Andreas Henrich, Otto-Friedrich-Universität Bamberg. Interessen: Datenbanken, Information-Retrieval, Digital Humanities, Multimediale Systeme, Softwareentwicklung. E-Mail: 
+                    <ref target="mailto:andreas.henrich@uni-bamberg.de">andreas.henrich@uni-bamberg.de</ref>
+                </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Ausstattung</head>
+                <p>Es wird keine zusätzliche Ausstattung neben der üblichen Präsentationstechnik benötigt.</p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl>Berendt, B., Büchler, M., Rockwell, G. (2015) ‘Is it research or is it spying? – Rethinking ethics in Big Data AI and other fields of knowledge science‘, German Journal on Artificial Intelligence. Springer.</bibl>
+                    <bibl>Gradl, T.; Henrich, A. (2016a): Die DARIAH-DE-Föderationsarchitektur: Datenintegration im Spannungsfeld forschungsspezifischer und domänenübergreifender Anforderungen, Bibliothek Forschung und Praxis. Band 40, Heft 2, Seiten 222-228, ISSN (Online) 1865-7648, ISSN (Print) 0341-4183, DOI:
+                        <ref target="https://doi.org/10.1515/bfp-2016-0027">
+                            <hi rend="color(1155CC)">https://doi.org/10.1515/bfp-2016-0027</hi>
+                        </ref>
+                    </bibl>
+                    <bibl>Gradl, T.; Henrich, Andreas (2016b): „Data Integration for the Arts and Humanities: A Language Theoretical Concept“. In: Fuhr, Norbert et al. (Hg.): Research and Advanced Technology for Digital Libraries: 20th International Conference on Theory and Practice of Digital Libraries, TPDL 2016, Hannover, Germany, September 5‐9, 2016, Proceedings. Cham: Springer International Publishing, S. 281–293</bibl>
+                    <bibl>Panter, S.; Paulmann, Johannes und Margit Szöllösi-Janze (2015): “Mobility and Biography. Methodological Challenges and Perspectives”, in: Mobility and Biography, hrsg. von Sarah Panter (=Jahrbuch für Europäische Geschichte / European History Yearbook 16 ), Berlin: De Gruyter Oldenbourg, S. 1-14</bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

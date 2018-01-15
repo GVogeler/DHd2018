@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Digitale Bildrepositorien – wirkliche Arbeitserleichterung oder zeitraubend?</title>
+                <author>
+                    <persName>
+                        <surname>Friedrichs</surname>
+                        <forename>Kristina</forename>
+                    </persName>
+                    <affiliation>Universität Würzburg, Deutschland</affiliation>
+                    <email>kristina.friedrichs@tu-dresden.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Münster</surname>
+                        <forename>Sander</forename>
+                    </persName>
+                    <affiliation>TU Dresden, Deutschland</affiliation>
+                    <email>sander.muenster@tu-dresden.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Niebling</surname>
+                        <forename>Florian</forename>
+                    </persName>
+                    <affiliation>Universität Würzburg, Deutschland</affiliation>
+                    <email>florian.niebling@uni-wuerzburg.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Maiwald</surname>
+                        <forename>Ferdinand</forename>
+                    </persName>
+                    <affiliation>TU Dresden, Deutschland</affiliation>
+                    <email>ferdinand.maiwald@tu-dresden.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Bruschke</surname>
+                        <forename>Jonas</forename>
+                    </persName>
+                    <affiliation>Universität Würzburg, Deutschland</affiliation>
+                    <email>jonas.bruschke@uni-wuerzburg.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Barthel</surname>
+                        <forename>Kristina</forename>
+                    </persName>
+                    <affiliation>TU Dresden, Deutschland</affiliation>
+                    <email>kristina.barthel@tu-dresden.de</email>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2018-01-08T16:15:00Z</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Prof. Dr. Georg Vogeler</publisher>
+                <address>
+                    <addrLine>UniversitÃ¤t Graz</addrLine>
+                    <addrLine>Zentrum fÃ¼r Informationsmodellierung - Austrian Centre for Digital Humanities</addrLine>
+                    <addrLine>ElisabethstraÃe 59/III</addrLine>
+                    <addrLine>8010 Graz</addrLine>
+                </address>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Converted from a Word document </p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.17">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Workshop</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Bildrepositorien</term>
+                    <term>Architekturgeschichte</term>
+                    <term>Photogrammetrie</term>
+                    <term>3D/4D</term>
+                    <term>Nutzerforschung</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Modellierung</term>
+                    <term>Bewertung</term>
+                    <term>Identifizierung</term>
+                    <term>Visualisierung</term>
+                    <term>Bilder</term>
+                    <term>Visualisierung</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <p>Diese Erfahrung teilen sicher viele: Bei der Suche nach einer bestimmten Abbildung, zum Beispiel nach einem Foto eines Gebäudes, konsultiert man verschiedene Online-Plattformen, doch entweder werden gar keine Treffer ausgegeben oder aber man erhält eine unüberschaubare Flut an Ergebnissen, die leider oftmals nicht relevant für das eigene Suchanliegen sind. So kann die gewünschte Arbeitserleichterung durch digitale Mittel leider fast schon hinderlich wirken.</p>
+                <p>Der Workshop setzt drei Schwerpunkte: Erstens werden im Rahmen einer Podiumsdiskussion die Experten der Bildrepositorien, so von Prometheus, der Deutschen Fotothek und der UB Heidelberg, mit einem tiefgreifenden Austausch in das Programm starten. Daraufhin sollen die Teilnehmer für den Umgang mit Bildrepositorien sensibilisiert, Suchstrategien in den Fokus gestellt und Kompetenzen in diesem Bereich vertieft werden. Hierbei werden vor allem diejenigen, die mit solchen Quellenbeständen arbeiten, mit ihren Erfahrungen und Wünschen zu Wort kommen. Schließlich soll ein komplementärer Lösungsansatz vorgestellt und kritisch durch die Teilnehmer geprüft werden.</p>
+                <p>Der Workshop richtet sich vorrangig an Kunst- und Architekturhistoriker, Nutzer und Anbieter von Bild- und Fotoarchiven sowie digital humanists im Bereich Bild.</p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Problemaufriss</head>
+                <p>Gerade vor dem Hintergrund, dass immer mehr historische Bestände an Bild- und Planmaterial digitalisiert und in Online-Repositorien der Öffentlichkeit zur Verfügung gestellt werden, stellt sich das Problem, dass sich die Suche vor allem nach ortsbezogenen Bildquellen stetig verkompliziert (Bauer 2015). Bei der Arbeit mit diesem Material ist eine hohe Kompetenz im Umgang mit Schlagwörtern erforderlich; es muss ergo die Erschließung des dargestellten Gegenstandes anhand von Wörtern sowie gegebenenfalls ein sinnvoller Einsatz von etwaig vorhandenen Filtern beherrscht werden – andernfalls wird eine solche Recherche unter Umständen ineffizient und wenig zielführend bleiben (Beaudoin und Brady 2011; Kohle 2013: 15-62; Kamposiori 2012).</p>
+                <p>Im Rahmen des Workshops soll ein erweiterter Ansatz, der die Erschließung umfangreicher historischer Bildbestände mit örtlicher Gebundenheit unterstützen kann, vorgestellt und getestet werden. Hiernach bildet die schlagwortgebundene Suche nur einen ergänzenden Aspekt, während die Quellen deutlich in den Vordergrund treten. Die Idee basiert auf einer Verortung der Fotografien innerhalb eines vierdimensionalen Modells, so dass die topographische Lage innerhalb einer Stadt den Aufhängungspunkt für die dazugehörigen Quellen bildet und die Zeit als zusätzliche Komponente hinzutritt, um Veränderungen gerecht zu werden. </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Forschungsstand &amp; Projektskizze</head>
+                <p>Eine automatische Bildersuche auf Grundlage von bestimmten Bildmerkmalen erweitert hierbei die schlagwortgebundene Suche (Jégou et al., 2010). Möglicherweise können auch Bildersuchen mit neuronalen Netzwerken klassische Suchanfragen unterstützen (Wan et al., 2014). Mit manueller Verortung beziehungsweise an einzelnen Objekten existieren bereits dreidimensionale und vierdimensionale Ansätze (Schindler &amp; Dellaert 2012, Agarwal et al. 2009, Bitelli et al. 2017).</p>
+                <p>Der hinzutretende Ansatz ist hingegen der Versuch, historische Bilder aus einer Datenbank möglichst automatisch zu verorten. Nach einer Auswahl von geeignetem Bildmaterial werden die Bilder mittels eines zweistufigen Verfahrens in einem dreidimensionalen Modell lokalisiert. Zuerst werden die Fotografien über spezifische Merkmale relativ zueinander orientiert, so dass Gebäudeteile, die mehreren Bildern gemein sind, perspektivisch korreliert werden können. Anschließend erfolgt die absolute Verortung über aktuelle 3D-Modelle in einem Stadtmodell (Vietze et al. 2017). Für Gebäude mit genügend Bildmaterial ist es sogar möglich, historische dreidimensionale Modelle mittels Structure-from-Motion zu erstellen, so dass in mehreren Zeitschnitten eine tatsächliche Vierdimensionalität erreicht wird.</p>
+                <p>Aus dem beschriebenen Modell heraus soll die eigentliche Mediensuche geschehen. Es existieren bereits einige Lösungen, die auf Basis einer räumlichen Suche funktionieren, zum Beispiel www.historypin.org oder www.phillyhistory.org. Diese greifen auf Google Maps oder OpenStreetMap und damit auf aktuelles Kartenmaterial zurück. Dadurch ist nur eine zweidimensionale räumliche Suche innerhalb der jetzigen Bausituation möglich. Zudem richtet sich diese Anwendung nicht an Fachleute, die sie im Sinne eines wissenschaftlichen Medienrepositoriums benutzen. Über diesen Stand soll hiermit hinausgegangen werden.</p>
+                <p>Durch einen Abgleich mit einem dreidimensionalen Modell der Stadt können Bilder aus Medienrepositorien direkt Objekten im Stadtbild zugeordnet werden, was einerseits ein objektbasiertes Durchsuchen des gesamten Repositoriums innerhalb eines 4D-Bowsers ermöglicht. Andererseits erleichtert ein historisches 3D-Stadtmodell darüber hinaus die Orientierung im damaligen Stadtbild, unter anderem durch die Abbildung der gesamten Situation und die klare Markierung des Standpunkts des Fotografen (Schindler &amp; Dellaert 2012). Erweitert durch geeignete Analysewerkzeuge kann die Arbeit von Kunsthistorikern und Bildwissenschaftlern unterstützt werden (Bruschke et. al 2017).</p>
+                <p>Aufbauend auf diesen Überlegungen wird derzeit ein Prototyp erarbeitet. Es handelt sich dabei um eine Webanwendung, die in einem modernen, HTML5/WebGL-fähigen Browser läuft. Einen Großteil des Seitenaufbaus nimmt der 3D-Viewport ein, in dem ein (derzeit noch aktuelles) 3D-Stadtmodell zusammen mit den bereits verorteten Bildern angezeigt wird und in dem navigiert werden kann. Über eine Suchleiste können die Bilder mittels Schlagwörtern eingegrenzt werden. Alternativ ist dies über eine facettierte Suche für ausgewählte Metadaten möglich. Eine weitere Filterung erfolgt über die Auswahl der Gebäude im 3D-Viewport. Neben den 3D-Repräsentation im Viewport werden die gefunden Bilder auch als klassische Ergebnisliste mit Thumbnails präsentiert. Für jedes Bild kann eine Detailansicht geöffnet werden, um alle Metadaten und das Bild im Detail zu betrachten. Diese Anwendung soll hiermit zur Diskussion gestellt werden.</p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Programmplanung</head>
+                <p>Der Workshop wird sich nicht allein auf die kritische Betrachtung des vorgeschlagenen Ansatzes konzentrieren, sondern ebenso Suchstrategien innerhalb von Online-Plattformen vermitteln und Defizite sowie gelungene Lösungen seitens bestehender Repositorien eruieren. Daher wird es ein mehrteiliges Programm geben. </p>
+                <p>Begonnen wird mit entsprechenden Impulsvorträgen, die in den Problemkreis einführen. Es schließt sich eine Podiumsdiskussion mit Vertretern namhafter Bildrepositorien an; so werden Prometheus mit Prof. Holger Simon, die Deutsche Fotothek mit Marc Rohrmüller und die UB Heidelberg mit Dr. Maria Effinger vertreten sein. </p>
+                <p>In einem nächsten Durchgang soll ein Vergleich zwischen bereits existierenden Repositorien durch die Nutzer gezogen werden, in dem Charakteristika, Vorteile und ggf. Verbesserungspotential eruiert werden. Auf diese Weise können verschiedene Suchstrategien vermittelt und erprobt werden, mit denen in vorhandenen Repositorien effizient Resultate erzielt werden können. </p>
+                <p>Daraufhin soll die seitens der ausrichtenden Gruppe die Testversion des 4D-Browsers als Plattform vorgestellt werden, um den erreichten Stand zu präsentieren und eine Einweisung in die Funktionsweise zu geben. Schließlich werden die Teilnehmer aktiv involviert, indem sie verschiedene Aufgaben in kleinen Gruppen von fünf bis sechs Personen bearbeiten, die der tatsächlichen kunsthistorischen Tätigkeit entlehnt sind. </p>
+                <list type="ordered">
+                    <item>Zu Beginn soll die Funktion zum Einbinden von Quellen kritisch getestet werden, sowohl im Hinblick auf räumliche als auch auf zeitliche Aspekte. Welche Features sind für Architekturhistoriker besonders nutzbringend? Wo werden Probleme gesehen? </item>
+                    <item>Daraufhin wird die eigentliche Suche erprobt, indem einerseits eine von Metadaten dominierte Suche mit einer rein ortsbasierten Suche verglichen wird. Wie zufriedenstellend sind die Resultate? Wo ergänzen sich beide sinnvoll? </item>
+                    <item>Als nächster Fall sollen Baustrukturen verglichen werden, etwa der Vorkriegszustand eines Bauwerks mit der Fassung der späteren Rekonstruktion. Welche Funktionen sind hier besonders wünschenswert, etwa Überblenden, Markierungen, Lineale? </item>
+                    <item>Eine vierte Aufgabe ist den digital humanities entlehnt und wird sich mit der Anzahl der Bilder beschäftigen, und mittels eines numerisches Verfahren nach der ikonischen Strahlkraft eines Bauwerks oder einer besonderen Ansicht fragen. Welche Ansicht hat besondere Aufmerksamkeit erfahren? Wird dieses Tool auch zur Erfassung von eher komplexen Auswertungsaufgaben dieser Art als geeignet empfunden?</item>
+                </list>
+                <p>Der Workshop wird im Rahmen einer gemeinsamen Präsentation der Erfahrungen zur Ergebnissicherung vornehmen.</p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Ausblick</head>
+                <p>Der Workshop soll zur Sensibilisierung von Nutzern und auch Entwicklern von Bildrepositorien beitragen, indem sich beide Gruppen aktiv in die Veranstaltung einbringen können und sollen. So wird neben einer Kompetenzvermittlung auch die Entwicklung neuer Suchstrategien im Fokus stehen, um die Nutzbarkeit von Medienrepositorien zu erleichtern beziehungsweise einen Dialog über zukünftige Möglichkeiten des Einsatzes solcher Plattformen anzusteuern. Somit werden sowohl bestehende Angebote als auch der ergänzende geotemporale Ansatz vorangebracht. </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Infos</head>
+                <p>Max. 30 Teilnehmer</p>
+                <p>
+                    <hi rend="bold">Bitte bringen Sie Ihre eigenen Laptops oder Tablets mit, möglichst mit Login in eduroam. </hi>
+                </p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl rend="Citavi Bibliography Entry">
+                        <anchor xml:id="CTVL001fbea2264f2194b45829b94893c4c3e22"/>
+                        <hi rend="bold">Bauer, Elke </hi>(2015): „Analoge Bildarchive auf dem Weg ins digitale Zeitalter“ in: Irmgard Christa Becker (ed.): 
+                        <hi rend="italic">Digitalisierung im Archiv - Neue Wege der Bereitstellung des Archivguts</hi>. Marburg: Archivschule Marburg: 61–74.
+                    </bibl>
+                    <bibl rend="Citavi Bibliography Entry">
+                        <anchor xml:id="CTVL0012f2ba82ac08b42c4bfe75bc3087b775f"/>
+                        <hi rend="bold">Beaudoin, Joan / Brady, Jessica </hi>(2011): “Finding Visual Information: A Study of Image Resources Used by Archaeologists, Architects, Art Historians, and Artists” in: 
+                        <hi rend="italic">School of Library and Information Science Faculty Research Publications</hi>.
+                    </bibl>
+                    <bibl rend="Citavi Bibliography Entry">
+                        <anchor xml:id="CTVL0011330f73d3c9f42199ca6bdb3d5f7bc3a"/>
+                        <hi rend="bold">Kamposiori, Christina </hi>(2012): “Digital Infrastructure for Art Historical Research: thinking about user needs” in: Stuart Dunn (Hg.): 
+                        <hi rend="italic">EVA 2012. London, UK, 10 - 12 July 2012</hi>. Swindon: British Computer Soc: 245–253. 
+                    </bibl>
+                    <bibl rend="Citavi Bibliography Entry">
+                        <anchor xml:id="CTVL0014750ed18a9934df798210033f26b1762"/>
+                        <hi rend="bold">Kohle, Hubertus</hi> (2013): 
+                        <hi rend="italic">Digitale Bildwissenschaft</hi>. Glückstadt: Hülsbusch. 
+                    </bibl>
+                    <bibl rend="Citavi Bibliography Entry">
+                        <anchor xml:id="CTVL001b6fa57b30eeb4b86b785e816324ea53f"/>
+                        <hi rend="bold">Vietze, Theresa / Schneider, Danilo / Maiwald, Ferdinand</hi> (2017): „Untersuchung der Eignung photogrammetrischer Methoden zur Erzeugung von 3D-Punktwolken aus historischen Bilddatenbeständen“ in: 
+                        <hi rend="italic">37. Wissenschaftlich-Technische Jahrestagung der DGPF in Würzburg</hi>, 26/2017.
+                    </bibl>
+                    <bibl rend="Citavi Bibliography Entry">
+                        <hi rend="pubauthors">
+                            <hi rend="bold">Brusche, Jonas / Niebling, Florian / Maiwald, Ferdinand / Friedrichs, Kristina / Wacker, Markus / Latoschik, Marc Erich</hi> (2017)
+                        </hi>: “
+                        <hi rend="pubtitle">Towards Browsing Repositories of Spatially Oriented Historic Photographic Images in 3D Web Environments” i</hi>n: 
+                        <hi rend="italic">Proceedings of the 22nd International Conference on 3D Web Technology</hi>. ACM, New York, Article 18. 
+                    </bibl>
+                    <bibl rend="Citavi Bibliography Entry">
+                        <hi rend="bold">Schindler, Grant / Dellaert, Frank</hi> (2012): “4D cities. Analyzing, visualizing, and interacting with historical urban photo collections” in: 
+                        <hi rend="italic">Journal of Multimedia</hi> 7,2: 124-131.
+                    </bibl>
+                    <bibl rend="Citavi Bibliography Entry">
+                        <hi rend="bold">Agarwal, Sameer / Snavely, Noah/ Simon, Ian / Seitz, Steven M. / Szeliski, Richard</hi> (2009): “Building Rome in a day” in: 
+                        <hi rend="italic">International Conference on Computer Vision</hi>.
+                    </bibl>
+                    <bibl rend="Citavi Bibliography Entry">
+                        <hi rend="bold">Bitelli, Gabriele / Dellapasqua, M. / Girelli, V. A. / Sbaraglia, S. / Tini, M. A. </hi>(2017): “Historical photogrammetry and terrestrial laser scanning for the virtual 3D reconstruction of destroyed structures: a case study in Italy” in: 
+                        <hi rend="italic">GEOMATICS &amp; RESTORATION, Florence, Italy</hi>: 113-119.
+                    </bibl>
+                    <bibl rend="Citavi Bibliography Entry">
+                        <hi rend="bold">Jégou, Hervé / Douze, Mattijs / Schmid, Cordelia</hi> (2010): “Improving bag-of-features for large scale image search” in: 
+                        <hi rend="italic">International journal of computer vision</hi>, 
+                        <hi rend="italic">87</hi>(3), 316-336.
+                    </bibl>
+                    <bibl rend="Citavi Bibliography Entry">
+                        <hi rend="bold">Wan, Ji / Wang, Dayong / Hoi, Steven Chu Hong / Wu, Pengcheng / Zhu, Jianke / Zhang, Yongdong / Li, Jintao</hi> (2014, November): “Deep learning for content-based image retrieval” in: 
+                        <hi rend="italic">Proceedings of the 22nd ACM international conference on Multimedia</hi>, 157-166.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

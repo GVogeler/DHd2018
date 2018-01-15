@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ambraser Heldenbuch: Transkription und wissenschaftliches Datenset</title>
+                <author>
+                    <persName>
+                        <surname>Sojer</surname>
+                        <forename>Claudia</forename>
+                    </persName>
+                    <affiliation>Universität Innsbruck, Österreich</affiliation>
+                    <email>claudia.sojer@uibk.ac.at</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Tratter</surname>
+                        <forename>Aaron Rudolf</forename>
+                    </persName>
+                    <affiliation>Universität Innsbruck, Österreich</affiliation>
+                    <email>aaron.tratter@student.uibk.ac.at</email>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2017-12-29T18:42:00Z</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Prof. Dr. Georg Vogeler</publisher>
+                <address>
+                    <addrLine>UniversitÃ¤t Graz</addrLine>
+                    <addrLine>Zentrum fÃ¼r Informationsmodellierung - Austrian Centre for Digital Humanities</addrLine>
+                    <addrLine>ElisabethstraÃe 59/III</addrLine>
+                    <addrLine>8010 Graz</addrLine>
+                </address>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Converted from a Word document </p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.17">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Vortrag</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>allographische Transkription</term>
+                    <term>Verknüpfung von Transkription und Bild</term>
+                    <term>Tagging</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Transkription</term>
+                    <term>Annotieren</term>
+                    <term>Manuskript</term>
+                    <term>Metadaten</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p rend="No Spacing">Seit Januar 2017 arbeitet eine Forschungsgruppe an der Universität Innsbruck unter der Leitung von Mario Klarer an dem ÖAW-go!digital-Projekt »Ambraser Heldenbuch: Transkription und wissenschaftliches Datenset«. Das Forschungsprojekt setzt sich zum Ziel, bis zum Jahr 2019 – dem 500. Todestag von Kaiser Maximilian I. – das 
+                <hi rend="italic">Ambraser Heldenbuch (AHB)</hi> (Wien, Österreichische Nationalbibliothek, Cod. Ser. nova 2663) zur Gänze zu transkribieren und als Forschungsdatenset online und offline öffentlich zugänglich zu machen.
+            </p>
+            <p rend="No Spacing">Eine Reihe bedeutender Texte der mittelalterlichen deutschen Literatur ist ausschließlich in frühneuhochdeutscher Sprache im 
+                <hi rend="italic">AHB</hi> überliefert (wie etwa Hartmanns von Aue 
+                <hi rend="italic">Erec</hi>, 
+                <hi rend="italic">Kudrun</hi>, 
+                <hi rend="italic">Moriz von Craûn</hi>, etc.). Das 
+                <hi rend="italic">AHB</hi> wurde zu Beginn des 16. Jahrhunderts von Kaiser Maximilian I. als Prunkhandschrift in Auftrag gegeben und vom Bozner Zollschreiber Hans Ried auf ca. 500 großformatigen Pergamentseiten ausgeführt. Die meisten Editionen dieser unikal überlieferten Texte sind jedoch Rückübersetzungen in ein standardisiertes Mittelhochdeutsch, wodurch die sprachliche Form des einzigen Textzeugens in den Hintergrund gerät. Aus diesem Grund mehren sich seit vielen Jahren Stimmen, die einer Gesamttranskription des 
+                <hi rend="italic">AHB</hi> höchste Priorität zusprechen (z. B. Leitzman 1935; Gärtner 2006; Mura 2008).
+            </p>
+            <p rend="No Spacing">Das 
+                <hi rend="italic">AHB</hi> ist mit 25 wichtigen mittelalterlichen literarischen Erzähltexten in einer Hand, wovon 15 als Unikate ausschließlich im 
+                <hi rend="italic">AHB</hi> überliefert sind, der 
+                <hi rend="bold">umfangreichste Kodex</hi> (ca. 500.000 Wörter) seiner Art.
+            </p>
+            <p rend="No Spacing">In einer Hand bzw. von einem 
+                <hi rend="bold">einzelnen Schreiber</hi> verfasst stellt dieses Textkorpus eine exzellente Materialbasis für weitere literaturhistorische und sprachwissenschaftliche Untersuchungen dar.
+            </p>
+            <p rend="No Spacing">Die 
+                <hi rend="bold">Sprachform</hi> der von Hans Ried niedergeschriebenen Texte deckt sich nicht mit dem (standardisierten) Mittelhochdeutsch seiner Vorlagen aus dem 12. und 13. Jahrhundert. Im 
+                <hi rend="italic">AHB</hi> manifestiert sich eine offensichtlich hybride literarische Kunstsprache des frühen 16. Jahrhunderts, die sich von den anderen überlieferten Autographen Rieds (aus einem dezidiert nicht literarischen Kontext) abhebt.
+            </p>
+            <p rend="No Spacing">Gerade für die unikal im 
+                <hi rend="italic">AHB</hi> überlieferten Texte sehen Homeyer und Knor (2015) das große Potential einer digitalen Gesamttranskription: „[F]ehlt doch bisher die Gesamtschau auf den Schreibusus Rieds im Rahmen seiner Abschrift des ‚Ambraser Heldenbuches’, um mögliche Vorlagenreflexe von Texteingriffen, Wortschatzwandel oder individuellen Schreibgewohnheiten zu trennen“ (98). Damit unterstützt die Transkription 
+                <hi rend="bold">Editionsbemühungen von Einzeltexten</hi> des 
+                <hi rend="italic">AHB</hi>.
+            </p>
+            <p rend="No Spacing">Aufgrund der oben angeführten Gründe ermöglicht eine 
+                <hi rend="bold">allographische Transkription</hi>, die Richtlinien anwendet, die im Rahmen des Projektes „Ambraser Heldenbuch: Transkription und wissenschaftliches Datenset“ an der Universität Innsbruck eigens erstellt wurden, um die Schreibweisen Hans Rieds möglichst präzise wiedergeben zu können, eine Untersuchung der transkribierten Texte in vielfältiger Weise. So können etwa Idiosynkrasien Hans Rieds leichter identifiziert und schnelle Abfragen einzelner Grapheme durchgeführt werden. Zusätzlich wird jedoch auch eine 
+                <hi rend="bold">diplomatische Transkription</hi> des gesamten 
+                <hi rend="italic">AHB</hi> erarbeitet und online veröffentlicht. Bei der allographischen Transkription werden möglichst viele verschiedene Varianten der Grapheme unterschieden. Ein wichtiges Kriterium für die Zuordnung zu einer Variante sowohl bei den Buchstaben als auch bei den Superskripta spielt die Federführung Hans Rieds. Nur sehr wenige Transkriptionen bilden die verschiedenen Varianten der Grapheme in den Texten ab, sodass in diesem Bereich der Forschung noch Aufholbedarf besteht.
+            </p>
+            <p rend="No Spacing">Da die Transkription nicht nur auf Buchstabenebene, sondern auch auf Zeichenebene erfolgt, entsteht dadurch ein differenziertes und möglichst präzises Abbild des Manuskriptes. Die Grapheme werden durch unterschiedliche Schriftzeichen des Unicode-Zeichensatzes dargestellt. In der folgenden Abbildung sieht man einen Ausschnitt aus dem Nibelungenlied. In den Wörtern 
+                <hi rend="italic">Ross</hi>, 
+                <hi rend="italic">des</hi> und 
+                <hi rend="italic">Seyfrids</hi> tritt mit einem langen s eine kontextsensitive Variante des Buchstabens 
+                <hi rend="italic">s</hi> auf. Außerdem treten drei unterschiedliche graphische Varianten des runden s auf.
+            </p>
+            <figure>
+                <graphic n="1001" width="16.002cm" height="2.6264305555555554cm" url="Pictures/image1.png" rend="inline"/>
+            </figure>
+            <p rend="No Spacing">Abb. 1: f. 95vc ll. 7–8 ab imo</p>
+            <figure>
+                <graphic n="1002" width="16.002cm" height="3.176763888888889cm" url="Pictures/image2.png" rend="inline"/>
+            </figure>
+            <p rend="No Spacing">Abb. 2: Transkription nach den neuesten Transkriptionsrichtlinien</p>
+            <p rend="No Spacing">Die einzelnen Varianten der Buchstaben weisen eine relativ geringe Varianz auf. Anders verhält es sich jedoch bei den diakritischen Zeichen bzw. Superskripta. Es werden vier verschiede Superskripta unterschieden: Trema, Breve, Superskriptum o und Superskriptum a. Vor allem das Breve und das Superskriptum o ähneln sich teilweise recht stark, sodass rein graphisch nicht immer bestimmt werden kann, um welches Superskriptum es sich handelt. Neben der Federführung des Schreibers werden andere Kriterien zur Entscheidung herangezogen, beispielsweise phonetische Merkmale.</p>
+            <figure>
+                <graphic n="1003" width="16.002cm" height="6.224763888888889cm" url="Pictures/image3.png" rend="inline"/>
+            </figure>
+            <p rend="No Spacing">Abb. 3: f. 95ra ll. 17–21 ab imo</p>
+            <figure>
+                <graphic n="1004" width="16.002cm" height="8.741833333333334cm" url="Pictures/image4.png" rend="inline"/>
+            </figure>
+            <p rend="No Spacing">Abb. 4: Transkription nach den neuesten Transkriptionsrichtlinien</p>
+            <p>Durch 
+                <hi rend="bold">Verlinkung</hi> des Manuskriptbildes mit dem Transkript auf Zeilenebene wird ermöglicht, dass die Überprüfbarkeit der Transkription bei späteren Forschungsprojekten stets gegeben ist. Man kann sich selbst ein Urteil über die vorliegende Arbeit bilden und diese dann gegebenenfalls revidieren oder zusätzliche Möglichkeiten der Interpretation aufzeigen.
+            </p>
+            <p>Neben der Transkription erfolgt mittels 
+                <hi rend="bold">Annotation</hi> die Auszeichnung übergeordneter Strukturen wie Verse und Strophen. Es werden aber auch Initialen, Lombarden und Rubrizierungen ausgewiesen, da diese in der Transkription nicht ausreichend dargestellt werden können. Darüber hinaus werden auch Zweifelsfälle getaggt, um darauf hinzuweisen, dass in diesem Fall die Schrift nicht eindeutig identifiziert werden konnte. So wird Transparenz und Überprüfbarkeit der Transkription gewährleistet.
+            </p>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl rend="No Spacing">Gärtner, Kurt et al., eds. Hartmann von Aue. 
+                        <hi rend="italic">Erec</hi>. 7th ed. Tübingen: Niemeyer, 2006.
+                    </bibl>
+                    <bibl rend="No Spacing">Homeyer, Susanne, and Inta Knor. „Zu einer umfassenden Untersuchung der Schreibsprache Hans Rieds im Ambraser Heldenbuch.“ 
+                        <hi rend="italic">Zeitschrift für Deutsche Philologie </hi>134.1 (2015): 97-103.
+                    </bibl>
+                    <bibl rend="No Spacing">Leitzmann, Albert. „Die Ambraser Erecüberlieferung.“ 
+                        <hi rend="italic">Beiträge zur Geschichte der deutschen Sprache und Literatur </hi>59 (1935): 143-234.
+                    </bibl>
+                    <bibl rend="No Spacing">Mura, Angela. „Spuren einer verlorenen Bibliothek: Bozen und seine Rolle bei der Entstehung des Ambraser Heldenbuchs.“ 
+                        <hi rend="italic">Cristallîn Wort. Hartmann-Studien. Rahmenthema: Das Ambraser Heldenbuch</hi>. Ed. Waltraud Fritsch-Rößler. Wien: Lit-Verlag, 2008. 59-128.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

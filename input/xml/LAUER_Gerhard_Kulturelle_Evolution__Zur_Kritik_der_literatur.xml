@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Kulturelle Evolution. Zur Kritik der literaturhistorischen Methode</title>
+                <author>
+                    <persName>
+                        <surname>Lauer</surname>
+                        <forename>Gerhard</forename>
+                    </persName>
+                    <affiliation>Universität Basel, Schweiz</affiliation>
+                    <email>gerhard.lauer@unibas.ch</email>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2018-01-08T21:02:00Z</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Prof. Dr. Georg Vogeler</publisher>
+                <address>
+                    <addrLine>UniversitÃ¤t Graz</addrLine>
+                    <addrLine>Zentrum fÃ¼r Informationsmodellierung - Austrian Centre for Digital Humanities</addrLine>
+                    <addrLine>ElisabethstraÃe 59/III</addrLine>
+                    <addrLine>8010 Graz</addrLine>
+                </address>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Converted from a Word document </p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.17">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Vortrag</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Kulturelle Evolution</term>
+                    <term>Literaturgeschichte</term>
+                    <term>Phylogenetik</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Beziehungsanalyse</term>
+                    <term>Räumliche Analyse</term>
+                    <term>Modellierung</term>
+                    <term>Theoretisierung</term>
+                    <term>Netzwerkanalyse</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>Zu den Provokationen der Literaturwissenschaft durch die Digital Humanities gehört ihre Arbeit an großen Datenmengen. Nicht das besondere Buch, der Kanon oder der Großschriftsteller, sondern die vielen Bücher und Literaturen sind der ‚andere‘ Gegenstand der computergestützten Literaturwissenschaft. Geradezu typisiert werden Digital Humanities und Distant Reading zusammen genannt. Tatsächlich war (Moretti, 2000) als Kritik an der herkömmlichen Literaturwissenschaft angelegt, genauer an ihrer methodischen Beschränkung, die Vielfalt der Literaturen methodisch in den Griff zu bekommen. Die Kritiker Morettis haben sein Anliegen konzediert, ohne konkrete Vorschläge zu machen, wie mit dem ‚Mengenproblem‘ in der Literaturgeschichtsschreibung besser umgegangen werden könnte (Ross, 2014). Ein radikaler Ansatz, die Geschichte der Literatur anders als bisher zu modellieren, ist der Ansatz der kulturellen Evolution (Lewens, 2013). Meine These lautet: Evolutionäre Modelle und Theorien sind für die Beantwortung literaturhistorische Fragestellung geeignet, besonders um das ‚Mengenproblem‘ in den Griff zu bekommen. Im Folgenden skizziere ich Theorie und Methodologie eines solchen Ansatzes und frage nach den Folgen für ein Fach wie die Literaturgeschichte.</p>
+            <p>Wie der Name schon andeutet, verschiebt der Ansatz den Akzent von der Geschichte auf die Evolution. In den Blick rückt nicht weniger als die Menschheitsgeschichte. Der Ansatz kommt denn auch aus der biologischen Anthropologie, nicht aus den geisteswissenschaftlichen Fächern. Das leitende Paradigma ist Darwins Theorie der Evolution. Die Theorie der kulturellen Evolution überträgt dieses Modell auf die Kulturgeschichte der Menschheit. Sie geht von der These aus, dass die Entwicklung der menschlichen Kulturen der gleichen evolutionären Entwicklungslogik folgt, der auch die Natur unterliegt (Mesoudi, 2016). Dabei geht es nicht um eine Analogie, vielmehr lautet die Dual-Heritance-These dieser Theorie, dass die Kultur die Natur des Menschen ist, kulturelle Entwicklungen die Natur des Menschen bis in seine genetische und biologische Veranlagung beeinflussen, wie umgekehrt die Naturgeschichte des Menschen seine Kultur bestimmt (Henrich &amp; McElreath, 2007). So generell angelegt versteht sich kulturelle Evolution als eine Supertheorie, die verspricht, die Sozial- und Geisteswissenschaften mit den biologischen Wissenschaften zusammenzuführen (Mesoudi, Whiten &amp; Laland, 2006; Laubichler &amp; Renn, 2015). Aus der Sicht der Digital Humanities ist die Theorie der kulturellen Evolution daher am extremen Ende des Distant Reading angesiedelt. Statt das einzelne Buch versucht die Theorie die Kultur der Menschheit in den Blick der Untersuchung zu nehmen.</p>
+            <p>Kulturelle Evolution ist aber neben dem ‚Distant Reading‘ auch noch aus einem zweiten Grund von Interesse für Digital Humanities. Sie arbeitet mit computergestützten Modellen. Bereits die Arbeiten aus den 70er und 80er Jahren haben computer-basierte Modelle genutzt, als (Cavalli-Sforza &amp; Marc Feldman, 1981), dann auch (Boyd &amp; Richerson, 1985) begonnen haben, die Evolutionsbiologie für das Verstehen von kulturellen Prozessen zu nutzen. Ihr Modell der kulturellen Evolution geht von Populationen aus, die ihrerseits aus Gruppen von Individuen bestehen, von denen jedes Individuum über variierende kulturelle Eigenschaften verfügt. Soziale Transmission von Informationen ist der wesentliche kulturelle ‚Vererbungs‘-Mechanismus zwischen Individuen und Populationen. Nur dann, wenn man annimmt, dass durch Prozesse des kulturellen Lernens Wissen vertikal, aber auch horizontal zwischen gleichzeitig lebenden Generationen weitergegeben wird, etwa das Lernen von Sprachen durch Kinder, kann man verstehen, warum sich die horizontale Weitergabe langfristig auch auf die vertikale, genetische Weitergabe von Eigenschaften auswirken kann und sich so etwas wie komplexe Sprachen entwickeln konnten. Hier kommen mathematische Ansätze und Computersimulationen ins Spiel, um die langfristigen Veränderungen mikroevolutionärer Veränderungen in Populationen, die Rate der Ausbreitung und räumlichen Verteilung neuer kultureller Eigenschaften zu modellieren. Quantitative Ansätze waren für Cavalli-Sforza, Feldman, Boyd und Richerson trotz der damals noch bescheidenen Speicherraten notwendig geworden, weil die Prozesses, die Veränderungen in der kulturellen Variationen verursachen, so vielfältig sind, dass sie mit herkömmlichen Methoden nicht mehr gehandhabt werden konnten.</p>
+            <p>Die Linguistik hat die Theorie der kulturellen Evolution rasch adaptiert, um die Evolution der Sprache untersuchen zu können, wie etwa die Befunde zur Diversität von Sprachen, nämlich dass größere Populationen ein größeres Inventar an Wörtern besitzen, ihre Sprachen stärker grammatikalisiert sind, mehr Phoneme haben, aber ihre Morphologie zugleich einfacher ist und ihre Wörter kürzer sind (Atkinson, 2011; Nettle, 2012). Auch kann ein solcher Ansatz zeigen, wie sich wärmere Klimata auf das Klangspektrum der in einer Sprache genutzten Laute auswirken (Munroe, Fought &amp; Macaulay, 2009) oder wie zerklüftete Landschaften bestimmte Distanzsprachen wie etwa Zeichen- oder Pfeifsprachen präferieren (Meyer, 2015). Immer geht es dabei um Einsichten in die Struktur der Kultur und die Prozesse ihrer Veränderung der langen Dauer, die nicht der Granularität etablierter historischer Beschreibungen entsprechen. </p>
+            <p>In der Literaturgeschichte sind kulturevolutionäre Modelle nicht etabliert. Das hat zunächst damit zu tun, dass generell der Aufbau von Korpora und die formale Modellierung von Fragestellungen innerhalb des historisch-hermeneutischen Paradigmas keine Rolle spielen und kaum eine Tradition haben. Linguisten dagegen wie (Labov, 1963) haben variationstheoretische und funktionalistischen Methoden genutzt, um die Systematizität in der sozialen und individuellen Variation des Sprachgebrauchs zu verstehen. Neuere Arbeiten in der Linguistik fragen danach, ob selbst solche fundamentalen Unterscheidungen wie die Unterscheidung der Wortklassen Nomen und Verben nicht in allen Sprachen zu finden sein könnte, die Wortordnung viel variabler als bislang angenommen sein dürfte, sprachliche Register höchst unterschiedlich gebraucht werden, Sprachen in einer höchst unterschiedlichen Interaktion zwischen Kindern und Eltern erworben werden (Evans, 2013; Lieven, 2013). Wenn aber Sprache in ihrer Entwicklungsgeschichte selbst in ihren Grundkategorien diverser sein könnten, als lange angenommen, und die Evolutionsrate ihrerseits je nach Sprache und Umwelt stark zu variieren scheint (Gray et al., 2013), müsste nicht Ähnliches auch für die Literaturen der Welt und ihre Entwicklung gelten, so dass man annehmen könnte, dass die Rate der Evolution von literarischen Formen mit Faktoren wie Gruppengröße, Dichte des sozialen Netzwerks, Menge der geteilten Informationen, soziale Stabilität und das Niveau des Austausches mit anderen Gruppen korreliert (Trudgill, 2011)? Das wäre eine innovative Forschungsagenda.</p>
+            <p>Die wenigen literaturhistorischen Arbeiten, die bislang vorliegen, nutzen verschiedene statistische Modelle und Methoden, um eine kulturevolutionäre Literaturgeschichte zu untersuchen. Besonders naheliegend ist der Ansatz einer Weiterentwicklung von Stemma zur Rekonstruktion von Manuskript-Kulturen. 1998 druckte die Zeitschrift 
+                <hi rend="italic">Nature</hi> einen kurzen Forschungsbericht über die phylogenetische Verwandtschaft der mehr als 80 überlieferten Manuskripte der 
+                <hi rend="italic">Canterbury Tales</hi> ab (Barbrook et al., 1998). Als Äquivalent zum genetischen Code wurden Fehler in den Abschriften und deren Weitergabe als Maß der Ähnlichkeit verwendet und etablierte Verfahren der Kladistik-Analyse (PAUP 3.1.1.) für die Erstellung von Bäumen genutzt. Dieselbe Forschergruppe hat inzwischen weitere Untersuchungen zur Verwandtschaft von Manuskripten erarbeitet, die durch Tagging verschiedene Variationen in den Manuskripten wie Wortvarianten, Wortergänzungen, kleine Wortzusätze, fehlende Zeilen, Veränderungen im Reim u.a. in die Erstellung der auf SplitsTree-Verfahren beruhenden Analysen einbeziehen (Howe et al., 2001). In einer Zusammenarbeit von Biologen und Philologen wurden die Methoden inzwischen um verschiedenen statistische Ansätze wie Maximum Parsimony und NeighborNet u.a. erweitert und ermöglichen die Abhängigkeiten von Manuskripten von ihren Vorlagen und die Regionen der Veränderung genau zu ermitteln (Windram et al., 2008).
+            </p>
+            <p>Ein weiterer kulturevolutionärer Ansatz nutzt die Klassifikation von Motiven, wie sie in der historisch-geographischen Schule der Märchenforschung mit dem Aarne-Uther-Thompson-Index vorliegt. Mit Methoden der Kladistik (Most Parsimonious Trees), Bayesian und phylogentischen Netzwerkanalysen konnten (2013; Tehrani &amp; d’Huy, 2106) die weltweite Verwandtschaft des Rotkäppchen-Märchens bestimmen. Von Interesse sind dabei auch Zusammenhänge mit der Populationsstruktur (Ross, Greenhill &amp; Atkinson, 2013), wenn dabei gezeigt werden kann, wie geographische Distanz, Genetik und Variation der Märchenmotive zusammenhängen (Bortolini et al., 2017). Die Annahme dabei ist, dass genetische, linguistische und motivliche Distanz korrelieren.</p>
+            <p>Statt über textuelle Merkmale wie Abschriftenfehler oder Motive zu gehen nutzen andere Ansätze innerhalb dieses Paradigmas Spielexperimente, wie sie besonders in der Verhaltensökonomie gängig sind. So wählen Probanden aus mehr als 60 Geschichten diejenigen aus, die ihnen besonders erzählenswert erscheinen und schreiben eine der Geschichten in kurzen Abschnitten (120-160 Buchstaben) weiter, bevor anderen Probanden die Geschichte weiterschreiben. Jeder Proband kennt jeweils nur die ‚Eltern‘ der Geschichte, die sie gerade fortschreiben (Cuskley et al., 2016). Gemessen werden qualitativ und quantitativ narrative Innovationen, um so experimentell die Ausbreitung von Geschichten zu messen. Ein weiterer Ansatz nutzt das Konzept der ‚Minimally Counterintuitive Narratives‘, demzufolge Geschichten dann eher geteilt und weitergegeben werden, wenn sie eine realistische Ontologie leicht durchbrechen, wie das etwa bei Märchen der Fall ist (Porubanova-Norquist, Shaw &amp; Xygalatas, 2013). Auch hier werden phylogenetische Methoden verwendet, um zu berechnen, welche Texteigenschaften in welcher Umwelt evolutionär vorteilhaft sind und daher eher geteilt und weitergegeben werden (Stubbersfield &amp; Tehrani, 2013). Es liegt auf der Hand, dass noch sehr viele andere Dimensionen von (literarischen) Texten eine Rolle im Prozess der Evolution spielen dürften.</p>
+            <p>Systematisch gewendet heißt das: Eine kulturevolutionäre Literaturgeschichtsschreibung hat ein anderes Gegenstandsfeld, nicht den Viktorianischen Roman, sondern die evolutionäre Logik seiner Entwicklung und die Schreibmuster dieses Genres. Literatur ist kein Werk, sondern Teil von Populationen. Sie benutzt zweitens andere Methodensets als die herkömmliche Literaturgeschichte, aber teilweise auch andere als sie sonst in den Digital Humanities gängig sind. Drittens leistet der Ansatz anderes. Er ist auf Erkenntnisse zur Logik der langen Dauer ausgerichtet. Und viertens rückt der Ansatz die Literaturgeschichte nahe an die Biologie heran mit Folgen für die Theoriebildung und Methodenentwicklung. Die Theorie der kulturellen Evolution ist nicht weniger als ein Ansatz, Digital Humanities als Teil eines größeren Forschungsprogramms zu betreiben. Mein Vortrag ist ein Plädoyer für ein solches Forschungsprogramm einer Literaturgeschichte der langen Dauer.</p>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl>
+                        <hi rend="bold">Atkinson, Quentin D.</hi> (2011): “Phonemic Diversity Supports a Serial Founder Effect Model of Language Expansion from Africa”, in: 
+                        <hi rend="italic">Science</hi> 332,6027: 346-349.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Barbrook, Adrian / Howe, Christopher / Blake, Norman / Robinson, Peter </hi>(1998): “The Phylogeny of 
+                        <hi rend="italic">The Canterbury Tales</hi>”, in: 
+                        <hi rend="italic">Nature</hi> 394: 839, https://www.nature.com/nature/journal/v394/n6696/full/394839a0.html [letzter Zugriff 16. September 2017].
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Bortolini, Eugenio / Pagani, Luca / Crema, Enrico / Sarno, Stefania / Barbieri, Chiara / Boattini, Alessio / Sazzini, Marco / Graça da Silva, Sara / Martini, Gessica / Metspalu, Mait / Pettener, Davide / Luiselli, Donata / Tehrani, Jamshid </hi>(2017): “Inferring Patterns of Folktale Diffusion Using Genomic Data”, in: 
+                        <hi rend="italic">Proceedings of the National Academy of Sciences of the United States of America</hi> 114,34, 
+                        <ref target="http://www.pnas.org/content/114/34/9140">http://www.pnas.org/content/114/34/9140</ref> [letzter Zugriff 16. September 2017].
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Boyd, Robert / Richerson, Peter</hi> (1985): 
+                        <hi rend="italic">Culture and the Evolutionary Process</hi>. Chicago. 
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Cavalli-Sforza, Luigi / Feldman, Marcus</hi> (1973): “Models for Cultural Inheritance. Within Group Variation”, in: 
+                        <hi rend="italic">Theoretical Population Biology </hi>4: 42-55.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Cuskley, Christine / Monechi, Bernardo / Gravino, Pietro / Loreto, Vittorio</hi> (2016): “The Evolution Of Collaborative Stories”, in: S.G. Roberts / C. Cuskley / L. McCrohon / L. Barceló-Coblijn / O. Fehér / T. Verhoef (Eds.): 
+                        <hi rend="italic">The Evolution of Language: Proceedings of the 11th International Conference (EVOLANG11)</hi>, 
+                        <ref target="http://evolang.org/neworleans/papers/133.html">http://evolang.org/neworleans/papers/133.html</ref> [letzter Zugriff 16. September 2017].
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Evans, Nicholas</hi> (2013): “Language Diversity as a Resource for Understanding Cultural Evolution”, in: Richerson, Peter / Christiansen, Morten (Eds.)
+                        <hi rend="bold">: </hi>
+                        <hi rend="italic">Cultural Evolution. Society, Technology, Language, and Religion</hi>. Cambridge/Mass.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Gray, Russell / Greenhill, Simon / Atkinson, Quentin</hi> (2013): “Phylogenetic Models of Language Change”, in: Richerson, Peter / Christiansen, Morten (Eds.)
+                        <hi rend="bold">: </hi>
+                        <hi rend="italic">Cultural Evolution. Society, Technology, Language, and Religion</hi>. Cambridge/Mass.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold color(363636)">Henrich, Joseph / McElreath, Richard</hi>
+                        <hi rend="color(363636)"> (2007): “Dual Inheritance Theory. The Evolution of Human Cultural Capacities and Cultural Evolution”, in: Dunbar, Robin / Barrett, Louise (Eds.): </hi>
+                        <hi rend="italic color(363636)">Oxford Handbook of Evolutionary Psychology</hi>
+                        <hi rend="color(363636)">. Oxford, 555-570.</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Howe, Christopher / Barbrook, Adrian / Spencer, Matthew / Mooney, Linne </hi>(2001): “Manuscript Evolution”, in: 
+                        <hi rend="italic">Endeavour</hi> 25,3: 121-126.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Labov, William</hi> (1963): “The Social Motivation of a Sound Change”, in: 
+                        <hi rend="italic">Word</hi> 19,3: 273-309.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold color(363636)">Lewens, Tim</hi>
+                        <hi rend="color(363636)"> (2013): “Cultural Evolution”, in:</hi>
+                        <hi rend="italic color(363636)">The Standford Encyclopedia of Philosophy</hi>
+                        <hi rend="color(363636)"> (Spring 2013 Edition), Edward N. Zalta (ed.), URL </hi>
+                        <ref target="http://plato.stanford.edu/archives/spr2013/entries/evolution-cultural/">http://plato.stanford.edu/archives/spr2013/entries/evolution-cultural/</ref> [letzter Zugriff 16. September 2017].
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Laubichler, Manfred / Renn, Jürgen </hi>(2015): “Extended Evolution. A Conceptual Framework for Integrating Regulatory Networks and Niche Construction”, in: Journal of Experimental Zoology 324B: 565-577.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Lieven, Elena</hi> (2013): “Language Acquisition as a Cultural Process”, in: Richerson, Peter / Christiansen, Morten (Eds.)
+                        <hi rend="bold">: </hi>
+                        <hi rend="italic">Cultural Evolution. Society, Technology, Language, and Religion</hi>. Cambridge/Mass.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Mesoudi, Alex / Whiten, Andrew / Laland, Kevin N.</hi> (2006): “Towards a Unified Science of Cultural Evolution”, in: 
+                        <hi rend="italic">Behavioural and Brain Sciences </hi>29: 329-383.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Mesoudi, Alex</hi> (2016): “Cultural Evolution. Integrating Psychology, Evolution and Culture”, in: 
+                        <hi rend="italic">Current Opinion in Psychology</hi> 7: 17-22.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Meyer, Julien</hi> (2015): 
+                        <hi rend="italic">Whistled Languages. A Worldwide Inquiry on Human Whistled Speech</hi>. Berlin, Heidelberg.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Moretti, Franco</hi> (2000): “Conjectures on World Literature”, in: 
+                        <hi rend="italic">New Left Review</hi> 1: 54-68. 
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Munroe, Robert / Fought, John / Macaulay, Ronald</hi> (2009): “Warm Climates and Sonority Classes not Simply More Vowels and Fewer Consonants”, in: 
+                        <hi rend="italic">Cross-Cultural Research</hi> 43,2: 123-133.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Nettle, Daniel</hi> (2012): “Social Scale and Structural Complexity in Human Languages”, in: 
+                        <hi rend="italic">Philosophical Transactions of the Royal Society B: Biological Sciences </hi>367,1597: 1829-1836.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Porubanova-Norquist, Michaela / Shaw, Daniel / Xygalatas, Dimitris </hi>(2013): “Minimal-Counterintuitivenes Revisited. Effects of Cultural and Ontological Violations on Concept Memorability”, in: 
+                        <hi rend="italic">Journal for the Cognitive Science of Religion</hi> 1,2: 181-192 
+                        <ref target="https://pure.au.dk/ws/files/71907173/Porubanova_et_al.pdf">https://pure.au.dk/ws/files/71907173/Porubanova_et_al.pdf</ref> [letzter Zugriff 16. September 2017].
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Ross, Robert / Greenhill, Simon / Atkinson, Quentin</hi> (2013): “Population structure and cultural geography of a folktale in Europe”, in: 
+                        <hi rend="italic">Proceedings of the Royal Society B: Biological Sciences</hi> 280,1756, 
+                        <ref target="http://rspb.royalsocietypublishing.org/content/280/1756/20123065">http://rspb.royalsocietypublishing.org/content/280/1756/20123065</ref> [letzter Zugriff 16. September 2017].
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Ross, Shawna</hi> (2014): “In Praise of Overstating the Case. A Review of Franco Moretti, 
+                        <hi rend="italic">Distant Reading</hi>”, in: 
+                        <hi rend="italic">Digital Humanities Quarterly</hi> 8,1 
+                        <ref target="http://www.digitalhumanities.org/dhq/vol/8/1/000171/000171.html">http://www.digitalhumanities.org/dhq/vol/8/1/000171/000171.html</ref> [letzter Zugriff 16. September 2017].
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Stubbersfield, Joseph / Tehrani, Jamshid</hi> (2013): “Expect the Unexpected? Testing for Minimally Counterintuitive (MCI) Bias in the Transmission of Contemporary Legends: A Computational Phylogenetic Approach”, in: 
+                        <hi rend="italic">Social Science Computer Review</hi> 31,1: 90-102.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Tehrani, Jamshid </hi> (2013): “The Phylogeny of Little Red Riding Hood”, in: PLoS ONE 8,11: e78871, 
+                        <ref target="https://doi.org/10.1371/journal.pone.0078871">https://doi.org/10.1371/journal.pone.0078871</ref> [letzter Zugriff 16. September 2017].
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Tehrani, Jamshid / d’Huy, Julien </hi>(2016): “Phylogenetics Meets Folklore. Bioinformatics Approaches to the Study of International Folktales”, in: Kenna, Ralph / MacCaroon, Márían / MacCarron, Pádraig (Eds.): 
+                        <hi rend="italic">Maths Meets Myths. Quantiative Approaches to Ancient Narratives</hi>. Zürich: 91-114, 
+                        <ref target="https://link.springer.com/chapter/10.1007%2F978-3-319-39445-9_6">https://link.springer.com/chapter/10.1007%2F978-3-319-39445-9_6</ref> [letzter Zugriff 16. September 2017].
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Trudgill, Peter</hi> (2011): 
+                        <hi rend="italic">Sociolinguistic Typology. Social Determinants of Linguistics Complexity</hi>. Oxford.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Windram, Heather / Shaw, Prue / Robinson, Peter / Howe, Christopher</hi> (2008): “Dante’s 
+                        <hi rend="italic">Monarchia</hi> as a Text Case for the Use of Phylogentic Methods in Stemmatic Analysis”, in: 
+                        <hi rend="italic">Digital Scholarship in the Humanities </hi>23,4: 443-463.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

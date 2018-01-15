@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Vagheit hoch Zweifel plus Kritik! Die Bewertung von Widersprüchen in einer digitalen Entzifferungsarbeit der Maya-Hieroglyphen</title>
+                <author>
+                    <persName>
+                        <surname>Gronemeyer</surname>
+                        <forename>Sven</forename>
+                    </persName>
+                    <affiliation>Rheinische Friedrich-Wilhelms-Universtität Bonn, Deutschland; La Trobe University Melbourne, Australien</affiliation>
+                    <email>sgronemeyer@uni-bonn.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Diehr</surname>
+                        <forename>Franziska</forename>
+                    </persName>
+                    <affiliation>Niedersächsische Staats- und Universitätsbibliothek Göttingen, Deutschland</affiliation>
+                    <email>diehr@sub.uni-goettingen.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Prager</surname>
+                        <forename>Christian</forename>
+                    </persName>
+                    <affiliation>Rheinische Friedrich-Wilhelms-Universtität Bonn, Deutschland</affiliation>
+                    <email>cprager@uni-bonn.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Diederichs</surname>
+                        <forename>Katja</forename>
+                    </persName>
+                    <affiliation>Rheinische Friedrich-Wilhelms-Universtität Bonn, Deutschland</affiliation>
+                    <email>katja.diederichs@uni-bonn.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Wagner</surname>
+                        <forename>Elisabeth</forename>
+                    </persName>
+                    <affiliation>Rheinische Friedrich-Wilhelms-Universtität Bonn, Deutschland</affiliation>
+                    <email>ewagner@uni-bonn.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Brodhun</surname>
+                        <forename>Maximilian</forename>
+                    </persName>
+                    <affiliation>Niedersächsische Staats- und Universitätsbibliothek Göttingen, Deutschland</affiliation>
+                    <email>brodhun@sub.uni-goettingen.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Grube</surname>
+                        <forename>Nikolai</forename>
+                    </persName>
+                    <affiliation>Rheinische Friedrich-Wilhelms-Universtität Bonn, Deutschland</affiliation>
+                    <email>ngrube@uni-bonn.de</email>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2018-01-12T13:19:00Z</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Prof. Dr. Georg Vogeler</publisher>
+                <address>
+                    <addrLine>UniversitÃ¤t Graz</addrLine>
+                    <addrLine>Zentrum fÃ¼r Informationsmodellierung - Austrian Centre for Digital Humanities</addrLine>
+                    <addrLine>ElisabethstraÃe 59/III</addrLine>
+                    <addrLine>8010 Graz</addrLine>
+                </address>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Converted from a Word document </p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.17">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Vortrag</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Digitale Epigraphik</term>
+                    <term>Vagheit</term>
+                    <term>Schriftzeichen</term>
+                    <term>Entzifferung</term>
+                    <term>Ontologische Modellierung</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Transkription</term>
+                    <term>Modellierung</term>
+                    <term>Annotieren</term>
+                    <term>Kontextsetzung</term>
+                    <term>Sprache</term>
+                    <term>texttragende Gegenstände</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="div1" rend="DH-Heading1">
+                <head>Die Hieroglyphenschrift des Klassischen Maya</head>
+                <p>Die logosyllabische Hieroglyphenschrift der Maya umfasst rund 1000 Zeichen und wurde etwa zwischen 350 v. Chr. und 1550 n. Chr. im südlichen Mesoamerika zur Aufzeichnung der Hochsprache des Klassischen Maya verwendet. Die Anzahl der Graphe ist raum-zeitlich betrachtet mit rund 3000+ Formen weitaus höher, da Zeichen gleichzeitig mehrere Graphvarianten aufweisen können, die von einer Vollform abgeleitet sind.</p>
+                <p>Einzelne Graphe werden in einem meist mit einem Wort oder morphemischem Verbund identischen Hieroglyphenblock arrangiert, ähnlich dem koreanischen Hangul. Allerdings offenbart das Maya aufgrund seines Variantenreichtums eine wesentlich größere kalligraphische Freiheit als die einzelnen Varianten nur durch simples Aneinanderreihen im Block zu schreiben. Je nach Platzbedarf und Ästhetik können Graphe etwa miteinander verschmelzen, infigiert oder gedreht werden.</p>
+                <p>Bei der Katalogisierung der Graphe muss weiterhin mehr als ein Jahrtausend paläographischer Entwicklung berücksichtigt werden, ebenso unterschiedliche Stile in skulptierten oder gemalten Texten. Wegen all dieser Eigenheiten und der herausfordernden Struktur widersetzt sich die Maya-Schrift aktuell, Teil des Unicode-Standards zu werden.</p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Zeichenkataloge als Hilfskonstrukte der Epigraphik</head>
+                <p>Bis in die 1950er Jahre war die Maya-Schrift nicht entziffert und blieb es in großen Teilen bis in die 1980er Jahre, als eine Reihe bahnbrechender Erkenntnisse einen Kaskadeneffekt in Gang setzte, etwa Stuart (1987). Bis heute kennt man ebensowenig die genaue Zahl der Zeichen und ihrer graphischen Repräsentationen, da alle bisher publizierten Verzeichnisse aufgrund des Entzifferungsprozesses unvollständig und unzulänglich sind. Über 300 Zeichen sind bis heute nur vage oder gar nicht entziffert. Für viele dieser Fälle  existieren  konkurrierende Entzifferungsvorschläge, die vielleicht nur in ausgewählten Kontexten valide sind, sich aber wegen möglicher Polyvalenz nicht gegenseitig ausschließen müssen. Es gilt nicht nur, das Zeicheninventar vollständig zu erfassen, sondern existierende Entzifferungsvorschläge kritisch im Textzusammenhang zu prüfen, ob sie verifizierbar sind, und wo sie sich als falsch oder nicht überprüfbar herausstellen und somit nicht weiter berücksichtigt werden müssen.</p>
+                <p>Die elf bisher publizierten Zeicheninventare, vor allem Thompson (1962), weisen viele Schwachstellen auf, besonders problematisch sind dabei Mehrfachinventarisierungen von Allographen als verschiedene Zeichen. Ein weiterer offensichtlicher Nachteil der traditionellen Zeichenkataloge ist die unveränderbare Natur einer gedruckten Fassung. Dies verhindert, dass gegebene Mehrfach- und Fehlklassifikationen korrigiert oder neue Beziehungen zu Zeichen und zu verschiedenen Zeichenfunktionen erstellt werden können, wobei zudem neue Entzifferungen nicht berücksichtigt werden können.</p>
+                <p>Um einen Überblick über die bisher geleistete Zeichenklassifikationsarbeit der Mayaschriftforschung zu schaffen und den Vergleich der Inventare zu ermöglichen, fließen die bisher publizierten Kataloge in unseren digitalen Zeichenkatalog als Konkordanz ein. Die fehlerhaften Klassifikationen werden durch unseren Katalog korrigiert, bleiben aber nachvollziehbar dokumentiert, da wir die konkordanten Katalogeinträge beim jeweiligen Graph, das optional einem Zeichen zugeordnet werden kann, erfassen.</p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Ein digitales Zeichen- und Graphinventar für das Klassische Maya</head>
+                <p>Als Resultat interdisziplinärer Arbeit, bei dem die Modellierung und Verarbeitung der Daten auf Grundlage epigraphischer Prinzipien und Forschungsfragen erfolgte, ist unser digitaler Zeichenkatalog so konzipiert, dass er sowohl bisherige Forschungsergebnisse kritisch abbilden als auch noch zu erwartende Erkenntnisse flexibel einbinden kann.</p>
+                <p>Der Katalog basiert auf einem innovativen Konzept der flexiblen Zuordnung von Zeichen zu ihren Graphen: Zeichen als Träger sprachlicher Informationen und Graphe als Form ihrer schriftlichen Realisierung werden getrennt erfasst, und erst die Verbindung eines Zeichens mit seinen Graphen macht es zu dessen Allograph, deren Gesamtheit bildet das Graphem eines Zeichens, das phonemisch KV-Silben oder freie und gebundene Morpheme, Diakritika und Zahlen wiedergibt.</p>
+                <p>Die ontologisch-vernetzte Struktur des Modells und dessen Implementierung in RDF erlauben es, semantische Relationen über persistente URIs zwischen eindeutig referenzierbaren Entitäten herzustellen. Dadurch ist es möglich, Zuordnungen flexibel anzupassen und Allographe durch neue Verknüpfungen hinzuzufügen oder Falschzuweisungen zu korrigieren, etwa wenn ein Graph in Wirklichkeit aus zwei Graphen verschiedener Zeichen besteht.</p>
+                <p>
+                    <lb/>Sobald die Neuinventarisierung abgeschlossen ist (voraussichtlich Mitte 2018), wird der Katalog auf unserem zukünftigen Projektportal (
+                    <ref target="https://classicmayan.org/">
+                        <hi rend="color(1155CC)">https://classicmayan.org/</hi>
+                    </ref>) publiziert und die RDF-Daten über einen SPARQL-Endpoint zugänglich gemacht. Zusätzlich werden die Daten auch im TextGrid Repository (
+                    <ref target="https://textgridrep.org/">
+                        <hi rend="color(1155CC)">https://textgridrep.org/</hi>
+                    </ref>) veröffentlicht, wo sie mittels einer OAI-PMH Schnittstelle auch für externe Nutzer abrufbar sind. Die Dokumentation des digitalen Zeichenkatalogs ist unter 
+                    <ref target="http://idiom-projekt.de/catalogue">
+                        <hi rend="color(1155CC)">http://idiom-projekt.de/catalogue</hi>
+                    </ref> erreichbar.
+                </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Bewertung und qualitative Einstufung von Lesungshypothesen</head>
+                <p>Bei einer noch nicht vollständig entschlüsselten Schrift machen Epigraphiker zwangsläufig verschiedene Annahmen zur phonemischen Lesung von Zeichen. Es ist notwendig, alle plausiblen und nicht eindeutig widerlegten Entzifferungsvorschläge zu dokumentieren, vor allem aber, deren Qualität nach formalen Kriterien bewertbar zu machen. Dazu haben wir ein neutrales, transparentes System modelliert, das anhand formaler Kriterien eine qualitative Einstufung von Lesungshypothesen ermöglicht und deren Plausibilität im Textkorpus überprüfbar macht.</p>
+                <p>Die Zeichen werden Zeichenklassen (syllabisch, morphographisch, diakritisch und/oder numerisch) zugewiesen, die jeweils einen breiten Transliterationswert ohne allophonische Varianz haben, z.B. “ku” für das Silbenzeichen 528. Aufgrund der Polyvalenz hat das Zeichen noch zwei logographische Lesungen mit distinktem Transliterationswert, statt des normalen “TUN” wird “CHAHUK” gelesen, wenn es als Tagesname verwendet wird. Für die Konfidenz eines Transliterationswertes werden jene Kriterien ausgewählt, auf die er sich stützt (siehe Abb. 1). Für jede Art der Zeichenfunktion wurde ein eigenes Kriterien-Set basierend auf Kelley (1962) und Houston (2001) entwickelt, das sich vor allem am graphematischen und sprachlichen Nutzungskontext orientiert, z.B. hat die Übereinstimmung mit einer bestimmten Wortart durch das Syntagma für ein Silbenzeichen keine Bedeutung, jedoch für Logogramme - hier besonders auch der Nachweis in modernen Maya-Sprachen.</p>
+                <figure>
+                    <graphic n="1001" width="15.927916666666667cm" height="12.408958333333333cm" url="Pictures/image1.png" rend="inline"/>
+                </figure>
+                <p>Abb. 1: Polyvalentes Zeichen mit drei Lesungen und jeweils unterschiedlichen Konfidenzen.</p>
+                <p>Die Kriterien sind mittels Aussagenlogik so miteinander in Bezug gesetzt, dass je nach Kombination eine qualitative Einstufung vorgenommen wird. Dabei steht “1” für die höchstmögliche Konfidenz und eine evidente Lesung. Die Anzahl der Konfidenzstufen je Zeichenfunktion ist unterschiedlich: während Logogramme eine granulare Einteilung benötigen, brauchen Silbenzeichen weniger Stufen, da deren Permutationen im Kontext eines Wortes recht eindeutig sind.</p>
+                <p>Das Wortzeichen “CH’AM” etwa taucht mit phonemischen Komplementen auf, die entsprechenden Kriterien ergeben Stufe 2. Damit liegt eine wahrscheinliche, aber ohne funktional äquivalente syllabische Substitution noch keine gesicherte Entzifferung vor. Die Kriterien sind bewusst streng gehalten, um für jede Lesungsaussage eine kritische Evaluation gegenüber den Zeichenvorkommen im von uns TEI-kodierten Textkorpus durchführen zu können und damit unserem Wörterbuch eine hohe Zuverlässigkeit für den Nutzer zu geben. Lesungen unterhalb einer bestimmten Konfidenz werden nämlich nicht aufgenommen, so dass in unserem Wörterbuch bestimmten Entzifferungsvorschlägen der normative Charakter genommen wird, den sie vielleicht in der epigraphischen Forschung durch Zitierung gewonnen haben.</p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Zusammenspiel von Zeichenkatalog, Textkorpus und linguistischer Analyse</head>
+                <p>Ohne eine sichere Identifizierung aller Graphe und mit vielen Zeichen unbekannter oder umstrittener Lesung kann das TEI-kodierte Textkorpus weder aus einem festen Schriftzeichensatz wie Unicode noch aus phonemisch transliterierten Werten bestehen. Für ein flexibles Korpus, das auf neue Entzifferungen und verschiedene Lesungshypothesen reagieren kann, nutzen wir den Zeichenkatalog als eine Art “Grundbaukasten” bei der Korpuserstellung.</p>
+                <p>Im kodierten Text wird jede Hieroglyphe mittels Katalognummer und einer Referenz zur URI im Zeichenkatalog erfasst. Mittels einer Software zur linguistischen Analyse, Teil unserer virtuellen Arbeitsumgebung, wird in einem weiteren Prozessierungsschritt die numerische Transliteration (Katalognummern) zunächst in eine graphemische Transliteration (Transliterationswerte) überführt. Dies geschieht wegen der Polyvalenz semi-automatisch, wenn der Epigraphiker nach Verwendungskontext eine Entscheidung fällen muss - erst damit wird der Text “menschenlesbar”.</p>
+                <p>Die qualitative Einstufung der Entzifferungsvorschläge im Zeichenkatalog wird jetzt relevant: Die Analyse kann anhand hoher oder niedriger Konfidenzstufen durchgeführt werden. Die Entzifferungsaussagen können in ihrem Verwendungskontext überprüft werden, was idealerweise zu neuen Erkenntnissen für die Entzifferung führen kann, aber auch der Vorbereitung der zweiten Stufe der phonemischen Transliteration dient. Jetzt werden die quasi als Container genutzten Transliterationswerte aus dem Zeichenkatalog kontextuell der korrekten sprachlichen Lesung angepasst. So besitzt das Zeichen “CHAN” üblicherweise die Lesung “chan” - “Himmel”, syllabische Substitutionen in Nordwest-Yukatan zeigen aber, dass das Zeichen dort in einem vernakularen Kontext “káan” ausgesprochen wurde. Der Einfluss lokaler Maya-Sprachen (relevant sind drei Sprachfamilien) auf die Schriftsprache ist noch nicht systematisch erforscht und mit Ergebnissen der historischen Linguistik abgeglichen worden.</p>
+                <p>Das Tool zur linguistischen Analyse ermöglicht darüber hinaus die Anlage paralleler, als gleichwertig anzusehende Textanalysen, damit wird den verschiedenen Entzifferungsvorschlägen Rechnung getragen. Durch die Verbindung von Zeichenkatalog, Textkorpus und linguistischer Analyse entsteht letztendlich ein dynamischer Text, der je nach Forschungsfrage individuell generiert werden kann. Dieser Ansatz der ontologischen Vernetzung der Komponenten dürfte auch für die Erforschung weiterer nicht entzifferter Schriften von Interesse sein.</p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Neue Perspektiven für die Maya-Epigraphik</head>
+                <p>Auch ein digitaler Zeichenkatalog des Klassischen Maya kann nur so gut sein wie die epigraphische Forschung, und ist vor allem vom Grad der kritischen Selbstreflektion abhängig. Konkurrierende Entzifferungsvorschläge werden erst einmal als gleichwertig aufgenommen und erst dann anhand formaler Kriterien kategorisiert. Die Kriterienvergabe folgt den Argumenten der Hypothese und ist damit faktisch. Die Aussagelogiken zur Festlegung der Konfidenzstufen sind dabei eine kritische Zusammenführung fast 70-jähriger epigraphischer Forschungspraxis, auch im Vergleich mit den Methoden bei der Entzifferung anderer nicht-alphabetischer Schriftsysteme. Die Konfidenz eines Entzifferungsvorschlags ist damit weit mehr als ein Wahrscheinlichkeitsbegriff. Das Datenmodell ist dabei dem noch nicht gefestigten Erkenntnisstand zum Mayaschriftsystem angepasst.</p>
+                <p>Die Arbeit mit digitalen Methoden hat so manche Kritik an der eigenen Forschungstradition erst in Gang kommen lassen, lenkt diese aber auch in eine vorher nicht denkbare Richtung. Die Möglichkeit eines digitalen Zeichenkatalogs und eines digitalen Textkorpus erlaubt erstmals, den gesamten Schriftschatz des Klassischen Maya nach Entzifferungskontexten zu durchsuchen, anstatt sich auf sein “cerebrales” Textkorpus verlassen zu müssen. Erst die Verbindung von geisteswissenschaftlichen und digitalen Methoden erlaubt es, die Maya-Epigraphik in eine neue Phase eintreten zu lassen.</p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl>
+                        <hi rend="bold">Houston, Stephen</hi> (2001): 
+                        <hi rend="italic">The Decipherment of Ancient Maya Writing</hi>. Norman: University of Oklahoma Press: 3–19.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Kelley, David H. </hi>(1962): Review of “A Catalog of Maya Hieroglyphs, by J. Eric S. Thompson. Pp. xiv + 458, Including pls 16. University of Oklahoma Press, Norman, in Cooperation with the Carnegie Institution of Washington, 1962.” 
+                        <hi rend="italic">American Journal of Archaeology</hi> 66(4): 436–438.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Stuart, David </hi>(1987): 
+                        <hi rend="italic">Ten Phonetic Syllables</hi>. Research Reports on Ancient Maya Writing 14. Center for Maya Research, Washington, D.C.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Thompson, J. Eric S.</hi> (1962): 
+                        <hi rend="italic">A Catalog of Maya Hieroglyphs</hi>. Norman: University of Oklahoma Press.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Wichmann, Søren </hi>(2006): Mayan Historical Linguistics and Epigraphy: A New Synthesis. 
+                        <hi rend="italic">Annual Review of Anthropology</hi> 35, 279–294.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

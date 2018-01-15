@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Perspektiven kritischer Interfaces für die Digital Humanities im 3DH-Projekt</title>
+                <author>
+                    <persName>
+                        <surname>Kleymann</surname>
+                        <forename>Rabea</forename>
+                    </persName>
+                    <affiliation>Universität Hamburg, Deutschland</affiliation>
+                    <email>Rabea.Kleymann@uni-hamburg.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Meister</surname>
+                        <forename>Jan Christoph</forename>
+                    </persName>
+                    <affiliation>Universität Hamburg, Deutschland</affiliation>
+                    <email>jan-c-meister@uni-hamburg.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Stange</surname>
+                        <forename>Jan-Erik</forename>
+                    </persName>
+                    <affiliation>Universität Hamburg, Deutschland</affiliation>
+                    <email>jan-erik.stange@uni-hamburg.de</email>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2018-01-14T22:00:00Z</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Prof. Dr. Georg Vogeler</publisher>
+                <address>
+                    <addrLine>UniversitÃ¤t Graz</addrLine>
+                    <addrLine>Zentrum fÃ¼r Informationsmodellierung - Austrian Centre for Digital Humanities</addrLine>
+                    <addrLine>ElisabethstraÃe 59/III</addrLine>
+                    <addrLine>8010 Graz</addrLine>
+                </address>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Converted from a Word document </p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.17">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Vortrag</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Interpretation</term>
+                    <term>Visualisierung</term>
+                    <term>Interface</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Entdeckung</term>
+                    <term>Gestaltung</term>
+                    <term>Modellierung</term>
+                    <term>Theoretisierung</term>
+                    <term>Visualisierung</term>
+                    <term>Visualisierung</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="div1" rend="DH-Heading1">
+                <head>Einleitung</head>
+                <p>Eine Haupttätigkeit von LiteraturwissenschaftlerInnen ist die Interpretation von literarischen Texten. Unter „Interpretation“ wird „ein Sprechen oder Schreiben über Texte [verstanden], in dem ihnen auf methodische und argumentierende Weise Bedeutungen zugeschrieben werden“ (Albrecht et. al. 2015: 1). Mit dem Einzug digitaler Methoden in die literaturwissenschaftliche Praxis werden dabei insbesondere die Formen der Bedeutungszuschreibung und -produktion sowie die damit verbundene Frage nach einem Textverstehen zur Disposition gestellt (vgl. Rockwell/Sinclair 2016). Eine wichtige Rolle in der Gestaltung von digitalen Zugängen zur Textinterpretation spielen in diesem Kontext User Interfaces im Allgemeinen und interaktive Visualisierungen im Speziellen. Unter „Interfaces“ verstehen wir die gesamte visuelle Struktur und Bedienlogik einer Software, mit „Visualisierungen“ bezeichnen wir interaktive Teile des Interfaces, die Nutzern auf Daten (in diesem Fall Textdaten) basierende visuelle Repräsentationen zugänglich und diese manipulierbar machen.</p>
+                <p>Die Frage, wie solche Interfaces und Visualisierungen an den Bedürfnissen interpretierender LiteraturwissenschaftlerInnen orientiert sein sollten, um eine Textanalyse und -interpretation sinnvoll zu unterstützen, ist Teil des Forschungsanliegens des Projekts 3DH –
+                    <hi rend="italic">Dreidimensionale dynamische Datenvisualisierung und Exploration für Digital Humanities-Forschungen</hi> der Universität Hamburg.
+                    <note place="foot" xml:id="ftn1" n="1">
+                        <p> Das Projekt 
+                            <hi rend="italic">3DH – Dreidimensionale dynamische Datenvisualisierung und Exploration für Digital Humanities-Forschungen</hi> wird in der ersten Projektphase (02/2016 – 01/2019) von der Behörde für Wissenschaft, Forschung und Gleichstellung gefördert. Für weitere Informationen vgl. 
+                            <ref target="http://www.threedh.net">
+                                <hi rend="underline color(1155CC)">www.threedh.net</hi>
+                            </ref> [letzter Zugriff: 07.09.2017].
+                        </p>
+                    </note>
+                </p>
+                <p>Vor dem Hintergrund, dass Interfaces und Visualisierungen in den Geisteswissenschaften eine wachsende Relevanz zugesprochen wird, plädieren wir für eine designbasierte kritische Perspektive. Darunter verstehen wir die Einbindung von Methoden aus dem nutzerzentrierten Design in die Tool-Entwicklung. Diese erlauben eine an Nutzerbedürfnissen und -erwartungen orientierte Gestaltung von Interfaces und Visualisierungen. Dieser Ansatz zielt darauf, die Grenzen der klassischen Verfahren der Datenerhebung und -verarbeitung, wie sie bereits von bestehenden Annotationstools (z. B. CATMA; siehe http://catma.de) unterstützt werden, neu auszuloten. </p>
+                <p>Zunächst stellen wir die aus unserer Sicht notwendigen normativen Anforderungen an ein kritisches Interface- und Visualisierungskonzept vor, um dann darzulegen, welche Strategie wir in der Gestaltung und Entwicklung solcher Interfaces und Visualisierungen verfolgen. Im Anschluss werden beispielhaft einzelne Wireframes diskutiert.</p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Grundlagen eines kritischen Interface- und Visualisierungskonzeptes</head>
+                <p>Eine kritische Bestandsaufnahme aktueller Visualisierungstools und -metaphern und deren Anwendung in den Geisteswissenschaften (vgl. Bradley 2008; Drucker 2011, 2014; Gibbs/Owens 2012) führte im 3DH-Projekt zur Formulierung von vier konzeptionellen Postulaten.
+                    <note place="foot" xml:id="ftn2" n="2">
+                        <p> Einige Digital-Humanities-Tools und Forschungsansätze, die auf die Unterstützung von hermeneutischen Prozessen zielen: Pliny und TEASys.</p>
+                    </note> Definiert werden damit die Prinzipien, die einem Interface bzw. einer Visualisierung zugrunde gelegt werden müssen, sofern diese literaturwissenschaftliche Arbeitsprozesse sinnvoll unterstützen sollen. Es handelt sich um die Postulate 
+                </p>
+                <p>1. des „Two-Way-Screens“: Das Interface soll vom Renderer zum bidirektionalen Instrument werden; </p>
+                <p>2. der „Qualität“: Die Visualisierung soll nicht nur der Repräsentation von Daten fungieren, sondern Möglichkeiten bieten, qualitative Beobachtungen und Aussagen zu tätigen;</p>
+                <p>3. der „Parallaxe“: Die visuelle und epistemische Multiperspektivität einer Visualisierung soll gestärkt werden;</p>
+                <p>4. der „Diskursivität“: Durch geeignete visuelle Erscheinungsformen und -verfahren soll die Generierung, Diskussion und Kritik von Hypothesen gefördert werden.</p>
+                <p>Die normativen Anforderungen an ein reflektiertes Interface- und Visualisierungskonzept rekurrieren auf die spezifischen Eigenschaften eines literaturwissenschaftlichen Arbeitsprozesses. Dieser folgt keinem finiten Set von methodischen Regeln oder Verfahrensweisen. Vielmehr tritt die Textanalyse und -interpretation als komplexer epistemisch und ästhetisch geformter sowie zirkulär organisierter Prozess auf, der sich als in hohem Maße subjektiv und kontextsensitiv erweist (vgl. Winko 2015: 486). </p>
+                <p>Für die praktische Entwicklung literaturwissenschaftlicher Interfaces und Visualisierungen gehen wir von zwei Annahmen aus. </p>
+                <p>Die Komplexität des Interpretationsprozesses kann erstens auf eine Reihe von grundlegenden „routineförmige[n] Tätigkeiten“ (Albrecht et al. 2015: 2) bzw. „scholarly primitives“ (Unsworth 2000) zurückgeführt werden, die iterativ von LiteraturwissenschaftlerInnen zur Bedeutungszuweisung durchgeführt werden. Diese routineförmigen Tätigkeiten sind „oftmals nicht vollständig durch explizierbare Regeln oder Methoden bestimmt, sondern [beruhen] in hohem Maße auf implizitem Wissen und Können“ (Albrecht et al. 2015: 2).</p>
+                <p>Zweitens nehmen wir an, dass nutzerzentrierte Gestaltung als etablierter Prozess, dessen Methodenrepertoire sich sowohl aus dem an der Praxis orientierten Design speist, als auch aus der eher wissenschaftlich orientierten Human-Computer-Interaction (HCI), als Vorgehen besonders geeignet ist, implizites Wissen und Können von Nutzern herauszufinden. In diesem Sinne steht die Entwicklung eines Interfaces nicht am Ende „as an afterthought, thrown together after completing the core functionality” (Gibbs/Owens 2012), sondern ist Teil der Ausdifferenzierung und Analyse von Textinterpretation. Mit der Integration von Designmethoden, so die Argumentation des 3DH-Projekts, begegnen wir der von Gibbs und Owens beklagten mangelnden Nutzerzentriertheit bestehender DH-Annotationstools.</p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Annäherung an die literaturwissenschaftliche Arbeitspraxis über nutzerzentrierte Szenarien</head>
+                <p>Mithilfe von Szenarien werden besagte ‚routineförmige Tätigkeiten‘ untersucht und erfassbar gemacht.
+                    <note place="foot" xml:id="ftn3" n="3">
+                        <p> Der Begriff „Szenario“ wird im Projekt in seiner Bedeutung als Methode und essentieller Bestandteil eines nutzerzentrierten Designprozesses nach Rosson/Carroll (2009) verwendet: „Scenarios of use reconcile concreteness and flexibility. [...] Initial scenarios are often extremely rough. They specify a possible design by specifying the tasks users can carry out, but without committing to lower-level details describing how the tasks will be carried out, or how the system will present the functionality for the tasks.”</p>
+                    </note> Kollaborativ wurden bislang drei generische Szenarien konstruiert, die das Spektrum typischer interpretierender Forschungstätigkeiten repräsentieren.
+                    <note place="foot" xml:id="ftn4" n="4">
+                        <p> Szenarien:</p>
+                        <p>(1) Exploration freier Annotationen zwecks Schärfung der literaturwissenschaftlichen Fragestellung</p>
+                        <p>(2) Themenexploration in einem größeren Textkorpus – Topic Modeling</p>
+                        <p>(3) Exploration taxonomiebasierter Annotationen zur Auswertung strukturierter Textanalysen</p>
+                        <p>Während die ursprüngliche Fassung der Szenarien auf den Erfahrungen literaturwissenschaftlicher Forschungstätigkeit im eigenen Team basierte, haben wir diese im Rahmen eines Workshops (5.-7. August 2017) mit Johanna Drucker, Geoffrey Rockwell, Marian Dörk und Evelyn Gius überarbeitet.</p>
+                    </note>
+                </p>
+                <p>Die Konzepte erstrecken sich vom klassischen „Close Reading“-Beispiel mit Fokus auf noch nicht taxonomisch gelenkte freie Annotationen und Kommentare bis zum „Distant Reading“-Beispiel unter Anwendung des probabilistischen Verfahrens „Topic Modeling“.</p>
+                <p>Analog zur Konstruktion der Szenarien ist auch der von uns verfolgte nutzerzentrierte Gestaltungsprozess typischerweise durch ein iteratives Vorgehen gekennzeichnet.
+                    <note place="foot" xml:id="ftn5" n="5">
+                        <p> Grundsätzlich lassen sich vier Phasen unterscheiden nach DIN EN ISO 9241-210:</p>
+                        <p>1. Analyse, Beschreibung und Verständnis des Nutzungskontextes</p>
+                        <p>2. Spezifikation der Nutzungsanforderungen</p>
+                        <p>3. Gestaltungslösungen entwerfen</p>
+                        <p>4. Evaluation der entworfenen Gestaltungslösungen aus Nutzerperspektive</p>
+                        <p>Mit jeder Iteration steigt die Komplexität und/oder der Grad ästhetischer Qualität der Entwürfe. Während zu Beginn mit einfachen Handskizzen von Abläufen im Interface gearbeitet wird (Wireframes), kommen später Papierprototypen zum Einsatz, Screendesigns und schließlich auch interaktive Mock-Ups oder sogar Prototypen. Die Evaluation kann ebenfalls unterschiedliche Formen annehmen. Während in frühen Stadien Entwürfe eher informell diskutiert werden oder in Workshops mit Nutzern und Experten aller beteiligten Fachrichtungen ergänzt und erweitert werden, können spätere interaktive Entwurfsformen auch mit Probanden in qualitativen Nutzertests getestet werden. </p>
+                    </note>
+                </p>
+                <p>Abbildung 1 zeigt eine Auswahl von Varianten sogenannter „Wireframes“, d.h. von Designskizzen zu einem Interface für die Tätigkeit „Kommentieren“ in dem Szenario „Exploration freier Annotationen zwecks Schärfung der literaturwissenschaftlichen Fragestellung“.</p>
+                <figure>
+                    <graphic n="1001" width="15.531041666666667cm" height="11.567583333333333cm" url="Pictures/image1.png" rend="inline"/>
+                    <graphic n="1002" width="16.002cm" height="11.567583333333333cm" url="Pictures/image2.png" rend="inline"/>
+                </figure>
+                <p>Abb.1: Wireframes für ein Interface zur Funktion „Kommentieren“ in dem Szenario „Exploration freier Annotationen zwecks Schärfung der literaturwissenschaftlichen Fragestellung“.</p>
+                <p>In der Abbildung wird der Entwicklungsstand der visuellen Gestaltung dieser Tätigkeit zu zwei verschiedenen Zeitpunkten sichtbar. Der untere Wireframe präsentiert einen fortgeschrittenen Stand. Die Wireframes illustrieren die Verschränkung einzelner Tätigkeiten, die im Szenario beschrieben werden. Hier sieht man etwa den Zusammenhang zwischen den Tätigkeiten „Annotieren“ und „Kommentieren“ dargestellt, in dem Sinne, dass ein Kommentar in der Regel (wenn auch nicht immer) einer Annotation zugeordnet ist, die eine diskrete Position im Text besitzt, also häufig nicht isoliert von der Tätigkeit des Annotierens betrachtet werden kann.</p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Erste Ergebnisse und Schlussfolgerungen</head>
+                <p>Bereits in diesem grob umrissenen Beispiel von Varianten einer visuellen Unterstützung der Tätigkeit „Kommentieren“, manifestieren sich zwei der wesentlichen Herausforderungen an die Erarbeitung und Implementierung eines kritischen Interface- und Visualisierungskonzeptes:</p>
+                <div type="div2" rend="DH-Heading2">
+                    <head>Überlagerung und Wechselwirkung routinemäßiger Tätigkeiten im Interface</head>
+                    <p>
+                        <anchor xml:id="gjdgxs"/>Aufgabe der Designiterationen von Szenarien und Wireframes wird es sein, für die Überlagerung und Wechselwirkung der routinemäßigen Tätigkeiten in der Gestaltung des Interfaces eine adäquate Entsprechung zu finden.
+                    </p>
+                    <p>Auf Grundlage der bisher erstellten Wireframes für die drei Szenarien ließen sich zwei Modi des literaturwissenschaftlichen Interpretationsverfahrens ausmachen. Zum einen besteht der Interpretationsprozess aus Tätigkeiten, die primär die analytische, investigative Erforschung des Textes adressieren (Annotieren, Sammeln, Kommentieren).
+                        <note place="foot" xml:id="ftn6" n="6">
+                            <p> Vgl. auch Winkos Ausführungen zur Differenzierung von Textanalyse und -interpretation (2003: 598): “Textanalysen basieren auf sprachlichen, formalen und strukturellen Informationen und greifen in erster Linie auf intratextuelle sowie auf denjenigen Typ extratextueller Kontexte zurück, der zum primären Verständnis vorauszusetzen ist; Interpretationen dagegen setzen Ergebnisse der Textanalyse voraus, und es dominiert tendenziell der Rekurs auf weitergehende, insbesondere inter- und extratextuelle Kontexte. Darüber hinaus sind Hypothesen über die Bedeutung eines Textes in Interpretationen komplexer als in Textanalysen.”</p>
+                        </note> Komplementär dazu verhalten sich zum anderen die argumentativen, vornehmlich synthetisierenden Tätigkeiten der Textinterpretation (Gruppieren, Ordnen, Strukturieren). Um den literaturwissenschaftlichen Arbeitsprozess adäquat unterstützen zu können, so unsere Annahme, müssen Interfaces beide Modi in enger Verschränkung umfassen und stetigen Wechsel zwischen diesen ermöglichen. Abbildung 2 zeigt einen ersten Versuch, die Ebene der Bedeutungsproduktion – von uns als „semantic plane“ bezeichnet – d.h. die Ebene, die analytische und synthetisierende Tätigkeiten umfasst und miteinander verknüpft, in die Interface-Entwürfe zu integrieren.
+                    </p>
+                    <figure>
+                        <graphic n="1003" width="15.9288cm" height="11.655219444444445cm" url="Pictures/image3.png" rend="inline"/>
+                    </figure>
+                    <p>Abb.2: Versuch der Integration der „semantic plane“ über die vom User vollzogene Positionierung von Elementen.</p>
+                </div>
+                <div type="div2" rend="DH-Heading2">
+                    <head>Flexibilität und Manipulierbarkeit von Visualisierungen</head>
+                    <p>Um eine flexiblere Unterstützung des literaturwissenschaftlichen Arbeitsprozesses im Interface zu ermöglichen, ist ferner der Einsatz unterschiedlicher Visualisierungen sinnvoll (vgl. Cheema et al. 2015). Diese sollten vergleichbar sein in ihren Resultaten und ihre Darstellungsform, Interaktivität und der jeweils repräsentierte Datenausschnitt sollte individuell bestimmbar sein. </p>
+                    <p>Im Interesse einer Justierbarkeit der Visualisierungen orientieren wir uns an den Visualisierungssystematiken, wie sie Wilkinson mit seinem „Grammar-of-Graphics“-Ansatz vorschlägt (vgl. Wilkinson et al. 2005). Es existieren bereits verschiedene Implementierungen dieses Ansatzes, die es erlauben, die oben genannten Parameter einer Visualisierung mithilfe einer Grammatik beschreibbar und manipulierbar zu machen (vgl. Satyanarayan et al. 2017). In unserem Kontext ist die deklarative Sprache VEGA
+                        <note place="foot" xml:id="ftn7" n="7">
+                            <p> VEGA – A Visualization Grammar: 
+                                <ref target="https://vega.github.io/vega/">
+                                    <hi rend="underline color(1155CC)">https://vega.github.io/vega/</hi>
+                                </ref>
+                            </p>
+                        </note> interessant, die auf der verbreiteten Javascript-Visualisierungsbibliothek D3
+                        <note place="foot" xml:id="ftn8" n="8">
+                            <p> D3 – Data-Driven Documents: 
+                                <ref target="https://d3js.org/">
+                                    <hi rend="underline color(1155CC)">https://d3js.org/</hi>
+                                </ref>
+                            </p>
+                        </note> beruht und es Nutzerinnen und Nutzern ermöglichen würde, ihre Visualisierungsspezifikationen in JSON zu formulieren.
+                    </p>
+                    <p>Im Sinne einer nutzerzentrierten Gestaltung ist es wichtig, diese Funktionalitäten an die unterschiedlichen Vorkenntnisse der Nutzerinnen und Nutzer anpassen zu können. Weniger fortgeschrittene Nutzerinnen und Nutzer sollen stets auf Standardvisualisierungen zurückgreifen können. Unserem Anspruch gemäß steht die Unterstützung des interpretierenden Prozesses als Ganzheit mit dem Interface im Vordergrund.</p>
+                </div>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Fazit</head>
+                <p>Ein reflektiertes Interface- und Visualisierungskonzept ist nach unserer Einschätzung besonders relevant, um eine Durchdringung und Neuausrichtung der Verfahren und Zugänge der Datenverarbeitung und -exploration der Textanalyse und –interpretation zu unterstützen. Die Integration von Methoden aus dem nutzerzentrierten Design stellt in diesem Kontext einen noch kaum erprobten Weg dar, um neue Tools in den DH zu entwickeln. So dient unsere designbasierte kritische Perspektive, die im Sinne einer Interface- und Visualisierungsutopie zu verstehen ist, letztlich auch der „epistemologischen Selbstaufklärung“ (Albrecht et al. 2015, 10) der literaturwissenschaftlichen Disziplin. Denn wie im 3DH-Projekt bereits deutlich wird, trägt ein reflektiertes Interface- und Visualisierungskonzept zur interdisziplinären Methodendiskussion in der Literaturwissenschaft bei. </p>
+                <p>Um den Mehrwert eines Interface- und Visualisierungskonzepts praktisch belegen zu können, wird eine sorgfältige Überprüfung unserer auf den Szenarien beruhenden Annahmen notwendig sein. Während das informelle Feedback von Expertinnen und Experten zwar hilfreich sein kann, so erlaubt es doch noch keine Rückschlüsse auf die tatsächliche Eignung und Aufgabenangemessenheit der Interfaces und Visualisierungen in der Praxis. Vorgesehen ist deshalb, im nächsten Schritt das bisher nur in Form statischer Wireframes umgesetzte Konzept in Form von funktionalen Interaktions-Prototypen mit Nutzern zu testen, um belastbarere Aussagen über seine Validität zu erhalten. </p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl>
+                        <hi rend="bold">Albrecht, Andrea / Danneberg, Lutz / Krämer, Olav / Spoerhase, Carlos</hi> (Hg.) (2015): 
+                        <hi rend="italic">Theorien, Methode und Praktiken des Interpretierens.</hi> Berlin: de Gruyter.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Bradley, John</hi> (2008): “Thinking about interpretation: Pliny and scholarship in the humanities”, in: 
+                        <hi rend="italic">Literary and linguistic computing</hi>, 23(3), 263-279.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Bühler, Axel</hi> (2003): “Interpretieren - Vielfalt oder Einheit?”, in: Jannidis, Fotis / Lauer, Gerhard / Martínez, Matías / Winko, Simone (Hg.): 
+                        <hi rend="italic">Regeln der Bedeutung. Zur Theorie der Bedeutung literarischer Texte.</hi> Berlin: De Gruyter (Revisionen, 1) 169-181.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Cheema, Muhammad F. / Jänicke, Stefan / Franzini, Greta / Scheuermann, Gerik</hi> (2015): “On Close and Distant Reading in Digital Humanities: A Survey and Future Challenges“, in: 
+                        <hi rend="italic">Eurographics Conference on Visualization</hi> (EuroVis) - STARs 83-103. 
+                        <ref target="https://www.informatik.uni-leipzig.de/~stjaenicke/Survey.pdf">
+                            <hi rend="underline color(1155CC)">https://www.informatik.uni-leipzig.de/~stjaenicke/Survey.pdf </hi>
+                        </ref>[letzter Zugriff: 10.09.2017]
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Drucker, Johanna</hi> (2011): “Humanities Approaches to Graphical Display”, in: 
+                        <hi rend="italic">DH Quarterly</hi>, 5(1).
+                        <ref target="http://digitalhumanities.org/dhq/vol/5/1/000091/000091.html">
+                            <hi rend="underline color(1155CC)">http://digitalhumanities.org/dhq/vol/5/1/000091/000091.html</hi>
+                        </ref> [letzter Zugriff: 20.09.2017]
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Drucker, Johanna</hi> (2014): 
+                        <hi rend="italic">Graphesis: Visual Forms of Knowledge Production</hi>. MetaLABprojects. Cambridge, Massachusetts: Harvard University Press.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Gadamer, Hans-Georg</hi> (1960, 1990): 
+                        <hi rend="italic">Hermeneutik I. Wahrheit und Methode. Grundzüge einer philosophischen Hermeneutik.</hi> Tübingen: Mohr.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Gibbs, Fred / Owens, Trevor</hi> (2012): “Building better digital humanities tools”, in: 
+                        <hi rend="italic">DH Quarterly</hi>, 6(2).
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Grinstein, Georges</hi> (2012): “New Grand Challenges in Information Visualization: New Theories, New Devices, and New Capabilities“, in: 
+                        <hi rend="italic">Keynote address at iV2012</hi>.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Jannidis, Fotis / Lauer, Gerhard / Martínez, Matías / Winko, Simone</hi> (2003): “Der Bedeutungsbegriff in der Literaturwissenschaft. Eine historische und systematische Skizze”, in: dies. (Hg.): 
+                        <hi rend="italic">Regeln der Bedeutung. Zur Theorie der Bedeutung literarischer Texte</hi>. Berlin: De Gruyter (Revisionen, 1) 3-32.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Kindt, Tom / Köppe, Tilmann</hi> (2008): “Einleitung”, in: dies. (Hg.): 
+                        <hi rend="italic">Moderne Interpretationstheorien. Ein Reader.</hi> Göttingen: Vandenhoeck &amp; Ruprecht 7-26.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Nünning, Ansgar</hi> (Hg.) (2008): 
+                        <hi rend="italic">Metzler Lexikon. Literatur- und Kulturtheorie. Ansätze - Personen - Grundbegriffe.</hi> Stuttgart: Metzler 281-284.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Nünning, Vera</hi> (2010): 
+                        <hi rend="italic">Methoden der literatur- und kulturwissenschaftlichen Textanalyse. Ansätze – Grundlagen – Modellanalysen.</hi> Stuttgart: Metzler 1-29.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Rosson, Mary B. / Carroll, John M.</hi> (2009): 
+                        <hi rend="italic">Scenario based design. Human‐computer interaction.</hi> Boca Raton, FL, 145-162.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Satyanarayan, Arvind / Moritz, Dominik / Wongsuphasawat, Kanit / Heer, Jeffrey</hi> (2017): “Vega-Lite: A Grammar of Interactive Graphics”, in: I
+                        <hi rend="italic">EEE transactions on visualization and computer graphics</hi> 23(1), 341–350. DOI: 10.1109/TVCG.2016.2599030. [letzter Zugriff: 18.09.2017]
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Unsworth, John</hi> (2000): "Scholarly Primitives: What Methods Do Humanities Researchers Have in Common, and How Might Our Tools Reflect This?", in: 
+                        <hi rend="italic">Symposium on Humanities Computing: formal methods, experimental practice.</hi> King’s College London, 2000.
+                        <ref target="http://people.brandeis.edu/%7Eunsworth/Kings.5-00/primitives.html"> </ref>
+                        <ref target="http://people.brandeis.edu/%7Eunsworth/Kings.5-00/primitives.html">
+                            <hi rend="underline color(1155CC)">http://people.brandeis.edu/~unsworth/Kings.5-00/primitives.html</hi>
+                        </ref>.[letzter Zugriff: 18.09.2017]
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Wilkinson, Leland</hi> (2006): 
+                        <hi rend="italic">The grammar of graphics</hi>. New York: Springer Science &amp; Business Media.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Winko, Simone</hi> (2003): “Textanalyse”, in: Georg Braungart / Harald Fricke / Klaus Grubmüller / Friedrich Vollhardt / Klaus Weimar (Hg.): 
+                        <hi rend="italic">Reallexikon der deutschen Literaturwissenschaft</hi>. Bd. 2.Berlin, New York: de Gruyter 2003 597-601.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Winko, Simone</hi> (2015): “Zur Plausibilität als Beurteilungskriterium literaturwissenschaftlicher Interpretationen”, in: Andrea Albrecht / Lutz Danneberg / Olav Krämer / Carlos Spoerhase (Hg.): 
+                        <hi rend="italic">Theorien, Methoden und Praktiken des Interpretierens.</hi> Berlin: de Gruyter 483-511.
+                    </bibl>
+                    <bibl>3DH 
+                        <ref target="http://www.threedh.net">
+                            <hi rend="underline color(1155CC)">http://www.threedh.net</hi>
+                        </ref>
+                    </bibl>
+                    <bibl>CATMA 
+                        <ref target="http://www.catma.de">
+                            <hi rend="underline color(1155CC)">http://www.catma.de</hi>
+                        </ref>
+                    </bibl>
+                    <bibl>D3 – Data-Driven Documents: 
+                        <ref target="https://d3js.org/">
+                            <hi rend="underline color(1155CC)">https://d3js.org/</hi>
+                        </ref>
+                    </bibl>
+                    <bibl>forTEXT 
+                        <ref target="http://www.fortext.net">
+                            <hi rend="underline color(1155CC)">http://www.fortext.net</hi>
+                        </ref>
+                    </bibl>
+                    <bibl>hermA 
+                        <ref target="https://www.korpuslab.uni-hamburg.de/projekte/herma.html">
+                            <hi rend="underline color(1155CC)">https://www.korpuslab.uni-hamburg.de/projekte/herma.html</hi>
+                        </ref>
+                    </bibl>
+                    <bibl>heureCLÉA 
+                        <ref target="http://heureclea.de">
+                            <hi rend="underline color(1155CC)">http://www.heureclea.de</hi>
+                        </ref>
+                    </bibl>
+                    <bibl>Pliny http://pliny.cch.kcl.ac.uk/</bibl>
+                    <bibl>TEASys http://www.annotation.es.uni-tuebingen.de/?page_id=200</bibl>
+                    <bibl>VEGA – A Visualization Grammar: 
+                        <ref target="https://vega.github.io/vega/">
+                            <hi rend="underline color(1155CC)">https://vega.github.io/vega/</hi>
+                        </ref>
+                    </bibl>
+                    <bibl>
+                        <ref target="http://www.procontext.com/aktuelles/2010/03/iso-9241210-prozess-zur-entwicklung-gebrauchstauglicher-interaktiver-systeme-veroeffentlicht.html">
+                            <hi rend="underline color(1155CC)">http://www.procontext.com/aktuelles/2010/03/iso-9241210-prozess-zur-entwicklung-gebrauchstauglicher-interaktiver-systeme-veroeffentlicht.html</hi>
+                        </ref> [letzter Zugriff: 18.09.2017]
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

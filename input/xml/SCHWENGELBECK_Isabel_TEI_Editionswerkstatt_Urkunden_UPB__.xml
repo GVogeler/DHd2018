@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>TEI-Editionswerkstatt Urkunden@UPB. </title>
+                <author>
+                    <persName>
+                        <surname>Schwengelbeck</surname>
+                        <forename>Isabel</forename>
+                    </persName>
+                    <affiliation>Universität Paderborn, Deutschland</affiliation>
+                    <email>schwengelbeck.isabel@gmail.com</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Wahl</surname>
+                        <forename>Dominik</forename>
+                    </persName>
+                    <affiliation>Universität Paderborn, Deutschland</affiliation>
+                    <email>dwahl@mail.uni-paderborn.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Foester</surname>
+                        <forename>Karl</forename>
+                    </persName>
+                    <affiliation>Universität Paderborn, Deutschland</affiliation>
+                    <email>foesterkarl@gmail.com</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Friedl</surname>
+                        <forename>Dennis</forename>
+                    </persName>
+                    <affiliation>Universität Paderborn, Deutschland</affiliation>
+                    <email>dennisfriedl@paderborn.com</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Fluss</surname>
+                        <forename>Fabian</forename>
+                    </persName>
+                    <affiliation>Universität Paderborn, Deutschland</affiliation>
+                    <email>fabian.fluss92@gmx.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Mersch</surname>
+                        <forename>Isabelle</forename>
+                    </persName>
+                    <affiliation>Universität Paderborn, Deutschland</affiliation>
+                    <email>imersch@campus.uni-paderborn.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Voss</surname>
+                        <forename>Fabian</forename>
+                    </persName>
+                    <affiliation>Universität Paderborn, Deutschland</affiliation>
+                    <email>vossf@mail.uni-paderborn.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Dröge</surname>
+                        <forename>Martin</forename>
+                    </persName>
+                    <affiliation>Universität Paderborn, Deutschland</affiliation>
+                    <email>martin.droege@upb.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Stadler</surname>
+                        <forename>Peter</forename>
+                    </persName>
+                    <affiliation>Universität Paderborn, Deutschland</affiliation>
+                    <email>peter.stadler@upb.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Voges</surname>
+                        <forename>Ramon</forename>
+                    </persName>
+                    <affiliation>Universität Paderborn, Deutschland</affiliation>
+                    <email>ramon.voges@upb.de</email>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2017-12-28T13:29:00Z</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Prof. Dr. Georg Vogeler</publisher>
+                <address>
+                    <addrLine>UniversitÃ¤t Graz</addrLine>
+                    <addrLine>Zentrum fÃ¼r Informationsmodellierung - Austrian Centre for Digital Humanities</addrLine>
+                    <addrLine>ElisabethstraÃe 59/III</addrLine>
+                    <addrLine>8010 Graz</addrLine>
+                </address>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Converted from a Word document </p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.17">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Poster</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Urkunden</term>
+                    <term>TEI</term>
+                    <term>Lehr-Lern-Projekt</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Transkription</term>
+                    <term>Übersetzung</term>
+                    <term>Annotieren</term>
+                    <term>Kontextsetzung</term>
+                    <term>Kollaboration</term>
+                    <term>Text</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <div>
+                    <head>Ein DH-Lehr-Lernprojekt zu den Gründungsurkunden der Jesuitenuniversität Paderborn</head>
+                    <p rend="Title">Die „digitale Revolution“ greift zunehmend in komplexer Weise auf alle Lebensbereiche über. Im „digitalen Zeitalter“ ist auch ein Wandel in der Geschichtsschreibung zu beobachten, der schon bei der Unterscheidung analoger von digitalen Quellen sichtbar wird (Pfanzelter 2016: 85). Die Arbeitsweise von HistorikerInnen wird durch die Verfügbarkeit von Quellen in digitaler und digitalisierter Art verändert (Bernsen 2017: 295, Kelly 2013). Daraus ergibt sich nicht nur das Desiderat nach entsprechenden Kompetenzen im Umgang mit digitalen sowie digitalisierten Quellen, sondern auch nach einer „der digitalen Welt angepassten, technikgestützten Quellenkritik“ (Pfanzelter 2016: 93). Herausforderungen hinsichtlich des Umgangs mit Quellen lassen sich für alle Ebenen der Gesellschaft ableiten – von einer Schülerschaft, die zur Partizipation in der Gesellschaft befähigt werden soll, über (Lehramts-) Studierende, die dieses ermöglichen sollen, bis zu den FachwissenschaftlerInnen und Lehrenden an den Universitäten. Dementsprechend hoch ist die Relevanz, das im folgenden vorgestellte Projekt im Kontext der „Kritik der digitalen Vernunft“ zu diskutieren und einen besonderen Fokus darauf zu legen, welche und wie stark ausgeprägte digitale Kompetenzen HistorikerInnen benötigen, um dem „digitalen Zeitalter“ gerecht zu werden und den kritischen Anforderungen der Geisteswissenschaften zu genügen. Dies gilt in besonderem Maße mit Blick auf zukünftige GeschichtslehrerInnen, die in ihrer Position als gesellschaftliche Multiplikatoren einer adäquaten Ausbildung bedürfen.</p>
+                    <p rend="Title">Das Lehrkonzept des Forschenden Lernens eröffnet die Möglichkeit, Studierende mit Projekten, Methoden und Werkzeugen der Digital Humanities kritisch und reflektiert vertraut zu machen. Die aus (Lehramts-)StudentInnen und DozentInnen des Historischen Instituts der Universität Paderborn zusammengesetzte Projektgruppe ‚TEI-Editionswerkstatt‘ will zugleich wichtige Kompetenzen der Digital Humanities wie auch Fachwissen vermitteln. Dies geschieht außerhalb des Curriculums auf freiwilliger Basis, sodass die Motivation aller Beteiligten sehr hoch ist. Das gemeinsame Ziel ist es, vier Urkunden über die Gründung der Jesuitenuniversität Paderborn um 1600 (Meyer zu Schlochtern 2014) in einer digitalen Quellenedition der Forschung online zur Verfügung zu stellen (Sahle 2013). </p>
+                    <p rend="Title">Organisiert ist die Arbeitsgruppe in vier Teilgruppen, die jeweils eine Urkunde bearbeiten, woraus einerseits eine zeitökonomische Arbeitsweise für die heterogene Projektgruppe resultiert und andererseits sichergestellt ist, dass jedes Gruppenmitglied sämtliche Arbeitsschritte auf dem Weg zur digitalen Quellenedition selbstständig durchführt. Diese Vorgehensweise ist einer effektiveren Arbeitsweise dienlich und fördert im Sinne eines sekundären Erkenntnisinteresses die Kompetenzen der Arbeitsgruppe hinsichtlich des Umgangs mit den entsprechenden Tools und Methoden sowie einen elaborierten Erkenntnisgewinn hinsichtlich der erarbeiteten Inhalte. Die Ausdifferenzierung der Vorgehensweise und die gruppeninterne Organisation der Arbeitsschritte erfolgen bei regelmäßigen Treffen, bei denen die Ziele immer wieder dem aktuellen Stand des Projekts angepasst sowie Fragen und Ideen diskutiert werden.</p>
+                    <p rend="Title">Die Arbeitsschritte im Detail:</p>
+                    <list type="unordered">
+                        <item>Transkription: Es wurde eine eigenständige Transkription der Originaldokumente in ein digitales Format angefertigt.</item>
+                        <item>TEI-Encoding: Die Quelle wurde in XML nach den Richtlinien der TEI ausgezeichnet. Hier liegt eine der Hauptaufgaben der Arbeitsgruppe.</item>
+                        <item>TEI-Schema: Um sicher zu stellen, dass die gleichen Standards eingehalten werden, wurde ein für das Projekt maßgeschneidertes TEI-Schema erarbeitet. </item>
+                        <item>Übersetzung: Da die Urkunden in lateinischer Sprache vorliegen, soll eine deutsche Übersetzung angeboten werden, die eigens angefertigt werden muss. </item>
+                        <item>Historische Einleitung: Der Edition soll eine Einleitung vorangestellt sein, in welcher Informationen (u.a. zur Überlieferung) enthalten sind, die dem Leser eine Quellenkritik erleichtern und den historischen Kontext präsentieren. </item>
+                        <item>HTML-Darstellung: Die Urkunden-Edition soll online zugänglich gemacht werden. Der Benutzer soll die Möglichkeit erhalten, bestimmte Versionen (Original, TEI-Edition, Übersetzung) der Quelle zu vergleichen.</item>
+                    </list>
+                    <p>Es wird in unserem Lehr-Lernkontext bewusst TEI – und nicht das textsortenspezifischere CEI – als Auszeichnungssprache eingesetzt, um den Projektmitgliedern möglichst generische Methoden der Textauszeichnung zu vermitteln und ein größtmögliches Spektrum an Anwendungsbereichen hinsichtlich der erlernten Fähigkeiten zu ermöglichen. Für die kollaborativen Arbeiten an den Dokumenten, am TEI-Schema und den Transformationsskripten ist bei GitHub eine entsprechende Gruppe inkl. eines öffentlichen Repositories (https://github.com/gedigiupb/urkunden_upb) eingerichtet worden, wodurch sichergestellt wird, dass alle Beteiligten mit der aktuellen Dateiversion arbeiten. Die TEI-Auszeichnung findet mithilfe des XML-Editors Oxygen statt.</p>
+                    <p>Im Kontext von „Kritik der digitalen Vernunft“ ist das Projekt als praktisches Beispiel im Rahmen der digitalen Angebote, Projekte und Werkzeuge zu verorten. Dabei liegt nicht nur die Erstellung einer „zeitgemäßen“ Quellenedition im Fokus der Arbeitsgruppe. Darüberhinausgehend wird im Rahmen des Projektes der digitale Horizont der (angehenden) HistorikerInnen erweitert sowie bereits vorhandene Kompetenzen im Sinne historischen Denkens und wissenschaftlichen Arbeitens gefördert. Dem kritischen Anspruch der Geisteswissenschaften wird insofern Rechnung getragen, als dass die permanente Reflexion und Ausdifferenzierung der Vorgehensweise und das kritische Hinterfragen der Sinnhaftigkeit des Einsatzes angewandter Tools eine reflektierte Vereinbarkeit der „daten-, algorithmen- und werkzeuggetriebenen“ Wissenschaft mit geisteswissenschaftlichen Ansprüchen generieren. Das praktische Beispiel der „Editionswerkstatt“ ermöglicht die Diskussion gesellschaftlicher Dimensionen der konkret in diesem Kontext wirksamen Digitalisierungsprozesse besonders unter Berücksichtigung heterogener Begrifflichkeiten wie Interaktionsformen, Partizipation und Bildung – es postuliert geradezu die Diskussion ihrer Konsequenzen in Wissenschaft und Gesellschaft.</p>
+                </div>
+            </div>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl>
+                        <hi rend="bold">Bernsen, Daniel</hi> (2017): 
+                        <hi rend="italic">“Arbeiten mit digitalen Quellen im Geschichtsunterricht“, in: Bernsen, Daniel / Kerber, Ulf (eds.): Praxishandbuch Historisches Lernen und Medienbildung im digitalen Zeitalter, Opladen/ Berlin/ Toronto: Verlag Barbara Budrich 295-303.</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Kelly, T. Mills</hi> (2013): 
+                        <hi rend="italic">“Teaching History in the Digital Age“, Ann Arbor: MI: University of Michigan Press, </hi>
+                        <ref target="http://dx.doi.org/10.3998/dh.12146032.0001.001">
+                            <hi rend="italic">http://dx.doi.org/10.39</hi>
+                            <anchor xml:id="Hlt492655812"/>
+                            <anchor xml:id="Hlt492655813"/>
+                            <hi rend="italic">98/dh.12146032.0001.001</hi>
+                        </ref>
+                        <hi rend="italic"> [letzter Zugriff: 08. September 2017].</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Meyer zu Schlochtern, Josef </hi>(2014): 
+                        <hi rend="italic">“Die Academia Theodoriana. Von der Jesuitenuniversität zur Theologischen Fakultät Paderborn 1614-2014“, Paderborn: Schöningh.</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Pfanzelter, Eva </hi>(2017): 
+                        <hi rend="italic">“Analoge vs. digitale Quellen: eine Standortbestimmung“, in: Bernsen, Daniel / Kerber, Ulf (eds.): Praxishandbuch Historisches Lernen und Medienbildung im digitalen Zeitalter, Opladen/ Berlin/ Toronto: Verlag Barbara Budrich 85-94.</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Sahle, Patrick</hi> (2013): 
+                        <hi rend="italic">“Digitale Editionsformen. Teil I: Das typografische Erbe, Teil II: Befunde, Theorie und Methodik, Teil III: Textbegriffe und Recodierung.“ Norderstedt: Schriften des Instituts für Dokumentologie und Editorik 7-9, </hi>
+                        <ref target="http://kups.ub.uni-koeln.de/5351/">
+                            <hi rend="italic">urn:nbn:de:hbz:38-53510</hi>
+                        </ref>
+                        <hi rend="italic">, </hi>
+                        <ref target="http://kups.ub.uni-koeln.de/5352/">
+                            <hi rend="italic">urn:nbn:de:hbz:38-53523</hi>
+                        </ref>
+                        <hi rend="italic">, </hi>
+                        <ref target="http://kups.ub.uni-koeln.de/5353/">
+                            <hi rend="italic">urn:nbn:de:hbz:38-53534</hi>
+                        </ref>
+                        <hi rend="italic"> [letzter Zugriff: 08. September 2017].</hi>
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

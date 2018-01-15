@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Digitale Wissenschaft – Eine Podcastreihe</title>
+                <author>
+                    <persName>
+                        <surname>Loebel</surname>
+                        <forename>Jens-Martin</forename>
+                    </persName>
+                    <affiliation>bitGilde IT Solutions UG, Deutschland</affiliation>
+                    <email>loebel@bitgilde.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Hahn</surname>
+                        <forename>Carolin</forename>
+                    </persName>
+                    <affiliation>Beste Worte GmbH</affiliation>
+                    <email>kontakt@carolinhahn.de</email>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2017-09-14T22:45:00Z</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Prof. Dr. Georg Vogeler</publisher>
+                <address>
+                    <addrLine>UniversitÃ¤t Graz</addrLine>
+                    <addrLine>Zentrum fÃ¼r Informationsmodellierung - Austrian Centre for Digital Humanities</addrLine>
+                    <addrLine>ElisabethstraÃe 59/III</addrLine>
+                    <addrLine>8010 Graz</addrLine>
+                </address>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Converted from a Word document </p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.17">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Poster</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Podcast</term>
+                    <term>Forschungswerkstatt</term>
+                    <term>Interviews</term>
+                    <term>Geschichte</term>
+                    <term>Studium</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Gestaltung</term>
+                    <term>Kommunikation</term>
+                    <term>Veröffentlichung</term>
+                    <term>Kommentierung</term>
+                    <term>Sprache</term>
+                    <term>Ton</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="div1" rend="DH-Heading1">
+                <head>Projektvorstellung</head>
+                <p>Die Methoden der Digital Humanities sind ebenso zahlreich wie die Fachbereiche, in denen sie zur Anwendung kommen. Ob Archäologie oder Literaturwissenschaft, Soziologie oder Geschichte: Unser Podcast will über Theorien und praktische Anwendungsbereiche der Digital Humanities informieren und diskutieren; er will neugierig machen und die Angst vor der Anwendung neuer, noch ungewohnter Forschungsmethoden nehmen. </p>
+                <p>Die Rezeptionsform „Podcast“ soll Studierende auf eine noch weitgehend ungewohnte Weise ansprechen: Wir möchten sie in ihrem Alltag erreichen, sie zur Entdeckung neuer Forschungsmethoden anregen und gleichzeitig den kreativen Umgang mit ihrem je eignen Forschungsthema fördern.</p>
+                <p>Umgekehrt soll die Aufmerksamkeit für bereits existierende DH-Projekte und -Studiengänge erhöht werden, um den Forschungsnachwuchs neugierig zu machen und DH-Vorhaben mehr Reichweite zu ermöglichen. Dabei soll der Eindruck, dass die DH in weiten Teilen eine algorithmen- und werkzeuggetriebene Wissenschaft sei, dem kritischen Anspruch der Geisteswissenschaften gegenübergestellt werden. Wir führen u. a. Interviews mit Wissenschaftler/-innen und Praktikern und bereiten Forschungsdiskurse auf.</p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Themen</head>
+                <p>Wir möchten einen umfassenden Einblick in die Methoden und Anwendungsbereiche der Digital Humanities geben und die Forschungswerkstätten beleuchten. In Form von Interviews werden in den ersten Folgen Mitarbeitende verschiedener Universitäten und Institute interviewt und zu ihren aktuellen Forschungsprojekten befragt. Weitere Kooperationen sind in Planung. Doch auch "Praktiker" wie Editionswissenschaftler, Bibliothekare, Data Scientists etc. sollen nach ihren berufspraktischen Erfahrungen gefragt werden. Wie können hier digitale Methoden über die universitäre Forschungspraxis hinaus zum Einsatz kommen? Ziel ist zudem, laut über mögliche Kritikpunkte nachzudenken: Welche Potenziale haben digitale Methoden, welche Defizite des Analogen können damit ausgeglichen werden? Welche Gefahren ergeben sich? Geht der Methode überhaupt eine Theorie voraus?</p>
+                <p>Ergänzend zum Podcast bauen wir ein Glossar in Form des sogenannten "Wissensblogs" auf: Parallel zu den Audio-Beiträgen informieren wir hier ganz grundlegend über konkrete Werkzeuge und Methoden. Die hier gelieferten Informationen werden in den einzelnen thematisch passenden Folgen ggf. aufgegriffen und dem Publikum vorgestellt. Hier geben wir dem wissenschaftlichen Nachwuchs Tools an die Hand, die fachübergreifend nützlich sein können. So beleuchten wir zum Beispiel Fragen der Lizenzierung von Online-Veröffentlichungen, digitale Präsentationsmöglichkeiten, einheitliche Daten-Referenzsysteme etc.</p>
+                <p>Eine weitere Informationsquelle soll die Rubrik "Empfehlungen" darstellen, die ebenfalls über die Webseite zu erreichen ist. Hier werden hilfreiche Bücher und andere Publikationen rezensiert.</p>
+                <p>Der Podcast wird kostenlos über die üblichen Kanäle wie iTunes etc. und unsere Website verbreitet.</p>
+                <p>Das Poster soll eine Kostprobe geben und vor allem Lust aufs Zuhören machen. Ziel ist es, Aufmerksamkeit zu schaffen und ggf. neue Interviewpartner zu finden. Zudem sind kurze Hörproben geplant.</p>
+                <figure>
+                    <graphic n="1001" width="15.98788888888889cm" height="4.930069444444444cm" url="Pictures/image1.png" rend="inline"/>
+                </figure>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Key Facts</head>
+                <list type="unordered">
+                    <item>Dauer pro Folge: 45 Minuten</item>
+                    <item>6 Folgen pro Jahr</item>
+                    <item>Arbeitsaufwand pro Folge: ca. 25 Stunden</item>
+                    <item>Webauftritt: 
+                        <ref target="http://www.digitale-wissenschaft.de">http://www.digitale-wissenschaft.de</ref>
+                    </item>
+                    <item>Twitter: 
+                        <ref target="https://twitter.com/digiwissen">@DigiWissen</ref>
+                    </item>
+                    <item>Verwendete Technik/Software: Blue Yeti Podcasting Mikrofon, Ultraschall</item>
+                    <item>Reichweite über: iTunes, Webseite, Twitter, Facebook, DH-Liste</item>
+                    <item>Finanzierung: Crowdfunding via Patreon</item>
+                </list>
+                <div type="div2" rend="DH-Heading2">
+                    <head>Aufbau</head>
+                    <list type="unordered">
+                        <item>Dialog zwischen Jens-Martin Loebel und Carolin Hahn</item>
+                        <item>30 Minuten Interview mit einer dritten Person (je nach Rubrik)</item>
+                        <item>15 Minuten Vor- und Nachbesprechung</item>
+                        <item>Einführung in ein zum Thema passendes Wissensgebiet im Bereich Digital Humanities, das im Blog ausführlicher nachgelesen werden kann</item>
+                    </list>
+                </div>
+                <div type="div2" rend="DH-Heading2">
+                    <head>Zielgruppe</head>
+                    <p>Als Informationsportal adressieren wir explizit Studierende und interessierte Laien. </p>
+                </div>
+                <div type="div2" rend="DH-Heading2">
+                    <head>Relevante Informationen auf dem Poster</head>
+                    <list type="unordered">
+                        <item>Key Facts, Beteiligte, Konzept, Distibutionskanäle und Zielgruppe</item>
+                        <item>Rubriken und Programm 2018</item>
+                        <item>Audio-Effekt: Einbau einer dezenten Tonspur im Poster per Lautsprecher, Hörproben zum Mitnehmen</item>
+                    </list>
+                </div>
+            </div>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl>
+                        <hi rend="bold">Geoghegan, Michael / Dan Klass</hi> (2007): Podcast Solutions. The Complete Guide to Audio and Video Podcasting. New York: Springer.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Hagedorn, Brigitte</hi> (2006): Podcasting: Konzept | Produktion | Vermarktung. Köln: mitp Verlags GmbH.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Podcast der Helmholtz-Gemeinschaft</hi>: https://resonator-podcast.de/ [letzter Zugriff 15. September 2017].
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Podcast der Universität Wien</hi>: http://medienportal.univie.ac.at/uniview/podcast-audimax/ [letzter Zugriff 15. September 2017].
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Physik-Podcast im ORF</hi>: http://www.physikalischesoiree.at/ [letzter Zugriff 15. September 2017].
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>
