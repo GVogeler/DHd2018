@@ -24,15 +24,55 @@
                 </xsl:text></xsl:for-each>
             </xsl:for-each>
         </xsl:result-document>
+        <xsl:result-document href="Bibliographie.html">
+            <html>
+                <head>
+                    <title>Bibliographien</title>
+                    <meta charset="utf-8"/>
+                    <style>
+                        .bold {font-weight:bold;}
+                        .italic {font-style:italic;}
+                    </style>
+                </head>
+                <body>
+                    <xsl:for-each select="$files">
+                        <xsl:variable name="filename" select="tokenize(document-uri(.),'/')[last()]"/>
+                        <div><h1><xsl:value-of select="$filename"/></h1>
+                        <ul>
+                            <xsl:apply-templates select=".//bibl" mode="bibl.html"/>
+                        </ul>
+                        </div>
+                    </xsl:for-each>
+                </body>
+            </html>
+        </xsl:result-document>
         <xsl:result-document href="Bibliographie.xml">
-            <TEI xmlns="http://www.tei-c.org/ns/1.0"><xsl:for-each select="$files//bibl">
-                <xsl:copy-of select="."/>
-            </xsl:for-each></TEI>
+            <TEI xmlns="http://www.tei-c.org/ns/1.0">
+                <teiHeader>
+                    <fileDesc>
+                        <titleStmt>
+                            <title></title>
+                        </titleStmt>
+                        <publicationStmt></publicationStmt>
+                        <sourceDesc></sourceDesc>
+                    </fileDesc>
+                </teiHeader>
+                <text>
+                    <body>
+                        <listBibl>
+                            <xsl:for-each select="$files//bibl">
+                                <xsl:copy-of select="."/>
+                            </xsl:for-each>
+                        </listBibl>
+                    </body>
+                </text>
+            </TEI>
         </xsl:result-document>
         <html><head><title>XML-Test</title><style>
             .Achtung {font-weight:bold;}
             .contrib {border-style: solid}
             img {display:block}
+            .authorname {font-variant: small-caps;}
         </style>
             <meta charset="utf-8"/>
         </head>
@@ -43,13 +83,13 @@
                 <p>Typ: <xsl:value-of select=".//keywords[@scheme='ConfTool'][@n='subcategory']/term"/></p>
                 <p>Titel: <xsl:value-of select="/TEI/teiHeader[1]/fileDesc[1]/titleStmt[1]/title"/></p>
                 <p>Autoren: <xsl:apply-templates select="/TEI/teiHeader/fileDesc/titleStmt/author"/></p>
-                <p>Text: <xsl:value-of select="string-length(/TEI/text/body/string())"/>
-                    <xsl:if test="string-length(/TEI/text/body/string()) lt 5000"><span class="Achtung">ACHTUNG: Text kürzer als 5000 Zeichen</span></xsl:if></p>
+                <p>Text: <xsl:value-of select="string-length(/TEI/text/body/string())"/><xsl:text> Zeichen </xsl:text>
+                    <xsl:if test="string-length(/TEI/text/body/string()) lt 4000"><span class="Achtung">ACHTUNG: Text kürzer als 5000 Zeichen</span></xsl:if></p>
                 <p>Überschriften: <xsl:if test="count(.//head) = 0"><span class="Achtung">Achtung, keine Überschriften im TEI</span></xsl:if></p>
                 <xsl:if test=".//graphic"><p>Bilder: (Ordner: <a href="../input/images/{
                     replace(substring-before($filename, '.xml'), ' ', '_')
                     }">../input/images/<xsl:value-of select="replace(substring-before($filename, '.xml'), ' ', '_')"/></a>
-                    <xsl:for-each select=".//graphic"><img alt="{@url}" src="../input/images/{
+                    <xsl:for-each select=".//graphic"><img alt="ACHTUNG! {@url}" src="../input/images/{
                         replace(substring-before($filename, '.xml'), ' ', '_')
                         }/{
                         @url/substring-after(.,'Pictures/')
@@ -60,10 +100,26 @@
             </div>
         </xsl:for-each></body></html>
     </xsl:template>
+    <xsl:template match="hi">
+        <span class="{@rend}"><xsl:apply-templates/></span>
+    </xsl:template>
     <xsl:template match="bibl">
         <xsl:if test="not(hi)"><li class="Achtung">ACHTUNG, keine Formatierung in: <xsl:value-of select="."/></li></xsl:if>
     </xsl:template>
+    <xsl:template match="bibl" mode="bibl.html">
+        <li><xsl:apply-templates/></li>
+    </xsl:template>
     <xsl:template match="author">
-        <xsl:value-of select="."/><xsl:text>; </xsl:text>
+        <xsl:apply-templates/><xsl:text>; </xsl:text>
+    </xsl:template>
+    
+    <xsl:template match="author/persName">
+        <span class="author"><xsl:apply-templates/></span>
+    </xsl:template>
+    <xsl:template match="author/persName/surname">
+        <span class="authorname"><xsl:apply-templates/></span>
+    </xsl:template>
+    <xsl:template match="affiliation">
+        <xsl:text> (</xsl:text><xsl:apply-templates/><xsl:text>) </xsl:text>
     </xsl:template>
 </xsl:stylesheet>
