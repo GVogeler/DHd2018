@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Das neue "Gesetz zur Angleichung des Urheberrechts an die aktuellen Erfordernisse der Wissensgesellschaft" und seine Auswirkungen für Digital Humanities</title>
+                <author>
+                    <persName>
+                        <surname>Kamocki</surname>
+                        <forename>Pawel</forename>
+                    </persName>
+                    <affiliation>WWU Münster, Germany; ELDA, France; IDS Mannheim</affiliation>
+                    <email>pawel.kamocki@gmail.com</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Ketzan</surname>
+                        <forename>Erik</forename>
+                    </persName>
+                    <affiliation>Birkbeck, University of Lonfon</affiliation>
+                    <email>eketzan@gmail.com</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Wildgans</surname>
+                        <forename>Julia</forename>
+                    </persName>
+                    <affiliation>IDS Mannheim; Universität Mannheim</affiliation>
+                    <email>j.wildgans@googlemail.com</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Witt</surname>
+                        <forename>Andreas</forename>
+                    </persName>
+                    <affiliation>IDS Mannheim; Universität zu Köln</affiliation>
+                    <email>witt@ids-mannheim.de</email>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2017-09-25T17:50:00Z</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Prof. Dr. Georg Vogeler</publisher>
+                <address>
+                    <addrLine>UniversitÃ¤t Graz</addrLine>
+                    <addrLine>Zentrum fÃ¼r Informationsmodellierung - Austrian Centre for Digital Humanities</addrLine>
+                    <addrLine>ElisabethstraÃ&#x9f;e 59/III</addrLine>
+                    <addrLine>8010 Graz</addrLine>
+                </address>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Converted from a Word document </p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.17">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Vortrag</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>UrhWissG</term>
+                    <term>Data Mining</term>
+                    <term>Recht</term>
+                    <term>Forschung</term>
+                    <term>Urheberrecht</term>
+                    <term>Copyright</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Teilen</term>
+                    <term>Archivierung</term>
+                    <term>Kollaboration</term>
+                    <term>Daten</term>
+                    <term>Forschung</term>
+                    <term>Forschungsprozess</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>Forschungsdaten im Bereich der Digital Humanities sind bekanntlich häufig urheberrechtlich bzw. durch das sui-generis-Recht für Datenbanken geschützt. Dementsprechend ist eine Erhebung und Verwendung der Daten nur rechtlich zulässig, wenn der Rechteinhaber seine Zustimmung erteilt hat oder eine gesetzlich vorgesehene Schrankenregelung eingreift. Die Einholung der notwendigen Lizenzen ist allerdings häufig sehr aufwendig und nicht zuletzt kostspielig; um den mit der Nutzung der Daten verbundenen Aufwand zu verringern, führte der Gesetzgeber nun Schrankenregelungen für die Wissenschaft ein.</p>
+            <p>Auf EU-Ebene eröffnete die Urheberrechtsrichtlinie (RL 2001/29/EG) den Mitgliedstaaten die Möglichkeit, Ausnahmeregelungen zu schaffen, um die Vervielfältigung von Werken und ihre öffentliche Zugänglichmachung für nicht-kommerzielle Zwecke zu ermöglichen. Einzige Voraussetzung dafür war die Angabe der jeweiligen Quelle. Eine ähnliche Ausnahmeregelung für Forschungszwecke ist in Art. 9 b der Richtlinie 96/9/EG über den rechtlichen Schutz von Datenbanken vorgesehen; allerdings erlaubt diese lediglich die Entnahme (und nicht die Weiterverwendung) von Daten aus einer der Öffentlichkeit - in welcher Weise auch immer - zur Verfügung gestellten Datenbank.</p>
+            <p>Damit diese Regelungen in den Mitgliedstaaten verbindliche Geltung erlangen können, müssen die Richtlinien von den nationalen Gesetzgebern in nationales Recht umgesetzt werden. Dabei haben sie allerdings einen weiten Spielraum: Die Richtlinie ist lediglich hinsichtlich ihres Ziels verbindlich. Die Mitgliedstaaten können also selbst entscheiden, ob und inwieweit sie die genannten Ausnahmeregelungen in ihren nationalen Rechtsordnungen aufnehmen (denn diese können, müssen aber nicht eingeführt werden). Um die Interessen von Wissenschaftlern auf der einen Seite und Rechteinhabern (d.h. insbesondere den Verlagen) auf der anderen Seite auszugleichen, entscheiden sich die nationalen Gesetzgeber häufig für die Einführung enger Schrankenregelungen. So ist beispielsweise in Deutschland gem. § 52a UrhG lediglich die Nutzung von veröffentlichten “kleinen Teilen” eines Werkes (also - richterrechtlich festgelegt - bis zu 25 % eines Werkes bis max. 100 Seiten) bzw. Werken “geringen Umfangs” (also Werke mit weniger als 25 Seiten, einzelne Bilder und Musikstücke) für nicht-kommerzielle Zwecke zur Forschung erlaubt. Damit verbunden ist allerdings zwingend ein Vergütungsanspruch des jeweiligen Rechteinhabers, der nur durch eine Verwertungsgesellschaft geltend gemacht werden kann; die dazu notwendigen Verhandlungen zwischen den Universitäten und der VG Wort dauerten viele Jahre und mussten schließlich durch einen Richter geklärt werden. Erst 2006 konnte ein Rahmenvertrag unterzeichnet werden, der den Preis vergleichsweise tief festsetzte: 0,008 EUR pro Seite pro Nutzer. In der Praxis ergab sich aber bald das Problem, dass die Ausnahmeregelung (und der damit verbundene Vergütungsanspruch) durch eine vertragliche Regelung umgangen wurden - Denn wurde der Inhalt aufgrund eines Vertrags (z.B. einer Lizenz) zugänglich gemacht, so konnte eine Regelung des Vertrags dem Nutzer einfach verbieten, das Werk in der gem. § 52a UrhG gestatteten Weise zu nutzen. Dies hatte zur Folge, dass den Wissenschaftlern alle Vorteile der Schrankenregelung wieder verloren gingen.</p>
+            <p>Im Jahr 2017 entschied sich der deutsche Gesetzgeber zu handeln: Das Bundesministerium der Justiz und für Verbraucherschutz erarbeitete einen Entwurf für das sog. Urheberrechts-Wissensgesellschafts-Gesetz, das letztlich - nach einem bemerkenswert kurzen Gesetzgebungsprozess - vom Bundestag verabschiedet wurde. Ab März 2018 wird der alte § 52a UrhG (und weitere Normen, die urheberrechtliche Nutzung von Werken in der Forschung, Archiven und Bibliotheken zum Gegenstand hatten) durch die neuen §§ 60a-60h UrhG ergänzt. Dies gilt zunächst für einen Zeitraum von 5 Jahren. Danach muss der Gesetzgeber entscheiden, ob er die Gültigkeit explizit verlängert oder durch andere Regelungen ersetzt (was nicht völlig unwahrscheinlich ist, wenn eine neue EU-Richtlinie für den digitalen Binnenmarkt erlassen wird).</p>
+            <p>Von besonderem Interesse für die Digital Humanities sind dabei § 60c und § 60d UrhG.</p>
+            <p>§ 60c UrhG erlaubt nun ausdrücklich die Vervielfältigung, die Verbreitung und die öffentliche Zugänglichmachung von bis zu 15 % eines Werkes zum Zwecke der nicht-kommerziellen wissenschaftlichen Forschung (also nicht wie die bisherige Rechtsprechung 25 %). Die Regelung beinhaltet also keine Seitenanzahl mehr, wodurch sie dem digitalen Zeitalter angepasst wird. Für die eigene wissenschaftliche Forschung (also ohne Veröffentlichung) dürfen sogar bis zu 75 Prozent eines Werkes vervielfältigt werden.</p>
+            <p>Unabhängig von diesen Regelungen dürfen Abbildungen, einzelne Beiträge aus Zeitungen oder Zeitschriften, sonstige Werke geringen Umfangs und vergriffene Werke vollständig genutzt werden.</p>
+            <p>§ 60d UrhG erlaubt das Data Mining für nicht-kommerzielle Forschungszwecke (die Beschränkung “nicht kommerziell” stammt dabei aus der zugrundeliegenden Richtlinie und darf daher vom nationalen Gesetzgeber nicht übergangen werden - sonst liegt ein Verstoß gegen EU-Recht vor!): Ursprungsmaterial darf also auch automatisiert und systematisch vervielfältigt werden, um daraus insbesondere durch Normalisierung, Strukturierung und Kategorisierung ein auszuwertendes Korpus zu erstellen und dieses einem bestimmt abgegrenzten Kreis von Personen (vermutlich den Mitgliedern des eigenen Forschungsteam) für die gemeinsame wissenschaftliche Forschung zur Verfügung zu stellen. Nach Abschluss des Forschungsprojekts ist das gesamte Korpus zu löschen oder einem Archiv oder eine Bibliothek zur dauerhaften Aufbewahrung zu übermitteln. Diese Ausnahmeregelung betrifft nicht nur urheberrechtlich geschützte Werke, sondern erfasst auch Werke, die durch das sui-generis-Recht für Datenbanken geschützt sind: Obwohl die Richtlinie 96/9/EG keine Schrankenregelung für die Weiterverwendung zu Forschungszwecken vorsieht, fand der nationale Gesetzgeber einen geschickten Weg, diese Einschränkung zu umgehen.</p>
+            <p>Anzumerken ist, dass die neuen Schrankenregelungen nicht mehr durch vertragliche Regelungen umgangen werden können, d.h. auf Vereinbarungen, die erlaubte Nutzungen nach den §§ 60a bis 60f UrhG zum Nachteil der Nutzungsberechtigten beschränken oder untersagen, kann sich der Rechteinhaber nicht berufen (vgl. § 60g UrhG). Allerdings sind die Nutzungen zu vergüten; dieser Anspruch kann erneut nur durch die Verwertungsgesellschaften geltend gemacht werden. Auch die angemessene Höhe dieser Vergütung wird wahrscheinlich Gegenstand langer Verhandlungen werden, die Preisfestsetzung wird jedenfalls eine abschreckende Wirkung haben. Beispielsweise setzte eine Vereinbarung zwischen den Bibliotheken und den Verwertungsgesellschaften im Jahr 2006 die Vergütung für die Digitalisierung und öffentliche Zugänglichmachung von Büchern fest auf 120 % des Nettopreises des Buches.</p>
+            <p>Die neuen Schrankenregelungen sind jedenfalls ein entscheidender Schritt in die richtige Richtung. Es ist wichtig, die DH-Gemeinschaft über diese aktuellen Entwicklungen zu informieren. Um allerdings das volle Potenzial des Data Mining in der EU zur Entfaltung zu bringen, ist der EU-Gesetzgeber gefragt. Tatsächlich gab es Ende 2016 einen Vorschlag für eine neue Richtlinie für den digitalen Binnenmarkt, die eine verbindliche Schrankenregelung für das Data Mining öffentlicher Forschungseinrichtungen (wie z.B: Universitäten) vorsieht, auch zu kommerziellen Zwecken. Derselbe Richtlinienvorschlag enthält auch einige vernünftige Einschränkungen für den Zugang zu Material - insbesondere verpflichtet er die Lizenznehmer zur regelmäßigen Information des Lizenzgebers über die Nutzung ihrer Werke. Allerdings muss auch er zunächst vom EU-Gesetzgeber vollständig ausgearbeitet und verabschiedet und anschließend von den Mitgliedsstaaten umgesetzt werden. Zum jetzigen Zeitpunkt ist eine Vorhersage darüber, wie die finale Version der Richtlinie aussehen wird, absolut nicht möglich. Allerdings sollte die DH-Community unbedingt zeitnah diesbezüglich mit Informationen versorgt werden.</p>
+        </body>
+    </text>
+</TEI>

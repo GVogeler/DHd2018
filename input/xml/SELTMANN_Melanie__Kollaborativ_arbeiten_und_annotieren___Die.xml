@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title> Kollaborativ arbeiten und annotieren – Die Forschungsinfrastruktur des Spezialforschungsbereichs Deutsch in Österreich </title>
+                <author>
+                    <persName>
+                        <surname>Seltmann</surname>
+                        <forename>Melanie</forename>
+                    </persName>
+                    <affiliation>Universität Wien</affiliation>
+                    <email>melanie.seltmann@univie.ac.at</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Breuer</surname>
+                        <forename>Ludwig Maximilian</forename>
+                    </persName>
+                    <affiliation>Universität Wien</affiliation>
+                    <email>ludwig.maximilian.breuer@univie.ac.at</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Heinisch</surname>
+                        <forename>Barbara</forename>
+                    </persName>
+                    <affiliation>Universität Wien</affiliation>
+                    <email>barbara.heinisch@univie.ac.at</email>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2018-01-12T08:54:00Z</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Prof. Dr. Georg Vogeler</publisher>
+                <address>
+                    <addrLine>UniversitÃ¤t Graz</addrLine>
+                    <addrLine>Zentrum fÃ¼r Informationsmodellierung - Austrian Centre for Digital Humanities</addrLine>
+                    <addrLine>ElisabethstraÃ&#x9f;e 59/III</addrLine>
+                    <addrLine>8010 Graz</addrLine>
+                </address>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Converted from a Word document </p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.17">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Poster</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Forschungsinfrastruktur</term>
+                    <term>Kollaboration</term>
+                    <term>Annotation</term>
+                    <term>Linguistik</term>
+                    <term>Dialektologie</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Sammlung</term>
+                    <term>Transkription</term>
+                    <term>Strukturanalyse</term>
+                    <term>Annotieren</term>
+                    <term>Kollaboration</term>
+                    <term>Sprache</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>Der Spezialforschungsbereich (SFB) „Deutsch in Österreich. Variation – Kontakt – Perzeption“ (FWF F 60) beschäftigt sich mit der Vielfalt sowie dem Wandel der deutschen Sprache in Österreich. Dabei behandelt er den Gebrauch und die subjektive Wahrnehmung von deutscher Sprache in Österreich und zeigt Einflüsse durch Kontaktsprachen auf. Der SFB gliedert sich in verschiedene Teilprojekte an vier verschiedenen Institutionen (Universität Wien, Universität Salzburg, Universität Graz und Österreichische Akademie der Wissenschaften), die unterschiedliche Schwerpunkte in den Fokus nehmen.</p>
+            <p>Ein Ziel des SFB ist es, die Forschungsansätze und -ergebnisse einem möglichst breiten Publikum einfach und frei zugänglich zu machen. Hierfür ist eine gut durchdachte, funktionale und vor allem flexible Forschungsplattform sowie das Zurverfügungstellen (und die Nutzung) einiger Standards und Best Practices unumgänglich. Zum einen um die Arbeit über die verschiedenen Teilprojekte und Institutionen kollaborativ und einheitlich zu gestalten, zum anderen um den Open Science-Ansatz des Projektes verwirklichen zu können und Daten sowie Forschungsmethoden und -ergebnisse bereitstellen zu können.</p>
+            <p>Hierzu ist eine breite - auch technische - Expertise nötig, da die Forschungsplattform den gesamten Forschungsprozess unterstützt und begleitet. Die Forschungsplattform dient dabei als Virtual Research Environment (VRE) (Sarwar et al. 2013: 551, Smith et al. 2011:54). Sie bietet Tools wie eine Call-Center-Maske für die Gewährspersonenakquise und -befragung, Transkriptions-, Annotations-, Kommunikations-, Arbeitsmanagement- und Datenmanagementools – damit das ganze Spektrum des wissenschaftlichen Arbeitsprozesses von der InformantInnenakquise über die Datenauswertung bis hin zur Publikation unterstützt werden kann. Schließlich werden alle Prozesse und Daten nicht nur nachhaltig gespeichert, sondern auch weiterentwickelt und aufbereitet, damit sie WissenschafterInnen sowie der interessierten Öffentlichkeit zur Verfügung gestellt werden können. Eine Herausforderung stellen die Vielfalt der theoretischen Ansätze, praktischen Methoden, Datenformate, (u.a. Textkorpora, Audio- und Videodaten) und die (Meta-)Datenaufbereitung sowie die damit verbundene Sicherung und Nutzung dar.</p>
+            <p>Die Grundlage der einzelnen Module der Forschungsplattform basiert auf Open Source-Tools, die gegebenenfalls an die Bedürfnisse des SFB angepasst werden. Dazu gehören beispielsweise Eingabemasken für eine Personendatenbank samt „Call Center-Maske“, Tranksriptions- sowie Annotationsumgebungen, eine Literaturverwaltung sowie Analysetools. Die Tools werden dabei in Docker-Containern (Merkel 2014) gespeichert, u.a. um die Nachhaltigkeit der Tools zu unterstützen. Dies bietet den Vorteil, dass auch abseits des Projekts und sogar der Wissenschaft an den einzelnen Komponenten weiterentwickelt werden kann, insofern sich eine entsprechende Community bildet. Zudem bieten die Docker-Container die Möglichkeit, Tools sehr einfach für andere Projekte nutzen zu können. Die Docker-Container werden im SFB in Rancher (https://rancher.com/) verwaltet. Dies vereinfacht die gesamte Pipeline von der Entwicklung über das Testen bis hin zur produktiven Nutzung der Tools, da alles an einem Ort geschehen kann. </p>
+            <p>Die VRE ist zum jetzigen Zeitpunkt nur projektintern verfügbar und befindet sich in kontinuierlicher Weiterentwicklung. Eine angepasste VRE soll zum späteren Zeitpunkt auch der Öffentlichkeit zur Verfügung stehen. Andere Plattformen wie WebAnno etc. haben sich nicht als für die SFB-Bedürfnisse adaptabel erwiesen, da sie den umfassenden Aufgaben sowie der Strukturierung der Daten und Annotationen nicht gerecht werden.</p>
+            <p>Auf dem Poster soll neben der Darstellung dieser Plattform genauer auf den Bereich der Annotation eingegangen werden. Da diese auf den verschiedensten linguistischen Ebenen vorgenommen und von einer Vielzahl von WissenschafterInnen erarbeitet wird, muss es zum einen klare Vorgaben geben, wie annotiert werden soll, zum anderen müssen die Annotationen nach einem einheitlichen Schema gebildet werden. Dennoch soll die Flexibilität der Annotationen gewährleistet sein, um wissenschaftliches Arbeiten möglichst effizient gestalten zu können. Dabei werden die Tags zwar mit Hilfe einer m:n-Verknüpfung zwischen Attributen (Tags) und Werten (Antworten) gespeichert, sind aber hierarchisch projizierbar. Somit ist es möglich, dass die verschiedenen Teilprojekte unterschiedlich tief annotieren, aber dennoch auf die Annotationen der anderen Teilprojekte zurückgreifen können. Sie fügen sich zudem bestmöglich in die vorhandene Forschungslandschaft ein, z.B. durch Verwendung gängiger Taggingsysteme (wie Edisyn), um auch SFB-übergreifend leicht nutz-, adaptier- und vergleichbar zu sein.</p>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl>Fügen Sie hier die von Ihnen benutzten Quellen ein:</bibl>
+                    <bibl>
+                        <hi rend="bold">Merkel, Dirk </hi>(2014): „Docker: Lightweight Linux Containers for Consistent Development and Deployment“, in: 
+                        <hi rend="italic">Linux J.</hi> 239 http://www.linuxjournal.com/content/docker-lightweight-linux-containers-consistent-development-and-deployment [letzter Zugriff: 25. September 2017].
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Sarwar, Muhammad S. / Doherty, T. / Watt, J. / Sinnott, Richard O.</hi> (2013): „Towards a virtual research environment for language and literature researchers“, in: 
+                        <hi rend="italic">Future Generation Computer Systems</hi> 29: 549–559 https://doi.org/10.1016/j.future.2012.03.015.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Smith, Vincent / Rycroft, Simon / Brake, Irina / Scott, Ben / Baker, Ed / Livermore, Laurence / Blagoderov, Vladimir / Roberts, David</hi> (2011): „Scratchpads 2.0: a Virtual Research Environment supporting scholarly collaboration, communication and data publication in biodiversity science“, in: 
+                        <hi rend="italic">ZooKeys</hi> 150: 53–70.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

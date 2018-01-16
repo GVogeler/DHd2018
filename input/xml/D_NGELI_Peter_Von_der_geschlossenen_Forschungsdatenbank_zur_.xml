@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Von der geschlossenen Forschungsdatenbank zur offenen Editions- und Forschungsplattform</title>
+                <author>
+                    <persName>
+                        <surname>Forney</surname>
+                        <forename>Christian</forename>
+                    </persName>
+                    <affiliation>Universität Bern, Historisches Institut</affiliation>
+                    <email>christian.forney@hist.unibe.ch</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Rojas Castro</surname>
+                        <forename>Antonio</forename>
+                    </persName>
+                    <affiliation>Universität zu Köln, Cologne Center for eHumanities</affiliation>
+                    <email>arojasca@uni-koeln.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Dängeli</surname>
+                        <forename>Peter</forename>
+                    </persName>
+                    <affiliation>Universität Bern, Historisches Institut; Universität zu Köln, Cologne Center for eHumanities</affiliation>
+                    <email>p.daengeli@uni-koeln.de</email>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2017-09-25T20:06:00Z</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Prof. Dr. Georg Vogeler</publisher>
+                <address>
+                    <addrLine>UniversitÃ¤t Graz</addrLine>
+                    <addrLine>Zentrum fÃ¼r Informationsmodellierung - Austrian Centre for Digital Humanities</addrLine>
+                    <addrLine>ElisabethstraÃ&#x9f;e 59/III</addrLine>
+                    <addrLine>8010 Graz</addrLine>
+                </address>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Converted from a Word document </p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.17">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Poster</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Forschungsportal</term>
+                    <term>Editionsportal</term>
+                    <term>Datentransformation</term>
+                    <term>Open Access</term>
+                    <term>TEI-Modellierung</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Modellierung</term>
+                    <term>Daten</term>
+                    <term>Infrastruktur</term>
+                    <term>Projekte</term>
+                    <term>Forschung</term>
+                    <term>Standards</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="div1" rend="DH-Heading1">
+                <head>Ausgangslage</head>
+                <p>Die Vielschichtigkeit der Aufklärungszeit, die Funktionsweise der Gelehrtenrepublik und ihre Wechselwirkungen mit Wirtschaft, Politik und Gesellschaft, aber auch die Ausdifferenzierung der Naturgeschichte werden an der Universität Bern seit den frühen 1990er-Jahren intensiv beforscht.
+                    <note place="foot" xml:id="ftn1" n="1">
+                        <p rend="footnote text"> Wegweisend war das SNF-Projekt 
+                            <hi rend="italic">Albrecht von Haller und die Gelehrtenrepublik der Aufklärung</hi> (Laufzeit 1991-2003, Leitung: Urs Boschung, medizinhistorisches Institut der Universität Bern, in Kooperation mit der Burgerbibliothek Bern).
+                        </p>
+                    </note> Zentrale Figur des Forschungsinteresses ist dabei Albrecht von Haller (1708-1777), Schweizer Universalgelehrter und Schöpfer eines vielfältigen Oeuvres, das unter anderem in einem außerordentlich reichhaltigen handschriftlichen Nachlass überliefert ist. 
+                </p>
+                <p>Wichtigstes Hilfsmittel ist seit 1991 eine Forschungsdatenbank, die schrittweise durch den Zusammenschluss mit mehreren Forschungsprojekten (etwa zur Oekonomischen Gesellschaft Bern) zur Verbunddatenbank erweitert und bis heute laufend ausgebaut wurde.
+                    <note place="foot" xml:id="ftn2" n="2">
+                        <p rend="footnote text"> Realisiert wurde die Datenbank mit dem Dokumentations- und Retrievalsystem 
+                            <hi rend="italic">FAUST Professional</hi> der Firma Land Software: ursprünglich in der Version 1.0, zuletzt wurde das Programm in der Version 6.0 genutzt.
+                        </p>
+                    </note> Sie enthält detaillierte und untereinander stark verlinkte Daten zu rund 40
+                    <hi rend="color(222222)">'</hi>000 Publikationen (Hallers Bibliothek, Forschungsliteratur), 22
+                    <hi rend="color(222222)">'</hi>000 Personen, 20
+                    <hi rend="color(222222)">'</hi>000 Briefen, 3
+                    <hi rend="color(222222)">'</hi>000 Pflanzenarten, 2
+                    <hi rend="color(222222)">'</hi>500 Orten und 800 Institutionen, jeweils in projektspezifisch gewachsenen Datenstrukturen abgelegt.
+                </p>
+                <p>Um diese wertvolle Forschungsquelle umfassender verfügbar und sie zugleich als Grundlage für die anstehende Edition von Primärquellen nutzbar zu machen, wird die Datenbank gegenwärtig in einer Forschungskooperation zwischen dem Historischen Institut der Universität Bern und dem Cologne Center for eHumanities (CCeH) bereinigt, umstrukturiert und in eine zugleich entstehende Forschungs- und Editionsplattform integriert.
+                    <note place="foot" xml:id="ftn3" n="3">
+                        <p rend="footnote text"> Der Umbau ist das Ziel des Projekts Haller Online (Laufzeit 2016-2019), das von der Burgergemeinde Bern mit der Albrecht von Haller-Stiftung sowie der Universität Bern finanziert wird. Über den Abschluss des Projekts hinaus ist die Zugänglichkeit und der Unterhalt der Plattform institutionell durch die Haller-Stiftung und die Burgerbibliothek Bern abgesichert.</p>
+                    </note> Zielformat sind XML-Daten, die sich eng an die TEI-Guidelines anlehnen.
+                    <note place="foot" xml:id="ftn4" n="4">
+                        <p rend="footnote text"> Die Datentransformation erfolgt in XProc-orchestrierten XSL-Transformationen und die künftige Datenpflege im oXygen-Autorenmodus; die Webanwendung vereinigt ein XML-Backend (XSLT 3.0, Solr) und ein Vue.js-Frontend, die Digitalisate sollen über eine IIIF-Schnittstelle eingebunden und verfügbar gemacht werden.</p>
+                    </note>
+                </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Charakteristika der Datenbank und der entstehenden Editionen</head>
+                <p>Das Potenzial der Datenbank lässt sich gut anhand der Personenobjekte veranschaulichen, die für rund 24
+                    <hi rend="color(222222)">'</hi>000 historische Persönlichkeiten (dazu zählen Hallers rund 1
+                    <hi rend="color(222222)">'</hi>050 Korrespondenten und 156 Korrespondentinnen) verschiedene Aspekte sehr detailliert und mit Quellennachweisen versehen beschreiben. Je nach Objekttyp enthalten die Personendatensätze bis zu 385 Felder: Neben den gängigen Lebensdaten wurden zu diesen Personen alle Verwandtschaftsbeziehungen, Ausbildungsgang, sowie Arbeits-, Forschungs- und Reisetätigkeiten erhoben und wo möglich mit den entsprechenden Datenbankobjekten verlinkt.
+                    <note place="foot" xml:id="ftn5" n="5">
+                        <p rend="footnote text"> Verlinkungen können sowohl auf andere Personen wie auch auf andere Objekte (wie Orte, Pflanzen oder Institutionen) referenzieren.</p>
+                    </note> Für die historische Forschung stellt dieses dichte und qualitativ gesicherte Informationsnetz eine herausragende Forschungsressource dar.
+                </p>
+                <p>Die Datenbank wird im Rahmen der Forschungskooperation ergänzt durch eine prototypische Korrespondenzedition des Briefverkehrs zwischen dem von Hannover aus wirkenden Universitätskurator Gerlach von Münchhausen und Albrecht von Haller.
+                    <note place="foot" xml:id="ftn6" n="6">
+                        <p rend="footnote text"> Otto Sonntag (ed.): The Albrecht von Haller-Gerlach Adolph von Münchhausen Correspondence, Digitale Edition, Bern 2018 (in Vorbereitung).</p>
+                    </note> Die Edition, die sowohl innerhalb der Forschungs- und Editionsplattform als auch mit externen Ressourcen wie correspSearch.net verlinkt wird, dient als Modell für die 
+                    <hi rend="italic">Open Access</hi>-Edition von zunächst 8
+                    <hi rend="color(222222)">'</hi>000 Briefen und 9
+                    <hi rend="color(222222)">'</hi>000 Rezensionen Hallers, die ab 2018 im Rahmen des SNF-Projekts 
+                    <hi rend="italic">Online-Edition der Rezensionen und Briefe Albrecht von Hallers: Expertise und Kommunikation in der entstehenden Scientific community</hi> ediert werden.
+                </p>
+                <p>Hinsichtlich digitaler Forschungspraktiken sind die laufenden Modellierungs-, Konversions- und Entwicklungsarbeiten in zweierlei Hinsicht von Interesse: einerseits werfen sie die Frage auf, inwiefern Datenstrukturen durch die zugrunde liegenden Werkzeuge beeinflusst werden und bieten zugleich einen Rahmen konkreter Reflexion, andererseits erfordert die Konzeption eines übergreifenden Portals für unterschiedliche, aber zusammenhängende Inhalte eine geeignete Präsentation und Kommunikation.</p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Datenmodellierung und -transformation als Reflexionsprozess</head>
+                <p>Die 
+                    <hi rend="italic">ad hoc</hi> gewachsenen Datenstrukturen werden in ein neu definiertes Textformat überführt, das den TEI-Guidelines inhärente bestehende semantische Konzepte nutzt und sich mithin (zu einem gewissen Grad) selbst beschreibt. Angestrebt wird Verständlich- und Nachvollziehbarkeit nicht nur in der Präsentation, sondern auch auf der Datenebene. Da die TEI-Guidelines für viele vorliegende Forschungsdaten (z.B. Eigenschaften von Personen) keine entsprechenden Elemente kennen, wurden generische Lösungen durch Abstraktion gesucht. Damit bedingt die Überführung aus einer Feld-, Tabellen- und Maskenbasierten Datenbank in ein TEI-basiertes Format eine analytische Durchdringung der Datenstruktur, die auch den mit den Daten vertrauten Forschenden einen neuen Blick auf ebendiese gibt. Aus dieser Perspektive betrachtet erscheinen die Forschungsdaten deutlicher als Objekte der realen Welt mit semantisch klar definierten Eigenschaften. Die Reflexion verstärkt auf diese Weise die gegenseitige Wechselwirkung zwischen Datenmodellierung und wissenschaftlicher Analyse. Die Generalisierung spezifischer Datenbeschreibungsformen ist wesentlicher Bestandteil, um die neue Datenbank nicht nur im bestehenden, um Albrecht von Haller und die Oekonomische Gesellschaft Bern zentrierenden Kontext nutzen zu können, sondern z.B. auch für die Naturforschende Gesellschaft Zürich. Sie ermöglicht inskünftig auch Anschluss an Schnittstellen Dritter wie 
+                    <hi rend="italic">correspSearch</hi>
+                    <note place="foot" xml:id="ftn7" n="7">
+                        <p rend="footnote text"> Stefan Dumont et al.: correspSearch, URL: http://correspsearch.net (14.1.2018).</p>
+                    </note> im Bereich der Korrespondenzdaten oder die im Entstehen begriffene 
+                    <hi rend="italic">prosopogrAPhi</hi>
+                    <note place="foot" xml:id="ftn8" n="8">
+                        <p rend="footnote text"> Georg Vogeler et al.: prosopogrAPhI, URL: https://github.com/GVogeler/prosopogrAPhI (14.1.2018).</p>
+                    </note> im Bereich der Personendaten.
+                </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Spezifizierung eines übergreifenden Editionsportals</head>
+                <p>Das entstehende Editionsportal will eine einheitliche Grundlage schaffen für verschiedene Inhalte, seien es beschreibende und Metadaten, digitale Neu-Editionen bestehender gedruckter Briefeditionen oder neu erarbeitete digitale Brief- und Rezensionseditionen mit unterschiedlichen thematischen, geographischen und personellen Schwerpunkten. Dabei sollen bestimmte Inhalte der Plattform den Nutzern in verschiedenen Kontexten (z.B. ein Brief als atomares Datum, als Bestandteil einer “Sammlung”, als edierter Brief) jeweils so präsentiert werden, dass die Situierung innerhalb des Portals jederzeit nachvollziehbar bleibt. Der Anspruch des Portals geht dadurch konzeptionell beträchtlich über den Standardfall einer digitalen Edition (im Sinne tiefer editorischer Erschließung) eines einzelnen Textes oder verschiedener Texte eines Autors hinaus. Zugleich greift durch die Tiefe der Erschließung aber auch der Vergleich mit digitaler Datenbereitstellung, wie sie in Bibliotheken und Archiven oftmals betrieben wird, zu kurz. Eine einfache und verständliche visuelle Kommunikation und Umsetzung dieser Ansprüche erweist sich in der konzeptuellen Arbeit als Herausforderung.</p>
+                <figure>
+                    <graphic n="1001"
+                        width="9.313330555555556cm"
+                        height="16.01752777777778cm"
+                        url="Pictures/image1.png"
+                        rend="inline"/>
+                    <head>Abbildung 1: Segmentierte Landingpage der in Entwicklung begriffenen Webanwendung: Datenbank, Sammlungen, Editionen</head>
+                </figure>
+            </div>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl>Boschung, Urs et al. (eds.): Repertorium zu Albrecht von Hallers Korrespondenz 1724-1777 (Studia Halleriana VII), Basel: Schwabe 2006.</bibl>
+                    <bibl>Dumont, Stefan et al.: correspSearch, URL: http://correspsearch.net (14.1.2018).</bibl>
+                    <bibl>Flückiger, Daniel / Stuber, Martin: Vom System zum Akteur. Personenorientierte Datenbanken für Archiv und Forschung, in: Kirchhofer, André et al. (eds.), Nachhaltige Geschichte. Festschrift für Christian Pfister, Zürich: Chronos 2009, S. 253-269.</bibl>
+                    <bibl>Sonntag, Otto (ed.): The Albrecht von Haller-Gerlach Adolph von Münchhausen Correspondence, Digitale Edition, Bern 2018 (in Vorbereitung).</bibl>
+                    <bibl>Steinke, Hubert: Archive databases as advanced research tools: the Haller Project, in: Monti, Maria Teresa (ed.), Antonio Vallisneri. L'edizione del testo scientifico d'età moderna, Firenze: Olschki 2003, S. 191–204.</bibl>
+                    <bibl>Steinke, Hubert / Profos, Claudia: Bibliographia Halleriana: Verzeichnis der Schriften von und über Albrecht von Haller (Studia Halleriana VIII), Basel: Schwabe 2004.</bibl>
+                    <bibl>Stuber, Martin: Findmittel und Forschungsinstrument zugleich. Die Datenbank des Berner Haller-Projekts, in: Arbido 14, 1999, S. 5-10.</bibl>
+                    <bibl>Stuber, Martin / Hächler, Stefan / Lienhard, Luc (eds.): Hallers Netz. Ein europäischer Gelehrtenbriefwechsel zur Zeit der Aufklärung, Schwabe: Basel 2005.</bibl>
+                    <bibl>Vogeler, Georg et al.: prosopogrAPhI, URL: https://github.com/GVogeler/prosopogrAPhI (14.1.2018).</bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="full">
+                    <title type="main"> BeWeB-3D – Zur Digitalisierung interaktiver Buchobjekte</title>
+                    <title type="sub"/>
+                </title>
+                <author>
+                    <persName>
+                        <surname>Hug</surname>
+                        <forename>Marius</forename>
+                    </persName>
+                    <affiliation>Staatsbibliothek zu Berlin - Preußischer Kulturbesitz, Deutschland</affiliation>
+                    <email>marius.hug@googlemail.com</email>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2018-01-14T21:11:13</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Prof. Dr. Georg Vogeler</publisher>
+                <address>
+                    <addrLine>UniversitÃ¤t Graz</addrLine>
+                    <addrLine>Zentrum fÃ¼r Informationsmodellierung - Austrian Centre for Digital Humanities</addrLine>
+                    <addrLine>ElisabethstraÃ&#x9f;e 59/III</addrLine>
+                    <addrLine>8010 Graz</addrLine>
+                </address>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Converted from an OASIS Open Document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.17">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Poster</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Bewegungsbücher</term>
+                    <term>3D</term>
+                    <term>Interaktion</term>
+                    <term>Augmented Reality</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Modellierung</term>
+                    <term>Bilder</term>
+                    <term>3D-Bilder</term>
+                    <term>Interaktion</term>
+                    <term>Video</term>
+                    <term>Visualisierung</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>Im Rahmen des Projekts BeWeb-3D
+                <note xml:id="ftn1" place="foot" n="1"> http://staatsbibliothek-berlin.de/die-staatsbibliothek/projekte/beweb-3d/.</note>und in Kooperation mit dem Zentrum für digitale Kulturgüter in Museen (ZEDIKUM
+                <note xml:id="ftn2" place="foot" n="2"> http://www.zedikum.de/</note>) wurde an der Staatsbibliothek zu Berlin – Preußischer Kulturbesitz ein Konzept zur Digitalisierung sogenannter Bewegungsbücher erarbeitet. Dabei handelt es sich um Buchobjekte, die bewegliche Teile enthalten und damit eine Interaktion erfordern, die über das reine Umblättern der Seiten hinausgeht (vgl. Schmitz-Emans 2016). Populäre Formen dieses Buchtyps sind Klappbilderbücher – bereits im 16. Jahrhundert gab es anatomische Lehrbücher mit Papierklappen – oder Bücher mit Volvellen, i.e. drehbare Papierscheiben, die bspw. für kalendarische Berechnungen genutzt wurden. Einen richtigen Boom erfuhr das Medium Bewegungsbuch, als im Laufe des 19. Jahrhunderts das sogenannte Spielbilderbuch die (gutbürgerlichen) Kinderzimmer Mitteleuropas eroberte. In diesen aufwendig und von Hand produzierten Kinderbüchern finden sich alle Formen des angesprochenen Papierdesigns wieder, was im direkten Kontext zu den industriellen Fortschritten in den Bereichen der Papierproduktion und Buchdrucktechnologie (Lithographie und v.a. Chromolithographie) zu sehen ist. Eine besondere Ausprägung sind die in den 1880er und 90er Jahren in Perfektion vom Münchner Buchkünstler Lothar Meggendorfer produzierten Ziehbilderbücher (siehe Abb. 1), die historisch in enger Verwandtschaft zu den damals populären Marionetten- und Schattentheatern einerseits und Laterna Magica Vorführungen andererseits rezipiert werden müssen.
+            </p>
+            <p>
+                <figure>
+                    <graphic url="Pictures/1000000000001FC70000086FB19A0D9B.jpg"/>
+                </figure>Abb. 1: Vier 
+                <hi rend="italic">stills</hi> des Anglers bei der Arbeit. Aus: Lothar Meggendorfer: Bewegliche Schattenbilder, 1886.
+            </p>
+            <p>All diesen Buchtypen – seien es wissenschaftliche Bücher aus der Zeit des 12. Jahrhunderts oder Kinderbücher ab dem Anfang des 19. Jahrhunderts – ist eines gemein: Sie verfügen über eine zusätzliche (räumliche oder zeitliche) Dimension und verweigern sich so gängigen Digitalisierungspraktiken aus dem Bereich der Buchdigitalisierung. Elena Pierazzo beschreibt diese Objekte als „notable exceptions“ (Pierazzo 2015, 32) und verweist damit einerseits auf deren Exklusivität, andererseits aber auch auf die unbestrittene Relevanz des Gegenstands.</p>
+            <p>Das vom Bundesministerium für Bildung und Forschung (BMBF) geförderte Projekt schlägt einen Digitalisierungsworkflow vor, der der Komplexität des Gegenstands gerecht wird und entsprechend aufwendig ist. Unterschiedliche Ausgabeformate (Bild, Film, 3D) sollen in einer additiv-synoptischen Präsentation zugänglich gemacht werden. 1) Für die 2D-Digitalisierung bedeutet die spätere Datenverarbeitung, dass unterschiedliche Zustände der beweglichen Bilder aufgenommen werden müssen (Stichwort Keyframing). 2) Um eine entsprechende metrische Präzision des Digitalisats zu erreichen, wird das aus dem Bereich der Kulturgutdigitalisierung bekannte Structure from Motion-Verfahren (SfM) eingesetzt. 3) Um schließlich die Interaktion mit dem Digitalisat zu ermöglichen, kommen bei der Datenvisualisierung Game und/oder Physik Engines aus dem Computerspielebereich (z.B. Unity) zum Einsatz. Das Ziel ist ein multimodales Replikat bestehend aus Bild, Film, 3D-Objekt und einem eigenen Metadatenmodell, in welchem die bereits erwähnte Möglichkeit der Interaktion abgebildet ist.</p>
+            <p>Im Rahmen der Posterpräsentation werden verschiedene bis dahin replizierte Buchtypen unter Berücksichtigung der jeweiligen Digitalisierungstechnologien vorgestellt. Die digitalisierten Spielbilderbücher stehen browserbasiert oder als Augmented Reality 
+                <hi rend="italic">hands-on</hi> zur Verfügung. Der so durch BeWeB-3D zwischen datenbasiertem Poster und Android-App buchstäblich aufgespannte Raum soll zu einem Raum der kritischen Befragung konkreter Möglichkeiten und Grenzen von Digital Humanities werden. Das 
+                <hi rend="italic">Bewegungsbuch</hi> als Teil einer „ergodic edition“ (Vanhoutte 2015, 141f) eignet sich dafür nicht zuletzt aufgrund der noch immer fehlenden Standards im Bereich der (interaktiven) 3D-Digitalisierung.
+            </p>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl>
+                        <hi rend="bold">Meggendorfer, Lothar</hi> (1886): 
+                        <hi rend="italic">Bewegliche Schattenbilder, 1. Vorstellung,</hi> München: Braun &amp; Schneider. Staatsbibliothek zu Berlin, Kinder- und Jugendbuchabteilung, Signatur: 53 BB 500600-1 R.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Pierazzo, Elena</hi> (2015): 
+                        <hi rend="italic">Digital Scholarly Editing: Theories, Models and Methods</hi>. Farnham: Ashgate.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Schmitz-Emans, Monika</hi> (2016): "Modellierungen, Inszenierungen, Transgressionen. Zu Geschichte, Spielformen und Poetik des beweglichen Buchs", in: Bachmann, Christian A./Emans, Laura/Schmitz-Emans, Monika (eds.): 
+                        <hi rend="italic">Bewegungsbücher. Spielformen, Poetiken, Konstellationen,</hi> Berlin: Ch. A. Bachmann Verlag, S. 85–123.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Vanhoutte, Edward</hi> (2010): "Defining Electronic Editions: A Historical and Functional Perspective", in: McCarty, W. (ed.): 
+                        <hi rend="italic">Text and Genre in Reconstruction. Effects of Digitalization on Ideas, Behaviours, Products and Institutions</hi>. Open Book Publishers, Cambridge, S. 119–144.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

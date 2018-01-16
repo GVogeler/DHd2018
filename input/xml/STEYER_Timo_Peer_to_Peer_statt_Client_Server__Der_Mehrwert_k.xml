@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Peer-to-Peer statt Client-Server: Der Mehrwert kollegialer Beratung und agiler DH-Treffen</title>
+                <author>
+                    <persName>
+                        <surname>Steyer</surname>
+                        <forename>Timo</forename>
+                    </persName>
+                    <affiliation>Forschungsverbund Marbach Weimar Wolfenbüttel; Herzog August Bibliothek Wolfenbüttel</affiliation>
+                    <email>steyer@hab.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Dogunke</surname>
+                        <forename>Swantje</forename>
+                    </persName>
+                    <affiliation>Forschungsverbund Marbach Weimar Wolfenbüttel; Klassik Stiftung Weimar</affiliation>
+                    <email>swantje.dogunke@klassik-stiftung.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Mayer</surname>
+                        <forename>Corinna</forename>
+                    </persName>
+                    <affiliation>Forschungsverbund Marbach Weimar Wolfenbüttel; Deutsches Literaturarchiv Marbach</affiliation>
+                    <email>corinna.mayer@dla-marbach.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Neumann</surname>
+                        <forename>Katrin</forename>
+                    </persName>
+                    <affiliation>Max Weber Stiftung</affiliation>
+                    <email>Neumann@MaxWeberStiftung.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Cremer</surname>
+                        <forename>Fabian</forename>
+                    </persName>
+                    <affiliation>Max Weber Stiftung</affiliation>
+                    <email>Cremer@MaxWeberStiftung.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Wübbena</surname>
+                        <forename>Thorsten</forename>
+                    </persName>
+                    <affiliation>Max Weber Stiftung</affiliation>
+                    <email>twuebbena@dfk-paris.org</email>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2017-09-11T13:53:00Z</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Prof. Dr. Georg Vogeler</publisher>
+                <address>
+                    <addrLine>Universität Graz</addrLine>
+                    <addrLine>Zentrum für Informationsmodellierung - Austrian Centre for Digital Humanities</addrLine>
+                    <addrLine>Elisabethstraße 59/III</addrLine>
+                    <addrLine>8010 Graz</addrLine>
+                </address>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Converted from a Word document </p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.17">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Poster</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Projektmanagement</term>
+                    <term>Projektplanung</term>
+                    <term>Kooperationen</term>
+                    <term>Austausch</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Kommunikation</term>
+                    <term>Community-Bildung</term>
+                    <term>Projektmanagement</term>
+                    <term>Infrastruktur</term>
+                    <term>Forschungsprozess</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>Ein wesentliches Kennzeichen der Digital Humanities ist ihr hoher Grad an Interdisziplinarität, Vernetzung und Kommunikation. Angesichts ihrer Schnittstellenfunktion und des schnellen technologischen Wandels ist der regelmäßige Austausch zwischen DH-Vorhaben ebenso unerlässlich wie impulsgebend. Aus diesen Gründen finden seit drei Jahren regelmäßige Treffen zwischen den DH-MitarbeiterInnen des Forschungsverbundes Marbach Weimar Wolfenbüttel und der Max Weber Stiftung statt. Beide Institutionen vereinen strukturelle Gemeinsamkeiten: Als Zusammenschlüsse geografisch verteilter Forschungs- und Infrastruktureinrichtungen, die innerhalb der Geisteswissenschaften unterschiedliche wissenschaftliche Schwerpunkte verfolgen, streben beide Verbünde im Bereich der digital gestützten Forschung nach Synergien und Vernetzung. </p>
+            <p>Die Treffen werden als Peergroup-Treffen auf operativer Ebene nach dem Ansatz der kollegialen Beratung mit wechselnden Rollen und Formaten, wie z.B. Partnerinterviews, Impulsreferate, Buzzgroups oder Think-Pair-Share, durchgeführt (Tietze 2010). Ursprünglich begonnen als offener Austausch über Fragen des Aufbaus digitaler Infrastrukturen, des Wissenstransfers von fachlicher Expertise und zu aktuellen DH-Einwicklungen rückten durch den systemischen Ansatz zunehmend andere, unerwartete Themenfelder in den Fokus: Bei den DH-Vorhaben in den Verbünden werden vor allem Projektvorhaben initiiert, bei denen eine Konvergenz zwischen digitalen und analogen Forschungsmethoden angestrebt wird. Hieraus entsteht ein Spannungsverhältnis zu den etablierten Organisationstrukturen der Institutionen, die in ihren Abläufen und Strukturen nicht auf multidisziplinäre Projekte mit einem digitalen Anteil ausgerichtet sind. Bei der Übertragung des traditionellen Organisations- und Projektmanagements auf die DH-Projekte ergeben sich folgende Herausforderungen: </p>
+            <p>1. Dissonanz zwischen analogen und digitalen Projektworkflows: Der DH-Anteil in Forschungsprojekten ist nicht selten durch Förderrichtlinien motiviert und viele GeisteswissenschaftlerInnen kommen in diesen Projekten erstmalig in Kontakt zu DH (Pitti 2004).Technische Möglichkeiten werden dadurch sowohl unter- als auch überschätzt. Zu Projektbeginn existieren daher in den DH-Anteilen häufig nur abstrakte Vorstellungen über die Umsetzung der Projektinhalte in technische Verfahren oder Werkzeuge. Bei DH-Projekten werden die notwendigen konzeptionellen Arbeiten zu Projektbeginn – etwa die Evaluierung von Software oder die Identifizierung von Best-Practice-Modellen zu Kernaufgaben – nur unzureichend in den Projektplänen berücksichtigt (Tabak 2017).</p>
+            <p>2. Strukturelle Isolation: In vielen Forschungsprojekten arbeitet häufig nur eine einzelne Person als DHler/in; diese fungiert als singuläre Wissensressource, die schließlich zu den übrigen ProjektmitarbeiterInnen entweder in einem dienstleistungsähnlichen Verhältnis steht oder für die Vermittlung und Legitimation neuartiger digitaler Methoden gegenüber den technisch weniger versierten Kollegen viel Engagement aufbringen muss. Da in Gedächtniseinrichtungen und -organisationen nur wenige bis keine Planstellen für DH vorhanden sind, können die Projektstellen nur bedingt auf institutionelles Wissen und Kompetenzen, z. B. in Bereichen wie Softwareentwicklung oder Datenmodellierung, zurückgreifen.</p>
+            <p>3. Diversität der Aufgaben: Alle technischen Fragen landen in den Forschungsprojekten in der Regel auf dem Tisch der DH. Förderanträge enthalten selten Anforderungsanalysen oder validierte Zielsetzungen bezüglich der DH-Anteile, die sich auch in den überlangen Kompetenzanforderungen widerspiegeln. Die DH-MitarbeiterInnen müssen dadurch Mehrfachfunktionen erfüllen: Einerseits sollen sie Dienstleistungen für Forschungsprojekte erbringen, andererseits eigene Forschungsprojekte durchführen und (implizit) Projektmanagement übernehmen (Reed 2014).</p>
+            <p>Durch diese Situation gehen einerseits die Kernkompetenzen der DH, wie die Gestaltung, Moderation und Begleitung von digitalen Prozessen verloren. Zeitgleich steigt der Rechtfertigungsdruck, wenn Anforderungen nicht kurzfristig realisiert werden können. Basierend auf den ersten Ergebnissen hat die Gruppe konkrete Ziele und methodische Grundlagen der Treffen ausgearbeitet. Diese umfassen neben dem eingangs anvisierten Austausch und gegenseitiger Beratung auch Qualitätssicherung, Innovationsleistung und Fortbildung. Neben diesen Funktionen zählen außerdem die Stärkung eigener Entscheidungen durch Verifikation des jeweiligen Partners, durch Impulse beschleunigte Entwicklungspfade und direkter Technologietransfer zu den Resultaten des Kooperationsmodells. Durch den systemischen Ansatz werden die projektbedingten Dissonanzen der Arbeitspläne offengelegt, die strukturelle Isolation zeitweise aufgelöst und die Diversität der Aufgaben durch Wissens-, Erfahrungs- und Technologietransfer erleichtert.</p>
+            <p>Das Poster soll zum einen die Funktionen und Impulse präsentieren, die sich durch das Peer-to-Peer Format ergeben haben. Ziel ist es, mit anderen KollegInnen ins Gespräch zu kommen und auch unangenehme Fragen zu diskutieren, etwa warum die DH in bestimmten Projektstrukturen primär mit Sensibilisierung und Legitimation beschäftigt sind. Dabei soll im Sinne der Tagung auch kritisch hinterfragt werden, inwieweit die DH nicht auch selber zu einer Wahrnehmung beitragen, die sie in die Rolle eines technischen Dienstleisters oder der digitalen Wollmilchsau drängt.</p>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl>
+                        <hi rend="bold">Tietze, Kim-Oliver</hi> (2010): Wirkprozesse und personenbezogene Wirkungen von kollegialer Beratung – Theoretische Entwürfe und empirische Forschung. Wiesbaden.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Pitti, Daniel V</hi>. (2004): "Designing Sustainable Projects and Publications", in: Schreibman, Susan / Siemens, Ray / Unsworth, John (eds.): A Companion to Digital Humanities. Oxford 2004, 
+                        <ref target="http://www.digitalhumanities.org/companion/">http://www.digitalhumanities.org/companion/</ref> [letzter Zugriff 11.09.2017].
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Reed, Ashley</hi> (2014): Managing an established digital humanities project: Principles and practices from the twentieth year of the William Blake archive, in: DHQ, 8.1, 
+                        <ref target="http://www.digitalhumanities.org/dhq/vol/8/1/000174/000174.html">http://www.digitalhumanities.org/dhq/vol/8/1/000174/000174.html</ref> [letzter Zugriff 11.09.2017].
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Tabak, Edin</hi> (2017): A Hybrid Model for Managing DH Projects, in: DHQ, 11.1, 
+                        <ref target="http://www.digitalhumanities.org/dhq/vol/11/1/000284/000284.html">http://www.digitalhumanities.org/dhq/vol/11/1/000284/000284.html</ref> [letzter Zugriff 11.09.2017].
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

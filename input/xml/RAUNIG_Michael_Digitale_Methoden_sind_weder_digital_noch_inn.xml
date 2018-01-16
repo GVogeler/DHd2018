@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Digitale Methoden sind weder digital noch innovativ</title>
+                <author>
+                    <persName>
+                        <surname>Raunig</surname>
+                        <forename>Michael</forename>
+                    </persName>
+                    <affiliation>Universität Graz, Österreich</affiliation>
+                    <email>michael.raunig@uni-graz.at</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Höfler</surname>
+                        <forename>Elke</forename>
+                    </persName>
+                    <affiliation>Universität Graz, Österreich</affiliation>
+                    <email>elke.hoefler@uni-graz.at</email>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2017-09-19T09:54:00Z</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Prof. Dr. Georg Vogeler</publisher>
+                <address>
+                    <addrLine>UniversitÃ¤t Graz</addrLine>
+                    <addrLine>Zentrum fÃ¼r Informationsmodellierung - Austrian Centre for Digital Humanities</addrLine>
+                    <addrLine>ElisabethstraÃ&#x9f;e 59/III</addrLine>
+                    <addrLine>8010 Graz</addrLine>
+                </address>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Converted from a Word document </p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.17">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Vortrag</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Digitalität</term>
+                    <term>Methoden</term>
+                    <term>Methodologie</term>
+                    <term>Medientheorie</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Theoretisierung</term>
+                    <term>Lehre</term>
+                    <term>Computer</term>
+                    <term>Methoden</term>
+                    <term>Forschung</term>
+                    <term>Werkzeuge</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="div1" rend="DH-Heading1">
+                <head>Ausgangslage</head>
+                <p>Das „Digitale“ hat den allgemeinen Sprachgebrauch unabhängig von unterschiedlichen gesellschaftlichen Systemen erreicht: Man spricht etwa von der Digitalisierung der Wirtschaft, konstatiert einen allgemeinen Trend zur digitalen Transformation oder gar einen „digital turn“, im Bildungsbereich etablieren sich Netzwerke und Initiativen wie das Hochschulforum Digitalisierung, in dessen Rahmen man sich über Anforderungen, Potenziale und Hindernisse im „digitalen Zeitalter“ austauscht (
+                    <ref target="https://hochschulforumdigitalisierung.de/">https://hochschulforumdigitalisierung.de/</ref>). In Österreich wurde 2017 mit der Digital Roadmap Austria „[d]ie digitale Strategie der österreichischen Bundesregierung“ für den Bildungssektor vorgelegt (
+                    <ref target="https://www.digitalroadmap.gv.at/">https://www.digitalroadmap.gv.at/</ref>). Auch in den unterschiedlichen Wissenschaftsdisziplinen ist eine verstärkte Auseinandersetzung mit „Digitalität“ und ihren Folgen zu beobachten, nicht zuletzt und neuerdings auch verstärkt in den Geisteswissenschaften (z. B. 
+                    <ref target="http://digitalitaet-geisteswissenschaften.de/">http://digitalitaet-geisteswissenschaften.de/</ref>).
+                </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>„Digitale Methoden“</head>
+                <p>Vielfach wird der Anschein erweckt, dass mit den Prozessen der Digitalisierung des Wissenschaftsbetriebs im Lehren und Lernen auch ein Aufkommen genuin digitaler Methoden und Praktiken verbunden sei, die sich einerseits grundlegend von den tradierten Methoden unterscheiden und andererseits neue Formen der Auseinandersetzung mit den unterschiedlichen Disziplinen ermöglichen. Dieser Eindruck wird durch einen unbefangenen Sprachgebrauch in Bezug auf das Attribut „digital“ („digitale Arbeit“, „digitale Strategien“, „digitales Lernen“, „digitale Forschung“ bis hin zu neuen, „digitalen“ Wissenschaftsdisziplinen) und ungelenk-plakative Metaphorik (etwa der bereits erwähnte „digital turn“) verstärkt.</p>
+                <p>Den vielfach mit „neuen Medien“ gleichgesetzten „digitalen Medien“ wird generell ein innovatives, wenn nicht gar revolutionäres Potential zuerkannt. Ähnliches wird von den „digitalen Methoden“ erwartet. Ist aber im Bereich der Methoden eine Gegenüberstellung, wie sie bei den traditionellen Medien im Gegensatz zu den neuen Medien bzw. bei den analogen im Gegensatz zu den digitalen Medien infolge des Computereinsatzes gerechtfertigt wird, zielführend? Sind bei den „digitalen Methoden“ ähnliche Umbrüche zu erwarten, und macht es Sinn, diese von den bisherigen Methoden abzugrenzen? Dagegen spricht einerseits, dass früher nicht von „analogen Methoden“ gesprochen wurde und mit einer solchen Etikettierung wenig Erkenntnisgewinn verbunden wäre. Andererseits ist es - historisch und empirisch gesehen - keineswegs der Gebrauch, sondern die technische (d. h. elektronisch-digitale) Realisierung von Medien, die diese als „neue“ qualifiziert; insofern ist es naheliegend, die Digitalität weniger in den Methoden als vielmehr in den (didaktisch und didaktisiert eingesetzten) Werkzeugen zu verorten.</p>
+                <p>Dass Methoden per se nicht digital sind, ist einigermaßen trivial, da digital (im engeren, technischen Sinn und im Gegensatz zum Begriff „analog“) lediglich eine Form der Datenrepräsentation (Dale &amp; Lewis 2016: 57ff) benennt. Selbst die sogenannten „digitalen Medien“, deren sich digitale Methoden bedienen, sind nur in einem abgeleiteten Sinn digital, indem ihre technische Infrastruktur auf der Verarbeitung digitaler bzw. binär codierter Daten beruht. Die wahrgenommene Umgebung, die die „digitale Medien“ konstituieren („Multimedia“), entspricht vielmehr den Mustern analoger Datenrepräsentation, da die wahrgenommenen Inhalte aufgrund ihrer hohen „Auflösung“ kontinuierlich und „naturnah“ erscheinen – seien es auch „virtuelle“ oder dynamische/interaktive Gegenstände. Man nimmt nach wie vor Text, Sprache, Ton, (Bewegt-)Bild sowie (simulierte) Objekte und Situationen über die Sinne wahr; das Digitale an den „digitalen Medien“ ist lediglich für den Computer relevant. Insofern kann die Rede von digitalen Methoden - wenn man nicht den Methodenbegriff auf maschinelle Prozesse ausdehnen will - nur auf die maßgebliche Verwendung von technischen Hilfsmitteln (PCs, mobile Geräte, Internet, World Wide Web und aufbauende Technologien) in der Wissenschaft abzielen. Kerres (2016) deutet im Anschluss an seine Problematisierung des Begriffs der „digitalen Bildung“ - der nicht ernst gemeint sein bzw. buchstäblich genommen werden könne - an, dass die gegenwärtigen, mit der Digitalisierung verbundenen Transformationsprozesse nicht als Umstellung von traditionellen/analogen auf digitale Modi (im Sinne einer Dichotomie) zu verstehen sind, sondern vielmehr als „Durchdringung“ des Digitalen, die letztlich Digital-Attribuierungen selbstverständlich und gleichzeitig überflüssig machen würden.</p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Thesen</head>
+                <p>
+                    <hi rend="bold">These der Unabhängigkeit der Methode.</hi> Methodologisch betrachtet sind die eingesetzten Werkzeuge und Plattformen unerheblich (vgl. Kerres et al.: 2002). Die Konzeption einer wissenschaftlichen Praxis, die Methode des Forschens oder Lehrens ist auf einer grundlegenderen Ebene verortet als jener der Hervorbringung und Repräsentation ihrer Ergebnisse und Erzeugnisse. Methodische Aspekte haben vielmehr mit den Gegenständen, der Genese und der Konfrontation wissenschaftlicher Disziplinen (etwa im Fall der „Digital Humanities“) zu tun. Es wäre im Zusammenhang der Digitalität dringend geboten, die Unterscheidung von Medium (als unhintergehbare Wahrnehmungsbedingung) und Werkzeug (als einfaches Hilfsmittel) zu präzisieren und deren unterschiedliche pragmatische Implikationen und Auswirkungen erneut zu überdenken. Neuartige Medien (man denke beispielsweise an die Einführung der Schrift, die geradezu das Paradigma mediengeschichtlicher Zäsuren darstellt) üben einen größeren Einfluss auf die Methodologie aus als bloß der Einsatz neuer Werkzeuge.
+                </p>
+                <p>
+                    <hi rend="bold">These der Einheitlichkeit der Methode.</hi> Digital genannte Methoden sind weitestgehend traditionell. Lehre beispielsweise war schon immer mediengestützt, neu ist nur die jeweilige Repräsentation. Ob ein Memory zum Wiederholen von Inhalten traditionell-analog in Papierform oder über digitale Werkzeuge (wie beispielsweise LearningApps.org, http://learningapps.org/) eingesetzt wird, ist nicht relevant; die Methode ist dieselbe (siehe hierzu beispielsweise die „Thesen zum Lernen im digitalen Wandel“, die Philip Stade in einem differenzierten Blogpost formuliert; Stade 2017). Es gibt folglich keine „digitalen“ Methoden, da der Einsatz digitaler Werkzeuge zwar neue Dimensionen in der Anwendung eröffnet, aber kein hinreichendes Unterscheidungskriterium zu den traditionellen Methoden liefert.
+                </p>
+                <p>
+                    <hi rend="bold">These der Unbeeinflussbarkeit der Methode.</hi> Methodologische Aspekte sind von der digitalen Vermittlung weitgehend unberührt. Es gibt zwar eine Reihe von Begleiterscheinungen und Effekten des „digitalen Arbeitens“ (s. u.), es gibt jedoch keine methodologischen Implikationen bei der Verwendung digitaler Werkzeuge. Die Veränderungen, die sich in einem wissenschaftspraktischen Setting (in den vielfältigen Ausprägungen von „Forschung“, aber auch in den unterschiedlichsten Formen und Modellen von Lehre) durch den Einsatz digitaler Werkzeuge ergeben, sind bloß akzidentieller Natur; im methodischen Handeln sind keine wesentlichen Änderungen zu erwarten.
+                </p>
+                <p>
+                    <hi rend="bold">These der digitalen Repräsentation.</hi> Digital (repräsentiert) sind nur die verarbeiteten Daten, die mediale Umgebung der „digitalen Arbeit“ ist komplett „analog“. Die Ausgabegeräte von Computern sprechen dieselben Sinne an, die auch analoge Medien ansprechen. Es gibt (außer bei Maschinen und Bots) kein digitales Denken, Forschen, Lehren und Lernen, wie auch Wampfler (2017) herausstreicht.
+                </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Mehrwert und Ausblick</head>
+                <p>Im Gegensatz zu ihrem methodologischen Beitrag sind Mehrwert – wenngleich auch der Begriff „Mehrwert“ zu problematisieren ist, wie Brandhofer (2017) verdeutlicht – und Potenziale des Einsatzes digitaler Technologien zum Lernen und Lehren jedoch unbestritten. Diese umfassen</p>
+                <p>1. die erleichterte Herstellung, unkomplizierte Verbreitung und Verfügbarkeit von Forschungs- und Lehrinhalten (nicht nur, aber besonders im Sinn von „Open Educational Resources“), damit verbunden auch die Erschließung neuer Zielgruppen,</p>
+                <p>2. die Automatisierung bzw. maschinelle Unterstützung bestimmter Arbeitsschritte und Prozesse, wobei die durch Computerunterstützung erzielte Komplexität und Kapazität bestimmter Faktoren die menschlichen („analogen“) Grenzen überschreiten kann,</p>
+                <p>3. eine Tendenz zu kollaborativen (ortsunabhängigen und synchronen) Arbeitsweisen, Offenheit, Austausch und Partizipation („Science 2.0“, „Open Science“),</p>
+                <p>4. die Ent-Professionalisierung bzw. Demokratisierung sowohl der Produktion als auch der Nutzung von wissenschaftlichen Daten und Werkzeugen (was umgekehrt jedoch auch eine Reihe von nicht traditionell-wissenschaftlichen Fertigkeiten und Tätigkeiten bedingt) sowie</p>
+                <p>5. eine Pluralität von Werkzeugen und Möglichkeiten zur Ausübung wissenschaftlich-methodischer Praktiken.</p>
+                <p>Die (gewiss nicht vollständig) angeführten Effekte der Nutzung digitaler Medien in der wissenschaftlichen und unterrichtlichen Arbeit sind auch dasjenige, was ihren innovativen Charakter ausmacht und eine „Digitalisierung“ von Wissenschaft und Hochschule begrüßenswert macht. Innovative Methoden ergeben sich daraus jedoch keine.</p>
+                <p>Im Anschluss an die Vorstellung der Thesen versucht der Vortrag, diese mit aktuellen Beispielen innovativer „digitaler“ Methoden und Arbeitsgebiete unter Fokussierung der Medienpädagogik und -didaktik zu illustrieren bzw. zu untermauern. Die Perspektive der Autorin / des Autors in dieser Auseinandersetzung ist – aufbauend auf eine klassische geisteswissenschaftliche Sozialisierung – mediendidaktisch bzw. bildungstechnologisch motiviert. Empirische Gegenbeispiele (insbesondere aus den Digital Humanities) und konzeptuelle Gegenthesen sind höchst willkommen; Ziel ist es letztlich, die Berechtigung des Begriffs der „digitalen Methoden“ zu problematisieren und diesen in der Medientheorie und reflektierten Auseinandersetzung mit „digitalen Medien“ entsprechend zu verorten.</p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl>
+                        <hi rend="bold">Brandhofer, Gerhard</hi> (2017): „Zur Problematik des Begriffes #Mehrwert“. 
+                        <ref target="http://www.brandhofer.cc/mehrwert/">http://www.brandhofer.cc/mehrwert/</ref> [letzter Zugriff 19. September 2017].
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Dale, Nell / Lewis, John</hi> (2016): 
+                        <hi rend="italic">Computer science illuminated</hi>. Sixth edition. Burlington, MA: Jones &amp; Bartlett Learning.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Kerres, Michael</hi> (2016): „E-Learning oder Digitalisierung in der Bildung: Neues Label oder neues Paradigma?“, in: 
+                        <hi rend="italic">Grundlagen der Weiterbildung - Praxishilfen</hi> (7.30.10.80): 159–171.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Kerres, Michael / De Witt, Claudia / Stratmann, Jörg</hi> (2002): „E-Learning. Didaktische Konzepte für erfolgreiches Lernen“, in: Schwuchow, Karlheiz / Guttmann, Joachim (eds.): Jahrbuch Personalentwicklung &amp; Weiterbildung 2003. Neuwied: Luchterhand.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Stade, Philip</hi> (2017): „Thesen zum Lernen im digitalen Wandel – Lernen im digitalen Wandel“. 
+                        <ref target="https://herrstade.wordpress.com/2017/03/26/thesen-zum-lernen-im-digitalen-wandel/">https://herrstade.wordpress.com/2017/03/26/thesen-zum-lernen-im-digitalen-wandel/</ref> [letzter Zugriff 19. September 2017].
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Wampfler, Philippe</hi> (2017): „Der Kahoot-Sog und die Gefahr der Quizifizierung der digitalen Bildung – Schule und Social Media“. 
+                        <ref target="https://schulesocialmedia.com/2017/05/19/der-kahoot-sog-und-die-gefahr-der-quizifizierung-der-digitalen-bildung/">https://schulesocialmedia.com/2017/05/19/der-kahoot-sog-und-die-gefahr-der-quizifizierung-der-digitalen-bildung/</ref> [letzter Zugriff 19. September 2017].
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

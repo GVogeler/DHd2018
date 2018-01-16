@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>ELEXIS – Eine europäische Forschungsinfrastruktur für lexikographische Daten</title>
+                <author>
+                    <persName>
+                        <surname>Wissik</surname>
+                        <forename>Tanja</forename>
+                    </persName>
+                    <affiliation>Österreichische Akademie der Wissenschaften, Österreich</affiliation>
+                    <email>Tanja.Wissik@oeaw.ac.at</email>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2018-01-16T13:10:00Z</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Prof. Dr. Georg Vogeler</publisher>
+                <address>
+                    <addrLine>UniversitÃ¤t Graz</addrLine>
+                    <addrLine>Zentrum fÃ¼r Informationsmodellierung - Austrian Centre for Digital Humanities</addrLine>
+                    <addrLine>ElisabethstraÃ&#x9f;e 59/III</addrLine>
+                    <addrLine>8010 Graz</addrLine>
+                </address>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Converted from a Word document </p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.17">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Poster</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Lexikographie</term>
+                    <term>Standards</term>
+                    <term>Methoden</term>
+                    <term>Tools</term>
+                    <term>Infrastruktur</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Infrastruktur</term>
+                    <term>Sprache</term>
+                    <term>Methoden</term>
+                    <term>Standards</term>
+                    <term>Werkzeuge</term>
+                    <term>virtuelle Forschungsumgebungen</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>Die Bedeutung von Wörterbüchern, seien es einsprachige, zweisprache oder mehrsprachige Wörterbücher, ist in der heutigen Informationsgesellschaft nicht zu unterschätzen. Sie geben nicht nur Auskunft über Wortbedeutungen und dazugehörige Übersetzungen, sondern sind selbst Bestandteil der Kulturgüter eines Landes und sie stellen bedeutende Ressourcen für Linked Open Data und Semantic-Web-Technologien dar. Obwohl in fast jedem Land Wörterbücher erstellt wurden und werden, seien es traditionelle Wörterbücher in gedruckter Form oder lexikographische Ressourcen in digitaler Form, waren die Bestrebungen nach Kooperation auf europäischer Ebene eher limitiert. Dies führte dazu, dass bis jetzt die Synergien zwischen traditioneller Lexikographie und maschineller Sprachverarbeitung nicht optimal genutzt werden konnten. Dies soll durch das Infrastrukturprojekt ELEXIS geändert werden.</p>
+            <p>Im Rahmen des ELEXIS Projekts soll eine Infrastruktur für lexikographische Daten entwickelt werden, die auf mehreren Ebenen ansetzt und den Bereich der traditionellen Lexikogrpahie mit dem Bereich der maschinellen Sprachverarbeitung verknüpft: Zum einen soll Kooperation und Austausch zwischen unterschiedlichen Forschungsgruppen, aber auch zwischen Forschungsgruppen und Verlagshäusern gefördert werden. Zum anderen soll an gemeinsamen Standards gearbeitet werden, um den Austausch und die Wiederverwendbarkeit von lexikographischen Daten in den unterschiedlichsten Szenarien zu fördern. Die Infrastruktur soll den Zugang zu Methoden, Tools und Daten ermöglichen und den bis jetzt nicht so weit verbreiteten Open-Access-Gedanken fördern.</p>
+            <p>Um diese Ziele umzusetzen, hat sich ein Konsortium von 17 Partnern gebildet. Unter den Partnern befinden sich Institutionen mit Expertise in Lexikographie, in maschineller Sprachverarbeitung, in Semantic-Web-Technologien und in den digitalen Geisteswissenschaften sowie nationale Sprachinstitutionen, Verlagshäuser und Partner mit Expertise im Bereich der Standardisierung und Normung. Nachfolgend die Liste der Partner (mit den Bezeichnungen in der jeweiligen Landessprache wie im Proposal angegeben): Institut Josef Sefan (Slowenien), Lexical Computing CZ s.r.o. (Tschechien), Instituut voor Nederlandse Lexicologie (Niederlande), Università degli Studi di Roma La Spienza (Italien), National Universtiy of Ireland, Galway (Irland), Österreichische Akademie der Wissenschaften (Österreich), Centar za digitalne humanističke nauke (Serbien), Magyar Tudományos Akadémia (Ungarn), Institute for Bulgarian Language (Bulgarien), Universidade Nova de Lisboa (Portugal), K Dictionaries Ltd (Israel), Consiglio Nazionale delle Ricerche (Italy), Det Danske Sprog- og Litteraturselskab (Dänmark), Kobenhavns Universitet (Dänemark),Universität Trier (Germany), Eesti Keele Instituut (Estland), Real Academia Española (Spanien).</p>
+            <p>Die ELEXIS Infrastruktur wird zum einen Tools und Services zur Erstellung, Verarbeitung und Retrodigitalisierung von lexikographischen Daten und zum anderen den Zugang zu bereits existierenden lexikographischen Daten anbieten. Damit die zukünftigen Nutzer das Potential der Infrastruktur vollends ausnutzen können, sind die Entwicklung von online Trainingsmaterialien sowie die Abhaltung von Traininsworkshops geplant. Weiters sollen GastforscherInnen-Programme den Austausch zwischen den Forschungsgruppen aktiv fördern und für Forschungsvorhaben den Zugang zu Daten ermöglichen, die aus unterschiedlichen Gründen nicht Open Access zur Verfügung gestellt werden können.</p>
+            <p>ELEXIS wird eng mit den bereits existierenden Forschungsinfrastrukturen CLARIN und DARIAH zusammenarbeiten und auf den bereits vorhandenen Infrastrukturen aufbauen und zugleich diese beiden Infrastrukturen näher zusammenbringen.</p>
+            <p>In diesem Poster werden die Grundzüge des neuen europäischen Infrastrukturprojektes beschrieben sowie die Methoden und Maßnahmen, mit denen die oben genannten Ziele erreicht werden sollen, präsentiert. Weiters wird speziell auf den Nutzen und die Vorteile der ELEXIS Infrastruktur für die DH Community eingegangen.</p>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Text Mining und Computersimulation zur Analyse autobiographischer Texte: Einflüsse auf das literarische Schaffen Klaus Manns</title>
+                <author>
+                    <persName>
+                        <surname>Hess</surname>
+                        <forename>Jan</forename>
+                    </persName>
+                    <affiliation>Trier Center for Digital Humanities (TCDH); Universität Trier</affiliation>
+                    <email>hess@uni-trier.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Lebherz</surname>
+                        <forename>Daniel</forename>
+                    </persName>
+                    <affiliation>Center for Informatics Research and Technology (CIRT); Universität Trier</affiliation>
+                    <email>lebherz@uni-trier.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Zeyen</surname>
+                        <forename>Christian</forename>
+                    </persName>
+                    <affiliation>Center for Informatics Research and Technology (CIRT); Universität Trier</affiliation>
+                    <email>zeyen@uni-trier.de</email>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2018-01-11T16:51:00Z</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Prof. Dr. Georg Vogeler</publisher>
+                <address>
+                    <addrLine>UniversitÃ¤t Graz</addrLine>
+                    <addrLine>Zentrum fÃ¼r Informationsmodellierung - Austrian Centre for Digital Humanities</addrLine>
+                    <addrLine>ElisabethstraÃ&#x9f;e 59/III</addrLine>
+                    <addrLine>8010 Graz</addrLine>
+                </address>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Converted from a Word document </p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.17">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Poster</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Klaus Mann</term>
+                    <term>autobiographische Texte</term>
+                    <term>Text Mining</term>
+                    <term>Workflows</term>
+                    <term>agentenbasierte Sozialsimulation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Inhaltsanalyse</term>
+                    <term>Strukturanalyse</term>
+                    <term>Beziehungsanalyse</term>
+                    <term>Modellierung</term>
+                    <term>Annotieren</term>
+                    <term>Literatur</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>„Ist das alles?“ (Mann 1995, S. 151) – Die vorwurfsvoll anmutende (rhetorische) Frage, die Klaus Mann Ende Juni 1933 unter einer Auflistung seiner Werke des zurückliegenden Halbjahrs in seinem Tagebuch notiert, gibt einen Hinweis darauf, wie selbstkritisch sich der Schriftsteller mit dem eigenen Schaffen auseinandersetzt. Angesichts der persönlichen und politischen Umstände sowie der Vielzahl an Kontakten und Aktivitäten, die er in seinem Journal verzeichnet, erscheint es fast etwas überraschend, dass die gut drei Monate nach seiner Emigration erstellte Werkliste immerhin 21 – wenn auch größtenteils kürzere – Texte umfasst. In Anbetracht seiner ständigen Rastlosigkeit stellt sich nicht nur die Frage, wann Klaus Mann überhaupt seiner eigentlichen schriftstellerischen Arbeit nachgeht, sondern auch, welche Faktoren zum Ge- oder Misslingen seines Schaffens beitragen. Wie wirken sich beispielsweise die beinahe allabendlichen Theater-, Kino- und Barbesuche oder die mehr oder weniger regelmäßig eingenommenen Rauschmittel auf seine literarische Produktivität aus? Welche Rolle spielt das tägliche Lektürepensum? Haben die zahlreichen Treffen, Telefonate und Korrespondenzen Einfluss auf seine schriftstellerische Arbeit? Oder erweisen sich die politischen Umstände, Angst, Verzweiflung und Hass gegenüber dem Nationalsozialismus als entscheidendes Vehikel literarischer Produktivität?</p>
+            <p>Aufgrund des Umfangs und der Detailgenauigkeit seiner alltäglichen Schilderungen von Gedanken und Aktivitäten – insbesondere auch der teilweise bis auf die Tageszeit genauen Protokollierung seiner Arbeitsprozesse – erscheinen Klaus Manns Tagebücher als idealer Untersuchungsgegenstand zur Beantwortung der aufgeworfenen Fragen. Gerade die Vielzahl und Komplexität der darin enthaltenen Informationen machen es jedoch schwierig, sich potentiellen Faktoren literarischer Produktivität tiefergehend analytisch zu nähern. Um diese große Anzahl an Informationen und deren Zusammenhänge besser bzw. überhaupt untersuchen zu können, sollen im Rahmen von 
+                <hi rend="italic">eXplore!</hi>
+                <note place="foot" xml:id="ftn1" n="1">
+                    <p rend="footnote text">
+                        <hi rend="italic">eXplore!</hi>: 
+                        <hi rend="italic">Computergestützte Modellierung, Analyse und Exploration als Grundlage für eScience in den eHumanities</hi> (Fz: 01UG1606) wird vom Bundesministerium für Bildung und Forschung (BMBF) gefördert.
+                    </p>
+                </note> am Fallbeispiel der Klaus Mann-Tagebücher verschiedene Methoden des Text Mining angewendet werden. Zur Unterstützung und Strukturierung der Analyseprozesse werden Scientific Workflows erstellt und ausgeführt. Auf Basis der mit Text Mining erzielten Ergebnisse sollen Methoden der Computersimulation eingesetzt werden, um die eingangs aufgeworfenen Fragen beantworten zu können (Abb. 1).
+            </p>
+            <figure>
+                <graphic n="1001"
+                     width="16.002cm"
+                     height="3.986388888888889cm"
+                     url="Pictures/image1.png"
+                     rend="inline"/>
+                <head>Abbildung 1: Forschungsprozess zur Analyse der Tagebücher Klaus Manns</head>
+            </figure>
+            <p>Methoden der Computersimulation haben sich bereits seit längerer Zeit in verschiedenen Wissenschaftsdisziplinen etabliert. Seit den 1990er Jahren halten diese auch vermehrt Einzug in sozialwissenschaftliche Forschungsbereiche und bieten dort verschiedene Möglichkeiten zur Darstellung und Analyse von gesellschaftlichen Systemzusammenhängen (Gilbert 2007). Eine ähnliche Entwicklung lässt sich auch in den Digital Humanities nachvollziehen, wenngleich diese Methoden – insbesondere im literaturwissenschaftlichen Bereich – eine eher untergeordnete Rolle spielen (Kohle 2017). Die jedoch insgesamt zunehmende Anwendung von Computersimulation als Forschungsmethode liegt darin begründet, dass sie die Möglichkeit bietet, komplexe, unzugängliche Systeme zu untersuchen und experimentell zu analysieren. In solchen Experimenten lassen sich u.a. durch die Betrachtung verschiedener Szenarien Resultate erzielen, die Rückschlüsse auf Plausibilitäten von Handlungen, Strukturen und Zusammenhängen im zugrundeliegenden System erlauben. Agentenbasierte Computersimulation bietet darüber hinaus insbesondere bei der Analyse von individuellem Entscheidungsverhalten die Möglichkeit, sogenannte emergente Effekte aufzudecken. Diese ergeben sich aus dem Zusammenspiel individueller Handlungen und Interaktionen von einzelnen Akteuren, lassen sich jedoch nicht ausschließlich durch diese erklären (Bonabeau 2002). Ein direkter Zusammenhang zwischen Systeminput und -output muss bei agentenbasierter Simulation also nicht bestehen. Dies steht im Gegensatz zu anderen statistischen Analyseverfahren, bei denen i.d.R. eine (lineare) Abhängigkeit zwischen verschiedenen Objekten vorausgesetzt wird. Ferner ermöglicht agentenbasierte Computersimulation detaillierte Analysen von Komponenten der Makroebene. Der Weg zu verlässlichen Ergebnissen einer Simulationsstudie führt in einem ersten, wesentlichen Schritt über die Modellbildung und Sammlung dafür relevanter Daten (Law 2015). Zu diesem Zweck soll das zugrundeliegende System, also konkret Klaus Mann, seine sozialen Kontakte und sein Umfeld möglichst realitätsnah mit allen wesentlichen Eigenschaften, Aktivitäten und Zusammenhängen in einer agentenbasierten Sozialsimulation (Davidsson 2002) abgebildet werden (Abb. 2).</p>
+            <figure>
+                <graphic n="1002"
+                     width="16.007755555555555cm"
+                     height="9.183455555555556cm"
+                     url="Pictures/image2.PNG"
+                     rend="inline"/>
+                <head>Abbildung 2: Digitale Analyse im Detail</head>
+            </figure>
+            <p>Die dafür notwendige Generierung einer geeigneten Datengrundlage ist ein anspruchsvoller Prozess, in dem anhand von Methoden aus dem Bereich des Text Mining zunächst die wesentlichen, auf den Untersuchungsgegenstand einwirkenden Faktoren identifiziert und analysiert werden müssen. Konkret sollen dabei u.a. Methoden wie Named Entity Recognition, Worthäufigkeits- oder Kookkurrenzanalysen angewendet werden, um vorab Kontakte, Aktivitäten, Aufenthalte, Tätigkeiten, persönliche oder politische Ereignisse zu identifizieren, welche mit Klaus Manns literarischer Produktivität in Zusammenhang stehen könnten. Anders als im Falle der Computersimulation kommen Text Mining-Methoden, -Werkzeuge und Programmbibliotheken im literaturwissenschaftlichen Kontext bereits ungleich häufiger zum Einsatz. Zur Komplexitätsreduktion werden die zugrundeliegenden Text Mining-Prozesse dabei jedoch oft als Black Box betrachtet, was den Nachteil birgt, dass das Zustandekommen der erzielten Ergebnisse nur schwer nachvollzogen werden kann. Um dem entgegenzuwirken sollen die im Rahmen von 
+                <hi rend="italic">eXplore!</hi> benötigten Text Mining-Prozesse explizit in Form von Scientific Workflows (Taylor et al. 2014) definiert und ausgeführt werden. Die in den Digital Humanities vergleichsweise wenig verbreiteten Scientific Workflows dienen der systematischen und transparenten Automatisierung wiederkehrender Datenverarbeitungsprozesse und haben sich in den Naturwissenschaften als geeignetes Mittel erwiesen, wissenschaftliche Prozesse zu strukturieren, zu dokumentieren und damit die Reproduktion und Validierung von Ergebnissen erheblich zu erleichtern.
+            </p>
+            <p>Im Kontext von 
+                <hi rend="italic">eXplore!</hi> sollen daher erfolgreich eingesetzte Workflows in einem Repositorium gespeichert und mithilfe von Fallbasiertem Schließen (Richter / Weber 2016), einer Methode zum erfahrungsbasierten Lösen von Problemen, wiederverwendbar gemacht werden. Ein darauf aufbauendes Tool soll die Erstellung von Workflows in der Praxis vereinfachen. Letztlich sollen somit nicht nur die literaturwissenschaftlichen Forschungsprozesse im Fallbeispiel Klaus Mann, sondern zukünftig auch ähnliche Text Mining-Problemstellungen sowie die Modellierungsarbeit in Simulationsstudien zur Erforschung weiterer autobiographischer Texte sinnvoll unterstützt werden (Abb. 2).
+            </p>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl>
+                        <hi rend="bold">Bonabeau, Eric </hi>(2002):
+                        <hi rend="bold"> “</hi>Agent-based modeling: Methods and techniques for simulating human systems” in: 
+                        <hi rend="italic">Proceedings of the National Academy of Sciences</hi>, 99(suppl 3):7280– 7287 
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Davidsson, Paul</hi> (2002): 
+                        <hi rend="italic">
+                            <hi rend="italic">"Agent based social simulation"</hi>
+                            <hi rend="italic">in: </hi>Journal of Artificial Societies and Social Simulation
+                            <hi rend="italic"> 5(1):</hi>
+                        </hi>
+                        <ref target="http://jasss.soc.surrey.ac.uk/5/1/7.html">http://jasss.soc.surrey.ac.uk/5/1/7.html</ref>
+                        <hi rend="italic">
+                            <hi rend="italic">[</hi>
+                            <hi rend="italic">letzter</hi>
+                            <hi rend="italic">Zugriff</hi>
+                            <hi rend="italic">11</hi>
+                            <hi rend="italic">. </hi>
+                            <hi rend="italic">Januar</hi>
+                            <hi rend="italic"> 2017]</hi>
+                        </hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Gilbert, Nigel</hi> (2007): 
+                        <hi rend="italic">
+                            <hi rend="italic">"Computational social science: Agent-based social simulation"</hi>
+                            <hi rend="italic">in: </hi>
+                            <hi rend="italic">Amblard</hi>
+                            <hi rend="italic">, Frédéric / Phan, Dennis (eds</hi>.): Agent-based Modelling and Simulation in the Social and Human Sciences
+                            <hi rend="italic">. </hi>
+                            <hi rend="italic">Oxford: The </hi>
+                            <hi rend="italic">Bardwell</hi>
+                            <hi rend="italic"> Press 115-133.</hi>
+                        </hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Kohle, Hubertus</hi> (2017): 
+                        <hi rend="italic">
+                            <hi rend="italic">"Digitale Rekonstruktion und Simulation"</hi>
+                            <hi rend="italic">in: </hi>
+                            <hi rend="italic">Jannidis</hi>
+                            <hi rend="italic">, Fotis / Kohle, Hubertus / Rehbein, Malte (</hi>
+                            <hi rend="italic">eds</hi>
+                            <hi rend="italic">.): </hi>Digital Humanities: Eine Einführung. 
+                            <hi rend="italic">Stuttgart: </hi>
+                            <hi rend="italic">J.</hi>
+                            <hi rend="italic">B.Metzler</hi>
+                            <hi rend="italic"> 315-327.</hi>
+                        </hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Law, Averill M.
+                            <hi rend="normalweight"> (2015): </hi>
+                            <hi rend="italic normalweight">Simulation </hi>
+                            <hi rend="italic normalweight">Modeling</hi>
+                            <hi rend="italic normalweight"> and Analysis.</hi>
+                            <hi rend="normalweight"> 5. </hi>
+                            <hi rend="normalweight">Auflage</hi>
+                            <hi rend="normalweight">. Tucson: McGraw Hill Education.</hi>
+                        </hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Mann, Klaus
+                            <hi rend="normalweight"> (1995): </hi>
+                            <hi rend="italic normalweight">Tagebücher 1931 – 1933</hi>
+                            <hi rend="normalweight">. Reinbek: Rowohlt.</hi>
+                        </hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Richter, Michael M. / Weber, Rosina O. 
+                            <hi rend="normalweight">(2013): </hi>
+                            <hi rend="italic normalweight">Case-Based Reasoning: A Textbook.</hi>
+                            <hi rend="normalweight"> Berlin: Springer.</hi>
+                        </hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Taylor, Ian J. / Deelman, Ewa / Gannon, Dennis B. / Shields, Matthew
+                            <hi rend="normalweight"> (2014): </hi>
+                            <hi rend="italic normalweight">Workflows for e-Science: Scientific Workflows for Grids.</hi>
+                            <hi rend="normalweight">London: Springer</hi>
+                        </hi>
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

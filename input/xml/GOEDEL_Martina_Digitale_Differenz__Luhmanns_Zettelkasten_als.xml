@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="full">
+                    <title type="main">Digitale Differenz. Luhmanns Zettelkasten als physisch-historisches Objekt und als vernetzter Navigationsraum</title>
+                    <title type="sub"/>
+                </title>
+                <author>
+                    <persName>
+                        <surname>Goedel</surname>
+                        <forename>Martina</forename>
+                    </persName>
+                    <affiliation>Cologne Center for eHumanities</affiliation>
+                    <email>mgoedel@uni-koeln.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Zimmer</surname>
+                        <forename>Sebastian</forename>
+                    </persName>
+                    <affiliation>Cologne Center for eHumanities</affiliation>
+                    <email>sebastian.zimmer@uni-koeln.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Schmidt</surname>
+                        <forename>Johannes</forename>
+                    </persName>
+                    <affiliation>Niklas Luhmann-Archiv, Fakultät für Soziologie, Universität Bielefeld</affiliation>
+                    <email>johannes.schmidt@uni-bielefeld.de</email>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2016-08-22T21:51:20.48</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Prof. Dr. Georg Vogeler</publisher>
+                <address>
+                    <addrLine>UniversitÃ¤t Graz</addrLine>
+                    <addrLine>Zentrum fÃ¼r Informationsmodellierung - Austrian Centre for Digital Humanities</addrLine>
+                    <addrLine>ElisabethstraÃ&#x9f;e 59/III</addrLine>
+                    <addrLine>8010 Graz</addrLine>
+                </address>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Converted from an OASIS Open Document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.17">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Vortrag</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Zettelkasten</term>
+                    <term>TEI-Datenmodell</term>
+                    <term>Visualisierung</term>
+                    <term>Forschung</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Transkription</term>
+                    <term>Beziehungsanalyse</term>
+                    <term>Modellierung</term>
+                    <term>Forschungsprozess</term>
+                    <term>Visualisierung</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="div1">
+                <head>Einleitung</head>
+                <p>
+                    <hi rend="color(#000000)">Inwieweit verändert der Einsatz digitaler Verfahren die sozialwissenschaftliche Forschung? Diese Frage lässt sich am Beispiel der Digitalisierung des Zettelkastens Niklas Luhmanns stellen, die im Rahmen des Forschungsprojektes “Niklas Luhmann - Theorie als Passion. Wissenschaftliche Erschließung und Edition des Nachlasses”</hi>
+                    <hi rend="color(#000000)">
+                        <note xml:id="ftn1" place="foot" n="1">
+                            <hi rend="color(#1155cc)underline"> </hi>
+                            <ref target="http://www.niklas-luhmann-archiv.de/">
+                                <hi rend="color(#1155cc)underline">www.niklas-luhmann-archiv.de</hi>
+                            </ref>
+                        </note>
+                    </hi>
+                    <hi rend="color(#000000)"> </hi>
+                    <hi rend="color(#000000)">erfolgt. Das Langzeitvorhaben (2015-2030), in dem die Fakultät für Soziologie der Universität Bielefeld mit dem Cologne Center for eHumanities kooperiert, wird im Akademienprogramm durch die Nordrhein-Westfälische Akademie der Wissenschaft und der Künste gefördert.</hi>
+                </p>
+                <p>
+                    <anchor xml:id="id_docs-internal-guid-ce2a7059-eb15-47db-4f93-5d5743b8acf1"/>Luhmann (1927-1998) zählt zu den bedeutendsten Soziologen des 20. Jahrhunderts. Im Laufe seiner 35-jährigen Forschungstätigkeit entwickelte er eine universale Sozial- und Gesellschaftstheorie, die er in annähernd fünfzig Monographien und 500 Aufsätzen publiziert hat. Als Basis für diese erstaunliche Produktivität diente Luhmann ein Zettelkasten, den er über vierzig Jahre lang systematisch gefüllt und gepflegt hat. Im Zuge der seit 2015 laufenden Nachlasserschließung wurden die ca. 90.0000 Zettel digitalisiert, in einem zweiten Schritt werden sie nun transkribiert und fachwissenschaftlich editiert sowie in eine Internetpräsentation überführt. Ziel dieses Prozesses ist zunächst eine digitale Reproduktion des Zettelkastens, die aber zugleich die Möglichkeiten der modernen digitalen Technik nutzt, um die nicht linear strukturierte Sammlung lesbar und ihre Genese nachvollziehbar zu machen. Indem die Digitalisierung über die reine Reproduktion hinausgeht, macht sie den Kasten selbst zu einem Forschungsobjekt.
+                </p>
+            </div>
+            <div type="div1">
+                <head>Der (analoge) Zettelkasten Niklas Luhmanns</head>
+                <p>Die Zettelsammlung ist durch vier Merkmale gekennzeichnet, deren Kombination das besondere theoretische Kreativitätspotential der Sammlung begründet:</p>
+                <p>
+                    <hi rend="color(#000000)">(a) </hi>
+                    <hi rend="color(#000000)bold">Nichthierarchische Ordnungsstruktur</hi>
+                    <hi rend="color(#000000)">: Luhmann verzichtet weitgehend auf eine vorher festgelegte </hi>
+                    <anchor xml:id="id_docs-internal-guid-ce2a7059-eb16-6c0a-bf59-50e58b325c41"/>
+                    <hi rend="color(#000000)">systematische</hi>
+                    <hi rend="color(#000000)">Ordnung der Sammlung; diese ist primär ein historisches Produkt seiner Lektüre- und Forschungsinteressen. Aufgrund seines spezifischen Einstellprinzips führt die jeweilige thematische Erstfestlegung nämlich nicht zu einer monothematischen Reihung von Zetteln: Die für den Zettelkasten konstitutive Idee ist, dass </hi>
+                    <hi rend="color(#000000)bold">ein Zettel </hi>
+                    <hi rend="color(#000000)bold">thematisch</hi>
+                    <hi rend="color(#000000)bold"> </hi>
+                    <hi rend="color(#000000)">nur in irgendeiner Weise an den </hi>
+                    <hi rend="color(#000000)bold">vor ihm stehenden anschließen muss</hi>
+                    <hi rend="color(#000000)">, ohne sich an einer übergeordneten (systematischen) Themenstruktur zu orientieren. Damit korrespondiert eine spezifische Art der Notizgenerierung, bei der Luhmann Nebengedanken weiterverfolgt, indem er diese zusätzlichen Notizen, auf einen an dieser Stelle einzuschiebenden Zettel notiert, so dass ein Wachstum des Zettelkastens ‚nach innen‘ erfolgt.</hi>
+                </p>
+                <p>
+                    <hi rend="color(#000000)">(b)</hi>
+                    <hi rend="color(#000000)bold"> Nummerierungssystem</hi>
+                    <hi rend="color(#000000)">: </hi>
+                    <anchor xml:id="id_docs-internal-guid-ce2a7059-eb17-0762-34ae-790459561d56"/>
+                    <hi rend="color(#000000)">Mit der skizzierten Ablagetechnik in einem konstitutiven Zusammenhang steht das besondere Nummerierungssystem: Jeder Zettel erhält eine von seinem jeweiligen Einstellplatz abhängige Nummerierung, die zugleich auf das Problem reagiert, wie Luhmann neue Zettel in den Altbestand einfügen kann, ohne die schon bestehende Nummerierung in Frage zu stellen. Zunächst erfolgt eine einfache Durchnummerierung der Zettel entsprechend des Zeitpunkts des jeweiligen Eintrags (1, 2, 3 usw.). Ein später erstellter Zettel, der einen einzelnen Aspekt (also gerade nicht zwingend monothematisch) von Zettel 1 weiterverfolgt, wird mit 1a nummeriert und zwischen den Zettel 1 und 2 eingeschoben. Daran kann wiederum monothematisch 1b anschließen oder aber eine thematisch abzweigende weitere Verzettelung folgen, beispielsweise 1a1. Das führt dazu, dass zwischen zwei ursprünglich direkt hintereinander eingestellten Zetteln im Extremfall bis zu 1000 später erstellte Zettel mit einem entsprechend komplexen Nummernsystem eingestellt werden.</hi>
+                </p>
+                <p>
+                    <hi rend="color(#000000)">(c) </hi>
+                    <hi rend="color(#000000)bold">Verweisungssystem</hi>
+                    <hi rend="color(#000000)">: Das skizzierte Ablagesystem macht es außerdem nötig, dass die thematisch oder konzeptionell miteinander zusammenhängenden, aber eben verstreut in der Sammlung stehenden Zettel aufeinander verweisen, indem auf den Zetteln jeweils die entsprechenden Zettelnummern notiert werden. Neben Einzelverweisen findet man häufig am Beginn eines thematischen Abschnitts auf einem einleitenden Zettel auch </hi>
+                    <hi rend="color(#000000)">eine ganze </hi>
+                    <hi rend="color(#000000)">Samm</hi>
+                    <hi rend="color(#000000)">lung von Verweisen</hi>
+                    <hi rend="color(#000000)">, die thematisch verwandte Bereiche des Zettelkastens systematisch erschließen. Aufgrund einer stichprobenartigen Auszählung kann man davon ausgehen, dass sich in der Sammlung insgesamt ca. 50.000 Verweise befinden. Luhmann selbst nennt diese netzwerkartige Verweisungsstruktur ein „spinnenförmiges System“.</hi>
+                </p>
+                <p>
+                    <hi rend="color(#000000)">(d) </hi>
+                    <hi rend="color(#000000)bold">Schlagwortverzeichnis</hi>
+                    <hi rend="color(#000000)">: Um Einstiegspunkte in dieses Verweisungsnetz zu erhalten, hat Luhmann ein ca. 4000 Einträge umfassendes Schlagwortverzeichnis erstellt. Dieses Schlagwortregister war das zentrale Werkzeug für seine Nutzung des Kastens, da nur so Notizen zu einem bestimmten Thema zuverlässig wiedergefunden werden konnten. Das Schlagwortregister des Kastens beansprucht dabei aber keinen Anspruch auf Vollständigkeit hinsichtlich der Erfassung der einschlägigen Stellen in der Sammlung. Vielmehr notiert Luhmann in der Regel nur maximal drei Systemstellen, an denen der jeweilige Begriff zu finden ist, da er annimmt, dass man dann über das interne Verweisungsnetz schnell die anderen relevanten Stellen findet.</hi>
+                </p>
+            </div>
+            <div type="div1">
+                <head>Technische Umsetzung</head>
+                <div type="div2">
+                    <head>Datenmodell und Arbeitsumgebung</head>
+                    <p>Der Anlage des Zettelkastens folgend verstehen wir die Zettel als semantisch freie Einheiten und erzeugen für jede Zettelseite eine XML-TEI-Datei, in der die Transkription des Zettelinhalts erfolgt. Der Kopf (&lt;teiHeader&gt;) bietet Raum für Metainformationen, in einem umfangreichen Anhang zur Transkription (&lt;back&gt;) betten wir den Zettel in das Zettelnetzwerk ein. Wir unterscheiden mehrere Navigationswege durch den Kasten: Erstens eine physische Navigation in der von Zettelvorderseite zu folgender Vorderseite gesprungen wird. Zweitens geht es um übergeordnete Gliederungsverläufe. In einer dritten Navigation modellieren wir logische Abfolgen. In Form von Sprungzielen wird hier der nächste, in einem Gedankenstrang folgende Zettel angegeben, dabei werden von Luhmann eingeschobene Zettel zunächst ausgeblendet. Diese Abfolgen werden in eigenen Feldern klassifiziert und explizit gemacht.</p>
+                    <p>
+                        <figure>
+                            <graphic url="https://lh4.googleusercontent.com/uB_gHj5D2tuxIl0CAKJA1bO4N6bkHdrMxHFtD5YMWh75GKWSobJHz55uOI5VQgnkVQCJZNyZfwHJhbPH7BqGu6gBmNvME6HzeukumoP7LZsU_0SI770lzRfL9mPprgCf1x4pNbTV"/>
+                            <head>Abbildung 1: Ausschnitt aus der oXygen-Arbeitsoberfläche zur Transkription und Bearbeitung von Zettelseiten. (Zettel 1-5B1c)Zettel-Framework Vernetzung.png</head>
+                        </figure>
+                    </p>
+                    <p>
+                        <hi rend="color(#2d2c27)">Um den Fachwissenschaftlern die Arbeit mit den XML-Texten zu erleichtern, arbeiten wir mit dem Author-Mode des oXygen XML-Editors.</hi>
+                        <hi rend="color(#2d2c27)">
+                            <note xml:id="ftn2" place="foot" n="2">
+                                <hi rend="color(#000000)"> </hi>
+                                <hi rend="color(#000000)">Vgl. oXygen Visual (WYSIWYG) XML Editors:</hi>
+                                <hi rend="color(#000000)"> </hi>
+                                <ptr target="https://www.oxygenxml.com/xml_author/WYSIWYG_Editors.html"/>
+                            </note>
+                        </hi>
+                        <hi rend="color(#2d2c27)"> </hi>
+                        <hi rend="color(#2d2c27)">Die von uns für die Zetteltranskription und Einbettung in das Netzwerk entwickelte Arbeitsoberfläche setzt im Verknüpfungsanhang auf fest eingerichtete Standardfelder, in die die Editoren IDs vorausliegender Zettel eintragen. Auf Basis dieser Einträge - die im Arbeitsprozess einer stetigen Weiterbearbeitung unterliegen - ergänzen wir über Skripte die Verbindung zu den davor liegenden Zetteln, um für die Portalnavigation beide Richtungen anbieten zu können.</hi>
+                    </p>
+                    <p>Für die Transkription selbst stellen wir im Framework ein Mixed-Content Feld zur Verfügung, in dem weitere Textphänomene und von Luhmanns selbst explizit formulierte Zettelverweise über Buttons ausgezeichnet werden können.</p>
+                </div>
+                <div type="div2">
+                    <head>Forschungsportal</head>
+                    <p>Das Forschungsportal soll dem Benutzer eine intuitive Möglichkeit bieten, durch den Zettelkasten zu navigieren und ihn dabei nicht nur so benutzen zu können, wie Luhmann es vorgesehen hat, sondern die Nutzbarkeit durch die digitalen Möglichkeiten zu erweitern. Dazu wird für jeden Zettel dessen Ort in der im Rahmen des Projekts erstellten Inhaltsübersicht sowie eine interaktive Visualisierung seiner inhaltlich-logischen Einordnung angezeigt. Über indikative Buttons ist erkennbar, welche Navigationsmöglichkeiten sich für den momentan angezeigten Zettel für den Benutzer bieten (siehe Abbildung 2). Die Buttons sind gruppiert nach dem Navigationstypus.</p>
+                    <p>Innerhalb der Transkription sind Schlagwörter, bibliographische Angaben, Personennamen und vor allem Verweise zu anderen Zetteln verlinkt. Außerdem ist eine facettierte Volltext-Suche (z.B. nach Schlagworten oder bibliographischen Angaben) über vom Benutzer definierbare Bereiche des Zettelkastens möglich.</p>
+                    <p>
+                        <figure>
+                            <graphic url="https://lh5.googleusercontent.com/hOaTZrZDa_eL6oPhm3fGAXnKKVMTug-Gc6saRKvS65-DM-9Fj65LwKQ2mKCh-s-HtsejMRxngUGtiPYibDrfQfE5JZuzJRIMrtYfwlXXM1sINmEUY8SwuTEWk7N4hOgKs2kCR6Rq"/>
+                            <head>Abbildung 2: Ansicht eines Zettels im Forschungsportal</head>
+                        </figure>
+                    </p>
+                    <p>
+                        <hi rend="color(#2d2c27)">Neben optimierten Darstellungen für einzelne Zettelseiten gibt es Visualisierungen, die größere Bereiche des Kastens abdecken. Dazu zählt eine Visualisierung der im Rahmen der Edition erstellten inhaltlich-logischen Einordnungs- und Navigationsstruktur des Zettelkastens (siehe Abbildung 3), sowie ein Arc Diagram</hi>
+                        <hi rend="color(#2d2c27)">
+                            <note xml:id="ftn3" place="foot" n="3">
+                                <hi rend="color(#000000)"> </hi>
+                                <hi rend="color(#000000)">Arc diagram: </hi>
+                                <ptr target="https://en.wikipedia.org/wiki/Arc_diagram"/>
+                            </note>
+                        </hi>
+                        <hi rend="color(#2d2c27)"> </hi>
+                        <hi rend="color(#2d2c27)">zur Darstellung von Zettelverweisen innerhalb verschiedener Bereiche (siehe Abbildung 4), um die Dichte der Vernetzung innerhalb und zwischen den verschiedenen Abteilungen des Zettelkastens zu verdeutlichen.</hi>
+                    </p>
+                    <p>
+                        <hi rend="color(#2d2c27)">Die Datenaufbereitung der TEI-XML-Dateien geschieht jeweils über im Rahmen des Projekts entwickelte Node.js-Skripte</hi>
+                        <hi rend="color(#2d2c27)">
+                            <note xml:id="ftn4" place="foot" n="4">
+                                <hi rend="color(#000000)"> </hi>
+                                <hi rend="color(#000000)">Node.js: </hi>
+                                <ptr target="https://nodejs.org/en/"/>
+                            </note>
+                        </hi>
+                        <hi rend="color(#2d2c27)">, bevor die Visualisierungen mit der JavaScript-Bibliothek D3.js</hi>
+                        <hi rend="color(#2d2c27)">
+                            <note xml:id="ftn5" place="foot" n="5">
+                                <hi rend="color(#000000)"> </hi>
+                                <hi rend="color(#000000)">D3.js: </hi>
+                                <ptr target="https://d3js.org/"/>
+                            </note>
+                        </hi>
+                        <hi rend="color(#2d2c27)"> </hi>
+                        <hi rend="color(#2d2c27)">erstellt werden.</hi>
+                    </p>
+                    <p>
+                        <figure>
+                            <graphic url="https://lh5.googleusercontent.com/6IUdqOX_Ix0yQbDQ7vg5G3pzu0aZBKkagPzWfoUctvaM5ck2yyXoAsfrJHtJh42TSFyMMA3HaDB2xh9m09lDcwOEKhTllUBVAuFl0szo4EFDUkquDolc1Fb5s-ySd734oqIKkaw1"/>
+                            <head>Abbildung 3: Ausschnitt einer Visualisierung der im Rahmen der Edition erstellten inhaltlich-logischen Einordnungs- und Navigationsstruktur des digitalen Zettelkastens.BranchView Screenshot für DHd 2018.png</head>
+                        </figure>
+                    </p>
+                    <p>
+                        <figure>
+                            <graphic url="https://lh3.googleusercontent.com/d2fDbOPy7XiAf9IdbKIeAscvQ6nO5mi3AO5TBwADaGwi0gnlU78vuiHx4-cvkSyg3xDWikGGG52C08kZwZRyXB8fHl4c1coU-4XieXYG7kwHa9lheUxnFM4yXu4WsF2GxOIBdmtl"/>
+                            <head>Abbildung 4: Visualisierung der internen Zettelverweise des ersten Auszugs von Zettelkasten I (ca. 3300 Zettel). Man erkennt die deutlichen Unterschiede der Vernetzungsdichte innerhalb und zwischen den 21 Abteilungen.</head>
+                        </figure>
+                    </p>
+                </div>
+            </div>
+            <div type="div1">
+                <head>Fazit: Der Zettelkasten als Subjekt und Objekt der Forschung</head>
+                <p>
+                    <hi rend="color(#000000)">Die Digitalisierung des Zettelkastens erfolgt als ein Editionsprojekt im Rahmen einer Nachlasserschließung, insofern ist das primäre Ziel eine digitalisierte </hi>
+                    <hi rend="color(#000000)bold">Reproduktion</hi>
+                    <hi rend="color(#000000)"> </hi>
+                    <hi rend="color(#000000)">mit der Intention, die Nutzbarkeit im Luhmannschen Sinne zu rekonstruieren und zu erleichtern. Die </hi>
+                    <hi rend="color(#000000)">dafür notwendige </hi>
+                    <hi rend="color(#2d2c27)">digitale Modellierung hatte eine vertiefte Reflexion über das Design des Zettelkastens zur Folge, insbesondere aufgrund der damit einhergehenden Notwendigkeit einer eindeutigen Typendifferenzierung von Zettelanschlüssen. Durch diese Differenzierung, die ihren Niederschlag in einer entsprechend komplexen Navigationsstruktur des digitalen</hi>
+                    <hi rend="color(#000000)"> </hi>
+                    <hi rend="color(#000000)">Kastens gefunden hat</hi>
+                    <anchor xml:id="id_docs-internal-guid-ce2a7059-eb1b-17ab-0944-62a790e87a87"/>
+                    <hi rend="color(#000000)">, die eine erleichterte Nutzbarkeit des Kastens ermöglicht</hi>
+                    <hi rend="color(#000000)">, kam es zu einer deutlichen Konkretisierung der zweiten fachwissenschaftlichen Intention der Publikation: der Möglichkeit einer werkgenetischen Lesbarkeit des Kastens über eine Rekonstruktion der Einstellhistorie. Gerade weil die Zettel selbst undatiert sind, ist eine solche historisierende Les</hi>
+                    <hi rend="color(#000000)bold">art</hi>
+                    <hi rend="color(#000000)"> </hi>
+                    <hi rend="color(#000000)">nur über die (fachwissenschaftliche) Identifizierung von ursprünglichen Zettelanschlüssen und späteren Einschüben möglich; die Les</hi>
+                    <hi rend="color(#000000)bold">barkeit</hi>
+                    <hi rend="color(#000000)"> </hi>
+                    <hi rend="color(#000000)">der dadurch implizierten Zettelfolgen, die sich von der physischen Stellordnung der Zettel in Teilen unabhängig macht, ist dann aber nur aufgrund der entsprechenden technischen Umsetzung möglich.</hi>
+                </p>
+                <p>
+                    <hi rend="color(#000000)">Die technische ‚Aufrüstung‘ des digitalen Kastens führt allerdings auch dazu, dass diese Version kein reines Abbild des analogen Kastens mehr darstellt, sondern den Zettelkasten nun in einer Weise verfügbar macht, wie Luhmann selbst ihn nie genutzt hat. Diese </hi>
+                    <hi rend="color(#000000)bold">Differenz zum ursprünglichen Zettelkasten</hi>
+                    <hi rend="color(#000000)"> </hi>
+                    <hi rend="color(#000000)">wird verstärkt durch die weiteren o.g.  Recherchemöglichkeiten im Rahmen der digitalisierten Version sowie durch die  Visualisierungsmöglichkeiten der Verweisungsstruktur zwischen den Zetteln, die zudem die Netzwerkförmigkeit der Sammlung transparent macht. Diese Form der Edition des Zettelkastens rekonstruiert den Kasten selbst also nicht mehr als das Forschungs</hi>
+                    <hi rend="color(#000000)bold">subjekt</hi>
+                    <hi rend="color(#000000)">, das er für Luhmann als ‚Denkmaschine‘ und Theorieapparat war, sondern macht den Kasten selbst </hi>
+                    <hi rend="color(#000000)">schon bei der Editionsarbeit </hi>
+                    <hi rend="color(#000000)">zu einem Forschungs</hi>
+                    <hi rend="color(#000000)bold">objekt</hi>
+                    <hi rend="color(#000000)"> </hi>
+                    <hi rend="color(#000000)">und bietet die für die Beantwortung von jetzt noch unbekannten Forschungsfragen notwendigen Instrumentarien an.</hi>
+                </p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl>
+                        <hi rend="color(#000000)bold">Krajewski, Markus</hi>
+                        <hi rend="color(#000000)"> </hi>
+                        <hi rend="color(#000000)">(2002): </hi>
+                        <hi rend="color(#000000)italic">ZettelWirtschaft. Die Geburt der Kartei aus dem Geiste der Bibliothek</hi>
+                        <hi rend="color(#000000)">. Berlin: Kadmos.</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="color(#000000)bold">Schmidt, Johannes F.K.</hi>
+                        <hi rend="color(#000000)"> </hi>
+                        <hi rend="color(#000000)">(2016): "Niklas Luhmann´s Card Index: Thinking Tool, Communication Partner, Publication Machine", in: Alberto Cevolini (ed.): Forgetting Machines. Knowledge Management Evolution in Early Modern Europe. Leiden: Brill, 289-311.</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="color(#000000)bold">Watts, Duncan</hi>
+                        <hi rend="color(#000000)"> </hi>
+                        <hi rend="color(#000000)">(2004): "The »new« science of networks", in: Annual Review of Sociology 30, 243-270.</hi>
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

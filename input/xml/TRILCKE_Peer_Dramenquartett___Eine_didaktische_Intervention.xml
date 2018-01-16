@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Dramenquartett – Eine didaktische Intervention</title>
+                <author>
+                    <persName>
+                        <surname>Fischer</surname>
+                        <forename>Frank</forename>
+                    </persName>
+                    <affiliation>Higher School of Economics, Moskau</affiliation>
+                    <email>ffischer@hse.ru</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Kittel</surname>
+                        <forename>Christopher</forename>
+                    </persName>
+                    <affiliation>Karl-Franzens-Universität Graz; Open Knowledge Forum Österreich</affiliation>
+                    <email>contact@christopherkittel.eu</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Milling</surname>
+                        <forename>Carsten</forename>
+                    </persName>
+                    <affiliation>Berlin</affiliation>
+                    <email>cmil@hashtable.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Trilcke</surname>
+                        <forename>Peer</forename>
+                    </persName>
+                    <affiliation>Universität Potsdam, Deutschland</affiliation>
+                    <email>trilcke@uni-potsdam.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Wolf</surname>
+                        <forename>Jana</forename>
+                    </persName>
+                    <affiliation>Mittelbayerische Zeitung Regensburg</affiliation>
+                    <email>jana_a_wolf@hotmail.com</email>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2015-10-04T22:02:00Z</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Prof. Dr. Georg Vogeler</publisher>
+                <address>
+                    <addrLine>UniversitÃ¤t Graz</addrLine>
+                    <addrLine>Zentrum fÃ¼r Informationsmodellierung - Austrian Centre for Digital Humanities</addrLine>
+                    <addrLine>ElisabethstraÃ&#x9f;e 59/III</addrLine>
+                    <addrLine>8010 Graz</addrLine>
+                </address>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Converted from a Word document </p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.17">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Poster</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Literatur</term>
+                    <term>Netzwerkanalyse</term>
+                    <term>Gamification</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Modellierung</term>
+                    <term>Kommunikation</term>
+                    <term>Netzwerkanalyse</term>
+                    <term>Einführung</term>
+                    <term>Lehre</term>
+                    <term>Text</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>Ziel dieses Posters ist es, anhand von 32 deutschsprachigen Dramen in die Netzwerkanalyse literarischer Texte einzuführen, eine didaktische Intervention für eine zwar mittlerweile etablierte Methode der literaturwissenschaftlichen Analyse, die aber nicht immer genügend reflektiert wird: Der Errechnung teils komplexer netzwerktheoretischer Maße entspricht nicht immer ein entsprechender Sprung zur Bedeutungsebene. Was bedeutet es zum Beispiel wirklich, dass die durchschnittliche Pfadlänge in Goethes »Faust. Der Tragödie erster Theil« genau 1,79 beträgt? Wenn man jedoch diesen Wert in Beziehung zu entsprechenden Werten anderer Stücke setzt, gewinnt er an komparatistischer Bedeutung. Die Anschaulichkeit der Wert und ihre spielerisch erfahrene Dimensionierung ermöglichen so die Einübung in die strukturalistische Betrachtung von Netzwerken am Beispiel von Dramen, wobei damit zugleich kulturelles Grundwissen über die Strukturation von Netzwerken – immerhin ubiquitäre Gegenstände der sozialen und technischen Welt – erworben werden kann. </p>
+            <p>Um den komparatischen Blick im Kontext der literaturwissenschaftlichen Netzwerkanalyse zu schulen, setzen wir mit unserem Poster auf einen Gamification-Ansatz. Anders als bei unserem ersten Experiment in dieser Richtung – der auf der DHd2016 präsentierten Android-App »Play(s)« (vgl. Göbel/Meiners 2016), in deren Mittelpunkt die spielerische Korrektur und Anreicherung unserer Korpusdaten stand –, handelt es sich diesmal um eine nicht-technische Anwendung, die auf spielerische Weise netzwerkanalytisches Datenmaterial explorierbar macht.</p>
+            <p>Dabei wird das Posterformat in zweierlei Hinsicht bespielt: Das Poster ist einerseits eine Datenvisualisierung auf Grundlage eines selbst gepflegten größeren Dramenkorpus. Andererseits ist es ein in 32 Teile zerlegbares Dramenquartett, das spielerisch mit den Bedeutungshorizonten verschiedener netzwerktheoretischer Größen bekannt macht und ein Bewusstsein für komparatistische Möglichkeiten trainiert. Dieser Ansatz ist in den Geisteswissenschaften nicht neu, verwiesen sei etwa auf das architekturgeschichtliche Quartettspiel »Plattenbauten. Berliner Betonerzeugnisse« (Mangold u. a. 2001), in dem technische Daten verschiedener Plattenbautypen gegenübergestellt werden (vgl. auch Richter 2006).</p>
+            <p>Die Didaxe des Dramenquartetts bezieht sich auf mehrere Dimensionen: eine literaturgeschichtliche, eine quantitative, eine netzwerktheoretische. Die 32 Stücke bilden einen Minimalkanon, der von der Zeit der Gottschedischen Theaterreformen bis in die Moderne reicht. Statt der lexikonartigen Beschreibung eines solchen Kanons (wie etwa im »Dramenlexikon des 18. Jahrhunderts«, Hollmer/Meier 2001), besteht das Beschreibungsinstrument hier in visuellen und quantitativen Werten, die Vergleichbarkeit herstellen – erst dieser Umstand vereint die verschiedenen Karten zu einem kompetitiven Spiel.</p>
+            <p>Als visueller Catch der Quartettkarten dient eine Visualisierung des jeweiligen extrahierten sozialen Netzwerks (vgl. Fischer u. a. 2016). Die weiteren Informationen auf den Karten setzen sich aus (Kanonwissen präsentierenden) Metadaten (Autor*in – Titel – Untertitel – Genre – Jahr) und vor allem aus statischen und dynamischen Netzwerkdaten zusammen (Anzahl von Subgraphen – Netzwerkgröße – Netzwerkdichte – Clustering-Koeffizient – Durchschnittliche Pfadlänge – Höchster Degreewert und Name der entsprechenden Figur –), wie sie im Rahmen des dlina-Projekts berechnet wurden.
+                <note place="foot" xml:id="ftn1" n="1">
+                    <p rend="footnote text"> Vgl. das Blog 
+                        <ref target="https://dlina.github.io/">https://dlina.github.io/</ref> und das Github-Repo 
+                        <ref target="https://github.com/dlina">https://github.com/dlina</ref>.
+                    </p>
+                </note> Das Deckblatt enthält eine Einführung zum Projekt und seinen Hintergründen sowie Kurzdefinitionen der auf den einzelnen Karten enthaltenen netzwerktheoretischen Maßzahlen, die damit nicht nur spielerisch erkundet, sondern auch konzeptuell verstanden werden können. 
+            </p>
+            <p>Das Poster wird mit unserer Python-Skriptsammlung ›dramavis‹ generiert, die in der neuen Version 0.4 eine entsprechende Funktion erhalten hat (Kittel/Fischer 2017). Für das Konferenzposter haben wir einen Fallback-Kanon zusammengestellt (Stücke von Johann Christoph und Luise Adelgunde Victorie Gottsched, von Gellert, J. E. Schlegel, Caroline Neuber, Klopstock, Lessing, Gerstenberg, Goethe, Lenz, Klinger, Schiller, Kotzebue, Kleist, Zacharias Werner, Müllner, Grillparzer, Grabbe, Büchner, Hebbel, Gustav Freytag, Anzengruber, Arno Holz, Wedekind, Schnitzler, Erich Mühsam). Über eine individualisierbare Kanon-Datei können aber auch eigene Quartette zusammengestellt werden, sodass sich etwa auch epochenspezifische Sets (Dramen der Aufklärung, Dramen der Klassik, Romantische vs. Klassische Dramen, Dramen des Sturm und Drang vs. Dramen des Naturalismus) oder gattungsspezifische Sets erstellen lassen. </p>
+            <p>Auf der Konferenz werden wir neben einem Poster, das das didaktisch-interventionistische Konzept veranschaulicht, auch diverse Quartett-Sets präsentieren. </p>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl>
+                        <hi rend="bold">Fischer, Frank / Göbel, Mathias / Kampkaspar, Dario / Kittel, Christopher / Trilcke, Peer </hi>(2016): “Distant-Reading Showcase. 200 Years of Literary Network Data at a Glance”, DHd2016, Leipzig. DOI: &lt;
+                        <ref target="https://dx.doi.org/10.6084/m9.figshare.3101203.v1">
+                            <hi rend="color(1155CC)">https://dx.doi.org/10.6084/m9.figshare.3101203.v1</hi>
+                        </ref>&gt;.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Göbel, Matthias / Meiners, Hanna-Lena</hi>: Play(s): Crowdbasierte Anreicherung eines literarischen Volltext-Korpus”. DHd2016, Leipzig.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Hollmer, Holmer / Meier, Albert</hi> (eds.) (2011): Dramenlexikon des 18. Jahrhunderts. München: C.H. Beck.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Kittel Christopher / Fischer, Frank</hi>: “dramavis v0.4” (September 2017). Repo: &lt;
+                        <ref target="https://github.com/lehkost/dramavis">
+                            <hi rend="color(1155CC)">https://github.com/lehkost/dramavis</hi>
+                        </ref>&gt;.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Mangold, Cornelius u.a.</hi> (2001): 
+                        <hi rend="italic">Plattenbauten. Berliner Betonerzeugnisse. Ein Quartettspiel</hi>. Berlin
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Richter, Peter </hi>(2006): 
+                        <hi rend="italic">Der Plattenbau als Krisengebiet. Die architektonische und politische Transformation industriell errichteter Wohngebäude aus der DDR am Beispiel der Stadt Leinefelde</hi>. Hamburg: Univ., Diss.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

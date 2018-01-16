@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="full">
+                    <title type="main">Nachnutzbarmachung von Forschungsdaten und Tools am Beispiel altäthiopischer Korpora</title>
+                    <title type="sub"/>
+                </title>
+                <author>
+                    <persName>
+                        <surname>Druskat</surname>
+                        <forename>Stephan</forename>
+                    </persName>
+                    <affiliation>Humboldt-Universität zu Berlin, Deutschland</affiliation>
+                    <email>stephan.druskat@hu-berlin.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Vertan</surname>
+                        <forename>Cristina</forename>
+                    </persName>
+                    <affiliation>Universität Hamburg, Deutschland</affiliation>
+                    <email>fsha060@uni-hamburg.de</email>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2017-09-25T22:48:51.500556008</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Prof. Dr. Georg Vogeler</publisher>
+                <address>
+                    <addrLine>UniversitÃ¤t Graz</addrLine>
+                    <addrLine>Zentrum fÃ¼r Informationsmodellierung - Austrian Centre for Digital Humanities</addrLine>
+                    <addrLine>ElisabethstraÃ&#x9f;e 59/III</addrLine>
+                    <addrLine>8010 Graz</addrLine>
+                </address>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Converted from an OASIS Open Document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.17">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Vortrag</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Nachnutzung</term>
+                    <term>Datenformate</term>
+                    <term>Nachhaltigkeit</term>
+                    <term>Forschungssoftware</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Programmierung</term>
+                    <term>Annotieren</term>
+                    <term>Visualisierung</term>
+                    <term>Daten</term>
+                    <term>Interaktion</term>
+                    <term>Software</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="div1" rend="DH-Heading1">
+                <head>Einleitung</head>
+                <p>In den letzten Jahren wurden verschiedene Werkzeuge zur Annotation von Dokumenten entwickelt, z.B. 
+                    <hi rend="italic">WebAnno</hi> (Eckart de Castilho et al. 2016), 
+                    <hi rend="italic">Cor</hi>
+                    <hi rend="italic">A</hi> (Bollmann et al. 2014) und 
+                    <hi rend="italic">CATMA</hi> (Meister et al. 2016). Diese Werkzeuge bieten zahlreiche Funktionalitäten, die für viele Sprachen und Anwendungen ausreichend sind. Die Unterstützung verschiedener Skripten erweckt den Eindruck, dass diese Werkzeuge für die Annotation aller Sprachkorpora erfolgreich eingesetzt werden können, was solange korrekt ist, wie man sehr flache Annotation durchführt.
+                </p>
+                <p>Tiefere Annotationen, insbesondere für Sprachen außerhalb der Europäischen Sprachfamilie oder für historische Sprachen, dagegen gestalten sich problematischer. Häufig jedoch wird die Verwendung bereits etablierter Annotationstools trotzdem bevorzugt, weil diese eine reibungslose Integration mit weiteren Analyse- und Visualisierungs-Tools wie z.B. 
+                    <hi rend="italic">ANNIS</hi> (Krause &amp; Zeldes 2016) versprechen. In diesem Beitrag werden wir zeigen, dass die Entwicklung dedizierter Annotationswerkzeuge dann als Lösung in Betracht gezogen werden kann, wenn gleichzeitig Schnittstellen (z.B. zu Analyse-Tools) entwickelt werden, die die Neuentwicklung wiederum an vorhandene Software und Infrastrukturen anbinden. Auf diese Weise können die Nachteile einer Neuentwicklung unter Gesichtspunkten der nachhaltigen Entwicklung von Forschungssoftware gegenüber der Anpassung bestehender Tools - bei gleichzeitiger Ermöglichung eines spezialisierten Anwendungsfalles - weitgehend abgeschwächt werden. Der Vorteil eines solchen Verfahrens ist die Realisierung eines Annotationsmodells, das exakt den Besonderheiten der Sprache entspricht. 
+                    <anchor xml:id="id_docs-internal-guid-26467f60-f67e-25d0-ff59-7f8f2e91845b"/>Insbesondere für diachrone Analysen ist es häufig nötig, dass man eine sehr detaillierte Modellierung der morphologischen, syntaktischen und semantischen Merkmale vornimmt, da die Unterschiede häufig nur im Detail reflektiert sind.
+                    <hi rend="color(#1155cc)"> </hi>Im Einzelnen werden wir die Entwicklung des 
+                    <hi rend="italic">GeTa</hi>-Annotationstools, eines Mehrebenenannotationswerkzeugs für die Altäthiopische Sprache, und dessen Integration mit dem Such- und Visualisierungsframework 
+                    <hi rend="italic">ANNIS</hi> darstellen.
+                </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Spezielle Anforderungen für die Altäthiopische Sprache</head>
+                <p>Das Altäthiopische (Geʿez), ist eine südsemitische Sprache. Es war bis ins 19. Jahrhundert hinein die bedeutendste Schriftsprache des christlichen Äthiopien. Die reiche christlich-äthiopische Literatur ist zunächst von Übersetzungen - anfangs aus dem Griechischen und später aus dem Arabischen - geprägt, bevor sich eine mannigfaltige indigene Literatur mit ganz eigenen Zügen entwickelt. Insbesondere Texte, die einzig im Altäthiopischen vollständig überliefert, und deren Textzeugen in anderen Sprachen entweder vollständig verloren, oder von denen nur Fragmente erhalten sind (z.B. das Henochbuch) erlangen dabei ganz besondere Bedeutung (Vertan et. al. 2016).</p>
+                <p>Das Altäthiopische hat aus einer südsemitischen Schrift ein eigenes Silbenalphabet entwickelt, das bis heute in mehreren modernen Sprachen Äthiopiens und Eritreas Verwendung findet. Innerhalb der semitischen Sprachen fällt es durch die verwendete Rechtsläufigkeit auf; außerdem werden die Vokale vollständig geschrieben. Das äthiopische Silbenalphabet bringt dabei mit sich, dass Morphemgrenzen in der Schrift nicht darstellbar sind, sodass beispielsweise ein einzelner Vokal als Bestandteil einer Silbe eine eigenständige Wortart darstellen kann und tokenisiert werden muss; z.B. ist im zweisilbigen Wort ቤቱ፡ /be·tu/ das /u/ als pronominales Suffix zu bet-
+                    <hi rend="italic">u</hi> (
+                    <hi rend="italic">sein</hi> Haus) zu segmentieren. Eine solche Annotation kann nur auf der Transkription erfolgen. Annotationen auf anderen Ebenen (z.B. Seiten- Spaltenumbrüche, Textkorrekturen) müssen auf dem Fidal-Skript realisiert werden. Dies bedeutet, dass Original und Transkription synchronisiert im Annotationswerkzeug dargestellt werden müssen. Eine korrekte Darstellung einer Transliteration benötigt die Transkription. Während diese regelbasiert automatisch durchgeführt werden kann, ist korrekte Transliteration (z.B. Konsonantendopplung) in vielen Fällen nur zusammen mit morphologischer Analyse möglich. Daher muss das Annotationstool Korrekturen am Basistext während der Annotation zulassen und zuverlässig verarbeiten können. Keins der existierenden Annotationswerkzeuge erfüllt diese Voraussetzungen. CorA arbeitet mit Listen von Wertkombinationen von Attributen. Die benötigte morphologische Annotation im Fall der altäthiopischen Sprache umfasst 30 Merkmale, mit je mindestens drei möglichen Werten. Die Handhabung solch einer umfangreichen Liste macht manuelle Annotation praktisch unmöglich. Weder WebAnno noch CATMA ermöglichen die Korrektur des zugrunde liegenden Textes während der Annotation. Die Implementierung einer solchen Funktion auf Basis eines dieser Werkzeuge würde tief in die Architektur der Software eingreifen, was innerhalb der Laufzeit des Projektes nicht realisierbar war. Auch die semi-automatischen Annotationsmöglichkeiten unter Supervision des Benutzenden sind für diese beiden Werkzeuge nicht leicht erweiterbar.
+                </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Das GeTa Annotationstool</head>
+                <p>Im TraCES-Projekt
+                    <note xml:id="ftn1" place="foot" n="1">
+                        <ptr target="https://www.traces.uni-hamburg.de/"/>.
+                    </note>, das als Hauptziel die Entwicklung eines diachronen, tief annotierten Korpus für die Altäthiopische Sprache hat, implementieren wir eine neuartige Architektur, die sowohl Änderungen im Text als auch eine Mehrebenenannotation ermöglicht.
+                </p>
+                <p>Wir betrachten als Grundtext den Originaltext in der altäthiopischen Schrift. Die Transliteration bildet die erste, die morphologische Annotation die zweite Ebene, wobei die Transliteration und der Originaltext bei allen Arbeitsschritten synchronisiert bleiben. Im folgenden Abschnitt beschreiben wir das Datenmodell, das diese Architektur ermöglicht.</p>
+                <p>Die Basiseinheit in unserem System ist ein Wort, das eine einmalige ID zugewiesen erhält (graphische Einheit). Ein Wort hat folgende Komponenten:</p>
+                <list type="unordered">
+                    <item>Eine Liste der einzelnen Fidal
+                        <note xml:id="ftn2" place="foot" n="2"> "Fidal" ist der Terminus technicus für das äthiopische Silbenalphabet.</note>-Objekte, wobei ein Fidal-Objekt aus einer ID und einem Label (dem Fidal-Buchstaben) besteht.
+                    </item>
+                    <item>Eine Liste einzelner Silben-Objekte, wobei ein Silben-Objekt aus einer ID und einer Liste von einzelnen Buchstaben-Objekten besteht.</item>
+                    <item>Ein Buchstaben-Objekt hat immer eine ID und ein Label (das graphische Symbol).</item>
+                </list>
+                <p>Graphische Einheiten können in mehreren Tokens geteilt werden. Die Tokens sind getrennt gespeichert (mit eigenenen IDs) und verlinkt mit der graphischen Einheit. Elemente der Textstruktur werden durch selbständige Objekte dargestellt, die mit den beinhalteten Tokens verlinkt werden. Editorische Annotationen werden mit den graphischen Einheiten verlinkt. Eine derartig stark vernetzte komplexe Struktur ist mit XML schwierig zu modellieren, insbesondere bei manueller Annotation. Auch die maschinelle Verarbeitung einer derartig tief vernetzten TEI-Struktur wäre sehr kompliziert. Alternativ bietet JSON für dieses Modell eine bessere Handhabbarkeit. Wir haben uns daher entschieden, die Daten in JSON zu speichern und zusätzlich XML-Export zu implementieren. Die Datenstruktur ist in vier JSON-Dateien gespeichert: eine für die graphischen Einheiten, eine für die Tokens, je eine für weitere Annotationsebenen (Textstruktur und Edition). Diese JSON-Dateisammlung wird via Konverterschnittstelle nach 
+                    <hi rend="italic">ANNIS</hi> importiert.
+                </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>corpus-tools.org: 
+                    <hi rend="italic">ANNIS</hi>, 
+                    <hi rend="italic">Pepper</hi>, 
+                    <hi rend="italic">Salt</hi>
+                </head>
+                <p>
+                    <hi rend="italic">ANNIS</hi> (Krause &amp; Zeldes 2016) ist eine Such- und Visualisierungsplattform für linguistische Daten, die mehrebenenfähig ist, d.h., verschiedene Annotationsebenen eines Korpus darstellen kann und dabei verschiedenste Annotationsarten berücksichtigt. Dies macht 
+                    <hi rend="italic">ANNIS</hi> zu einem hervorragenden Analysetool für die Daten des TraCES-Projekts. Eine besondere Rolle dabei spielt die Mächtigkeit der 
+                    <hi rend="italic">ANNIS</hi>-eigenen Abfragesprache AQL (ANNIS Query Language), die neben Freitextsuche und regulären Ausdrücken sich vor allem dadurch auszeichnet, linguistische Strukturen über mehrere Ebenen suchen zu können.
+                </p>
+                <p>Durch 
+                    <hi rend="italic">ANNIS</hi>‘ beschriebene Eigenschaften und seine Konfigurierbarkeit ist die Software für die Verwendung in den unterschiedlichsten Analyseszenarien geeignet und wird in der Tat bereits in verschiedenen Communities verwendet, z.B. in historischer Linguistik, Typologie, Sprachdokumentation u.v.m.
+                </p>
+                <p>Diese Eignung wird verstärkt durch eine hohe Kompatibilität mit vielen unterschiedlichen linguistischen Datenformaten, die erreicht wird durch Einsatz von 
+                    <hi rend="italic">Pepper</hi> (Zipser et al. 2011), einem Konvertierungsframework für liguistische Daten. 
+                    <hi rend="italic">Pepper</hi> nutzt ein generisches, graphbasiertes Zwischenmodell, 
+                    <hi rend="italic">Salt</hi> (Zipser &amp; Romary 2010), das unterschiedlichste, auch über mehrere Ebenen eines Korpus verteilte, Annotationsarten aufnehmen kann und so weiterverarbeitbar macht. 
+                    <hi rend="italic">Pepper</hi> zeichnet sich weiterhin durch eine Plugin-Architektur aus, die es ermöglicht mit geringem Aufwand sowohl Import- als auch Manipulations- und Exportmodule zu entwickeln, die die Quelldaten in ein 
+                    <hi rend="italic">Salt</hi>-Modell im Hauptspeicher übertragen, das dort manipuliert werden und anschließend in ein Zielformat überführt werden kann.
+                </p>
+                <p>
+                    <hi rend="italic">ANNIS</hi>, 
+                    <hi rend="italic">Pepper</hi> und 
+                    <hi rend="italic">Salt</hi> sind Komponenten der Softwarefamilie 
+                    <hi rend="italic">corpus-tools.org</hi> (Druskat et al. 2016).
+                </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Schnittstelle zwischen 
+                    <hi rend="italic">GeTa</hi> und 
+                    <hi rend="italic">ANNIS</hi>
+                </head>
+                <p>Diese Infrastruktur ermöglicht es ohne Weiteres, die in 
+                    <hi rend="italic">GeTa</hi> annotierten Daten über ein dediziertes 
+                    <hi rend="italic">GeTa</hi>-Importmodul für 
+                    <hi rend="italic">Pepper</hi> und die Verwendung der bereits existierenden 
+                    <hi rend="italic">ANNIS</hi>-Module für 
+                    <hi rend="italic">Pepper</hi> – hier das Exportmodul – in 
+                    <hi rend="italic">ANNIS</hi> verarbeitbar zu machen. Mit 
+                    <hi rend="italic">GeTaModules </hi>(Druskat 2018) haben wir einen solchen Importer entwickelt, dessen Funktionsweise hier kurz beschrieben werden soll. 
+                    <hi rend="italic">GeTaModules</hi> ist in Java implementiert und wird als OSGi-Bundle ausgeliefert, das von 
+                    <hi rend="italic">Pepper</hi>s OSGi-Plattform verwaltet werden kann. 
+                    <hi rend="italic">GeTaModules</hi> ist Open Source unter der Apache License, Version 2.0.
+                </p>
+                <p>Um Performanz und Speicherökonomie zu optimieren nutzt der 
+                    <hi rend="italic">GeTaModules</hi>-Importer eine Kombination aus Streaming und Object-Mapping-Methoden, um die aus 
+                    <hi rend="italic">GeTa</hi> exportierten JSON-Dateien einzulesen. Dabei werden die kleinsten Einheiten der Transliteration auf den graphischen Einheiten genutzt, um eine Tokenisierung in 
+                    <hi rend="italic">Salt</hi> zu erstellen und einen virtuellen Primärtext aufzubauen. Auf den so erstellten Modelltokens werden rekursiv die Silben- und Fidal-Objekte als Spannen aufgebaut. Im Anschluss werden die linguistischen Annotationen der 
+                    <hi rend="italic">GeTa</hi>-Tokens sowie die weiteren Annotationen aus den JSON-Objekten per Identifikator auf die entsprechenden Einheiten projiziert.
+                </p>
+                <p>In diesem Zustand hält 
+                    <hi rend="italic">Pepper</hi> einen kompletten 
+                    <hi rend="italic">Salt</hi>-Dokumentgraphen für das entsprechende Korpusdokument im Hauptspeicher. In einem weiteren Schritt werden Ordnungsrelationen jeweils zwischen den Knoten der Fidal und der transliterierten Wortebene erstellt, damit diese später in 
+                    <hi rend="italic">ANNIS</hi> als Segmentierungsgrundlage angezeigt werden können.
+                </p>
+                <p>Im dritten Schritt werden mit Hilfe des 
+                    <hi rend="italic">ANNIS</hi>-Exportmoduls
+                    <note xml:id="ftn3" place="foot" n="3">
+                        <ptr target="https://github.com/korpling/pepperModules-ANNISModules/"/>.
+                    </note> die für den Import in 
+                    <hi rend="italic">ANNIS </hi>benötigten Dateien im nativen Format geschrieben. Diese können nun in 
+                    <hi rend="italic">ANNIS</hi> über dessen graphische Benutzeroberfläche importiert werden.
+                </p>
+                <p>Die Konfiguration der Visualisierungen erfolgt durch Anpassung einer während des Exportvorgangs generierten Konfigurationsdatei. Im Fall der 
+                    <hi rend="italic">GeTa</hi>-Daten müssen hier lediglich die anzuzeigenden Annotationsebenen und ihre Reihenfolge eingestellt werden. In den 
+                    <hi rend="italic">ANNIS</hi>-Daten wird weiterhin ein dedizierter HTML-Visualisierer konfiguriert, der Wortartenannotationen auch graphisch Fidalwörtern zuordnet.
+                </p>
+                <p>Mit 
+                    <hi rend="italic">Pepper</hi> erfolgt die Konvertierung auf der Kommandozeile und die Konfiguration in Textdateien. Da dies für einige potenzielle Anwendergruppen unbekanntes Terrain bedeuten könnte haben wir den Prototypen einer Desktopanwendung für 
+                    <hi rend="italic">Pepper</hi> für die Verwendung mit 
+                    <hi rend="italic">GeTaModules</hi> angepasst, die eine grafische Oberfläche für die Verwendung von 
+                    <hi rend="italic">Pepper</hi> bietet: 
+                    <hi rend="italic">Pepper Grinder</hi> (Druskat 2017). 
+                    <hi rend="italic">Pepper Grinder (TraCES Edition)</hi> bietet so den Workflow für die Konvertierung der 
+                    <hi rend="italic">GeTa</hi>-Daten nach 
+                    <hi rend="italic">ANNIS</hi> quasi per Knopfdruck an. 
+                    <hi rend="italic">Pepper Grinder</hi> wird in Zukunft in eine vollfunktionale Anwendung ausgebaut, die Modi für verschiedene Anwendergruppen anbieten wird.
+                </p>
+                <p>Neben der projektinternen Nutzung von 
+                    <hi rend="italic">GeTaModules</hi> für die Konvertierung in das 
+                    <hi rend="italic">ANNIS</hi>-Format eröffnet die Software weitere Nachnutzungsszenarien für die annotierten Daten. Durch die Existenz von Manipulator- und Export-Modulen für 
+                    <hi rend="italic">Pepper</hi> für die verschiedensten Datenformate können die Daten mit anderen Werkzeugen nachgenutzt und etwa um zusätzliche Annotationsebenen angereichert, oder mit anderen Visualisierungen zu weiteren Forschungsfragen analysiert werden. 
+                    <anchor xml:id="id_docs-internal-guid-26467f60-f68c-05ba-b91d-3a0ed4bb4e49"/>Gleichzeitig leistet die Nachnutzung und Anpassung von 
+                    <hi rend="italic">Pepper</hi> durch 
+                    <hi rend="italic">GeTaModules</hi> einen Beitrag zur Vernachhaltigung dieses Frameworks. Durch die Ermöglichung des Imports von GeTa-Daten in ANNIS wird aus dem GeTa-Modell eine durchaus attraktive Modellierungsalternative für andere Sprachen mit ähnlichen Merkmalen. Derzeit wird das Modell in laufenden Projekten zu Mayasprachen und Jiddisch erprobt.
+                </p>
+                <p>Zusammenfassend stellt unser Ansatz eine Alternative dar zu Tendenzen der „Format-Hoheit“, also der Modellierung auf Grundlage eines – eventuell de facto standardisierten – Datenformats im Gegensatz zur Modellierung auf Grundlage der Forschungsfrage und der vorliegenden Daten. Die Einrichtung von Schnittstellen, wie z.B. 
+                    <hi rend="italic">GeTaModules</hi>, die eine Nachnutzbarkeit der Daten auch über die ursprüngliche Erstellung hinaus gewährleisten können, ermöglicht eine optimierte Modellierung und die Entwicklung spezifischer, den Bedürfnissen der Forschung und ihrer Daten hochgradig angepasster Werkzeuge, wie etwa 
+                    <hi rend="italic">GeTa</hi>.
+                </p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl>
+                        <hi rend="bold">Bollmann, </hi>
+                        <hi rend="bold">Marcel / </hi>
+                        <hi rend="bold">Petran, Florian / Dipper, Stefanie / Krasselt, </hi>
+                        <hi rend="bold">Julia</hi>
+                        <hi rend="bold"> </hi>(2014): „
+                        <emph>CorA: A web-based annotation tool for historical and other non-standard language data“, </emph>
+                        <emph>i</emph>n: 
+                        <hi rend="italic">Proceedings of the 8th Workshop on Language Technology for Cultural Heritage, Social Sciences, and Humanities (LaTeCH)</hi>. Gothenburg, Sweden: 86-90.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Druskat, Stephan</hi> (2018): „GeTaModules (Version 0.9.0)“. Zenodo. DOI: 10.5281/zenodo.1146985. 
+                        <ptr target="http://doi.org/10.5281/zenodo.1146985"/>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Druskat, </hi>
+                        <hi rend="bold">Stephan</hi> (2017): „Pepper Grinder (Version 0.1.7)“. Zenodo. DOI: 10.5281/zenodo.1041735. 
+                        <ptr target="https://doi.org/10.5281/zenodo.1041735"/>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Druskat, Stephan / Gast, Volker / Krause, Thomas / Zipser, Florian </hi>(2016): "corpus-tools.org: An Interoperable Generic Software Tool Set for Multi-layer Linguistic Corpora", in: 
+                        <hi rend="italic">Proceedings of the Tenth International Conference on Language Resources and Evaluation (LREC 2016):</hi> 23–28.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Eckart de Castilho, R</hi>
+                        <hi rend="bold">ichard / </hi>
+                        <hi rend="bold">Mújdricza-Maydt, É</hi>
+                        <hi rend="bold">va /</hi>
+                        <hi rend="bold"> Yimam, S</hi>
+                        <hi rend="bold">eid Muhie /</hi>
+                        <hi rend="bold"> Hartmann, S</hi>
+                        <hi rend="bold">ilvana / </hi>
+                        <hi rend="bold">Gurevych, I</hi>
+                        <hi rend="bold">ryna /</hi>
+                        <hi rend="bold"> Frank, A</hi>
+                        <hi rend="bold">nette / </hi>
+                        <hi rend="bold">Biemann, C</hi>
+                        <hi rend="bold">hris</hi> (2016): „A Web-based Tool for the Integrated Annotation of Semantic and Syntactic Structures“, in: 
+                        <hi rend="italic">Proceedings of the LT4DH workshop at COLING 2016, Osaka, Japan: </hi>76-84.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Krause, Thomas / Zeldes, Amir </hi>(2016): "ANNIS3: A new architecture for generic corpus query and visualization", in: 
+                        <hi rend="italic">Digital Scholarship in the Humanities</hi>: 118-139.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Meister, J.C. / Petris, M. / Gius, E. / Jacke, J.</hi> (2016): CATMA 5.0 [Software for text annotation and analysis] 
+                        <ref target="http://www.catma.de/">http://www.catma.de</ref> [letzter Zugriff 10.01.2018]
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Vertan, Cristina / Ellwardt, Andreas / Hummel, Susanne </hi>(2016): "Ein Mehrebenen-Tagging-Modell für die Annotation altäthiopischer Texte", in: 
+                        <hi rend="italic">Proceedings der DHd-Konferenz 2016</hi>
+                        <ref target="http://www.dhd2016.de/abstracts/vorträge-061.html">http://www.dhd2016.de/abstracts/vortr%C3%A4ge-061.html</ref> [letzter Zugriff 25.09.2017].
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Zipser, Florian / Romary, Laurent </hi>(2010): "A model oriented approach to the mapping of annotation formats using standards", in: 
+                        <hi rend="italic">Proceedings of the Workshop on Language Resource and Language Technology Standards (LREC 2010)</hi>
+                        <ptr target="https://hal.inria.fr/inria-00527799/"/> [letzter Zugriff 25.09.2017].
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Zipser, Florian / Zeldes, Amir / Ritz, Julia / Romary, Laurent / Leser, Ulf</hi> (2011): "Pepper: Handling a multiverse of formats", Poster, 
+                        <hi rend="italic">33. Jahrestagung der Deutschen Gesellschaft für Sprachwissenschaft</hi>, Göttingen.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="full">
+                    <title type="main">Datenmodelle zur digitalen Texterfassung: Complex XML im Gegensatz zu Graph-Strukturen</title>
+                    <title type="sub"/>
+                </title>
+                <author>
+                    <persName>
+                        <surname>Bruder</surname>
+                        <forename>Daniel</forename>
+                    </persName>
+                    <affiliation>University of Cambridge, Vereinigtes Königreich</affiliation>
+                    <email>dmb77@cam.ac.uk</email>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2018-01-14T09:22:17</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Prof. Dr. Georg Vogeler</publisher>
+                <address>
+                    <addrLine>UniversitÃ¤t Graz</addrLine>
+                    <addrLine>Zentrum fÃ¼r Informationsmodellierung - Austrian Centre for Digital Humanities</addrLine>
+                    <addrLine>ElisabethstraÃ&#x9f;e 59/III</addrLine>
+                    <addrLine>8010 Graz</addrLine>
+                </address>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Converted from an OASIS Open Document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.17">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Vortrag</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Langzeitarchivierung</term>
+                    <term>Textauszeichnung</term>
+                    <term>Graphstrukturen</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Aufzeichnung</term>
+                    <term>Transkription</term>
+                    <term>Annotieren</term>
+                    <term>Bearbeitung</term>
+                    <term>Archivierung</term>
+                    <term>Sprache</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>In terms of longevity and collation of textual data in the humanities, digital data, notwithstanding its potential, still falls short the qualities of the traditionally printed book.</p>
+            <p>To streamline the diverse and idiosyncratic Digital Editions of the time and to establish a cross- and re-usable, durable digital archive of textual cultural artifacts, in 1988 the Text Encoding Initiative (TEI) was established with the goal to present a commonly shared standard for the transcription of literary, scientific and other forms of text.</p>
+            <p>As data model, the extensible markup language XML was chosen to assure longevity and exchangeability of the data. However, it turns out that XML, and with it, the data model of the hierarchically ordered tree are questionable choices for the recording of complex texts – as they are commonly found in the humanities – by potentially rendering the data ambiguous on semantic level.</p>
+            <p>The abstract idea behind the commonly shared tag set for the description of textual data is reflected in the 
+                <hi rend="italic">TEI abstract model</hi> (TEI Consortium 2016b) which uses XML as a serialisation format – but to which it is not bound:
+            </p>
+            <quote>The rules and recommendations made in these Guidelines are expressed in terms of what is currently the most widely-used markup language for digital resources of all kinds: the Extensible Markup Language (XML) […]. However, the TEI encoding scheme itself does not depend on this language […], and may in future years be re-expressed in other ways as the field of markup develops and matures.</quote>
+            <p>In the following, fundamental limitations of the tree data model are highlighted in spotlight fashion and contrasted with a graph based model for the sustainable recording and long-term archiving of complex textual data.</p>
+            <div type="div1" rend="DH-Heading1">
+                <head>Limitations of the tree model</head>
+                <p>Paradoxically, Digital Editions as well as digital archives, tools, platforms and data repositories are not as interoperable in practice as one would theoretically expect from standardised sources. To be able to cross- or re-use data or tools between projects, in practice, serious refactoring and rededication is necessary – e.g. existing web platforms cannot readily be re-used by another project, notwithstanding the fact that the data repositories are fully validating, validating TEI-P5 sources. How is this possible?</p>
+                <p>As will be shown, this paradoxical situation of factually unattainable interoperability of editions and tools are a direct consequence of the choice of data model.</p>
+                <p>The decision towards XML and the tree data model is based on the OHCO assumption of text as an Ordered Hierarchy of Content Objects (DeRose et al. (1990); revised in Renear, Mylonas, and Durand (1993)). Contrasting the original goals (TEI Consortium 2016c) of interoperable long-term archivable data repositories with the status quo, this decision towards XML as the serialisation format needs to be critically questioned – particularly since the TEI Guidelines themselves very early on make clear that the assumption of data model behind XML is an improper simplification (TEI Consortium 2016a):</p>
+                <quote>Surprisingly perhaps, this grossly simplified view of what text is […] turns out to be very effective for a large number of purposes. It is not, however, adequate for the full complexity of real textual structures, for which more complex mechanisms need to be employed.</quote>
+                <p>Already two most basic constellations can lead to a necessary departure from the tree paradigm which could be described as ‘Complex XML’.</p>
+                <p>These situations are commonly resolved by using workarounds (TEI Consortium 2016d). Although 
+                    <hi rend="italic">syntactically</hi> permissible on the level of XML markup, these workarounds establish structures beyond the data model of the tree and can lead to misrepresentation of the data on 
+                    <hi rend="italic">semantic</hi>, modelling level, seriously harming effective re-use and long-term archiving.
+                </p>
+                <list type="unordered">
+                    <item>Data as well as tools inevitably become idiosyncratic, i.e. they irrevocably need to be handled on individual, project-specific basis; projects increasingly develop ‘private dialects’ and couple philologists and data scientists for actually accessing the data; data and tools are inaccessible to cross- and re-use between projects; finally, the possibility of a common digital archive is lost beyond recall.</item>
+                </list>
+                <list type="unordered">
+                    <item>Complex textual structures demand additional annotation to help and guide downstream tooling to not misrepresent the data. The transcription – in spite of valid, conforming data w.r.t. to the XML Schema – cannot automatically, i.e. without human intervention, be unambiguously resolved into its textual variants. </item>
+                    <item>The necessary supplementary annotation to one-unambiguously describe and model the source sets in motion a vicious circle of exponentially growing complexity in the data. Project-specific, idiosyncratic tools become necessary and must match this complexity. Moreover, such repositories typically suffer from overtagging (Hanrahan 2015), or, in the worst case need to be abandoned entirely (Schmidt et al. 2006).</item>
+                </list>
+                <list type="unordered">
+                    <item>Any further annotation or commentary only ever increases the complexity: any further annotation must match the existing complexity of the amended tree structure to accordingly be integrated; data and tools suffer from a ‘Heisenberg-Effect’ in that any further, more precise description of the source makes the data only ever more imprecise.</item>
+                </list>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Complex XML</head>
+                <p>In contrast to a simple edition, i.e. one of linear text without any further annotation, the need for ‘Complex XML’, on most fundamental, level arises through: </p>
+                <list type="ordered">
+                    <item>the edition of a non-linear text</item>
+                    <item>the edition of a linear text, open for annotation</item>
+                </list>
+                <p>In essence, anything that is beyond linear text free of annotation cannot adequately be represented by a mono-hierarchical tree model and will need “more complex mechanisms” (TEI Consortium 2016a).</p>
+                <div type="div2" rend="DH-Heading2">
+                    <head>Complex XML through non-linear text</head>
+                    <p>Non-linear text results from editorial operations such as insertions, deletions, substitutions. For instance, recording the genealogical writing process of two undecided variants within the same sentence, yields four different, non-linear potential readings.</p>
+                    <p>
+                        <figure>
+                            <graphic url="Pictures/10000201000004BC0000013C2C948493.png"/>
+                        </figure>These four different readings derived from mechanical re-combination potentially are not intended and to be reduced to specific readings only.
+                    </p>
+                    <p>
+                        <figure>
+                            <graphic url="Pictures/100002010000048C000000D02F5C458C.png"/>
+                        </figure>Constraining these combinatorial permutations cannot be done in general ways within the mono-hierarchical tree data model. The tree model exposes a general limitation – even without the prevalence of overlapping structures.
+                    </p>
+                    <p>
+                        <figure>
+                            <graphic url="Pictures/100002010000045E000001E8B4A5A17E.png"/>
+                        </figure>While interconnecting nodes across the tree’s boundaries by (ab-)using attributes is syntactically possible it nevertheless makes the data idiosyncratic on semantic level, i.e. project-specific rules are introduced and must individually be followed when working with the data.
+                    </p>
+                    <p>
+                        <figure>
+                            <graphic url="Pictures/10000201000004BA000002160FBA5023.png"/>
+                        </figure>These interconnections to constrain the combinatorics to specific readings cannot formally be made part of the tree structure itself. To build a tree, any node in the tree must have exactly one parent. A different data model and data structure is necessary to model more than one parent for one node, namely the data model of the graph.
+                    </p>
+                    <p>
+                        <figure>
+                            <graphic url="Pictures/100002010000047E00000106D01A4E37.png"/>
+                        </figure>
+                    </p>
+                </div>
+                <div type="div2" rend="DH-Heading2">
+                    <head>Complex XML through meta-data</head>
+                    <p>Complex XML can also result from linear text, open for annotation. The following schematic example shows a linear text with overlapping annotation:</p>
+                    <p>
+                        <figure>
+                            <graphic url="Pictures/10000201000004B4000001104AB5DE41.png"/>
+                        </figure>Corresponding serialisation using XML and the segmentation method (TEI Consortium 2016d):
+                    </p>
+                    <p>
+                        <figure>
+                            <graphic url="Pictures/10000201000004A800000186D676681C.png"/>
+                        </figure>The necessary interconnection and recombination of fragmented nodes cannot be modelled within the tree structure in general ways:
+                    </p>
+                    <p>
+                        <figure>
+                            <graphic url="Pictures/10000201000004960000018CF71AE149.png"/>
+                        </figure>Another representation shows how one node in the tree is made the child of two parents:
+                    </p>
+                    <p>
+                        <figure>
+                            <graphic url="Pictures/100002010000040A0000012A52D7B195.png"/>
+                        </figure>
+                    </p>
+                </div>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>The relationship between graphs and trees</head>
+                <p>Trees and graphs are closely related: An ordered tree is a special form of graph with the properties of 
+                    <hi rend="italic">a)</hi> it is a directed graph without cycles, 
+                    <hi rend="italic">b)</hi> has one designated root node and 
+                    <hi rend="italic">c)</hi> any node has exactly one parent node.
+                </p>
+                <p>As was shown in the previous basic examples, there is strictly no possibility to interconnect nodes of the tree across branches of the tree. By trying to associate two parents to one node, the tree paradigm is effectively abandoned, and results in a permanent need for case-specific handling to resolve potential ambiguities in the data.</p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Conclusion</head>
+                <p>Digital Editions wanting to model more than just simple structures can – notwithstanding the syntactical possibilities of XML – not be represented in interoperable ways within the paradigm of the tree data model, making longevity and uniformly re-usable digital archives impossible.</p>
+                <p>Alternative, graph-theoretic attempts to solve this problem have been suggested and could implement the 
+                    <hi rend="italic">TEI abstract model</hi> through an adequate data structure (Huitfeldt 1994; Barnard et al. 1995; Sperberg-McQueen and Huitfeldt 2000; Huitfeldt and Sperberg-McQueen 2001; Durusau and O'Donnell 2002; Tennison and Piez 2002; Dipper 2005; Dekhtyar and Iacob 2005; Banski and Przepiórkowski 2009; Di Iorio, Peroni, and Vitali 2010; Di Iorio, Peroni, and Vitali 2011; Schmidt and Colomb 2009; Schmidt 2014; Götze and Dipper 2006; Peroni, Vitali, and Di Iorio 2009; Witt 2007; Kuczera 2016).
+                </p>
+                <p>Yet, the question of an adequate serialisation and exchange format to any such data structure remains open. To be able to give guarantees of long term storage and archiving, any such serialisation format must be able to one-unambiguously represent the source as well as data structure. Ideally, any such serialisation format should be both machine readable as well as human intelligible and independent of existing computer hardware and software.</p>
+                <p>Previous graph-based approaches for the recording of complex textual data either did not catch on or have been abandoned for reasons of complexity in implementation or usage.</p>
+                <p>Because of the choice of data model, current repositories are idiosyncratic and tools and data must be handled on individual basis. In order to be able to build general digital archives fully interoperable data repositories are necessary. Interoperability is closely connected to the choice of data model. The TEI abstract model should be implemented as a graph structure, however, the graph structure is in need of a suitable exchange and serialisation format.</p>
+                <p>The commonly shared property between former graph-based approaches is the use of embedded markup. It is conjectured that future research on suitable serialisation formats for graph-based approaches should re-evaluate standoff based markup for the durable recording of Digital Editions.</p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>Banski, Piotr, and Adam Przepiórkowski. 2009. “Stand-Off TEI Annotation: The Case of the National Corpus of P
+                        <hi rend="italic">olish.” In Proceedings of the Third Linguistic Annotati</hi>on Workshop, 64–67. Association for Computational Linguistics.
+                    </bibl>
+                    <bibl>Barnard, David T, Lou Burnard, Jean-Pierre Gaspart, Lynne A Price, CM Sperberg-McQueen, and Giovanni Battista Varile. 1995. “Hierarchical Encoding of Text: Technical Problems and SGML Solutions.” In 
+                        <hi rend="italic">Text Encoding Initiative</hi>, 211–31. Springer.
+                    </bibl>
+                    <bibl>Dekhtyar, Alex, and Ionut E Iacob. 2005. “A Framework for Management of Concurrent XML Markup.” 
+                        <hi rend="italic">Data &amp; Knowledge Engineering</hi> 52 (2). Elsevier:185–208.
+                    </bibl>
+                    <bibl>DeRose, Steven J., David G. Durand, Elli Mylonas, and Allen H. Renear. 1990. “What is text, really.” 
+                        <hi rend="italic">Journal of Computing in Higher Education</hi> 1 (2). Springer Nature:3–26. 
+                        <ptr target="https://doi.org/10.1007/bf02941632"/>.
+                    </bibl>
+                    <bibl>Di Iorio, Angelo, Silvio Peroni, and Fabio Vitali. 2010. “Handling markup overlaps using OWL.” In 
+                        <hi rend="italic">Knowledge Engineering and Management by the Masses</hi>, 391–400. Springer.
+                    </bibl>
+                    <bibl>Di Iorio, Angelo, Silvio Peroni, and Fabio Vitali. 2011. “A Semantic Web Approach to Everyday Overlapping Markup.” 
+                        <hi rend="italic">Journal of the American Society for Information Science and Technology</hi> 62 (9). Wiley Online Library:1696–1716.
+                    </bibl>
+                    <bibl>Dipper, Stefanie. 2005. “XML-Based Stand-Off Representation and Exploitation of Multi-Level Linguistic Annotation.” In 
+                        <hi rend="italic">Berliner XML Tage</hi>, 39–50.
+                    </bibl>
+                    <bibl>Durusau, Patrick, and M Brook O'Donnell. 2002. “Concurrent Markup for XML Documents.” In 
+                        <hi rend="italic">Proc. XML Europe</hi>.
+                    </bibl>
+                    <bibl>Götze, Michael, and Stefanie Dipper. 2006. “ANNIS: Complex Multilevel Annotations in a Linguistic Database.” In 
+                        <hi rend="italic">Proceedings of the 5</hi>
+                        <hi rend="sup italic">th</hi>
+                        <hi rend="italic"> Workshop on NLP and XML: Multi-Dimensional Markup in Natural Language Processing</hi>, 61–64. Association for Computational Linguistics.
+                    </bibl>
+                    <bibl>Hanrahan, Elise. 2015. “Over-Tagging with XML in Digital Scholarly Editions.” In 
+                        <hi rend="italic">DHd2015 Conference – von Daten Zu Erkenntnissen. Book of Abstracts.</hi>, edited by Various, 162–65. Graz, Austria.
+                    </bibl>
+                    <bibl>Huitfeldt, Claus. 1994. “Multi-Dimensional Texts in a One-Dimensional Medium.” 
+                        <hi rend="italic">Computers and the Humanities</hi> 28 (4-5). Springer:235–41.
+                    </bibl>
+                    <bibl>Huitfeldt, Claus, and CM Sperberg-McQueen. 2001. “TexMECS: An Experimental Markup Meta-Language for Complex Documents.” 
+                        <hi rend="italic">URL Http://Www. Hit. Uib. No/Claus/Mlcd/Papers/Texmecs. Html</hi>.
+                    </bibl>
+                    <bibl>Kuczera, Andreas. 2016. “Digital Editions Beyond Xml – Graph-Based Digital Editions.” In 
+                        <hi rend="italic">Proceedings of the 3</hi>
+                        <hi rend="sup italic">rd</hi>
+                        <hi rend="italic"> Histoinformatics Workshop on Computational History (Histoinformatics 2016)</hi>, edited by Johannes Preiser-Kappeller Marten Düring Adam Jatowt.
+                    </bibl>
+                    <bibl>Peroni, Silvio, Fabio Vitali, and Angelo Di Iorio. 2009. “Towards markup support for full GODDAGs and beyond: the EARMARK approach.” 
+                        <ptr target="https://doi.org/10.4242/BalisageVol3.Peroni01"/>.
+                    </bibl>
+                    <bibl>Renear, Allen H, Elli Mylonas, and David Durand. 1993. “Refining Our Notion of What Text Really Is: The Problem of Overlapping Hierarchies.” Oxford University Press.</bibl>
+                    <bibl>Schmidt, Desmond. 2014. “Towards an Interoperable Digital Scholarly Edition.” 
+                        <hi rend="italic">Journal of the Text Encoding Initiative</hi>, no. 7. Text Encoding Initiative Consortium.
+                    </bibl>
+                    <bibl>Schmidt, Desmond, and Robert Colomb. 2009. “A Data Structure for Representing Multi-Version Texts Online.” 
+                        <hi rend="italic">International Journal of Human-Computer Studies</hi> 67 (6). Elsevier:497–514.
+                    </bibl>
+                    <bibl>Schmidt, Thomas, Christian Chiarcos, Timm Lehmberg, Georg Rehm, Andreas Witt, and Erhard Hinrichs. 2006. “Avoiding Data Graveyards: From Heterogeneous Data Collected in Multiple Research Projects to Sustainable Linguistic Resources.” In 
+                        <hi rend="italic">6</hi>
+                        <hi rend="sup italic">th</hi>
+                        <hi rend="italic"> E-Meld Workshop, Ypsilanti</hi>.
+                    </bibl>
+                    <bibl>Sperberg-McQueen, C Michael, and Claus Huitfeldt. 2000. “GODDAG: A Data Structure for Overlapping Hierarchies.” In 
+                        <hi rend="italic">Digital Documents: Systems and Principles</hi>, 139–60. Springer.
+                    </bibl>
+                    <bibl>TEI Consortium. 2016a. “A Gentle Introduction to XML” In 
+                        <hi rend="italic">TEI P5: Guidelines for Electronic Text Encoding and Interchange</hi>, by TEI Consortium, Version 3.2.0. Last updated on 10th July 2017, revision 0fcf651. 
+                        <ptr target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/SG.html#SG152"/>.
+                    </bibl>
+                    <bibl>———. 2016b. “About These Guidelines.” In 
+                        <hi rend="italic">TEI P5: Guidelines for Electronic Text Encoding and Interchange</hi>, by TEI Consortium, Version 3.2.0. Last updated on 10th July 2017, revision 0fcf651. 
+                        <ptr target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/AB.html"/>.
+                    </bibl>
+                    <bibl>———. 2016c. “Design Principles.” In 
+                        <hi rend="italic">TEI P5: Guidelines for Electronic Text Encoding and Interchange</hi>, by TEI Consortium, Version 3.2.0. Last updated on 10th July 2017, revision 0fcf651. 
+                        <ptr target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/AB.html#ABTEI2"/>.
+                    </bibl>
+                    <bibl>———. 2016d. “Non-Hierarchical Structures.” In 
+                        <hi rend="italic">TEI P5: Guidelines for Electronic Text Encoding and Interchange</hi>, by TEI Consortium, Version 3.2.0. Last updated on 10th July 2017, revision 0fcf651. 
+                        <ptr target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/NH.html"/>.
+                    </bibl>
+                    <bibl>Tennison, Jeni, and Wendell Piez. 2002. “The Layered Markup and Annotation Language (LMNL).” In 
+                        <hi rend="italic">Extreme Markup Languages</hi>.
+                    </bibl>
+                    <bibl>Witt, Andreas. 2007. “Guideline: Multiple Hierarchies.” In 
+                        <hi rend="italic">Dagstuhl Seminar Proceedings</hi>. Schloss Dagstuhl-Leibniz-Zentrum für Informatik.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

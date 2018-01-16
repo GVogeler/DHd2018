@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title> Wenn der Funke überspringt – Word Embeddings im Dienst der Wissenschaftsgeschichte</title>
+                <author>
+                    <persName>
+                        <surname>Hellrich</surname>
+                        <forename>Johannes</forename>
+                    </persName>
+                    <affiliation>Graduiertenkolleg „Modell Romantik“, Friedrich-Schiller-Universität Jena, Jena, Deutschland; Jena University Language &amp; Information Engineering Lab (JULIE Lab), Friedrich-Schiller-Universität Jena, Jena, Deutschland</affiliation>
+                    <email>johannes.hellrich@uni-jena.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Stöger</surname>
+                        <forename>Alexander</forename>
+                    </persName>
+                    <affiliation>Graduiertenkolleg „Modell Romantik“, Friedrich-Schiller-Universität Jena, Jena, Deutschland</affiliation>
+                    <email>alexander.stoeger@uni-jena.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Hahn</surname>
+                        <forename>Udo</forename>
+                    </persName>
+                    <affiliation>Jena University Language &amp; Information Engineering Lab (JULIE Lab), Friedrich-Schiller-Universität Jena, Jena, Deutschland</affiliation>
+                    <email>udo.hahn@uni-jena.de</email>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2015-10-04T22:02:00Z</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Prof. Dr. Georg Vogeler</publisher>
+                <address>
+                    <addrLine>UniversitÃ¤t Graz</addrLine>
+                    <addrLine>Zentrum fÃ¼r Informationsmodellierung - Austrian Centre for Digital Humanities</addrLine>
+                    <addrLine>ElisabethstraÃ&#x9f;e 59/III</addrLine>
+                    <addrLine>8010 Graz</addrLine>
+                </address>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Converted from a Word document </p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.17">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Vortrag</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Wissenschaftsgeschichte</term>
+                    <term>Diachrone Sprachwissenschaft</term>
+                    <term>Semantik</term>
+                    <term>Distributionelle Semantik</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Entdeckung</term>
+                    <term>Inhaltsanalyse</term>
+                    <term>Modellierung</term>
+                    <term>Text</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="div1" rend="DH-Heading1">
+                <head>Einleitung</head>
+                <p>Das moderne Verständnis von Elektrizität fußt auf wissenschaftlichen Entdeckungen des 17. und 18. Jahrhunderts, die die technische Nutzbarmachung ab dem 19. Jahrhundert ermöglichten. Unsere Studie wendet state-of-the-art Methoden der distributionellen diachronen Semantik an, um dies anhand des damit einhergehenden Wandels der Wortsemantik von 
+                    <hi rend="italic">Elektrizität, electricity, elektrisch, electrical, Funken </hi>und 
+                    <hi rend="italic">spark</hi> nachzuvollziehen. 
+                    <note place="foot" xml:id="ftn1" n="1">
+                        <p rend="footnote text"> Im Folgenden wird 
+                            <hi rend="italic">kursiv</hi> verwendet um untersuchte Wörter vom sonstigen Text abzusetzen.
+                        </p>
+                    </note> Im Fokus liegt die Entwicklung der menschlichen Wahrnehmung eines Phänomens, das zuerst als nur schwer begreifliche Naturerscheinung galt, bevor es durch wissenschaftliche Experimente zu einer erklärten Kraft und einem unverzichtbaren Teil des menschlichen Alltags wurde. Wir sind von anderen Studien zur Entwicklung wissenschaftlicher Konzepte (Hall u.a. 2008; Mimno 2012; Fankhauer u.a. 2016; Schumann 2016) inspiriert, die die Entwicklung von Wortgruppen beschreiben (vgl. etwa Topic Modelling nach Blei u.a. (2003)). Dagegen untersuchen wir einzelne Wörter, um differenzierte Aussagen zur Entwicklung des Konzepts Elektrizität machen zu können, das insbesondere in seinem frühen Untersuchungsstadium noch stark fluktuiert.
+                </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Methoden</head>
+                <p>Die von uns verwendeten Verfahren der distributionellen Semantik basieren auf der strukturalistischen Annahme, dass die Semantik von Wörtern über die typischerweise in ihrer Nähe stehenden Wörter approximiert werden kann, prägnant zusammengefasst: “You shall know a word by the company it keeps!” (Firth 1957: 11). Zur Durchführung unserer Experimente nutzen wir JeSemE
+                    <note place="foot" xml:id="ftn2" n="2">
+                        <p> www.jeseme.org</p>
+                    </note> (Hellrich u. Hahn 2017b). JeSemE basiert auf Word Embeddings, einer state-of-the-art distributionellen Methode zur Messung von Wortähnlichkeit. Word Embeddings sind niedrigdimensionale
+                    <note place="foot" xml:id="ftn3" n="3">
+                        <p> Typischerweise einige wenige hundert Dimensionen, in JeSemE kommen 500 zum Einsatz.</p>
+                    </note> Vektorrepräsentationen, die die Semantik von Wörtern anhand aller Kontexte repräsentieren, in denen Wörter in einem Korpus beobachtet wurden. Somit benötigen sie keinerlei manuell erstellte Wissensbasis (Wörterbücher oder Ontologien), sondern nur Korpora. Der populärste Algorithmus zur Erzeugung von Word Embeddings ist word2vec (Mikolov u.a. 2013), jedoch kommt in JeSemE stattdessen SVD
+                    <hi rend="subscript">PPMI</hi> (Levy u.a. 2015) zur Anwendung. Grund für diese Entscheidung ist dessen hohe Reliabilität, wohingegen mit word2vec durchgeführte Experimente nur bedingt wiederholbar sind (Hellrich u. Hahn 2017a). Durch Word Embeddings, die mit Texten aufeinanderfolgender Zeitabschnitte trainiert wurden, kann die diachrone semantische Entwicklung von Wörtern nachvollzogen werden, indem man die zum jeweiligen Zeitpunkt ähnlichsten Wörter ermittelt (Kim u.a. 2014; Kulkarni u.a. 2015; Hamilton u.a. 2016; Hellrich u. Hahn 2016; Jo 2016). Außerdem kann JeSemE anhand der statistischen Maße PPMI (Bullinaria u.a. 2007) und ᵪ
+                    <hi rend="superscript">2</hi> (vgl. etwa Manning u. Schütze (1999)) die spezifischsten Kontextwörter eines Worts identifizieren, also Wörter, die häufiger in seiner Nähe stehen, als auf Grund zufälliger Prozesse zu erwarten wäre. Letzteres dient als Plausibilitätscheck für die mittels Word Embeddings ermittelte Ähnlichkeit.
+                </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Korpora</head>
+                <p>Die beiden von uns untersuchten Korpora sind das Kernkorpus des Deutschen Textarchivs (DTA; Geyken (2013)), das deutschsprachige Sachtexte und literarische Texte des 17. bis 19. Jahrhunderts sammelt, und das Royal Society Corpus (RSC; Kermes u.a. (2016)), das die ersten beiden Jahrhunderte der „Philosophical Transactions of the Royal Society of London“ (1665–1869, älteste wissenschaftliche Zeitschrift in englischer Sprache) beinhaltet. Tabelle 1 zeigt die Kerndaten der von JeSemE prozessierten Korpora, dabei wurden die Korpora in Zeitabschnitte mit ähnlichen Textmengen unterteilt
+                    <note place="foot" xml:id="ftn4" n="4">
+                        <p rend="footnote text"> Grundsätzlich decken beide Korpora längere Zeiträume ab als in den in JeSemE genutzten Versionen, das ein Mindestmaß an Text für die angemessene Modellierung der Wortsemantik benötigt. </p>
+                    </note>. Beide Korpora sind mit Informationen zur orthographischen Normalisierung und Lemmatisierung annotiert, die von uns genutzt wurde. 
+                </p>
+                <figure>
+                    <graphic n="1001"
+                        width="16.002cm"
+                        height="2.4500416666666665cm"
+                        url="Pictures/image1.png"
+                        rend="inline"/>
+                    <head>
+                        <hi rend="italic">Tabelle </hi>
+                        <hi rend="italic"> 1: Kerndaten der verwendeten Korpora.</hi>
+                    </head>
+                </figure>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Ergebnisse</head>
+                <p>Ausgehend vom wissenschaftshistorischen Forschungsstand ist mit einer semantischen Entwicklung von 
+                    <hi rend="italic">Elektrizität</hi> und 
+                    <hi rend="italic">electricity</hi> zu rechnen, die weg von beobachteten Naturphänomenen und hin zu kontrollierten Experimenten und systematisch erfassten Grundsätzen führt (Home 2016: 368–71). Wir testeten diese Hypothese, indem wir mittels JeSemE die Ähnlichkeit der beiden Wörter zu anderen bestimmten, die im historischen naturwissenschaftlichen Diskurs relevant waren.
+                </p>
+                <p>Die Abbildungen
+                    <note place="foot" xml:id="ftn5" n="5">
+                        <p> Die Darstellungsarten für DTA und RSC wurden entsprechend der jeweils für die Analyse nutzbaren Zeitabschnitte gewählt. Alternative Dartellungen wie in Kulkarni u.a. (2015) oder Hamilton u.a. (2016), die Bewegungen innerhalb einer Art Wordcloud nutzen, wurden verworfen, da sie fälschlicherweise eine statische Semantik der Vergleichswörter implizieren.</p>
+                    </note> 1 und 2 zeigen diese Entwicklung für 
+                    <hi rend="italic">electricity</hi> im Englischen und 
+                    <hi rend="italic">Elektrizität</hi> im Deutschen. Die Ergebnisse entsprechen der Hypothese, 
+                    <hi rend="italic">electricity</hi> wird den mit Experimentalaufbauten verbundenen Wörtern 
+                    <hi rend="italic">spark</hi> [‚Funke‘] und 
+                    <hi rend="italic">conductor</hi> [‚Leiter‘] im Lauf der Zeit immer ähnlicher, während die Ähnlichkeit zu 
+                    <hi rend="italic">lightning</hi> [‚Blitz‘] abnimmt. Analoge Entwicklungen sind auch für 
+                    <hi rend="italic">Elektrizität</hi> im DTA erkennbar, besonders deutlich für die Ähnlichkeit zu 
+                    <hi rend="italic">Blitz</hi>. Dem zunehmenden theoretischen Verständnis entspricht die steigende Ähnlichkeit zu 
+                    <hi rend="italic">magnetism</hi> [‚Magnetismus‘] beziehungsweise 
+                    <hi rend="italic">Magnet </hi>— die Entdeckung des Elektromagnetismus im 19. Jahrhundert führte zu einer Vielzahl wissenschaftlicher Publikationen durch Forscher wie Michael Faraday, einem Mitglied der Royal Society.
+                </p>
+                <figure>
+                    <graphic n="1002"
+                        width="16.002cm"
+                        height="6.062133333333334cm"
+                        url="Pictures/image2.png"
+                        rend="inline"/>
+                </figure>
+                <p>
+                    <hi rend="italic">Abbildung </hi>
+                    <hi rend="italic"> 1: Ähnlichkeit ausgewählter Wörter zu ‚electricity’ im RSC.</hi>
+                </p>
+                <figure>
+                    <graphic n="1003"
+                        width="16.002cm"
+                        height="6.637866666666667cm"
+                        url="Pictures/image3.png"
+                        rend="inline"/>
+                </figure>
+                <p>
+                    <hi rend="italic">Abbildung </hi>
+                    <hi rend="italic"> 2: Ähnlichkeit ausgewählter Wörter zu ‚Elektrizität’ im DTA.</hi>
+                </p>
+                <p>Die Analyse spezifischer Kontextwörter (mittels normalisiertem ᵪ
+                    <hi rend="superscript">2</hi>) weist auf einen engen Zusammenhang mit elektrischen Ladungen in DTA und RSC hin, wie in Abbildungen 3 für das RSC gezeigt. Dabei werden 
+                    <hi rend="italic">vitreous</hi> [‚gläsern‘] und 
+                    <hi rend="italic">resinous</hi> [‚harzig‘] in den historischen Texten entsprechend ihrer elektrischen Eigenschaften synonym zu 
+                    <hi rend="italic">negative</hi> und 
+                    <hi rend="italic">positive</hi> verwendet (siehe etwa Lichtenberg u. Erxleben (1787: 434)).
+                </p>
+                <figure>
+                    <graphic n="1004"
+                        width="16.002cm"
+                        height="6.671733333333333cm"
+                        url="Pictures/image4.png"
+                        rend="inline"/>
+                    <head>
+                        <hi rend="italic">Abbildung </hi>
+                        <hi rend="italic"> 3: Spezifische Kontextwörter für ‚electricity’ im RSC.</hi>
+                    </head>
+                </figure>
+                <p>Ein weiterer klarer Hinweis auf das steigende Verständnis elektrischer Phänomene ist die Entwicklung der Adjektive 
+                    <hi rend="italic">electrical </hi>und 
+                    <hi rend="italic">elektrisch. </hi>Für diese ist ein starker Rückgang der Spezifität von 
+                    <hi rend="italic">Materie, </hi>respektive 
+                    <hi rend="italic">matter</hi>, erkennbar, wie in Abbildung 4 für das DTA gezeigt. Dies entspricht der bis ins 19. Jahrhundert verbreiteten Idee einer 
+                    <hi rend="italic">electrical matter</hi> [‚Elektrisches Fluidum‘], einer abstrakten und unspezifizierten Kraft, die auch als Erklärung für Lebensvorgänge verwendet wurde (Steigerwald 2013). Auffällig ist die unterschiedliche Entwicklung von 
+                    <hi rend="italic">Funken</hi> und 
+                    <hi rend="italic">spark</hi> – während die Spezifizität von ersterem stetig sinkt, ist die von letzterem vergleichsweise konstant. Funkenbildung war Teil vieler populärer Schauexperimente zur Elektrizität, so beispielsweise bei der „Elektrischen Apotheose“, bei der ein künstlicher Heiligenschein erzeugt wurde (Hochadel 2006: 528).
+                </p>
+                <figure>
+                    <graphic n="1005"
+                        width="13.687127777777778cm"
+                        height="8.067438888888889cm"
+                        url="Pictures/image5.png"
+                        rend="inline"/>
+                    <head>
+                        <hi rend="italic">Abbildung </hi>
+                        <hi rend="italic"> 4: Ähnlichkeit ausgewählter Wörter zu ‚spark’ im RSC.</hi>
+                    </head>
+                </figure>
+                <p>Diesem Unterschied zwischen DTA und RSC entspricht, dass das Wort 
+                    <hi rend="italic">Funken</hi> eine vergleichsweise konstante Ähnlichkeit zu 
+                    <hi rend="italic">Feuer </hi>und 
+                    <hi rend="italic">Flamme</hi> hat, während die Ähnlichkeit von 
+                    <hi rend="italic">spark</hi> und 
+                    <hi rend="italic">fire</hi> bzw. 
+                    <hi rend="italic">flame</hi> ab Mitte des 19. Jahrhunderts abnimmt, wie in Abbildung 5 gezeigt. Mögliche Erklärungen sind sowohl sprachspezifische semantische Unterschiede, als auch die unterschiedliche Zusammensetzung der beiden Korpora, wie etwa eine Wechselwirkung der im DTA enthaltenen literarischen Texte (vgl. etwa „Wenn er dich mit seinem Auge electrisirt, fühl es, daß es ein königlicher Funke sey” (Hippel 1781: 28)). Wissenschaftshistorische Studien legen aber auch nahe, dass die im 18. Jahrhundert mit Elektrizität durchgeführten Experimente bis ins 19. Jahrhundert länger und öfter wiederholt und erweitert wurden, als das im deutschen Sprachraum der Fall war. Während die Erscheinung dort zum Ausgang des 18. Jahrhunderts abnahm und rasch zum Elektromagnetismus umgedeutet wurde, verlieren die Elektrizitätsexperimente in Großbritannien nicht an Beliebtheit (vgl. Morus (1998)).
+                </p>
+                <figure>
+                    <graphic n="1006"
+                        width="14.289447222222222cm"
+                        height="5.7794694444444445cm"
+                        url="Pictures/image6.png"
+                        rend="inline"/>
+                    <head>
+                        <hi rend="italic">Abbildung </hi>
+                        <hi rend="italic"> 5: Spezifische Kontextwörter für ‚elektrisch’ im DTA.</hi>
+                    </head>
+                </figure>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Schluss</head>
+                <p>Durch die Anwendung von state-of-the-art Methoden der distributionellen diachronen Semantik konnten wir unsere Hypothese zur Entwicklung des Verständnisses von Elektrizität, weg von einem in der Natur beobachteten Phänomen und hin zu etwas im Labor Erzeugtem, das mit anderen Phänomenen wie Magnetismus kombiniert untersucht wird, bestätigen. Dazu erkundeten wir die semantische Entwicklung der Wörter 
+                    <hi rend="italic">Elektrizität, electricity, elektrisch, electrical, Funken </hi>und 
+                    <hi rend="italic">spark</hi> mittels des SVD
+                    <hi rend="subscript">PPMI </hi>Word Embedding Verfahrens und des statistischen Maßes ᵪ
+                    <hi rend="superscript">2</hi>. Die Bestätigung unserer Erwartung, die auf dem wissenschaftsgeschichtlichen Forschungsstand basiert, sehen wir als Hinweis für die methodologische Eignung unserer Herangehensweise. 
+                </p>
+                <p>Wir konnten JeSemE erfolgreich zur Bestätigung bereits bestehender Thesen, die auf close-reading-Methoden aufbauen, einsetzen. Wir hoffen, darauf aufbauend Arbeitsabläufe zu entwickeln, die einen gezielten Zugang zu forschungsrelevanten Texten innerhalb umfangreicher Textkorpora wie historische Fachzeitschriften ermöglichen und somit close und distant reading (vgl. Moretti (2013)) verbinden. Die Analyse der Bedeutungsentwicklung über lange Zeiträume und mehrere internationale Korpora hinweg eröffnet neue Forschungsperspektiven, durch die bisher unzugängliche Eigenheiten oder Veränderungen erkennbar werden. Offen bleibt die Frage, wie unsere fokussierte Betrachtung von Einzelwörtern am besten mit der abstrakteren Analyse von Konzepten — dem in der aktuellen Forschung dominierenden Ansatz — verbunden werden kann.</p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Danksagung</head>
+                <p>Die beschriebenen Arbeiten wurden von der Deutschen Forschungsgemeinschaft im Rahmen des Graduiertenkollegs „Modell 'Romantik'“ (GRK 2041/1) gefördert.</p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl>
+                        <hi rend="bold color(333333)">Blei, David M. / Ng, Andrew Y. / Jordan, Michael I. </hi>
+                        <hi rend="color(333333)">(2003): "Latent Dirichlet Allocation", in: </hi>
+                        <hi rend="italic color(333333)">The Journal of Machine Learning Research </hi>
+                        <hi rend="color(333333)">3: 993–1022.</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold color(333333)">Bullinaria, John A. / Levy, Joseph P.</hi>
+                        <hi rend="color(333333)"> (2007): "Extracting semantic representations from word co- occurrence statistics: A computational study", in: </hi>
+                        <hi rend="italic color(333333)">Behavior Research Methods</hi>
+                        <hi rend="color(333333)"> 39(3):510–26.</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold color(333333)">Fankhauser, Peter / Knappen, Jörg / Teich, Elke (2016): </hi>
+                        <hi rend="color(333333)">"Topical diversification over time in the royal society corpus", in: </hi>
+                        <hi rend="italic color(333333)">Digital Humanities 2016 </hi>
+                        <hi rend="color(333333)">496–500.</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold color(333333)">Firth, John Rupert </hi>
+                        <hi rend="color(333333)">(1957): "A synopsis of Linguistic Theory, 1930–1955", in: </hi>
+                        <hi rend="italic color(333333)">Studies in linguistic analysis</hi>
+                        <hi rend="color(333333)"> 1–32.</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold color(333333)">Geyken, Alexander</hi>
+                        <hi rend="color(333333)"> (2013): "Wege zu einem historischen Referenzkorpus des Deutschen: das Projekt Deutsches Textarchiv", in: </hi>
+                        <hi rend="italic color(333333)">Perspektiven einer corpusbasierten historischen Linguistik und Philologie</hi>
+                        <hi rend="color(333333)"> 221–34.</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold color(333333)">Hall, David / Jurafsky, Daniel / Manning, Christopher D.</hi>
+                        <hi rend="color(333333)"> (2008): "Studying the History of Ideas Using Topic Models", in: </hi>
+                        <hi rend="italic color(333333)">Proceedings of the 2008 Conference on Empirical Methods in Natural Language Processing</hi>
+                        <hi rend="color(333333)"> 363–71.</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold color(333333)">Hamilton, William L. / Leskovec, Jure / Jurafsky, Dan</hi>
+                        <hi rend="color(333333)"> (2016): "Diachronic Word Embeddings reveal sta- tistical laws of semantic change", in: </hi>
+                        <hi rend="italic color(333333)">Proceedings of the 54th Annual Meeting of the Association for Computational Linguistics</hi>
+                        <hi rend="color(333333)">1489–501.</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold color(333333)">Hellrich, Johannes / Hahn, Udo</hi>
+                        <hi rend="color(333333)"> (2016): "Measuring the Dynamics of Lexico-Semantic Change Since the German Romantic Period", in: </hi>
+                        <hi rend="italic color(333333)">Digital Humanities 2016</hi>
+                        <hi rend="color(333333)"> 545–7.</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold color(333333)">Hellrich, Johannes / Hahn, Udo</hi>
+                        <hi rend="color(333333)"> (2017a): "Don't Get Fooled by Word Embeddings-Better Watch their Neighborhood", in: </hi>
+                        <hi rend="italic color(333333)">Digital Humanities 2017</hi>
+                        <hi rend="color(333333)"> 250–2.</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold color(333333)">Hellrich, Johannes / Hahn, Udo</hi>
+                        <hi rend="color(333333)"> (2017b): "Exploring Diachronic Lexical Semantics with JeSemE", in: </hi>
+                        <hi rend="italic color(333333)">Proceedings of the 55th Annual Meeting of the Association for Computational Linguistics – System Demonstrations </hi>
+                        <hi rend="color(333333)">31–6.</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold color(333333)">Hippel</hi>
+                        <hi rend="color(333333)"> (1781): </hi>
+                        <hi rend="italic color(333333)">Lebensläufe nach Aufsteigender Linie</hi>
+                        <hi rend="color(333333)">. Meines Lebenslaufs Dritter Theil. Zweyter Band.</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold color(333333)">Hochadel, Oliver</hi>
+                        <hi rend="color(333333)"> (2006): „The Business of Experimental Physics: Instrument Makers and Itinerant Lecturers in the German Enlightenment“, in: </hi>
+                        <hi rend="italic color(333333)">Science &amp; Education 2007</hi>
+                        <hi rend="color(333333)"> 525–37.</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold color(333333)">Home, R. W.</hi>
+                        <hi rend="color(333333)"> (2016): „Experimental Physics“, in: Porter, Roy: </hi>
+                        <hi rend="italic color(333333)">The Cambridge History of Science, Volume 4: Eighteenth-Century Science </hi>
+                        <hi rend="color(333333)">363–71.</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold color(333333)">Jo, Eun Seo</hi>
+                        <hi rend="color(333333)"> (2016): "Diplomatic history by data. Understanding Cold War foreign policy ideology using networks and NLP", in: </hi>
+                        <hi rend="italic color(333333)">Digital Humanities 2016</hi>
+                        <hi rend="color(333333)"> 582–5.</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold color(333333)">Kermes, Hannah / Degaetano-Ortlieb, Stefania / Khamis, Ashraf / Knappen, Jörg / Teich, Elke</hi>
+                        <hi rend="color(333333)"> (2016): "The royal society corpus: From uncharted data to corpus", in: </hi>
+                        <hi rend="italic color(333333)">Proceedings of the Tenth International Conference on Language Resources and Evaluation </hi>
+                        <hi rend="color(333333)">1928–31.</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold color(333333)">Kim, Yoon / Chiu, Yi-I / Hanaki, Kentaro / Hegde, Darshan / Petrov, Slav</hi>
+                        <hi rend="color(333333)"> (2014): "Temporal analysis of language through neural language models", in: </hi>
+                        <hi rend="italic color(333333)">Proceedings of the Workshop on Language Technologies and Computational Social Science @ ACL 2014</hi>
+                        <hi rend="color(333333)"> 61–5.</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold color(333333)">Kulkarni, Vivek / Al-Rfou, Rami / Perozzi, Bryan / Skiena, Steven</hi>
+                        <hi rend="color(333333)"> (2015): "Statistically significant detection of linguistic change", in: </hi>
+                        <hi rend="italic color(333333)">Proceedings of the 24th International Conference on World Wide Web – Technical Papers</hi>
+                        <hi rend="color(333333)"> 625–35.</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold color(333333)">Levy, Omer / Goldberg, Yoav / Dagan, Ido</hi>
+                        <hi rend="color(333333)">(2015): "Improving distributional similarity with lessons learned from Word Embeddings", in: </hi>
+                        <hi rend="italic color(333333)">Transactions of the Association for Computational Linguistics</hi>
+                        <hi rend="color(333333)"> 3:211–25.</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold color(333333)">Lichtenberg, Georg Christoph / Erxleben, Johann Christian Polykarp</hi>
+                        <hi rend="color(333333)"> (1787): </hi>
+                        <hi rend="italic color(333333)">Anfangsgründe der Naturlehre</hi>
+                        <hi rend="color(333333)">. Dietrich, 4. Auflage.</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold color(333333)">Manning, Chris / Schütze, Hinrich</hi>
+                        <hi rend="color(333333)"> (1999): </hi>
+                        <hi rend="italic color(333333)">Foundations of Statistical Natural Language Processing.</hi>
+                        <hi rend="color(333333)"> MIT Press, Kapitel 5: Collocations.</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold color(333333)">Mikolov, Tomas / Chen, Kai / Corrado, Gregory S. / Dean, Jeffrey </hi>
+                        <hi rend="color(333333)">(2013): "Efficient estimation of word representations in vector space", in: </hi>
+                        <hi rend="italic color(333333)">Workshop Proceedings of the International Conference on Learning Representations</hi>
+                        <hi rend="color(333333)">https://arxiv.org/abs/1301.3781</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold color(333333)">Mimno, David </hi>
+                        <hi rend="color(333333)">(2012): "Computational historiography: Data mining in a century of classics journals", in: </hi>
+                        <hi rend="italic color(333333)">Journal on Computing and Cultural Heritage </hi>
+                        <hi rend="color(333333)">5(1): Article 3.</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold color(333333)">Moretti, Franco</hi>
+                        <hi rend="color(333333)"> (2013): </hi>
+                        <hi rend="italic color(333333)">Distant Reading</hi>
+                        <hi rend="color(333333)">. Verso.</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Morus, Iwan Rhys</hi> (1998): 
+                        <hi rend="italic">Frankenstein’s Children. Electricity, Exhibition, And Experiment in Early-Nineteenth-Century London.</hi> Princeton University Press.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold color(333333)">Schumann, Anne-Kathrin </hi>
+                        <hi rend="color(333333)">(2016): "Brave new world: Uncovering topical dynamics in the ACL anthology reference corpus using term life cycle information", in: </hi>
+                        <hi rend="italic color(333333)">Proceedings of the 10th SIGHUM Workshop on Language Technology for Cultural Heritage, Social Sciences, and Humanities @ ACL 2016</hi>
+                        <hi rend="color(333333)"> 1–11.</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold color(333333)">Steigerwald, Joan</hi>
+                        <hi rend="color(333333)"> (2013): "Rethinking organic vitality in Germany at the turn of the nineteenth century", in: Normandin, Sebastian / Wolfe, Charles T.: </hi>
+                        <hi rend="italic color(333333)">Vitalism and the Scientific Image in Post Enlightenment Life Science, 1800-2010</hi>
+                        <hi rend="color(333333)">, Springer, 51-75.</hi>
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

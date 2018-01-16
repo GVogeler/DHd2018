@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="full">
+                    <title type="main"> Die Angst vor dem „Elektronengehirn“: Topoi der Kybernetik-Kritik in der bundesdeutschen Nachkriegsphilosophie</title>
+                    <title type="sub"/>
+                </title>
+                <author>
+                    <persName>
+                        <surname>Heßbrüggen-Walter</surname>
+                        <forename>Stefan</forename>
+                    </persName>
+                    <affiliation>National Research University Higher School of Economics, Russland</affiliation>
+                    <email>shessbru@hse.ru</email>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2017-09-24T16:41:17.549655784</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Prof. Dr. Georg Vogeler</publisher>
+                <address>
+                    <addrLine>UniversitÃ¤t Graz</addrLine>
+                    <addrLine>Zentrum fÃ¼r Informationsmodellierung - Austrian Centre for Digital Humanities</addrLine>
+                    <addrLine>ElisabethstraÃ&#x9f;e 59/III</addrLine>
+                    <addrLine>8010 Graz</addrLine>
+                </address>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Converted from an OASIS Open Document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.17">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Vortrag</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Kybernetik</term>
+                    <term>Geschichte der DH</term>
+                    <term>Philosophie</term>
+                    <term>Theorie</term>
+                    <term>Wissenschaftspolitik</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Bewertung</term>
+                    <term>Forschungsprozess</term>
+                    <term>Forschungsergebnis</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="div1" rend="DH-Heading1">
+                <head>Mein Beitrag greift einen Diskurs auf, der meines Wissens selbst in der Wissenschaftsgeschichte der Kybernetik noch keine Beachtung gefunden hat und erst recht für die ‚Vorgeschichte‘ der digital humanities im deutschsprachigen Raum noch nicht ausgewertet worden ist: die philosophische Kritik der Kybernetik in der Bundesrepublik der 60er Jahre. Ich beschränke mich dabei exemplarisch auf die Analyse dreier Aufsätze, die in der Zeitschrift für philosophische Forschung zwischen den Jahren 1965 und 1970 veröffentlicht worden sind. Die Reihe eröffnete der Gründer und Herausgeber der Zeitschrift Georgi Schischkoff (Schischkoff 1965). Der zweite Text wurde vom in Karlsruhe lehrenden österreichischen Philosophen Simon Moser verfasst (Moser 1967). Sein Tübinger Kollege Walter Gölz äußerte sich abschließend (Gölz 1970). Mein Beitrag soll zur Genealogie heutiger Kritik digitaler Geisteswissenschaft beitragen.</head>
+                <p>In der Kybernetik wurden Regelungstheorie, Informationstheorie und Theorie der Nachrichtenverarbeitung zusammengeführt (Steinbuch 1963: 317). Sie sollte als „zukünftige Universalwissenschaft“ (Steinbuch 1963: 340) den „Weg zu einer neuen Einheit der Wissenschaften“ (Steinbuch 1963: 319) bahnen, indem sie Modelle und Erklärungsansätze der Technik auf die Erklärung von Lebewesen, insbesondere des Menschen, und Gesellschaften überträgt (Kline 2015: 11-12). Jedenfalls zielte sie auf den Abbau von Barrieren zwischen Disziplinen und Verbesserung des Austauschs zwischen ihnen beitragen (KLine 2015: 63). Der institutionelle Erfolg der Kybernetik trug jedoch zur Verwischung ihres Profils bei. Zugleich wuchs der Zweifel, ob ihre Versprechungen überhaupt einlösbar erschienen (Kline 2015: 179-181, Aumann 2015: 25).</p>
+                <p>Ähnlich wie die digitalen Geisteswissenschaften nutzte die Kybernetik also formalwissenschaftliche Werkzeuge zur Behandlung von Fragen, die auf den ersten Blick einer solchen Behandlung nicht zugänglich sind (Steinbuch 1963, 317). Hierzu zählten Analysen der Wahrnehmung ästhetischer Information (Steinbuch, 1963, 280) genauso wie der Plan einer formalen, aber qualitativen Informationstheorie (Steinbuch 1963, 315). Zu verweisen ist auch auf die Affinität zwischen Kybernetik und der Entwicklung strukturalistischer Linguistik, etwa bei Jakobson (Kline 2015, 41). „Das Eindringen der Kybernetik in die Geisteswissenschaft ist ein Markstein in der Geschichte der Wissenschaften.“ (Steinbuch 1963, 339) In den USA wurden Thesen der Kybernetik auch in der analytischen Philosophie und Wissenschaftstheorie rezipiert, nicht immer positiv (Kline 2015: 98-99).</p>
+                <p>Die Kybernetik-Kritik bundesdeutscher Philosophen fällt jedoch um einiges grundsätzlicher aus. Zunächst ist auf methodischer Ebene auf die Zuschreibung von ‚Kompetenz-Asymmetrie‘ hinzuweisen. Der Philosoph darf sich zur Kybernetik äußern, ohne über einschlägiges Fachwissen zu verfügen, denn dieses ist „hauptsächlich von technologischer Natur, und ihre Ausgangspunkte [sc. der Kybernetik] sowie speziell die anthropologischen Überlegungen und Analogien lassen sich im Rahmen allgemeiner philosophisch-methodologischer Interpretationen behandeln.“ (Schischkoff 1965: 251) Umgekehrt ist dem Kybernetiker die Beteiligung am philosophischen Diskurs zu verwehren, „weil ja die dürftigen philosophischen Voraussetzungen der Kybernetiker für eine Interpretation auf breiter Basis naturgemäß nicht ausreichen“ (Schischkoff 1965: 251). Ergänzend hinzu tritt die Argumentationsfigur der ‚Schuld durch Assoziierung‘. Durch Reduktion kybernetischer Thesen auf bekannte und im Diskurskontext als widerlegt geltende Positionen wird deren Haltlosigkeit offengelegt. So gilt der in der Kybernetik angeblich vorausgesetzte Physikalismus als „ein Beispiel höchster Steigerung des positivistischen Radikalismus“ (Schischkoff 1963: 252). 254-256). Der Materialismus ist falsch: die Psychologie setze Bewusstsein notwendig voraus und könne auf Introspektion nicht verzichten (Moser 1967, 65). Der Begriff des Wissens sei ebenfalls auf Bewusstsein verwiesen und deswegen kybernetischer Analyse prinzipiell unzugänglich (Gölz 1970, 256).</p>
+                <p>Auf der Sachebene kreisen die Argumente der Kybernetik-Kritik, sofern sie hier einschlägig sind, in der Hauptsache um drei Themen: den Begriff der Information, das Sprachverstehen und die Rolle der Formalwissenschaften Logik und Mathematik. Shannons Informationstheorie verzichtet, darin auch innerhalb der Kybernetik nicht unumstritten, auf jede Einbeziehung der Bedeutung sprachlicher Ausdrücke (Kline 2015: 15). Demgegenüber beharrt die Kybernetik-Kritik auf der Subjektgebundenheit des Begriffs: „Information über etwas gibt es nur von einem bewußten Wesen an ein anderes.“ (Moser 1965: 66) Sie ist „objektivierter Geist“, der immer nur „in bezug auf den Menschen Sinn und Bedeutung hat“ (Gölz 1970, 257). Entsprechend erfordern „geistig fundierte Texte“ – im Gegensatz zu bloßen inhaltlichen Mitteilungen – die Erfassung durch einen lebendigen Adressaten (Schischkoff 1965, 259). Eigentliches Lehren bedürfe der „lebendigen Sprache des Lehrers“,die „einen eigenen bildenden Wert hat“ (Schischkoff 1965, 267). Die Überschätzung der formalen Wissenschaften führe schließlich zu einem übersteigerten Rationalismus: die Kybernetik übersehe, dass sich die „innere geistig unerschöpfliche Sphäre des eigentlichen menschlichen Seins“ nicht in „rational erfaßbare[n] Strukturen“ abbilden lasse (Schischkoff 1965: 262). Die Mathematisierung der Kybernetik erzeuge „die Gefahr einer formallogischen und formal mathematischen Verdünnung des System- und Modellbegriffes gegenüber den materialkonkreten Bedürfnissen der Physik, Physiologie und Technik“ (Moser 1967: 67). Oder nach Gölz: „Die Fähigkeit der Maschinen, solche – im weitesten Sinne! – mechanischen Denkprozesse zu bewältigen, bestätigt aber nicht den ‚Geist‘ der Maschinen, sondern den mechanischen Charakter gewisser formaler Denkprozesse.“ (Gölz 1970: 259)</p>
+                <p>Ein solcher ‚seelenloser Materialismus‘ ist nicht nur abstrakt und theoretisch, sondern auch praktisch und politisch gefährlich. Der kybernetische Materialismus stehe im Bunde mit dem „östlichen“,also historischen oder dialektischen, Materialismus (Schischkoff 1965: 256). Besondere Aufmerksamkeit erhielt hier die wissenschaftspolitische Dimension. Die Entwicklung der Kybernetik wäre ohne politische Förderung und Patronage nicht möglich gewesen (Kline 2015: 99). Häufig diente der Begriff ‚Kybernetik‘ als Schlagwort, „um Entscheidungsträgern modernes und zukunftszugewandtes Denken zu demonstrieren.“ (Aumann 2015: 32). Dies blieb auch ihren philosophischen Kritikern nicht verborgen. Ein großes Risiko bildet hierbei nach Schischkoff die technische Anwendbarkeit der Kybernetik: „Datenverarbeitungsanlagen, die auch als ‚Elektronengehirne‘ bezeichnet werden, lernende Automaten und Rechenmaschinen sind dafür weitbekannte Beispiele.“ (Schischkoff 1965: 250) Philosophen hingegen dürften wohl kaum über Patente verfügen (Schischkoff 1965: 250). Es folge vermutlich die „rasche Errichtung von Lehrstellen für Kybernetik, für die sich die finanziellen Mittel viel leichter finden, als etwa für die Errichtung neuer geisteswissenschaftlicher und philosophischer Lehrstühle.“ (Schischkoff 1965: 250) Dies gefährde die „bisherige Vordergrundstellung der klassischen Disziplinen des Geistes zumindest hinsichtlich deren praktischer Förderung“ (Schischkoff 1965: 250). Kybernetik schicke sich an, „an Stelle der Geisteswissenschaften und Philosophie treten zu können“.Dies werde zum „Aussterben der geistigen Elite“ führen (Schischkoff 1965: 266). Einzig die Philosophie erscheint einstweilen vor dem Zugriff eines solchen Imperialismus gefeit: „Die Forschungsarbeit tiefschürfenden philosophischen Denkens kann ihrem Wesen nach zum Glück nicht zu einem Spezialistentum der Modelltechnik führen, so daß also ein direkter Verrat des eigenen Faches undenkbar erscheint.“ (Schischkoff 1965: 275).</p>
+                <p>Die hier referierten methodischen Einwände erscheinen aus heutiger Perspektive sophistisch: eine durchgreifende Kritik digitaler Vernunft ist ohne vertiefte Kenntnis des kritisierten Sachgebiets kaum denkbar. So wäre auch der Schuldzuschreibung durch Assoziierung vorzubeugen: zu behandeln sind die konkreten Erzeugnisse digitaler Forschung, nicht deren vorgeblicher Zusammenhang mit angeblich haltlosen Lehrgebäuden. Bedenkenswert erscheint hingegen weiterhin die Frage, in welchem Ausmaß digitale Forschung in den Geisteswissenschaften die lebensweltliche Verankerung verwendeter Begriffe in Frage stellen darf, wie dies die kybernetische Informationstheorie vorschlug. Umgekehrt muss sich manche Kritik der digitalen Geisteswissenschaften vielleicht die Rückfrage gefallen lassen, inwiefern sie ähnlich wie ihre Vorläufer einem überkommenen Elite-Verständnis anhängt, das die Gabe zu geisteswissenschaftlicher Forschung in der ‚geistig unerschöpflichen Sphäre‘ besonders begabter Individuen verortet.</p>
+                <p>Auf disziplinpolitischer Ebene erlaubt die hier vorgeschlagene Rekonstruktion ebenfalls einige Schlussfolgerungen. So wie sich der Aufstieg der Kybernetik konkretem politischem Willen verdankte, war auch ihr Abstieg nicht zuletzt der immer größer werdenden Diskrepanz zwischen Anspruch und Wirklichkeit und dem damit einhergehenden Entzug politischen Wohlgefallens geschuldet. Wollen die digitalen Geisteswissenschaften diesem Schicksal entgehen, sollte die Sorge aber nicht allein ihrer materiellen und politischen Basis gelten, sondern auch ihrem theoretischen Überbau. Eine vorurteilsfreie Bestimmung der Grenzen digitaler Vernunft ist hierfür sicherlich ein erster Schritt, eine von gedanklicher Offenheit geprägte Auseinandersetzung über das Verhältnis digitaler und außerdigitaler Forschungspraxen vielleicht der zweite. An beidem hat es in der Auseinandersetzung über die Rolle der Kybernetik sicherlich gemangelt. Es wäre an uns, zumindest diese Fehler nicht zu wiederholen.</p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl>
+                        <hi rend="bold">Aumann, Philipp</hi> (2015): „Neues Denken in Wissenschaft und Gesellschaft: Die Kybernetik in der Mitte des 20. Jahrhunderts“ in: Jeschke, Sabina / Dröge, Alicia / Schmitt, Robert (eds.): 
+                        <hi rend="italic">Exploring Cybernetics: Kybernetik im interdisziplinären Diskurs</hi>, Wiesbaden: Springer Fachmedien 21-40
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Gölz, Walter</hi> (1970): „Philosophisches Problembewußtsein und kybernetische Theorie“,in: 
+                        <hi rend="italic">Zeitschrift für philosophische Forschung</hi> 24: 253-264
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Kline, Ronald R</hi> (2015): 
+                        <hi rend="italic">The Cybernetics Moment. Or Why we Call Our Age the Information Age</hi>. Baltimore: Johns Hopkins University Press
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Moser, Simon</hi> (1967): „Zur philosophischen Diskussion der Kybernetik in der Gegenwart“,in: 
+                        <hi rend="italic">Zeitschrift für philosophische Forschung</hi> 21: 64-77
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Schischkoff, Georgi</hi> (1965): „Philosophie und Kybernetik. Zur Kritik am kybernetischen Positivismus“,in: 
+                        <hi rend="italic">Zeitschrift für philosophische Forschung</hi> 19: 248-278
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Steinbuch, Karl</hi> (1963): 
+                        <hi rend="italic">Automat und Mensch: Kybernetische Tatsachen und Hypothesen</hi>. Berlin / Göttingen / Heidelberg: Springer Verlag OHG 
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

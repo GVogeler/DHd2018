@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>CLARIN Legal Information Plattformen und Legal Helpdesk</title>
+                <author>
+                    <persName>
+                        <surname>Kamocki</surname>
+                        <forename>Pawel</forename>
+                    </persName>
+                    <affiliation>WWU Münster, Germany; IDS Mannheim; ELDA, France</affiliation>
+                    <email>pawel.kamocki@gmail.com</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Ketzan</surname>
+                        <forename>Erik</forename>
+                    </persName>
+                    <affiliation>Birkbeck, University of Lonfon</affiliation>
+                    <email>eketzan@gmail.com</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Wildgans</surname>
+                        <forename>Julia</forename>
+                    </persName>
+                    <affiliation>IDS Mannheim; Universität Mannheim</affiliation>
+                    <email>j.wildgans@googlemail.com</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Witt</surname>
+                        <forename>Andreas</forename>
+                    </persName>
+                    <affiliation>IDS Mannheim; Universität zu Köln</affiliation>
+                    <email>witt@ids-mannheim.de</email>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2017-09-25T17:55:00Z</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Prof. Dr. Georg Vogeler</publisher>
+                <address>
+                    <addrLine>UniversitÃ¤t Graz</addrLine>
+                    <addrLine>Zentrum fÃ¼r Informationsmodellierung - Austrian Centre for Digital Humanities</addrLine>
+                    <addrLine>ElisabethstraÃ&#x9f;e 59/III</addrLine>
+                    <addrLine>8010 Graz</addrLine>
+                </address>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Converted from a Word document </p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.17">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Poster</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Recht</term>
+                    <term>Information</term>
+                    <term>Forschung</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Projekte</term>
+                    <term>Forschung</term>
+                    <term>Forschungsprozess</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>Wissenschaftler im Bereich der Digital Humanities sind ständig auf einen Zugang zu vertrauenswürdigen und zuverlässigen rechtlichen Informationen angewiesen. Die entscheidenden rechtlichen Herausforderungen stellen sich vor allem im Immaterialgüterrecht (insbesondere in Bezug auf das Urheberrecht, das sui generis-Recht für Datenbanken und das verwandte Schutzrecht für den Verfasser von wissenschaftlichen Ausgaben) und im Datenschutzrecht. Daher ist es sinnvoll, beides bereits in der Anfangsphase jedes Projekts zu berücksichtigen, um rechtliche Probleme in späteren Projektphasen und das Scheitern von Forschungsprojekten zu vermeiden.</p>
+            <p>Allerdings erscheint eine ständige Information über die rechtlichen Rahmenbedingungen vor dem Hintergrund der ständigen Änderungen der Gesetze, die die neuen Technologien betreffen, sehr schwierig. Auch in 2018 wird es sowohl im deutschen als auch im europäischen Datenschutzrecht wesentliche Änderungen geben, die Auswirkungen auf die Erhebung, den Zugang und die Verwendung von Forschungsdaten haben werden. Darüber hinaus wird derzeit über den Entwurf einer neuen Richtlinie im Urheberrecht diskutiert, die möglicherweise schon bald verabschiedet wird. All diese Änderungen im Blick zu behalten erfordert jedenfalls regelmäßigen Zugang zu aktuellen rechtlichen Informationen.</p>
+            <p>Daher haben Pawel Kamocki und Erik Ketzan im Jahr 2012 die CLARIN-D Legal Information Plattform für DH Forscher in Deutschland aufgesetzt: Sie ist sowohl in deutscher als auch in englischer Sprache verfügbar. 2016 folgte die CLARIN Legal Information Plattform für Wissenschaftler aus den übrigen CLARIN Consortium Ländern, die bisher lediglich in englischer Sprache abrufbar ist. Beide Webseiten stellen in verschiedenen Artikeln und Formaten (derzeit insgesamt ca. 25.000 Wörter) rechtliche Informationen für den Bereich der Digital Humanities bereit und streben dabei danach, die umfangreichste und aktuellste Wissensressource für Wissenschaftler zu sein.</p>
+            <p>Sie enthalten Erklärungen zu den grundlegenden rechtlichen Prinzipien und Konzepten im Bereich des Urheberrechts (Gegenstand, Rechteinhaberschaft, Umfang und Reichweite des Schutzes und Schrankenregelungen insbesondere für wissenschaftliche Zwecke) und des sui-generis-Rechts für Datenbanken, zur Lizenzierung (einschließlich der Nutzung öffentlicher Lizenzen für Daten und Software) und zum Datenschutz. Darüber hinaus werden Wissenschaftler bei Bedarf auch zu praktischen Lizenzauswahlinstrumenten weitergeleitet, wie z.B. dem “Public License Selector” (http://ufal.github.io/public-license-selector/), der 2014 im Rahmen einer Kooperation zweier CLARIN-Zentren von Kamocki, Stranak und Sedlak entwickelt wurde. Zusätzlich bieten die Plattformen Zugriff auf die CLARIN Legal Issues Committee (CLIC) White Paper Series, die eine Open Access Publikation von Kommentaren und Forschungsergebnissen bezüglich rechtlicher Fragestellungen im Bereich der Sprachwissenschaft unter der redaktionellen Leitung des CLIC ermöglichen.</p>
+            <p>Das Legal Helpdesk ist der “direkte Draht” zu einer persönlichen Hilfestellung: Dieses ermöglicht eine Kontaktaufnahme mit einem Teammitglied des CLARIN-Teams, das Wissenschaftler zu hilfreichen Ressourcen und Informationen bezüglich ihrer Forschungsfrage leiten kann.</p>
+            <p>Die Plattformen sind frei im Internet verfügbar und werden in regelmäßigen Abständen aktualisiert. Beide werden häufig im Rahmen von CLARIN-D und CLARIN-EU-Projekten genutzt.</p>
+            <p>Unser Poster wird diese hilfreichen CLARIN Ressourcen anhand von Graphiken und Text vorstellen und aktuelle Updates darstellen, die der DH Community möglicherweise noch unbekannt sind.</p>
+        </body>
+    </text>
+</TEI>
