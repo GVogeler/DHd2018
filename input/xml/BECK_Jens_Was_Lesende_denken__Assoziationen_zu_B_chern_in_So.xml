@@ -39,7 +39,7 @@
                 <address>
                     <addrLine>UniversitÃ¤t Graz</addrLine>
                     <addrLine>Zentrum fÃ¼r Informationsmodellierung - Austrian Centre for Digital Humanities</addrLine>
-                    <addrLine>ElisabethstraÃe 59/III</addrLine>
+                    <addrLine>ElisabethstraÃ&#x9f;e 59/III</addrLine>
                     <addrLine>8010 Graz</addrLine>
                 </address>
             </publicationStmt>
@@ -195,7 +195,11 @@
                 </p>
                 <p>Das hier beschriebene Netzwerk wird im Zuge der Konferenz frei zugänglich gemacht.</p>
                 <p>
-                    <graphic n="1001" width="15.927916666666667cm" height="10.900833333333333cm" url="Pictures/image1.png" rend="inline"/>
+                    <graphic n="1001"
+                        width="15.927916666666667cm"
+                        height="10.900833333333333cm"
+                        url="Pictures/image1.png"
+                        rend="inline"/>
                     <hi rend="bold">Abbildung 1</hi>: Assoziationen zu Conan Doyles 
                     <hi rend="italic">The Hound of the Baskervilles</hi>, extrahiert aus den Reviews von Benutzern. Die Abbildung zeigt zur Illustration sämtliche assoziierte Entitäten, unabhängig von der Häufigkeit.
                 </p>

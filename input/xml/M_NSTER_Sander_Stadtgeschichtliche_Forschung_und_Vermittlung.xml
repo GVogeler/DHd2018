@@ -71,7 +71,7 @@
                 <address>
                     <addrLine>UniversitÃ¤t Graz</addrLine>
                     <addrLine>Zentrum fÃ¼r Informationsmodellierung - Austrian Centre for Digital Humanities</addrLine>
-                    <addrLine>ElisabethstraÃe 59/III</addrLine>
+                    <addrLine>ElisabethstraÃ&#x9f;e 59/III</addrLine>
                     <addrLine>8010 Graz</addrLine>
                 </address>
             </publicationStmt>
@@ -119,7 +119,11 @@
             <p>Photogrammetrische Methoden zur Erschließung historischer Bilddaten</p>
             <p>Um einen visuellen Zugang zu großen Bildrepositorien zu schaffen, können verschiedene photogrammetrische Methoden hilfreich sein. Die Spannweite der Verfahren reicht von der automatischen Bildsortierung in einer Datenbank mittels kontextbasierter Ansätze über die temporale und spatiale Verortung von Bildern in virtuellen Umgebungen bis zur Generierung komplexer historischer dreidimensionaler Modelle. Das Potential historischer Fotografien liegt hierbei vor allem in der Dokumentation aber auch in der Wiederherstellung von zerstörten Objekten (Grün et al., 2004, Falkingham et al., 2014). Seit ca. 20 Jahren wird die klassische analytische Photogrammetrie hierbei durch digitale Bildverarbeitungsverfahren unterstützt. Es ist außerdem ein zunehmender Automatisierungsgrad in diesen Technologien zu sehen. Anwendung finden diese Verfahren heute hauptsächlich in großen Bildrepositorien mit aktuellen Fotografien (Agarwal et al., 2009). Aber auch einzelne Gebäude/Städte werden mithilfe von historischen Materialien modelliert (Schindler &amp; Dellaert, 2012, Bitelli et al., 2017). Schwierigkeiten, die in der Arbeit mit historischen Bildern entstehen, sind fehlende Informationen zu Kamera, Aufnahmeort und Aufnahmezeit. Auch Bildfehler, starke Bildunterschiede und geringe Scanauflösung wirken sich auf eine automatische photogrammetrische Mehrbildauswertung negativ aus. Vor diesem Hintergrund erwiesen sich die in der Nachwuchsgruppe erprobten Verfahren des Structure-from-Motion (SfM) und der Direct-Linear-Transformation (DLT) als hinsichtlich der Ergebnisse lückenhaft bzw. schlecht automatisierbar (vgl. Abb. 1). Während SfM als automatisches Verfahren prinzipiell sehr gut funktioniert, gelangt der Algorithmus beim Umgang mit heterogenen Bildmaterial wie eben in historischen Aufnahmen an Grenzen. Dann können zwischen den verschiedenen Bildern nur wenige oder gar keine Korrespondenzen gefunden werden und die Orientierung und die anschließende Erstellung einer dreidimensionalen Punktwolke schlägt fehl. DLT berechnet die Kameraorientierung aus homologen Punkten in Gebäudemodell und Fotografie. Eine automatische Bestimmung der homologen Punkte auf stark generalisierten Modellen und verrauschten Bildern ist eine komplexe Aufgabe, die bisher noch nicht algorithmisch gelöst wurde. Die Punkte werden deshalb noch manuell durch einen Operateur gesucht, wobei mit 6 Punktpaaren eine große Anzahl homologer Punkte benötigt wird. Einen demgegenüber vielversprechenden, aktuell in Prüfung befindlichen Ansatz bietet die Kongruenzprüfung von im Bild dargestellten Formen.</p>
             <figure>
-                <graphic n="1001" width="7.381875cm" height="4.815416666666667cm" url="Pictures/image1.png" rend="inline"/>
+                <graphic n="1001"
+                     width="7.381875cm"
+                     height="4.815416666666667cm"
+                     url="Pictures/image1.png"
+                     rend="inline"/>
             </figure>
             <p>
                 <hi rend="bold">Abb. </hi>
@@ -130,7 +134,11 @@
             <p>Mit Blick auf eine Nutzungspraxis von Bildrepositorien hängt der Erfolg bei der Suche und dem Zugang zu den Informationen stark von den Fähigkeiten der Nutzer sowie der Bedienbarkeit der Webplattformen ab (Kemman et al., 2014). Nutzer legen z.B. Wert auf effiziente Such- und Filterfunktionen sowie eine intuitiv bedienbare Nutzeroberfläche und Navigation (Barreau et al., 2014). Je nach Nutzerkreis ist eine Dokumentation mittels Metadaten (Bentkowska-Kafel et al., 2012, Maina and Suleman, 2015) oder eine grundlegende Einführung in die Themen und Informationen gewünscht (Maina and Suleman, 2015). Empirisch überprüft werden konnte dies mit 15 Studenten der Kunst- und Architekturgeschichte, welche im September 2016 im Rahmen einer Fokusgruppen-Diskussion zur Suche und Nutzung von Bildern befragt und inhaltsanalytisch ausgewertet werden. Wesentliche Erkenntnis stellten beispielsweise dar, dass ein Suchprozess neben den dargebotenen Bildinhalten stark durch zugeordnete textuelle Beschreibungen sowie Vorschläge und Links zu weiteren Ressourcen beeinflusst wird. Eine Suchstrategie verändert sich dabei im Laufe des Suchprozesses von (a) einem ungerichteten Stöbern über ein (b) Sichten von Beständen zur Gewinnung eines Überblicks hin zur (c) zielgerichteten Suche nach spezifischen Inhalten.</p>
             <p>Die dabei gewonnenen Erkenntnisse bildeten die Grundlage für die Konzeption und prototypische Entwicklung eines 4D-Browserinterfaces für eine räumlich und zeitlich verortete Suche in Medienrepositorien (Abb. 2). Eine besondere Herausforderung einer ersten Entwicklungsphase stellten die semantische Verknüpfung der Daten und die Visualisierung zeitlich und räumlich verorteter Informationen (Gouveia et al., 2015) dar. So muss die angestrebte 4D-Browseranwendung ein ganzes Stadtmodell handhaben können, das sich zudem über die Zeit stetig verändert. Mit Blick auf eine weitere Entwicklung stehen aktuell Strategien zur Präsentation einer Vielzahl von Datensätzen (Samuel et al., 2016), Schnittstellen zum automatischen Datenbezug aus Repositorien sowie Möglichkeiten zur nutzergesteuerten, interaktiven Informationsverknüpfung auf einer Entwicklungsagenda. </p>
             <figure>
-                <graphic n="1002" width="6.865763888888889cm" height="3.9947666666666666cm" url="Pictures/image2.png" rend="inline"/>
+                <graphic n="1002"
+                     width="6.865763888888889cm"
+                     height="3.9947666666666666cm"
+                     url="Pictures/image2.png"
+                     rend="inline"/>
             </figure>
             <p>
                 <hi rend="bold">Abb. 2:</hi> 4D-Browser (Prototyp)
@@ -140,7 +148,11 @@
             </p>
             <p>Eine räumliche und zeitliche Einordung in einem dreidimensionalen Stadtmodell (Abb. 3) sowie in einer Augmented Reality – Anwendung sollen hierbei im Vordergrund stehen und eine Beziehung zur heutigen stadträumlichen Situation vermitteln. Ein diesbezüglicher Forschungsgegenstand ist der Einsatz im Rahmen von Bildungsszenarien für die Vermittlung von Stadtgeschichte. In den letzten Jahren wurden weltweit zahlreiche touristische AR-Anwendungen für die stadträumliche Nutzung sowie Softwarelösungen zur Erstellung dieser Anwendungen entwickelt (Kounavis et al., 2012, Smirnov et al., 2014, Yovcheva et al., 2012). In wissenschaftlichen Studien wurden Nutzungsanforderungen touristischer AR-Anwendungen (Zaibon et al., Han et al., 2014), deren Akzeptanz beim Nutzer (Haugstvedt and Krogstie, 2012, tom Dieck and Jung, 2015), sowie deren Potenziale für das Lernen (Kysela and Štorková, 2015) oder für die Sensibilisierung der Nutzer für kulturhistorische Aspekte beschrieben (Chang et al., 2015b). Nur wenige wissenschaftliche Arbeiten beschäftigen sich demgegenüber mit Lerneffekten bei Nutzern (tom Dieck et al., 2016). Zudem fehlen Untersuchungen zur Integration von pädagogischen und motivationalen Strategien in wissensvermittelnden AR-Anwendungen und daraus resultierende Gestaltungsempfehlungen. Diese Lücke soll mit der weiteren Forschungsarbeit geschlossen werden. </p>
             <p>
-                <graphic n="1003" width="7.276041666666667cm" height="4.886455555555556cm" url="Pictures/image3.jpeg" rend="inline"/>
+                <graphic n="1003"
+                     width="7.276041666666667cm"
+                     height="4.886455555555556cm"
+                     url="Pictures/image3.jpeg"
+                     rend="inline"/>
                 <lb/>
                 <hi rend="bold">Abb. 3:</hi> Stadträumliche Augmented-Reality-Darstellung (Mockup)
             </p>

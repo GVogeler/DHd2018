@@ -47,7 +47,7 @@
                 <address>
                     <addrLine>UniversitÃ¤t Graz</addrLine>
                     <addrLine>Zentrum fÃ¼r Informationsmodellierung - Austrian Centre for Digital Humanities</addrLine>
-                    <addrLine>ElisabethstraÃe 59/III</addrLine>
+                    <addrLine>ElisabethstraÃ&#x9f;e 59/III</addrLine>
                     <addrLine>8010 Graz</addrLine>
                 </address>
             </publicationStmt>
@@ -148,10 +148,26 @@
                 </p>
                 <p>Auf der konzeptuellen Ebene bieten unsere Ergebnisse den Einstieg in eine differenziertere Modellierung von Figurenkomplexität, deren Erarbeitung auf die traditionelle narratologische Theoriebildung zurückwirken kann: Die digitale Modellierung macht es notwendig, die Faktoren, aus denen sich das Konzept der Figurenkomplexität zusammensetzt (etwa Figurenhandeln, -rede, -beschreibung und -bewertung), genauer und expliziter zu bestimmen sowie über ihre Gewichtung nachzudenken. Außerdem wäre zu klären, was das Konzept der Komplexität genau meint und wie es sich zu verwandten Konzepten wie denen der Hybridität, der Dynamik oder der Aktantenhaftigkeit von Figuren verhält. Im Sinne einer kritisch reflektierten digitalen Methodik werden somit vielschichtige literaturwissenschaftliche Phänomene wie die Charakterisierung von Figuren durch den formalisierenden Zugang nicht nivelliert, vielmehr führt die Verbindung von quantitativen und qualitativen Methoden zur wechselseitigen Erhellung.</p>
                 <figure>
-                    <graphic n="1001" width="16.007291666666667cm" height="13.32088888888889cm" url="Pictures/image1.png" rend="inline"/>
-                    <graphic n="1002" width="16.007291666666667cm" height="13.32088888888889cm" url="Pictures/image2.png" rend="inline"/>
-                    <graphic n="1003" width="16.007291666666667cm" height="13.32088888888889cm" url="Pictures/image3.png" rend="inline"/>
-                    <graphic n="1004" width="16.007291666666667cm" height="13.32088888888889cm" url="Pictures/image4.png" rend="inline"/>
+                    <graphic n="1001"
+                        width="16.007291666666667cm"
+                        height="13.32088888888889cm"
+                        url="Pictures/image1.png"
+                        rend="inline"/>
+                    <graphic n="1002"
+                        width="16.007291666666667cm"
+                        height="13.32088888888889cm"
+                        url="Pictures/image2.png"
+                        rend="inline"/>
+                    <graphic n="1003"
+                        width="16.007291666666667cm"
+                        height="13.32088888888889cm"
+                        url="Pictures/image3.png"
+                        rend="inline"/>
+                    <graphic n="1004"
+                        width="16.007291666666667cm"
+                        height="13.32088888888889cm"
+                        url="Pictures/image4.png"
+                        rend="inline"/>
                 </figure>
             </div>
         </body>

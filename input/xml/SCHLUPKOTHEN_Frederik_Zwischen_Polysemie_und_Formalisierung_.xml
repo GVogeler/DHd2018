@@ -31,7 +31,7 @@
                 <address>
                     <addrLine>UniversitÃ¤t Graz</addrLine>
                     <addrLine>Zentrum fÃ¼r Informationsmodellierung - Austrian Centre for Digital Humanities</addrLine>
-                    <addrLine>ElisabethstraÃe 59/III</addrLine>
+                    <addrLine>ElisabethstraÃ&#x9f;e 59/III</addrLine>
                     <addrLine>8010 Graz</addrLine>
                 </address>
             </publicationStmt>
@@ -115,7 +115,11 @@
                 <head>Methodik</head>
                 <p>Für das angestrebte Forschungsziel stellt die mehrstufige Modellierung einen expliziten heuristischen Gewinn gegenüber bisherigen Ansätzen der Systematisierung dar, indem die umfassende induktive Erfassung und Beschreibung sowie die anschließend abgeleiteten strukturellen Konstanten nicht unverbunden nebeneinander stehen, sondern Mikro- und Makrostrukturen durch das Modell in ihrem Zusammenhang beobachtbar gemacht werden (s. Abbildung 1).</p>
                 <figure>
-                    <graphic n="1001" width="13.591333333333333cm" height="8.515686111111112cm" url="Pictures/image1.png" rend="inline"/>
+                    <graphic n="1001"
+                        width="13.591333333333333cm"
+                        height="8.515686111111112cm"
+                        url="Pictures/image1.png"
+                        rend="inline"/>
                     <head>Abbildung 1: Konzeptuelle Darstellung des Modells</head>
                 </figure>
                 <p>Indem zunächst Einzeltextphänomene modelliert, darauf aufbauend deren Funktionen im Sinne ihres Beitrags zur „Bedeutungskonstitution“ (Hempfer 1991, S. 19) erfasst und daraus übergreifende Kategorien abgeleitet werden, können zwei bislang getrennt voneinander verhandelte Bereiche der Untersuchung von Intertextualität in einer ganzheitlichen Modellierung verbunden werden: die ‚Entwirrung‘ des intertextuellen Gefüges eines einzelnen Textes (vgl. hierfür exemplarisch Bauer Lucca 2001; Dudzik 2017) sowie die übergeordnete Suche nach gemeinsamen Strukturen und Funktionsweisen intertextueller Verweise. Das vorgestellte Modell verknüpft also die in der Literaturwissenschaft seit den 1980er Jahren unternommenen Bestrebungen zur Typologisierung intertextueller Strukturen und Funktionsweisen mit einer umfassenden Detailuntersuchung literarischer Texte. Die Differenzierung in Phänomenbeschreibung und ‑bewertung, welche der eingesetzte Formalismus unterstützt (s. u.), sieht explizit die Modellierung funktionaler Überlagerungen und alternativer Forschungsmeinungen vor, sodass im Rahmen der Formalisierung sowohl der Multifunktionalität intertextueller Schreibweisen (vgl. Kocher 2010, S. 179) als auch der maßgeblich auf produktivem Dissens basierenden Dynamik des literaturwissenschaftlichen Diskurses Rechnung getragen wird.</p>

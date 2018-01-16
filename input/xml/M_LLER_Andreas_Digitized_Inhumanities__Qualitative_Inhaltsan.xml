@@ -23,7 +23,7 @@
                 <address>
                     <addrLine>UniversitÃ¤t Graz</addrLine>
                     <addrLine>Zentrum fÃ¼r Informationsmodellierung - Austrian Centre for Digital Humanities</addrLine>
-                    <addrLine>ElisabethstraÃe 59/III</addrLine>
+                    <addrLine>ElisabethstraÃ&#x9f;e 59/III</addrLine>
                     <addrLine>8010 Graz</addrLine>
                 </address>
             </publicationStmt>
@@ -90,7 +90,11 @@
             <div type="div1" rend="DH-Heading1">
                 <head>Mehrwert und Problematik der digitalen Methodik</head>
                 <p>Durch die Anwendung der Software MAXQDA eröffnen sich neue analytische Möglichkeiten von großem Mehrwert. Durch die Zuordnung von verschiedenen Textabschnitten in analytische Kategorien wird es nicht nur möglich die Kategorien qualitativ auszuwerten, sondern auch Visualisierungen und Quantifizierungen zu erzeugen. Als ein Beispiel wird hier das Dokumentenvergleichsdiagramm herausgegriffen:
-                    <graphic n="1001" width="16.007291666666667cm" height="9.498541666666666cm" url="Pictures/image1.jpeg" rend="inline"/> Die Zeilen bilden hier die einzelnen Dokumente ab, die Spalten die einzelnen Absätze des Textes. Hierdurch wird die thematische Struktur der Texte sichtbar, ähnlich einem „Topic Modelling“ wobei hier jedoch die Zuordnung manuell erfolgt. Ein Vorteil dieses Zugangs ist seine starke Nähe zum Forschungsgegenstand. Ein Klick auf eine der farbigen Flächen (z.B. eine thematische „Lücke“) führt in der Software sofort zurück in die entsprechende Textstelle. MAXQDA ist damit nicht nur eine Möglichkeit zur Ergebnispräsentation sondern auch ein analytisches Tool.
+                    <graphic n="1001"
+                        width="16.007291666666667cm"
+                        height="9.498541666666666cm"
+                        url="Pictures/image1.jpeg"
+                        rend="inline"/> Die Zeilen bilden hier die einzelnen Dokumente ab, die Spalten die einzelnen Absätze des Textes. Hierdurch wird die thematische Struktur der Texte sichtbar, ähnlich einem „Topic Modelling“ wobei hier jedoch die Zuordnung manuell erfolgt. Ein Vorteil dieses Zugangs ist seine starke Nähe zum Forschungsgegenstand. Ein Klick auf eine der farbigen Flächen (z.B. eine thematische „Lücke“) führt in der Software sofort zurück in die entsprechende Textstelle. MAXQDA ist damit nicht nur eine Möglichkeit zur Ergebnispräsentation sondern auch ein analytisches Tool.
                 </p>
                 <p>Das textnahe Arbeiten mit analytischen Kategorien ist vor allem für die qualitative Forschung ein großer Mehrwert. Die Kategorien sowie ihre Zuordnung zum Text werden dabei vom Forschenden selbst festgelegt und ein Rückbezug in den Originaltext ist zu jedem Zeitpunkt möglich. Zu den problematischen Aspekten in der Arbeit mit einem Kategoriensystem zählt jedoch, dass Textteile, die außerhalb der eigenen analytischen Kategorien liegen, leicht aus dem Fokus geraten und der Blick für die Grundgesamtheit des Texts verloren gehen kann. </p>
             </div>

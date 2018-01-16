@@ -23,7 +23,7 @@
                 <address>
                     <addrLine>UniversitÃ¤t Graz</addrLine>
                     <addrLine>Zentrum fÃ¼r Informationsmodellierung - Austrian Centre for Digital Humanities</addrLine>
-                    <addrLine>ElisabethstraÃe 59/III</addrLine>
+                    <addrLine>ElisabethstraÃ&#x9f;e 59/III</addrLine>
                     <addrLine>8010 Graz</addrLine>
                 </address>
             </publicationStmt>
@@ -90,7 +90,11 @@
                 <hi rend="italic">Screenshot POS-Annotationstool (Ausschnitt)</hi>
             </p>
             <figure>
-                <graphic n="1001" width="15.699002777777778cm" height="8.536988888888889cm" url="Pictures/image1.png" rend="inline"/>
+                <graphic n="1001"
+                     width="15.699002777777778cm"
+                     height="8.536988888888889cm"
+                     url="Pictures/image1.png"
+                     rend="inline"/>
             </figure>
             <p>Dem automatischen wie händischen Tagging lag das Tagset des STTS (Schiller et al. 1999) zugrunde. Wo angezeigt, wurden im Projekt zusätzliche Regeln für der Handhabung des STTS-Manuals vereinbart und dokumentiert. Hierzu gehört auch u.a. die systematische Einbindung eines korpusbasierten Wörterbuchs (http://www.duden.de/) bei Eigennamen und Fremdwörtern.</p>
             <p>Das Tagging wurde in drei Phasen durchgeführt. Primäres Ziel des Taggings war es, die Genauigkeit von 

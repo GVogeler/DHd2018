@@ -31,7 +31,7 @@
                 <address>
                     <addrLine>UniversitÃ¤t Graz</addrLine>
                     <addrLine>Zentrum fÃ¼r Informationsmodellierung - Austrian Centre for Digital Humanities</addrLine>
-                    <addrLine>ElisabethstraÃe 59/III</addrLine>
+                    <addrLine>ElisabethstraÃ&#x9f;e 59/III</addrLine>
                     <addrLine>8010 Graz</addrLine>
                 </address>
             </publicationStmt>
@@ -78,7 +78,11 @@
             <p>Der Datenbestand wird kontinuierlich weiter anwachsen und fordert auch ein traditionelles Projekt der Grundlagenforschung heraus, Strategien und Perspektiven für die Weiterentwicklung des Online-Portals zu entwickeln. In erster Linie ist es unsere Zielsetzung, einen umfangreichen, strukturierten, soliden Datenpool zu schaffen, der aus den historischen Primärquellen erarbeitet worden ist. Darüber hinaus ist es eine unverzichtbare Aufgabe, die Daten möglichst ansprechend zu visualisieren und möglichst breit zu vernetzen und hierfür technische Lösungsansätze zu entwickeln.</p>
             <p>Gerade für prosopographische Daten ist das Potential der historischen Netzwerkanalyse in den letzten Jahren in den Fokus gerückt. Welche Aussagen mit dieser Art von Datenvisualisierung für den Datenbestand der Germania Sacra getroffen werden können, soll an einem Beispiel veranschaulicht werden. </p>
             <figure>
-                <graphic n="1001" width="16.002cm" height="12.407194444444444cm" url="Pictures/image1.png" rend="inline"/>
+                <graphic n="1001"
+                     width="16.002cm"
+                     height="12.407194444444444cm"
+                     url="Pictures/image1.png"
+                     rend="inline"/>
             </figure>
             <p>Grafik 1: Beziehungsgeflecht der Bistümer der Germania Sacra anhand der Ämter- und Pfründenhäufungen der Kleriker</p>
             <p>Die Grafik zeigt das Beziehungsgeflecht der Bistümer des Alten Reiches. Datengrundlage der Grafik sind 8.000 Kleriker aus dem Bestand der Personendatenbank, die Ämter und Pfründen in unterschiedlichen Bistümern bekleidet haben. Die Visualisierung zeigt also das Beziehungsgeflecht zwischen den Diözesen, das sich aus den Ämtern des Kirchenpersonals ergibt. Hier lassen sich durch den Einsatz digitaler Methoden historische Phänomene herauslesen: So zeigt sich für das hier hervorgehobene Erzbistum Magdeburg ein dichtes Beziehungsgeflecht mit den Bistümern der eigenen Kirchenprovinz sowie mit Nachbarbistümern wie Halberstadt. Die Visualisierung macht aber zugleich sichtbar, dass Magdeburg Kontakte zur weit entfernten Trierer Kirche hatte. </p>

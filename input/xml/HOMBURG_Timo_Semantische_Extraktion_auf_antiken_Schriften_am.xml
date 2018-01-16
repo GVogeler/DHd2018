@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Semantische Extraktion auf antiken Schriften am Beispiel von Keilschriftsprachen mithilfe semantischer Wörterbücher</title>
+                <author>
+                    <persName>
+                        <surname>Homburg</surname>
+                        <forename>Timo</forename>
+                    </persName>
+                    <affiliation>Hochschule Mainz, Deutschland</affiliation>
+                    <email>timo.homburg@gmx.de</email>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2017-09-25T19:00:00Z</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Prof. Dr. Georg Vogeler</publisher>
+                <address>
+                    <addrLine>UniversitÃ¤t Graz</addrLine>
+                    <addrLine>Zentrum fÃ¼r Informationsmodellierung - Austrian Centre for Digital Humanities</addrLine>
+                    <addrLine>ElisabethstraÃ&#x9f;e 59/III</addrLine>
+                    <addrLine>8010 Graz</addrLine>
+                </address>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Converted from a Word document </p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.17">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Poster</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Keilschrift</term>
+                    <term>Semantik</term>
+                    <term>Wörterbuch</term>
+                    <term>Ontologie</term>
+                    <term>GIS</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Datenerkennung</term>
+                    <term>Programmierung</term>
+                    <term>Inhaltsanalyse</term>
+                    <term>Modellierung</term>
+                    <term>Artefakte</term>
+                    <term>Text</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div/>
+            <div type="div1" rend="DH-Heading1">
+                <head>Einleitung und Motivation</head>
+                <p>Semantische Extraktionsmechanismen (z.B. Topic Modelling) werden seit vielen Jahren im Bereich des Semantic Web und Natural Language Processings sowie in den Digital Humanities als Verfahren zur Visualisierung und automatischen Kategorisierung von Dokumenten eingesetzt. Oft ergeben sich durch den Einsatz neue Aspekte der Interpretation von Dokumentensammlungen die vorher noch nicht ersichtlich waren. Als Beispiele solcher Verfahren kommen häufig Machine Learning Algorithmen zum Einsatz, welche eine Grobeinordnung von Texten vornehmen können. Gepaart mit Metadaten von Texten können anschließend beispielsweise thematische Übersichten von Dokumenten mit geographischem Bezug auf Kartenmaterialien in GIS Systemen oder mittels historischer Gazetteers zeitliche Zusammenhänge automatisiert dargestellt werden. In dieser Publikation möchten wir die Möglichkeiten der semantischen Extraktion nutzen und diese auf einer Sammlung von Texten in Keilschriftsprachen anwenden.</p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Keilschriftsprachen</head>
+                <p>Keilschriftsprachen haben in den letzten Jahren ein größeres Interesse in der Digital Humanities und Linguistik Community erfahren. (Inglese 2015, Homburg et. al. 2016, Homburg 2017, Sukhareva et. al. 2017). Neben der andauernden Standardisierung in Unicode werden unter anderem Part Of Speech Tagger und Mechanismen der automatisierten Übersetzung erprobt um Keilschrifttexte besser mit dem Computer zu erfassen und zu interpretieren. Desweiteren wurde die Erlernbarkeit der Keilschriftsprachen durch digitale Tools wie Eingabemethoden oder Karteikartenlernprogramme verbessert. (Homburg 2015) Trotz all der erreichten Fortschritte verbleiben jedoch zahlreiche Probleme bei der maschinellen Verarbeitung von Keilschriftsprachen, die unter anderem mit der geringen Verfügbarkeit annotierter Ressourcen und der fehlenden Verfügbarkeit maschinenlesbarer und semantisch sowie linguistisch annotierter Wörterbücher zusammenhängt. Diese Limitierungen hindern viele Natural Language Processing und semantische Extraktionsalgorithmen daran ein besseres Ergebnis zu erzielen. Wir möchten mit dieser Publikation einen Beitrag leisten diese Situation zu verbessern und stellen das "Semantic Dictionary for Ancient Languages" vor, welches ein Versuch ist durch Annotierung vorhandener in der Forschungscommunity anerkannter Wörterbuchressourcen mit Unicode Characters, Semantic Web Konzepten, etymologischen Daten, gemeinsamen Vokabularen und POSTags eine semantische Ressource in RDF für die Optimierung solcher Algorithmen auf Basis der Sprachen Hethitisch, Sumerisch und Akkadisch zu schaffen.Das Wörterbuch basiert auf dem Lemon-Standard, ein W3C Standard der es erlaubt ebenfalls multilinguale Resourcen abzubilden. So können Entwicklungen der Sprache und gemeinsame Vokabulare wie zum Beispiel Akkadogramme und Sumerogramme in Hethitisch mit erfasst werden.</p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Semantisches Wörterbuch und Semantische Extraktion</head>
+                <p>Wir testen die Performance des Wörterbuchs auf einer der größten Sammlungen von digitalen Keilschrifttexten, der CDLI, aus der wir repräsentative Texte in hethitischer, sumerischer und akkadischer Keilschrift aus verschiedenen Epochen extrahieren und mittels Machine Learning klassifizieren, sowie verschlagworten. Das Ergebnis der semantischen Extraktion ist eine Sammlung von Themen pro Keilschrifttafel, die sich wiederum in Überkategorien gruppieren lassen und in einen zeitlichen, sprachlichen, dialektischen, sowie örtlichen Kontext gestellt werden können. Anhand der verschiedenen Metadaten der CDLI war es uns möglich eine thematische Karte der Fundorte der Keilschrifttafeln sowie deren Inhalt pro Epoche darzustellen aus der das relevante Fachpublikum schließen kann welche Themen zu welcher Zeit an welchem Fundort relevant für die Schreiber der jeweiligen Epoche waren. Im Zuge einer Weiterentwicklung möchten wir diese Informationen mit weiteren Metadaten wie beispielsweise der Jurisdiktion, den Daten der jeweiligen Herrscher sowie rekonstruierten Orten aus der antiken Zeit vervollständigen um Rückschlüsse auf interessante historische Ereignisse zu ziehen.</p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Aufbau des Posters</head>
+                <p>Auf unserem Poster möchten wir gerne den Prozess des Aufbaus, sowie die Struktur des semantischen Wörterbuchs sowie die Karte die durch unsere semantische Extraktion entstanden ist präsentieren um die jeweiligen Fachwissenschaftler zur Diskussion über die Entwicklung eines Semantic Web von Keilschriftsprachen und Keilschriftartefakten einzuladen. Desweiteren soll unser Poster eine Reihe von Anwendungen demonstrieren die sich in Zukunft mit unserer semantischen Ressource entwickeln lassen können um einen Beitrag zu einem hoffentlich zukünftig existierenden LinkedData Datensatz für Keilschriftartefakte zur Dokumentation von Keilschrift zu leisten.</p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl>
+                        <hi rend="bold">Inglese, G.</hi> (2015): “Towards a hittite treebank. basic challenges and methodological remarks.” In: Corpus-Based Research in the Humanities (CRH) p. 59 1.1
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Homburg, T.</hi> (2017): “Postagging and semantic dictionary creation for Hittite cuneiform.” In:DH2017 (2017)
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Homburg, T., Chiarcos, C.</hi> (2016): “Word segmentation for Akkadian cuneiform.” In: LREC2016 1.1
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Homburg, T., Chiarcos, C., Richter T., Wicke, D.</hi> (2015): “Learning Cuneiform the Modern Way.” In: DhD2015 
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Sukhareva, M., Fuscagni, F., Daxenberger, J., Görke, S., Prechel, D., Gurevych,I.</hi> (Aug 2017): “Distantly supervised pos tagging of low-resource languages under extreme data sparsity: The case of Hittite.” In: LaTeCH-CLfL ’17 Proceedings of the 11th Workshop on Language Technology for Cultural Heritage, Social Sciences, and Humanities. pp.95–104 1.1
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

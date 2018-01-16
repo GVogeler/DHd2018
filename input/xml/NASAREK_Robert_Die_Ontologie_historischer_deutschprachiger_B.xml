@@ -34,7 +34,7 @@
                 <address>
                     <addrLine>UniversitÃ¤t Graz</addrLine>
                     <addrLine>Zentrum fÃ¼r Informationsmodellierung - Austrian Centre for Digital Humanities</addrLine>
-                    <addrLine>ElisabethstraÃe 59/III</addrLine>
+                    <addrLine>ElisabethstraÃ&#x9f;e 59/III</addrLine>
                     <addrLine>8010 Graz</addrLine>
                 </address>
             </publicationStmt>
@@ -87,13 +87,21 @@
                 <item>Um die Klassifizierung zu erleichtern, wie auch einen Informationsverlust durch die Klassifizierung zu verhindern, werden alle Berufsbezeichnungen zunächst in kategorial geordnete semantische Einheiten aufgetrennt. Dies erleichtert erheblich die Nutzbarkeit des Angebots für unterschiedlichste Anforderungen. Diese semantische Trennung und Normierung der Namenseinheiten ermöglicht später eine individuell flexible inhaltliche Auswahl verschiedener logischer Einheiten (Topic Modeling) nach eigenen Prinzipien. In unserem Vortrag möchten wir die Logik dieses Modells erläutern und dem Fachpublikum zur Diskussion stellen, um Anregungen für eine interdisziplinär optimal zu nutzende Methode zu erhalten. Diese Vorgehensweise unterscheidet das Projekt von allen anderen rein auf ID-Identifikatoren zugeschnittenen Verfahren und macht es wesentlich flexibler und breiter für verschiedenste Bedürfnisse geistes- und sozialwissenschaftlicher Forschung anwendbar. Bei herkömmlichen Verfahren kann lediglich über eine fest zugewiesene ID-Nummer auf den verschiedenen Ebenen des Kodierungssystems klassifiziert und sortiert werden. In dem hier vorgeschlagenen Modell erfolgt zusätzlich auch auf der semantischen Ebene die Möglichkeit zum intuitiven Systematisieren, Anordnen und Auswählen. Dies gilt auch für alle weiteren Informationen (Geschlecht, Herrschaft, Rechtsbeziehungen, Ruhestand, Karriere etc.), die mit typisch frühneuzeitlichen, quellenbasierten Berufsbezeichnungen einhergehen und in moderne Berufssystematiken meist keinen Eingang finden. Moderne Klassifikationssysteme für frühneuzeitliche Berufsnamen sind daher tendenziell mit einem sehr hohen Informationsdefizit belastet und können unter Umständen in ahistorischen Analysen enden.</item>
             </list>
             <figure>
-                <graphic n="1001" width="15.156533333333334cm" height="8.128594444444444cm" url="Pictures/image1.jpg" rend="inline"/>
+                <graphic n="1001"
+                     width="15.156533333333334cm"
+                     height="8.128594444444444cm"
+                     url="Pictures/image1.jpg"
+                     rend="inline"/>
             </figure>
             <list type="unordered">
                 <item>Zur Klassifizierung von Berufen werden aus zeittypischen Lexika des 17./18. Jahrhunderts Tätigkeitsbeschreibungen abstrahiert, welche die Anforderungsprofile und Kompetenzen einzelner Berufe definieren. Sie dienen dem Abgleich mit modernen Tätigkeitsprofilen und erlauben erstmals überhaupt eine tätigkeitsgenaue Zuordnung historischer Berufe. Im Vortrag möchten wir zeigen, welche Möglichkeiten zur Systematisierung und Kategorisierung Lexika der frühen Neuzeit bieten und welche inhaltlichen Anknüpfungspunkte sie für moderne Klassifikationssysteme liefern. Dieser Aspekt bietet zudem hervorragende Möglichkeiten zur fachwissenschaftlichen Analyse, werden auf diese Weise doch Definitionskriterien frühneuzeitlicher Beruflichkeit überhaupt ermittelt und mittels einer logischen Auszeichnung auffindbar und auswertbar (xml/TEI). Wir möchten zeigen, welche Probleme dabei auftreten und welche Lösungsansätze wir hierfür entwickelt haben.</item>
             </list>
             <figure>
-                <graphic n="1002" width="14.657916666666667cm" height="8.246694444444444cm" url="Pictures/image2.jpeg" rend="inline"/>
+                <graphic n="1002"
+                     width="14.657916666666667cm"
+                     height="8.246694444444444cm"
+                     url="Pictures/image2.jpeg"
+                     rend="inline"/>
             </figure>
             <p>Weitere Ziel des Projektes (aber nicht unmittelbar unseres Vortrages, auch wenn wir auf die einzelnen Punkte sicherlich hinweisen) sind zudem folgende Punkte:</p>
             <list type="unordered">
@@ -108,14 +116,22 @@
                 <item>Der Informationsgehalt der Lexika bezogen auf berufskundliche Informationen wurde tiefergehend untersucht und erste Aussagen können darüber getroffen werden. </item>
             </list>
             <figure>
-                <graphic n="1003" width="14.4cm" height="4.992069444444445cm" url="Pictures/image3.png" rend="inline"/>
+                <graphic n="1003"
+                     width="14.4cm"
+                     height="4.992069444444445cm"
+                     url="Pictures/image3.png"
+                     rend="inline"/>
             </figure>
             <p>
                 <pb/>
             </p>
             <p rend="List Paragraph">Des Weiteren ist ein erstes Netzwerk von Autorenschaften und Informationsflüssen nachweisbar.</p>
             <figure>
-                <graphic n="1004" width="16.002cm" height="10.852327777777777cm" url="Pictures/image4.png" rend="inline"/>
+                <graphic n="1004"
+                     width="16.002cm"
+                     height="10.852327777777777cm"
+                     url="Pictures/image4.png"
+                     rend="inline"/>
             </figure>
             <list type="unordered">
                 <item>Die Taxonomie der Klassifikationssysteme von HISCO und der KldB 2010 wurden ausführlich untersucht und erste Ansätze einer eigenen Systematik können vorgestellt werden.</item>

@@ -39,7 +39,7 @@
                 <address>
                     <addrLine>UniversitÃ¤t Graz</addrLine>
                     <addrLine>Zentrum fÃ¼r Informationsmodellierung - Austrian Centre for Digital Humanities</addrLine>
-                    <addrLine>ElisabethstraÃe 59/III</addrLine>
+                    <addrLine>ElisabethstraÃ&#x9f;e 59/III</addrLine>
                     <addrLine>8010 Graz</addrLine>
                 </address>
             </publicationStmt>
@@ -129,7 +129,11 @@
                     <p>Zur systematischen Evaluation der Prädiktionsleistung der verschiedenen SA-Ansätze wurde ein Evaluationskorpus bestehend aus 200 Repliken erstellt. Bei der Auswahl der Repliken wurde darauf geachtet, dass die dramenspezifische Verteilung berücksichtigt wird, längere Dramen sind also mit mehr Repliken vertreten. Ferner wurden nur solche Repliken aufgenommen, die mindestens 19 Wörter umfassen. Diese Länge entspricht etwa -25% des Mittelwerts des Gesamtkorpus und vermeidet damit die Selektion von zu kurzen Repliken. Es wurde insgesamt auf eine gleichmäßige Längenverteilung geachtet.</p>
                     <p>Die Repliken wurden von insgesamt fünf Personen (4 weiblich, 1 männlich; alle jeweils mit Deutsch als Muttersprache) jeweils unabhängig voneinander bezüglich deren Polaritätswirkung bewertet. Die Polarität jeder Replik wurde jeweils sechswertig (sehr negativ, negativ, neutral, gemischt, positiv, sehr positiv) und binär (positiv, negativ) bewertet. Die Annotationen wurden bezüglich des Übereinstimmungsgrades analysiert. Dazu wurden das Übereinstimmungsmaß Fleiss‘ Kappa (Fleiss 1971) sowie der Durchschnittswert der prozentualen Übereinstimmung aller Annotatoren und Annotatorinnen berechnet (vgl. Tabelle 1).</p>
                     <figure>
-                        <graphic n="1001" width="16.002cm" height="3.2455555555555557cm" url="Pictures/image1.png" rend="inline"/>
+                        <graphic n="1001"
+                           width="16.002cm"
+                           height="3.2455555555555557cm"
+                           url="Pictures/image1.png"
+                           rend="inline"/>
                     </figure>
                     <p>
                         <hi rend="bold">Tabelle 1</hi>. 
@@ -145,7 +149,11 @@
                         </note>
                     </p>
                     <figure>
-                        <graphic n="1002" width="16.002cm" height="7.9479138888888885cm" url="Pictures/image2.png" rend="inline"/>
+                        <graphic n="1002"
+                           width="16.002cm"
+                           height="7.9479138888888885cm"
+                           url="Pictures/image2.png"
+                           rend="inline"/>
                     </figure>
                     <p>
                         <hi rend="bold">Abbildung 1</hi>: Ausschnitt aus der detaillierten Ergebnistabelle zur Evaluation der SA-Kombinationsmöglichkeiten.
@@ -178,7 +186,11 @@
                     <head>Fallstudie: Minna von Barnhelm</head>
                     <p>Die Analyse von Minna von Barnhelm zeigt, dass die negativen emotionalen Bewertungen insgesamt gegenüber den positiven deutlich überwiegen (vgl. Abb. 2). Dieser Befund bestätigt die bekannte Erkenntnis, dass Lessing das Schema des rührenden Lustspiels verwendet hat. Während die Komik im Stück eher das Ergebnis von Schlussprozessen ist, geht es auf der wörtlichen Ebene überwiegend um ernste Vorwürfe und drohenden Identitäts- und Beziehungsverlust.</p>
                     <figure>
-                        <graphic n="1003" width="16.384044444444445cm" height="10.410466666666666cm" url="Pictures/image3.png" rend="inline"/>
+                        <graphic n="1003"
+                           width="16.384044444444445cm"
+                           height="10.410466666666666cm"
+                           url="Pictures/image3.png"
+                           rend="inline"/>
                     </figure>
                     <p>
                         <hi rend="bold">Abbildung 2</hi>: Polaritätsverteilung im Drama – 
@@ -186,7 +198,11 @@
                     </p>
                     <p>Es ist verschiedentlich behauptet worden (Saße 1993), Minna und nicht Tellheim sei die lächerliche Figur des Stücks. Die Sympathielenkung auf der wörtlichen Ebene des Textes, die in der unten stehenden Sentimentverteilung pro Akt abgebildet ist, kann dazu herangezogen werden, diese Frage negativ zu bescheiden (vgl. Abb. 3). Es ist eine auffällige Abweichung der Polarität im zweiten Akt erkennbar. In diesem Akt tritt Minna von Barnhelm zum ersten Mal auf, Tellheim jedoch nicht.</p>
                     <figure>
-                        <graphic n="1004" width="16.002cm" height="10.887847222222222cm" url="Pictures/image4.png" rend="inline"/>
+                        <graphic n="1004"
+                           width="16.002cm"
+                           height="10.887847222222222cm"
+                           url="Pictures/image4.png"
+                           rend="inline"/>
                     </figure>
                     <p>
                         <hi rend="bold">Abbildung 3</hi>: Polaritätsverlauf pro Akt – 
@@ -197,7 +213,11 @@
                     <head>Fallstudie: Emilia Galotti</head>
                     <p>Die letzte Visualisierung kann genutzt werden die Frage zu diskutieren, warum Emilia in Lessings Drama „Emilia Galotti“ sterben muss (vgl. Abb. 4). Auffällig ist hier die starke negative Bewertung Emilias im zweiten Akt. Entgegen bisheriger Interpretationen, in denen nur die Intrige des Prinzen und Marinelli dafür verantwortlich gemacht werden, dass Emilia um ihre Tugend fürchten und ihren Vater dazu bringen muss, sie umzubringen, wird dadurch die Abwertung allein durch die Avancen des Prinzen sichtbar, die später sowohl Emilias als auch für Odoardos Einschätzung der Ehrbarkeit Emilias in ihrem zukünftigen Leben bestimmen.</p>
                     <figure>
-                        <graphic n="1005" width="16.002cm" height="11.230030555555556cm" url="Pictures/image5.png" rend="inline"/>
+                        <graphic n="1005"
+                           width="16.002cm"
+                           height="11.230030555555556cm"
+                           url="Pictures/image5.png"
+                           rend="inline"/>
                     </figure>
                     <p>
                         <hi rend="bold">Abbildung 4</hi>: Polaritätsverlauf von Sprechern pro Akt – 

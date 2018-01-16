@@ -39,7 +39,7 @@
                 <address>
                     <addrLine>UniversitÃ¤t Graz</addrLine>
                     <addrLine>Zentrum fÃ¼r Informationsmodellierung - Austrian Centre for Digital Humanities</addrLine>
-                    <addrLine>ElisabethstraÃe 59/III</addrLine>
+                    <addrLine>ElisabethstraÃ&#x9f;e 59/III</addrLine>
                     <addrLine>8010 Graz</addrLine>
                 </address>
             </publicationStmt>
@@ -157,7 +157,11 @@
                 </note>, genauer mittels der Handwritten Text Recognition (HTR). Anhand einer kleinen Zahl an Ausgaben, die im Rahmen von projektbezogenen Vorstudien (vgl. Resch et al. 2016) bearbeitet wurden, konnte ein erstes Modell für das Diarium erstellt werden. Je nach Beschaffenheit der Digitalisate liegt die Genauigkeit hiermit zwischen 70% und 95%. Um die Qualität zu steigern, werden mehrere Tranchen von 40 bis 50 Ausgaben von zwei unterschiedlichen externen Dienstleistern nach den für dieses Projekt erstellten Transkriptionsrichtlinien erfasst, sodass das Modell weiter trainiert und die Erfassungsgenauigkeit erhöht werden kann. 
             </p>
             <figure>
-                <graphic n="1001" width="15.954375cm" height="9.68375cm" url="Pictures/image1.jpeg" rend="inline"/>
+                <graphic n="1001"
+                     width="15.954375cm"
+                     height="9.68375cm"
+                     url="Pictures/image1.jpeg"
+                     rend="inline"/>
             </figure>
             <p>Ein „Reporting-Tool“
                 <note place="foot" xml:id="ftn12" n="12">

@@ -39,7 +39,7 @@
                 <address>
                     <addrLine>UniversitÃ¤t Graz</addrLine>
                     <addrLine>Zentrum fÃ¼r Informationsmodellierung - Austrian Centre for Digital Humanities</addrLine>
-                    <addrLine>ElisabethstraÃe 59/III</addrLine>
+                    <addrLine>ElisabethstraÃ&#x9f;e 59/III</addrLine>
                     <addrLine>8010 Graz</addrLine>
                 </address>
             </publicationStmt>
@@ -93,12 +93,20 @@
                 </note> am Fallbeispiel der Klaus Mann-Tagebücher verschiedene Methoden des Text Mining angewendet werden. Zur Unterstützung und Strukturierung der Analyseprozesse werden Scientific Workflows erstellt und ausgeführt. Auf Basis der mit Text Mining erzielten Ergebnisse sollen Methoden der Computersimulation eingesetzt werden, um die eingangs aufgeworfenen Fragen beantworten zu können (Abb. 1).
             </p>
             <figure>
-                <graphic n="1001" width="16.002cm" height="3.986388888888889cm" url="Pictures/image1.png" rend="inline"/>
+                <graphic n="1001"
+                     width="16.002cm"
+                     height="3.986388888888889cm"
+                     url="Pictures/image1.png"
+                     rend="inline"/>
                 <head>Abbildung 1: Forschungsprozess zur Analyse der Tagebücher Klaus Manns</head>
             </figure>
             <p>Methoden der Computersimulation haben sich bereits seit längerer Zeit in verschiedenen Wissenschaftsdisziplinen etabliert. Seit den 1990er Jahren halten diese auch vermehrt Einzug in sozialwissenschaftliche Forschungsbereiche und bieten dort verschiedene Möglichkeiten zur Darstellung und Analyse von gesellschaftlichen Systemzusammenhängen (Gilbert 2007). Eine ähnliche Entwicklung lässt sich auch in den Digital Humanities nachvollziehen, wenngleich diese Methoden – insbesondere im literaturwissenschaftlichen Bereich – eine eher untergeordnete Rolle spielen (Kohle 2017). Die jedoch insgesamt zunehmende Anwendung von Computersimulation als Forschungsmethode liegt darin begründet, dass sie die Möglichkeit bietet, komplexe, unzugängliche Systeme zu untersuchen und experimentell zu analysieren. In solchen Experimenten lassen sich u.a. durch die Betrachtung verschiedener Szenarien Resultate erzielen, die Rückschlüsse auf Plausibilitäten von Handlungen, Strukturen und Zusammenhängen im zugrundeliegenden System erlauben. Agentenbasierte Computersimulation bietet darüber hinaus insbesondere bei der Analyse von individuellem Entscheidungsverhalten die Möglichkeit, sogenannte emergente Effekte aufzudecken. Diese ergeben sich aus dem Zusammenspiel individueller Handlungen und Interaktionen von einzelnen Akteuren, lassen sich jedoch nicht ausschließlich durch diese erklären (Bonabeau 2002). Ein direkter Zusammenhang zwischen Systeminput und -output muss bei agentenbasierter Simulation also nicht bestehen. Dies steht im Gegensatz zu anderen statistischen Analyseverfahren, bei denen i.d.R. eine (lineare) Abhängigkeit zwischen verschiedenen Objekten vorausgesetzt wird. Ferner ermöglicht agentenbasierte Computersimulation detaillierte Analysen von Komponenten der Makroebene. Der Weg zu verlässlichen Ergebnissen einer Simulationsstudie führt in einem ersten, wesentlichen Schritt über die Modellbildung und Sammlung dafür relevanter Daten (Law 2015). Zu diesem Zweck soll das zugrundeliegende System, also konkret Klaus Mann, seine sozialen Kontakte und sein Umfeld möglichst realitätsnah mit allen wesentlichen Eigenschaften, Aktivitäten und Zusammenhängen in einer agentenbasierten Sozialsimulation (Davidsson 2002) abgebildet werden (Abb. 2).</p>
             <figure>
-                <graphic n="1002" width="16.007755555555555cm" height="9.183455555555556cm" url="Pictures/image2.PNG" rend="inline"/>
+                <graphic n="1002"
+                     width="16.007755555555555cm"
+                     height="9.183455555555556cm"
+                     url="Pictures/image2.PNG"
+                     rend="inline"/>
                 <head>Abbildung 2: Digitale Analyse im Detail</head>
             </figure>
             <p>Die dafür notwendige Generierung einer geeigneten Datengrundlage ist ein anspruchsvoller Prozess, in dem anhand von Methoden aus dem Bereich des Text Mining zunächst die wesentlichen, auf den Untersuchungsgegenstand einwirkenden Faktoren identifiziert und analysiert werden müssen. Konkret sollen dabei u.a. Methoden wie Named Entity Recognition, Worthäufigkeits- oder Kookkurrenzanalysen angewendet werden, um vorab Kontakte, Aktivitäten, Aufenthalte, Tätigkeiten, persönliche oder politische Ereignisse zu identifizieren, welche mit Klaus Manns literarischer Produktivität in Zusammenhang stehen könnten. Anders als im Falle der Computersimulation kommen Text Mining-Methoden, -Werkzeuge und Programmbibliotheken im literaturwissenschaftlichen Kontext bereits ungleich häufiger zum Einsatz. Zur Komplexitätsreduktion werden die zugrundeliegenden Text Mining-Prozesse dabei jedoch oft als Black Box betrachtet, was den Nachteil birgt, dass das Zustandekommen der erzielten Ergebnisse nur schwer nachvollzogen werden kann. Um dem entgegenzuwirken sollen die im Rahmen von 

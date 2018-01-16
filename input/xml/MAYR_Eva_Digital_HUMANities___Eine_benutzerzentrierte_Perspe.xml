@@ -39,7 +39,7 @@
                 <address>
                     <addrLine>UniversitÃ¤t Graz</addrLine>
                     <addrLine>Zentrum fÃ¼r Informationsmodellierung - Austrian Centre for Digital Humanities</addrLine>
-                    <addrLine>ElisabethstraÃe 59/III</addrLine>
+                    <addrLine>ElisabethstraÃ&#x9f;e 59/III</addrLine>
                     <addrLine>8010 Graz</addrLine>
                 </address>
             </publicationStmt>
@@ -97,7 +97,11 @@
                 </p>
                 <p>Für eine bessere Einbettung dieses Forschungsvorhabens wurde der aktuelle Stand der Technik erhoben (Windhager et al., 2017) und 48 Publikationen zur Visualisierung kultureller Sammlungen unter anderem mit Hinblick auf die Einbeziehung der Zielgruppe in den Gestaltungsprozess bewertet: In 6 Publikationen wurden rein technische Aspekte besprochen, Zielgruppen wurden dabei nicht genannt. In 17 Publikationen wurden zwar die Zielgruppen erwähnt, aber es fanden sich keine Informationen, ob und wie sie in die Entwicklung einbezogen wurden. In 5 Publikationen wurden (geplante) Usertests erwähnt – allerdings ohne weitere Details. Nur in 20 Publikationen wurde von Studien berichtet, die in ihrem Umfang stark variieren - von Einzelfallanalysen bis hin zu elaborierten Testungen mit großen Benutzergruppen (vgl. Abbildung 1).</p>
                 <figure>
-                    <graphic n="1001" width="16.03375cm" height="9.862027777777778cm" url="Pictures/image1.png" rend="inline"/>
+                    <graphic n="1001"
+                        width="16.03375cm"
+                        height="9.862027777777778cm"
+                        url="Pictures/image1.png"
+                        rend="inline"/>
                 </figure>
                 <p>Abbildung 1: Überblick über verschiedene Methoden zur Einbeziehung der BenutzerInnen</p>
                 <p>Im Projekt 

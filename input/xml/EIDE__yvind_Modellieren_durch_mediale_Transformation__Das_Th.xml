@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Modellieren durch mediale Transformation: Das Theater Brechts in der virtuellen Realität</title>
+                <author>
+                    <persName>
+                        <surname>Wieners</surname>
+                        <forename>Jan</forename>
+                    </persName>
+                    <affiliation>Universität zu Köln, Deutschland</affiliation>
+                    <email>jan.wieners@uni-koeln.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Schubert</surname>
+                        <forename>Zoe</forename>
+                    </persName>
+                    <affiliation>Universität zu Köln, Deutschland</affiliation>
+                    <email>zoe.schubert@uni-koeln.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Eide</surname>
+                        <forename>Øyvind</forename>
+                    </persName>
+                    <affiliation>Universität zu Köln, Deutschland</affiliation>
+                    <email>oeide@uni-koeln.de</email>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2018-01-13T14:28:00Z</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Prof. Dr. Georg Vogeler</publisher>
+                <address>
+                    <addrLine>UniversitÃ¤t Graz</addrLine>
+                    <addrLine>Zentrum fÃ¼r Informationsmodellierung - Austrian Centre for Digital Humanities</addrLine>
+                    <addrLine>ElisabethstraÃ&#x9f;e 59/III</addrLine>
+                    <addrLine>8010 Graz</addrLine>
+                </address>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Converted from a Word document </p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.17">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Vortrag</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>virtuelle Realität</term>
+                    <term>Theater</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Umwandlung</term>
+                    <term>Gestaltung</term>
+                    <term>Modellierung</term>
+                    <term>Theoretisierung</term>
+                    <term>Lehre</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="div1" rend="DH-Heading1">
+                <head>Einleitung</head>
+                <p>Die Konstruktion und Vorstellung einer artifiziell-medial vermittelten virtuellen Realität als Erweiterung, gar Gegenstück zur individuell psychisch- und physisch konstruierten Wahrnehmungswelt findet ihre umfangreiche narrative Beschreibung zunächst in Science-Fiction Erzählungen des ausgehenden zwanzigsten Jahrhunderts mit Konzepten wie Stanislaw Lems “Periphere Phantomatik” (Lem: 1981), William Gibsons “Cyberspace” (Gibson: 1995) oder virtueller “Metaversen” (Stephenson: 1992).</p>
+                <p>Wenige Jahrzehnte nach der vielversprechenden Darstellung virtueller Realitäten in der Mitte der 1990er Jahre lässt sich eine Begeisterung für sowohl kommerzielle VR-Lösungen wie Nintendos 
+                    <hi rend="italic">Virtual Boy</hi> (McFerran 2017) als auch geisteswissenschaftliche VR-Entwürfe konstatieren, um kulturelles Erbe innovativ erfahrbar zu machen. Gegenwärtige elaborierte Interaktionstechnologien wie 
+                    <hi rend="italic">Oculus Rift</hi> (Oculus VR 2018), 
+                    <hi rend="italic">HTC Vive</hi> (HTC Corporation 2018) oder 
+                    <hi rend="italic">Google Cardboard</hi> (Google 2018) machen virtuelle Welten erfahr- und interagierbar. Performante Spiel-Engines sowie Entwicklungsschnittstellen wie 
+                    <hi rend="italic">Unity</hi> (Unity Technologies 2018), 
+                    <hi rend="italic">WebVR </hi>(WebVR 2018), A-Frame (A-Frame 2018) und 
+                    <hi rend="italic">ReactVR</hi> (React VR 2018) stellen das leicht zugängliche Handwerkszeug bereit, um virtuelle Welten zum Leben zu erwecken und mit Inhalten zu füllen.
+                </p>
+                <p>Fand die Weiterentwicklung von VR-Hardware und VR-Software in den vergangenen Jahren in gar schwindelerregender Geschwindigkeit statt, so steckt die theoretische Durchdringung virtueller Welten in ihren Kinderschuhen: Auf welche Art und Weise transformieren Anwendungen der virtuellen Realität Narrationen, Geschichte und Geschichten, um sie Anwenderinnen und Anwendern (virtuell) erfahrbar zu machen? Vermögen es virtuelle Welten, Inhalte und Fragestellungen digitaler Geisteswissenschaften adäquat bereitzustellen und zu formulieren? Welche Interaktions- und Wahrnehmungsmechanismen bieten virtuelle Welten?</p>
+                <p>Das Institut für Digital Humanities der Universität zu Köln führt seit mehreren Semestern Lehrveranstaltungen durch, in denen die Theorie um Medialität im Kontext virtueller Welten reflektiert und von Studierenden des vom Institut angebotenen Verbundsstudienganges Medieninformatik / Medienkulturwissenschaften praktisch erprobt wird. Ein zentrales Ziel ist es, dabei den Einfluss von Virtual Reality (VR) auf die Modellierung von Inhalten und Narrationen zu ergründen. Anhand der durchgeführten Lehrveranstaltungen offenbarten sich grundlegende Forschungsfragen für die digitalen Geisteswissenschaften in der Beschäftigung mit Modellierung und der Transformation geisteswissenschaftlicher Inhalte. </p>
+                <p>Die nachfolgenden Ausführungen geben zunächst einen kurzen Überblick über die durchgeführten Lehrveranstaltungen und die eingesetzten Technologien. Anschließend wird mit dem Brechtschen Theater der Gegenstand der Lehrveranstaltungen eigens vorgestellt und über besondere Herausforderungen bei der Transformation durch Implementation eines 
+                    <hi rend="italic">virtuellen</hi> epischen Theaters informiert. Schließlich wird der Prozess der medialen Transformation und der Modellierung reflektiert.
+                </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Virtual Reality und Digital Humanities - Ein Lehrangebot an der Universität zu Köln</head>
+                <p>Das Institut für Digital Humanities bot in der jüngsten Vergangenheit und aktuell eine Folge von unterschiedlichen Lehrveranstaltungen
+                    <note place="foot" xml:id="ftn1" n="1">
+                        <p rend="normal"> Visualisierung mit JavaScript”, “Media Transformation I – Theater als Virtual Reality (VR) Erfahrung“ und “Media Transformation II - Social VR and Interactive Storytelling in Virtual Reality”, durchgeführt im Wintersemester 2016 / 2017 und im anschließenden Sommersemester 2017</p>
+                    </note> an, die von den Studierenden äußerst positiv wahrgenommen, zahlreich belegt und durch praktische Umsetzungen von VR Anwendungen erfolgreich abgeschlossen wurden. Durch den Fokus auf zeitgemäße neue Frameworks wie dem im Folgenden vorgestellten WebVR-Framework 
+                    <hi rend="italic">A-Frame</hi> und der Nutzung von 
+                    <hi rend="italic">Cardboards</hi> wurde die Einstiegshürde für die Implementation eigener VR-Umgebungen reduziert.
+                </p>
+                <p>Boten frühe Entwicklungen und Standards wie die 1994 vorgestellte 
+                    <hi rend="italic">Virtual Reality Modeling Language (VRML)</hi> (Techopedia Inc. 2018) oder ihr 2004 zum ISO-Standard erhobener Nachfolger 
+                    <hi rend="italic">X3D</hi> (Brutzman 2018) basale Möglichkeiten in der Umsetzung browserbasierter virtueller Welten, so intendiert das seit 2016 entwickelte und kostenfrei bereitgestellte WebVR-Framework 
+                    <hi rend="italic">A-Frame</hi>, den praktischen Zugang zu browserbasierter VR zu erleichtern, indem es die Nutzung neuartiger Browsertechnologien wie 
+                    <hi rend="italic">WebVR</hi> und 
+                    <hi rend="italic">WebGL</hi> (WebGL Public Wiki contributors 2018) vereinfacht. So sind einzig HTML- und JavaScript-Kenntnisse vonnöten, um erste basale VR-Umgebung zu realisieren.
+                </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Inhalte für virtuelle Realitäten</head>
+                <p>Die Vorstellung, durch das Erleben der Virtuellen Realität vollständig in eine andere Welt einzutauchen und diese als real zu empfinden, wird mit dem Begriff der Immersion beschrieben. Das Konzept der Immersion, wie es im Anwendungsfeld virtueller Welten definiert ist, unterscheidet sich dabei vom Film, der in der Lage ist, eine Szene durch die Aufnahme bewegter Bilder zu spiegeln und die Wirklichkeit für den Zuschauer abzubilden.
+                    <note place="foot" xml:id="ftn2" n="2">
+                        <p rend="normal"> Es existiert eine komplexe Beziehung zwischen Immersion und ästhetischen Konzepten unterschiedlicher künstlerischer Arbeiten, auf die in diesem Kontext nicht ausführlicher eingegangen werden kann. </p>
+                    </note> Der erfahrbare Raum der virtuellen Realität muss nicht notwendig der Erfahrungs- und Wahrnehmungswelt des Anwenders entsprechen. Er ergibt sich auch nicht unmittelbar aus einem möglichst genauen virtuellen Abbild der realen Welt, wenn er für den Nutzer ein immersives Erlebnis erzeugen soll. Eine starke immersive Erfahrung für den Nutzer muss nicht bedeuten, dass dieser den Eindruck gewinnt, sich an einem anderen Ort oder zu einem anderen Zeitpunkt in der bekannten Realität aufzuhalten. Es soll vielmehr der Eindruck entstehen in einer alternativen Realität präsent zu sein, die eben nicht der tatsächlichen Umgebung, der Welt der physischen Gegeben- und Anwesenheit entspricht und diese damit erfahrbar zu machen. Die Immersion ergibt sich einerseits durch Interaktionsmöglichkeiten der NutzerInnen mit der virtuellen Welt, andererseits aus einer vollständigen Beschlagnahmung all ihrer visuellen und gegebenenfalls auch akustischen Eindrücke.
+                </p>
+                <p>Derzeitige VR Hard- und Software zeigt die Grenzen der Immersion durch VR schnell auf. Während beeindruckende Fortschritte gemacht wurden, bleibt das “Gehirn im Tank” vorerst ein nicht erlebbares Gedankenexperiment. Erlebbar sind hingegen Simulationen, Rekonstruktionen, Demonstrationen in Form von Spielen und dreidimensionale Modelle, die für unterschiedliche Zwecke erstellt wurden. Derzeit werden viele unterschiedliche Anwendungskontexte erprobt und erschlossen. Eine zentrale Frage ist dabei: Welche Inhalte könnten sich noch für eine Virtuelle Darstellung eignen und was passiert, wenn Narration oder Geschichten übertragen werden sollen (vgl. Ryan 2015)?</p>
+                <p>Bemüht man an dieser Stelle erneut den Vergleich zum Film und betrachtet Produktionen des noch jungen Mediums zu Beginn des 20. Jahrhunderts, so finden sich Theaterverfilmungen, die belegen, dass massiv gekürzte Stücke als Stofflieferant herhalten mussten. Kino und Theater, beides Orte der darstellenden Kunst, treten im Zeitalter der technischen Reproduzierbarkeit in Konkurrenz zueinander. Sie grenzen sich dabei im Laufe der Zeit einerseits voneinander ab, können sich aber andererseits auch ergänzen, wie Theaterproduktionen zeigen, in denen Film eingesetzt wird. Der Hintergrund dafür war weniger die inhaltliche Übertragung (Theaterstücke als Stoff für das Kino) als die Tatsache, dass der Film damals, im Gegensatz zum Theater, Handlungen und Menschen in ihrer unmittelbaren, “wirklichen” Umgebung zeigen kann (Lang 2006).</p>
+                <p>Bertolt Brecht entwickelte in diesem Kontext des Theaters des 20. Jahrhunderts eine vollständige Theaterästhetik. In seinem Theater, das als episches Theater bekannt wurde, soll das Spiel im Theater immer als inszeniertes Spiel für den Zuschauer erkennbar sein. Die Wirklichkeit soll nicht als Illusion abgebildet werden, denn für Brecht sagt die einfache Wiedergabe der Realität weniger denn je über die Realität aus. Gerade das macht die Theaterstücke Brechts in Anbetracht der Immersion als Grundlage für Inhalte der virtuellen Realität interessant, da die Immersion nicht durch eine realistische Abbildung der realen Welt und Umgebung geschaffen werden soll. Die Fragestellung, was geschieht, wenn VR zeigt, dass etwas gezeigt wird, verspricht neue Erkenntnisse über diese Form der Darstellung selbst. </p>
+                <p>Die ästhetische Wirkung des Brechtschen Theaters ist augenscheinlich nicht immersiv. Allerdings kann ein Realitätsgefühl nur dann gebrochen werden, wenn es sich zuvor etabliert hat. Daraus ergibt sich die Frage, ob das Herstellen von Immersion möglicherweise auch in solchen Kunstrichtungen möglich erscheint. Die Überlegung dabei ist, dass Handlung und distanzierte Darbietung eine neue kritische Haltung des Zuschauers entstehen lassen können (Lang: 2006).</p>
+                <p>Anlässlich dieser Überlegungen und der geschilderten neuen Möglichkeiten durch die Entwicklungen der Technologie für VR wurden die Lehrveranstaltungen konzipiert. Dabei sollten von Teilnehmerinnen und Teilnehmern der Veranstaltungen VR-Anwendungen entwickelt werden, die Theaterstücke von Brecht in eine neue audiovisuelle virtuelle Welt übertragen. Die Beispiele, Erfahrungen und die Reflexion hinsichtlich der umgesetzten Projekte waren unterschiedlich und überraschend und sollen in diesem Vortrag genauer geschildert werden. </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Fazit</head>
+                <p>Als Grundlage für die Modellierung der Projekte und für die Erkenntnisse, die sich aus den Lehrveranstaltungen ergaben, wurde zunächst die zentrale Frage gestellt, welche Interaktionsmöglichkeiten und Darstellungsmöglichkeiten sich mit und in virtuellen Realitäten bieten. Das Ziel war die Überprüfung der These, dass räumliche Illusionsbildung soweit gesteigert werden kann, dass Nutzerinnen und Nutzer mit dem virtuellen Raum interagieren. Anschließend wurden Kategorien Langs umfassender Studie zu Verfilmungen Brechtscher Theaterstücke betrachtet, um diese in einem weiteren Schritt nicht einzig auf Theater und Film zu beziehen, sondern um virtuelle Realität(en) zu erweitern. Die vorliegende Ausarbeitung intendiert demnach, die Gegenüberstellung der Prozesse des Vorführens vs. des Abbildens zu analysieren, indem adäquate Differenzierungen vorgenommen und untersucht werden:</p>
+                <list type="unordered">
+                    <item>Ausgangssituation: live vs. vorproduziert</item>
+                    <item>Textgrundlage: aussprechen vs. zeigen</item>
+                    <item>Szenerie: funktional vs. illusionistisch</item>
+                    <item>Licht: Sichtbarkeit vs. Stimmung </item>
+                    <item>Bild: eigener Blick vs. festgelegte Einstellungsfolge</item>
+                    <item>Ton: unmittelbar vs. synthetisch</item>
+                    <item>Montage: sichtbarer Einschnitt vs. unsichtbarer Schnitt</item>
+                </list>
+                <table rend="rules">
+                    <row>
+                        <cell rend="normal">
+                            <figure>
+                                <graphic n="1001"
+                                 width="7.645394444444444cm"
+                                 height="4.854825cm"
+                                 url="Pictures/image1.jpg"
+                                 rend="inline"/>
+                            </figure>
+                        </cell>
+                        <cell rend="normal">
+                            <figure>
+                                <graphic n="1002"
+                                 width="7.763097222222222cm"
+                                 height="4.828647222222222cm"
+                                 url="Pictures/image2.jpg"
+                                 rend="inline"/>
+                            </figure>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell rend="normal">
+                            <figure>
+                                <graphic n="1003"
+                                 width="7.209897222222223cm"
+                                 height="5.061347222222222cm"
+                                 url="Pictures/image3.jpg"
+                                 rend="inline"/>
+                            </figure>
+                        </cell>
+                        <cell rend="normal">
+                            <figure>
+                                <graphic n="1004"
+                                 width="7.567083333333334cm"
+                                 height="4.827797222222222cm"
+                                 url="Pictures/image4.jpg"
+                                 rend="inline"/>
+                            </figure>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell rend="normal">
+                            <figure>
+                                <graphic n="1005"
+                                 width="7.567083333333334cm"
+                                 height="4.7445611111111115cm"
+                                 url="Pictures/image5.jpg"
+                                 rend="inline"/>
+                            </figure>
+                        </cell>
+                        <cell rend="normal">
+                            <figure>
+                                <graphic n="1006"
+                                 width="7.551647222222222cm"
+                                 height="4.833055555555555cm"
+                                 url="Pictures/image6.jpg"
+                                 rend="inline"/>
+                            </figure>
+                        </cell>
+                    </row>
+                </table>
+                <p>Die Ergebnisse der Veranstaltung werden in diesem Vortrag aus zwei unterschiedlichen Perspektiven analysiert. Einerseits wird die Theorie der Modellierung angewendet, wie sie maßgeblich in den Digitalen Geisteswissenschaften entwickelt wurde, basierend auf einer semiotisch-analytischen Grundlage (Kralemann und Lattmann 2014; Ciula und Eide 2017). Andererseits wird das Konzept der „media transformations” (Elleström 2014) herangezogen, um zu analysieren, wie auf unterschiedliche Weise eine virtuelle Realität, basierend auf einem Theaterstück auf der Achse zwischen „media representation” und „transmediation” (Elleström 2014), verstanden werden kann. Im Kontext des Vortrags wird verdeutlicht, wie diese beiden zusammenwirken können, um zu zeigen, welche Prozesse wir in den Lehrveranstaltungen beobachten konnten. </p>
+                <p>
+                    <pb/>
+                </p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl>Fügen Sie hier die von Ihnen benutzten Quellen ein:</bibl>
+                    <bibl rend="DH-Quotation">
+                        <hi rend="bold">A-Frame</hi> (2018). “A-Frame - Make WebVR.” Mozilla Corporation. Letzter Zugriff Januar 12, 2018. 
+                        <ref target="https://aframe.io/">
+                            <hi rend="underline color(1155CC)">https://aframe.io/</hi>
+                        </ref>.
+                    </bibl>
+                    <bibl rend="DH-Quotation">
+                        <hi rend="bold">Brecht, Bertolt</hi> (1989): “Der gute Mensch von Sezuan”, in: 
+                        <hi rend="italic">Werke.</hi> Große kommentierte Berliner und Frankfurter Ausgabe, herausgegeben von Werner Hecht, Jan Knopf, Werner Mittenzwei und Klaus-Detlef Müller, Band 6: Stücke 6, bearbeitet von Klaus-Detlef Müller. Frankfurt am Main: Suhrkamp Verlag: 175-279, 280 f.
+                    </bibl>
+                    <bibl rend="DH-Quotation">
+                        <hi rend="bold">Brutzman, Don</hi> (2018). “Applications, Players and Plugins for X3D / VRML Viewing”. Letzter Zugriff Januar 12, 2018. 
+                        <ref target="http://www.web3d.org/x3d/content/examples/X3dResources.html">
+                            <hi rend="underline color(1155CC)">http://www.web3d.org/x3d/content/examples/X3dResources.html</hi>
+                        </ref>.
+                    </bibl>
+                    <bibl rend="DH-Quotation">
+                        <hi rend="bold">Ciula, Arianna / Eide, Øyvind</hi> (2017): “Modelling in Digital Humanities: Signs in Context”, in: 
+                        <hi rend="italic">Digital Scholarship in the Humanities</hi> 32: i33–i46. 10.1093/llc/fqw045
+                    </bibl>
+                    <bibl rend="DH-Quotation">
+                        <hi rend="bold">Elleström, Lars</hi> (2014): 
+                        <hi rend="italic">Media Transformation. The Transfer of Media Characteristics among Media. </hi>Houndmills, Basingstoke, Hampshire: Palgrave Macmillan.
+                    </bibl>
+                    <bibl rend="DH-Quotation">
+                        <hi rend="bold">Gibson, William</hi> (1995): “Burning chrome”, in
+                        <hi rend="italic"> “Burning chrome and other stories</hi>”. London: Voyager. First published: 
+                        <hi rend="italic">Omni</hi>, 1982.
+                    </bibl>
+                    <bibl rend="DH-Quotation">
+                        <hi rend="bold">Google</hi> (2018). “Google Cardboard.” Google VR. Letzter Zugriff Januar 12, 2018. 
+                        <ref target="https://vr.google.com/cardboard/">
+                            <hi rend="underline color(1155CC)">https://vr.google.com/cardboard/</hi>
+                        </ref>.
+                    </bibl>
+                    <bibl rend="DH-Quotation">
+                        <hi rend="bold">HTC Corporation</hi> (2018). “Vive”. Letzter Zugriff Januar 12, 2018. 
+                        <ref target="https://www.vive.com/de/">
+                            <hi rend="underline color(1155CC)">https://www.vive.com/de/</hi>
+                        </ref>.
+                    </bibl>
+                    <bibl rend="DH-Quotation">
+                        <hi rend="bold">Kralemann, Björn / Lattmann, Claas</hi> (2013): “Models as icons: modeling models in the semiotic framework of Peirce’s theory of signs.” 
+                        <hi rend="italic">Synthese,</hi> 190: 3397–3420.
+                    </bibl>
+                    <bibl rend="DH-Quotation">
+                        <hi rend="bold">Lang, Joachim</hi> (2006): “Episches Theater als Film”. Würzburg: Verlag Königshausen &amp; Neumann GmbH, 2006.
+                    </bibl>
+                    <bibl rend="DH-Quotation">
+                        <hi rend="bold">Lem, Stanisław</hi> (1981): “
+                        <hi rend="italic">Summa technologieae</hi>”. Berlin: Suhrkamp Verlag.
+                    </bibl>
+                    <bibl rend="DH-Quotation">
+                        <hi rend="bold">McFerran, Damien</hi>. 2017. “The Nintendo Virtual Boy Could Be Getting New Software.” nintendolife.com. Letzter Zugriff Januar 12, 2018. 
+                        <ref target="http://www.nintendolife.com/news/2017/10/the_nintendo_virtual_boy_could_be_getting_new_software">
+                            <hi rend="underline color(1155CC)">http://www.nintendolife.com/news/2017/10/the_nintendo_virtual_boy_could_be_getting_new_software</hi>
+                        </ref>.
+                    </bibl>
+                    <bibl rend="DH-Quotation">
+                        <hi rend="bold">Oculus VR, LLC</hi> (2018). “oculus rift”. Letzter Zugriff Januar 12, 2018. 
+                        <ref target="https://www.oculus.com/rift/">
+                            <hi rend="underline color(1155CC)">https://www.oculus.com/rift/</hi>
+                        </ref>.
+                    </bibl>
+                    <bibl rend="DH-Quotation">
+                        <hi rend="bold">React VR</hi> (2018). “React VR: Build VR websites and interactive 360 experiences with React.” Facebook. Letzter Zugriff Januar 12, 2018. 
+                        <ref target="https://aframe.io/">
+                            <hi rend="underline color(1155CC)">https://aframe.io/</hi>
+                        </ref>.
+                    </bibl>
+                    <bibl rend="DH-Quotation">
+                        <hi rend="bold">Ryan, Marie-Laure</hi> (2015): 
+                        <hi rend="italic">Narrative as Virtual Reality 2</hi>. Baltimore: John Hopkins University Press.
+                    </bibl>
+                    <bibl rend="DH-Quotation">
+                        <hi rend="bold color(333333) background(white)">Stephenson, Neal</hi>
+                        <hi rend="color(333333) background(white)"> (1992): </hi>
+                        <hi rend="italic color(333333) background(white)">Snow Crash.</hi>
+                        <hi rend="color(333333) background(white)"> New York: Bantam Books.</hi>
+                    </bibl>
+                    <bibl rend="DH-Quotation">
+                        <hi rend="bold">Techopedia Inc</hi> (2018). “Virtual Reality Modeling Language (VRML)”. Letzter Zugriff Januar 12, 2018. 
+                        <ref target="https://www.techopedia.com/definition/4808/virtual-reality-modeling-language-vrml">
+                            <hi rend="underline color(1155CC)">https://www.techopedia.com/definition/4808/virtual-reality-modeling-language-vrml</hi>
+                        </ref>.
+                    </bibl>
+                    <bibl rend="DH-Quotation">
+                        <hi rend="bold">Unity Technologies</hi> (2018). “Unity - Game Engine.” Letzter Zugriff Januar 12, 2018. 
+                        <ref target="https://unity3d.com/de/">
+                            <hi rend="underline color(1155CC)">https://unity3d.com/de/</hi>
+                        </ref>.
+                    </bibl>
+                    <bibl rend="DH-Quotation">
+                        <hi rend="bold">WebGL Public Wiki contributors</hi> (2018). "Getting Started," WebGL Public Wiki. Letzter Zugriff Januar 12, 2018. 
+                        <ref target="http://www.khronos.org/webgl/wiki_1_15/index.php?title=Getting_Started&amp;oldid=371">
+                            <hi rend="underline color(1155CC)">http://www.khronos.org/webgl/wiki_1_15/index.php?title=Getting_Started&amp;oldid=371</hi>
+                        </ref>.
+                    </bibl>
+                    <bibl rend="DH-Quotation">
+                        <hi rend="bold">WebVR</hi> (2018). “Bringing Virtual Reality to the Web”. Letzter Zugriff Januar 12, 2018. 
+                        <ref target="https://webvr.info/">
+                            <hi rend="underline color(1155CC)">https://webvr.info/</hi>
+                        </ref>.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

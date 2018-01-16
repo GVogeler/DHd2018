@@ -47,7 +47,7 @@
                 <address>
                     <addrLine>UniversitÃ¤t Graz</addrLine>
                     <addrLine>Zentrum fÃ¼r Informationsmodellierung - Austrian Centre for Digital Humanities</addrLine>
-                    <addrLine>ElisabethstraÃe 59/III</addrLine>
+                    <addrLine>ElisabethstraÃ&#x9f;e 59/III</addrLine>
                     <addrLine>8010 Graz</addrLine>
                 </address>
             </publicationStmt>
@@ -126,14 +126,22 @@
                 <hi rend="italic">et al.</hi> 2009). The optimal configuration was obtained by combining groups of 6 texts. This permutation generated 376,740 text chunks with an average length of N=6,963 words and a standard deviation of 909 words.
             </p>
             <figure>
-                <graphic n="1001" width="15.980833333333333cm" height="13.700125cm" url="Pictures/image1.jpeg" rend="inline"/>
+                <graphic n="1001"
+                     width="15.980833333333333cm"
+                     height="13.700125cm"
+                     url="Pictures/image1.jpeg"
+                     rend="inline"/>
             </figure>
             <p>Figure 1. Test set composition</p>
             <p>As for the composition of the training set, we 
                 <hi rend="short_text">drew both on the “impostors method” (see Koppel / Winter 2014) and on historiographical research. Following (Juola 2015), we fixed the number of “impostors” to a minimum of three: Franz Blei, Franz Kafka, and Stefan Zweig. Subsequently, we selected three authors suggested by (Urbaner 2001) as possible TSZ collaborators: Marie delle Grazie, Hugo Salus, and Albert Ritter (his texts were not available in digitized format, so we OCRed and manually refined them). The training set was then completed by a selection of articles published by Musil in various journals between 1911 and 1919. For each author, the retrieved material was subdivided in three text chunks with a length comprised between 6,000 and 8,000 words: the training set was thus composed by 21 text chunks (see Figure 2).</hi>
             </p>
             <figure>
-                <graphic n="1002" width="16.003763888888887cm" height="20.0025cm" url="Pictures/image2.jpeg" rend="inline"/>
+                <graphic n="1002"
+                     width="16.003763888888887cm"
+                     height="20.0025cm"
+                     url="Pictures/image2.jpeg"
+                     rend="inline"/>
             </figure>
             <p>Figure 2. Training set</p>
             <p>
@@ -142,22 +150,38 @@
                 </hi>37,674 iterations, randomly selected), results were rather identical (see Figure 4) and the process took less than one day. When the experiment was repeated without any combination, results were extremely noisier (see Figure 5), thus confirming that the combinatory design was able to better discern authorial signals.
             </p>
             <figure>
-                <graphic n="1003" width="15.980833333333333cm" height="19.173472222222223cm" url="Pictures/image3.jpeg" rend="inline"/>
+                <graphic n="1003"
+                     width="15.980833333333333cm"
+                     height="19.173472222222223cm"
+                     url="Pictures/image3.jpeg"
+                     rend="inline"/>
             </figure>
             <p>Figure 3. Combinatory design results</p>
             <figure>
-                <graphic n="1004" width="15.980833333333333cm" height="19.178763888888888cm" url="Pictures/image4.jpeg" rend="inline"/>
+                <graphic n="1004"
+                     width="15.980833333333333cm"
+                     height="19.178763888888888cm"
+                     url="Pictures/image4.jpeg"
+                     rend="inline"/>
             </figure>
             <p>Figure 4. Combinatory design results (one-tenth iterations)</p>
             <figure>
-                <graphic n="1005" width="15.980833333333333cm" height="19.178763888888888cm" url="Pictures/image5.jpeg" rend="inline"/>
+                <graphic n="1005"
+                     width="15.980833333333333cm"
+                     height="19.178763888888888cm"
+                     url="Pictures/image5.jpeg"
+                     rend="inline"/>
             </figure>
             <p>Figure 5. Results without combinatory design</p>
             <p>To validate the results, the experiment has been repeated with 16 different configurations, by combining Eder’s Delta, Burrow’s Delta, Canberra, and Cosine distances with 10–100, 20–200, 50–500, and 100–1,000 MFW. In all configurations, Ritter and Musil are the only authors disputing the authorship of the TSZ articles. This evidence has been corroborated by the discovery of a document in the 
                 <hi rend="italic">Kriegsarchiv </hi>in Wien, which confirms that Albert Ritter was part of the TSZ editorial team (see Figure 6).
             </p>
             <figure>
-                <graphic n="1006" width="15.993180555555556cm" height="6.6675cm" url="Pictures/image6.jpeg" rend="inline"/>
+                <graphic n="1006"
+                     width="15.993180555555556cm"
+                     height="6.6675cm"
+                     url="Pictures/image6.jpeg"
+                     rend="inline"/>
             </figure>
             <p>Figure 6. Source: 
                 <hi rend="italic">Kriegsarchiv</hi>, Wien

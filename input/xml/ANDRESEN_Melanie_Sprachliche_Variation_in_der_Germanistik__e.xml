@@ -23,7 +23,7 @@
                 <address>
                     <addrLine>UniversitÃ¤t Graz</addrLine>
                     <addrLine>Zentrum fÃ¼r Informationsmodellierung - Austrian Centre for Digital Humanities</addrLine>
-                    <addrLine>ElisabethstraÃe 59/III</addrLine>
+                    <addrLine>ElisabethstraÃ&#x9f;e 59/III</addrLine>
                     <addrLine>8010 Graz</addrLine>
                 </address>
             </publicationStmt>
@@ -81,7 +81,11 @@
                     <hi rend="italic">n</hi> = 1 bis 5 generiert, die aus Token bzw. Wortartentags bestehen. Neben traditionellen, linearen n-Grammen, die der Reihenfolge der Wörter an der Textoberfläche folgen, wurden zusätzlich syntaktische n-Gramme generiert, die der Dependenzstruktur im Satz folgen (siehe Abbildung 1, beschrieben von Sidorov et al. 2012, Goldberg und Orwant 2013). Die Frequenzen aller n-Gramme mit mindestens zehn Vorkommen (rund 500.000) wurden signifikanzbasiert mit dem t-Test verglichen (siehe Empfehlungen in Lijffijt et al. 2014, Paquot und Bestgen 2009). Die Auswertung bezieht sich auf die n-Gramme mit den größten Unterschieden zwischen den linguistischen und literaturwissenschaftlichen Texten.
                 </p>
                 <p>
-                    <graphic n="1001" width="6.526388888888889cm" height="3.3513888888888888cm" url="Pictures/image1.png" rend="inline"/>
+                    <graphic n="1001"
+                        width="6.526388888888889cm"
+                        height="3.3513888888888888cm"
+                        url="Pictures/image1.png"
+                        rend="inline"/>
                 </p>
                 <p>Abbildung 1: Lineare und syntaktische n-Gramme im Vergleich an einem Beispielsatz (vgl. Andresen und Zinsmeister 2017)</p>
             </div>
@@ -113,7 +117,11 @@
                     <hi rend="italic">beide</hi> am häufigsten. Dies kann damit in Verbindung gebracht werden, dass die Linguistik in stärkerem Maße auf Generalisierungen abzielt. Die höhere Frequenz von Zahlen (CARD) in der Linguistik überrascht nicht, da quantitative Verfahren hier deutlich häufiger zum Einsatz kommen als in der Literaturwissenschaft. Das Tag PRELS (Relativpronomen) weist auf eine häufigere Verwendung von Relativsätzen in der Literaturwissenschaft hin.
                 </p>
                 <figure>
-                    <graphic n="1002" width="9.846744444444445cm" height="6.5637694444444445cm" url="Pictures/image2.png" rend="inline"/>
+                    <graphic n="1002"
+                        width="9.846744444444445cm"
+                        height="6.5637694444444445cm"
+                        url="Pictures/image2.png"
+                        rend="inline"/>
                 </figure>
                 <p>Abbildung 2: Die distinktivsten Wortarten, visualisiert anhand der Teststatistik t. Visualisierung inspiriert durch das R-Paket 
                     <hi rend="italic">stylo</hi> (Eder et al. 2016).

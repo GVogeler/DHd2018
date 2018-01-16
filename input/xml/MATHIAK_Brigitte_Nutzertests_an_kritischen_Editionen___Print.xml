@@ -31,7 +31,7 @@
                 <address>
                     <addrLine>UniversitÃ¤t Graz</addrLine>
                     <addrLine>Zentrum fÃ¼r Informationsmodellierung - Austrian Centre for Digital Humanities</addrLine>
-                    <addrLine>ElisabethstraÃe 59/III</addrLine>
+                    <addrLine>ElisabethstraÃ&#x9f;e 59/III</addrLine>
                     <addrLine>8010 Graz</addrLine>
                 </address>
             </publicationStmt>
@@ -98,20 +98,36 @@
                 <p>Wir haben dazu das Werk “Also sprach Zarathustra” von Friedrich Nietzsche ausgewählt. Als Print und PDF wurde die Ausgabe von (Nietzsche/Colli/Montinari 1997) repräsentiert. Die Onlineversion stammt von nietzschesource.org. </p>
                 <p>Für den Eingangsfragebogen haben wir Fragen aus dem Fragebogen von Porter übersetzt. Die Antworten sind mit den Ergebnissen von Porter vergleichbar. In den Abbildungen 1 und 2 sind die am häufigsten genutzten digitalen und analogen Ressourcen unserer Nutzer angegeben. Abbildung 3 zeigt den präferierten Zugriffsweg zu verschiedenen Arten von Ressourcen. </p>
                 <figure>
-                    <graphic n="1001" width="16.51cm" height="13.0175cm" url="Pictures/image1.png" rend="inline"/>
+                    <graphic n="1001"
+                        width="16.51cm"
+                        height="13.0175cm"
+                        url="Pictures/image1.png"
+                        rend="inline"/>
                 </figure>
                 <p>Abbildung 1: Die am häufigsten benutzten digitalen Ressourcen der letzten drei Monate.</p>
                 <figure>
-                    <graphic n="1002" width="16.51cm" height="9.868958333333333cm" url="Pictures/image2.png" rend="inline"/>
+                    <graphic n="1002"
+                        width="16.51cm"
+                        height="9.868958333333333cm"
+                        url="Pictures/image2.png"
+                        rend="inline"/>
                 </figure>
                 <p>Abbildung 2: Die am häufigsten benutzten analogen Ressourcen der letzten drei Monate.</p>
                 <figure>
-                    <graphic n="1003" width="16.51cm" height="12.832291666666666cm" url="Pictures/image3.png" rend="inline"/>
+                    <graphic n="1003"
+                        width="16.51cm"
+                        height="12.832291666666666cm"
+                        url="Pictures/image3.png"
+                        rend="inline"/>
                 </figure>
                 <p>Abbildung 3: Wie wurde auf diese Ressourcen vorwiegend zugegriffen (Print oder Digital)?</p>
                 <p>Für den Nutzertest haben wir Aufgaben entwickelt, die den Nutzer auf eine natürliche Art an die Medien heranführen. Die gestellten Aufgaben waren vor allem interpretativ und verlangten von den Nutzern sich in den verschiedenen Primär- und Sekundärquellen zu orientieren und Änderungen mittels der Kommentare nachzuvollziehen. Im Anschluss an die Tests haben wir die klassischen Usability Metriken zu Effectiveness (Können die Ziele erreicht werden?), Efficiency (Wie viel Aufwand ist es die Ziele zu erreichen?) und Satisfaction (Wie zufrieden sind sie mit der Benutzbarkeit?) erhoben (vgl. Abb. 4). </p>
                 <figure>
-                    <graphic n="1004" width="16.51cm" height="10.133541666666666cm" url="Pictures/image4.png" rend="inline"/>
+                    <graphic n="1004"
+                        width="16.51cm"
+                        height="10.133541666666666cm"
+                        url="Pictures/image4.png"
+                        rend="inline"/>
                 </figure>
                 <p>Abbildung 4: Usability Metriken der drei Medien im Vergleich.</p>
                 <p>In der abschließenden Gruppendiskussion wurden schließlich die Vor- und Nachteile der verschiedenen Medien von den Nutzern diskutiert. Neben der Frage nach dem Medium, welches sie bevorzugen, waren auch die Kernfunktionalitäten der Editionen, also die Suche, Annotationen, Kompatibilität und Portabilität ein Thema. </p>
@@ -124,7 +140,11 @@
                 <p>Aus den Diskussionen konnten wir relativ klare und konkrete Kritikpunkte an der digitalen Edition identifizieren, die so oder so ähnlich auf die meisten der von uns untersuchten digitalen Editionen zutreffen (vgl. Abb. 5). Besonders häufig kam die Kritik an der Struktur bzw. Navigation innerhalb der Edition auf. Das Inhaltsverzeichnis gibt zwar eine relativ einfache Struktur vor, diese wurde allerdings von den Nutzern besser verstanden als die Struktur der Webseite. Ebenfalls sehr viele Nutzer arbeiten mit Annotationen. Dass dies auf der Webseite nicht unterstützt wurde, fiel unangenehm auf. </p>
                 <p>Weitere häufige Beschwerden wurden über die Suchfunktion geäußert. Diese funktionierte nicht wie von den Nutzern erwartet. Hinzu kam die Komplexität der Webseite, welche durch die Suchfunktion und Navigation nicht ausreichend kompensiert wird. </p>
                 <figure>
-                    <graphic n="1005" width="16.51cm" height="8.678333333333333cm" url="Pictures/image5.png" rend="inline"/>
+                    <graphic n="1005"
+                        width="16.51cm"
+                        height="8.678333333333333cm"
+                        url="Pictures/image5.png"
+                        rend="inline"/>
                 </figure>
                 <p>
                     <hi rend="italic">Abbildung 5: Häufig geäußerte Kritik an der digitalen Edition</hi>.

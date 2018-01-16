@@ -47,7 +47,7 @@
                 <address>
                     <addrLine>UniversitÃ¤t Graz</addrLine>
                     <addrLine>Zentrum fÃ¼r Informationsmodellierung - Austrian Centre for Digital Humanities</addrLine>
-                    <addrLine>ElisabethstraÃe 59/III</addrLine>
+                    <addrLine>ElisabethstraÃ&#x9f;e 59/III</addrLine>
                     <addrLine>8010 Graz</addrLine>
                 </address>
             </publicationStmt>
@@ -238,11 +238,15 @@
                     </p>
                 </div>
             </div>
-            <div xml:id="zahl-der-möglichen-teilnehmerinnen-und-t" type="div1" rend="DH-Heading1">
+            <div xml:id="zahl-der-möglichen-teilnehmerinnen-und-t"
+              type="div1"
+              rend="DH-Heading1">
                 <head>Zahl der möglichen Teilnehmerinnen und Teilnehmer</head>
                 <p>Zwischen 15 und 25.</p>
             </div>
-            <div xml:id="benötigte-technische-ausstattung" type="div1" rend="DH-Heading1">
+            <div xml:id="benötigte-technische-ausstattung"
+              type="div1"
+              rend="DH-Heading1">
                 <head>Benötigte technische Ausstattung</head>
                 <p>Es wird außer einem Beamer keine besondere technische Ausstattung benötigt. Es sollte sich um einen Raum handeln, in dem es möglich ist, den Teilnehmenden über die Schulter zu blicken und durch die Reihen zu gehen.</p>
             </div>

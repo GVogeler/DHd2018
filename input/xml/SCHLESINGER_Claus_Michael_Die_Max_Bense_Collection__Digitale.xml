@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="full">
+                    <title type="main">Die Max-Bense-Collection. Digitale Re-Publikation von Erstausgaben mit erweiterten Plattformfunktionen</title>
+                    <title type="sub"/>
+                </title>
+                <author>
+                    <persName>
+                        <surname>Schlesinger</surname>
+                        <forename>Claus-Michael</forename>
+                    </persName>
+                    <affiliation>Universität Stuttgart, Deutschland</affiliation>
+                    <email>claus-michael.schlesinger@ilw.uni-stuttgart.de</email>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2018-01-16T12:37:03.332446591</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Prof. Dr. Georg Vogeler</publisher>
+                <address>
+                    <addrLine>UniversitÃ¤t Graz</addrLine>
+                    <addrLine>Zentrum fÃ¼r Informationsmodellierung - Austrian Centre for Digital Humanities</addrLine>
+                    <addrLine>ElisabethstraÃ&#x9f;e 59/III</addrLine>
+                    <addrLine>8010 Graz</addrLine>
+                </address>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Converted from an OASIS Open Document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.17">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Poster</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>kulturelles Erbe</term>
+                    <term>Repository</term>
+                    <term>digitale Edition</term>
+                    <term>Max Bense</term>
+                    <term>Omeka</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Sammlung</term>
+                    <term>Community-Bildung</term>
+                    <term>Veröffentlichung</term>
+                    <term>Webentwicklung</term>
+                    <term>Text</term>
+                    <term>texttragende Gegenstände</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="div1" rend="DH-Heading">
+                <head>Texte</head>
+                <p>Die Max-Bense-Collection versammelt rund 700 Texte von Max Bense in der Fassung der Erstdrucke, darunter viele, die nur schwer verfügbar sind. Der überwiegende Teil der Texte in der Sammlung besteht aus Zeitungs- und Zeitschriftenartikeln. Die Max-Bense-Collection schließt damit eine Lücke der Ausgaben mit ausgewählten Schriften (Bense 1965, 1997-1998 und 2000), die die Zeitungs- und Zeitschriftenartikel, nicht zuletzt aus Platzgründen, die gedruckte Bücher mit sich bringen, oftmals übergehen. Die Texte, die die Max-Bense-Collection zur Verfügung stellt, sind dabei auch deshalb interessant, weil in ihnen oft die argumentative und materiale Vorbereitung der umfangreicheren Schriften erkennbar ist und die publizistischen Auseinandersetzungen, etwa im Nachgang seiner Aesthetica (Bense 1965), weitere Überlegungen und ergänzende Antworten, etwa auf Rezensionen, provozieren.</p>
+                <p>Die Schriften von Max Bense, darunter auch die kürzeren Texte, die die Max-Bense-Collection zur Verfügung stellt, sind für die kritische historische Reflexion der Digital Humanities aus zwei Gründen relevant. Erstens war Max Bense seit den 1950er Jahren an der Entwicklung einer "Informationsästhetik" (Bense 1965, 1968, 1969) beteiligt, die einen wichtigen theoretischen Rahmen für den Einsatz und die kritische Reflexion quantitativer Methoden in den Geisteswissenschaften und in der Kunst lieferte. Die Verbindung von Informationstheorie und Ästhetik, die sich im Begriff der Informationsästhetik anzeigt und die unter diesem Label maßgeblich vollzogen wird, ist nicht zuletzt Bedingung für die Entstehung der Digital Humanities.</p>
+                <p>Das Projekt verfolgt drei Ziele: Erstens wird durch die Re-Publikation der Zugang zu den Texten für die Bense-Forschung und für kulturgeschichtliche Forschungen zur Informationsästhetik erleichtert. Die digitale Re-Publikation der Erstausgaben ist mit Blick auf die grafische und typografische Gestaltung der Texte forschungsrelevant, weil Gestaltung und Design für Benses Theoriebildung maßgebliche Konzepte sind. Zweitens ermöglicht die entwickelte Plattformlösung den beteiligten Forscher*innen und Projektpartner*innen eine erweiterte Nutzung der digitalisierten Texte für projekt- und ausstellungsbegleitende Präsentationen und Kommentierungen ausgewählter Texte auf eigenen, projektbasierten Unterseiten der Plattform. Drittens dient die Plattform damit der Vernetzung von Nutzer*innen aus Forschung und beteiligten Kulturerbeinstitutionen, weil die Nutzung des Materials nachvollziehbar wird.</p>
+            </div>
+            <div type="div1" rend="DH-Heading">
+                <head>Technik</head>
+                <p>Die Plattform nutzt die Software 
+                    <hi rend="italic">Omeka</hi>, die vom Roy Rosenzweig Center for History and New Media (CNHM) entwickelt wird, mit projektspezifischen Änderungen und Ergänzungen. Omeka ist eine Web-Publishing-Plattform mit einfachen Möglichkeiten zur Verwaltung der präsentierten Daten und Inhalte. Darüber hinaus bietet Omeka kuratorische Funktionen (siehe Abschnitt Funktionen). Die Omeka-Installation der Max-Bense-Collection wird auf einem LAMP-Stack betrieben (Linux, Apache, MySQL, PHP). Für die Max-Bense-Collection werden eine Reihe verfügbarer Plugins genutzt sowie ein eigenes Theme (Schlesinger 2018), das auf dem "Berlin"-Theme der Omeka-Entwickler basiert und "Stuttgart" heißt, mit einem Augenzwinkern zur sogenannten Stuttgarter Schule, die sich 1950-1970 in Stuttgart entwickelte und an der Max Bense konzeptuell und praktisch (Herausgaben, Ausstellungen usw.) maßgeblichen Anteil hatte. (Klütsch 2012)
+                </p>
+                <p>Die Metadaten der publizierten Texte sind in Dublin Core codiert, die Bild- und Textdaten liegen im Format PDF-A mit zusätzlichem Textlayer vor (automatische Texterkennung) und lagern auf einem hochverfügbaren und redundanten Speichersystem der Universitätsbibliothek Stuttgart. Die Langzeitverfügbarkeit der Daten ist damit zumindest technisch gesichert und hängt vor allem an einer institutionellen Stabilisierung von Personalverhältnissen.</p>
+            </div>
+            <div type="div1" rend="DH-Heading">
+                <head>Funktionen</head>
+                <p>Das Projekt zielt auf eine wissenschaftliche Nutzung der Texte und eine Stärkung des Kontakts zwischen Kulturerbeinstitutionen und Forschung. Die Texte werden in mehreren wissenschaftlichen Fächern bearbeitet, etwa in der Literaturwissenschaft, Kunstwissenschaft, Philosophie, Wissenschaftsgeschichte.</p>
+                <p>Neben Möglichkeiten zur Ansicht/Lektüre der Texte mit Suche in Textdaten und Metadaten bietet die Max-Bense-Collection kuratorische Funktionen, also die Präsentation und Kommentierung ausgewählter Texte/Objekte auf einer thematisch fokussierten Webseite.</p>
+                <p>An dieser Stelle wird der autorzentrierte Aufbau der Sammlung zum Problem, weil viele Forschungen nicht autorzentriert arbeiten, sondern etwa Diskurse, Konstellationen, soziale Zusammenhänge, Gattungen usw. bearbeiten. Die Abbildung solcher Zusammenhänge ist perspektivisch wünschenswert. Die Sammlung ist deshalb erweiterbar angelegt und soll in Zukunft auch Materialien aufnehmen, die nicht von Max Bense autorschaftlich gezeichnet sind, und die etwa über Forschungs- oder Ausstellungsprojekte mit einem sachlichen und/oder historischen Zusammenhang erschlossen werden. </p>
+                <p>Am Projekt beteiligt sind das Zentrum für Kunst und Medien Karlsruhe (ZKM), das Stuttgart Research Center for Text Studies (SRCTS) und die Abteilung Digital Humanities der Universität Stuttgart.</p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl>Bense, M. (1965) Aesthetica. Einführung in die neue Ästhetik. Agis-Verlag, Baden-Baden.</bibl>
+                    <bibl>Bense, M. (13.3.1968) "Ist Kunst berechenbar?". Frankfurter Allgemeine Zeitung, S 22.</bibl>
+                    <bibl>Bense, M. (1969) Einführung in die informationstheoretische Ästhetik. Grundlegung und Anwendung in der Texttheorie. Rowohlt, Reinbek bei Hamburg.</bibl>
+                    <bibl>Bense, M., Walther, E. (1997-1998) Ausgewählte Schriften in vier Bänden. J.B. Metzler, Stuttgart.</bibl>
+                    <bibl>Bense, M. (2000) Radiotexte : Essays, Vorträge, Hörspiele. Winter, Heidelberg.</bibl>
+                    <bibl>Klütsch, C. (2012) Information Aesthetics and the Stuttgart School. In: Higgins, H.: Mainframe experimentalism: early computing and the foundations of the digital arts, University of California Press, Berkeley, S 65-89.</bibl>
+                    <bibl>Schlesinger, C. / Zittel, C. / Zentrum für Kunst und Medien Karlsruhe (2018): Max-Bense-Collection, http://max-bense.ub.uni-stuttgart.de, Zugriff: 15.1.2018</bibl>
+                    <bibl>Schlesinger, C. (2018): Omeka-Theme "Stuttgart", https://github.com/cmcx/theme-stuttgart, Zugriff: 15.1.2018</bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

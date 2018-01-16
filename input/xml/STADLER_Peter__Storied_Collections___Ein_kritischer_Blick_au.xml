@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="full">
+                    <title type="main">„Storied Collections“? Ein kritischer Blick auf die Arbeit an digitalen (Musik)-Editionen</title>
+                    <title type="sub"/>
+                </title>
+                <author>
+                    <persName>
+                        <surname>Stadler</surname>
+                        <forename>Peter</forename>
+                    </persName>
+                    <affiliation>Universität Paderborn</affiliation>
+                    <email>stadler@weber-gesamtausgabe.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Kepper</surname>
+                        <forename>Johannes</forename>
+                    </persName>
+                    <affiliation>Universität Paderborn</affiliation>
+                    <email>kepper@edirom.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Capelle</surname>
+                        <forename>Irmlind</forename>
+                    </persName>
+                    <affiliation>Universität Paderborn</affiliation>
+                    <email>irmlind.capelle@uni-paderborn.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Oberhoff</surname>
+                        <forename>Andreas</forename>
+                    </persName>
+                    <affiliation>Universität Paderborn</affiliation>
+                    <email>oberhoff@upb.de</email>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2017-09-25T23:19:41.922732000</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Prof. Dr. Georg Vogeler</publisher>
+                <address>
+                    <addrLine>UniversitÃ¤t Graz</addrLine>
+                    <addrLine>Zentrum fÃ¼r Informationsmodellierung - Austrian Centre for Digital Humanities</addrLine>
+                    <addrLine>ElisabethstraÃ&#x9f;e 59/III</addrLine>
+                    <addrLine>8010 Graz</addrLine>
+                </address>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Converted from an OASIS Open Document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.17">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Panel</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Edition</term>
+                    <term>Texttheorie</term>
+                    <term>Annotation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Teilen</term>
+                    <term>Annotieren</term>
+                    <term>Theoretisierung</term>
+                    <term>Kommentierung</term>
+                    <term>Notenblätter</term>
+                    <term>Text</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>Der Aufbau von digitalen (Musik)-Editionen und den entsprechenden Online-Publikationen hat sich im wissenschaftlichen Umfeld etabliert und damit Fakten und Muster geschaffen, die nicht notwendigerweise mit den zeitlich parallel entwickelten Theorien kongruent gehen. Das mag zum einen daran liegen, dass die zeitgenössische Theoriebildung selbst nicht einheitlich ist – man vergleiche nur die Idee einer „sozialen Edition“ (Siemens 2011) mit der Debatte um „documentary editing“ (Robinson 2013; Gabler 2010; Pierazzo 2011) oder mit einem „multiplen Textbegriff“ als Grundlage der Edition (Sahle 2013) – zum anderen aber auch an den ganz praktischen Rahmenbedingungen der allermeist als drittmittelgeförderten, zeitlich begrenzten Projekte. </p>
+            <p>Es gilt daher, kritisch rückzublicken und zu reflektieren, in welcher Weise die Art der digitalen Erschließung die Erkenntnismöglichkeiten des Nutzers steuert, und ob sich die mit solchen Webpublikationen häufig verbundenen Ideen von „Offenheit“, „Erweiterbarkeit“, „Vernetzung“ und „Nutzerbeteiligung“ in der täglichen Arbeit der Projekte überhaupt realisieren lassen – oder ob diese Ideen nicht sogar teilweise auf zu sehr simplifizierten Voraussetzungen beruhen? </p>
+            <p>Innerhalb der Musikwissenschaft decken die digitalen Projekte des Detmold/Paderborner Virtuellen Forschungsverbunds Edirom und des Zentrums Musik – Edition – Medien sowie die damit assoziierten Vorhaben einen weiten Bereich der digitalen Aktivitäten im Fach ab. Es handelt sich einerseits um Projekte im Bereich der Musikedition (u.a. 
+                <ref target="https://weber-gesamtausgabe.de/">Weber-Gesamtausgabe,</ref>
+                <ref target="http://www.freischuetz-digital.de/">Freischütz Digital</ref>, 
+                <ref target="http://www.edirom.de/llb-bargheer/">Bargheer-Fiedellieder</ref>, 
+                <ref target="http://beethovens-werkstatt.de/">Beethovens Werkstatt</ref>), andererseits um Methoden- und Softwareentwicklung (
+                <ref target="https://github.com/Edirom/Edirom-Online">Edirom</ref>, 
+                <ref target="http://zenmem.de/">ZenMEM</ref>, 
+                <ref target="https://github.com/BeethovensWerkstatt/VideApp">VideApp</ref>, 
+                <ref target="https://github.com/Edirom/WeGA-WebApp">WeGA-WebApp</ref>), sowie um neuartige Erschließungskonzepte (
+                <ref target="http://hoftheater-detmold.de/">Detmolder Hoftheater</ref>) bzw. Beiträge zur Entwicklung von Codierungsstandards (TEI, MEI). Vor allem in Rückbindung an TEI und MEI sind dabei Publikationen entstanden, die weit über eine schlichte Digitalisierung hinausgehen: Metadaten, die wissenschaftlichen Ansprüchen gerecht werden, extensive Verknüpfungen und inhaltliche Auszeichnungen der Dokumente sind selbstverständlich. Ferner sind unterschiedliche Annotationspraktiken erprobt.
+            </p>
+            <p>Das Bemühen der bisherigen Arbeiten war vor allem darauf gerichtet, die wissenschaftlichen Standards der „klassischen“ Edition und Informationsbereitstellung zu halten und „digitale“ Möglichkeiten wie Verknüpfungen zu externen Quellen und die Vereinheitlichung von Angaben durch Normdaten zu integrieren.</p>
+            <p>Aber genügt eine solche „Aufbereitung“ der gesammelten Daten und wie kommt dabei der „Nutzer“ ins Spiel bzw. wie kann seinen Erwartungen entsprochen werden? Mit Blick auf solche Fragen stellte Jeffrey T. Schnapp 2013 fest:</p>
+            <p>„Herein resides the challenge that I am referring to as storied collections and that I associate with the need to give rise to a humanistic culture of critical engagement with data and data architectures themselves as well as with the tools that analyze and translate them into argumentative or narrative forms.“ (Schnapp 2013)</p>
+            <p>D. h. es ist zu fragen:</p>
+            <list type="unordered">
+                <item>Wie bestimmen die verwendeten Schemata unsere Erschließung?</item>
+                <item>Was verstehen wir unter und wie ermöglichen wir Partizipation der Nutzer?</item>
+                <item>Wie verhält sich Partizipation zu unserem wissenschaftlichem Anspruch? </item>
+                <item>Welche technischen Probleme stehen Partizipation (noch?) entgegen?</item>
+                <item>Wie erreichen wir einen kritischen Umgang mit den bereitgestellten Daten?</item>
+                <item>Wie erreichen wir durch bloße Informationsbereitstellung kritisches Wissen?</item>
+                <item>Kann der Nutzer ohne Vorwissen solche Portale / Editionen effektiv nutzen?</item>
+                <item>Inwiefern nehmen wir überhaupt auf verschiedene Erkenntnisinteressen Rücksicht?</item>
+            </list>
+            <p>Wenn dies auch Fragen sind, die z. T. alle Geisteswissenschaften betreffen, so sollen sie doch in dem vorgeschlagenen Panel aus Sicht der speziellen Anforderung der Musikwissenschaft betrachtet werden. Hierzu werden drei verschiedene musikwissenschaftliche digitale Projekte (Weber-Gesamtausgabe, Hoftheater-Projekt und Beethovens Werkstatt) ihren bisherigen Umgang mit den Standards und den digitalen Möglichkeiten kritisch erläutern. Ergänzt werden diese Überlegungen durch die kritische Reflexion der technischen Bedingungen von Partizipation und Konsistenz der Daten (Zentrum Musik – Edition – Medien). </p>
+            <div type="div1">
+                <head>Weber-Gesamtausgabe</head>
+                <p>Die digitale Edition der Schriften, Tagebücher und Schriften Carl Maria von Webers wurde 2011 der Öffentlichkeit vorgestellt und seitdem – sowohl in der TEI-Auszeichnung als auch in der HTML-Darstellung – kontinuierlich weiterentwickelt und angepasst. Erst im letzten Jahr z.B. wurden dabei „Themenkommentare“ ergänzt als Versuch, die inzwischen über 27.000 verfügbaren Dokumente stärker narrativ einzubetten bzw. zu verknüpfen. Grundsätzlich bleibt aber das Dilemma, dass ein starker Fokus auf der Standardisierung und Normalisierung der Auszeichnung liegt – das ermöglicht zwar auf einer globalen Ebene das Vernetzen mit anderen Repositorien z.B. durch GND-Beacon oder correspSearch und demonstriert somit die Möglichkeiten und Anschlussfähigkeiten digitaler Editionen, aus dem Blick geraten dabei aber oft die Besonderheiten (und Unsicherheiten) lokaler Phänomene.</p>
+            </div>
+            <div type="div1">
+                <head>Hoftheater-Projekt</head>
+                <p>Das sog. Hoftheater-Projekt („Entwicklung eines MEI- und TEI-basierten Modells kontextueller Tiefenerschließung von Musikalienbeständen am Beispiel des Detmolder Hoftheaters im 19. Jahrhundert (1825–1875)“) stellt einerseits in traditioneller Weise Informationen zu sehr heterogenen Beständen bereit und verknüpft diese andererseits untereinander in einer Form, die erst durch digitale Mittel möglich ist. D. h. neben der Präsentation von Digitalisaten, Metadaten, Incipits und Textübertragungen, werden die einzelnen Objekte durch die Auszeichnung nicht nur mit Elementen, sondern mit key-Attributen (und wenn möglich mit Normdaten) für Personen, Werke und Rollen miteinander in Verbindung gesetzt.</p>
+                <p>Es entsteht so ein Informationsnetz
+                    <note xml:id="ftn0" place="foot" n="1"> Siehe das Modell auf der Website: 
+                        <ptr target="http://hoftheater-detmold.de/?page_id=1095"/>.
+                    </note>, das unterschiedliche Forschungsinteressen zulässt. Neben den „traditionellen“ Informationen zu den Quellen können Angaben zur Organisation des Theaterbetriebs, zur finanziellen Situation einzelner Personen, zur Theatersituation in den verschiedenen Spielorten etc. abgefragt werden. Die Daten können aber auch Basis soziologischer/historischer Studien werden, indem z. B. die Gehälter am Theater mit denen anderer Berufsgruppen in Beziehung gesetzt werden.
+                </p>
+                <p>Es ergeben sich u. a. folgende Fragen für einen kritischen Umgang mit diesen Daten:</p>
+                <list type="unordered">
+                    <item>die bisher verwendeten Auszeichnungselemente sind fachspezifisch gewählt</item>
+                    <item>Zweifel in der Übertragung werden ausgezeichnet [aber nicht angezeigt]. Bei den Auszeichnungen wird hingegen auf diese Angabe verzichtet bzw. bleiben Lücken, da das grundsätzliche Problem, wie inhaltliche Argumente „dargestellt“ werden können, noch nicht gelöst ist</item>
+                    <item>die XML-Dateien stehen innerhalb der Anwendung zur Verfügung, können aber nicht frei heruntergeladen werden</item>
+                </list>
+            </div>
+            <div type="div1">
+                <head>
+                    <anchor xml:id="id_docs-internal-guid-ffcc83ad-baf4-ca21-fbcf-05ebb14f388b"/>Beethovens Werkstatt
+                </head>
+                <p>Die Zielsetzung der in „Beethovens Werkstatt“ entwickelten VideApp ist es, die Erkenntnisse und Beobachtungen des Projekts zur Textgenese ausgewählter Werke Beethovens möglichst direkt sichtbar zu machen, also eine Vermittlungsform zu finden, die jenseits verbaler Erläuterungen einen möglichst unmittelbaren und nachvollziehbaren Zugang zu den Inhalten bietet. Dabei zeigt sich, dass die Menge der zu treffenden Aussagen, verbunden mit der Neuartigkeit dieser Vermittlungsformen, leicht zu Orientierungsschwierigkeiten des Benutzers führt: Nicht immer erschließen sich gut gemeinte Funktionen so schnell wie erhofft, und besonders spannende Beobachtungen gehen in der Fülle an Details unter. Eine vor Jahren im Kontext des Edirom-Projekts entstandene, aber nie umgesetzte Idee aufgreifend versucht das Projekt daher inzwischen, dem Benutzer besonders relevante Aspekte der Editionen über geführte „Touren“ nahezubringen, ohne dessen eigenständige vertiefende Auseinandersetzung mit den Materialien einzuschränken.</p>
+            </div>
+            <div type="div1">
+                <head>ZenMEM</head>
+                <p>Im Verbundprojekt „Zentrum Musik – Edition – Medien“ (ZenMEM) beschäftigen sich Wissenschaftler/-innen der Universität Paderborn, der Hochschule für Musik Detmold und der Hochschule Ostwestfalen-Lippe mit den Veränderungen und den neuen Möglichkeiten beim Übergang von analogen zu digitalen Musik- und Medieneditionen. </p>
+                <p>Unbestritten sind an dieser Stelle die vielen Vorteile und Mehrwerte einer digitalen Edition gegenüber der klassischen, analogen Edition in Buchform. Die Digitalisierung von Musikeditionen schafft aber gleichzeitig auch ganz neue Problemstellungen und Herausforderungen. Im Projekt durchgeführte problemzentrierte Leitfadeninterviews mit Editoren zeigten bspw. deutlich das Spannungsfeld zwischen Offenheit und Abgeschlossenheit insbesondere bei der (Nach-)Nutzung:</p>
+                <list type="unordered">
+                    <item>Wie erreicht man eine Form der Abgeschlossenheit bei der Publikation digitaler Musikeditionen, welche die ‚Wertigkeit‘ einer gedruckten Edition besitzt?</item>
+                    <item>Wie bringt man die gewünschte offene (Nach-)Nutzung einer digitalen Musikedition durch ein breites Publikum (neben Editoren auch Dirigenten, interessierte Laien, Studierende) in Einklang mit dem Wunsch nach Abgeschlossenheit?</item>
+                    <item>Wie gestaltet sich die Wertschöpfung im Bereich (offener) digitaler Musikeditionen und wie ist das Verhältnis von Editoren, Verlagen, Forschungs- und Gedächtnisinstitutionen zueinander?</item>
+                    <item>Wie stellt man eine dauerhafte Verfügbarkeit und Referenzierbarkeit (insbesondere im Hinblick auf eine offene, sich weiterentwickelnde) digitale Musikedition sicher?</item>
+                    <item>Wie geht man mit Autorschaft in einer gemeinschaftlich erarbeiteten Edition um? Bereits auf Annotationsebene?</item>
+                    <item>Wie geht man mit den Rechten an (externem) Quellenmaterial um?</item>
+                    <item>Wie kann man Nachhaltigkeit gewährleisten?</item>
+                </list>
+                <p>Die genannten Problemfelder ergeben sich zum Teil zwar schon direkt oder indirekt aus dem Übergang von analogen zu digitalen Musikeditionen und haben bereits Auswirkungen auf den Prozess des Edierens selbst, doch eine breitgefächerte (Nach)Nutzung muss frühzeitig mitbetrachtet werden, da zusätzliche Akteure mit unterschiedlichen Interessen in Einklang gebracht werden müssen.</p>
+                <p>Zusätzlich implizieren viele der Probleme auch sehr technische Herausforderungen, wie bspw. eine Revisionssicherheit (insbesondere: Berechtigungen, Schutz vor Veränderung und Verfälschung, Sicherung vor Verlust, Dokumentation von Prozessen und Nachvollziehbarkeit) sowie Versionierung und Referenzierung von Arbeits- und Publikationsständen. Hier gilt es nun den nächsten Paradigmenwechsel von einzelnen digitalen Musikeditionen hin zu Editionsinfrastrukturen forschungsbegleitend zu vollziehen, um die genannten Herausforderungen überhaupt adäquat adressieren zu können.</p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl>
+                        <anchor xml:id="id_docs-internal-guid-ffcc83ad-baf8-222d-e69d-119454fdcb65"/>
+                        <hi rend="bold">Gabler, Hans Walter</hi> (2010): „Theorizing the Digital Scholarly Edition“, in: Literature Compass 7/2 (2010): 43–56
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Pierazzo, Elena</hi> (2011): „A Rationale of Digital Documentary editions“. Literary and Linguistic Computing 26/4 (2011): 463–77
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Robinson, Peter</hi> (2013): „Towards a Theory of Digital Editions“, in: Variants 10 (2013): 105–131
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Sahle, Patrick</hi> (2013): „Digitale Editionsformen, Zum Umgang mit der Überlieferung unter den Bedingungen des Medienwandels“, Norderstedt 2013
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Schnapp, Jeffrey T. </hi>(2003): „Knowledge Design. Incubating new knowledge forms / genres / spaces in the laboratory of the digital humanities.“ Keynote delivered at the Herrenhausen Conference „Digital Humanities Revisited – Challenges and Opportunities in the Digital Age“ (Dez. 2013)
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Siemens, Ray / Timney, Meagan / Leitch, Cara / Koolen, Corina / Garnett, Alex</hi> (2011): „Toward Modelling the 
+                        <hi rend="italic">Social</hi> Edition: An Approach to Understanding the Electronic Scholarly Edition in the Context of New and Emerging Social Media“, in: Literary and linguistic computing 27/4 (2012): 445–461
+                    </bibl>
+                    <bibl>
+                        <hi rend="color(#000000)bold">Wiering, Frans / Crawford, Tim / Lewis, David</hi>
+                        <hi rend="color(#000000)"> </hi>
+                        <hi rend="color(#000000)">(2006): „Digital Critical Editions of Music. A Multidimensional Model“, Methods Network Expert Seminar „Modern Methods for Musico</hi>
+                        <hi rend="color(#000000)">logy“</hi>
+                        <hi rend="color(#000000)">,online unter </hi>
+                        <ptr target="http://www.methodsnetwork.ac.uk/redist/pdf/wiering.pdf"/>
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

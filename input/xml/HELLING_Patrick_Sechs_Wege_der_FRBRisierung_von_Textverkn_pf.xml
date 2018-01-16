@@ -31,7 +31,7 @@
                 <address>
                     <addrLine>UniversitÃ¤t Graz</addrLine>
                     <addrLine>Zentrum fÃ¼r Informationsmodellierung - Austrian Centre for Digital Humanities</addrLine>
-                    <addrLine>ElisabethstraÃe 59/III</addrLine>
+                    <addrLine>ElisabethstraÃ&#x9f;e 59/III</addrLine>
                     <addrLine>8010 Graz</addrLine>
                 </address>
             </publicationStmt>
@@ -82,31 +82,51 @@
                 <p>1.) Die direkte Verbindung</p>
                 <p>In diesem einfachen Fall gibt es einfach eine Verbindung zwischen dem Dokument und der Entität, die mit diesem verknüpft werden soll. Die Property wird dazu idealerweise aus einer bereits etablierten Ontologie gewählt (siehe Abb. 1). Das klassische Beispiel hierfür ist eine Verschlagwortung oder die Zuordnung zu Autoren. Obwohl diese Art der Modellierung sehr einfach ist, hat sie doch starke Einschränkungen. Es bleibt unklar, welcher Teil des Dokuments für die Verbindung verantwortlich ist und es ist schwierig die Art der Verbindung über die Property hinaus zu beschreiben.</p>
                 <figure>
-                    <graphic n="1001" width="15.917333333333334cm" height="3.81cm" url="Pictures/image1.jpeg" rend="inline"/>
+                    <graphic n="1001"
+                        width="15.917333333333334cm"
+                        height="3.81cm"
+                        url="Pictures/image1.jpeg"
+                        rend="inline"/>
                 </figure>
                 <p>Abb. 1: Die direkte Verbindung.</p>
                 <p>2.) Die Verbindung über die Textstelle</p>
                 <p>Bei dieser Art der Modellierung wird zunächst die Textstelle innerhalb des Dokuments identifiziert und dann im nächsten Schritt mit der Entität verbunden, wodurch im Gegensatz zu Variante 1 eindeutig definiert wird, welcher Teil des Dokuments für die Verbindung verantwortlich ist (siehe Abb. 2).</p>
                 <figure>
-                    <graphic n="1002" width="15.917333333333334cm" height="2.413cm" url="Pictures/image2.jpeg" rend="inline"/>
+                    <graphic n="1002"
+                        width="15.917333333333334cm"
+                        height="2.413cm"
+                        url="Pictures/image2.jpeg"
+                        rend="inline"/>
                 </figure>
                 <p>Abb. 2: Die Verbindung über die Textstelle.</p>
                 <p>3.) Die Verknüpfung als eigene Entität</p>
                 <p>Dabei wird das Dokument bzw. die Textstelle zunächst mit einem Verknüpfungsobjekt verbunden und dann dieses mit der Zielentität (siehe Abb. 3), wobei im Vergleich zu Variante 1 die Erfassung relationsbeschreibender Informationen möglich wird. Diese Art der Modellierung ist vor allem nützlich, wenn es sehr viele Zusatzinformationen zu der Verknüpfung selbst gibt. </p>
                 <figure>
-                    <graphic n="1003" width="15.917333333333334cm" height="10.668cm" url="Pictures/image3.jpeg" rend="inline"/>
+                    <graphic n="1003"
+                        width="15.917333333333334cm"
+                        height="10.668cm"
+                        url="Pictures/image3.jpeg"
+                        rend="inline"/>
                 </figure>
                 <p>Abb. 3: Die Verknüpfung als eigene Entität.</p>
                 <p>4.) Die Verknüpfung mit einer Stellvertreterentität</p>
                 <p>Manchmal ist es nicht eindeutig möglich das Ziel der Verknüpfung als Entität zu identifizieren. In diesem Fall kann es sinnvoll sein, zunächst ein fiktives Ziel zu definieren und dann dessen Beziehungen zu bereits bekannten Entitäten zu etablieren (siehe Abb. 4). In gewissem Sinne ist dies invers zu Methode 2 zu sehen, bei der ja auch zunächst das Objekt der Textstelle neu erschaffen wird, indem es zu seinem Quelldokument in Beziehung gesetzt wird. In (Mathiak / Boland 2015) wird dies benutzt um fehlende Informationen zur Zielentität zu modellieren. </p>
                 <figure>
-                    <graphic n="1004" width="15.917333333333334cm" height="7.598833333333333cm" url="Pictures/image4.jpeg" rend="inline"/>
+                    <graphic n="1004"
+                        width="15.917333333333334cm"
+                        height="7.598833333333333cm"
+                        url="Pictures/image4.jpeg"
+                        rend="inline"/>
                 </figure>
                 <p>Abb. 4: Die Verknüpfung mit einer Stellvertreterentität.</p>
                 <p>5.) Das unabhängige Netzwerk</p>
                 <p>In vielen Fällen ist der Textbezug für die Ergebnisdarstellung nur von sekundärer Bedeutung, stattdessen werden die referenzierten Entitäten direkt miteinander in Verbindung gesetzt (siehe Abb. 5). Als Beispiel seien Beziehungsnetzwerke von Protagonisten in literarischen Werken genannt. Die Entitäten sind zwar auch mit dem Dokument verknüpft in dem sie auftauchen, aber die Kerninformation liegt in den Beziehungen, die diese untereinander haben. </p>
                 <figure>
-                    <graphic n="1005" width="15.917333333333334cm" height="9.3345cm" url="Pictures/image5.jpeg" rend="inline"/>
+                    <graphic n="1005"
+                        width="15.917333333333334cm"
+                        height="9.3345cm"
+                        url="Pictures/image5.jpeg"
+                        rend="inline"/>
                 </figure>
                 <p>Abb. 5: Das unabhängige Netzwerk.</p>
                 <p>6.) Multiple Dokumente</p>

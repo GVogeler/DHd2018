@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="full">
+                    <title type="main">Bildanalyse durch Distant Viewing - zur Identifizierung von klassizistischem Mobiliar in Interieurdarstellungen.</title>
+                    <title type="sub"/>
+                </title>
+                <author>
+                    <persName>
+                        <surname>Donig</surname>
+                        <forename>Simon</forename>
+                    </persName>
+                    <affiliation>Universität Passau, Deutschland</affiliation>
+                    <email>simon.donig@uni-passau.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Christoforaki</surname>
+                        <forename>Maria</forename>
+                    </persName>
+                    <affiliation>Universität Passau, Deutschland</affiliation>
+                    <email>Maria.Christoforaki@Uni-Passau.De</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Bermeitinger</surname>
+                        <forename>Bernhard</forename>
+                    </persName>
+                    <affiliation>Universität Passau, Deutschland</affiliation>
+                    <email>Bernhard.Bermeitinger@uni-passau.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Handschuh</surname>
+                        <forename>Siegfried</forename>
+                    </persName>
+                    <affiliation>Universität Passau, Deutschland</affiliation>
+                    <email>Siegfried.Handschuh@uni-passau.de</email>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2018-01-15T14:13:51.632370867</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Prof. Dr. Georg Vogeler</publisher>
+                <address>
+                    <addrLine>UniversitÃ¤t Graz</addrLine>
+                    <addrLine>Zentrum fÃ¼r Informationsmodellierung - Austrian Centre for Digital Humanities</addrLine>
+                    <addrLine>ElisabethstraÃ&#x9f;e 59/III</addrLine>
+                    <addrLine>8010 Graz</addrLine>
+                </address>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Converted from an OASIS Open Document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.17">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Vortrag</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Neoclassica</term>
+                    <term>Distant Viewing</term>
+                    <term>Deep Learning</term>
+                    <term>Klassizismus</term>
+                    <term>Material Culture</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Modellierung</term>
+                    <term>Annotieren</term>
+                    <term>Theoretisierung</term>
+                    <term>Bereinigung</term>
+                    <term>Bearbeitung</term>
+                    <term>Bilder</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>In den vergangenen Jahren haben digitale Forschungsinstrumente in Kunst-, Architektur- und Designgeschichte sowie den Material-Culture Studies an Bedeutung gewonnen (Berry 2017; Klinke 2016; Auslander 2005). Wie viele disruptive Technologien verändern neue Techniken im Bereich der Computer Vision (Bell &amp; Ommer 2015; dies. 2016) die Arbeitsweise unsere Disziplinen.</p>
+            <p>Durch unsere Arbeit am Neoclassica-Framework (Donig et al. 2017a) möchten wir Forschenden solche neue Instrumente und Methoden für die Analyse und Klassifizierung materialer Kultur, konstruktiver Merkmale und ästhetischer Formen des Klassizismus an die Hand geben. In unserer Forschung konzentrieren wir uns dabei zunächst auf Raumkunst (insbesondere Mobiliar und Innenausstattung) sowie Architektur und deren jeweilige visuelle Darstellungen.</p>
+            <p>Die Klassifizierung von einzelnen Artefakten und ihre Identifizierung in Raumdarstellungen bildet deshalb einen nicht unwichtigen Meilenstein für das Projekt als Ganzes. </p>
+            <p>In dem hier vorliegenden Beitrag beschreiben und reflektieren wir einen Zugang zur Klassifizierung von Objekten in Einzeldarstellungen bzw. zu ihrer Identifikation in Raumdarstellungen, aufbauend auf unseren Experimenten (Bermeitinger et al. 2017) und Analysen (Donig et al. 2017b) zur automatisierten Klassifizierung von materialer Kultur des Klassizismus mit 
+                <hi rend="italic">Tiefem Lernen</hi> (Deep Learning) – hier konkret Faltenden Neuronalen Netzen (Convolutional Neural Networks, CNN) (Krizhevsky et al. 2012).
+            </p>
+            <div type="div1" rend="DH-Heading1">
+                <head>
+                    <anchor xml:id="id__30j0zll"/>Interieuranalyse durch Distant Viewing – theoretische Überlegungen
+                </head>
+                <p>Unter 
+                    <hi rend="italic">Distant Viewing</hi> verstehen wir in Analogie zur Notion des 
+                    <hi rend="italic">Distant Reading</hi> (Moretti 2013) eine wissenschaftliche Methode zur technischen Überbrückung sowohl zeitlicher wie räumlicher Distanz als auch Verbreiterung der Menge betrachtbarer Bilder. In diesem Sinn ermöglicht der ferne Blick als wissenschaftliche Methode es uns, ein Verständnis für die tatsächlich oder auch nur kontemporär imaginierte Beschaffenheit von vergangenen Räumen zu entwickeln.
+                </p>
+                <p>Da Bildquellen als selbstreferentielle Systeme mit einem spezifischen Eigensinn ausgestattet sind, bedürfen sie einer besonderen methoden- und quellenkritischen Durchdringung, denn selbst Bildwerke, die ihrem Anspruch nach einen dokumentierenden Charakter haben, bleiben ästhetischen Zwängen des Mediums unterworfen (verwiesen sei etwa auf die kritische vergleichende Analyse der Raumwirkung von Aquarellen aus dem sogenannten Wittelsbacher Album durch (Langenholt 2002: 47–49)).</p>
+                <p>Durch die Ausweitung kultureller Produktion und Konsumption – sowohl von Texten wie von Bildern – an der Epochenschwelle 1800 stehen für Forschungen in diesem Bereich reichhaltige Quellenbestände zur Verfügung. Diese reichen von eher typisierenden Raumdarstellungen (wie etwa in Karikaturen oder häufig auch zeitgenössischen Darstellungen des Alltags unterbürgerlicher Schichten) über ihrem Bewusstsein nach eher historisch-dokumentierende Ansätze (beispielsweise Alben mit Raumansichten, wie sie in den Oberschichten etwa als Hochzeitsgeschenke für “ausheiratende” weibliche Familienmitglieder beliebt waren) bis hin zu visionären Raum- und Werkstücksentwürfen, die einem konsumierbaren Erzeugnis in ihrer Antikenrezeption zugleich auch eine gesellschaftliche Vision einschrieben (Pawlitzki, Bruer, Kunze 2009); (Kepetzis 2006); (Auslander 1996).</p>
+                <p>Auch wenn in der Forschungspraxis beide Ansätze stets aufeinander bezogen bleiben müssen, kann man idealtypisch zwischen einem Ansatz unterscheiden, der das Bildwerk vor allem im Hinblick auf seine Produktionsbedingungen und Produzenten befragt, und einem Ansatz, der das Bild als Quelle des Dargestellten analysiert.</p>
+                <p>Betrachtet man Bildwerke etwa als Zeugnisse vergangener Alltagskultur und ihrer Praktiken, wird es durch den hier besprochenen Zugang beispielsweise möglich, Veränderungen in der Ausstattung und -gestaltung einander ähnlicher Räume über längere Zeit zu verfolgen. Wir können so zugleich Cluster und Typen von Räumen aufgrund der Darstellung ihrer Beschaffenheit bilden, die es wiederum erlauben, tradierte Funktionszuschreibungen von Räumen kritisch zu hinterfragen.</p>
+                <p>Stellt man dagegen das Dargestellte als Repräsentationsform von Geschmack in den Mittelpunkt, wird es in ähnlicher Weise möglich, Artefakte mit anderen digitalisierten Korpora abzugleichen. Unabhängig davon, ob das dargestellte Objekt jemals zur Ausführung gelangt ist, kann unser Zugang so beispielsweise für die Rezeptionsforschung den Transfer spezifischer Darstellungsweisen durch Medien wie etwa die 
+                    <hi rend="italic">Collection de Meubles et Objets de Goût</hi> (La Mésangère 1761–1831) oder Musterbücher neu zugänglich machen.
+                </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>
+                    <anchor xml:id="id__1fob9te"/>Instrumentenentwicklung
+                </head>
+                <div type="div2" rend="DH-Heading2">
+                    <head>
+                        <anchor xml:id="id__3znysh7"/>Objekterkennung in Einzeldarstellungen
+                    </head>
+                    <div type="div3" rend="DH-Heading3">
+                        <head>
+                            <anchor xml:id="id__2et92p0"/>Datengewinnung, Aufbereitung und Säuberung
+                        </head>
+                        <p>Ein erster wichtiger Meilenstein im Rahmen unseres Forschungsprogramms war die automatisierte Erkennung von Objekten in Einzeldarstellungen. Um zeitnah ein großes Trainingskorpus zu generieren, haben wir zunächst Abbildungen von materieller Kultur des Klassizismus – hauptsächlich Möbel und Kleinkunst (darunter etwa Bronzen, Silberarbeiten etc.) – aus den Beständen des Metropolitan Museum of Art gescrapt, welches diese Bildwerke Anfang 2017 als Public Domain zugänglich gemacht hat (The Metropolitan Museum of Art 2017). Dadurch ist es möglich, die Trainings- und Testdaten an interessierte Dritte weiterzugeben, was die Reproduzierbarkeit des Experiments sicherstellt.</p>
+                        <p>Da ein Faltendes Neuronales Netz Bilder als Ganzes klassifiziert, haben wir zunächst sichergestellt, dass jedes Bild lediglich ein Objekt in der Totalen zeigt. Dazu wurden alle Darstellungen von Möbelmerkmalen wie Nahaufnahmen ausgeschlossen sowie alle Bildwerke, die Interieurs, Ensembles und Möbel à la suite zeigen, derart aufgespalten, dass auf jeder Abbildung nur noch ein Möbelstück zu sehen ist. Diese Darstellungen haben wir gegebenenfalls so bearbeitet, dass noch sichtbare Teile benachbarter Objekte mit einer homogenen Farbe abgedeckt wurden. Im Endergebnis entstand so ein Korpus von 1.246 Bildern, der 379 Artefakte umfasst. Diese wurden gemäß der Neoclassica-Ontologie (Donig et al. 2016) annotiert. </p>
+                    </div>
+                    <div type="div3" rend="DH-Heading3">
+                        <head>
+                            <anchor xml:id="id__tyjcwt"/>Ergebnis
+                        </head>
+                        <p>Zunächst haben wir mit der Standardimplementierung des VGG19-Layouts, das an einem Subset von 1.000 Klassen von ImageNet (Deng et al. 2009) vortrainiert wurde, dieses Korpus prozessiert. Dieses Verfahren resultierte in einer durchschnittlichen Genauigkeit von 0,82 und einem durchschnittlichen F1-Wert von 0,62. Wir wiederholten das Experiment 21 mal mit Aufteilungen des Korpus in verschiedene Trainings- und Testsets in einem 80/20 Verhältnis pro Klasse, wobei wir für jeden Durchlauf sehr ähnliche Ergebnisse erhalten haben (für weitere Details vgl. Bermeitinger et al 2017).</p>
+                    </div>
+                </div>
+                <div type="div2" rend="DH-Heading2">
+                    <head>
+                        <anchor xml:id="id__3dy6vkm"/>Überprüfung des Befunds an zeitgenössischen Möbelzeichnungen
+                    </head>
+                    <p>Da das Korpus in seiner überwältigenden Mehrheit aus Fotografien des 20. Jahrhunderts besteht, beschlossen wir, durch ein Kontrollkorpus, das auf einer Kompilation von Thomas Sheratons Möbelzeichnungen beruht (Sheraton/Munro 1910), nachzuprüfen, ob zeitgenössische Grafiken (bzw. deren Reproduktionen) vergleichbar gute Resultate liefern können. Wiederum wurden alle Blätter, die mehrere Objekte zugleich zeigen, so aufgesplittet, dass daraus Einzeldarstellungen wurden.</p>
+                    <p>Dieses relativ begrenzte Korpus von 64 Abbildungen wurde mit einer durchschnittlichen Genauigkeit von 0,63 beziehungsweise 0,78 in den Top-2 und 0,84 in den Top-3 Klassen erkannt. Wir schließen daraus, dass zeitgenössische Grafiken nicht alleine mit einer ähnlich großen Genauigkeit klassifiziert werden können wie moderne Fotografien, sondern dass damit vor allem auch der von uns gewählte Ansatz prinzipiell geeignet ist, um historische Interieurdarstellungen auszuwerten.</p>
+                </div>
+                <div type="div2" rend="DH-Heading2">
+                    <head>
+                        <anchor xml:id="id__1t3h5sf"/>Artefakte in Interieurszenen
+                    </head>
+                    <p>Ein Artefakt in einer Interieurszene automatisiert zu klassifizieren, stellt eine besondere Herausforderung dar. Idealtypisch muss dazu erstens eine interessante Region im Bild identifiziert und zweitens muss diese anschließend korrekt klassifiziert werden. </p>
+                    <p>Ein derzeit verbreitetes Werkzeug für derartige Identifikations- bzw. Klassifizierungsaufgaben sind 
+                        <hi rend="italic">Regionale Faltende Neuronale Netze</hi> (Regional Convolutional Neural Network, RCNN) (Girshick et al. 2014). Für diese Aufgabe haben wir uns für das vergleichsweise aufwandsarm zu nutzende Objekterkennungsmodul (Huang et al. 2016) des Tensorflow-Frameworks (Abadi et al. 2016) entschieden, das dem State-of-the-Art im Bereich optischer Merkmalserkennung und -klassifizierung entspricht. Dabei verwenden wir die in diesem Modul verfügbare Implementierung 
+                        <hi rend="italic">Faster-RCNN with ResNet101</hi>, die für uns den besten Kompromiss zwischen Trainingsgeschwindigkeit und Performanz darstellt.
+                    </p>
+                    <p>Für das Training des Netzes verwendeten wir wiederum das Korpus des Metropolitan Museum of Art, das zu diesem Zweck neu mit Polygonen annotiert wurde. Für die Annotation wurde der PyLabelMe Editor (PyLabelMe, 2011) eingesetzt. Dieses Annotationsinstrument kann ein Bild durch die Verknüpfung von Polygonflächen im Bild mit Labels annotieren, die dann als json-Dateien gespeichert werden.</p>
+                    <p>Für das Experiment stellten wir eine Untermenge aus dem augmentierten MET-Korpus zusammen, die alle Klassen mit mindestens zwölf Bildern umfasst und damit 29 Klassen repräsentiert, welche insgesamt 618 Bildern entsprechen.</p>
+                    <p>Wiederum folgten wir einem 80/20 Verhältnis bei der automatisierten Aufteilung der Klassen in Trainings- und Testset, was in dem ausgezeichneten arithmetischen Mittel der Präzision (aMP) von 0,94 resultierte.</p>
+                    <p>Um dieses Ergebnis an unabhängigen Daten zu verifizieren, haben wir fünf Kontrollkorpora zusammengestellt. Diese umfassen erstens Darstellungen von Einzelobjekten, die relativ separiert vom Hintergrund sind, unterschieden in Fotografien, Druckgrafiken sowie (teils kolorierte) Zeichnungen. Zweitens Interieurs, die wir in Fotografien kontemporärer “Period Rooms” aus Museen bzw. von Ausstellungsflächen sowie schließlich historische Raumansichten (Aquarell-, Gouache- und Ölmalerei, teils Lithografien) unterschieden haben.</p>
+                    <p>Die Fotografien entstammen den Beständen des Victoria &amp; Albert Museum und der Wallace Collection. Für historische Druckgrafiken legten wir neben dem Sheraton-Set ein weiteres Set basierend auf einer Neuauflage von Thomas Hepplewhites “The cabinet maker and upholsterer's guide” (Hepplewhite 1790) an.</p>
+                    <p>Für die kolorierten Zeichnungen griffen wir auf eine digitale Reproduktion des sogenannten Bellange Albums zurück, das der Werkstatt von Pierre-Antoine Bellange (1757–1827) und seinem Sohn Louis-Alexandre (1797–1861) sowie mehreren anderen Künstlern zugeschrieben wird. (Für eine detaillierte Analyse des Albums (MET, asc. nr. 51.624.2) vgl. Cordier 2012).</p>
+                    <p>Während die zeitgenössischen Fotos von Period Rooms aus den Beständen des MET stammen, haben wir die historischen Raumansichten vorwiegend der Thaw Collection des Cooper Hewitt, Smithsonian Design Museum entnommen.</p>
+                    <p>Lediglich die Einzeldarstellungen von Objekten liegen dabei in annotierter Form vor, was uns erlaubt, numerische Qualitätskriterien für den Erfolg unserer Experimente zu benennen. Für die nicht annotierten Interieurs erfolgte eine visuelle Kontrolle der Befunde. </p>
+                    <div type="div3" rend="DH-Heading3">
+                        <head>
+                            <anchor xml:id="id__msvto1ci4oro"/>Ergebnisse und Analyse: Einzelobjekte
+                        </head>
+                        <p>Die unten stehende Tabelle zeigt die Resultate des Klassifikationsexperiments für die Einzelobjekte.</p>
+                        <table rend="frame" xml:id="Table1">
+                            <row>
+                                <cell rend="start">Institution</cell>
+                                <cell rend="start">Quellentyp</cell>
+                                <cell rend="end">arith. Mittel der Präzision (aMP)</cell>
+                                <cell rend="end">Zahl der genutzten Abbildungen</cell>
+                            </row>
+                            <row>
+                                <cell rend="start">Victoria &amp; Albert Museum</cell>
+                                <cell rend="start">Primär Fotografien</cell>
+                                <cell rend="end">0,60</cell>
+                                <cell rend="end">371</cell>
+                            </row>
+                            <row>
+                                <cell rend="start">Wallace Collection</cell>
+                                <cell rend="start">Primär Fotografien</cell>
+                                <cell rend="end">0,69</cell>
+                                <cell rend="end">61</cell>
+                            </row>
+                            <row>
+                                <cell rend="start">Sheraton</cell>
+                                <cell rend="start">Druckgrafik</cell>
+                                <cell rend="end">0,48</cell>
+                                <cell rend="end">89</cell>
+                            </row>
+                            <row>
+                                <cell rend="start">Hepplewhite</cell>
+                                <cell rend="start">Druckgrafik</cell>
+                                <cell rend="end">0,50</cell>
+                                <cell rend="end">75</cell>
+                            </row>
+                            <row>
+                                <cell rend="start">Bellange-Album</cell>
+                                <cell rend="start">kolorierte Zeichnungen</cell>
+                                <cell rend="end">0,64</cell>
+                                <cell rend="end">24</cell>
+                            </row>
+                        </table>
+                        <p>Betrachtet man das arithmetische Mittel der Präzision, zeigen sich durchgängig gute Werte, die im wesentlichen denen des vorausgegangenen Experiments mit dem CNN ähneln und die bei den zweifarbigen Druckgrafiken am niedrigsten ausfallen. Dieser Effekt ist nicht alleine durch das Medium bzw. die Technik bedingt, sondern hängt auch mit der Annotationspraxis zusammen. Nicht direkt aus dem numerischen Qualitätskriterium ersichtlich ist etwa, dass zahlreiche inkorrekte Zuschreibungen innerhalb desselben konzeptionellen Hierarchie-Baums bleiben. Neben tatsächlich falschen Zuordnungen finden sich so auch nachvollziehbare “Fehler” wie die richtige Zuordnung von Artefakten mit falscher Ausgangsklassifikation (Abb. 01), sinngemäß richtige Zuordnungen wie die Klassifizierung eines im Restaurierungszustand ohne Polsterung abgebildeten Fauteuils durch das übergeordnete Konzept des Armlehnstuhls (Abb. 03), oder Verwechslungen zwischen benachbarten, visuell ähnlichen Klassen (ein Bücherschrank mit einem Schreibkabinett à abattant mit einem Bücherschrank mit Zylinderkompartement (Abb. 02)).</p>
+                    </div>
+                    <div type="div3" rend="DH-Heading3">
+                        <head>
+                            <anchor xml:id="id__rvf1c8o7mptm"/>Ergebnisse und Analyse: Interieurdarstellungen
+                        </head>
+                        <p>Unsere Ausgangshypothese war, dass das an den Einzelobjekten trainierte RCNN in der Lage sein müsste, auch Objekte, die sich in Interieurs befinden, korrekt zu identifizieren und anschließend zu klassifizieren.</p>
+                        <p>Während die Hypothese generell als bestätigt betrachtet werden kann, können wir aus unseren Experimenten eine Reihe von Beobachtungen ableiten, die uns erlauben, den unterschiedlichen Grad von Erfolg und bleibende Herausforderungen zu benennen, die wir in unserer zukünftigen Forschung angehen möchten.</p>
+                        <p>Generell lässt sich festhalten, dass sich die Aufgabe der Identifizierung für den von uns trainierten Klassifikator als deutlich komplexer erwiesen hat, als die der Klassifizierung, wie die guten bis sehr guten Werte für das aMP zeigen. Für eine erfolgreiche Klassifizierung scheint primär die Zahl und visuelle Ähnlichkeit der Objekte innerhalb einer Klasse entscheidend zu sein, wie aus den hervorragenden Werten der zahlenstärksten Klassen wie etwa Stühlen ersichtlich ist.</p>
+                        <p>Die zentrale Herausforderung unserer Experimente lag vor allem in der Identifikation des Artefakts im Interieur. Wir gehen davon aus, dass die Qualität dieser Erkennung primär von drei Faktoren beeinflusst wird: </p>
+                        <p>
+                            <hi rend="bold">Erstens</hi> dem Grad der Separation von Objekt und Bildhintergrund. Fotos, die etwa in Ausstellungsflächen entstanden sind und eine starke Separation zwischen Vordergrund und Hintergrund aufweisen, erzielen im Schnitt sehr viel bessere Resultate als andere Raumdarstellungen, die durch perspektivische Verzerrungen, die Überlappung von Artefakten und oft kontrastarme bzw. übertrieben kontrastreiche Lichtgestaltung geprägt sind (Abb. 05, 06, 07).
+                        </p>
+                        <p>
+                            <hi rend="bold">Zweitens</hi> der Zahl der Objekte pro Klasse und der Bandbreite von Betrachtungswinkeln, mit denen trainiert wurde. Mehrfachidentifikationen desselben Objekts zeigen deutlich, dass Klassen mit hohen Objektzahlen (z.B. Stuhl) bei der Erkennung einen höheren Vertrauensgrad aufweisen als Klassen mit niedrigen Objektzahlen (z.B. Klismosstuhl) (Abb. 07). Dadurch kann es vorkommen, dass in manchen Ansichten nur wenige Artefakte mit hohem Vertrauensgrad erkannt werden, während eine große Zahl anderer im Rauschen zahlreicher “false positives” untergeht, die einen ähnlichen, niedrigen Vertrauensgrad aufweisen (Abb. 09, 04b).
+                        </p>
+                        <p>
+                            <hi rend="bold">Drittens</hi> der Materialität, Modalität und der Technik der Ausführung. Während der Klassifikator mit Fotografien durchweg gute Ergebnisse erzielt, schwankt die Qualität der Objekterkennung in historischem Material sehr. Unterschiede im Erfolg der Identifizierung von Objekten in verschiedenartigen Bildern führen wir primär auf die geringe Anzahl von überhaupt verfügbaren Darstellungen für das Training zurück. Sobald historische Darstellungen dem Gros des Trainingsmaterials stärker ähneln, steigt die Zahl der identifizierten Objekte, etwa bei naturalistischen Ölgemälden (Abb. 04a) oder Einzelblättern mit Designs (Abb. 08). Besonders deutlich wird dieser Umstand etwa durch den unterschiedlichen Vertrauensgrad, den dasselbe Motiv zwischen einer Ausführung als Gravur und dem ihr zugrunde liegenden Ölgemälde erreicht (Abb. 04a / 04b).
+                        </p>
+                    </div>
+                </div>
+                <div type="div2" rend="DH-Heading2">
+                    <head>
+                        <anchor xml:id="id__coywzzi1umiy"/>Zusammenfassung und Ausblick
+                    </head>
+                    <p>Unser Beitrag zeigt eine Reihe von Experimenten zur Identifizierung und Klassifizierung von separierten Einzelobjekten wie auch von Objekten in Interieurdarstellungen mittels Deep Learning. Die Ergebnisse dieser Experimente reichen von exzeptionell (im Fall separierter Einzelobjekte) bis hin zu weniger befriedigend (für historische Darstellungen komplex gestalteter Räume, die in spezifischen Materialien, Modi und Techniken zur Ausführung kommen). </p>
+                    <p>Die Befunde sind wichtige Schritte auf dem Weg zu einer produktiven Instrumentenkritik, die sowohl interne Limitierungen – etwa der black-box Charakter des Instruments, der die Gründe für eine spezifische Klassifizierung nur begrenzt nachvollziehbar macht – als auch die Bedeutung der Kuratierung und Augmentierung der Trainings- und Kontrollkorpora unterstreicht. Methodologisch herausfordernd ist besonders das Fehlen von Trainingsmaterial, das zum einen durch die Natur des Korpus zustande kommt (dies betrifft sowohl das Vorkommen von Artefakten in der historischen Lebenswelt als auch die museale Kuratierungspraxis), aber auch durch die zögerliche Praxis vieler Kulturinstitutionen, Bildmaterial unter permissiven Lizenzen freizugeben.</p>
+                    <p>Trotz dieser Limitierungen haben wir mit diesem Beitrag gezeigt, dass es prinzipiell möglich ist, digitale Werkzeuge aus dem Bereich der Bilddatenforschung mit Big Image Data in die Geistes- und Kulturwissenschaften zu übertragen. Unseres Wissens stellt unser Experiment den ersten Versuch da, ein Korpus aus einer spezifischen Epoche, das auf geteilten ästhetischen Formen beruht und das miteinander korrespondierende Artefakte in historischen Darstellungen von komplexen Räumen einschließt, mittels Deep Learning zu klassifizieren.</p>
+                </div>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Abbildungen</head>
+                <p>
+                    <figure>
+                        <graphic url="Pictures/1000000000000124000001C0ABBF268686646C86.jpg"/>
+                    </figure>
+                </p>
+                <p>Abb. 1: Sheraton/Munro (1910), S.1</p>
+                <p>
+                    <figure>
+                        <graphic url="Pictures/1000000000000136000001C07DC38DD3D072EDA8.jpg"/>
+                    </figure>
+                </p>
+                <p>Abb. 2: Hepplewhite ((1)1790/(3)1897), plate 44</p>
+                <p>
+                    <figure>
+                        <graphic url="Pictures/1000000000000154000001C0C0C34081A2B3EEBF.jpg"/>
+                    </figure>
+                </p>
+                <p>Abb. 3: The Wallace Collection, Asc. nr. F226</p>
+                <p>
+                    <figure>
+                        <graphic url="Pictures/10000000000003D900000571005045E539133C5E.jpg"/>
+                    </figure>
+                </p>
+                <p>Abb. 4a: baron François Gérard (French, Rome 1770–1837 Paris): Charles Maurice de Talleyrand Périgord (1754–1838), Prince de Bénévent. Oil on canvas, Paris 1808. The Wrightsman Collection, Metropolitan Museum of Art, Accession Number: 2012.348, 
+                    <figure>
+                        <graphic url="Pictures/10000000000003EA00000571E8EB3549F0B11514.jpg"/>
+                    </figure>
+                    <ptr target="https://www.metmuseum.org/art/collection/search/441969"/>
+                </p>
+                <p>Abb. 4b:Auguste Gaspard Louis Boucher Desnoyers (French, Paris 1779–1857 Paris) after baron François Gérard (French, Rome 1770–1837 Paris) (after 1808): Portrait of Charles Maurice de Talleyrand-Périgord. Engraving with etching; third state of three. Metropolitan Museum of Art Accession Number:24.63.1051 
+                    <ptr target="https://www.metmuseum.org/art/collection/search/395807"/> .
+                </p>
+                <p>
+                    <figure>
+                        <graphic url="Pictures/10000000000005AA0000055C487C7804A73730A3.jpg"/>
+                    </figure>
+                </p>
+                <p>Abb. 5: MET Objekte mit den Inventarnummern: 1986.449 (rot links), 63.143 (gelb), 1994.189 (mit rotem Kissen), 1984.126 (grün)</p>
+                <p>
+                    <figure>
+                        <graphic url="Pictures/100000000000053B0000057291048E34DFB83691.jpg"/>
+                    </figure>
+                </p>
+                <p>Abb. 6: Parlor from the William C. Williams House by Theophilus Nash (1810–11), Accession Number:
+                    <lb/>68.137 , 
+                    <ptr target="https://www.metmuseum.org/art/collection/search/3411"/>
+                </p>
+                <p>
+                    <figure>
+                        <graphic url="Pictures/10000000000003BC00000572D16BC87D45C3F41C.jpg"/>
+                    </figure>
+                </p>
+                <p>Abb. 7: MET Objekte mit den Inventarnummern: 68.96 (Gueridon), 65.167.5, 65.167.6, 65.167.8 (Klismosstühle)</p>
+                <p>
+                    <figure>
+                        <graphic url="Pictures/10000000000005A500000393E56852D2A61E22EE.jpg"/>
+                    </figure>
+                </p>
+                <p>Abb. 8: Drawing, Designs for Three Chairs, 1790; Attributed to Jean Démosthène Dugourc (French, 1749–1825); Germany; brush and watercolor, pen and black ink, graphite on white laid paper; Cooper Hewitt/Smithsonian: Thaw Collection. Accession Number 1921-6-136 , Object ID 18218673 , Short URL 
+                    <ptr target="http://cprhw.tt/o/2BnM4/"/>
+                </p>
+                <p>
+                    <figure>
+                        <graphic url="Pictures/10000000000005A5000003C5E5F3D0CEF9CBCE8D.jpg"/>
+                    </figure>
+                </p>
+                <p>Abb. 9: L. Lely: Drawing, A Salon in the Palazzo Satriano, Naples, 1829; brush and watercolor over graphite on white wove paper; Cooper Hewitt/Smithsonian: Thaw Collection; 2007-27-9; Accession Number 2007-27-9 , Object ID 18708105 , Short URL 
+                    <ptr target="http://cprhw.tt/o/2DTgx/"/>
+                </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Webseiten</head>
+                <p>Victoria and Albert Museum (
+                    <ptr target="https://www.vam.ac.uk/"/>)
+                </p>
+                <p>Wallace Collection (
+                    <ptr target="http://www.wallacecollection.org/"/>)
+                </p>
+                <p>Cooper Hewitt, Smithsonian Design Museum (
+                    <ptr target="https://www.cooperhewitt.org/"/>)
+                </p>
+                <p>The Neoclassica Project (
+                    <ref target="http://www.neoclassica.network/">
+                        <hi rend="color(#1155cc)underline">http://www.neoclassica.network</hi>
+                    </ref>/)
+                </p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl>
+                        <hi rend="bold">Abadi, Martin / Barham, Paul / Chen, Jianmin / Chen, Zhifeng / Davis, Andy / Dean, Jeffrey / Devin, Matthieu / Ghemawat, Sanjay / Irving, Geoffrey / Isard, Michael / Kudlur, Manjunath / Levenberg, Josh / Monga, Rajat / Moore, Sherry / Murray, Derek G. / Steiner, Benoit / Tucker, Paul / Vasudevan, Vijay / Warden, Pete / Wicke, Martin / Yu, Yuan / Zheng, Xiaoqiang</hi> (2016): TensorFlow: A system for large-scale machine learning in
+                        <hi rend="italic">OSDI16</hi>: 265–283
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Auslander, Leora</hi> (1996): “Taste and Power: Furnishing Modern France”. London: UCP.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Auslander, Leora</hi> (2005): “Beyond Words” in 
+                        <hi rend="italic">The American Historical Review</hi> 110, Nr. 4: 1015–45. doi:10.1086/ahr.110.4.1015.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Bell, Peter / Ommer, Björn (2015)</hi>: “Training Argus. Ansätze zum automatischen Sehen in der Kunstgeschichte” in 
+                        <hi rend="italic">Kunstchronik</hi> 68, Nr. 8: 414–420.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Ommer, Björn / Bell, Peter (2016)</hi>: Digital Connoisseur? How Computer Vision Supports Art History, in: Stefan Albl / Alina Aggujaro (Hgg.): 
+                        <hi rend="italic">Il metodo del conoscitore - approcci, limiti, prospettive Connoisseurship nel XXI secolo</hi>, Roma: Artemide: 187–200.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Bermeitinger, Bernhard / Donig, Simon / Christoforaki, Maria / Freitas, André / Handschuh, Siegfried</hi> (2017): “Object Classification in Images of Neoclassical Artifacts Using Deep Learning”, DH2017, Montréal, Canada 
+                        <ptr target="https://dh2017.adho.org/abstracts/590/590.pdf"/> [letzter Zugriff 12. Januar 2018].
+                        <lb/>
+                        <hi rend="bold">Berry, David M. / Fagerjord, Anders</hi> (2017): “Digital Humanities: Knowledge and Critique in a Digital Age”. Cambridge, UK ; Malden, MA, USA: John Wiley &amp; Sons.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Cordier, Sylvain</hi> (2012): “The Bellangé Album and New Discoveries in French Nineteenth-Century Decorative Arts” in: 
+                        <hi rend="italic">Metropolitan Museum Journal Volume 47</hi>: 119–147, 10.1086/670144.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Deng, J. / Dong, W. / Socher, R. / Li, L.-J. / Li, K. / Fei-Fei, L.</hi> (2009). “ImageNet: A Large-Scale Hierarchical Image Database”. in: 
+                        <hi rend="italic">Proceedings of the 2009 IEEE Conference on Computer Vision and Pattern Recognition</hi>: 248–255.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Donig, Simon / Christoforaki, Maria / Handschuh, Siegfried</hi> (2016): “Neoclassica – A Multilingual Domain Ontology. Representing Material Culture from the Era of Classicism in the Semantic Web” in: Bozic, B. / Mendel-Gleason, G. / Debruyne, C. / O’Sullivan, D. (eds.): 
+                        <hi rend="italic">Computational History and Data-Driven Humanities</hi>. CHDDH 2016. IFIP Advances in Information and Communication Technology, vol 482. Cham, Springer: 41–53. doi: 10.1007/978-3-319-46224-0_5
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Donig, Simon / Christoforaki, Maria / Bermeitinger, Bernhard / Handschuh, Siegfried</hi> (2017a): “Neoclassica – an Open Framework for Research in Neoclassicism”. Montréal, Canada. 
+                        <ptr target="https://dh2017.adho.org/abstracts/384/384.pdf"/> [letzter Zugriff 12. Januar 2018]
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Donig, Simon / Christoforaki, Maria / Bermeitinger, Bernhard / Handschuh, Siegfried</hi> (2017b): “Visual artefacts through the Black Box: Analysing Deep Learning classifcation of Neoclassical furniture images”, München, 2017 
+                        <ptr target="https://f.hypotheses.org/wp-content/blogs.dir/1856/files/2017/03/16_Donig_Visual-Aretfacts-Black-Box.pdf"/> [letzter Zugriff 12. Januar 2018]
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Girshick, Ross / Donahue, Jeff / Darrell, Trevor / Malik, Jitendra</hi> (2015): “Rich Feature Hierarchies for Accurate Object Detection and Semantic Segmentation”, in: 
+                        <hi rend="italic">Proceedings of the 2014 IEEE Conference on Computer Vision and Pattern Recognition</hi>: 580–587.
+                    </bibl>
+                    <bibl>
+                        <hi rend="background-color(#ffffff)bold">Hepplewhite, A[lice]. &amp; Co.</hi>
+                        <hi rend="background-color(#ffffff)"> (1790): “The Cabinet Maker and Upholsterer’s Guide; or, Repository of Designs for Every Article of Household Furniture” Third edition. London: Reprinted by Batsford, B.T. 1897. ark:/13960/t2d796t9g.</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Huang, Jonathan / Rathod, Vivek / Sun, Chen / Zhu, Menglong / Korattikara, Anoop / Fathi, Alireza / Fischer, Ian / Wojna, Zbigniew / Song, Yang / Guadarrama, Sergio / Murphy, Kevin</hi> (2016): “Speed/accuracy trade-offs for modern convolutional object detectors”. ArXiv:1611.10012 [Cs] 
+                        <ptr target="http://arxiv.org/abs/1611.10012"/> [letzer Zugriff 14. Juli 2017].
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Kepetzis, Ekaterini</hi> (2006): “Antike als Vision und Rekonstruktion. Das klassische Altertum als Projektion einer idealen Gegenwelt”. In: Kohle, Hubertus / Dogerloh, Annette / Arnold-Becker, Alice (eds.): 
+                        <hi rend="italic">Geschichte der bildenden Kunst in Deutschland. (7) Vom Biedermeier zum Impressionismus</hi>. Darmstadt: WBG: 325–346.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Klinke, Harald</hi> (2016): “Big Image Data within the Big Picture of Art History” in: 
+                        <hi rend="italic">International Journal for Digital Art History</hi>, Nr. 2. doi:10.11588/dah.2016.2.33527.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Krizhevsky, Alex / Sutskever, Ilya / Hinton, Geoffrey E.</hi> (2012): “ImageNet Classification with Deep Convolutional Neural Networks” in: Pereira, F. / Burges, C. J. C. / Bottou, F. / Weinberger, K. Q. (eds.): 
+                        <hi rend="italic">Advances in Neural Information Processing Systems 25: 26th Annual Conference on Neural Information Processing Systems</hi> 2012: 1097–1105.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">La Mésangère, Pierre de</hi> (1761-1831) (Ed.): “Collection de meubles et objets de goût comprenant: fauteuils d'appartement et de bureau, chaises garnies, canapés, divans, tabourets, lits, draperies de croisées, tables, commodes, secrétaires, bibliothèques, toilettes d'homme”. Paris: Bureau du Journal des Dames.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Langenholt, Thomas (2002)</hi>: Das Wittelsbacher Album: das Interieur als kunsthistorisches Dokument am Beispiel der Münchner Residenz im ersten Drittel des 19. Jahrhunderts, Norderstedt: BoD – Books on Demand.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Lin, Tsung Yi / Maire, Michael / Belongie, Serge / Hays, James / Perona, Pietro / Ramanan, Deva / Dollár, Piotr / Zitnick, C. Lawrence</hi> (2014): “Microsoft COCO: Common objects in context” in: 
+                        <hi rend="italic">Lecture Notes in Computer Science (Including Subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)</hi>, vol. 8693 LNCS. pp. 740–755 doi:10.1007/978-3-319-10602-1_48.
+                    </bibl>
+                    <bibl>
+                        <hi rend="background-color(#ffffff)bold">Moretti, Franco</hi>
+                        <hi rend="background-color(#ffffff)"> (2013): “Distant Reading”. New York / London: Verso Books.</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Pawlitzki, Brigitte / Bruer, Stephanie-Gerrit / Kunze, Max</hi> (2009) (eds.): “Antik wird Mode: Antike im bürgerlichen Alltag des 18. und 19. Jahrhunderts”. Wiesbaden: Harrassowitz.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">PyLabelMe </hi>(2011) 
+                        <ptr target="https://github.com/mpitid/pylabelme"/> [letzer Zugriff 12. Januar 2017]
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Sheraton, Thomas</hi> (1910): “The furniture designs”. (J. Munro Bell (ed.)). London: Gibbings. 
+                        <ptr target="https://archive.org/details/furnituredesigns00sheruoft"/> [letzter Zugriff 01. September 2017].
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">The Metropolitan Museum of Art</hi> (2017): “The Met Makes Its Images of Public-Domain Artworks Freely Available through New Open Access Policy” 
+                        <ptr target="http://www.metmuseum.org/press/news/2017/open-access"/> letzer Zugriff 12. Januar 2018].
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

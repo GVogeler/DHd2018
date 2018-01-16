@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ground Truth: Grundwahrheit oder Ad-Hoc-Lösung? Wo stehen die Digital Humanities?</title>
+                <author>
+                    <persName>
+                        <surname>Boenig</surname>
+                        <forename>Matthias</forename>
+                    </persName>
+                    <affiliation>Berlin-Brandenburgische Akademie der Wissenschaften, Deutschland</affiliation>
+                    <email>boenig@bbaw.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Federbusch</surname>
+                        <forename>Maria</forename>
+                    </persName>
+                    <affiliation>Staatsbibliothek zu Berlin Preußischer Kulturbesitz, Deutschland</affiliation>
+                    <email>maria.federbusch@sbb.spk-berlin.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Herrmann</surname>
+                        <forename>Elisa</forename>
+                    </persName>
+                    <affiliation>Herzog August Bibliothek Wolfenbüttel, Deutschland</affiliation>
+                    <email>herrmann@hab.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Neudecker</surname>
+                        <forename>Clemens</forename>
+                    </persName>
+                    <affiliation>Staatsbibliothek zu Berlin Preußischer Kulturbesitz, Deutschland</affiliation>
+                    <email>clemens.neudecker@sbb.spk-berlin.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Würzner</surname>
+                        <forename>Kay-Michael</forename>
+                    </persName>
+                    <affiliation>Berlin-Brandenburgische Akademie der Wissenschaften, Deutschland</affiliation>
+                    <email>wuerzner@bbaw.de</email>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2018-01-15T17:21:00Z</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Prof. Dr. Georg Vogeler</publisher>
+                <address>
+                    <addrLine>UniversitÃ¤t Graz</addrLine>
+                    <addrLine>Zentrum fÃ¼r Informationsmodellierung - Austrian Centre for Digital Humanities</addrLine>
+                    <addrLine>ElisabethstraÃ&#x9f;e 59/III</addrLine>
+                    <addrLine>8010 Graz</addrLine>
+                </address>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Converted from a Word document </p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.17">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Vortrag</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>OCR</term>
+                    <term>Ground Truth</term>
+                    <term>Referenzdaten</term>
+                    <term>Standardisierung</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Datenerkennung</term>
+                    <term>Transkription</term>
+                    <term>Bearbeitung</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="div1" rend="DH-Heading1">
+                <head>Einleitung</head>
+                <p>Die Verwendung von Referenzdaten für das Training und die Auswertung statistischer Annotations- und Analyseverfahren ist ein Kernmerkmal empirischer Forschung, zu der auch die Digital Humanities zählen möchten.
+                    <note place="foot" xml:id="ftn1" n="1">
+                        <p rend="footnote text"> Vgl. dazu These 1.1: „Die Digital Humanities bereichern die traditionellen Geisteswissenschaften konzeptionell und methodisch - ihre Werkzeuge und Verfahren ergänzen das „Wie“ unserer Praxis um 
+                            <hi rend="italic">eine empirisch ausgerichtete Epistemologie.</hi>“ [Thesenpapier des Fachverbands „Digital Humanities im deutschsprachigen Raum“ 2014]
+                        </p>
+                    </note> Die wichtigste Grundlage für den erfolgreichen Einsatz statistischer Verfahren liegt in der Verwendung geeigneter, den Algorithmen zugrunde liegender Modelle. Für deren Erstellung ist neben einem passenden Lernverfahren das Vorhandensein von Trainingsdaten eine wesentliche Voraussetzung. Werden Forschungsdaten, die mit quantitativen Methoden entstanden sind, mit Referenzdaten verifiziert und interpretiert, ist ein kritischer Blick auf Auswahl, Erstellung und Umgang mit selbigen ein häufig vernachlässigter Bereich.
+                </p>
+                <p>Vor diesem Hintergrund richtet der vorliegende Beitrag einen kritischen Blick auf die Rolle von und den Umgang mit Ground-Truth-Daten im Bereich der Digital Humanities. Drei Beobachtungen sollen zur Diskussion gestellt werden:</p>
+                <list type="ordered">
+                    <item>Es fehlt den Digital Humanities an einheitlichen und etablierten Ground-Truth-Datensets für die Evaluierung von Forschungsergebnissen auf Basis quantitativer Methoden.</item>
+                    <item>Es fehlt den Digital Humanities an Richtlinien zur Erstellung und Verfahren zur Verifizierung von Ground Truth.</item>
+                    <item>Es fehlt den Digital Humanities an akzeptierten und operationalisierbaren Metriken zur Qualitätsbestimmung von Ground Truth und abgeleiteten Datenanalysen.</item>
+                </list>
+                <p>Anhand der automatischen Texterfassung, die als Analogie für ein allgemeines Modell eines empirischen Forschungsprozesses
+                    <note place="foot" xml:id="ftn2" n="2">
+                        <p rend="footnote text"> siehe [Schnell, Hill, Esser 2011: 4]</p>
+                    </note> gesetzt wird, sollen im Folgenden die Probleme diskutiert und Möglichkeiten gezeigt werden, wie diesen Defiziten begegnet werden kann.
+                </p>
+                <figure>
+                    <graphic n="1001"
+                        width="16.002cm"
+                        height="3.314347222222222cm"
+                        url="Pictures/image1.png"
+                        rend="inline"/>
+                </figure>
+                <p>Abbildung : Gegenüberstellung eines Modells eines Forschungsprozesses aus der empirischen Sozialforschung
+                    <note place="foot" xml:id="ftn3" n="3">
+                        <p rend="footnote text"> siehe Fußnote 2</p>
+                    </note> und dessen Anwendung auf den Prozess der automatischen Texterfassung
+                </p>
+                <p>Unter Ground Truth wird in diesem Kontext die Dokumentation ausgewählter Merkmale (Zeichen, Zeilen, Absätze, Spalten, Abbildungen, usw.) des Textes in Form einer digitalen Transkription verstanden. Dabei ist je nach Anwendung zwischen allgemeineren Referenz- und spezifischeren Trainingsdaten zu unterscheiden.</p>
+                <p>Die Volltext-Digitalisierung von Archiv- und Bibliotheksbeständen, größeren Dokumentsammlungen oder Korpora wird heute von unterschiedlichen Seiten verfolgt: So werden beispielsweise seit 2005 massenhaft Bibliotheksbestände von Google im Rahmen von öffentlich-privaten Partnerschaften sowohl als Bild als auch als Text digitalisiert. Daneben unterstützen Stiftungen, Fördereinrichtungen wie die DFG sowie die Haushaltsmittel der Institutionen die Digitalisierungen im Rahmen spezifischer Projekte. Im Ergebnis dieser Digitalisierungsbemühungen stehen Volltextsammlungen höchst unterschiedlicher Qualität, Vollständigkeit, Interoperabilität und Nachnutzbarkeit.</p>
+                <p>Mit der OCR-D-Initiative wird erstmals versucht, die technischen und organisatorischen Grundlagen dafür zu schaffen, einen breiten heterogenen Bestand von Drucken aus dem 16. – 18. Jahrhundert vollständig und einheitlich in elektronischen Volltext umzuwandeln und frei zur Verfügung zu stellen. Unter Einbeziehung einzelner Modulprojekte wird vom DFG-geförderten Koordinierungsprojekt
+                    <note place="foot" xml:id="ftn4" n="4">
+                        <p rend="footnote text"> OCR-D: Koordinierungsprojekt zur Weiterentwicklung von Verfahren der Optical Character Recognition (OCR), http://www.ocr-d.de/.</p>
+                    </note> die Transformation der Drucke in strukturierten Volltext konzeptuell und prototypisch vorbereitet. Dazu werden im Rahmen von OCR-D Anwendungen, Adaptionen und Weiterentwicklungen von Verfahren der Optical Character Recognition (OCR) für historische Drucke geprüft bzw. implementiert und in einer finalen, prototypischen Produktionsumgebung kombiniert. Eine zentrale Aufgabe von OCR-D besteht dabei in der Bereitstellung eines umfassenden Ground-Truth-Korpus, das sowohl Referenz- als auch Trainingsdaten sowie Richtlinien zur Transkription von Texten für deren Verwendung als Ground Truth umfasst. Damit können sowohl Texte bezüglich ihrer Zeichengenauigkeit transparent geprüft als auch spezielle statistische Modelle für die Text- und Strukturerkennung trainiert werden.
+                </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Diskussion</head>
+                <p>1. Gegenstand der Digital Humanities ist das digitale Objekt, beispielsweise digitaler Text
+                    <note place="foot" xml:id="ftn5" n="5">
+                        <p rend="footnote text"> „Es werden weitere korpusbasierte Analysen angestrebt. Diese erfordern aber eine Voraussetzung: Im Zuge der ‚digitale[n] Wende‘ [Schöch 2014: 130] ist es weiterhin wünschenswert und erforderlich, dass immer mehr literarische Texte digital zur Verfügung stehen oder diese durch leichte und praktikable Verfahren der Texterkennung (OCR, optical character recognition) digitalisierbar gemacht werden können.“ [Mihm 2016: 200]</p>
+                    </note>. Vergleicht man den Bereich der automatischen Texterfassung mit einem in der empirischen Sozialforschung etablierten Modell des Forschungsprozesses, wird deutlich, dass die Referenzdaten in beiden Prozessen, im Besonderen in der Phase der Evaluation nach Abschluss der Datenanalyse, eine bedeutende Rolle spielen. In dieser Phase wird auf entsprechende Referenzdaten oder -systematiken zurückgegriffen, die in der Phase der Theoriebildung identifiziert und angesammelt wurden. Anzumerken ist, dass der Forschungsprozess nicht isoliert zu betrachten ist, da er schon zu Beginn bei Formulierung und Auswahl des Forschungsproblems auf vorhandene Forschungsdaten zurückgreift. Der traditionelle Forschungsprozess hat durch ein System von Referenzendaten (u. a. Wörterbücher, Editionen, Nachschlage- und Quellenwerke) ein System der 
+                    <hi rend="italic">referenzbasierten</hi> Evaluation geschaffen. Dieses System wird gestützt durch Konventionen der Zitierung, Dokumentation, Verzeichnung und Aufbewahrung in Institutionen sowie spezifischen Publikationsformen. Der Forschungsprozess in den Digital Humanities kann auf diesen Hintergrund nur teilweise bzw. gar nicht zurückgreifen, da bisher zu wenige digitale Daten vorliegen.
+                </p>
+                <p>Auf der anderen Seite haben die Digital Humanities bezüglich der Verfügbarmachung von Quellcode und Forschungsdaten einen großen Vorsprung gegenüber anderen datenbasiert arbeitenden Disziplinen (etwa der kognitiven Psychologie). 
+                    <hi rend="italic">Reproducible Science</hi> wird sowohl gefördert als auch propagiert. Problematisch sind aber die fehlende Vereinheitlichung und Transparenz bei der Datenerhebung sowie der Einsatz mangelhaft erfasster Daten bzw. deren ad-hoc Surrogaten bedingt durch die mangelnde Verfügbarkeit an (insbesondere annotierten) Forschungsdaten.
+                </p>
+                <p>Die Arbeitsweise mit Referenzdaten, wie sie in den Naturwissenschaften und Teilen der Geisteswissenschaft Anwendung findet, möchte neben der Evaluation, Verifikation gerade die Vergleichbarkeit der Forschungsergebnisse stützen. Das setzt voraus, dass diese Daten in ihrer Qualität diesen Ansprüchen genügen müssen und durch entsprechende Normungen Interpretationsspielräume definiert sind.</p>
+                <p>Trotz des wissenschaftlichen Anspruches der Digital Humanities auf Objektivität und dem Bemühen Referenzdaten zu schaffen, werden unterschiedliche Interpretationen, die auf Grundlage von mangelhaften Referenz- und Trainingsdaten entstehen, möglich. Solch ein „hinzunehmendes Übel“ wird erkannt und mit „Pragmatismus“, mit der „Flexibilität“ oder „Austauschbarkeit von Konzepten im Konkreten der Texte“ gerechtfertigt
+                    <note place="foot" xml:id="ftn6" n="6">
+                        <p rend="footnote text"> „Dass die von uns einbezogenen Online-Repositorien hinsichtlich der editionsphilologischen Textqualität variieren ist ein hinzunehmendes Übel, dem wir zum einen pragmatisch (Wahl der bestmöglichen verfügbaren Ausgabe; Ziel, die Fehlermarge unter 2% zu halten), zum anderen unter Hinweis auf die flexible Struktur des Korpus (Austausch durch eine qualitativ hochwertigere Version ist möglich) begegnen. Durch die nahtlose Dokumentation des Korpus wird zudem die nötige Transparenz gewährleistet um auch Nachnutzern flexible Kontrolle der Daten zu ermöglichen.“ [Herrmann-Wolf, Lauer 2016: 159]</p>
+                    </note>, eine Vergleichbarkeit der so entstandenen Texte bzw. Forschungsergebnisse damit aber wesentlich behindert. Um eine Vergleichbarkeit im Sinne von 
+                    <hi rend="italic">Reproducible Science</hi> zu erreichen, ist somit der Gegenstand der Digital Humanities um die Fragen der Objekterstellung zu erweitern.
+                </p>
+                <p>2. Mit dem Begriff OCR wird üblicherweise der Gesamtprozess der automatischen Texterfassung bestehend aus den Teilaufgaben Bildvorverarbeitung, Struktur- und Texterkennung sowie gegebenenfalls (automatisierter) Nachkorrektur bezeichnet. Damit eine OCR vorgenommen werden kann, sind entsprechende Erkennungsmodelle notwendig. Diese werden durch sogenanntes Training unter Nutzung von Ground Truth induziert. Generische Modelle werden vom Anbieter der OCR-Software zur Verfügung gestellt, domänenspezifische Modelle müssen trainiert werden. Das Training dient immer der Verbesserung der Endergebnisse des Erkennungsprozesses. Somit sollten bei einem universellen Anspruch Ground-Truth-Daten sowohl spezifische als auch allgemeine Normungen enthalten, damit sowohl generische als auch spezifische Modelle trainiert werden können. Ziel ist es, die unterschiedlichen Bedürfnisse und Schwerpunkte in den Digital Humanities zu bedienen.</p>
+                <p>3. Um diesem sehr breiten Anspruch gerecht zu werden, reicht eine Akklamation, dass diese oder jene Sammlung von Daten als Ground Truth bezeichnet und genutzt werden kann, nicht aus. Es bedarf hingegen eines Ground-Truth-Konzepts. Dieses Konzept dokumentiert sowohl dessen inneren Aufbau als auch dessen Erstellung. Damit können im Bereich der Texterfassung beispielsweise folgende Punkte im Umgang mit Ground Truth erreicht werden:</p>
+                <list type="ordered">
+                    <item>(weitere) Reduktion bzw. Standardisierung der Freiheitsgrade bei der Transkription (z. B. langes s, Ligaturen, Zeilenumbruch)</item>
+                    <item>weitergehende Operationalisierung der Überprüfbarkeit der Validität
+                        <lb/>der Transkription
+                    </item>
+                    <item>Ergänzung von (weiteren) Anweisungen zum Umgang mit koordinatenbasierten Phänomenen</item>
+                </list>
+                <p>Illustriert werden kann ein solches Konzept am Beispiel der 
+                    <hi rend="italic">OCR-D Ground-Truth-Guidelines</hi>. Um die Freiheitsgrade von Interpretationen (Punkt A) zu normieren werden drei Level von Erfassungsgraden angeboten. Die einzelnen Level sollen nachvollziehbare Interpretationsentscheidungen sowohl festlegen als auch dokumentieren und damit die Möglichkeit der maschinellen Überprüfbarkeit eröffnen.
+                </p>
+                <p>Tabelle : Beispiel der Anwendung der Level bei der Ligatur ct.</p>
+                <table rend="rules">
+                    <row>
+                        <cell rend="normal">Zeichen</cell>
+                        <cell rend="normal">Level 1</cell>
+                        <cell rend="normal">Level 2</cell>
+                        <cell rend="normal">Level 3</cell>
+                    </row>
+                    <row>
+                        <cell rend="normal">
+                            <figure>
+                                <graphic n="1002"
+                                 width="2.06375cm"
+                                 height="2.4341666666666666cm"
+                                 url="Pictures/image2.jpeg"
+                                 rend="inline"/>
+                            </figure>
+                        </cell>
+                        <cell rend="normal">ct
+                            <lb/>Die Ligatur wird in zwei einzelne Zeichen aufgespalten.
+                        </cell>
+                        <cell rend="normal">ct
+                            <lb/>Die Ligatur wird aufgespalten und mit einer zusätzlichen Annotation, dass es sich um eine Ligatur handelt, im PAGE-Format versehen.
+                            <lb/>textStyle{offset:0; length:2;ligatur:true;}
+                        </cell>
+                        <cell rend="normal">&amp;#xEEC5;
+                            <lb/>Die Ligatur wird als 
+                            <hi rend="bold">ein</hi> Zeichen interpretiert und mit dem entsprechenden Unicode-Zeichen wiedergegeben.
+                        </cell>
+                    </row>
+                </table>
+                <p>Damit werden Anweisung und Richtlinien weitgehend operationalisiert und eine computergestützte Validierung umsetzbar (Punkt B). Das entsprechende Ground-Truth-Korpus liegt im XML-basierten PAGE-Format
+                    <note place="foot" xml:id="ftn7" n="7">
+                        <p rend="footnote text"> Page Analysis and Ground Truth Elements, siehe http://www.primaresearch.org/publications/ICPR2010_Pletschacher_PAGE und https://github.com/PRImA-Research-Lab/PAGE-XML.</p>
+                    </note> vor. Das PAGE-Format hat sich im Rahmen des EU-Projekts IMPACT
+                    <note place="foot" xml:id="ftn8" n="8">
+                        <p rend="footnote text"> Vgl. https://www.digitisation.eu/tools-resources/image-and-ground-truth-resources/.</p>
+                    </note> sowie durch seine Verbreitung im Rahmen von Wettbewerben bei wissenschaftlichen Konferenzen (z.B. ICDAR, ICFHR, DAS) als de-facto Standard für XML-basierter Ground Truth etabliert. Mit Hilfe von Schematron
+                    <note place="foot" xml:id="ftn9" n="9">
+                        <p rend="footnote text"> ISO/IEC-Standard 19757-3:2006</p>
+                    </note>-Regeln kann nun, wie das Beispiel zeigt, geprüft werden, nach welchem Level die „ct“-Ligatur kodiert ist:
+                </p>
+                <figure>
+                    <graphic n="1003"
+                        width="16.002cm"
+                        height="5.695597222222222cm"
+                        url="Pictures/image3.jpeg"
+                        rend="inline"/>
+                </figure>
+                <p>Die Wahl des PAGE-Formates ermöglicht im Unterschied zum TEI-basierten Basisformat des DTA (DTABf)
+                    <note place="foot" xml:id="ftn10" n="10">
+                        <p rend="footnote text"> Deutsches Textarchiv, DTA-Basisformat, http://www.deutschestextarchiv.de/doku/basisformat/.</p>
+                    </note> eine unkomplizierte Lösung für die Repräsentation von koordinatenbasierten Phänomenen (Punkt C).
+                </p>
+                <figure>
+                    <graphic n="1004"
+                        width="16.002cm"
+                        height="4.4943888888888885cm"
+                        url="Pictures/image4.jpeg"
+                        rend="inline"/>
+                </figure>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Fazit</head>
+                <p>Ground Truth stellt im Texterkennungsprozess und im dazu betrachteten Forschungsprozess in den Digital Humanities eine entscheidende Rolle dar. Ergebnis dieser beiden Prozesse sind immer Publikationen, die als Forschungsdaten in neuen Forschungszusammenhängen nachgenutzt werden. Gelingt es den Digital Humanities nicht, ein Referenzsystem mit Konventionen zur Prüfung, Dokumentation, Verzeichnung und Aufbewahrung ihrer Daten in Institutionen sowie spezifischen Publikationsformen aufzubauen, ist die Vergleichbarkeit der Forschungsergebnisse nicht immer gegeben. Dabei bietet der Aufbau so genannter Forschungsdatenrepositorien erste positive Entwicklungen in Richtung dokumentierter Forschungsprozesse
+                    <note place="foot" xml:id="ftn11" n="11">
+                        <p rend="footnote text"> Vgl. z.B. https://rdmorganiser.github.io/</p>
+                    </note>.
+                </p>
+                <p>Der Gegenstand der Digital Humanities ist nicht nur auf das digitale Objekt zu beschränken, sondern auch auf dessen Erstellung zu erweitern. Die Erstellung ist ein Prozess, der von den Digital Humanities zu dokumentieren ist, da nur so eine Referenzierbarkeit und Reproduzierbarkeit der Forschungsergebnisse möglich wird. Der kritische Umgang mit diesen Daten stellt eine Aufgabe der Wissenschaft dar. </p>
+                <p>Daher täten die Digital Humanities gut daran, in einen aktiven Dialog mit digitalisierenden Einrichtungen und Förderern einzutreten um gemeinsame Standards und Richtlinien zur Dokumentation zu etablieren, die transparent Auskunft über die Provenienz eines digitalen Objekts geben sowie klar über Möglichkeiten sowie Einschränkungen zu dessen Nachnutzbarkeit informieren. Entscheidungen, Kriterien, Daten und Ergebnisse sollten, im Unterschied zur bisherigen, in diesem Beitrag kritisierten Praxis, zukünftig möglichst transparent, operationalisierbar sowie validierbar digital zur Verfügung gestellt werden. </p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl>
+                        <hi rend="bold">Herrmann-Wolf, J. Berenike / Lauer, Gerhard</hi> (2016): „Aufbau und Annotation des Kafka/Referenzkorpus“ in: Burr Elisabeth (ed): 
+                        <hi rend="italic">DHd 2016 : Modellierung, Vernetzung, Visualisierung : die Digital Humanities als fächerübergreifendes Forschungsparadigma</hi> : Konferenzabstracts : Universität Leipzig 7. bis 12. März 2016. [Duisburg]: nisaba 158-160.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Mihm, Melanie</hi> (2016): „Weibliches Erzählen im Expressionismus? Eine Stilometrie von Mela Hartwigs Prosa“ in: Burr Elisabeth (ed): 
+                        <hi rend="italic">DHd 2016 : Modellierung, Vernetzung, Visualisierung : die Digital Humanities als fächerübergreifendes Forschungsparadigma</hi> : Konferenzabstracts : Universität Leipzig 7. bis 12. März 2016. [Duisburg]: nisaba 198-200.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Schöch, Christof</hi> (2014): „Corneille, Molière et les autres. Stilometrische Analysen zu Autorschaft und Gattungszugehörigkeit im französischen Theater der Klassik“, in: Schöch, Christof / Schneider, Lars (eds.): 
+                        <hi rend="italic">Literaturwissenschaft im digitalen Medienwandel</hi> (=Philologie im Netz Beiheft 7) 130-157 http://web.fu-berlin.de/phin/beiheft7/b7t08.pdf [letzter Zugriff 25.September 2017].
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Schnell, Rainer / Hill, Paul B. / Esser, Elke</hi> (2011): Methoden der empirischen Sozialforschung. 9., aktualisierte Aufl. München: Oldenbourg
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Thesenpapier des Fachverbands „Digital Humanities im deutschsprachigen Raum“ (DHd)</hi> (2014): „Digital Humanities 2020“, vorgestellt im März 2014 auf der ersten Jahrestagung des Verbandes in Passau. http://dig-hum.de/digital-humanities-2020.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

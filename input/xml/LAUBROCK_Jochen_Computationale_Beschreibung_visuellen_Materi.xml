@@ -39,7 +39,7 @@
                 <address>
                     <addrLine>UniversitÃ¤t Graz</addrLine>
                     <addrLine>Zentrum fÃ¼r Informationsmodellierung - Austrian Centre for Digital Humanities</addrLine>
-                    <addrLine>ElisabethstraÃe 59/III</addrLine>
+                    <addrLine>ElisabethstraÃ&#x9f;e 59/III</addrLine>
                     <addrLine>8010 Graz</addrLine>
                 </address>
             </publicationStmt>
@@ -98,12 +98,20 @@
                 <head>Ergebnisse</head>
                 <p>Die Ergebnisse zeigen, dass sich mit Hilfe von Neuronen auf höheren Ebenen der tiefen CNNs recht gut bestimmte Klassen von Objekten lokalisieren lassen. Beispielsweise eignen sich einige Kombinationen von Merkmalen zuverlässig als Sprechblasendetektoren (Abb. 1). Dies ist insofern bemerkenswert, als die Detektion von Sprechblasen sich für klassische Ansätzen der maschinellen Bildbverarbeitung als schwieriges Problem dargestellt hat (Rigaud et al., 2013). </p>
                 <figure>
-                    <graphic n="1001" width="15.989561111111112cm" height="7.949847222222222cm" url="Pictures/image1.png" rend="inline"/>
+                    <graphic n="1001"
+                        width="15.989561111111112cm"
+                        height="7.949847222222222cm"
+                        url="Pictures/image1.png"
+                        rend="inline"/>
                     <head>Abbildung 1. Sprechblasendetektion mithilfe von Convolutional Features.</head>
                 </figure>
                 <p>Auch für die Erkennung gezeichneter Gesichter eignen sich CNNs, allerdings ist hier ein Training auf Ansichten in verschiedenen Perspektiven (Frontal, Profil) notwendig. Und schließlich lässt sich die empirische Fixationsverteilung mit Deep Gaze II insgesamt sehr überzeugend reproduzieren (Abb. 2). Die CNN-Features kodieren also aufmerksamkeitsrelevante Merkmale.</p>
                 <figure>
-                    <graphic n="1002" width="6.096cm" height="9.439994444444444cm" url="Pictures/image2.png" rend="inline"/>
+                    <graphic n="1002"
+                        width="6.096cm"
+                        height="9.439994444444444cm"
+                        url="Pictures/image2.png"
+                        rend="inline"/>
                     <head>Abbildung 2. Empirische Fixationsverteilung von 100 Lesern (Punkte) und DeepGaze II-Vorhersagen (Konturlinien).</head>
                 </figure>
                 <p>Insgesamt eigenen sich auf Fotos trainierte CNNs schon ohne spezifisches weiteres Training recht gut zur Beschreibung gezeichneten Materials in Graphic Novels. </p>

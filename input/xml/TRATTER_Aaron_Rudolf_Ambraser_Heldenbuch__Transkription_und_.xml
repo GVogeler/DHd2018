@@ -31,7 +31,7 @@
                 <address>
                     <addrLine>UniversitÃ¤t Graz</addrLine>
                     <addrLine>Zentrum fÃ¼r Informationsmodellierung - Austrian Centre for Digital Humanities</addrLine>
-                    <addrLine>ElisabethstraÃe 59/III</addrLine>
+                    <addrLine>ElisabethstraÃ&#x9f;e 59/III</addrLine>
                     <addrLine>8010 Graz</addrLine>
                 </address>
             </publicationStmt>
@@ -110,20 +110,36 @@
                 <hi rend="italic">s</hi> auf. Außerdem treten drei unterschiedliche graphische Varianten des runden s auf.
             </p>
             <figure>
-                <graphic n="1001" width="16.002cm" height="2.6264305555555554cm" url="Pictures/image1.png" rend="inline"/>
+                <graphic n="1001"
+                     width="16.002cm"
+                     height="2.6264305555555554cm"
+                     url="Pictures/image1.png"
+                     rend="inline"/>
             </figure>
             <p rend="No Spacing">Abb. 1: f. 95vc ll. 7–8 ab imo</p>
             <figure>
-                <graphic n="1002" width="16.002cm" height="3.176763888888889cm" url="Pictures/image2.png" rend="inline"/>
+                <graphic n="1002"
+                     width="16.002cm"
+                     height="3.176763888888889cm"
+                     url="Pictures/image2.png"
+                     rend="inline"/>
             </figure>
             <p rend="No Spacing">Abb. 2: Transkription nach den neuesten Transkriptionsrichtlinien</p>
             <p rend="No Spacing">Die einzelnen Varianten der Buchstaben weisen eine relativ geringe Varianz auf. Anders verhält es sich jedoch bei den diakritischen Zeichen bzw. Superskripta. Es werden vier verschiede Superskripta unterschieden: Trema, Breve, Superskriptum o und Superskriptum a. Vor allem das Breve und das Superskriptum o ähneln sich teilweise recht stark, sodass rein graphisch nicht immer bestimmt werden kann, um welches Superskriptum es sich handelt. Neben der Federführung des Schreibers werden andere Kriterien zur Entscheidung herangezogen, beispielsweise phonetische Merkmale.</p>
             <figure>
-                <graphic n="1003" width="16.002cm" height="6.224763888888889cm" url="Pictures/image3.png" rend="inline"/>
+                <graphic n="1003"
+                     width="16.002cm"
+                     height="6.224763888888889cm"
+                     url="Pictures/image3.png"
+                     rend="inline"/>
             </figure>
             <p rend="No Spacing">Abb. 3: f. 95ra ll. 17–21 ab imo</p>
             <figure>
-                <graphic n="1004" width="16.002cm" height="8.741833333333334cm" url="Pictures/image4.png" rend="inline"/>
+                <graphic n="1004"
+                     width="16.002cm"
+                     height="8.741833333333334cm"
+                     url="Pictures/image4.png"
+                     rend="inline"/>
             </figure>
             <p rend="No Spacing">Abb. 4: Transkription nach den neuesten Transkriptionsrichtlinien</p>
             <p>Durch 

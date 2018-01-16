@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="full">
+                    <title type="main">Science as a Service?</title>
+                    <title type="sub"> Chancen und Limits von serviceorientierten Softwarearchitekturen für die Digital Humanities</title>
+                </title>
+                <author>
+                    <persName>
+                        <surname>Hoffmann</surname>
+                        <forename>Christoph</forename>
+                    </persName>
+                    <affiliation>Österreichische Akademie der Wissenschaften, Österreich</affiliation>
+                    <email>christoph.hoffmann@oeaw.ac.at</email>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2018-01-14T20:37:00Z</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Prof. Dr. Georg Vogeler</publisher>
+                <address>
+                    <addrLine>UniversitÃ¤t Graz</addrLine>
+                    <addrLine>Zentrum fÃ¼r Informationsmodellierung - Austrian Centre for Digital Humanities</addrLine>
+                    <addrLine>ElisabethstraÃ&#x9f;e 59/III</addrLine>
+                    <addrLine>8010 Graz</addrLine>
+                </address>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Converted from a Word document </p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.17">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Poster</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>REST API</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Teilen</term>
+                    <term>Programmierung</term>
+                    <term>Webentwicklung</term>
+                    <term>Werkzeuge</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>Einer der am weitesten verbreiteten Ansprüche von Digital Humanities Projekten und Forschungsvorhaben ist jener, nachhaltig nutzbare Daten und Services zu produzieren bzw. zu hinterlassen. Neben archivierbaren Datenformaten und quelloffener Software ist die Einrichtung von REST – APIs eine vielgenutzte Möglichkeit, erstellte Services in anderen Projekten nutzbar zu machen. [1] Der Vorteil solcher Schnittstellen liegt darin, dass die ihnen zugrunde liegenden Technologie (im wesentlichen HTTP) in so gut wie allen Plattformen und Programmiersprachen bereits implementiert ist. So sind sowohl Services als auch Daten welche über eine sauber definierte REST – Schnittstelle zugänglich sind, relativ einfach in einer Vielzahl anderer Projekte zu integrieren. In vielen Bereichen der Software – Entwicklung hat dieser Vorteil dazu geführt dass Service orientierte Softwarearchitektur und ein „API first approach“ immer populärer geworden sind.</p>
+            <p>Auch das Austrian Center for Digital Humanities an der Österreichischen Akademie der Wissenschaften hat es sich für die kommenden zwei Jahre zu einer Aufgabe gemacht, die in den vergangenen drei Jahren in einer Vielzahl von Projekten entstandenen Daten und Services in standardisierten REST – Schnittstellen verfügbar zu machen bzw. bereits entstandene Schnittstellen entsprechend aufzubereiten und zu dokumentieren. Hierzu sollen zunächst wiederkehrende, generisch abbildbare Aufgaben in den Workflows identifiziert werden, sodann die Ihnen korrespondierenden, bereits bestehenden, Services für eine Verwendung außerhalb des Projektkontextes abgeändert werden.</p>
+            <p>Ziel dieses Vorhabens ist es, einen Katalog an REST-Services zu erstellen, welcher in einer Sandbox zum einen die direkte Verwendung erlaubt, zum anderen die Funktionen der verschiedenen Endpunkte unmittelbar kritisch dokumentiert. Des Weiteren sollen bereits vorhandene Standards[2] und semantische Erweiterungen [3] auf Ihre Tauglichkeit und Sinnhaftigkeit in Digital Humanities Kontexten hin geprüft, und gegebenenfalls in den Schnittstellen implementiert werden werden. Exemplarisch soll auch modular wiederverwendbare Front – End Komponenten angeboten werden (bspw. Autocompletes u.a.)</p>
+            <p>Parallel dazu gilt es, anhand der verwendeten Projekte kritisch zu reflektieren, welche Schritte, Funktionalitäten und Daten sich aus einem vorhandenen Projekt sinnvoll zur Nachnutzung herauslösen lassen. Wie kleinteilig lassen sich die Schritte eines geisteswissenschaftlichen Projektes modularisieren und an externe Services auslagern, wenn ein zur Kritik der Resultate fähiger Gesamtblick gewahrt bleiben soll? Wie exakt muss, umgekehrt gefragt, eine Schnittstelle dokumentiert sein, um einer kritischen Prüfung im Rahmen des verwendenden Projektes standhalten zu können? Diese und andere Betrachtungen sollen schlussendlich in einem White Paper zu REST – APIs für wiederkehrende Szenarien in Digital Humanities Projekten münden.</p>
+            <p>Das Poster soll zum einen den Katalog und die Sandbox als Tools präsentieren, zum anderen erste Ergebnisse der Standardisierung von APIs zur Diskussion stellen. Eine Debatte zu den oben genannten Fragen soll dem Vorhaben eine noch breitere Grundlage bei der Erstellung des White Papers geben.</p>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl>[1] 
+                        <ref target="http://digitalhumanities.berkeley.edu/blog/15/05/01/project-sustainability-dh-collaboration-and-community">http://digitalhumanities.berkeley.edu/blog/15/05/01/project-sustainability-dh-collaboration-and-community</ref> - 14.1.2018
+                    </bibl>
+                    <bibl>[2] bspw https://github.com/OAI/OpenAPI-Specification oder 
+                        <ref target="http://jsonapi.org/">http://jsonapi.org/</ref> - 14.1.2018
+                    </bibl>
+                    <bibl>[3] http://www.hydra-cg.com/spec/latest/core/ und 
+                        <ref target="http://microformats.org/">http://microformats.org/</ref> - 14.1.2018
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

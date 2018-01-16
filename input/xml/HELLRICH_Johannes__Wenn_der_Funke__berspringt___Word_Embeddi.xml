@@ -39,7 +39,7 @@
                 <address>
                     <addrLine>UniversitÃ¤t Graz</addrLine>
                     <addrLine>Zentrum fÃ¼r Informationsmodellierung - Austrian Centre for Digital Humanities</addrLine>
-                    <addrLine>ElisabethstraÃe 59/III</addrLine>
+                    <addrLine>ElisabethstraÃ&#x9f;e 59/III</addrLine>
                     <addrLine>8010 Graz</addrLine>
                 </address>
             </publicationStmt>
@@ -112,7 +112,11 @@
                     </note>. Beide Korpora sind mit Informationen zur orthographischen Normalisierung und Lemmatisierung annotiert, die von uns genutzt wurde. 
                 </p>
                 <figure>
-                    <graphic n="1001" width="16.002cm" height="2.4500416666666665cm" url="Pictures/image1.png" rend="inline"/>
+                    <graphic n="1001"
+                        width="16.002cm"
+                        height="2.4500416666666665cm"
+                        url="Pictures/image1.png"
+                        rend="inline"/>
                     <head>
                         <hi rend="italic">Tabelle </hi>
                         <hi rend="italic"> 1: Kerndaten der verwendeten Korpora.</hi>
@@ -141,14 +145,22 @@
                     <hi rend="italic">Magnet </hi>— die Entdeckung des Elektromagnetismus im 19. Jahrhundert führte zu einer Vielzahl wissenschaftlicher Publikationen durch Forscher wie Michael Faraday, einem Mitglied der Royal Society.
                 </p>
                 <figure>
-                    <graphic n="1002" width="16.002cm" height="6.062133333333334cm" url="Pictures/image2.png" rend="inline"/>
+                    <graphic n="1002"
+                        width="16.002cm"
+                        height="6.062133333333334cm"
+                        url="Pictures/image2.png"
+                        rend="inline"/>
                 </figure>
                 <p>
                     <hi rend="italic">Abbildung </hi>
                     <hi rend="italic"> 1: Ähnlichkeit ausgewählter Wörter zu ‚electricity’ im RSC.</hi>
                 </p>
                 <figure>
-                    <graphic n="1003" width="16.002cm" height="6.637866666666667cm" url="Pictures/image3.png" rend="inline"/>
+                    <graphic n="1003"
+                        width="16.002cm"
+                        height="6.637866666666667cm"
+                        url="Pictures/image3.png"
+                        rend="inline"/>
                 </figure>
                 <p>
                     <hi rend="italic">Abbildung </hi>
@@ -162,7 +174,11 @@
                     <hi rend="italic">positive</hi> verwendet (siehe etwa Lichtenberg u. Erxleben (1787: 434)).
                 </p>
                 <figure>
-                    <graphic n="1004" width="16.002cm" height="6.671733333333333cm" url="Pictures/image4.png" rend="inline"/>
+                    <graphic n="1004"
+                        width="16.002cm"
+                        height="6.671733333333333cm"
+                        url="Pictures/image4.png"
+                        rend="inline"/>
                     <head>
                         <hi rend="italic">Abbildung </hi>
                         <hi rend="italic"> 3: Spezifische Kontextwörter für ‚electricity’ im RSC.</hi>
@@ -178,7 +194,11 @@
                     <hi rend="italic">spark</hi> – während die Spezifizität von ersterem stetig sinkt, ist die von letzterem vergleichsweise konstant. Funkenbildung war Teil vieler populärer Schauexperimente zur Elektrizität, so beispielsweise bei der „Elektrischen Apotheose“, bei der ein künstlicher Heiligenschein erzeugt wurde (Hochadel 2006: 528).
                 </p>
                 <figure>
-                    <graphic n="1005" width="13.687127777777778cm" height="8.067438888888889cm" url="Pictures/image5.png" rend="inline"/>
+                    <graphic n="1005"
+                        width="13.687127777777778cm"
+                        height="8.067438888888889cm"
+                        url="Pictures/image5.png"
+                        rend="inline"/>
                     <head>
                         <hi rend="italic">Abbildung </hi>
                         <hi rend="italic"> 4: Ähnlichkeit ausgewählter Wörter zu ‚spark’ im RSC.</hi>
@@ -193,7 +213,11 @@
                     <hi rend="italic">flame</hi> ab Mitte des 19. Jahrhunderts abnimmt, wie in Abbildung 5 gezeigt. Mögliche Erklärungen sind sowohl sprachspezifische semantische Unterschiede, als auch die unterschiedliche Zusammensetzung der beiden Korpora, wie etwa eine Wechselwirkung der im DTA enthaltenen literarischen Texte (vgl. etwa „Wenn er dich mit seinem Auge electrisirt, fühl es, daß es ein königlicher Funke sey” (Hippel 1781: 28)). Wissenschaftshistorische Studien legen aber auch nahe, dass die im 18. Jahrhundert mit Elektrizität durchgeführten Experimente bis ins 19. Jahrhundert länger und öfter wiederholt und erweitert wurden, als das im deutschen Sprachraum der Fall war. Während die Erscheinung dort zum Ausgang des 18. Jahrhunderts abnahm und rasch zum Elektromagnetismus umgedeutet wurde, verlieren die Elektrizitätsexperimente in Großbritannien nicht an Beliebtheit (vgl. Morus (1998)).
                 </p>
                 <figure>
-                    <graphic n="1006" width="14.289447222222222cm" height="5.7794694444444445cm" url="Pictures/image6.png" rend="inline"/>
+                    <graphic n="1006"
+                        width="14.289447222222222cm"
+                        height="5.7794694444444445cm"
+                        url="Pictures/image6.png"
+                        rend="inline"/>
                     <head>
                         <hi rend="italic">Abbildung </hi>
                         <hi rend="italic"> 5: Spezifische Kontextwörter für ‚elektrisch’ im DTA.</hi>

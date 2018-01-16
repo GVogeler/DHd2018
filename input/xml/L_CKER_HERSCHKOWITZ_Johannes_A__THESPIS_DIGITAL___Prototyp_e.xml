@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>THESPIS.DIGITAL – Prototyp eines webbasierten digitalen Archivs für die Wandertruppenforschung im deutschsprachigen Raum</title>
+                <author>
+                    <persName>
+                        <surname>Löcker-Herschkowitz</surname>
+                        <forename>Johannes A.</forename>
+                    </persName>
+                    <affiliation>Universität Wien, Österreich</affiliation>
+                    <email>j.a.loecker-herschkowitz@univie.ac.at</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Wagner</surname>
+                        <forename>Christian</forename>
+                    </persName>
+                    <affiliation>Universität Wien, Österreich</affiliation>
+                    <email>christian.wagner@univie.ac.at</email>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2018-01-15T15:18:00Z</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Prof. Dr. Georg Vogeler</publisher>
+                <address>
+                    <addrLine>UniversitÃ¤t Graz</addrLine>
+                    <addrLine>Zentrum fÃ¼r Informationsmodellierung - Austrian Centre for Digital Humanities</addrLine>
+                    <addrLine>ElisabethstraÃ&#x9f;e 59/III</addrLine>
+                    <addrLine>8010 Graz</addrLine>
+                </address>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Converted from a Word document </p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.17">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Vortrag</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Semantic MediaWiki</term>
+                    <term>Wandertheater</term>
+                    <term>17./18. Jahrhundert</term>
+                    <term>digitales Archiv</term>
+                    <term>Wikipedia</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Sammlung</term>
+                    <term>Modellierung</term>
+                    <term>Kollaboration</term>
+                    <term>Webentwicklung</term>
+                    <term>Daten</term>
+                    <term>Link</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p rend="No Spacing">Ausgehend von Dramen und Libretti des italienischen Dramatikers Giacinto Andrea Cicognini (1606–1649) beschäftigt sich das FWF-Forschungsprojekt „Making of a Repertoire for German Theatre (1650–1730): The Reception of Cicognini“ (Projektleiter Univ.-Prof. Dr. Stefan Hulfeld) mit Theaterrepertoires des deutschsprachigen Wandertheaters im 17. und beginnenden 18. Jahrhundert. Dabei werden vorhandene Daten überprüft und neue (Meta-)Daten zu Dramen und deren Aufführungen generiert. Wandertheaterforschung ist aufgrund einer problematischen Quellenlage und -überlieferung ein höchst komplexes Vorhaben. Informationen zu Aktivitäten der Wandertruppen können über administrative Unterlagen, Rechnungsbücher von Städten und Fürstenhöfen, Theaterzettel, Manuskripte und zeitgenössische Schriften gefunden werden. Seit mehr als einem Jahrhundert sammeln und veröffentlichen Wissenschaftler_innen Daten zu deutschsprachigen Wandertruppen. Diese finden sich in Studien zu einzelnen Wandertruppen, in Arbeiten zu Dramensammlungen/Codices, in Untersuchungen zu einzelnen Spielorten sowie in Darstellungen spezifischer Zeiträume. Problematisch ist hier die Anordnung und Auswertung der genannten Quellen: Unzählige Artikel und Bücher müssen herangezogen werden, um Fehler und Missinterpretationen von zuverlässigen Fakten zu unterscheiden. Für die Überprüfung der Daten werden Bibliotheken und Archive konsultiert, da die entsprechenden Unterlagen nicht über Websites verfügbar sind. Die Entwicklung eines webbasierten Archivs, in der die validierten Daten gesichert werden, ist aufgrund der oben beschriebenen Herausforderungen naheliegend.</p>
+            <p rend="No Spacing">Nähere Informationen zum Forschungsprojekt finden Sie unter 
+                <ref target="https://thespis.digital/Forschungsprojekt/">https://thespis.digital/Forschungsprojekt/</ref>.
+            </p>
+            <p rend="No Spacing">Beginnend mit einer Darstellung der Ausgangslage des Forschungsprojekts inklusive der im Forschungsfeld existierenden Datenbanken sowie bekannten Vorgangsweisen, welche als Vorbilder auch für unser digitales Archiv impulsgebend waren, werden wir in unserem Vortrag über die Gründe und Argumente für die Entscheidung des Einsatzes von Semantic MediaWiki (SMW) als webbasiertes Werkzeug zur kollaborativen Arbeit referieren. Dabei werden wir Anforderungen an ein webbasiertes Archiv, Möglichkeiten zur Kollaboration, Verwendung von offenen Standards und Formaten ebenso vorstellen wie die für das Projekt so entscheidende Vorgehensweise hinsichtlich der Entwicklung eines Datenmodells in enger Zusammenarbeit mit dem Forschungsteam.</p>
+            <p rend="No Spacing">Für die Erfassung der erhobenen und validierten Daten kommt ein Semantic MediaWiki (SMW) zum Einsatz – THESPIS.DIGITAL. Verzeichnet sind Daten und Metadaten zu Repertoirestücken, Aufführungen, Dokumenten, Personen und Datensätze, welche keinem Repertoirestück zuordenbar sind, allerdings wichtige Informationen für die Wandertruppenforschung darstellen. Das zu Grunde liegende Datenmodell wurde in enger Zusammenarbeit mit dem Forschungsteam erarbeitet; die Art der agilen Entwicklung wird in unserem Vortrag erörtert. Zentrale Bedingung für die Erfassung von Dokumenten bzw. Aufführungen ist der Bezug zur Quelle. Einzelne Quellen (Digitalisate von handschriftlichen Dramen, Theaterzettel etc.) sind im digitalen Archiv als Index- und Objektlinks verzeichnet. Digitalisate, die nicht über die Archive direkt im WWW zugänglich sind, werden von uns im Repositorium Phaidra (Digital Asset Management System mit Langzeitarchivierungsfunktion der Universität Wien, 
+                <ref target="https://phaidra.univie.ac.at">https://phaidra.univie.ac.at</ref>) abgelegt. Personen und Orte werden als Links zur deutschsprachigen Wikipedia verzeichnet. Das starke Interesse der Forschungsgruppe, Forschungsergebnisse einer interessierten Öffentlichkeit zugänglich zu machen, führt dazu, dass Personenartikel der Schauspieler_innen und Theaterleiter_innen direkt in der Wikipedia angelegt bzw. überarbeitet werden. Durch die so entstehende Verknüpfung mittels Verzeichnissen von Normdaten, über Wikipedia und THESPIS.DIGITAL zu Digitalisaten in Archiven wird eine Kette von Linked Open Data (LOD) hergestellt. Mit dem Blog 
+                <ref target="https://thespis.hypotheses.org">https://thespis.hypotheses.org</ref> treten wir in Kommunikation nach außen und ergänzen so den Austausch mit Wissenschaftler_innen und der Öffentlichkeit. Ein weiterer wichtiger Aspekt beim Wissensaustausch mit Fachkolleg_innen im Feld der Wandertruppenforschung stellt der Einsatz des benutzerfreundlichen Werkzeugs SMW dar. Diese Form der Kollaboration wird verstärkt nach Projektende zu tragen kommen: der Datenbestand wird durch Wissenschaftler_innen aus dem Bereich der Wandertheaterforschung kontinuierlich ausgebaut. THESPIS.DIGITAL wird als zentrales Tool zur Erfassung, Auswertung und Visualisierung von (Aufführungs-)Daten im Zusammenhang mit Wandertheater im 17. und 18. Jahrhundert etabliert.
+            </p>
+            <p rend="No Spacing">Bei SMW handelt es sich um eine Open-Source-Erweiterung für MediaWiki. Es stellt ein leistungsfähiges und flexibles Wissensmanagement-System zur Verfügung, in welchem das Speichern und Abfragen von Daten innerhalb von Wiki-Seiten möglich ist. Der entscheidende Vorteil von SMW liegt darin, dass Daten auf mehreren Ebenen mit semantischen Informationen angereichert und erstellte Daten über Semantic Web Standards veröffentlicht werden. Durch die Maschinenlesbarkeit der Daten besteht eine enorme Anschlussfähigkeit für weiterführende Anwendungen und Auswertungen. Die Verwendung offener Standards (Darstellung, Export, Softwarebasis, Dokumentation, Lizenz) fördern eine zukunftssichere Verwendung über das Projektende hinaus. SMW verfügt über eine Benutzer- bzw. Rechteverwaltung zur Unterstützung der Kollaboration durch die Vergabe differenzierter Benutzerrechte. Durch eine umfassende Versionskontrolle kann jeder Bearbeitungsschritt transparent nachvollzogen werden – sowohl bei der Entwicklung als auch bei den Änderungen der inhaltlichen Eingaben.</p>
+            <p rend="No Spacing">Wir werden aber nicht nur auf Stärken und technische Funktionsweisen des Werkzeugs eingehen. Vor allem wollen wir die Vorgangsweise im Projekt als eine Möglichkeit präsentieren, wie mit dem kritischen Anspruch der Theaterwissenschaft die technologische Entwicklung des Werkzeugs dominiert wird. Dies betrifft insbesondere die Einbeziehung des Forschungsteams in jede Phase des Entstehungsprozesses. Die Inputs hinsichtlich Anpassungen/Änderungen/Erweiterungen des Datenmodells wurden von einer wissenschaftlichen Perspektive geleitet und unabhängig von technologischen Bedingtheiten zur Diskussion gestellt. Dabei spielt die technologische Basis zwar eine grundlegende Rolle, viel stärker treten allerdings fachwissenschaftliche Diskussionen und Übersetzungsstrategien bei Entscheidungen in den Vordergrund. Mit THESPIS.DIGITAL wurde ein Instrument geschaffen, dass sich in jeder Phase der Entwicklung an den Vorstellungen des Forschungsteams orientiert hat und theoretische Implikationen umsetzt, anstatt bestimmte Möglichkeiten oder Praktiken vorzugeben. Entstanden sind Funktionsweisen und Abläufe die dem Forschungsgegenstand entsprechen. Die Umsetzung erfolgt anhand der Möglichkeiten von SMW, offener Standards und Technologien. </p>
+            <p rend="No Spacing">Im Zuge der agilen Entwicklung des Datenmodells und der verwendeten Werkzeuge konnten gemeinsam mit dem Projektteam auch die zu verwendenden Standards erarbeitet und Entscheidung getroffen werden, welche eine sehr offene Verwendung von Daten (sowohl die Projektdaten als auch Daten bspw. von Wikipedia bzw. Wikidata) ermöglicht. Unsere Daten stehen in der Creative Commons Lizenz CC BY-NC-SA 4.0 zur Verfügung und können mittels offener Formate wie CSV, JSON, SPARQL, RDF und API ausgetauscht werden. Im Projektteam wurde es kritisch gesehen, dass die meisten „Datenbanken“ keinen offenen Zugang zu den Daten und somit keine automatische (maschinengestützte) Weiterverwendung der Daten ermöglicht. Aus diesem Grund war die Entscheidung, auf offene Standards und Daten zu setzen, nur folgerichtig. In einer Demonstrationsphase geben wir Einblick in die Funktionsweise von THESPIS.DIGITAL und zeigen, wie die Vorteile des Werkzeugs zum Tragen kommen.</p>
+        </body>
+    </text>
+</TEI>

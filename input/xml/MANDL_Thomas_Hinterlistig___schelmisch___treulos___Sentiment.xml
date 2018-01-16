@@ -47,7 +47,7 @@
                 <address>
                     <addrLine>UniversitÃ¤t Graz</addrLine>
                     <addrLine>Zentrum fÃ¼r Informationsmodellierung - Austrian Centre for Digital Humanities</addrLine>
-                    <addrLine>ElisabethstraÃe 59/III</addrLine>
+                    <addrLine>ElisabethstraÃ&#x9f;e 59/III</addrLine>
                     <addrLine>8010 Graz</addrLine>
                 </address>
             </publicationStmt>
@@ -106,7 +106,11 @@
                 <p>Das Werkzeug AntConc erlaubt es, Konkordanzen zu extrahieren. Die Suchbegriffe wurden als zentrale Wörter dargestellt und AntConc liefert dann den Kontext der Phrase. Die Sortierung der Phrasen erfolgt nach dem Maß Mutual Information. </p>
                 <p>So wurden zu jeder Suche und damit zu jedem der sechs Sub-Korpora jeweils ca. 100 Phrasen manuell ausgewertet und klassifiziert. Dabei wurde festgehalten, ob eine meinungstragende Phrase vorliegt. Zudem wurde über die Polarität entschieden, also ob die Meinung positiv oder negativ ist. Diese manuelle Annotation semantischer Werte in Textabschnitten erfolgte, um darauf aufbauend das Sentiment Lexikon zu erstellen.</p>
                 <figure>
-                    <graphic n="1001" width="13.187761111111111cm" height="7.7434722222222225cm" url="Pictures/image1.png" rend="inline"/>
+                    <graphic n="1001"
+                        width="13.187761111111111cm"
+                        height="7.7434722222222225cm"
+                        url="Pictures/image1.png"
+                        rend="inline"/>
                 </figure>
                 <p>
                     <hi rend="italic">Abbildung 1: Kollokationen in AntConc</hi>
@@ -121,7 +125,11 @@
                 <p>In der Folge wurden die Kollokationen manuell in sechs, in sich homogene Gruppen geclustert, welche jeweils den lokalen Kontext und das Auftreten einer Kollokation beschreiben: Religion; Synonym für Jude; positive Eigenschaft Jude; negative Eigenschaft Jude; Juden im Gesellschaftsleben und Sonstiges. Entwickelt bzw. festgelegt wurden die sechs Cluster auf Grundlage der Kollokationen.</p>
                 <p>Die Analyse der Vorkommenshäufigkeit der sechs Cluster ergab eine zeitliche Veränderung. Im Zusammenhang mit Religion wurde das Judentum im früheren Subkorpus ab 1850 häufiger erwähnt als im Zeitraum von 1910 bis 1919. Im späteren Zeitraum wird das Judentum häufiger im Zusammenhang mit dem gesellschaftlichen Leben erwähnt. Diese spiegelt möglicherweise den Wandel des Judenhasses während der zweiten Hälfte des 19. Jahrhunderts auf Grundlage religiöser Motive zu einer biologisch-rassischen Begründung.</p>
                 <figure>
-                    <graphic n="1002" width="16.002cm" height="9.389708333333333cm" url="Pictures/image2.png" rend="inline"/>
+                    <graphic n="1002"
+                        width="16.002cm"
+                        height="9.389708333333333cm"
+                        url="Pictures/image2.png"
+                        rend="inline"/>
                 </figure>
                 <p>Abbildung 2: Cluster zum Wortfeld Jude/Judentum</p>
                 <p>Insgesamt wurden 225 einmalig auftretende meinungstragende Begriffe gefunden. Von diesen sind nur 44% in einer aktuellen Liste des Deutschen vorhanden (Sentiment Wortschatz der Universität Leipzig). Zwar ist die verwendete Liste deutlich länger und aus umfangreicheren Studien hervorgegangen, doch allein dieser Vergleich zeigt, dass das historische Vokabular sich deutlich unterscheidet. Nicht enthalten sind beispielsweise: verachtet, zerstreut, unkünstlerisch oder halsstarrig.</p>
