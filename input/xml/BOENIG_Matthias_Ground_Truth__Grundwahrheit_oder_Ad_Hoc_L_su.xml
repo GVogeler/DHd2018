@@ -55,7 +55,7 @@
                 <address>
                     <addrLine>UniversitÃ¤t Graz</addrLine>
                     <addrLine>Zentrum fÃ¼r Informationsmodellierung - Austrian Centre for Digital Humanities</addrLine>
-                    <addrLine>ElisabethstraÃ&#x9f;e 59/III</addrLine>
+                    <addrLine>ElisabethstraÃe 59/III</addrLine>
                     <addrLine>8010 Graz</addrLine>
                 </address>
             </publicationStmt>
@@ -115,11 +115,7 @@
                     </note> gesetzt wird, sollen im Folgenden die Probleme diskutiert und Möglichkeiten gezeigt werden, wie diesen Defiziten begegnet werden kann.
                 </p>
                 <figure>
-                    <graphic n="1001"
-                        width="16.002cm"
-                        height="3.314347222222222cm"
-                        url="Pictures/image1.png"
-                        rend="inline"/>
+                    <graphic n="1001" width="16.002cm" height="3.314347222222222cm" url="Pictures/image1.png" rend="inline"/>
                 </figure>
                 <p>Abbildung : Gegenüberstellung eines Modells eines Forschungsprozesses aus der empirischen Sozialforschung
                     <note place="foot" xml:id="ftn3" n="3">
@@ -175,11 +171,7 @@
                     <row>
                         <cell rend="normal">
                             <figure>
-                                <graphic n="1002"
-                                 width="2.06375cm"
-                                 height="2.4341666666666666cm"
-                                 url="Pictures/image2.jpeg"
-                                 rend="inline"/>
+                                <graphic n="1002" width="2.06375cm" height="2.4341666666666666cm" url="Pictures/image2.jpeg" rend="inline"/>
                             </figure>
                         </cell>
                         <cell rend="normal">ct
@@ -207,11 +199,7 @@
                     </note>-Regeln kann nun, wie das Beispiel zeigt, geprüft werden, nach welchem Level die „ct“-Ligatur kodiert ist:
                 </p>
                 <figure>
-                    <graphic n="1003"
-                        width="16.002cm"
-                        height="5.695597222222222cm"
-                        url="Pictures/image3.jpeg"
-                        rend="inline"/>
+                    <graphic n="1003" width="16.002cm" height="5.695597222222222cm" url="Pictures/image3.jpeg" rend="inline"/>
                 </figure>
                 <p>Die Wahl des PAGE-Formates ermöglicht im Unterschied zum TEI-basierten Basisformat des DTA (DTABf)
                     <note place="foot" xml:id="ftn10" n="10">
@@ -219,11 +207,7 @@
                     </note> eine unkomplizierte Lösung für die Repräsentation von koordinatenbasierten Phänomenen (Punkt C).
                 </p>
                 <figure>
-                    <graphic n="1004"
-                        width="16.002cm"
-                        height="4.4943888888888885cm"
-                        url="Pictures/image4.jpeg"
-                        rend="inline"/>
+                    <graphic n="1004" width="16.002cm" height="4.4943888888888885cm" url="Pictures/image4.jpeg" rend="inline"/>
                 </figure>
             </div>
             <div type="div1" rend="DH-Heading1">

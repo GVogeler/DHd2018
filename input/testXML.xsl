@@ -113,6 +113,9 @@
                 <xsl:for-each select="$files">
                     <xsl:sort select="document-uri(.)"></xsl:sort>
                     <xsl:variable name="filename" select="tokenize(document-uri(.),'/')[last()]"/>
+                    <xsl:result-document href="xml/{$filename}">
+                        <xsl:copy-of select="."/>
+                    </xsl:result-document>
                     <div id="document-uri(.)" class="contrib">
                         <p>Datei: <a href="{document-uri(.)}"><xsl:value-of select="tokenize(document-uri(.),'/')[last()]"/></a></p>
                         <p>Typ: <xsl:value-of select=".//keywords[@scheme='ConfTool'][@n='subcategory']/term"/></p>

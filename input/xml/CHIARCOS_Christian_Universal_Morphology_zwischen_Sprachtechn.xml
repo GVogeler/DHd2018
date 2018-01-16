@@ -63,7 +63,7 @@
                 <address>
                     <addrLine>UniversitÃ¤t Graz</addrLine>
                     <addrLine>Zentrum fÃ¼r Informationsmodellierung - Austrian Centre for Digital Humanities</addrLine>
-                    <addrLine>ElisabethstraÃ&#x9f;e 59/III</addrLine>
+                    <addrLine>ElisabethstraÃe 59/III</addrLine>
                     <addrLine>8010 Graz</addrLine>
                 </address>
             </publicationStmt>
@@ -130,13 +130,20 @@
                         <hi rend="italic">nicht qualifizierte</hi> Merkmale, durch Semikolon getrennt und 
                         <hi rend="italic">unsortiert</hi>. Der Eintrag für deutsch „(ich) treffe (dich)“ wäre beispielsweise
                     </p>
-                    <p rend="HTML Preformatted">
+                    <!--p rend="HTML Preformatted">
                         <hi rend="italic">treffen  treffe  V;IND;PRS;1;SG</hi>
+                        </p-->
+                    <p>
+                    <figure>
+                        <graphic url="gloss1.gif"/>
+                    </figure>
                     </p>
+                    
                     <p>Der Eintrag für mingrelisch 
                         <hi rend="italic">kešerxvaduk</hi> (`Ich werde dich treffen') besitzt folgende Glosse:
                     </p>
-                    <p>
+                    
+                    <!--p>
                         <hi rend="italic">kešerxvaduk</hi>
                     </p>
                     <p>
@@ -145,9 +152,22 @@
                     <p>
                         <hi rend="italic">AFF PV O2SG</hi>
                         <hi rend="italic">meet TM S1SG</hi>
-                    </p>
+                        </p-->
+                    <p>
+                        <figure>
+                            <graphic url="gloss2.gif"/>
+                        </figure>
+                    </p>                    
+                    
                     <p>In Unimorph wird diese Analyse wie folgt repräsentiert:</p>
-                    <p rend="HTML Preformatted">xvad  kešerxvaduk  AFF;LGSPEC4;ARGDA2S;V;LGSPEC6;ARGNO1S</p>
+                    
+                    <!--p rend="HTML Preformatted">xvad  kešerxvaduk  AFF;LGSPEC4;ARGDA2S;V;LGSPEC6;ARGNO1S</p-->
+                    <p>
+                        <figure>
+                            <graphic url="gloss3.gif"/>
+                        </figure>
+                    </p>
+                    
                     <p>Das mingrelische Verb kongruiert mit beiden syntaktischen Argumenten: dem Subjekt (1S, Nominativ) und dem Objekt (2S, Dativ), für die 
                         <hi rend="bold">zusammengesetzte Merkmale</hi> gebildet werden, die ein Argument mit dessen Person, Numerus usw. zusammenstellt; z.B. werden hier ArgNo1S für „Nominativargument=1. Person Singular“ und ArgDa2S für „Dativargument=2. Person Singular“ aufgeführt. Ein methodisches Problem ist, dass das Unimorph-Schema dieselbe Information hierbei in unterschiedlicher Weise ausdrückt, wie im Vergleich deutlich wird: mingrelisch ArgNo1S entspricht deutsch 1;SG. Da der Zusammenhang zwischen Kasus und grammatischen Rollen für das Deutsche nicht explizit definiert ist, gibt es keine Möglichkeit, diese automatisch als äquivalent zu interpretieren. Leider erlaubt es Unimorph zudem nicht, herkömmliche Terminologie zu verwenden, in der beide Argumente bzgl. ihrer syntaktischen Rollen (`Subjekt' und `Objekt') beschrieben werden, sondern zieht stattdessen die Kasusmorphologie heran. Dies ist insofern problematisch, als der Kasus im Verb nicht morphologisch realisiert ist, und Argumente im Satz nicht (pro)nominal realisiert werden müssen. Konventionell werden statt dessen grammatische Rollen verwendet.
                     </p>
@@ -160,9 +180,16 @@
                         <hi rend="bold">numerischen Indizes</hi> sind auch auf die verbale Domäne übertragbar. Gegeben etablierte Hierarchien grammatischer Rollen bzw. der zugeordneten Kasus, kann die bisherige Verbundmarkierung multipler Argumente durch eine Indizierungsstrategie ersetzt werden, die sich auf diese bezieht, und bei der das höchstrangige Element (z.B. das Subjekt) unbezeichnet bleibt, während andere Argumente nach ihrer Stellung im Ranking gekennzeichnet werden. Eine alternative Repräsentation des mingrelischen 
                         <hi rend="italic">kešerxvaduk</hi> wäre also
                     </p>
-                    <p>
+                    
+                    <!--p>
                         <hi rend="italic">V;... 1;SG; 2-1;SG-1</hi>
+                        </p-->
+                    <p>
+                        <figure>
+                            <graphic url="gloss4.gif"/>
+                        </figure>
                     </p>
+                    
                     <p>Dies korrigiert auch die Asymmetrie zwischen zusammengesetzten und individuellen Merkmalen. Auch die Zuschreibung mehrerer Merkmale einer Kategorie kann nominal und verbal einheitlich gehandhabt werden, und die Vergleichbarkeit über Sprachen hinweg wird vereinfacht. </p>
                 </div>
                 <div type="div2" rend="DH-Heading2">
