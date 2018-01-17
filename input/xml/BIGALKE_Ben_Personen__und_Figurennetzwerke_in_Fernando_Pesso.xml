@@ -3,9 +3,9 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title type="full">
-                    <title type="main">Personen- und Figurennetzwerke in Fernando Pessoas Publikationsplänen</title>
-                    <title type="sub"/>
+                <title>
+                    <title>Personen- und Figurennetzwerke in Fernando Pessoas Publikationsplänen</title>
+                    <title/>
                 </title>
                 <author>
                     <persName>
@@ -68,27 +68,27 @@
         </fileDesc>
         <encodingDesc>
             <appInfo>
-                <application ident="DHCONVALIDATOR" version="1.17">
+                <application>
                     <label>DHConvalidator</label>
                 </application>
             </appInfo>
         </encodingDesc>
         <profileDesc>
             <textClass>
-                <keywords scheme="ConfTool" n="category">
+                <keywords>
                     <term>Paper</term>
                 </keywords>
-                <keywords scheme="ConfTool" n="subcategory">
+                <keywords>
                     <term>Poster</term>
                 </keywords>
-                <keywords scheme="ConfTool" n="keywords">
+                <keywords>
                     <term>Fernando Pessoa</term>
                     <term>Netzwerk</term>
                     <term>Visualisierung</term>
                     <term>D3</term>
                     <term>TEI</term>
                 </keywords>
-                <keywords scheme="ConfTool" n="topics">
+                <keywords>
                     <term>Beziehungsanalyse</term>
                     <term>Netzwerkanalyse</term>
                     <term>Visualisierung</term>
@@ -101,103 +101,103 @@
     <text>
         <body>
             <p>
-                <anchor xml:id="id_docs-internal-guid-8e490a27-f49a-7711-e248-928ba1b461be"/>Im Nachlass des portugiesischen Dichters Fernando Pessoa (1888-1935) finden sich zahlreiche Listen geplanter Publikationen. Diesen stehen nur wenige zu Lebzeiten tatsächlich realisierte Veröffentlichungen gegenüber. Daraus ergibt sich ein Kontrast zwischen der Ebene des Möglichen und des Verwirklichten in der Literatur und Literaturproduktion. Vor diesem Hintergrund entsteht die digitale Edition “Fernando Pessoa. Projekte und Publikationen” und mit ihr die im Folgenden vorgestellte Netzwerkvisualisierung. Mit ihr wird ein Werkzeug zur Verfügung gestellt, das die Exploration des Personen- und Figurenkosmos in Pessoas Publikationsplänen über die Zeit ermöglicht.
+                <anchor/>Im Nachlass des portugiesischen Dichters Fernando Pessoa (1888-1935) finden sich zahlreiche Listen geplanter Publikationen. Diesen stehen nur wenige zu Lebzeiten tatsächlich realisierte Veröffentlichungen gegenüber. Daraus ergibt sich ein Kontrast zwischen der Ebene des Möglichen und des Verwirklichten in der Literatur und Literaturproduktion. Vor diesem Hintergrund entsteht die digitale Edition “Fernando Pessoa. Projekte und Publikationen” und mit ihr die im Folgenden vorgestellte Netzwerkvisualisierung. Mit ihr wird ein Werkzeug zur Verfügung gestellt, das die Exploration des Personen- und Figurenkosmos in Pessoas Publikationsplänen über die Zeit ermöglicht.
             </p>
-            <div type="div1" rend="DH-Heading1">
+            <div>
                 <head>
-                    <anchor xml:id="id_docs-internal-guid-f25e52b7-f49a-bc14-6ab6-ac9d19c6c945"/>Pessoas Werk zwischen Planung und Publikation
+                    <anchor/>Pessoas Werk zwischen Planung und Publikation
                 </head>
                 <p>
-                    <anchor xml:id="id_docs-internal-guid-8e490a27-f49b-6d8b-d3ae-adb1d8834360"/>Die Dynamik der Schriften Pessoas ist im Spannungsverhältnis zwischen dem projizierten Werk, das der Dichter im Sinne eines vollkommen Ganzen konzipiert hat, und dem tatsächlich Geschriebenen und nur in geringem Maße Publizierten zu verstehen. Pessoa war bei der Veröffentlichung seiner Werke extrem selektiv und die Dynamik seines Schreibens weist auf eine ständige Bedeutungsverschiebung hin, die sowohl an fragmentarischen Schriften seines Nachlasses als auch an seinen Publikationsplänen zu erkennen ist (vgl. dazu Cunha 1987, Martins 2003, Gusmão 2003 und Sepúlveda 2013). Diese Bedeutungsverschiebung hängt stark mit dem Wahl der Autorennamen zusammen, die ebenfalls einem ständigen Wechsel unterlag und in den Plänen zur Edition und Publikation des Werkes eine hohe Bedeutung gewann. Zur Definition eines Publikationsvorhabens gehörte für Pessoa die Zuordnung einer bestimmten Autorfigur, deren fiktionale Persönlichkeit sowohl durch ein bestimmtes Werk konstruiert werden sollte als auch dieses Werk in seiner Besonderheit definieren würde.
+                    <anchor/>Die Dynamik der Schriften Pessoas ist im Spannungsverhältnis zwischen dem projizierten Werk, das der Dichter im Sinne eines vollkommen Ganzen konzipiert hat, und dem tatsächlich Geschriebenen und nur in geringem Maße Publizierten zu verstehen. Pessoa war bei der Veröffentlichung seiner Werke extrem selektiv und die Dynamik seines Schreibens weist auf eine ständige Bedeutungsverschiebung hin, die sowohl an fragmentarischen Schriften seines Nachlasses als auch an seinen Publikationsplänen zu erkennen ist (vgl. dazu Cunha 1987, Martins 2003, Gusmão 2003 und Sepúlveda 2013). Diese Bedeutungsverschiebung hängt stark mit dem Wahl der Autorennamen zusammen, die ebenfalls einem ständigen Wechsel unterlag und in den Plänen zur Edition und Publikation des Werkes eine hohe Bedeutung gewann. Zur Definition eines Publikationsvorhabens gehörte für Pessoa die Zuordnung einer bestimmten Autorfigur, deren fiktionale Persönlichkeit sowohl durch ein bestimmtes Werk konstruiert werden sollte als auch dieses Werk in seiner Besonderheit definieren würde.
                 </p>
                 <p>
-                    <anchor xml:id="id_docs-internal-guid-8e490a27-f49b-c4d4-3bcd-d1c56c3ba9fc"/>Die Spannung zwischen Planung und Publikation des Werkes wird daher noch dadurch verstärkt, dass Pessoa unter verschiedenen, insgesamt etwa 120 Autorennamen geschrieben hat - oder geplant hat zu schreiben (vgl. dazu Pessoa 2012). Eine besonders wichtige Rolle in Pessoas Werk und seinen Werkplänen spielen dabei die Namen Alberto Caeiro, Álvaro de Campos und Ricardo Reis, die er (in Abgrenzung zu den weiteren Pseudonymen) Heteronyme genannt hat.
+                    <anchor/>Die Spannung zwischen Planung und Publikation des Werkes wird daher noch dadurch verstärkt, dass Pessoa unter verschiedenen, insgesamt etwa 120 Autorennamen geschrieben hat - oder geplant hat zu schreiben (vgl. dazu Pessoa 2012). Eine besonders wichtige Rolle in Pessoas Werk und seinen Werkplänen spielen dabei die Namen Alberto Caeiro, Álvaro de Campos und Ricardo Reis, die er (in Abgrenzung zu den weiteren Pseudonymen) Heteronyme genannt hat.
                 </p>
             </div>
-            <div type="div1" rend="DH-Heading1">
+            <div>
                 <head>
-                    <anchor xml:id="id_docs-internal-guid-7dfa2fbe-f49b-eeb4-b9a5-5ffa7a44ff6f"/>Digitale Edition “Projekte und Publikationen”
+                    <anchor/>Digitale Edition “Projekte und Publikationen”
                 </head>
                 <p>
-                    <anchor xml:id="id_docs-internal-guid-8e490a27-f49c-42e6-166c-ca013449ed16"/>Die Notizzettel, Seiten aus Notizbüchern und andere Papiere aus Pessoas Nachlass, auf denen er die Pläne für seine Werke handschriftlich oder mit Schreibmaschine geschrieben festgehalten hat, werden in einer Kooperation zwischen dem Institut für Literatur und Tradition (IELT) der Neuen Universität Lissabon und dem Cologne Center for eHumanities (CCeH) der Universität zu Köln digital ediert (Sepúlveda und Henny-Krahmer 2017).
-                    <note xml:id="ftn1" place="foot" n="1">
-                        <anchor xml:id="id_docs-internal-guid-8e490a27-f49c-c13a-f4bb-d8de1386b49c"/>
-                        <hi rend="color(#000000)">Die digitale Edition ist in einer Beta-Version </hi>
-                        <hi rend="color(#000000)">unter </hi>
-                        <ref target="http://www.pessoadigital.pt/">http://www.pessoadigital.pt</ref>
-                        <hi rend="color(#000000)">[letzter Zugriff </hi>
-                        <hi rend="color(#000000)">14</hi>
-                        <hi rend="color(#000000)">. Januar 2018] verfügbar; die Entwicklung wird fortlaufend über GitHub organisiert: </hi>
-                        <ptr target="https://github.com/cceh/pessoa"/>
-                        <hi rend="color(#000000)"> </hi>
-                        <hi rend="color(#000000)">[letzter Zugriff </hi>
-                        <hi rend="color(#000000)">14</hi>
-                        <hi rend="color(#000000)">. Januar 2018]. Zur editorischen Herangehensweise aus digitaler Perspektive vgl. Henny-Krahmer und Sepúlveda 2017.</hi>
+                    <anchor/>Die Notizzettel, Seiten aus Notizbüchern und andere Papiere aus Pessoas Nachlass, auf denen er die Pläne für seine Werke handschriftlich oder mit Schreibmaschine geschrieben festgehalten hat, werden in einer Kooperation zwischen dem Institut für Literatur und Tradition (IELT) der Neuen Universität Lissabon und dem Cologne Center for eHumanities (CCeH) der Universität zu Köln digital ediert (Sepúlveda und Henny-Krahmer 2017).
+                    <note>
+                        <anchor/>
+                        <hi>Die digitale Edition ist in einer Beta-Version </hi>
+                        <hi>unter </hi>
+                        <ref>http://www.pessoadigital.pt</ref>
+                        <hi>[letzter Zugriff </hi>
+                        <hi>14</hi>
+                        <hi>. Januar 2018] verfügbar; die Entwicklung wird fortlaufend über GitHub organisiert: </hi>
+                        <ptr/>
+                        <hi> </hi>
+                        <hi>[letzter Zugriff </hi>
+                        <hi>14</hi>
+                        <hi>. Januar 2018]. Zur editorischen Herangehensweise aus digitaler Perspektive vgl. Henny-Krahmer und Sepúlveda 2017.</hi>
                     </note>
                 </p>
                 <p>
-                    <anchor xml:id="id_docs-internal-guid-8e490a27-f49d-7839-bab1-35fa69260838"/>Neben den Dokumenten aus dem Nachlass umfasst die digitale Edition auch die zu Lebzeiten von Pessoa publizierten Gedichte. Gegenstand des hier vorgestellten Netzwerkes sind jedoch ausschließlich die Dokumente, auf denen die Figuren und Personen genannt sind und deren Beziehungen ausgehend von ihrer gemeinsamen Erwähnung über die Zeit untersucht werden. Die Dokumente sind in der Edition in TEI codiert, wobei die Namensvorkommen erfasst werden und eine Identifikation der hinter den Namen stehenden Personen und Figuren in einem zentralen Index erfolgt. Transkriptionen und Index bilden zusammen mit den für jedes Dokument festgehaltenen Metadaten die Datengrundlage für das Figuren- und Personennetzwerk, wobei insbesondere die für die Chronologie relevante Datierung zu nennen ist.
+                    <anchor/>Neben den Dokumenten aus dem Nachlass umfasst die digitale Edition auch die zu Lebzeiten von Pessoa publizierten Gedichte. Gegenstand des hier vorgestellten Netzwerkes sind jedoch ausschließlich die Dokumente, auf denen die Figuren und Personen genannt sind und deren Beziehungen ausgehend von ihrer gemeinsamen Erwähnung über die Zeit untersucht werden. Die Dokumente sind in der Edition in TEI codiert, wobei die Namensvorkommen erfasst werden und eine Identifikation der hinter den Namen stehenden Personen und Figuren in einem zentralen Index erfolgt. Transkriptionen und Index bilden zusammen mit den für jedes Dokument festgehaltenen Metadaten die Datengrundlage für das Figuren- und Personennetzwerk, wobei insbesondere die für die Chronologie relevante Datierung zu nennen ist.
                 </p>
             </div>
-            <div type="div1" rend="DH-Heading1">
+            <div>
                 <head>
-                    <anchor xml:id="id_docs-internal-guid-609ff09c-f49d-a647-efbc-a0bed35ed17a"/>Netzwerkvisualisierung zu Personen und Figuren
+                    <anchor/>Netzwerkvisualisierung zu Personen und Figuren
                 </head>
                 <p>
-                    <anchor xml:id="id_docs-internal-guid-8e490a27-f49d-e688-127d-4a3cdd04e436"/>Die Vorkommen von Namen in Pessoas Publikationsplänen werden hier mit Hilfe einer interaktiven Netzwerkvisualisierung analysiert, um zu untersuchen, wie sich der von ihm in den Dokumenten entworfene Personen- und Figurenkosmos über die Zeit entwickelt. Für dynamische Netzwerkvisualisierungen gibt es in den DH bereits verschiedene Ansätze (vgl. u. a. Rigal et al. 2016, Xanthos et al. 2016). Für das Pessoa-Netzwerk ergibt sich die Dynamik aus der Möglichkeit, das Gesamtnetzwerk der Personen und Figuren über alle Dokumente hinweg auf Dokumente aus bestimmten Zeiträumen oder Jahren einzugrenzen. Es ist als heuristisches Instrument gedacht, um Hypothesen zur Chronologie von Personen- und Figurenkonstellationen zu generieren und im Ansatz überprüfen zu können.
+                    <anchor/>Die Vorkommen von Namen in Pessoas Publikationsplänen werden hier mit Hilfe einer interaktiven Netzwerkvisualisierung analysiert, um zu untersuchen, wie sich der von ihm in den Dokumenten entworfene Personen- und Figurenkosmos über die Zeit entwickelt. Für dynamische Netzwerkvisualisierungen gibt es in den DH bereits verschiedene Ansätze (vgl. u. a. Rigal et al. 2016, Xanthos et al. 2016). Für das Pessoa-Netzwerk ergibt sich die Dynamik aus der Möglichkeit, das Gesamtnetzwerk der Personen und Figuren über alle Dokumente hinweg auf Dokumente aus bestimmten Zeiträumen oder Jahren einzugrenzen. Es ist als heuristisches Instrument gedacht, um Hypothesen zur Chronologie von Personen- und Figurenkonstellationen zu generieren und im Ansatz überprüfen zu können.
                 </p>
                 <p>
-                    <anchor xml:id="id_docs-internal-guid-8e490a27-f49e-1efa-fbb5-2d000bb0b771"/>
-                    <hi rend="color(#000000)">Für das Netzwerk, das unter </hi>
-                    <ptr target="http://www.pessoadigital.pt/de/network"/>
-                    <hi rend="color(#000000)">verfügbar ist, sind 249 Dokumente ausgewertet worden, die insgesamt 369 Namen enthalten. Es werden sowohl historische Personen als auch fiktive Figuren aus Pessoas Werkwelt gezeigt. Analysiert wird das Vorkommen der Namen auf Pessoas Publikationsplänen von 1913 bis zu seinem Tod im Jahr 1935. Die frühen Dokumente (vor 1913) werden hier nicht berücksichtigt, da sie noch in Bearbeitung sind.</hi>
+                    <anchor/>
+                    <hi>Für das Netzwerk, das unter </hi>
+                    <ptr/>
+                    <hi>verfügbar ist, sind 249 Dokumente ausgewertet worden, die insgesamt 369 Namen enthalten. Es werden sowohl historische Personen als auch fiktive Figuren aus Pessoas Werkwelt gezeigt. Analysiert wird das Vorkommen der Namen auf Pessoas Publikationsplänen von 1913 bis zu seinem Tod im Jahr 1935. Die frühen Dokumente (vor 1913) werden hier nicht berücksichtigt, da sie noch in Bearbeitung sind.</hi>
                 </p>
                 <p>
-                    <anchor xml:id="id_docs-internal-guid-8e490a27-f49e-8a3a-0167-485dae527d7a"/>Die Netzwerkdaten sind mit Hilfe von XSLT aus den TEI-Dokumenten generiert worden und liegen im JSON-Format vor.
-                    <note xml:id="ftn2" place="foot" n="2">
-                        <anchor xml:id="id_docs-internal-guid-8e490a27-f49e-fc10-0698-53607392896e"/>
-                        <hi rend="color(#000000)"> Die dem Netzwerk zugrunde liegenden Daten sind unter</hi>
-                        <ptr target="https://github.com/cceh/pessoa/tree/master/app/data/network"/>
-                        <hi rend="color(#000000)"> </hi>
-                        <hi rend="color(#000000)">[letzter Zugriff 14. Januar 2018] einsehbar.</hi>
+                    <anchor/>Die Netzwerkdaten sind mit Hilfe von XSLT aus den TEI-Dokumenten generiert worden und liegen im JSON-Format vor.
+                    <note>
+                        <anchor/>
+                        <hi> Die dem Netzwerk zugrunde liegenden Daten sind unter</hi>
+                        <ptr/>
+                        <hi> </hi>
+                        <hi>[letzter Zugriff 14. Januar 2018] einsehbar.</hi>
                     </note> Die interaktive Visualisierung ist mit der Bibliothek D3 erstellt worden, wobei ein Netzwerklayout von Mike Bostock adaptiert und um weitere Funktionalitäten ergänzt wurde.
-                    <note xml:id="ftn3" place="foot" n="3">
-                        <anchor xml:id="id_docs-internal-guid-8e490a27-f49f-b3ab-d62c-5999d7cb0e21"/> Das Ausgangs-Layout von Bostock trägt den Titel “Force Layout with Mousover” (Bostock 2017).
+                    <note>
+                        <anchor/> Das Ausgangs-Layout von Bostock trägt den Titel “Force Layout with Mousover” (Bostock 2017).
                     </note> Erweiterungen, die für die vorliegende Anwendung vorgenommen wurden, sind u. a. die Möglichkeit, Teile des Netzwerks ein- und auszublenden (nach Chronologie; Teilnetzwerke für die Verbindungen, die von einzelnen Personen ausgehen; nur Knoten mit oder auch Knoten ohne Verbindungen) sowie Optionen für die Darstellung (Einblenden von Labels; Dichte bzw. Weite der Anzeige des Netzwerks).
                 </p>
                 <p>
                     <figure>
-                        <graphic url="Pictures/100002010000024F000002141D654E2916578899.png"/>
+                        <graphic/>
                         <head>
                             <lb/>Abbildung 1: Optionen für die Anzeige des Netzwerks
                         </head>
                     </figure>
-                    <anchor xml:id="id_docs-internal-guid-8e490a27-f4a0-2585-f772-ea0149e9c4de"/>Die Größe der Knoten im Netzwerk zeigt an, wie häufig einzelne Namen auf den Dokumenten erwähnt werden. Zur Ermittlung der Knotengröße wurde die Formel 2 + log2(size) angewandt, wobei size für die tatsächliche Häufigkeit des Vorkommens steht. Um zwischen fiktiven Figuren und historischen Personen unterscheiden zu können, sind die Knoten unterschiedlich eingefärbt (türkis = fiktiv; dunkelbau = historisch). Bei den Netzwerkkanten verdeutlicht die Dicke, wie häufig Namen gemeinsam auf Dokumenten vorkommen: je häufiger das gemeinsame Auftreten, umso dicker die Linien in der Visualisierung. Dabei ist die minimale Kantendicke 1 Pixel (bei einer gemeinsamen Erwähnung). Pro weiterer gemeinsamer Erwähnung nimmt die Kantendicke um 1 Pixel zu.
+                    <anchor/>Die Größe der Knoten im Netzwerk zeigt an, wie häufig einzelne Namen auf den Dokumenten erwähnt werden. Zur Ermittlung der Knotengröße wurde die Formel 2 + log2(size) angewandt, wobei size für die tatsächliche Häufigkeit des Vorkommens steht. Um zwischen fiktiven Figuren und historischen Personen unterscheiden zu können, sind die Knoten unterschiedlich eingefärbt (türkis = fiktiv; dunkelbau = historisch). Bei den Netzwerkkanten verdeutlicht die Dicke, wie häufig Namen gemeinsam auf Dokumenten vorkommen: je häufiger das gemeinsame Auftreten, umso dicker die Linien in der Visualisierung. Dabei ist die minimale Kantendicke 1 Pixel (bei einer gemeinsamen Erwähnung). Pro weiterer gemeinsamer Erwähnung nimmt die Kantendicke um 1 Pixel zu.
                 </p>
                 <p>
                     <figure>
-                        <graphic url="Pictures/10000201000003B1000003C26164B31E851C0C83.png"/>
+                        <graphic/>
                         <head>
                             <lb/>Abbildung 2: Teilnetzwerk mit Fernando Pessoa als zentralem Knoten
                         </head>
                     </figure>
-                    <anchor xml:id="id_docs-internal-guid-8e490a27-f4a6-4213-4bce-d7adeb6e5cfe"/>Zentrale Funktionalitäten in der Netzwerkanwendung sind Auswahloptionen, welche die Chronologie der Namenserwähnungen betreffen. So kann das Netzwerk neben einer Gesamtdarstellung auch für Vorkommen in einzelnen Jahren angezeigt werden. Darüber hinaus ist eine Anzeige nach Perioden möglich (z. B. 1919-1927). Da es in der Pessoa-Forschung konkurrierende Vorschläge für eine Periodisierung des Werkes gibt, werden zwei verschiedene Einteilungen in Perioden zur Auswahl angeboten. Auf diese Weise wird es möglich, die Entwicklung von Pessoas Personen- und Figurenkosmos, wie er sich in den Publikationsplänen darstellt, kritisch zu untersuchen.
+                    <anchor/>Zentrale Funktionalitäten in der Netzwerkanwendung sind Auswahloptionen, welche die Chronologie der Namenserwähnungen betreffen. So kann das Netzwerk neben einer Gesamtdarstellung auch für Vorkommen in einzelnen Jahren angezeigt werden. Darüber hinaus ist eine Anzeige nach Perioden möglich (z. B. 1919-1927). Da es in der Pessoa-Forschung konkurrierende Vorschläge für eine Periodisierung des Werkes gibt, werden zwei verschiedene Einteilungen in Perioden zur Auswahl angeboten. Auf diese Weise wird es möglich, die Entwicklung von Pessoas Personen- und Figurenkosmos, wie er sich in den Publikationsplänen darstellt, kritisch zu untersuchen.
                 </p>
                 <p>
                     <figure>
-                        <graphic url="Pictures/10000201000003B100000342F52B222CBAF843D6.png"/>
+                        <graphic/>
                         <head>
                             <lb/>Abbildung 3: Gesamtnetzwerk mit Pessoa als häufigstem Namen
                         </head>
                     </figure>
-                    <anchor xml:id="id_docs-internal-guid-8e490a27-f4a7-9c1e-cb70-6f642356f1a5"/>Wenn man das Vorkommen aller Namen im gesamten Netzwerk betrachtet, so ist zu erkennen, dass Fernando Pessoa als Name am häufigsten vorkommt, direkt gefolgt von den Namen der Heteronyme Alberto Caeiro, Ricardo Reis und Álvaro de Campos, was etabliertes Wissen zu der Bedeutung der Heteronyme in Pessoas Werk bestätigt (vgl. Abb. 2 und 3). An zweiter Stelle stehen dann William Shakespeare, José Almada-Negreiros, Edgar Allan Poe, Mário de Sá-Carneiro und António Mora. Dabei ist beispielsweise interessant zu sehen, dass die Heteronyme (und Mora, der zeitweise als starker Kandidat für die Rolle eines Heteronyms galt) auch zusammen mit Fernando Pessoa selbst, aber besonders unter sich verbunden sind, was auf eine gewisse Autonomie des heteronymischen Universums hindeutet. Die Namen von Shakespeare und Poe weisen auf die zwei wichtigsten Referenzen Pessoas aus der englischsprachigen Literatur hin, während Almada und Sá-Carneiro die zwei für ihn bedeutendsten zeitgenössischen portugiesischen Schriftsteller waren.
+                    <anchor/>Wenn man das Vorkommen aller Namen im gesamten Netzwerk betrachtet, so ist zu erkennen, dass Fernando Pessoa als Name am häufigsten vorkommt, direkt gefolgt von den Namen der Heteronyme Alberto Caeiro, Ricardo Reis und Álvaro de Campos, was etabliertes Wissen zu der Bedeutung der Heteronyme in Pessoas Werk bestätigt (vgl. Abb. 2 und 3). An zweiter Stelle stehen dann William Shakespeare, José Almada-Negreiros, Edgar Allan Poe, Mário de Sá-Carneiro und António Mora. Dabei ist beispielsweise interessant zu sehen, dass die Heteronyme (und Mora, der zeitweise als starker Kandidat für die Rolle eines Heteronyms galt) auch zusammen mit Fernando Pessoa selbst, aber besonders unter sich verbunden sind, was auf eine gewisse Autonomie des heteronymischen Universums hindeutet. Die Namen von Shakespeare und Poe weisen auf die zwei wichtigsten Referenzen Pessoas aus der englischsprachigen Literatur hin, während Almada und Sá-Carneiro die zwei für ihn bedeutendsten zeitgenössischen portugiesischen Schriftsteller waren.
                 </p>
                 <p>
-                    <anchor xml:id="id_docs-internal-guid-8e490a27-f4a8-5876-d4f6-e06065f56e2f"/>Betrachtet man das Netzwerk chronologisch anhand ausgewählter Jahre und Perioden, innerhalb derer die Publikationspläne verfasst wurden, so sind Tendenzen zu erkennen, die historisch, editorisch und auch poetisch für das Werk von maßgeblicher Bedeutung sind. So kann man beispielsweise sehen, wie in den Jahren von 1913 bis 1919, und besonders zwischen 1914 und 1915, die Namen der Heteronyme zusammen mit dem von Fernando Pessoa am häufigsten vorkommen und vor allem untereinander verbunden sind (vgl. Abb. 4). 
+                    <anchor/>Betrachtet man das Netzwerk chronologisch anhand ausgewählter Jahre und Perioden, innerhalb derer die Publikationspläne verfasst wurden, so sind Tendenzen zu erkennen, die historisch, editorisch und auch poetisch für das Werk von maßgeblicher Bedeutung sind. So kann man beispielsweise sehen, wie in den Jahren von 1913 bis 1919, und besonders zwischen 1914 und 1915, die Namen der Heteronyme zusammen mit dem von Fernando Pessoa am häufigsten vorkommen und vor allem untereinander verbunden sind (vgl. Abb. 4). 
                 </p>
                 <p>
                     <figure>
-                        <graphic url="Pictures/10000201000003B100000345510696BFF4926383.png"/>
+                        <graphic/>
                         <head>
                             <lb/>Abbildung 4: Teilnetzwerk 1915
                         </head>
@@ -205,93 +205,93 @@
                 </p>
                 <p>
                     <figure>
-                        <graphic url="Pictures/10000201000003B1000003441656A2A9284F15D8.png"/>
+                        <graphic/>
                         <head>
                             <lb/>Abbildung 5: Teilnetzwerk 1913-1918
                         </head>
                     </figure>
                 </p>
             </div>
-            <div type="div1" rend="DH-Heading1">
+            <div>
                 <head>Fazit</head>
                 <p>
-                    <anchor xml:id="id_docs-internal-guid-8e490a27-f4a9-1ad7-8da9-2810c1080bb2"/>Die aus der Netzwerkinterpretation gewonnenen literaturhistorischen Erkenntnisse bestätigen, dass für Pessoa die Edition und Publikation des Werkes und dessen Planung nicht von der Bedeutungsebene des Werkes selbst zu unterscheiden sind. Dass bestimmte Namen insgesamt oder zu bestimmten Zeiten besonders häufig auf den Publikationsplänen auftauchen, ist gleichbedeutend mit deren Wichtigkeit für das Werk in der entsprechenden Zeitperiode. Das gilt neben dem Vorkommen einzelner Namen auch für die gemeinsamen Vorkommen mehrerer Namen, wodurch die Bedeutung bestimmter Konstellationen zu bestimmten Zeiten sowohl in Pessoas Publikationsplänen als auch in seinem Werk deutlich wird. Diese grundlegende Erkenntnis für die Interpretation von Pessoas Werk bestätigt einige Intuitionen der Kritiker über den größeren Zusammenhang mehrerer Ebenen von Pessoas Werk (z. B. der Ebene der Edition des Werkes, vgl. dazu Sepúlveda und Uribe 2016), sowie die Vorstellung von Pessoas Werkganzem, die einer materiellen Fragmentarität seiner Schriften gegenübersteht (vgl. dazu Martins 2003, Gusmão 2003, Sepúlveda 2013, Feijó 2015).
+                    <anchor/>Die aus der Netzwerkinterpretation gewonnenen literaturhistorischen Erkenntnisse bestätigen, dass für Pessoa die Edition und Publikation des Werkes und dessen Planung nicht von der Bedeutungsebene des Werkes selbst zu unterscheiden sind. Dass bestimmte Namen insgesamt oder zu bestimmten Zeiten besonders häufig auf den Publikationsplänen auftauchen, ist gleichbedeutend mit deren Wichtigkeit für das Werk in der entsprechenden Zeitperiode. Das gilt neben dem Vorkommen einzelner Namen auch für die gemeinsamen Vorkommen mehrerer Namen, wodurch die Bedeutung bestimmter Konstellationen zu bestimmten Zeiten sowohl in Pessoas Publikationsplänen als auch in seinem Werk deutlich wird. Diese grundlegende Erkenntnis für die Interpretation von Pessoas Werk bestätigt einige Intuitionen der Kritiker über den größeren Zusammenhang mehrerer Ebenen von Pessoas Werk (z. B. der Ebene der Edition des Werkes, vgl. dazu Sepúlveda und Uribe 2016), sowie die Vorstellung von Pessoas Werkganzem, die einer materiellen Fragmentarität seiner Schriften gegenübersteht (vgl. dazu Martins 2003, Gusmão 2003, Sepúlveda 2013, Feijó 2015).
                 </p>
                 <p>
-                    <anchor xml:id="id_docs-internal-guid-8e490a27-f4a9-52cf-6e49-a7235fef8be1"/>Methodisch eröffnet die Visualisierung durch das interaktive Element und den höheren Grad der Abstraktion gegenüber den edierten Dokumenten, die in der digitalen Edition studiert werden können, neue Interpretationsspielräume. Dabei ist es jedoch sehr wichtig, die Dokument-, Text- und Datengrundlage sowie die methodischen Wege zum Netzwerk und zur visuellen Darstellung stets im Blick zu behalten. Für diesen Beitrag bieten wir dafür eine Dokumentation an, die direkt mit dem interaktiven Netzwerk verbunden ist.
-                    <note xml:id="ftn4" place="foot" n="4">
-                        <ptr target="http://www.pessoadigital.pt/de/network/documentation"/>
-                        <hi rend="color(#000000)"> </hi>
-                        <hi rend="color(#000000)">[letzter Zugriff 1</hi>
-                        <hi rend="color(#000000)">4</hi>
-                        <hi rend="color(#000000)">. Januar 2018].</hi>
+                    <anchor/>Methodisch eröffnet die Visualisierung durch das interaktive Element und den höheren Grad der Abstraktion gegenüber den edierten Dokumenten, die in der digitalen Edition studiert werden können, neue Interpretationsspielräume. Dabei ist es jedoch sehr wichtig, die Dokument-, Text- und Datengrundlage sowie die methodischen Wege zum Netzwerk und zur visuellen Darstellung stets im Blick zu behalten. Für diesen Beitrag bieten wir dafür eine Dokumentation an, die direkt mit dem interaktiven Netzwerk verbunden ist.
+                    <note>
+                        <ptr/>
+                        <hi> </hi>
+                        <hi>[letzter Zugriff 1</hi>
+                        <hi>4</hi>
+                        <hi>. Januar 2018].</hi>
                     </note> Der Zusammenhang zwischen Quellen und Analyse wird auch dadurch hergestellt, dass die interaktive Visualisierung an die digitale Edition angebunden ist.
-                    <note xml:id="ftn5" place="foot" n="5">
-                        <anchor xml:id="id_docs-internal-guid-8e490a27-f4aa-56ab-c855-d2d83cdd3582"/>
-                        <hi rend="color(#000000)">Derzeit über den Menüpunkt “Chronologie”, vgl. </hi>
-                        <ptr target="http://www.pessoadigital.pt/de/index.html"/>
-                        <hi rend="color(#000000)"> </hi>
-                        <hi rend="color(#000000)">[letzter Zugriff 14. Januar 2018].</hi>
+                    <note>
+                        <anchor/>
+                        <hi>Derzeit über den Menüpunkt “Chronologie”, vgl. </hi>
+                        <ptr/>
+                        <hi> </hi>
+                        <hi>[letzter Zugriff 14. Januar 2018].</hi>
                     </note>
                 </p>
             </div>
         </body>
         <back>
-            <div type="bibliogr">
+            <div>
                 <listBibl>
                     <head>Bibliographie</head>
                     <bibl>
-                        <hi rend="color(#000000)">Bostock, Mike (2017): “Force Layout with Mouseover Labels”, in: Mike Bostock’s Blocks. </hi>
-                        <ptr target="https://bl.ocks.org/mbostock/1212215"/>
-                        <hi rend="color(#000000)">[letzter Zugriff 14. Januar 2018].</hi>
+                        <hi>Bostock, Mike (2017): “Force Layout with Mouseover Labels”, in: Mike Bostock’s Blocks. </hi>
+                        <ptr/>
+                        <hi>[letzter Zugriff 14. Januar 2018].</hi>
                     </bibl>
                     <bibl>
-                        <anchor xml:id="id_docs-internal-guid-8e490a27-f495-f2dd-8fbd-6361c3c4b428"/>Cunha, Teresa Sobral (1987): "Planos e projectos editoriais de Fernando Pessoa: uma velha questão", in: Revista da Biblioteca Nacional, Série 2, Vol. 2, N. 1: 92-107.
+                        <anchor/>Cunha, Teresa Sobral (1987): "Planos e projectos editoriais de Fernando Pessoa: uma velha questão", in: Revista da Biblioteca Nacional, Série 2, Vol. 2, N. 1: 92-107.
                     </bibl>
                     <bibl>
-                        <anchor xml:id="id_docs-internal-guid-8e490a27-f496-5d62-a142-4df45b301cc3"/>Feijó, António M. (2015): “Uma admiração pastoril pelo diabo (Pessoa e Pascoaes)”, in: Pessoana. Ensaios. Lissabon: Imprensa Nacional-Casa da Moeda.
+                        <anchor/>Feijó, António M. (2015): “Uma admiração pastoril pelo diabo (Pessoa e Pascoaes)”, in: Pessoana. Ensaios. Lissabon: Imprensa Nacional-Casa da Moeda.
                     </bibl>
                     <bibl>
-                        <anchor xml:id="id_docs-internal-guid-8e490a27-f496-b04e-d671-3deb17610af8"/>Gusmão, Manuel (2003): "O Fausto — um teatro em ruínas", in: Românica 12: 67-86.
+                        <anchor/>Gusmão, Manuel (2003): "O Fausto — um teatro em ruínas", in: Românica 12: 67-86.
                     </bibl>
                     <bibl>
-                        <anchor xml:id="id_docs-internal-guid-8e490a27-f496-e852-41b2-910d4e2392ef"/>
-                        <hi rend="color(#000000)">Henny-Krahmer, Ulrike / Sepúlveda, Pedro (2017): “Pessoa’s editorial projects and publications: the digital edition as a multiple form of textual criticism”, in: Boot, Peter / Cappellotto, Anna / Dillen, Wout / Fischer, Franz / Kelly, Aodhán / Mertgens, Andreas / Sichani, Anna-Maria / Spadini, Elena / van Hulle, Dirk (eds.): Advances in Scholarly Editing. Papers presented at the DiXiT conferences in The Hague, Cologne, and Antwerp. Leiden: Sidestone Press, 125-133 </hi>
-                        <ptr target="https://www.sidestone.com/books/advances-in-digital-scholarly-editing"/>
-                        <hi rend="color(#000000)">[letzter Zugriff </hi>
-                        <hi rend="color(#000000)">14</hi>
-                        <hi rend="color(#000000)">. Januar 2018].</hi>
+                        <anchor/>
+                        <hi>Henny-Krahmer, Ulrike / Sepúlveda, Pedro (2017): “Pessoa’s editorial projects and publications: the digital edition as a multiple form of textual criticism”, in: Boot, Peter / Cappellotto, Anna / Dillen, Wout / Fischer, Franz / Kelly, Aodhán / Mertgens, Andreas / Sichani, Anna-Maria / Spadini, Elena / van Hulle, Dirk (eds.): Advances in Scholarly Editing. Papers presented at the DiXiT conferences in The Hague, Cologne, and Antwerp. Leiden: Sidestone Press, 125-133 </hi>
+                        <ptr/>
+                        <hi>[letzter Zugriff </hi>
+                        <hi>14</hi>
+                        <hi>. Januar 2018].</hi>
                     </bibl>
                     <bibl>
-                        <anchor xml:id="id_docs-internal-guid-8e490a27-f497-9e7a-d412-29ac701e570a"/>Martins, Fernando Cabral (2003): "Breves notas sobre a alta definição", in: Românica. N.º 12. 157-164.
+                        <anchor/>Martins, Fernando Cabral (2003): "Breves notas sobre a alta definição", in: Românica. N.º 12. 157-164.
                     </bibl>
                     <bibl>
-                        <anchor xml:id="id_docs-internal-guid-8e490a27-f497-f910-c405-7ee48272c1bd"/>Pessoa, Fernando (2012): Teoria da Heteronímia. Hsg. von Fernando Cabral Martins und Richard Zenith. Lissabon: Assírio &amp; Alvim.
+                        <anchor/>Pessoa, Fernando (2012): Teoria da Heteronímia. Hsg. von Fernando Cabral Martins und Richard Zenith. Lissabon: Assírio &amp; Alvim.
                     </bibl>
                     <bibl>
-                        <anchor xml:id="id_docs-internal-guid-8e490a27-f498-63f8-d472-904bd497e085"/>
-                        <hi rend="color(#000000)">Rigal, Alexandre / Rodighiero, Dario / Cellard, Loup (2016): “The Trajectories Tool: Amplifying Network Visualization Complexity”, in: Digital Humanities 2016. Conference Abstracts. </hi>
-                        <hi rend="color(#000000)">Kraków: Jagiellonian University &amp; Pedagogical University, 328-330 </hi>
-                        <ptr target="http://dh2016.adho.org/abstracts/340"/>
-                        <hi rend="color(#000000)">[letzter Zugriff 14. Januar].</hi>
+                        <anchor/>
+                        <hi>Rigal, Alexandre / Rodighiero, Dario / Cellard, Loup (2016): “The Trajectories Tool: Amplifying Network Visualization Complexity”, in: Digital Humanities 2016. Conference Abstracts. </hi>
+                        <hi>Kraków: Jagiellonian University &amp; Pedagogical University, 328-330 </hi>
+                        <ptr/>
+                        <hi>[letzter Zugriff 14. Januar].</hi>
                     </bibl>
                     <bibl>
-                        <anchor xml:id="id_docs-internal-guid-8e490a27-f498-9662-ca6f-887bbc05c49a"/>Sepúlveda, Pedro (2013): Os livros de Fernando Pessoa. Lissabon: Ática.
+                        <anchor/>Sepúlveda, Pedro (2013): Os livros de Fernando Pessoa. Lissabon: Ática.
                     </bibl>
                     <bibl>
-                        <anchor xml:id="id_docs-internal-guid-8e490a27-f498-cf85-12bc-3338062abe34"/>
-                        <hi rend="color(#000000)">Sepúlveda, Pedro / Henny-Krahmer, Ulrike (eds., 2017): Fernando Pessoa – Digitale Edition. Projekte und Publikationen. Editorische Leitung Pedro Sepúlveda, technische Leitung Ulrike Henny-Krahmer. Lissabon und Köln: IELT, Neue Universität Lissabon und CCeH, Universität zu Köln </hi>
-                        <ref target="http://www.pessoadigital.pt/">http://www.pessoadigital.pt</ref>
-                        <hi rend="color(#000000)">[letzter Zugriff 14. Januar 2018].</hi>
+                        <anchor/>
+                        <hi>Sepúlveda, Pedro / Henny-Krahmer, Ulrike (eds., 2017): Fernando Pessoa – Digitale Edition. Projekte und Publikationen. Editorische Leitung Pedro Sepúlveda, technische Leitung Ulrike Henny-Krahmer. Lissabon und Köln: IELT, Neue Universität Lissabon und CCeH, Universität zu Köln </hi>
+                        <ref>http://www.pessoadigital.pt</ref>
+                        <hi>[letzter Zugriff 14. Januar 2018].</hi>
                     </bibl>
                     <bibl>
-                        <anchor xml:id="id_docs-internal-guid-8e490a27-f498-f863-3258-8cbb7f41f627"/>Sepúlveda, Pedro / Uribe, Jorge (2016): O Planeamento editorial de Fernando Pessoa. Lissabon: Imprensa Nacional-Casa da Moeda.
+                        <anchor/>Sepúlveda, Pedro / Uribe, Jorge (2016): O Planeamento editorial de Fernando Pessoa. Lissabon: Imprensa Nacional-Casa da Moeda.
                     </bibl>
                     <bibl>
-                        <anchor xml:id="id_docs-internal-guid-8e490a27-f499-42c9-4c99-7dc8a9e15aca"/>
-                        <hi rend="color(#000000)">Xanthos, Aris / Pante, Isaak / Rochat, Yannick / Grandjean, Martin (2016): “Visualizing the Dynamics of Character Networks”, in: Digital Humanities 2016. Conference Abstracts. Kraków: Jagiellonian University &amp; Pedagogical University, 417-419 </hi>
-                        <ptr target="http://dh2016.adho.org/abstracts/407"/>
-                        <hi rend="color(#000000)">[letzter Zugriff 14. Januar 2018].</hi>
+                        <anchor/>
+                        <hi>Xanthos, Aris / Pante, Isaak / Rochat, Yannick / Grandjean, Martin (2016): “Visualizing the Dynamics of Character Networks”, in: Digital Humanities 2016. Conference Abstracts. Kraków: Jagiellonian University &amp; Pedagogical University, 417-419 </hi>
+                        <ptr/>
+                        <hi>[letzter Zugriff 14. Januar 2018].</hi>
                     </bibl>
                 </listBibl>
             </div>

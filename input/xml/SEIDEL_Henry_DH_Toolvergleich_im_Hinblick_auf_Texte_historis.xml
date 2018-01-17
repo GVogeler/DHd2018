@@ -41,26 +41,26 @@
         </fileDesc>
         <encodingDesc>
             <appInfo>
-                <application ident="DHCONVALIDATOR" version="1.17">
+                <application>
                     <label>DHConvalidator</label>
                 </application>
             </appInfo>
         </encodingDesc>
         <profileDesc>
             <textClass>
-                <keywords scheme="ConfTool" n="category">
+                <keywords>
                     <term>Paper</term>
                 </keywords>
-                <keywords scheme="ConfTool" n="subcategory">
+                <keywords>
                     <term>Poster</term>
                 </keywords>
-                <keywords scheme="ConfTool" n="keywords">
+                <keywords>
                     <term>Korpuslinguistik</term>
                     <term>Workflow</term>
                     <term>Sprachgeschichte</term>
                     <term>Frühneuhochdeutsch</term>
                 </keywords>
-                <keywords scheme="ConfTool" n="topics">
+                <keywords>
                     <term>Transkription</term>
                     <term>Inhaltsanalyse</term>
                     <term>Annotieren</term>
@@ -73,48 +73,48 @@
     <text>
         <body>
             <p>Mittlerweile versprechen zahlreiche Tools eine mehr oder minder problemlose Lemmatisierung und Annotierung mit Part-of-Speech-Tags von Texten; viele sollen auch für historische (oder andere nicht-standardisierte) Sprachdaten nutzbar sein.
-                <note place="foot" xml:id="ftn1" n="1">
-                    <p rend="footnote text"> In Auswahl: CATMA, CorA, EXMARaLDA, GATE, LAKomp, WebAnno.</p>
+                <note>
+                    <p> In Auswahl: CATMA, CorA, EXMARaLDA, GATE, LAKomp, WebAnno.</p>
                 </note> Dabei birgt die Verarbeitung historischer Sprachdaten des Deutschen zahlreiche Probleme aufgrund des hohen Grads an Variation, insbesondere auf den Ebenen Phonologie und Graphematik, aber auch in den Bereichen der Morphologie, Syntax und Lexik. Bei einer automatischen Verarbeitung solcher Daten stellen vor allem die Variationen in Phonologie, Graphematik und Morphologie ein besonderes Hindernis dar.
             </p>
             <p>Das Poster stellt verschiedene Werkzeuge überblicksartig vor und befasst sich genauer mit zwei Tools, deren Anwendung auf Texte nicht-standardisierter Sprachstufen exemplarisch anhand zweier Textsorten aufgrund bestimmter Kriterien verglichen wurde. Zum einen handelt es sich um gedruckte deutschsprachige Rechtstexte der Frühen Neuzeit, also aus der Rezeptionszeit des römischen Rechts in Deutschland, deren Sprache in einem Projekt erforscht werden soll, zum anderen um Fürstinnen-Briefe aus einem an der Friedrich-Schiller-Universität Jena erstellten digitalen Korpus.
-                <note place="foot" xml:id="ftn2" n="2">
-                    <p rend="footnote text">
-                        <ref target="https://archive.thulb.uni-jena.de/hisbest/content/below/index.xml?XSL.DisplayComponentBrowse=true">https://archive.thulb.uni-jena.de/hisbest/content/below/index.xml?XSL.DisplayComponentBrowse=true</ref>; 
-                        <ref target="http://www.laudatio-repository.org/repository/corpus/LAUDATIO%3AFuerstinnenkorrespondenz/TEI-header_version4_Schema7_2017-03-06T08%3A38%3A26%3A247Z">http://www.laudatio-repository.org/repository/corpus/LAUDATIO%3AFuerstinnenkorrespondenz/TEI-header_version4_Schema7_2017-03-06T08%3A38%3A26%3A247Z</ref>
+                <note>
+                    <p>
+                        <ref>https://archive.thulb.uni-jena.de/hisbest/content/below/index.xml?XSL.DisplayComponentBrowse=true</ref>; 
+                        <ref>http://www.laudatio-repository.org/repository/corpus/LAUDATIO%3AFuerstinnenkorrespondenz/TEI-header_version4_Schema7_2017-03-06T08%3A38%3A26%3A247Z</ref>
                     </p>
                 </note> In beiden Fällen weisen die Quellen frühneuhochdeutschen Sprachstand auf. Anhand ausgewählter Beispiele aus den vorliegenden Texten sollen zwei gängige elektronische Werkzeuge miteinander verglichen werden – EXMARaLDA und LAKomp.
             </p>
             <p>EXMARaLDA wurde für das computergestützte Arbeiten mit überwiegend mündlichen Korpora entwickelt, wird aber regelmäßig auch für schriftliche Sprachdaten verwendet, so auch bei den 
-                <hi rend="italic">Frühneuhochdeutschen Fürstinnenkorrespondenzen im mitteldeutschen Raum</hi>. Das Tool besteht im Wesentlichen aus einem Transkriptions- und Annotationseditor, einem Werkzeug zum Verwalten von Korpora und einem Such- und Analysetool.
-                <note place="foot" xml:id="ftn3" n="3">
-                    <p rend="footnote text"> Für genauere Informationen vgl. 
-                        <ref target="http://exmaralda.org/de/ueber-exmaralda/">http://exmaralda.org/de/ueber-exmaralda/</ref> und 
-                        <ref target="http://exmaralda.org/de/exmaralda-nutzer/">http://exmaralda.org/de/exmaralda-nutzer/</ref>. 
+                <hi>Frühneuhochdeutschen Fürstinnenkorrespondenzen im mitteldeutschen Raum</hi>. Das Tool besteht im Wesentlichen aus einem Transkriptions- und Annotationseditor, einem Werkzeug zum Verwalten von Korpora und einem Such- und Analysetool.
+                <note>
+                    <p> Für genauere Informationen vgl. 
+                        <ref>http://exmaralda.org/de/ueber-exmaralda/</ref> und 
+                        <ref>http://exmaralda.org/de/exmaralda-nutzer/</ref>. 
                     </p>
                 </note>
             </p>
             <p>Das Werkzeug LAKomp
-                <note place="foot" xml:id="ftn4" n="4">
-                    <p rend="footnote text"> LAKomp steht für 
-                        <hi rend="bold">L</hi>emmatisierung, 
-                        <hi rend="bold">A</hi>nnotation, 
-                        <hi rend="bold">Komp</hi>aration.
+                <note>
+                    <p> LAKomp steht für 
+                        <hi>L</hi>emmatisierung, 
+                        <hi>A</hi>nnotation, 
+                        <hi>Komp</hi>aration.
                     </p>
                 </note> wurde im Projekt SaDA (Semiautomatische Differenzanalyse von komplexen Textvarianten)
-                <note place="foot" xml:id="ftn5" n="5">
-                    <p rend="footnote text"> http://www.informatik.uni-halle.de/ti/forschung/ehumanities/sada/</p>
+                <note>
+                    <p> http://www.informatik.uni-halle.de/ti/forschung/ehumanities/sada/</p>
                 </note> entwickelt und dient der Aufbereitung eines historischen Korpus. Nach der Transkription können die Texte hier lemmatisiert und annotiert werden. Aufgrund der Besonderheiten bei frühneuhochdeutschen Handschriften und Drucken wird der Lemmatisierungs- und Annotationsvorgang komplett manuell durchgeführt. Dabei ist dem Benutzer mit LAKomp ein Werkzeug an die Hand gegeben, das ihn sehr schnell und präzise große Textmengen bearbeiten lässt und damit den Mehraufwand händischer Annotation nahezu ausgleicht. 
             </p>
             <p>Damit wurden zwei Werkzeuge ausgewählt, bei denen manuell annotiert werden muss, die aber dennoch bestimmte Unterschiede aufweisen, die für Nutzerinnen und Nutzer, die mit nicht-standardisierten Sprachdaten arbeiten, je nach Arbeitsziel vor- oder nachteilig sein können. So sind etwa bei LAKomp die halbautomatische Annotation auf der Grundlage des DWB und die Ausgabefunktion besonders gelungen, leider kann hier aber bisher nur lemmabasiert annotiert werden; bei EXMARaLDA ermöglichen die flexiblen Annotationskriterien eine besondere Breite von möglichen Annotationen, eine automatische oder halbautomatische Annotation des frühneuhochdeutschen Textmaterials ist jedoch bislang auch mit Hilfsmitteln wie dem Treetagger
-                <note place="foot" xml:id="ftn6" n="6">
-                    <p rend="footnote text"> http://www.cis.uni-muenchen.de/~schmid/tools/TreeTagger/</p>
+                <note>
+                    <p> http://www.cis.uni-muenchen.de/~schmid/tools/TreeTagger/</p>
                 </note> nicht ohne weiteres möglich. 
             </p>
             <p>Die beiden genannten Tools werden auf dem Poster hinsichtlich ihrer Anwendbarkeit auf Texte historischer Sprachstufen anhand folgender Kriterien verglichen: Funktionalitäten, Nutzerfreundlichkeit (Technischer Support, Qualität des Handbuchs, Verständlichkeit der Benutzeroberfläche, Verfügbarkeit eines Editors, Umgang mit Metadaten, Exportmöglichkeiten …) und Nachnutzbarkeit. Das Poster wird diesen Tool-Vergleich anhand ausgewählter Beispiele aus einem Rechtsbuch sowie einem Fürstinnenbrief aus der Mitte des 16. Jahrhundert präsentieren und stellt somit Überblick und Evaluation der Werkzeuge gleichermaßen dar.</p>
         </body>
         <back>
-            <div type="bibliogr">
+            <div>
                 <listBibl>
                     <head>Bibliographie</head>
                     <bibl>B. Aehnlich / S. Kösser (2016): „Das Tool LAKomp und seine Anwendung auf Texte nichtstandardisierter Sprachstufen“. In: DHd 2016. Konferenzabstracts, Leipzig, S. 263–264.</bibl>

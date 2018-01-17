@@ -3,9 +3,9 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title type="full">
-                    <title type="main">Alternative Gattungstheorien: Das Prototypenmodell am Beispiel hispanoamerikanischer Romane</title>
-                    <title type="sub"/>
+                <title>
+                    <title>Alternative Gattungstheorien: Das Prototypenmodell am Beispiel hispanoamerikanischer Romane</title>
+                    <title/>
                 </title>
                 <author>
                     <persName>
@@ -60,27 +60,27 @@
         </fileDesc>
         <encodingDesc>
             <appInfo>
-                <application ident="DHCONVALIDATOR" version="1.17">
+                <application>
                     <label>DHConvalidator</label>
                 </application>
             </appInfo>
         </encodingDesc>
         <profileDesc>
             <textClass>
-                <keywords scheme="ConfTool" n="category">
+                <keywords>
                     <term>Paper</term>
                 </keywords>
-                <keywords scheme="ConfTool" n="subcategory">
+                <keywords>
                     <term>Vortrag</term>
                 </keywords>
-                <keywords scheme="ConfTool" n="keywords">
+                <keywords>
                     <term>Literarische Gattungen</term>
                     <term>Prototypentheorie</term>
                     <term>Topic Modeling</term>
                     <term>MFW</term>
                     <term>Hispanoamerikanischer Roman</term>
                 </keywords>
-                <keywords scheme="ConfTool" n="topics">
+                <keywords>
                     <term>Inhaltsanalyse</term>
                     <term>Modellierung</term>
                     <term>Stilistische Analyse</term>
@@ -93,37 +93,37 @@
     </teiHeader>
     <text>
         <body>
-            <div type="div1" rend="DH-Heading1">
+            <div>
                 <head>Einleitung</head>
                 <p>Die Definition von Gattungen sowohl im Sinne allgemeiner Gattungskonzepte als auch konkreter einzelner Gattungen ist ein altes und nach wie vor zentrales Problem der Literaturwissenschaft und wird immer noch debattiert (Kayser 1956: 330-387, Zymner 2003). Allgemein können Gattungsbegriffe als Sammelbegriffe verstanden werden, deren Aufgabe es ist, zu beschreiben, in welcher Hinsicht Texte zu Textgruppen zusammengefasst werden können. Oft ist dabei auf das Konzept von Gattungen als logischen Klassen zurückgegriffen worden, auch in vielen Untersuchungen zu literarischen Gattungen im Bereich der Digital Humanities, obwohl in der literaturwissenschaftlichen Gattungstheorie bereits seit den 60er-Jahren andere Vorschläge für das Verständnis von Gattungskategorien gemacht worden sind.</p>
                 <p>Im Sinne der “Kritik der digitalen Vernunft” ist das Ziel dieses Beitrags, die Problematik der Gattungsbeschreibung auf der theoretischen Basis alternativer Gattungstheorien und mit Hilfe informatischer Mittel aus einer neuen Perspektive zu betrachten. Dazu wird exemplarisch die Anwendbarkeit des Prototypenmodells als Gattungskonzept für digitale gattungsstilistische Studien überprüft. Als Testkorpus dient eine Sammlung von Texten aus der hispanoamerikanischen Romanliteratur des 19. Jahrhunderts.</p>
             </div>
-            <div type="div1" rend="DH-Heading1">
+            <div>
                 <head>Forschungsstand und Ziele</head>
                 <p>Viele Gattungstheorien beruhen auf der Grundannahme, dass sich konkrete Texte anhand von hinreichenden und notwendigen Attributen eindeutig disjunkten Klassen zuordnen lassen und oft auch, dass sich für Gattungen eine Taxonomie entwickeln lässt (vgl. Zymner 2003: 102-104). Allerdings weisen nicht alle Texte einer bestimmten Gattung gemeinsame Merkmale auf, noch sind die Beziehungen zwischen den einzelnen Gattungen und Texten statisch. Zudem gibt es die Vorstellung von Werken, die initiale, prägende Wirkung haben (z. B. 
-                    <hi rend="italic">Waverley</hi> von Walter Scott für den historischen Roman) oder besonders gute Vertreter einer Gattung sind (z. B. Goethes 
-                    <hi rend="italic">Wilhelm Meisters Lehrjahre</hi>). Es kann dann andere Vertreter geben, bei denen die für die Gattung als prototypisch angesehenen Merkmale nicht so stark ausgeprägt sind, die aber trotzdem der entsprechenden Textgruppe zuzuordnen sind. Kritik am Klassenkonzept äußert schon Vivas (1968), später u. a. Hempfer (2010). Neuere Gattungstheorien haben daher u. a. Wittgensteins Konzept der Familienähnlichkeit (Weitz 1956, Fowler 1982, Fishelov 1991) und die in der Kognitionspsychologie entwickelte Prototypentheorie (Rosch 1973) als alternative Modelle der Kategorisierung aufgegriffen.
+                    <hi>Waverley</hi> von Walter Scott für den historischen Roman) oder besonders gute Vertreter einer Gattung sind (z. B. Goethes 
+                    <hi>Wilhelm Meisters Lehrjahre</hi>). Es kann dann andere Vertreter geben, bei denen die für die Gattung als prototypisch angesehenen Merkmale nicht so stark ausgeprägt sind, die aber trotzdem der entsprechenden Textgruppe zuzuordnen sind. Kritik am Klassenkonzept äußert schon Vivas (1968), später u. a. Hempfer (2010). Neuere Gattungstheorien haben daher u. a. Wittgensteins Konzept der Familienähnlichkeit (Weitz 1956, Fowler 1982, Fishelov 1991) und die in der Kognitionspsychologie entwickelte Prototypentheorie (Rosch 1973) als alternative Modelle der Kategorisierung aufgegriffen.
                 </p>
                 <p>In den Digital Humanities gibt es bereits einige Untersuchungen zu literarischen Gattungen, bei denen jedoch üblicherweise die Annahme zugrunde liegt, dass Gattungen als Klassen im logischen Sinn zu verstehen sind (Calvo Tello et al. 2017, Hettinger el al. 2016a, Hettinger et al. 2016b, Schöch et al. 2016, Schöch 2015, Schöch 2013).
-                    <note xml:id="ftn1" place="foot" n="1"> Kürzlich stellte jedoch Underwood bei einem Vortrag im Rahmen des DARIAH-Expertenworkshops “Distant Reading in Literary Texts” einen Ansatz für den Umgang mit wechselnden Perspektiven auf das Konzept von Gattung über die Zeit vor. Van Dalen-Oskam betonte die Bedeutung von LeserInnen-Meinungen bei Gattungszuordnungen, im Zusammenspiel mit formalen Merkmalen, vgl. Hagen et al. 2017.</note>
+                    <note> Kürzlich stellte jedoch Underwood bei einem Vortrag im Rahmen des DARIAH-Expertenworkshops “Distant Reading in Literary Texts” einen Ansatz für den Umgang mit wechselnden Perspektiven auf das Konzept von Gattung über die Zeit vor. Van Dalen-Oskam betonte die Bedeutung von LeserInnen-Meinungen bei Gattungszuordnungen, im Zusammenspiel mit formalen Merkmalen, vgl. Hagen et al. 2017.</note>
                 </p>
                 <p>Im vorliegenden Beitrag wird exemplarisch dargestellt, inwiefern es möglich ist, das Prototypenmodell zu verwenden, um Einsichten in die Anordnung maschinell gruppierter Texte zu gewinnen, die über den klassischen Ansatz der Klassifikation nicht möglich wären. Der Beitrag leistet damit zum einen, einen konkreten Vorschlag für die Formalisierung des Prototypen-Ansatzes für gattungsstilistische Untersuchungen zu machen. Zum anderen zielt er darauf, durch die Berücksichtigung der internen Strukturierung von Gattungskategorien eine bessere Anbindung der computergestützten Verfahren an literaturgeschichtliche Forschungsergebnisse zu ermöglichen.</p>
             </div>
-            <div type="div1" rend="DH-Heading1">
+            <div>
                 <head>Fallbeispiel: Untergattungen des hispanoamerikanischen Romans im 19. Jahrhundert</head>
                 <p>
-                    <hi rend="bold italic">Korpus.</hi> Die Analyse wurde an 80 hispanoamerikanischen Romanen von 51 AutorInnen getestet, welche fünf verschiedenen Untergattungen zugeordnet sind: dem historischen Roman, dem Liebesroman, dem kostumbristischen Roman, dem Gaucho-Roman und dem Antisklaverei-Roman. Der historische Roman, der Liebesroman und der kostumbristische Roman sind im Hispanoamerika des 19. Jahrhunderts verbreitete Untergattungen (Janik 2008: 60-77) mit europäischen Vorläufern und Vorbildern. Der Gaucho-Roman und der Antisklaverei-Roman sind Romantypen, die in Hispanoamerika entstanden sind und nur in bestimmten Regionen vorkommen. Für alle fünf Untergattungen wird angenommen, dass sie vor allem auf einer inhaltlichen Ebene definiert sind (Álamo Felices 2011, Lichtblau 1959: 121-135, Rivas 1990).
+                    <hi>Korpus.</hi> Die Analyse wurde an 80 hispanoamerikanischen Romanen von 51 AutorInnen getestet, welche fünf verschiedenen Untergattungen zugeordnet sind: dem historischen Roman, dem Liebesroman, dem kostumbristischen Roman, dem Gaucho-Roman und dem Antisklaverei-Roman. Der historische Roman, der Liebesroman und der kostumbristische Roman sind im Hispanoamerika des 19. Jahrhunderts verbreitete Untergattungen (Janik 2008: 60-77) mit europäischen Vorläufern und Vorbildern. Der Gaucho-Roman und der Antisklaverei-Roman sind Romantypen, die in Hispanoamerika entstanden sind und nur in bestimmten Regionen vorkommen. Für alle fünf Untergattungen wird angenommen, dass sie vor allem auf einer inhaltlichen Ebene definiert sind (Álamo Felices 2011, Lichtblau 1959: 121-135, Rivas 1990).
                 </p>
                 <p>Für die Zuordnung der Romane zu den verschiedenen Untergattungen wurde einschlägige Sekundärliteratur ausgewertet. Abb. 1 und 2 zeigen die Verteilung der Romane über die Zeit nach Untergattungen sowie nach Ländern. Bestandteil des Korpus sind neben hispanoamerikanischen Romanen auch fünf Texte aus Spanien sowie je ein Text aus England und Frankreich (in spanischer Übersetzung), welche aufgrund ihres Prototypen-Status einbezogen wurden. Das Korpus umfasst insgesamt 2,3 Mio. Token.
-                    <note xml:id="ftn2" place="foot" n="2"> Die Metadaten zum verwendeten Korpus und weitere Analysedaten sind unter 
-                        <ptr target="https://github.com/cligs/projects2018/tree/master/prototypen-dhd"/>[letzter Zugriff 13. Januar 2018] verfügbar. Die Auswahl der Texte geht auf ein größeres Korpus hispanoamerikanischer Romane und eine digitale Bibliographie zurück, welche im Projekt CLiGS erstellt wurden: 
-                        <ptr target="https://github.com/cligs/textbox"/>[letzter Zugriff 13. Januar 2018] und 
-                        <ref target="http://bibacme.cligs.digital-humanities.de/">http://bibacme.cligs.digital-humanities.de</ref>[letzter Zugriff 13. Januar 2018]. Es wurden sämtliche verfügbaren Romane einbezogen, die den untersuchten Untergattungen zugeordnet werden konnten.
+                    <note> Die Metadaten zum verwendeten Korpus und weitere Analysedaten sind unter 
+                        <ptr/>[letzter Zugriff 13. Januar 2018] verfügbar. Die Auswahl der Texte geht auf ein größeres Korpus hispanoamerikanischer Romane und eine digitale Bibliographie zurück, welche im Projekt CLiGS erstellt wurden: 
+                        <ptr/>[letzter Zugriff 13. Januar 2018] und 
+                        <ref>http://bibacme.cligs.digital-humanities.de</ref>[letzter Zugriff 13. Januar 2018]. Es wurden sämtliche verfügbaren Romane einbezogen, die den untersuchten Untergattungen zugeordnet werden konnten.
                     </note>
                 </p>
                 <p>
                     <figure>
-                        <graphic url="Pictures/10000000000003B1000002B2C21AD470C086EAA8.png"/>
+                        <graphic/>
                         <head>
                             <lb/>Abbildung 1: Verteilung der Romane über die Jahrzehnte und nach Untergattungen
                         </head>
@@ -131,20 +131,20 @@
                 </p>
                 <p>
                     <figure>
-                        <graphic url="Pictures/10000000000003B1000002B4E0B9ECC6A34959B8.png"/>
+                        <graphic/>
                         <head>
                             <lb/>Abbildung 2: Verteilung der Romane über die Jahrzehnte und nach Ländern
                         </head>
                     </figure>
-                    <hi rend="bold italic">Definition von Prototypen.</hi> Für jede der fünf Untergattungen wurde mindestens ein zur Untergattung gehörender Roman als Prototyp festgelegt.
-                    <note xml:id="ftn3" place="foot" n="3">
-                        <anchor xml:id="id_docs-internal-guid-19b14b48-f629-9685-1968-a058754e653e"/>
-                        <hi rend="color(#000000)">Wie die Gattungszuordnung ist auch die Entscheidung für die Prototypen auf der Grundlage der Auswertung von Sekundärliteratur getroffen worden (welche Texte werden häufig als prototypisch genannt?) und hat den Status einer Arbeitshypothese.</hi>
+                    <hi>Definition von Prototypen.</hi> Für jede der fünf Untergattungen wurde mindestens ein zur Untergattung gehörender Roman als Prototyp festgelegt.
+                    <note>
+                        <anchor/>
+                        <hi>Wie die Gattungszuordnung ist auch die Entscheidung für die Prototypen auf der Grundlage der Auswertung von Sekundärliteratur getroffen worden (welche Texte werden häufig als prototypisch genannt?) und hat den Status einer Arbeitshypothese.</hi>
                     </note> Es wird zunächst also nicht die Idee vom Prototypen als dem durchschnittlichen Vertreter einer Kategorie verfolgt, sondern der Ansatz, dass ein oder mehrere bestimmte Exemplare einen besonderen, prototypischen Status haben. Ob ein Text eine Vorbild- oder Höhepunkt-Funktion innerhalb einer bestimmten Gattung hat, ist letztlich eine Frage der Perspektive und der Korpuszusammenstellung. Folgende Prototypen sind für die fünf Untergattungen gesetzt worden, wobei es für den kostumbristischen Roman eine ganze Reihe in Frage kommender Prototypen gibt:
                 </p>
-                <table rend="frame" xml:id="Tabelle2">
+                <table>
                     <head>Tabelle 1: Untergattungen und die für sie gesetzten Prototypen</head>
-                    <row role="label">
+                    <row>
                         <cell>Untergattung</cell>
                         <cell>Prototyp(en)</cell>
                         <cell>Art</cell>
@@ -152,10 +152,10 @@
                     <row>
                         <cell>Historischer Roman</cell>
                         <cell>
-                            <list type="unordered">
+                            <list>
                                 <item>Waverley o hace sesenta años (Walter Scott, 1814)
-                                    <note xml:id="ftn4" place="foot" n="4"> “
-                                        <hi rend="italic">Waverley, or, ’Tis Sixty Years Since</hi>”. Übersetzung aus dem Englischen von Francisco Gutiérrez-Brito und Isidoro López Lapuya, o.J.
+                                    <note> “
+                                        <hi>Waverley, or, ’Tis Sixty Years Since</hi>”. Übersetzung aus dem Englischen von Francisco Gutiérrez-Brito und Isidoro López Lapuya, o.J.
                                     </note>
                                 </item>
                             </list>
@@ -165,10 +165,10 @@
                     <row>
                         <cell>Liebesroman</cell>
                         <cell>
-                            <list type="unordered">
+                            <list>
                                 <item>Julia o la nueva Eloísa (Jean-Jacques Rousseau, 1761)
-                                    <note xml:id="ftn5" place="foot" n="5"> “
-                                        <hi rend="italic">Julie ou la Nouvelle Héloïse</hi>”. Übersetzung aus dem Französischen von José Mor de Fuentes aus dem Jahr 1836.
+                                    <note> “
+                                        <hi>Julie ou la Nouvelle Héloïse</hi>”. Übersetzung aus dem Französischen von José Mor de Fuentes aus dem Jahr 1836.
                                     </note>
                                 </item>
                             </list>
@@ -178,7 +178,7 @@
                     <row>
                         <cell>Kostumbristischer Roman</cell>
                         <cell>
-                            <list type="unordered">
+                            <list>
                                 <item>El Periquillo Sarniento (José Joaquín Fernández de Lizardi, 1816)</item>
                                 <item>Don Catrín de la Fachenda (Lizardi, 1818)</item>
                                 <item>Noches tristes y día alegre (Lizardi, 1818)</item>
@@ -194,7 +194,7 @@
                     <row>
                         <cell>Gaucho-Roman</cell>
                         <cell>
-                            <list type="unordered">
+                            <list>
                                 <item>Juan Moreira (Eduardo Gutiérrez, 1880)</item>
                             </list>
                         </cell>
@@ -203,7 +203,7 @@
                     <row>
                         <cell>Antisklaverei-Roman</cell>
                         <cell>
-                            <list type="unordered">
+                            <list>
                                 <item>Sab (Gertrudis Gómez de Avellaneda, 1841)</item>
                             </list>
                         </cell>
@@ -212,29 +212,29 @@
                 </table>
                 <p>Beim historischen Roman und beim Liebesroman handelt es sich bei den Prototyp-Texten um Übersetzungen der ursprünglich auf englisch und französisch verfassten Romane, die auch in Hispanoamerika als Vorbilder für diese Romantypen eingeschätzt werden. Kontroverser wird diskutiert, welche Texte Einfluss auf die kostumbristischen Romane ausgeübt haben. Auf der einen Seite wird der mexikanische Autor Lizardi als Pionier genannt, auf der anderen Seite werden Romane spanischer Autoren (Caballero, Alarcón, Valera, Pereda) angeführt (Calderón 2005). Eine Prototypenanalyse könnte hier Argumente für eine der beiden Thesen liefern. Im Falle des Gaucho-Romans und des Antisklaverei-Romans sind die gesetzten Prototypen als Höhepunkte der jeweiligen Gattung zu verstehen, da die weiteren diesen Untergattungen zugeordneten Romane im Korpus entweder als Vorstufen oder Nachfolger der besonders repräsentativen Gattungsvertreter beschrieben worden sind (Lichtblau 1959: 121-135, Rivas 1990).</p>
                 <p>
-                    <hi rend="bold italic">Methoden.</hi> Um die für die Untergattungen relevanten Strukturen auf unterschiedlichen textlichen Ebenen zu analysieren und zu modellieren, wurden Topic Modelling und eine Analyse der häufigsten Wörter (MFW) angewandt.
+                    <hi>Methoden.</hi> Um die für die Untergattungen relevanten Strukturen auf unterschiedlichen textlichen Ebenen zu analysieren und zu modellieren, wurden Topic Modelling und eine Analyse der häufigsten Wörter (MFW) angewandt.
                 </p>
                 <p>Das Topic Modeling (vgl. Blei 2012) wurde mit MALLET
-                    <note xml:id="ftn6" place="foot" n="6">
-                        <ptr target="http://mallet.cs.umass.edu/topics.php"/>[letzter Zugriff 13. Januar 2018].
+                    <note>
+                        <ptr/>[letzter Zugriff 13. Januar 2018].
                     </note> mit für das Korpus geeigneten Vorverarbeitungsschritten und Parametern durchgeführt (Lemmatisierung, Beschränkung auf Substantive, Segmentlänge von 1000 Wörtern, 30 Topics, 5000 Iterationen, Optimierung alle 10 Iterationen) und die Ergebnisse anschließend für die einzelnen Romane wieder aggregiert. Abb. 3 zeigt ein Beispiel-Topic aus dem entstandenen Modell:
                 </p>
                 <p>
                     <figure>
-                        <graphic url="Pictures/10000201000003A8000002F6603D2E54C5C902A1.png"/>
+                        <graphic/>
                         <head>
                             <lb/>Abbildung 3: Beispiel-Topic: carta-alma-corazón (Brief-Seele-Herz)
                         </head>
                     </figure>Im Ergebnis erhält man für jedes Topic in jedem Roman einen bestimmten Wahrscheinlichkeitswert; ein Roman ist durch die Reihe seiner einzelnen Topic-Wahrscheinlichkeiten repräsentiert. Anschließend sind die Ähnlichkeiten zwischen den Topic-Verteilungen der Romane mit der Kosinus-Ähnlichkeit berechnet worden.
-                    <note xml:id="ftn7" place="foot" n="7"> Im Ergebnis liegen die Werte zwischen 0 (keine Ähnlichkeit) und 1 (maximale Ähnlichkeit).</note> Darauf aufbauend konnten die Ähnlichkeiten aller Romane untereinander ermittelt werden, so auch zwischen einzelnen Vertretern einer Roman-Untergattung und den jeweiligen Prototypen.
+                    <note> Im Ergebnis liegen die Werte zwischen 0 (keine Ähnlichkeit) und 1 (maximale Ähnlichkeit).</note> Darauf aufbauend konnten die Ähnlichkeiten aller Romane untereinander ermittelt werden, so auch zwischen einzelnen Vertretern einer Roman-Untergattung und den jeweiligen Prototypen.
                 </p>
                 <p>Die zweite Dokument-Repräsentation wurde auf Basis der 10.000 häufigsten Wörter (MFW) in den Roman-Volltexten erstellt (nicht lemmatisiert, gewichtet mit TF-IDF, maximale Dokument-Frequenz von 90 %). Anhand dieser beiden Repräsentationen kann überprüft werden, welche Merkmale zentral für die Abbildung von Gattungsunterschieden zwischen den Texten sind.</p>
                 <p>
-                    <hi rend="bold italic">Ergebnisse und Diskussion.</hi> Die auf der Grundlage der Topics und MFW ermittelten Ähnlichkeiten zwischen den Texten wurden hinsichtlich der Beziehungen der Romane zu ihren jeweiligen Prototypen ausgewertet. Abb. 4 zeigt beispielsweise die Abstände der einzelnen Gaucho-Romane zum Prototypen “Juan Moreira” von Eduardo Gutiérrez, auf der linken Seite die Topic-Ähnlichkeiten und auf der rechten Seite die MFW-Ähnlichkeiten. Insgesamt fällt auf, dass die Vorläufer und Nachfolger dem Prototypen hinsichtlich der Topics ähnlicher sind als in Bezug auf die MFW, der Gaucho-Roman also mehr durch gemeinsame Themen als (im weitesten Sinne) stilistische Eigenschaften zusammengehalten wird. In beiden Fällen sind die Abstände zum Prototypen jedoch relativ groß. Wir führen das darauf zurück, dass die Beschreibung der Gattung durch Lichtblau vor allem eine seiner Entwicklung ist: in den Vorläufern (“La familia de Sconner”, “Amalia”) kommt der Gaucho als Typ nur beiläufig bzw. nur in kurzen Passagen überhaupt vor. Bei den Topic-Ähnlichkeiten ist der späteste Gaucho-Roman im Korpus, “Arturo Sierra” von Julio Llanos, dem Prototypen am nächsten. Laut Lichtblau ist dies ein sentimentaler Sensations-Roman, in dem der Gaucho nur noch eine oberflächliche Rolle spielt (Lichtblau 1959: 134f). Dies zeigt, dass Oberflächenphänomene mit unserem Verfahren gut erfasst werden, die Texteigenschaften aber nicht in allen Fällen hinreichend sind, um die Gattungszugehörigkeit zu klären.
+                    <hi>Ergebnisse und Diskussion.</hi> Die auf der Grundlage der Topics und MFW ermittelten Ähnlichkeiten zwischen den Texten wurden hinsichtlich der Beziehungen der Romane zu ihren jeweiligen Prototypen ausgewertet. Abb. 4 zeigt beispielsweise die Abstände der einzelnen Gaucho-Romane zum Prototypen “Juan Moreira” von Eduardo Gutiérrez, auf der linken Seite die Topic-Ähnlichkeiten und auf der rechten Seite die MFW-Ähnlichkeiten. Insgesamt fällt auf, dass die Vorläufer und Nachfolger dem Prototypen hinsichtlich der Topics ähnlicher sind als in Bezug auf die MFW, der Gaucho-Roman also mehr durch gemeinsame Themen als (im weitesten Sinne) stilistische Eigenschaften zusammengehalten wird. In beiden Fällen sind die Abstände zum Prototypen jedoch relativ groß. Wir führen das darauf zurück, dass die Beschreibung der Gattung durch Lichtblau vor allem eine seiner Entwicklung ist: in den Vorläufern (“La familia de Sconner”, “Amalia”) kommt der Gaucho als Typ nur beiläufig bzw. nur in kurzen Passagen überhaupt vor. Bei den Topic-Ähnlichkeiten ist der späteste Gaucho-Roman im Korpus, “Arturo Sierra” von Julio Llanos, dem Prototypen am nächsten. Laut Lichtblau ist dies ein sentimentaler Sensations-Roman, in dem der Gaucho nur noch eine oberflächliche Rolle spielt (Lichtblau 1959: 134f). Dies zeigt, dass Oberflächenphänomene mit unserem Verfahren gut erfasst werden, die Texteigenschaften aber nicht in allen Fällen hinreichend sind, um die Gattungszugehörigkeit zu klären.
                 </p>
                 <p>
                     <figure>
-                        <graphic url="Pictures/10000000000002920000027FB9F4111D07B71636.png"/>
+                        <graphic/>
                         <head>
                             <lb/>Abbildung 4: Ähnlichkeiten der dem Gaucho-Roman zuzuordnenden Texte zum Prototypen (“Juan Moreira”, 1880); links Topics, rechts MFW
                         </head>
@@ -242,7 +242,7 @@
                 </p>
                 <p>
                     <figure>
-                        <graphic url="Pictures/10000000000003B1000002C670C0DBC532307B65.png"/>
+                        <graphic/>
                         <head>
                             <lb/>Abbildung 5: Topic-Ähnlichkeiten der Romane verschiedener Untergattungen zu ihren Prototypen (PT) sowie zur durchschnittlichen Topic-Verteilung innerhalb der Untergattung (AVG)
                         </head>
@@ -250,7 +250,7 @@
                 </p>
                 <p>
                     <figure>
-                        <graphic url="Pictures/10000000000003B1000002B899CE70B98E21A9AD.png"/>
+                        <graphic/>
                         <head>
                             <lb/>Abbildung 6: MFW-Ähnlichkeiten der kostumbristischen Romane zu möglichen Prototypen, mexikanische (rot) vs. spanische Romane (blau)
                         </head>
@@ -258,7 +258,7 @@
                 </p>
                 <p>
                     <figure>
-                        <graphic url="Pictures/10000000000003B1000002BDCFE7512EEB796184.png"/>
+                        <graphic/>
                         <head>
                             <lb/>Abbildung 7: Topic-Ähnlichkeiten der kostumbristischen Romane zu möglichen Prototypen, mexikanische (rot) vs. spanische Romane (blau)
                         </head>
@@ -266,7 +266,7 @@
                 </p>
                 <p>
                     <figure>
-                        <graphic url="Pictures/10000201000003B100000399FA113EC7EDF435D7.png"/>
+                        <graphic/>
                         <head>
                             <lb/>Abbildung 8: Heatmap mit Topic-Distanzen aller Romane untereinander, Prototypen sind heller gefärbt
                         </head>
@@ -274,115 +274,115 @@
                 </p>
                 <p>
                     <figure>
-                        <graphic url="Pictures/10000201000003B1000003963E13444257C5C7D0.png"/>
+                        <graphic/>
                         <head>
                             <lb/>Abbildung 9: Heatmap mit Distanzen der 10.000 MFW aller Romane untereinander
                         </head>
                     </figure>Die Heatmap auf der Grundlage der 10.000 MFW zeigt eine größere Homogenität für die kostumbristischen und historischen Romane, während die Antisklaverei-, Gaucho- und Liebesromane hier weniger Nähe zueinander aufweisen. Auch die historischen und kostumbristischen Romane untereinander weisen größere Ähnlichkeiten hinsichtlich ihrer MFW auf. Möglicherweise sind bei beiden Untergattungen spezifisches Vokabular oder stilistische Aspekte für die Gattungszugehörigkeit wichtiger. Besonders für die kostumbristischen Romane, in denen bei der Beschreibung regionaler und lokaler Gegebenheiten auch die Nachahmung von Dialekten und Umgangssprache eine Rolle spielt, ist diese Erklärung schlüssig. In einem auf Substantive beschränkten und lemmatisierten Korpus, wie es in das Topic-Modeling eingegangen ist, können solche Besonderheiten nicht aufgefangen werden.
                 </p>
             </div>
-            <div type="div1" rend="DH-Heading1">
+            <div>
                 <head>Fazit und Ausblick</head>
                 <p>Die exemplarische Anwendung des Prototypenmodells auf die hispanoamerikanischen Romane verschiedener Untergattungen hat gezeigt, dass Ansätze zur Modellierung literarischer Gattungen, die über das Prinzip logischer Klassen hinausgehen, informatisch umgesetzt werden können. Fragen wie diejenige nach der Prototypizität einzelner Texte, Gattungsmischungen und nach differenzierten Nähe- und Distanzverhältnissen lassen sich erst auf dieser Grundlage angehen. Literaturgeschichtliche Aussagen zu Gattungszugehörigkeiten und Gattungsentwicklungen mit prototypensemantischem Bezug (wie hier die Entwicklung des Gaucho-Romans oder die Frage nach den die hispanoamerikanische Tradition prägenden kostumbristischen Romanen) können so hinsichtlich relevanter Textmerkmale genauer untersucht werden.</p>
                 <p>Künftig sollen weitere theoretische Gattungsmodelle, insbesondere das Prinzip der Familienähnlichkeit, auf ihre Anwendbarkeit für gattungstilitische Untersuchungen hin getestet werden. Außerdem soll geprüft werden, welche Ergebnisse andere Textrepräsentationen als Topic-Modelle und MFW liefern, z.B. Word Embeddings. Zu diskutieren bleibt, wie offene Kategorisierungsmodelle evaluiert werden können.</p>
             </div>
         </body>
         <back>
-            <div type="bibliogr">
+            <div>
                 <listBibl>
                     <head>Bibliographie</head>
                     <bibl>
-                        <hi rend="bold">Álamo Felices, Francisco</hi> (2011): 
-                        <hi rend="italic">Los subgéneros novelescos. Teoría y modalidades narrativas.</hi> Almería: Universidad Almería.
+                        <hi>Álamo Felices, Francisco</hi> (2011): 
+                        <hi>Los subgéneros novelescos. Teoría y modalidades narrativas.</hi> Almería: Universidad Almería.
                     </bibl>
                     <bibl>
-                        <hi rend="bold">Blei, David M.</hi> (2012): “Probabilistic Topic Models”, in: 
-                        <hi rend="italic">Communications of the ACM</hi> 55 (4): 77-84. DOI: 10.1145/2133806.2133826
+                        <hi>Blei, David M.</hi> (2012): “Probabilistic Topic Models”, in: 
+                        <hi>Communications of the ACM</hi> 55 (4): 77-84. DOI: 10.1145/2133806.2133826
                     </bibl>
                     <bibl>
-                        <hi rend="bold">Calderón, Mario</hi> (2005): “La novela costumbrista mexicana”, in: Clark de Lara, Belem / Speckman Guerra, Elisa (eds.): 
-                        <hi rend="italic">La república de las letras. Vol. 1: Ambientes, asociaciones y grupos. Movimientos, temas y géneros literarios.</hi> México: UNAM 315-324.
+                        <hi>Calderón, Mario</hi> (2005): “La novela costumbrista mexicana”, in: Clark de Lara, Belem / Speckman Guerra, Elisa (eds.): 
+                        <hi>La república de las letras. Vol. 1: Ambientes, asociaciones y grupos. Movimientos, temas y géneros literarios.</hi> México: UNAM 315-324.
                     </bibl>
                     <bibl>
-                        <hi rend="bold">Calvo Tello, José / Schlör, Daniel / Henny, Ulrike / Schöch, Christof</hi> (2017): “Neutralising the Authorial Signal in Delta by Penalization: Stylometric Clustering of Genre in Spanish Novels” in: 
-                        <hi rend="italic">DH2017: Annual Conference of the Alliance of Digital Humanities Organizations.</hi> Montreal: McGill University &amp; Université de Montréal 181-184 
-                        <ptr target="https://dh2017.adho.org/abstracts/DH2017-abstracts.pdf"/> [letzter Zugriff 13. Januar 2018].
+                        <hi>Calvo Tello, José / Schlör, Daniel / Henny, Ulrike / Schöch, Christof</hi> (2017): “Neutralising the Authorial Signal in Delta by Penalization: Stylometric Clustering of Genre in Spanish Novels” in: 
+                        <hi>DH2017: Annual Conference of the Alliance of Digital Humanities Organizations.</hi> Montreal: McGill University &amp; Université de Montréal 181-184 
+                        <ptr/> [letzter Zugriff 13. Januar 2018].
                     </bibl>
                     <bibl>
-                        <hi rend="bold">Fishelov, David</hi> (1991): “Genre theory and family resemblance”, in: 
-                        <hi rend="italic">Poetics</hi> 20: 123-138.
+                        <hi>Fishelov, David</hi> (1991): “Genre theory and family resemblance”, in: 
+                        <hi>Poetics</hi> 20: 123-138.
                     </bibl>
                     <bibl>
-                        <hi rend="bold">Fowler, Alastair</hi> (1982): 
-                        <hi rend="italic">Kinds of Literature. An Introduction to the Theory of Genres and Modes.</hi> Oxford: Clarendon Press.
+                        <hi>Fowler, Alastair</hi> (1982): 
+                        <hi>Kinds of Literature. An Introduction to the Theory of Genres and Modes.</hi> Oxford: Clarendon Press.
                     </bibl>
                     <bibl>
-                        <hi rend="bold">Hagen, Thora / Huber, Michael / Tepavac, Daniel</hi> (2017): “Workshop on Distant Reading in Literary Texts”, in: 
-                        <hi rend="italic">DHdBlog</hi>
-                        <ptr target="http://dhd-blog.org/?p=8905"/> [letzter Zugriff 13. Januar 2018].
+                        <hi>Hagen, Thora / Huber, Michael / Tepavac, Daniel</hi> (2017): “Workshop on Distant Reading in Literary Texts”, in: 
+                        <hi>DHdBlog</hi>
+                        <ptr/> [letzter Zugriff 13. Januar 2018].
                     </bibl>
                     <bibl>
-                        <hi rend="bold">Hempfer, Klaus W.</hi> (2010): “Zum begrifflichen Status der Gattungsbegriffe: Von ‘Klassen’ zu ‘Familienähnlichkeiten’ und ‘Prototypen’”, in: 
-                        <hi rend="italic">Zeitschrift für französische Sprache und Literatur</hi> 120 (1): 14-32.
+                        <hi>Hempfer, Klaus W.</hi> (2010): “Zum begrifflichen Status der Gattungsbegriffe: Von ‘Klassen’ zu ‘Familienähnlichkeiten’ und ‘Prototypen’”, in: 
+                        <hi>Zeitschrift für französische Sprache und Literatur</hi> 120 (1): 14-32.
                     </bibl>
                     <bibl>
-                        <hi rend="bold">Hettinger, Lena / Jannidis, Fotis / Reger, Isabella / Hotho, Andreas</hi> (2016a): “Classification of Literary Subgenres”, in: 
-                        <hi rend="italic">DHD 2016.</hi> Leipzig: Universität Leipzig 154-58 
-                        <ptr target="http://dhd2016.de/boa.pdf"/> [letzter Zugriff 13. Januar 2018].
+                        <hi>Hettinger, Lena / Jannidis, Fotis / Reger, Isabella / Hotho, Andreas</hi> (2016a): “Classification of Literary Subgenres”, in: 
+                        <hi>DHD 2016.</hi> Leipzig: Universität Leipzig 154-58 
+                        <ptr/> [letzter Zugriff 13. Januar 2018].
                     </bibl>
                     <bibl>
-                        <hi rend="bold">Hettinger, Lena / Jannidis, Fotis / Reger, Isabella / Hotho, Andreas</hi> (2016b): “Significance Testing for the Classification of Literary Subgenres”, in: 
-                        <hi rend="italic">DH2016: Annual Conference of the Alliance of Digital Humanities Organizations.</hi> Kraków: Jagiellonian University &amp; Pedagogical University 218-220 
-                        <ptr target="http://dh2016.adho.org/abstracts/173"/> [letzter Zugriff 13. Januar 2018].
+                        <hi>Hettinger, Lena / Jannidis, Fotis / Reger, Isabella / Hotho, Andreas</hi> (2016b): “Significance Testing for the Classification of Literary Subgenres”, in: 
+                        <hi>DH2016: Annual Conference of the Alliance of Digital Humanities Organizations.</hi> Kraków: Jagiellonian University &amp; Pedagogical University 218-220 
+                        <ptr/> [letzter Zugriff 13. Januar 2018].
                     </bibl>
                     <bibl>
-                        <hi rend="bold">Janik, Dieter</hi> (2008): 
-                        <hi rend="italic">Hispanoamerikanische Literaturen. Von der Unabhängigkeit bis zu den Avantgarden (1810-1930).</hi> Tübingen: Narr.
+                        <hi>Janik, Dieter</hi> (2008): 
+                        <hi>Hispanoamerikanische Literaturen. Von der Unabhängigkeit bis zu den Avantgarden (1810-1930).</hi> Tübingen: Narr.
                     </bibl>
                     <bibl>
-                        <hi rend="bold">Kayser, Wolfgang</hi> (1956
-                        <hi rend="sup">4</hi>): 
-                        <hi rend="italic">Das sprachliche Kunstwerk. Eine Einführung in die Literaturwissenschaft.</hi> Bern: Francke Verlag. Erste Auflage 1948.
+                        <hi>Kayser, Wolfgang</hi> (1956
+                        <hi>4</hi>): 
+                        <hi>Das sprachliche Kunstwerk. Eine Einführung in die Literaturwissenschaft.</hi> Bern: Francke Verlag. Erste Auflage 1948.
                     </bibl>
                     <bibl>
-                        <hi rend="bold">Lichtblau, Myron I.</hi> (1959): 
-                        <hi rend="italic">The Argentine Novel in the Nineteenth Century.</hi> New York: Hispanic Institute in the United States.
+                        <hi>Lichtblau, Myron I.</hi> (1959): 
+                        <hi>The Argentine Novel in the Nineteenth Century.</hi> New York: Hispanic Institute in the United States.
                     </bibl>
                     <bibl>
-                        <hi rend="bold">Rivas, Mercedes</hi> (1990): 
-                        <hi rend="italic">Literatura y esclavitud en la novela cubana del siglo XIX.</hi> Sevilla: Escuela de Estudios Hispano-Americanos.
+                        <hi>Rivas, Mercedes</hi> (1990): 
+                        <hi>Literatura y esclavitud en la novela cubana del siglo XIX.</hi> Sevilla: Escuela de Estudios Hispano-Americanos.
                     </bibl>
                     <bibl>
-                        <hi rend="bold">Rosch, Eleanor</hi> (1973): “On the internal structure of perceptual and semantic categories”, in: E. T. Moore (ed.): 
-                        <hi rend="italic">Cognitive development and the acquisition of language.</hi> New York: Academic Press: 111-144.
+                        <hi>Rosch, Eleanor</hi> (1973): “On the internal structure of perceptual and semantic categories”, in: E. T. Moore (ed.): 
+                        <hi>Cognitive development and the acquisition of language.</hi> New York: Academic Press: 111-144.
                     </bibl>
                     <bibl>
-                        <hi rend="bold">Schöch, Christof, / Henny, Ulrike / Calvo Tello, José / Schlör, Daniel / Popp, Stefanie</hi> (2016): “Topic, Genre, Text. Topics im Textverlauf von Untergattungen des spanischen und hispanoamerikanischen Romans (1880-1930)”, in: 
-                        <hi rend="italic">DHD 2016.</hi> Leipzig: Universität Leipzig, 235-239 
-                        <ptr target="http://dhd2016.de/boa.pdf"/> [letzter Zugriff 13. Januar 2018].
+                        <hi>Schöch, Christof, / Henny, Ulrike / Calvo Tello, José / Schlör, Daniel / Popp, Stefanie</hi> (2016): “Topic, Genre, Text. Topics im Textverlauf von Untergattungen des spanischen und hispanoamerikanischen Romans (1880-1930)”, in: 
+                        <hi>DHD 2016.</hi> Leipzig: Universität Leipzig, 235-239 
+                        <ptr/> [letzter Zugriff 13. Januar 2018].
                     </bibl>
                     <bibl>
-                        <hi rend="bold">Schöch, Christof</hi> (2015): “Topic Modeling French Crime Fiction”, in: 
-                        <hi rend="italic">DH2015: Annual Conference of the Alliance of Digital Humanities Organizations.</hi> Sydney: The University of Western Sydney 
-                        <ptr target="http://dh2015.org/abstracts/xml/SCHOCH_Christof_Topic_Modeling_French_Crime_Ficti/SCH_CH_Christof_Topic_Modeling_French_Crime_Fiction.html"/> [letzter Zugriff 13. Januar 2018].
+                        <hi>Schöch, Christof</hi> (2015): “Topic Modeling French Crime Fiction”, in: 
+                        <hi>DH2015: Annual Conference of the Alliance of Digital Humanities Organizations.</hi> Sydney: The University of Western Sydney 
+                        <ptr/> [letzter Zugriff 13. Januar 2018].
                     </bibl>
                     <bibl>
-                        <hi rend="bold">Schöch, Christof</hi> (2013): “Fine-tuning Our Stylometric Tools: Investigating Authorship and Genre in French Classical Theater”, in: 
-                        <hi rend="italic">DH2013: Annual Conference of the Alliance of Digital </hi>
-                        <hi rend="italic">Humanities Organizations.</hi> Lincoln: UNL 
-                        <ptr target="http://dh2013.unl.edu/abstracts/ab-270.html"/> [letzter Zugriff 13. Januar 2018].
+                        <hi>Schöch, Christof</hi> (2013): “Fine-tuning Our Stylometric Tools: Investigating Authorship and Genre in French Classical Theater”, in: 
+                        <hi>DH2013: Annual Conference of the Alliance of Digital </hi>
+                        <hi>Humanities Organizations.</hi> Lincoln: UNL 
+                        <ptr/> [letzter Zugriff 13. Januar 2018].
                     </bibl>
                     <bibl>
-                        <hi rend="bold">Vivas, Eliseo</hi> (1968): “Literary Classes: Some Problems”, in: 
-                        <hi rend="italic">Genre</hi> 1: 97-105.
+                        <hi>Vivas, Eliseo</hi> (1968): “Literary Classes: Some Problems”, in: 
+                        <hi>Genre</hi> 1: 97-105.
                     </bibl>
                     <bibl>
-                        <hi rend="bold">Weitz, Morris</hi> (1956): “The Role of Theory in Aesthetics”, in: 
-                        <hi rend="italic">The Journal of Aesthetics and Art Criticism</hi> 15 (1): 27-35.
+                        <hi>Weitz, Morris</hi> (1956): “The Role of Theory in Aesthetics”, in: 
+                        <hi>The Journal of Aesthetics and Art Criticism</hi> 15 (1): 27-35.
                     </bibl>
                     <bibl>
-                        <hi rend="bold">Zymner, Rüdiger</hi> (2003): 
-                        <hi rend="italic">Gattungstheorie. Probleme und Positionen der Literaturwissenschaft.</hi> Paderborn: mentis Verlag.
+                        <hi>Zymner, Rüdiger</hi> (2003): 
+                        <hi>Gattungstheorie. Probleme und Positionen der Literaturwissenschaft.</hi> Paderborn: mentis Verlag.
                     </bibl>
                 </listBibl>
             </div>

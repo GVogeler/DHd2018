@@ -81,27 +81,27 @@
         </fileDesc>
         <encodingDesc>
             <appInfo>
-                <application ident="DHCONVALIDATOR" version="1.17">
+                <application>
                     <label>DHConvalidator</label>
                 </application>
             </appInfo>
         </encodingDesc>
         <profileDesc>
             <textClass>
-                <keywords scheme="ConfTool" n="category">
+                <keywords>
                     <term>Paper</term>
                 </keywords>
-                <keywords scheme="ConfTool" n="subcategory">
+                <keywords>
                     <term>Vortrag</term>
                 </keywords>
-                <keywords scheme="ConfTool" n="keywords">
+                <keywords>
                     <term>Architekturgeschichte</term>
                     <term>Photogrammetrie</term>
                     <term>Augmented Reality</term>
                     <term>3D</term>
                     <term>Nutzerforschung</term>
                 </keywords>
-                <keywords scheme="ConfTool" n="topics">
+                <keywords>
                     <term>Datenerkennung</term>
                     <term>Programmierung</term>
                     <term>Räumliche Analyse</term>
@@ -113,203 +113,191 @@
     </teiHeader>
     <text>
         <body>
-            <p rend="ewic-Introduction">1. Einleitung</p>
+            <p>1. Einleitung</p>
             <p>Historische Fotografien sowie Pläne sind eine wesentliche Quellengrundlage baugeschichtlicher Forschung (Burke, 2003, Paul, 2006, Wohlfeil, 1986, Pérez-Gómez and Pelletier, 1997) und ebenso wie diese zentrale Gegenstände der Digital Humanities (Kwastek, 2014). Im Zuge von Digitalisierungsvorhaben wurden eine Reihe digitaler Bildarchive errichtet und umfangreiche Fotografie- und Planquellen in derartige Repositorien überführt. Dabei stellt sich jedoch nicht nur die Schwierigkeit, für eine Erforschung relevante und aussagekräftige Quellen zu finden und zu identifizieren, sondern auch, diese zu untersuchen, zu kontextualisieren und zu vergleichen sowie die darin beschriebenen historischen Objekte vorstellbar zu machen. Die durch das BMBF geförderte eHumanities-Nachwuchsgruppe HistStadt4D adressiert anhand stadt- und baugeschichtlicher Forschungsfragen und Vermittlungsanliegen zur Historie der Stadt Dresden die Untersuchung und Entwicklung von methodischen und technologischen Ansätzen, umfangreiche Repositorien historischer Medien und Kontextinformationen räumlich dreidimensional sowie zeitlich zusammenzuführen, zu strukturieren und zu annotieren sowie diese für Wissenschaftler und Öffentlichkeit mittels eines 4D-Browsers sowie einer ortsabhängigen Augmented-Reality-Darstellung als Informationsbasis, Forschungswerkzeug und zur Vermittlung geschichtlichen Wissens nutzbar zu machen. Prototypische Datenbasis stellen dabei ca. 30.000 digitalisierte historische Fotografien und Pläne des historischen Dresdens dar.</p>
-            <p rend="ewic-Introduction">2. Ergebnisse</p>
+            <p>2. Ergebnisse</p>
             <p>Photogrammetrische Methoden zur Erschließung historischer Bilddaten</p>
             <p>Um einen visuellen Zugang zu großen Bildrepositorien zu schaffen, können verschiedene photogrammetrische Methoden hilfreich sein. Die Spannweite der Verfahren reicht von der automatischen Bildsortierung in einer Datenbank mittels kontextbasierter Ansätze über die temporale und spatiale Verortung von Bildern in virtuellen Umgebungen bis zur Generierung komplexer historischer dreidimensionaler Modelle. Das Potential historischer Fotografien liegt hierbei vor allem in der Dokumentation aber auch in der Wiederherstellung von zerstörten Objekten (Grün et al., 2004, Falkingham et al., 2014). Seit ca. 20 Jahren wird die klassische analytische Photogrammetrie hierbei durch digitale Bildverarbeitungsverfahren unterstützt. Es ist außerdem ein zunehmender Automatisierungsgrad in diesen Technologien zu sehen. Anwendung finden diese Verfahren heute hauptsächlich in großen Bildrepositorien mit aktuellen Fotografien (Agarwal et al., 2009). Aber auch einzelne Gebäude/Städte werden mithilfe von historischen Materialien modelliert (Schindler &amp; Dellaert, 2012, Bitelli et al., 2017). Schwierigkeiten, die in der Arbeit mit historischen Bildern entstehen, sind fehlende Informationen zu Kamera, Aufnahmeort und Aufnahmezeit. Auch Bildfehler, starke Bildunterschiede und geringe Scanauflösung wirken sich auf eine automatische photogrammetrische Mehrbildauswertung negativ aus. Vor diesem Hintergrund erwiesen sich die in der Nachwuchsgruppe erprobten Verfahren des Structure-from-Motion (SfM) und der Direct-Linear-Transformation (DLT) als hinsichtlich der Ergebnisse lückenhaft bzw. schlecht automatisierbar (vgl. Abb. 1). Während SfM als automatisches Verfahren prinzipiell sehr gut funktioniert, gelangt der Algorithmus beim Umgang mit heterogenen Bildmaterial wie eben in historischen Aufnahmen an Grenzen. Dann können zwischen den verschiedenen Bildern nur wenige oder gar keine Korrespondenzen gefunden werden und die Orientierung und die anschließende Erstellung einer dreidimensionalen Punktwolke schlägt fehl. DLT berechnet die Kameraorientierung aus homologen Punkten in Gebäudemodell und Fotografie. Eine automatische Bestimmung der homologen Punkte auf stark generalisierten Modellen und verrauschten Bildern ist eine komplexe Aufgabe, die bisher noch nicht algorithmisch gelöst wurde. Die Punkte werden deshalb noch manuell durch einen Operateur gesucht, wobei mit 6 Punktpaaren eine große Anzahl homologer Punkte benötigt wird. Einen demgegenüber vielversprechenden, aktuell in Prüfung befindlichen Ansatz bietet die Kongruenzprüfung von im Bild dargestellten Formen.</p>
             <figure>
-                <graphic n="1001"
-                     width="7.381875cm"
-                     height="4.815416666666667cm"
-                     url="Pictures/image1.png"
-                     rend="inline"/>
+                <graphic/>
             </figure>
             <p>
-                <hi rend="bold">Abb. </hi>
-                <hi rend="bold">:</hi> Verortetes 3D-Modell generiert aus historischen Bildern (Prototyp)
+                <hi>Abb. </hi>
+                <hi>:</hi> Verortetes 3D-Modell generiert aus historischen Bildern (Prototyp)
             </p>
             <p>Nutzung und Zugänge zu Bildrepositorien in der architekturgeschichtlichen Forschung</p>
             <p>Digitale Bildrepositorien erfüllen ganz verschiedene Zwecke, sowohl innerhalb der geisteswissenschaftlichen Forschung als auch im Rahmen der musealen oder touristischen Vermittlung, bis hin zu informationswissenschaftlichen Aspekten (Münster, 2011). Die technischen Möglichkeiten solcher Repositorien erlauben Kunst- und Architekturhistorikern, eine deutlich größere Menge an Material in ihre Forschungen einzubeziehen. Wichtige Ergebnisse eines ersten Jahres Forschungstätigkeit ist ein Verzeichnis existierender Bildrepositorien und deren Bewertung mit Blick auf Anforderungen architekturhistorischer Arbeit: Wissenschaftler müssen zum Beispiel die Möglichkeit haben, ihre genutzten Quellen miteinander zu vergleichen und sie im Kontext zu verorten, (Münster et al., 2015, Brandt, 2012, Wohlfeil, 1986), aber auch, das Verhältnis von Bildquelle zu Abbild nachvollziehen zu können (Favro, 2006, Niccolucci and Hermon, 2006). </p>
             <p>Mit Blick auf eine Nutzungspraxis von Bildrepositorien hängt der Erfolg bei der Suche und dem Zugang zu den Informationen stark von den Fähigkeiten der Nutzer sowie der Bedienbarkeit der Webplattformen ab (Kemman et al., 2014). Nutzer legen z.B. Wert auf effiziente Such- und Filterfunktionen sowie eine intuitiv bedienbare Nutzeroberfläche und Navigation (Barreau et al., 2014). Je nach Nutzerkreis ist eine Dokumentation mittels Metadaten (Bentkowska-Kafel et al., 2012, Maina and Suleman, 2015) oder eine grundlegende Einführung in die Themen und Informationen gewünscht (Maina and Suleman, 2015). Empirisch überprüft werden konnte dies mit 15 Studenten der Kunst- und Architekturgeschichte, welche im September 2016 im Rahmen einer Fokusgruppen-Diskussion zur Suche und Nutzung von Bildern befragt und inhaltsanalytisch ausgewertet werden. Wesentliche Erkenntnis stellten beispielsweise dar, dass ein Suchprozess neben den dargebotenen Bildinhalten stark durch zugeordnete textuelle Beschreibungen sowie Vorschläge und Links zu weiteren Ressourcen beeinflusst wird. Eine Suchstrategie verändert sich dabei im Laufe des Suchprozesses von (a) einem ungerichteten Stöbern über ein (b) Sichten von Beständen zur Gewinnung eines Überblicks hin zur (c) zielgerichteten Suche nach spezifischen Inhalten.</p>
             <p>Die dabei gewonnenen Erkenntnisse bildeten die Grundlage für die Konzeption und prototypische Entwicklung eines 4D-Browserinterfaces für eine räumlich und zeitlich verortete Suche in Medienrepositorien (Abb. 2). Eine besondere Herausforderung einer ersten Entwicklungsphase stellten die semantische Verknüpfung der Daten und die Visualisierung zeitlich und räumlich verorteter Informationen (Gouveia et al., 2015) dar. So muss die angestrebte 4D-Browseranwendung ein ganzes Stadtmodell handhaben können, das sich zudem über die Zeit stetig verändert. Mit Blick auf eine weitere Entwicklung stehen aktuell Strategien zur Präsentation einer Vielzahl von Datensätzen (Samuel et al., 2016), Schnittstellen zum automatischen Datenbezug aus Repositorien sowie Möglichkeiten zur nutzergesteuerten, interaktiven Informationsverknüpfung auf einer Entwicklungsagenda. </p>
             <figure>
-                <graphic n="1002"
-                     width="6.865763888888889cm"
-                     height="3.9947666666666666cm"
-                     url="Pictures/image2.png"
-                     rend="inline"/>
+                <graphic/>
             </figure>
             <p>
-                <hi rend="bold">Abb. 2:</hi> 4D-Browser (Prototyp)
+                <hi>Abb. 2:</hi> 4D-Browser (Prototyp)
             </p>
             <p>
-                <hi rend="bold">Vermittlung von Stadtgeschichte mittels Augmented-Reality (AR)</hi>
+                <hi>Vermittlung von Stadtgeschichte mittels Augmented-Reality (AR)</hi>
             </p>
             <p>Eine räumliche und zeitliche Einordung in einem dreidimensionalen Stadtmodell (Abb. 3) sowie in einer Augmented Reality – Anwendung sollen hierbei im Vordergrund stehen und eine Beziehung zur heutigen stadträumlichen Situation vermitteln. Ein diesbezüglicher Forschungsgegenstand ist der Einsatz im Rahmen von Bildungsszenarien für die Vermittlung von Stadtgeschichte. In den letzten Jahren wurden weltweit zahlreiche touristische AR-Anwendungen für die stadträumliche Nutzung sowie Softwarelösungen zur Erstellung dieser Anwendungen entwickelt (Kounavis et al., 2012, Smirnov et al., 2014, Yovcheva et al., 2012). In wissenschaftlichen Studien wurden Nutzungsanforderungen touristischer AR-Anwendungen (Zaibon et al., Han et al., 2014), deren Akzeptanz beim Nutzer (Haugstvedt and Krogstie, 2012, tom Dieck and Jung, 2015), sowie deren Potenziale für das Lernen (Kysela and Štorková, 2015) oder für die Sensibilisierung der Nutzer für kulturhistorische Aspekte beschrieben (Chang et al., 2015b). Nur wenige wissenschaftliche Arbeiten beschäftigen sich demgegenüber mit Lerneffekten bei Nutzern (tom Dieck et al., 2016). Zudem fehlen Untersuchungen zur Integration von pädagogischen und motivationalen Strategien in wissensvermittelnden AR-Anwendungen und daraus resultierende Gestaltungsempfehlungen. Diese Lücke soll mit der weiteren Forschungsarbeit geschlossen werden. </p>
             <p>
-                <graphic n="1003"
-                     width="7.276041666666667cm"
-                     height="4.886455555555556cm"
-                     url="Pictures/image3.jpeg"
-                     rend="inline"/>
+                <graphic/>
                 <lb/>
-                <hi rend="bold">Abb. 3:</hi> Stadträumliche Augmented-Reality-Darstellung (Mockup)
+                <hi>Abb. 3:</hi> Stadträumliche Augmented-Reality-Darstellung (Mockup)
             </p>
             <p>Aus technologischer Sicht wurden bisher in der Nachwuchsgruppe vor allem Modi der Interaktion mit geschichtswissenschaftlichen Daten erprobt und untersucht (vgl. Livingston et al., 2008, Zöllner et al., 2010, Walczak et al., 2011, Chang et al., 2015a, Chung et al., 2015). Dabei wesentliche Fragen waren: Wie können Interaktionsmöglichkeiten mit virtuellen Gebäuden und mit ihnen verknüpften Informationen gestaltet werden? Können aus dem Umgang mit Mobilgeräten bekannte Interaktionsmetaphern in der Augmented Reality weiterverwendet werden? Des Weiteren wurden mobile AR Anwendungen für die Vermittlung stadtgeschichtlichen Wissens anhand der eingesetzten Darstellungskonzepte analysiert und kategorisiert. Davon ausgehend soll in einem nächsten Schritt nun ein Anwendungsprototyp entwickelt und validiert werden.</p>
-            <p rend="ewic-Introduction">3. Resümee</p>
+            <p>3. Resümee</p>
             <p>Welches Resümee lässt sich nach einem Jahr Forschungsarbeit in der Nachwuchsgruppe ziehen? Neben der vorgestellten Forschung in den jeweiligen Untersuchungsgebieten stellt insbesondere die Schaffung von Schnittstellen zwischen diesen Bereichen eine wichtige und kontinuierliche Aufgabe dar. Praktisch bewährt haben sich in unserer Arbeit beispielsweise Elemente wie eine gemeinsame Ergebnisvision, eine engmaschige Abstimmung und ein agiles Arbeitsvorgehen. Vor diesem Hintergrund soll der hier vorgeschlagene Beitrag nicht nur Forschungsergebnisse aufzeigen sondern auch Strategien zur interdisziplinären Gruppenarbeit vorstellen und diskutieren.</p>
         </body>
         <back>
-            <div type="bibliogr">
+            <div>
                 <listBibl>
                     <head>Bibliographie</head>
-                    <bibl rend="EndNote Bibliography">
-                        <hi rend="italic">Deutsche Fotothek </hi>[Online]. http://www.deutschefotothek.de/ [9.5.2014].
+                    <bibl>
+                        <hi>Deutsche Fotothek </hi>[Online]. http://www.deutschefotothek.de/ [9.5.2014].
                     </bibl>
-                    <bibl rend="EndNote Bibliography">
-                        <hi rend="italic">Deutsches Dokumentationszentrum für Kunstgeschichte - Bildarchiv Foto Marburg </hi>[Online]. http://www.fotomarburg.de/ [9.5.2014].
+                    <bibl>
+                        <hi>Deutsches Dokumentationszentrum für Kunstgeschichte - Bildarchiv Foto Marburg </hi>[Online]. http://www.fotomarburg.de/ [9.5.2014].
                     </bibl>
-                    <bibl rend="EndNote Bibliography">
-                        <hi rend="bold">Barreau, J.-B./ Gaugne, R./ Bernard, Y./ Le Cloirec, G. / Gouranton, V.</hi> (2014). Virtual reality tools for the West Digital Conservatory of Archaeological Heritage. 
-                        <hi rend="italic">Proceedings of the 2014 Virtual Reality International Conference.</hi>
+                    <bibl>
+                        <hi>Barreau, J.-B./ Gaugne, R./ Bernard, Y./ Le Cloirec, G. / Gouranton, V.</hi> (2014). Virtual reality tools for the West Digital Conservatory of Archaeological Heritage. 
+                        <hi>Proceedings of the 2014 Virtual Reality International Conference.</hi>
                     </bibl>
-                    <bibl rend="EndNote Bibliography">
-                        <hi rend="bold">Bentkowska-Kafel, A./ Denard, H. / Baker, D.</hi> (2012). 
-                        <hi rend="italic">Paradata and Transparency in Virtual Heritage, </hi>Burlington, Ashgate.
+                    <bibl>
+                        <hi>Bentkowska-Kafel, A./ Denard, H. / Baker, D.</hi> (2012). 
+                        <hi>Paradata and Transparency in Virtual Heritage, </hi>Burlington, Ashgate.
                     </bibl>
-                    <bibl rend="EndNote Bibliography">
-                        <hi rend="bold">Brandt, A. V.</hi> (2012). 
-                        <hi rend="italic">Werkzeug des Historikers, </hi>Stuttgart [u. a.], Kohlhammer.
+                    <bibl>
+                        <hi>Brandt, A. V.</hi> (2012). 
+                        <hi>Werkzeug des Historikers, </hi>Stuttgart [u. a.], Kohlhammer.
                     </bibl>
-                    <bibl rend="EndNote Bibliography">
-                        <hi rend="bold">Burke, P.</hi> (2003). 
-                        <hi rend="italic">Augenzeugenschaft. Bilder als historische Quellen, </hi>Berlin.
+                    <bibl>
+                        <hi>Burke, P.</hi> (2003). 
+                        <hi>Augenzeugenschaft. Bilder als historische Quellen, </hi>Berlin.
                     </bibl>
-                    <bibl rend="EndNote Bibliography">
-                        <hi rend="bold">Chang, Y.-L./ Hou, H.-T./ Pan, C.-Y./ Sung, Y.-T. / Chang, K.-E.</hi> (2015a). Apply an Augmented Reality in a Mobile Guidance to Increase Sense of Place for Heritage Places. 
-                        <hi rend="italic">Educational Technology &amp; Society,</hi> 18
-                        <hi rend="bold">,</hi> 166-178.
+                    <bibl>
+                        <hi>Chang, Y.-L./ Hou, H.-T./ Pan, C.-Y./ Sung, Y.-T. / Chang, K.-E.</hi> (2015a). Apply an Augmented Reality in a Mobile Guidance to Increase Sense of Place for Heritage Places. 
+                        <hi>Educational Technology &amp; Society,</hi> 18
+                        <hi>,</hi> 166-178.
                     </bibl>
-                    <bibl rend="EndNote Bibliography">
-                        <hi rend="bold">Chang, Y.-L./ Hou, H./ Pan, C./ Sung, Y. / Chang, K.</hi> (2015b). Apply an Augmented Reality in a Mobile Guidance to Increase Sense of Place for Heritage Places. 
-                        <hi rend="italic">J. Educ. Technol. Soc.,</hi> 18
-                        <hi rend="bold">,</hi> 166–178.
+                    <bibl>
+                        <hi>Chang, Y.-L./ Hou, H./ Pan, C./ Sung, Y. / Chang, K.</hi> (2015b). Apply an Augmented Reality in a Mobile Guidance to Increase Sense of Place for Heritage Places. 
+                        <hi>J. Educ. Technol. Soc.,</hi> 18
+                        <hi>,</hi> 166–178.
                     </bibl>
-                    <bibl rend="EndNote Bibliography">
-                        <hi rend="bold">Chung, N./ Han, H. / Joun, Y.</hi> (2015). Tourists’ intention to visit a destination: The role of augmented reality (AR) application for a heritage site. 
-                        <hi rend="italic">Computers in Human Behavior,</hi> 50
-                        <hi rend="bold">,</hi> 588-599.
+                    <bibl>
+                        <hi>Chung, N./ Han, H. / Joun, Y.</hi> (2015). Tourists’ intention to visit a destination: The role of augmented reality (AR) application for a heritage site. 
+                        <hi>Computers in Human Behavior,</hi> 50
+                        <hi>,</hi> 588-599.
                     </bibl>
-                    <bibl rend="EndNote Bibliography">
-                        <hi rend="bold">Favro, D.</hi> (2006). In the eyes of the beholder. Virtual Reality re-creations and academia. 
-                        <hi rend="italic">In:</hi> HASELBERGER, L., HUMPHREY, J. &amp; ABERNATHY, D. (eds.) 
-                        <hi rend="italic">Imaging ancient Rome: Documentation, visualization, imagination: Proceedings of the 3rd Williams Symposium on Classical Architecture, Rome, 20.- 23. 5. 2004.</hi> Portsmouth: Journal of Roman Archaeology.
+                    <bibl>
+                        <hi>Favro, D.</hi> (2006). In the eyes of the beholder. Virtual Reality re-creations and academia. 
+                        <hi>In:</hi> HASELBERGER, L., HUMPHREY, J. &amp; ABERNATHY, D. (eds.) 
+                        <hi>Imaging ancient Rome: Documentation, visualization, imagination: Proceedings of the 3rd Williams Symposium on Classical Architecture, Rome, 20.- 23. 5. 2004.</hi> Portsmouth: Journal of Roman Archaeology.
                     </bibl>
-                    <bibl rend="EndNote Bibliography">
-                        <hi rend="bold">Gouveia, J./ Branco, F./ Rodrigues, A. / Correia, N.</hi> (2015). Travelling Through Space and Time in Lisbon’s Religious Buildings. 
-                        <hi rend="italic">In:</hi> GUIDI, G., SCOPIGNO, R., TORRES, J. C. &amp; GRAF, H. (eds.) 
-                        <hi rend="italic">2nd International Congress on Digital Heritage 2015.</hi> Granada.
+                    <bibl>
+                        <hi>Gouveia, J./ Branco, F./ Rodrigues, A. / Correia, N.</hi> (2015). Travelling Through Space and Time in Lisbon’s Religious Buildings. 
+                        <hi>In:</hi> GUIDI, G., SCOPIGNO, R., TORRES, J. C. &amp; GRAF, H. (eds.) 
+                        <hi>2nd International Congress on Digital Heritage 2015.</hi> Granada.
                     </bibl>
-                    <bibl rend="EndNote Bibliography">
-                        <hi rend="bold">Han, D./ Jung, T. / Gibson, A.</hi> (2014). Dublin AR: Implementing Augmented Reality in Tourism. 
-                        <hi rend="italic">In:</hi> Z., X. &amp; I., T. (eds.) 
-                        <hi rend="italic">Information and Communication Technologies in Tourism.</hi> Cham: Springer.
+                    <bibl>
+                        <hi>Han, D./ Jung, T. / Gibson, A.</hi> (2014). Dublin AR: Implementing Augmented Reality in Tourism. 
+                        <hi>In:</hi> Z., X. &amp; I., T. (eds.) 
+                        <hi>Information and Communication Technologies in Tourism.</hi> Cham: Springer.
                     </bibl>
-                    <bibl rend="EndNote Bibliography">
-                        <hi rend="bold">Haugstvedt, A.-C. / Krogstie, J.</hi> (Year) Published. Mobile augmented reality for cultural heritage: A technology acceptance study. 2012 IEEE Int. Symp. Mix. Augment. Real., 2012.
+                    <bibl>
+                        <hi>Haugstvedt, A.-C. / Krogstie, J.</hi> (Year) Published. Mobile augmented reality for cultural heritage: A technology acceptance study. 2012 IEEE Int. Symp. Mix. Augment. Real., 2012.
                     </bibl>
-                    <bibl rend="EndNote Bibliography">
-                        <hi rend="bold">Kemman, M./ Kleppe, M. / Scagliola, S.</hi> (2014). Just Google It. Digital Research Practices of Humanities Scholars. 
-                        <hi rend="italic">Proceedings of the Digital Humanities Congress 2012. Studies in the Digital Humanities. Sheffield: HRI Online</hi>.
+                    <bibl>
+                        <hi>Kemman, M./ Kleppe, M. / Scagliola, S.</hi> (2014). Just Google It. Digital Research Practices of Humanities Scholars. 
+                        <hi>Proceedings of the Digital Humanities Congress 2012. Studies in the Digital Humanities. Sheffield: HRI Online</hi>.
                     </bibl>
-                    <bibl rend="EndNote Bibliography">
-                        <hi rend="bold">Kounavis, C. D./ Kasimati, A. E. / Zamani, E. D.</hi> (2012). Enhancing the tourism experience through mobile augmented reality: Challenges and prospects. 
-                        <hi rend="italic">Int. J. Eng. Bus. Manag.,</hi> 4
-                        <hi rend="bold">,</hi> 1–6.
+                    <bibl>
+                        <hi>Kounavis, C. D./ Kasimati, A. E. / Zamani, E. D.</hi> (2012). Enhancing the tourism experience through mobile augmented reality: Challenges and prospects. 
+                        <hi>Int. J. Eng. Bus. Manag.,</hi> 4
+                        <hi>,</hi> 1–6.
                     </bibl>
-                    <bibl rend="EndNote Bibliography">
-                        <hi rend="bold">Kwastek, K.</hi> (2014). Vom Bild zum Bild. Digital Humanities jenseits des Texts (Keynote). 
-                        <hi rend="italic">1. Jahrestagung der Digital Humanities im deutschsprachigen Raum (DHd 2014).</hi> Passau.
+                    <bibl>
+                        <hi>Kwastek, K.</hi> (2014). Vom Bild zum Bild. Digital Humanities jenseits des Texts (Keynote). 
+                        <hi>1. Jahrestagung der Digital Humanities im deutschsprachigen Raum (DHd 2014).</hi> Passau.
                     </bibl>
-                    <bibl rend="EndNote Bibliography">
-                        <hi rend="bold">Kysela, J. / Štorková, P.</hi> (2015). Using Augmented Reality as a Medium for Teaching History and Tourism. 
-                        <hi rend="italic">Procedia - Soc. Behav. Sci.,</hi> 175
-                        <hi rend="bold">,</hi> 926–931.
+                    <bibl>
+                        <hi>Kysela, J. / Štorková, P.</hi> (2015). Using Augmented Reality as a Medium for Teaching History and Tourism. 
+                        <hi>Procedia - Soc. Behav. Sci.,</hi> 175
+                        <hi>,</hi> 926–931.
                     </bibl>
-                    <bibl rend="EndNote Bibliography">
-                        <hi rend="bold">Livingston, M. A./ Bimber, O. / Saito, H.</hi> (2008). 
-                        <hi rend="italic">Proceedings of the 7th IEEE International Symposium on Mixed and Augmented Reality. Cambridge, UK, </hi>Piscataway, IEEE Xplore.
+                    <bibl>
+                        <hi>Livingston, M. A./ Bimber, O. / Saito, H.</hi> (2008). 
+                        <hi>Proceedings of the 7th IEEE International Symposium on Mixed and Augmented Reality. Cambridge, UK, </hi>Piscataway, IEEE Xplore.
                     </bibl>
-                    <bibl rend="EndNote Bibliography">
-                        <hi rend="bold">Maina, J. K. / Suleman, H.</hi> (2015). Enhancing Digital Heritage Archives Using Gamified Annotations. 
-                        <hi rend="italic">In:</hi> ALLEN, B. R., HUNTER, J. &amp; ZENG, L. M. (eds.) 
-                        <hi rend="italic">Digital Libraries: Providing Quality Information: 17th International Conference on Asia-Pacific Digital Libraries, ICADL 2015, Seoul, Korea, December 9-12, 2015. Proceedings.</hi> Cham: Springer International Publishing.
+                    <bibl>
+                        <hi>Maina, J. K. / Suleman, H.</hi> (2015). Enhancing Digital Heritage Archives Using Gamified Annotations. 
+                        <hi>In:</hi> ALLEN, B. R., HUNTER, J. &amp; ZENG, L. M. (eds.) 
+                        <hi>Digital Libraries: Providing Quality Information: 17th International Conference on Asia-Pacific Digital Libraries, ICADL 2015, Seoul, Korea, December 9-12, 2015. Proceedings.</hi> Cham: Springer International Publishing.
                     </bibl>
-                    <bibl rend="EndNote Bibliography">
-                        <hi rend="bold">Münster, S.</hi> (2011). Entstehungs- und Verwendungskontexte von 3D-CAD-Modellen in den Geschichtswissenschaften. 
-                        <hi rend="italic">In:</hi> MEISSNER, K. &amp; ENGELIEN, M. (eds.) 
-                        <hi rend="italic">Virtual Enterprises, Communities &amp; Social Networks.</hi> Dresden: TUDpress.
+                    <bibl>
+                        <hi>Münster, S.</hi> (2011). Entstehungs- und Verwendungskontexte von 3D-CAD-Modellen in den Geschichtswissenschaften. 
+                        <hi>In:</hi> MEISSNER, K. &amp; ENGELIEN, M. (eds.) 
+                        <hi>Virtual Enterprises, Communities &amp; Social Networks.</hi> Dresden: TUDpress.
                     </bibl>
-                    <bibl rend="EndNote Bibliography">
-                        <hi rend="bold">Münster, S./ Jahn, P.-H. / Wacker, M.</hi> (2015). Von Plan- und Bildquellen zum virtuellen Gebäudemodell. Zur Bedeutung der Bildlichkeit für die digitale 3D-Rekonstruktion historischer Architektur. 
-                        <hi rend="italic">In:</hi> AMMON, S. &amp; HINTERWALDNER, I. (eds.) 
-                        <hi rend="italic">Bildlichkeit im Zeitalter der Modellierung. Operative Artefakte in Entwurfsprozessen der Architektur und des Ingenieurwesens.</hi> München: Wilhelm Fink Verlag.
+                    <bibl>
+                        <hi>Münster, S./ Jahn, P.-H. / Wacker, M.</hi> (2015). Von Plan- und Bildquellen zum virtuellen Gebäudemodell. Zur Bedeutung der Bildlichkeit für die digitale 3D-Rekonstruktion historischer Architektur. 
+                        <hi>In:</hi> AMMON, S. &amp; HINTERWALDNER, I. (eds.) 
+                        <hi>Bildlichkeit im Zeitalter der Modellierung. Operative Artefakte in Entwurfsprozessen der Architektur und des Ingenieurwesens.</hi> München: Wilhelm Fink Verlag.
                     </bibl>
-                    <bibl rend="EndNote Bibliography">
-                        <hi rend="bold">Niccolucci, F. / Hermon, S.</hi> (2006). A Fuzzy Logic Approach to Reliability in Archaeological Virtual Reconstruction. 
-                        <hi rend="italic">In:</hi> NICCOLUCCI, F. &amp; HERMON, S. (eds.) 
-                        <hi rend="italic">Beyond the Artifact. Digital Interpretation of the Past.</hi> Budapest.
+                    <bibl>
+                        <hi>Niccolucci, F. / Hermon, S.</hi> (2006). A Fuzzy Logic Approach to Reliability in Archaeological Virtual Reconstruction. 
+                        <hi>In:</hi> NICCOLUCCI, F. &amp; HERMON, S. (eds.) 
+                        <hi>Beyond the Artifact. Digital Interpretation of the Past.</hi> Budapest.
                     </bibl>
-                    <bibl rend="EndNote Bibliography">
-                        <hi rend="bold">Paul, G.</hi> (2006). Von der Historischen Bildkunde zur Visual History. 
-                        <hi rend="italic">Visual History. Ein Studienbuch.</hi> Göttingen.
+                    <bibl>
+                        <hi>Paul, G.</hi> (2006). Von der Historischen Bildkunde zur Visual History. 
+                        <hi>Visual History. Ein Studienbuch.</hi> Göttingen.
                     </bibl>
-                    <bibl rend="EndNote Bibliography">
-                        <hi rend="bold">Pérez-Gómez, A. / Pelletier, L.</hi> (1997). 
-                        <hi rend="italic">Architectural Representation and the Perspective Hinge, </hi>Cambridge, London, University Press.
+                    <bibl>
+                        <hi>Pérez-Gómez, A. / Pelletier, L.</hi> (1997). 
+                        <hi>Architectural Representation and the Perspective Hinge, </hi>Cambridge, London, University Press.
                     </bibl>
-                    <bibl rend="EndNote Bibliography">
-                        <hi rend="bold">Samuel, J./ Périnaud, C./ Servigne, S./ Georges, G. / Gesquirère, G.</hi> (2016). Representation and Visualization of Urban Fabric through Historical Documents. 
-                        <hi rend="italic">14th Eurographics Workshop on Graphics and Cultural Heritage 2016.</hi> Genua.
+                    <bibl>
+                        <hi>Samuel, J./ Périnaud, C./ Servigne, S./ Georges, G. / Gesquirère, G.</hi> (2016). Representation and Visualization of Urban Fabric through Historical Documents. 
+                        <hi>14th Eurographics Workshop on Graphics and Cultural Heritage 2016.</hi> Genua.
                     </bibl>
-                    <bibl rend="EndNote Bibliography">
-                        <hi rend="bold">Smirnov, A./ Kashevnik, A./ Shilov, N./ Teslya, N. / Shabaev, A.</hi> (2014). Mobile application for guiding tourist activities: Tourist assistant - TAIS. 
-                        <hi rend="italic">Conference of Open Innovation Association, FRUCT, 2014</hi>
-                        <hi rend="bold">,</hi> 95–100.
+                    <bibl>
+                        <hi>Smirnov, A./ Kashevnik, A./ Shilov, N./ Teslya, N. / Shabaev, A.</hi> (2014). Mobile application for guiding tourist activities: Tourist assistant - TAIS. 
+                        <hi>Conference of Open Innovation Association, FRUCT, 2014</hi>
+                        <hi>,</hi> 95–100.
                     </bibl>
-                    <bibl rend="EndNote Bibliography">
-                        <hi rend="bold">Tom Dieck, M. C. / Jung, T.</hi> (2015). A theoretical model of mobile augmented reality acceptance in urban heritage tourism. 
-                        <hi rend="italic">Curr. Issues Tour.,</hi> 3500
-                        <hi rend="bold">,</hi> 1-21.
+                    <bibl>
+                        <hi>Tom Dieck, M. C. / Jung, T.</hi> (2015). A theoretical model of mobile augmented reality acceptance in urban heritage tourism. 
+                        <hi>Curr. Issues Tour.,</hi> 3500
+                        <hi>,</hi> 1-21.
                     </bibl>
-                    <bibl rend="EndNote Bibliography">
-                        <hi rend="bold">Tom Dieck, M. C./ Jung, T. H. / Tom Dieck, D.</hi> (2016). Enhancing art gallery visitors’ learning experience using wearable augmented reality: generic learning outcomes perspective. 
-                        <hi rend="italic">Curr. Issues Tour.</hi>
-                        <hi rend="bold">,</hi> 1-21.
+                    <bibl>
+                        <hi>Tom Dieck, M. C./ Jung, T. H. / Tom Dieck, D.</hi> (2016). Enhancing art gallery visitors’ learning experience using wearable augmented reality: generic learning outcomes perspective. 
+                        <hi>Curr. Issues Tour.</hi>
+                        <hi>,</hi> 1-21.
                     </bibl>
-                    <bibl rend="EndNote Bibliography">
-                        <hi rend="bold">Walczak, K./ Cellary, W. / Prinke, A.</hi> (2011). Interactive Presentation of Archaeological Objects Using Virtual and Augmented Reality. 
-                        <hi rend="italic">In:</hi> JEREM, E., REDÖ, F. &amp; SZEVERÉNYI, V. (eds.) 
-                        <hi rend="italic">On the Road to Reconstructing the Past. Proceedings of the 36th International Conference on Computer Applications and Quantitative Methods in Archaeology (CAA).</hi> Budapest: Archaeolingua.
+                    <bibl>
+                        <hi>Walczak, K./ Cellary, W. / Prinke, A.</hi> (2011). Interactive Presentation of Archaeological Objects Using Virtual and Augmented Reality. 
+                        <hi>In:</hi> JEREM, E., REDÖ, F. &amp; SZEVERÉNYI, V. (eds.) 
+                        <hi>On the Road to Reconstructing the Past. Proceedings of the 36th International Conference on Computer Applications and Quantitative Methods in Archaeology (CAA).</hi> Budapest: Archaeolingua.
                     </bibl>
-                    <bibl rend="EndNote Bibliography">
-                        <hi rend="bold">Wohlfeil, R.</hi> (1986). Das Bild als Geschichtsquelle. 
-                        <hi rend="italic">Historische Zeitschrift,</hi> 243
-                        <hi rend="bold">,</hi> 91–100.
+                    <bibl>
+                        <hi>Wohlfeil, R.</hi> (1986). Das Bild als Geschichtsquelle. 
+                        <hi>Historische Zeitschrift,</hi> 243
+                        <hi>,</hi> 91–100.
                     </bibl>
-                    <bibl rend="EndNote Bibliography">
-                        <hi rend="bold">Yovcheva, Z./ Buhalis, D. / Gatzidis, C.</hi> (2012). Overview of smartphone augmented reality applications for tourism. 
-                        <hi rend="italic">e-Review of Tourism Research,</hi> 10
-                        <hi rend="bold">,</hi> 63–66.
+                    <bibl>
+                        <hi>Yovcheva, Z./ Buhalis, D. / Gatzidis, C.</hi> (2012). Overview of smartphone augmented reality applications for tourism. 
+                        <hi>e-Review of Tourism Research,</hi> 10
+                        <hi>,</hi> 63–66.
                     </bibl>
-                    <bibl rend="EndNote Bibliography">
-                        <hi rend="bold">Zaibon, S. B./ Pendit, U. C./ Aida, J. / Bakar, A.</hi> (Year) Published. User Requirements on Mobile AR for Cultural Heritage Site towards Enjoyable Informal Learning. Multimedia and Broadcasting (APMediaCast), 2015 Asia Pacific Conference, 2015. 23–25.
+                    <bibl>
+                        <hi>Zaibon, S. B./ Pendit, U. C./ Aida, J. / Bakar, A.</hi> (Year) Published. User Requirements on Mobile AR for Cultural Heritage Site towards Enjoyable Informal Learning. Multimedia and Broadcasting (APMediaCast), 2015 Asia Pacific Conference, 2015. 23–25.
                     </bibl>
-                    <bibl rend="EndNote Bibliography">
-                        <hi rend="bold">Zöllner, M./ Becker, M. / Keil, J.</hi> (2010). Snapshot Augmented Reality - Augmented Photography. 
-                        <hi rend="italic">In:</hi> ARTUSI, A., JOLY-PARVEX, M., LUCET, G., RIBES, A. &amp; PITZALIS, D. (eds.) 
-                        <hi rend="italic">11th International Symposium on Virtual Reality, Archaeology and Cultural Heritage (VAST 2010).</hi> Paris: Eurographics Association.
+                    <bibl>
+                        <hi>Zöllner, M./ Becker, M. / Keil, J.</hi> (2010). Snapshot Augmented Reality - Augmented Photography. 
+                        <hi>In:</hi> ARTUSI, A., JOLY-PARVEX, M., LUCET, G., RIBES, A. &amp; PITZALIS, D. (eds.) 
+                        <hi>11th International Symposium on Virtual Reality, Archaeology and Cultural Heritage (VAST 2010).</hi> Paris: Eurographics Association.
                     </bibl>
                 </listBibl>
             </div>

@@ -57,26 +57,26 @@
         </fileDesc>
         <encodingDesc>
             <appInfo>
-                <application ident="DHCONVALIDATOR" version="1.17">
+                <application>
                     <label>DHConvalidator</label>
                 </application>
             </appInfo>
         </encodingDesc>
         <profileDesc>
             <textClass>
-                <keywords scheme="ConfTool" n="category">
+                <keywords>
                     <term>Paper</term>
                 </keywords>
-                <keywords scheme="ConfTool" n="subcategory">
+                <keywords>
                     <term>Vortrag</term>
                 </keywords>
-                <keywords scheme="ConfTool" n="keywords">
+                <keywords>
                     <term>Robert Musil</term>
                     <term>Stylometry</term>
                     <term>Authorship Attribution</term>
                     <term>Short Texts</term>
                 </keywords>
-                <keywords scheme="ConfTool" n="topics">
+                <keywords>
                     <term>Stilistische Analyse</term>
                     <term>Literatur</term>
                     <term>Methoden</term>
@@ -87,10 +87,10 @@
     <text>
         <body>
             <p>Robert Musil, one of the most important authors of the twentieth-century German-written literature, fought in the Austrian army at the Italian front. During the First World War, between 1916 and 1917, Musil was chief editor of the 
-                <hi rend="italic">Tiroler Soldaten-Zeitung</hi> in Bozen. This activity has always been a philological problem for Musil scholars, who have not been able to attribute with certainty a range of texts to the author. However, their identification is fundamental in the study of his political thinking. With this paper, we present a new approach, that combines historical and philological research with stylometric methods.
+                <hi>Tiroler Soldaten-Zeitung</hi> in Bozen. This activity has always been a philological problem for Musil scholars, who have not been able to attribute with certainty a range of texts to the author. However, their identification is fundamental in the study of his political thinking. With this paper, we present a new approach, that combines historical and philological research with stylometric methods.
             </p>
             <p>The starting point for the determination of possible authorship is the screening of previous attempts. The number of articles attributed to Musil has so far varied extensively:</p>
-            <table rend="rules">
+            <table>
                 <row>
                     <cell>Attribution proposed by</cell>
                     <cell>Number of TSZ articles attributed to Musil</cell>
@@ -117,77 +117,53 @@
                 </row>
                 <row>
                     <cell>(Amann 
-                        <hi rend="italic">et al. </hi> 2009)
+                        <hi>et al. </hi> 2009)
                     </cell>
                     <cell>36</cell>
                 </row>
             </table>
             <p>We have limited our test set to the 38 TSZ articles listed by (Schaunig 2014), for which Musil’s authorship has been proposed at least once. The major problem for carrying out a stylometric analysis on this corpus is text length. As demonstrated by recent research, the minimum length for a reliable authorship attribution is around 5,000 words (see Eder 2015). However, the average length of the 38 disputed TSZ articles is slightly below 1,000 words (see Figure 1). As a possible solution for this issue, we decided to develop a combinatory design that analyzes longer chunks composed by the juxtaposition of single texts. To reduce the number of combinations, we excluded the nine shortest texts (below 500 word), together with the only text attributed to Musil on solid philological ground (see Corino 1973). This leaves us with a corpus of 28 texts, already digitized by (Amann 
-                <hi rend="italic">et al.</hi> 2009). The optimal configuration was obtained by combining groups of 6 texts. This permutation generated 376,740 text chunks with an average length of N=6,963 words and a standard deviation of 909 words.
+                <hi>et al.</hi> 2009). The optimal configuration was obtained by combining groups of 6 texts. This permutation generated 376,740 text chunks with an average length of N=6,963 words and a standard deviation of 909 words.
             </p>
             <figure>
-                <graphic n="1001"
-                     width="15.980833333333333cm"
-                     height="13.700125cm"
-                     url="Pictures/image1.jpeg"
-                     rend="inline"/>
+                <graphic/>
             </figure>
             <p>Figure 1. Test set composition</p>
             <p>As for the composition of the training set, we 
-                <hi rend="short_text">drew both on the “impostors method” (see Koppel / Winter 2014) and on historiographical research. Following (Juola 2015), we fixed the number of “impostors” to a minimum of three: Franz Blei, Franz Kafka, and Stefan Zweig. Subsequently, we selected three authors suggested by (Urbaner 2001) as possible TSZ collaborators: Marie delle Grazie, Hugo Salus, and Albert Ritter (his texts were not available in digitized format, so we OCRed and manually refined them). The training set was then completed by a selection of articles published by Musil in various journals between 1911 and 1919. For each author, the retrieved material was subdivided in three text chunks with a length comprised between 6,000 and 8,000 words: the training set was thus composed by 21 text chunks (see Figure 2).</hi>
+                <hi>drew both on the “impostors method” (see Koppel / Winter 2014) and on historiographical research. Following (Juola 2015), we fixed the number of “impostors” to a minimum of three: Franz Blei, Franz Kafka, and Stefan Zweig. Subsequently, we selected three authors suggested by (Urbaner 2001) as possible TSZ collaborators: Marie delle Grazie, Hugo Salus, and Albert Ritter (his texts were not available in digitized format, so we OCRed and manually refined them). The training set was then completed by a selection of articles published by Musil in various journals between 1911 and 1919. For each author, the retrieved material was subdivided in three text chunks with a length comprised between 6,000 and 8,000 words: the training set was thus composed by 21 text chunks (see Figure 2).</hi>
             </p>
             <figure>
-                <graphic n="1002"
-                     width="16.003763888888887cm"
-                     height="20.0025cm"
-                     url="Pictures/image2.jpeg"
-                     rend="inline"/>
+                <graphic/>
             </figure>
             <p>Figure 2. Training set</p>
             <p>
-                <hi rend="short_text">The analysis was carried out using the R package 
-                    <hi rend="italic">Stylo</hi> (see Eder / Rybicki / Kestemont 2016). For each iteration, the distances between test set and training set were saved in the tabular form provided by the package. At the end of the process, mean values were calculated by sub-grouping the combinations by each TSZ text. Notwithstanding the employment of a high-standard computational power (provided by GWDG, University of Göttingen), a first experiment using 50–500 most frequent words (MFW) and Burrows’s Delta distance took more than one week to be completed (see Figure 3). However, when repeating the experiment with only one-tenth of the combinations (i.e. 
+                <hi>The analysis was carried out using the R package 
+                    <hi>Stylo</hi> (see Eder / Rybicki / Kestemont 2016). For each iteration, the distances between test set and training set were saved in the tabular form provided by the package. At the end of the process, mean values were calculated by sub-grouping the combinations by each TSZ text. Notwithstanding the employment of a high-standard computational power (provided by GWDG, University of Göttingen), a first experiment using 50–500 most frequent words (MFW) and Burrows’s Delta distance took more than one week to be completed (see Figure 3). However, when repeating the experiment with only one-tenth of the combinations (i.e. 
                 </hi>37,674 iterations, randomly selected), results were rather identical (see Figure 4) and the process took less than one day. When the experiment was repeated without any combination, results were extremely noisier (see Figure 5), thus confirming that the combinatory design was able to better discern authorial signals.
             </p>
             <figure>
-                <graphic n="1003"
-                     width="15.980833333333333cm"
-                     height="19.173472222222223cm"
-                     url="Pictures/image3.jpeg"
-                     rend="inline"/>
+                <graphic/>
             </figure>
             <p>Figure 3. Combinatory design results</p>
             <figure>
-                <graphic n="1004"
-                     width="15.980833333333333cm"
-                     height="19.178763888888888cm"
-                     url="Pictures/image4.jpeg"
-                     rend="inline"/>
+                <graphic/>
             </figure>
             <p>Figure 4. Combinatory design results (one-tenth iterations)</p>
             <figure>
-                <graphic n="1005"
-                     width="15.980833333333333cm"
-                     height="19.178763888888888cm"
-                     url="Pictures/image5.jpeg"
-                     rend="inline"/>
+                <graphic/>
             </figure>
             <p>Figure 5. Results without combinatory design</p>
             <p>To validate the results, the experiment has been repeated with 16 different configurations, by combining Eder’s Delta, Burrow’s Delta, Canberra, and Cosine distances with 10–100, 20–200, 50–500, and 100–1,000 MFW. In all configurations, Ritter and Musil are the only authors disputing the authorship of the TSZ articles. This evidence has been corroborated by the discovery of a document in the 
-                <hi rend="italic">Kriegsarchiv </hi>in Wien, which confirms that Albert Ritter was part of the TSZ editorial team (see Figure 6).
+                <hi>Kriegsarchiv </hi>in Wien, which confirms that Albert Ritter was part of the TSZ editorial team (see Figure 6).
             </p>
             <figure>
-                <graphic n="1006"
-                     width="15.993180555555556cm"
-                     height="6.6675cm"
-                     url="Pictures/image6.jpeg"
-                     rend="inline"/>
+                <graphic/>
             </figure>
             <p>Figure 6. Source: 
-                <hi rend="italic">Kriegsarchiv</hi>, Wien
+                <hi>Kriegsarchiv</hi>, Wien
             </p>
             <p>Final results have been synthetized here:</p>
-            <table rend="rules">
+            <table>
                 <row>
                     <cell>TSZ articles’ titles and dates of publication</cell>
                     <cell>Agreement between classifiers on Musil’s authorship</cell>
@@ -195,7 +171,7 @@
                 <row>
                     <cell>1. „Kameraden arbeitet mit!“ (6. 8. 1916)</cell>
                     <cell>
-                        <anchor xml:id="Hlk493164864"/>100,00%
+                        <anchor/>100,00%
                     </cell>
                 </row>
                 <row>
@@ -309,93 +285,93 @@
             </table>
             <p>A general trend is evident: while, for the articles published in 1916, Musil’s authorship is almost unquestionable, many more doubts emerge with the articles published in 1917. In no case, however, Ritter’s signal becomes dominant. Notwithstanding the high margins of uncertainty, these results are to be considered as significant for multiple reasons. First, the combinatory design, while having shown the dominance of Musil’s signal throughout the test set, may have overshadowed different, minor signals. Second, it should be considered the fact that Musil, in the role of chief editor, may have altered many articles in the journal, thus intermixing his authorial signal with those of others. All this considered, further research is advisable, while the focus should be shifted towards the texts on which classifiers disagree.</p>
             <p>Among possible future developments of the research, is the definition of new training sets to validate the results and an expansion of the test set. Both these developments, however, will require an extensive digitization effort: most of the useful texts, in fact, are not available in a clean plain-text format. In addition, other software should be tested on the already defined corpus, from JGAAP (see Juola 
-                <hi rend="italic">et al. </hi>2008) to the CLEF/PAN software (see Stamatatos 
-                <hi rend="italic">et al.</hi> 2014), focusing specifically on different methods for authorship attribution, from lower-level features such as character n-grams (see Halvani 
-                <hi rend="italic">et al. </hi>2016), to higher-level features such as syntactic labels (see Hirst / Feiguina 2007), taking into consideration also machine-learning techniques (see Jockers / Witten 2010). With our study, we hope to have cast the groundwork for a research that can have long-lasting consequences on the history of German literature, confirming at the same time how quantitative methods are not in opposition, but complementary to qualitative analysis (see Herrmann 2018).
+                <hi>et al. </hi>2008) to the CLEF/PAN software (see Stamatatos 
+                <hi>et al.</hi> 2014), focusing specifically on different methods for authorship attribution, from lower-level features such as character n-grams (see Halvani 
+                <hi>et al. </hi>2016), to higher-level features such as syntactic labels (see Hirst / Feiguina 2007), taking into consideration also machine-learning techniques (see Jockers / Witten 2010). With our study, we hope to have cast the groundwork for a research that can have long-lasting consequences on the history of German literature, confirming at the same time how quantitative methods are not in opposition, but complementary to qualitative analysis (see Herrmann 2018).
             </p>
         </body>
         <back>
-            <div type="bibliogr">
+            <div>
                 <listBibl>
                     <head>Bibliography</head>
                     <bibl>
-                        <hi rend="bold">Amann, Klaus / Corino, Karl / Fanta, Walter </hi>(2009): 
-                        <hi rend="italic">Robert Musil, Klagenfurter Ausgabe. </hi>Klagenfurt: Robert Musil-Institut der Universität Klagenfurt.
+                        <hi>Amann, Klaus / Corino, Karl / Fanta, Walter </hi>(2009): 
+                        <hi>Robert Musil, Klagenfurter Ausgabe. </hi>Klagenfurt: Robert Musil-Institut der Universität Klagenfurt.
                     </bibl>
                     <bibl>
-                        <hi rend="bold">Arntzen, Helmut</hi> (1980): 
-                        <hi rend="italic">Musil-Kommentar sämtlicher zu Lebzeiten erschienener Schriften außer dem Roman “Der Mann ohne Eigenschaften”</hi>. München: Winkler.
+                        <hi>Arntzen, Helmut</hi> (1980): 
+                        <hi>Musil-Kommentar sämtlicher zu Lebzeiten erschienener Schriften außer dem Roman “Der Mann ohne Eigenschaften”</hi>. München: Winkler.
                     </bibl>
                     <bibl>
-                        <hi rend="bold">Corino, Karl</hi> (1973): “Robert Musil, Aus der Geschichte eines Regiments”, in: Studi Germanici 11: 109–115.
+                        <hi>Corino, Karl</hi> (1973): “Robert Musil, Aus der Geschichte eines Regiments”, in: Studi Germanici 11: 109–115.
                     </bibl>
                     <bibl>
-                        <hi rend="bold">Corino, Karl</hi> (2003): 
-                        <hi rend="italic">Robert Musil: eine Biographie</hi>, Reinbek bei Hamburg: Rowohlt.
+                        <hi>Corino, Karl</hi> (2003): 
+                        <hi>Robert Musil: eine Biographie</hi>, Reinbek bei Hamburg: Rowohlt.
                     </bibl>
                     <bibl>
-                        <hi rend="bold">Corino, Karl</hi> (2010): “Klaviersonnen über Schluchten des Gemüts. Robert Musil und die Musik”, in: 
-                        <hi rend="italic">Das Plateau</hi> 120: 4–21.
+                        <hi>Corino, Karl</hi> (2010): “Klaviersonnen über Schluchten des Gemüts. Robert Musil und die Musik”, in: 
+                        <hi>Das Plateau</hi> 120: 4–21.
                     </bibl>
                     <bibl>
-                        <hi rend="bold">Dinklage, Karl</hi> (1960): 
-                        <hi rend="italic">Robert Musil. Leben, Werk, Wirkung</hi>, Zürich.
+                        <hi>Dinklage, Karl</hi> (1960): 
+                        <hi>Robert Musil. Leben, Werk, Wirkung</hi>, Zürich.
                     </bibl>
                     <bibl>
-                        <hi rend="bold">Eder, Maciej / Kestemont, Mike / Rybicki, Jan </hi>(2016): “Stylometry with R: a package for computational text analysis”, in: 
-                        <hi rend="italic">R Journal</hi> 8(1): 107–121.
+                        <hi>Eder, Maciej / Kestemont, Mike / Rybicki, Jan </hi>(2016): “Stylometry with R: a package for computational text analysis”, in: 
+                        <hi>R Journal</hi> 8(1): 107–121.
                     </bibl>
                     <bibl>
-                        <hi rend="bold">Eder, Maciej</hi> (2015): “Does size matter? Authorship attribution, small samples, big problem”, in: 
-                        <hi rend="italic">Digital Scholarship in the Humanities</hi> 30(2): 167–182.
+                        <hi>Eder, Maciej</hi> (2015): “Does size matter? Authorship attribution, small samples, big problem”, in: 
+                        <hi>Digital Scholarship in the Humanities</hi> 30(2): 167–182.
                     </bibl>
                     <bibl>
-                        <hi rend="bold">Fontanari, Alessandro / Libardi, Massimo </hi>(1987): 
-                        <hi rend="italic">La guerra parallela</hi>. Trento: Reverdito.
+                        <hi>Fontanari, Alessandro / Libardi, Massimo </hi>(1987): 
+                        <hi>La guerra parallela</hi>. Trento: Reverdito.
                     </bibl>
                     <bibl>
-                        <hi rend="bold">Halvani, Oren / Winter, Christian / Pflug, Anika</hi> (2016): “Authorship verification for different languages, genres and topics”, in: 
-                        <hi rend="italic">Digital Investigation</hi> 16: 33–43.
+                        <hi>Halvani, Oren / Winter, Christian / Pflug, Anika</hi> (2016): “Authorship verification for different languages, genres and topics”, in: 
+                        <hi>Digital Investigation</hi> 16: 33–43.
                     </bibl>
                     <bibl>
-                        <hi rend="bold">Herrmann, J. Berenike</hi> (2018): “In test bed with Kafka. Introducing a mixed-method approach to digital stylistics”, in: 
-                        <hi rend="italic">Digital Humanities Quarterly</hi> [in press].
+                        <hi>Herrmann, J. Berenike</hi> (2018): “In test bed with Kafka. Introducing a mixed-method approach to digital stylistics”, in: 
+                        <hi>Digital Humanities Quarterly</hi> [in press].
                     </bibl>
                     <bibl>
-                        <hi rend="bold">Hirst, Graeme / Feiguina, Ol’ga</hi> (2007): “Bigrams of syntactic labels for authorship discrimination of short texts”, in: 
-                        <hi rend="italic">Literary and Linguistic Computing</hi> 22(4): 405–417.
+                        <hi>Hirst, Graeme / Feiguina, Ol’ga</hi> (2007): “Bigrams of syntactic labels for authorship discrimination of short texts”, in: 
+                        <hi>Literary and Linguistic Computing</hi> 22(4): 405–417.
                     </bibl>
                     <bibl>
-                        <hi rend="bold">Jockers, Mattew / Witten, Daniela </hi>(2010): “A comparative study of machine learning methods for authorship attribution”, in: 
-                        <hi rend="italic">Literary and Linguistic Computing</hi> 25(2): 215–223.
+                        <hi>Jockers, Mattew / Witten, Daniela </hi>(2010): “A comparative study of machine learning methods for authorship attribution”, in: 
+                        <hi>Literary and Linguistic Computing</hi> 25(2): 215–223.
                     </bibl>
                     <bibl>
-                        <hi rend="bold">Juola, Patrick / Noecker, John / Ryan, Mike / Zhao, Mengjia</hi> (2008): “JGAAP3.0 – authorship attribution for the rest of us”, in: 
-                        <hi rend="italic">Digital Humanities 2008: Book of Abstracts</hi>: 250–251.
+                        <hi>Juola, Patrick / Noecker, John / Ryan, Mike / Zhao, Mengjia</hi> (2008): “JGAAP3.0 – authorship attribution for the rest of us”, in: 
+                        <hi>Digital Humanities 2008: Book of Abstracts</hi>: 250–251.
                     </bibl>
                     <bibl>
-                        <hi rend="bold">Juola, Patrick</hi> (2015): “The Rowling Case: A Proposed Standard Analytic Protocol for Authorship Questions”, in: 
-                        <hi rend="italic">Digital Scholarship in the Humanities</hi> 30: 100–113.
+                        <hi>Juola, Patrick</hi> (2015): “The Rowling Case: A Proposed Standard Analytic Protocol for Authorship Questions”, in: 
+                        <hi>Digital Scholarship in the Humanities</hi> 30: 100–113.
                     </bibl>
                     <bibl>
-                        <hi rend="bold">Koppel, Moshe / Winter Yaron</hi> (2014): “Determining if two documents are by the same author”, in: JASIST 65(1): 178-187.
+                        <hi>Koppel, Moshe / Winter Yaron</hi> (2014): “Determining if two documents are by the same author”, in: JASIST 65(1): 178-187.
                     </bibl>
                     <bibl>
-                        <hi rend="bold">Roth, Marie-Louise</hi> (1972): 
-                        <hi rend="italic">Robert Musil. Ethik und Ästhetik</hi>. München: List.
+                        <hi>Roth, Marie-Louise</hi> (1972): 
+                        <hi>Robert Musil. Ethik und Ästhetik</hi>. München: List.
                     </bibl>
                     <bibl>
-                        <hi rend="bold">Schaunig, Regina</hi> (2014): 
-                        <hi rend="italic">Der Dichter im Dienst des Generals. Robert Musils Propagandaschriften im ersten Weltkrieg</hi>. Klagenfurt: Kitab.
+                        <hi>Schaunig, Regina</hi> (2014): 
+                        <hi>Der Dichter im Dienst des Generals. Robert Musils Propagandaschriften im ersten Weltkrieg</hi>. Klagenfurt: Kitab.
                     </bibl>
                     <bibl>
-                        <hi rend="bold">Stamatatos, Efstathios / Daelemans, Walter / Verhoeven, Ben / Potthast, Martin / Stein, Benno / Juola, Patrick / Sanchez-Perez, Miguel A. / Barrón-Cedeño, Alberto</hi> (2014): “Overview of the Author Identification Task at PAN 2014
-                        <anchor xml:id="Hlk493150859"/>”, in: 
-                        <hi rend="italic">CLEF 2014 (Working Notes)</hi>: 877-897.
+                        <hi>Stamatatos, Efstathios / Daelemans, Walter / Verhoeven, Ben / Potthast, Martin / Stein, Benno / Juola, Patrick / Sanchez-Perez, Miguel A. / Barrón-Cedeño, Alberto</hi> (2014): “Overview of the Author Identification Task at PAN 2014
+                        <anchor/>”, in: 
+                        <hi>CLEF 2014 (Working Notes)</hi>: 877-897.
                     </bibl>
                     <bibl>
-                        <hi rend="bold">Urbaner, Roman</hi> (2001): “‘... daran zugrunde gegangen, daß sie Tagespolitik treiben wollte‘? Die ‚(Tiroler) Soldaten-Zeitung‘ 1915-1917”, in: 
-                        <hi rend="italic">eForum zeitGeschichte</hi> 3/4. www.eforum-zeitgeschichte.at [accessed 14.09.2017]
+                        <hi>Urbaner, Roman</hi> (2001): “‘... daran zugrunde gegangen, daß sie Tagespolitik treiben wollte‘? Die ‚(Tiroler) Soldaten-Zeitung‘ 1915-1917”, in: 
+                        <hi>eForum zeitGeschichte</hi> 3/4. www.eforum-zeitgeschichte.at [accessed 14.09.2017]
                     </bibl>
                 </listBibl>
             </div>

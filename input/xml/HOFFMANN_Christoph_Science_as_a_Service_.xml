@@ -3,9 +3,9 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title type="full">
-                    <title type="main">Science as a Service?</title>
-                    <title type="sub"> Chancen und Limits von serviceorientierten Softwarearchitekturen für die Digital Humanities</title>
+                <title>
+                    <title>Science as a Service?</title>
+                    <title> Chancen und Limits von serviceorientierten Softwarearchitekturen für die Digital Humanities</title>
                 </title>
                 <author>
                     <persName>
@@ -36,23 +36,23 @@
         </fileDesc>
         <encodingDesc>
             <appInfo>
-                <application ident="DHCONVALIDATOR" version="1.17">
+                <application>
                     <label>DHConvalidator</label>
                 </application>
             </appInfo>
         </encodingDesc>
         <profileDesc>
             <textClass>
-                <keywords scheme="ConfTool" n="category">
+                <keywords>
                     <term>Paper</term>
                 </keywords>
-                <keywords scheme="ConfTool" n="subcategory">
+                <keywords>
                     <term>Poster</term>
                 </keywords>
-                <keywords scheme="ConfTool" n="keywords">
+                <keywords>
                     <term>REST API</term>
                 </keywords>
-                <keywords scheme="ConfTool" n="topics">
+                <keywords>
                     <term>Teilen</term>
                     <term>Programmierung</term>
                     <term>Webentwicklung</term>
@@ -70,17 +70,17 @@
             <p>Das Poster soll zum einen den Katalog und die Sandbox als Tools präsentieren, zum anderen erste Ergebnisse der Standardisierung von APIs zur Diskussion stellen. Eine Debatte zu den oben genannten Fragen soll dem Vorhaben eine noch breitere Grundlage bei der Erstellung des White Papers geben.</p>
         </body>
         <back>
-            <div type="bibliogr">
+            <div>
                 <listBibl>
                     <head>Bibliographie</head>
                     <bibl>[1] 
-                        <ref target="http://digitalhumanities.berkeley.edu/blog/15/05/01/project-sustainability-dh-collaboration-and-community">http://digitalhumanities.berkeley.edu/blog/15/05/01/project-sustainability-dh-collaboration-and-community</ref> - 14.1.2018
+                        <ref>http://digitalhumanities.berkeley.edu/blog/15/05/01/project-sustainability-dh-collaboration-and-community</ref> - 14.1.2018
                     </bibl>
                     <bibl>[2] bspw https://github.com/OAI/OpenAPI-Specification oder 
-                        <ref target="http://jsonapi.org/">http://jsonapi.org/</ref> - 14.1.2018
+                        <ref>http://jsonapi.org/</ref> - 14.1.2018
                     </bibl>
                     <bibl>[3] http://www.hydra-cg.com/spec/latest/core/ und 
-                        <ref target="http://microformats.org/">http://microformats.org/</ref> - 14.1.2018
+                        <ref>http://microformats.org/</ref> - 14.1.2018
                     </bibl>
                 </listBibl>
             </div>

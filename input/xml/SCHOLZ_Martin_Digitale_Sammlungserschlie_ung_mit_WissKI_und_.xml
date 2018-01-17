@@ -3,9 +3,9 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title type="full">
-                    <title type="main">Digitale Sammlungserschließung mit WissKI und CIDOC CRM</title>
-                    <title type="sub"/>
+                <title>
+                    <title>Digitale Sammlungserschließung mit WissKI und CIDOC CRM</title>
+                    <title/>
                 </title>
                 <author>
                     <persName>
@@ -44,27 +44,27 @@
         </fileDesc>
         <encodingDesc>
             <appInfo>
-                <application ident="DHCONVALIDATOR" version="1.17">
+                <application>
                     <label>DHConvalidator</label>
                 </application>
             </appInfo>
         </encodingDesc>
         <profileDesc>
             <textClass>
-                <keywords scheme="ConfTool" n="category">
+                <keywords>
                     <term>Paper</term>
                 </keywords>
-                <keywords scheme="ConfTool" n="subcategory">
+                <keywords>
                     <term>Workshop</term>
                 </keywords>
-                <keywords scheme="ConfTool" n="keywords">
+                <keywords>
                     <term>WissKI</term>
                     <term>CIDOC CRM</term>
                     <term>Sammlungserschließung</term>
                     <term>Digitalisierung</term>
                     <term>Objekte im Netz</term>
                 </keywords>
-                <keywords scheme="ConfTool" n="topics">
+                <keywords>
                     <term>Sammlung</term>
                     <term>Modellierung</term>
                     <term>Kollaboration</term>
@@ -77,62 +77,62 @@
     <text>
         <body>
             <p>
-                <anchor xml:id="id_docs-internal-guid-5392ef94-b94a-0f4d-c8c7-b6a568b87aa3"/>Die systematische Erfassung und wissenschaftliche Erschließung einer Sammlung sind grundlegende Voraussetzungen, um ihr wissenschaftliches Potential sichtbar zu machen. Häufig aber fehlen Software-Lösungen und Know-How für eine flächendeckende Digitalisierung und Online-Präsenz.
+                <anchor/>Die systematische Erfassung und wissenschaftliche Erschließung einer Sammlung sind grundlegende Voraussetzungen, um ihr wissenschaftliches Potential sichtbar zu machen. Häufig aber fehlen Software-Lösungen und Know-How für eine flächendeckende Digitalisierung und Online-Präsenz.
             </p>
             <p>Dieser Workshop führt anhand praktischer Beispiele in die digitale Sammlungsarbeit mit WissKI und in die Modellierung mit dem CIDOC Conceptual Reference Model (CRM) ein. Durch die praktische Arbeit lernen die Teilnehmer die im Projekt „Objekte im Netz" bereitgestellte Modellierung sowie die Konfiguration der Virtuellen Forschungsumgebung (VFU) für universitäre Sammlungen kennen.</p>
-            <div type="div1" rend="DH-Heading1">
+            <div>
                 <head>Erschließung und Digitalisierung von Sammlungen</head>
                 <p>Neben Museen beherbergen auch Universitäten einen großen Schatz an Sammlungen, die der Wissenschaftsrat 2011 „als wertvolle Infrastruktur für [...] Forschung” mit „beachtliche[m] wissenschaftliche[n] Potential” identifiziert hat.
-                    <note xml:id="ftn1" place="foot" n="1"> Vgl. „Empfehlungen zu wissenschaftlichen Sammlungen als Forschungsinfrastrukturen”, Verfügbar unter: 
-                        <ptr target="https://www.wissenschaftsrat.de/download/archiv/10464-11.pdf"/>) [letzter Zugriff: 10. Januar 2018]
+                    <note> Vgl. „Empfehlungen zu wissenschaftlichen Sammlungen als Forschungsinfrastrukturen”, Verfügbar unter: 
+                        <ptr/>) [letzter Zugriff: 10. Januar 2018]
                     </note> Allein in Deutschland existieren rund 1000 Sammlungen an über 80 Universitäten.
-                    <note xml:id="ftn2" place="foot" n="2"> Kennzahlen zu den folgenden Aussagen sind verfügbar unter: 
-                        <ptr target="https://portal.wissenschaftliche-sammlungen.de/kennzahlen"/>/ [letzter Zugriff: 10. Januar 2018]
+                    <note> Kennzahlen zu den folgenden Aussagen sind verfügbar unter: 
+                        <ptr/>/ [letzter Zugriff: 10. Januar 2018]
                     </note> Zwar sind darunter auch renommierte Sammlungen, doch leidet das Gros an unzureichender Erschließung, Sichtbarkeit, Betreuung, Pflege oder Unterbringung.
-                    <note xml:id="ftn3" place="foot" n="3">
-                        <anchor xml:id="id_docs-internal-guid-5392ef94-b962-c408-911e-ec8242784d66"/> siehe Fußnote 1
+                    <note>
+                        <anchor/> siehe Fußnote 1
                     </note> Auch bei der Digitalisierung gibt es enormen Aufholbedarf: Lediglich ein Drittel der Sammlungen sind digital zugänglich. Grund dafür sind u.a. auch das Fehlen von Software-Lösungen und Know-how für eine flächendeckende Digitalisierung und Online-Präsenz.
                 </p>
                 <p>Seit einigen Jahren gibt es vermehrt Anstrengungen, universitäre Sammlungen aus ihrem Dornröschenschlaf zu wecken und sie zu einer wichtigen Ergänzung objektgebundener Forschung und Lehre weiter zu entwickeln. Dies drückt sich unter anderem in deutschlandweiten Förderprogrammen aus, wie etwa der „Allianz für universitäre Sammlungen” des Bundesministeriums für Bildung und Forschung. Das darin geförderte Projekt „Objekte im Netz”
-                    <note xml:id="ftn4" place="foot" n="4">
-                        <anchor xml:id="id_docs-internal-guid-5392ef94-b963-dc0a-8780-317aedc2ff32"/>Das Projekt wird vom Bundesministerium für Bildung und Forschung von 2017 bis 2020 im Rahmen der Förderlinie „Vernetzen - Erschließen - Forschen. Allianz für universitäre Sammlungen” gefördert. Mehr Informationen unter URL: 
-                        <ptr target="http://objekte-im-netz.fau.de/"/> [letzter Zugriff: 10. Januar 2018]
+                    <note>
+                        <anchor/>Das Projekt wird vom Bundesministerium für Bildung und Forschung von 2017 bis 2020 im Rahmen der Förderlinie „Vernetzen - Erschließen - Forschen. Allianz für universitäre Sammlungen” gefördert. Mehr Informationen unter URL: 
+                        <ptr/> [letzter Zugriff: 10. Januar 2018]
                     </note> konzentriert sich auf die Digitalisierung universitärer Sammlungen und entwickelt in einer Kooperation zwischen der Friedrich-Alexander-Universität Erlangen-Nürnberg (FAU) und dem Germanischen Nationalmuseum Nürnberg (GNM) eine gemeinsame Erschließungs- und Digitalisierungsstrategie für die Sammlungen der FAU, um die wissenschaftliche Nutzbarkeit der reichhaltigen Bestände zu verbessern.
                 </p>
                 <p>Im Fokus stehen jedoch nicht einzelne Sammlungen oder Fachbereiche, sondern die Bereitstellung von Software-Werkzeugen und Lösungswegen, um die digitale Erschließung und Verfügbarkeit an breiter Front voranzutreiben. Die über 20 Sammlungen der FAU bilden dabei eine äußerst heterogene Entwicklungs- und Testlandschaft, um Lösungen zu erarbeiten, die über die FAU hinaus anwendbar sind. Die nötige Generizität der Ansätze und die Nachhaltigkeit sind daher zentrale Herausforderungen, wobei bei letzterem die langfristige Interpretierbarkeit der Daten im Blickpunkt des Projekts steht. Daneben müssen die meist knappen personellen und finanziellen Mittel berücksichtigt werden.</p>
                 <p>Als besonders geeignet zur Umsetzung der Ziele erscheinen auf technischer Seite Lösungen, die unter freien Lizenzen (Open Source) zur Verfügung stehen und die Ideen des Semantic Web implementieren: Flexible Wissensnetze mit klar definierter Semantik, die weltweit – und damit auch sammlungsübergreifend – verknüpft werden können. Das Projekt erweitert daher die virtuelle Forschungs- und Dokumentationsumgebung WissKI
-                    <note xml:id="ftn0" place="foot" n="5"> WissKI (=„Wissenschaftliche KommunikationsInfrastruktur, URL: 
-                        <ref target="file:///h">http://wiss-ki.eu/</ref>[letzter Zugriff: 10. Januar 2018]) basiert auf dem Open-Source Content Management System Drupal (URL: 
-                        <ref target="file:///h">http://drupal.org/</ref>[letzter Zugriff: 10. Januar 2018]) und wurde in Zusammenarbeit zwischen dem Germanischen Nationalmuseum, Nürnberg, dem Zoologischen Forschungsmuseum Alexander Koenig, Bonn und der Friedrich-Alexander- Universität Erlangen-Nürnberg entwickelt.
+                    <note> WissKI (=„Wissenschaftliche KommunikationsInfrastruktur, URL: 
+                        <ref>http://wiss-ki.eu/</ref>[letzter Zugriff: 10. Januar 2018]) basiert auf dem Open-Source Content Management System Drupal (URL: 
+                        <ref>http://drupal.org/</ref>[letzter Zugriff: 10. Januar 2018]) und wurde in Zusammenarbeit zwischen dem Germanischen Nationalmuseum, Nürnberg, dem Zoologischen Forschungsmuseum Alexander Koenig, Bonn und der Friedrich-Alexander- Universität Erlangen-Nürnberg entwickelt.
                     </note> zu einem Werkzeug für die digitale Sammlungserschließung und stellt auf verschiedene Sammlungsbereiche abgestimmte Konfigurationen der Software sowie Leitfäden zur Verfügung. Für die standardisierte semantische Auszeichnung der Daten kommt das CIDOC Conceptual Reference Model (CRM) zum Einsatz.
                 </p>
                 <p>Aufgrund einer erfolgreichen Pilotstudie kann das Projekt bereits auf erste Ergebnisse verweisen. Im Rahmen des Workshops wird die bereits publizierte generische Konfiguration vorgestellt und von den Teilnehmern angewandt.</p>
             </div>
-            <div type="div1" rend="DH-Heading1">
+            <div>
                 <head>Die Werkzeuge - WissKI und CIDOC CRM</head>
                 <p>Semantische Technologien - im Speziellen Semantic Web und Linked Open Data - erfreuen sich zunehmender Beliebtheit in den Digital Humanities. Für objektbasierte Forschung bieten die flexible, netzwerkartige Grundstruktur des Resource Description Framework (RDF) und darauf aufbauende Formate ein adäquates Mittel zur Repräsentation, Verwaltung und Publikation von (Meta-)Daten. Zahlreiche VFUs unterstützen das Erstellen von komplexen Wissensnetzen und deren Export in Tripelformaten. Wichtige Normdateien und Thesauri stehen als Linked Open Data zur Verfügung. Ontologien wie das CIDOC CRM bilden das semantische Rückgrat dieses Ansatzes und garantieren ein Mindestmaß an Interoperabilität und Datenaustausch, das über das klassische Verlinken von Web-Dokumenten hinausgeht.</p>
                 <p>
-                    <anchor xml:id="id_docs-internal-guid-877475c3-b944-4e7b-8d03-43f7c56cc8bd2"/>Wenngleich die Nutzung semantischer Technologien zunimmt, stellt der praktische Einsatz unerfahrene 
-                    <anchor xml:id="id_docs-internal-guid-877475c3-b944-4e7b-8d03-43f7c56cc8bd1"/>oder wenig technikaffine 
-                    <anchor xml:id="id_docs-internal-guid-877475c3-b944-4e7b-8d03-43f7c56cc8bd"/>Nutzer meist vor große Herausforderungen. Dies gilt weniger für die Beherrschung bestimmter Formate und Werkzeuge als vielmehr für die semantische Modellierung der Daten, d.h. die Erstellung von und den richtigen Umgang mit Ontologien. Da hierbei die Bedeutung der Daten formalisiert niedergelegt wird, ist mitunter ein gehöriges Maß an Wissen über einen Anwendungs-/Fachbereich erforderlich, um Modellierungsfehler zu vermeiden und so eine spätere korrekte Interpretation zu gewährleisten. Insbesondere das CIDOC CRM
-                    <note xml:id="ftn5" place="foot" n="6">
-                        <anchor xml:id="id_docs-internal-guid-5392ef94-b964-6072-0052-3285a497835b"/>Das CIDOC CRM wurde vom International Committee for Documentation als Teil des International Council of Museums (ICOM) als formale Referenzontologie erarbeitet und ist seit 2006 als ISO Norm (ISO 21127) anerkannt. In der „Erlangen CRM“ (URL: 
-                        <ptr target="http://erlangen-crm.org/"/> [letzter Zugriff: 10. Januar 2018]) auf Basis der Web Ontology Language (OWL) liegt eine maschinenlesbare Version vor. Weitere Informationen zum CIDOC CRM unter URL: 
-                        <ptr target="http://cidoc-crm.org/"/> [letzter Zugriff: 10. Januar 2018].
+                    <anchor/>Wenngleich die Nutzung semantischer Technologien zunimmt, stellt der praktische Einsatz unerfahrene 
+                    <anchor/>oder wenig technikaffine 
+                    <anchor/>Nutzer meist vor große Herausforderungen. Dies gilt weniger für die Beherrschung bestimmter Formate und Werkzeuge als vielmehr für die semantische Modellierung der Daten, d.h. die Erstellung von und den richtigen Umgang mit Ontologien. Da hierbei die Bedeutung der Daten formalisiert niedergelegt wird, ist mitunter ein gehöriges Maß an Wissen über einen Anwendungs-/Fachbereich erforderlich, um Modellierungsfehler zu vermeiden und so eine spätere korrekte Interpretation zu gewährleisten. Insbesondere das CIDOC CRM
+                    <note>
+                        <anchor/>Das CIDOC CRM wurde vom International Committee for Documentation als Teil des International Council of Museums (ICOM) als formale Referenzontologie erarbeitet und ist seit 2006 als ISO Norm (ISO 21127) anerkannt. In der „Erlangen CRM“ (URL: 
+                        <ptr/> [letzter Zugriff: 10. Januar 2018]) auf Basis der Web Ontology Language (OWL) liegt eine maschinenlesbare Version vor. Weitere Informationen zum CIDOC CRM unter URL: 
+                        <ptr/> [letzter Zugriff: 10. Januar 2018].
                     </note>, das eine Top-Level-Ontologie für die Dokumentation kulturellen Erbes darstellt, steht immer wieder in der Kritik, für Einsteiger zu komplex zu sein.
                 </p>
                 <p>Die virtuelle Forschungs- und Dokumentationsumgebung WissKI nimmt sich dieser Herausforderung an. Die browserbasierte Software ist das Produkt aus zwei DFG-geförderten Projekten und entstand aus Anforderungen an die kooperative Forschung in Museen bzw. im Bereich des Kulturerbes und seiner Dokumentation im digitalen Medium. Zentraler Fokus von WissKI ist das vernetzte Arbeiten auf Basis semantischer Tiefenerschließung von Forschungsdaten. Eine Schlüsselrolle kommt hierbei dem CIDOC CRM zu, das um projektspezifische Anwendungsontologien erweitert werden kann.</p>
                 <p>Aus Nutzersicht ist das System an die tradierten Formen der Datenakquise und -präsentation angelehnt. Die Daten werden jedoch semantisch aufbereitet und nativ als RDF mitsamt Ontologie-Konstrukten gespeichert. Dem Nutzer werden so die Vorteile von Linked Open Data und Semantic Web zugänglich, ohne dass dieser sich mit technischen und ontologischen Details auseinandersetzen muss. Kern dieses Ansatzes ist eine Abbildung zwischen den tradierten, meist datensatz-basierten, tabellarischen Darstellungen und der graphbasierten Wissensrepräsentation, die die ontologiegestützte, formale Semantik der verwendeten Datenfelder beinhaltet. Diese Abbildung wird von einem inhaltlichen Administrator festgelegt und ist für die Nutzer standardmäßig nicht sichtbar. Die formale Semantik muss also nicht verstanden werden, um das System effektiv zu nutzen. Abbildungen oder Teile davon können zwischen verschiedenen Systemen wiederverwendet und erweitert werden, so dass sich Best-Practice-Modellierungen herausbilden.</p>
                 <p>Die Open-Source-Lizenzierung aller in diesem Workshop verwendeten Werkzeuge und Standards ist ein wichtiger Aspekt. Die kostenfreie Nutzung trägt zum einen der häufig angespannten finanziellen Situation universitärer Sammlungen Rechnung und ist zum anderen Bestandteil des partizipativen Konzepts: Anwender können die Materialien nutzen, sie an ihre Bedürfnisse anpassen und wiederum der Community zur Verfügung stellen.</p>
             </div>
-            <div type="div1" rend="DH-Heading1">
+            <div>
                 <head>Zielgruppe sowie Inhalt und Ziele des Workshops</head>
                 <p>Der Workshop richtet sich an alle, die mit Sammlungsobjekten oder mit Objekten des kulturellen Erbes im Allgemeinen arbeiten und diese digital dokumentieren oder erschließen. Auch spricht der Workshop interessierte Wissenschaftler an, die Objekte standardisiert dokumentieren und ihre Metadaten semantisch aufbereiten möchten. Es werden von den Teilnehmern keine Vorkenntnisse für die VFU WissKI oder das CIDOC CRM vorausgesetzt. </p>
                 <p>Der Workshop zeigt anhand praktischer Beispiele, wie Erfassungsschemata und -modi aus der universitären Sammlungslandschaft mithilfe der Referenzontologie CIDOC CRM und der VFU WissKI auf Objekte universitärer Sammlungen bzw. des kulturellen Erbes im Allgemeinen umgesetzt werden können. </p>
                 <p>Während des Workshops arbeiten die Teilnehmer mit ihrem eigenen WissKI-System, wahlweise einzeln oder in Kleingruppen. Dabei stehen weniger die informationstechnischen Details der Werkzeuge im Vordergrund. Vielmehr werden die nötigen Schritte bis zum effektiv einsetzbaren System vermittelt und durchgeführt. Angefangen bei der Installation und einigen grundlegenden Funktionalitäten, binden die Teilnehmer die vom Projekt „Objekte im Netz” angebotene Konfiguration zur Sammlungserschließung in WissKI ein und erhalten somit ein einsetzbares System mit standardisierten Eingabe- und Anzeigemöglichkeiten. Darauf aufbauend werden Möglichkeiten der einfachen Anpassung der semantischen Modellierung aufgezeigt und selbständig geübt. Das Erfassen von (selbst mitgebrachten) Datensätzen rundet die praktische Einführung ab.</p>
                 <p>Neben einer allgemeinen Einführung in das Arbeiten mit WissKI und der semantischen Dokumentation von Daten sind die Teilnehmer nach dem Workshop in der Lage, einfache Erfassungsmasken zu modellieren, Daten mit WissKI zu erfassen und zu recherchieren.</p>
             </div>
-            <div type="div1" rend="DH-Heading1">
+            <div>
                 <head>Kurzbiographien</head>
                 <p>Martin Scholz ist einer der Hauptentwickler der Virtuellen Forschungsumgebung WissKI. Er studierte Informatik und Sinologie an der Friedrich-Alexander-Universität Erlangen-Nürnberg. Nach seinem Diplom 2008 arbeitete er für die Arbeitsgemeinschaft Digital Humanities der FAU für das DFG-geförderte Projekt “Wissenschaftliche KommunikationsInfrastruktur” (WissKI). Seit 2017 engagiert er sich für die Digitalisierung der Sammlungen der FAU im Rahmen des BMBF-geförderten Projekts “Objekte im Netz”.</p>
                 <p>Seine Forschungsinteressen liegen in den Digital Humanities, insbesondere in den Bereichen Wissensrepräsentation, Semantic Web und Verarbeitung natürlicher Sprache.</p>

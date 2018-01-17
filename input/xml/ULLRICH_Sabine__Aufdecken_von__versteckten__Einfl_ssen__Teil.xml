@@ -3,9 +3,9 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title type="full">
-                    <title type="main"> Aufdecken von “versteckten” Einflüssen: Teil-Automatisierte Textgenetische Prozesse mit Methoden der Computerlinguistik und des Machine Learning</title>
-                    <title type="sub"/>
+                <title>
+                    <title> Aufdecken von “versteckten” Einflüssen: Teil-Automatisierte Textgenetische Prozesse mit Methoden der Computerlinguistik und des Machine Learning</title>
+                    <title/>
                 </title>
                 <author>
                     <persName>
@@ -52,27 +52,27 @@
         </fileDesc>
         <encodingDesc>
             <appInfo>
-                <application ident="DHCONVALIDATOR" version="1.17">
+                <application>
                     <label>DHConvalidator</label>
                 </application>
             </appInfo>
         </encodingDesc>
         <profileDesc>
             <textClass>
-                <keywords scheme="ConfTool" n="category">
+                <keywords>
                     <term>Paper</term>
                 </keywords>
-                <keywords scheme="ConfTool" n="subcategory">
+                <keywords>
                     <term>Poster</term>
                 </keywords>
-                <keywords scheme="ConfTool" n="keywords">
+                <keywords>
                     <term>Textgenese bei Editionen</term>
                     <term>Machine Learning</term>
                     <term>Ähnlichkeiten</term>
                     <term>Suchmaschine</term>
                     <term>automatisieren</term>
                 </keywords>
-                <keywords scheme="ConfTool" n="topics">
+                <keywords>
                     <term>Programmierung</term>
                     <term>Inhaltsanalyse</term>
                     <term>Kontextsetzung</term>
@@ -85,96 +85,96 @@
     </teiHeader>
     <text>
         <body>
-            <div type="div1" rend="DH-Heading">
+            <div>
                 <head>Einleitung</head>
                 <p>Am Beispiel von Ludwig Wittgensteins Nachlass (Pichler et al. 2009; Wittgenstein 1996) wird ein Tool vorgestellt und erläutert, welches die Digital Humanities durch einen computer-unterstützten Prozess für textgenetische Aufgaben bereichern soll. </p>
                 <p>Ludwig Wittgensteins Nachlass umfasst etwa 20.000 Seiten, in welchen er eine Menge Zitate aus der Weltliteratur verwendet, diese aber nicht notwendigerweise explizit als solche kennzeichnet. Es scheint, als verzichte Wittgenstein auf explizite Quellenangaben bei Autoren, von welchen er annimmt, sie seien Teil eines „allgemeinen” „kulturellen Horizonts“, und lässt bei seinen Zitaten in Fällen wie z.B. Goethe die Namen der Autoren weg.</p>
                 <p>In einer sinnvollen Zusammenarbeit im Rahmen der Digital Humanities kann die Informatik im Allgemeinen und die Computerlinguistik im Speziellen der Philologie unterstützende Werkzeuge anbieten, die dem Geisteswissenschaftler helfen sollte, derartige mühevolle Prozesse der Zitat-Aufdeckung teil-automatisieren zu können.</p>
-                <p>In diesem Poster wird ein Tool vorgestellt, welches dem Philologen mit Methoden des Machine Learning beim Aufspüren von Einflüssen aus Zitaten in textgenetischen Prozessen unterstützen kann, indem es erlaubt, „ähnliche”, d.h. potentielle Zitate vorzufiltern und zu sortieren, um diese im nächsten Schritt einer genaueren Untersuchung zu unterziehen.</p>
+                <p>In diesem Poster wird ein Tool vorgestellt, welches dem Philologen mit Methoden des Machine Learning beim Aufspüren von Einflüssen aus Zitaten in textgenetischen Prozessen unterstützen kann, indem es erlaubt, „ähnliche” Textabschnitte, d.h. potentielle Zitate, vorzufiltern und zu sortieren, um diese im nächsten Schritt einer genaueren Untersuchung zu unterziehen.</p>
             </div>
-            <div type="div1" rend="DH-Heading">
+            <div>
                 <head>Bezug zum aktuellen Forschungsstand</head>
-                <p>Die Plagiatsaufdeckung ist die Bestimmung von „ähnlichen“ Texten. Eine Möglichkeit zur Aufdeckung von Ähnlichkeiten ist dabei der Vergleich von syntaktischen Merkmalen zweier oder mehrerer Texte. Diese Charakteristika umfassen beispielsweise die Berücksichtigung von Part-of-Speech Tags, Lemmata und Wortpositionen (Ekbahl et al. 2012). Um zusätzlich modifizierte, aber dennoch semantisch gleiche Texte zu identifizieren, müssen auch Synonyme in Betracht gezogen werden (Abdalgader et al. 2010). Eine Vorverarbeitung, welche u.a. das Tokenisieren der Texte, die Entfernung von Stoppwörtern und eine Sprachidentifizierung beinhaltet, hilft zudem, redundante Wörter zu ignorieren und damit genauere Ergebnisse zu erzielen. Weitere Methoden zur Erkennung von ähnlichen Texten beinhalten u.a. subjektbasierte Graphen (Tomita et al., 2004) und 
-                    <hi rend="italic">Document Fingerprinting</hi> (Sadowski and Lewin, 2007; Kent et al. 2010). Überraschenderweise wurde bislang kein Versuch unternommen, die oben genannten linguistischen Features azs dem Bereich der Syntax und der Semantik zu kombinieren, um die Performanz der Ähnlichkeitssuche weiter zu verbessern. Dass eine solche Kombination sinnvoll ist und besonders gute Ergebnisse leisten kann, zeigt Ullrich (2017)
-                    <hi rend="color(#00000a)">.</hi>
+                <p>Die Plagiatsaufdeckung ist die Bestimmung von „ähnlichen“ Texten, d.h. die Aufdeckung von (ungekennzeichneten) Zitaten. Eine Möglichkeit zur Aufdeckung von Ähnlichkeiten ist dabei der Vergleich von syntaktischen Merkmalen zweier oder mehrerer Texte. Diese Charakteristika umfassen beispielsweise die Berücksichtigung von Part-of-Speech Tags, Lemmata und Wortpositionen (Ekbahl et al. 2012). Um zusätzlich modifizierte, aber dennoch semantisch gleiche Texte zu identifizieren, müssen auch Synonyme in Betracht gezogen werden (Abdalgader et al. 2010). Eine Vorverarbeitung, welche u.a. das Tokenisieren der Texte, die Entfernung von Stoppwörtern und eine Sprachidentifizierung beinhaltet, hilft zudem, redundante Wörter zu ignorieren und damit genauere Ergebnisse zu erzielen. Weitere Methoden zur Erkennung von ähnlichen Texten beinhalten u.a. subjektbasierte Graphen (Tomita et al., 2004) und 
+                    <hi>Document Fingerprinting</hi> (Sadowski and Lewin, 2007; Kent et al. 2010). Überraschenderweise wurde bislang kein Versuch unternommen, die oben genannten linguistischen Features aus dem Bereich der Syntax und der Semantik zu kombinieren, um die Performanz der Ähnlichkeitssuche weiter zu verbessern. Dass eine solche Kombination sinnvoll ist und besonders gute Ergebnisse leisten kann, zeigt Ullrich (2017)
+                    <hi>.</hi>
                 </p>
             </div>
-            <div type="div1" rend="DH-Heading">
+            <div>
                 <head>Forschungsproblem</head>
                 <p>Solche Ansätze könnten – durch entsprechende Umwidmung und in koordinierter Zusammenarbeit mit Philologen – in den Digital Humanities sinnvoll zur Anwendung gebracht werden, um textgenetische Prozesse teil-automatisiert zu unterstützen und Zeit für intensivere Analysen zu gewähren.</p>
-                <p>Ein Werkzeug, wie das oben beschriebene, kann zur Ähnlichkeitsbestimmung zwischen zwei gegebenen Texten verwendet werden. Die Idee ist, dieses bestehende Tool so umzufunktionieren, dass nicht nur die Ähnlichkeit 
-                    <hi rend="italic">einer </hi>gegebene Texteingabe mit 
-                    <hi rend="italic">einer</hi> anderen gegebenen Eingabe bestimmt werden kann, sondern eine 
-                    <hi rend="italic">Sortierung</hi> (
-                    <hi rend="italic">ranking</hi>) von ähnlichen Texten vorgenommen werden kann. Dabei wird eine 
-                    <hi rend="italic">Sammlung</hi> von Texten mit einer anderen 
-                    <hi rend="italic">Sammlung</hi> an Texten verglichen, um dann die potentiell ähnlichsten Texte aus dieser Vorsortierung in einer Art Hitliste auszugeben. Eine derartige Vorsortierung könnte es dem Philologen besonders erleichtern, potentielle Zitate, Einflüsse und Verweise eines Autors innerhalb seines Werkes und im Bezug auf die Literatur seiner Zeit aufzuspüren.
+                <p>Die Idee ist, das bestehende Tool zur Ähnlichkeitsbestimmung aus Ullrich (2017) so umzufunktionieren, dass nicht nur die Ähnlichkeit 
+                    <hi>einer </hi>gegebene Texteingabe mit 
+                    <hi>einer</hi> anderen gegebenen Eingabe bestimmt werden kann, sondern eine 
+                    <hi>Sortierung</hi> (
+                    <hi>ranking</hi>) von ähnlichen Texten vorgenommen werden kann. Zunächst werden dafür die Texte in kürzere Abschnitte – bei Wittgenstein „Bemerkungen“ genannt – geteit. Nun wird eine 
+                    <hi>Sammlung</hi> dieser Abschnitte mit einer anderen 
+                    <hi>Sammlung</hi> an Abschnitten verglichen, um dann die potentiell Ähnlichsten in einer Art Hitliste auszugeben. Eine derartige Vorsortierung könnte es dem Philologen besonders erleichtern, potentielle Zitate, Einflüsse und Verweise eines Autors innerhalb seines Werkes und im Bezug auf die Literatur seiner Zeit aufzuspüren.
                 </p>
                 <p>Es muss betont werden, dass mit einem derartigen Werkzeug die Arbeit des Philologen lediglich unterstützt aber keinesfalls ersetzt werden kann. Im Wesentlichen erlaubt eine teil-automatisierte Vorfilterung von „ähnlichen” Textstellen eine drastische Reduktion des „Suchraums“.</p>
-                <p>Um die Leistung eines Philologen wie Hans Biesenbach (2014) zu illustrieren: Wittgensteins Nachlass umfasst 20.000 Seiten. Rechnet man mit 5 Bemerkungen pro Seite und die angestrebte Ähnlichkeitssuche beschränkt sich auf 20.000 Seiten der „Weltliteratur” mit ebenfalls 5 Bemerkungen pro Seite, dann gäbe es mathematisch 100.000 x 100.000, also 10 Milliarden mögliche Beeinflussungen, die manuell zu prüfen wären. Selbst für besonders leistungsfähige Rechner werden hier Grenzen erreicht, die nach geeigneten NLP Methoden verlangen.</p>
+                <p>Um die Leistung eines Philologen wie Hans Biesenbach (2014) zu illustrieren: Wittgensteins Nachlass umfasst 20.000 Seiten. Rechnet man mit 5 Bemerkungen pro Seite und die angestrebte Ähnlichkeitssuche beschränkt sich auf 20.000 Seiten der „Weltliteratur” mit ebenfalls 5 Abschnitten pro Seite, dann gäbe es mathematisch 100.000 x 100.000, also 10 Milliarden mögliche Beeinflussungen, die manuell zu prüfen wären. Selbst für besonders leistungsfähige Rechner werden hier Grenzen erreicht, die nach geeigneten NLP Methoden verlangen.</p>
             </div>
-            <div type="div1" rend="DH-Heading">
+            <div>
                 <head>Angewendete Methode</head>
-                <p>Mit Hilfe computerlinguistischer Methoden berechnet man für jeden Absatz (Bemerkung) eines Textes seinen „charakteristischen” Vektor oder, intuitiv gesprochen, seinen linguistischen „Fingerabdruck”. Dieser automatisierte Prozess kann unabhängig im Voraus berechnet werden um spätere Prozesse zu vereinfachen und beschleunigen. Dieser „Fingerabdruck“ beinhaltet die oben genannten syntaktischen, sowie semantischen Informationen.</p>
-                <p>Wird eine Suchanfrage zum Auffinden ähnlicher Bemerkungen gestartet, lässt sich der charakteristische Vektor der eingegebenen Bemerkung berechnen und daraufhin die Vektoren mit dem geringsten Abstand im multi-dimensionalen Raum bestimmen. Diese Vektoren verweisen auf die ähnlichsten Bemerkungen, die dann dem Philologen zur genaueren Prüfung in einer Hitliste vorgeschlagen werden.</p>
+                <p>Mit Hilfe computerlinguistischer Methoden berechnet man für jeden Abschnitt eines Textes seinen „charakteristischen” Vektor oder, intuitiv gesprochen, seinen linguistischen „Fingerabdruck”. Dieser automatisierte Prozess kann unabhängig im Voraus berechnet werden um spätere Prozesse zu vereinfachen und beschleunigen. Dieser „Fingerabdruck“ beinhaltet die oben genannten syntaktischen, sowie semantischen Informationen.</p>
+                <p>Wird eine Suchanfrage zum Auffinden ähnlicher Abschnitte gestartet, lässt sich der charakteristische Vektor des eingegebenen Abschnitts berechnen und daraufhin die Vektoren mit dem geringsten Abstand im multi-dimensionalen Raum bestimmen. Diese Vektoren verweisen auf die ähnlichsten Textabschnitte, die dann dem Philologen zur genaueren Prüfung in einer Hitliste vorgeschlagen werden.</p>
                 <p>Die bereits erfolgreiche Ähnlichkeits
-                    <hi rend="italic">bestimmung</hi> in Ullrich (2017) soll zu einem Ähnlichkeits
-                    <hi rend="italic">rankingtool</hi>
-                    <hi rend="color(#00000a)"> </hi>weiterentwickelt werden, um sie vor allem für textgenetische Prozesse in digitalen Editionen nutzbar zu machen. Sobald diese Weiterentwicklung abgeschlossen ist, soll sie die Wittgenstein Advanced Search Tools (Hadersbeck et al. 2014) in der Suchmaschine WiTTFind (siehe: http://wittfind.cis.lmu.de) erweitern, welche am Centrum für Informations- und Sprachverarbeitung der Universität München entwickelt wurde.
+                    <hi>bestimmung</hi> in Ullrich (2017) soll zu einem Ähnlichkeits
+                    <hi>rankingtool</hi>
+                    <hi> </hi>weiterentwickelt werden, um sie vor allem für textgenetische Prozesse in digitalen Editionen nutzbar zu machen. Sobald diese Weiterentwicklung abgeschlossen ist, soll sie die Wittgenstein Advanced Search Tools (Hadersbeck et al. 2014) in der Suchmaschine WiTTFind (siehe: http://wittfind.cis.lmu.de) erweitern, welche am Centrum für Informations- und Sprachverarbeitung der Universität München entwickelt wurde.
                 </p>
             </div>
         </body>
         <back>
-            <div type="bibliogr">
+            <div>
                 <listBibl>
                     <head>Bibliographie</head>
                     <bibl>
-                        <hi rend="bold">Abdalgader, Khaled / Skabar, Andrew</hi>(2010): “Short-text similarity measurement using word sense disambiguation and synonym expansion.”, in: 
-                        <hi rend="italic">Australasian Joint Conference on Articial Intelligence</hi>, Springer 435-444.
+                        <hi>Abdalgader, Khaled / Skabar, Andrew</hi>(2010): “Short-text similarity measurement using word sense disambiguation and synonym expansion.”, in: 
+                        <hi>Australasian Joint Conference on Articial Intelligence</hi>, Springer 435-444.
                     </bibl>
                     <bibl>
-                        <anchor xml:id="id_title"/>
-                        <anchor xml:id="id_productTitle"/>
-                        <hi rend="bold">Biesenbach, Hans </hi>(2014): 
-                        <hi rend="italic">Anspielungen und Zitate im Werk Ludwig Wittgensteins</hi>,
-                        <hi rend="italic"> </hi>Sofia University Press.
+                        <anchor/>
+                        <anchor/>
+                        <hi>Biesenbach, Hans </hi>(2014): 
+                        <hi>Anspielungen und Zitate im Werk Ludwig Wittgensteins</hi>,
+                        <hi> </hi>Sofia University Press.
                     </bibl>
                     <bibl>
-                        <hi rend="bold">Ekbal, Asif / Saha, Sriparna / Choudhary, Gaurav</hi> (2012): “Plagiarism detection in text using vector space model.”, in: 
-                        <hi rend="italic">Hybrid Intelligent Systems</hi> (HIS), 2012 12th International Conference on, pages 366-371. IEEE.
+                        <hi>Ekbal, Asif / Saha, Sriparna / Choudhary, Gaurav</hi> (2012): “Plagiarism detection in text using vector space model.”, in: 
+                        <hi>Hybrid Intelligent Systems</hi> (HIS), 2012 12th International Conference on, pages 366-371. IEEE.
                     </bibl>
                     <bibl>
-                        <hi rend="bold">Hadersbeck, Maximilian / Pichler, Alois / Fink, Florian / Gjesdal, </hi>
-                        <hi rend="bold">Ø</hi>
-                        <hi rend="bold">yvind, L.</hi> (2014): 
-                        <hi rend="italic">Wittgenstein‘s Nachlass: WiTTFind and Wittgenstein Advanced Search Tools (WAST).</hi> DATeH. Madrid.
+                        <hi>Hadersbeck, Maximilian / Pichler, Alois / Fink, Florian / Gjesdal, </hi>
+                        <hi>Ø</hi>
+                        <hi>yvind, L.</hi> (2014): 
+                        <hi>Wittgenstein‘s Nachlass: WiTTFind and Wittgenstein Advanced Search Tools (WAST).</hi> DATeH. Madrid.
                     </bibl>
                     <bibl>
-                        <hi rend="bold">C.</hi>
-                        <hi rend="bold">K. Kent / N. Salim </hi>(2010): „Features based text similarity detection.“, in: 
-                        <hi rend="italic">Journal of Computing</hi>, 2 (1).
+                        <hi>C.</hi>
+                        <hi>K. Kent / N. Salim </hi>(2010): „Features based text similarity detection.“, in: 
+                        <hi>Journal of Computing</hi>, 2 (1).
                     </bibl>
                     <bibl>
-                        <hi rend="bold">Pichler, Alois / Krüger, Heinz W. / Smith, D. / Bruvik, To</hi>
-                        <anchor xml:id="id__GoBack"/>
-                        <hi rend="bold">ne / Lindebjerg, Anne / Olstad, Vemund </hi>(Hrsg.) (2009): 
-                        <hi rend="italic">Wittgenstein Source Bergen Facsimile (BTE)</hi>. Wittgenstein Source Bergen.
+                        <hi>Pichler, Alois / Krüger, Heinz W. / Smith, D. / Bruvik, To</hi>
+                        <anchor/>
+                        <hi>ne / Lindebjerg, Anne / Olstad, Vemund </hi>(Hrsg.) (2009): 
+                        <hi>Wittgenstein Source Bergen Facsimile (BTE)</hi>. Wittgenstein Source Bergen.
                     </bibl>
                     <bibl>
-                        <hi rend="bold">Sadowski, Caitlin / Levin, Greg</hi> (2007): 
-                        <hi rend="italic">Simhash: Hash-based similarity detection</hi>.
+                        <hi>Sadowski, Caitlin / Levin, Greg</hi> (2007): 
+                        <hi>Simhash: Hash-based similarity detection</hi>.
                     </bibl>
                     <bibl>
-                        <hi rend="bold">Tomita, Junji / Nakawatase, Hidekazu / Ishii, Megumi </hi>(2004): „Calculating similarity between texts using graph-based text representation model”, in: 
-                        <hi rend="italic">Proceedings of the thirteenth ACM international conference on Information and knowledge management</hi>, pages 248-249. ACM.
+                        <hi>Tomita, Junji / Nakawatase, Hidekazu / Ishii, Megumi </hi>(2004): „Calculating similarity between texts using graph-based text representation model”, in: 
+                        <hi>Proceedings of the thirteenth ACM international conference on Information and knowledge management</hi>, pages 248-249. ACM.
                     </bibl>
                     <bibl>
-                        <hi rend="bold">Ullrich, Sabine </hi>(2017): 
-                        <hi rend="italic">Evaluation of Existing Plagiarism Research for the Optimisation of NLP-based Similarity Detection using Ludwig Wittgenstein's Remarks,</hi> Bachelor thesis, Ludwig-Maximilians-Universität München.
+                        <hi>Ullrich, Sabine </hi>(2017): 
+                        <hi>Evaluation of Existing Plagiarism Research for the Optimisation of NLP-based Similarity Detection using Ludwig Wittgenstein's Remarks,</hi> Bachelor thesis, Ludwig-Maximilians-Universität München.
                     </bibl>
                     <bibl>
-                        <hi rend="bold">Wittgenstein, Ludwig / Nedo, Michael (Hrsg.)</hi> (1996): 
-                        <hi rend="italic">Wiener Ausgabe</hi>. Band 1-5.
+                        <hi>Wittgenstein, Ludwig / Nedo, Michael (Hrsg.)</hi> (1996): 
+                        <hi>Wiener Ausgabe</hi>. Band 1-5.
                     </bibl>
                 </listBibl>
             </div>

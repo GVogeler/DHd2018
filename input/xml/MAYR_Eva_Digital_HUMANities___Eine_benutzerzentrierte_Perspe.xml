@@ -49,26 +49,26 @@
         </fileDesc>
         <encodingDesc>
             <appInfo>
-                <application ident="DHCONVALIDATOR" version="1.17">
+                <application>
                     <label>DHConvalidator</label>
                 </application>
             </appInfo>
         </encodingDesc>
         <profileDesc>
             <textClass>
-                <keywords scheme="ConfTool" n="category">
+                <keywords>
                     <term>Paper</term>
                 </keywords>
-                <keywords scheme="ConfTool" n="subcategory">
+                <keywords>
                     <term>Vortrag</term>
                 </keywords>
-                <keywords scheme="ConfTool" n="keywords">
+                <keywords>
                     <term>benutzerzentrierte Gestaltungsprozesse</term>
                     <term>Informationsvisualisierung</term>
                     <term>Evaluation</term>
                     <term>Partizipation</term>
                 </keywords>
-                <keywords scheme="ConfTool" n="topics">
+                <keywords>
                     <term>Gestaltung</term>
                     <term>Visualisierung</term>
                     <term>Forschungsprozess</term>
@@ -83,37 +83,33 @@
                 <p>Welche Möglichkeiten gibt es, den Einfluss von prä-, non-, oder postdigitalen Konzeptionen der Geisteswissenschaft in den DH zu stärken? Wie können Projekte in den DH weniger technologie- und stärker menschen- oder inhaltsgetrieben geplant und durchgeführt werden? Eine Antwort darauf können benutzerzentrierte Gestaltungsprozesse (“user centered design”) geben, in denen den BenutzerInnen der Systeme eine zentrale Rolle zukommt - von der Planung bis zur Evaluation der technologischen Entwicklungen. </p>
                 <p>Im Folgenden werden die Grundprinzipien und Methoden des benutzerzentrierten Designs erörtert und ein aktuelles Projekt - als Anwendungsfall eines benutzerzentrierten Designprozesses - vorgestellt.</p>
             </div>
-            <div type="div1" rend="DH-Heading1">
+            <div>
                 <head>Benutzerzentrierte Gestaltungsprozesse</head>
                 <p>Im Gegensatz zu technikzentrierter Entwicklung, steht in benutzerzentrierten Gestaltungsprozessen die BenutzerIn, ihre Bedürfnisse und Aufgaben, ihr Fühlen und Denken im Vordergrund. Ausgangspunkt sind daher auch nicht die technischen Möglichkeiten, sondern eine Analyse der Zielgruppe: Welche Eigenschaften und welche Arbeitsweisen zeichnet sie aus? Für welche Probleme bedarf es einer technischen Lösung? Erst danach werden geeignete Technologien entwickelt und laufend unter wiederholter Einbeziehung der Zielgruppe getestet.</p>
                 <p>Maguire (2011) definierte vier Schlüsselprinzipien für benutzerzentriertes Design: (1) das aktive Miteinbeziehen der BenutzerInnen, sowie ein klares Verständnis der Zielgruppe und ihrer Bedürfnisse, (2) eine geeignete Aufteilung der Funktionen und Prozesse zwischen Benutzer und System, (3) iterative Entwicklung und Testung der Technologie, und (4) Zusammenarbeit in einem inter- bzw. transdisziplinären Team.</p>
                 <p>Was bedeutet das umgelegt auf DH? Es gibt Stimmen, die generell daran zweifeln, dass Benutzer ihre Bedürfnisse verbalisieren können bzw. dieses Wissen von Nutzen für technologische Entwicklungen ist. Kemman und Klappe (2014) befragten daher Geisteswissenschaftler nach ihren Anforderungen für eine DH-Anwendung. Sie stellten fest, dass diese ihre Bedürfnisse gut verbalisieren konnten, sie fanden aber auch etliche (aus ihrer Sicht) irrelevante Bedürfnisse und vermissten eine Vorstellungskraft dafür, welche Möglichkeiten über den Standard-Forschungsprozess hinaus mithilfe neuer Technologien erschlossen werden könnten. Unserer Meinung nach bedarf es daher anderer Methoden als einer reinen Befragung nach den Bedürfnissen der Benutzer: Möglichkeiten für eine solche erweiterte Bedarfsanalyse sind Beobachtungen der Forschungsprozesse, aber auch Literaturstudien. Um die technischen Möglichkeiten und die geisteswissenschaftlichen Bedürfnisse in die Definition der Anforderungen mit einzubeziehen, bedarf es innovativer Ansätze, wie etwa Design-Sprints (Venturini, Munk &amp; Meunier, 2017), in denen alle Beteiligten kollaborativ eine gemeinsame Perspektive entwickeln (Vertreter der Zielgruppe, GeisteswissenschaftlerInnen, DH-ExpertInnen und ComputerwissenschaftlerInnen). Da in der Zusammenarbeit zwischen ComputerwissenschaftlerInnen und GeisteswissenschaftlerInnen zwei sehr heterogene Welten aufeinander prallen (unterschiedliche Wissenschaftskultur, Terminologien, Epistemiken, sowie unterschiedliche Wege des Erkenntnisgewinns), ist es offensichtlich entscheidend, in einen aktiven und strukturierten Dialog miteinander zu treten, Herausforderungen arbeitsteilig zu lösen, den Wissensaustausch zu fördern, aber auch idealerweise diesen Prozess durch Personen zu mediieren, die in beiden Kulturen sozialisiert und fachsprachlich versiert sind. </p>
                 <p>Benutzerzentrierte Gestaltung definiert dabei nur ein Vorgehensmodell, in dem die Bedürfnisse der BenutzerInnen am Anfang stehen und in dem diese wiederholt einbezogen werden, es bestimmt jedoch nicht die zur Anwendung kommenden Forschungsmethoden, sondern bedient sich der jeweils passenden Methoden, zum Beispiel aus der Usability-Forschung: Benutzertests mit Prototypen, Beobachtungen, Befragungen, Fokusgruppen, cognitive walkthroughs, lautes Denken oder heuristische Evaluationen (siehe z.B. Barnum, 2008; Sarodnik &amp; Brau, 2006). Im Folgenden soll die Spezifikation dieses Prozesses anhand einer Fallstudie zur Visualisierung kultureller Sammlungen exemplifiziert werden.</p>
             </div>
-            <div type="div1" rend="DH-Heading1">
+            <div>
                 <head>Fallstudie: Visualisierung kultureller Sammlungen</head>
                 <p>In den letzten 10 Jahren wurden kulturelle Sammlungen im großen Stil digitalisiert und aggregiert (z.B. Europeana, DPLA) mit dem Ziel die Zugänglichkeit zum kulturellen Erbe zu verbessern. Diese digitalen Sammlungen stellen jedoch für Benutzer ohne fachliche Expertise große Hürden dar (Walsh &amp; Hall, 2015): Die Oberflächen sind zumeist von einer Suchfunktion dominiert, die eine Kenntnis der Datenbankstruktur voraussetzt, und das Suchergebnis wird als unstrukturierte Liste präsentiert, was das Gewinnen eines Überblicks über die Sammlung erschwert. Neuere Ansätze fordern daher “großzügigere” Benutzeroberflächen (Whitelaw, 2015), die ein “Flanieren” durch die Informationen ermöglichen (Doerk et al., 2011). Das Projekt 
-                    <hi rend="italic">polycube</hi> (Windhager et al., 2016) entwickelt diesen Anforderungen folgend Informationsvisualisierung von kulturellen Sammlungen zur Verbesserung der Zugänglichkeit und des Verständnisses dieser Sammlungen für die allgemeine Bevölkerung.
+                    <hi>polycube</hi> (Windhager et al., 2016) entwickelt diesen Anforderungen folgend Informationsvisualisierung von kulturellen Sammlungen zur Verbesserung der Zugänglichkeit und des Verständnisses dieser Sammlungen für die allgemeine Bevölkerung.
                 </p>
                 <p>Für eine bessere Einbettung dieses Forschungsvorhabens wurde der aktuelle Stand der Technik erhoben (Windhager et al., 2017) und 48 Publikationen zur Visualisierung kultureller Sammlungen unter anderem mit Hinblick auf die Einbeziehung der Zielgruppe in den Gestaltungsprozess bewertet: In 6 Publikationen wurden rein technische Aspekte besprochen, Zielgruppen wurden dabei nicht genannt. In 17 Publikationen wurden zwar die Zielgruppen erwähnt, aber es fanden sich keine Informationen, ob und wie sie in die Entwicklung einbezogen wurden. In 5 Publikationen wurden (geplante) Usertests erwähnt – allerdings ohne weitere Details. Nur in 20 Publikationen wurde von Studien berichtet, die in ihrem Umfang stark variieren - von Einzelfallanalysen bis hin zu elaborierten Testungen mit großen Benutzergruppen (vgl. Abbildung 1).</p>
                 <figure>
-                    <graphic n="1001"
-                        width="16.03375cm"
-                        height="9.862027777777778cm"
-                        url="Pictures/image1.png"
-                        rend="inline"/>
+                    <graphic/>
                 </figure>
                 <p>Abbildung 1: Überblick über verschiedene Methoden zur Einbeziehung der BenutzerInnen</p>
                 <p>Im Projekt 
-                    <hi rend="italic">polycube</hi> (https://www.donau-uni.ac.at/de/polycube) stand am Anfang eine Data-Users-Tasks-Analyse (Miksch &amp; Aigner, 2014). Es wurden ExpertInneninterviews mit HistorikerInnen und DH-ForscherInnen durchgeführt zu den 
-                    <hi rend="italic">Daten</hi>: Welche Zusammenhänge gibt es zwischen den Objekten der Sammlung? Welche Daten sind digital vorhanden, welche Informationen fehlen in der digitalen Datenbank? Eine Literaturstudie widmete sich den 
-                    <hi rend="italic">BenutzerInnen</hi> und ihren 
-                    <hi rend="italic">Aufgaben </hi>(Mayr et al., 2016a): Da es sich um alltägliche NutzerInnen handelt, gestaltete sich die Definition von relevanten Aufgaben als besonders herausfordernd. Stattdessen wurden relevante Informationsbedürfnisse und Verhaltensmuster definiert.
+                    <hi>polycube</hi> (https://www.donau-uni.ac.at/de/polycube) stand am Anfang eine Data-Users-Tasks-Analyse (Miksch &amp; Aigner, 2014). Es wurden ExpertInneninterviews mit HistorikerInnen und DH-ForscherInnen durchgeführt zu den 
+                    <hi>Daten</hi>: Welche Zusammenhänge gibt es zwischen den Objekten der Sammlung? Welche Daten sind digital vorhanden, welche Informationen fehlen in der digitalen Datenbank? Eine Literaturstudie widmete sich den 
+                    <hi>BenutzerInnen</hi> und ihren 
+                    <hi>Aufgaben </hi>(Mayr et al., 2016a): Da es sich um alltägliche NutzerInnen handelt, gestaltete sich die Definition von relevanten Aufgaben als besonders herausfordernd. Stattdessen wurden relevante Informationsbedürfnisse und Verhaltensmuster definiert.
                 </p>
                 <p>Auf diesen Erkenntnissen aufbauend wurde ein erster Prototyp entwickelt, der derzeit in einer qualitativen Studie getestet wird. Im Mittelpunkt steht dabei die Frage, wie die entwickelten Informationsvisualisierungen die BenutzerInnen beim Aufbau eines mentalen Modells über die kulturelle Sammlung unterstützen (Mayr et al., 2016b). Iterativ werden die gewonnenen Erkenntnisse in die Entwicklung des Prototypen einfließen und in zwei weiteren Experimenten gegen alternative Informationsvisualisierungen getestet werden. </p>
                 <p>Das gewählte benutzerzentrierte Vorgehen soll dazu beitragen, dass die entwickelten Informationsvisualisierungen ein besseres Verständnis der kulturellen Sammlungen vermitteln, damit intuitiv interagiert werden kann und diese zu einer weiteren Auseinandersetzung mit den Informationen anregen.</p>
             </div>
-            <div type="div1" rend="DH-Heading1">
+            <div>
                 <head>Diskussion</head>
                 <p>In der Abgrenzung zu den nicht-digitalen Geisteswissenschaften versuchen die DH “die Prozesse der Gewinnung und Vermittelung neuen Wissens unter den Bedingungen einer digitalen Arbeits- und Medienwelt weiter zu entwickeln” (DHd). Dabei agieren ihre AkteurInnen nicht selten mit einem Fokus auf  Technik- und Infrastrukturentwicklung statt mit einem Fokus auf geisteswissenschaftliche Prozesse und Methoden des Erkenntnisgewinns. Um diesen Prozessen einen stärkeren Stellenwert in DH-Projekten einzuräumen, haben wir in diesem Beitrag benutzerzentrierte Gestaltungsprozesse als eine Herangehensweise diskutiert, in der geisteswissenschaftliche ExpertInnen und andere Zielgruppen in die Entwicklung neuer Technologien intensiv miteinbezogen werden.</p>
                 <p>Warum ist ein benutzerzentrierter Gestaltungsprozess gerade in der DH von Vorteil? </p>
@@ -123,59 +119,59 @@
                 <p>Benutzerzentriertes Design ist aber nicht immer das Mittel der Wahl. Um etwa radikal innovative Produkte zu erschaffen, besitzen zukünftige BenutzerInnen oft nicht die Vorstellungskraft, welche Möglichkeiten sich durch die neuen technischen Entwicklungen ergeben (Norman, 2010; vgl. die Beobachtungen von Kemman &amp; Klappe, 2014). Hier empfiehlt es sich, die Benutzer erst in der Optimierung der Produkte mit einzubeziehen. Auch zur Lösung von institutionellen, finanziellen, oder politischen Problemen sollten statt benutzerzentrierter eher transdisziplinäre Methoden gewählt werden.</p>
                 <p>Unsere Erfahrung in DH Projekten zeigt, dass der methodengestützte Dialog zwischen Computer- und Geisteswissenschaften essentiell ist und sein Potenzial für gute und nachhaltige technische Entwicklungen in benutzerzentrierten Gestaltungsprozessen besonders gut entfalten kann. Die präsentierte Analyse von Publikationen zur Visualisierung kultureller Sammlungen (Windhager et al., 2017) zeigt, dass eine Einbeziehung der BenutzerInnen in den DH keine Selbstverständlichkeit ist und dass eine benutzerzentrierte Entwicklung derzeit nicht zum Stand der Technik gehört. Das Potenzial dieses Vorgehensmodells ist jedoch sehr groß, wenn es darum geht die Bedürfnisse der NutzerInnen zu erfüllen und die Technologie soweit daran anzupassen, dass deren Akzeptanz und nachhaltige Nutzung sichergestellt werden kann.</p>
             </div>
-            <div type="div1" rend="DH-Heading1">
+            <div>
                 <head>Danksagung </head>
                 <p>Die beschriebene Arbeit wurde durch den Wissenschaftsfonds FWF P.No. P28363 gefördert.</p>
             </div>
         </body>
         <back>
-            <div type="bibliogr">
+            <div>
                 <listBibl>
                     <head>Bibliographie</head>
                     <bibl>Barnum, Carol M. (2008): 
-                        <hi rend="italic">Usability testing and research</hi>. Allyn &amp; Bacon Series in Technical Communication, Longman.
+                        <hi>Usability testing and research</hi>. Allyn &amp; Bacon Series in Technical Communication, Longman.
                     </bibl>
                     <bibl>Dörk, Marian / Carpendale, Sheelagh / Williamson, Carey (2011): “The information flaneur: A fresh look at information seeking”, in: 
-                        <hi rend="italic">Proceedings of the SIGCHI Conference on Human Factors in Computing Systems</hi> 1215-1224.
+                        <hi>Proceedings of the SIGCHI Conference on Human Factors in Computing Systems</hi> 1215-1224.
                     </bibl>
                     <bibl>Kemman, Max / Kleppe, Martijn (2014, October): “Too many varied user requirements for digital humanities projects”, in: 
-                        <hi rend="italic">3rd CLARIN ERIC Annual Conference</hi> 24-25.
+                        <hi>3rd CLARIN ERIC Annual Conference</hi> 24-25.
                     </bibl>
                     <bibl>Maguire, Martin (2001): “Methods to support human-centred design”, in: 
-                        <hi rend="italic">International Journal of Human-Computer Studies, 55</hi>, 587-634.
+                        <hi>International Journal of Human-Computer Studies, 55</hi>, 587-634.
                     </bibl>
                     <bibl>Mayr, Eva / Federico, Paolo / Miksch, Silvia / Schreder, Günther / Smuc, Michael / Windhager, Florian (2016a): “Visualization of cultural heritage data for casual users”, in: 
-                        <hi rend="italic">Proc. of the 1st IEEE VIS Workshop on Visualization for the Digital Humanities</hi>. Baltimore, MD.
+                        <hi>Proc. of the 1st IEEE VIS Workshop on Visualization for the Digital Humanities</hi>. Baltimore, MD.
                     </bibl>
                     <bibl>Mayr, Eva / Schreder, Günther / Smuc, Michael / Windhager, Florian (2016b): “Looking at the representations in our mind: Measuring mental models of information visualizations”, in: 
-                        <hi rend="italic">Proceedings of the Beyond Time and Errors on Novel Evaluation Methods for Visualization</hi>. ACM, 96-103.
+                        <hi>Proceedings of the Beyond Time and Errors on Novel Evaluation Methods for Visualization</hi>. ACM, 96-103.
                     </bibl>
                     <bibl>Miksch, Silvia / Aigner, Wolfgang (2014): “A matter of time: Applying a data-users-tasks design triangle to visual analytics of time-oriented data”, in: 
-                        <hi rend="italic">Computers &amp; Graphics 38</hi>: 286-290.
+                        <hi>Computers &amp; Graphics 38</hi>: 286-290.
                     </bibl>
                     <bibl>Norman, Donald A. (2010). “Technology first, needs last: The research-product gulf”, in: 
-                        <hi rend="italic">Interactions 17</hi>: 38-42.
+                        <hi>Interactions 17</hi>: 38-42.
                     </bibl>
                     <bibl>Sarodnick, Florian / Brau, Henning (2006): 
-                        <hi rend="italic">Methoden der Usability Evaluation</hi>. Huber Verlag. 
+                        <hi>Methoden der Usability Evaluation</hi>. Huber Verlag. 
                     </bibl>
                     <bibl>Siemens, Roy (2016): “Communities of practice, the methodological commons, and digital self-determination in the humanities”, in: C. Crompton, R. J. Lane, &amp; R. Siemens (Eds.), 
-                        <hi rend="italic">Doing Digital Humanities: Practice, training, research</hi>. Milton Park: Routledge xxi-xxxiii.
+                        <hi>Doing Digital Humanities: Practice, training, research</hi>. Milton Park: Routledge xxi-xxxiii.
                     </bibl>
                     <bibl>Venturini, Tommaso / Munk, Anders / Meunier, Axel (2017): “Data-sprints: A public approach to digital research”, in: C. Lury / P. Clough / M. Michael / R. Fensham / S. Lammes / A. Last / E. Uprichard (Eds.), 
-                        <hi rend="italic">Routledge Handbook on Interdisciplinary Research Methods</hi>. Forthcoming.
+                        <hi>Routledge Handbook on Interdisciplinary Research Methods</hi>. Forthcoming.
                     </bibl>
                     <bibl>Walsh, David / Hall, Mark M. (2015): “Just looking around: Supporting casual users initial encounters with Digital Cultural Heritage”, in: 
-                        <hi rend="italic">Supporting Complex Search Tasks</hi>. Vienna: CEUR-WS 1338.
+                        <hi>Supporting Complex Search Tasks</hi>. Vienna: CEUR-WS 1338.
                     </bibl>
                     <bibl>Whitelaw, Mitchell (2015): “Generous interfaces for digital cultural collections”, in: 
-                        <hi rend="italic">Digital Humanities Quarterly 9</hi>(1).
+                        <hi>Digital Humanities Quarterly 9</hi>(1).
                     </bibl>
                     <bibl>Windhager, Florian / Mayr, Eva / Schreder, Günther / Smuc, Michael / Federico, Paolo / Miksch, Silvia (2016): „Reframing cultural heritage collections in a visualization framework of space-time cubes”, in: 
-                        <hi rend="italic">Proceedings of the 3rd HistoInformatics Workshop.</hi> CEUR- WS 1632.
+                        <hi>Proceedings of the 3rd HistoInformatics Workshop.</hi> CEUR- WS 1632.
                     </bibl>
                     <bibl>Windhager, Florian / Federico, Paolo / Schreder, Günther / Glinka, Katrin / Doerk, Marian / Miksch, Silvia / Mayr, Eva (2017): „Visualization of cultural heritage collection data: State of the art and future challenges”, 
-                        <hi rend="italic">Manuscript under review</hi>.
+                        <hi>Manuscript under review</hi>.
                     </bibl>
                 </listBibl>
             </div>

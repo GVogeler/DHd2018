@@ -41,27 +41,27 @@
         </fileDesc>
         <encodingDesc>
             <appInfo>
-                <application ident="DHCONVALIDATOR" version="1.17">
+                <application>
                     <label>DHConvalidator</label>
                 </application>
             </appInfo>
         </encodingDesc>
         <profileDesc>
             <textClass>
-                <keywords scheme="ConfTool" n="category">
+                <keywords>
                     <term>Paper</term>
                 </keywords>
-                <keywords scheme="ConfTool" n="subcategory">
+                <keywords>
                     <term>Vortrag</term>
                 </keywords>
-                <keywords scheme="ConfTool" n="keywords">
+                <keywords>
                     <term>Datenmodellierung</term>
                     <term>gender studies</term>
                     <term>Geschlechtertheorie</term>
                     <term>TEI</term>
                     <term>Datenanreicherung</term>
                 </keywords>
-                <keywords scheme="ConfTool" n="topics">
+                <keywords>
                     <term>Modellierung</term>
                     <term>Annotieren</term>
                     <term>Theoretisierung</term>
@@ -74,28 +74,28 @@
     </teiHeader>
     <text>
         <body>
-            <div type="div1" rend="DH-Heading1">
+            <div>
                 <head>Ausgangspunkt: Die TEI2016 Abstacts App</head>
                 <p>Die Abstracts zur TEI Konferenz 2016 wurden via ConfTool eingereicht und anschließend in Microsoft Word und InDesign ediert, um ein gedrucktes Book of Abstracts herzustellen.
-                    <note place="foot" xml:id="ftn1" n="1">
-                        <p rend="footnote text"> Dieser Workflow ist, zugegebenermaßen, einer Konferenz im Bereich der Digital Humanities, und der TEI Konferenz im Besonderen, nicht ganz angemessen; eine Integration etwa des DH-Convalidators hätte den Prozess wesentlich gestrafft. Eingespielte Prozesse und Zeitdruck waren die Hauptgründe für diese Vorgehensweise.</p>
+                    <note>
+                        <p> Dieser Workflow ist, zugegebenermaßen, einer Konferenz im Bereich der Digital Humanities, und der TEI Konferenz im Besonderen, nicht ganz angemessen; eine Integration etwa des DH-Convalidators hätte den Prozess wesentlich gestrafft. Eingespielte Prozesse und Zeitdruck waren die Hauptgründe für diese Vorgehensweise.</p>
                     </note> Die InDesign-Datei wurde dann als PDF exportiert und online verfügbar gemacht. Diese beiden Fassungen des Book of Abstracts wurden vor der Konferenz fertiggestellt. Nach der Konferenz wurde die InDesign Datei erneut exportiert, diesmal in XML Format. Diese Datei wurde dann teils manuell, teils automatisiert in Einzeldateien (jedes Abstract als eine Datei) zerlegt, bearbeitet und mit umfangreichen Metadaten versehen, um TEI-P5-Dateien herzustellen. Diese wurden auf GitHub veröffentlicht. Die jeweiligen &lt;teiHeader&gt; wurden mit umfassenden Informationen ausgestattet und detailliert codiert; etwa wurden innerhalb der mit Normdaten (VIAF) angereicherten &lt;editor&gt;- und &lt;author&gt;-Tags konsequent &lt;persName&gt;-, &lt;forename&gt;- und &lt;surname&gt;-Tags eingesetzt. Das stellte sich für die Weiterverarbeitung, Analyse und Visualisierung der Daten später als vorteilhaft heraus.
                 </p>
                 <p>Dieses Corpus bildete die Basis für die TEI2016 Abstracts App, in der die Abstracts in der Erstversion über ein Inhaltsverzeichnis, das nach Abstract-Titel oder nach Verfassenden sortiert werden konnte, ansteuerbar waren. Schon in dieser rudimentären Form zeigte sich das Potential der Daten und der Applikation für Auswertungen, die über Struktur und Zusammensetzung der Konferenz und ihrer Beitragenden Auskunft geben würden. Die App wurde daher sowohl im Bereich der Funktionalität als auch auf der Ebene der enthaltenen Daten substantiell weiterentwickelt.</p>
             </div>
-            <div type="div1" rend="DH-Heading1">
+            <div>
                 <head>Fragestellung und gender-theoretische Überlegungen</head>
                 <p>Wir trafen die Entscheidung, der weiteren Entwicklung des Prototyps der App eine Forschungsfrage zugrundezulegen. Wir entschieden uns für die Frage nach der Geschlechterverteilung unter den Beitragenden.</p>
                 <p>Aus Perspektive der Gendertheorie (in Butler’scher Tradition) bedarf die Entscheidung, diese Frage zu stellen, an sich eine Rechtfertigung, denn “a performative utterance (or practice) brings into being that of which it speaks.” (Butler 2010, 150f) Das bedeutet, dass die Frage nach der Verteilung der Geschlechter die Unterscheidung der Geschlechter erst hervorbringt, und so die historische Situation, die unser Körper bedeutet, fortsetzt: “As an intentionally organized materiality, the body is always an embodying of possibilities both conditioned and circumscribed by historical convention. In other words, the body is a historical situation, as Beauvoir has claimed, and is a manner of doing, dramatizing, and reproducing a historical situation.” (Butler 1988, 521) Berücksichtigt man außerdem die Konzepte des 
-                    <hi rend="italic">Doing</hi> bzw. 
-                    <hi rend="italic">Undoing Gender</hi> (West &amp; Zimmerman 1987; Hirschauer 1994 &amp; 2001), so wird deutlich, dass die oben formulierte Frage deutlich präzisiert werden muss, um die zu erhebenden Daten in einer Weise strukturieren zu können, die eine zeitgenössische Auffassung von Geschlechteridentitäten wiedergibt.
+                    <hi>Doing</hi> bzw. 
+                    <hi>Undoing Gender</hi> (West &amp; Zimmerman 1987; Hirschauer 1994 &amp; 2001), so wird deutlich, dass die oben formulierte Frage deutlich präzisiert werden muss, um die zu erhebenden Daten in einer Weise strukturieren zu können, die eine zeitgenössische Auffassung von Geschlechteridentitäten wiedergibt.
                 </p>
                 <p>Die Frage nach dem Geschlecht der Konferenzbeitragenden wurde daher wie folgt präzisiert: Da sie aus einem Interesse an der Stellung bzw. Repräsentation der Geschlechter im gegenwärtigen Wissenschaftsbetrieb heraus gestellt wurde, richtet sie sich nicht auf die biologische Beschaffenheit der Körper der Konferenzbeitragenden, sondern auf ihre gesellschaftliche (Selbst-)Wahrnehmung (also auf 
-                    <hi rend="italic">gender</hi> und nicht 
-                    <hi rend="italic">sex</hi>). Folgt man Butlers Auffassung, nach der die performative Äußerung das, wovon sie spricht, hervorbringt, wären daher eigene Angaben der Betroffenen zu ihrem Geschlecht die ideale Datenquelle für diese Fragestellung gewesen. Solche Angaben standen allerdings nicht zur Verfügung.
+                    <hi>gender</hi> und nicht 
+                    <hi>sex</hi>). Folgt man Butlers Auffassung, nach der die performative Äußerung das, wovon sie spricht, hervorbringt, wären daher eigene Angaben der Betroffenen zu ihrem Geschlecht die ideale Datenquelle für diese Fragestellung gewesen. Solche Angaben standen allerdings nicht zur Verfügung.
                 </p>
             </div>
-            <div type="div1" rend="DH-Heading1">
+            <div>
                 <head>Datenmodellierung und -anreicherung</head>
                 <p>Nachdem eine Personenliste aus dem abstracts-Corpus extrahiert worden war, kamen wir zu dem Schluss, dass das Zuweisen von Geschlechtern an Personen unter Berücksichtigung der oben skizzierten geschlechtertheoretischen Überlegungen kein gangbarer Weg sein konnte. Um die soziodeterministische Neugier, aus der heraus die Ausgangsfrage gestellt worden war, dennoch befriedigen zu können, entwickelten wir ein gendersensibles Workaround für die Modellierung der Daten, das uns dennoch eine Erhebung der Geschlechterverteilung erlaubte: Anstatt den &lt;persName&gt;s ein &lt;sex&gt; zuzuweisen, wie es die TEI-Richtlinien vorsehen, entschieden wir uns dafür, dem jeweiligen &lt;forename&gt; einen @type zuzuweisen, der eine Angabe zum (sozialen) Geschlecht enthalten sollte. Diese Vorgehensweise erlaubte es, die Daten nicht den eigentlichen Personen nachzubauen und damit annahmen über deren Selbstwahrnehmung zu treffen, sondern zu erheben, welchem Geschlecht sie von einer allgemeinen Gesellschaft oder Öffentlichkeit aufgrund ihrer Namen aller Wahrscheinlichkeit nach zugeordnet würden.</p>
                 <p>Um das Vorgehen weiter zu objektivieren, entschieden wir uns gegen die Zuordnung der Geschlechter zu den Vornamen auf Basis unseres eigenen Weltwissens. Stattdessen machten wir uns auf die Suche nach Namensdatenbanken, die Angaben zum Geschlecht enthalten. Im Natural Language Toolkit (NLTK) etwa ist eine solche Liste enthalten (Kantrowitz 1997), jedoch werden keine Angaben gemacht, wie diese Liste zustande kam und auf welcher Grundlage die Geschlechter zugeordnet wurden. Wir entschieden uns daher für genderize.io, eine Datenbank, die nach eigenen Angaben auf Daten von Social-Media-Plattformen basiert, wo Personen die Informationen zu ihrem Geschlecht selbst bestimmen können. Nach dem Abgleich unserer Personenliste mit genderize.io via deren API konnten wir 102 von 124 Namen ein Geschlecht zuordnen. Da genderize.io nur zwei Geschlechter kennt, setzten wir “male”, “female” und “no-match” als @type-Werte ein. Die Namen, die nach diesem ersten Abgleich “no-match” waren, verglichen wir anschließend manuell mit der genderchecker.com-Datenbank, die ihre Geschlechtsangaben aus den "2001 and 2011 UK Census Data" bezieht, "together with multiple online sources and contributions from our 2m website visitors". Diese kommerzielle Datenbank konnte nicht für einen Gesamtvergleich genutzt werden, da nur die manuelle Verwendung kostenfrei ist. Ein interessanter Aspekt des Datenmodells von genderchecker.com ist die Berücksichtigung der Möglichkeit eines dritten Geschlechts: "If we see just one instance of a name appearing as both male and female, we categorise it as unisex." Aus gendertheoretischer Perspektive ist dieses Modell ein Schritt in die richtige Richtung, wenngleich die Benennung “unisex” diskutabel scheint. In unserer Namensliste kam kein solcher Fall vor - nach dem Abgleich der verbleibenden 22 Namen mit genderchecker.com blieben drei Namen “no-match”.</p>
@@ -103,52 +103,52 @@
             </div>
         </body>
         <back>
-            <div type="bibliogr">
+            <div>
                 <listBibl>
                     <head>Bibliographie</head>
                     <bibl>Peter Andorfer, Vanessa Hannesschläger (2017): TEI Abstracts 2016. A little application to publish the abstracts of the TEI conference 2016. 
-                        <ref target="http://tei2016app.acdh.oeaw.ac.at/">
-                            <hi rend="color(1155CC)">http://tei2016app.acdh.oeaw.ac.at/</hi>
+                        <ref>
+                            <hi>http://tei2016app.acdh.oeaw.ac.at/</hi>
                         </ref>
                     </bibl>
                     <bibl>Judith Butler (1988): Performative Acts and Gender Constitution: An Essay in Phenomenology and Feminist Theory. In: Theatre Journal 40:4, 519–531.</bibl>
                     <bibl>Judith Butler (2010): Performative Agency. In: Journal of Cultural Economy 3:2, 147–161.</bibl>
                     <bibl>Genderchecker. 
-                        <ref target="http://genderchecker.com/">
-                            <hi rend="color(1155CC)">http://genderchecker.com/</hi>
+                        <ref>
+                            <hi>http://genderchecker.com/</hi>
                         </ref>
                     </bibl>
                     <bibl>genderize.io: Determine the gender of a first name. 
-                        <ref target="https://genderize.io/">
-                            <hi rend="color(1155CC)">https://genderize.io/</hi>
+                        <ref>
+                            <hi>https://genderize.io/</hi>
                         </ref>
                     </bibl>
                     <bibl>Vanessa Hannesschläger, Daniel Schopper (Hg.) (2017): TEI Conference and Members’ Meeting 2016. Book of Abstracts [XML/TEI files]. 
-                        <ref target="https://github.com/acdh-oeaw/TEI2016abstracts">
-                            <hi rend="color(1155CC)">https://github.com/acdh-oeaw/TEI2016abstracts</hi>
+                        <ref>
+                            <hi>https://github.com/acdh-oeaw/TEI2016abstracts</hi>
                         </ref>
                     </bibl>
                     <bibl>Stefan Hirschauer (1994): Die soziale Fortpflanzung der Zwei-Geschlechtlichkeit. In: Kölner Zeitschrift für Soziologie und Sozialpsychologie 46:4, 668–692.</bibl>
                     <bibl>Stefan Hirschauer (2001): Das Vergessen des Geschlechts: Zur Praxeologie einer Kategorie sozialer Ordnung. In: Kölner Zeitschrift für Soziologie und Sozialpsychologie (Sonderheft 41), 208–235.</bibl>
                     <bibl>Mark Kantrowitz (1997): Name Corpus: List of Male, Female, and Pet names. CMU Artificial Intelligence Repository. 
-                        <ref target="http://www.cs.cmu.edu/afs/cs/project/ai-repository/ai/areas/nlp/corpora/names/">
-                            <hi rend="color(1155CC)">http://www.cs.cmu.edu/afs/cs/project/ai-repository/ai/areas/nlp/corpora/names/</hi>
+                        <ref>
+                            <hi>http://www.cs.cmu.edu/afs/cs/project/ai-repository/ai/areas/nlp/corpora/names/</hi>
                         </ref>
                     </bibl>
                     <bibl>Natural Language Toolkit (NLTK). 
-                        <ref target="http://www.nltk.org/">
-                            <hi rend="color(1155CC)">http://www.nltk.org/</hi>
+                        <ref>
+                            <hi>http://www.nltk.org/</hi>
                         </ref>
                     </bibl>
                     <bibl>Susanne Oelkers (2003): Naming gender. Empirische Untersuchungen zur phonologischen Struktur von Vornamen im Deutschen. Frankfurt a. M.: Lang.</bibl>
                     <bibl>TEI Consortium (2017): TEI P5: Guidelines for Electronic Text Encoding and Interchange. 
-                        <ref target="http://www.tei-c.org/release/doc/tei-p5-doc/en/Guidelines.pdf">
-                            <hi rend="color(1155CC)">http://www.tei-c.org/release/doc/tei-p5-doc/en/Guidelines.pdf</hi>
+                        <ref>
+                            <hi>http://www.tei-c.org/release/doc/tei-p5-doc/en/Guidelines.pdf</hi>
                         </ref>
                     </bibl>
                     <bibl>Virtual International Authority File (VIAF). 
-                        <ref target="https://viaf.org/">
-                            <hi rend="color(1155CC)">https://viaf.org/</hi>
+                        <ref>
+                            <hi>https://viaf.org/</hi>
                         </ref>
                     </bibl>
                     <bibl>Candance West, Don Zimmerman (1987): Doing Gender. In: Gender and Society 1:2, 125–151.</bibl>

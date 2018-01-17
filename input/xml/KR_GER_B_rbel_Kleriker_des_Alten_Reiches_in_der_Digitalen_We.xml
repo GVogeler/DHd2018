@@ -41,25 +41,25 @@
         </fileDesc>
         <encodingDesc>
             <appInfo>
-                <application ident="DHCONVALIDATOR" version="1.17">
+                <application>
                     <label>DHConvalidator</label>
                 </application>
             </appInfo>
         </encodingDesc>
         <profileDesc>
             <textClass>
-                <keywords scheme="ConfTool" n="category">
+                <keywords>
                     <term>Paper</term>
                 </keywords>
-                <keywords scheme="ConfTool" n="subcategory">
+                <keywords>
                     <term>Poster</term>
                 </keywords>
-                <keywords scheme="ConfTool" n="keywords">
+                <keywords>
                     <term>Netzwerkvisualisierung</term>
                     <term>Prosopographie</term>
                     <term>Mittelalter und Frühe Neuzeit</term>
                 </keywords>
-                <keywords scheme="ConfTool" n="topics">
+                <keywords>
                     <term>Netzwerkanalyse</term>
                     <term>Visualisierung</term>
                     <term>Daten</term>
@@ -78,11 +78,7 @@
             <p>Der Datenbestand wird kontinuierlich weiter anwachsen und fordert auch ein traditionelles Projekt der Grundlagenforschung heraus, Strategien und Perspektiven für die Weiterentwicklung des Online-Portals zu entwickeln. In erster Linie ist es unsere Zielsetzung, einen umfangreichen, strukturierten, soliden Datenpool zu schaffen, der aus den historischen Primärquellen erarbeitet worden ist. Darüber hinaus ist es eine unverzichtbare Aufgabe, die Daten möglichst ansprechend zu visualisieren und möglichst breit zu vernetzen und hierfür technische Lösungsansätze zu entwickeln.</p>
             <p>Gerade für prosopographische Daten ist das Potential der historischen Netzwerkanalyse in den letzten Jahren in den Fokus gerückt. Welche Aussagen mit dieser Art von Datenvisualisierung für den Datenbestand der Germania Sacra getroffen werden können, soll an einem Beispiel veranschaulicht werden. </p>
             <figure>
-                <graphic n="1001"
-                     width="16.002cm"
-                     height="12.407194444444444cm"
-                     url="Pictures/image1.png"
-                     rend="inline"/>
+                <graphic/>
             </figure>
             <p>Grafik 1: Beziehungsgeflecht der Bistümer der Germania Sacra anhand der Ämter- und Pfründenhäufungen der Kleriker</p>
             <p>Die Grafik zeigt das Beziehungsgeflecht der Bistümer des Alten Reiches. Datengrundlage der Grafik sind 8.000 Kleriker aus dem Bestand der Personendatenbank, die Ämter und Pfründen in unterschiedlichen Bistümern bekleidet haben. Die Visualisierung zeigt also das Beziehungsgeflecht zwischen den Diözesen, das sich aus den Ämtern des Kirchenpersonals ergibt. Hier lassen sich durch den Einsatz digitaler Methoden historische Phänomene herauslesen: So zeigt sich für das hier hervorgehobene Erzbistum Magdeburg ein dichtes Beziehungsgeflecht mit den Bistümern der eigenen Kirchenprovinz sowie mit Nachbarbistümern wie Halberstadt. Die Visualisierung macht aber zugleich sichtbar, dass Magdeburg Kontakte zur weit entfernten Trierer Kirche hatte. </p>
@@ -90,24 +86,24 @@
             <p>Die Posterpräsentation soll Anstoß geben, alternative Strategien der Informationsauswertung durch den Einsatz digitaler Methoden vorzustellen und zu diskutieren.</p>
         </body>
         <back>
-            <div type="bibliogr">
+            <div>
                 <listBibl>
                     <head>Bibliographie</head>
-                    <bibl rend="Citavi Literaturverzeichnis">Serge ter 
-                        <hi rend="smallcaps">Braake, </hi>Antske 
-                        <hi rend="smallcaps">Fokkens, </hi>Ronald 
-                        <hi rend="smallcaps">Sluijter, </hi>Thierry 
-                        <hi rend="smallcaps">Declerck und </hi>Eveline 
-                        <hi rend="smallcaps">Wandl-Vogt (Hg.)</hi>: Proceedings of the First Conference on Biographical Data in a Digital World 2015, Amsterdam, The Netherlands, April 9, 2015. Aachen (CEUR workshop proceedings). 
+                    <bibl>Serge ter 
+                        <hi>Braake, </hi>Antske 
+                        <hi>Fokkens, </hi>Ronald 
+                        <hi>Sluijter, </hi>Thierry 
+                        <hi>Declerck und </hi>Eveline 
+                        <hi>Wandl-Vogt (Hg.)</hi>: Proceedings of the First Conference on Biographical Data in a Digital World 2015, Amsterdam, The Netherlands, April 9, 2015. Aachen (CEUR workshop proceedings). 
                     </bibl>
-                    <bibl rend="Citavi Literaturverzeichnis">Norbert 
-                        <hi rend="smallcaps">Fuhr, </hi>László 
-                        <hi rend="smallcaps">Kovács, </hi>Thomas 
-                        <hi rend="smallcaps">Risse und </hi>Wolfgang 
-                        <hi rend="smallcaps">Nejdl (Hg.)</hi>: Research and Advanced Technology for Digital Libraries: 20th International Conference on Theory and Practice of Digital Libraries, TPDL 2016, Hannover, Germany, September 5‐9, 2016, Proceedings. Cham (2016).
+                    <bibl>Norbert 
+                        <hi>Fuhr, </hi>László 
+                        <hi>Kovács, </hi>Thomas 
+                        <hi>Risse und </hi>Wolfgang 
+                        <hi>Nejdl (Hg.)</hi>: Research and Advanced Technology for Digital Libraries: 20th International Conference on Theory and Practice of Digital Libraries, TPDL 2016, Hannover, Germany, September 5‐9, 2016, Proceedings. Cham (2016).
                     </bibl>
-                    <bibl rend="Citavi Literaturverzeichnis">Jörg 
-                        <hi rend="smallcaps">Wettlaufer</hi> Neue Erkenntnisse durch digitalisierte Geschichtswissenschaft(en)? Zur hermeneutischen Reichweite aktueller digitaler Methoden in informationszentrierten Fächern (Zeitschrift für digitale Geisteswissenschaften, 2016). Online verfügbar unter http://zfdg.de/2016_011, zuletzt geprüft am 01.09.2017.
+                    <bibl>Jörg 
+                        <hi>Wettlaufer</hi> Neue Erkenntnisse durch digitalisierte Geschichtswissenschaft(en)? Zur hermeneutischen Reichweite aktueller digitaler Methoden in informationszentrierten Fächern (Zeitschrift für digitale Geisteswissenschaften, 2016). Online verfügbar unter http://zfdg.de/2016_011, zuletzt geprüft am 01.09.2017.
                     </bibl>
                 </listBibl>
             </div>

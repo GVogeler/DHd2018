@@ -3,9 +3,9 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title type="full">
-                    <title type="main">Der Sammlung gerecht werden: Kritisch-generative Methoden zur Konzeption experimenteller Visualisierungen</title>
-                    <title type="sub"/>
+                <title>
+                    <title>Der Sammlung gerecht werden: Kritisch-generative Methoden zur Konzeption experimenteller Visualisierungen</title>
+                    <title/>
                 </title>
                 <author>
                     <persName>
@@ -44,27 +44,27 @@
         </fileDesc>
         <encodingDesc>
             <appInfo>
-                <application ident="DHCONVALIDATOR" version="1.17">
+                <application>
                     <label>DHConvalidator</label>
                 </application>
             </appInfo>
         </encodingDesc>
         <profileDesc>
             <textClass>
-                <keywords scheme="ConfTool" n="category">
+                <keywords>
                     <term>Paper</term>
                 </keywords>
-                <keywords scheme="ConfTool" n="subcategory">
+                <keywords>
                     <term>Vortrag</term>
                 </keywords>
-                <keywords scheme="ConfTool" n="keywords">
+                <keywords>
                     <term>Informationsvisualisierung</term>
                     <term>Kritik</term>
                     <term>Design</term>
                     <term>Interdisziplinäre Lehre</term>
                     <term>Kulturelle Sammlungen</term>
                 </keywords>
-                <keywords scheme="ConfTool" n="topics">
+                <keywords>
                     <term>Entdeckung</term>
                     <term>Gestaltung</term>
                     <term>Programmierung</term>
@@ -76,149 +76,149 @@
     </teiHeader>
     <text>
         <body>
-            <div type="div1" rend="DH-Heading1">
+            <div>
                 <head>Einleitung</head>
                 <p>Das Versprechen hinter Digitalisierungsprojekten in sammelnden Institutionen ist oft die Erweiterung des Zugangs zum kulturellen Erbe, sei es für die Forschung oder im Sinne der Vermittlung. Bei kritischer Betrachtung fast aller Benutzerschnittstellen für Sammlungen scheint es aber an Ansätzen zu fehlen, reichhaltige Informationsräume einladend bereitzustellen. Diese Diskrepanz zwischen Digitalisierung von Sammlungen und ihrer digitalen Verfügbarmachung lässt sich dadurch begründen, dass Kultureinrichtungen selten über die nötige Kapazität verfügen, eigenständig Benutzerschnittstellen zu konzipieren und umzusetzen. Die Zielstellung des dreijährigen Forschungsprojektes 
-                    <hi rend="italic">Visualisierung kultureller Sammlungen</hi> (VIKUS) an der Fachhochschule Potsdam
-                    <note xml:id="ftn1" place="foot" n="1">
-                        <ref target="https://uclab.fh-potsdam.de/projects/vikus/">https://uclab.fh-potsdam.de/</ref>
-                        <ref target="https://uclab.fh-potsdam.de/projects/vikus/">project/</ref>
-                        <ref target="https://uclab.fh-potsdam.de/projects/vikus/">vikus/</ref>
+                    <hi>Visualisierung kultureller Sammlungen</hi> (VIKUS) an der Fachhochschule Potsdam
+                    <note>
+                        <ref>https://uclab.fh-potsdam.de/</ref>
+                        <ref>project/</ref>
+                        <ref>vikus/</ref>
                     </note> war die Erforschung graphischer Benutzerschnittstellen zur explorativen Sichtung von Kulturobjekten. Im Projekt wurden in Kooperation mit Kultur- und Technologiepartnern Erkenntnisse zur visuellen Exploration digitalisierter Sammlungen gewonnen (Glinka et al. 2017a), die Entwicklung nachhaltiger Technologielösungen behandelt (Glinka et al. 2017b) und in experimentellen Settings kritisch-generative Methoden erprobt. Zu letzterem zählt die Übertragung der Forschungsfragen in den Kontext eines interdisziplinären Lehrformats, welches wir in unserem Beitrag diskutieren. Wir gehen insbesondere auf den produktiven Zusammenhang zwischen Kritik und Konzeption von Informationsvisualisierungen ein und zeigen auf, welche Potenziale ein bewusster Bruch mit disziplinären Konventionen und Sehgewohnheiten mit sich bringt.
                 </p>
             </div>
-            <div type="div1" rend="DH-Heading1">
+            <div>
                 <head>
-                    <anchor xml:id="id__fqqofn1knnzi"/>Hintergrund und Herangehensweise
+                    <anchor/>Hintergrund und Herangehensweise
                 </head>
                 <p>Mit der Digitalisierung von Sammlungen erhält eine breite Öffentlichkeit Zugriff auf zahlreiche Kulturobjekte, welche zuvor hauptsächlich für Wissenschaftler*innen zugänglich waren. Dieser Zugriff basiert häufig auf digitalisierten Museumskatalogen oder Archivsystemen, welche ursprünglich als Bestandsnachweis und der Ortung physischer Originale und nicht als eigenständige „Repräsentation“ der Sammlungsobjekte dienten. Das Forschungs- und Lehrprojekt VIKUS stellte sich der Frage, wie die digitale Repräsentation als eine für sich stehende Perspektive auf Sammlungen zu begreifen sein könnte und welche Interfacekonzepte diese unterstützen würden. Hier eröffnet sich die Gelegenheit, die Stärken des Digitalen bei der Bereitstellung kultureller Sammlungen zu berücksichtigen. So kann zum Beispiel die vergleichsweise statische Anordnung in Ausstellungen in digitalen Benutzeroberfllächen mittels dynamischer Arrangements durchbrochen werden. Obwohl die Auswahl und Anordnung von Objekten bei der Gestaltung von Ausstellungsräumen große Aufmerksamkeit erfährt, werden diese Überlegungen im digitalen Kontext häufig noch vernachlässigt. Vor kultureller Intention stehen zumeist technische Konventionen, die dem vielschichtigen Gehalt der Sammlung kaum entsprechen.</p>
                 <p>Der Ansatz dieses Projekts liegt in der Verknüpfung technologischer Möglichkeiten mit kulturwissenschaftlichen Überlegungen, um kritisch-generative Methoden zur Visualisierung zu entwickeln, welche alternative Perspektiven auf Kultursammlungen eröffnen. Dabei sind solche Visualisierungen ebenso als Kulturartefakte zu betrachten, die es in ihrer Funktion nicht nur zu konstruieren, sondern ebenso zu kritisieren gilt, wobei der »performative Charakter der Interpretation« (Drucker 2013) insbesondere bei 
-                    <hi rend="italic">Humanities Interfaces </hi>relevant wird. Entlang der für das Projekt zentralen disziplinären Perspektiven—Interface Design, Information Retrieval und Digital Humanities—haben sich drei Fragestellungen herausgebildet:
+                    <hi>Humanities Interfaces </hi>relevant wird. Entlang der für das Projekt zentralen disziplinären Perspektiven—Interface Design, Information Retrieval und Digital Humanities—haben sich drei Fragestellungen herausgebildet:
                 </p>
                 <p>
-                    <hi rend="italic">1.) Wie können Visualisierungen der kulturellen Signifikanz einer Sammlung gerecht werden? </hi>Bislang orientieren sich digitale Zugänge zu Kultursammlungen eher an technischen Gegebenheiten von Datenbanklösungen als an der kulturellen Bedeutung der Objekte. So werden diese herkömmlicherweise in einer tabellarischen Auflistung in Anlehnung an einen Leuchttisch gezeigt. Statt solche Standardlösungen auf alle Arten von Sammlungen anzuwenden, untersuchen wir, inwiefern die spezifischen Eigenschaften einer Sammlung reflektiert werden können.
+                    <hi>1.) Wie können Visualisierungen der kulturellen Signifikanz einer Sammlung gerecht werden? </hi>Bislang orientieren sich digitale Zugänge zu Kultursammlungen eher an technischen Gegebenheiten von Datenbanklösungen als an der kulturellen Bedeutung der Objekte. So werden diese herkömmlicherweise in einer tabellarischen Auflistung in Anlehnung an einen Leuchttisch gezeigt. Statt solche Standardlösungen auf alle Arten von Sammlungen anzuwenden, untersuchen wir, inwiefern die spezifischen Eigenschaften einer Sammlung reflektiert werden können.
                 </p>
                 <p>
-                    <hi rend="italic">2.) Wie kann offenes Stöbern in komplexen Informationsräumen angeregt werden?</hi> Herkömmliche Sammlungsinterfaces sind auf gezielte Suche mit expliziter Anfrageformulierung ausgerichtet, was eine von Neugier getriebene Exploration erschwert. Als Gegenentwurf zu solch „geizigen” Zugängen sind „freigebige” Oberflächen vonnöten (Whitelaw 2015), die durch visuelle Arrangements der Sammlungsobjekte entlang ihrer Facetten die Benutzer*innen zum Stöbern einladen. Diesem Anspruch folgend entwickelt das VIKUS-Projekt Szenarien für die offene Exploration digitaler Sammlungen weiter.
+                    <hi>2.) Wie kann offenes Stöbern in komplexen Informationsräumen angeregt werden?</hi> Herkömmliche Sammlungsinterfaces sind auf gezielte Suche mit expliziter Anfrageformulierung ausgerichtet, was eine von Neugier getriebene Exploration erschwert. Als Gegenentwurf zu solch „geizigen” Zugängen sind „freigebige” Oberflächen vonnöten (Whitelaw 2015), die durch visuelle Arrangements der Sammlungsobjekte entlang ihrer Facetten die Benutzer*innen zum Stöbern einladen. Diesem Anspruch folgend entwickelt das VIKUS-Projekt Szenarien für die offene Exploration digitaler Sammlungen weiter.
                 </p>
                 <p>
-                    <hi rend="italic">3.) Wie können digitale Methoden die Analyse visueller Sammlungen unterstützen?</hi> Als Ergänzung zur Forschung an textbasierten Quellen in den Digital Humanities widmen wir uns reichhaltigen Sammlungen, in denen bildliche Aspekte einen wichtigen Stellenwert einnehmen und erproben die Übertragung des Konzepts „Distant Reading“ (Moretti 2005) auf andere geisteswissenschaftliche Disziplinen. Über das interessierte Stöbern hinaus kann Visualisierung auch für Expert*innen die Sichtung von Kulturobjekten und deren Analyse entlang verschiedener Fragestellungen unterstützen (Yamaoka et al. 2011).
+                    <hi>3.) Wie können digitale Methoden die Analyse visueller Sammlungen unterstützen?</hi> Als Ergänzung zur Forschung an textbasierten Quellen in den Digital Humanities widmen wir uns reichhaltigen Sammlungen, in denen bildliche Aspekte einen wichtigen Stellenwert einnehmen und erproben die Übertragung des Konzepts „Distant Reading“ (Moretti 2005) auf andere geisteswissenschaftliche Disziplinen. Über das interessierte Stöbern hinaus kann Visualisierung auch für Expert*innen die Sichtung von Kulturobjekten und deren Analyse entlang verschiedener Fragestellungen unterstützen (Yamaoka et al. 2011).
                 </p>
             </div>
-            <div type="div1" rend="DH-Heading1">
+            <div>
                 <head>
-                    <anchor xml:id="id__cd8ql8debl6"/>Interdisziplinäre Projektkurse
+                    <anchor/>Interdisziplinäre Projektkurse
                 </head>
                 <p>Um diesen Fragestellungen nachzugehen, wurde im Laufe des Forschungsprojekts die Herangehensweise der iterativen Gestaltung verfolgt. Dazu zählen der Einsatz von Co-Creation, stufenweise Ideenentwicklung im interdisziplinären Austausch und das Durchführen von Nutzerstudien (Glinka et al. 2017a). Insbesondere durch die Einbindung von Studierenden und Projektpartnern im Rahmen von Workshops (Chen et al. 2014) und Projektkursen hat sich das Spektrum an Erkenntnissen signifikant erweitert. Im Folgenden gehen wir auf das Kursformat ein und umreißen die Ergebnisse.</p>
-                <div type="div2" rend="DH-Heading2">
+                <div>
                     <head>
-                        <anchor xml:id="id__9c64oqq0m2vv"/>Methodik
+                        <anchor/>Methodik
                     </head>
                     <p>Die Zielstellung des interdisziplinären Projektkurses, welcher seit 2014 bereits vier mal stattfand, folgt der umrissenen Herangehensweise des Forschungsprojektes. In interdisziplinären Teams erforschen fortgeschrittene Studierende aus Design, Kulturarbeit, Europäischer Medienwissenschaft und Informationswissenschaften innovative Darstellungsformen zur explorativen Sichtung von Sammlungen. Kursteilnehmer*innen verfügen über Grundlagen und Erfahrungen in mindestens einem der Kernthemen des Kurses—Informationsvisualisierung und Kultursammlungen—und haben Interesse an dem jeweilig anderen. Der Kurs verfolgt die Ideen des fächerübergreifenden »Forschenden Lernens«, indem aktuelle Forschungsfragen das Kursthema motivieren und Interdisziplinarität neue Erkenntnisse verspricht.</p>
                     <p>Die Studierenden nähern sich dem Kursthema aus ihrem jeweiligen disziplinären Hintergrund, entwickeln selbständig Fragestellungen und bringen ihre fachliche Perspektive ein. Die Kursprojekte werden in Teams von 2-4 Studierenden bearbeitet, welche jeweils aus verschiedenen Studiengängen kommen müssen. Es findet anfangs eine kritische Auseinandersetzung mit existierenden Sammlungszugängen statt. Nach drei Vorlesungsterminen, in denen die zentralen Konzepte und Forschungsfragen des Kurses vorgestellt werden, stellen alle Studierende Webseiten ihrer Lieblingsmuseen vor und untersuchen diese in Hinblick auf funktionale und ästhetische Gestaltungselemente. Durch die Analyse von existierenden Sammlungsinterfaces wird ein kritisches Bewusstsein geschult, welches den Studierenden bei ihrer eigenen Projektentwicklung zu Gute kommt. Um der Forschungsfrage nach adäquaten, ansprechenden und aktuellen Repräsentation digitaler Sammlungen an konkreten Beispielen nachzugehen, stehen dem Kurs als Datengrundlage eine Auswahl an digitalisierten Beständen zur Verfügung, welche die Kooperationspartner zur Verfügung stellen. Zu den Datensätzen zählten bislang u.a. Sammlungen der 
-                        <hi rend="italic">Stiftung Preußische Schlösser und Gärten (SPSG)</hi>, der 
-                        <hi rend="italic">Berlin-Brandenburgischen Akademie der Wissenschaften (BBAW)</hi>, des 
-                        <hi rend="italic">Syrian Heritage Archives</hi>, des 
-                        <hi rend="italic">Deutschen Forums für Kunstgeschichte Paris (DFK)</hi> und des 
-                        <hi rend="italic">Münzkabinetts der SMB</hi> (siehe https://uclab.fh-potsdam.de/vikus/). Über die freie Verfügbarmachung der Daten hinaus beteiligen sich Mitarbeiter*innen der jeweiligen Partnerinstitutionen an Workshops, Austauschtreffen und Präsentationen und unterstützen die studentischen Projektteams mit regelmäßigem Feedback, zusätzlichem Material und wissenschaftlicher Beratung. Jedes Forschungsprojekt umfasst die klassischen Forschungsphasen: von der Entwicklung einer Forschungsfrage zur Literaturrecherche, Entwicklung einer Methodik bis zur Diskussion und Präsentation der Ergebnisse.
+                        <hi>Stiftung Preußische Schlösser und Gärten (SPSG)</hi>, der 
+                        <hi>Berlin-Brandenburgischen Akademie der Wissenschaften (BBAW)</hi>, des 
+                        <hi>Syrian Heritage Archives</hi>, des 
+                        <hi>Deutschen Forums für Kunstgeschichte Paris (DFK)</hi> und des 
+                        <hi>Münzkabinetts der SMB</hi> (siehe https://uclab.fh-potsdam.de/vikus/). Über die freie Verfügbarmachung der Daten hinaus beteiligen sich Mitarbeiter*innen der jeweiligen Partnerinstitutionen an Workshops, Austauschtreffen und Präsentationen und unterstützen die studentischen Projektteams mit regelmäßigem Feedback, zusätzlichem Material und wissenschaftlicher Beratung. Jedes Forschungsprojekt umfasst die klassischen Forschungsphasen: von der Entwicklung einer Forschungsfrage zur Literaturrecherche, Entwicklung einer Methodik bis zur Diskussion und Präsentation der Ergebnisse.
                     </p>
                     <p>Im größeren Rahmen der Forschungsthematik „Visualisierung kultureller Sammlungen“ erfolgt die Konkretisierung der Themen, Fragestellungen und Methoden durch die Teilnehmer*innen in Absprache mit dem Dozenten. Anstelle von frontaler Wissensvermittlung wird versucht, einen konstruktiven und kritischen Möglichkeitsraum für Forschung und Studium aufzuspannen. Dafür werden auch Professor*innen aus den Fachbereichen als Gastkritiker*innen in den Kurs eingeladen, um Feedback bei Zwischen- und Endpräsentationen zu geben. Wichtiges Element des selbstorganisierten Lehrformats sind von Studierenden vorbereitete Methodeninputs, welche bezugnehmend auf die konkreten Anforderungen der Projekte relevante Techniken und Theorien vorstellen. Die vorgestellten Methoden in den vergangenen Kursen reichten von praktischen Werkzeugen zur Entwicklung von Interfaceprototypen bis zu theoretischen Konzepten zu Fotografie, Kuratierung und Interfacekritik.</p>
                 </div>
-                <div type="div2" rend="DH-Heading2">
+                <div>
                     <head>
-                        <anchor xml:id="id__4vopydj5a7py"/>Ergebnisse
+                        <anchor/>Ergebnisse
                     </head>
                     <p>Die Kursergebnisse reichen von Visualisierungskonzepten über Studien zur Wireframe-Analyse von Sammlungswebseiten (Kreiseler et al. 2017) bis hin zu funktionstüchtigen Webprototypen. </p>
                     <p>Eines der hervorzuhebenden Kursergebnisse ist ein Konzept zu einem Datenbestand der BBAW, welches mit seiner reduzierten Gestaltung und seiner Fokussierung auf Zeitgenossenschaft bewusst mit klassischen Archiv-Interfaces bricht (siehe Abb. 1). Anstatt die einzelnen Lebensdaten der Personen als Liste darzustellen, wird ein zeitlich geordneter Überblick geboten, der die Beziehungen zwischen Personen der »Berliner Klassik« in den Vordergrund rückt.</p>
                     <p>
                         <figure>
-                            <graphic url="Pictures/10000201000009C4000003157F581F65A453A63E.png"/>
+                            <graphic/>
                         </figure>
                     </p>
                     <p>Abb. 1: Biographische Textdaten der Berliner Klassik,BBAW (Sebastian Schuth, Tatjana Tšernõhh, Andreas Waleczek, Alexander Zöller).</p>
                     <p>Ein Projekt zur ostasiatischen Porzellansammlung der SPSG hatte zum Ziel, sowohl die Exploration der Bestände aus wissenschaftlichem Interesse zu unterstützen als auch kontextualisierende Narrative über die Entstehung der Objekte und der Sammlung anzubieten (siehe Abb. 2). Statt ausschließlich Informationen zu den Objekten in Form von Bild- und Metadaten zugrunde zu legen, haben die Studierenden gemeinsam mit den Kuratorinnen der Sammlung illustrierende Inhalte textuell und visuell erarbeitet, wodurch sie eine Vermittlungsebene in die wissenschaftlich erschlossenen Sammlungsdaten integrierten.</p>
                     <p>
                         <figure>
-                            <graphic url="Pictures/10000201000009C40000030486B8736C1F4B3C94.png"/>
+                            <graphic/>
                         </figure>
                     </p>
                     <p>Abb. 2: Narrative und explorative Visualisierung einer Porzellansammlung der SPSG (Jana Klausberger, Mark-Jan Bludau, Swann Nowak, Constantin Eichstaedt).</p>
                     <p>Eine interaktive Visualisierung des Münzkabinetts zeigt, wie das Loslösen von Darstellungskonventionen dazu beitragen kann, auf spielerische Art Erkenntnisse aus einem für Laien eher schwer zugänglichen Bestand zu gewinnen (siehe Abb. 3). Sowohl im physischen Ausstellungskontext als auch im Datenbankinterface werden Münzen zumeist in rigiden Tableaus dargestellt. Die Projektgruppe näherte sich dem numismatischen Bestand über ihren alltäglichen Blick auf das Material, nämlich über physische Haufen unterschiedlicher Münzen, in denen das Einzelstück zunächst untergeht. Die daraus resultierende Visualisierungsumgebung erlaubt es, aus haptisch anmutenden Arrangements über verschiedene Darstellungsmodi die Sammlung als Ganzes nach verschiedenen Merkmalen zu filtern und zu sortieren. Es können Zusammenhänge zwischen Prägungsort, Material, zeitlichen Verläufen und anderen Facetten in verschiedenen organischen Layouts untersucht werden.</p>
                     <p>
                         <figure>
-                            <graphic url="Pictures/10000201000009C400000301D4672A4DA2907AC0.png"/>
+                            <graphic/>
                         </figure>
                     </p>
                     <p>Abb. 3: Visualisierung der numismatischen Sammlung des Berliner Münzkabinetts
-                        <note xml:id="ftn2" place="foot" n="2">
-                            <ref target="https://uclab.fh-potsdam.de/coins">https://uclab.fh-potsdam.de/</ref>
-                            <ref target="https://uclab.fh-potsdam.de/coins">coins</ref>
+                        <note>
+                            <ref>https://uclab.fh-potsdam.de/</ref>
+                            <ref>coins</ref>
                         </note> (Flavio Gortana, Daniela Guhlmann, Franziska von Tenspolde).
                     </p>
                 </div>
             </div>
-            <div type="div1" rend="DH-Heading1">
+            <div>
                 <head>
-                    <anchor xml:id="id__qyxx3bszirkm"/>Diskussion
+                    <anchor/>Diskussion
                 </head>
                 <p>Disziplinäre Konventionen und die „digitale Vernunft“ in Sammlungsinstitutionen legen bei Digitalisierungs- und Erschließungsprojekten häufig den Fokus auf die strukturierte und möglichst vollständige wissenschaftliche Erfassung von Metadaten und die Entwicklung von Datenbankstrukturen, welche meist für interne Prozesse optimiert wird. Obwohl dieses Vorgehen im Sinne einer infrastrukturellen Entwicklung von digitalen Forschungsumgebungen zu Recht weite Verbreitung findet, werden auf diesem Wege kritische und gestalterische Ansätze nicht begünstigt. In den ersten Beschäftigungen mit den in den Kurs eingebrachten Datensätzen wird angeregt, dass sich die Studierenden einerseits „sensibel“ mit den Spezifika der Sammlungen auseinandersetzen und sich in einen engen Austausch mit den Wissenschaftler*innen der datengebenden Institutionen begeben, gleichzeitig aber im Sinne eines kritisch-generativen Annäherns auch neue und möglicherweise „ungewöhnliche“ Sichten auf die Sammlungen in Betracht ziehen. In den einführenden Sitzungen finden daher ebenso Impulsvorträge zur musealen Praxis des Ausstellens, zur Infragestellung disziplinärer Deutungshoheit und zur Diskrepanz zwischen Materialität von Sammlungen und deren Distanz schaffenden Präsentationsformen in Vitrinen, Schaukästen oder gesicherten Displays statt. Nach teilweiser Skepsis vonseiten der Institutionen am Anfang der Zusammenarbeit mit den Projektgruppen führt diese kritisch-generative Annäherung jedoch immer dazu, dass auch die Expert*innen neue Blicke auf „ihre“ Sammlungen gewinnen können. Einige der Projekte werden, auch auf Wunsch der Sammlungsinstitutionen, über das Ende des Kurses hinweg weiterentwickelt und zeugen somit davon, dass alternative Entwürfe zur gängigen Darstellungspraxis und das Hinterfragen des Status Quo für alle Seiten ein Zugewinn bieten kann: für die Expert*innen in den Sammlungsinstitutionen, den mit den Sammlungen arbeitenden Wissenschafter*innen, der breiteren Öffentlichkeit, welche über interaktive und anregende Visualisierungen Zugang zu den Sammlungen erhält und für die Studierenden, die selbständig neuartige Zugänge zu spannenden Beständen entwickeln und erforschen.</p>
             </div>
         </body>
         <back>
-            <div type="bibliogr">
+            <div>
                 <listBibl>
                     <head>Bibliographie</head>
                     <bibl>
-                        <hi rend="bold">Chen, K</hi>
-                        <hi rend="bold">o</hi>
-                        <hi rend="bold">-L</hi>
-                        <hi rend="bold">e</hi>
-                        <hi rend="bold"> / Dörk, M</hi>
-                        <hi rend="bold">arian</hi>
-                        <hi rend="bold"> / Dade-Robertson, M</hi>
-                        <hi rend="bold">artyn</hi> (2014): „Exploring the promises and potentials of visual archive interfaces“. In: Proceedings of the 2014 iConference. iSchools.
+                        <hi>Chen, K</hi>
+                        <hi>o</hi>
+                        <hi>-L</hi>
+                        <hi>e</hi>
+                        <hi> / Dörk, M</hi>
+                        <hi>arian</hi>
+                        <hi> / Dade-Robertson, M</hi>
+                        <hi>artyn</hi> (2014): „Exploring the promises and potentials of visual archive interfaces“. In: Proceedings of the 2014 iConference. iSchools.
                     </bibl>
                     <bibl>
-                        <hi rend="bold">Drucker, Johanna</hi> (2013): „Performative Materiality and Theoretical Approaches to Interface“. In: DHQ: Digital Humanities Quarterly, 7(1). 
-                        <ptr target="http://www.digitalhumanities.org/dhq/vol/7/1/000143/000143.html"/> [letzter Zugriff 25. September 2017].
+                        <hi>Drucker, Johanna</hi> (2013): „Performative Materiality and Theoretical Approaches to Interface“. In: DHQ: Digital Humanities Quarterly, 7(1). 
+                        <ptr/> [letzter Zugriff 25. September 2017].
                     </bibl>
                     <bibl>
-                        <hi rend="bold">Glinka, K</hi>
-                        <hi rend="bold">atrin /</hi>
-                        <hi rend="bold"> Pietsch, C</hi>
-                        <hi rend="bold">hristopher /</hi>
-                        <hi rend="bold"> Dörk, M</hi>
-                        <hi rend="bold">arian</hi> (2017a): „Past visions and reconciling views: Visualizing time, texture and themes in cultural collections“. In: DHQ: Digital Humanities Quarterly, 11(2). 
-                        <ptr target="http://www.digitalhumanities.org/dhq/vol/11/2/000290/000290.html"/> [letzter Zugriff 25. September 2017].
+                        <hi>Glinka, K</hi>
+                        <hi>atrin /</hi>
+                        <hi> Pietsch, C</hi>
+                        <hi>hristopher /</hi>
+                        <hi> Dörk, M</hi>
+                        <hi>arian</hi> (2017a): „Past visions and reconciling views: Visualizing time, texture and themes in cultural collections“. In: DHQ: Digital Humanities Quarterly, 11(2). 
+                        <ptr/> [letzter Zugriff 25. September 2017].
                     </bibl>
                     <bibl>
-                        <hi rend="bold">Glinka, K</hi>
-                        <hi rend="bold">atrin /</hi>
-                        <hi rend="bold"> Pietsch, C</hi>
-                        <hi rend="bold">hristopher /</hi>
-                        <hi rend="bold"> Dörk, M</hi>
-                        <hi rend="bold">arian</hi> (2017b). „Von sammlungsspezifischen Visualisierungen zu nachnutzbaren Werkzeugen“. In: Konferenzband zur DHd 2017 Bern - Digitale Nachhaltigkeit.
+                        <hi>Glinka, K</hi>
+                        <hi>atrin /</hi>
+                        <hi> Pietsch, C</hi>
+                        <hi>hristopher /</hi>
+                        <hi> Dörk, M</hi>
+                        <hi>arian</hi> (2017b). „Von sammlungsspezifischen Visualisierungen zu nachnutzbaren Werkzeugen“. In: Konferenzband zur DHd 2017 Bern - Digitale Nachhaltigkeit.
                     </bibl>
                     <bibl>
-                        <hi rend="bold">Moretti, F</hi>
-                        <hi rend="bold">ranco</hi> (2005). Graphs, Maps, Trees: Abstract models for a literary history. Verso.
+                        <hi>Moretti, F</hi>
+                        <hi>ranco</hi> (2005). Graphs, Maps, Trees: Abstract models for a literary history. Verso.
                     </bibl>
                     <bibl>
-                        <hi rend="bold">Kreiseler, S</hi>
-                        <hi rend="bold">arah /</hi>
-                        <hi rend="bold"> Brüggemann, V</hi>
-                        <hi rend="bold">iktoria /</hi>
-                        <hi rend="bold"> Dörk, M</hi>
-                        <hi rend="bold">arian</hi> (2017). „Tracing exploratory modes in digital collections of museum web sites using reverse information architecture“. In: First Monday, 22(4). 
-                        <ptr target="http://firstmonday.org/ojs/index.php/fm/article/view/6984"/> [letzter Zugriff 25. September 2017].
+                        <hi>Kreiseler, S</hi>
+                        <hi>arah /</hi>
+                        <hi> Brüggemann, V</hi>
+                        <hi>iktoria /</hi>
+                        <hi> Dörk, M</hi>
+                        <hi>arian</hi> (2017). „Tracing exploratory modes in digital collections of museum web sites using reverse information architecture“. In: First Monday, 22(4). 
+                        <ptr/> [letzter Zugriff 25. September 2017].
                     </bibl>
                     <bibl>
-                        <hi rend="bold">Yamaoka, So / Manovich, Lev / Douglass, Jeremy / Kuester, Falko</hi> (2011). „Cultural analytics in large-scale visualization environments“. In: Computer, 44(12):39–48.
+                        <hi>Yamaoka, So / Manovich, Lev / Douglass, Jeremy / Kuester, Falko</hi> (2011). „Cultural analytics in large-scale visualization environments“. In: Computer, 44(12):39–48.
                     </bibl>
                     <bibl>
-                        <hi rend="bold">Whitelaw, M</hi>
-                        <hi rend="bold">itchell</hi> (2015). „Generous interfaces for digital cultural collections“. digital humanities quarterly, 9(1). 
-                        <ptr target="http://www.digitalhumanities.org/dhq/vol/9/1/000205/000205.html"/> [letzter Zugriff 25. September 2017].
+                        <hi>Whitelaw, M</hi>
+                        <hi>itchell</hi> (2015). „Generous interfaces for digital cultural collections“. digital humanities quarterly, 9(1). 
+                        <ptr/> [letzter Zugriff 25. September 2017].
                     </bibl>
                 </listBibl>
             </div>

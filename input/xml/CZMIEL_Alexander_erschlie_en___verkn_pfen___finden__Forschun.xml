@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>erschließen - verknüpfen - finden: Forschungsdaten im Digitalen Wissensspeicher</title>
+                <author>
+                    <persName>
+                        <surname>Czmiel</surname>
+                        <forename>Alexander</forename>
+                    </persName>
+                    <affiliation>Berlin-Brandenburgische Akademie der Wissenschaften, Deutschland</affiliation>
+                    <email>czmiel@bbaw.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Grabsch</surname>
+                        <forename>Sascha</forename>
+                    </persName>
+                    <affiliation>Berlin-Brandenburgische Akademie der Wissenschaften, Deutschland</affiliation>
+                    <email>grabsch@bbaw.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Jürgens</surname>
+                        <forename>Marco</forename>
+                    </persName>
+                    <affiliation>Berlin-Brandenburgische Akademie der Wissenschaften, Deutschland</affiliation>
+                    <email>juergens@bbaw.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Maiwald</surname>
+                        <forename>Anke</forename>
+                    </persName>
+                    <affiliation>Berlin-Brandenburgische Akademie der Wissenschaften, Deutschland</affiliation>
+                    <email>maiwald@bbaw.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Willenborg</surname>
+                        <forename>Josef</forename>
+                    </persName>
+                    <affiliation>Berlin-Brandenburgische Akademie der Wissenschaften, Deutschland</affiliation>
+                    <email>willenborg@bbaw.de</email>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2015-10-04T22:02:00Z</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Prof. Dr. Georg Vogeler</publisher>
+                <address>
+                    <addrLine>UniversitÃ¤t Graz</addrLine>
+                    <addrLine>Zentrum fÃ¼r Informationsmodellierung - Austrian Centre for Digital Humanities</addrLine>
+                    <addrLine>ElisabethstraÃ&#x9f;e 59/III</addrLine>
+                    <addrLine>8010 Graz</addrLine>
+                </address>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Converted from a Word document </p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application>
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term>Paper</term>
+                </keywords>
+                <keywords>
+                    <term>Poster</term>
+                </keywords>
+                <keywords>
+                    <term>Forschungsdaten</term>
+                    <term>semantische Annotation</term>
+                    <term>Sichtbarkeit</term>
+                    <term>Information Retrieval</term>
+                    <term>Metadaten</term>
+                </keywords>
+                <keywords>
+                    <term>Entdeckung</term>
+                    <term>Sammlung</term>
+                    <term>Annotieren</term>
+                    <term>Infrastruktur</term>
+                    <term>Metadaten</term>
+                    <term>Forschungsprozess</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>Die Auffindbarkeit und Sichtbarkeit digitaler Forschungsergebnisse in den Geisteswissenschaften leiden immer noch unter dem Mangel an einer zentralen Plattform für den wissenschaftlich fundierten Zugang, nicht nur zu den Metadaten, sondern auch zu den vollständigen digitalen, semantisch erschlossenen Forschungsdaten. Insbesondere die wichtigen Ergebnisse der geisteswissenschaftlichen Grundlagenforschung an den Akademien haben zu wenig Bekanntheit in den Fachcommunities und der breiteren Öffentlichkeit. Die Landschaft digitaler Forschungsergebnisse, wie Digitaler Editionen, Repositorien oder Forschungsdatenbanken, erscheint, trotz des vermehrten Einsatzes von Standards, technisch fragmentiert und wenig überschaubar. Dazu kommt eine mangelnde Vernetzung der verschiedenen Sammlungen, insbesondere institutionen- und fächerübergreifend, die zu dem aktuellen Zustand einzelner, isolierter digitaler Projekte geführt hat. </p>
+            <p>Im Rahmen des DFG-geförderten Projektes „Digitaler Wissensspeicher“ wurde an der Berlin-Brandenburgischen Akademie der Wissenschaften (BBAW) seit 2012 ein zentraler Zugang für sämtliche digitale Forschungsdaten und Ressourcen der Akademie geschaffen. Hauptziel war dabei die vollständige Erfassung und Volltext-Indexierung der technisch sowie inhaltlich äußerst vielfältigen und heterogenen Ressourcen der BBAW. Gestützt auf einen Volltextindex (Apache Lucene) und ein anhand der Anforderungen der Akademie entwickeltes Metadenschema (basierend auf dem Metadatenstandard OAI-ORE) wurden über 230 Sammlungen aus 142 Projekten mit insgesamt mehr als 1 Mio. digitalen Ressourcen im Volltext und mit Metadaten erfasst. Durch den Einsatz von Sprachtechnologien (u. a. Donatus) ist eine morphologisch normalisierte Suche möglich. Über Text-Mining-Tools, wie DBpedia-Spotlight, werden die erfassten Ressourcen semantisch angereichert und vernetzt. Eine weitere Verknüpfung erfolgt über die manuell erfassten Metadaten zu den einzelnen Projekten und deren digitalen Sammlungen. Dies ermöglicht z.B. eine automatisierte Zuordnung semantisch ähnlicher Projekte. </p>
+            <p>Die durch das Textmining gewonnenen semantischen Annotationen ermöglichen eine Vielzahl weitergehender Nutzung. Beispielhaft wird dies auf der Website des Wissensspeichers anhand einer Kartenvisualisierung, die auch verschiedene Filtermöglichkeiten anbietet, demonstriert: die von DBpedia-Spotlight innerhalb der Ressourcen erkannten Orte werden projekt- und sammlungsübergreifend auf einer Karte referenziert. Sie bilden die Grundlage für einen visuellen, explorativen Zugang zu den indexierten Einzelressourcen. </p>
+            <figure>
+                <graphic/>
+            </figure>
+            <p>Die Beschreibung der Metadaten erfolgt mittels eines flexiblen OAI-ORE-basierten Metadatenschemas, das die Abbildung aller, teilweise komplexen, Forschungsvorhaben der BBAW ermöglicht. Ähnlich den technisch niedrigschwelligen Anforderungen an die Volltext-Indexierung besteht auch für den Bereich der Metadaten die Möglichkeit, mit wenigen Pflichtfeldern weitere Sammlungen und Forschungsprojekte in den Wissensspeicher aufzunehmen. Die Metadaten zu allen Projekten werden über eine SPARQL-Schnittstelle für die weitere maschinelle Nachnutzung, z.B. die Integration in die Linked-Open-Data-Cloud bereitgestellt. </p>
+            <figure>
+                <graphic/>
+            </figure>
+            <p>Der Digitale Wissensspeicher ist unter der Adresse http://wissensspeicher.bbaw.de für den öffentlichen Zugriff erreichbar. Damit bietet der Wissensspeicher eine exemplarische Lösung für einen Katalog heterogener, digitaler geisteswissenschaftlicher Ressourcen, die zentral aggregiert und über eine Volltextsuche verfügbar gemacht werden. Dass es sich dabei nicht nur um digitale Ressourcen der BBAW handeln muss, liegt auf der Hand. Damit auch Sammlungen anderer Projekte und Institutionen von der Entwicklung des Wissensspeichers profitieren können, wurden Guidelines mit strukturellen und inhaltlichen Mindestanforderungen, die Ressourcen und Metadaten für die Aufnahme erfüllen müssen bzw. Schnittstellenbeschreibungen für vom Wissensspeicher unterstützte Formate bereitgestellt. Damit werden niedrigschwellige Zielvorgaben für die (technische) Qualität der in den Wissensspeicher aufzunehmenden Ressourcen mit ihren Metadaten formuliert. Zu den unterstützten Formaten gehören u.a. HTML-Websites, XML-basierte Ressourcen, PDF-Dokumente und institutionelle Repositorien sowie jede Form von Daten, die in der vom Wissensspeicher definierten Form eines XML-Exports ausgeliefert werden können (z.B. relationale Datenbanken oder NoSQL-Datenbanken). </p>
+            <p>Das große Spektrum unterschiedlicher Erscheinungsformen digitaler Ressourcen in den Geisteswissenschaften kann somit vom Wissensspeicher verarbeitet und integriert werden. Durch die projektübergreifende Volltextsuche in allen verzeichneten Sammlungen sowie die miteinander vernetzten Metadaten verbessert der Digitale Wissensspeicher die Auffindbarkeit, Sichtbarkeit und damit die Nutzbarkeit von Digital-Humanities-Projekten und digitalen Forschungsergebnissen.</p>
+        </body>
+    </text>
+</TEI>

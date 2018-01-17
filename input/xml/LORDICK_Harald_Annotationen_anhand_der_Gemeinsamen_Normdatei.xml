@@ -3,9 +3,9 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title type="full">
-                    <title type="main">Annotationen anhand der Gemeinsamen Normdatei aus einer anwendungsorientierten Perspektive historischer Forschung</title>
-                    <title type="sub"/>
+                <title>
+                    <title>Annotationen anhand der Gemeinsamen Normdatei aus einer anwendungsorientierten Perspektive historischer Forschung</title>
+                    <title/>
                 </title>
                 <author>
                     <persName>
@@ -44,27 +44,27 @@
         </fileDesc>
         <encodingDesc>
             <appInfo>
-                <application ident="DHCONVALIDATOR" version="1.17">
+                <application>
                     <label>DHConvalidator</label>
                 </application>
             </appInfo>
         </encodingDesc>
         <profileDesc>
             <textClass>
-                <keywords scheme="ConfTool" n="category">
+                <keywords>
                     <term>Paper</term>
                 </keywords>
-                <keywords scheme="ConfTool" n="subcategory">
+                <keywords>
                     <term>Poster</term>
                 </keywords>
-                <keywords scheme="ConfTool" n="keywords">
+                <keywords>
                     <term>Gemeinsame Normdatei</term>
                     <term>GND</term>
                     <term>BEACON</term>
                     <term>Wikipedia</term>
                     <term>Linked Data</term>
                 </keywords>
-                <keywords scheme="ConfTool" n="topics">
+                <keywords>
                     <term>Annotieren</term>
                     <term>Netzwerkanalyse</term>
                     <term>Kollaboration</term>
@@ -76,21 +76,21 @@
     </teiHeader>
     <text>
         <body>
-            <div type="div1" rend="DH-Heading">
+            <div>
                 <head>Gemeinsame Normdatei</head>
                 <p>Die Anwendung von Normdaten und kontrollierten Vokabularen, die über einfache Glossare hinausgehen, gewinnt für die Geisteswissenschaften zunehmend Bedeutung: digitale Taxonomien, Thesauri, Ontologien. Die Posterpräsentation erläutert die Linked-Data-Strategie des Steinheim-Instituts (STI): die Annotation aller digitalen Angebote mittels der Gemeinsamen Normdatei (GND), die dafür entwickelten Tools, den Mehrwert der Teilnahme an der sich herausbildenden dezentralen Infrastruktur, das Weiterentwicklungspotenzial aus Praxisperspektive, schließlich die Notwendigkeit und Möglichkeit des schreibenden Zugriffs von Projektmitarbeitern auf die Normdatei sowie erste Erfahrungen damit.</p>
                 <p>Die GND ist eine Sammlung von Normdatensätzen zu Personen, Körperschaften, Konferenzen, Geografika, Sachschlagwörtern und Werktiteln. Sie wird im Bibliotheksbereich kooperativ erstellt und gepflegt und ist dort insbesondere im Zusammenhang der Katalogisierung etabliert. Der Zugriff auf die GND und ihre Integration in digitale Anwendungen ist schrankenlos möglich: Sie steht unter der Lizenz CC0, wird in verschiedenen Formaten angeboten (u.a. RDF) und ist über unterschiedliche Schnittstellen ansprechbar (u.a. OAI-PMH). Zudem stehen weitere Services wie BEACON Findbuch und Entity Facts bereit.</p>
                 <p>Identifikation und Disambiguierung durch Verschlagwortung mittels der GND einschließlich ihrer internen Relationen erlauben, entsprechende Schnittstellen vorausgesetzt, digitale Anwendungen als Linked Data anzubieten. Dies wird zunehmend in Webanwendungen von Bibliotheken, Kultureinrichtungen und eben auch Forschungsprojekten genutzt. Auch außerhalb der engeren Bibliothekssphäre findet man längst eine ausgeprägte und erfolgreiche Praxis – allerdings selten besprochen und diskutiert.</p>
             </div>
-            <div type="div1" rend="DH-Heading">
+            <div>
                 <head>
-                    <anchor xml:id="id_Verteilte_Infrastruktur"/>Verteilte Infrastruktur
+                    <anchor/>Verteilte Infrastruktur
                 </head>
                 <p>Im Umfeld der Wikipedia ist eine dezentrale Recherche-Infrastruktur entstanden, die ein solches Linked-Data-Netz aufspannt. Eine Projektseite der deutschen Wikipedia (Wikipedia:BEACON) dient als ‚Collection Registry‘, in die entprechend ausgerüstete Angebote mit ihren BEACON-Dateien eingetragen werden. Diese BEACON-Dateien können frei genutzt werden (Public Domain), und erlauben die Vernetzung untereinander. Der Aggregator BEACON Findbuch enthält 488 (Stand 14.01.2018) dieser (noch stark biografieorientierten) Sammlungen. Deren „Fact Sheets“ liefern üblicherweise Basisinformationen zur recherchierten Entität sowie weiterführende Links.</p>
                 <p>Für verschiedene Webanwendungen des STI wurde ein eigener Service entworfen und implementiert, der diese Funktionalität fachspezifisch und nutzerzentriert bündelt und nicht nur für Personen, sondern das gesamte Spektrum der GND Antworten liefert (Abb.1).</p>
                 <p>
                     <figure>
-                        <graphic url="Pictures/1000020100000745000004B6D29E70CA83AF49E8.png"/>
+                        <graphic/>
                         <head/>
                         <p>Abbildung 1: STI Fact Sheet</p>
                     </figure>
@@ -98,30 +98,30 @@
                 <p>Ein weiteres Tool dient dem Vergleich von BEACON-Dateien zur Ermittlung ihrer Schnittmenge hinsichtlich gemeinsamer IDs (Abb.2).</p>
                 <p>
                     <figure>
-                        <graphic url="Pictures/1000020100000774000004B67B5997266B03A4A4.png"/>
+                        <graphic/>
                         <head/>
                         <p>Abbildung 2: Vergleich von BEACON-Dateien</p>
                     </figure>
                 </p>
             </div>
-            <div type="div1" rend="DH-Heading">
+            <div>
                 <head>
-                    <anchor xml:id="id_Use_Case_.E2.80.9EPosener_Heimat.E2.80.9C"/>Use Case
+                    <anchor/>Use Case
                 </head>
                 <p>Nach der retrospektiven GND-Annotation unterschiedlicher digitaler Webangebote des STI wurde dies Verfahren bei dem Projekt „Posener Heimat in der Literatur und Publizistik deutscher Juden 1918–1938“ schon bei Antragstellung eingeplant. Die Erschließungsdatenbank zur Zeitschrift „Posener Heimatblätter“ und das Projektblog werden zunächst konsequent anhand interner IDs annotiert und dann, soweit verfügbar, via GND-Verschlagwortung untereinander und extern vernetzt, ebenso die abschließende digitale Publikation.</p>
                 <p>Schon die laufende Projektarbeit profitiert von diesen Annotationen und den hierdurch erweiterten Recherchemöglichkeiten. Zudem werden durch intensive Recherche in deutschen und polnischen Archiven Informationen gehoben, anhand derer eine substanzielle Ergänzung der GND wünschenswert und möglich ist, durch Neuanlage, Ergänzung und Korrektur von Datensätzen.</p>
                 <p>Illustrierende Beispiele: Zu der jüdischen Kinderbuchautorin und Dichterin Frieda Mehler, die mit ihren Publikationen nach 1933 aus den deutschen Bibliotheken verbannt wurde, konnten im Projekt alle für einen GND-Personen-Datensatz notwendigen Informationen erhoben werden (Abb.3). Und zu dem Publizisten, Historiker und Kunstsammler Arthur Kronthal fand sich in der GND zwar ein Personen-Datensatz, aber ohne Lebensdaten und ohne Verknüpfung mit seinen gleichwohl katalogisierten Publikationen. Kronthal verbrachte seine letzten Lebensjahre in einem Siechenheim und verstarb im Jüdischen Krankenhaus in Berlin 1941. Er wurde fälschlich als 
-                    <hi rend="italic">Adolph</hi> Kronthal im Sterberegister verzeichnet. Durch wissenschaftliche Archivrecherche und intellektuellen Abgleich der Daten gelang seine für die GND relevante Identifikation.
+                    <hi>Adolph</hi> Kronthal im Sterberegister verzeichnet. Durch wissenschaftliche Archivrecherche und intellektuellen Abgleich der Daten gelang seine für die GND relevante Identifikation.
                 </p>
                 <p>
                     <figure>
-                        <graphic url="Pictures/10000201000004E30000030601BED2133F8A7544.png"/>
+                        <graphic/>
                         <head/>
                         <p>Abbildung 3: Eintrag zu Frieda Mehler im GND-Webformular</p>
                     </figure>
                 </p>
             </div>
-            <div type="div1" rend="DH-Heading">
+            <div>
                 <head>Folgerungen aus der Projektpraxis</head>
                 <p>Die bisher übliche Anwendung des GND/BEACON-Verfahrens ist schwerpunktmäßig biografie- und metadatenbezogen. Darüber hinaus erscheint jedoch die ausweitende Verschlagwortung etwa mit „Sachbegriffen“ oder „Organisationen“ sowie die tiefe Erschließung, d.h. die durchgängige Annotation von Volltexten (und nicht nur ihrer Metadaten) für die historische Forschung sehr attraktiv.</p>
                 <p>Die projektbezogene, zur bestmöglichen Verlinkung sinnvolle Auswertung aller oder passender BEACON-Dateien könnte unterstützt werden durch eine maschinenlesbare(re) ‚Collection Registry‘. Entsprechend wären Ansätze zu fördern, die darauf zielen, die „Weiternutzung der Daten zu vereinfachen“ (Wikipedia:BEACON). Auch die seitens DARIAH-DE angebotene „Collection Registry“ ist durch ihre Unterstützung von BEACON-Dateien geeignet. </p>
@@ -129,51 +129,51 @@
             </div>
         </body>
         <back>
-            <div type="bibliogr">
+            <div>
                 <listBibl>
                     <head>Bibliographie</head>
                     <bibl>
-                        <hi rend="bold">BEACON Findbuch</hi>
-                        <ptr target="http://beacon.findbuch.de/"/> [letzter Zugriff 14. Januar 2018]
+                        <hi>BEACON Findbuch</hi>
+                        <ptr/> [letzter Zugriff 14. Januar 2018]
                     </bibl>
                     <bibl>
-                        <hi rend="bold">Gemeinsame Normdatei</hi> (GND) 
-                        <ptr target="http://www.dnb.de/DE/Standardisierung/GND/gnd_node.html"/> [letzter Zugriff 14. Januar 2018]
+                        <hi>Gemeinsame Normdatei</hi> (GND) 
+                        <ptr/> [letzter Zugriff 14. Januar 2018]
                     </bibl>
                     <bibl>
-                        <hi rend="bold">Danowski, Patrick / Pohl, Adrian</hi> (Hg.) (2013): 
-                        <hi rend="italic">(Open) Linked Data in Bibliotheken</hi> (Bibliotheks- und Informationspraxis 50), Berlin.
+                        <hi>Danowski, Patrick / Pohl, Adrian</hi> (Hg.) (2013): 
+                        <hi>(Open) Linked Data in Bibliotheken</hi> (Bibliotheks- und Informationspraxis 50), Berlin.
                     </bibl>
                     <bibl>
-                        <hi rend="bold">Hartmann, Sarah</hi> (2017): GND-Webformular – eine neue Schnittstelle für die GND 
-                        <ptr target="https://wiki.dnb.de/download/attachments/125420735/2-4_%20GND-Webformular_Hartmann.pdf?version=1&amp;modificationDate=1501514388000&amp;api=v2"/> [letzter Zugriff 14. Januar 2018]
+                        <hi>Hartmann, Sarah</hi> (2017): GND-Webformular – eine neue Schnittstelle für die GND 
+                        <ptr/> [letzter Zugriff 14. Januar 2018]
                     </bibl>
                     <bibl>
-                        <hi rend="bold">Informationsseite zur GND</hi>
-                        <ptr target="https://wiki.dnb.de/display/ILTIS/Informationsseite+zur+GND"/> [letzter Zugriff 14. Januar 2018]
+                        <hi>Informationsseite zur GND</hi>
+                        <ptr/> [letzter Zugriff 14. Januar 2018]
                     </bibl>
                     <bibl>
-                        <hi rend="bold">Lordick, Harald</hi> (2015): »BEACON – »Leuchtfeuer« für Online-Publikationen«, in: 
-                        <hi rend="italic">Deutsch-jüdische Geschichte digital,</hi> 17. Mai 2015, 
-                        <ptr target="https://djgd.hypotheses.org/672"/> [letzter Zugriff 14. Januar 2018]
+                        <hi>Lordick, Harald</hi> (2015): »BEACON – »Leuchtfeuer« für Online-Publikationen«, in: 
+                        <hi>Deutsch-jüdische Geschichte digital,</hi> 17. Mai 2015, 
+                        <ptr/> [letzter Zugriff 14. Januar 2018]
                     </bibl>
                     <bibl>
-                        <hi rend="bold">Lordick, Harald</hi> (2016): Fachspezifische und nutzerzentrierte Perspektiven — Quellen vernetzen mit der Gemeinsamen Normdatei, in: 
-                        <hi rend="italic">Deutsch-jüdische Geschichte digital,</hi> 27. November 2016, 
-                        <ptr target="https://djgd.hypotheses.org/1181"/> [letzter Zugriff 14. Januar 2018]
+                        <hi>Lordick, Harald</hi> (2016): Fachspezifische und nutzerzentrierte Perspektiven — Quellen vernetzen mit der Gemeinsamen Normdatei, in: 
+                        <hi>Deutsch-jüdische Geschichte digital,</hi> 27. November 2016, 
+                        <ptr/> [letzter Zugriff 14. Januar 2018]
                     </bibl>
                     <bibl>
-                        <hi rend="bold">Mache, Beata</hi> (2015): 
-                        <hi rend="italic">Digitale Edition und Erschließung eines interreligiösen Periodikums aus dem Vormärz als editionsphilologische Aufgabe: Universal-Kirchenzeitung für die Geistlichkeit und die gebildete Weltklasse des protestantischen, katholischen und israelitischen Deutschlands (1837),</hi> Duisburg, Essen, Univ., Diss., 2015 
-                        <ref target="http://nbn-resolving.de/urn:nbn:de:hbz:464-20150327-080454-5">urn:nbn:de:hbz:464-20150327-080454-5</ref>
+                        <hi>Mache, Beata</hi> (2015): 
+                        <hi>Digitale Edition und Erschließung eines interreligiösen Periodikums aus dem Vormärz als editionsphilologische Aufgabe: Universal-Kirchenzeitung für die Geistlichkeit und die gebildete Weltklasse des protestantischen, katholischen und israelitischen Deutschlands (1837),</hi> Duisburg, Essen, Univ., Diss., 2015 
+                        <ref>urn:nbn:de:hbz:464-20150327-080454-5</ref>
                     </bibl>
                     <bibl>
-                        <hi rend="bold">Plum, Nathalie Madeleine</hi> (2017): Ein Thesaurus für den Naturschutz. Erstellung eines vernetzten Vokabulars für die Literaturdatenbank DNL-online, in: 
-                        <hi rend="italic">Natur und Landschaft. Zeitschrift für Naturschutz und Landschaftspflege,</hi> 92 (2017), Nr. 8, S. 356–364.
+                        <hi>Plum, Nathalie Madeleine</hi> (2017): Ein Thesaurus für den Naturschutz. Erstellung eines vernetzten Vokabulars für die Literaturdatenbank DNL-online, in: 
+                        <hi>Natur und Landschaft. Zeitschrift für Naturschutz und Landschaftspflege,</hi> 92 (2017), Nr. 8, S. 356–364.
                     </bibl>
                     <bibl>
-                        <hi rend="bold">Wikipedia:BEACON</hi>
-                        <ptr target="https://de.wikipedia.org/wiki/Wikipedia:BEACON"/> [letzter Zugriff 14. Januar 2018]
+                        <hi>Wikipedia:BEACON</hi>
+                        <ptr/> [letzter Zugriff 14. Januar 2018]
                     </bibl>
                 </listBibl>
             </div>

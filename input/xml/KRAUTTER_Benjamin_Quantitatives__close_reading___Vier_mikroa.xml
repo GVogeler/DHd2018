@@ -33,27 +33,27 @@
         </fileDesc>
         <encodingDesc>
             <appInfo>
-                <application ident="DHCONVALIDATOR" version="1.17">
+                <application>
                     <label>DHConvalidator</label>
                 </application>
             </appInfo>
         </encodingDesc>
         <profileDesc>
             <textClass>
-                <keywords scheme="ConfTool" n="category">
+                <keywords>
                     <term>Paper</term>
                 </keywords>
-                <keywords scheme="ConfTool" n="subcategory">
+                <keywords>
                     <term>Vortrag</term>
                 </keywords>
-                <keywords scheme="ConfTool" n="keywords">
+                <keywords>
                     <term>Stilometrie</term>
                     <term>Kopräsenz</term>
                     <term>Drama</term>
                     <term>Wortfeldsemantik</term>
                     <term>Sentiment</term>
                 </keywords>
-                <keywords scheme="ConfTool" n="topics">
+                <keywords>
                     <term>Inhaltsanalyse</term>
                     <term>Strukturanalyse</term>
                     <term>Kontextsetzung</term>
@@ -65,216 +65,192 @@
     </teiHeader>
     <text>
         <body>
-            <div type="div1" rend="DH-Heading1">
+            <div>
                 <head>Einführung</head>
                 <p>Jüngste Ergebnisse der computergestützten Forschung legen nahe, dass Romanfiguren – gemessen an ihrer Figurenrede – von den jeweiligen Autoren stilistisch distinktiv angelegt werden können (Hoover 2017; Fields, Bassist, Roper 2017). Versierte Autoren könnten ihren Figuren also sogenannte „distinctive voices“ einschreiben, die sich stilometrisch identifizieren lassen. Anders als bei Autorschafts-, Gattungs- oder Epochensignalen handelt es sich hierbei um ein 
-                    <hi rend="italic">intratextuelles</hi> Unterscheidungskriterium. Untersuchungsgegenstand ist somit nicht ein großes Textkorpus verschiedener Autoren, sondern ein einzelner literarischer Text. David Hoover benennt dieses Vorgehen der Textselektion und -aufbereitung ‚microanalysis‘. Er setzt sich damit nicht nur von Schlagwörtern wie ‚big data‘ ab, er betont trotz vergleichbarer quantitativer Methoden auch die Unterschiede zu Konzepten wie ‚macroanalysis‘ (Jockers 2013) und ‚distant reading‘ (Moretti 2000; 2005).
+                    <hi>intratextuelles</hi> Unterscheidungskriterium. Untersuchungsgegenstand ist somit nicht ein großes Textkorpus verschiedener Autoren, sondern ein einzelner literarischer Text. David Hoover benennt dieses Vorgehen der Textselektion und -aufbereitung ‚microanalysis‘. Er setzt sich damit nicht nur von Schlagwörtern wie ‚big data‘ ab, er betont trotz vergleichbarer quantitativer Methoden auch die Unterschiede zu Konzepten wie ‚macroanalysis‘ (Jockers 2013) und ‚distant reading‘ (Moretti 2000; 2005).
                 </p>
                 <p>Erstaunlicherweise beschränken sich die Studien zur stilistischen Differenzierung von Figurenrede größtenteils auf Romane. Dabei ist es doch gerade die Struktur dramatischer Texte, die eine quantitative Untersuchung der Figurenrede plausibel erscheinen lässt – die Rede wird nicht von einem Erzähler sortiert, kommentiert und in einen Rahmen gebettet. Auch erste Forschungsansätze sind durchaus vorhanden: John Burrows und Hugh Craig zeigen etwa, dass einzelne Dramenfiguren sehr wohl erfolgreich einem Autorsignal zugeordnet werden können (Burrows, Craig 2012). Sie reagieren damit interessanterweise auf Kritiker, die die erfolgreiche Autorschaftsattribution von Dramentexten aufgrund der vielen verschiedenartigen Stimmen – weil es also keinen Erzähler gibt – in Frage stellen (Masten 1997).</p>
                 <p>Nachfolgend soll geprüft werden, inwieweit sich Hoovers Vorgehen (2017) zur Ermittlung distinktiver Figurenrede auch auf dramatische Texte übertragen lässt. Die Ergebnisse der stilometrischen Untersuchung werden im Anschluss durch drei weitere quantitative Analyseverfahren kontextualisiert und zugleich kritisch hinterfragt.</p>
             </div>
-            <div type="div1" rend="DH-Heading1">
+            <div>
                 <head>Distinktive Figurenrede im Drama?</head>
                 <p>
-                    <hi rend="italic">Abbildung 1</hi>
-                    <note place="foot" xml:id="ftn1" n="1">
-                        <p rend="footnote text"> Die Zahlen geben den Akt des Dramas wieder, dem die Figurenrede entnommen ist. 
-                            <hi rend="italic">Abbildung 1</hi> und 
-                            <hi rend="italic">Abbildung 2</hi> wurden mit Hilfe des 
-                            <hi rend="fontstyle01">‚stylo‘-Pakets für R angefertigt (Eder
-                                <hi rend="color(00000A)">, </hi>
-                                <hi rend="color(00000A)">Kestemont</hi>
-                                <hi rend="color(00000A)">, </hi>
-                                <hi rend="color(00000A)">Rybicki</hi>
-                                <hi rend="color(00000A)"> 2013).</hi>
+                    <hi>Abbildung 1</hi>
+                    <note>
+                        <p> Die Zahlen geben den Akt des Dramas wieder, dem die Figurenrede entnommen ist. 
+                            <hi>Abbildung 1</hi> und 
+                            <hi>Abbildung 2</hi> wurden mit Hilfe des 
+                            <hi>‚stylo‘-Pakets für R angefertigt (Eder
+                                <hi>, </hi>
+                                <hi>Kestemont</hi>
+                                <hi>, </hi>
+                                <hi>Rybicki</hi>
+                                <hi> 2013).</hi>
                             </hi>
                         </p>
                     </note> zeigt eine hierarchische Clusteranalyse der wichtigsten Figuren aus Gotthold Ephraim Lessings 
-                    <hi rend="italic">Minna von Barnhelm, oder das Soldatenglück</hi>.
-                    <note place="foot" xml:id="ftn2" n="2">
-                        <p rend="footnote text"> Alle untersuchten Dramen entstammen dem Textgrid Repository.</p>
+                    <hi>Minna von Barnhelm, oder das Soldatenglück</hi>.
+                    <note>
+                        <p> Alle untersuchten Dramen entstammen dem Textgrid Repository.</p>
                     </note> Die Abbildung setzt die Redeanteile der wichtigsten Dramenfiguren, die gemäß der Aktgrenzen segmentiert wurden, stilometrisch in Relation. Grundlage der Analyse sind die Wortfrequenzlisten, die den Redeäußerungen der einzelnen Figuren entnommen werden. Mit Hilfe von ‚Cosine Delta‘, das zuverlässigere Ergebnisse als ‚Burrows’s‘ oder ‚Argamon’s Delta‘ erzielen sollte (Evert u.a. 2017), wird aus den Wortfrequenzen die relative stilistische Ähnlichkeit der Textpassagen berechnet.
-                    <note place="foot" xml:id="ftn3" n="3">
-                        <p rend="footnote text"> Inwieweit der ohnehin schwer zu fassende Begriff ‚Stil‘ eine gute Wahl ist, um quantitative Methoden wie das Auszählen und vergleichen von Wortlisten zu beschreiben, ist zu diskutieren. Zumal die Vorstellung eines stilistischen Fingerabdrucks falsch zu sein scheint und ‚Autorstil‘ eher auf vielen kleinen Signalen fußt (Jannidis 2014). </p>
+                    <note>
+                        <p> Inwieweit der ohnehin schwer zu fassende Begriff ‚Stil‘ eine gute Wahl ist, um quantitative Methoden wie das Auszählen und vergleichen von Wortlisten zu beschreiben, ist zu diskutieren. Zumal die Vorstellung eines stilistischen Fingerabdrucks falsch zu sein scheint und ‚Autorstil‘ eher auf vielen kleinen Signalen fußt (Jannidis 2014). </p>
                     </note> Anders als bei Hoover erfolgt die Unterteilung der Figurenrede jedoch nicht nach Segmenten zu je 1500 Wörtern. Stattdessen werden die bereits gegebenen Aktgrenzen des Dramas zur Einteilung herangezogen.
-                    <note place="foot" xml:id="ftn4" n="4">
-                        <p rend="footnote text"> Zum Vergleich: Fields, Bassist und Roper nutzen Blöcke von jeweils nur 200 Wörtern (2017).</p>
+                    <note>
+                        <p> Zum Vergleich: Fields, Bassist und Roper nutzen Blöcke von jeweils nur 200 Wörtern (2017).</p>
                     </note> Dieses Vorgehen ist weniger artifiziell, da keine künstlich normalisierten Grenzen zu setzen sind. Es ist zugleich hilfreich, um die stilometrischen Ergebnisse anhand der Bedingungen ihres Zustandekommens, etwa der Kopräsenz von Figuren, zu interpretieren. Das Vorgehen hat jedoch zum Nachteil, dass die Segmente keine einheitliche Länge aufweisen und zu kurze Abschnitte aufgrund ihrer geringen Wortzahl aus dem Korpus gestrichen werden mussten.
                 </p>
                 <p>Die stilometrische Analyse von 
-                    <hi rend="italic">Minna von Barnhelm</hi> zeigt, dass die Ergebnisse, die Hoover sowie Fields, Bassist und Roper für ausgewählte englischsprachige Romane erzielen, nicht unmittelbar auf Lessings Drama übertragbar zu sein scheinen. Es gibt zwar vereinzelte Anzeichen für stilistisch distinktiv angelegte Figurenrede – von der männlichen Hauptfigur Tellheim gruppieren sich Akt 1 und Akt 3 in unmittelbarer Nähe, auf Paul Werner trifft das für Akt 3 und Akt 5 zu. Die Mehrheit der Redesegmente scheint sich allerdings nach einem anderen Kriterium anzuordnen. Besonders deutlich wird dies im obersten Abschnitt der Grafik: Die Redeanteile von Major Tellheim, Minna von Barnhelm, ihrer Kammerjungfrau Franziska und die des Wirts gruppieren sich auf einem zusammenhängenden Ast. Die vier genannten Redesegmente entstammen allesamt dem zweiten Akt des Dramas und ihre Anordnung signalisiert eine gegenseitige Ähnlichkeit in Relation zum Vergleichskorpus. Es gibt weitere Beispiele, die die Aktgrenzen als wichtigen Faktor der Analyseergebnisse plausibilisieren. Die prägnantesten sind diejenigen von Tellheim und Minna in Akt 4 und 5.
+                    <hi>Minna von Barnhelm</hi> zeigt, dass die Ergebnisse, die Hoover sowie Fields, Bassist und Roper für ausgewählte englischsprachige Romane erzielen, nicht unmittelbar auf Lessings Drama übertragbar zu sein scheinen. Es gibt zwar vereinzelte Anzeichen für stilistisch distinktiv angelegte Figurenrede – von der männlichen Hauptfigur Tellheim gruppieren sich Akt 1 und Akt 3 in unmittelbarer Nähe, auf Paul Werner trifft das für Akt 3 und Akt 5 zu. Die Mehrheit der Redesegmente scheint sich allerdings nach einem anderen Kriterium anzuordnen. Besonders deutlich wird dies im obersten Abschnitt der Grafik: Die Redeanteile von Major Tellheim, Minna von Barnhelm, ihrer Kammerjungfrau Franziska und die des Wirts gruppieren sich auf einem zusammenhängenden Ast. Die vier genannten Redesegmente entstammen allesamt dem zweiten Akt des Dramas und ihre Anordnung signalisiert eine gegenseitige Ähnlichkeit in Relation zum Vergleichskorpus. Es gibt weitere Beispiele, die die Aktgrenzen als wichtigen Faktor der Analyseergebnisse plausibilisieren. Die prägnantesten sind diejenigen von Tellheim und Minna in Akt 4 und 5.
                 </p>
                 <figure>
-                    <graphic n="1001"
-                        width="9.810719444444445cm"
-                        height="10.980208333333334cm"
-                        url="Pictures/image1.jpeg"
-                        rend="inline"/>
+                    <graphic/>
                 </figure>
                 <p>
-                    <hi rend="italic">Abbildung 1</hi>: 
-                    <hi rend="italic">Minna von Barnhelm</hi>. Dendrogram, 1000 n-mfw, Cosine Delta, kein Culling, Ward-Clustering.
+                    <hi>Abbildung 1</hi>: 
+                    <hi>Minna von Barnhelm</hi>. Dendrogram, 1000 n-mfw, Cosine Delta, kein Culling, Ward-Clustering.
                 </p>
                 <p>Ein einzelnes Dendrogram darf für die Bewertung der Hypothese jedoch nicht mehr sein als ein erstes Indiz, zumal die Segmentierung nicht gemäß einer festen Länge mit vorgegebener Wortanzahl, sondern nach den Aktgrenzen vorgenommen wurde. </p>
                 <p>Um ein potentielles ‚Cherry Picking‘-Problem an dieser Stelle zu vermeiden, ergänzt 
-                    <hi rend="italic">Abbildung 2</hi> die Analyse um fünf weitere Dramen, drei von Friedrich Schiller und zwei weitere von Lessing.
-                    <note place="foot" xml:id="ftn5" n="5">
-                        <p rend="footnote text"> Schillers Texte sollen einen Gegenpol zu den Dramen Lessings bieten. Während Lessing dezidiert für die üblichen Rollenfächer des 18. Jahrhunderts schreibt (Harris 1992), entwirft Schiller seine Figuren eher konträr zu den Rollenfächern (Detken 2014).</p>
+                    <hi>Abbildung 2</hi> die Analyse um fünf weitere Dramen, drei von Friedrich Schiller und zwei weitere von Lessing.
+                    <note>
+                        <p> Schillers Texte sollen einen Gegenpol zu den Dramen Lessings bieten. Während Lessing dezidiert für die üblichen Rollenfächer des 18. Jahrhunderts schreibt (Harris 1992), entwirft Schiller seine Figuren eher konträr zu den Rollenfächern (Detken 2014).</p>
                     </note> Betrachtet man die hierarchische Struktur, wird deutlich, dass sowohl das Autorsignal als auch die Texteinheit klar erkennbar bleiben und die Anordnung dahingehend durch die relativ geringen Wortumfänge der Redesegmente nicht negativ beeinflusst wird. 
                 </p>
                 <p>
-                    <graphic n="1002"
-                        width="16.007291666666667cm"
-                        height="23.65375cm"
-                        url="Pictures/image2.jpeg"
-                        rend="inline"/>
+                    <graphic/>
                 </p>
                 <p>
-                    <hi rend="italic">Abbildung 2: Die Räuber, Die Verschwörung des Fiesco zu Genua, Maria Stuart, Minna von Barnhelm, Emilia Galotti, Miß Sara Sampson. </hi>Dendrogram, 1000 n-mfw, Cosine Delta, kein Culling, Ward-Clustering.
+                    <hi>Abbildung 2: Die Räuber, Die Verschwörung des Fiesco zu Genua, Maria Stuart, Minna von Barnhelm, Emilia Galotti, Miß Sara Sampson. </hi>Dendrogram, 1000 n-mfw, Cosine Delta, kein Culling, Ward-Clustering.
                 </p>
                 <p>Ein Ähnlichkeitssignal, das Figurentypen, etwa den zärtlichen Vater in den bürgerlichen Trauerspielen Lessings, über das einzelne Drama hinweg verbinden würde, ist zumindest auf diese Weise nicht auszumachen. Die Vermutung liegt nahe, schreibt Lessing seine Dramen doch dezidiert für die am Theater üblichen Rollenfächer des 18. Jahrhunderts (Harris 1992). Sie scheint jedoch nicht auf diese Weise stilometrisch operationalisierbar zu sein.</p>
             </div>
-            <div type="div1" rend="DH-Heading1">
+            <div>
                 <head>Kopräsenz, Wortfeldsemantik und Sentiment</head>
                 <p>Stilometrische Analysen sind nicht das einzige Verfahren, um relative Ähnlichkeiten innerhalb eines Textkorpus zu bestimmen. Inwieweit sie geeignet sind, offene Fragestellungen – im Gegensatz etwa zur Autorschaftsattribution – zu erörtern, ist überhaupt noch zu prüfen. Sollten Parameter wie Distanzmaß, Wortumfang oder Culling tatsächlich je nach Textkorpus neu zu bestimmen sein, wären ‚Cherry Picking‘-Probleme der Methode inhärent (Schöch 2014; Jannidis 2014; Eder 2013).</p>
                 <p>Nachfolgend ist es deshalb geboten, die bisherigen Beobachtungen weiteren quantitativen Verfahren gegenüberzustellen. Dazu dienen Analysen der Kopräsenz, der Figurensemantik und der Empfindung, sogenannte Sentiment-Analysen.</p>
                 <p>
-                    <graphic n="1003"
-                        width="16.002cm"
-                        height="3.993888888888889cm"
-                        url="Pictures/image3.jpeg"
-                        rend="inline"/>
-                    <hi rend="italic">Abbildung 3</hi>: Redeäußerungen und deren Position, 
-                    <hi rend="italic">Minna von Barnhelm</hi>.
-                    <note place="foot" xml:id="ftn6" n="6">
-                        <p rend="footnote text"> Die 
-                            <hi rend="italic">Abbildungen 3 </hi>und 
-                            <hi rend="italic">4 </hi>wurden mit Hilfe des ‚DramaAnalysis‘-Pakets für R erstellt (Reiter, Willand).
+                    <graphic/>
+                    <hi>Abbildung 3</hi>: Redeäußerungen und deren Position, 
+                    <hi>Minna von Barnhelm</hi>.
+                    <note>
+                        <p> Die 
+                            <hi>Abbildungen 3 </hi>und 
+                            <hi>4 </hi>wurden mit Hilfe des ‚DramaAnalysis‘-Pakets für R erstellt (Reiter, Willand).
                         </p>
                     </note>
                 </p>
                 <p>Die Tabelle in 
-                    <hi rend="italic">Abbildung 3</hi> listet die fünf wichtigsten Figuren aus Lessings 
-                    <hi rend="italic">Minna von Barnhelm</hi> und markiert ihre Redeanteile in zeitlicher Abfolge. Im Zentrum der Untersuchung stehen die beiden Hauptfiguren des Dramas, namentlich Tellheim und Minna. Im zweiten, insbesondere aber im vierten und fünften Akt agieren Tellheim und Minna häufig gemeinsam auf der Bühne. Sie sind kopräsent. Diese Strukturdaten korrelieren mit den Beobachtungen aus 
-                    <hi rend="italic">Abbildung 1</hi>. Die Redesegmente der genannten Akte gruppieren sich dort in unmittelbarer Nähe zueinander, während Tellheims Redeanteile in den Akten 1 und 3 davon deutlich separiert abgetragen sind. In diesen beiden Akten stehen Tellheim und Minna nicht zur gleichen Zeit auf der Bühne. Die stilistische Ähnlichkeit der Figurenrede scheint also in Zusammenhang mit einem strukturellen Merkmal, der gemeinsamen Bühnenpräsenz der Figuren, zu stehen.
+                    <hi>Abbildung 3</hi> listet die fünf wichtigsten Figuren aus Lessings 
+                    <hi>Minna von Barnhelm</hi> und markiert ihre Redeanteile in zeitlicher Abfolge. Im Zentrum der Untersuchung stehen die beiden Hauptfiguren des Dramas, namentlich Tellheim und Minna. Im zweiten, insbesondere aber im vierten und fünften Akt agieren Tellheim und Minna häufig gemeinsam auf der Bühne. Sie sind kopräsent. Diese Strukturdaten korrelieren mit den Beobachtungen aus 
+                    <hi>Abbildung 1</hi>. Die Redesegmente der genannten Akte gruppieren sich dort in unmittelbarer Nähe zueinander, während Tellheims Redeanteile in den Akten 1 und 3 davon deutlich separiert abgetragen sind. In diesen beiden Akten stehen Tellheim und Minna nicht zur gleichen Zeit auf der Bühne. Die stilistische Ähnlichkeit der Figurenrede scheint also in Zusammenhang mit einem strukturellen Merkmal, der gemeinsamen Bühnenpräsenz der Figuren, zu stehen.
                 </p>
                 <p>Um diesen Befund weiter zu spezifizieren, soll eine semantische Wortfeldanalyse die thematische Konzeption der Figurenrede operationalisieren (Willand, Reiter 2017).
-                    <note place="foot" xml:id="ftn7" n="7">
-                        <p rend="footnote text"> Zu diesem Zweck wurden fünf Wörterbücher mit 75 bis 105 Wörtern zu den Themen ‚Liebe‘, ‚Krieg‘, ‚Familie‘, ‚Ratio‘ und ‚Religion‘ erstellt, die dem jeweiligen Wortfeld zugehörig sind und in Dramen zwischen 1770 und 1830 verwendet wurden (Willand, Reiter 2017).</p>
+                    <note>
+                        <p> Zu diesem Zweck wurden fünf Wörterbücher mit 75 bis 105 Wörtern zu den Themen ‚Liebe‘, ‚Krieg‘, ‚Familie‘, ‚Ratio‘ und ‚Religion‘ erstellt, die dem jeweiligen Wortfeld zugehörig sind und in Dramen zwischen 1770 und 1830 verwendet wurden (Willand, Reiter 2017).</p>
                     </note>
-                    <hi rend="italic">Abbildung 4</hi> schlüsselt die Äußerungen der zentralen Figuren nach den Themen ‚Liebe‘, ‚Krieg‘, ‚Familie‘, ‚Ratio‘ und ‚Religion‘ auf. Die Häufigkeiten zeigen deutlich, wie ähnlich die Figurenrede von Minna und Tellheim hinsichtlich der Wortfelder konzipiert ist. Gerade die für Lessings Drama zentralen Themen ‚Liebe‘ und ‚Ratio‘ korrelieren merklich – auch verglichen mit den übrigen Figuren. Die Heatmap in 
-                    <hi rend="italic">Abbildung 5</hi> veranschaulicht jedoch, dass dieses thematische Ähnlichkeitsverhältnis der Figurenrede von Minna und Tellheim nur eingeschränkt auf einzelne Akte heruntergebrochen werden kann. Es scheint eher der Fall zu sein, dass die anhand der Wortfelder ablesbaren Rollen von Minna und Tellheim je nach Akt differieren und zugleich weitergegeben werden können. Ein Beispiel hierfür ist der wechselnde Zweifel an einer gemeinsamen Zukunft, der Dialoge von Minna und Tellheim bis zum fünften Akt prägt. Basis der Darstellung sind die die Häufigkeiten der Wortfelder in der Figurenrede auf Ebene einzelner Akte. Die Häufigkeiten werden über die Bestimmung der euklidischen Distanz in ein Ähnlichkeitsverhältnis gesetzt. Demnach sind die nach Wortfeldern ähnlichsten Segmente die Figurenrede von Tellheim aus dem vierten Akt und diejenige von Minna aus dem dritten (euklidische Distanz: 0,001467). Es folgen die Paare Tellheim 5 und Minna 2 (0,002705) sowie Tellheim 1 und Minna 4 (0.003758). 
+                    <hi>Abbildung 4</hi> schlüsselt die Äußerungen der zentralen Figuren nach den Themen ‚Liebe‘, ‚Krieg‘, ‚Familie‘, ‚Ratio‘ und ‚Religion‘ auf. Die Häufigkeiten zeigen deutlich, wie ähnlich die Figurenrede von Minna und Tellheim hinsichtlich der Wortfelder konzipiert ist. Gerade die für Lessings Drama zentralen Themen ‚Liebe‘ und ‚Ratio‘ korrelieren merklich – auch verglichen mit den übrigen Figuren. Die Heatmap in 
+                    <hi>Abbildung 5</hi> veranschaulicht jedoch, dass dieses thematische Ähnlichkeitsverhältnis der Figurenrede von Minna und Tellheim nur eingeschränkt auf einzelne Akte heruntergebrochen werden kann. Es scheint eher der Fall zu sein, dass die anhand der Wortfelder ablesbaren Rollen von Minna und Tellheim je nach Akt differieren und zugleich weitergegeben werden können. Ein Beispiel hierfür ist der wechselnde Zweifel an einer gemeinsamen Zukunft, der Dialoge von Minna und Tellheim bis zum fünften Akt prägt. Basis der Darstellung sind die die Häufigkeiten der Wortfelder in der Figurenrede auf Ebene einzelner Akte. Die Häufigkeiten werden über die Bestimmung der euklidischen Distanz in ein Ähnlichkeitsverhältnis gesetzt. Demnach sind die nach Wortfeldern ähnlichsten Segmente die Figurenrede von Tellheim aus dem vierten Akt und diejenige von Minna aus dem dritten (euklidische Distanz: 0,001467). Es folgen die Paare Tellheim 5 und Minna 2 (0,002705) sowie Tellheim 1 und Minna 4 (0.003758). 
                 </p>
                 <p>Während also 
-                    <hi rend="italic">Abbildung 4 </hi>ein Indiz dafür liefert, dass Stil, Thema und Präsenz der Figuren und ihrer Äußerungen zusammenhängen, zeigt 
-                    <hi rend="italic">Abbildung 5</hi> eine gegensätzliche Tendenz – zumindest, wenn man nur die Redesegmente von Tellheim und Minna auf Ebene der einzelnen Akte vergleicht. Ein Grund dafür ist die Skalierung. Fügt man der Distanzberechnung weitere Figurensegmente bei, wird erkennbar, dass etwa auch die Segmente des fünften Akts von Minna und Tellheim thematisch relativ ähnlich erscheinen (0.006024).
-                    <note place="foot" xml:id="ftn8" n="8">
-                        <p rend="footnote text"> Distanzwerte von mehr als 0,01 sind die Norm.</p>
+                    <hi>Abbildung 4 </hi>ein Indiz dafür liefert, dass Stil, Thema und Präsenz der Figuren und ihrer Äußerungen zusammenhängen, zeigt 
+                    <hi>Abbildung 5</hi> eine gegensätzliche Tendenz – zumindest, wenn man nur die Redesegmente von Tellheim und Minna auf Ebene der einzelnen Akte vergleicht. Ein Grund dafür ist die Skalierung. Fügt man der Distanzberechnung weitere Figurensegmente bei, wird erkennbar, dass etwa auch die Segmente des fünften Akts von Minna und Tellheim thematisch relativ ähnlich erscheinen (0.006024).
+                    <note>
+                        <p> Distanzwerte von mehr als 0,01 sind die Norm.</p>
                     </note>
                 </p>
                 <figure>
-                    <graphic n="1004"
-                        width="15.980833333333333cm"
-                        height="13.255625cm"
-                        url="Pictures/image4.jpeg"
-                        rend="inline"/>
+                    <graphic/>
                 </figure>
                 <p>
-                    <hi rend="italic">Abbildung 4</hi>: Semantische Wortfelder in Minna von Barnhelm, normalisiert nach Länge der Figurenrede.
+                    <hi>Abbildung 4</hi>: Semantische Wortfelder in Minna von Barnhelm, normalisiert nach Länge der Figurenrede.
                 </p>
                 <figure>
-                    <graphic n="1005"
-                        width="15.980833333333333cm"
-                        height="13.149791666666667cm"
-                        url="Pictures/image5.jpeg"
-                        rend="inline"/>
+                    <graphic/>
                 </figure>
                 <p>
-                    <hi rend="italic">Abbildung 5</hi>: Euklidische Distanz der semantischen Wortfelder als Heatmap, Figurensegmente von Minna und Tellheim. Umso heller die Flächen dargestellt sind, umso größer ist die Übereinstimmung der Wortfelder.
+                    <hi>Abbildung 5</hi>: Euklidische Distanz der semantischen Wortfelder als Heatmap, Figurensegmente von Minna und Tellheim. Umso heller die Flächen dargestellt sind, umso größer ist die Übereinstimmung der Wortfelder.
                 </p>
                 <p>Die Sentiment-Analyse in 
-                    <hi rend="italic">Abbildung 6</hi> gibt den letzten der vier mikroanalytisch genutzten Zugänge zur Dramenbetrachtung wieder. In der Forschung genutzt, um etwa die unterschiedliche Verwendung von Emotionswörtern in Märchen und Romanen zu analysieren (Mohammad 2011), archetypische Stimmungskurven in Romanhandlunge sichtbar zu machen (Jockers 2015) oder zwischenmenschliche Beziehungen in Shakespeares Stücken zu untersuchen (Nalisnick, Baird 2013), wird die Analyse hier eingesetzt, um die Empfindung von Tellheim und Minna anhand ihrer Valenzwerte im fünften Akt zu vergleichen. Die Grafik muss dabei als Annäherung aufgefasst werden, da zwei Dramenfiguren immer versetzt voneinander sprechen. Normalisierung nach Länge der Figurenrede, fast dauerhafte Kopräsenz im fünften Akt und ein gleichzeitiges Abtreten im 14. Auftritt legitimieren die Annäherung gleichwohl. Die eingangs zu vernehmende Diskrepanz der beiden Kurven kann dabei tatsächlich auf das Drama rückbezogen werden: Erst im Verlauf des fünften Akts durchschaut Tellheim das missglückte Trickspiel Minnas, das beide abwechselnd an einer glücklichen Zukunft zweifeln lässt. Im fünften Akt wird diese Spannung gelöst, Minna und Tellheim finden als liebende Partner zusammen. Die Übereinstimmung der beiden Sentiment-Kurven und die positiven Werte zum Ende des fünften Akts sind somit ein bestätigender Befund.
-                    <note place="foot" xml:id="ftn9" n="9">
-                        <p rend="footnote text"> Andere (hier nicht aufgeführte) Auswertungen zeigen allerdings, dass Ähnlichkeitssignale von Sentiment-Analysen nicht mit stilometrischen Analysen oder Wortfeldsemantiken korrelieren müssen. Sentiment-Analysen geben keine Themen wieder, sondern Werte der Empfindung, mit der Figuren über Themen sprechen. Trotz gleicher Themen können somit ganz unterschiedliche Sentiment-Werte entstehen.</p>
+                    <hi>Abbildung 6</hi> gibt den letzten der vier mikroanalytisch genutzten Zugänge zur Dramenbetrachtung wieder. In der Forschung genutzt, um etwa die unterschiedliche Verwendung von Emotionswörtern in Märchen und Romanen zu analysieren (Mohammad 2011), archetypische Stimmungskurven in Romanhandlunge sichtbar zu machen (Jockers 2015) oder zwischenmenschliche Beziehungen in Shakespeares Stücken zu untersuchen (Nalisnick, Baird 2013), wird die Analyse hier eingesetzt, um die Empfindung von Tellheim und Minna anhand ihrer Valenzwerte im fünften Akt zu vergleichen. Die Grafik muss dabei als Annäherung aufgefasst werden, da zwei Dramenfiguren immer versetzt voneinander sprechen. Normalisierung nach Länge der Figurenrede, fast dauerhafte Kopräsenz im fünften Akt und ein gleichzeitiges Abtreten im 14. Auftritt legitimieren die Annäherung gleichwohl. Die eingangs zu vernehmende Diskrepanz der beiden Kurven kann dabei tatsächlich auf das Drama rückbezogen werden: Erst im Verlauf des fünften Akts durchschaut Tellheim das missglückte Trickspiel Minnas, das beide abwechselnd an einer glücklichen Zukunft zweifeln lässt. Im fünften Akt wird diese Spannung gelöst, Minna und Tellheim finden als liebende Partner zusammen. Die Übereinstimmung der beiden Sentiment-Kurven und die positiven Werte zum Ende des fünften Akts sind somit ein bestätigender Befund.
+                    <note>
+                        <p> Andere (hier nicht aufgeführte) Auswertungen zeigen allerdings, dass Ähnlichkeitssignale von Sentiment-Analysen nicht mit stilometrischen Analysen oder Wortfeldsemantiken korrelieren müssen. Sentiment-Analysen geben keine Themen wieder, sondern Werte der Empfindung, mit der Figuren über Themen sprechen. Trotz gleicher Themen können somit ganz unterschiedliche Sentiment-Werte entstehen.</p>
                     </note>
                 </p>
                 <p>
-                    <graphic n="1006"
-                        width="16.007291666666667cm"
-                        height="13.705416666666666cm"
-                        url="Pictures/image6.jpeg"
-                        rend="inline"/>
-                    <hi rend="italic">Abbildung 5</hi>: kumulative Sentiment-Analyse, Minna von Barnhelm Akt 5, Valenz der Redeanteile von Minna und Tellheim.
-                    <note place="foot" xml:id="ftn10" n="10">
-                        <p rend="footnote text"> Erstellt mit Hilfe des ‚syuzhet‘-Pakets für R, das die Valenz auf Ebene des Satzes bestimmt (Jockers). https://github.com/mjockers/syuzhet. Die Auswertung erfolgt mit der deutschen Version des NRC Word-Emotion Association Lexicon. http://saifmohammad.com/WebPages/NRC-Emotion-Lexicon.htm.</p>
+                    <graphic/>
+                    <hi>Abbildung 5</hi>: kumulative Sentiment-Analyse, Minna von Barnhelm Akt 5, Valenz der Redeanteile von Minna und Tellheim.
+                    <note>
+                        <p> Erstellt mit Hilfe des ‚syuzhet‘-Pakets für R, das die Valenz auf Ebene des Satzes bestimmt (Jockers). https://github.com/mjockers/syuzhet. Die Auswertung erfolgt mit der deutschen Version des NRC Word-Emotion Association Lexicon. http://saifmohammad.com/WebPages/NRC-Emotion-Lexicon.htm.</p>
                     </note>
                 </p>
             </div>
-            <div type="div1" rend="DH-Heading1">
+            <div>
                 <head>Fazit und Ausblick:</head>
                 <p>Die nähere Betrachtung der Figurenrede in 
-                    <hi rend="italic">Minna von Barnhelm</hi> konnte aufzeigen, dass es sinnvoll ist, die Möglichkeiten verschiedener Analysemethoden zu kombinieren und so die jeweiligen Stärken in die Untersuchung einzubringen. Ergebnisse können zusätzlich validiert und zugleich für breitere Fragestellungen geöffnet werden. Kopräsenz scheint in den gewählten Dramentexten – das Fehlen eines Erzählers könnte hierbei eine zentrale Rolle spielen – einen stärkeren Einfluss auf die Figurenrede zu haben als im (englischsprachigen) Roman. Exemplarisch dafür stehen die Redeäußerungen von Minna und Tellheim im fünften Akt von Lessings 
-                    <hi rend="italic">Minna von Barnhelm</hi>. Für die Betrachtung der Figurenentwicklung im Verlauf der Handlung eines Dramas scheint es entscheidend zu sein, Erkenntnisse aus Strukturdaten sowie semantische und stilistische Analyseverfahren kritisch gegeneinander zu stellen.
+                    <hi>Minna von Barnhelm</hi> konnte aufzeigen, dass es sinnvoll ist, die Möglichkeiten verschiedener Analysemethoden zu kombinieren und so die jeweiligen Stärken in die Untersuchung einzubringen. Ergebnisse können zusätzlich validiert und zugleich für breitere Fragestellungen geöffnet werden. Kopräsenz scheint in den gewählten Dramentexten – das Fehlen eines Erzählers könnte hierbei eine zentrale Rolle spielen – einen stärkeren Einfluss auf die Figurenrede zu haben als im (englischsprachigen) Roman. Exemplarisch dafür stehen die Redeäußerungen von Minna und Tellheim im fünften Akt von Lessings 
+                    <hi>Minna von Barnhelm</hi>. Für die Betrachtung der Figurenentwicklung im Verlauf der Handlung eines Dramas scheint es entscheidend zu sein, Erkenntnisse aus Strukturdaten sowie semantische und stilistische Analyseverfahren kritisch gegeneinander zu stellen.
                 </p>
                 <p>Die vorliegende Arbeit wurde im Rahmen des Projekts „Quantitative Drama Analytics“ (QuaDramA) durchgeführt, das von der VolkswagenStiftung finanziert wird.</p>
-                <p rend="DH-BibliographyHeading">Literatur</p>
-                <p rend="DH-BibliographyHeading">Bibliographie:</p>
+                <p>Literatur</p>
+                <p>Bibliographie:</p>
                 <p>Burrows, John / Craig, Hugh (2012) „Authors and characters“, in: 
-                    <hi rend="italic">English Studies</hi> 93(3): 292–309.
+                    <hi>English Studies</hi> 93(3): 292–309.
                 </p>
                 <p>Detken, Anke (2014): „Die Figur und ihr Fach: Konzeptionelle Überlegungen am Beispiel von Lessing und Schiller“, in: 
-                    <hi rend="italic">Zeitschrift für Literatur- und Theatersoziologie</hi> 11: 36–53.
+                    <hi>Zeitschrift für Literatur- und Theatersoziologie</hi> 11: 36–53.
                 </p>
                 <p>Eder, Maciej (2013): „Computational Sylistics and Biblical Translation: How Reliable Can a Dendrogram Be?“, in: Piotrowski Tadeusz / Grabowski, Łukasz. 
-                    <hi rend="italic">The Translator and the Computer</hi>.
+                    <hi>The Translator and the Computer</hi>.
                     <lb/>Breslau: WSF Press: 155–170.
                 </p>
                 <p>Eder, Maciej / Kestemont, Mike /Rybicki, Jan (2013): „Stylometry with R: a Suite of Tools“, in: 
-                    <hi rend="italic">Digital Humanities 2013: Conference Abstracts</hi>: 487–89.
+                    <hi>Digital Humanities 2013: Conference Abstracts</hi>: 487–89.
                 </p>
                 <p>Evert, Stefan / Proisl, Thomas / Jannidis, Fotis / Reger, Isabella / Pielström, Steffen / Schöch, Christof / Vitt, Thorsten (2017): „Understanding and Explaining Delta Measures for Authorship Attribution“, in: 
-                    <hi rend="italic">Digital Scholarship in the Humanities</hi>: ii4–ii16 https://doi.org/10.1093/llc/fqx023 [letzter Zugriff 15. September 2017].
+                    <hi>Digital Scholarship in the Humanities</hi>: ii4–ii16 https://doi.org/10.1093/llc/fqx023 [letzter Zugriff 15. September 2017].
                 </p>
                 <p>Fields, Paul J. / Bassist, Larry / Roper, Matt (2017): „Characters in 19th Century Novels Display Distinctive Voices as Seen by Stylometric Analysis“, in: 
-                    <hi rend="italic">DH2017 Conference Abstracts</hi> https://dh2017.adho.org/abstracts/494/494.pdf [letzter Zugriff 15. September 2017].
+                    <hi>DH2017 Conference Abstracts</hi> https://dh2017.adho.org/abstracts/494/494.pdf [letzter Zugriff 15. September 2017].
                     <lb/>
                     <lb/>Harris, Edward P. (1992): „Lessing und das Rollenfachsystem. Überlegungen zur praktischen Charakterologie im 18. Jahrhundert“, in: Bender, Wolfgang F.:
-                    <hi rend="italic"> Schauspielkunst im 18. Jahrhundert: Grundlagen, Praxis, Autoren. </hi>Stuttgart: Steiner: 221–235.
+                    <hi> Schauspielkunst im 18. Jahrhundert: Grundlagen, Praxis, Autoren. </hi>Stuttgart: Steiner: 221–235.
                 </p>
                 <p>Hoover, David (2017): „The Microanalysis of Style Variation“, in: 
-                    <hi rend="italic">Digital Scholarship in the Humanities</hi> https://doi.org/10.1093/llc/fqx022 [letzter Zugriff 15. September 2017].
+                    <hi>Digital Scholarship in the Humanities</hi> https://doi.org/10.1093/llc/fqx022 [letzter Zugriff 15. September 2017].
                 </p>
                 <p>Jannidis, Fotis (2014): „Der Autor ganz nah. Autorstil in Stilistik und Stilometrie“, in: 
-                    <hi rend="italic">Theorien und Praktiken der Autorschaft</hi>. Schaffrick, Matthias / Willand, Marcus. Berlin, Boston: De Gruyter: 169–195.
+                    <hi>Theorien und Praktiken der Autorschaft</hi>. Schaffrick, Matthias / Willand, Marcus. Berlin, Boston: De Gruyter: 169–195.
                 </p>
                 <p>Jockers, Matthew L. (2015): 
-                    <hi rend="italic">Revealing Sentiment and Plot Arcs with the Syuzhet Package </hi>http://www.matthewjockers.net/2015/02/02/syuzhet/ [letzter Zugriff 15. September 2017].
+                    <hi>Revealing Sentiment and Plot Arcs with the Syuzhet Package </hi>http://www.matthewjockers.net/2015/02/02/syuzhet/ [letzter Zugriff 15. September 2017].
                 </p>
                 <p>Jockers, Matthew (2013): 
-                    <hi rend="italic">Macroanalysis: Digital Methods and Literary History</hi>. Urbana u.a.: Topics in the Digital Humanities.
+                    <hi>Macroanalysis: Digital Methods and Literary History</hi>. Urbana u.a.: Topics in the Digital Humanities.
                 </p>
                 <p>Masten, Jeffrey (1997): 
-                    <hi rend="italic">Textual Intercourse: Collaboration, Authorship and Sexualities in Renaissance Drama</hi>. Cambridge: Cambridge University Press.
+                    <hi>Textual Intercourse: Collaboration, Authorship and Sexualities in Renaissance Drama</hi>. Cambridge: Cambridge University Press.
                 </p>
                 <p>Mohammad, Saif (2011): “From Once Upon a Time to Happily Ever After: Tracking Emotions in Novels and Fairy Tales”, in: 
-                    <hi rend="italic">Proceedings of the 5th ACL-HLT Workshop on Language Technology for Cultural Heritage, Social Sciences, and Humanities</hi>: 105–114.
+                    <hi>Proceedings of the 5th ACL-HLT Workshop on Language Technology for Cultural Heritage, Social Sciences, and Humanities</hi>: 105–114.
                 </p>
                 <p>Moretti, Franco (2000): „Conjectures of World Literature“, in: 
-                    <hi rend="italic">New Left Review </hi>1: 54–68.
+                    <hi>New Left Review </hi>1: 54–68.
                 </p>
                 <p>Moretti, Franco (2005): 
-                    <hi rend="italic">Graphs, Maps, Trees: Abstract Models for a Literary History</hi>. London: Verso.
+                    <hi>Graphs, Maps, Trees: Abstract Models for a Literary History</hi>. London: Verso.
                     <lb/>
                     <lb/>Nalisnick, Eric T. / Baird, Henry S. (2013): „Character-to-Character Sentiment Analysis in Shakespeare’s Plays, in: 
-                    <hi rend="italic">Proceedings of the 51st Annual Meeting of the Association for Computational Linguistics</hi>: 479–483.
+                    <hi>Proceedings of the 51st Annual Meeting of the Association for Computational Linguistics</hi>: 479–483.
                 </p>
                 <p>Schöch, Christof (2014): „Corneille, Molière et les autres. Stilometrische Analysen zu Autorschaft und Gattungszugehörigkeit im französischen Theater der Klassik“, in: 
-                    <hi rend="italic">Literaturwissenschaft im
+                    <hi>Literaturwissenschaft im
                         <lb/>digitalen Medienwandel. Beihefte zu Philologie im Netz
                     </hi> 7: 130–157.
                     <lb/>
                     <lb/>Willand, Marcus / Reiter, Nils (2017): „Geschlecht und Gattung: Digitale Analysen von Kleists ‚Familie Schroffenstein‘, in: 
-                    <hi rend="italic">Kleist Jahrbuch </hi>2017: 177–195.
+                    <hi>Kleist Jahrbuch </hi>2017: 177–195.
                 </p>
             </div>
         </body>

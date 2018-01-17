@@ -3,9 +3,9 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title type="full">
-                    <title type="main">Ist die DARIAH-DE Forschungsinfrastruktur fit für Daten der realen Welt? Bericht über einen Anwendungsfall mit archäologischen Daten und seine ersten Ergebnisse </title>
-                    <title type="sub"/>
+                <title>
+                    <title>Ist die DARIAH-DE Forschungsinfrastruktur fit für Daten der realen Welt? Bericht über einen Anwendungsfall mit archäologischen Daten und seine ersten Ergebnisse </title>
+                    <title/>
                 </title>
                 <author>
                     <persName>
@@ -44,26 +44,26 @@
         </fileDesc>
         <encodingDesc>
             <appInfo>
-                <application ident="DHCONVALIDATOR" version="1.17">
+                <application>
                     <label>DHConvalidator</label>
                 </application>
             </appInfo>
         </encodingDesc>
         <profileDesc>
             <textClass>
-                <keywords scheme="ConfTool" n="category">
+                <keywords>
                     <term>Paper</term>
                 </keywords>
-                <keywords scheme="ConfTool" n="subcategory">
+                <keywords>
                     <term>Vortrag</term>
                 </keywords>
-                <keywords scheme="ConfTool" n="keywords">
+                <keywords>
                     <term>Datenmodellierung</term>
                     <term>Heterogenität</term>
                     <term>Forschungsdaten</term>
                     <term>Grabungsdatenbank</term>
                 </keywords>
-                <keywords scheme="ConfTool" n="topics">
+                <keywords>
                     <term>Modellierung</term>
                     <term>Kontextsetzung</term>
                     <term>Visualisierung</term>
@@ -76,201 +76,201 @@
     </teiHeader>
     <text>
         <body>
-            <div type="div1">
+            <div>
                 <head>Hintergrund</head>
                 <p>Eine wesentliche Kritik an Forschungsinfrastrukturen behauptet:</p>
                 <p>
-                    <hi rend="italic">This is the central paradox for big infrastructure design: the very wish to cater to everyone pushes the designers toward generalization, and thus necessarily away from delivering data models specific enough to be useful to anyone.</hi> (van Zundert 2012: 172)
+                    <hi>This is the central paradox for big infrastructure design: the very wish to cater to everyone pushes the designers toward generalization, and thus necessarily away from delivering data models specific enough to be useful to anyone.</hi> (van Zundert 2012: 172)
                 </p>
                 <p>Können generische Infrastrukturen und Datenmodelle für individuelle Forschungsfragen von Bedeutung sein? Und wenn ja, wie verhalten sich spezifische Forschungsdaten gegenüber den generischen Infrastrukturen? In diesem Beitrag diskutieren wir diese Frage im Hinblick auf die von DARIAH-DE
-                    <note xml:id="ftn1" place="foot" n="1">
-                        <ref target="http://de.dariah.eu/">
-                            <hi rend="color(#1155cc)underline">http://de.dariah.eu</hi>
+                    <note>
+                        <ref>
+                            <hi>http://de.dariah.eu</hi>
                         </ref>
                     </note> entwickelte Forschungsdateninfrastruktur und insbesondere das Data Modelling Environment (DME). Als Schema und Crosswalk Registry entstanden (Gradl et al. 2015), entwickelte sich das DME zu einem umfangreichen Werkzeug für die Modellierung, Verfeinerung, Bereinigung und Anreicherung von Daten. Die Beispieldaten, die für diesen Anwendungsfall herangezogen wurden, stammen aus einer Datenbank der aus dem Deutschen Archäologischen Institut geführten Grabung in Pergamon
-                    <note xml:id="ftn2" place="foot" n="2">
-                        <ptr target="http://www.dainst.org/projekt/-/project-display/14186"/>
-                        <hi rend="color(#212121) background-color(#ffffff)"> </hi>
+                    <note>
+                        <ptr/>
+                        <hi> </hi>
                     </note> und beschreiben etwa 100 keramische Grabungsfunde.
                 </p>
                 <p>Für den Anwendungsfall wurde ein archäologischer Kontext gewählt, da relevante Forschungsdaten aufgrund ihrer Heterogenität eine besondere Herausforderung für Forschungsinfrastrukturen darstellen (Gradl, Henrich 2016a). Das wesentliche Ziel dieses Beitrags besteht darin, die Verwendbarkeit des DME auch im spezifischen Kontext von Pergamon-Daten anzudeuten. Eine Integration weiterer archäologischer Daten wie 2D-Bildern, 3D-Modellen und verschiedener Arten kontrollierter Vokabulare und geographischer Daten könnten für den gewählten Anwendungsfall Erkenntnisgewinne erreicht werden, die ggf. neue Fragen für die qualitative Forschung aufwerfen.</p>
                 <p>Durch eine kombinierte Visualisierung orts- und zeitbezogener Abhängigkeiten könnte man sich schnell einen ersten Überblick über die zeitliche und geographische Verteilung der Datensätze verschaffen. Wo liegt z. B. die höchste Dichte von auf die hellenistische Zeit datierten, keramischen Funden vor? Ein solcher visueller Überblick über die Grabungsdaten könnte den WissenschaftlerInnen auch erlauben, Diskrepanzen und Sonderfälle in der archäologischen Dokumentation einer Grabung zu erkennen. </p>
             </div>
-            <div type="div1">
+            <div>
                 <head>Beschreibung des Anwendungsfalls</head>
                 <p>Die Verarbeitung der Daten wird unterstützt durch das DME und insbesondere dessen Fähigkeit, auf externe Ressourcen zuzugreifen. Zwei Schnittstellen zu Diensten des DAI wurden implementiert, damit zeit- und ortsbezogene Textangaben wie „Grobdatierung: hellenistisch-kaiserzeitlich“ oder „Provenienz: Pergamon“ mit den entsprechenden und in Zahlen ausgedrückten Werten kartiert werden können. Schließlich werden die angereicherten Daten mittels des DARIAH-DE Geo-Browsers visualisiert, um die zeitliche und geographische Verteilung der in den Datensätzen beschriebenen Objekte visuell abzubilden.</p>
                 <p>
                     <figure>
-                        <graphic url="Pictures/100000000000088F0000070B422420D63F09A2EB.png"/>
+                        <graphic/>
                     </figure>
                 </p>
                 <p>
-                    <hi rend="color(#212121) background-color(#ffffff)bold">Abb. 1</hi>
-                    <hi rend="color(#212121) background-color(#ffffff)">: Schematische Darstellung des Arbeitsablaufs.</hi>
+                    <hi>Abb. 1</hi>
+                    <hi>: Schematische Darstellung des Arbeitsablaufs.</hi>
                 </p>
                 <p>
-                    <hi rend="color(#212121) background-color(#ffffff)">Der Arbeitsablauf besteht aus fünf wesentlichen Schritten, die sich der </hi>
-                    <hi rend="color(#212121) background-color(#ffffff)italic">Modell-</hi>
-                    <hi rend="color(#212121) background-color(#ffffff)"> oder </hi>
-                    <hi rend="color(#212121) background-color(#ffffff)italic">Instanzebene</hi>
-                    <hi rend="color(#212121) background-color(#ffffff)"> zuweisen lassen.</hi>
+                    <hi>Der Arbeitsablauf besteht aus fünf wesentlichen Schritten, die sich der </hi>
+                    <hi>Modell-</hi>
+                    <hi> oder </hi>
+                    <hi>Instanzebene</hi>
+                    <hi> zuweisen lassen.</hi>
                 </p>
-                <list type="unordered">
+                <list>
                     <item>
-                        <hi rend="color(#212121) background-color(#ffffff)italic">Modellebene</hi>
-                        <hi rend="color(#212121) background-color(#ffffff)">: Datenmodelle und semantische Verbindungen zwischen diesen werden spezifiziert. </hi>
+                        <hi>Modellebene</hi>
+                        <hi>: Datenmodelle und semantische Verbindungen zwischen diesen werden spezifiziert. </hi>
                     </item>
                     <item>
-                        <hi rend="color(#212121) background-color(#ffffff)italic">Instanzebene</hi>
-                        <hi rend="color(#212121) background-color(#ffffff)">: Während Aufgaben der Modellierung einmalig auszuführen sind, werden die Aufgaben der Instanzebene für jede Datei bzw. jede Aktualisierung der Daten durchlaufen.</hi>
+                        <hi>Instanzebene</hi>
+                        <hi>: Während Aufgaben der Modellierung einmalig auszuführen sind, werden die Aufgaben der Instanzebene für jede Datei bzw. jede Aktualisierung der Daten durchlaufen.</hi>
                     </item>
                 </list>
-                <div type="div2">
+                <div>
                     <head>Vorverarbeitung</head>
                     <p>Die archäologische Grabung in Pergamon wurde mittels der iDAI.Field Software dokumentiert. iDAI.Field ist ein modulares Dokumentationssystem für Feldforschungsprojekte, das am DAI entwickelt wurde und in ca. 50 verschiedenen Projekten eingesetzt wurde.
-                        <note xml:id="ftn3" place="foot" n="3">
-                            <hi rend="color(#212121) background-color(#ffffff)"> </hi>
-                            <ptr target="https://www.dainst.org/forschung/forschung-digital/idai.welt/data/-/asset_publisher/Pt831IfwO8uH/content/idai-field"/>
-                            <hi rend="color(#212121) background-color(#ffffff)"> </hi>
+                        <note>
+                            <hi> </hi>
+                            <ptr/>
+                            <hi> </hi>
                         </note> Die durch iDAI.Field gesammelten Daten werden in einer FileMaker-Datenbank gespeichert. Für eine Verarbeitung in der DARIAH-DE Infrastruktur wurde zunächst ein XML-Export aus der Datenbank ausgeführt.
                     </p>
                 </div>
-                <div type="div2">
+                <div>
                     <head>Datenmodellierung</head>
                     <p>Um Pergamon-Daten in ein vom Geo-Browser unterstütztes Eingabeformat, wie die Keyhole Markup Language (KML)
-                        <note xml:id="ftn4" place="foot" n="4">
-                            <hi rend="color(#212121) background-color(#ffffff)"> </hi>
-                            <ref target="https://wiki.de.dariah.eu/display/publicde/Geo-Browser+Dokumentation#Geo-BrowserDokumentation-SpezifikationenfürdieNutzung">
-                                <hi rend="color(#1155cc) background-color(#ffffff)underline">https://wiki.de.dariah.eu/display/publicde/Geo-Browser+Dokumentation#Geo-BrowserDokumentation-Spezifikationenf%C3%BCrdieNutzung</hi>
+                        <note>
+                            <hi> </hi>
+                            <ref>
+                                <hi>https://wiki.de.dariah.eu/display/publicde/Geo-Browser+Dokumentation#Geo-BrowserDokumentation-Spezifikationenf%C3%BCrdieNutzung</hi>
                             </ref>
-                            <hi rend="color(#212121) background-color(#ffffff)"> </hi>
+                            <hi> </hi>
                         </note> umwandeln zu können, müssen die relevanten Datenmodelle im DME vorliegen bzw. definiert werden. Dies kann durch das Hochladen von XSD-Schemata initiiert werden. Einmal hinterlegte Modelle können nach deren Definition in weiteren Anwendungsfällen nachgenutzt werden.
                     </p>
                     <p>Abbildung 2 veranschaulicht neben dem Elementmodell auch die Funktionalität zur Verarbeitung von Beispieldaten, mit deren Hilfe überprüft werden kann, ob Daten korrekt prozessiert werden.</p>
                     <p>
                         <figure>
-                            <graphic url="Pictures/10000201000003EF0000029B821417B584F7882F.png"/>
+                            <graphic/>
                         </figure>
                     </p>
                     <p>
-                        <hi rend="color(#212121) background-color(#ffffff)bold">Abb. 2</hi>
-                        <hi rend="color(#212121) background-color(#ffffff)">: Verarbeitung von Beispieldaten und Visualisierung der Datenstruktur.</hi>
+                        <hi>Abb. 2</hi>
+                        <hi>: Verarbeitung von Beispieldaten und Visualisierung der Datenstruktur.</hi>
                     </p>
                 </div>
-                <div type="div2">
+                <div>
                     <head>Datenanreicherung</head>
                     <p>Die Funktionalität des DME stellt zwei wesentliche Methoden zur Datenmodellierung bereitgestellt (Gradl, Henrich 2016b):</p>
-                    <list type="unordered">
+                    <list>
                         <item>
-                            <hi rend="color(#212121) background-color(#ffffff)">Inhaltliche Spezifikation von Daten durch die </hi>
-                            <hi rend="color(#212121) background-color(#ffffff)italic">Definition von domänenspezifischen Sprachen</hi>
-                            <hi rend="color(#212121) background-color(#ffffff)"> </hi>
-                            <hi rend="color(#212121) background-color(#ffffff)">(</hi>
-                            <hi rend="color(#212121) background-color(#ffffff)">Parr 2012</hi>
-                            <hi rend="color(#212121) background-color(#ffffff)">)</hi>
+                            <hi>Inhaltliche Spezifikation von Daten durch die </hi>
+                            <hi>Definition von domänenspezifischen Sprachen</hi>
+                            <hi> </hi>
+                            <hi>(</hi>
+                            <hi>Parr 2012</hi>
+                            <hi>)</hi>
                         </item>
                         <item>Anwendung von Transformationsregeln. Neben bereits implementierter Funktionalität - z.B. zur automatischen Sprachverarbeitung - kann das DME flexibel durch Plugins erweitert werden, um neue Funktionen zur Verarbeitung von Daten einzubinden.</item>
                     </list>
                     <p>Im vorliegenden Anwendungsfall sind Daten in eine strukturierte und außerhalb der Pergamon-Datenbank interpretierbare Form zu bringen. Hierzu werden Daten u. A. durch die Nutzung des iDAI.Gazetteer
-                        <note xml:id="ftn5" place="foot" n="5">
-                            <ref target="https://gazetteer.dainst.org/">
-                                <hi rend="color(#1155cc) background-color(#ffffff)underline">https://gazetteer.dainst.org</hi>
+                        <note>
+                            <ref>
+                                <hi>https://gazetteer.dainst.org</hi>
                             </ref>
-                            <hi rend="color(#212121) background-color(#ffffff)">. Vgl. auch Cuy et al. 2014.</hi>
+                            <hi>. Vgl. auch Cuy et al. 2014.</hi>
                         </note> (Auflösung von Ortsbezeichnungen) und der iDAI.Chronontology
-                        <note xml:id="ftn6" place="foot" n="6">
-                            <ptr target="http://chronontology.dainst.org/"/>
-                            <hi rend="color(#212121) background-color(#ffffff)"> </hi>
+                        <note>
+                            <ptr/>
+                            <hi> </hi>
                         </note> (Auflösung zeitlicher Angaben) angereichert.
                     </p>
-                    <div type="div3">
+                    <div>
                         <head>iDAI.ChronOntology</head>
                         <p>Die ChronOntology API ermöglicht u. a. eine Freitextsuche. Beispielsweise ist es möglich nach Zeitangaben zu suchen, die den String „Kaiserzeitlich“ beinhalten
-                            <note xml:id="ftn7" place="foot" n="7">Z.B. 
-                                <ptr target="http://chronontology.dainst.org/data/period/?q=kaiserzeitlich"/>
+                            <note>Z.B. 
+                                <ptr/>
                             </note> und die entsprechende Datierungen aufweisen können. So ist der Begriff „kaiserzeitlich“ mit „-27“ und „476“ als Beginn- und Enddatum verbunden.
                         </p>
                         <p>
-                            <hi rend="color(#212121) background-color(#ffffff)">Im Rahmen des DME wird das Modell der Pergamon-Daten dahingehend erweitert, dass unter dem in XML vorhandenen Element </hi>
-                            <hi rend="color(#212121) background-color(#ffffff)">&lt;Grobdatierung&gt;</hi>
-                            <hi rend="color(#212121) background-color(#ffffff)"> zunächst Grammatik und Transformationsregel angelegt werden. Hierunter werden die zu produzierenden zusätzlichen Elemente modelliert: im konkreten Fall die strukturierte Antwort des iDAI.ChronOntology Dienstes. Abbildung 3 zeigt neben diesem erweiterten Elementmodell bereits das Ergebnis der Anwendung dieser Funktionalität auf die Beispieldaten.</hi>
+                            <hi>Im Rahmen des DME wird das Modell der Pergamon-Daten dahingehend erweitert, dass unter dem in XML vorhandenen Element </hi>
+                            <hi>&lt;Grobdatierung&gt;</hi>
+                            <hi> zunächst Grammatik und Transformationsregel angelegt werden. Hierunter werden die zu produzierenden zusätzlichen Elemente modelliert: im konkreten Fall die strukturierte Antwort des iDAI.ChronOntology Dienstes. Abbildung 3 zeigt neben diesem erweiterten Elementmodell bereits das Ergebnis der Anwendung dieser Funktionalität auf die Beispieldaten.</hi>
                         </p>
                         <p>
                             <figure>
-                                <graphic url="Pictures/10000201000003EF0000029BE52DB7DC764D8B4F.png"/>
+                                <graphic/>
                             </figure>
                         </p>
                         <p>
-                            <hi rend="color(#212121) background-color(#ffffff)bold">Abb. 3</hi>
-                            <hi rend="color(#212121) background-color(#ffffff)">: Erweiterung des Datenmodells durch Zusatz der strukturierten Antwort des iDAI.ChronOntology Dienstes.</hi>
+                            <hi>Abb. 3</hi>
+                            <hi>: Erweiterung des Datenmodells durch Zusatz der strukturierten Antwort des iDAI.ChronOntology Dienstes.</hi>
                         </p>
                         <p>
-                            <hi rend="color(#212121) background-color(#ffffff)">Für eine in Bezug auf die Pergamon-Daten optimierte Anfrage an den iDAI.ChronOntology Dienst wird die Semantik des Elements </hi>
-                            <hi rend="color(#212121) background-color(#ffffff)">&lt;Grobdatierung&gt;</hi>
-                            <hi rend="color(#212121) background-color(#ffffff)"> expliziert. Die Grammatik in Abbildung 4 veranlasst die Zerlegung zusammengesetzter Datierungsangaben, um die vorliegende von-bis Semantik darzustellen (z. B. bei hellenistisch-kaiserzeitlich) und die einzelnen Anfrageterme zu extrahieren </hi>
-                            <hi rend="color(#212121) background-color(#ffffff)">(</hi>
-                            <hi rend="color(#212121) background-color(#ffffff)">Parr 2012</hi>
-                            <hi rend="color(#212121) background-color(#ffffff)">)</hi>
-                            <hi rend="color(#212121) background-color(#ffffff)">.</hi>
+                            <hi>Für eine in Bezug auf die Pergamon-Daten optimierte Anfrage an den iDAI.ChronOntology Dienst wird die Semantik des Elements </hi>
+                            <hi>&lt;Grobdatierung&gt;</hi>
+                            <hi> expliziert. Die Grammatik in Abbildung 4 veranlasst die Zerlegung zusammengesetzter Datierungsangaben, um die vorliegende von-bis Semantik darzustellen (z. B. bei hellenistisch-kaiserzeitlich) und die einzelnen Anfrageterme zu extrahieren </hi>
+                            <hi>(</hi>
+                            <hi>Parr 2012</hi>
+                            <hi>)</hi>
+                            <hi>.</hi>
                         </p>
                         <p>
                             <figure>
-                                <graphic url="Pictures/10000201000003EF0000029BD9AA7377699823A0.png"/>
+                                <graphic/>
                             </figure>
                         </p>
                         <p>
-                            <hi rend="color(#212121) background-color(#ffffff)bold">Abb. 4</hi>
-                            <hi rend="color(#212121) background-color(#ffffff)">: Bearbeitung eines Elements des Datenmodells durch eine vom Benutzer editierbare Grammatik. </hi>
+                            <hi>Abb. 4</hi>
+                            <hi>: Bearbeitung eines Elements des Datenmodells durch eine vom Benutzer editierbare Grammatik. </hi>
                         </p>
                         <p>
-                            <hi rend="color(#212121) background-color(#ffffff)">Durch die Adressierung der so gebildeten Terme in </hi>
-                            <hi rend="color(#212121) background-color(#ffffff)">&lt;dating&gt;</hi>
-                            <hi rend="color(#212121) background-color(#ffffff)"> kann die anschließende Transformationsregel (vgl. Abbildung 5) auf eine verfeinerte Variante des zuvor unstrukturierten Inhalts zurückgreifen.</hi>
+                            <hi>Durch die Adressierung der so gebildeten Terme in </hi>
+                            <hi>&lt;dating&gt;</hi>
+                            <hi> kann die anschließende Transformationsregel (vgl. Abbildung 5) auf eine verfeinerte Variante des zuvor unstrukturierten Inhalts zurückgreifen.</hi>
                         </p>
                         <p>Die Ausführung der Chronontology API ist durch Anwendung von Funktionalität des umgesetzten DAI-Plugins möglich. Im vorliegenden Fall gestaltet sich das Kommando wie folgt:</p>
                         <p>
-                            <hi rend="italic">Chronontology = dai.chronontology.query(@dating);</hi>
+                            <hi>Chronontology = dai.chronontology.query(@dating);</hi>
                         </p>
                         <p>
                             <figure>
-                                <graphic url="Pictures/10000201000003EF0000029B624A145F5C9AD247.png"/>
+                                <graphic/>
                             </figure>
                         </p>
                         <p>
-                            <hi rend="color(#212121) background-color(#ffffff)bold">Abb. 5</hi>
-                            <hi rend="color(#212121) background-color(#ffffff)">: Spezifikation einer Transformationsregel zur Abfrage des iDAI ChronOntology API.</hi>
+                            <hi>Abb. 5</hi>
+                            <hi>: Spezifikation einer Transformationsregel zur Abfrage des iDAI ChronOntology API.</hi>
                         </p>
                         <p>
-                            <hi rend="color(#212121) background-color(#ffffff)">Um aus der potenziellen Menge zurückgegebener Einträge ein Intervall zu berechnen, werden Kommandos aus dem </hi>
-                            <hi rend="color(#212121) background-color(#ffffff)">math</hi>
-                            <hi rend="color(#212121) background-color(#ffffff)"> Funktionsraum verwendet:</hi>
+                            <hi>Um aus der potenziellen Menge zurückgegebener Einträge ein Intervall zu berechnen, werden Kommandos aus dem </hi>
+                            <hi>math</hi>
+                            <hi> Funktionsraum verwendet:</hi>
                         </p>
                         <p>
-                            <hi rend="italic">BeginMin = math.min(@Response.Item.Resource.Timespan.Begin.At);
+                            <hi>BeginMin = math.min(@Response.Item.Resource.Timespan.Begin.At);
                                 <lb/>EndMax = math.max(@Response.Item.Resource.Timespan.End.At);
                             </hi>
                         </p>
                         <p>Hierdurch wird in den Daten exakt ein Zeitintervall hinterlegt, welches der gewünschten Semantik [frühester Begin, spätestes Ende] der Zeitangabe entspricht.</p>
                     </div>
-                    <div type="div3">
+                    <div>
                         <head>iDAI.Gazetteer</head>
                         <p>Vergleichbar mit der Chronontology API können auch Funktionen der Gazetteer API auf Daten angewandt werden. Im vorliegenden Beispiel wird der für eine Anfrage zurückgegebene, erste Treffer als wahrscheinlichste Koordinate verwendet und in den Daten berücksichtigt:</p>
                         <p>
-                            <hi rend="italic">Location = dai.gazetteer.topcoord(@ResolveLocation);</hi>
+                            <hi>Location = dai.gazetteer.topcoord(@ResolveLocation);</hi>
                         </p>
                     </div>
                 </div>
-                <div type="div2">
+                <div>
                     <head>Mapping der Datenstrukturen</head>
                     <p>Für die Transformation originärer Pergamon-Daten in das KML Format ist schließlich die Modellierung von Zusammenhängen der Datenmodelle erforderlich. Abbildung 6 zeigt die drei Mappings, die für den Anwendungsfall modelliert wurden.</p>
                     <p>
                         <figure>
-                            <graphic url="Pictures/10000201000003EF0000029BCA214AE6FBAC7142.png"/>
+                            <graphic/>
                         </figure>
                     </p>
                     <p>
-                        <hi rend="color(#212121) background-color(#ffffff)bold">Abb. 6</hi>
-                        <hi rend="color(#212121) background-color(#ffffff)">: Visualisierung der Mappings zwischen Quellmodell (Pergamon XML) und Zielmodell (KML) im DME.</hi>
+                        <hi>Abb. 6</hi>
+                        <hi>: Visualisierung der Mappings zwischen Quellmodell (Pergamon XML) und Zielmodell (KML) im DME.</hi>
                     </p>
                     <p>Über einfache Wertkorrespondenzen, wie bei BeginMin (Pergamon) zu Begin (KML) hinaus können auch an dieser Stelle Transformationsregeln spezifiziert werden. Für die Übertragung der Koordinaten in das KML Schema wird so z. B. folgende Regel definiert:</p>
                     <p>[@Latitude != ""]
@@ -279,63 +279,63 @@
                     </p>
                     <p>Koordinaten werden demnach nur angelegt, wenn @Latitude (für Daten im Quellschema) gesetzt ist. Zur Erzeugung eines Strings “Latitude, Longitude” wird die Konkatenationsanweisung verwendet.</p>
                 </div>
-                <div type="div2">
+                <div>
                     <head>Visualisierung der Mapping-Ergebnisse</head>
                     <p>
-                        <hi rend="color(#212121) background-color(#ffffff)">Transformierte Daten können in verschiedenen Formaten heruntergeladen werden. Als KML Datei exportiert, können die 100 archäologischen Beispieldatensätze im GeoBrowser bereitgestellt und angezeigt werden (vgl. Abbildung 7). </hi>
-                        <hi rend="color(#212121) background-color(#ffffff)">
+                        <hi>Transformierte Daten können in verschiedenen Formaten heruntergeladen werden. Als KML Datei exportiert, können die 100 archäologischen Beispieldatensätze im GeoBrowser bereitgestellt und angezeigt werden (vgl. Abbildung 7). </hi>
+                        <hi>
                             <figure>
-                                <graphic url="Pictures/1000020100000639000003AB94BBD79CFD153878.png"/>
+                                <graphic/>
                             </figure>
                         </hi>
-                        <hi rend="color(#212121) background-color(#ffffff)bold">Abb. 7</hi>
-                        <hi rend="color(#212121) background-color(#ffffff)">: Visualisierung der Mapping-Ergebnisse mittels des Geo-Browsers.</hi>
+                        <hi>Abb. 7</hi>
+                        <hi>: Visualisierung der Mapping-Ergebnisse mittels des Geo-Browsers.</hi>
                     </p>
                     <p>
-                        <hi rend="color(#212121) background-color(#ffffff)">Nur 16 der 100 Datensätze haben Ortsangaben und können deshalb positioniert werden (Pergamon: 15, Knidos: 1), während fast alle eine Zeitangabe aufweisen. Die Möglichkeit, eine historische Karte (hier der </hi>
-                        <hi rend="color(#212121) background-color(#ffffff)italic">Barrington Atlas map of the Roman Empire</hi>
-                        <hi rend="color(#212121) background-color(#ffffff)">) auszuwählen, bietet einen zusätzlichen Nutzen, da sie eine bessere Kontextualisierung der Daten ermöglicht. Da der GeoBrowser derzeit keine XML-Namespaces unterstützt, müssen diese im Moment manuell aus den KML Daten entfernt werden.</hi>
+                        <hi>Nur 16 der 100 Datensätze haben Ortsangaben und können deshalb positioniert werden (Pergamon: 15, Knidos: 1), während fast alle eine Zeitangabe aufweisen. Die Möglichkeit, eine historische Karte (hier der </hi>
+                        <hi>Barrington Atlas map of the Roman Empire</hi>
+                        <hi>) auszuwählen, bietet einen zusätzlichen Nutzen, da sie eine bessere Kontextualisierung der Daten ermöglicht. Da der GeoBrowser derzeit keine XML-Namespaces unterstützt, müssen diese im Moment manuell aus den KML Daten entfernt werden.</hi>
                     </p>
                 </div>
             </div>
-            <div type="div1">
+            <div>
                 <head>Schlußdiskussion</head>
                 <p>Dieser Anwendungsfall basierte auf einer zu geringen Menge von Daten, als dass akute Mehrwerte erreichen werden könnten. Die Visualisierung von Daten aus mehreren Grabungsorten könnte dagegen die Einführung neuer Formen, Farben oder Keramiktypen in ort- und zeitbezogener Abhängigkeit darstellen und so zu der Generierung neuer Hypothesen führen. Das DME ist flexibel genug, um mit den heterogenen Daten der Archäologie umgehen zu können. </p>
                 <p>Indem das DME eine Modellierung von Verarbeitung von Daten spezifischer Anwendungsfälle ermöglicht, hat es das Potential das „OpenRefine für die digitalen Geisteswissenschaften“ zu werden: ein generisches Tool zur Modellierung, Verfeinerung, Bereinigung und Anreicherung von Forschungsdaten, das eine breite Vielfalt von Arbeitsabläufen unterstützen kann.
-                    <note xml:id="ftn8" place="foot" n="8">Für ein Beispiel der Benutzung von OpenRefine in den digitalen Geistenwissenschaften vgl. 
-                        <ptr target="https://programminghistorian.org/lessons/cleaning-data-with-openrefine"/>.
+                    <note>Für ein Beispiel der Benutzung von OpenRefine in den digitalen Geistenwissenschaften vgl. 
+                        <ptr/>.
                     </note>
                 </p>
                 <p>Zugleich stellt sich aber auch die Frage, wer die typischen BenutzerInnen des DME sein können? Oder: ist es realistisch zu erwarten, dass GeisteswissenschaftlerInnen dieses Werkzeug ohne die Unterstützung von DH Spezialisten bedienen können? Tatsächlich scheint das DME eine gemeinsame Basis der Kollaboration und Kommunikation sein zu wollen, in der das Wissen von GeisteswissenschaftlerInnen mit der technischen Expertise von DH-Experten zusammengeführt werden. Hierdurch können Aufgaben, wie die des vorliegenden Anwendungsfalls erfüllt werden ohne sämtliche technische Problemstellungen von Grund auf neu lösen zu müssen. Durch die wachsende Zahl von bestehenden Quell-/Zielmodelle, Transformationsregeln und API-Wrappers kann Wissen und Funktionalität nachgenutzt werden. </p>
             </div>
         </body>
         <back>
-            <div type="bibliogr">
+            <div>
                 <listBibl>
                     <head>Bibliographie</head>
                     <bibl>van Zundert, J., 2012. “If You Build It, Will We Come? Large Scale Digital Infrastructures as a Dead End for Digital Humanities”. 
-                        <hi rend="italic">Historical Social Research</hi>, 37(3), pp.165–186.
+                        <hi>Historical Social Research</hi>, 37(3), pp.165–186.
                     </bibl>
                     <bibl>
-                        <hi rend="color(#212121) background-color(#ffffff)">Cuy, Sebastian / Gerth, Philipp / Heiden, Maximilian / Kolbmann, Wibke / Schmidle, Wolfgang (2014): iDAI.gazetteer – ein Referenzsystem für altertumswissenschaftliche Ortsinformationen als Teil einer digitalen Forschungsinfrastruktur. In </hi>
-                        <hi rend="color(#212121) background-color(#ffffff)italic">Kölner und Bonner Archaeologica</hi>
-                        <hi rend="color(#212121) background-color(#ffffff)"> 4, S. 203-212.</hi>
+                        <hi>Cuy, Sebastian / Gerth, Philipp / Heiden, Maximilian / Kolbmann, Wibke / Schmidle, Wolfgang (2014): iDAI.gazetteer – ein Referenzsystem für altertumswissenschaftliche Ortsinformationen als Teil einer digitalen Forschungsinfrastruktur. In </hi>
+                        <hi>Kölner und Bonner Archaeologica</hi>
+                        <hi> 4, S. 203-212.</hi>
                     </bibl>
                     <bibl>
-                        <hi rend="color(#212121) background-color(#ffffff)">Gradl, T</hi>
-                        <hi rend="color(#212121) background-color(#ffffff)">obias /</hi>
-                        <hi rend="color(#212121) background-color(#ffffff)"> Henrich, A</hi>
-                        <hi rend="color(#212121) background-color(#ffffff)">ndreas</hi>
-                        <hi rend="color(#212121) background-color(#ffffff)"> (2016): Die DARIAH-DE-Föderationsarchitektur: Datenintegration im Spannungsfeld forschungsspezifischer und domänenübergreifender Anforderungen, Bibliothek Forschung und Praxis. Band 40, Heft 2, Seiten 222-228, ISSN (Online) 1865-7648, ISSN (Print) 0341-4183, DOI:</hi>
-                        <ref target="https://doi.org/10.1515/bfp-2016-0027"> </ref>
-                        <ptr target="https://doi.org/10.1515/bfp-2016-0027"/>
-                        <hi rend="color(#212121) background-color(#ffffff)">, Juli 2016</hi>
+                        <hi>Gradl, T</hi>
+                        <hi>obias /</hi>
+                        <hi> Henrich, A</hi>
+                        <hi>ndreas</hi>
+                        <hi> (2016): Die DARIAH-DE-Föderationsarchitektur: Datenintegration im Spannungsfeld forschungsspezifischer und domänenübergreifender Anforderungen, Bibliothek Forschung und Praxis. Band 40, Heft 2, Seiten 222-228, ISSN (Online) 1865-7648, ISSN (Print) 0341-4183, DOI:</hi>
+                        <ref> </ref>
+                        <ptr/>
+                        <hi>, Juli 2016</hi>
                     </bibl>
                     <bibl>Gradl, Tobias / Henrich, Andreas (2016): „Data Integration for the Arts and Humanities: A Language Theoretical Concept“. In: Fuhr, Norbert et al. (Hg.): Research and Advanced Technology for Digital Libraries: 20th International Conference on Theory and Practice of Digital Libraries, TPDL 2016, Hannover, Germany, September 5‐9, 2016, Proceedings. Cham: Springer International Publishing, S. 281–293</bibl>
                     <bibl>
-                        <hi rend="color(#212121) background-color(#ffffff)">Gradl, Tobias / Henrich, Andreas /Plutte, Christoph (2015): „Heterogene Daten in den Digital Humanities: Eine Architektur zur forschungsorientierten Förderation von Kollektionen“. In: Baum, Constanze/Stäcker, Thomas (Hg.): Grenzen und Möglichkeiten der Digital HumanitiesZeitschrift für digitale Geisteswissenschaften. 2015, H. 1. URL: </hi>
-                        <ptr target="http://zfdg.de/sb001_020"/>
-                        <hi rend="color(#212121) background-color(#ffffff)"> </hi>
+                        <hi>Gradl, Tobias / Henrich, Andreas /Plutte, Christoph (2015): „Heterogene Daten in den Digital Humanities: Eine Architektur zur forschungsorientierten Förderation von Kollektionen“. In: Baum, Constanze/Stäcker, Thomas (Hg.): Grenzen und Möglichkeiten der Digital HumanitiesZeitschrift für digitale Geisteswissenschaften. 2015, H. 1. URL: </hi>
+                        <ptr/>
+                        <hi> </hi>
                     </bibl>
                     <bibl>Parr, Terence (2012): The definitive ANTLR 4 reference. 2. Aufl. Dallas, Raleigh: Pragmatic Bookshelf (= The pragmatic programmers)</bibl>
                 </listBibl>

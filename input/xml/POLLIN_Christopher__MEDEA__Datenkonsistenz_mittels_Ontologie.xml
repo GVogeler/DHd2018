@@ -41,20 +41,20 @@
         </fileDesc>
         <encodingDesc>
             <appInfo>
-                <application ident="DHCONVALIDATOR" version="1.17">
+                <application>
                     <label>DHConvalidator</label>
                 </application>
             </appInfo>
         </encodingDesc>
         <profileDesc>
             <textClass>
-                <keywords scheme="ConfTool" n="category">
+                <keywords>
                     <term>Paper</term>
                 </keywords>
-                <keywords scheme="ConfTool" n="subcategory">
+                <keywords>
                     <term>Poster</term>
                 </keywords>
-                <keywords scheme="ConfTool" n="keywords">
+                <keywords>
                     <term>Semantic Web</term>
                     <term>Ontology</term>
                     <term>Daten</term>
@@ -62,7 +62,7 @@
                     <term>Rechnungsbücher</term>
                     <term>Protégé</term>
                 </keywords>
-                <keywords scheme="ConfTool" n="topics">
+                <keywords>
                     <term>Modellierung</term>
                     <term>Daten</term>
                 </keywords>
@@ -76,7 +76,7 @@
                 <lb/>Ein zentrales Anliegen jedes wissenschaftlichen Projektes ist es, über qualitative und konsistente Daten zu verfügen. Dateninkonsistenz und mangelnde Datenqualität bergen die Gefahr falscher wissenschaftlicher Interpretationen und kritischer Fehlerquellen für die technische Verarbeitung der Daten. Da unterschiedliche TEI-Kodierungen von unikalen Quellen zusammengeführt werden, ist es eine besondere Herausforderung im MEDEA Projekt, Workflows zu etablieren, die dieser Herausforderung begegnen. Die Entwicklung einer domänenspezifischen Ontologie zur Formalisierung von historischen Prozessen des Rechnungswesens kann als eine solche potenzielle Lösung betrachtet werden. Die (Bookkeeping Ontologie 2017) formalisiert in ihrem jetzigen Zeitpunkt eine grundlegende Wissensstruktur, um Einträge in Rechnungsbüchern, ihre Transaktionen von Gütern, Dienstleistungen oder Geldbeträgen von einem Akteur oder Konto zu einem anderen, standardisiert beschreiben zu können.
                 <lb/>Aus jeder Transaktion, die mittels des Attributes @ana in einem TEI kodierten Text annotiert wurde, wird ein XML/RDF Datensatz erzeugt, der auf Konzepte der in OWL serialisierten Bookkeeping-Ontologie referenziert (Vogeler 2016). Der Ontologie Editor Protégé erlaubt es, eine Ontologie und die darin enthaltenen Daten (Individuals) einem Reasoning - dem Abarbeiten alle Vorhanden Regeln in einer Ontologie auf Basis der Description Logic - zu unterziehen (Musen 2015). Das Reasoning gilt als ein essentieller Baustein im Design, der Entwicklung, der Wartung und in der praktischen Anwendung einer Ontologie. Das Ergebnis davon sind Inferenzen. Inferenzen sind neu hergeleitete Schlussfolgerungen auf Basis des Reasoning Prozesses (Dentler / et al. 2011). Die Überprüfung strukturierter Daten mittels logischen Schlussfolgerungen kann dazu dienen, größere Datenmengen auf ihre Konsistenz und somit auch auf ihre Qualität hin zu prüfen, da logische Inkonsistenzen als Fehlermeldung angezeigt werden. Die Überprüfung und Zusammenführung der TEI-Kodierungen wird im MEDEA Projekt auf Basis dieser Ontologie durchgeführt. Use Cases für die Bookkeeping-Ontologie im Projekt umfassen:
             </p>
-            <list type="unordered">
+            <list>
                 <item>Formalisierung und Systematisierung von Rechnungsbüchern in einer maschinenverständlichen Wissensbasis</item>
                 <item>Überprüfung der Datenkonsistenz und inhaltliche Zusammenführung der Daten</item>
                 <item>Schaffung eines Definitionskonsenses</item>
@@ -85,27 +85,27 @@
                 <item>Interoperables und offenes, sowie transparentes Verteilen von Daten</item>
             </list>
             <p>
-                <anchor xml:id="_DdeLink__123_670296950"/>
-                <anchor xml:id="GoBack1"/>Dieser Zugang kann mit der Arbeit von (Steffen, Henniche / et al. 2015) verglichen werden, in der die Anwendung von Semantic Web Methoden, im Speziellen des Reasoning, auf geisteswissenschaftliche Daten angewandt wird. 
+                <anchor/>
+                <anchor/>Dieser Zugang kann mit der Arbeit von (Steffen, Henniche / et al. 2015) verglichen werden, in der die Anwendung von Semantic Web Methoden, im Speziellen des Reasoning, auf geisteswissenschaftliche Daten angewandt wird. 
                 <lb/>So verlockend die Möglichkeiten einer Ontologie sein können, so kritisch sind diese auch zu betrachten. Ein grundlegendes Problem ist bereits durch den Widerspruch der hermeneutischen Arbeit der Historikerin und der Entscheidbarkeit von OWL gegeben. Sind Ontologien in OWL ausdrucksstark genug, um geisteswissenschaftliche Daten so beschreiben zu können, dass ein logisches Schlussfolgern Ergebnisse erzielt, das die Konsistenz und die Qualität der Daten abbildet?
             </p>
         </body>
         <back>
-            <div type="bibliogr">
+            <div>
                 <listBibl>
                     <head>Bibliographie</head>
                     <bibl>Berners-Lee, Tim. (2000): Weaving the Web: The Past, Present and Future of the World Wide Web by Its Inventor. London.</bibl>
                     <bibl>Bookkeeping Ontologie, 
-                        <ref target="http://glossa.uni-graz.at/o:medea.1951/ONTOLOGY">http://glossa.uni-graz.at/o:medea.1951/ONTOLOGY</ref> [letzter Zugriff 21.09.2017].
+                        <ref>http://glossa.uni-graz.at/o:medea.1951/ONTOLOGY</ref> [letzter Zugriff 21.09.2017].
                     </bibl>
                     <bibl>Dentler, Kathrin / et al. (2011): Comparison of reasoners for large ontologies in the OWL 2 EL profile. Semantic Web 2.2, 71-87.</bibl>
                     <bibl>MEDEA, 
-                        <ref target="https://medea.hypotheses.org/">https://medea.hypotheses.org</ref> [letzter Zugriff 21.09.2017].
+                        <ref>https://medea.hypotheses.org</ref> [letzter Zugriff 21.09.2017].
                     </bibl>
                     <bibl>Musen, M.A. ( 2015): The Protégé project: A look back and a look forward. AI Matters. Association of Computing Machinery Specific Interest Group in Artificial Intelligence, DOI: 10.1145/2557001.25757003. </bibl>
                     <bibl>Neuroth, Heike / et al. (2012): Langzeitarchivierung von Forschungsdaten. Eine Bestandsaufnahme. Hülsbusch.</bibl>
                     <bibl>Steffen, Henniche / et al. (2015): Reasoning with Reasoning. Using Faceted Browsers to Find Meaning in Linked Data. Berlin, 1-61, 
-                        <ref target="https://lirias.kuleuven.be/handle/123456789/485851">https://lirias.kuleuven.be/handle/123456789/485851</ref>
+                        <ref>https://lirias.kuleuven.be/handle/123456789/485851</ref>
                     </bibl>
                     <bibl>Vogeler, Georg (2016): The Content of Accounts and Registers in their Digital Edition. XML/TEI, Spreadsheets, and Semantic Web Technologies, in: SARNOWSKY, Jürgen (Hg.): Konzeptionelle Überlegungen zur Edition von Rechnungen und Amtsbüchern des späten Mittelalters. Göttingen, 13-41.</bibl>
                 </listBibl>

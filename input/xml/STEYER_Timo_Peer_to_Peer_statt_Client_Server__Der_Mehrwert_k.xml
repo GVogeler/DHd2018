@@ -73,26 +73,26 @@
         </fileDesc>
         <encodingDesc>
             <appInfo>
-                <application ident="DHCONVALIDATOR" version="1.17">
+                <application>
                     <label>DHConvalidator</label>
                 </application>
             </appInfo>
         </encodingDesc>
         <profileDesc>
             <textClass>
-                <keywords scheme="ConfTool" n="category">
+                <keywords>
                     <term>Paper</term>
                 </keywords>
-                <keywords scheme="ConfTool" n="subcategory">
+                <keywords>
                     <term>Poster</term>
                 </keywords>
-                <keywords scheme="ConfTool" n="keywords">
+                <keywords>
                     <term>Projektmanagement</term>
                     <term>Projektplanung</term>
                     <term>Kooperationen</term>
                     <term>Austausch</term>
                 </keywords>
-                <keywords scheme="ConfTool" n="topics">
+                <keywords>
                     <term>Kommunikation</term>
                     <term>Community-Bildung</term>
                     <term>Projektmanagement</term>
@@ -113,23 +113,23 @@
             <p>Das Poster soll zum einen die Funktionen und Impulse präsentieren, die sich durch das Peer-to-Peer Format ergeben haben. Ziel ist es, mit anderen KollegInnen ins Gespräch zu kommen und auch unangenehme Fragen zu diskutieren, etwa warum die DH in bestimmten Projektstrukturen primär mit Sensibilisierung und Legitimation beschäftigt sind. Dabei soll im Sinne der Tagung auch kritisch hinterfragt werden, inwieweit die DH nicht auch selber zu einer Wahrnehmung beitragen, die sie in die Rolle eines technischen Dienstleisters oder der digitalen Wollmilchsau drängt.</p>
         </body>
         <back>
-            <div type="bibliogr">
+            <div>
                 <listBibl>
                     <head>Bibliographie</head>
                     <bibl>
-                        <hi rend="bold">Tietze, Kim-Oliver</hi> (2010): Wirkprozesse und personenbezogene Wirkungen von kollegialer Beratung – Theoretische Entwürfe und empirische Forschung. Wiesbaden.
+                        <hi>Tietze, Kim-Oliver</hi> (2010): Wirkprozesse und personenbezogene Wirkungen von kollegialer Beratung – Theoretische Entwürfe und empirische Forschung. Wiesbaden.
                     </bibl>
                     <bibl>
-                        <hi rend="bold">Pitti, Daniel V</hi>. (2004): "Designing Sustainable Projects and Publications", in: Schreibman, Susan / Siemens, Ray / Unsworth, John (eds.): A Companion to Digital Humanities. Oxford 2004, 
-                        <ref target="http://www.digitalhumanities.org/companion/">http://www.digitalhumanities.org/companion/</ref> [letzter Zugriff 11.09.2017].
+                        <hi>Pitti, Daniel V</hi>. (2004): "Designing Sustainable Projects and Publications", in: Schreibman, Susan / Siemens, Ray / Unsworth, John (eds.): A Companion to Digital Humanities. Oxford 2004, 
+                        <ref>http://www.digitalhumanities.org/companion/</ref> [letzter Zugriff 11.09.2017].
                     </bibl>
                     <bibl>
-                        <hi rend="bold">Reed, Ashley</hi> (2014): Managing an established digital humanities project: Principles and practices from the twentieth year of the William Blake archive, in: DHQ, 8.1, 
-                        <ref target="http://www.digitalhumanities.org/dhq/vol/8/1/000174/000174.html">http://www.digitalhumanities.org/dhq/vol/8/1/000174/000174.html</ref> [letzter Zugriff 11.09.2017].
+                        <hi>Reed, Ashley</hi> (2014): Managing an established digital humanities project: Principles and practices from the twentieth year of the William Blake archive, in: DHQ, 8.1, 
+                        <ref>http://www.digitalhumanities.org/dhq/vol/8/1/000174/000174.html</ref> [letzter Zugriff 11.09.2017].
                     </bibl>
                     <bibl>
-                        <hi rend="bold">Tabak, Edin</hi> (2017): A Hybrid Model for Managing DH Projects, in: DHQ, 11.1, 
-                        <ref target="http://www.digitalhumanities.org/dhq/vol/11/1/000284/000284.html">http://www.digitalhumanities.org/dhq/vol/11/1/000284/000284.html</ref> [letzter Zugriff 11.09.2017].
+                        <hi>Tabak, Edin</hi> (2017): A Hybrid Model for Managing DH Projects, in: DHQ, 11.1, 
+                        <ref>http://www.digitalhumanities.org/dhq/vol/11/1/000284/000284.html</ref> [letzter Zugriff 11.09.2017].
                     </bibl>
                 </listBibl>
             </div>

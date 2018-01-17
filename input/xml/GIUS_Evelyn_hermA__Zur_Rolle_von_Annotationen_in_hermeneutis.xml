@@ -113,26 +113,26 @@
         </fileDesc>
         <encodingDesc>
             <appInfo>
-                <application ident="DHCONVALIDATOR" version="1.17">
+                <application>
                     <label>DHConvalidator</label>
                 </application>
             </appInfo>
         </encodingDesc>
         <profileDesc>
             <textClass>
-                <keywords scheme="ConfTool" n="category">
+                <keywords>
                     <term>Paper</term>
                 </keywords>
-                <keywords scheme="ConfTool" n="subcategory">
+                <keywords>
                     <term>Poster</term>
                 </keywords>
-                <keywords scheme="ConfTool" n="keywords">
+                <keywords>
                     <term>Hermeneutik</term>
                     <term>Automatisierung</term>
                     <term>Annotation</term>
                     <term>Codierung</term>
                 </keywords>
-                <keywords scheme="ConfTool" n="topics">
+                <keywords>
                     <term>Modellierung</term>
                     <term>Annotieren</term>
                     <term>Kollaboration</term>
@@ -145,10 +145,10 @@
     </teiHeader>
     <text>
         <body>
-            <div type="div1" rend="DH-Heading1">
+            <div>
                 <head>Das Projekt hermA</head>
                 <p>Der Forschungsverbund „Automatisierte Modellierung hermeneutischer Prozesse“ (hermA) befasst sich im Rahmen einer interdisziplinären Zusammenarbeit von Literaturwissenschaft, Pflegewissenschaft, Kulturanthropologie, Computerlinguistik und Informatik mit der Frage, ob und inwieweit hermeneutisches Arbeiten im Bereich der sozial- und geisteswissenschaftlichen Textanalyse computergestützt automatisiert werden kann. Von der Auseinandersetzung mit dieser Frage sind zum einen Erkenntnisse über die Verwendung und Funktion von Annotationen in den jeweiligen hermeneutischen Prozessen zu erwarten, zum anderen sollen erste Ansätze zur Automatisierung des Analyseprozesses entwickelt werden, die die Auswertung größerer Textmengen unterstützen. Die fünf Teilprojekte von hermA folgen in ihrer hermeneutischen Arbeit an und mit Texten unterschiedlichen Forschungslogiken (deduktiv, induktiv und/oder abduktiv); sie arbeiten außerdem jeweils eigenständig zu einem Thema im Gesundheitsbereich und stellen damit thematisch verbundene, fachdisziplinäre Forschungsszenarien zur Evaluation der automatisierten Modelle zur Verfügung:</p>
-                <list type="ordered">
+                <list>
                     <item>Das literaturwissenschaftliche Teilprojekt 1 „Annotationen und die Erkennung von Genremustern. Medizintechnik in literarischen Anti-Utopien“ untersucht ausgehend von der Rolle von Medizintechnik in dystopischen Welten, inwiefern sich Genremerkmale zu Analysekategorien für Dystopien operationalisieren lassen. </item>
                     <item>Das ebenfalls literaturwissenschaftliche Teilprojekt 2 „Gender und Krankheit“ betrachtet literarischen Figuren im Hinblick auf Zusammenhänge zwischen Gender und Zuschreibung von Krankheit. </item>
                     <item>Das pflegewissenschaftliche Teilprojekt 3 „Bedeutungszuschreibungen in krisenhaften gesundheitlichen Versorgungssituationen“ analysiert das Verständnis von sterbenden Menschen hinsichtlich der Entscheidungen bezüglich ihrer gesundheitlichen Versorgung auf Basis qualitativer Interviews. </item>
@@ -156,80 +156,80 @@
                     <item>Das computerlinguistische Teilprojekt 5 adaptiert maschinell erzeugte Modelle für domänenrelevante Interpretationen und unterstützt die übrigen Teilprojekte in der automatischen Textverarbeitung.</item>
                 </list>
             </div>
-            <div type="div1" rend="DH-Heading1">
+            <div>
                 <head>Hermeneutische Prozesse und Forschungslogiken</head>
                 <p>Die Teilprojekte im Projekt hermA decken die gesamte Bandbreite an hermeneutischen Vorgehensweisen ab, die sich auf deduktive, induktive und abduktive Schlussverfahren zurückführen lassen. Damit geht es um alle drei darauf basierende Forschungslogiken, die Charles Sanders Peirce folgendermaßen zusammenfasst: „Deduction proves that something 
-                    <hi rend="italic">must be</hi>; Induction shows that something 
-                    <hi rend="italic">actually is</hi> operative; Abduction merely suggests that something 
-                    <hi rend="italic">may be</hi>“ (Peirce, 1934, CP 5.171, Hervorhebungen im Original).
+                    <hi>must be</hi>; Induction shows that something 
+                    <hi>actually is</hi> operative; Abduction merely suggests that something 
+                    <hi>may be</hi>“ (Peirce, 1934, CP 5.171, Hervorhebungen im Original).
                 </p>
                 <p>Es werden also jeweils bestimmte Strategien genutzt, um unterschiedliche Arten von Erkenntnissen zu erlangen:</p>
-                <list type="unordered">
+                <list>
                     <item>
-                        <hi rend="italic">deduktives Vorgehen:</hi> Mithilfe von etablierten Regeln werden ausgehend von beobachteten Phänomenen Schlüsse gezogen.
+                        <hi>deduktives Vorgehen:</hi> Mithilfe von etablierten Regeln werden ausgehend von beobachteten Phänomenen Schlüsse gezogen.
                     </item>
                     <item>
-                        <hi rend="italic">induktives Vorgehen:</hi> Auf Basis beobachteter, systematisch auftretender Phänomene werden Regeln formuliert.
+                        <hi>induktives Vorgehen:</hi> Auf Basis beobachteter, systematisch auftretender Phänomene werden Regeln formuliert.
                     </item>
                     <item>
-                        <hi rend="italic">abduktives Vorgehen:</hi> Für die Erklärung neu beobachteter Phänomene werden neue Hypothesen über die Ursachen der Phänomene entwickelt.
+                        <hi>abduktives Vorgehen:</hi> Für die Erklärung neu beobachteter Phänomene werden neue Hypothesen über die Ursachen der Phänomene entwickelt.
                     </item>
                 </list>
                 <p>Hinzu kommt: In jedem hermeneutischen Erkenntnisprozess werden laufend neue Erkenntnisse generiert. Wenn diese sich nicht in die jeweilige Forschungslogik integrieren lassen, müssen die entsprechenden Hypothesen und/oder Vorhersagen revidiert oder erweitert und anschließend erneut angewendet werden. Dabei ist es zum Teil nötig, auf andere Forschungslogiken zurückzugreifen (etwa durch eine induktive Herleitung einer neuen Regel, die im deduktiven Prozess angewendet werden kann).</p>
             </div>
-            <div type="div1" rend="DH-Heading1">
+            <div>
                 <head>Annotation in hermeneutischen Prozessen</head>
                 <p>Ein erstes Zwischenergebnis des Projekts hermA ist, dass die Rolle von Annotationen in hermeneutischen Prozessen von der jeweilig zur Anwendung kommenden Forschungslogik abhängt. Diese Zusammenhänge zwischen den Forschungslogiken und dem Einsatz von Annotationen sollen auf dem vorgeschlagenen Poster mit Blick auf die von den Teilprojekten verfolgten Forschungsfragen dargestellt werden. Dabei geht es um folgende Aspekte:</p>
-                <list type="unordered">
+                <list>
                     <item>Annotationen dienen beim 
-                        <hi rend="italic">deduktiven</hi> Vorgehen dazu, Kategorien an Gegenstandstexten zu erproben und gegebenenfalls Modifikationen am Kategorienset vorzunehmen. Auf diesem Weg können die Analysekategorien bestenfalls auch für automatische Annotationen operationalisiert und durch die generierten automatischen Annotationen überprüft werden. In den literaturwissenschaftlichen Teilprojekten 1 und 2 geschieht das mit narratologischen, Genre- und Gender-Kategorien. Teilprojekt 5 nutzt den deduktiven Zugang für die Automatisierung von Analysen.
+                        <hi>deduktiven</hi> Vorgehen dazu, Kategorien an Gegenstandstexten zu erproben und gegebenenfalls Modifikationen am Kategorienset vorzunehmen. Auf diesem Weg können die Analysekategorien bestenfalls auch für automatische Annotationen operationalisiert und durch die generierten automatischen Annotationen überprüft werden. In den literaturwissenschaftlichen Teilprojekten 1 und 2 geschieht das mit narratologischen, Genre- und Gender-Kategorien. Teilprojekt 5 nutzt den deduktiven Zugang für die Automatisierung von Analysen.
                     </item>
                     <item>Beim 
-                        <hi rend="italic">induktiven</hi> Forschungsansatz werden Annotationskategorien aus dem Forschungsobjekt abgeleitet, um nachhaltig durchsuchbare Daten zu generieren und diese deutend zu interpretieren. Dies ist insbesondere in Teilprojekt 3 der Fall, wo die zentralen Aspekte der Entscheidungssituationen sterbender Menschen herausgearbeitet werden. Teilprojekt 1 und 2 arbeiten ebenfalls induktiv an noch nicht etablierten Analysekategorien.
+                        <hi>induktiven</hi> Forschungsansatz werden Annotationskategorien aus dem Forschungsobjekt abgeleitet, um nachhaltig durchsuchbare Daten zu generieren und diese deutend zu interpretieren. Dies ist insbesondere in Teilprojekt 3 der Fall, wo die zentralen Aspekte der Entscheidungssituationen sterbender Menschen herausgearbeitet werden. Teilprojekt 1 und 2 arbeiten ebenfalls induktiv an noch nicht etablierten Analysekategorien.
                     </item>
                     <item>Beim 
-                        <hi rend="italic">abduktiven</hi> Forschungsansatz ist die sukzessive Entwicklung des Annotationsschemas ein zentrales Mittel des hermeneutischen Zugangs zum Untersuchungsobjekt; der Aufbau des Schemas erfolgt parallel sowohl zur Datenerhebung als auch zur Anwendung des Annotationsschemas selbst. Dabei hängen die Struktur des Schemas und die Erkenntnis über das Untersuchungsobjekt direkt miteinander zusammen. Teilprojekt 4 arbeitet abduktiv, um relevante Analyseobjekte zu identifizieren und einen Zugang zu ihnen zu entwickeln.
+                        <hi>abduktiven</hi> Forschungsansatz ist die sukzessive Entwicklung des Annotationsschemas ein zentrales Mittel des hermeneutischen Zugangs zum Untersuchungsobjekt; der Aufbau des Schemas erfolgt parallel sowohl zur Datenerhebung als auch zur Anwendung des Annotationsschemas selbst. Dabei hängen die Struktur des Schemas und die Erkenntnis über das Untersuchungsobjekt direkt miteinander zusammen. Teilprojekt 4 arbeitet abduktiv, um relevante Analyseobjekte zu identifizieren und einen Zugang zu ihnen zu entwickeln.
                     </item>
                 </list>
                 <p>Bei der Betrachtung der Rolle von Annotationen muss zusätzlich zwischen manuellen und automatischen Annotationen differenziert werden. Während manuelle Annotationen eher zur Entwicklung oder Überprüfung von Hypothesen genutzt werden, unterstützen die automatisierten Zugänge jene Aspekte der hermeneutischen Prozesse, die bereits klar definiert werden können – etwa die Erkennung bereits operationalisierter Phänomene oder die Identifikation relevanter Texte oder Textstellen für die weitere Analyse und Interpretation.</p>
             </div>
         </body>
         <back>
-            <div type="bibliogr">
+            <div>
                 <listBibl>
                     <head>Bibliographie</head>
                     <bibl>Chilese, Vivian, und Heinz-Peter Preußer (Hrsg.). 2013. 
-                        <hi rend="italic">Technik in Dystopien</hi>. Jahrbuch Literatur und Politik 7. Heidelberg: Winter.
+                        <hi>Technik in Dystopien</hi>. Jahrbuch Literatur und Politik 7. Heidelberg: Winter.
                     </bibl>
                     <bibl>Gaidys, Uta, und Valerie Fleming. 2005. „Gadamers philosophische Hermeneutik in der Pflegeforschung? Eine Diskussion“. 
-                        <hi rend="italic">Pflege</hi> 18 (6): 389–95.
+                        <hi>Pflege</hi> 18 (6): 389–95.
                     </bibl>
                     <bibl>Gius, Evelyn, und Janina Jacke. 2017. „The Hermeneutic Profit of Annotation. On preventing and fostering disagreement in literary text analysis“. 
-                        <hi rend="italic">International Journal of Humanities and Arts Computing</hi> 11 (2): 233–54.
+                        <hi>International Journal of Humanities and Arts Computing</hi> 11 (2): 233–54.
                     </bibl>
                     <bibl>Koch, Gertraud (Hrsg.). 2017. 
-                        <hi rend="italic">Digitalisierung Theorien und Konzepte für die empirische Kulturforschung</hi>. Köln: Herbert von Halem Verlag.
+                        <hi>Digitalisierung Theorien und Konzepte für die empirische Kulturforschung</hi>. Köln: Herbert von Halem Verlag.
                     </bibl>
                     <bibl>McCrae, Patrick, Wolfgang Menzel, und Maosong Sun. 2011. „A Computational Model of Concept Generalization in Cross-Modal Reference“. 
-                        <hi rend="italic">Tsinghua Science &amp; Technology</hi> 16 (2): 113–20.
+                        <hi>Tsinghua Science &amp; Technology</hi> 16 (2): 113–20.
                     </bibl>
                     <bibl>Moretti, Franco. 2013. „‘Operationalizing’. Or, the Function of Measurement in Literary Theory“. 
-                        <hi rend="italic">New Left Review</hi>, No. 84 (Dezember 2013): 103–19. 
+                        <hi>New Left Review</hi>, No. 84 (Dezember 2013): 103–19. 
                     </bibl>
                     <bibl>Peirce, Charles Sanders (1934): „Pragmatism and Pragmaticism”. Charles Hartshorne &amp; Paul Weiss (Hrsg.): 
-                        <hi rend="italic">Collected Papers of Charles Sanders Peirce</hi>. Cambridge, Massachusetts: Harvard University Press.
+                        <hi>Collected Papers of Charles Sanders Peirce</hi>. Cambridge, Massachusetts: Harvard University Press.
                     </bibl>
                     <bibl>Pustejovsky, James, und Amber Stubbs. 2012. 
-                        <hi rend="italic">Natural Language Annotation for Machine Learning</hi>. Beijing: O’Reilly.
+                        <hi>Natural Language Annotation for Machine Learning</hi>. Beijing: O’Reilly.
                     </bibl>
                     <bibl>Schramme, Thomas (Hrsg.). 2011. 
-                        <hi rend="italic">Krankheitstheorien</hi>. Suhrkamp-Taschenbuch Wissenschaft. Berlin: Suhrkamp.
+                        <hi>Krankheitstheorien</hi>. Suhrkamp-Taschenbuch Wissenschaft. Berlin: Suhrkamp.
                     </bibl>
                     <bibl>Strauss, A.L., und J. Corbin. 1996. 
-                        <hi rend="italic">Grounded theory: Grundlagen qualitativer Sozialforschung</hi>. Weinheim: Beltz Psychologie Verlags Union.
+                        <hi>Grounded theory: Grundlagen qualitativer Sozialforschung</hi>. Weinheim: Beltz Psychologie Verlags Union.
                     </bibl>
                     <bibl>Zinsmeister, Heike. 2015. „Chancen und Grenzen von automatischer Annotation“. 
-                        <hi rend="italic">Zeitschrift für germanistische Linguistik</hi> 43 (1): 84–110. 
+                        <hi>Zeitschrift für germanistische Linguistik</hi> 43 (1): 84–110. 
                     </bibl>
                 </listBibl>
             </div>

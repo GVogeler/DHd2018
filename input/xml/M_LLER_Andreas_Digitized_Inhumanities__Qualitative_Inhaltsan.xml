@@ -33,27 +33,27 @@
         </fileDesc>
         <encodingDesc>
             <appInfo>
-                <application ident="DHCONVALIDATOR" version="1.17">
+                <application>
                     <label>DHConvalidator</label>
                 </application>
             </appInfo>
         </encodingDesc>
         <profileDesc>
             <textClass>
-                <keywords scheme="ConfTool" n="category">
+                <keywords>
                     <term>Paper</term>
                 </keywords>
-                <keywords scheme="ConfTool" n="subcategory">
+                <keywords>
                     <term>Poster</term>
                 </keywords>
-                <keywords scheme="ConfTool" n="keywords">
+                <keywords>
                     <term>qualitative Inhaltsanalyse</term>
                     <term>MAXQDA</term>
                     <term>Vergleich</term>
                     <term>Textanalyse</term>
                     <term>Dokumente</term>
                 </keywords>
-                <keywords scheme="ConfTool" n="topics">
+                <keywords>
                     <term>Inhaltsanalyse</term>
                     <term>Strukturanalyse</term>
                     <term>Visualisierung</term>
@@ -66,49 +66,45 @@
     <text>
         <body>
             <div/>
-            <div type="div1" rend="DH-Heading1">
+            <div>
                 <head>Forschungskontext:</head>
                 <p>In den Sozialwissenschaften ist die qualitative Inhaltsanalyse unter Anwendung moderner Analysesoftware wie MAXQDA etabliert. In den Geschichtswissenschaften gewinnen diese Zugänge unter dem Schlagwort der „Digital Humanities“ erst langsam an Verbreitung. Meine Masterarbeit „Die Magie der Inhaltsanalyse: Entwurf einer Inhaltsanalyse für den Vergleich von Hexenprozessakten aus Rostock 1584 und Hainburg 1617/18“ versucht daher diese Zugänge der Sozialwissenschaften in einem methodisch eher „traditionellen“ Forschungsbereich, der historischen Hexenprozessforschung, anzuwenden.</p>
             </div>
-            <div type="div1" rend="DH-Heading1">
+            <div>
                 <head>Ausgangspunkt:</head>
                 <p>Das Ausgangsmaterial bilden 37 „Geständnisse“ (Urgichten) aus Hexenprozessen in Hainburg 1617/18 und Rostock 1584. Die inhaltlich nach Befragungspunkten strukturierten Dokumente stehen am Ende des juristischen Prozesses vor der Hinrichtung der Angeklagten. Diese bilden eine Synthese aus den Ansichten des Gerichts, den Angaben von Zeugen und den unter Folter entstandenen Aussagen der Angeklagten.</p>
             </div>
-            <div type="div1" rend="DH-Heading1">
+            <div>
                 <head>Forschungsfrage(n):</head>
                 <p>F1: Wie unterscheiden sich die aus den Urgichten hervorgehenden Hexereiimaginationen in Hainburg 1617/18 und Rostock 1584?</p>
                 <p>F2: Wie spiegeln sich regionale Unterschiede (sozio-ökonomisch, konfessionell, politisch) in den Dokumenten wieder? Welche Elemente der Hexereivorstellung erweisen sich als starr, welche als flexibel?</p>
             </div>
-            <div type="div1" rend="DH-Heading1">
+            <div>
                 <head>Methodik:</head>
                 <p>Methodische Grundlage bildet das Methodenangebot der qualitativen Inhaltsanalyse“ (Mayring 2015; Kuckartz 2014), die auf die spezifisch geschichtswissenschaftlichen Herausforderungen angepasst wurde. Als Analysetool wurde MAXQDA12 verwendet. Ein auf dem „elaborierten Hexereibegriff“ (Dillinger 2007) basierendes Kategoriensystem wurde deduktiv auf die Texte angewendet. Für die Analyse wurde ein Mixed-Methods Ansatz verfolgt, der die quantitative Auswertung des Kategoriensystems als „Kontrastmittel“ für die qualitative Analyse heranzieht.</p>
             </div>
-            <div type="div1" rend="DH-Heading1">
+            <div>
                 <head>Ergebnisse</head>
                 <p>Vor allem in der Imagination des Schadenszaubers traten deutliche Unterschiede hervor, welche die sozio-ökonomischen Kontexte widerspiegeln. Im Weinbaugebiet Hainburg findet sich vor allem der Vorwurf des Wetterzaubers gegen Weinreben, Obst und Getreide. In der Seehandelsstadt Rostock fehlen diese Delikte weitgehend und es steht vor allem die Verbreitung von Krankheiten durch Bettlerinnen im Zentrum. Die Vorstellungen vom Teufelspakt, Hexentanz und Flug sind deutlich homogener als der Schadenszauber, wenn sie auch verschiedene Schwerpunktsetzungen und Ausgestaltungen aufweisen. Darüber hinaus hat die quantitative Analyse überraschende Unterschiede in der Inhaltsstruktur zu Tage gefördert, die über den Rahmen der Arbeit offene Fragen aufwirft. Es entsteht dabei der Befund einer wesentlich stärker „integrierten“ bzw. „kohärenten“ Hexereiimagination in Hainburg, die sich in zahlreichen Kategorienüberschneidungen manifestiert, während in Rostock teils völlig isolierte Elemente und Narrative zu Tage treten.</p>
             </div>
-            <div type="div1" rend="DH-Heading1">
+            <div>
                 <head>Mehrwert und Problematik der digitalen Methodik</head>
                 <p>Durch die Anwendung der Software MAXQDA eröffnen sich neue analytische Möglichkeiten von großem Mehrwert. Durch die Zuordnung von verschiedenen Textabschnitten in analytische Kategorien wird es nicht nur möglich die Kategorien qualitativ auszuwerten, sondern auch Visualisierungen und Quantifizierungen zu erzeugen. Als ein Beispiel wird hier das Dokumentenvergleichsdiagramm herausgegriffen:
-                    <graphic n="1001"
-                        width="16.007291666666667cm"
-                        height="9.498541666666666cm"
-                        url="Pictures/image1.jpeg"
-                        rend="inline"/> Die Zeilen bilden hier die einzelnen Dokumente ab, die Spalten die einzelnen Absätze des Textes. Hierdurch wird die thematische Struktur der Texte sichtbar, ähnlich einem „Topic Modelling“ wobei hier jedoch die Zuordnung manuell erfolgt. Ein Vorteil dieses Zugangs ist seine starke Nähe zum Forschungsgegenstand. Ein Klick auf eine der farbigen Flächen (z.B. eine thematische „Lücke“) führt in der Software sofort zurück in die entsprechende Textstelle. MAXQDA ist damit nicht nur eine Möglichkeit zur Ergebnispräsentation sondern auch ein analytisches Tool.
+                    <graphic/> Die Zeilen bilden hier die einzelnen Dokumente ab, die Spalten die einzelnen Absätze des Textes. Hierdurch wird die thematische Struktur der Texte sichtbar, ähnlich einem „Topic Modelling“ wobei hier jedoch die Zuordnung manuell erfolgt. Ein Vorteil dieses Zugangs ist seine starke Nähe zum Forschungsgegenstand. Ein Klick auf eine der farbigen Flächen (z.B. eine thematische „Lücke“) führt in der Software sofort zurück in die entsprechende Textstelle. MAXQDA ist damit nicht nur eine Möglichkeit zur Ergebnispräsentation sondern auch ein analytisches Tool.
                 </p>
                 <p>Das textnahe Arbeiten mit analytischen Kategorien ist vor allem für die qualitative Forschung ein großer Mehrwert. Die Kategorien sowie ihre Zuordnung zum Text werden dabei vom Forschenden selbst festgelegt und ein Rückbezug in den Originaltext ist zu jedem Zeitpunkt möglich. Zu den problematischen Aspekten in der Arbeit mit einem Kategoriensystem zählt jedoch, dass Textteile, die außerhalb der eigenen analytischen Kategorien liegen, leicht aus dem Fokus geraten und der Blick für die Grundgesamtheit des Texts verloren gehen kann. </p>
             </div>
-            <div type="div1" rend="DH-Heading1">
+            <div>
                 <head>Diskussion:</head>
                 <p>Die Masterarbeit setzte sich als methodisches Ziel, den Vergleich zweier historischer Textkorpora unter Einsatz der qualitativen Inhaltsanalyse vorzunehmen. Angestrebtes Ziel einer nachfolgenden Dissertation ist es eine „vergleichende Inhaltsanalyse“ für den Einsatz insbesondere in den Geschichtswissenschaften zu entwerfen. Dafür scheint es angebracht diesen ersten Schritt zur kritischen Diskussion zu stellen und die Potenziale der qualitativen Inhaltsanalyse, aber auch die Möglichkeiten anderer Analyseverfahren, für den systematischen Textvergleich zu diskutieren.</p>
             </div>
-            <div type="div1" rend="DH-Heading1">
+            <div>
                 <head>Anliegen der Posterpräsentation:</head>
                 <p>Das Poster selbst wird die Ergebnisse des erfolgten Vergleichs in Form von Grafiken und Diagrammen (Codematrix Browser, Code Relation Browser, Dokumentenvergleichsdiagramm aus MAXQDA) in das Zentrum rücken. Hierfür werden vor allem die über das quantifizierende „Kontrastmittel“ deutlich gewordenen strukturellen Unterschiede der Vergleichsgruppen aufgezeigt und erläutert. Hiermit erfüllt das Poster zwei Zwecke: 1. Ermöglicht es die Diskussion über und Kritik an dem gewählten Analyseverfahren. 2. Können die Ergebnisse als Anregung dienen die Anwendbarkeit ähnliche Verfahren für das jeweils eigene Forschungsfeld zu reflektieren.</p>
             </div>
         </body>
         <back>
-            <div type="bibliogr">
+            <div>
                 <listBibl>
                     <head>Bibliographie</head>
                     <bibl>Behringer, Wolfgang (1995): Weather, Hunger, and Fear. The Origins of the European Witch Prosecutions in Climate, Society, and Mentality. In: German History (13), S. 1–27.</bibl>

@@ -49,25 +49,25 @@
         </fileDesc>
         <encodingDesc>
             <appInfo>
-                <application ident="DHCONVALIDATOR" version="1.17">
+                <application>
                     <label>DHConvalidator</label>
                 </application>
             </appInfo>
         </encodingDesc>
         <profileDesc>
             <textClass>
-                <keywords scheme="ConfTool" n="category">
+                <keywords>
                     <term>Paper</term>
                 </keywords>
-                <keywords scheme="ConfTool" n="subcategory">
+                <keywords>
                     <term>Vortrag</term>
                 </keywords>
-                <keywords scheme="ConfTool" n="keywords">
+                <keywords>
                     <term>3D-Objekte</term>
                     <term>Typologie</term>
                     <term>Wahrnehmung</term>
                 </keywords>
-                <keywords scheme="ConfTool" n="topics">
+                <keywords>
                     <term>Strukturanalyse</term>
                     <term>Artefakte</term>
                     <term>3D-Bilder</term>
@@ -100,7 +100,7 @@
             <p>Infolgedessen reicht es nicht aus, die Modelle in einfache geometrische Formen zu zerlegen. Ein vielversprechender Ansatz für Formerkennungsverfahren wird derzeit anhand der neu erstellten Terrakotta-Schemata unter Verwendung verschiedener Verfahren der shape comparison im Bereich 2/3D und machine learning entwickelt und evaluiert. Ziel ist es den Grad der Vereinfachung und Abstraktion nicht nur mit den menschlichen Erkennungs- und Verbreitungsmustern zu verknüpfen, um die unbekannten Objekte inkrementell zu bewerten und zu klassifizieren, sondern auch die in der Archäologie und Kunstgeschichte entwickelten Kategorisierungen zu verwenden. Die 3D-Mustererkennung der Hauptkomponenten (Form, Größe und Farbe) muss daher mit archäologischer Subkategorisierung und geeigneten Formen des maschinellen Lernens einhergehen [Bishop 2006].</p>
         </body>
         <back>
-            <div type="bibliogr">
+            <div>
                 <listBibl>
                     <head>Bibliographie</head>
                     <bibl>Bibliographie</bibl>
@@ -159,7 +159,7 @@
                     <bibl>Recognition, Tracking and Hand-Eye Coordination (Heidelberg 2006) </bibl>
                     <bibl>F. Winter, Die Typen der figürlichen Terrakotten, Die antiken Terrakotten III (Berlin 1903) </bibl>
                     <bibl>(
-                        <hi rend="color(0000FF)">http://digi.ub.uni-heidelberg.de/diglit/winter1903</hi>)
+                        <hi>http://digi.ub.uni-heidelberg.de/diglit/winter1903</hi>)
                     </bibl>
                 </listBibl>
             </div>

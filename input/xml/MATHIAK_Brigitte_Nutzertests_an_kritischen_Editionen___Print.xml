@@ -41,24 +41,24 @@
         </fileDesc>
         <encodingDesc>
             <appInfo>
-                <application ident="DHCONVALIDATOR" version="1.17">
+                <application>
                     <label>DHConvalidator</label>
                 </application>
             </appInfo>
         </encodingDesc>
         <profileDesc>
             <textClass>
-                <keywords scheme="ConfTool" n="category">
+                <keywords>
                     <term>Paper</term>
                 </keywords>
-                <keywords scheme="ConfTool" n="subcategory">
+                <keywords>
                     <term>Vortrag</term>
                 </keywords>
-                <keywords scheme="ConfTool" n="keywords">
+                <keywords>
                     <term>Nutzertests</term>
                     <term>Digitale Editionen</term>
                 </keywords>
-                <keywords scheme="ConfTool" n="topics">
+                <keywords>
                     <term>Software</term>
                     <term>Text</term>
                 </keywords>
@@ -67,67 +67,51 @@
     </teiHeader>
     <text>
         <body>
-            <div type="div1" rend="DH-Heading1">
+            <div>
                 <head>Zusammenfassung </head>
                 <p>In diesem Papier beschreiben wir zwei Nutzertests, die wir mit Digitalen Editionen durchgeführt haben. Im ersten Nutzertest vergleichen wir drei Digital Editionen miteinander. Dabei wird klar, dass digitale Editionen nicht immer einfach zu bedienen sind und viele der Nutzer Schwierigkeiten haben sich zurecht zu finden. Erstaunlich ist dabei, dass Nutzer Bedienbarkeit bei ihrer Wahl für relevanter halten als ein Mehr an Daten und Informationen. Im zweiten Nutzertest vergleichen kritische Editionen desselben Werks in drei verschiedenen Medien: als Buch, als PDF/eBook und als digital entstandene Online-Edition. Auch hier können wir feststellen, dass Bedienbarkeit ein relevanter Faktor bei der Wahl der Medien ist, den ein Mehr an Informationen nicht auszugleichen vermag. Das eBook gilt dabei als dasjenige, welchs am einfachsten zu bedienen ist. Es bietet die meisten Zusatzfeatures, die von den Nutzern am Häufigsten benutzt werden. Das Buch wird hingegen gerne für längere Lesepassagen genutzt. Die digitale Edition wurde allerdings von den Nutzern größtenteils nicht richtig verstanden. </p>
                 <p>Im Folgenden werden wir zunächst die Hintergründe beleuchten, die uns dazu ermutigt haben diese Untersuchung durchzuführen. Dann werden wir dezidierter auf die Methode und die Ergebnisse eingehen und dabei insbesondere die Features behandeln, die von den Nutzern als besonders wichtig eingeschätzt wurden. </p>
             </div>
-            <div type="div1" rend="DH-Heading1">
+            <div>
                 <head>Hintergrund </head>
                 <p>In mehreren Umfragen konnte (Porter 2013, 2016) feststellen, dass zwar die Benutzung von digitalen Werkzeugen in den Geisteswissenschaften stark gestiegen ist, die Benutzung von digitalen Editionen allerdings über die Jahre konstant niedrig geblieben, oder sogar gesunken ist. Dies ist ein erstaunliches Ergebnis, wenn man bedenkt, dass immer mehr digitale Editionen verfügbar sind und diese zum Teil erhebliche Mehrwerte gegenüber den aus Printeditionen generierten PDF Versionen generieren. </p>
                 <p>Unsere Hypothese ist daher, dass digitale Editionen schwieriger zu bedienen sind und weniger auf die Bedürfnisse der Endnutzer eingehen als dies bei Printeditionen der Fall ist. </p>
             </div>
-            <div type="div1" rend="DH-Heading1">
+            <div>
                 <head>Methodik</head>
                 <p>Wir haben beide Nutzerstudien mit einer ähnlichen Methodik durchgeführt. Die Nutzergruppe bestand in beiden Fällen aus fortgeschrittenen Studenten der Geisteswissenschaften, vornehmlich aus der Philosophie, Philologie und weiteren verwandten Gebieten. Auf diese Weise haben wir sichergestellt, dass alle Teilnehmer Vorerfahrung in der wissenschaftlichen Textarbeit hatten. Keiner der Teilnehmer war ausgewiesener Experte auf dem Gebiet der Editionen, die wir betrachtet haben. Dies stellt allerdings keinen systematischen Nachteil dar. Schließlich sind die behandelten Editionen nicht nur für Experten gedacht. Tatsächlich erleichtert diese Gegebenheit sogar es den Vergleich, da alle Teilnehmer auf demselben Stand sind. </p>
                 <p>Die Teilnehmer werden für die Nutzerstudie in kleinen Gruppen in einen Raum gebeten und füllen dort zunächst einen Fragebogen zu ihren Vorerfahrungen und Präferenzen aus. Dann bekommen sie eine Liste von Aufgaben, die sie mit der vorgegebenen Edition lösen sollen. Ihre Vorgehensweise wird dabei mit Hilfe einer Screencapture Software aufgezeichnet. Nach Ablauf der Bearbeitungszeit bitten wir sie einen weiteren Fragebogen auszufüllen, in dem wir sie um pauschale Urteile zu der Edition bitten. Im Anschluss setzen sich die Teilnehmer zu einer Gruppendiskussion zusammen. Diese wird von uns an Hand eines Leitfadens geleitet und aufgezeichnet. Die Aufzeichnung wird anschließend transkribiert, kodiert und ausgewertet. </p>
             </div>
-            <div type="div1" rend="DH-Heading1">
+            <div>
                 <head>Verwandte Literatur</head>
                 <p>Nutzerstudien gelten als Standardwerkzeug um die Benutzbarkeit zu evaluieren. Sie werden in den Digitalen Geisteswissenschaften häufig eingesetzt, beispielsweise um digitale Ressourcen (Warwick 2006) oder digitale Werkzeuge für Historiker (Rücker et.al 2011) zu evaluieren. Nutzertests an digitalen Editionen (Kelly 2015, Santos 2015, Visconti 2010) konzentrieren sich typischerweise auf eine Edition und werten diese quantitativ aus. Bei der Entwicklung unserer Methodik haben wir uns vor Allem an der Untersuchung von Informationsbedürfnissen und Informationsverhalten orientiert (Barrett 2005, Belkin 1993, Buchanan 2005, Ellis 2003). Das Design der Aufgaben erfolgte in Anlehnung an (Unsworth 2000) Konzept der Primitive wissenschaftlicher Arbeit (Palmer et al 2009). Der Ansatz selbst basiert auf den Arbeiten von (Drucker 2011), allerdings erweitert, um digitale Editionen als Wissenswerkzeuge besser würdigen zu können (Bevan 1995, Porter 2016). Die transversale Analyse von (Rimmer 2008) zur Qualität von Forschung zwischen Print und Digital war dabei sehr hilfreich als Vergleich. </p>
             </div>
-            <div type="div1" rend="DH-Heading1">
+            <div>
                 <head>Editionen im Vergleich</head>
                 <p>In unserer ersten Nutzerstudie haben wir drei digitale Editionen miteinander verglichen. Die Studie selbst ist ausführlich in (Caria/Mathiak 2017) beschrieben. Daher folgt hier nur eine Zusammenfassung der Ergebnisse, um die zweite Nutzerstudie besser im Kontext verstehen zu können. </p>
                 <p>Die drei Editionen, die wir miteinander verglichen haben, hatten wir vor der Studie aus etwa 40 möglichen Editionen ausgewählt. Dabei lag unsere Wahl bei den Editionen, von denen wir dachten, dass diese am besten zu bedienen sind. Trotzdem hatten viele der Teilnehmer Schwierigkeiten die Aufgaben korrekt zu bearbeiten, da sie zum Teil die dazu notwendigen, aber vorhandenen Funktionalitäten auf der Webseite nicht gefunden haben. Dementsprechend negativ waren die Urteile der Probanden. Auffällig war, dass es jedoch einen Widerspruch zwischen Wünschen und Präferenzen der Teilnehmer gab. Gewünscht wurde vor allem mehr Inhalt. Präferiert wurde jedoch die einzige Edition, die keine Faksimiles hatte, obwohl dies oft gewünscht wurde, weil sie die höchste Benutzbarkeit aufwies. Dies steht im Kontrast zu der allgemeinen Erfahrung, dass Wissenschaftler Inhalt vor Form bevorzugen (Kern/Mathiak 2015). </p>
                 <p>Wir schließen daraus, dass es so eine Art unsichtbare Schwelle der Bedienbarkeit gibt, die erreicht werden muss, damit der Inhalt einer digitale Edition überhaupt zum Tragen kommen kann. </p>
             </div>
-            <div type="div1" rend="DH-Heading1">
+            <div>
                 <head>Eine Frage des Mediums</head>
                 <p>Die Frage, die sich daran unmittelbar anschließt ist, ob dies eine Erklärung für die Ergebnisse von (Porter 2016) ist. Mit anderen Worten: ob die digitalen Editionen deshalb nicht benutzt werden, weil ihnen die Bedienbarkeit fehlt, die das entsprechende Buch bzw. die digitalisierte Version eines Buches von Natur aus mitbringen. </p>
                 <p>Wir haben dazu das Werk “Also sprach Zarathustra” von Friedrich Nietzsche ausgewählt. Als Print und PDF wurde die Ausgabe von (Nietzsche/Colli/Montinari 1997) repräsentiert. Die Onlineversion stammt von nietzschesource.org. </p>
                 <p>Für den Eingangsfragebogen haben wir Fragen aus dem Fragebogen von Porter übersetzt. Die Antworten sind mit den Ergebnissen von Porter vergleichbar. In den Abbildungen 1 und 2 sind die am häufigsten genutzten digitalen und analogen Ressourcen unserer Nutzer angegeben. Abbildung 3 zeigt den präferierten Zugriffsweg zu verschiedenen Arten von Ressourcen. </p>
                 <figure>
-                    <graphic n="1001"
-                        width="16.51cm"
-                        height="13.0175cm"
-                        url="Pictures/image1.png"
-                        rend="inline"/>
+                    <graphic/>
                 </figure>
                 <p>Abbildung 1: Die am häufigsten benutzten digitalen Ressourcen der letzten drei Monate.</p>
                 <figure>
-                    <graphic n="1002"
-                        width="16.51cm"
-                        height="9.868958333333333cm"
-                        url="Pictures/image2.png"
-                        rend="inline"/>
+                    <graphic/>
                 </figure>
                 <p>Abbildung 2: Die am häufigsten benutzten analogen Ressourcen der letzten drei Monate.</p>
                 <figure>
-                    <graphic n="1003"
-                        width="16.51cm"
-                        height="12.832291666666666cm"
-                        url="Pictures/image3.png"
-                        rend="inline"/>
+                    <graphic/>
                 </figure>
                 <p>Abbildung 3: Wie wurde auf diese Ressourcen vorwiegend zugegriffen (Print oder Digital)?</p>
                 <p>Für den Nutzertest haben wir Aufgaben entwickelt, die den Nutzer auf eine natürliche Art an die Medien heranführen. Die gestellten Aufgaben waren vor allem interpretativ und verlangten von den Nutzern sich in den verschiedenen Primär- und Sekundärquellen zu orientieren und Änderungen mittels der Kommentare nachzuvollziehen. Im Anschluss an die Tests haben wir die klassischen Usability Metriken zu Effectiveness (Können die Ziele erreicht werden?), Efficiency (Wie viel Aufwand ist es die Ziele zu erreichen?) und Satisfaction (Wie zufrieden sind sie mit der Benutzbarkeit?) erhoben (vgl. Abb. 4). </p>
                 <figure>
-                    <graphic n="1004"
-                        width="16.51cm"
-                        height="10.133541666666666cm"
-                        url="Pictures/image4.png"
-                        rend="inline"/>
+                    <graphic/>
                 </figure>
                 <p>Abbildung 4: Usability Metriken der drei Medien im Vergleich.</p>
                 <p>In der abschließenden Gruppendiskussion wurden schließlich die Vor- und Nachteile der verschiedenen Medien von den Nutzern diskutiert. Neben der Frage nach dem Medium, welches sie bevorzugen, waren auch die Kernfunktionalitäten der Editionen, also die Suche, Annotationen, Kompatibilität und Portabilität ein Thema. </p>
@@ -135,140 +119,136 @@
                 <p>Nietzsche.org wurde dabei durchaus aufgrund der Inhalte gewürdigt: „Die [Digitale Edition] sollte eigentlich die beste Wahl sein, dadurch, dass sie viele verschiedene Texte und Daten beinhaltet, allerdings habe ich lieber 5 Tabs bzw. PDF's offen. Somit kann ich fliegend hin und her wechseln, ohne dass ich wieder und wieder nach Texten in der digitalen Edition suchen muss.“</p>
                 <p>Am Buch wurde hingegen vor Allem die Bequemlichkeit geschätzt. Es sei “besser für die Augen” und “lenkt nicht so ab”. </p>
             </div>
-            <div type="div1" rend="DH-Heading1">
+            <div>
                 <head>Gewünschte Funktionalität</head>
                 <p>Aus den Diskussionen konnten wir relativ klare und konkrete Kritikpunkte an der digitalen Edition identifizieren, die so oder so ähnlich auf die meisten der von uns untersuchten digitalen Editionen zutreffen (vgl. Abb. 5). Besonders häufig kam die Kritik an der Struktur bzw. Navigation innerhalb der Edition auf. Das Inhaltsverzeichnis gibt zwar eine relativ einfache Struktur vor, diese wurde allerdings von den Nutzern besser verstanden als die Struktur der Webseite. Ebenfalls sehr viele Nutzer arbeiten mit Annotationen. Dass dies auf der Webseite nicht unterstützt wurde, fiel unangenehm auf. </p>
                 <p>Weitere häufige Beschwerden wurden über die Suchfunktion geäußert. Diese funktionierte nicht wie von den Nutzern erwartet. Hinzu kam die Komplexität der Webseite, welche durch die Suchfunktion und Navigation nicht ausreichend kompensiert wird. </p>
                 <figure>
-                    <graphic n="1005"
-                        width="16.51cm"
-                        height="8.678333333333333cm"
-                        url="Pictures/image5.png"
-                        rend="inline"/>
+                    <graphic/>
                 </figure>
                 <p>
-                    <hi rend="italic">Abbildung 5: Häufig geäußerte Kritik an der digitalen Edition</hi>.
+                    <hi>Abbildung 5: Häufig geäußerte Kritik an der digitalen Edition</hi>.
                 </p>
             </div>
-            <div type="div1" rend="DH-Heading1">
+            <div>
                 <head>Fazit</head>
                 <p>Kritische Editionen sind nicht nur Datenquellen, sondern dienen auch als Arbeitswerkzeuge. Dabei darf die Usability nicht als nettes Feature abgetan werden, denn sie sorgt dafür, dass Nutzer eher eine digitale Edition benutzen. Das Interface sollte daher nicht nur als letzter Schritt eines editorialen Prozesses gedacht werden, sondern von Anfang an berücksichtigt und systematisch erprobt werden. </p>
                 <p>Als Kernfunktionalität sollten dabei mindestens eine Suchfunktion, eine Möglichkeit zum Kommentieren/Annotieren und zusätzlich noch eine Vergleichsfunktion in Betracht gezogen werden. Texte zu vergleichen gehört zu den häufigsten Tätigkeiten und aus unserer ersten Studie wissen wir, dass die Nutzer technische Unterstützung dazu sehr schätzen. </p>
             </div>
         </body>
         <back>
-            <div type="bibliogr">
+            <div>
                 <listBibl>
                     <head>Bibliographie</head>
                     <bibl>
-                        <hi rend="bold">Barrett, A</hi>. (2005): “The Information-Seeking Habits of Graduate Student Researchers in the Humanities” in: 
-                        <hi rend="italic">The Journal of Academic Librarianship</hi> 31(4), 324–331.
+                        <hi>Barrett, A</hi>. (2005): “The Information-Seeking Habits of Graduate Student Researchers in the Humanities” in: 
+                        <hi>The Journal of Academic Librarianship</hi> 31(4), 324–331.
                     </bibl>
                     <bibl>
-                        <hi rend="bold">Belkin, N</hi>. (1993): “Interaction with Texts: Information Retrieval as Information Seeking Behavior” in: Knorz, G., Krause, J., Womser-Hacker, C. (Eds.) Information Retrieval '93: Von der Modellierung zur Anwendung, Regensburg, vol. 12, pp. 55-66 . Schriften zur Informationswissenschaft.
+                        <hi>Belkin, N</hi>. (1993): “Interaction with Texts: Information Retrieval as Information Seeking Behavior” in: Knorz, G., Krause, J., Womser-Hacker, C. (Eds.) Information Retrieval '93: Von der Modellierung zur Anwendung, Regensburg, vol. 12, pp. 55-66 . Schriften zur Informationswissenschaft.
                     </bibl>
                     <bibl>
-                        <hi rend="bold">Bevan, N</hi>. (1995): “Measuring Usability as Quality of Use” in: 
-                        <hi rend="italic">Software Quality Journal</hi> 4: 115.
+                        <hi>Bevan, N</hi>. (1995): “Measuring Usability as Quality of Use” in: 
+                        <hi>Software Quality Journal</hi> 4: 115.
                     </bibl>
                     <bibl>
-                        <hi rend="bold">Buchanan, G./Cunningham, S.J./ Blandford, A./ Rimmer, J. / Warwick, C.</hi> (2005): “Information seeking by humanities scholars” in: 
-                        <hi rend="italic">International Conference on Theory and Practice of Digital Libraries</hi> (pp. 218-229). Springer, Berlin, Heidelberg. 
+                        <hi>Buchanan, G./Cunningham, S.J./ Blandford, A./ Rimmer, J. / Warwick, C.</hi> (2005): “Information seeking by humanities scholars” in: 
+                        <hi>International Conference on Theory and Practice of Digital Libraries</hi> (pp. 218-229). Springer, Berlin, Heidelberg. 
                     </bibl>
                     <bibl>
-                        <hi rend="bold">Caria, F./ Mathiak. B.</hi> (2017): “Hybrid Focus Group for the Evaluation of Digital Scholarly Editions of Literary Authors”, IDE. 
-                        <hi rend="italic">In Druck</hi>
+                        <hi>Caria, F./ Mathiak. B.</hi> (2017): “Hybrid Focus Group for the Evaluation of Digital Scholarly Editions of Literary Authors”, IDE. 
+                        <hi>In Druck</hi>
                     </bibl>
                     <bibl>
-                        <hi rend="bold">Chu, C</hi>.(1999): “Literary Critics at Work and their Information Needs: A Research-Phases Model” in: 
-                        <hi rend="italic">Library and Information Science Research</hi>, 21(2): 247-73. 
+                        <hi>Chu, C</hi>.(1999): “Literary Critics at Work and their Information Needs: A Research-Phases Model” in: 
+                        <hi>Library and Information Science Research</hi>, 21(2): 247-73. 
                     </bibl>
                     <bibl>
-                        <hi rend="bold">Cooper, A./ Reimann, R. / Cronin, D.</hi> (2007): “About face 3: the essentials of interaction design”. John Wiley &amp; Sons. 
+                        <hi>Cooper, A./ Reimann, R. / Cronin, D.</hi> (2007): “About face 3: the essentials of interaction design”. John Wiley &amp; Sons. 
                     </bibl>
                     <bibl>
-                        <hi rend="bold">D’Iorio, P</hi>.(2015): “On the Scholarly Use of the Internet. A Conceptual Model” in A. Bozzi (éd.), 
-                        <hi rend="italic">Digital Texts, Translations, Lexicons in a Multi-Modular Web Application : the method and samples</hi>, Firenze, Olschki, 1-25. 
+                        <hi>D’Iorio, P</hi>.(2015): “On the Scholarly Use of the Internet. A Conceptual Model” in A. Bozzi (éd.), 
+                        <hi>Digital Texts, Translations, Lexicons in a Multi-Modular Web Application : the method and samples</hi>, Firenze, Olschki, 1-25. 
                     </bibl>
                     <bibl>
-                        <hi rend="bold">Drucker, J.</hi> (2011): “Humanities Approaches to Interface Theory” in: 
-                        <hi rend="italic">Culture Machine</hi>, vol. pp. 1- 20. 
+                        <hi>Drucker, J.</hi> (2011): “Humanities Approaches to Interface Theory” in: 
+                        <hi>Culture Machine</hi>, vol. pp. 1- 20. 
                     </bibl>
                     <bibl>
-                        <hi rend="bold">Duff, W. M., Johnson, C</hi>. (2002): “Accidentally Found on Purpose: Information-Seeking Behavior of Historians in Archives” in: 
-                        <hi rend="italic">The Library Quarterly</hi>, Vol. 72, No. 4, pp. 472-496.
+                        <hi>Duff, W. M., Johnson, C</hi>. (2002): “Accidentally Found on Purpose: Information-Seeking Behavior of Historians in Archives” in: 
+                        <hi>The Library Quarterly</hi>, Vol. 72, No. 4, pp. 472-496.
                     </bibl>
                     <bibl>
-                        <hi rend="bold">Ellis, D</hi>. (2003): “A Comparison of the Information Seeking Patterns of Researchers in the Physical and Social Sciences.” Journal of Documentation, vol. 49, no. 4, 356 - 369.
+                        <hi>Ellis, D</hi>. (2003): “A Comparison of the Information Seeking Patterns of Researchers in the Physical and Social Sciences.” Journal of Documentation, vol. 49, no. 4, 356 - 369.
                     </bibl>
                     <bibl>
-                        <hi rend="bold">Gibbs, F./ Owens, T</hi>. (2012): “Building Better Digital Humanities Tools: Toward broader audiences and user-centered designs”. 
-                        <hi rend="italic">Digital Humanities Quarterly</hi>, 6:2.
+                        <hi>Gibbs, F./ Owens, T</hi>. (2012): “Building Better Digital Humanities Tools: Toward broader audiences and user-centered designs”. 
+                        <hi>Digital Humanities Quarterly</hi>, 6:2.
                     </bibl>
                     <bibl>
-                        <hi rend="bold">Leblanc, E</hi>. (2016): “Thinking About Users and Their Interfaces: The Case of Fonte Gaia Bib” in: Book of Abstracts for 
-                        <hi rend="italic">Digital Scholarly Editions as Interfaces</hi>. International Symposium. Austrian Centre for Digital Humanities at the University of Graz 49-50
+                        <hi>Leblanc, E</hi>. (2016): “Thinking About Users and Their Interfaces: The Case of Fonte Gaia Bib” in: Book of Abstracts for 
+                        <hi>Digital Scholarly Editions as Interfaces</hi>. International Symposium. Austrian Centre for Digital Humanities at the University of Graz 49-50
                     </bibl>
                     <bibl>
-                        <hi rend="bold">Kelly, A</hi>. (2015): “Tablet computers for the dissemination of digital scholarly editions” in: 
-                        <hi rend="italic">Manuscritica</hi>, no. 28, pp. 123-140.
+                        <hi>Kelly, A</hi>. (2015): “Tablet computers for the dissemination of digital scholarly editions” in: 
+                        <hi>Manuscritica</hi>, no. 28, pp. 123-140.
                     </bibl>
                     <bibl>
-                        <hi rend="bold">Kern, D. / Mathiak, B</hi>., (2015): “Are There Any Differences in Data Set Retrieval Compared to Well-Known Literature Retrieval?” in: 
-                        <hi rend="italic">International Conference on Theory and Practice of Digital Libraries</hi> 197-208. Springer, Cham.
+                        <hi>Kern, D. / Mathiak, B</hi>., (2015): “Are There Any Differences in Data Set Retrieval Compared to Well-Known Literature Retrieval?” in: 
+                        <hi>International Conference on Theory and Practice of Digital Libraries</hi> 197-208. Springer, Cham.
                     </bibl>
                     <bibl>
-                        <hi rend="bold">McCarthy, J./ Wright, P</hi>. (2007): “Technology as Experience” MIT Press.
+                        <hi>McCarthy, J./ Wright, P</hi>. (2007): “Technology as Experience” MIT Press.
                     </bibl>
                     <bibl>
-                        <hi rend="bold">Nielsen, J</hi>. (1994): “Guerrilla HCI: Using Discount Usability Engineering to Penetrate the Intimidation Barrier”, 1994. http://www.nngroup.com/articles/guerrilla-hci/. [letzter Zugriff 23. September 2017]
+                        <hi>Nielsen, J</hi>. (1994): “Guerrilla HCI: Using Discount Usability Engineering to Penetrate the Intimidation Barrier”, 1994. http://www.nngroup.com/articles/guerrilla-hci/. [letzter Zugriff 23. September 2017]
                     </bibl>
                     <bibl>
-                        <hi rend="bold">Mueller, P., Oppenheimer, D</hi>. (2014): “The pen is mightier than the keyboard” in
-                        <hi rend="italic"> Psychological Science</hi> 6(25) 1159-1168.
+                        <hi>Mueller, P., Oppenheimer, D</hi>. (2014): “The pen is mightier than the keyboard” in
+                        <hi> Psychological Science</hi> 6(25) 1159-1168.
                     </bibl>
                     <bibl>
-                        <hi rend="bold">Nietzsche, F.W. / Colli, G. / Montinari, M</hi>. (1997): “Werke: Kritische Gesamtausgabe (Vol. 5, No. 1)“ de Gruyter.
+                        <hi>Nietzsche, F.W. / Colli, G. / Montinari, M</hi>. (1997): “Werke: Kritische Gesamtausgabe (Vol. 5, No. 1)“ de Gruyter.
                     </bibl>
                     <bibl>
-                        <hi rend="bold">Palmer, C.L./ Teffeau, L.C. / Pirmann, C.M.</hi> (2009): “Scholarly information practices in the online environment”. Report commissioned by OCLC Research. Published online at: www. oclc.org/programs/publications/reports/2009-02.pdf. [letzter Zugriff 23. September 2017]
+                        <hi>Palmer, C.L./ Teffeau, L.C. / Pirmann, C.M.</hi> (2009): “Scholarly information practices in the online environment”. Report commissioned by OCLC Research. Published online at: www. oclc.org/programs/publications/reports/2009-02.pdf. [letzter Zugriff 23. September 2017]
                     </bibl>
                     <bibl>
-                        <hi rend="bold">Porter, Dorothy</hi> (2013): “Medievalists and the Scholarly Digital Edition.” in: 
-                        <hi rend="italic">Scholarly Editing</hi> 34, 1-26. 
+                        <hi>Porter, Dorothy</hi> (2013): “Medievalists and the Scholarly Digital Edition.” in: 
+                        <hi>Scholarly Editing</hi> 34, 1-26. 
                     </bibl>
                     <bibl>
-                        <hi rend="bold">Porter, Dorothy</hi> (2016): “What is an Edition anyway? A critical examination of Digital Editions since 2002”. Keynote lecture. 
-                        <hi rend="italic">Digital Scholarly Editions as Interfaces.</hi> International Symposium. Austrian Centre for Digital Humanities at the University of Graz. https://static.uni-graz.at/fileadmin/gewi-zentren/Informationsmodellierung/PDF/Porter_what-is-an-edition-anyway-min.pdf [letzter Zugriff 23. September 2017] 
+                        <hi>Porter, Dorothy</hi> (2016): “What is an Edition anyway? A critical examination of Digital Editions since 2002”. Keynote lecture. 
+                        <hi>Digital Scholarly Editions as Interfaces.</hi> International Symposium. Austrian Centre for Digital Humanities at the University of Graz. https://static.uni-graz.at/fileadmin/gewi-zentren/Informationsmodellierung/PDF/Porter_what-is-an-edition-anyway-min.pdf [letzter Zugriff 23. September 2017] 
                     </bibl>
                     <bibl>
-                        <hi rend="bold">Rimmer, J</hi>. (2008): “An examination of the physical and digital qualities of humanities research.” in: 
-                        <hi rend="italic">Information Processing and Management</hi>, vol. 44, no. 3, pp. 1374-1392.
+                        <hi>Rimmer, J</hi>. (2008): “An examination of the physical and digital qualities of humanities research.” in: 
+                        <hi>Information Processing and Management</hi>, vol. 44, no. 3, pp. 1374-1392.
                     </bibl>
                     <bibl>
-                        <hi rend="bold">Ruecker, S./ Radzikowska, M./ Sinclair, S.</hi> (2011): “Visual Interface Design for Digital Cultural Heritage. A Guide to Rich Prospect Browsing”, Routledge : New York, 2011.
+                        <hi>Ruecker, S./ Radzikowska, M./ Sinclair, S.</hi> (2011): “Visual Interface Design for Digital Cultural Heritage. A Guide to Rich Prospect Browsing”, Routledge : New York, 2011.
                     </bibl>
                     <bibl>
-                        <hi rend="bold">Sahle, P</hi>. (2013): “Digitale Editionsformen. Zum Umgang mit der Überlieferung unter den Bedingungen des Medienwandels. Teil 1: Textbegriffe und Recodierung“. Dissertation, Universität zu Köln, 2013.
+                        <hi>Sahle, P</hi>. (2013): “Digitale Editionsformen. Zum Umgang mit der Überlieferung unter den Bedingungen des Medienwandels. Teil 1: Textbegriffe und Recodierung“. Dissertation, Universität zu Köln, 2013.
                     </bibl>
                     <bibl>
-                        <hi rend="bold">Santos, T</hi>. (2015): “LdoD Archive: User Experience and Identity Design Processes” in: 
-                        <hi rend="italic"> Digital Literary Studies</hi>, Coimbra. https://www.researchgate.net/publication/280621302_LdoD_Archive_User_Experience_and_Identity_Design_Processes [letzter Zugriff 23. September 2017]
+                        <hi>Santos, T</hi>. (2015): “LdoD Archive: User Experience and Identity Design Processes” in: 
+                        <hi> Digital Literary Studies</hi>, Coimbra. https://www.researchgate.net/publication/280621302_LdoD_Archive_User_Experience_and_Identity_Design_Processes [letzter Zugriff 23. September 2017]
                     </bibl>
                     <bibl>
-                        <hi rend="bold">Unsworth, J</hi>. (2000): “Scholarly Primitives: what methods do humanities researchers have in common, and how might our tools reflect this?” in 
-                        <hi rend="italic">Humanities Computing: formal methods, experimental practice</hi> sponsored by King's College, London.
+                        <hi>Unsworth, J</hi>. (2000): “Scholarly Primitives: what methods do humanities researchers have in common, and how might our tools reflect this?” in 
+                        <hi>Humanities Computing: formal methods, experimental practice</hi> sponsored by King's College, London.
                     </bibl>
                     <bibl>
-                        <hi rend="bold">Visconti, A</hi>. (2010): “Songs of Innocence and of Experience: Amateur Users and Digital Texts” Dissertation, School of Information, University of Michigan. 
+                        <hi>Visconti, A</hi>. (2010): “Songs of Innocence and of Experience: Amateur Users and Digital Texts” Dissertation, School of Information, University of Michigan. 
                         <lb/>https://deepblue.lib.umich.edu/handle/2027.42/71380 [letzter Zugriff 23. September 2017]
                     </bibl>
                     <bibl>
-                        <hi rend="bold">Warwick, C./ Terras, M. / Nyhan, J</hi>. eds. (2012): “Digital humanities in practice”. Facet Publishing. 
+                        <hi>Warwick, C./ Terras, M. / Nyhan, J</hi>. eds. (2012): “Digital humanities in practice”. Facet Publishing. 
                     </bibl>
                     <bibl>
-                        <hi rend="bold">Warwick, Claire</hi> (2006) “The LAIRAH Project: Log Analysis of Digital Resources in the Arts and Humanities”. 
-                        <hi rend="italic">Final Report to the Arts and Humanities Research Council</hi>. Arts and Humanities Research Council. http://discovery.ucl.ac.uk/189677/ [letzter Zugriff 23. September 2017] 
+                        <hi>Warwick, Claire</hi> (2006) “The LAIRAH Project: Log Analysis of Digital Resources in the Arts and Humanities”. 
+                        <hi>Final Report to the Arts and Humanities Research Council</hi>. Arts and Humanities Research Council. http://discovery.ucl.ac.uk/189677/ [letzter Zugriff 23. September 2017] 
                     </bibl>
                 </listBibl>
             </div>

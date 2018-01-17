@@ -3,9 +3,9 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title type="full">
-                    <title type="main">NLP meets RegNLP meets Regesta Imperii</title>
-                    <title type="sub"/>
+                <title>
+                    <title>NLP meets RegNLP meets Regesta Imperii</title>
+                    <title/>
                 </title>
                 <author>
                     <persName>
@@ -44,25 +44,25 @@
         </fileDesc>
         <encodingDesc>
             <appInfo>
-                <application ident="DHCONVALIDATOR" version="1.17">
+                <application>
                     <label>DHConvalidator</label>
                 </application>
             </appInfo>
         </encodingDesc>
         <profileDesc>
             <textClass>
-                <keywords scheme="ConfTool" n="category">
+                <keywords>
                     <term>Paper</term>
                 </keywords>
-                <keywords scheme="ConfTool" n="subcategory">
+                <keywords>
                     <term>Poster</term>
                 </keywords>
-                <keywords scheme="ConfTool" n="keywords">
+                <keywords>
                     <term>Computerlinguistik</term>
                     <term>Textanalyse</term>
                     <term>Historiker</term>
                 </keywords>
-                <keywords scheme="ConfTool" n="topics">
+                <keywords>
                     <term>Datenerkennung</term>
                     <term>Beziehungsanalyse</term>
                     <term>Kontextsetzung</term>
@@ -77,58 +77,58 @@
             <p>Dieser Posterbeitrag veranschaulicht die Interaktion zwischen computerlinguistischen Methoden und Regestenforschung. Es wird eine Anwendung vorgestellt, die bereits in einem graphbasierten Format vorliegendene Regesten webbasiert anzeigt und es erlaubt, Registereinträge im Text zu verorten. Die daraus entstandene Datenbasis hilft dabei neues Wissen zu generieren, so können z.B. Verwandtschaftsbeziehungen automatisch erkannt und in den Regesten-Graph integriert werden.</p>
             <p>Das im Rahmen des Bund-Länder-geförderten Akademienprogramms angesiedelte Grundlagenforschungsprojekt Regesta Imperii erstellt deutschsprachige Inhaltsangaben (sog. Regesten) von Kaiser-, Königs und Papsturkunden, begonnen von Karl dem Großen bis hin zu Kaiser Maximilian. Seit Projektbeginn 2001 wurden 1829 Regesten erstellt und digitalisiert und stehen inzwischen als Volltext im Internet zur Verfügung. Die Publikation der digitalisierten Register befindet sich gerade in Vorbereitung.</p>
             <p>
-                <hi rend="color(#000000)">Neben den Regesta Imperii sind immer mehr Editionen und Regestenwerke als Volltext im Internet zugänglich und können über Suchmasken abgefragt und genutzt werden. Die Nutzungsart unterscheidet sich zumeist aber nicht grundlegend von einer analogen Nutzung des Buches: Das Register wird aufgeschlagen und man kann anschließend die einem Registereintrag zugeordneten Urkunden oder Regesten aufrufen und lesen.</hi>
+                <hi>Neben den Regesta Imperii sind immer mehr Editionen und Regestenwerke als Volltext im Internet zugänglich und können über Suchmasken abgefragt und genutzt werden. Die Nutzungsart unterscheidet sich zumeist aber nicht grundlegend von einer analogen Nutzung des Buches: Das Register wird aufgeschlagen und man kann anschließend die einem Registereintrag zugeordneten Urkunden oder Regesten aufrufen und lesen.</hi>
             </p>
             <p>
-                <hi rend="color(#000000)">Mit der Nutzung von Graphentechnologien in den digitalen Geisteswissenschaften werden neue Nutzungs- und Analyseformen der bereits vorhanden digitalen Editions- und Regestenwerke möglich. Die Digitale Akademie, Mainz (</hi>
-                <ref target="http://www.digitale-akademie.de/">
-                    <hi rend="color(#1155cc)underline">www.digitale-akademie.de</hi>
+                <hi>Mit der Nutzung von Graphentechnologien in den digitalen Geisteswissenschaften werden neue Nutzungs- und Analyseformen der bereits vorhanden digitalen Editions- und Regestenwerke möglich. Die Digitale Akademie, Mainz (</hi>
+                <ref>
+                    <hi>www.digitale-akademie.de</hi>
                 </ref>
-                <hi rend="color(#000000)">) hat auf ihrer Seite </hi>
-                <ref target="http://www.graphentechnologien.de/">
-                    <hi rend="color(#1155cc)underline">www.graphentechnologien.de</hi>
+                <hi>) hat auf ihrer Seite </hi>
+                <ref>
+                    <hi>www.graphentechnologien.de</hi>
                 </ref>
-                <hi rend="color(#000000)">einige beispielhafte Anwendungsszenarien für die Nutzung von Graphdatenbanken zur Erschließung von Onlineregesten vorgestellt. Für dieses Beispielprojekt wurden die Regesten Kaiser Friedrichs III. in eine Graphdatenbank konvertiert, anschließend das zugehörige Register digitalisiert und in die Graphdatenbank integriert. Im Graphenmodell ist es über die Abfrage nun möglich herauszufinden, in welchem Regest eine Person genannt wird und eine Analyse der gemeinsam mit ihr im Regest genannten Personen zu veranlassen (Abbildung 1). Das Graphenmodell erlaubt zudem die weitere Ergänzung von Kanten zwischen den Registerknoten. So ist es beispielsweise möglich, dass zwei Personenknoten, die Vater und Sohn darstellen, durch eine KIND-Kante ergänzt werden, um so deren Verwandtschaftsbeziehung explizit im Graphen zu repräsentieren. Mit solchen Zusatzinformationen kann das Register als Erschließungswerkzeug immer weiter wachsen.</hi>
+                <hi>einige beispielhafte Anwendungsszenarien für die Nutzung von Graphdatenbanken zur Erschließung von Onlineregesten vorgestellt. Für dieses Beispielprojekt wurden die Regesten Kaiser Friedrichs III. in eine Graphdatenbank konvertiert, anschließend das zugehörige Register digitalisiert und in die Graphdatenbank integriert. Im Graphenmodell ist es über die Abfrage nun möglich herauszufinden, in welchem Regest eine Person genannt wird und eine Analyse der gemeinsam mit ihr im Regest genannten Personen zu veranlassen (Abbildung 1). Das Graphenmodell erlaubt zudem die weitere Ergänzung von Kanten zwischen den Registerknoten. So ist es beispielsweise möglich, dass zwei Personenknoten, die Vater und Sohn darstellen, durch eine KIND-Kante ergänzt werden, um so deren Verwandtschaftsbeziehung explizit im Graphen zu repräsentieren. Mit solchen Zusatzinformationen kann das Register als Erschließungswerkzeug immer weiter wachsen.</hi>
             </p>
             <p>
                 <figure>
-                    <graphic url="Pictures/10000201000005A40000056C797DE58A7969E732.png"/>
+                    <graphic/>
                     <head>
                         <lb/>Abbildung 1 Graphbasierte Repräsentation von Regesten (gelb) mit zugehörigen Registereinträgen (rot,blau,grau).
                     </head>
                 </figure>
             </p>
             <p>
-                <hi rend="color(#000000)">Methoden aus der Computerlinguistik helfen diesen manuell sehr aufwendigen Grapherweiterungsschritt semi-automatisch durchzuführen. Dazu werden im ersten Schritt</hi>
-                <hi rend="color(#000000)">alle Regesten mit einer auf der Clarin-D Infrastruktur basierenden Sprachverarbeitungs-Pipeline (Malow 2012) maschinell verarbeitet: Auflösung von Abkürzungen, Tokenisierung, Part-of-Speech Tagging, Parsing und Entitätenerkennung. Im zweiten Schritt werden die Texte der einzelnen Regesten in einer interaktiven Webanwendung ausgewertet. Für jedes Regest werden alle Registereinträge (Personen, Orte, usw.), die während der Digitalisierung manuell mit Regesten verbunden wurden, angezeigt. Abbildung 2 stellt rechts den Regestentext und links alle verbundenen Registereinträge dar. In den Ausgangsdaten ist nicht gespeichert wie die Regeistereinträge im Text erwähnt werden, z.B. das</hi>
-                <hi rend="color(#000000)">s</hi>
-                <hi rend="color(#000000)">sich „der Stadt“ im Text auf den Eintrag „Aachen“ bezieht. Unsere Anwendung ermöglicht es hingegen jede im Text erkannte Entität mit den Registereinträgen per einfachem Mausklick zu verbinden. Mittels dieses Verfahrens konnten bereits ca. 4000 Registereinträge mit passenden Textstellen verbunden werden.</hi>
+                <hi>Methoden aus der Computerlinguistik helfen diesen manuell sehr aufwendigen Grapherweiterungsschritt semi-automatisch durchzuführen. Dazu werden im ersten Schritt</hi>
+                <hi>alle Regesten mit einer auf der Clarin-D Infrastruktur basierenden Sprachverarbeitungs-Pipeline (Malow 2012) maschinell verarbeitet: Auflösung von Abkürzungen, Tokenisierung, Part-of-Speech Tagging, Parsing und Entitätenerkennung. Im zweiten Schritt werden die Texte der einzelnen Regesten in einer interaktiven Webanwendung ausgewertet. Für jedes Regest werden alle Registereinträge (Personen, Orte, usw.), die während der Digitalisierung manuell mit Regesten verbunden wurden, angezeigt. Abbildung 2 stellt rechts den Regestentext und links alle verbundenen Registereinträge dar. In den Ausgangsdaten ist nicht gespeichert wie die Regeistereinträge im Text erwähnt werden, z.B. das</hi>
+                <hi>s</hi>
+                <hi>sich „der Stadt“ im Text auf den Eintrag „Aachen“ bezieht. Unsere Anwendung ermöglicht es hingegen jede im Text erkannte Entität mit den Registereinträgen per einfachem Mausklick zu verbinden. Mittels dieses Verfahrens konnten bereits ca. 4000 Registereinträge mit passenden Textstellen verbunden werden.</hi>
             </p>
             <p>
                 <figure>
-                    <graphic url="Pictures/100000000000045200000155EA86225E7BFC13A4.png"/>
+                    <graphic/>
                     <head>
                         <lb/>Abbildung 2: links: Regesttext, erkannte Entitäten sind hervorgehoben (bereits neu verortete Textstellen zum Eintrag sind grün); rechts: verknüpfte Registereinträge zum Regest
                     </head>
                 </figure>
             </p>
             <p>
-                <hi rend="color(#000000)">Die neu geschaffene annotierte Datenmenge bildet somit einerseits eine wichtige Grundlage, für die Regestenforschung, da nun sehr einfach Wissen aus Texten mit den verknüpften Registereinträgen automatisch abgeleitet werden kann: z.B. die Vater-Sohn-Relation zwischen Colyn Beisse und Johann Beissel (Abbildung 3).</hi>
+                <hi>Die neu geschaffene annotierte Datenmenge bildet somit einerseits eine wichtige Grundlage, für die Regestenforschung, da nun sehr einfach Wissen aus Texten mit den verknüpften Registereinträgen automatisch abgeleitet werden kann: z.B. die Vater-Sohn-Relation zwischen Colyn Beisse und Johann Beissel (Abbildung 3).</hi>
             </p>
             <p>
-                <hi rend="color(#000000)">Andererseits bietet dieser Datensatz für die computerlinguistische Forschung weitere Anknüpfungspunkte. Mittels Distant Supervision (Blessing 2012) können aus den verknüpften und im Text verankerten Relationen zu den Registereinträgen neue Modelle trainiert werden, die wiederum auf nicht manuell annotierten Textstellen der Regesten Anwendung finden. Durch diesen iterativen Ansatz können sukzessive große </hi>
-                <hi rend="color(#000000)">Regest</hi>
-                <hi rend="color(#000000)">ensammlungen</hi>
-                <hi rend="color(#000000)">mit immer neuem Wissen angereichert </hi>
-                <hi rend="color(#000000)">werden </hi>
-                <hi rend="color(#000000)">und somit eine Grundlage für</hi>
-                <hi rend="color(#000000)"> </hi>
-                <hi rend="color(#000000)">neue</hi>
-                <hi rend="color(#000000)">Analyseformen bieten.</hi>
+                <hi>Andererseits bietet dieser Datensatz für die computerlinguistische Forschung weitere Anknüpfungspunkte. Mittels Distant Supervision (Blessing 2012) können aus den verknüpften und im Text verankerten Relationen zu den Registereinträgen neue Modelle trainiert werden, die wiederum auf nicht manuell annotierten Textstellen der Regesten Anwendung finden. Durch diesen iterativen Ansatz können sukzessive große </hi>
+                <hi>Regest</hi>
+                <hi>ensammlungen</hi>
+                <hi>mit immer neuem Wissen angereichert </hi>
+                <hi>werden </hi>
+                <hi>und somit eine Grundlage für</hi>
+                <hi> </hi>
+                <hi>neue</hi>
+                <hi>Analyseformen bieten.</hi>
             </p>
             <p>
                 <figure>
-                    <graphic url="Pictures/10000201000002CE000001D25D5DA174A6919ABE.png"/>
+                    <graphic/>
                     <head>
                         <lb/>Abbildung 3: Depedenzanlayse, die zeigt wie Verwandtschaftsrelationen direkt aus der Analyse extrahiert werden können. In diesem Beispiel ist Colyn Beissel der Sohn von Johann Beissel.
                     </head>
@@ -136,42 +136,42 @@
             </p>
         </body>
         <back>
-            <div type="bibliogr">
+            <div>
                 <listBibl>
                     <head>Bibliographie</head>
                     <bibl>
-                        <hi rend="color(#000000)bold">Blessing, Andre / Schütze, Hinrich </hi>
-                        <hi rend="color(#000000)">(2012</hi>
-                        <hi rend="color(#000000)bold">) </hi>
-                        <hi rend="color(#000000)">Crosslingual Distant Supervision for Extracting Relations of Different Complexity</hi>
-                        <hi rend="color(#000000)bold">.</hi>
-                        <hi rend="color(#000000)"> </hi>
-                        <hi rend="color(#000000)">In </hi>
-                        <hi rend="color(#000000)italic">Proceedings of the 21st ACM International Conference on Information and Knowledge Management</hi>
+                        <hi>Blessing, Andre / Schütze, Hinrich </hi>
+                        <hi>(2012</hi>
+                        <hi>) </hi>
+                        <hi>Crosslingual Distant Supervision for Extracting Relations of Different Complexity</hi>
+                        <hi>.</hi>
+                        <hi> </hi>
+                        <hi>In </hi>
+                        <hi>Proceedings of the 21st ACM International Conference on Information and Knowledge Management</hi>
                     </bibl>
                     <bibl>
-                        <hi rend="color(#000000)bold">Kuczera, Andreas</hi>
-                        <hi rend="color(#000000)"> </hi>
-                        <hi rend="color(#000000)">(2017) </hi>
-                        <hi rend="color(#000000)">Herrscherhandeln in den Regesta Imperii. Beispielprojekt an den Regesten Kaiser Friedrichs III. URL: </hi>
-                        <ptr target="http://www.digitale-akademie.de/forschung/graphentechnologien/beispielprojekte/"/>
-                        <hi rend="color(#000000)">(abgerufen am 14.09.2017)</hi>
+                        <hi>Kuczera, Andreas</hi>
+                        <hi> </hi>
+                        <hi>(2017) </hi>
+                        <hi>Herrscherhandeln in den Regesta Imperii. Beispielprojekt an den Regesten Kaiser Friedrichs III. URL: </hi>
+                        <ptr/>
+                        <hi>(abgerufen am 14.09.2017)</hi>
                     </bibl>
                     <bibl>
-                        <hi rend="color(#000000)bold">Kuczera, Andreas </hi>
-                        <hi rend="color(#000000)">(2016): Graphdatenbanken für Historiker. Netzwerke in den Registern der Regesten Kaiser Friedrichs III. mit neo4j und Gephi, in: Mittelalter. Interdisziplinäre Forschung und Rezeptionsgeschichte, 05.05.2015. URL:</hi>
-                        <ref target="http://mittelalter.hypotheses.org/5995">
-                            <hi rend="color(#000000)"> </hi>
+                        <hi>Kuczera, Andreas </hi>
+                        <hi>(2016): Graphdatenbanken für Historiker. Netzwerke in den Registern der Regesten Kaiser Friedrichs III. mit neo4j und Gephi, in: Mittelalter. Interdisziplinäre Forschung und Rezeptionsgeschichte, 05.05.2015. URL:</hi>
+                        <ref>
+                            <hi> </hi>
                         </ref>
-                        <ref target="http://mittelalter.hypotheses.org/5995">
-                            <hi rend="color(#1155cc)underline">mittelalter.hypotheses.org/5995</hi>
+                        <ref>
+                            <hi>mittelalter.hypotheses.org/5995</hi>
                         </ref>
-                        <hi rend="color(#000000)">.</hi>
+                        <hi>.</hi>
                     </bibl>
                     <bibl>
-                        <hi rend="color(#000000)bold">Mahlow, Cerstin / Eckart, Kerstin / Stegmann, Jens / Blessing, Andre / Thiele, Gregor / Gärtner, Markus / Kuhn, Jonas</hi>
-                        <hi rend="color(#000000)"> </hi>
-                        <hi rend="color(#000000)">(2014) Resources, Tools, and Applications at the CLARIN Center Stuttgart in Proceedings of the 12th Konferenz zur Verarbeitung natürlicher Sprache  11-21</hi>
+                        <hi>Mahlow, Cerstin / Eckart, Kerstin / Stegmann, Jens / Blessing, Andre / Thiele, Gregor / Gärtner, Markus / Kuhn, Jonas</hi>
+                        <hi> </hi>
+                        <hi>(2014) Resources, Tools, and Applications at the CLARIN Center Stuttgart in Proceedings of the 12th Konferenz zur Verarbeitung natürlicher Sprache  11-21</hi>
                     </bibl>
                 </listBibl>
             </div>

@@ -57,26 +57,26 @@
         </fileDesc>
         <encodingDesc>
             <appInfo>
-                <application ident="DHCONVALIDATOR" version="1.17">
+                <application>
                     <label>DHConvalidator</label>
                 </application>
             </appInfo>
         </encodingDesc>
         <profileDesc>
             <textClass>
-                <keywords scheme="ConfTool" n="category">
+                <keywords>
                     <term>Paper</term>
                 </keywords>
-                <keywords scheme="ConfTool" n="subcategory">
+                <keywords>
                     <term>Poster</term>
                 </keywords>
-                <keywords scheme="ConfTool" n="keywords">
+                <keywords>
                     <term>erklärende Annotation</term>
                     <term>Didaktik</term>
                     <term>Prozesse</term>
                     <term>Digitalität</term>
                 </keywords>
-                <keywords scheme="ConfTool" n="topics">
+                <keywords>
                     <term>Inhaltsanalyse</term>
                     <term>Modellierung</term>
                     <term>Annotieren</term>
@@ -90,59 +90,59 @@
     <text>
         <body>
             <p>Das Poster präsentiert TEASys (Tübingen Explanatory Annotations System; Bauer/Zirker 2015) und die Möglichkeiten, die es als heuristisches 
-                <hi rend="italic">tool</hi> in Lehr- und Lernprozessen bietet. Im Projekt annotieren Studierende kollaborativ Texte der englischsprachigen Literatur. Nachdem TEASys und seine Struktur wie auch Funktionen bereits bei der DHd 2016 und 2017 vorgestellt wurden, liegt der Schwerpunkt nun auf dem 
-                <hi rend="italic">Prozess</hi> der kollaborativen Annotation im digitalen Medium. 
+                <hi>tool</hi> in Lehr- und Lernprozessen bietet. Im Projekt annotieren Studierende kollaborativ Texte der englischsprachigen Literatur. Nachdem TEASys und seine Struktur wie auch Funktionen bereits bei der DHd 2016 und 2017 vorgestellt wurden, liegt der Schwerpunkt nun auf dem 
+                <hi>Prozess</hi> der kollaborativen Annotation im digitalen Medium. 
             </p>
             <p>Die Praxis des erklärenden Annotierens, d.h. der Anreicherung eines Textes mit Zusatzinformationen um ihn verständlicher zu machen, wird durch die Digitalisierung grundlegend beeinflusst. Während die Erstellung von annotierten Buch-Editionen vor allem Einzelforschern vorbehalten war (und ist), eröffnen sich durch Digitalität neue Möglichkeiten der Generierung von 
-                <hi rend="italic">social knowledge</hi>: Viele digitale Editionen bzw. Plattformen (z.B. 
-                <hi rend="italic">The Readers‘ Thoreau</hi>, 
-                <hi rend="italic">Infinite Ulysses</hi>, 
-                <hi rend="italic">PyncheonWiki, Genius.com</hi>) und Tools (z.B. 
-                <hi rend="italic">Annotation Studio, A.nnotate, hypothes.is</hi>) ermöglichen es Lesern, zur Erläuterung von Wörtern und Passagen beizutragen. Dadurch löst sich die Grenze zwischen Leser und Annotierendem auf (Sahle 2013: 177, 258). Gleichzeitig gibt es in einer digitalen Edition keine zeitlichen oder räumlichen Einschränkungen, so dass Annotatoren kontinuierlich neue Informationen zu einer Annotation hinzufügen können. Damit ist Digitalität im Sinne des Tagungsthemas auch der Kritik zu unterziehen. Denn sie kann dazu führen, dass endlose Abhandlungen zu jedem einzelnen Wort eines Textes entstehen, was zu Informationsflut, irrelevanten oder unstrukturierten Informationen und infolgedessen zu einem Qualitätsverlust der digitalen Annotation führen kann. Damit laufen digitale erklärende Annotationen Gefahr, den Nutzer bei seinem Anliegen, einen Text zu verstehen, zu verwirren oder in die Irre zu führen (s. Bauer/Zirker 2017b).
+                <hi>social knowledge</hi>: Viele digitale Editionen bzw. Plattformen (z.B. 
+                <hi>The Readers‘ Thoreau</hi>, 
+                <hi>Infinite Ulysses</hi>, 
+                <hi>PyncheonWiki, Genius.com</hi>) und Tools (z.B. 
+                <hi>Annotation Studio, A.nnotate, hypothes.is</hi>) ermöglichen es Lesern, zur Erläuterung von Wörtern und Passagen beizutragen. Dadurch löst sich die Grenze zwischen Leser und Annotierendem auf (Sahle 2013: 177, 258). Gleichzeitig gibt es in einer digitalen Edition keine zeitlichen oder räumlichen Einschränkungen, so dass Annotatoren kontinuierlich neue Informationen zu einer Annotation hinzufügen können. Damit ist Digitalität im Sinne des Tagungsthemas auch der Kritik zu unterziehen. Denn sie kann dazu führen, dass endlose Abhandlungen zu jedem einzelnen Wort eines Textes entstehen, was zu Informationsflut, irrelevanten oder unstrukturierten Informationen und infolgedessen zu einem Qualitätsverlust der digitalen Annotation führen kann. Damit laufen digitale erklärende Annotationen Gefahr, den Nutzer bei seinem Anliegen, einen Text zu verstehen, zu verwirren oder in die Irre zu führen (s. Bauer/Zirker 2017b).
             </p>
             <p>TEASys steuert dem entgegen, indem sowohl der Prozess des Annotierens wie auch der Nutzen der entstandenen Annotationen kritisch reflektiert werden. Dies geschieht in studentischen 
-                <hi rend="italic">peer</hi>-
-                <hi rend="italic">learning</hi>-Gruppen und in Lehrveranstaltungen, die häufig den Anstoß für die selbständige Weiterarbeit in den Gruppen geben. In den Lehrveranstaltungen dient das Annotieren als Methode zur Erarbeitung historisch und/oder kulturell distanter Texte ebenso wie zum Erwerb textanalytischer Fähigkeiten. Dabei lernen Studierende, ihre eigene Vorgehensweise zu reflektieren und sie überprüfbar zu machen. TEASys wird als Lehrmethode eingesetzt, indem es Studierende dazu anregt, ihr eigenes Unverständnis eines Textes zu reflektieren: welche Elemente eines Textes tragen dazu bei, dass er ‚schwierig‘ ist (oder so empfunden wird), und welche (Art von) Informationen werden benötigt, um diese Schwierigkeiten zu überwinden? Hier kommt die Heuristik von TEASys ins Spiel: Annotationen sind strukturiert nach Kategorien der Information (z.B. Sprache, Form, Intertextualität etc.; s. Bauer/Zirker 2015) sowie nach Ebenen der Komplexität (insgesamt drei) und zielen damit auf konkrete Leserbedürfnisse (Bauer/Zirker 2017b).
+                <hi>peer</hi>-
+                <hi>learning</hi>-Gruppen und in Lehrveranstaltungen, die häufig den Anstoß für die selbständige Weiterarbeit in den Gruppen geben. In den Lehrveranstaltungen dient das Annotieren als Methode zur Erarbeitung historisch und/oder kulturell distanter Texte ebenso wie zum Erwerb textanalytischer Fähigkeiten. Dabei lernen Studierende, ihre eigene Vorgehensweise zu reflektieren und sie überprüfbar zu machen. TEASys wird als Lehrmethode eingesetzt, indem es Studierende dazu anregt, ihr eigenes Unverständnis eines Textes zu reflektieren: welche Elemente eines Textes tragen dazu bei, dass er ‚schwierig‘ ist (oder so empfunden wird), und welche (Art von) Informationen werden benötigt, um diese Schwierigkeiten zu überwinden? Hier kommt die Heuristik von TEASys ins Spiel: Annotationen sind strukturiert nach Kategorien der Information (z.B. Sprache, Form, Intertextualität etc.; s. Bauer/Zirker 2015) sowie nach Ebenen der Komplexität (insgesamt drei) und zielen damit auf konkrete Leserbedürfnisse (Bauer/Zirker 2017b).
             </p>
             <p>Die Strukturierung der Annotationen hilft Studierenden somit auch, Fragen zu formulieren, auf die sie andernfalls vielleicht nicht gestoßen wären (z.B. „Konnte das Wort „travel“ Wort im 16. Jahrhundert nicht noch etwas anderes bedeuten?“). Häufig wird dabei deutlich, dass die Erläuterungsbedürftigkeit eines Textes oder von Textteilen oft nur aufgrund eines gewissen Expertenwissens erkannt wird. Dieses wird oftmals von den Lehrenden beigesteuert; aufgrund der Strukturierung können aber auch Studierende leichter zu Experten werden. Die Kombination von Expertise und Kritik führt zu Generierung von 
-                <hi rend="italic">social knowledge</hi> durch den Austausch innerhalb der 
-                <hi rend="italic">peer</hi>-Gruppen, wodurch in effizienter Weise qualitativ verifizierte Arbeitsergebnisse erzeugt werden (vgl. Jannidis, Kohle, Rehbein 2017: 211). Die Publikation der Annotationen online stellt eine zusätzliche Motivation für die Studenten dar, Output auf hohem fachlichem Niveau zu produzieren (Stroud 2006: 215), sowie ihre Annotation zu verbessern. Die kontinuierliche Weiterarbeit (vgl. Ralle 1016: 147) birgt aber auch Risiken in Hinsicht auf die Verwend- und Zitierbarkeit des kollaborativ entstandenen Wissens. 
+                <hi>social knowledge</hi> durch den Austausch innerhalb der 
+                <hi>peer</hi>-Gruppen, wodurch in effizienter Weise qualitativ verifizierte Arbeitsergebnisse erzeugt werden (vgl. Jannidis, Kohle, Rehbein 2017: 211). Die Publikation der Annotationen online stellt eine zusätzliche Motivation für die Studenten dar, Output auf hohem fachlichem Niveau zu produzieren (Stroud 2006: 215), sowie ihre Annotation zu verbessern. Die kontinuierliche Weiterarbeit (vgl. Ralle 1016: 147) birgt aber auch Risiken in Hinsicht auf die Verwend- und Zitierbarkeit des kollaborativ entstandenen Wissens. 
             </p>
             <p>Das Poster stellt die einzelnen Lehr- und Lernprozesse des kollaborativen Annotierens dar und soll die Nachhaltigkeit des Projektes und sowie den Mehrwert der Heuristik von TEASys im Hinblick auf digitale Methoden im Literaturunterricht veranschaulichen. </p>
         </body>
         <back>
-            <div type="bibliogr">
+            <div>
                 <listBibl>
                     <head>Bibliographie</head>
-                    <bibl rend="Works Cited">
-                        <hi rend="bold">Bauer, Matthias / Zirker, Angelika</hi> (2015): “Whipping Boys Explained: Literary Annotation and Digital Humanities.” in: 
-                        <hi rend="italic">Literary Studies in the Digital Age: An Evolving Anthology</hi>. 
-                        <ref target="https://dlsanthology.mla.hcommons.org/whipping-boys-explained-literary-annotation-and-digital-humanities/">https://dlsanthology.mla.hcommons.org/whipping-boys-explained-literary-annotation-and-digital-humanities/</ref> [letzter Zugriff 23. September 2017].
+                    <bibl>
+                        <hi>Bauer, Matthias / Zirker, Angelika</hi> (2015): “Whipping Boys Explained: Literary Annotation and Digital Humanities.” in: 
+                        <hi>Literary Studies in the Digital Age: An Evolving Anthology</hi>. 
+                        <ref>https://dlsanthology.mla.hcommons.org/whipping-boys-explained-literary-annotation-and-digital-humanities/</ref> [letzter Zugriff 23. September 2017].
                     </bibl>
                     <bibl>
-                        <hi rend="bold">Bauer, Matthias / Zirker, Angelika</hi> (2017a): “TEASys (Tübingen Explanatory Annotations System): Die erklärende Annotation literarischer Texte in den Digital Humanities.” in: 
-                        <hi rend="italic">DHd2017: Digitale Nachhaltigkeit. Konferenzabstracts </hi>274-276.
-                    </bibl>
-                    <bibl rend="Works Cited">
-                        <hi rend="bold">Bauer, Matthias / Zirker, Angelika</hi> (2017b): “Explanatory Annotation of Literary Texts and the Reader: Seven Types of Problems.” in: 
-                        <hi rend="italic">IJHAC</hi> 11.2: 212-232.
+                        <hi>Bauer, Matthias / Zirker, Angelika</hi> (2017a): “TEASys (Tübingen Explanatory Annotations System): Die erklärende Annotation literarischer Texte in den Digital Humanities.” in: 
+                        <hi>DHd2017: Digitale Nachhaltigkeit. Konferenzabstracts </hi>274-276.
                     </bibl>
                     <bibl>
-                        <hi rend="bold">Jannidis, Fotis / Kohle, Hubertus / Rehbein, Malte </hi>(2017): 
-                        <hi rend="italic">Digital Humanities: Eine Einführung</hi>. Stuttgart: Metzler.
+                        <hi>Bauer, Matthias / Zirker, Angelika</hi> (2017b): “Explanatory Annotation of Literary Texts and the Reader: Seven Types of Problems.” in: 
+                        <hi>IJHAC</hi> 11.2: 212-232.
                     </bibl>
                     <bibl>
-                        <hi rend="bold">Ralle, Inga H.</hi> (2016): “Maschinenlesbar – menschenlesbar.” in: 
-                        <hi rend="italic">Editio: internationales Jahrbuch für Editionswissenschaft </hi>30.1: 144-156.
+                        <hi>Jannidis, Fotis / Kohle, Hubertus / Rehbein, Malte </hi>(2017): 
+                        <hi>Digital Humanities: Eine Einführung</hi>. Stuttgart: Metzler.
                     </bibl>
                     <bibl>
-                        <hi rend="bold">Sahle, Patrick</hi> (2013): 
-                        <hi rend="italic">Digitale Editionsformen: Teil 2: Befunde, Theorien und Methodik</hi>. Norderstedt: Book on Demand.
+                        <hi>Ralle, Inga H.</hi> (2016): “Maschinenlesbar – menschenlesbar.” in: 
+                        <hi>Editio: internationales Jahrbuch für Editionswissenschaft </hi>30.1: 144-156.
                     </bibl>
                     <bibl>
-                        <hi rend="bold">Stroud, Matthew D.</hi> (2006): “The Closest Reading: Creating Annotated Online Editions.”
-                        <hi rend="italic"> in: Bass, Laura R. / Greer, Margaret R. (eds.): Approaches to Teaching Early Modern Spanish Drama. New York: Modern Language Association of America </hi>214-219
-                        <hi rend="italic">.</hi>
+                        <hi>Sahle, Patrick</hi> (2013): 
+                        <hi>Digitale Editionsformen: Teil 2: Befunde, Theorien und Methodik</hi>. Norderstedt: Book on Demand.
+                    </bibl>
+                    <bibl>
+                        <hi>Stroud, Matthew D.</hi> (2006): “The Closest Reading: Creating Annotated Online Editions.”
+                        <hi> in: Bass, Laura R. / Greer, Margaret R. (eds.): Approaches to Teaching Early Modern Spanish Drama. New York: Modern Language Association of America </hi>214-219
+                        <hi>.</hi>
                     </bibl>
                 </listBibl>
             </div>

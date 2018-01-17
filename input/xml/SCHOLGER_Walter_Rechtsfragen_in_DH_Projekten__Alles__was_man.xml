@@ -49,27 +49,27 @@
         </fileDesc>
         <encodingDesc>
             <appInfo>
-                <application ident="DHCONVALIDATOR" version="1.17">
+                <application>
                     <label>DHConvalidator</label>
                 </application>
             </appInfo>
         </encodingDesc>
         <profileDesc>
             <textClass>
-                <keywords scheme="ConfTool" n="category">
+                <keywords>
                     <term>Paper</term>
                 </keywords>
-                <keywords scheme="ConfTool" n="subcategory">
+                <keywords>
                     <term>Workshop</term>
                 </keywords>
-                <keywords scheme="ConfTool" n="keywords">
+                <keywords>
                     <term>Urheberrecht</term>
                     <term>Leistungsschutzrecht</term>
                     <term>Datenschutz</term>
                     <term>Lizenzierung</term>
                     <term>Digitalisierung</term>
                 </keywords>
-                <keywords scheme="ConfTool" n="topics">
+                <keywords>
                     <term>Teilen</term>
                     <term>Archivierung</term>
                     <term>Veröffentlichung</term>
@@ -84,154 +84,154 @@
         <body>
             <p>Mit dem Eintritt der Geisteswissenschaften in den digitalen Raum öffnet sich für Forschende auch ein neuer Rechtsraum mit Anforderungen und Problemstellungen, die uns bislang nicht oder nur marginal betroffen haben. </p>
             <p>Dieser Workshop soll die gängigsten Fragen beantworten, die sich aus unterschiedlichen Rechtsbereichen bei der Realisierung von Digitalisierungsvorhaben und digitalen Forschungsprojekten ergeben. Besonders eingegangen wird auf jüngste Entwicklungen und Neuerungen in den Legislaturen speziell der deutschsprachigen Länder, die für die DH von besonderer Relevanz sind (etwa die 
-                <hi rend="italic">UrhWissG</hi>-Novelle in Deutschland oder die 
-                <hi rend="italic">EU-Datenschutz-Grundverordnung</hi>, die jeweils 2018 in Kraft treten). 
+                <hi>UrhWissG</hi>-Novelle in Deutschland oder die 
+                <hi>EU-Datenschutz-Grundverordnung</hi>, die jeweils 2018 in Kraft treten). 
             </p>
             <p>Ziel dieses Workshops ist es, die Teilnehmenden für die rechtlichen Aspekte des digitalen Arbeitens zu sensibilisieren und ihnen im Speziellen einen Überblick über jene Rechtsbereiche zu verschaffen, mit denen wir im Rahmen unserer Forschungstätigkeiten konfrontiert werden. </p>
             <p>Dabei wird ein interaktives Format gewählt, bei dem die Teilnehmer*innen die Gelegenheit finden, ihre konkreten Fragen aus ihrer Anwendungspraxis im Rahmen der thematischen Blöcke sowie am Ende des Workshops in einer offenen Diskussion einzubringen und mit den anwesenden Expert*innen und Kolleg*innen zu erörtern.</p>
-            <p rend="DH-Heading3">Urheberrecht</p>
+            <p>Urheberrecht</p>
             <p>Das 
-                <hi rend="bold">Urheberrecht </hi>schützt sämtliche materiellen und immateriellen Rechte von Urheber*innen an deren Werken. Ob ein Werk veröffentlicht bzw. erschienen ist oder nicht hat auf das Entstehen von Urheberrecht keinen Einfluss. Nach dem Ableben der Schaffenden geht das Urheberrecht auf die Erb*innen über und erlischt 70 Jahre nach Ableben der Schaffenden (gerechnet ab dem 1.1. des Folgejahres). 
+                <hi>Urheberrecht </hi>schützt sämtliche materiellen und immateriellen Rechte von Urheber*innen an deren Werken. Ob ein Werk veröffentlicht bzw. erschienen ist oder nicht hat auf das Entstehen von Urheberrecht keinen Einfluss. Nach dem Ableben der Schaffenden geht das Urheberrecht auf die Erb*innen über und erlischt 70 Jahre nach Ableben der Schaffenden (gerechnet ab dem 1.1. des Folgejahres). 
             </p>
             <p>Sämtliche 
-                <hi rend="bold">Werknutzungsrechte </hi>können von Urheber*innen bzw. deren Erb*innen verkauft oder anders veräußert werden. Das Urheberpersönlichkeitsrecht (also das Recht, durch die Schaffung eines Werkes dessen - zu nennende*r - Urheber*in zu werden) ist nicht veräußerbar. Archive und andere Institutionen, in deren Eigentum urheberrechtlich geschütztes Material vor oder nach Ableben durch Schenkung oder Verkauf durch die Urheber*innen oder deren Erb*innen übergeht, besitzen häufig nur das Material, nicht aber das (ererbte) Urheber- oder anderweitig erlangte Werknutzungsrecht an dem von ihnen Aufbewahrten. 
+                <hi>Werknutzungsrechte </hi>können von Urheber*innen bzw. deren Erb*innen verkauft oder anders veräußert werden. Das Urheberpersönlichkeitsrecht (also das Recht, durch die Schaffung eines Werkes dessen - zu nennende*r - Urheber*in zu werden) ist nicht veräußerbar. Archive und andere Institutionen, in deren Eigentum urheberrechtlich geschütztes Material vor oder nach Ableben durch Schenkung oder Verkauf durch die Urheber*innen oder deren Erb*innen übergeht, besitzen häufig nur das Material, nicht aber das (ererbte) Urheber- oder anderweitig erlangte Werknutzungsrecht an dem von ihnen Aufbewahrten. 
             </p>
             <p>Am 1. März 2018 tritt in Deutschland das 
-                <hi rend="bold">Urheberrechts-Wissensgesellschafts-Gesetz</hi> (UrhWissG) in Kraft. Dieses novelliert die bestehenden Schranken des Urheberrechts für Unterricht und Forschung (§52a UrhG) und für Bibliotheken bzw. öffentliche Gedächtnisinstitutionen (52b UrhG) und ersetzt diese durch eine Reihe neuer Bestimmungen betreffend Forschung, Lehre, Bibliotheken und Archive (§60a - 60h UrhG). Insbesondere sind auch die Paragraphen 60d (enthält eine breite Ausnahme für data-mining zu nicht-kommerziellen Forschungszwecken) und 60c (für andere nicht-kommerzielle Forschung) von besonderem Interesse für die Digitalen Geisteswissenschaften. Dabei ist festzuhalten, dass die in diesen Paragraphen festgelegten Schranken durch anderslautende Verträge 
-                <hi rend="bold">nicht</hi> ausgesetzt werden können. Allerdings ist eine “angemessene Vergütung” an die zuständigen Verwertungsgesellschaften (wie z.B. VG Wort) zu entrichten. Die Verhandlungen über eine solche „angemessene Vergütung“ sind, wie die Praxis zeigt, langwierig und kompliziert – ein Grund mehr, umgehend diesbezüglich tätig zu werden.
+                <hi>Urheberrechts-Wissensgesellschafts-Gesetz</hi> (UrhWissG) in Kraft. Dieses novelliert die bestehenden Schranken des Urheberrechts für Unterricht und Forschung (§52a UrhG) und für Bibliotheken bzw. öffentliche Gedächtnisinstitutionen (52b UrhG) und ersetzt diese durch eine Reihe neuer Bestimmungen betreffend Forschung, Lehre, Bibliotheken und Archive (§60a - 60h UrhG). Insbesondere sind auch die Paragraphen 60d (enthält eine breite Ausnahme für data-mining zu nicht-kommerziellen Forschungszwecken) und 60c (für andere nicht-kommerzielle Forschung) von besonderem Interesse für die Digitalen Geisteswissenschaften. Dabei ist festzuhalten, dass die in diesen Paragraphen festgelegten Schranken durch anderslautende Verträge 
+                <hi>nicht</hi> ausgesetzt werden können. Allerdings ist eine “angemessene Vergütung” an die zuständigen Verwertungsgesellschaften (wie z.B. VG Wort) zu entrichten. Die Verhandlungen über eine solche „angemessene Vergütung“ sind, wie die Praxis zeigt, langwierig und kompliziert – ein Grund mehr, umgehend diesbezüglich tätig zu werden.
             </p>
             <p>Vom Urheberrecht erfasst sind neben dem Digitalisierungsbereich beispielsweise auch die folgenden (häufigen) Vorhaben:</p>
-            <list type="ordered">
+            <list>
                 <item>Faksimilierung (Abdruck in Büchern)</item>
                 <item>digitale Faksimilierung (Wiedergabe von Scans auf Webseiten): auch bei der Verwendung z.B. von Fotos oder anderen Einzelbildern, etwa für Startseiten, ist das Urheberrecht zu berücksichtigen!</item>
                 <item>Edition (analog oder digital, auch ohne Beigabe von Faksimiles)</item>
                 <item>Corpuserstellung (auch ohne Zugriff auf den Volltext)</item>
             </list>
-            <p rend="DH-Heading3">“Copyright” - nationales Recht &amp; der digitale Raum</p>
+            <p>“Copyright” - nationales Recht &amp; der digitale Raum</p>
             <p>Der Begriff “copyright” führt oft zu Missverständnissen, da er ein rechtliches Konzept bezeichnet, das es in Österreich bzw. im deutschsprachigen / europäischen Raum nicht gibt. “Copyright”, das dominierende Rechtskonzept im angelsächsischen Raum, stellt das Recht zur Verwertung und Verbreitung eines Werks in den Vordergrund, während im Mittelpunkt des Urheberrechts die geistige Schöpfung und ihre Besitzer*innen stehen. Eine Möglichkeit, diese unterschiedlichen Rechtskonzepte bis zu einem gewissen Grad in Einklang zu bringen, stellen offene Lizenzen dar (siehe unten).</p>
-            <p rend="DH-Heading3">Datenschutzrecht</p>
+            <p>Datenschutzrecht</p>
             <p>Forschungsprojekte können unter Umständen mit vom Datenschutzgesetz umfassten Material arbeiten und müssen in diesem Fall die Gesetzeslage berücksichtigen. Das gilt dann, wenn mit personenbezogenen Daten (jegliche Angaben über natürliche oder juristische Personen, deren Identität bestimmt oder bestimmbar ist) und insbesondere mit sensiblen Daten (personenbezogene Daten über natürliche, Personen, über ihre ethnische Herkunft, politische Meinung, Gewerkschaftszugehörigkeit, religiöse oder philosophische Überzeugung, Gesundheit, phänotypische Merkmale oder ihr Sexualleben) gearbeitet werden soll. Das Datenschutzrecht betrifft in erster Linie lebende, natürliche Personen. Auch sensible Informationen über Verstorbene können jedoch rechtlich relevant sein.</p>
             <p>Im Mai 2018 tritt die EU-weite Datenschutz-Grundverordnung in Kraft (DS-GVO), die eine Reihe von Änderungen und Vorgaben enthält sowie eine Novellierung der nationalen Datenschutzgesetze angestoßen hat, die überblicksartig vermittelt werden.   </p>
-            <p rend="DH-Heading3">Persönlichkeitsrechte</p>
+            <p>Persönlichkeitsrechte</p>
             <p>Das Urheberrechtsgesetz umfasst einige Persönlichkeitsrechte, die es zu beachten gilt und die nach Ableben u.U. jene Aspekte betreffen, die vor Ableben vom Datenschutzrecht abgedeckt wurden. So sind vertrauliche Aufzeichnungen (Briefe, Tagebücher, etc.) auch nach Ableben unabhängig von der Urheberschaft nicht frei zur Veröffentlichung, solange Angehörige oder Adressaten berechtigtes Interesse daran haben, dass das nicht geschieht. Dasselbe gilt für Bilder (vor Ableben spricht man dabei in Österreich auch vom “Recht am eigenen Bild”). Für die Verwendung von Lichtbildern sind daher neben den Reproduktionsrechten (von den Urheber*innen) auch die Einwilligung der Abgebildeten bzw. deren Nachkommen einzuholen.</p>
-            <p rend="DH-Heading3">Lizenzierung</p>
+            <p>Lizenzierung</p>
             <p>So es die rechtliche Ausgangslage zulässt, ist es empfehlenswert und gute wissenschaftliche Praxis, digitale Forschungsdaten- und Ergebnisse mit möglichst offenen Lizenzen (z.B. Creative-Commons-Lizenzen) zu versehen, um ihre Wieder- und Weiterverwendbarkeit zu gewährleisten. Die Wahl der richtigen Lizenz ist dabei nicht immer einfach, da die Möglichkeiten zu verschiedenen Graden der Offenheit vor allem vom rechtlichen Status des Ausgangsmaterials abhängig sind. Mittlerweile gibt es allerdings schon einige Tools, die bei der Wahl der richtigen Lizenz Unterstützung bieten.</p>
-            <p rend="DH-Heading3">Impressumspflicht</p>
+            <p>Impressumspflicht</p>
             <p>Alle Medieninhaber*innen sind laut Mediengesetz bzw. e-Commerce-Gesetz (für Webseiten) dazu verpflichtet, gewisse Informationen in Form eines Impressums offen zu legen. Dazu gehören im Kontext digitaler wissenschaftlicher Projekte: Angaben zu den Medieninhaber*innen selbst (bei wissenschaftlichen Projekten zumeist die Institution als juristische Person, also Universität, Akademie, etc.), zu den Herausgeber*innen (jene Personen, die die grundlegende Richtung des Mediums bestimmen) und zur grundlegenden Richtung. Umso diffiziler wird es, sobald eine kommerzielle Nutzung der Webseiten gegeben ist, zum Beispiel durch die Vergabe von kostenpflichtigen Zugängen zu Restriktionen unterworfenem Material.</p>
-            <p rend="DH-Heading3">Diensteanbieter</p>
+            <p>Diensteanbieter</p>
             <p>Als Bereitsteller öffentlich zugänglicher digitaler Ressourcen und elektronischer Dienste werden auch Bildungs- und Kulturerbeeinrichtungen zu "Diensteanbietern" im Sinne der E-Commerce-Gesetzgebung. Dabei bestehen wesentliche Unterschiede bezüglich der Pflichten der Institutionen, abhängig von den zur Verfügung gestellten Diensten und Inhalten: Während Content Provider lediglich den Zugang zu selbst generierte Inhalten ermöglichen, wird man durch die Möglichkeit, Benutzer*inneneingaben zu speichern - wie das bereits durch eine Kommentar- oder Gästebuchfunktion der Fall ist, geschweige denn bei Crowdsourcing Projekten -   zum Host Provider. Wer aber haftet für fehlerhafte Informationen oder missbräuchliche Nutzung der Ressourcen?</p>
-            <p rend="DH-Heading2">Ablauf</p>
-            <p rend="DH-Heading3">1. Block (14:00-15:30)</p>
+            <p>Ablauf</p>
+            <p>1. Block (14:00-15:30)</p>
             <p>Begrüßung &amp; Einführung</p>
             <p>Einführung Urheberrecht</p>
-            <list type="unordered">
+            <list>
                 <item>Internationaler Kontext (
-                    <hi rend="bold">Urheber</hi>-Recht vs. 
-                    <hi rend="bold">Copy</hi>-Right)
+                    <hi>Urheber</hi>-Recht vs. 
+                    <hi>Copy</hi>-Right)
                 </item>
                 <item>Rechte der Urheber*innen</item>
                 <item>Verwertungsrechte</item>
                 <item>Freie Werknutzungen (Gesetzliche Ausnahmen vom Urheberrecht)</item>
             </list>
             <p>Vertiefung Bildrechte </p>
-            <list type="unordered">
+            <list>
                 <item>Digitalisate: Lichtbildwerk, Lichtbild oder Vervielfältigung?</item>
                 <item>Persönlichkeitsrechte (Recht am eigenen Bild)</item>
                 <item>Freiheit des Straßenbildes</item>
             </list>
             <p>Vertiefung Lizenzierung</p>
-            <list type="unordered">
+            <list>
                 <item>Offene Lizenzen für Forschung und Bildung</item>
                 <item>Lizenzierungswerkzeuge  </item>
             </list>
-            <p rend="DH-Heading3">2. Block (16:00-17:30)</p>
+            <p>2. Block (16:00-17:30)</p>
             <p>Datenschutzrecht</p>
-            <list type="unordered">
+            <list>
                 <item>Begrifflichkeiten</item>
                 <item>Dauer</item>
                 <item>Datenschutz bei personenbezogenen Quellen</item>
                 <item>Datenschutz für BenutzerInnen von Online-Angeboten</item>
             </list>
             <p>E-Commerce Gesetz</p>
-            <list type="unordered">
+            <list>
                 <item>Diensteanbieter: Definitionen und Pflichten</item>
                 <item>Impressum und Offenlegung</item>
             </list>
             <p>Fragen und Diskussion</p>
-            <p rend="DH-Heading2">Vortragende</p>
-            <p rend="DH-Heading3">Vanessa Hannesschläger </p>
+            <p>Vortragende</p>
+            <p>Vanessa Hannesschläger </p>
             <p>… studierte Germanistik in Wien. Sie ist wissenschaftliche Mitarbeiterin des Austrian Centre for Digital Humanities der Österreichischen Akademie der Wissenschaften (ACDH-ÖAW) und dort für Rechts- und Lizenzierungsfragen zuständig. Schon im Rahmen eines vorangegangenen Forschungsprojekts am Literaturarchiv der Österreichischen Nationalbibliothek beschäftigte sie sich mit praktischen Fragen des Urheberrechts. Mitarbeit in CLARIN (CLARIN PLUS) und DARIAH (WG Thesaurus Maintenance, ELDAH). Zu ihren Forschungsinteressen gehören digitales Edieren, Text- und Datenmodellierung, das Archiv im digitalen Kontext, Vermittlungsstrategien in den DH sowie digitale Infrastrukturen.</p>
-            <p rend="DH-Heading3">Paweł Kamocki </p>
+            <p>Paweł Kamocki </p>
             <p>… verfügt sowohl im Bereich des Rechts als auch im Bereich der Sprachwissenschaften über breites Fachwissen; derzeit ist er wissenschaftlicher Mitarbeiter am Institut für Deutsche Sprache in Mannheim und Lehr- und Forschungsassistent an der Descartes Universität in Paris und promoviert zu den rechtlichen Fragestellungen der Open Science. Er ist Mitglied des CLARIN Legal Issues Committee und arbeitete als rechtlicher Berater in zahlreichen anderen Projekten und Arbeitsgruppen (z.B. EUDAT, RDA, OpenMinTeD). Neben Urheberrecht und Datenschutz gilt sein Interesse auch den Sprachwissenschaften (insb. rechtliche Fachsprache).</p>
-            <p rend="DH-Heading3">Walter Scholger</p>
+            <p>Walter Scholger</p>
             <p>… studierte Geschichte und Angewandte Kulturwissenschaften in Graz und Maynooth und ist administrativer Leiter des Zentrums für Informationsmodellierung - Austrian Centre for Digital Humanities an der Universität Graz. In Projekten, internationalen Workshops und universitärer Lehre widmet er sich rechtlichen Aspekten des digitalen Kulturerbes und Fragen offener digitaler Publikationsformen.</p>
             <p>Er ist Mitglied in facheinschlägigen Arbeitsgruppen der Digital Humanities Dachverbände und internationaler Projekte (ADHO, DHd, ICARUS, DARIAH) zu rechtlichen Aspekten, digitalen Publikationen und Lehre im Bereich der Digital Humanities.</p>
         </body>
         <back>
-            <div type="bibliogr">
+            <div>
                 <listBibl>
                     <head>Bibliographie</head>
                     <bibl>
-                        <hi rend="bold">Amini, Seyavash / Blechl, Guido / Losehand, Joachim</hi> (2015): FAQs zu Creative-Commons-Lizenzen unter besonderer Berücksichtigung der Wissenschaft. 
-                        <ref target="https://phaidra.univie.ac.at/view/o:408042">
-                            <hi rend="color(1155CC)">https://phaidra.univie.ac.at/view/o:408042</hi>
+                        <hi>Amini, Seyavash / Blechl, Guido / Losehand, Joachim</hi> (2015): FAQs zu Creative-Commons-Lizenzen unter besonderer Berücksichtigung der Wissenschaft. 
+                        <ref>
+                            <hi>https://phaidra.univie.ac.at/view/o:408042</hi>
                         </ref>
                     </bibl>
                     <bibl>
-                        <hi rend="bold">Bergauer, Christian / Jahnel, Dietmar </hi>(2017): Das neue Datenschutzrecht DSG-VO und DSG (2018), Wien: Jan Sramek Verlag
+                        <hi>Bergauer, Christian / Jahnel, Dietmar </hi>(2017): Das neue Datenschutzrecht DSG-VO und DSG (2018), Wien: Jan Sramek Verlag
                     </bibl>
                     <bibl>
-                        <hi rend="bold">Bundeszentrale für politische Bildung</hi> (2013): Urheberrecht und Copyright. 
-                        <ref target="https://www.bpb.de/gesellschaft/medien/urheberrecht/169971/urheberrecht-und-copyright">
-                            <hi rend="color(1155CC)">https://www.bpb.de/gesellschaft/medien/urheberrecht/169971/urheberrecht-und-copyright</hi>
+                        <hi>Bundeszentrale für politische Bildung</hi> (2013): Urheberrecht und Copyright. 
+                        <ref>
+                            <hi>https://www.bpb.de/gesellschaft/medien/urheberrecht/169971/urheberrecht-und-copyright</hi>
                         </ref>
                     </bibl>
                     <bibl>
-                        <hi rend="bold">Datenschutzbehörde der Republik Österreich</hi>: Gesetze zum Datenschutzrecht. 
-                        <ref target="https://www.dsb.gv.at/gesetze-in-osterreich">
-                            <hi rend="color(1155CC)">https://www.dsb.gv.at/gesetze-in-osterreich</hi>
+                        <hi>Datenschutzbehörde der Republik Österreich</hi>: Gesetze zum Datenschutzrecht. 
+                        <ref>
+                            <hi>https://www.dsb.gv.at/gesetze-in-osterreich</hi>
                         </ref>
                     </bibl>
                     <bibl>
-                        <hi rend="bold">Deutscher Bundestag</hi> (2017): Entwurf eines Gesetzes zur Angleichung des Urheberrechts an die aktuellen Erfordernisse der Wissensgesellschaft (Urheberrechts-Wissensgesellschafts-Gesetz – UrhWissG). 
-                        <ref target="https://www.bundestag.de/blob/507608/be49b0e7039f039593112136e262b55f/gesetzentwurf-data.pdf">
-                            <hi rend="color(1155CC)">https://www.bundestag.de/blob/507608/be49b0e7039f039593112136e262b55f/gesetzentwurf-data.pdf</hi>
+                        <hi>Deutscher Bundestag</hi> (2017): Entwurf eines Gesetzes zur Angleichung des Urheberrechts an die aktuellen Erfordernisse der Wissensgesellschaft (Urheberrechts-Wissensgesellschafts-Gesetz – UrhWissG). 
+                        <ref>
+                            <hi>https://www.bundestag.de/blob/507608/be49b0e7039f039593112136e262b55f/gesetzentwurf-data.pdf</hi>
                         </ref>
                     </bibl>
                     <bibl>
-                        <hi rend="bold">Galina, Isabel et al.</hi> (2017): Copyright and Creator Rights in DH Projects: A Checklist. 
-                        <ref target="https://hcommons.org/deposits/item/hc:15109/">
-                            <hi rend="color(1155CC)">https://hcommons.org/deposits/item/hc:15109/</hi>
+                        <hi>Galina, Isabel et al.</hi> (2017): Copyright and Creator Rights in DH Projects: A Checklist. 
+                        <ref>
+                            <hi>https://hcommons.org/deposits/item/hc:15109/</hi>
                         </ref>
                     </bibl>
                     <bibl>
-                        <hi rend="bold">Kamocki, Pawel / Ketzan, Erik</hi> (2014): Creative Commons and Language Resources: General Issues and What’s New in CC 4.0. CLARIN Legal Issues Committee: White Paper Series. 
-                        <ref target="http://clarin-d.de/images/legal/CLIC_white_paper_1.pdf">
-                            <hi rend="color(1155CC)">http://clarin-d.de/images/legal/CLIC_white_paper_1.pdf</hi>
+                        <hi>Kamocki, Pawel / Ketzan, Erik</hi> (2014): Creative Commons and Language Resources: General Issues and What’s New in CC 4.0. CLARIN Legal Issues Committee: White Paper Series. 
+                        <ref>
+                            <hi>http://clarin-d.de/images/legal/CLIC_white_paper_1.pdf</hi>
                         </ref>  
                     </bibl>
                     <bibl>
-                        <hi rend="bold">Klimpel, Paul / Weitzmann, John H.</hi> (2015): Forschen in der digitalen Welt. Juristische Handreichung für die Geisteswissenschaften. DARIAH-DE Working papers Nr. 12. Göttingen: DARIAH-DE. 
-                        <ref target="https://irights.info/wp-content/uploads/2015/08/Forschen-in-der-digitalen-Welt-Juristische-Handreichung-Geisteswissenschaften-dwp-2015-12.pdf">
-                            <hi rend="color(1155CC)">https://irights.info/wp-content/uploads/2015/08/Forschen-in-der-digitalen-Welt-Juristische-Handreichung-Geisteswissenschaften-dwp-2015-12.pdf</hi>
+                        <hi>Klimpel, Paul / Weitzmann, John H.</hi> (2015): Forschen in der digitalen Welt. Juristische Handreichung für die Geisteswissenschaften. DARIAH-DE Working papers Nr. 12. Göttingen: DARIAH-DE. 
+                        <ref>
+                            <hi>https://irights.info/wp-content/uploads/2015/08/Forschen-in-der-digitalen-Welt-Juristische-Handreichung-Geisteswissenschaften-dwp-2015-12.pdf</hi>
                         </ref>
                     </bibl>
                     <bibl>
-                        <hi rend="bold">Klimpel, Paul </hi>(2013): Free Knowledge Thanks to Creative Commons Licenses. Why a Non-commercial Clause often won’t Serve Your Needs. Wikimedia Deutschland/iRights.info/CC DE. 
-                        <ref target="https://www.wikimedia.de/w/images.homepage/1/15/CC-NC_Leitfaden_2013_engl.pdf">
-                            <hi rend="color(1155CC)">https://www.wikimedia.de/w/images.homepage/1/15/CC-NC_Leitfaden_2013_engl.pdf</hi>
+                        <hi>Klimpel, Paul </hi>(2013): Free Knowledge Thanks to Creative Commons Licenses. Why a Non-commercial Clause often won’t Serve Your Needs. Wikimedia Deutschland/iRights.info/CC DE. 
+                        <ref>
+                            <hi>https://www.wikimedia.de/w/images.homepage/1/15/CC-NC_Leitfaden_2013_engl.pdf</hi>
                         </ref>
                     </bibl>
                     <bibl>
-                        <hi rend="bold">Kucsko, Guido / Zemann, Adolf</hi> (2017). CC0 1.0 Universal - Beurteilung der Verzichtserklärung und der Lizenzerteilung im Rahmen der Fallback-Klausel nach österreichischem Recht. 
-                        <ref target="https://phaidra.univie.ac.at/view/o:528411">
-                            <hi rend="color(1155CC)">https://phaidra.univie.ac.at/view/o:528411</hi>
+                        <hi>Kucsko, Guido / Zemann, Adolf</hi> (2017). CC0 1.0 Universal - Beurteilung der Verzichtserklärung und der Lizenzerteilung im Rahmen der Fallback-Klausel nach österreichischem Recht. 
+                        <ref>
+                            <hi>https://phaidra.univie.ac.at/view/o:528411</hi>
                         </ref>
                     </bibl>
                     <bibl>
-                        <hi rend="bold">Saferinternet.at</hi> (2013): Urheberrecht. 24 Fragen und Antworten. 
-                        <ref target="https://www.saferinternet.at/fileadmin/files/Materialien_2013/Ratgeber_Urheberrecht.pdf">
-                            <hi rend="color(1155CC)">https://www.saferinternet.at/fileadmin/files/Materialien_2013/Ratgeber_Urheberrecht.pdf</hi>
+                        <hi>Saferinternet.at</hi> (2013): Urheberrecht. 24 Fragen und Antworten. 
+                        <ref>
+                            <hi>https://www.saferinternet.at/fileadmin/files/Materialien_2013/Ratgeber_Urheberrecht.pdf</hi>
                         </ref>
                     </bibl>
                 </listBibl>

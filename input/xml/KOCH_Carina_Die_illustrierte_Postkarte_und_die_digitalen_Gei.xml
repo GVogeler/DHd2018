@@ -3,9 +3,9 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title type="full">
-                    <title type="main">Die illustrierte Postkarte und die digitalen Geisteswissenschaften – (Kulturerbe)objekt oder (Nachrichten)text</title>
-                    <title type="sub"/>
+                <title>
+                    <title>Die illustrierte Postkarte und die digitalen Geisteswissenschaften – (Kulturerbe)objekt oder (Nachrichten)text</title>
+                    <title/>
                 </title>
                 <author>
                     <persName>
@@ -36,25 +36,25 @@
         </fileDesc>
         <encodingDesc>
             <appInfo>
-                <application ident="DHCONVALIDATOR" version="1.17">
+                <application>
                     <label>DHConvalidator</label>
                 </application>
             </appInfo>
         </encodingDesc>
         <profileDesc>
             <textClass>
-                <keywords scheme="ConfTool" n="category">
+                <keywords>
                     <term>Paper</term>
                 </keywords>
-                <keywords scheme="ConfTool" n="subcategory">
+                <keywords>
                     <term>Poster</term>
                 </keywords>
-                <keywords scheme="ConfTool" n="keywords">
+                <keywords>
                     <term>Illustrierte Postkarte</term>
                     <term>Datenmodellierung</term>
                     <term>Interdisziplinarität</term>
                 </keywords>
-                <keywords scheme="ConfTool" n="topics">
+                <keywords>
                     <term>Modellierung</term>
                     <term>Bilder</term>
                     <term>Metadaten</term>
@@ -66,59 +66,59 @@
     </teiHeader>
     <text>
         <body>
-            <div type="div1">
+            <div>
                 <head>Die Postkarte als Forschungsobjekt</head>
                 <p>Denkt man an Postkarten, denkt man zunächst an Urlaub und Landschaftsmotive aus fernen Ländern. Die aktuelle Nutzung der Postkarte unterscheidet sich jedoch stark von der vor über hundert Jahren. Postkarten waren ein weit verbreitetes Kommunikationsmittel, vergleichbar mit Kurznachrichtendiensten von heute. Sie wurden aber auch gesammelt und getauscht. So vielfältig wie ihr Gebrauch ist auch ihre Nutzung in der geisteswissenschaftlichen Forschung. Postkarten werden seit den 1980er Jahren, als die Ethnologie sie zunächst für Kolonialismusforschungen vermehrt nutzte, als Quelle unterschiedlicher geisteswissenschaftlicher Disziplinen herangezogen. Mittlerweile dient das Massenmedium Postkarte dazu, Fragen aus der Geschichtswissenschaft, Sozial-, wie Kunst- und Fotografiegeschichte, den Literaturwissenschaften oder der Linguistik zu beantworten. Wurde zunächst in erster Linie bildwissenschaftlich gearbeitet, wird in den letzten zwanzig Jahren auch vermehrt auf die Relevanz der Postkarte als Bild-Text-Medium hingewiesen. Doch nicht nur die Motive dieses Hybridmediums, das zugleich Bild und Text beinhaltet, sondern auch die Natur des Massenmediums an sich, die Herstellung, der Vertrieb, die Zirkulation im politisch-gesellschaftlichen Kontext, Drucktechniken oder Auflagen sind für Forschungsfragen relevant (vgl. Holzer 2007, Tropper 2014).</p>
                 <p>Insbesondere im Hinblick auf die letzten beiden Aspekte ermöglichen die digitalen Geisteswissenschaften neue Forschungsperspektiven. Aufbauend auf digitalisierte und strukturiert erfasste Konvolute können anhand digitaler Methoden statistische Auswertungen, quantitative Analysen und qualitative Untersuchungen durchgeführt werden.</p>
             </div>
-            <div type="div1">
+            <div>
                 <head>Das Projekt</head>
                 <p>Das Projekt “Postkartensammlung GrazMuseum Online” zeigt, welche Wege für die Postkartenforschung denkbar sind, da im Projekt der Quellenwert der Postkarte an sich und die Aufbereitung für unterschiedliche Disziplinen im Mittelpunkt stehen. Zentrales Anliegen ist es, bildbasierte ebenso wie textbasierte Analysen zu gewährleisten und die Materialität der Postkarte - als Objekt, das produziert und gebraucht wurde, ernst zu nehmen. In diesem Sinne werden im Unterschied zu den meisten Postkarten, die online gezeigt werden (vgl. AKON, Bildarchiv ETH Schweiz), nicht nur die Bild-, sondern auch die Textseite präsentiert. Dadurch wird über bildwissenschaftliche Fragestellungen hinaus ein ganzheitlicher Blick auf das Medium und seine Verwendungsweisen ermöglicht. Für eine inhaltliche Recherche sind die Postkarten mit Schlagworten angereichert, wodurch thematische Zugänge - etwa zu einer Geschichte des Tourismus oder des Verkehrs möglich sind. Ebenso erfasst sind die Reproduktionsverfahren, die für Untersuchungen zu Druck- oder Fototechniken herangezogen werden können und auch Rückschlüsse auf Auflagenhöhe erlauben. Daneben sind auch die Produzenten der Karten erfasst. Damit ist erstmals die Möglichkeit gegeben, zielgerichtet nach Herstellern zu suchen und so auch einen Einblick in deren Sortimente und Produktionsweisen zu erhalten. </p>
                 <p>Für jede Postkarte gibt es einen Datensatz, der die zugehörigen Digitalisate und Metadaten beinhaltet und im digitalen Archiv GAMS (GAMS; Steiner/Stigler 2017) langfristig verfügbar gemacht wird.</p>
                 <p>Der Zugang zum Bestand erfolgt über klassische Suchmöglichkeiten (Volltext- und Facettensuche), Schlagwortwolken, geographische Karten (DARIAH GeoBrowser) und virtuelle Rundgänge (StoryMapJS). Die digitalen Faksimiles können stufenlos gezoomt und gedreht werden (OpenSeadragon Viewer), wodurch unterschiedliche Leserichtungen oder etwa Details im Bildmotiv betrachtet werden können. Anhand der Faksimile der Text- oder Adressseite werden auch Informationen vermittelt, die bei der Aufnahme der Metadaten im Zuge des Projektes nicht erfasst werden konnten (z.B. Schriftbilder oder Postwertzeichen).</p>
             </div>
-            <div type="div1">
+            <div>
                 <head>
-                    <anchor xml:id="id__y2eexl23bzfo"/>Herausforderungen in der Datenmodellierung
+                    <anchor/>Herausforderungen in der Datenmodellierung
                 </head>
                 <p>Bei der Datenmodellierung steht man vor der Entscheidung, aus welcher Richtung man sich der Beschreibung der Postkarte nähern will. Auf der einen Seite steht die Mitteilung, die Text beinhaltet, der transkribiert, annotiert und angereichert werden kann. Auf der anderen Seite steht das Objekt, das unter spezifischen Gesichtspunkten eingeordnet, bewertet und inventarisiert wird. Dafür bieten sich zwei etablierte Standards an: LIDO und TEI. Letzteres eignet sich speziell für den Zugang über textuelle Inhalte.
-                    <note xml:id="ftn3" place="foot" n="1"> Zur weiteren Beschreibung von Postkarten mit der TEI s. Correspondance-SIG, Burnard, Lou 2014.</note> LIDO ist ein Standardformat, das eigens für die Beschreibung von Kulturerbeobjekten, ihre Klassifikation, Identifikation und Einbindung von in Bezug stehenden Ereignissen (Entstehung, Nutzung, Archivierung, ...), entwickelt wurde. Für tiefere Texterschließungen ist dieser Standard nicht geeignet.
-                    <note xml:id="ftn4" place="foot" n="2"> Obwohl das Element &lt;inscriptionsWrap&gt; für die strukturierte Erfassung von Transkriptionen und Beschreibungen von Markierungen oder Texten etc. definiert ist, ist das nur sehr oberflächlich möglich.</note> Da im Projekt die Beschreibung der Postkarte aus museologischer Sicht im Vordergrund steht und sich das Modellierungskonzept der Events (insb. für Postläufe) anbietet, sind die Daten nach LIDO modelliert und annotiert. Für Transkriptionen handschriftlicher Mitteilungen, die im skalierbaren Modell für spätere Bearbeitungen angedacht sind, ist das Schema um TEI Lite erweitert. Sollte künftig Text detaillierter kodiert werden, als TEI Lite es zuläßt, ist die Textedition in einem separaten TEI-Dokument angedacht.
+                    <note> Zur weiteren Beschreibung von Postkarten mit der TEI s. Correspondance-SIG, Burnard, Lou 2014.</note> LIDO ist ein Standardformat, das eigens für die Beschreibung von Kulturerbeobjekten, ihre Klassifikation, Identifikation und Einbindung von in Bezug stehenden Ereignissen (Entstehung, Nutzung, Archivierung, ...), entwickelt wurde. Für tiefere Texterschließungen ist dieser Standard nicht geeignet.
+                    <note> Obwohl das Element &lt;inscriptionsWrap&gt; für die strukturierte Erfassung von Transkriptionen und Beschreibungen von Markierungen oder Texten etc. definiert ist, ist das nur sehr oberflächlich möglich.</note> Da im Projekt die Beschreibung der Postkarte aus museologischer Sicht im Vordergrund steht und sich das Modellierungskonzept der Events (insb. für Postläufe) anbietet, sind die Daten nach LIDO modelliert und annotiert. Für Transkriptionen handschriftlicher Mitteilungen, die im skalierbaren Modell für spätere Bearbeitungen angedacht sind, ist das Schema um TEI Lite erweitert. Sollte künftig Text detaillierter kodiert werden, als TEI Lite es zuläßt, ist die Textedition in einem separaten TEI-Dokument angedacht.
                 </p>
             </div>
-            <div type="div1">
+            <div>
                 <head>
-                    <anchor xml:id="id__ggymo9x74k57"/>Fazit
+                    <anchor/>Fazit
                 </head>
                 <p>Anhand digitaler Methoden eröffnen sich neue Wege für das Hybrid- und Massenmedium “Postkarte”. Will man bei der Datenmodellierung dem ganzheitlichen Blick gerecht werden, erkennt man bald, dass die Einbeziehung mehrerer Standards nötig ist. Denn auch wenn man zunächst dazu tendiert sich an die Restriktionen eines Standards zu halten, bieten genau die digitalen Methoden den enormen Vorteil, dass man sich von mehreren Richtungen dem Objekt nähern kann. Auch wenn spätestens die Europeana zu der Entscheidung IMAGE oder TEXT zwingt.</p>
             </div>
         </body>
         <back>
-            <div type="bibliogr">
+            <div>
                 <listBibl>
                     <head>Bibliographie</head>
                     <bibl>AKON - Ansichtskarten Online der Österreichischen Nationalbibliothek, 
-                        <ptr target="https://akon.onb.ac.at/"/>, [letzter Zugriff 2017-08-29].
+                        <ptr/>, [letzter Zugriff 2017-08-29].
                     </bibl>
                     <bibl>Bildarchiv ETH Schweiz, 
-                        <ref target="http://ba.e-pics.ethz.ch/">http://ba.e-pics.ethz.ch</ref>, [letzter Zugriff 2017-08-29].
+                        <ref>http://ba.e-pics.ethz.ch</ref>, [letzter Zugriff 2017-08-29].
                     </bibl>
                     <bibl>Burnard, Lou (2014): TEI ODD workshop - Case Study: designing a TEI customization for a corpus of postcards, 
-                        <ptr target="http://tei.it.ox.ac.uk/Talks/2014-10-odds/talk-03-cards.xml"/>, [letzter Zugriff 2017-09-22].
+                        <ptr/>, [letzter Zugriff 2017-09-22].
                     </bibl>
                     <bibl>GAMS - Geisteswissenschaftliches Asset Management System, 
-                        <ref target="http://gams.uni-graz.at/">http://gams.uni-graz.at</ref>, [letzter Zugriff 2017-08-29].
+                        <ref>http://gams.uni-graz.at</ref>, [letzter Zugriff 2017-08-29].
                     </bibl>
                     <bibl>Holzer, Anton (2007): Naserümpfend am Postkartenstand. Was Ansichtskarten erzählen können (wenn man sie lässt), in: Hochreiter, Otto / Otti, Margareth (eds.): Hier ist es schön. Grazer Ansichtskarten. Ausstellungskatalog Stadtmuseum Graz, Salzburg: Fotohof (= Fotohof edition 93) 75-87.</bibl>
                     <bibl>LIDO - Lightweight Information Describing Objects, 
-                        <ptr target="http://network.icom.museum/cidoc/working-groups/lido/what-is-lido/"/>, [letzter Zugriff 2017-09-22].ademic press 10-41.
+                        <ptr/>, [letzter Zugriff 2017-09-22].ademic press 10-41.
                     </bibl>
                     <bibl>Postkartensammlung GrazMuseum Online, 
-                        <ptr target="http://gams.uni-graz.at/gm"/>, [letzter Zugriff 2017-08-29].
+                        <ptr/>, [letzter Zugriff 2017-08-29].
                     </bibl>
                     <bibl>Steiner, Elisabeth / Stigler, Johannes (2014): 
-                        <hi rend="color(#000000)">GAMS and Cirilo Client: Policies, documentation and tutorial</hi>, latest update 2017-04-10, 
-                        <ptr target="http://gams.uni-graz.at/docs"/>, [letzter Zugriff 2017-09-22].
+                        <hi>GAMS and Cirilo Client: Policies, documentation and tutorial</hi>, latest update 2017-04-10, 
+                        <ptr/>, [letzter Zugriff 2017-09-22].
                     </bibl>
                     <bibl>TEI - Text Encoding Initiative, http://www.tei-c.org/index.xml, [letzter Zugriff 2017-08-29].</bibl>
                     <bibl>Tropper, Eva (2014): Illustrierte Postkarten - ein Format entsteht und verändert sich, in: Tropper, Eva / Starl, Timm (eds.): Format Postkarte - Illustrierte Korrespondenzen, 1900 bis 1936, Wien: new academic press.</bibl>

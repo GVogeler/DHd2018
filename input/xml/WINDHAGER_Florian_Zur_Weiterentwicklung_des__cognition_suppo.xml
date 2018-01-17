@@ -65,27 +65,27 @@
         </fileDesc>
         <encodingDesc>
             <appInfo>
-                <application ident="DHCONVALIDATOR" version="1.17">
+                <application>
                     <label>DHConvalidator</label>
                 </application>
             </appInfo>
         </encodingDesc>
         <profileDesc>
             <textClass>
-                <keywords scheme="ConfTool" n="category">
+                <keywords>
                     <term>Paper</term>
                 </keywords>
-                <keywords scheme="ConfTool" n="subcategory">
+                <keywords>
                     <term>Vortrag</term>
                 </keywords>
-                <keywords scheme="ConfTool" n="keywords">
+                <keywords>
                     <term>Informationsvisualisierung</term>
                     <term>Sammlungsinterfaces</term>
                     <term>Kritik</term>
                     <term>kritische Kulturwissenschaft</term>
                     <term>Designstrategien</term>
                 </keywords>
-                <keywords scheme="ConfTool" n="topics">
+                <keywords>
                     <term>Sammlung</term>
                     <term>Gestaltung</term>
                     <term>Visualisierung</term>
@@ -97,65 +97,57 @@
     </teiHeader>
     <text>
         <body>
-            <div type="div1" rend="DH-Heading1">
+            <div>
                 <head>Einleitung</head>
                 <p>Interfaces und Methoden der Informationsvisualisierung  dienen insbesondere in Bezug auf abstrakte und komplexe Gegenstände der Unterstützung, Verstärkung und Augmentierung der menschlichen Kognition (Arias-Hernandez et al., 2012). Sammlungen des kulturellen Erbes (Galerien, Bibliotheken, Archive und Museen) sind Paradebeispiele für solche komplexen Gegenstände: sie organisieren und bereiten tausende Objekte auf und stellen diese gemeinsam mit assoziierten Informationen für Forschung und Öffentlichkeit bereit. Viele dieser Sammlungen sind mittlerweile digitalisiert im Netz zugänglich, womit lokale Sammlungs-Interfaces und große Aggregatoren zu Portalen von neuen Informationsräumen werden, in denen Kultur erlebbar und verhandelbar wird. </p>
                 <p>Ausgangspunkt unseres Vortrags ist eine aktuelle Studie zu Sammlungsinterfaces, die Methoden der Informationsvisualisierung nutzen um kognitive Operationen wie Exploration, Navigation und Analyse auf verschiedenen Ebenen einer Sammlung zu unterstützen.
-                    <note place="foot" xml:id="ftn1" n="1">
-                        <p rend="endnote text"> Diese Studie erscheint im Journal “Transactions of Visualization and Computer Graphics” unter dem Titel “Visualization of Cultural Heritage Collection Data: State of the Art and Future Challenges" (Windhager F., Federico, P., Schreder, G., Glinka, K., Dörk, M., Miksch, S., &amp; Mayr, E.).</p>
+                    <note>
+                        <p> Diese Studie erscheint im Journal “Transactions of Visualization and Computer Graphics” unter dem Titel “Visualization of Cultural Heritage Collection Data: State of the Art and Future Challenges" (Windhager F., Federico, P., Schreder, G., Glinka, K., Dörk, M., Miksch, S., &amp; Mayr, E.).</p>
                     </note> Im Vortrag werden wir einige der durch die Studie gewonnenen Erkenntnisse vertiefen und die Frage ins Zentrum stellen, wie Visualisierungsinterfaces auch jene kognitiven Operationen fördern können, die im kulturwissenschaftlichen Kontext als “kritische” tradiert werden. Analog zu existierenden Definitionen (vgl. Jaeggie &amp; Wesche, 2009; Foucault, 1990; und Butler, 2001) verstehen wir Kritik als jene Form der Kognition, die einen Gegenstand - und das ihn konstituierende Forschungssystem - in seiner Umwelt kontextualisiert und einer Bewertung unterzieht. Dabei bündelt die Operation i) analytisches und exploratives Wissen über Struktur und Dynamik ihres Gegenstands, ii) eine Bewertung im Sinne einer differenzierten Vermessung von Aktualität und Potentialität des Gegenstands, iii) eine Offenlegung und Argumentierung der instrumentalisierten Maßstäben und Normen, sowie oftmals eine iv) Ableitung von Handlungsoptionen zur (Selbst)berichtigung und (Selbst)Steuerung des fokussierten und des fokussierenden Systems. 
                 </p>
                 <p>Mit direktem Bezug auf Fragestellungen des Calls entwickeln wir ein Analyseschema, um dieses Potenzial für Visualisierungssysteme zu kulturellen Sammlungen zu erkunden und diskutieren Designstrategien, um entsprechende Funktionen zu stärken.</p>
             </div>
-            <div type="div1" rend="DH-Heading1">
+            <div>
                 <head>Visuelle Sammlungsinterfaces</head>
                 <p>Interfaces zu kulturellen Sammlungen vermitteln zwischen großen Mengen von digitalen Objekten und den darauf bezogenen Absichten und Interessen von ExpertInnen oder BesucherInnen. Abbildung 1 zeigt eine schematische Aufreihung der wichtigsten Komponenten eines entsprechenden Systems, in dem das visuelle Interface (Mitte) einen kognitiven Mehrwert auf BenutzerInnenseite (rechts) schaffen soll (vgl. Card et al., 1999, S. 17). Dieser kognitive Mehrwert umfasst beispielsweise einen Erkenntnisgewinn bezüglich einer digitalen Sammlung, welche oftmals auf physische Objektsammlungen und letztlich auf Ursprungskulturen oder Sammlungskontexte verweisen (links).</p>
                 <figure>
-                    <graphic n="1001"
-                        width="16.002cm"
-                        height="6.8915138888888885cm"
-                        url="Pictures/image1.png"
-                        rend="inline"/>
+                    <graphic/>
                 </figure>
                 <p>Abb.1: Komponenten eines visualisierungs-gestützten HCI-Systems, das Daten von kulturellen Sammlungen (links) in visuellen Interfaces repräsentiert (Mitte), um damit diverse kognitive Operationen (wie Exploration, Navigation, Analyse, und mentale Repräsentation) zu unterstützen (rechts) .</p>
                 <p>Interfacesysteme - als zunächst meist opake Ensembles von Datenbank, Algorithmik und Benutzeroberfläche - entscheiden in solchen Konstellationen über eine zentrale Passage der Informationsverarbeitung und haben nicht zuletzt deshalb kritische Aufmerksamkeit verdient. Dies betrifft sowohl die Skepsis, ob quantitative und algorithmische Visualisierungsverfahren überhaupt nicht-verfremdend oder epistemologisch “a-trojanisch” (Drucker, 2011) auf Feldern von geistes- und kulturwissenschaftlichen Fragestellungen eingeführt und genutzt werden können, wie auch den konstanten internen Diskurs der Methodenkritik, der die Konferenzen und Reader der Digital Humanities bestimmt. So wie alle mediale Technologien beeinflussen Interfacesysteme den Aufbau der mentalen Repräsentationen ihrer Gegenstände über multiple Stationen der Übertragung und Übersetzung (Vektoren in blau, Abb. 1) und begünstigen oder erschweren in der Folge gewisse interpretative oder praktische Anschlussoperationen (Vektoren in orange).</p>
                 <p>In der diesem Beitrag zugrundeliegenden Studie erfassten wir den Gestaltungsraum solcher medialen Systeme im Sammlungskontext und leiteten Anforderungen an zukünftige Interfaces, darunter 
-                    <hi rend="italic">Generosität </hi>(Dörk, 2011; Whitelaw, 2015), 
-                    <hi rend="italic">Serendipität</hi> (Thudt et al., 2012), 
-                    <hi rend="italic">Narrativität </hi>(Davis et al., 2016) und 
-                    <hi rend="italic">kontextuelle Konnektivität </hi>(Hooland et al., 2014), als wichtige Gestaltungsprinzipien ab.
+                    <hi>Generosität </hi>(Dörk, 2011; Whitelaw, 2015), 
+                    <hi>Serendipität</hi> (Thudt et al., 2012), 
+                    <hi>Narrativität </hi>(Davis et al., 2016) und 
+                    <hi>kontextuelle Konnektivität </hi>(Hooland et al., 2014), als wichtige Gestaltungsprinzipien ab.
                 </p>
             </div>
-            <div type="div1" rend="DH-Heading1">
+            <div>
                 <head>Strategien des “Critical Cognition Support” durch Sammlungsinterfaces </head>
                 <p>Eine weitere der identifizierten Anforderung beschreibt den Aspekt des 
-                    <hi rend="italic">“Critical Cognition Support”</hi>, welcher im Kontext dieses Calls eine analytische Vertiefung verdient. Darunter verstehen wir “
-                    <hi rend="italic">kritik-unterstützende” </hi>Funktionen von visuellen Interfaces, die über Exploration und Analyse hinaus eine differenzierte Beurteilung und gegebenenfalls eine (Selbst)berichtigung des visuell gestützten Forschungssystems ermöglichen - inklusive einer Kritik des kulturellen Gegenstands selbst. Auf medientheoretischer Basis ist bereits evident, dass die Gegenstände der Digital Humanities durch Interface- und Forschungssysteme entscheidend mit konstituiert werden, was einer konstanten Reflexion bedarf. Abgesehen von der Diskussion dieser medialen und technologischen Bedingtheit von digitalen Gegenständen besteht jedoch ebenso die Notwendigkeit, sich kritisch mit den vermittelten „Dingen von Belang“ - den Sammlungen, ihren Objekten, Kulturen und Kontexten - und deren historischen Bedingtheiten auseinanderzusetzen. Die Balancierung von medienkritischen Praktiken mit der kritischen Reflexion der modellierten Realitäten und ihrer prämedialen Verfasstheit eröffnet auch eine produktive Strategie, um ein mögliches Abdriften in die Selbstbezüglichkeit des digitalen Methodendiskurses zu verhindern (cf. Latour, 2004). Sammlungsvisualisierungen sollten vor diesem Hintergrund so oft wie möglich über scheinbar objektive oder rein deskriptive Abbildungen ihrer Gegenstände hinausgehen, da diese immer produktiv bezüglich ihrer Position und Funktion in gesellschaftlichen, sozio-ökonomischen, epistemischen oder normativen Kontexten befragt werden können und müssen (vgl. Calhoun, 1995; Swartz, 2012).
+                    <hi>“Critical Cognition Support”</hi>, welcher im Kontext dieses Calls eine analytische Vertiefung verdient. Darunter verstehen wir “
+                    <hi>kritik-unterstützende” </hi>Funktionen von visuellen Interfaces, die über Exploration und Analyse hinaus eine differenzierte Beurteilung und gegebenenfalls eine (Selbst)berichtigung des visuell gestützten Forschungssystems ermöglichen - inklusive einer Kritik des kulturellen Gegenstands selbst. Auf medientheoretischer Basis ist bereits evident, dass die Gegenstände der Digital Humanities durch Interface- und Forschungssysteme entscheidend mit konstituiert werden, was einer konstanten Reflexion bedarf. Abgesehen von der Diskussion dieser medialen und technologischen Bedingtheit von digitalen Gegenständen besteht jedoch ebenso die Notwendigkeit, sich kritisch mit den vermittelten „Dingen von Belang“ - den Sammlungen, ihren Objekten, Kulturen und Kontexten - und deren historischen Bedingtheiten auseinanderzusetzen. Die Balancierung von medienkritischen Praktiken mit der kritischen Reflexion der modellierten Realitäten und ihrer prämedialen Verfasstheit eröffnet auch eine produktive Strategie, um ein mögliches Abdriften in die Selbstbezüglichkeit des digitalen Methodendiskurses zu verhindern (cf. Latour, 2004). Sammlungsvisualisierungen sollten vor diesem Hintergrund so oft wie möglich über scheinbar objektive oder rein deskriptive Abbildungen ihrer Gegenstände hinausgehen, da diese immer produktiv bezüglich ihrer Position und Funktion in gesellschaftlichen, sozio-ökonomischen, epistemischen oder normativen Kontexten befragt werden können und müssen (vgl. Calhoun, 1995; Swartz, 2012).
                 </p>
                 <p>Die relevantesten Dimensionen der kritischen Kognition innerhalb eines Forschungssystems lassen sich in der Folge durch multiple Vektoren der Systemkritik fokussieren (siehe Abb. 2 oben): a) Kritik und Evaluation der Kultur und des Kontexts einer Sammlung, b) Kritik der Sammlungs- und Kuratierungspraxis, c) Kritik der digitalen Modellierung, sowie d) Kritik der Informationsvisualisierung.</p>
                 <figure>
-                    <graphic n="1002"
-                        width="16.002cm"
-                        height="15.815027777777777cm"
-                        url="Pictures/image2.png"
-                        rend="inline"/>
+                    <graphic/>
                 </figure>
                 <p>Abb.2. Kritische Kognition kann durch das Zusammenspiel von Designstrategien für visuelle Interfaces mit Bezug auf multiple Systemkomponenten gefördert werden. Wir unterscheiden in der Folge pro Komponente Aspekte der Kritik, Techniken der Kritik-Unterstützung, praktische Relevanz und individuelle “Critical Literacies”. </p>
                 <p>Aus multipler Motivation (als AnwenderInnen, EntwicklerInnen und AnalytikerInnen von Interfacesystemen) gehen wir davon aus, dass sich die Kritik und Transparenz dieser Systemkomponenten durch Designprinzipien von Interfaces selbst fördern lassen, und dass sich die kritische Interpretation der Komponenten oft nur schrittweise und “rückwärts” (d.h. mit steigender kulturwissenschaftlicher Relevanz von der Interface- bis zur Kuratierungs- und Kulturkritik) entfalten lässt. Wir summieren Aspekte und mögliche Gestaltungsoptionen zur Unterstützung dieser Komponenten in Abbildung 2 und beleuchten ein paar Facetten in der abschließenden Diskussion.</p>
                 <p>
-                    <hi rend="bold">a) Kritik der Informationsvisualisierung: </hi>Sammlungsinterfaces können ihre eigenen technologischen Funktionsprinzipien zur kritischen Ermächtigung ihrer NutzerInnen via onboarding-Techniken, Tutorials, und Offenlegung von design choices transparent machen (vgl. Dörk et al., 2013). Akteure hinter Interfaceprojekten können gemeinsam mit ihren Strategien, Interessen und technologischen Präferenzen (Bubenhofer, 2016) über Kontextinformation kenntlich gemacht werden. Weiterhin kann die Kritik von Visualisierungen durch die Implementierung von multiple views gefördert werden, die Pluralitäten betonen und den Vergleich von Stärken und Schwächen der jeweiligen Darstellungen ermöglichen. Transparenz kann weiterhin durch Code Sharing und Open Source Dissemination unterstützt werden.
+                    <hi>a) Kritik der Informationsvisualisierung: </hi>Sammlungsinterfaces können ihre eigenen technologischen Funktionsprinzipien zur kritischen Ermächtigung ihrer NutzerInnen via onboarding-Techniken, Tutorials, und Offenlegung von design choices transparent machen (vgl. Dörk et al., 2013). Akteure hinter Interfaceprojekten können gemeinsam mit ihren Strategien, Interessen und technologischen Präferenzen (Bubenhofer, 2016) über Kontextinformation kenntlich gemacht werden. Weiterhin kann die Kritik von Visualisierungen durch die Implementierung von multiple views gefördert werden, die Pluralitäten betonen und den Vergleich von Stärken und Schwächen der jeweiligen Darstellungen ermöglichen. Transparenz kann weiterhin durch Code Sharing und Open Source Dissemination unterstützt werden.
                 </p>
                 <p>
-                    <hi rend="bold">b) Kritik der digitalen Modellierung: </hi>Methoden und Prozesse der Datengenerierung, -aufbereitung und -modellierung spielen eine konstitutive Rolle für die spezifische Medialität des Systems, seine analytischen Möglichkeiten, Grenzen, aber auch Unbestimmtheiten und Unschärfen. Dies gilt für die Modellierung von quantitativen und kategorialen Metadaten aus bestehenden analogen Beständen, sowie umso mehr für Systeme die Verfahren des Natural Language Processings und der Computer Vision in die Datengenerierung einbeziehen. Solche Informationen zur Provenienz von Daten sollten in visuelle Repräsentation ebenso einfließen wie Informationen zu Akteuren, Institutionen und Konventionen der digitalen Modellierung. 
+                    <hi>b) Kritik der digitalen Modellierung: </hi>Methoden und Prozesse der Datengenerierung, -aufbereitung und -modellierung spielen eine konstitutive Rolle für die spezifische Medialität des Systems, seine analytischen Möglichkeiten, Grenzen, aber auch Unbestimmtheiten und Unschärfen. Dies gilt für die Modellierung von quantitativen und kategorialen Metadaten aus bestehenden analogen Beständen, sowie umso mehr für Systeme die Verfahren des Natural Language Processings und der Computer Vision in die Datengenerierung einbeziehen. Solche Informationen zur Provenienz von Daten sollten in visuelle Repräsentation ebenso einfließen wie Informationen zu Akteuren, Institutionen und Konventionen der digitalen Modellierung. 
                 </p>
                 <p>
-                    <hi rend="bold">c) Kritik der Kurations- und Sammlungspraxis:</hi> Datenbanken und Metadaten beruhen häufig auf historischen Sammlungskatalogen und Erfassungssystemen, deren Selektivität bei der Entwicklung von kritisch informierten Sammlungsrepräsentationen reflektiert werden muss. Dies kann beispielsweise in einer Fokussierung von Visualisierungen auf Themen, Objekte oder Akteure einer Sammlung geschehen, die aufgrund von historischen Kanonisierungen, kuratorischer Selektion, soziokulturell und historisch bedingten Strukturen von Exklusion oder institutionellem Bias nicht (oder wenig) repräsentiert sind (Glinka et al., 2015). Im Sinne einer Diversifizierung von Narrativen im Anschluss an institutionskritische Interventionen ermöglichen Sammlungsvisualisierungen die Verhandlung von kritischen Interpretationen und Analysen der institutionellen Selbstbeschreibungen. Zu den kritikunterstützdenden Funktionen von Interfaces zählen beispielsweise auch Designs, welche institutionelle Wissensbestände und Interpretationen in Form von außer-institutioneller Teilhabe über Folksonomy, Crowd-Curation oder Community Co-Creation anreichern, in Frage stellen oder ergänzen.
+                    <hi>c) Kritik der Kurations- und Sammlungspraxis:</hi> Datenbanken und Metadaten beruhen häufig auf historischen Sammlungskatalogen und Erfassungssystemen, deren Selektivität bei der Entwicklung von kritisch informierten Sammlungsrepräsentationen reflektiert werden muss. Dies kann beispielsweise in einer Fokussierung von Visualisierungen auf Themen, Objekte oder Akteure einer Sammlung geschehen, die aufgrund von historischen Kanonisierungen, kuratorischer Selektion, soziokulturell und historisch bedingten Strukturen von Exklusion oder institutionellem Bias nicht (oder wenig) repräsentiert sind (Glinka et al., 2015). Im Sinne einer Diversifizierung von Narrativen im Anschluss an institutionskritische Interventionen ermöglichen Sammlungsvisualisierungen die Verhandlung von kritischen Interpretationen und Analysen der institutionellen Selbstbeschreibungen. Zu den kritikunterstützdenden Funktionen von Interfaces zählen beispielsweise auch Designs, welche institutionelle Wissensbestände und Interpretationen in Form von außer-institutioneller Teilhabe über Folksonomy, Crowd-Curation oder Community Co-Creation anreichern, in Frage stellen oder ergänzen.
                 </p>
                 <p>
-                    <hi rend="bold">d) Kulturkritik von Sammlungen: </hi>Sammlungen sind in der Regel reichhaltige Quellen der Information über assoziierte Kulturen, deren heterogene und herrschende Intentionen, Interessen, Epistemiken, Ideologien und sozio-ökonomischen Praktiken zum Kerngebiet kulturwissenschaftlicher Forschung gehören. Wir gehen zudem davon aus, dass die kritische Interpretation von Sammlungen teilweise nur über eine differenzierte Bewertung ihres Kontextes gewonnen werden kann. Wir sehen Möglichkeiten, solche Kontextualisierungen schon auf Ebene des Interfacedesigns herzustellen und ihre Interpretation mit Axiomen aus dem Bestand der kritischen Kulturtheorien zu verknüpfen. Die Veranschaulichung von historischen kulturellen Soll-Werten oder normativen Bewertungskategorien kann bei deren Neubewertung unterstützen. Die direkte Aktivierung von kritischem Engagement im gesellschaftlichen Kontext kann nicht zuletzt bei Interfaces zu zeitgenössischen Sammlungen eine zentrale Rolle spielen.
+                    <hi>d) Kulturkritik von Sammlungen: </hi>Sammlungen sind in der Regel reichhaltige Quellen der Information über assoziierte Kulturen, deren heterogene und herrschende Intentionen, Interessen, Epistemiken, Ideologien und sozio-ökonomischen Praktiken zum Kerngebiet kulturwissenschaftlicher Forschung gehören. Wir gehen zudem davon aus, dass die kritische Interpretation von Sammlungen teilweise nur über eine differenzierte Bewertung ihres Kontextes gewonnen werden kann. Wir sehen Möglichkeiten, solche Kontextualisierungen schon auf Ebene des Interfacedesigns herzustellen und ihre Interpretation mit Axiomen aus dem Bestand der kritischen Kulturtheorien zu verknüpfen. Die Veranschaulichung von historischen kulturellen Soll-Werten oder normativen Bewertungskategorien kann bei deren Neubewertung unterstützen. Die direkte Aktivierung von kritischem Engagement im gesellschaftlichen Kontext kann nicht zuletzt bei Interfaces zu zeitgenössischen Sammlungen eine zentrale Rolle spielen.
                 </p>
             </div>
-            <div type="div1" rend="DH-Heading1">
+            <div>
                 <head>Resümee und Ausblick</head>
                 <p>Wir präsentieren ein modulares und multifokales Schema für die Beurteilung und Entwicklung von Designstrategien, die kritische Kognition in digitalen Systemen der visuellen Analyse von Kulturdaten unterstützen. Über die oftmals technikgeleitete Entwicklung von analytischen und explorativen Systemen hinaus soll dies dabei helfen, den Anschluss der digitalen Tool-Entwicklung an kultur- und geisteswissenschaftliche Grundströmungen zu suchen. Auf Seiten des Interfacedesigns ergibt diese Skizze ein breites Arbeits- und Entwicklungsprogramm, das auch schon durch partielle Implementierungen neue Akzente gesetzt hat - sowohl im Bereich der Evaluierung von Sammlungsinterfaces, als auch in der Gestaltung und Umsetzung. Wir gehen davon aus, dass Aspekte dieser Designprinzipien auch auf andere Forschungssysteme der Digital Humanities übertragbar sind, jedoch von kritischen Kompetenzen (Literacies) der Akteure, sowie durch ihre konstitutive Selbstkritik als ForscherInnen oder BeobachterInnen ergänzt werden müssen, um ein transparent ineinandergreifendes und sich selbst korrigierendes und entwickelndes Ensemble von Vermittlungen zu erreichen. </p>
                 <p>Danksagung</p>
@@ -163,67 +155,67 @@
             </div>
         </body>
         <back>
-            <div type="bibliogr">
+            <div>
                 <listBibl>
                     <head>Bibliographie</head>
                     <bibl>Arias-Hernandez, R., Green, T. M., &amp; Fisher, B. (2012). From cognitive amplifiers to cognitive prostheses: Understandings of the material basis of cognition in visual analytics. 
-                        <hi rend="italic">Interdisciplinary Science Reviews</hi>, 
-                        <hi rend="italic">37</hi>(1), 4–18.
+                        <hi>Interdisciplinary Science Reviews</hi>, 
+                        <hi>37</hi>(1), 4–18.
                     </bibl>
                     <bibl>Bubenhofer, N. (2016): Drei Thesen zu Visualisierungspraktiken in den Digital Humanities. In 
-                        <hi rend="italic">Rechtsgeschichte - Legal History</hi>, 
-                        <hi rend="italic">24</hi>, S.351-355. 
+                        <hi>Rechtsgeschichte - Legal History</hi>, 
+                        <hi>24</hi>, S.351-355. 
                     </bibl>
                     <bibl>Butler, J. (2001). Was ist Kritik? Ein Essay über Foucault’s Tugend. 
-                        <hi rend="italic">EIPCP, 5 </hi>(2001).
+                        <hi>EIPCP, 5 </hi>(2001).
                     </bibl>
                     <bibl>Calhoun, C. (1995). 
-                        <hi rend="italic">Critical Social Theory: Culture, History, and the Challenge of Difference</hi>. Cambridge, Mass: Wiley-Blackwell. 
+                        <hi>Critical Social Theory: Culture, History, and the Challenge of Difference</hi>. Cambridge, Mass: Wiley-Blackwell. 
                     </bibl>
                     <bibl>Card, S. K., Mackinlay, J. D., and Shneiderman, B. (1999). Using Vision to Think, chapter 1: Information Visualization, pages 1–34. Morgan Kaufmann.</bibl>
                     <bibl>Dörk, M., Carpendale, S., &amp; Williamson, C. (2011). The information flaneur: A fresh look at information seeking. In 
-                        <hi rend="italic">Proceedings of the SIGCHI conference on human factors in computing systems</hi> (pp. 1215–1224). ACM.
+                        <hi>Proceedings of the SIGCHI conference on human factors in computing systems</hi> (pp. 1215–1224). ACM.
                     </bibl>
                     <bibl>Dörk, M., Feng, P., Collins, C., &amp; Carpendale, S. (2013). Critical InfoVis: exploring the politics of visualization. In 
-                        <hi rend="italic">CHI’13 Extended Abstracts on Human Factors in Computing Systems</hi> (pp. 2189–2198). ACM.  
+                        <hi>CHI’13 Extended Abstracts on Human Factors in Computing Systems</hi> (pp. 2189–2198). ACM.  
                     </bibl>
                     <bibl>Dörk, M., Pietsch, C., &amp; Credico, G. (2017). One view is not enough. High-level visualizations of a large cultural collection. 
-                        <hi rend="italic">Special Issue of Information Design Journal</hi>, 
-                        <hi rend="italic">23(1):39–47</hi>.
+                        <hi>Special Issue of Information Design Journal</hi>, 
+                        <hi>23(1):39–47</hi>.
                     </bibl>
                     <bibl>Drucker, J. (2011). Humanities approaches to graphical display. 
-                        <hi rend="italic">Digital Humanities Quarterly</hi>, 
-                        <hi rend="italic">5</hi>(1), 1–21. 
+                        <hi>Digital Humanities Quarterly</hi>, 
+                        <hi>5</hi>(1), 1–21. 
                     </bibl>
                     <bibl>Foucault, M. (1992). 
-                        <hi rend="italic">Was ist Kritik?</hi>  Berlin: Merve. 
+                        <hi>Was ist Kritik?</hi>  Berlin: Merve. 
                     </bibl>
                     <bibl>Glinka, K., Meier, S., &amp; Dörk, M. (2015). Visualising the» Un-seen «: Towards Critical Approaches and Strategies of Inclusion in Digital Cultural Heritage Interfaces. In C. Busch &amp; J. Sieck (Eds.), 
-                        <hi rend="italic">Kultur und Informatik (XIII) - Cross Media</hi> (pp. 105–118). Berlin: Werner Hülsbusch. 
+                        <hi>Kultur und Informatik (XIII) - Cross Media</hi> (pp. 105–118). Berlin: Werner Hülsbusch. 
                     </bibl>
                     <bibl>Hooland, S. van, &amp; Verborgh, R. (2014). 
-                        <hi rend="italic">Linked Data for Libraries, Archives and Museums: How to clean, link and publish your metadata</hi>. Facet Publishing.
+                        <hi>Linked Data for Libraries, Archives and Museums: How to clean, link and publish your metadata</hi>. Facet Publishing.
                     </bibl>
                     <bibl>Jaeggi, R., &amp; Wesche, T. (2013). 
-                        <hi rend="italic">Was ist Kritik?</hi> Frankfurt: Suhrkamp. 
+                        <hi>Was ist Kritik?</hi> Frankfurt: Suhrkamp. 
                     </bibl>
                     <bibl>Jones, A. L. (1993). Exploding Canons: The Anthropology of Museums. 
-                        <hi rend="italic">Annual Review of Anthropology</hi>, 
-                        <hi rend="italic">22</hi>(1), 201–220. 
+                        <hi>Annual Review of Anthropology</hi>, 
+                        <hi>22</hi>(1), 201–220. 
                     </bibl>
                     <bibl>Latour, B. (2004). Why has critique run out of steam? From matters of fact to matters of concern. 
-                        <hi rend="italic">Critical Inquiry</hi>, 
-                        <hi rend="italic">30</hi>(2), 225–248. 
+                        <hi>Critical Inquiry</hi>, 
+                        <hi>30</hi>(2), 225–248. 
                     </bibl>
                     <bibl>Swartz, D. (2012). 
-                        <hi rend="italic">Culture and power: The sociology of Pierre Bourdieu</hi>. University of Chicago Press. 
+                        <hi>Culture and power: The sociology of Pierre Bourdieu</hi>. University of Chicago Press. 
                     </bibl>
                     <bibl>Whitelaw, M. (2015). Generous Interfaces for Digital Cultural Collections. 
-                        <hi rend="italic">Digital Humanities Quarterly</hi>, 
-                        <hi rend="italic">9</hi>(1). 
+                        <hi>Digital Humanities Quarterly</hi>, 
+                        <hi>9</hi>(1). 
                     </bibl>
                     <bibl>Windhager F., Federico, P., Schreder, G., Glinka, K., Dörk, M., Miksch, S., &amp; Mayr, E.  (2017). Visualization of Cultural Heritage Collection Data: State of the Art and Future Challenges. 
-                        <hi rend="italic">Transactions of Visualization and Computer Graphics </hi>(eingereicht)
+                        <hi>Transactions of Visualization and Computer Graphics </hi>(eingereicht)
                     </bibl>
                 </listBibl>
             </div>

@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Formalisierung von Märchen</title>
+                <author>
+                    <persName>
+                        <surname>Declerck</surname>
+                        <forename>Thierry</forename>
+                    </persName>
+                    <affiliation>DFKI GmbH, Deutschland</affiliation>
+                    <email>declerck@dfki.de</email>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2018-01-16T17:04:00Z</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Prof. Dr. Georg Vogeler</publisher>
+                <address>
+                    <addrLine>UniversitÃ¤t Graz</addrLine>
+                    <addrLine>Zentrum fÃ¼r Informationsmodellierung - Austrian Centre for Digital Humanities</addrLine>
+                    <addrLine>ElisabethstraÃ&#x9f;e 59/III</addrLine>
+                    <addrLine>8010 Graz</addrLine>
+                </address>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Converted from a Word document </p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application>
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term>Paper</term>
+                </keywords>
+                <keywords>
+                    <term>Vortrag</term>
+                </keywords>
+                <keywords>
+                    <term>Formalisierung</term>
+                    <term>XML</term>
+                    <term>Python</term>
+                    <term>Märchen</term>
+                </keywords>
+                <keywords>
+                    <term>Programmierung</term>
+                    <term>Inhaltsanalyse</term>
+                    <term>Modellierung</term>
+                    <term>Projektmanagement</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <head>Introduktion</head>
+                <p>Im Rahmen eines Softwareprojektes
+                    <note>
+                        <p> Mit Beiträgen von Anastasija Aman, Stefan Grünewald, Matthias Lindemann, Lisa Schäfer, Natalia Skachkova.</p>
+                    </note>, das sich mit der automatisierten Analyse von Märchen in deutscher Sprache befasst, hat sich die Notwendigkeit ergeben, eine formale Repräsentation von Märchen zu bestimmen, damit die einzelnen Komponente des Systems miteinander integriert werden können.
+                </p>
+                <p>Wir beschreiben in diesem Beitrag zum einen, welche Informationen in dieser formalen Repräsentation enthalten sind, und zum anderen, wie diese Informationen in XML bzw. Python konkret codiert werden.</p>
+            </div>
+            <div>
+                <head>Kodierte Information</head>
+                <p>Ein Märchen besteht im Sinne unseres Projektes aus den folgenden Bestandteilen:</p>
+                <list>
+                    <item>Eine Menge von Orten, an denen die Handlung spielt;</item>
+                    <item>Eine Menge von Charakteren, die an der Handlung beteiligt sind;</item>
+                    <item>Eine zeitliche Abfolge von Szenen, die jeweils an einem bestimmten Ort spielen und an denen jeweils eine Teilmenge der Märchencharaktere beteiligt ist;</item>
+                    <item>Jede Szene besteht ihrerseits aus einer zeitlichen Abfolge von Dialogakten zwischen den Märchencharakteren oder vom Erzähler zum Zuhörer. Zusammengenommen bilden diese Dialogakte den Märchentext.</item>
+                </list>
+                <p>Im Folgenden werden die verschiedenen Bestandteile, sowie ihre Eigenschaften und Beziehungen untereinander, näher beschrieben.</p>
+                <p>
+                    <hi>Orte</hi>, an denen das Märchen spielt, werden nur über ihren 
+                    <hi>Typ </hi>(Attribut type) charakterisiert. Mögliche Ortstypen sind dabei z.B. Wald, Schloss oder Stall. Daneben existiert außerdem der Typ „Nirgendwo“ für Szenen ohne eindeutig bestimmbaren Ort (z. B. Abschnitte des Märchens, an denen nur der Erzähler beteiligt ist). Jeder Ort erhält eine spezifische ID der Form 
+                    <hi>loc1</hi>, 
+                    <hi>loc2</hi> etc.
+                </p>
+                <p>
+                    <hi>Charaktere</hi> werden über eine Reihe von Eigenschaften beschrieben, welche zum einen inhärente demographische Eigenschaften (Name, Alter, Geschlecht, Typ), sowie zum anderen externe Eigenschaften (Einstellung, Propp-Archetyp – s. (Propp 1977)) beinhalten. Beim 
+                    <hi>Namen </hi>(name) des Charakters handelt es sich um eine Zeichenkette, z.B. „Rapunzel.“ (Wird ein Charakter auf mehrere Arten gerufen, so wird die häufigste Bezeichnung gewählt.) 
+                    <hi>Alter </hi>(age) des Charakters wird nicht in Zahlen, sondern in Stufen angegeben, da Märchen im Allgemeinen keine genauen Altersangaben enthalten; die möglichen Werte sind dabei „toddler“, „child“, „teenager“, „young adult“, „adult“ und „senior“. Das 
+                    <hi>Geschlecht </hi>(gender) des Charakters wird den klassischen Vorstellungen folgend entweder mit „male“ oder „female“ angegeben. Zusätzlich gibt es den Wert „none“ für geschlechtlich unterspezifizierte Charaktere wie Tiere, Monster usw. Der 
+                    <hi>Typ </hi>des Charakters unterscheidet z. B. zwischen „human“ oder „animal/monster“. Für „animal/monster“ unterscheiden wir zusätzlich nach 
+                    <hi>Subtypen</hi>, z.B. für Tiere nach Größe, also „small“, „medium“ oder „big“, oder „witch“ und „demon“ für einen bestimmten Monstertyp. Eine binäre Feststellung der 
+                    <hi>Einstellung bzw. Gesinnung </hi>des Charakters verortet diesen auf der Gut-/Böse-Achse: „evil“ oder „neutral“. Außerdem wird der 
+                    <hi>Propp-Archetyp </hi>des Charakters angegeben: „hero“, „villain“ etc. (Propp, 1977). Jeder Charakter erhält eine spezifische ID von der Form 
+                    <hi>ch1</hi>, 
+                    <hi>ch2</hi> usw. Außerdem gehören zu jedem Märchen zwei „Dummy“-Charaktere für Erzähler und Zuhörer, welche stets die IDs 
+                    <hi>ch0</hi> bzw. 
+                    <hi>ch-1</hi> und die Typen „narrator“ bzw. „listener“ zugewiesen bekommen. Dies ist nötig, um auch Passagen darstellen zu können, welche vom Erzähler gesprochen werden, der selbst ja kein eigentlicher Charakter der Handlung ist. Dies ist notwendig, um ein automatisches „Vorlesen“ des Märchens zu implementieren.
+                </p>
+                <p>
+                    <hi>Szenen</hi> werden im Hinblick auf Zeit, Ort, beteiligte Charaktere sowie Propp Funktionen (Propp, 1977) beschrieben. Der 
+                    <hi>Zeitpunkt </hi>(time), zu dem die Szene spielt, wird anhand einer ID der Form 
+                    <hi>t1</hi>, 
+                    <hi>t2</hi> usw. angegeben, wobei die IDs den linearen Ablauf der Zeit darstellen. Der 
+                    <hi>Ort </hi>(location), an dem die Szene spielt, wird als String in Großbuchstaben angegeben, ausgewählt aus einer Liste mit Möglichkeiten. Der 
+                    <hi>Übergang zur nächsten Szene </hi>(transition) wird ebenfalls codiert, indem das Bewegungsverb, das den Übergang von einem Ort zum anderen beschreibt, oder die Phrase, die stattdessen den Szenenwechsel einleitet, angegeben wird. Die an der Handlung der Szene beteiligten 
+                    <hi>Charaktere </hi>werden mit ihren IDs angegeben, also z. B. 
+                    <hi>ch2</hi>, 
+                    <hi>ch3</hi>, 
+                    <hi>ch5</hi>. Dabei werden alle Charaktere berücksichtigt, die in der Szene zugegen sind, auch wenn diese bspw. nicht sprechen. Die Propp-Funktionen und -Subfunktionen der Szene werden mit ihrem Symbol (nach der englischen Ausgabe Propp (1977)) angegeben, also z. B. A4 – „theft of daylight“. Jede Szene erhält eine spezifische ID der Form 
+                    <hi>s1</hi>, 
+                    <hi>s2</hi> etc. Da die Märchenhandlung im Allgemeinen linear erzählt wird, ist der Index üblicherweise (aber nicht notwendigerweise) identisch mit demjenigen des Zeitpunkts der Szene, d. h. die Szene 
+                    <hi>s1</hi> wird üblicherweise zum Zeitpunkt 
+                    <hi>t1</hi> spielen usw. Jeder Szene sind 
+                    <hi>Dialogakte </hi>untergeordnet, denen der zu dieser Szene gehörige Text entspricht.
+                </p>
+                <p>
+                    <hi>Dialogakte</hi> werden im Hinblick auf ihre Sprecher und Adressaten, ihren Inhalt sowie ihren Zeitpunkt beschrieben. Der 
+                    <hi>Zeitpunkt </hi>(time), zu dem der Dialogakt geäußert wird, wird anhand einer ID angegeben, welche eine Spezifizierung der ID des Zeitpunkts der zugehörigen Szene darstellt. Spielt z. B. Szene 
+                    <hi>s5</hi> zum Zeitpunkt 
+                    <hi>t5</hi>, so haben die zugehörigen Dialogakte die Zeitpunkte 
+                    <hi>t5.1</hi>, 
+                    <hi>t5.2</hi> usw. Der 
+                    <hi>Sprecher </hi>(speaker) des Dialogakts wird über seine ID angegeben. Der 
+                    <hi>Adressat </hi>bzw. die 
+                    <hi>Adressaten </hi>(receiver) des Dialogakts werden über eine Liste von Charakter-IDs angegeben, z.B. 
+                    <hi>ch2</hi>, 
+                    <hi>ch4</hi>, 
+                    <hi>ch6</hi>. Passagen des Erzählers stellen dabei einen Spezialfall dar: Sie werden als Dialogakte des Erzählers mit dem Zuhörer bzw. Leser betrachtet, d. h. der „Dummy“-Charakter des Erzählers wird als Sprecher angegeben und der Dummy-Charakters des Zuhörers als Empfänger. Abgesehen davon werden sie behandelt wie Dialogakte zwischen Charakteren. Jeder Dialogakt erhält eine spezifische ID, die – unabhängig von der Szenestruktur – linear hochgezählt wird, also 
+                    <hi>d1</hi>, 
+                    <hi>d2</hi> usw.
+                </p>
+            </div>
+            <div>
+                <head>XML-Repräsentation</head>
+                <p>Die oben beschriebenen Informationen lassen sich im XML-Format darstellen. Dabei wird eine XML-Baumstruktur genutzt, um die Hierarchie der verschiedenen Objekte zu repräsentieren. Das Wurzelelement des Dokuments hat stets den Bezeichner Tale und die Attribute „title“ und „annotator“, welche Titel und den Namen des Annotators des jeweiligen Märchens enthalten:</p>
+                <p>
+                    <hi>
+                        <hi>1</hi>: 
+                    </hi>Struktur des Tale-Wurzelelements (Beispiel).
+                </p>
+                <p>&lt;Tale title="Froschkönig" annotator="Lisa Schäfer"&gt; ... &lt;/Tale&gt;</p>
+                <p>Diesem Element untergeordnet sind die Elemente Characters, Locations und Text. Das Characters-Element enthält Character-Subelemente, die jeweils die gesammelten Informationen für einen Charakter speichern:</p>
+                <p>
+                    <hi>
+                        <hi>2</hi>: 
+                    </hi>Struktur des Characters-Elements (Beispiel).
+                </p>
+                <p>&lt;Character id="ch1" name="Frosch" age="adult" gender="male" type="animal_monster" subtype="small" attitude="neutral" archetype="hero"&gt; &lt;/Character&gt;</p>
+                <p>Analog dazu enthält das Locations-Element untergeordnete Location-Elemente, die jeweils einen Ort codieren:</p>
+                <p>
+                    <hi>3: </hi>Struktur des Locations-Elements (Beispiel).
+                </p>
+                <p>&lt;Location id="loc1" type="WALD"&gt; &lt;/Location&gt;</p>
+                <p>Das Text-Element enthält schließlich den eigentlichen Märchentext. Dieser ist auf die verschiedenen Szenen – repräsentiert durch Szene-Elemente – aufgeteilt, welche wiederum die verschiedenen Dialogakte (Dialog-Elemente) enthalten:</p>
+                <p>
+                    <hi>4: </hi>Struktur des Text- und Szene-Elemente (Beispiel).
+                </p>
+                <p>&lt;Text&gt;&lt;Scene id="s2" time="t2" location="loc1" characters="ch1,ch2" propp_functions="d|e" propp_subfunctions="D7|E10" transition="gehen"&gt;</p>
+                <p>...</p>
+                <p>&lt;Dialogue id="d5" time="t2.4" speaker="ch2" receiver="ch1"&gt; Ach, du bist’s, alter Wasserpatscher, &lt;/Dialogue&gt;</p>
+                <p>...</p>
+                <p>&lt;/Scene&gt;&lt;/Text&gt;</p>
+                <p>Beim Entwurf des XML-Schemas wurde besonders Wert auf Übersichtlichkeit und Leserlichkeit gelegt. Trotz der Vielzahl der kodierten Informationen sind die resultierenden XML-Dateien daher vergleichsweise kompakt; so besteht die XML-Repräsentation des (vergleichsweise langen) Märchens „
+                    <hi>Hänsel und Gretel“ </hi>bspw. nur aus 226 Zeilen.
+                </p>
+                <p>Diese XML Repräsentation basiert auf und erweitert das Annotation Schema, das in (Scheidel &amp; Declerck, 2010) beschrieben wird.</p>
+            </div>
+            <div>
+                <head>Python-Repräsentation</head>
+                <p>Auf der Grundlage der oben beschriebenen XML-Struktur kann eine Python-Klassenstruktur aufgebaut werden, die ein Märchen sowie seine einzelnen Teile als Python-Objekte repräsentiert.</p>
+                <p>Neben einer Oberklasse Tale gibt es für jeden der oben beschriebenen Teile eine eigene Python-Klasse, d. h. die Klassen Location, Character, Scene und Dialogue. (Insgesamt bestehen die Dateien zur Märchen-Repräsentation aus 288 Zeilen Code.) Jede Klasse enthält dabei als Attribute die oben beschriebenen Eigenschaften, wobei diese auch Verweise auf andere Elemente darstellen können. So verweisen bspw. Dialogue-Objekte auf die Character-Objekte von Sprecher und Empfängern. Der Python-Code dient als Interface für drei Anwendungen. Erstens können Märchen aus bestehenden XML-Dateien eingelesen werden; zweitens können XML-Dateien anhand einer anderweitig (z. B. durch automatische Klassifizierung) erzeugten Python-Märchenstruktur generiert werden; und drittens kann anderer Python-Code auf die Märchen-Information zugreifen, was die Grundlage für Anwendungen wie Text-to-Speech oder Visualisierung bildet. Sowohl die XML Kodierung als auch die Python Objekte interagieren mit einer Märchen-Ontologie interagieren, die eine Erweiterung der in (Koleva et al., 2012) beschriebenen Ontologie ist.</p>
+                <p>Somit haben wir eine formale Repräsentation von Märchen, die in verschiedenen Anwendungen zum Tragen kommen kann.</p>
+            </div>
+        </body>
+        <back>
+            <div>
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl>Propp, Vladimir ; Scott, Laurence (Hrsg.): Morphology of the folktale. 2. überarbeitete Auflage. Austin, TX u.a., 1977</bibl>
+                    <bibl>Antonia Scheidel and Thierry Declerck. 2010. Apftml - augmented proppian fairy tale markup language. In Sándor Dar´anyi and Piroska Lendvai, editors, First International AMICUS Workshop on Automated Motif Discovery in Cultural Heritage and Scientific Communication Texts. Szeged University.</bibl>
+                    <bibl>Nikolina Koleva, Thierry Declerck, and Hans-Ulrich Krieger. 2012. An ontology-based iterative text processing strategy for detecting and recognizing characters in folktales. In Jan Christoph Meister, editor, Digital Humanities 2012 Conference Abstracts, pages 467–470, Hamburg, 7. University of Hamburg, Hamburg University Press</bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

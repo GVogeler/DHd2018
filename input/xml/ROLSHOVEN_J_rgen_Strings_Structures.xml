@@ -3,9 +3,9 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title type="full">
-                    <title type="main">Strings&amp;Structures</title>
-                    <title type="sub"/>
+                <title>
+                    <title>Strings&amp;Structures</title>
+                    <title/>
                 </title>
                 <author>
                     <persName>
@@ -60,20 +60,20 @@
         </fileDesc>
         <encodingDesc>
             <appInfo>
-                <application ident="DHCONVALIDATOR" version="1.17">
+                <application>
                     <label>DHConvalidator</label>
                 </application>
             </appInfo>
         </encodingDesc>
         <profileDesc>
             <textClass>
-                <keywords scheme="ConfTool" n="category">
+                <keywords>
                     <term>Paper</term>
                 </keywords>
-                <keywords scheme="ConfTool" n="subcategory">
+                <keywords>
                     <term>Poster</term>
                 </keywords>
-                <keywords scheme="ConfTool" n="keywords">
+                <keywords>
                     <term>Aufdeckungsverfahren</term>
                     <term>Lernverfahren</term>
                     <term>KI</term>
@@ -81,7 +81,7 @@
                     <term>Bioinfomratik</term>
                     <term>Computerlinguistik</term>
                 </keywords>
-                <keywords scheme="ConfTool" n="topics">
+                <keywords>
                     <term>Inhaltsanalyse</term>
                     <term>Strukturanalyse</term>
                     <term>Theoretisierung</term>

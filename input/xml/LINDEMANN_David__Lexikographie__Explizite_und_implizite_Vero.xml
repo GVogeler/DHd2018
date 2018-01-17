@@ -3,9 +3,9 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title type="full">
-                    <title type="main"> Lexikographie: Explizite und implizite Verortung in den Digital Humanities</title>
-                    <title type="sub"/>
+                <title>
+                    <title> Lexikographie: Explizite und implizite Verortung in den Digital Humanities</title>
+                    <title/>
                 </title>
                 <author>
                     <persName>
@@ -44,27 +44,27 @@
         </fileDesc>
         <encodingDesc>
             <appInfo>
-                <application ident="DHCONVALIDATOR" version="1.17">
+                <application>
                     <label>DHConvalidator</label>
                 </application>
             </appInfo>
         </encodingDesc>
         <profileDesc>
             <textClass>
-                <keywords scheme="ConfTool" n="category">
+                <keywords>
                     <term>Paper</term>
                 </keywords>
-                <keywords scheme="ConfTool" n="subcategory">
+                <keywords>
                     <term>Vortrag</term>
                 </keywords>
-                <keywords scheme="ConfTool" n="keywords">
+                <keywords>
                     <term>Lexikographie</term>
                     <term>Digital Humanities</term>
                     <term>Diskursräume</term>
                     <term>Topic Modeling</term>
                     <term>Bibliometrisches Netwerk</term>
                 </keywords>
-                <keywords scheme="ConfTool" n="topics">
+                <keywords>
                     <term>Sammlung</term>
                     <term>Inhaltsanalyse</term>
                     <term>Community-Bildung</term>
@@ -77,35 +77,35 @@
     </teiHeader>
     <text>
         <body>
-            <div type="div1" rend="DH-Heading1">
+            <div>
                 <head>Zusammenfassung</head>
                 <p>Ziel der hier vorgestellten Studie ist eine Beschreibung der Schnittmenge von Diskursräumen in der Lexikographie bzw. Metalexikographie und den Digital Humanities (DH). Dabei geht es um die Bestimmung von explizit bzw. implizit als Teil der DH aufzufassenden Beiträgen zu lexikographischen Themen und, andersherum, von lexikographierelevanten Themen, die in den DH diskutiert werden. Zur Bestimmung der Diskursräume, von Schnitt- und disjunktiven Mengen, werden Volltexte und Metadaten analysiert, bibliometrische Netzwerke (Autoren- bzw. Zitationsnetzwerke) verglichen und Topic Modelings vorgenommen.</p>
             </div>
-            <div type="div1" rend="DH-Heading1">
+            <div>
                 <head>Einleitung</head>
                 <p>Der Einzug digitaler Methoden und Werkzeuge in die Geistes- und Sozialwissenschaften, genauer: der als „computational turn“ (Berry 2011) bezeichnete methodisch-epistemologische Quantensprung, lässt sich in allen Disziplinen der Humanities beobachten. In der Sprachwissenschaft hat sich dieser Wandel bekanntermaßen besonders deutlich in der Etablierung der Computerlinguistik als eigene Disziplin niedergeschlagen. Neben computerlinguistischen Verfahren der Textanalyse sind eine maschinenlesbare Wissensrepräsentation und -organisation, sind Formate für digitale Editionen und komputationell erstellte Visualisierungen heute in allen textbasierten Disziplinen in Gebrauch.</p>
                 <p>Der angesprochene Wandel lässt sich ebenfalls in der Lexikographie feststellen. Die Lexikographie bzw. Metalexikographie, als solche bereits seit geraumer Zeit als Disziplin emanzipiert (Tarp 2008; Wiegand 2013), haben den Übergang zum digitalen Medium inzwischen vollzogen (cf. zum frühen Stand der Dinge De Schryver 2003) und sind beständig dabei, ihr komputationell informiertes methodisches Instrumentarium weiterzuentwickeln (Heid 2013). Als zentrale Aspekte gelten hier der Einzug korpuslinguistischer Verfahren in die Lexikographie (Hanks 2008; Heid 2008), komputationelle Methoden zur Datenrepräsentation (Spohr 2012), speziell auch für die digitale Edition historischer Wörterbücher (Lemnitzer u. a. 2013) und zur Implementierung funktionsgerichteter Benutzerschnittstellen (Heid 2014) sowie zur Wörterbuchbenutzungsforschung (Müller-Spitzer 2014).</p>
                 <p>In der hier vorgestellten Studie gehen wir der Frage nach, wie sich der gemeinsame Diskursraum als Schnittmenge von Lexikographie und Digital Humanities mit quantitativen Methoden definieren lässt. Nach einer nicht exhaustiven und von Hand durchgeführten Voruntersuchung folgen wir der Ausgangshypothese, der gemeinsame Diskursraum sei um ein Vielfaches größer als man annehmen könnte, folgte man allein denjenigen Themen, die als lexikographierelevant gelten können und die in Publikationen diskutiert werden, die explizit zum Bereich der DH gehören (vgl. Abb. 1).</p>
                 <p>
                     <figure>
-                        <graphic url="Pictures/100000000000022F0000018D05ADDE0B7CF7FC8F.jpg"/>
+                        <graphic/>
                     </figure>Abb. 1: Ausgangshypothese: Explizite und implizite Schnittmengen.
                 </p>
                 <p>Diejenigen Arbeiten, die im DH-Kontext veröffentlicht werden und explizit einem Thema der Lexikographie zugeordnet werden, sind recht leicht über relevante Schlüsselwörter bestimmbar. Dazu tritt die Gruppe jener Publikationen, die zur eingangs skizzierten Schnittmenge zu zählen sind, ohne dass sie sich selbst ausdrücklich den Digital Humanities zuordnen. Es ist das Ziel dieser Untersuchung, zu bestimmen, welche in der Lexikographie diskutierten Themen und welche Autoren zu dieser Gruppe gerechnet werden und also eine Zurechnung zu den Digital Humanities 
-                    <hi rend="italic">implizieren</hi> können.
+                    <hi>implizieren</hi> können.
                 </p>
             </div>
-            <div type="div1" rend="DH-Heading1">
+            <div>
                 <head>Voruntersuchung und Zwischenergebnis: Explizite Verortung in den DH</head>
                 <p>Als Voruntersuchung zum benannten Gegenstand haben wir eine Recherche in den Archiven bedeutender englischsprachiger Zeitschriften der Digital Humanities
-                    <note xml:id="ftn1" place="foot" n="1"> Digital Humanities Quarterly, DSH, TEI Journal</note> sowie in den Proceedings der ADHO-Jahreskonferenzen
-                    <note xml:id="ftn2" place="foot" n="2">
-                        <ref target="http://adho.org/">http://adho.org</ref>
+                    <note> Digital Humanities Quarterly, DSH, TEI Journal</note> sowie in den Proceedings der ADHO-Jahreskonferenzen
+                    <note>
+                        <ref>http://adho.org</ref>
                     </note> durchgeführt. Über die Suchbegriffe „Lexicography“ und „Dictionary“ finden sich in den genannten Archiven 31 englischsprachige Beiträge, die sich mit lexikographischen Themen befassen, und die sich qua Erscheinen in DH-Medien zu denjenigen Publikationen zählen lassen, die sich explizit in den Digital Humanities verorten.
                 </p>
                 <p>Eine manuelle Zuordnung lexikographierelevanter Schlüsselwörter zu den genannten 31 Beiträgen ergibt das in Tabelle 1 wiedergegebene Bild; dabei sind mehrfache Zuordnungen möglich. Zunächst lässt sich ohne Verwunderung feststellen, dass in allen Beiträgen die digitale Repräsentation lexikalischer Daten eine Rolle spielt, allerdings mit unterschiedlichen Fragestellungen, Herangehensweisen und Zielsetzungen. Die drei größten Themencluster haben wir hier, in dieser Reihenfolge, mit den Schlagwörtern „e-Wörterbücher / Visualisierung lexikalischer Daten“, „Historische Lexikographie“ und „Korpuslinguistik“ bezeichnet. Ersteres benennt Fragen der Produktion digitaler Wörterbücher einschließlich neuer Methoden der Visualisierung, letzteres die Erstellung und Nutzung elektronischer Textkorpora zu einer Reihe lexikographischer Zwecke. Beide Bereiche sind durch die Heraufkunft digitaler Methoden überhaupt erst möglich geworden und haben die Lexikographie revolutioniert. Die Historische Lexikographie kann als philologische Disziplin gelten, die sich mit der Edition historischer lexikalischer Datensammlungen befasst; die diesem Schlüsselwort zugeordneten Beiträge befassen sich grundsätzlich mit Methoden digitaler Edition, einem Kernbereich der DH.</p>
-                <table rend="frame" xml:id="Tabelle1">
-                    <row role="label">
+                <table>
+                    <row>
                         <cell>Schlüsselwort (Topic)</cell>
                         <cell>Zählung</cell>
                     </row>
@@ -149,65 +149,65 @@
                 <p>Tabelle 1: Schlüsselwörter, manuelles Clustering, manuelle Zählung</p>
                 <p>Unter den weniger häufig gewählten Schlüsselwörtern sticht das „Wörterbuchnetz“ hervor, das Strategien zur Vernetzung lexikalischer Ressourcen bezeichnet. Hinzu kommen noch lexikalische Datensammlungen zur Anwendung in der maschinellen Sprachverarbeitung („NLP-Lexicon“), Methoden zum Entwurf zweisprachiger Wörterbuchinhalte („Bilingual Dictionary Drafting“), das „Autorenwörterbuch“, also Extraktionen aus Korpora, die aus dem Schaffen jeweils einer Literatin oder eines Literaten bestehen, sowie in einem Fall dialektologische Forschung mit digitalen Methoden.</p>
             </div>
-            <div type="div1" rend="DH-Heading1">
+            <div>
                 <head>Methode für die Bestimmung implizit in den DH verorteter Arbeiten</head>
                 <p>Wir haben ein Textkorpus erstellt, das im Zeitraum 2000 bis zur Gegenwart (2018) erschienene englischsprachige Beiträge aus Zeitschriften, Kongressakten und Handbüchern zu den Digital Humanities (Subkorpus DH) und der Lexikographie (Subkorpus Lexicog) enthält; Tabelle 2 gibt die Titel der verarbeiteten Quellen wieder. Dabei wurden die ausgewählten Zeitschriften bzw. Sammelbände jeweils vollständig berücksichtigt; die Beiträge wurden zusammen mit Metadaten, u. a. Verfasser (Name und Affiliation), Datum, Textsorte, Umfang und Identifier (ISBN, DOI), im Tool Zotero
-                    <note xml:id="ftn3" place="foot" n="3">
-                        <ref target="http://www.zotero.org/">http://www.zotero.org</ref>
+                    <note>
+                        <ref>http://www.zotero.org</ref>
                     </note> verwaltet. Die Volltexte wurden semiautomatisch bereinigt und zusammen mit Metadatensätzen in das Korpus aufgenommen. Darüber hinaus wurden die in den Volltexten enthaltenen bibliographischen Referenzen extrahiert (GROBID, Lopez 2009).
                 </p>
-                <table rend="frame" xml:id="Tabelle2">
+                <table>
                     <row>
-                        <cell rows="5" rend="start">DH / 1.422 (41%)</cell>
+                        <cell>DH / 1.422 (41%)</cell>
                         <cell>Digital Humanities Quarterly: 
-                            <ptr target="http://www.digitalhumanities.org/dhq"/> / 284
+                            <ptr/> / 284
                         </cell>
                     </row>
                     <row>
                         <cell>DSH (ex LLC):
-                            <ref target="https://academic.oup.com/dsh">https://academic.oup.com/dsh</ref> / 886
+                            <ref>https://academic.oup.com/dsh</ref> / 886
                         </cell>
                     </row>
                     <row>
                         <cell>TEI Journal of the Text Encoding Initiative:
-                            <ref target="http://jtei.revues.org/">http://jtei.revues.org</ref> / 63
+                            <ref>http://jtei.revues.org</ref> / 63
                         </cell>
                     </row>
                     <row>
                         <cell>Digital Studies/Le champ numerique: 
-                            <ptr target="https://www.digitalstudies.org/"/> / 152
+                            <ptr/> / 152
                         </cell>
                     </row>
                     <row>
                         <cell>Blackwell Companion to DH: Schreibman et al. (ed.) 2004 / 37</cell>
                     </row>
                     <row>
-                        <cell rows="7" rend="start">Lexikog
+                        <cell>Lexikog
                             <lb/>/ 2.056
                             <lb/>(59%)
                         </cell>
                         <cell>IJL: 
-                            <ref target="http://ijl.oxfordjournals.org/2">http://ijl.oxfordjournals.org/</ref> 282
+                            <ref>http://ijl.oxfordjournals.org/</ref> 282
                         </cell>
                     </row>
                     <row>
                         <cell>Lexikos: 
-                            <ptr target="http://lexikos.journals.ac.za/pub"/> / 376
+                            <ptr/> / 376
                         </cell>
                     </row>
                     <row>
                         <cell>Dictionaries (Journal of the DSNA): 
-                            <ptr target="https://muse.jhu.edu/journal/540"/> / 257
+                            <ptr/> / 257
                         </cell>
                     </row>
                     <row>
                         <cell>Euralex: 
-                            <ptr target="https://euralex.org/publications/"/> / 782
+                            <ptr/> / 782
                         </cell>
                     </row>
                     <row>
                         <cell>eLex: 
-                            <ptr target="https://elex.link/"/> / 202
+                            <ptr/> / 202
                         </cell>
                     </row>
                     <row>
@@ -218,23 +218,23 @@
                     </row>
                 </table>
                 <p>Tabelle 2: Quellen für das DH/Lexikog Textkorpus / Zahl der Volltexte</p>
-                <div type="div2" rend="DH-Heading2">
+                <div>
                     <head>Topic Modeling </head>
                     <p>Unüberwachtes Topic Modeling (LDA, eingesetztes Tool: MALLET (McCallum 2002)) soll es uns ermöglichen, die in Abb. 1 grob skizzierten Mengen als sich überschneidende Diskursräume zu bestimmen und zu visualisieren. Unsere Ergebnisse zeigen die relative Relevanz in beiden Subkorpora von 50 durch den LDA-Algorithmus bestimmten, jeweils mit einer Reihe von Schlüssel-Tokens repräsentierten Topics. Eine Reihe von Anhaltspunkten spricht für das zuverlässige Funktionieren der Methode: Die Liste der Topics, die besonders DH-relevant seien, wird von den Tokens „digital humanities computing tools“ angeführt, die Liste der Lexikographie-Topics von „dictionary dictionaries english words word learners language“.</p>
                     <p>Bei der Ansicht der im Mittelfeld befindlichen Topics, also Themen, die in beiden Subcorpora als relevant bezeichnet sind, stellt sich heraus, dass sich hier nicht nur der digitale Wandel als Thema widerspiegelt, sondern dass darüber hinaus weitere Topics den gemeinsamen Diskursraum von Lexikographie und DH ausmachen. Inmitten von Zeilen, die, quasi erwartungsgemäß, Tokens wie „information model data structure process analysis“ oder „corpus words frequency texts word corpora table“ sowie eine ganze Reihe von Namen natürlicher Sprachen enthalten, ist hier etwa das mit den Tokens „women male female gender woman man people [...] black [...] girl feminist [...]“ repräsentierte Topic auffällig (40 der 100 für dieses Topic relevantesten Beiträge stammen aus dem DH-, 60 aus dem Lexikog-Subkorpus).</p>
                     <p>Abbildung 2 zeigt für 50 von MALLET bestimmte Topics (Spalten) die Verteilung der 100 jeweils relevantesten Texte über die Subcorpora (Ausgabe von MALLET; DH-Beiträge sind grün, Lexicog-Beiträge violett unterlegt). Es wird deutlich, dass ein Teil der Topics eindeutig einem der Subkorpora zuzurechnen ist, andere Topics dagegen eine starke Durchmischung aufweisen.</p>
                     <p>
                         <figure>
-                            <graphic url="Pictures/100000000000080000000404C39E377C37040386.jpg"/>
+                            <graphic/>
                         </figure>Abb. 2: Visualisierung des Topic Modeling
                     </p>
                 </div>
-                <div type="div2" rend="DH-Heading2">
+                <div>
                     <head>Citation Network</head>
                     <p>Für alle Artikel des Korpus (siehe Tabelle 2) untersuchten wir die Anzahl der auf Items innerhalb des Netzwerks gerichteten Zitationen. Es zeigten sich 2.431 Zitationen (31% DH, 69% Lexicog). Die Zitationen aus DH sind nur zu 2% auf items aus Lexicog gerichtet; die Zitationen aus Lexicog zu 1% auf items aus DH.</p>
                 </div>
             </div>
-            <div type="div1" rend="DH-Heading">
+            <div>
                 <head>Ergebnisse und Schlussfolgerungen</head>
                 <p>Die vorgestellten korpuslinguistischen und bibliometrischen Untersuchungen bieten wie beschrieben Aufschluss über Schnitt- und disjunkte Mengen von Themen- und Autorenclustern der Lexikographie und der Digital Humanities. Visualisierungen dieser Cluster und Listen der relevanten Keywords und Autoren werden bereitgestellt. Topic Modeling und Zitationsnetzwerke bilden unterschiedlich große Schnittmengen zwischen beiden Disziplinen ab: Während einerseits deutlich wird, dass eine ganze Reihe von Themen in beiden Disziplinen relevant ist, zitiert man sich vergleichsweise selten gegenseitig.</p>
                 <p>Die gezeigten Ergebnisse können zunächst zu einer verbesserten gegenseitigen Wahrnehmung in Lexikographie und Digital Humanities beitragen sowie in der lexikographischen Community das Bewusstsein dafür stärken, ein Gutteil der Disziplin gehöre durch die inhaltliche Überschneidung de facto zum Einflussbereich der Digital Humanities. Dies wiederum kann in der Zukunft zu einer stärkeren expliziten Verortung relevanter lexikographischer Beiträge in den Digital Humanities führen.</p>
@@ -242,88 +242,88 @@
             </div>
         </body>
         <back>
-            <div type="bibliogr">
+            <div>
                 <listBibl>
                     <head>Bibliographie</head>
                     <bibl>
-                        <hi rend="bold">Berry, David M.</hi> (2011): „The Computational Turn: Thinking About the Digital Humanities“. (The Computational Turn). In 
-                        <hi rend="italic">Culture Machine</hi> 12 (0).
+                        <hi>Berry, David M.</hi> (2011): „The Computational Turn: Thinking About the Digital Humanities“. (The Computational Turn). In 
+                        <hi>Culture Machine</hi> 12 (0).
                     </bibl>
                     <bibl>
-                        <hi rend="bold">De Schryver, Gilles-Maurice</hi> (2003): „Lexicographers’ Dreams in the Electronic‐Dictionary Age“. In 
-                        <hi rend="italic">International Journal of Lexicography</hi> 16 (2): 143–199.
+                        <hi>De Schryver, Gilles-Maurice</hi> (2003): „Lexicographers’ Dreams in the Electronic‐Dictionary Age“. In 
+                        <hi>International Journal of Lexicography</hi> 16 (2): 143–199.
                     </bibl>
                     <bibl>
-                        <hi rend="bold">Fuertes-Olivera, Pedro</hi> (ed.) (2018): 
-                        <hi rend="italic">The Routledge Handbook of Lexicography</hi>. London: Routledge.
+                        <hi>Fuertes-Olivera, Pedro</hi> (ed.) (2018): 
+                        <hi>The Routledge Handbook of Lexicography</hi>. London: Routledge.
                     </bibl>
                     <bibl>
-                        <hi rend="bold">Gouws, R</hi>
-                        <hi rend="bold">ufus / </hi>
-                        <hi rend="bold">Heid, </hi>
-                        <hi rend="bold">Ulrich</hi>
-                        <hi rend="bold"> / </hi>
-                        <hi rend="bold">Schweickard,</hi>
-                        <hi rend="bold"> </hi>
-                        <hi rend="bold">Wolfgang</hi>
-                        <hi rend="bold"> /</hi>
-                        <hi rend="bold"> </hi>
-                        <hi rend="bold">Wiegand, </hi>
-                        <hi rend="bold">Herbert E.</hi> (eds.). (2013): 
-                        <hi rend="italic">Dictionaries. An International Encyclopedia of Lexicography</hi>. HSK 5/4. Berlin / Boston: De Gruyter Mouton.
+                        <hi>Gouws, R</hi>
+                        <hi>ufus / </hi>
+                        <hi>Heid, </hi>
+                        <hi>Ulrich</hi>
+                        <hi> / </hi>
+                        <hi>Schweickard,</hi>
+                        <hi> </hi>
+                        <hi>Wolfgang</hi>
+                        <hi> /</hi>
+                        <hi> </hi>
+                        <hi>Wiegand, </hi>
+                        <hi>Herbert E.</hi> (eds.). (2013): 
+                        <hi>Dictionaries. An International Encyclopedia of Lexicography</hi>. HSK 5/4. Berlin / Boston: De Gruyter Mouton.
                     </bibl>
                     <bibl>
-                        <hi rend="bold">Hanks, Patrick</hi> (2008). „The Lexicographical Legacy of John Sinclair“. In 
-                        <hi rend="italic">International Journal of Lexicography</hi> 21 (3): 219–229.
+                        <hi>Hanks, Patrick</hi> (2008). „The Lexicographical Legacy of John Sinclair“. In 
+                        <hi>International Journal of Lexicography</hi> 21 (3): 219–229.
                     </bibl>
                     <bibl>
-                        <hi rend="bold">Heid, Ulrich</hi> (2008). „Corpus linguistics and lexicography“. In Anke Lüdeling / Merja Kytö (ed.) 
-                        <hi rend="italic">Corpus Linguistics. An international Handbook</hi>: 131–153. Berlin: Mouton de Gruyter.
+                        <hi>Heid, Ulrich</hi> (2008). „Corpus linguistics and lexicography“. In Anke Lüdeling / Merja Kytö (ed.) 
+                        <hi>Corpus Linguistics. An international Handbook</hi>: 131–153. Berlin: Mouton de Gruyter.
                     </bibl>
                     <bibl>
-                        <hi rend="bold">Heid, Ulrich</hi> (2013): „The impact of computational lexicography“. In Gouws et al. 2013: 24–30.
+                        <hi>Heid, Ulrich</hi> (2013): „The impact of computational lexicography“. In Gouws et al. 2013: 24–30.
                     </bibl>
                     <bibl>
-                        <hi rend="bold">Heid, Ulrich</hi> (2014): „Natural Language Processing Techniques for Improved User-friendliness of Electronic Dictionaries“. In 
-                        <hi rend="italic">Proceedings of EURALEX 2012</hi>: 47–61.
+                        <hi>Heid, Ulrich</hi> (2014): „Natural Language Processing Techniques for Improved User-friendliness of Electronic Dictionaries“. In 
+                        <hi>Proceedings of EURALEX 2012</hi>: 47–61.
                     </bibl>
                     <bibl>
-                        <hi rend="bold">Lemnitzer, Lothar / Romary, </hi>
-                        <hi rend="bold">Laurent</hi>
-                        <hi rend="bold"> / </hi>
-                        <hi rend="bold">Witt, </hi>
-                        <hi rend="bold">Andreas </hi>(2013): „Representing human and machine dictionaries in markup languages (SGML, XML)“. In Gouws et al. 2013: 1195–1209.
+                        <hi>Lemnitzer, Lothar / Romary, </hi>
+                        <hi>Laurent</hi>
+                        <hi> / </hi>
+                        <hi>Witt, </hi>
+                        <hi>Andreas </hi>(2013): „Representing human and machine dictionaries in markup languages (SGML, XML)“. In Gouws et al. 2013: 1195–1209.
                     </bibl>
                     <bibl>
-                        <hi rend="bold">Lopez, Patrice</hi> (2009): „GROBID: Combining Automatic Bibliographic Data Recognition and Term Extraction for Scholarship Publications“. In 
-                        <hi rend="italic">Research and Advanced Technology for Digital Libraries</hi>: 473–474. Lecture Notes in Computer Science. Berlin / Heidelberg: Springer
+                        <hi>Lopez, Patrice</hi> (2009): „GROBID: Combining Automatic Bibliographic Data Recognition and Term Extraction for Scholarship Publications“. In 
+                        <hi>Research and Advanced Technology for Digital Libraries</hi>: 473–474. Lecture Notes in Computer Science. Berlin / Heidelberg: Springer
                     </bibl>
                     <bibl>
-                        <hi rend="bold">McCallum, Andrew K.</hi> (2002): 
-                        <hi rend="italic">MALLET: A Machine Learning for Language Toolkit</hi>. http://mallet.cs.umass.edu/.
+                        <hi>McCallum, Andrew K.</hi> (2002): 
+                        <hi>MALLET: A Machine Learning for Language Toolkit</hi>. http://mallet.cs.umass.edu/.
                     </bibl>
                     <bibl>
-                        <hi rend="bold">Müller-Spitzer, Carolin</hi> (2014): „Methoden der Wörterbuchbenutzungsforschung“. In 
-                        <hi rend="italic">Lexicographica</hi> 30 (1): 112–151.
+                        <hi>Müller-Spitzer, Carolin</hi> (2014): „Methoden der Wörterbuchbenutzungsforschung“. In 
+                        <hi>Lexicographica</hi> 30 (1): 112–151.
                     </bibl>
                     <bibl>
-                        <hi rend="bold">Schreibman, Susan / </hi>
-                        <hi rend="bold">Siemens, </hi>
-                        <hi rend="bold">Ray / Unsworth, </hi>
-                        <hi rend="bold">John</hi> (2004): 
-                        <hi rend="italic">A Companion to Digital Humanities</hi>. Oxford: Blackwell
+                        <hi>Schreibman, Susan / </hi>
+                        <hi>Siemens, </hi>
+                        <hi>Ray / Unsworth, </hi>
+                        <hi>John</hi> (2004): 
+                        <hi>A Companion to Digital Humanities</hi>. Oxford: Blackwell
                     </bibl>
                     <bibl>
-                        <hi rend="bold">Spohr, Dennis</hi> (2012): 
-                        <hi rend="italic">Towards a Multifunctional Lexical Resource, Design and Implementation of a Graph-Based Lexicon Model</hi>. Lexicographica Series Maior, 141. Berlin / Boston: De Gruyter.
+                        <hi>Spohr, Dennis</hi> (2012): 
+                        <hi>Towards a Multifunctional Lexical Resource, Design and Implementation of a Graph-Based Lexicon Model</hi>. Lexicographica Series Maior, 141. Berlin / Boston: De Gruyter.
                     </bibl>
                     <bibl>
-                        <hi rend="bold">Tarp, Sven</hi> (2008): 
-                        <hi rend="italic">Lexicography in the borderland between knowledge and non-knowledge: general lexicographical theory with particular focus on learner’s lexicography</hi>. Lexicographica, Series Mayor 134. Tübingen: Niemeyer.
+                        <hi>Tarp, Sven</hi> (2008): 
+                        <hi>Lexicography in the borderland between knowledge and non-knowledge: general lexicographical theory with particular focus on learner’s lexicography</hi>. Lexicographica, Series Mayor 134. Tübingen: Niemeyer.
                     </bibl>
                     <bibl>
-                        <hi rend="bold">Wiegand, Herbert E.</hi> (2013): „Lexikographie und Angewandte Linguistik“. In 
-                        <hi rend="italic">Zeitschrift für angewandte Linguistik</hi> 58 (1): 13–39.
+                        <hi>Wiegand, Herbert E.</hi> (2013): „Lexikographie und Angewandte Linguistik“. In 
+                        <hi>Zeitschrift für angewandte Linguistik</hi> 58 (1): 13–39.
                     </bibl>
                 </listBibl>
             </div>

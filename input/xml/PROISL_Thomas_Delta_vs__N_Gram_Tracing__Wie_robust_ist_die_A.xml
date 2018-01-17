@@ -3,9 +3,9 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title type="full">
-                    <title type="main">Delta vs. N-Gram-Tracing: Wie robust ist die Autorschaftsattribuierung?</title>
-                    <title type="sub"/>
+                <title>
+                    <title>Delta vs. N-Gram-Tracing: Wie robust ist die Autorschaftsattribuierung?</title>
+                    <title/>
                 </title>
                 <author>
                     <persName>
@@ -44,23 +44,23 @@
         </fileDesc>
         <encodingDesc>
             <appInfo>
-                <application ident="DHCONVALIDATOR" version="1.17">
+                <application>
                     <label>DHConvalidator</label>
                 </application>
             </appInfo>
         </encodingDesc>
         <profileDesc>
             <textClass>
-                <keywords scheme="ConfTool" n="category">
+                <keywords>
                     <term>Paper</term>
                 </keywords>
-                <keywords scheme="ConfTool" n="subcategory">
+                <keywords>
                     <term>Poster</term>
                 </keywords>
-                <keywords scheme="ConfTool" n="keywords">
+                <keywords>
                     <term>Autorschaftsattribuierung</term>
                 </keywords>
-                <keywords scheme="ConfTool" n="topics">
+                <keywords>
                     <term>Stilistische Analyse</term>
                     <term>Sprache</term>
                     <term>Methoden</term>
@@ -79,53 +79,53 @@
             <p>Aus Platzgründen berichten wir an dieser Stelle nur knapp die Ergebnisse des ersten Kürzungsexperiments und des ersten Samplingexperiments und beschränken und dabei auf auf die deutschen Daten. Die Ergebnisse des ersten Kürzungsexperiments, in dem nur der zu klassifizierende Text gekürzt wird, sind in der folgenden Abbildung dargestellt:</p>
             <p>
                 <figure>
-                    <graphic url="Pictures/100002010000090F000006340EB1A3F03D06D04B.png"/>
+                    <graphic/>
                 </figure>
             </p>
             <p>Wir vergleichen Cosine-Delta auf Basis der 3000 häufigsten Wörter mit N-Gram-Tracing auf Basis von Wort-1-bis-3-Grammen, Zeichen-4-bis-10-Grammen und Zeichen-11-Grammen. Bis zu einer Textlänge von 5000 Tokens liefern alle N-Gram-Tracing-Varianten bessere Ergebnisse als Delta, für längere Texte funktionieren Delta und N-Gram-Tracing auf Wort-N-Grammen am besten. Bei weniger als 2000 Tokens brechen die Ergebnisse für Delta ein, bei weniger als 1000 Tokens auch die für N-Gram-Tracing.</p>
             <p>Die Ergebnisse des ersten Samplingexperiments zeigen, dass die Klassifikationsgenauigkeit bei beiden Verfahren großen Schwankungen unterworfen ist. Hier die Ergebnisse für Cosine-Delta:</p>
             <p>
                 <figure>
-                    <graphic url="Pictures/100000000000090F00000634EF4A0F8C33962042.png"/>
+                    <graphic/>
                 </figure>
             </p>
             <p>Die Grafik zeigt, dass ab ca. den 1000 häufigsten Wörtern zwar im Mittel eine Klassifikationsgenauigkeit von rund 85% erreicht wird, allerdings mit enormen Schwankungen zwischen knapp über 60% und knapp unter 100%.</p>
             <p>Die Ergebnisse für N-Gram-Tracing auf Basis von Wort-N-Grammen sehen ähnlich aus:</p>
             <p>
                 <figure>
-                    <graphic url="Pictures/100000000000090F0000063436D0AB185667E568.png"/>
+                    <graphic/>
                 </figure>
             </p>
             <p>Durch die Kombination von Wort-1- bis Wort-3-Grammen wird zwar eine mittlere Klassifikationsgenauigkeit von über 70% erreicht, aber auch hier mit enormen Schwankungen.</p>
             <p>Die Ergebnisse zeigen, dass N-Gram-Tracing auf kurzen Texten besser funktioniert als Cosine-Delta, allerdings werden für beide Verfahren längere Texte benötigt, als häufig verwendet werden. Die Wahl der Autoren im Vergleichskorpus und auch, wie das Poster zeigen wird, die Wahl der einzelnen Werke haben einen enormen und schwer vorhersehbaren Einfluss auf die Qualität der Autorschaftszuschreibung, deren Genauigkeit ohne weiteres um 20 Prozentpunkte schwanken kann. Im Licht dieser Erkenntnisse ist es durchaus fraglich, wie valide und generalisierbar bisherige Forschungsergebnisse auf dem Gebiet der Autorschaftsattribuierung sind.</p>
         </body>
         <back>
-            <div type="bibliogr">
+            <div>
                 <listBibl>
                     <head>Bibliographie</head>
                     <bibl>
-                        <hi rend="bold">Argamon, Shlomo</hi> (2008): „Interpreting Burrows’ delta: Geometric and probabilistic foundations“. In: 
-                        <hi rend="italic">Literary and Linguistic Computing</hi> 23/2: 131–47. https://doi.org/10.1093/llc/fqn003
+                        <hi>Argamon, Shlomo</hi> (2008): „Interpreting Burrows’ delta: Geometric and probabilistic foundations“. In: 
+                        <hi>Literary and Linguistic Computing</hi> 23/2: 131–47. https://doi.org/10.1093/llc/fqn003
                     </bibl>
                     <bibl>
-                        <hi rend="bold">Burrows, John</hi> (2002): „‘Delta’—A measure of stylistic difference and a guide to likely authorship“. In: 
-                        <hi rend="italic">Literary and Linguistic Computing</hi> 17/3: 267–87. https://doi.org/10.1093/llc/17.3.267.
+                        <hi>Burrows, John</hi> (2002): „‘Delta’—A measure of stylistic difference and a guide to likely authorship“. In: 
+                        <hi>Literary and Linguistic Computing</hi> 17/3: 267–87. https://doi.org/10.1093/llc/17.3.267.
                     </bibl>
                     <bibl>
-                        <hi rend="bold">Evert, Stefan / Proisl, Thomas / Jannidis, Fotis / Reger, Isabella / Pielström, Steffen / Schöch, Christof / Vitt, Thorsten</hi> (2017): „Understanding and explaining Delta measures for authorship attribution.“ In: 
-                        <hi rend="italic">Digital Scholarship in the Humanities</hi>. https://doi.org/10.1093/llc/fqx023.
+                        <hi>Evert, Stefan / Proisl, Thomas / Jannidis, Fotis / Reger, Isabella / Pielström, Steffen / Schöch, Christof / Vitt, Thorsten</hi> (2017): „Understanding and explaining Delta measures for authorship attribution.“ In: 
+                        <hi>Digital Scholarship in the Humanities</hi>. https://doi.org/10.1093/llc/fqx023.
                     </bibl>
                     <bibl>
-                        <hi rend="bold">Grieve, Jack / Carmody, Emily / Clarke, Isobelle / Gideon, Hannah / Heini, Annina / Nini, Andrea / Waibel, Emily</hi> (in Begutachtung): „Attributing the Bixby Letter using n-gram tracing“. Eingereicht bei 
-                        <hi rend="italic">Digital Scholarship in the Humanities</hi> am 26. Mai 2017.
+                        <hi>Grieve, Jack / Carmody, Emily / Clarke, Isobelle / Gideon, Hannah / Heini, Annina / Nini, Andrea / Waibel, Emily</hi> (in Begutachtung): „Attributing the Bixby Letter using n-gram tracing“. Eingereicht bei 
+                        <hi>Digital Scholarship in the Humanities</hi> am 26. Mai 2017.
                     </bibl>
                     <bibl>
-                        <hi rend="bold">Jannidis, Fotis / Pielström, Steffen / Schöch, Christof / Vitt, Thorsten</hi> (2015): „Improving Burrows’ Delta – An empirical evaluation of text distance measures“. In: 
-                        <hi rend="italic">Digital Humanities 2015: Conference Abstracts</hi>. http://dh2015.org/abstracts.
+                        <hi>Jannidis, Fotis / Pielström, Steffen / Schöch, Christof / Vitt, Thorsten</hi> (2015): „Improving Burrows’ Delta – An empirical evaluation of text distance measures“. In: 
+                        <hi>Digital Humanities 2015: Conference Abstracts</hi>. http://dh2015.org/abstracts.
                     </bibl>
                     <bibl>
-                        <hi rend="bold">Smith, Peter W. H. / Aldridge, W.</hi> (2011): „Improving authorship attribution: Optimizing Burrows’ delta method“. In: 
-                        <hi rend="italic">Journal of Quantitative Linguistics</hi> 18/1: 63–88. https://doi.org/10.1080/09296174.2011.533591.
+                        <hi>Smith, Peter W. H. / Aldridge, W.</hi> (2011): „Improving authorship attribution: Optimizing Burrows’ delta method“. In: 
+                        <hi>Journal of Quantitative Linguistics</hi> 18/1: 63–88. https://doi.org/10.1080/09296174.2011.533591.
                     </bibl>
                 </listBibl>
             </div>

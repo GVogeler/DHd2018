@@ -33,27 +33,27 @@
         </fileDesc>
         <encodingDesc>
             <appInfo>
-                <application ident="DHCONVALIDATOR" version="1.17">
+                <application>
                     <label>DHConvalidator</label>
                 </application>
             </appInfo>
         </encodingDesc>
         <profileDesc>
             <textClass>
-                <keywords scheme="ConfTool" n="category">
+                <keywords>
                     <term>Paper</term>
                 </keywords>
-                <keywords scheme="ConfTool" n="subcategory">
+                <keywords>
                     <term>Vortrag</term>
                 </keywords>
-                <keywords scheme="ConfTool" n="keywords">
+                <keywords>
                     <term>Recht</term>
                     <term>Lizenzen</term>
                     <term>Urheberrecht</term>
                     <term>Datenautorenschaft</term>
                     <term>Leistungsbewertung</term>
                 </keywords>
-                <keywords scheme="ConfTool" n="topics">
+                <keywords>
                     <term>Archivierung</term>
                     <term>Veröffentlichung</term>
                     <term>Kollaboration</term>
@@ -66,28 +66,28 @@
     </teiHeader>
     <text>
         <body>
-            <div type="div1" rend="DH-Heading1">
+            <div>
                 <head>Vorbemerkung</head>
                 <p>Die Bedeutung von Forschungsdatenmanagement ist mittlerweile umfänglich in der Wissenschaftskultur angekommen. Die Vorteile der Open Data Sciences überzeugen schnell, auch wenn die jüngst vom Rat für Informationsinfrastrukturen (RfII) pointiert formulierten Herausforderungen (RfII 2016, RfII 2017) weiterhin bestehen. Sie betreffen vor allem den Umgestaltungsprozess hinsichtlich des Aufbaus einer Landschaft von dauerhaften, stabilen Infrastrukturangeboten der Langzeitarchivierung, die durch die Anpassung und Koordination von Fördermechanismen, Personalentwicklung, Qualitätssicherung und der Entwicklung einer neuen "Forschungsdatenkultur" geprägt sind (AG Datenzentren 2017: 2-3). Den letzten Punkt möchte ich mit meinem Vortrag aufgreifen und aus dezidiert geisteswissenschaftlicher Perspektive einer datenproduzierenden und -bewahrenden Institution einen Beitrag zum Forschungsdatenmanagement formulieren, der meines Erachtens bisher kaum reflektiert wird: Es geht um die Entwicklung neuer Forschungsdatenkulturen, um Anreize und vor allem darum, welche wissenschaftliche Reputation sich mit der Nachnutzung von Forschungsdaten für den Urheber von Daten verbindet. Welche Anreize können Forschenden geboten werden, Daten tatsächlich zur möglichst flexiblen Nachnutzung frei zu geben? Diskutiert wird dazu nicht die Datenautorenschaft selbst, die über das Urheberrecht längst etabliert ist (Beer u.a. 2014: 4) und die heute bereits durch die Veröffentlichung von Forschungsdaten auf einem Forschungsdatenrepositorium über Lizenzen geregelt wird (CreativeCommons 2017, Beer u.a. 2014: bes. 24f.). Hier geht es vielmehr um eine Diskussion, welchen weiteren Weg die Datenautorenschaft nach der Veröffentlichung in einem anerkannten Repositorium nimmt und wie Datenautorenschaft innerhalb der Wissenschaft mehr Anerkennung, Sogkraft und Reputation entfalten. Grundlegend kann dies zu einer größeren Bereitschaft von Forschenden zum Data-Sharing beitragen.</p>
             </div>
-            <div type="div1" rend="DH-Heading1">
+            <div>
                 <head>Was beinhaltet ausgewiesene Datenautorenschaft?</head>
                 <p>Momentan werden alle Urheber eines wissenschaftlichen Forschungsergebnisses in Textpublikationen unabhängig vom inhaltlichen Beitrag als Autoren genannt. Es ist sinnvoll, hier ein Unterscheidungskriterium einzuführen. Dabei wird strikt nach den eigentlichen Textautoren und allen anderen Beiträgern eines wissenschaftlichen Forschungsergebnisses unterschieden. Textautoren sind ausschließlich diejenigen, die maßgeblich den Inhalt eines Textes verfassen, der das Forschungsergebnis und die Analyse repräsentiert. Sie sind für die Inhalte des Beitrags verantwortlich. Neben diesen Autoren für den Text werden dann alle weiteren Autoren als "Datenautor(en)" oder "Datengeber" geführt. Sie haben ebenfalls am Zustandekommen des Forschungsergebnis wesentlichen Anteil. Diese Beteiligung kann bspw. darin bestehen, prinzipiell urheberrechtlich geschützte Daten über Lizenzen offen für eine Analyse zur Verfügung zu stellen. Wichtig ist dabei, dass die Daten des Datengebers - anders als beim Zitat - in einem wesentlichen Umfang (mehr als ein Drittel) Verwendung finden. Es ist dahingehend nicht entscheidend, ob die Daten im Datenkonvolut des Datennutzers auch einen wesentlich Bestandteil bilden oder letztlich nur einen kleinen Baustein ausmachen.</p>
                 <p>Neben die Autoren, Herausgeber und Übersetzer würde also eine weitere qualitative Gruppe der in einer Textpublikation genannten Autoren treten, die nun allerdings explizit keinen eigenen Beitrag am Text, wohl aber einen unmittelbaren, wesentlichen Beitrag zur Quellenbasis eines Forschungsergebnisses leisten. Dieses Kriterium ist das wesentliche Unterscheidungsmerkmal zum Textautor. In den Metadaten einer Publikation würden diese Autoren analog zu den Herausgebern eines Sammelwerks mit einem geeigneten Kürzel benannt (DA) und ggf. auch separat ausgewiesen. Für den Datenautor zählt diese Nennung aber als weitere Publikation, wenn auch mit einem abgestuften Renommee.</p>
             </div>
-            <div type="div1" rend="DH-Heading1">
+            <div>
                 <head>Wozu brauchen wir extra ausgewiesene Datenautorenschaft?</head>
-                <div type="div2" rend="DH-Heading2">
+                <div>
                     <head>a) Vergleich verschiedener Methoden zur Messung wissenschaftlicher Leistung</head>
                     <p>Es ist relativ einfach zu zeigen, warum viele WissenschaftlerInnen zögerlich bleiben, Daten zu teilen. Vor allem in der Geisteswissenschaft gibt es dafür eine Reihe von Gründen, von denen hier nur einige wenige knapp skizziert werden sollen:</p>
-                    <list type="unordered">
+                    <list>
                         <item>Datenproduktionen in den Geisteswissenschaften sind kosten-, zeit- und personalintensiv, für Datenbereinigung und Dokumentation müssen zusätzliche Aufwendungen gemacht werden</item>
                         <item>Erschließungsprozesse von Medien und Quellen sind Teil des wissenschaftlichen Forschungsprozesses mit eigener Fachdisziplin (z. B. den Grund- und Hilfswissenschaften in der Geschichtswissenschaft)</item>
                         <item>Forschungsdaten unterstehen damit - vielleicht auch im Unterschied zu sensorgestützten Datenproduktion in einigen naturwissenschaftlichen Sparten - dem Urheberrecht, da sie über eine eigenständige wissenschaftliche Leistung mit ausreichender Schöpfungshöhe verfügen. Dies gilt umso mehr, wenn Forschungsdaten nicht nur die Wiedergabe einer einzelnen Quelle in Form von Transkriptionen repräsentieren, sondern über den Erschließungsprozess mit einer Vielzahl von Annotationen und editionskritischen Anmerkungen versehen werden oder komplexe Datenstrukturen einer ganzen Serie von Quellen kombinieren. </item>
                     </list>
                     <p>Zunächst möchte ich kurz einen Vergleich des Umgangs mit der Datenautorenschaft in den verschiedenen Forschungsdisziplinen anstellen. Grundlegende Unterschiede liegen in der Messbarkeit der Forschungsleistung über mehr oder weniger umstrittene Methoden der Auszählung von Zitationsraten, die in den STM-Fachdisziplinen (Naturwissenschaften, Technik, Medizin) eine etablierte Forschungspraxis repräsentieren. Abgesehen davon, dass der Journal Impact Factor auch in den STM-Fächern keineswegs unumstritten und grundsätzlich davon auszugehen ist, dass Daten in Repositorien wie auch in Open Access-Veröffentlichungen durch die bevorzugten Evaluationsmetriken nicht gleichwertig erfasst werden (Herb 2010, Kap. 1.3), ist dieses Verfahren in den Geisteswissenschaften bisher grundsätzlich nicht anwendbar (Wissenschaftsrat 2006: 48ff. Jehne 2009: 59). Die wissenschaftliche Reputation durch die Zitation von Daten greift in den Geisteswissenschaften daher nicht in der gleichen Weise, wie in den STM-Fächern. Auch in den Naturwissenschaften entstehen durch die Vervielfachung der Co-Autorenschaft erhebliche neue Unschärfen bei der Leistungsbewertung von wissenschaftlichen Ergebnissen, was wiederholt zu Reglungsbedarf der Hochschulen und der DFG führte (DFG 2013: 20). Eine Trennung von Text- und Datenautorenschaft auf der Ebene der Metadatenhaltung brächte hier wesentliche Vorteile für alle Wissenschaftsdisziplinen, da sie Beiträge an Forschungsergebnissen durch klarere Definitionskriterien wieder transparenter ausweisen würde.</p>
                 </div>
-                <div type="div2" rend="DH-Heading2">
+                <div>
                     <head>b) Zitation versus Datenautorenschaft</head>
                     <p>Im zweiten Teil möchte ich durch einen Vergleich von Zitation und Datenautorenschaft die Vor- und Nachteile beider Prinzipien diskutieren und überlegen, wie man die Vorzüge beider Verwendungsweisen miteinander kombinieren könnte. </p>
                     <p>Das Grundprinzip des Zitats ist die Belegfunktion. Ein Zitat ist nach dem Urheberrecht dann zugelassen, wenn es eigene Ideen oder Gedanken unterstützt bzw. Ideen anderer aufgreift und in den eigenen Text integriert. Ist dem Recht genüge getan, verliert nach einer Faustregel der Text auch ohne das Zitat nicht an Sinn (Schwenke 2011). Das Urheberrecht regelt im § 52a, dass in der wissenschaftlichen Forschung "kleine Teile eines Werkes, Werke geringen Umfangs sowie einzelne Beiträge aus Zeitungen oder Zeitschriften" für die wissenschaftliche Forschung genutzt werden können (Bundesministerium 2013, § 52a). Auch wenn es kein festgesetztes Limit für den Umfang eines Zitats gibt, sollte es klar begrenzt sein. Als Faustregel führt ein Zitat nicht mehr als ein Drittel eines Textes auf (Schwenke 2011). Die Verwendung großer Teile von Daten oder ganzer Datenkonvolute zur Produktion eines Forschungsergebnisses verlässt den Rahmen einer Zitation deutlich. </p>
@@ -101,52 +101,52 @@
             </div>
         </body>
         <back>
-            <div type="bibliogr">
+            <div>
                 <listBibl>
                     <head>Bibliographie</head>
                     <bibl>
-                        <hi rend="bold">AG Datenzentren des DHd</hi> (2017): Stellungnahme der DHd AG Datenzentren und des DHd-Verbands zur Nationalen Forschungsdateninfrastruktur (NFDI), URL: 
-                        <ref target="http://dig-hum.de/sites/dig-hum.de/files/DHd_NFDI_Stellungnahme_2017-07-31.pdf%20">http://dig-hum.de/sites/dig-hum.de/files/DHd_NFDI_Stellungnahme_2017-07-31.pdf</ref> [letzter Zugriff 22. September 2017].
+                        <hi>AG Datenzentren des DHd</hi> (2017): Stellungnahme der DHd AG Datenzentren und des DHd-Verbands zur Nationalen Forschungsdateninfrastruktur (NFDI), URL: 
+                        <ref>http://dig-hum.de/sites/dig-hum.de/files/DHd_NFDI_Stellungnahme_2017-07-31.pdf</ref> [letzter Zugriff 22. September 2017].
                     </bibl>
                     <bibl>
-                        <hi rend="bold">Bundesministerium der Justiz und für Verbracherschutz</hi> (2013): Gesetz über Urheberrecht und verwandte Schutzrechte, in: 
-                        <hi rend="italic">Juris</hi>, URL: 
-                        <ref target="https://www.gesetze-im-internet.de/urhg/index.html%23BJNR012730965BJNE023100377">https://www.gesetze-im-internet.de/urhg/index.html#BJNR012730965BJNE023100377</ref> [letzter Zugriff 22. September 2017].
+                        <hi>Bundesministerium der Justiz und für Verbracherschutz</hi> (2013): Gesetz über Urheberrecht und verwandte Schutzrechte, in: 
+                        <hi>Juris</hi>, URL: 
+                        <ref>https://www.gesetze-im-internet.de/urhg/index.html#BJNR012730965BJNE023100377</ref> [letzter Zugriff 22. September 2017].
                     </bibl>
                     <bibl>
-                        <hi rend="bold">Deutsche Forschungsgemeinschaft</hi> (2013): Sicherung guter wissenschaftlicher Praxis. Denkschrift, Empfehlungen der Kommission "Selbstkontrolle in der Wissenschaft", Weinheim 2013, URL: 
-                        <ref target="http://www.dfg.de/download/pdf/dfg_im_profil/reden_stellungnahmen/download/empfehlung_wiss_praxis_1310.pdf%20">http://www.dfg.de/download/pdf/dfg_im_profil/reden_stellungnahmen/download/empfehlung_wiss_praxis_1310.pdf</ref> [letzter Zugriff 22. September 2017].
+                        <hi>Deutsche Forschungsgemeinschaft</hi> (2013): Sicherung guter wissenschaftlicher Praxis. Denkschrift, Empfehlungen der Kommission "Selbstkontrolle in der Wissenschaft", Weinheim 2013, URL: 
+                        <ref>http://www.dfg.de/download/pdf/dfg_im_profil/reden_stellungnahmen/download/empfehlung_wiss_praxis_1310.pdf</ref> [letzter Zugriff 22. September 2017].
                     </bibl>
                     <bibl>
-                        <hi rend="bold">Martin Jehne</hi> (2009): Publikationsverhalten in der Geschichtswissenschaft, in: Alexander von Humboldt Stiftung (Hg.), 
-                        <hi rend="italic">Publikationsverhalten in unterschiedlichen wissenschaftlichen Disziplinen. Beiträge zur Beurteilung von Forschungsleistungen 12</hi>, 2. erw. Auflage, S. 59-61, URL: 
-                        <ref target="https://www.humboldt-foundation.de/pls/web/docs/F13905/12_disk_papier_publikationsverhalten2_kompr.pdf">https://www.humboldt-foundation.de/pls/web/docs/F13905/12_disk_papier_publikationsverhalten2_kompr.pdf</ref> [letzter Zugriff 22. September 2017]. 
+                        <hi>Martin Jehne</hi> (2009): Publikationsverhalten in der Geschichtswissenschaft, in: Alexander von Humboldt Stiftung (Hg.), 
+                        <hi>Publikationsverhalten in unterschiedlichen wissenschaftlichen Disziplinen. Beiträge zur Beurteilung von Forschungsleistungen 12</hi>, 2. erw. Auflage, S. 59-61, URL: 
+                        <ref>https://www.humboldt-foundation.de/pls/web/docs/F13905/12_disk_papier_publikationsverhalten2_kompr.pdf</ref> [letzter Zugriff 22. September 2017]. 
                     </bibl>
                     <bibl>
-                        <hi rend="bold">Nikolaos Beer, Kristin Herold, Wibke Kolbmann u.a.</hi> (2014): Datenlizenzen für geisteswissenschaftliche Forschungsdaten. Rechtliche Bedingungen und Handlungsbedarf, in: 
-                        <hi rend="italic">GOEDOC: Dokumenten- und Publikationsserver der Georg-August-Universität Göttingen</hi>, Göttingen, URL: 
-                        <ref target="http://webdoc.sub.gwdg.de/pub/mon/dariah-de/dwp-2014-6.pdf%20">http://webdoc.sub.gwdg.de/pub/mon/dariah-de/dwp-2014-6.pdf</ref> [letzter Zugriff 22. September 2017].
+                        <hi>Nikolaos Beer, Kristin Herold, Wibke Kolbmann u.a.</hi> (2014): Datenlizenzen für geisteswissenschaftliche Forschungsdaten. Rechtliche Bedingungen und Handlungsbedarf, in: 
+                        <hi>GOEDOC: Dokumenten- und Publikationsserver der Georg-August-Universität Göttingen</hi>, Göttingen, URL: 
+                        <ref>http://webdoc.sub.gwdg.de/pub/mon/dariah-de/dwp-2014-6.pdf</ref> [letzter Zugriff 22. September 2017].
                     </bibl>
                     <bibl>
-                        <hi rend="bold">Rat für Informationsinfrastrukturen (RfII)</hi> (2016): Leistung aus Vielfalt, Empfehlungen zu Strukturen, Prozessen und Finanzierung des Forschungsdatenmanagements in Deutschland, Göttingen, URL: 
-                        <ref target="http://www.rfii.de/de/category/dokumente/">http://www.rfii.de/de/category/dokumente/</ref>.
+                        <hi>Rat für Informationsinfrastrukturen (RfII)</hi> (2016): Leistung aus Vielfalt, Empfehlungen zu Strukturen, Prozessen und Finanzierung des Forschungsdatenmanagements in Deutschland, Göttingen, URL: 
+                        <ref>http://www.rfii.de/de/category/dokumente/</ref>.
                     </bibl>
                     <bibl>
-                        <hi rend="bold">Thomas Schwenke</hi> (2011): Texte richtig zitieren, statt plagiieren (Anleitung mit Checkliste), in: 
-                        <hi rend="italic">ILAWit. Blog zum Social Media-, Marketing, Online- und Datenschutzrecht</hi>, Berlin, URL: 
-                        <ref target="http://rechtsanwalt-schwenke.de/texte-richtig-zitieren-statt-plagiieren-anleitung-mit-checkliste/">http://rechtsanwalt-schwenke.de/texte-richtig-zitieren-statt-plagiieren-anleitung-mit-checkliste/</ref> [letzter Zugriff 22. September 2017].
+                        <hi>Thomas Schwenke</hi> (2011): Texte richtig zitieren, statt plagiieren (Anleitung mit Checkliste), in: 
+                        <hi>ILAWit. Blog zum Social Media-, Marketing, Online- und Datenschutzrecht</hi>, Berlin, URL: 
+                        <ref>http://rechtsanwalt-schwenke.de/texte-richtig-zitieren-statt-plagiieren-anleitung-mit-checkliste/</ref> [letzter Zugriff 22. September 2017].
                     </bibl>
                     <bibl>
-                        <hi rend="bold">Ulrich Herb</hi> 2010: Open Access, zitationsbasierte und nutzungsbasierte Impact Maße: Einige Befunde. Tagungsband der 12. Tagung der Deutschen ISKO, (International Society Knowledge Organization), URL: 
-                        <ref target="http://scidok.sulb.uni-saarland.de/volltexte/2010/3307">http://scidok.sulb.uni-saarland.de/volltexte/2010/3307</ref> [letzter Zugriff 22. September 2017].
+                        <hi>Ulrich Herb</hi> 2010: Open Access, zitationsbasierte und nutzungsbasierte Impact Maße: Einige Befunde. Tagungsband der 12. Tagung der Deutschen ISKO, (International Society Knowledge Organization), URL: 
+                        <ref>http://scidok.sulb.uni-saarland.de/volltexte/2010/3307</ref> [letzter Zugriff 22. September 2017].
                     </bibl>
                     <bibl>
-                        <hi rend="bold">Wissenschaftsrat</hi> 2006: Empfehlungen zur Entwicklung und Förderung der Geisteswissenschaften in Deutschland, Köln, URL: 
-                        <ref target="http://www.wissenschaftsrat.de/download/archiv/geisteswissenschaften.pdf">http://www.wissenschaftsrat.de/download/archiv/geisteswissenschaften.pdf</ref> [letzter Zugriff 22. September 2017].
+                        <hi>Wissenschaftsrat</hi> 2006: Empfehlungen zur Entwicklung und Förderung der Geisteswissenschaften in Deutschland, Köln, URL: 
+                        <ref>http://www.wissenschaftsrat.de/download/archiv/geisteswissenschaften.pdf</ref> [letzter Zugriff 22. September 2017].
                     </bibl>
                     <bibl>
-                        <hi rend="bold">ORCID</hi> (2017): Distinguish yourself in three easy steps, URL: 
-                        <ref target="https://orcid.org">https://orcid.org</ref>/ [letzter Zugriff 22. September 2017]..
+                        <hi>ORCID</hi> (2017): Distinguish yourself in three easy steps, URL: 
+                        <ref>https://orcid.org</ref>/ [letzter Zugriff 22. September 2017]..
                     </bibl>
                 </listBibl>
             </div>

@@ -49,27 +49,27 @@
         </fileDesc>
         <encodingDesc>
             <appInfo>
-                <application ident="DHCONVALIDATOR" version="1.17">
+                <application>
                     <label>DHConvalidator</label>
                 </application>
             </appInfo>
         </encodingDesc>
         <profileDesc>
             <textClass>
-                <keywords scheme="ConfTool" n="category">
+                <keywords>
                     <term>Paper</term>
                 </keywords>
-                <keywords scheme="ConfTool" n="subcategory">
+                <keywords>
                     <term>Poster</term>
                 </keywords>
-                <keywords scheme="ConfTool" n="keywords">
+                <keywords>
                     <term>Forschungsinfrastruktur</term>
                     <term>Kollaboration</term>
                     <term>Annotation</term>
                     <term>Linguistik</term>
                     <term>Dialektologie</term>
                 </keywords>
-                <keywords scheme="ConfTool" n="topics">
+                <keywords>
                     <term>Sammlung</term>
                     <term>Transkription</term>
                     <term>Strukturanalyse</term>
@@ -90,21 +90,21 @@
             <p>Auf dem Poster soll neben der Darstellung dieser Plattform genauer auf den Bereich der Annotation eingegangen werden. Da diese auf den verschiedensten linguistischen Ebenen vorgenommen und von einer Vielzahl von WissenschafterInnen erarbeitet wird, muss es zum einen klare Vorgaben geben, wie annotiert werden soll, zum anderen müssen die Annotationen nach einem einheitlichen Schema gebildet werden. Dennoch soll die Flexibilität der Annotationen gewährleistet sein, um wissenschaftliches Arbeiten möglichst effizient gestalten zu können. Dabei werden die Tags zwar mit Hilfe einer m:n-Verknüpfung zwischen Attributen (Tags) und Werten (Antworten) gespeichert, sind aber hierarchisch projizierbar. Somit ist es möglich, dass die verschiedenen Teilprojekte unterschiedlich tief annotieren, aber dennoch auf die Annotationen der anderen Teilprojekte zurückgreifen können. Sie fügen sich zudem bestmöglich in die vorhandene Forschungslandschaft ein, z.B. durch Verwendung gängiger Taggingsysteme (wie Edisyn), um auch SFB-übergreifend leicht nutz-, adaptier- und vergleichbar zu sein.</p>
         </body>
         <back>
-            <div type="bibliogr">
+            <div>
                 <listBibl>
                     <head>Bibliographie</head>
                     <bibl>Fügen Sie hier die von Ihnen benutzten Quellen ein:</bibl>
                     <bibl>
-                        <hi rend="bold">Merkel, Dirk </hi>(2014): „Docker: Lightweight Linux Containers for Consistent Development and Deployment“, in: 
-                        <hi rend="italic">Linux J.</hi> 239 http://www.linuxjournal.com/content/docker-lightweight-linux-containers-consistent-development-and-deployment [letzter Zugriff: 25. September 2017].
+                        <hi>Merkel, Dirk </hi>(2014): „Docker: Lightweight Linux Containers for Consistent Development and Deployment“, in: 
+                        <hi>Linux J.</hi> 239 http://www.linuxjournal.com/content/docker-lightweight-linux-containers-consistent-development-and-deployment [letzter Zugriff: 25. September 2017].
                     </bibl>
                     <bibl>
-                        <hi rend="bold">Sarwar, Muhammad S. / Doherty, T. / Watt, J. / Sinnott, Richard O.</hi> (2013): „Towards a virtual research environment for language and literature researchers“, in: 
-                        <hi rend="italic">Future Generation Computer Systems</hi> 29: 549–559 https://doi.org/10.1016/j.future.2012.03.015.
+                        <hi>Sarwar, Muhammad S. / Doherty, T. / Watt, J. / Sinnott, Richard O.</hi> (2013): „Towards a virtual research environment for language and literature researchers“, in: 
+                        <hi>Future Generation Computer Systems</hi> 29: 549–559 https://doi.org/10.1016/j.future.2012.03.015.
                     </bibl>
                     <bibl>
-                        <hi rend="bold">Smith, Vincent / Rycroft, Simon / Brake, Irina / Scott, Ben / Baker, Ed / Livermore, Laurence / Blagoderov, Vladimir / Roberts, David</hi> (2011): „Scratchpads 2.0: a Virtual Research Environment supporting scholarly collaboration, communication and data publication in biodiversity science“, in: 
-                        <hi rend="italic">ZooKeys</hi> 150: 53–70.
+                        <hi>Smith, Vincent / Rycroft, Simon / Brake, Irina / Scott, Ben / Baker, Ed / Livermore, Laurence / Blagoderov, Vladimir / Roberts, David</hi> (2011): „Scratchpads 2.0: a Virtual Research Environment supporting scholarly collaboration, communication and data publication in biodiversity science“, in: 
+                        <hi>ZooKeys</hi> 150: 53–70.
                     </bibl>
                 </listBibl>
             </div>
