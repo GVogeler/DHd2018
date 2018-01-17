@@ -41,26 +41,26 @@
         </fileDesc>
         <encodingDesc>
             <appInfo>
-                <application>
+                <application ident="DHCONVALIDATOR" version="1.17">
                     <label>DHConvalidator</label>
                 </application>
             </appInfo>
         </encodingDesc>
         <profileDesc>
             <textClass>
-                <keywords>
+                <keywords scheme="ConfTool" n="category">
                     <term>Paper</term>
                 </keywords>
-                <keywords>
+                <keywords scheme="ConfTool" n="subcategory">
                     <term>Poster</term>
                 </keywords>
-                <keywords>
+                <keywords scheme="ConfTool" n="keywords">
                     <term>FRBRoo</term>
                     <term>Modellierung</term>
                     <term>Ontologie</term>
                     <term>Linked Open Data</term>
                 </keywords>
-                <keywords>
+                <keywords scheme="ConfTool" n="topics">
                     <term>Modellierung</term>
                     <term>Identifizierung</term>
                     <term>Organisation</term>
@@ -71,42 +71,62 @@
     </teiHeader>
     <text>
         <body>
-            <div>
+            <div type="div1" rend="DH-Heading1">
                 <head>Einleitung</head>
                 <p>Linked Open Data wird auch in den Geisteswissenschaften immer wichtiger (Barbera 2013: 91 – 105). Dabei geht es sehr oft um die Verknüpfung von Text mit weiterem Text, z.B. mit Kommentaren, Referenzen auf andere Werke oder anderen Entitäten wie Personen, Orte, etc. Mit Ontologien wie den Functional Requirements for Bibliographic Records object-oriented (FRBRoo) (Bekiari et al. 2015) können zwar bibliographische Gegenstände im Rahmen einer digitalen Datenbank auf eine Art und Weise modelliert und bereitgestellt werden, dass diese allein durch ihre Organisation und objektübergreifende Strukturierung und Verknüpfung bibliographisch-informationellen Mehrwert im Rahmen der Recherche erzeugen können (Förster / Becker 2010: 15 - 25). Allerdings ist nicht immer klar, wie Verknüpfungen aus den Texten heraus mit anderen Texten oder aber zu komplett anderen Entitäten zu modellieren sind. Die Verknüpfung von verschiedensten Dokumenten und Entitäten ist allerdings eine der Hauptideen bei der Benutzung von Ontologien und Linked Open Data.</p>
                 <p>Einige Forschungsprojekte haben sich dieses Problems in Spezialfällen bereits angenommen. So wird bei HuCit (Romanello / Pasin 2011: 216 - 218) betrachtet, wie kanonische Zitation, z.B. der klassischen Literatur, modelliert werden kann. In (Bartalesi / Meghini 2016: 385 - 394) wird eine Ontologie speziell für die Texte von Dante Alighieri entwickelt. In (Mathiak / Boland 2015) wird der Spezialfall einer Verknüpfung zwischen Texten und Datensätzen, auf denen diese Texte beruhen, betrachtet.</p>
                 <p>Wir nehmen die zuvor genannten Ansätze als Ausgangspunkt, systematisieren diese und arbeiten Vor- und Nachteile heraus. Ziel ist es ein Modell für textbasierte Materialien zu konzipieren, mit dem Text(-stellen) mit anderen Textstellen oder Entitäten verknüpft und modelliert werden können. </p>
             </div>
-            <div>
+            <div type="div1" rend="DH-Heading1">
                 <head>Sechs Wege</head>
                 <p>1.) Die direkte Verbindung</p>
                 <p>In diesem einfachen Fall gibt es einfach eine Verbindung zwischen dem Dokument und der Entität, die mit diesem verknüpft werden soll. Die Property wird dazu idealerweise aus einer bereits etablierten Ontologie gewählt (siehe Abb. 1). Das klassische Beispiel hierfür ist eine Verschlagwortung oder die Zuordnung zu Autoren. Obwohl diese Art der Modellierung sehr einfach ist, hat sie doch starke Einschränkungen. Es bleibt unklar, welcher Teil des Dokuments für die Verbindung verantwortlich ist und es ist schwierig die Art der Verbindung über die Property hinaus zu beschreiben.</p>
                 <figure>
-                    <graphic/>
+                    <graphic n="1001"
+                        width="15.917333333333334cm"
+                        height="3.81cm"
+                        rend="inline"
+                        url="../images/HELLING_Patrick_Sechs_Wege_der_FRBRisierung_von_Textverkn_pf.xml-image1.jpeg"/>
                 </figure>
                 <p>Abb. 1: Die direkte Verbindung.</p>
                 <p>2.) Die Verbindung über die Textstelle</p>
                 <p>Bei dieser Art der Modellierung wird zunächst die Textstelle innerhalb des Dokuments identifiziert und dann im nächsten Schritt mit der Entität verbunden, wodurch im Gegensatz zu Variante 1 eindeutig definiert wird, welcher Teil des Dokuments für die Verbindung verantwortlich ist (siehe Abb. 2).</p>
                 <figure>
-                    <graphic/>
+                    <graphic n="1002"
+                        width="15.917333333333334cm"
+                        height="2.413cm"
+                        rend="inline"
+                        url="../images/HELLING_Patrick_Sechs_Wege_der_FRBRisierung_von_Textverkn_pf.xml-image2.jpeg"/>
                 </figure>
                 <p>Abb. 2: Die Verbindung über die Textstelle.</p>
                 <p>3.) Die Verknüpfung als eigene Entität</p>
                 <p>Dabei wird das Dokument bzw. die Textstelle zunächst mit einem Verknüpfungsobjekt verbunden und dann dieses mit der Zielentität (siehe Abb. 3), wobei im Vergleich zu Variante 1 die Erfassung relationsbeschreibender Informationen möglich wird. Diese Art der Modellierung ist vor allem nützlich, wenn es sehr viele Zusatzinformationen zu der Verknüpfung selbst gibt. </p>
                 <figure>
-                    <graphic/>
+                    <graphic n="1003"
+                        width="15.917333333333334cm"
+                        height="10.668cm"
+                        rend="inline"
+                        url="../images/HELLING_Patrick_Sechs_Wege_der_FRBRisierung_von_Textverkn_pf.xml-image3.jpeg"/>
                 </figure>
                 <p>Abb. 3: Die Verknüpfung als eigene Entität.</p>
                 <p>4.) Die Verknüpfung mit einer Stellvertreterentität</p>
                 <p>Manchmal ist es nicht eindeutig möglich das Ziel der Verknüpfung als Entität zu identifizieren. In diesem Fall kann es sinnvoll sein, zunächst ein fiktives Ziel zu definieren und dann dessen Beziehungen zu bereits bekannten Entitäten zu etablieren (siehe Abb. 4). In gewissem Sinne ist dies invers zu Methode 2 zu sehen, bei der ja auch zunächst das Objekt der Textstelle neu erschaffen wird, indem es zu seinem Quelldokument in Beziehung gesetzt wird. In (Mathiak / Boland 2015) wird dies benutzt um fehlende Informationen zur Zielentität zu modellieren. </p>
                 <figure>
-                    <graphic/>
+                    <graphic n="1004"
+                        width="15.917333333333334cm"
+                        height="7.598833333333333cm"
+                        rend="inline"
+                        url="../images/HELLING_Patrick_Sechs_Wege_der_FRBRisierung_von_Textverkn_pf.xml-image4.jpeg"/>
                 </figure>
                 <p>Abb. 4: Die Verknüpfung mit einer Stellvertreterentität.</p>
                 <p>5.) Das unabhängige Netzwerk</p>
                 <p>In vielen Fällen ist der Textbezug für die Ergebnisdarstellung nur von sekundärer Bedeutung, stattdessen werden die referenzierten Entitäten direkt miteinander in Verbindung gesetzt (siehe Abb. 5). Als Beispiel seien Beziehungsnetzwerke von Protagonisten in literarischen Werken genannt. Die Entitäten sind zwar auch mit dem Dokument verknüpft in dem sie auftauchen, aber die Kerninformation liegt in den Beziehungen, die diese untereinander haben. </p>
                 <figure>
-                    <graphic/>
+                    <graphic n="1005"
+                        width="15.917333333333334cm"
+                        height="9.3345cm"
+                        rend="inline"
+                        url="../images/HELLING_Patrick_Sechs_Wege_der_FRBRisierung_von_Textverkn_pf.xml-image5.jpeg"/>
                 </figure>
                 <p>Abb. 5: Das unabhängige Netzwerk.</p>
                 <p>6.) Multiple Dokumente</p>
@@ -116,42 +136,42 @@
             </div>
         </body>
         <back>
-            <div>
+            <div type="bibliogr">
                 <listBibl>
                     <head>Bibliographie</head>
                     <bibl>Fügen Sie hier die von Ihnen benutzten Quellen ein:</bibl>
                     <bibl>
-                        <hi>Barbera, Michele </hi>(2013): “Linked (open) data at web scale: research, social and engineering challenges in the digital humanities” 
-                        <hi>in: Global Interoperability and Linked Data in Libraries: Special issue. JLIS.it, Vol. 4, No. 1</hi>: 91 – 105 
-                        <ref>http://dx.doi.org/10.4403/jlis.it-6333</ref>. 
+                        <hi rend="bold">Barbera, Michele </hi>(2013): “Linked (open) data at web scale: research, social and engineering challenges in the digital humanities” 
+                        <hi rend="italic">in: Global Interoperability and Linked Data in Libraries: Special issue. JLIS.it, Vol. 4, No. 1</hi>: 91 – 105 
+                        <ref target="http://dx.doi.org/10.4403/jlis.it-6333">http://dx.doi.org/10.4403/jlis.it-6333</ref>. 
                     </bibl>
                     <bibl>
-                        <hi>Bartalesi, Valentina / Meghini, Carlo</hi> (2016): 
-                        <hi>„</hi>Using an Ontology for Representing Knowledge on Literary Texts: the Dante Alighieri Case Study
-                        <hi>“ in: Semantic Web, Volume 8, Number 3, 6. Dezember 2016</hi>: 385 – 394 
-                        <ref>http://www.semantic-web-journal.net/content/using-ontology-representing-knowledge-literary-texts-dante-alighieri-case-study-0</ref> [letzter Zugriff 22. September 2017].
+                        <hi rend="bold">Bartalesi, Valentina / Meghini, Carlo</hi> (2016): 
+                        <hi rend="italic">„</hi>Using an Ontology for Representing Knowledge on Literary Texts: the Dante Alighieri Case Study
+                        <hi rend="italic">“ in: Semantic Web, Volume 8, Number 3, 6. Dezember 2016</hi>: 385 – 394 
+                        <ref target="http://www.semantic-web-journal.net/content/using-ontology-representing-knowledge-literary-texts-dante-alighieri-case-study-0">http://www.semantic-web-journal.net/content/using-ontology-representing-knowledge-literary-texts-dante-alighieri-case-study-0</ref> [letzter Zugriff 22. September 2017].
                     </bibl>
                     <bibl>
-                        <hi>Bekiari, Chryssoula / Doerr, Martin / Le Boeuf, Patrick / Riva, Pat</hi> (2015): „Definition of FRBRoo. A Conceptual Model for Bibliographic Information in Object-Oriented Formalism
-                        <hi>“</hi> Den Haag: 
-                        <ref>https://www.ifla.org/files/assets/cataloguing/FRBRoo/frbroo_v_2.4.pdf</ref> [letzter Zugriff: 25. September 2017].
+                        <hi rend="bold">Bekiari, Chryssoula / Doerr, Martin / Le Boeuf, Patrick / Riva, Pat</hi> (2015): „Definition of FRBRoo. A Conceptual Model for Bibliographic Information in Object-Oriented Formalism
+                        <hi rend="italic">“</hi> Den Haag: 
+                        <ref target="https://www.ifla.org/files/assets/cataloguing/FRBRoo/frbroo_v_2.4.pdf">https://www.ifla.org/files/assets/cataloguing/FRBRoo/frbroo_v_2.4.pdf</ref> [letzter Zugriff: 25. September 2017].
                     </bibl>
                     <bibl>
-                        <hi>Förster, Frank / Becker, Hans-Georg</hi> (2010): 
-                        <hi>„</hi>Vernetztes Wissen – Ereignisse in der bibliographischen Dokumentation“ 
-                        <hi>in: Zeitschrift für Bibliothekswesen und Bibliographie.</hi> 57. Jahrgang/Heft Nr. 1: 15 – 25 
-                        <ref>http://dx.doi.org/10.3196/186429501057133</ref>.
+                        <hi rend="bold">Förster, Frank / Becker, Hans-Georg</hi> (2010): 
+                        <hi rend="italic">„</hi>Vernetztes Wissen – Ereignisse in der bibliographischen Dokumentation“ 
+                        <hi rend="italic">in: Zeitschrift für Bibliothekswesen und Bibliographie.</hi> 57. Jahrgang/Heft Nr. 1: 15 – 25 
+                        <ref target="http://dx.doi.org/10.3196/186429501057133">http://dx.doi.org/10.3196/186429501057133</ref>.
                     </bibl>
                     <bibl>
-                        <hi>Mathiak, Brigitte / Boland, Katarina</hi> (2015): „Challenges in Matching Dataset Citation Strings to Datasets in Social Science
-                        <hi>“ in: D-Lib Magazine, Volume 21, Number 1/2, Januar/Februar 2015</hi>, 
-                        <ref>https://doi.org/10.1045/january2015-mathiak</ref>. 
+                        <hi rend="bold">Mathiak, Brigitte / Boland, Katarina</hi> (2015): „Challenges in Matching Dataset Citation Strings to Datasets in Social Science
+                        <hi rend="italic">“ in: D-Lib Magazine, Volume 21, Number 1/2, Januar/Februar 2015</hi>, 
+                        <ref target="https://doi.org/10.1045/january2015-mathiak">https://doi.org/10.1045/january2015-mathiak</ref>. 
                     </bibl>
                     <bibl>
-                        <hi>Romanello, Matteo / Pasin, Michele</hi> (2011): 
-                        <hi>„</hi>An Ontological View of Canonical Citations
-                        <hi>“ in: DH 2011 Book of Abstracs. Stanford</hi>: Stanford University Library 216 - 218 
-                        <ref>http://dh2011abstracts.stanford.edu/xtf/view?docId=tei/ab-143.xml</ref> [letzter Zugriff 22. September 2017].
+                        <hi rend="bold">Romanello, Matteo / Pasin, Michele</hi> (2011): 
+                        <hi rend="italic">„</hi>An Ontological View of Canonical Citations
+                        <hi rend="italic">“ in: DH 2011 Book of Abstracs. Stanford</hi>: Stanford University Library 216 - 218 
+                        <ref target="http://dh2011abstracts.stanford.edu/xtf/view?docId=tei/ab-143.xml">http://dh2011abstracts.stanford.edu/xtf/view?docId=tei/ab-143.xml</ref> [letzter Zugriff 22. September 2017].
                     </bibl>
                 </listBibl>
             </div>

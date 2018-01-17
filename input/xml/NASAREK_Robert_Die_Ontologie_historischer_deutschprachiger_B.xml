@@ -3,9 +3,9 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>
-                    <title>Die Ontologie historischer deutschprachiger Berufs- und Amtsbezeichnungen.</title>
-                    <title>Interoperationalität und Berufsklassifizierung durch semantisches Topic Modeling</title>
+                <title type="full">
+                    <title type="main">Die Ontologie historischer deutschprachiger Berufs- und Amtsbezeichnungen.</title>
+                    <title type="sub">Interoperationalität und Berufsklassifizierung durch semantisches Topic Modeling</title>
                 </title>
                 <author>
                     <persName>
@@ -44,26 +44,26 @@
         </fileDesc>
         <encodingDesc>
             <appInfo>
-                <application>
+                <application ident="DHCONVALIDATOR" version="1.17">
                     <label>DHConvalidator</label>
                 </application>
             </appInfo>
         </encodingDesc>
         <profileDesc>
             <textClass>
-                <keywords>
+                <keywords scheme="ConfTool" n="category">
                     <term>Paper</term>
                 </keywords>
-                <keywords>
+                <keywords scheme="ConfTool" n="subcategory">
                     <term>Vortrag</term>
                 </keywords>
-                <keywords>
+                <keywords scheme="ConfTool" n="keywords">
                     <term>Ontologie</term>
                     <term>Berufe</term>
                     <term>Klassifikation</term>
                     <term>Big Data</term>
                 </keywords>
-                <keywords>
+                <keywords scheme="ConfTool" n="topics">
                     <term>Transkription</term>
                     <term>Gestaltung</term>
                     <term>Inhaltsanalyse</term>
@@ -82,45 +82,61 @@
             <p>Mit der Ontologie deutschsprachiger Berufs- und Amtsbezeichnungen möchten wir diese Lücke schließen und eine Berufssystematik für historische, deutschsprachige Berufe entwickeln, die sowohl an die (modernen) Klassifikationssysteme anknüpfen (Klassifikation der Berufe 2010: Wiemer et al. 2011) als auch die deutschen Berufsbezeichnungen für internationale, historische Klassifikationssysteme (HISCO, PST) anschlussfähig macht und die sowohl als maschinenlesbare Ontologie als auch mittels eines Webservice für einen individuellen Zugriff genutzt werden kann. </p>
             <p>Ziel des Projekts</p>
             <p>Ziel des Projektes ist es einen nationalen Standard zur Normierung und multiperspektivischen Klassifizierung von deutschsprachigen, historischen Berufsbezeichnungen zu entwickeln und als webbasierte, offene Ressource für die Nachnutzung in Forschungsprojekten und für Infrastrukturen des Forschungsdatenmanagements zur Verfügung stellen. Der hohe Mehrwert für die wissenschaftliche Analyse und die enorme Arbeitserleichterung sollte erheblich dazu beitragen, auf positive Weise tatsächlich einen anreizbildenden Standard zu etablieren, zumal dieser dann auch international anschlussfähig sein wird. Da sich die meisten Klassifizierungsmodelle auf Berufssysteme des 19./20. Jahrhundert konzentrieren, möchten wir diese Systematiken um Beruflichkeit der Frühen Neuzeit und des Spätmittelalters erweitern. Im Einzelnen umfasst dieser Service:</p>
-            <list>
+            <list type="unordered">
                 <item>Einen Standard zur Normierung von deutschsprachigen Berufsbezeichnungen. Dazu stehen ca. 200.000 Varianten von historischen Berufsschreibungen zur Verfügung, die sich in ca. 20.000 normierte Einheitsbezeichnungen zusammenfassen lassen. Dieser enorme Korpus ist Ergebnis jahrelanger eigener Datenproduktionen und Kooperationen mit qualitativ hochrangigen Projekten. Im Gegensatz zu vielen Handbüchern, Lexika und anderen gedruckten Kompendien (Ebener 2015; Gerholz 2005; Haemmerle 1933; Molle 1975; Palla 2014; Puchner / Stadler 1935; Reith 1991; Ulm-Sanford 1975) werden die Originalschreibungen der Varianten erhalten. Dies ermöglicht einen hohen Mehrwert für interdisziplinäre Zugriffe z.B. linguistische und etymologische Analysen, aber auch für den technischen Vorgang der Normierung und Zuweisung der Kodierung in einer Vielzahl von Erschließungsprojekten. Damit bietet das Werkzeug eine außerordentliche gute Grundlage, zur Erschließung (Lemmatisierung und Kodierung) von textuellen Quellen jeder Art.</item>
                 <item>Um die Klassifizierung zu erleichtern, wie auch einen Informationsverlust durch die Klassifizierung zu verhindern, werden alle Berufsbezeichnungen zunächst in kategorial geordnete semantische Einheiten aufgetrennt. Dies erleichtert erheblich die Nutzbarkeit des Angebots für unterschiedlichste Anforderungen. Diese semantische Trennung und Normierung der Namenseinheiten ermöglicht später eine individuell flexible inhaltliche Auswahl verschiedener logischer Einheiten (Topic Modeling) nach eigenen Prinzipien. In unserem Vortrag möchten wir die Logik dieses Modells erläutern und dem Fachpublikum zur Diskussion stellen, um Anregungen für eine interdisziplinär optimal zu nutzende Methode zu erhalten. Diese Vorgehensweise unterscheidet das Projekt von allen anderen rein auf ID-Identifikatoren zugeschnittenen Verfahren und macht es wesentlich flexibler und breiter für verschiedenste Bedürfnisse geistes- und sozialwissenschaftlicher Forschung anwendbar. Bei herkömmlichen Verfahren kann lediglich über eine fest zugewiesene ID-Nummer auf den verschiedenen Ebenen des Kodierungssystems klassifiziert und sortiert werden. In dem hier vorgeschlagenen Modell erfolgt zusätzlich auch auf der semantischen Ebene die Möglichkeit zum intuitiven Systematisieren, Anordnen und Auswählen. Dies gilt auch für alle weiteren Informationen (Geschlecht, Herrschaft, Rechtsbeziehungen, Ruhestand, Karriere etc.), die mit typisch frühneuzeitlichen, quellenbasierten Berufsbezeichnungen einhergehen und in moderne Berufssystematiken meist keinen Eingang finden. Moderne Klassifikationssysteme für frühneuzeitliche Berufsnamen sind daher tendenziell mit einem sehr hohen Informationsdefizit belastet und können unter Umständen in ahistorischen Analysen enden.</item>
             </list>
             <figure>
-                <graphic/>
+                <graphic n="1001"
+                     width="15.156533333333334cm"
+                     height="8.128594444444444cm"
+                     rend="inline"
+                     url="../images/NASAREK_Robert_Die_Ontologie_historischer_deutschprachiger_B.xml-image1.jpg"/>
             </figure>
-            <list>
+            <list type="unordered">
                 <item>Zur Klassifizierung von Berufen werden aus zeittypischen Lexika des 17./18. Jahrhunderts Tätigkeitsbeschreibungen abstrahiert, welche die Anforderungsprofile und Kompetenzen einzelner Berufe definieren. Sie dienen dem Abgleich mit modernen Tätigkeitsprofilen und erlauben erstmals überhaupt eine tätigkeitsgenaue Zuordnung historischer Berufe. Im Vortrag möchten wir zeigen, welche Möglichkeiten zur Systematisierung und Kategorisierung Lexika der frühen Neuzeit bieten und welche inhaltlichen Anknüpfungspunkte sie für moderne Klassifikationssysteme liefern. Dieser Aspekt bietet zudem hervorragende Möglichkeiten zur fachwissenschaftlichen Analyse, werden auf diese Weise doch Definitionskriterien frühneuzeitlicher Beruflichkeit überhaupt ermittelt und mittels einer logischen Auszeichnung auffindbar und auswertbar (xml/TEI). Wir möchten zeigen, welche Probleme dabei auftreten und welche Lösungsansätze wir hierfür entwickelt haben.</item>
             </list>
             <figure>
-                <graphic/>
+                <graphic n="1002"
+                     width="14.657916666666667cm"
+                     height="8.246694444444444cm"
+                     rend="inline"
+                     url="../images/NASAREK_Robert_Die_Ontologie_historischer_deutschprachiger_B.xml-image2.jpeg"/>
             </figure>
             <p>Weitere Ziel des Projektes (aber nicht unmittelbar unseres Vortrages, auch wenn wir auf die einzelnen Punkte sicherlich hinweisen) sind zudem folgende Punkte:</p>
-            <list>
+            <list type="unordered">
                 <item>Die Tätigkeitsprofile ermöglichen die nachvollziehbare, transparente Einordnung von Berufsbezeichnungen zum bereits existierenden englischsprachigen Berufsklassifizierungssystems HISCO. Momentan gibt es in HISCO lediglich 1.306 deutschsprachige Berufsbezeichnungen. Die Daten wurden nicht von einem Muttersprachler kodiert, weshalb viele Zuordnungen korrigiert werden müssten. Die Kodierung von HISCO ermöglicht das Mapping weiterer historischer Klassifikationsmodelle wie HISCLASS oder PST. Da HISCO moderne Beruflichkeit misst, ist eine Erweiterung und Präzisierung für die Berufe der Frühen Neuzeit unerlässlich (van Leeuwen et al. 2002; HISCO Tree Of Occupational Groups [http://historyofwork.iisg.nl/major.php]).</item>
                 <item>Zudem werden die Einheitsbezeichnungen der KldB 2010 zugeordnet. Sie bieten nicht nur einen Zugriff auf (weitere) moderne Berufsklassifikationsmodelle, sondern durch den theoretischen Perspektivwechsel auch eine Systematisierung nach Anforderungsprofilen (Wiemer 2011).</item>
                 <item>Die offenen Daten ermöglichen es Nutzern, transkribierte, quellenbasierte Originalberufsbezeichnungen zu normalisieren und automatisiert in ein ausgewähltes Kodierungssystem zu überführen. Ein Usecase wäre bspw. ein Forschungsprojekt, welches eine Netzwerkanalyse durch Heiratsverbindungen vornimmt. Der Beruf bietet hier häufig den einzigen Hinweis auf die sozialstrukturelle Dimension von Gruppen. Über das Werkzeug können die Daten in einem gewünschten Klassifizierungsmodell ausgegeben werden, indem die Originalschreibungen der Berufe in das Tool geladen und automatisiert kodiert werden. </item>
                 <item>Varianten die keine automatisierte Kodierung beinhalten, können anschließend recherchiert und kodiert und in das Kompendium übertragen werden. Das Werkzeug ist damit beliebig erweiterbar. Das Projekt entwickelt ein Geschäftsmodell, wie solche Daten als Teil eines Serviceangebots nachkodiert und integriert werden können. Als Teil der langfristigen Infrastruktureinrichtung DARIAH soll die Ontologie der Berufe durch die Niedersächsische Staats- und Universitätsbibliothek auf Dauer angeboten werden.</item>
             </list>
             <p>Zwischenergebnisse</p>
-            <list>
+            <list type="unordered">
                 <item>Im Bereich der Berufssegmentierung wurde ein Prototyp eines Datenschemas entwickelt, um die Berufe in adäquate Informationseinheiten aufzutrennen. </item>
                 <item>Der Informationsgehalt der Lexika bezogen auf berufskundliche Informationen wurde tiefergehend untersucht und erste Aussagen können darüber getroffen werden. </item>
             </list>
             <figure>
-                <graphic/>
+                <graphic n="1003"
+                     width="14.4cm"
+                     height="4.992069444444445cm"
+                     rend="inline"
+                     url="../images/NASAREK_Robert_Die_Ontologie_historischer_deutschprachiger_B.xml-image3.png"/>
             </figure>
             <p>
                 <pb/>
             </p>
-            <p>Des Weiteren ist ein erstes Netzwerk von Autorenschaften und Informationsflüssen nachweisbar.</p>
+            <p rend="List Paragraph">Des Weiteren ist ein erstes Netzwerk von Autorenschaften und Informationsflüssen nachweisbar.</p>
             <figure>
-                <graphic/>
+                <graphic n="1004"
+                     width="16.002cm"
+                     height="10.852327777777777cm"
+                     rend="inline"
+                     url="../images/NASAREK_Robert_Die_Ontologie_historischer_deutschprachiger_B.xml-image4.png"/>
             </figure>
-            <list>
+            <list type="unordered">
                 <item>Die Taxonomie der Klassifikationssysteme von HISCO und der KldB 2010 wurden ausführlich untersucht und erste Ansätze einer eigenen Systematik können vorgestellt werden.</item>
                 <item>Mehrere Workflowalternativen von der Quelle bis zum Ergebnis der Inhaltsanalyse wurden erprobt, bewertet und können mit ihren Vor- und Nachteilen präsentiert werden. An dieser Stelle platziert sich am deutlichsten die „Kritik an der digitalen Vernunft“, vor allem in Bezug auf die 
-                    <list>
+                    <list type="unordered">
                         <item>Arbeit mit OCR-Erkennung (am Beispiel der OCR-Programmsammlung „ocropy“) </item>
                         <item>dem Pre- und Postprocessing von Quellendigitalisaten (im Sinne von Ordnerstrukturen und Bildaufarbeitung) </item>
                         <item>XML vs. QDA-gestützten hermeneutischen Verfahren der Inhaltsanalyse (zur Implementierung und Weiterverarbeitung der Ergebnisse und Daten) und</item>
@@ -131,162 +147,162 @@
             <p>Hierbei wird über die Vermeidung von epistemischen Fallstricken durch informationstechnische Automatisierung reflektiert und die Effizienzsteigerung digitaler Werkzeuge kritisch betrachtet, aber auch über die neuen Möglichkeiten zur Bewältigung von Big Data und dem dazugehörigen Erkenntnisgewinn referiert.</p>
         </body>
         <back>
-            <div>
+            <div type="bibliogr">
                 <listBibl>
                     <head>Bibliographie</head>
                     <bibl>
-                        <anchor/>
-                        <hi>Brandenburg, Hajo / Gehrmann, Rolf / Krüger, Kersten / Künne, Andreas / Rüffer, Jörn</hi> (1991): Berufe in Altona. Berufssystematik für eine präindustrielle Stadtgesellschaft anhand der Volkszählung. Kiel: Arbeitskreis für Wirtschafts- und Sozialgeschichte Schleswig-Holsteins.
+                        <anchor xml:id="CTVL0011e54639456d9415b86eab51a12fee01c"/>
+                        <hi rend="bold">Brandenburg, Hajo / Gehrmann, Rolf / Krüger, Kersten / Künne, Andreas / Rüffer, Jörn</hi> (1991): Berufe in Altona. Berufssystematik für eine präindustrielle Stadtgesellschaft anhand der Volkszählung. Kiel: Arbeitskreis für Wirtschafts- und Sozialgeschichte Schleswig-Holsteins.
                     </bibl>
                     <bibl>
-                        <hi>Brückner, Carola / Möhle, Sylvia / Pröve, Ralf / Roschmann, Joachim</hi> (1988): Vom Fremden zum Bürger: Zuwanderer in Göttingen 1700-1755. In: Hermann Wellenreuther (Hg.): Göttingen 1690-1755. Studien zur Sozialgeschichte einer Stadt. Göttingen (Göttinger Universitätsschriften. Serie A, Schriften, Bd. 9), S. 88–174.
+                        <hi rend="bold">Brückner, Carola / Möhle, Sylvia / Pröve, Ralf / Roschmann, Joachim</hi> (1988): Vom Fremden zum Bürger: Zuwanderer in Göttingen 1700-1755. In: Hermann Wellenreuther (Hg.): Göttingen 1690-1755. Studien zur Sozialgeschichte einer Stadt. Göttingen (Göttinger Universitätsschriften. Serie A, Schriften, Bd. 9), S. 88–174.
                     </bibl>
                     <bibl>
-                        <hi>Bundesanstalt für Arbeit</hi> (1988): Klassifizierung der Berufe. Systematisches und alphabetisches Verzeichnis der Berufsbenennungen. Nürnberg. Online verfügbar unter http://statistik.arbeitsagentur.de/Statischer-Content/Grundlagen/Klassifikation-der-Berufe/KldB1975-1992/Generische-Publikationen/KldB1988-Systematischer-Teil.pdf, zuletzt geprüft am 07.06.2016.
+                        <hi rend="bold">Bundesanstalt für Arbeit</hi> (1988): Klassifizierung der Berufe. Systematisches und alphabetisches Verzeichnis der Berufsbenennungen. Nürnberg. Online verfügbar unter http://statistik.arbeitsagentur.de/Statischer-Content/Grundlagen/Klassifikation-der-Berufe/KldB1975-1992/Generische-Publikationen/KldB1988-Systematischer-Teil.pdf, zuletzt geprüft am 07.06.2016.
                     </bibl>
                     <bibl>
-                        <hi>Bundesanstalt für Arbeit</hi> (2011): Klassifikation der Berufe 2010. Systematischer und alphabetischer Teil mit Erläuterungen. 2 Bände. Nürnberg (1). Online verfügbar unter https://statistik.arbeitsagentur.de/Statischer-Content/Grundlagen/Klassifikation-der-Berufe/KldB2010/Printausgabe-KldB-2010/Generische-Publikationen/KldB2010-Printversion-Band1.pdf, zuletzt geprüft am 07.06.2016.
+                        <hi rend="bold">Bundesanstalt für Arbeit</hi> (2011): Klassifikation der Berufe 2010. Systematischer und alphabetischer Teil mit Erläuterungen. 2 Bände. Nürnberg (1). Online verfügbar unter https://statistik.arbeitsagentur.de/Statischer-Content/Grundlagen/Klassifikation-der-Berufe/KldB2010/Printausgabe-KldB-2010/Generische-Publikationen/KldB2010-Printversion-Band1.pdf, zuletzt geprüft am 07.06.2016.
                     </bibl>
                     <bibl>
-                        <anchor/>
-                        <hi>Ebeling, Dietrich</hi> (1987): Bürgertum und Pöbel. Wirtschaft und Gesellschaft Kölns im 18. Jahrhundert. Köln (Städteforschung. Reihe A, Darstellungen, Bd. 26).
+                        <anchor xml:id="CTVL001ea3178f9b54d40be982a1306bd8999cc"/>
+                        <hi rend="bold">Ebeling, Dietrich</hi> (1987): Bürgertum und Pöbel. Wirtschaft und Gesellschaft Kölns im 18. Jahrhundert. Köln (Städteforschung. Reihe A, Darstellungen, Bd. 26).
                     </bibl>
                     <bibl>
-                        <hi>Ebner, Jakob</hi> (2015) Wörterbuch historischer Berufsbezeichnungen. Berlin u.a.
+                        <hi rend="bold">Ebner, Jakob</hi> (2015) Wörterbuch historischer Berufsbezeichnungen. Berlin u.a.
                     </bibl>
                     <bibl>
-                        <anchor/>
-                        <hi>Fischer, Volker</hi> (2000): Stadt und Bürgertum in Kurhessen. Kommunalreform und Wandel der städtischen Gesellschaft 1814-1848. Kassel (Hessische Forschungen zur geschichtlichen Landes- und Volkskunde, 35).
+                        <anchor xml:id="CTVL001198fce37499649029765cfd0bf1680ed"/>
+                        <hi rend="bold">Fischer, Volker</hi> (2000): Stadt und Bürgertum in Kurhessen. Kommunalreform und Wandel der städtischen Gesellschaft 1814-1848. Kassel (Hessische Forschungen zur geschichtlichen Landes- und Volkskunde, 35).
                     </bibl>
                     <bibl>
-                        <anchor/>
-                        <hi>François, Etienne</hi> (1982): Koblenz im 18. Jahrhundert. Zur Sozial- und Bevölkerungsstruktur einer deutschen Residenzstadt. Göttingen (Veröffentlichungen des Max-Planck-Instituts für Geschichte, Bd. 72).
+                        <anchor xml:id="CTVL0017d0263a350e445098a669d165a494e6d"/>
+                        <hi rend="bold">François, Etienne</hi> (1982): Koblenz im 18. Jahrhundert. Zur Sozial- und Bevölkerungsstruktur einer deutschen Residenzstadt. Göttingen (Veröffentlichungen des Max-Planck-Instituts für Geschichte, Bd. 72).
                     </bibl>
                     <bibl>
-                        <anchor/>
-                        <hi>Gerber, Roland</hi> (2001): Gott ist Burger zu Bern. Eine spätmittelalterliche Stadtgesellschaft zwischen Herrschaftsbildung und sozialem Ausgleich. Weimar (Forschungen zur mittelalterlichen Geschichte, 39).
+                        <anchor xml:id="CTVL00170fe7198696e45289a96ebce2960c3d0"/>
+                        <hi rend="bold">Gerber, Roland</hi> (2001): Gott ist Burger zu Bern. Eine spätmittelalterliche Stadtgesellschaft zwischen Herrschaftsbildung und sozialem Ausgleich. Weimar (Forschungen zur mittelalterlichen Geschichte, 39).
                     </bibl>
                     <bibl>
-                        <hi>Gerholz, Heinrich</hi> (2005): Gerholz-Kartei, Eine Sammlung alter Berufsbezeichnungen, Lübeck.
+                        <hi rend="bold">Gerholz, Heinrich</hi> (2005): Gerholz-Kartei, Eine Sammlung alter Berufsbezeichnungen, Lübeck.
                     </bibl>
                     <bibl>
-                        <hi>Haemmerle, Albert</hi> (1966): Alphabetisches Verzeichnis der Berufs- und Standesbezeichnungen vom ausgehenden Mittelalter bis zur neueren Zeit, (Reprografischer Nachdruck der Ausgabe München 1933), Hildesheim.
+                        <hi rend="bold">Haemmerle, Albert</hi> (1966): Alphabetisches Verzeichnis der Berufs- und Standesbezeichnungen vom ausgehenden Mittelalter bis zur neueren Zeit, (Reprografischer Nachdruck der Ausgabe München 1933), Hildesheim.
                     </bibl>
                     <bibl>
-                        <anchor/>
-                        <hi>Hahn, Hans-Werner </hi>(1991): Altständisches Bürgertum zwischen Beharrung und Wandel. Wetzlar, 1689-1870. München (Stadt und Bürgertum, Bd. 2).
+                        <anchor xml:id="CTVL0015be101a8c16d4452a46b84ce6f9e75f3"/>
+                        <hi rend="bold">Hahn, Hans-Werner </hi>(1991): Altständisches Bürgertum zwischen Beharrung und Wandel. Wetzlar, 1689-1870. München (Stadt und Bürgertum, Bd. 2).
                     </bibl>
                     <bibl>
-                        <anchor/>
-                        <hi>Hettling, Manfred </hi>(1999): Politische Bürgerlichkeit. Der Bürger zwischen Individualität und Vergesellschaftung in Deutschland und der Schweiz von 1860 bis 1918. Göttingen.
+                        <anchor xml:id="CTVL001a0e67b3eed904e43bb8384fa4f3c05eb"/>
+                        <hi rend="bold">Hettling, Manfred </hi>(1999): Politische Bürgerlichkeit. Der Bürger zwischen Individualität und Vergesellschaftung in Deutschland und der Schweiz von 1860 bis 1918. Göttingen.
                     </bibl>
                     <bibl>
-                        <anchor/>
-                        <hi>ILO</hi> (1958): International Standard Classification of Occupations. Geneva. Online verfügbar unter http://www.ilo.org/public/libdoc/ilo/1958/58B09_81_engl.pdf, zuletzt geprüft am 31.05.2016.
+                        <anchor xml:id="CTVL001c3cb671a3ce14c65b344de7d5b30b2f7"/>
+                        <hi rend="bold">ILO</hi> (1958): International Standard Classification of Occupations. Geneva. Online verfügbar unter http://www.ilo.org/public/libdoc/ilo/1958/58B09_81_engl.pdf, zuletzt geprüft am 31.05.2016.
                     </bibl>
                     <bibl>
-                        <anchor/>
-                        <hi>ILO </hi>(1969): International Standard Classification of Occupations. Revised Edition 1968. Geneva.
+                        <anchor xml:id="CTVL00150cc3dc78fad4c15815daeab305497d0"/>
+                        <hi rend="bold">ILO </hi>(1969): International Standard Classification of Occupations. Revised Edition 1968. Geneva.
                     </bibl>
                     <bibl>
-                        <anchor/>
-                        <hi>ILO</hi> (2004): ISCO-88. Main Objectives. Online verfügbar unter http://www.ilo.org/public/english/bureau/stat/isco/isco88/publ1.htm, zuletzt geprüft am 06.07.2016.
+                        <anchor xml:id="CTVL0016803f08af5bd4544919ea9c24c3c867a"/>
+                        <hi rend="bold">ILO</hi> (2004): ISCO-88. Main Objectives. Online verfügbar unter http://www.ilo.org/public/english/bureau/stat/isco/isco88/publ1.htm, zuletzt geprüft am 06.07.2016.
                     </bibl>
                     <bibl>
-                        <anchor/>
-                        <hi>ILO</hi> (2008): Resolution Concerning Updating ISCO 1 Resolution Concerning Updating the International Standard Classification of Occupations. Online verfügbar unter http://www.ilo.org/public/english/bureau/stat/isco/docs/resol08.pdf, zuletzt geprüft am 31.05.2016.
+                        <anchor xml:id="CTVL0012121b2387b9b4ba4a533c77dcf9123d5"/>
+                        <hi rend="bold">ILO</hi> (2008): Resolution Concerning Updating ISCO 1 Resolution Concerning Updating the International Standard Classification of Occupations. Online verfügbar unter http://www.ilo.org/public/english/bureau/stat/isco/docs/resol08.pdf, zuletzt geprüft am 31.05.2016.
                     </bibl>
                     <bibl>
-                        <anchor/>
-                        <hi>Jägers, Regine</hi> (2001): Duisburg im 18. Jahrhundert. Sozialstruktur und Bevölkerungsbewegung einer niederrheinischen Kleinstadt im Ancien Regime (1713-1814). Köln (Rheinisches Archiv, 143).
+                        <anchor xml:id="CTVL0019af7fff807a942839d4e571ab682307e"/>
+                        <hi rend="bold">Jägers, Regine</hi> (2001): Duisburg im 18. Jahrhundert. Sozialstruktur und Bevölkerungsbewegung einer niederrheinischen Kleinstadt im Ancien Regime (1713-1814). Köln (Rheinisches Archiv, 143).
                     </bibl>
                     <bibl>
-                        <anchor/>
-                        <hi>Kill, Susanne</hi> (2001): Das Bürgertum in Münster 1770-1870. bürgerliche Selbstbestimmung im Spannungsfeld von Kirche und Staat. München.
+                        <anchor xml:id="CTVL001a3b6ab42b73d4e429db9b45267e7224f"/>
+                        <hi rend="bold">Kill, Susanne</hi> (2001): Das Bürgertum in Münster 1770-1870. bürgerliche Selbstbestimmung im Spannungsfeld von Kirche und Staat. München.
                     </bibl>
                     <bibl>
-                        <anchor/>
-                        <hi>Kroll, Stefan</hi> (1997): Stadtgesellschaft und Krieg. Sozialstruktur, Bevölkerung und Wirtschaft in Stralsund und Stade 1700 bis 1715. Göttingen (Göttinger Beiträge zur Wirtschafts- und Sozialgeschichte, Bd. 18).
+                        <anchor xml:id="CTVL00162457291bac042ce89081806cf627dc1"/>
+                        <hi rend="bold">Kroll, Stefan</hi> (1997): Stadtgesellschaft und Krieg. Sozialstruktur, Bevölkerung und Wirtschaft in Stralsund und Stade 1700 bis 1715. Göttingen (Göttinger Beiträge zur Wirtschafts- und Sozialgeschichte, Bd. 18).
                     </bibl>
                     <bibl>
-                        <anchor/>
-                        <hi>Krüger, Kersten</hi> (1986): Sozialstruktur der Stadt Oldenburg 1630 und 1678. Analysen in historischer Finanzsoziologie anhand staatlicher Steuerregister. Oldenburg.
+                        <anchor xml:id="CTVL001e54be8556e154aed9c8945a99f494c18"/>
+                        <hi rend="bold">Krüger, Kersten</hi> (1986): Sozialstruktur der Stadt Oldenburg 1630 und 1678. Analysen in historischer Finanzsoziologie anhand staatlicher Steuerregister. Oldenburg.
                     </bibl>
                     <bibl>
-                        <anchor/>Laufer, Wolfgang (1973): Die Sozialstruktur der Stadt Trier in der frühen Neuzeit. Bonn (Rheinisches Archiv, 86).
+                        <anchor xml:id="CTVL00136846618dd35484f85377f4427d1cf2e"/>Laufer, Wolfgang (1973): Die Sozialstruktur der Stadt Trier in der frühen Neuzeit. Bonn (Rheinisches Archiv, 86).
                     </bibl>
                     <bibl>
-                        <anchor/>
-                        <hi>Lundgreen, Margret Kraul; Ditt, Karl</hi> (1988): Bildungschancen und soziale Mobilität in der städtischen Gesellschaft des 19. Jahrhunderts. Göttingen.
+                        <anchor xml:id="CTVL0013412bd6de8434319a2a316eba4d1d731"/>
+                        <hi rend="bold">Lundgreen, Margret Kraul; Ditt, Karl</hi> (1988): Bildungschancen und soziale Mobilität in der städtischen Gesellschaft des 19. Jahrhunderts. Göttingen.
                     </bibl>
                     <bibl>
-                        <anchor/>
-                        <hi>Manke, Matthias</hi> (2000): Rostock zwischen Revolution und Biedermeier. Alltag und Sozialstruktur. Rostock (Rostocker Studien zur Regionalgeschichte, Bd. 1).
+                        <anchor xml:id="CTVL001411c3d06f5f844c8a984e37687b09373"/>
+                        <hi rend="bold">Manke, Matthias</hi> (2000): Rostock zwischen Revolution und Biedermeier. Alltag und Sozialstruktur. Rostock (Rostocker Studien zur Regionalgeschichte, Bd. 1).
                     </bibl>
                     <bibl>
-                        <hi>Molle, Fritz</hi> (1975): Wörterbuch der Berufs- und Berufstätigkeitsbezeichnungen, Wolfenbüttel .
+                        <hi rend="bold">Molle, Fritz</hi> (1975): Wörterbuch der Berufs- und Berufstätigkeitsbezeichnungen, Wolfenbüttel .
                     </bibl>
                     <bibl>
-                        <anchor/>
-                        <hi>Müller, Christina</hi> (1992): Karlsruhe im 18. Jahrhundert. Zur Genese und zur sozialen Schichtung einer residenzstädtischen Bevölkerung. Karlsruhe (Forschungen und Quellen zur Stadtgeschichte, 1).
+                        <anchor xml:id="CTVL00166fa186600204b8b8d8337df44514b9d"/>
+                        <hi rend="bold">Müller, Christina</hi> (1992): Karlsruhe im 18. Jahrhundert. Zur Genese und zur sozialen Schichtung einer residenzstädtischen Bevölkerung. Karlsruhe (Forschungen und Quellen zur Stadtgeschichte, 1).
                     </bibl>
                     <bibl>
-                        <hi>Palla, Rudi</hi> (2014): Verschwundene Arbeit. Das Buch der untergegangenen Berufe. Wien.
+                        <hi rend="bold">Palla, Rudi</hi> (2014): Verschwundene Arbeit. Das Buch der untergegangenen Berufe. Wien.
                     </bibl>
                     <bibl>
-                        <anchor/>
-                        <hi>Paulus, Wiebke / Matthes, Britta</hi> (2013): Klassifikation der Berufe. Struktur, Codierung und Umsteigeschlüssel. Online verfügbar unter http://doku.iab.de/fdz/reporte/2013/MR_08-13.pdf, zuletzt geprüft am 11.06.2016.
+                        <anchor xml:id="CTVL001e8b493216a284241b6e410cac13a5217"/>
+                        <hi rend="bold">Paulus, Wiebke / Matthes, Britta</hi> (2013): Klassifikation der Berufe. Struktur, Codierung und Umsteigeschlüssel. Online verfügbar unter http://doku.iab.de/fdz/reporte/2013/MR_08-13.pdf, zuletzt geprüft am 11.06.2016.
                     </bibl>
                     <bibl>
-                        <hi>Puchner, Karl / Stadler, Josef Klemens</hi> (1935): Lateinische Berufsbezeichnungen in Pfarrmatrikeln und sonstigen orts- und familiengeschichtlichen Quellen, Hirschenhausen (Obby).
+                        <hi rend="bold">Puchner, Karl / Stadler, Josef Klemens</hi> (1935): Lateinische Berufsbezeichnungen in Pfarrmatrikeln und sonstigen orts- und familiengeschichtlichen Quellen, Hirschenhausen (Obby).
                     </bibl>
                     <bibl>
-                        <anchor/>
-                        <hi>Raschke, Helga</hi> (2001): Bevölkerung und Handwerk einer thüringischen Residenzstadt. Gotha zwischen 1640 und 1740. 1. Aufl. Jena (Palmbaum Texte. Kulturgeschichte, Bd. 9).
+                        <anchor xml:id="CTVL00141a71ba1c7ed4e8bb0a893446bead3e4"/>
+                        <hi rend="bold">Raschke, Helga</hi> (2001): Bevölkerung und Handwerk einer thüringischen Residenzstadt. Gotha zwischen 1640 und 1740. 1. Aufl. Jena (Palmbaum Texte. Kulturgeschichte, Bd. 9).
                     </bibl>
                     <bibl>
-                        <hi>Reith, Reinhold</hi> (1991): Lexikon des alten Handwerks. Vom späten Mittelalter bis ins 20. Jahrhundert. München.
+                        <hi rend="bold">Reith, Reinhold</hi> (1991): Lexikon des alten Handwerks. Vom späten Mittelalter bis ins 20. Jahrhundert. München.
                     </bibl>
                     <bibl>
-                        <anchor/>
-                        <hi>Rödel, Walter Gerd</hi> (1985): Mainz und seine Bevölkerung im 17. und 18. Jahrhundert. Demographische Entwicklung, Lebensverhältnisse und soziale Strukturen in einer geistlichen Residenzstadt. Stuttgart (Geschichtliche Landeskunde, Bd. 28).
+                        <anchor xml:id="CTVL0012cc5a19df68d46c5a782e3c7ca344bcf"/>
+                        <hi rend="bold">Rödel, Walter Gerd</hi> (1985): Mainz und seine Bevölkerung im 17. und 18. Jahrhundert. Demographische Entwicklung, Lebensverhältnisse und soziale Strukturen in einer geistlichen Residenzstadt. Stuttgart (Geschichtliche Landeskunde, Bd. 28).
                     </bibl>
                     <bibl>
-                        <anchor/>
-                        <hi>Sachse, Wieland</hi> (1987): Göttingen im 18. und 19. Jahrhundert. Zur Bevölkerungs- und Sozialstruktur einer deutschen Universitätsstadt. Göttingen (Studien zur Geschichte der Stadt Göttingen, Bd. 15).
+                        <anchor xml:id="CTVL001534d555bdfbd4f09a9ef97ce9ac4f18e"/>
+                        <hi rend="bold">Sachse, Wieland</hi> (1987): Göttingen im 18. und 19. Jahrhundert. Zur Bevölkerungs- und Sozialstruktur einer deutschen Universitätsstadt. Göttingen (Studien zur Geschichte der Stadt Göttingen, Bd. 15).
                     </bibl>
                     <bibl>
-                        <anchor/>
-                        <hi>Schüren, Reinhard</hi> (1989): Soziale Mobilität. Muster, Veränderungen und Bedingungen im 19. und 20. Jahrhundert. St. Katharinen.
+                        <anchor xml:id="CTVL00115595f709b204124b7890fbc78b0ff91"/>
+                        <hi rend="bold">Schüren, Reinhard</hi> (1989): Soziale Mobilität. Muster, Veränderungen und Bedingungen im 19. und 20. Jahrhundert. St. Katharinen.
                     </bibl>
                     <bibl>
-                        <hi>Schüren, Reinhard</hi> (1989): Soziale Mobilität: Muster, Veränderungen und Bedingungen im 19. und 20. Jahrhundert. St. Katharinen.
+                        <hi rend="bold">Schüren, Reinhard</hi> (1989): Soziale Mobilität: Muster, Veränderungen und Bedingungen im 19. und 20. Jahrhundert. St. Katharinen.
                     </bibl>
                     <bibl>
-                        <anchor/>
-                        <hi>Statistisches Bundesamt</hi> (1992): Klassifikation der Berufe 1992 (KldB 92). Gliederungsstruktur bis zur 4 Steller-Ebene. Stuttgart: Metzler-Poeschel. Online verfügbar unter https://www.destatis.de/DE/Methoden/Klassifikationen/Berufe/klassifikationkldb92_4st.pdf?__blob=publicationFile, zuletzt geprüft am 06.06.2016.
+                        <anchor xml:id="CTVL00116235cfe67b74de5be42483ec9917d35"/>
+                        <hi rend="bold">Statistisches Bundesamt</hi> (1992): Klassifikation der Berufe 1992 (KldB 92). Gliederungsstruktur bis zur 4 Steller-Ebene. Stuttgart: Metzler-Poeschel. Online verfügbar unter https://www.destatis.de/DE/Methoden/Klassifikationen/Berufe/klassifikationkldb92_4st.pdf?__blob=publicationFile, zuletzt geprüft am 06.06.2016.
                     </bibl>
                     <bibl>
-                        <anchor/>
-                        <hi>Straubel, Rolf</hi> (1995): Frankfurt (Oder) und Potsdam am Ende des Alten Reiches. Studien zur städtischen Wirtschafts- und Sozialstruktur. 1. Aufl. Potsdam (Quellen und Studien zur Geschichte und Kultur Brandenburg--Preussens und des Alten Reiches, Bd. 2).
+                        <anchor xml:id="CTVL00138a18825952a4c7d98c2dbf968749478"/>
+                        <hi rend="bold">Straubel, Rolf</hi> (1995): Frankfurt (Oder) und Potsdam am Ende des Alten Reiches. Studien zur städtischen Wirtschafts- und Sozialstruktur. 1. Aufl. Potsdam (Quellen und Studien zur Geschichte und Kultur Brandenburg--Preussens und des Alten Reiches, Bd. 2).
                     </bibl>
                     <bibl>
-                        <hi>Ulm-Sanford, Gerlinde</hi> (1975): Wörterbuch von Berufsbezeichnungen aus dem siebzehnten Jahrhundert, gesammelt aus den Wiener Totenprotokollen der Jahre 1648 - 1668 und einigen weiteren Quellen, Bern 1975.
+                        <hi rend="bold">Ulm-Sanford, Gerlinde</hi> (1975): Wörterbuch von Berufsbezeichnungen aus dem siebzehnten Jahrhundert, gesammelt aus den Wiener Totenprotokollen der Jahre 1648 - 1668 und einigen weiteren Quellen, Bern 1975.
                     </bibl>
                     <bibl>
-                        <anchor/>
-                        <hi>van Leeuwen, Marco H.D. / Maas, Ineke / Miles, Andrew</hi> (2002): Historical international standard classification of occupations. Leuven.
+                        <anchor xml:id="CTVL00107d998d98efc481fa976efc371184a3d"/>
+                        <hi rend="bold">van Leeuwen, Marco H.D. / Maas, Ineke / Miles, Andrew</hi> (2002): Historical international standard classification of occupations. Leuven.
                     </bibl>
                     <bibl>
-                        <anchor/>
-                        <hi>Weichel, Thomas</hi> (1993a): Die Berufsstruktur der Städte - erste Ergebnisse und Vergleiche. In: Lothar Gall (Hg.): Stadt und Bürgertum im Übergang von der traditionalen zur modernen Gesellschaft. München (Historische Zeitschrift. Beihefte, n.F., Bd. 16), S. 51–74.
+                        <anchor xml:id="CTVL00160c779bb08884571898651f5dcbeb794"/>
+                        <hi rend="bold">Weichel, Thomas</hi> (1993a): Die Berufsstruktur der Städte - erste Ergebnisse und Vergleiche. In: Lothar Gall (Hg.): Stadt und Bürgertum im Übergang von der traditionalen zur modernen Gesellschaft. München (Historische Zeitschrift. Beihefte, n.F., Bd. 16), S. 51–74.
                     </bibl>
                     <bibl>
-                        <anchor/>
-                        <hi>Weichel, Thomas</hi> (1993b): Die Bürger in ihrer beruflichen und sozialen Stellung. In: Lothar Gall (Hg.): Stadt und Bürgertum im Übergang von der traditionalen zur modernen Gesellschaft. München (Historische Zeitschrift. Beihefte, n.F., Bd. 16), S. 93–103.
+                        <anchor xml:id="CTVL001241593010daa423eb52e56c5ad20e57f"/>
+                        <hi rend="bold">Weichel, Thomas</hi> (1993b): Die Bürger in ihrer beruflichen und sozialen Stellung. In: Lothar Gall (Hg.): Stadt und Bürgertum im Übergang von der traditionalen zur modernen Gesellschaft. München (Historische Zeitschrift. Beihefte, n.F., Bd. 16), S. 93–103.
                     </bibl>
                     <bibl>
-                        <hi>Weichel, Thomas</hi> (1997): Die Bürger von Wiesbaden. von der Landstadt zur "Weltkurstadt", 1780 1914. München.
+                        <hi rend="bold">Weichel, Thomas</hi> (1997): Die Bürger von Wiesbaden. von der Landstadt zur "Weltkurstadt", 1780 1914. München.
                     </bibl>
                 </listBibl>
             </div>

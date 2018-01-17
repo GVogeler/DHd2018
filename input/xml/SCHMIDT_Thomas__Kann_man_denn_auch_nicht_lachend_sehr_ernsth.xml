@@ -49,23 +49,23 @@
         </fileDesc>
         <encodingDesc>
             <appInfo>
-                <application>
+                <application ident="DHCONVALIDATOR" version="1.17">
                     <label>DHConvalidator</label>
                 </application>
             </appInfo>
         </encodingDesc>
         <profileDesc>
             <textClass>
-                <keywords>
+                <keywords scheme="ConfTool" n="category">
                     <term>Paper</term>
                 </keywords>
-                <keywords>
+                <keywords scheme="ConfTool" n="subcategory">
                     <term>Vortrag</term>
                 </keywords>
-                <keywords>
+                <keywords scheme="ConfTool" n="keywords">
                     <term>Sentiment Analysis; Dramenanalyse;</term>
                 </keywords>
-                <keywords>
+                <keywords scheme="ConfTool" n="topics">
                     <term>Inhaltsanalyse</term>
                     <term>Literatur</term>
                     <term>Methoden</term>
@@ -77,84 +77,92 @@
     </teiHeader>
     <text>
         <body>
-            <div>
+            <div type="div1" rend="DH-Heading1">
                 <head>Sentiment Analyse und Dramenanalyse</head>
                 <p>Sentiment Analyse (SA) beschreibt eine Reihe von computergestützten Methoden zur Prädiktion der Polarität eines Texts, versucht also vereinfacht gesagt automatisiert herauszufinden, ob ein Text ein positives oder negatives Gefühl ausdrückt (Liu 2016). Darüber hinaus werden teilweise auch komplexere emotionale Kategorien (wie z.B. Zorn und Freude) betrachtet (Mohammad &amp; Turney 2010). Zentrale Anwendungsfelder der SA sind bislang vor allem die Analyse von Online-Reviews (McGlohan, Glance &amp; Reiter 2010) und Social Media-Daten (Kouloumpis, Wilson &amp; Moore 2011). </p>
                 <p>Zur Analyse von literarischen Texten mittels SA-Techniken finden sich bislang nur wenige Studien, z.B. zu Märchen (Alm, Roth &amp; Sproat 2005) und Romanen (Kakkonen &amp; Kakkonen 2011; Elsner 2012; Jannidis et al. 2016). Auf größeren Textkorpora wurde getestet, inwiefern SA-Werte eines Textes und Emotionskurven von Texten zur Genreklassifikation verwendet werden können (Kim, Padó &amp; Klinger 2017) und wie begriffsgeschichtliche Bedeutungsverschiebungen in literarischen Texten mithilfe von erweiterten SA-Methoden erforscht werden können (Buechel, Hellrich &amp; Hahn 2017). In Dramentexten hat man bisher die Verteilung von emotionalen Kategorien (Mohammad 2011) oder die Entwicklung von Figurenbeziehungen (Nalisnick &amp; Baird 2013) in Shakespeare-Dramen untersucht. Auch der vorliegende Beitrag beschäftigt sich mit dem Einsatz von SA im Bereich der Dramenanalyse. Es werden erstmals systematisch verschiedene Methoden der SA für Dramen getestet und evaluiert. Zudem wird exploriert, inwiefern bisher in der Literaturwissenschaft erforschte Aspekte von Dramen mithilfe der SA erfasst werden und inwiefern die SA auch für die Gewinnung neuer literaturwissenschaftlicher Erkenntnisse eingesetzt werden kann.</p>
                 <p>Das im Rahmen dieser Studie verwendete Lessing-Korpus umfasst ein mit Strukturinformationen annotiertes Dramenkorpus mit 11 Dramen, bestehend aus insgesamt 8224 Einzelrepliken. Sämtliche Dramen wurden über die Plattform 
-                    <hi>TextGrid</hi>
-                    <note>
-                        <p> https://textgridrep.org/repository.html; Hinweis: alle im Beitrag erwähnte URLs wurden zuletzt am 12.1.2018 überprüft</p>
+                    <hi rend="italic">TextGrid</hi>
+                    <note place="foot" xml:id="ftn1" n="1">
+                        <p rend="footnote text"> https://textgridrep.org/repository.html; Hinweis: alle im Beitrag erwähnte URLs wurden zuletzt am 12.1.2018 überprüft</p>
                     </note> bezogen, so dass alle im Rahmen dieses Beitrags entwickelten Tools auch auf andere 
-                    <hi>TextGrid</hi>-Dramen anwendbar sind. Mit dem am besten evaluierten SA-Verfahren wurde eine webbasierte Anwendung zur Analyse und Visualisierung von Sentiment-Verteilungen und -Verläufen implementiert.
+                    <hi rend="italic">TextGrid</hi>-Dramen anwendbar sind. Mit dem am besten evaluierten SA-Verfahren wurde eine webbasierte Anwendung zur Analyse und Visualisierung von Sentiment-Verteilungen und -Verläufen implementiert.
                 </p>
             </div>
-            <div>
+            <div type="div1" rend="DH-Heading1">
                 <head>Evaluation unterschiedlicher SA-Verfahren</head>
-                <div>
+                <div type="div2" rend="DH-Heading2">
                     <head>Lexikonsbasierte SA</head>
                     <p>Innerhalb der SA unterscheidet man zwei wesentliche Ansätze: (1) die Nutzung maschinellen Lernens und (2) die Verwendung lexikonbasierter Verfahren. Für das erstgenannte Vorgehen ist typischerweise ein mit Sentiment-Informationen annotiertes Trainingskorpus notwendig (D‘Andrea et al. 2015), welches für die Dramenanalyse bislang nicht vorliegt. Aus diesem Grund werden in der vorliegenden Arbeit lexikonbasierte Verfahren eingesetzt. Ein Sentiment-Lexikon ist dabei eine Wortliste, in der für jedes Wort Sentiment-Informationen angegeben sind (Liu 2016: 10), also z.B. ob es positiv oder negativ konnotiert ist und in welchem Ausmaß (Polaritätsstärke). Ein derartiges Wort nennt man auch 
-                        <hi>sentiment bearing word</hi> (SBW; Liu 2016: 189).
+                        <hi rend="italic">sentiment bearing word</hi> (SBW; Liu 2016: 189).
                     </p>
                 </div>
-                <div>
+                <div type="div2" rend="DH-Heading2">
                     <head>SA-Parameter</head>
                     <p>Folgende SA-Optionen wurden in unterschiedlichen Kombinationen systematisch evaluiert: </p>
                     <p>
-                        <hi>i) Lexika</hi> – Es wurden fünf zentrale Sentiment-Lexika für den deutschsprachigen Bereich herangezogen: 
-                        <hi>SentiWortschatz</hi> (SentiWS; Remus, Quasthoff &amp; Heyer 2010), die 
-                        <hi>Berlin Affective Word List – Reloaded</hi> (Bawl-R; Vo et al. 2009), die deutsche Version des 
-                        <hi>NRC Emotion-Association Lexicon</hi> (NRC, Mohammad &amp; Turney 2010), ein Lexikon von Clematide &amp; Klenner (2010; im folgenden CK genannt) und das 
-                        <hi>German Polarity Clues</hi> (GPC; Waltinger 2010). SentiWS, Bawl-R und CK enthalten Polaritäten und Polaritätsstärken, das NRC und GPC nur Polaritätsangaben. Das NRC enthält des Weiteren Annotationen zu acht unterschiedlichen Emotionen (Zorn, Furcht, Erwartung, Freude, Vertrauen, Ekel, Traurigkeit, Überraschung).
+                        <hi rend="bold">i) Lexika</hi> – Es wurden fünf zentrale Sentiment-Lexika für den deutschsprachigen Bereich herangezogen: 
+                        <hi rend="italic">SentiWortschatz</hi> (SentiWS; Remus, Quasthoff &amp; Heyer 2010), die 
+                        <hi rend="italic">Berlin Affective Word List – Reloaded</hi> (Bawl-R; Vo et al. 2009), die deutsche Version des 
+                        <hi rend="italic">NRC Emotion-Association Lexicon</hi> (NRC, Mohammad &amp; Turney 2010), ein Lexikon von Clematide &amp; Klenner (2010; im folgenden CK genannt) und das 
+                        <hi rend="italic">German Polarity Clues</hi> (GPC; Waltinger 2010). SentiWS, Bawl-R und CK enthalten Polaritäten und Polaritätsstärken, das NRC und GPC nur Polaritätsangaben. Das NRC enthält des Weiteren Annotationen zu acht unterschiedlichen Emotionen (Zorn, Furcht, Erwartung, Freude, Vertrauen, Ekel, Traurigkeit, Überraschung).
                     </p>
                     <p>
-                        <hi>ii) Historisch-linguistische Varianten </hi>– Über ein Tool des Deutschen Text-Archivs von Jurish (2011) wurde die Option der Lexikon-Erweiterung mit historischen linguistischen Varianten der Originalwörter untersucht.
+                        <hi rend="bold">ii) Historisch-linguistische Varianten </hi>– Über ein Tool des Deutschen Text-Archivs von Jurish (2011) wurde die Option der Lexikon-Erweiterung mit historischen linguistischen Varianten der Originalwörter untersucht.
                     </p>
                     <p>
-                        <hi>iii) Stoppwortlisten</hi> – Analog zu Saif et al. (2014) wurde der Einfluss der Verwendung von insgesamt drei unterschiedlichen Stoppwortlisten auf die Qualität der SA untersucht. Grund hierfür ist, dass durch verschiedene Kombination der Verfahren Sentiment-tragende Stoppwörter entstehen. Neben herkömmlichen Stoppwörtern wurden dabei auch Listen mit hochfrequenten Wörtern des Korpus untersucht. Dadurch wird der Einfluss von Wörtern analysiert, die zwar als sentiment-tragend in SA-Lexika ausgezeichnet werden, aber aufgrund der häufigen Nutzung im Korpus ein ungleichmäßiges Sentiment-Gewicht erzeugen (z.B. Herr, Fräulein).
+                        <hi rend="bold">iii) Stoppwortlisten</hi> – Analog zu Saif et al. (2014) wurde der Einfluss der Verwendung von insgesamt drei unterschiedlichen Stoppwortlisten auf die Qualität der SA untersucht. Grund hierfür ist, dass durch verschiedene Kombination der Verfahren Sentiment-tragende Stoppwörter entstehen. Neben herkömmlichen Stoppwörtern wurden dabei auch Listen mit hochfrequenten Wörtern des Korpus untersucht. Dadurch wird der Einfluss von Wörtern analysiert, die zwar als sentiment-tragend in SA-Lexika ausgezeichnet werden, aber aufgrund der häufigen Nutzung im Korpus ein ungleichmäßiges Sentiment-Gewicht erzeugen (z.B. Herr, Fräulein).
                     </p>
                     <p>
-                        <hi>iv) Lemmatisierung</hi> – Eine weitere untersuchte Verarbeitungsform für die SA ist die Lemmatisierung. Als Lemmatisierer werden der 
-                        <hi>Pattern-Lemmatisierer</hi> (De Smedt &amp; Daelemans 2012) der Python-Bibliothek 
-                        <hi>textblob</hi> und der Python-Wrapper des 
-                        <hi>treetagger</hi>-Tools (Schmid 1995) evaluiert. Viele SA-Lexika enthalten lediglich Grundformen. Aufgrund der Probleme und Schwierigkeiten der Lemmatisierung im Deutschen (Eger, Gleim &amp; Mehler 2016) soll vergleichend untersucht werden, welcher Lemmatisierer die besten Ergebnisse in Kombination mit Lexika erzielt. Ferner enthalten einige SA-Lexika manuell angegebene flektierte Wortformen. Es wird somit auch die automatische Lemmatisierung mit der manuellen Erweiterung verglichen.
+                        <hi rend="bold">iv) Lemmatisierung</hi> – Eine weitere untersuchte Verarbeitungsform für die SA ist die Lemmatisierung. Als Lemmatisierer werden der 
+                        <hi rend="italic">Pattern-Lemmatisierer</hi> (De Smedt &amp; Daelemans 2012) der Python-Bibliothek 
+                        <hi rend="italic">textblob</hi> und der Python-Wrapper des 
+                        <hi rend="italic">treetagger</hi>-Tools (Schmid 1995) evaluiert. Viele SA-Lexika enthalten lediglich Grundformen. Aufgrund der Probleme und Schwierigkeiten der Lemmatisierung im Deutschen (Eger, Gleim &amp; Mehler 2016) soll vergleichend untersucht werden, welcher Lemmatisierer die besten Ergebnisse in Kombination mit Lexika erzielt. Ferner enthalten einige SA-Lexika manuell angegebene flektierte Wortformen. Es wird somit auch die automatische Lemmatisierung mit der manuellen Erweiterung verglichen.
                     </p>
                 </div>
-                <div>
+                <div type="div2" rend="DH-Heading2">
                     <head>SA-Metriken</head>
                     <p>Alle nachfolgenden Berechnungen wurden bezüglich aller kombinatorischen Möglichkeiten der soeben beschriebenen SA-Parameter durchgeführt. Dabei werden die jeweiligen SA-Metriken nach Term-Zähl-Methodik (Kennedy &amp; Inkpen 2006) berechnet, d.h. ein Text wird hinsichtlich vorhandener SBWs untersucht, positive und negative Wörter ausgezählt und für einen Polaritätswert die positive von der negativen Zahl subtrahiert. SA-Metriken wurden auf folgenden Ebenen über die jeweils zugehörigen Texte kalkuliert: Drama, Akte, Szenen, Repliken sowie Sprecher und Sprecherbeziehungen pro Drama, Akt, Szene und Replik. Die Beziehungen zwischen den Figuren wurden nach einer Heuristik von Nalisnick &amp; Baird (2013) berechnet. </p>
                 </div>
-                <div>
+                <div type="div2" rend="DH-Heading2">
                     <head>Erstellung des Gold Standards</head>
                     <p>Zur systematischen Evaluation der Prädiktionsleistung der verschiedenen SA-Ansätze wurde ein Evaluationskorpus bestehend aus 200 Repliken erstellt. Bei der Auswahl der Repliken wurde darauf geachtet, dass die dramenspezifische Verteilung berücksichtigt wird, längere Dramen sind also mit mehr Repliken vertreten. Ferner wurden nur solche Repliken aufgenommen, die mindestens 19 Wörter umfassen. Diese Länge entspricht etwa -25% des Mittelwerts des Gesamtkorpus und vermeidet damit die Selektion von zu kurzen Repliken. Es wurde insgesamt auf eine gleichmäßige Längenverteilung geachtet.</p>
                     <p>Die Repliken wurden von insgesamt fünf Personen (4 weiblich, 1 männlich; alle jeweils mit Deutsch als Muttersprache) jeweils unabhängig voneinander bezüglich deren Polaritätswirkung bewertet. Die Polarität jeder Replik wurde jeweils sechswertig (sehr negativ, negativ, neutral, gemischt, positiv, sehr positiv) und binär (positiv, negativ) bewertet. Die Annotationen wurden bezüglich des Übereinstimmungsgrades analysiert. Dazu wurden das Übereinstimmungsmaß Fleiss‘ Kappa (Fleiss 1971) sowie der Durchschnittswert der prozentualen Übereinstimmung aller Annotatoren und Annotatorinnen berechnet (vgl. Tabelle 1).</p>
                     <figure>
-                        <graphic/>
+                        <graphic n="1001"
+                           width="16.002cm"
+                           height="3.2455555555555557cm"
+                           rend="inline"
+                           url="../images/SCHMIDT_Thomas__Kann_man_denn_auch_nicht_lachend_sehr_ernsth.xml-image1.png"/>
                     </figure>
                     <p>
-                        <hi>Tabelle 1</hi>. 
-                        <hi>Annotator agreement</hi>.
+                        <hi rend="bold">Tabelle 1</hi>. 
+                        <hi rend="italic">Annotator agreement</hi>.
                     </p>
                     <p>Man erkennt eine geringe Übereinstimmung für die Bewertungsskala mit sechsstufiger Polarität und eine moderate Übereinstimmung für die binäre Variante. Die Ergebnisse verhalten sich konform zu verwandten Studien bei der Interpretation literarischer Texte (Alm &amp; Sproat 2005). Als finale Annotation für eine Replik wird die binäre Polarität gewählt, die die Mehrheit der Annotatoren und Annotatorinnen ausgewählt haben (Endresultat: 139 negativ, 61 positiv).</p>
                 </div>
-                <div>
+                <div type="div2" rend="DH-Heading2">
                     <head>Evaluationsmaße </head>
                     <p>Als Evaluationsmaße wurden Genauigkeit (accuracy), Recall, Precision und F-Werte (Gonçalves et al. 2013) herangezogen. Abb. 1 zeigt einen Ausschnitt aus den je fünf besten Kombinationen pro Lexikon, geordnet nach Genauigkeit.
-                        <note>
-                            <p> Die vollständige Tabelle ist online verfügbar unter https://drive.google.com/open?id=1cvyqiiLJ03XT1VNaWgSDoajeTE3wgeqxxr2PXp-VM4w</p>
+                        <note place="foot" xml:id="ftn2" n="2">
+                            <p rend="footnote text"> Die vollständige Tabelle ist online verfügbar unter https://drive.google.com/open?id=1cvyqiiLJ03XT1VNaWgSDoajeTE3wgeqxxr2PXp-VM4w</p>
                         </note>
                     </p>
                     <figure>
-                        <graphic/>
+                        <graphic n="1002"
+                           width="16.002cm"
+                           height="7.9479138888888885cm"
+                           rend="inline"
+                           url="../images/SCHMIDT_Thomas__Kann_man_denn_auch_nicht_lachend_sehr_ernsth.xml-image2.png"/>
                     </figure>
                     <p>
-                        <hi>Abbildung 1</hi>: Ausschnitt aus der detaillierten Ergebnistabelle zur Evaluation der SA-Kombinationsmöglichkeiten.
+                        <hi rend="bold">Abbildung 1</hi>: Ausschnitt aus der detaillierten Ergebnistabelle zur Evaluation der SA-Kombinationsmöglichkeiten.
                     </p>
                 </div>
-                <div>
+                <div type="div2" rend="DH-Heading2">
                     <head>Ergebnisse der Evaluation</head>
                     <p>Nachfolgend erfolgt eine überblicksartige Zusammenstellung einiger zentraler Ergebnisse aus der Evaluation:</p>
-                    <list>
+                    <list type="unordered">
                         <item>Eine explizite Lemmatisierung führt zu einer verbesserten Leistung. Beide Lemmatisierer erzielen dabei meist ähnliche Ergebnisse. Die Lexikonerweiterung durch historische Varianten macht die explizite Lemmatisierung jedoch weitestgehend unnötig, da hierbei auch eine grundlegende Lemmatisierung inkludiert ist. </item>
                         <item>Es zeigt sich eine konsistente Verbesserung durch die Lexikonerweiterung mittels der Wort-Varianten aus dem Tool von Jurish (2011). </item>
                         <item>Stoppwortlisten haben nur auf vereinzelte Lexika (GPC, CK) einen merklich positiven Einfluss. </item>
@@ -165,46 +173,58 @@
                     <p>Aufgrund der Tatsache, dass hier ein verhältnismäßig simpler SA-Ansatz gewählt wurde und bereits menschliche Annotatoren und Annotatorinnen Schwierigkeiten mit der Polaritätsbestimmung haben, sind die Ergebnisse insgesamt durchaus positiv zu bewerten.</p>
                 </div>
             </div>
-            <div>
+            <div type="div1" rend="DH-Heading1">
                 <head>Online-Tool</head>
                 <p>Abschließend wurde auf Basis des besten SA-Ansatzes ein Web-Tool für die SA bei Dramen entwickelt. Dieses bietet interaktive Visualisierungen der Sentiment-Verteilungen und -Verläufe für alle berechneten Ebenen. Neben den SentiWS-Metriken wurden auch die Emotionskategorien des NRC integriert. Über das Tool kann man erste Fallstudien auf Dramen-, Akt-, Szenen-, Repliken-, Sprecher- und Sprecherbeziehungsebene durchführen. Die SA-Komponente ist online verfügbar.
-                    <note>
-                        <p> http://lauchblatt.github.io/QuantitativeDramenanalyseDH2015/FrontEnd/sa_selection.html</p>
+                    <note place="foot" xml:id="ftn3" n="3">
+                        <p rend="footnote text"> http://lauchblatt.github.io/QuantitativeDramenanalyseDH2015/FrontEnd/sa_selection.html</p>
                     </note>
                 </p>
                 <p>Trotz der historischen Differenz stimmen die Ergebnisse der automatischen SA tendenziell mit dem überein, was man in der Dramengeschichte über Bewertungen von Figuren und deren Verhalten weiß. Zusätzlich ist aber ein wichtiger heuristischer Mehrwert zu beobachten: eine Analyse allein auf der Basis von Sentiment-Zuschreibungen führt dazu, dass man das Augenmerk gezielt auf Fakten des Textes richtet, die bisher nicht berücksichtigt wurden. </p>
                 <p>Im Folgenden einige Beispiele für die Bestätigung bekannter Ergebnisse und für Entscheidungen von Analysefragen: </p>
-                <div>
+                <div type="div2" rend="DH-Heading2">
                     <head>Fallstudie: Minna von Barnhelm</head>
                     <p>Die Analyse von Minna von Barnhelm zeigt, dass die negativen emotionalen Bewertungen insgesamt gegenüber den positiven deutlich überwiegen (vgl. Abb. 2). Dieser Befund bestätigt die bekannte Erkenntnis, dass Lessing das Schema des rührenden Lustspiels verwendet hat. Während die Komik im Stück eher das Ergebnis von Schlussprozessen ist, geht es auf der wörtlichen Ebene überwiegend um ernste Vorwürfe und drohenden Identitäts- und Beziehungsverlust.</p>
                     <figure>
-                        <graphic/>
+                        <graphic n="1003"
+                           width="16.384044444444445cm"
+                           height="10.410466666666666cm"
+                           rend="inline"
+                           url="../images/SCHMIDT_Thomas__Kann_man_denn_auch_nicht_lachend_sehr_ernsth.xml-image3.png"/>
                     </figure>
                     <p>
-                        <hi>Abbildung 2</hi>: Polaritätsverteilung im Drama – 
-                        <hi>Minna von Barnhelm</hi>
+                        <hi rend="bold">Abbildung 2</hi>: Polaritätsverteilung im Drama – 
+                        <hi rend="italic">Minna von Barnhelm</hi>
                     </p>
                     <p>Es ist verschiedentlich behauptet worden (Saße 1993), Minna und nicht Tellheim sei die lächerliche Figur des Stücks. Die Sympathielenkung auf der wörtlichen Ebene des Textes, die in der unten stehenden Sentimentverteilung pro Akt abgebildet ist, kann dazu herangezogen werden, diese Frage negativ zu bescheiden (vgl. Abb. 3). Es ist eine auffällige Abweichung der Polarität im zweiten Akt erkennbar. In diesem Akt tritt Minna von Barnhelm zum ersten Mal auf, Tellheim jedoch nicht.</p>
                     <figure>
-                        <graphic/>
+                        <graphic n="1004"
+                           width="16.002cm"
+                           height="10.887847222222222cm"
+                           rend="inline"
+                           url="../images/SCHMIDT_Thomas__Kann_man_denn_auch_nicht_lachend_sehr_ernsth.xml-image4.png"/>
                     </figure>
                     <p>
-                        <hi>Abbildung 3</hi>: Polaritätsverlauf pro Akt – 
-                        <hi>Minna von Barnhelm</hi>
+                        <hi rend="bold">Abbildung 3</hi>: Polaritätsverlauf pro Akt – 
+                        <hi rend="italic">Minna von Barnhelm</hi>
                     </p>
                 </div>
-                <div>
+                <div type="div2" rend="DH-Heading2">
                     <head>Fallstudie: Emilia Galotti</head>
                     <p>Die letzte Visualisierung kann genutzt werden die Frage zu diskutieren, warum Emilia in Lessings Drama „Emilia Galotti“ sterben muss (vgl. Abb. 4). Auffällig ist hier die starke negative Bewertung Emilias im zweiten Akt. Entgegen bisheriger Interpretationen, in denen nur die Intrige des Prinzen und Marinelli dafür verantwortlich gemacht werden, dass Emilia um ihre Tugend fürchten und ihren Vater dazu bringen muss, sie umzubringen, wird dadurch die Abwertung allein durch die Avancen des Prinzen sichtbar, die später sowohl Emilias als auch für Odoardos Einschätzung der Ehrbarkeit Emilias in ihrem zukünftigen Leben bestimmen.</p>
                     <figure>
-                        <graphic/>
+                        <graphic n="1005"
+                           width="16.002cm"
+                           height="11.230030555555556cm"
+                           rend="inline"
+                           url="../images/SCHMIDT_Thomas__Kann_man_denn_auch_nicht_lachend_sehr_ernsth.xml-image5.png"/>
                     </figure>
                     <p>
-                        <hi>Abbildung 4</hi>: Polaritätsverlauf von Sprechern pro Akt – 
-                        <hi>Emilia Galotti</hi>
+                        <hi rend="bold">Abbildung 4</hi>: Polaritätsverlauf von Sprechern pro Akt – 
+                        <hi rend="italic">Emilia Galotti</hi>
                     </p>
                 </div>
-                <div>
+                <div type="div2" rend="DH-Heading2">
                     <head>Fazit </head>
                     <p>Insgesamt sind die ersten Analyse-Ergebnisse über das Web-Tool sehr vielversprechend. Dabei ist zu bedenken, dass über die Verwendung von SA-Lexika ein sehr einfacher SA-Ansatz gewählt wurde. Über ML- oder Hybrid-Ansätze können Besonderheiten der poetischen und veralteten Sprache möglicherweise besser beachtet werden. Ferner ist fraglich, ob eine Reduktion auf das sonst in der SA übliche binäre System positiv/negativ ausreichend ist für komplexe Interpretationen von Emotionen in Dramen.</p>
                     <p>Durch Optimierung des SA-Verfahrens, Ausbau der Funktionen im Front-End und Erweiterung des Tools mit zusätzlichen Dramen sollen künftig Möglichkeiten und Nutzen der SA in der Dramenanalyse weiter exploriert werden.</p>
@@ -212,120 +232,120 @@
             </div>
         </body>
         <back>
-            <div>
+            <div type="bibliogr">
                 <listBibl>
                     <head>Bibliographie</head>
                     <bibl>
-                        <hi>Alm, Cecilia Ovesdotter / Sproat, Richard</hi> (2005): "Emotional sequencing and development in fairy tales.", in:
-                        <hi> International Conference on Affective Computing and Intelligent Interaction</hi> 668-674.
+                        <hi rend="bold">Alm, Cecilia Ovesdotter / Sproat, Richard</hi> (2005): "Emotional sequencing and development in fairy tales.", in:
+                        <hi rend="italic"> International Conference on Affective Computing and Intelligent Interaction</hi> 668-674.
                     </bibl>
                     <bibl>
-                        <hi>Alm, Cecilia Ovesdotter / Roth, Dan / Sproat, Richard </hi>(2005): "Emotions from text: machine learning for text-based emotion prediction.", in: 
-                        <hi>Proceedings of the conference on human language technology and empirical methods in natural language processing</hi> 579-586.
+                        <hi rend="bold">Alm, Cecilia Ovesdotter / Roth, Dan / Sproat, Richard </hi>(2005): "Emotions from text: machine learning for text-based emotion prediction.", in: 
+                        <hi rend="italic">Proceedings of the conference on human language technology and empirical methods in natural language processing</hi> 579-586.
                     </bibl>
                     <bibl>
-                        <hi>Buechel, Sven / Hellrich, Johannes / Hahn, Udo</hi> (2017): “The Course of Emotion in Three Centuries of German Text – A Methodological Framework.”, in: 
-                        <hi>Digital Humanities 2017</hi> 176-179.
+                        <hi rend="bold">Buechel, Sven / Hellrich, Johannes / Hahn, Udo</hi> (2017): “The Course of Emotion in Three Centuries of German Text – A Methodological Framework.”, in: 
+                        <hi rend="italic">Digital Humanities 2017</hi> 176-179.
                     </bibl>
                     <bibl>
-                        <hi>Clematide, Simon / Klenner, Manfred</hi> (2010): "Evaluation and extension of a polarity lexicon for German.", in: 
-                        <hi>Proceedings of the First Workshop on Computational Approaches to Subjectivity and Sentiment Analysis</hi> 7-13.
+                        <hi rend="bold">Clematide, Simon / Klenner, Manfred</hi> (2010): "Evaluation and extension of a polarity lexicon for German.", in: 
+                        <hi rend="italic">Proceedings of the First Workshop on Computational Approaches to Subjectivity and Sentiment Analysis</hi> 7-13.
                     </bibl>
                     <bibl>
-                        <hi>D’Andrea, Alessia et al</hi>. (2015): "Approaches, tools and applications for sentiment analysis implementation.", in 
-                        <hi>International Journal of Computer Applications</hi> 125.3: 26-33.
+                        <hi rend="bold">D’Andrea, Alessia et al</hi>. (2015): "Approaches, tools and applications for sentiment analysis implementation.", in 
+                        <hi rend="italic">International Journal of Computer Applications</hi> 125.3: 26-33.
                     </bibl>
                     <bibl>
-                        <hi>De Smedt, Tom / Daelemans, Walter</hi> (2012): "Pattern for python.", in: 
-                        <hi>Journal of Machine Learning Research </hi>13: 2063-2067.
+                        <hi rend="bold">De Smedt, Tom / Daelemans, Walter</hi> (2012): "Pattern for python.", in: 
+                        <hi rend="italic">Journal of Machine Learning Research </hi>13: 2063-2067.
                     </bibl>
                     <bibl>
-                        <hi>Eger, Steffen / Gleim, Rüdiger / Mehler, Alexander</hi>. (2016). “Lemmatization and Morphological Tagging in German and Latin: A Comparison and a Survey of the State-of-the-art.”, in: 
-                        <hi>LREC</hi> 1507–1513.
+                        <hi rend="bold">Eger, Steffen / Gleim, Rüdiger / Mehler, Alexander</hi>. (2016). “Lemmatization and Morphological Tagging in German and Latin: A Comparison and a Survey of the State-of-the-art.”, in: 
+                        <hi rend="italic">LREC</hi> 1507–1513.
                     </bibl>
                     <bibl>
-                        <hi>Elsner, Micha</hi> (2012): "Character-based kernels for novelistic plot structure.", in: 
-                        <hi>Proceedings of the 13th Conference of the European Chapter of the Association for Computational Linguistics</hi> 634-644.
+                        <hi rend="bold">Elsner, Micha</hi> (2012): "Character-based kernels for novelistic plot structure.", in: 
+                        <hi rend="italic">Proceedings of the 13th Conference of the European Chapter of the Association for Computational Linguistics</hi> 634-644.
                     </bibl>
                     <bibl>
-                        <hi>Fleiss, Joseph L.</hi> (1971): "Measuring nominal scale agreement among many raters.", in: 
-                        <hi>Psychological bulletin</hi> 76.5: 378-382.
+                        <hi rend="bold">Fleiss, Joseph L.</hi> (1971): "Measuring nominal scale agreement among many raters.", in: 
+                        <hi rend="italic">Psychological bulletin</hi> 76.5: 378-382.
                     </bibl>
                     <bibl>
-                        <hi>Gonçalves, Pollyanna, et al.</hi> (2013): "Comparing and combining sentiment analysis methods.", in: 
-                        <hi>Proceedings of the first ACM conference on Online social networks</hi> 27-33.
+                        <hi rend="bold">Gonçalves, Pollyanna, et al.</hi> (2013): "Comparing and combining sentiment analysis methods.", in: 
+                        <hi rend="italic">Proceedings of the first ACM conference on Online social networks</hi> 27-33.
                     </bibl>
                     <bibl>
-                        <hi>Jannidis, Fotis, et al.</hi> (2016): "Analyzing Features for the Detection of Happy Endings in German Novels.", in: 
-                        <hi>arXiv preprint</hi> arXiv:1611.09028
+                        <hi rend="bold">Jannidis, Fotis, et al.</hi> (2016): "Analyzing Features for the Detection of Happy Endings in German Novels.", in: 
+                        <hi rend="italic">arXiv preprint</hi> arXiv:1611.09028
                     </bibl>
                     <bibl>
-                        <hi>Jurish, Bryan</hi> (2011): 
-                        <hi>Finite-state canonicalization techniques for historical German</hi>. Diss. Universitätsbibliothek der Universität Potsdam.
+                        <hi rend="bold">Jurish, Bryan</hi> (2011): 
+                        <hi rend="italic">Finite-state canonicalization techniques for historical German</hi>. Diss. Universitätsbibliothek der Universität Potsdam.
                     </bibl>
                     <bibl>
-                        <hi>Kakkonen, Tuomo / Kakkonen, Gordana Galić</hi> (2011): "SentiProfiler: creating comparable visual profiles of sentimental content in texts.", in: 
-                        <hi>Language Technologies for Digital Humanities and Cultural Heritage</hi> 62-67.
+                        <hi rend="bold">Kakkonen, Tuomo / Kakkonen, Gordana Galić</hi> (2011): "SentiProfiler: creating comparable visual profiles of sentimental content in texts.", in: 
+                        <hi rend="italic">Language Technologies for Digital Humanities and Cultural Heritage</hi> 62-67.
                     </bibl>
                     <bibl>
-                        <hi>Kennedy, Alistair / Inkpen, Diana</hi> (2006): "Sentiment classification of movie reviews using contextual valence shifters.", in: 
-                        <hi>Computational intelligence</hi> 22.2: 110-125.
+                        <hi rend="bold">Kennedy, Alistair / Inkpen, Diana</hi> (2006): "Sentiment classification of movie reviews using contextual valence shifters.", in: 
+                        <hi rend="italic">Computational intelligence</hi> 22.2: 110-125.
                     </bibl>
                     <bibl>
-                        <hi>Kim, Evgeny / Padó, Sebastian / Klinger, Roman</hi> (2017): “Investigating the relationship between Literary Genres and Emotional Plot Development.”, in: 
-                        <hi>Proceedings of the Joint SIGHUM Workshop on Computational Linguistics for Cultural Heritage, Social Sciences, Humanities and Literature</hi> 17–26.
+                        <hi rend="bold">Kim, Evgeny / Padó, Sebastian / Klinger, Roman</hi> (2017): “Investigating the relationship between Literary Genres and Emotional Plot Development.”, in: 
+                        <hi rend="italic">Proceedings of the Joint SIGHUM Workshop on Computational Linguistics for Cultural Heritage, Social Sciences, Humanities and Literature</hi> 17–26.
                     </bibl>
                     <bibl>
-                        <hi>Kouloumpis, Efthymios / Wilson, Theresa / Moore, Johanna D. </hi> (2011): "Twitter sentiment analysis: The good the bad and the omg!.", in: In 
-                        <hi>Proceedings of the Fifth International Conference on Weblogs and Social Media</hi> 538-54.
+                        <hi rend="bold">Kouloumpis, Efthymios / Wilson, Theresa / Moore, Johanna D. </hi> (2011): "Twitter sentiment analysis: The good the bad and the omg!.", in: In 
+                        <hi rend="italic">Proceedings of the Fifth International Conference on Weblogs and Social Media</hi> 538-54.
                     </bibl>
                     <bibl>
-                        <hi>Liu, Bing</hi> (2016): 
-                        <hi>Sentiment analysis: Mining opinions, sentiments, and emotions. </hi>New York: Cambridge University Press.
+                        <hi rend="bold">Liu, Bing</hi> (2016): 
+                        <hi rend="italic">Sentiment analysis: Mining opinions, sentiments, and emotions. </hi>New York: Cambridge University Press.
                     </bibl>
                     <bibl>
-                        <hi>McGlohon, Mary / Glance, Natalie S. / Reiter, Zach</hi> (2010) "Star Quality: Aggregating Reviews to Rank Products and Merchants.", in: 
-                        <hi>Proceedings of the International Conference on Weblogs and Social Media (ICWSM-2010)</hi> 114-121.
+                        <hi rend="bold">McGlohon, Mary / Glance, Natalie S. / Reiter, Zach</hi> (2010) "Star Quality: Aggregating Reviews to Rank Products and Merchants.", in: 
+                        <hi rend="italic">Proceedings of the International Conference on Weblogs and Social Media (ICWSM-2010)</hi> 114-121.
                     </bibl>
                     <bibl>
-                        <hi>Mohammad, Saif</hi> (2011): "From once upon a time to happily ever after: Tracking emotions in novels and fairy tales.", in: 
-                        <hi>Proceedings of the 5th ACL-HLT Workshop on Language Technology for Cultural Heritage, Social Sciences, and Humanities</hi> 105-114.
+                        <hi rend="bold">Mohammad, Saif</hi> (2011): "From once upon a time to happily ever after: Tracking emotions in novels and fairy tales.", in: 
+                        <hi rend="italic">Proceedings of the 5th ACL-HLT Workshop on Language Technology for Cultural Heritage, Social Sciences, and Humanities</hi> 105-114.
                     </bibl>
                     <bibl>
-                        <hi>Mohammad, Saif M. / Turney, Peter D.</hi> (2010): "Emotions evoked by common words and phrases: Using Mechanical Turk to create an emotion lexicon.", in: 
-                        <hi>Proceedings of the NAACL HLT 2010 workshop on computational approaches to analysis and generation of emotion in text</hi> 26-34.
+                        <hi rend="bold">Mohammad, Saif M. / Turney, Peter D.</hi> (2010): "Emotions evoked by common words and phrases: Using Mechanical Turk to create an emotion lexicon.", in: 
+                        <hi rend="italic">Proceedings of the NAACL HLT 2010 workshop on computational approaches to analysis and generation of emotion in text</hi> 26-34.
                     </bibl>
                     <bibl>
-                        <hi>Nalisnick, Eric T. / Baird, Henry S.</hi> (2013): "Character-to-character sentiment analysis in shakespeare’s plays.“, in:
-                        <hi> Proceedings of the 51st Annual Meeting of the Association for Computational Linguistics</hi> 479–483.
+                        <hi rend="bold">Nalisnick, Eric T. / Baird, Henry S.</hi> (2013): "Character-to-character sentiment analysis in shakespeare’s plays.“, in:
+                        <hi rend="italic"> Proceedings of the 51st Annual Meeting of the Association for Computational Linguistics</hi> 479–483.
                     </bibl>
                     <bibl>
-                        <hi>Remus, Robert / Quasthoff, Uwe / Gerhard, Heyer</hi> (2010): "SentiWS-A Publicly Available German-language Resource for Sentiment Analysis.", in: 
-                        <hi>LREC</hi> 1168-1171.
+                        <hi rend="bold">Remus, Robert / Quasthoff, Uwe / Gerhard, Heyer</hi> (2010): "SentiWS-A Publicly Available German-language Resource for Sentiment Analysis.", in: 
+                        <hi rend="italic">LREC</hi> 1168-1171.
                     </bibl>
                     <bibl>
-                        <hi>Saif, Hassan, et al.</hi> (2014): "On stopwords, filtering and data sparsity for sentiment analysis of twitter.", in: 
-                        <hi>Proc. 9th Language Resources and Evaluation Conference (LREC)</hi> 810-817.
+                        <hi rend="bold">Saif, Hassan, et al.</hi> (2014): "On stopwords, filtering and data sparsity for sentiment analysis of twitter.", in: 
+                        <hi rend="italic">Proc. 9th Language Resources and Evaluation Conference (LREC)</hi> 810-817.
                     </bibl>
                     <bibl>
-                        <hi>Saße, Günter</hi> (1993): 
-                        <hi>Liebe und Ehe: oder, wie sich die Spontaneität des Herzens zu den Normen der Gesellschaft verhält. Lessings Minna von Barnhelm.</hi> Tübingen: Niemeyer.
+                        <hi rend="bold">Saße, Günter</hi> (1993): 
+                        <hi rend="italic">Liebe und Ehe: oder, wie sich die Spontaneität des Herzens zu den Normen der Gesellschaft verhält. Lessings Minna von Barnhelm.</hi> Tübingen: Niemeyer.
                     </bibl>
                     <bibl>
-                        <hi>Schmid, Helmut</hi> (1995): "Improvements in part-of-speech tagging with an application to German.", in: 
-                        <hi>Proceedings of the acl sigdat-workshop</hi>.
+                        <hi rend="bold">Schmid, Helmut</hi> (1995): "Improvements in part-of-speech tagging with an application to German.", in: 
+                        <hi rend="italic">Proceedings of the acl sigdat-workshop</hi>.
                     </bibl>
                     <bibl>
-                        <hi>Vinodhini, G. / Chandrasekaran, R. M.</hi> (2012): "Sentiment analysis and opinion mining: a survey.", in: 
-                        <hi>International Journal of Advanced Research in Computer Science and Software Engineering</hi> 2.6: 282-292.
+                        <hi rend="bold">Vinodhini, G. / Chandrasekaran, R. M.</hi> (2012): "Sentiment analysis and opinion mining: a survey.", in: 
+                        <hi rend="italic">International Journal of Advanced Research in Computer Science and Software Engineering</hi> 2.6: 282-292.
                     </bibl>
                     <bibl>
-                        <hi>Võ, Melissa LH, et al.</hi> (2009): "The Berlin affective word list reloaded (BAWL-R) ", in: 
-                        <hi>Behavior research methods</hi> 41.2: 534-538.
+                        <hi rend="bold">Võ, Melissa LH, et al.</hi> (2009): "The Berlin affective word list reloaded (BAWL-R) ", in: 
+                        <hi rend="italic">Behavior research methods</hi> 41.2: 534-538.
                     </bibl>
                     <bibl>
-                        <hi>Waltinger, Ulli</hi> (2010): "Sentiment Analysis Reloaded-A Comparative Study on Sentiment Polarity Identification Combining Machine Learning and Subjectivity Features.", in: 
-                        <hi>Proceedings of the 6th International Conference on Web Information Systems and Technologies (WEBIST '10)</hi>.
+                        <hi rend="bold">Waltinger, Ulli</hi> (2010): "Sentiment Analysis Reloaded-A Comparative Study on Sentiment Polarity Identification Combining Machine Learning and Subjectivity Features.", in: 
+                        <hi rend="italic">Proceedings of the 6th International Conference on Web Information Systems and Technologies (WEBIST '10)</hi>.
                     </bibl>
                 </listBibl>
             </div>

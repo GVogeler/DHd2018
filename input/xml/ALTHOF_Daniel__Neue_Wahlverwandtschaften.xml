@@ -33,25 +33,25 @@
         </fileDesc>
         <encodingDesc>
             <appInfo>
-                <application>
+                <application ident="DHCONVALIDATOR" version="1.17">
                     <label>DHConvalidator</label>
                 </application>
             </appInfo>
         </encodingDesc>
         <profileDesc>
             <textClass>
-                <keywords>
+                <keywords scheme="ConfTool" n="category">
                     <term>Paper</term>
                 </keywords>
-                <keywords>
+                <keywords scheme="ConfTool" n="subcategory">
                     <term>Vortrag</term>
                 </keywords>
-                <keywords>
+                <keywords scheme="ConfTool" n="keywords">
                     <term>Hermeneutik</term>
                     <term>Code</term>
                     <term>Grundlagenreflexion</term>
                 </keywords>
-                <keywords>
+                <keywords scheme="ConfTool" n="topics">
                     <term>Einführung</term>
                 </keywords>
             </textClass>
@@ -59,29 +59,29 @@
     </teiHeader>
     <text>
         <body>
-            <p>Digitalität in den Geisteswissenschaften</p>
+            <p rend="Subtitle">Digitalität in den Geisteswissenschaften</p>
             <p>
-                <anchor/>
-                <hi>Die Ausgangslage:</hi> Eine 
-                <hi>natürliche</hi> Verwandtschaft besteht zwischen der Geisteswissenschaft (GW) und dem Text sowie zwischen der Naturwissenschaft (NW) und der Zahl. Gründe hierfür lassen sich in einer Ausdifferenzierung der Wissenschaften finden, die mit dem Ende der großen Systeme der klassischen deutschen Philosophie begonnen hat bzw. intensiviert wurde. Im Zuge dieser Ausdifferenzierung haben sich NW und GW aus erkenntnis- und wissenschaftstheoretischen Gründen 
-                <hi>in Abgrenzung</hi> zueinander entwickelt. Zugleich hat das Erkenntnisideal der NW einen Rechtfertigungsdruck auf die GW ausgeübt. Denn mit dem Siegeszug der modernen NW wurde die empirisch-experimentelle Wissenschaft zum leitenden Paradigma für objektive Erkenntnis. Wie begründen nun aber die sich jeweils entwickelnden Selbstverständnisse solche natürlichen Verwandtschaftsverhältnisse? Moderne NW bricht mit der Tradition, auch mit der Reflexion des Tradierten, und baut in kritischer Absicht auf Induktion.
-                <note>
-                    <p> Das reicht zurück bis Francis Bacon, der mit der Scholastik gebrochen hat. Dass Induktion für die Rechtfertigung einer Theorie nicht hinreichend ist und im weiteren Verlauf der Wissenschaftsgeschichte weiter ausdifferenziert werden wird, sei hier der Vollständigkeit halber angemerkt.</p>
+                <anchor xml:id="Hlk494138017"/>
+                <hi rend="italic">Die Ausgangslage:</hi> Eine 
+                <hi rend="italic">natürliche</hi> Verwandtschaft besteht zwischen der Geisteswissenschaft (GW) und dem Text sowie zwischen der Naturwissenschaft (NW) und der Zahl. Gründe hierfür lassen sich in einer Ausdifferenzierung der Wissenschaften finden, die mit dem Ende der großen Systeme der klassischen deutschen Philosophie begonnen hat bzw. intensiviert wurde. Im Zuge dieser Ausdifferenzierung haben sich NW und GW aus erkenntnis- und wissenschaftstheoretischen Gründen 
+                <hi rend="italic">in Abgrenzung</hi> zueinander entwickelt. Zugleich hat das Erkenntnisideal der NW einen Rechtfertigungsdruck auf die GW ausgeübt. Denn mit dem Siegeszug der modernen NW wurde die empirisch-experimentelle Wissenschaft zum leitenden Paradigma für objektive Erkenntnis. Wie begründen nun aber die sich jeweils entwickelnden Selbstverständnisse solche natürlichen Verwandtschaftsverhältnisse? Moderne NW bricht mit der Tradition, auch mit der Reflexion des Tradierten, und baut in kritischer Absicht auf Induktion.
+                <note place="foot" xml:id="ftn1" n="1">
+                    <p rend="footnote text"> Das reicht zurück bis Francis Bacon, der mit der Scholastik gebrochen hat. Dass Induktion für die Rechtfertigung einer Theorie nicht hinreichend ist und im weiteren Verlauf der Wissenschaftsgeschichte weiter ausdifferenziert werden wird, sei hier der Vollständigkeit halber angemerkt.</p>
                 </note> Eine moderne Variante ist der Positivismus, der Erkenntnis auf empirisch überprüfbare Methoden stützt und traditionelle Forschung unter Sinnlosigkeitsverdacht stellt.
-                <note>
-                    <p> Vgl. hier die exemplarischen Positionen von August Comte (Comte 1830-1842)
+                <note place="foot" xml:id="ftn2" n="2">
+                    <p rend="footnote text"> Vgl. hier die exemplarischen Positionen von August Comte (Comte 1830-1842)
                         <?biblio ADDIN EN.CITE <EndNote><Cite><Author>Comte</Author><Year>1830-1842</Year><RecNum>12</RecNum><DisplayText>(Comte 1830-1842)</DisplayText><record><rec-number>12</rec-number><foreign-keys><key app="EN" db-id="pdxdp520yv00w5ezt0k5xwwf02x5p2p5efs2" timestamp="1515882028">12</key></foreign-keys><ref-type name="Book">6</ref-type><contributors><authors><author>Comte, Auguste</author></authors></contributors><titles><title>Cours de la philosophie positive</title></titles><dates><year>1830-1842</year></dates><pub-location>Paris</pub-location><publisher>Bachelier</publisher><urls></urls></record></Cite></EndNote>?> und John Stuart Mill (Mill 1974)
                         <?biblio ADDIN EN.CITE <EndNote><Cite><Author>Mill</Author><Year>1974</Year><RecNum>13</RecNum><DisplayText>(Mill 1974)</DisplayText><record><rec-number>13</rec-number><foreign-keys><key app="EN" db-id="pdxdp520yv00w5ezt0k5xwwf02x5p2p5efs2" timestamp="1515882570">13</key></foreign-keys><ref-type name="Book">6</ref-type><contributors><authors><author>Mill, John Stuart</author></authors><secondary-authors><author>John M. Robson</author></secondary-authors></contributors><titles><title>A System of Logic Ratiocinative and Inductive</title><secondary-title> The Collected Works of John Stuart Mill</secondary-title></titles><volume>VII+VIII</volume><dates><year>1974</year></dates><pub-location>London/Toronto</pub-location><publisher>Routledge and Kegan Paul/University of Toronto Press</publisher><urls></urls></record></Cite></EndNote>?>.
                     </p>
                 </note> Durch Entwicklungen in Mathematik und Logik rückt im logischen Positivismus noch mehr die Formalisierungsbestrebung von Erkenntnis ins Zentrum.
-                <note>
-                    <p> Vgl. den Wiener Kreis, aber auch den frühen Ludwig Wittgenstein (Wittgenstein 1998).</p>
+                <note place="foot" xml:id="ftn3" n="3">
+                    <p rend="footnote text"> Vgl. den Wiener Kreis, aber auch den frühen Ludwig Wittgenstein (Wittgenstein 1998).</p>
                 </note> Die Grenze zwischen Wissen und Unsinn verläuft damit immer mehr da, wo Erkenntnis formal beschreibbar und empirisch verifizierbar bzw. im kritischen Rationalismus nicht falsifizierbar
-                <note>
-                    <p> So z.B. bei Karl Popper (Popper 2005).</p>
+                <note place="foot" xml:id="ftn4" n="4">
+                    <p rend="footnote text"> So z.B. bei Karl Popper (Popper 2005).</p>
                 </note> ist. Die Beschränkung des Sagbaren auf analytische Sätze oder empirisch fundierte Theorie über quantifizierbare und nomologisch reformulierbare Gegenstände erhebt die formalisierte Idealsprache
-                <note>
-                    <p> Vgl. wiederum den Wiener Kreis und besonders Bertrand Russel.</p>
+                <note place="foot" xml:id="ftn5" n="5">
+                    <p rend="footnote text"> Vgl. wiederum den Wiener Kreis und besonders Bertrand Russel.</p>
                 </note> bzw. die Formel zur Wahrheit. Das wirkte auch in den GW. Diese Entwicklung fand Befürworter (Helmholtz 1903, Mill 1974)
                 <?biblio ADDIN EN.CITE <EndNote><Cite><Author>Helmholtz</Author><Year>1903</Year><RecNum>15</RecNum><DisplayText>(Helmholtz 1903, Mill 1974)</DisplayText><record><rec-number>15</rec-number><foreign-keys><key app="EN" db-id="pdxdp520yv00w5ezt0k5xwwf02x5p2p5efs2" timestamp="1515962998">15</key></foreign-keys><ref-type name="Book">6</ref-type><contributors><authors><author>Helmholtz, Herman Ludwig Ferdinand von</author></authors></contributors><titles><title>Über das Verhältnis von Naturwissenschaften zu der Gesammtheit der Wissenschaften</title><secondary-title>Vorträge und Reden</secondary-title></titles><volume>1</volume><section>157-185</section><dates><year>1903</year></dates><pub-location>Braunschweig</pub-location><publisher>Vieweg</publisher><urls></urls></record></Cite><Cite><Author>Mill</Author><Year>1974</Year><RecNum>13</RecNum><record><rec-number>13</rec-number><foreign-keys><key app="EN" db-id="pdxdp520yv00w5ezt0k5xwwf02x5p2p5efs2" timestamp="1515882570">13</key></foreign-keys><ref-type name="Book">6</ref-type><contributors><authors><author>Mill, John Stuart</author></authors><secondary-authors><author>John M. Robson</author></secondary-authors></contributors><titles><title>A System of Logic Ratiocinative and Inductive</title><secondary-title> The Collected Works of John Stuart Mill</secondary-title></titles><volume>VII+VIII</volume><dates><year>1974</year></dates><pub-location>London/Toronto</pub-location><publisher>Routledge and Kegan Paul/University of Toronto Press</publisher><urls></urls></record></Cite></EndNote>?>, aber provozierte bereits früh Kritik und führte zur Ausbildung eines Selbstverständnisses der GW in Opposition zum mathematisch-naturwissenschaftlichen Paradigma. Im Verweis auf die Besonderheit der geisteswissenschaftlichen Gegenstände wurden in logisch-positivistischen Verfahren formulierte Kriterien für Erkenntnis abgelehnt: Nicht die Entdeckung von allgemeinen Gesetzen, sondern die Betrachtung des Individuellen in geschichtlicher Gestalt leitet die GW (Rickert 1986). 
                 <?biblio ADDIN EN.CITE <EndNote><Cite><Author>Rickert</Author><Year>1986</Year><RecNum>16</RecNum><DisplayText>(Rickert 1986)</DisplayText><record><rec-number>16</rec-number><foreign-keys><key app="EN" db-id="pdxdp520yv00w5ezt0k5xwwf02x5p2p5efs2" timestamp="1515963225">16</key></foreign-keys><ref-type name="Book">6</ref-type><contributors><authors><author>Rickert, Heinrich</author></authors><secondary-authors><author>Vollhard, Friedrich</author></secondary-authors></contributors><titles><title>Kulturwissenschaft und Naturwissenschaft</title></titles><dates><year>1986</year></dates><pub-location>Stuttgart</pub-location><publisher>Reclam</publisher><urls></urls></record></Cite></EndNote>?> Die NW sind nomothetisch, die GW ideographisch (Windelband 1924)
@@ -90,17 +90,17 @@
                 <?biblio ADDIN EN.CITE <EndNote><Cite><Author>Dilthey</Author><Year>1992</Year><RecNum>14</RecNum><DisplayText>(Dilthey 1992)</DisplayText><record><rec-number>14</rec-number><foreign-keys><key app="EN" db-id="pdxdp520yv00w5ezt0k5xwwf02x5p2p5efs2" timestamp="1515934043">14</key></foreign-keys><ref-type name="Book">6</ref-type><contributors><authors><author>Dilthey, Wilhelm</author></authors></contributors><titles><title>Der Aufbau der geschichtlichen Welt in den Geisteswissenschaften</title><secondary-title>Gesammelte Schriften</secondary-title></titles><volume>VII</volume><dates><year>1992</year></dates><pub-location>Stuttgart/Göttingen</pub-location><publisher>Teubner/Vandenhoeck &amp; Ruprecht</publisher><urls></urls></record></Cite></EndNote>?> zu tun, das auch immer eine Selbsterkenntnis mit einschließt (Ritter 1974). 
                 <?biblio ADDIN EN.CITE <EndNote><Cite><Author>Ritter</Author><Year>1974</Year><RecNum>18</RecNum><DisplayText>(Ritter 1974)</DisplayText><record><rec-number>18</rec-number><foreign-keys><key app="EN" db-id="pdxdp520yv00w5ezt0k5xwwf02x5p2p5efs2" timestamp="1515963719">18</key></foreign-keys><ref-type name="Book Section">5</ref-type><contributors><authors><author>Ritter, Joachim</author></authors></contributors><titles><title>Die Aufgabe der Geisteswissenschaften in der modernen Gesellschaft</title><secondary-title>Subjektivität. Sechs Aufsätze</secondary-title></titles><pages>105-140</pages><dates><year>1974</year></dates><pub-location>Frankfurt/M.</pub-location><publisher>Suhrkamp</publisher><urls></urls></record></Cite></EndNote>?> In den GW wird nicht Bezug genommen auf die Konstanz der Gesetze (Natur), sondern auf ein gemeinsames sprachlich vermitteltes Tun (Kultur) (Cassirer 1961). 
                 <?biblio ADDIN EN.CITE <EndNote><Cite><Author>Cassirer</Author><Year>1961</Year><RecNum>19</RecNum><DisplayText>(Cassirer 1961)</DisplayText><record><rec-number>19</rec-number><foreign-keys><key app="EN" db-id="pdxdp520yv00w5ezt0k5xwwf02x5p2p5efs2" timestamp="1515963858">19</key></foreign-keys><ref-type name="Book Section">5</ref-type><contributors><authors><author>Cassirer, Ernst</author></authors></contributors><titles><title>Naturbegriffe und Kulturbegriffe</title><secondary-title>Zur Logik der Kulturwissenschaften. Fünf Studien</secondary-title></titles><pages>56-91</pages><dates><year>1961</year></dates><pub-location>Darmstadt</pub-location><publisher>Wissenschaftliche Buchgesellschaft</publisher><urls></urls></record></Cite></EndNote>?> So spitzt sich die Unterscheidung von Natur- und Geisteswissenschaften darin zu, dass Objektivierungen von Lebensäußerungen 
-                <hi>verstanden</hi> werden, indem eigenes Erleben herangezogen wird, Naturerscheinungen aber über Gesetze, Statistik und Verallgemeinerung 
-                <hi>erklärt</hi> werden (Dilthey 1992). 
+                <hi rend="italic">verstanden</hi> werden, indem eigenes Erleben herangezogen wird, Naturerscheinungen aber über Gesetze, Statistik und Verallgemeinerung 
+                <hi rend="italic">erklärt</hi> werden (Dilthey 1992). 
                 <?biblio ADDIN EN.CITE <EndNote><Cite><Author>Dilthey</Author><Year>1992</Year><RecNum>14</RecNum><DisplayText>(Dilthey 1992)</DisplayText><record><rec-number>14</rec-number><foreign-keys><key app="EN" db-id="pdxdp520yv00w5ezt0k5xwwf02x5p2p5efs2" timestamp="1515934043">14</key></foreign-keys><ref-type name="Book">6</ref-type><contributors><authors><author>Dilthey, Wilhelm</author></authors></contributors><titles><title>Der Aufbau der geschichtlichen Welt in den Geisteswissenschaften</title><secondary-title>Gesammelte Schriften</secondary-title></titles><volume>VII</volume><dates><year>1992</year></dates><pub-location>Stuttgart/Göttingen</pub-location><publisher>Teubner/Vandenhoeck &amp; Ruprecht</publisher><urls></urls></record></Cite></EndNote>?> Sinn rekonstruierende Hermeneutik auf Grundlage der überlieferten Tradition als Weiterführung eines Diskurses ist somit in den GW (Gadamer 2010)
                 <?biblio ADDIN EN.CITE <EndNote><Cite><Author>Gadamer</Author><Year>2010</Year><RecNum>20</RecNum><DisplayText>(Gadamer 2010)</DisplayText><record><rec-number>20</rec-number><foreign-keys><key app="EN" db-id="pdxdp520yv00w5ezt0k5xwwf02x5p2p5efs2" timestamp="1515964004">20</key></foreign-keys><ref-type name="Book">6</ref-type><contributors><authors><author>Gadamer, Hans-Georg</author></authors></contributors><titles><title>Hermeneutik I. Wahrheit und Methode. Grundzüge einer philosophischen Hermeneutik</title><secondary-title>Gesammelte Werke</secondary-title></titles><dates><year>2010</year></dates><pub-location>Tübingen</pub-location><publisher>Mohr Siebeck</publisher><urls></urls></record></Cite></EndNote>?>, logisch-mathematische Formalisierung basierend auf erhobenen Daten in den NW die naheliegende Heuristik. Die Verwandtschaft von GW und Text bzw. von NW und der Zahl ist so gesehen noch viel strikter, insofern die Heuristik der NW die (natürliche) Sprache, die der GW aber die Formalisierung prinzipiell ausschließt.
             </p>
             <p>
-                <hi>Das Problem:</hi> Eine 
-                <hi>natürliche</hi> Verbindung besteht somit in den (überlieferungsbezogenen) GW zwischen Hermeneutik und dem Forscher, in den NW zwischen den aus Experimenten gewonnenen Daten und dem Computer. Während der Einsatz von Forschern in den NW begrüßt wird, verhält es sich mit dem Einsatz von Computern in den GW ganz anders. Das lässt sich aus der obigen Skizze auch einfach nachvollziehen. Mathematik und Logik bilden die Grundlagendisziplinen sowohl der NW als auch der Informatik. Aufgrund dessen stehen sie auf gleicher Basis und bilden quasi lediglich Spezialgebiete desselben Paradigmas. Aus der Skizze ist aber auch klar, dass aus dem gewonnenen Selbstverständnis der GW der Computer die Antithese zum erklärten Erkenntnisideal bildet. Der Versuch der Digital Humanities (DH), den Computer in den Hoheitsgebieten der GW zum Einsatz zu bringen, stellt sich für viele als eine naive und sinnlose Unternehmung dar, weil algorithmische Formalisierung ein grober Reduktionismus sein muss. Das ist gegenwärtig ein starker Vorbehalt in geisteswissenschaftlichen Institutionen. Die breite Diskussion um die Angemessenheit der neuen Methoden schlägt sich beispielhaft im Thema ‚distant reading‘ 
+                <hi rend="italic">Das Problem:</hi> Eine 
+                <hi rend="italic">natürliche</hi> Verbindung besteht somit in den (überlieferungsbezogenen) GW zwischen Hermeneutik und dem Forscher, in den NW zwischen den aus Experimenten gewonnenen Daten und dem Computer. Während der Einsatz von Forschern in den NW begrüßt wird, verhält es sich mit dem Einsatz von Computern in den GW ganz anders. Das lässt sich aus der obigen Skizze auch einfach nachvollziehen. Mathematik und Logik bilden die Grundlagendisziplinen sowohl der NW als auch der Informatik. Aufgrund dessen stehen sie auf gleicher Basis und bilden quasi lediglich Spezialgebiete desselben Paradigmas. Aus der Skizze ist aber auch klar, dass aus dem gewonnenen Selbstverständnis der GW der Computer die Antithese zum erklärten Erkenntnisideal bildet. Der Versuch der Digital Humanities (DH), den Computer in den Hoheitsgebieten der GW zum Einsatz zu bringen, stellt sich für viele als eine naive und sinnlose Unternehmung dar, weil algorithmische Formalisierung ein grober Reduktionismus sein muss. Das ist gegenwärtig ein starker Vorbehalt in geisteswissenschaftlichen Institutionen. Die breite Diskussion um die Angemessenheit der neuen Methoden schlägt sich beispielhaft im Thema ‚distant reading‘ 
                 <?biblio ADDIN EN.CITE <EndNote><Cite><Author>Moretti</Author><Year>2005</Year><RecNum>10</RecNum><DisplayText>(Moretti 2005)</DisplayText><record><rec-number>10</rec-number><foreign-keys><key app="EN" db-id="pdxdp520yv00w5ezt0k5xwwf02x5p2p5efs2" timestamp="1515881248">10</key></foreign-keys><ref-type name="Book">6</ref-type><contributors><authors><author>Moretti, Fanco</author></authors></contributors><titles><title>Graphs, Maps, Trees. Abstract Models for a Literary History</title></titles><dates><year>2005</year></dates><pub-location>London/New York</pub-location><publisher>Verso</publisher><urls></urls></record></Cite></EndNote>?> nieder.
-                <note>
-                    <p> Gewichtige Argumente gegen die Sinnhaftigkeit eines solchen Vorhabens versammelt (Marche 2012) 
+                <note place="foot" xml:id="ftn6" n="6">
+                    <p rend="footnote text"> Gewichtige Argumente gegen die Sinnhaftigkeit eines solchen Vorhabens versammelt (Marche 2012) 
                         <?biblio ADDIN EN.CITE <EndNote><Cite><Author>Marche</Author><Year>2012</Year><RecNum>9</RecNum><DisplayText>(Marche 2012)</DisplayText><record><rec-number>9</rec-number><foreign-keys><key app="EN" db-id="pdxdp520yv00w5ezt0k5xwwf02x5p2p5efs2" timestamp="1515880734">9</key></foreign-keys><ref-type name="Blog">56</ref-type><contributors><authors><author>Marche, Stephen</author></authors></contributors><titles><title>Literature Is not Data: Against Digital Humanities</title><secondary-title>Los Angeles Reviews of Books</secondary-title></titles><volume>2017</volume><number>22. September</number><dates><year>2012</year></dates><urls></urls></record></Cite></EndNote>?>
                     </p>
                 </note> Generell wird dabei die Reichweite der Quantifizierung und Gefahren wie Verdinglichung problematisiert, die in der zugrundeliegenden Ontologie der Comuterisierung unvermeidlich angelegt sind (Berry 2011)
@@ -111,81 +111,81 @@
                 <?biblio ADDIN EN.CITE <EndNote><Cite><Author>Liu</Author><Year>2012</Year><RecNum>8</RecNum><DisplayText>(Liu 2012)</DisplayText><record><rec-number>8</rec-number><foreign-keys><key app="EN" db-id="pdxdp520yv00w5ezt0k5xwwf02x5p2p5efs2" timestamp="1515880542">8</key></foreign-keys><ref-type name="Book Section">5</ref-type><contributors><authors><author>Liu, Alan</author></authors><secondary-authors><author>Gold, Matthew K.</author></secondary-authors></contributors><titles><title>Where is Cultural Criticism in the Digital Humanities?</title><secondary-title>Debates in the Digital Humanities</secondary-title></titles><pages>490-509</pages><dates><year>2012</year></dates><pub-location>Minneapolis</pub-location><publisher>The University of Minnesota Press</publisher><urls></urls></record></Cite></EndNote>?> werden nicht ausgeschöpft. Die DH, so die Linie der Kritik, zeigen sich weder dem speziellen Gegenstand der GW, nämlich (hauptsächlich) dem Text, noch den Kernaufgaben der GW, nämlich der Auslegung und der Kritik auch der eigenen Methoden, nicht angemessen.
             </p>
             <p>
-                <hi>Der Vortrag:</hi> Die Liste der Einwände könnte sicherlich detailliert fortgeführt werden. Der Vortrag soll jedoch nicht noch einen Grund mehr zu dieser Liste hinzufügen. Vielmehr soll aus der Kernkompetenz der DH, nämlich aus der Digitalisierung, eine intime Verbindung mit den Anliegen der GW herausgearbeitet werden. Es ist also nicht Ziel des Vortrages, die Kluft zwischen den Paradigmen (aus Geistes- und Naturwissenschaften) vermittels einer Rückbesinnung auf eine Kompetenz der GW (äußerlich) zu überbrücken (wie es (Liu 2012)
+                <hi rend="italic">Der Vortrag:</hi> Die Liste der Einwände könnte sicherlich detailliert fortgeführt werden. Der Vortrag soll jedoch nicht noch einen Grund mehr zu dieser Liste hinzufügen. Vielmehr soll aus der Kernkompetenz der DH, nämlich aus der Digitalisierung, eine intime Verbindung mit den Anliegen der GW herausgearbeitet werden. Es ist also nicht Ziel des Vortrages, die Kluft zwischen den Paradigmen (aus Geistes- und Naturwissenschaften) vermittels einer Rückbesinnung auf eine Kompetenz der GW (äußerlich) zu überbrücken (wie es (Liu 2012)
                 <?biblio ADDIN EN.CITE <EndNote><Cite><Author>Liu</Author><Year>2012</Year><RecNum>8</RecNum><DisplayText>(Liu 2012)</DisplayText><record><rec-number>8</rec-number><foreign-keys><key app="EN" db-id="pdxdp520yv00w5ezt0k5xwwf02x5p2p5efs2" timestamp="1515880542">8</key></foreign-keys><ref-type name="Book Section">5</ref-type><contributors><authors><author>Liu, Alan</author></authors><secondary-authors><author>Gold, Matthew K.</author></secondary-authors></contributors><titles><title>Where is Cultural Criticism in the Digital Humanities?</title><secondary-title>Debates in the Digital Humanities</secondary-title></titles><pages>490-509</pages><dates><year>2012</year></dates><pub-location>Minneapolis</pub-location><publisher>The University of Minnesota Press</publisher><urls></urls></record></Cite></EndNote>?> oder auch (Berry und Fagerjord 2017)
                 <?biblio ADDIN EN.CITE <EndNote><Cite><Author>Berry</Author><Year>2017</Year><RecNum>4</RecNum><DisplayText>(Berry and Fagerjord 2017)</DisplayText><record><rec-number>4</rec-number><foreign-keys><key app="EN" db-id="pdxdp520yv00w5ezt0k5xwwf02x5p2p5efs2" timestamp="1515879747">4</key></foreign-keys><ref-type name="Book">6</ref-type><contributors><authors><author>Berry, David M.</author><author>Fagerjord, Anders</author></authors></contributors><titles><title>Digital Humanities: Knowledge and Critique in a Digital Age</title></titles><dates><year>2017</year></dates><pub-location>London</pub-location><publisher>Polity Press</publisher><urls></urls></record></Cite></EndNote>?> tun). Es ist die Ambition, eine Wesensverwandtschaft in den Heuristiken zu enthüllen, die sich 
-                <hi>aus dem Charakter der Digitalität</hi> selbst entwickeln lässt. Hermeneutik und Computation
-                <note>
-                    <p> Ich werde diesen terminus technicus hier verwenden, um damit die computerseitigen Prozesse der Digitalisierung abzubilden, die eine sozio-kulturelle Umwälzung ist. Datenverarbeitung als Alternativ-Begriff wäre zu eng gefasst.</p>
+                <hi rend="italic">aus dem Charakter der Digitalität</hi> selbst entwickeln lässt. Hermeneutik und Computation
+                <note place="foot" xml:id="ftn7" n="7">
+                    <p rend="footnote text"> Ich werde diesen terminus technicus hier verwenden, um damit die computerseitigen Prozesse der Digitalisierung abzubilden, die eine sozio-kulturelle Umwälzung ist. Datenverarbeitung als Alternativ-Begriff wäre zu eng gefasst.</p>
                 </note> müssen auf diese Weise also nicht extern (über pragmatische Argumente) verklammert, sondern können vermittelt über Digitalität immanent ineinander überführt werden. Auf diese Weise entsteht eine neue 
-                <hi>Wahlverwandtschaft</hi> zwischen Hermeneutik und Computation. Und so wird eine kleine Theorie der Digitalität zu entwickeln sein, die die Limitation der mathematisch-logische Formalisierung transzendiert. Das Ergebnis ist damit ein Verständnis von Digitalisierung, das den Einsatz von Computern in den GW nicht nur als gewinnbringendes Unterfangen zeigt, sondern sogar als folgenrichtigen Schritt ausweist.
+                <hi rend="italic">Wahlverwandtschaft</hi> zwischen Hermeneutik und Computation. Und so wird eine kleine Theorie der Digitalität zu entwickeln sein, die die Limitation der mathematisch-logische Formalisierung transzendiert. Das Ergebnis ist damit ein Verständnis von Digitalisierung, das den Einsatz von Computern in den GW nicht nur als gewinnbringendes Unterfangen zeigt, sondern sogar als folgenrichtigen Schritt ausweist.
             </p>
         </body>
         <back>
-            <div>
+            <div type="bibliogr">
                 <listBibl>
                     <head>Bibliographie</head>
                     <bibl>Fügen Sie hier die von Ihnen benutzten Quellen ein:</bibl>
-                    <bibl>
+                    <bibl rend="EndNote Bibliography">
                         <?biblio ADDIN EN.REFLIST ?>
                     </bibl>
-                    <bibl>Berry, D. M. (2011): 
-                        <hi>Philosophy of Software. Code and Mediation in the Digital Age, </hi>Basingstoke, Hampshire: Palgrave Macmillan UK.
+                    <bibl rend="EndNote Bibliography">Berry, D. M. (2011): 
+                        <hi rend="italic">Philosophy of Software. Code and Mediation in the Digital Age, </hi>Basingstoke, Hampshire: Palgrave Macmillan UK.
                     </bibl>
-                    <bibl>Berry, D. M. &amp; Fagerjord, A. (2017): 
-                        <hi>Digital Humanities: Knowledge and Critique in a Digital Age, </hi>London: Polity Press.
+                    <bibl rend="EndNote Bibliography">Berry, D. M. &amp; Fagerjord, A. (2017): 
+                        <hi rend="italic">Digital Humanities: Knowledge and Critique in a Digital Age, </hi>London: Polity Press.
                     </bibl>
-                    <bibl>Cassirer, E. (1961): Naturbegriffe und Kulturbegriffe. 
-                        <hi>Zur Logik der Kulturwissenschaften. Fünf Studien.</hi> Darmstadt: Wissenschaftliche Buchgesellschaft.
+                    <bibl rend="EndNote Bibliography">Cassirer, E. (1961): Naturbegriffe und Kulturbegriffe. 
+                        <hi rend="italic">Zur Logik der Kulturwissenschaften. Fünf Studien.</hi> Darmstadt: Wissenschaftliche Buchgesellschaft.
                     </bibl>
-                    <bibl>Comte, A. (1830-1842): 
-                        <hi>Cours de la philosophie positive, </hi>Paris: Bachelier.
+                    <bibl rend="EndNote Bibliography">Comte, A. (1830-1842): 
+                        <hi rend="italic">Cours de la philosophie positive, </hi>Paris: Bachelier.
                     </bibl>
-                    <bibl>Dilthey, W. (1992): 
-                        <hi>Der Aufbau der geschichtlichen Welt in den Geisteswissenschaften, </hi>Stuttgart/Göttingen: Teubner/Vandenhoeck &amp; Ruprecht.
+                    <bibl rend="EndNote Bibliography">Dilthey, W. (1992): 
+                        <hi rend="italic">Der Aufbau der geschichtlichen Welt in den Geisteswissenschaften, </hi>Stuttgart/Göttingen: Teubner/Vandenhoeck &amp; Ruprecht.
                     </bibl>
-                    <bibl>Gadamer, H.-G. (2010): 
-                        <hi>Hermeneutik I. Wahrheit und Methode. Grundzüge einer philosophischen Hermeneutik, </hi>Tübingen: Mohr Siebeck.
+                    <bibl rend="EndNote Bibliography">Gadamer, H.-G. (2010): 
+                        <hi rend="italic">Hermeneutik I. Wahrheit und Methode. Grundzüge einer philosophischen Hermeneutik, </hi>Tübingen: Mohr Siebeck.
                     </bibl>
-                    <bibl>Helmholtz, H. L. F. V. (1903): 
-                        <hi>Über das Verhältnis von Naturwissenschaften zu der Gesammtheit der Wissenschaften, </hi>Braunschweig: Vieweg.
+                    <bibl rend="EndNote Bibliography">Helmholtz, H. L. F. V. (1903): 
+                        <hi rend="italic">Über das Verhältnis von Naturwissenschaften zu der Gesammtheit der Wissenschaften, </hi>Braunschweig: Vieweg.
                     </bibl>
-                    <bibl>Kirsch, A. 2012. Technology Is Taking Over English Departments. The false promise of the digital humanities. Available from: 
-                        <ref>https://newrepublic.com/article/117428/limits-digital-humanities-adam-kirsch</ref> [Accessed 22. September 2017].
+                    <bibl rend="EndNote Bibliography">Kirsch, A. 2012. Technology Is Taking Over English Departments. The false promise of the digital humanities. Available from: 
+                        <ref target="https://newrepublic.com/article/117428/limits-digital-humanities-adam-kirsch">https://newrepublic.com/article/117428/limits-digital-humanities-adam-kirsch</ref> [Accessed 22. September 2017].
                     </bibl>
-                    <bibl>Liu, A. (2008): 
-                        <hi>Local Transcendence: Essays on Postmodern Historicism and the Database, </hi>Chicago/London: The University of Chicago Press.
+                    <bibl rend="EndNote Bibliography">Liu, A. (2008): 
+                        <hi rend="italic">Local Transcendence: Essays on Postmodern Historicism and the Database, </hi>Chicago/London: The University of Chicago Press.
                     </bibl>
-                    <bibl>Liu, A. (2012): Where is Cultural Criticism in the Digital Humanities? 
-                        <hi>In:</hi> Gold, M. K. (ed.) 
-                        <hi>Debates in the Digital Humanities.</hi> Minneapolis: The University of Minnesota Press.
+                    <bibl rend="EndNote Bibliography">Liu, A. (2012): Where is Cultural Criticism in the Digital Humanities? 
+                        <hi rend="italic">In:</hi> Gold, M. K. (ed.) 
+                        <hi rend="italic">Debates in the Digital Humanities.</hi> Minneapolis: The University of Minnesota Press.
                     </bibl>
-                    <bibl>Marche, S. 2012. Literature Is not Data: Against Digital Humanities. 
-                        <hi>Los Angeles Reviews of Books </hi>[Online]. [Accessed 22. September 2017].
+                    <bibl rend="EndNote Bibliography">Marche, S. 2012. Literature Is not Data: Against Digital Humanities. 
+                        <hi rend="italic">Los Angeles Reviews of Books </hi>[Online]. [Accessed 22. September 2017].
                     </bibl>
-                    <bibl>Mill, J. S. (1974): 
-                        <hi>A System of Logic Ratiocinative and Inductive, </hi>London/Toronto: Routledge and Kegan Paul/University of Toronto Press.
+                    <bibl rend="EndNote Bibliography">Mill, J. S. (1974): 
+                        <hi rend="italic">A System of Logic Ratiocinative and Inductive, </hi>London/Toronto: Routledge and Kegan Paul/University of Toronto Press.
                     </bibl>
-                    <bibl>Moretti, F. (2005): 
-                        <hi>Graphs, Maps, Trees. Abstract Models for a Literary History, </hi>London/New York: Verso.
+                    <bibl rend="EndNote Bibliography">Moretti, F. (2005): 
+                        <hi rend="italic">Graphs, Maps, Trees. Abstract Models for a Literary History, </hi>London/New York: Verso.
                     </bibl>
-                    <bibl>Popper, K. (2005): 
-                        <hi>Logik der Forschung, </hi>Tübingen: Mohr Siebeck.
+                    <bibl rend="EndNote Bibliography">Popper, K. (2005): 
+                        <hi rend="italic">Logik der Forschung, </hi>Tübingen: Mohr Siebeck.
                     </bibl>
-                    <bibl>Rickert, H. (1986): 
-                        <hi>Kulturwissenschaft und Naturwissenschaft, </hi>Stuttgart: Reclam.
+                    <bibl rend="EndNote Bibliography">Rickert, H. (1986): 
+                        <hi rend="italic">Kulturwissenschaft und Naturwissenschaft, </hi>Stuttgart: Reclam.
                     </bibl>
-                    <bibl>Ritter, J. (1974): Die Aufgabe der Geisteswissenschaften in der modernen Gesellschaft. 
-                        <hi>Subjektivität. Sechs Aufsätze.</hi> Frankfurt/M.: Suhrkamp.
+                    <bibl rend="EndNote Bibliography">Ritter, J. (1974): Die Aufgabe der Geisteswissenschaften in der modernen Gesellschaft. 
+                        <hi rend="italic">Subjektivität. Sechs Aufsätze.</hi> Frankfurt/M.: Suhrkamp.
                     </bibl>
-                    <bibl>Searle, J. (1993): 
-                        <hi>Die Wiederentdeckung des Geistes, </hi>München: Artemis &amp; Winkler.
+                    <bibl rend="EndNote Bibliography">Searle, J. (1993): 
+                        <hi rend="italic">Die Wiederentdeckung des Geistes, </hi>München: Artemis &amp; Winkler.
                     </bibl>
-                    <bibl>Windelband, W. (1924): Geschichte und Naturwissenschaft. 
-                        <hi>Präludien. Aufsätze und Reden zur Philosophie und ihrer Geschichte.</hi> Tübingen: Mohr.
+                    <bibl rend="EndNote Bibliography">Windelband, W. (1924): Geschichte und Naturwissenschaft. 
+                        <hi rend="italic">Präludien. Aufsätze und Reden zur Philosophie und ihrer Geschichte.</hi> Tübingen: Mohr.
                     </bibl>
-                    <bibl>Wittgenstein, L. (1998): 
-                        <hi>Logisch-philosophische Abhandlung. Tractatus logico-philosophicus - Kritische Edition, </hi>Frankfurt/M.: Suhrkamp.
+                    <bibl rend="EndNote Bibliography">Wittgenstein, L. (1998): 
+                        <hi rend="italic">Logisch-philosophische Abhandlung. Tractatus logico-philosophicus - Kritische Edition, </hi>Frankfurt/M.: Suhrkamp.
                     </bibl>
                 </listBibl>
             </div>

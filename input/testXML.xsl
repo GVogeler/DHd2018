@@ -32,8 +32,8 @@
     </xsl:variable>
     <xsl:variable name="files" select="collection(concat($folder,'/?recurse=yes;select=*.xml'))"/>
     <xsl:template match="/">
-        <xsl:result-document href="images/bilder.bat" method="text" encoding="utf-8">
-<!--            Erzeuge eine .bat-Datei, mit der die bilder aus dem originalen Ordner in einen Zielordner kopiert werden und dabei normalisiert benannt werden.-->
+<!--        <xsl:result-document href="images/bilder.bat" method="text" encoding="utf-8">
+<!-\-            Erzeuge eine .bat-Datei, mit der die bilder aus dem originalen Ordner in einen Zielordner kopiert werden und dabei normalisiert benannt werden.-\->
             <xsl:variable name="imagetypes" select="$files//graphic/@url[not(starts-with(., 'http'))]/tokenize(., '\.')[last()]"/>
             <xsl:text>REM </xsl:text>
             <xsl:for-each select="distinct-values($imagetypes)"><xsl:value-of select="."/><xsl:text>, </xsl:text></xsl:for-each><xsl:text>
@@ -52,7 +52,7 @@
                 <xsl:variable name="current-folder" select="replace(replace(substring-after(substring-before($docuri, $filename),'file:/'), '/', '\\'), '%20', ' ')"/>
                 <xsl:for-each select=".//graphic">
                     <xsl:variable name="image-file-name" select="replace(tokenize(@url,'/')[last()], '/', '\\')"/>
-                    <!-- 1. Erzeuge Unterverzeichnis Pictures und verschiebe die Bilddateien dorthin -->
+                    <!-\- 1. Erzeuge Unterverzeichnis Pictures und verschiebe die Bilddateien dorthin -\->
                     <xsl:text>mkdir "</xsl:text>
                     <xsl:value-of select="$current-folder"/>
                     <xsl:text>Pictures\</xsl:text>
@@ -65,7 +65,7 @@ move "</xsl:text>
                     <xsl:text>Pictures\</xsl:text>
                     <xsl:value-of select="$image-file-name"/><xsl:text>"
 </xsl:text>
-                    <!-- 2. Kopiere sie in input/images/{filename}-{imagename} -->
+                    <!-\- 2. Kopiere sie in input/images/{filename}-{imagename} -\->
                     <xsl:text>copy "</xsl:text>
                     <xsl:value-of select="$current-folder"/>
                     <xsl:text>Pictures\</xsl:text>
@@ -77,7 +77,7 @@ move "</xsl:text>
 </xsl:text></xsl:for-each>
             </xsl:for-each>
         </xsl:result-document>
-        <xsl:result-document href="Bibliographie.html">
+-->        <xsl:result-document href="Bibliographie.html">
             <html>
                 <head>
                     <title>Bibliographien</title>
@@ -136,10 +136,12 @@ move "</xsl:text>
                     <xsl:variable name="filename" select="tokenize(document-uri(.),'/')[last()]"/>
                     <xsl:variable name="current-folder" select="replace(replace(substring-after(substring-before(document-uri(.), $filename),'file:/'), '/', '\\'), '%20', ' ')"/>
                     <!-- Kopiere XML-Dateien in das XML-Verzeichnis -->
-<!--                    <xsl:result-document href="xml/{$filename}">
-                        <xsl:copy-of select="."/>
+                    <xsl:result-document href="xml/{$filename}">
+                        <xsl:apply-templates mode="copyxml">
+                            <xsl:with-param name="filename" select="$filename"/>
+                        </xsl:apply-templates>
                     </xsl:result-document>
--->                    <div id="document-uri(.)" class="contrib">
+                    <div id="document-uri(.)" class="contrib">
                         <p>Datei: <a href="{document-uri(.)}"><xsl:value-of select="tokenize(document-uri(.),'/')[last()]"/></a></p>
                         <p>Typ: <xsl:value-of select=".//keywords[@scheme='ConfTool'][@n='subcategory']/term"/></p>
                         <p>Titel: <xsl:value-of select="/TEI/teiHeader[1]/fileDesc[1]/titleStmt[1]/title"/></p>
@@ -147,9 +149,7 @@ move "</xsl:text>
                         <p>Text: <xsl:value-of select="string-length(/TEI/text/body/string())"/><xsl:text> Zeichen </xsl:text>
                             <xsl:if test="string-length(/TEI/text/body/string()) lt 4000"><span class="Achtung">ACHTUNG: Text kürzer als 5000 Zeichen</span></xsl:if></p>
                         <p>Überschriften: <xsl:value-of select="count(.//head)"/> <xsl:if test="count(.//head) = 0"><xsl:text> </xsl:text><span class="Achtung">Achtung, keine Überschriften im TEI</span></xsl:if></p>
-                        <xsl:if test=".//graphic"><p>Bilder: (Ordner: <a href="../input/images/{
-                            replace(substring-before($filename, '.xml'), ' ', '_')
-                            }">../input/images/<xsl:value-of select="replace(substring-before($filename, '.xml'), ' ', '_')"/></a>
+                        <xsl:if test=".//graphic"><p>Bilder: 
                             <xsl:for-each select=".//graphic">
                                 <xsl:variable name="image-file-name" select="replace(tokenize(@url,'/')[last()], '/', '\\')"/>
                                 <img alt="ACHTUNG! {@url}" src="../input/images/{
@@ -186,5 +186,33 @@ move "</xsl:text>
     </xsl:template>
     <xsl:template match="affiliation">
         <xsl:text> (</xsl:text><xsl:apply-templates/><xsl:text>) </xsl:text>
+    </xsl:template>
+    
+    <xsl:template match="@*|comment()|processing-instruction()|*|text()" 
+        mode="copyxml" priority="-2">
+        <xsl:param name="filename"/>
+        <xsl:copy>
+            <xsl:apply-templates 
+                select="@*" mode="copyxml"/>
+            <xsl:apply-templates 
+                select="comment()|processing-instruction()|*|text()" 
+                mode="copyxml">
+                <xsl:with-param name="filename" select="$filename"/>
+            </xsl:apply-templates>
+        </xsl:copy>
+    </xsl:template>
+    <xsl:template match="graphic" mode="copyxml">
+        <xsl:param name="filename"/>
+        <xsl:variable name="image-file-name" select="replace(tokenize(@url,'/')[last()], '/', '\\')"/>
+        <xsl:copy>
+            <xsl:apply-templates 
+                select="@*[name() != 'url']" mode="copyxml"/>
+            <xsl:attribute name="url">
+                <xsl:text>../images/</xsl:text>
+                <xsl:value-of select="$filename"/>
+                <xsl:text>-</xsl:text>
+                <xsl:value-of select="$image-file-name"/>
+            </xsl:attribute>
+        </xsl:copy>
     </xsl:template>
 </xsl:stylesheet>

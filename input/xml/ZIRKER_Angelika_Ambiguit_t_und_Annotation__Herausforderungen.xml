@@ -33,26 +33,26 @@
         </fileDesc>
         <encodingDesc>
             <appInfo>
-                <application>
+                <application ident="DHCONVALIDATOR" version="1.17">
                     <label>DHConvalidator</label>
                 </application>
             </appInfo>
         </encodingDesc>
         <profileDesc>
             <textClass>
-                <keywords>
+                <keywords scheme="ConfTool" n="category">
                     <term>Paper</term>
                 </keywords>
-                <keywords>
+                <keywords scheme="ConfTool" n="subcategory">
                     <term>Vortrag</term>
                 </keywords>
-                <keywords>
+                <keywords scheme="ConfTool" n="keywords">
                     <term>Annotation</term>
                     <term>Automatisierung</term>
                     <term>Ambiguität</term>
                     <term>Datenbank</term>
                 </keywords>
-                <keywords>
+                <keywords scheme="ConfTool" n="topics">
                     <term>Inhaltsanalyse</term>
                     <term>Strukturanalyse</term>
                     <term>Annotieren</term>
@@ -66,90 +66,90 @@
         <body>
             <p>Der Vortrag beruht auf Überlegungen zur Theorie und Praxis der erklärenden Annotation literarischer Texte. Im Vordergrund steht also weniger die digitale Aufbereitung (im Sinne von Markup) als die Anreicherung von Texten durch Annotationen, wie sie in TEASys (Tübingen Explanatory Annotations System; s. Bauer / Zirker 2015 und 2017) entwickelt wurden. TEASys bietet erklärende Annotationen auf drei verschiedenen Komplexitätsebenen und ist strukturiert nach Kategorien, darunter wie sprachliche Erklärungen, Kontextinformationen, Intertextualität, intratextuelle Verweise, formale Aspekte, textphilologische Anmerkungen und Interpretationen. Das Aufkommen digitaler Annotationen eröffnet neue Möglichkeiten für die Gestaltung der erklärenden Annotationen von Texten, die es noch zu entdecken und aufzubereiten gilt. Ein wesentlicher Faktor liegt dabei im Informationsmanagement, insbesondere im Unterschied zu Annotationen im gedruckten Buch: das digitale Medium erlaubt eine schier unbegrenzte Menge an Informationen sowohl hinsichtlich der dargebotenen Inhalte wie auch durch Hyperlinks. TEASys wurde für die Annotation literarischer Texte entwickelt, soll langfristig aber auch für die Informationsanreicherung und Erläuterung nicht-literarischer Texte und anderer Disziplinen herangezogen werden (vgl. Bauer / Zirker 2015). Es wurde bei der DHd 2016 und 2017 bereits vorgestellt. Seither hat sich TEASys vor allem technisch weiterentwickelt: Die online bereitgestellten Annotationen werden in einer Datenbank gespeichert, die bei der Neuanlage von Annotationen in einem Text auch Vorschläge automatisiert anbietet. Der Vortrag für die DHd 2018 ergibt sich aus dieser technischen Weiterentwicklung des Projekts hinsichtlich eines theoretischen Problems, nämlich der Frage, wie in erklärenden Annotationen mit Ambiguität, d.h. sprachlicher aber auch textueller Mehrdeutigkeit, umzugehen ist, und widmet sich vor allem den Herausforderungen, die sich aus der Automatisierung von Annotationen im Zusammenhang mit Ambiguität ergeben. Ambiguität wird hier verstanden als Doppel- oder Mehrdeutigkeit, d.h. als distinkte Bedeutungen sprachlicher Einheiten (vgl. GRK 1808 2017).</p>
             <p>Obwohl es sich bei Praxis der erklärenden Annotation um eine der ältesten Kulturtechniken bei der Aufbereitung von (literarischen) Texten handelt, wurden die theoretischen Probleme und Herausforderungen der erklärenden Annotation bisher nicht systematisch behandelt (vgl. Assmann 1995; Eggert 2009; van Peursen 2010; Drucker 2012; Parry 2012; Zirker / Bauer 2017). Dazu gehört insbesondere die Frage nach dem Verhältnis von Textteilen und Textganzem, Text und Kontext, Erklärung und Interpretation. Ambiguität ist für all diese Aspekte hoch relevant: die Annotation etwa eines Ausdrucks oder eines Textauszugs, z.B. in einem Roman, kann dazu beitragen, die Verbindung zwischen lokaler und globaler Textbedeutung zu zeigen. Ein Fallbeispiel dafür ist etwa die Geistergeschichte „To Be Taken with a Grain of Salt“ von Charles Dickens: diese Erzählung ist in die Sammlung 
-                <hi>Doctor Marigold’s Prescriptions</hi> eingebettet, woraus die Ambiguität des Titels resultiert, d.h. er kann wörtlich wie auch metaphorisch gelesen werden (Zirker 2014). Dies muss von einer Annotation entsprechend erläutert werden. Die Datenbank kann beispielsweise auf weitere (Kon)Texte der Verwendung und damit auf ein Spektrum möglicher Bedeutungen hinweisen, die wiederum auf den Text (zurück)bezogen werden können.
-                <note>
-                    <p> Die Phrase „grain of salt“ wird z.B. von Henry James in The American metaphorisch verwendet (Kap. 9), während sie von Sir Alfred Tennyson in der letzten Zeile seines Gedichts „Will“ zwar literal gebraucht, durch den Kontext ihrer Verwendung die Metaphorik durch die Rätselhaftigkeit des Ausdrucks „The city sparkles like a grain of salt“ aber aufgerufen wird.</p>
+                <hi rend="italic">Doctor Marigold’s Prescriptions</hi> eingebettet, woraus die Ambiguität des Titels resultiert, d.h. er kann wörtlich wie auch metaphorisch gelesen werden (Zirker 2014). Dies muss von einer Annotation entsprechend erläutert werden. Die Datenbank kann beispielsweise auf weitere (Kon)Texte der Verwendung und damit auf ein Spektrum möglicher Bedeutungen hinweisen, die wiederum auf den Text (zurück)bezogen werden können.
+                <note place="foot" xml:id="ftn1" n="1">
+                    <p rend="footnote text"> Die Phrase „grain of salt“ wird z.B. von Henry James in The American metaphorisch verwendet (Kap. 9), während sie von Sir Alfred Tennyson in der letzten Zeile seines Gedichts „Will“ zwar literal gebraucht, durch den Kontext ihrer Verwendung die Metaphorik durch die Rätselhaftigkeit des Ausdrucks „The city sparkles like a grain of salt“ aber aufgerufen wird.</p>
                 </note>
             </p>
             <p>Die Ambiguität – oder Mehrdeutigkeit von Wörtern, Ausdrücken, Sätzen, ganzen Texten – stellt somit eine besondere Herausforderung bei der digitalen erläuternden Annotation dar, vor allem wenn Annotationen automatisiert werden (s. dazu auch Gius / Jacke 2017). Ein Negativbeispiel für die automatisierte Annotation literarischer Texte, das im Vortrag vorgestellt werden wird, findet sich bei Amazon x-ray (vgl. Bauer / Zirker 2017): dort werden häufig falsche Annotationen angeboten oder es wird bei der Weiterleitung auf die Disambiguierungsseiten von Wikipedia Wissen vorausgesetzt, das dem Textverstehen bereits zugrunde liegt. In TEASys tritt ein anderes Problem hervor: bei der Anlage neuer Annotationen werden dem Annotator aus der Datenbank Vorschläge zu dem Item aus der zugrunde liegenden Datenbank unterbreitet. Im Falle von Ambiguität tritt hier nun die Schwierigkeit auf, dass Textverstehen vorausgesetzt wird, um die ‚richtige‘ Annotation im jeweiligen Kontext zu wählen. Nimmt man etwa die Phrase „Let me not“, die Shakespeares 116. Sonett einleitet, so kann sie sowohl von Sprecher an sich selbst gerichtet sein (analog zu einem Soliloquium) oder aber an einen Adressaten (im Sinne eines Imperativs). Die hier vorliegende Ambiguität hinsichtlich der Kommunikationssituation ist jedoch nicht automatisch auf andere (Kon)Texte übertragbar: „Let me not“ wird auch von Hamlet in einem Soliloquium verwendet (Akt 1, Sz. 2) bzw. von Brutus in 
-                <hi>Julius Caesar</hi> in einem Dialog mit Cassius (Akt 1, Sz. 2). Eine Automatisierung wie auch Rekontextualisierung der Annotation zu „Let me not“ ist deshalb schwierig gerade 
-                <hi>aufgrund</hi> ihres Potentials, mehrdeutig zu sein. Dies bedeutet aber auch, dass im Fall der Eindeutigkeit des Ausdrucks die Metadaten der jeweiligen Annotationen auf die Bedingungen für eine solche Disambiguierung verweisen sollten, damit dieser Hinweis beim Erstellen weiterer Annotationen erhältlich und nützlich bleibt. 
+                <hi rend="italic">Julius Caesar</hi> in einem Dialog mit Cassius (Akt 1, Sz. 2). Eine Automatisierung wie auch Rekontextualisierung der Annotation zu „Let me not“ ist deshalb schwierig gerade 
+                <hi rend="italic">aufgrund</hi> ihres Potentials, mehrdeutig zu sein. Dies bedeutet aber auch, dass im Fall der Eindeutigkeit des Ausdrucks die Metadaten der jeweiligen Annotationen auf die Bedingungen für eine solche Disambiguierung verweisen sollten, damit dieser Hinweis beim Erstellen weiterer Annotationen erhältlich und nützlich bleibt. 
             </p>
             <p>Doch was passiert, wenn Annotationen Ambiguität berücksichtigen? Hierzu gibt es drei Szenarien: (1) Die erklärende Annotation disambiguiert die Textstelle / den Text. (2) Die erklärende Annotation weist den Nutzer auf die Ambiguität hin, insbesondere in einem literarischen Text (Bode 1988), und bietet distinkte Denotationen an. (3) Die erklärende Annotation führt (in strategischer Weise; s. dazu Bauer / Zirker, in Vorb.) die Wahrnehmung einer Ambiguität ein, die tatsächlich vorliegt, oder eben auch nicht. Im Fall von (1) kann dies in einer Vereindeutigung des Textes resultieren, die besondere Qualitäten literarischer Werke außer Acht lässt; möglicherweise ermöglicht dies aber auch eine klare Interpretation. Die Disambiguierung mag sogar erforderlich sein, etwa im Zuge von Sprachwandel (im Englischen denke man hier z.B. an die heute weniger geläufigen Bedeutungen von „gay“ und „nice“, die im 18. Jahrhundert völlig andere Denotationen besaßen). Im Fall von (2) kann die Annotation einer Ambiguität die ästhetischen Merkmale eines Textes in besonderer Weise hervortreten lassen, die sonst in den Hintergrund gerückt werden, bspw. die Ambiguität zwischen interner und externer Kommunikationsebene (man denke hier an dramatische Ironie). Im Fall von (3) kann der Annotator eine Erklärung eines potentiell ambigen Items anbieten, die das globale Textverstehen beeinflusst. Dies trifft etwa auf biographische Lesarten der Sonette Shakespeares zu, wo lokale Ambiguitäten strategisch in die Texte hineingelesen werden. Im 145. Sonett ist z.B. von „hate away“ die Rede, was in einer Annotation als Verweis auf Shakespeares Frau, Ann Hathaway, interpretiert wird (Booth 1977: 501). </p>
             <p>Die theoretischen Probleme, die an diese Überlegungen und kurzen Fallbeispiele anknüpfen, wurden bisher nicht systematisch reflektiert. Dies gilt auch hinsichtlich der Frage, inwieweit erklärende Annotationen der Komplexität und Ambiguität literarischer Texte gerecht werden können. Und während das digitale Medium und der damit (scheinbar) unbegrenzte Raum für Annotationen neue Möglichkeiten für die Lösung dieser Fragen und Probleme bietet, resultieren daraus aber auch wiederum neue Herausforderungen, nämlich die Reflexion über den Mehrwert und den Verlust, der sich aufgrund der geschilderten hermeneutischen Schwierigkeiten ergibt (s. auch Gius / Jacke 2015 und 2017). Wendet man sich nun der digitalen erklärenden Annotation im Verhältnis zu Ambiguität zu, so resultiert daraus – wie in den Fällen (1) bis (3) dargelegt – ein 
-                <hi>trade-off</hi> zwischen Klärung und Verdunkelung sowie die Notwendigkeit eines Mittelwegs zwischen der Überforderung bzw. Überfrachtung des Nutzers und der Gefahr, zu wenig Informationen anzubieten (s. dazu Berry 2012). 
+                <hi rend="italic">trade-off</hi> zwischen Klärung und Verdunkelung sowie die Notwendigkeit eines Mittelwegs zwischen der Überforderung bzw. Überfrachtung des Nutzers und der Gefahr, zu wenig Informationen anzubieten (s. dazu Berry 2012). 
             </p>
             <p>Der Vortrag widmet sich diesen Fragen und Herausforderungen anhand einiger ausgewählter Beispiele und versucht, folgende Aspekte zu präsentieren bzw. anzureißen: 1. die theoretischen Grundlagen der erklärenden Annotation und ihrer hermeneutischen Grundlagen im Hinblick auf die Ambiguität näher zu beleuchten; 2. das Verhältnis von digitalem Medium und literarischer Annotation weiter zu konzeptualisieren, und zwar vor dem Hintergrund der erschwerten Bedingungen durch Ambiguität; 3. die Automatisierung von Annotationen ambiger Items im digitalen Medium in theoretischer Hinsicht voranzutreiben.</p>
         </body>
         <back>
-            <div>
+            <div type="bibliogr">
                 <listBibl>
                     <head>Bibliographie</head>
                     <bibl>
-                        <hi>Assmann, Jan</hi> (1995). “Text und Kommentar: Einführung,” in: Assmann, Jan / Gladigow, Burkhard (eds.): 
-                        <hi>Text und Kommentar: Archäologie der literarischen Kommunikation IV</hi>. München: Fink 9-33.
+                        <hi rend="bold">Assmann, Jan</hi> (1995). “Text und Kommentar: Einführung,” in: Assmann, Jan / Gladigow, Burkhard (eds.): 
+                        <hi rend="italic">Text und Kommentar: Archäologie der literarischen Kommunikation IV</hi>. München: Fink 9-33.
                     </bibl>
                     <bibl>
-                        <hi>Bauer, Matthias / Zirker, Angelika</hi> (2015): “Whipping Boys Explained: Literary Annotation and Digital Humanities,” in: Siemens, Ray / Price, Kenneth M. (eds.): 
-                        <hi>Literary Studies in the Digital Age: An Evolving Anthology</hi>. Ed. Ray Siemens and Kenneth M. Price. 
-                        <ref>https://dlsanthology.commons.mla.org/whipping-boys-explained-literary-annotation-and-digital-humanities/</ref>
-                        <hi> [letzter Zugriff: 11. September 2017].</hi>
+                        <hi rend="bold">Bauer, Matthias / Zirker, Angelika</hi> (2015): “Whipping Boys Explained: Literary Annotation and Digital Humanities,” in: Siemens, Ray / Price, Kenneth M. (eds.): 
+                        <hi rend="italic">Literary Studies in the Digital Age: An Evolving Anthology</hi>. Ed. Ray Siemens and Kenneth M. Price. 
+                        <ref target="https://dlsanthology.commons.mla.org/whipping-boys-explained-literary-annotation-and-digital-humanities/">https://dlsanthology.commons.mla.org/whipping-boys-explained-literary-annotation-and-digital-humanities/</ref>
+                        <hi rend="Hyperlink"> [letzter Zugriff: 11. September 2017].</hi>
                     </bibl>
                     <bibl>
-                        <hi>Bauer, Matthias / Zirker, Angelika</hi> (2017): “Explanatory Annotation of Literary Texts and the Reader: Seven Types of Problems,” in: Zirker, Angelika / Bauer, Matthias (eds.): 
-                        <hi>International Journal of Humanities and Arts Computing</hi>. 11.2 (2017): 212-32. 
+                        <hi rend="bold">Bauer, Matthias / Zirker, Angelika</hi> (2017): “Explanatory Annotation of Literary Texts and the Reader: Seven Types of Problems,” in: Zirker, Angelika / Bauer, Matthias (eds.): 
+                        <hi rend="italic">International Journal of Humanities and Arts Computing</hi>. 11.2 (2017): 212-32. 
                     </bibl>
                     <bibl>
-                        <hi>Bauer, Matthias / Zirker, Angelika</hi> (in Vorb.): 
-                        <hi>Strategies of Ambiguity</hi>. Routledge [zur Publikation angenommen; erscheint 2018].
+                        <hi rend="bold">Bauer, Matthias / Zirker, Angelika</hi> (in Vorb.): 
+                        <hi rend="italic">Strategies of Ambiguity</hi>. Routledge [zur Publikation angenommen; erscheint 2018].
                     </bibl>
                     <bibl>
-                        <hi>Berry, David M.</hi> (2012): “Introduction: Understanding Digital Humanities,” in: Berry, David M. (ed.): 
-                        <hi>Understanding Digital Humanities</hi>. London: Palgrave Macmillan.
+                        <hi rend="bold">Berry, David M.</hi> (2012): “Introduction: Understanding Digital Humanities,” in: Berry, David M. (ed.): 
+                        <hi rend="italic">Understanding Digital Humanities</hi>. London: Palgrave Macmillan.
                     </bibl>
                     <bibl>
-                        <hi>Bode, Christoph</hi> (1988): 
-                        <hi>Ästhetik der Ambiguität: Zur Funktion und Bedeutung von Mehrdeutigkeit in der Literatur der Moderne</hi>. Tübingen: Niemeyer.
+                        <hi rend="bold">Bode, Christoph</hi> (1988): 
+                        <hi rend="italic">Ästhetik der Ambiguität: Zur Funktion und Bedeutung von Mehrdeutigkeit in der Literatur der Moderne</hi>. Tübingen: Niemeyer.
                     </bibl>
                     <bibl>
-                        <hi>Booth, William</hi> (ed.) (1977). 
-                        <hi>Shakespeare’s Sonnets</hi>. New Haven: Yale University Press.
+                        <hi rend="bold">Booth, William</hi> (ed.) (1977). 
+                        <hi rend="italic">Shakespeare’s Sonnets</hi>. New Haven: Yale University Press.
                     </bibl>
                     <bibl>
-                        <hi>Drucker, Johanna</hi> (2012). “Humanistic Theory and Digital Scholarship,” in: Gold, Matthew K. (ed.): 
-                        <hi>Debates in the Digital Humanities</hi>. Minneapolis: University of Minnesota Press 85-95.
+                        <hi rend="bold">Drucker, Johanna</hi> (2012). “Humanistic Theory and Digital Scholarship,” in: Gold, Matthew K. (ed.): 
+                        <hi rend="italic">Debates in the Digital Humanities</hi>. Minneapolis: University of Minnesota Press 85-95.
                     </bibl>
                     <bibl>
-                        <hi>Eggert, Paul</hi> (2009). “The Book, the E-text and the ‘Work-site,’” in: Deegan, Marilyn / Sutherland, Kathryn (eds.): 
-                        <hi>Text Editing, Print and the Digital World</hi>. Aldershot: Ashgate 63-82.
+                        <hi rend="bold">Eggert, Paul</hi> (2009). “The Book, the E-text and the ‘Work-site,’” in: Deegan, Marilyn / Sutherland, Kathryn (eds.): 
+                        <hi rend="italic">Text Editing, Print and the Digital World</hi>. Aldershot: Ashgate 63-82.
                     </bibl>
                     <bibl>
-                        <hi>Gius, Evelyn / Jacke, Janina</hi> (2015): “Informatik und Hermeneutik. Zum Mehrwert interdisziplinärer Textanalyse’, 
-                        <hi>Zeitschrift für digitale Geisteswissenschaften</hi>, 1 (2015), 
-                        <ref>http://www.zfdg.de/sb001_006</ref> [letzter Zugriff: 11. September 2017].
+                        <hi rend="bold">Gius, Evelyn / Jacke, Janina</hi> (2015): “Informatik und Hermeneutik. Zum Mehrwert interdisziplinärer Textanalyse’, 
+                        <hi rend="italic">Zeitschrift für digitale Geisteswissenschaften</hi>, 1 (2015), 
+                        <ref target="http://www.zfdg.de/sb001_006">http://www.zfdg.de/sb001_006</ref> [letzter Zugriff: 11. September 2017].
                     </bibl>
                     <bibl>
-                        <hi>Gius, Evelyn / Jacke, Janina</hi> (2017): “The Hermeneutic Profit of Annotation: On Preventing and Fostering Disagreement in Literary Analysis,” in: Zirker, Angelika / Bauer, Matthias (eds.): 
-                        <hi>International Journal of Humanities and Arts Computing</hi>. 11.2 (2017): 233-54. [im Druck]
+                        <hi rend="bold">Gius, Evelyn / Jacke, Janina</hi> (2017): “The Hermeneutic Profit of Annotation: On Preventing and Fostering Disagreement in Literary Analysis,” in: Zirker, Angelika / Bauer, Matthias (eds.): 
+                        <hi rend="italic">International Journal of Humanities and Arts Computing</hi>. 11.2 (2017): 233-54. [im Druck]
                     </bibl>
                     <bibl>
-                        <hi>GRK 1808</hi> (2017): “Forschungsprogramm des Graduiertenkollegs ‚Ambiguität: Produktion und Rezeption,” https://www.uni-tuebingen.de/forschung/forschungsschwerpunkte/graduiertenkollegs/grk-1808-ambiguitaet-produktion-und-rezeption/forschung/forschungsprogramm.html
+                        <hi rend="bold">GRK 1808</hi> (2017): “Forschungsprogramm des Graduiertenkollegs ‚Ambiguität: Produktion und Rezeption,” https://www.uni-tuebingen.de/forschung/forschungsschwerpunkte/graduiertenkollegs/grk-1808-ambiguitaet-produktion-und-rezeption/forschung/forschungsprogramm.html
                     </bibl>
                     <bibl>
-                        <hi>Parry, Dave</hi> (2012). “The Digital Humanities or a Digital Humanism,” in: Gold, Matthew K. (ed.): 
-                        <hi>Debates in the Digital Humanities</hi>. Minneapolis: University of Minnesota Press 429-37.
+                        <hi rend="bold">Parry, Dave</hi> (2012). “The Digital Humanities or a Digital Humanism,” in: Gold, Matthew K. (ed.): 
+                        <hi rend="italic">Debates in the Digital Humanities</hi>. Minneapolis: University of Minnesota Press 429-37.
                     </bibl>
                     <bibl>
-                        <hi>van Peursen, Wido</hi> (2010): “Text Comparison and Digital Creativity: An Introduction,” in: van Peursen, Wido / Thoutenhoofdm Ernst D. / van der Weel, Adrian (eds.): 
-                        <hi> Text Comparison and Digital Creativity: The Production of Presence and Meaning in Digital Text Scholarship</hi>. Leiden: Brill 1-27.
+                        <hi rend="bold">van Peursen, Wido</hi> (2010): “Text Comparison and Digital Creativity: An Introduction,” in: van Peursen, Wido / Thoutenhoofdm Ernst D. / van der Weel, Adrian (eds.): 
+                        <hi rend="italic"> Text Comparison and Digital Creativity: The Production of Presence and Meaning in Digital Text Scholarship</hi>. Leiden: Brill 1-27.
                     </bibl>
                     <bibl>
-                        <hi>Zirker, Angelika</hi> (2014): “‘To Be Taken with a Grain of Salt’: Charles Dickens and the Ambiguous Ghost Story,” in: Lennartz, Norbert / Koch, Dieter (eds.): 
-                        <hi>Texts, Contexts and Intertextuality: Dickens as a Reader</hi>. Göttingen: Vandenhoeck &amp; Ruprecht 163-80.
+                        <hi rend="bold">Zirker, Angelika</hi> (2014): “‘To Be Taken with a Grain of Salt’: Charles Dickens and the Ambiguous Ghost Story,” in: Lennartz, Norbert / Koch, Dieter (eds.): 
+                        <hi rend="italic">Texts, Contexts and Intertextuality: Dickens as a Reader</hi>. Göttingen: Vandenhoeck &amp; Ruprecht 163-80.
                     </bibl>
                     <bibl>
-                        <hi>Zirker, Angelika / Bauer, Matthias</hi> (2017): “Guest Editors’ Introduction: Explanatory Annotation in the Context of the Digital Humanities,” in: Zirker, Angelika / Bauer, Matthias (eds.): 
-                        <hi>International Journal of Humanities and Arts Computing</hi>. 11.2 (2017): 145-52. 
+                        <hi rend="bold">Zirker, Angelika / Bauer, Matthias</hi> (2017): “Guest Editors’ Introduction: Explanatory Annotation in the Context of the Digital Humanities,” in: Zirker, Angelika / Bauer, Matthias (eds.): 
+                        <hi rend="italic">International Journal of Humanities and Arts Computing</hi>. 11.2 (2017): 145-52. 
                     </bibl>
                 </listBibl>
             </div>

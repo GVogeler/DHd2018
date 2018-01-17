@@ -49,25 +49,25 @@
         </fileDesc>
         <encodingDesc>
             <appInfo>
-                <application>
+                <application ident="DHCONVALIDATOR" version="1.17">
                     <label>DHConvalidator</label>
                 </application>
             </appInfo>
         </encodingDesc>
         <profileDesc>
             <textClass>
-                <keywords>
+                <keywords scheme="ConfTool" n="category">
                     <term>Paper</term>
                 </keywords>
-                <keywords>
+                <keywords scheme="ConfTool" n="subcategory">
                     <term>Vortrag</term>
                 </keywords>
-                <keywords>
+                <keywords scheme="ConfTool" n="keywords">
                     <term>Soziale Medien</term>
                     <term>Rezeption von Literatur</term>
                     <term>Assoziationen</term>
                 </keywords>
-                <keywords>
+                <keywords scheme="ConfTool" n="topics">
                     <term>Entdeckung</term>
                     <term>Programmierung</term>
                     <term>Inhaltsanalyse</term>
@@ -80,203 +80,207 @@
     </teiHeader>
     <text>
         <body>
-            <div>
+            <div type="div1" rend="DH-Heading1">
                 <head>Einleitung</head>
                 <p>Im vorliegenden Abstract stellen wir eine Methode sowie erste Ergebnisse der Analyse von Entitäten-Assoziationen realer Leserinnen und Leser vor.</p>
                 <p>Literaturwissenschaftliche Rezeptions-, Lese- und Lesertheorien gehen seit ihren hermeneutischen und wirkungsästhetischen Anfängen (Schleiermacher 1838, insb. 309f.; Iser 1976) von professionellen (Dijkstra 1994), informierten (Fish 1970, 86), Modell- (Eco 1979) oder sogar idealen (Schmid 2005) Lesern aus (vgl. Willand, 2014). Diesen wird die Kompetenz zugeschrieben, idealerweise sämtliche Textmerkmale referentialisieren zu können, wobei je nach literaturtheoretischer Provenienz unterschiedliche Kontexte die Grundlage der Zuschreibungen an den Text bilden. Dazu gehören u.a. Informationen über den Autor oder über die sozialhistorischen Bedingungen der Textproduktion, über die Rezeptionsbedingungen, über Vorgänger- oder zeitgenössische Texte oder über Wissen aus dem Bereich der Literaturwissenschaftlerin bzw. des Lesers selbst. </p>
                 <p>An bestimmte Wissensbestände dieser 
-                    <hi>realen</hi> Leserinnen und Leser literarischer Texte können wir uns durch eine computergestützte empirische Analyse von Rezeptionszeugnissen aus sozialen Medien annähern. Konkret ist unser Ziel die Rekonstruktion und Analyse der von literarischen Texten ausgelösten Assoziationen. Dabei beschränken wir uns auf die Assoziationen, die reale oder fiktive Entitäten betreffen, also etwa Personen des öffentlichen Lebens oder Figuren aus fiktionalen Werken.
+                    <hi rend="italic">realen</hi> Leserinnen und Leser literarischer Texte können wir uns durch eine computergestützte empirische Analyse von Rezeptionszeugnissen aus sozialen Medien annähern. Konkret ist unser Ziel die Rekonstruktion und Analyse der von literarischen Texten ausgelösten Assoziationen. Dabei beschränken wir uns auf die Assoziationen, die reale oder fiktive Entitäten betreffen, also etwa Personen des öffentlichen Lebens oder Figuren aus fiktionalen Werken.
                 </p>
                 <p>Die Plattform Goodreads bietet Leserinnen und Lesern die Möglichkeit des freien schriftlichen Austauschs über literarische Texte in einer großen Community. 55 Mio. Mitglieder haben bis 2017 über 50 Mio. Reviews geschrieben, wobei die Besprechungen die Inhalte der Bücher selbst und nicht - wie etwa bei Verkaufsplattformen wie Amazon - die Distribution, den Preis o.ä. fokussieren (Piper et al. 2015). </p>
             </div>
-            <div>
+            <div type="div1" rend="DH-Heading1">
                 <head>Verarbeitung</head>
                 <p>Als Grundlage unserer Analysen  wurden die Reviews in einer lokalen Datenbank gespeichert. </p>
                 <p>Die Datenbank enthält 1,3 Millionen englischsprachige Reviews zu 5.481 besprochenen Texten. Die Reviews umfassen insgesamt etwa 150 Mio. Tokens, d.h. uns steht eine große Datenmenge zur Extraktion der Entitäten zur Verfügung. In einem ersten Schritten wurden die Reviews bereinigt: HTML-Tags wurden entfernt und Wiederholungen von mehr als dreimal dem gleichen Zeichen oder Wort auf drei reduziert. </p>
                 <p>Zur Extraktion der Entitäten aus den Reviews haben wir den Stanford Named Entity Recognizer (Finkel et al., 2005) verwendet. Der Tagger klassifiziert die gefundenen Entitäten in mehrere Klassen. Für uns ist die Klasse „PERSON“ relevant, da diese alle gefundenen Entitäten von Personen enthält.</p>
                 <p>Im nächsten Schritt disambiguieren wir die extrahierten Entitäten, da z.B. ein Name wie “Harry” auf viele mögliche Träger des Namens verweisen kann. Mit Hilfe von UKB (Agirre et al., 2009) und UKB-wiki (Agirre et al., 2015) können den Entitäten Wikipedia-Seiten zugeordnet werden, welche die möglichen Entitäten repräsentieren. Für diese Disambiguierung verwendet UKB den PageRank-Algorithmus (Page et al. 1999), der Dokumente nach ihrem Verlinkungsgrad bewertet. Sobald Namen wie „Ron“ und „Dumbledore“ im selben Kontext erwähnt werden, wird die Wahrscheinlichkeit größer, dass mit “Harry” 
-                    <hi>Harry Potter</hi>, mit “Ron” 
-                    <hi>Ron Weasly</hi> und mit “Dumbledore” 
-                    <hi>Albus Dumbledore</hi> aus der Romanreihe 
-                    <hi>Harry Potter</hi> gemeint sind, weil diese Entitäten aus dem selben Kontext kommen und dies in der Wissensbasis Wikipedia durch Verlinkungen explizit ablesbar und quantifizierbar ist.
+                    <hi rend="italic">Harry Potter</hi>, mit “Ron” 
+                    <hi rend="italic">Ron Weasly</hi> und mit “Dumbledore” 
+                    <hi rend="italic">Albus Dumbledore</hi> aus der Romanreihe 
+                    <hi rend="italic">Harry Potter</hi> gemeint sind, weil diese Entitäten aus dem selben Kontext kommen und dies in der Wissensbasis Wikipedia durch Verlinkungen explizit ablesbar und quantifizierbar ist.
                 </p>
                 <p>UKB-wiki stellt einen herunterladbaren Graphen zur Verfügung, der Wikipedia-Seiten und Links auf andere Wikipedia-Seiten repräsentiert. In einem mitgelieferten Wörterbuch sind Entitäten mit allen möglichen Entitäten (Verweise auf Wikipedia Seiten) aufgeführt. </p>
                 <p>Die auf diese Weise gewonnen Wikipedia-Einträge wurden anschließend hinsichtlich des ontologischen Status der referenzialisierten Entität kategorisiert, also ob es sich um eine reale Person oder fiktionale Figur handelt. Dazu wurde die Wissensbasis DBpedia
-                    <note>
+                    <note place="foot" xml:id="ftn1" n="1">
                         <p>http://wiki.dbpedia.org/</p>
                     </note> verwendet, die die Daten aus Wikipedia strukturiert und maschinenlesbar kodiert. Da die Disambiguierung Wikipedia-Einträge liefert, können wir anhand dieser die auf den zugehörigen DBpedia-Eintrag zugreifen. Über DBpedia lassen sich neben ontologischen Kategorien  auch andere Eigenschaften extrahieren, die für eine Analyse ggf. interessant sind, etwa Geschlecht oder Relationen zu anderen Figuren.
                 </p>
                 <p>Die extrahierten Daten werden zunächst als Tabelle gespeichert und erlauben somit eine flexible weitergehende Verarbeitung, etwa in einem Netzwerk. Eine Zeile der Tabelle besteht aus dem Werktitel, der disambiguierten Entität (Verweis auf Wikipedia Seite), einer Liste der extrahierten Entitäten aus den Reviews, einer Liste von Review-IDs, um nachvollziehen zu können in welchen Reviews der Name erwähnt wird, der Anzahl der Erwähnungen und der Angabe ob es sich um eine Figur handelt oder nicht.</p>
-                <table>
+                <table rend="rules">
                     <row>
-                        <cell>Titel</cell>
-                        <cell>Disambiguierte Entität (Verweis auf Wikipedia Seite)</cell>
-                        <cell>Extrahierte Entität</cell>
-                        <cell>Review IDs</cell>
-                        <cell>Anzahl der Erwähnungen</cell>
-                        <cell>Handelt es sich um eine fiktionale Figur?</cell>
+                        <cell rend="DH-Default">Titel</cell>
+                        <cell rend="DH-Default">Disambiguierte Entität (Verweis auf Wikipedia Seite)</cell>
+                        <cell rend="DH-Default">Extrahierte Entität</cell>
+                        <cell rend="DH-Default">Review IDs</cell>
+                        <cell rend="DH-Default">Anzahl der Erwähnungen</cell>
+                        <cell rend="DH-Default">Handelt es sich um eine fiktionale Figur?</cell>
                     </row>
                     <row>
-                        <cell>The Hound of the Baskervilles</cell>
-                        <cell>Agatha_Christie</cell>
-                        <cell>christie, agatha_christie, agatha_christy</cell>
-                        <cell>470784120, …, 188608568</cell>
-                        <cell>20</cell>
-                        <cell>False</cell>
+                        <cell rend="DH-Default">The Hound of the Baskervilles</cell>
+                        <cell rend="DH-Default">Agatha_Christie</cell>
+                        <cell rend="DH-Default">christie, agatha_christie, agatha_christy</cell>
+                        <cell rend="DH-Default">470784120, …, 188608568</cell>
+                        <cell rend="DH-Default">20</cell>
+                        <cell rend="DH-Default">False</cell>
                     </row>
                     <row>
-                        <cell>The Hound of the Baskervilles</cell>
-                        <cell>Spock</cell>
-                        <cell>spock</cell>
-                        <cell>42971473</cell>
-                        <cell>1</cell>
-                        <cell>True</cell>
+                        <cell rend="DH-Default">The Hound of the Baskervilles</cell>
+                        <cell rend="DH-Default">Spock</cell>
+                        <cell rend="DH-Default">spock</cell>
+                        <cell rend="DH-Default">42971473</cell>
+                        <cell rend="DH-Default">1</cell>
+                        <cell rend="DH-Default">True</cell>
                     </row>
                     <row>
-                        <cell>The Hound of the Baskervilles</cell>
-                        <cell>Robert_Downey,_Jr.</cell>
-                        <cell>robert_downey_jr, robert_downey</cell>
-                        <cell>1077543609, …, 1250976986</cell>
-                        <cell>18</cell>
-                        <cell>False</cell>
+                        <cell rend="DH-Default">The Hound of the Baskervilles</cell>
+                        <cell rend="DH-Default">Robert_Downey,_Jr.</cell>
+                        <cell rend="DH-Default">robert_downey_jr, robert_downey</cell>
+                        <cell rend="DH-Default">1077543609, …, 1250976986</cell>
+                        <cell rend="DH-Default">18</cell>
+                        <cell rend="DH-Default">False</cell>
                     </row>
                     <row>
-                        <cell>The Hound of the Baskervilles</cell>
-                        <cell>Ann_Radcliffe</cell>
-                        <cell>ann_radcliffe</cell>
-                        <cell>435380655</cell>
-                        <cell>1</cell>
-                        <cell>False</cell>
+                        <cell rend="DH-Default">The Hound of the Baskervilles</cell>
+                        <cell rend="DH-Default">Ann_Radcliffe</cell>
+                        <cell rend="DH-Default">ann_radcliffe</cell>
+                        <cell rend="DH-Default">435380655</cell>
+                        <cell rend="DH-Default">1</cell>
+                        <cell rend="DH-Default">False</cell>
                     </row>
                 </table>
                 <p>
-                    <hi>Tabelle 1</hi>: Auszug aus den extrahierten Daten. Die extrahierten Entitäten stammen aus den Reviews zu
-                    <hi> The Hound of the Baskervilles</hi>.
+                    <hi rend="bold">Tabelle 1</hi>: Auszug aus den extrahierten Daten. Die extrahierten Entitäten stammen aus den Reviews zu
+                    <hi rend="italic"> The Hound of the Baskervilles</hi>.
                 </p>
-                <div>
+                <div type="div2" rend="DH-Heading2">
                     <head>Zwischenergebnisse</head>
                     <p>Um ein exemplarisches Resultat zu präsentieren, haben wir Reviews zu “The Hound of the Baskervilles” (deutsch: “Der Hund von Baskerville”) analysiert. Unter den häufig erwähnten Entitäten finden sich erwartungsgemäß Sherlock Holmes, Dr. Watson, sowie der Autor Arthur Conan Doyle. Weitere häufig erwähnte Figuren aus der fiktionalen Welt des Sherlock Holmes' sind James Mortimer und Charles Baskerville. Aber auch Professor Moriarty wird häufig erwähnt, obwohl er in diesem Buch der Sherlock-Reihe gar nicht auftaucht. Das System erzeugt jedoch auch Fehler. Beispielsweise wird der Antagonist Stapleton zwar sehr oft erwähnt, da zu ihm aber kein eigener Wikipedia-Eintrag existiert, wird er fälschlicherweise mit dem Footballspieler Frank Stapleton verknüpft. Henry Baskerville, der Sohn von Charles und Erbe des Anwesens, wird im Buch fast durchgehend als Sir Henry bezeichnet, und kommt mit diesem Namen ebenfalls häufig in den Reviews vor. Da auch für ihn kein eigener Wikipedia-Eintrag existiert und der Name Henry extrem mehrdeutig ist, werden eine Reihe klar falscher Entitäten verknüpft: Henry II. von Frankreich; Henry County (Alabama); oder Henry I. von England.</p>
                     <p>Bemerkenswert sind insbesondere jedoch die referenzialisierten extra-textuellen Entitäten, also diejenigen, die nicht aus der fiktionalen Welt Sherlocks stammen. Es finden sich etwa 
-                        <hi>Hercule Poirot</hi> und 
-                        <hi>Agatha Christie</hi> unter den erwähnten Entitäten, was als klares Zeichen dafür gesehen werden kann, dass die Leserinnen und Leser den Text vor dem Hintergrund eines starken Gattungsbewusstseins rezipieren. Dafür spricht auch, dass mit 
-                        <hi>Benedict Cumberbatch</hi>, 
-                        <hi>Robert Downey, Jr.</hi>, 
-                        <hi>John Barrymore</hi> und 
-                        <hi>Jeremy Brett</hi> gerade die Schauspieler unter den assoziierten Referenzen vertreten sind, die in einer der vielen Verfilmungen die Rolle des Sherlock Holmes verkörpert haben.
+                        <hi rend="italic">Hercule Poirot</hi> und 
+                        <hi rend="italic">Agatha Christie</hi> unter den erwähnten Entitäten, was als klares Zeichen dafür gesehen werden kann, dass die Leserinnen und Leser den Text vor dem Hintergrund eines starken Gattungsbewusstseins rezipieren. Dafür spricht auch, dass mit 
+                        <hi rend="italic">Benedict Cumberbatch</hi>, 
+                        <hi rend="italic">Robert Downey, Jr.</hi>, 
+                        <hi rend="italic">John Barrymore</hi> und 
+                        <hi rend="italic">Jeremy Brett</hi> gerade die Schauspieler unter den assoziierten Referenzen vertreten sind, die in einer der vielen Verfilmungen die Rolle des Sherlock Holmes verkörpert haben.
                     </p>
                 </div>
-                <div>
+                <div type="div2" rend="DH-Heading2">
                     <head>Fehleranalyse</head>
                     <p>Das am häufigsten auftretende Problem ist das Fehlen eines Wikipedia-Eintrages für eine Figur. In der englischsprachigen Wikipedia sind fiktionale Figuren zwar nicht per se davon ausgeschlossen -- Richtschnur hier ist deren “Notability”. Viele Figuren sind jedoch nur auf den Einträgen des entsprechenden Werks erwähnt. Da der Algorithmus nicht in der Lage ist, 
-                        <hi>keinen</hi> Eintrag zu liefern, wird in solchen Fällen eben ein anderer Eintrag verwendet, auch wenn dieser relativ weit entfernt sein mag. Eine technische Lösung wäre sicher, nur ab einem gewissen Schwellwert eine Disambiguierung vorzunehmen, und die nicht-disambiguierten Einträge zumindest als solche erkennen zu lassen. Eine andere Möglichkeit läge in der (zusätzlichen) Verwendung von Literaturlexika, die (womöglich) eine größere Abdeckung zu fiktionalen Figuren aufweisen. Beide Optionen werden wir in zukünftigen Arbeiten genauer untersuchen. 
+                        <hi rend="italic">keinen</hi> Eintrag zu liefern, wird in solchen Fällen eben ein anderer Eintrag verwendet, auch wenn dieser relativ weit entfernt sein mag. Eine technische Lösung wäre sicher, nur ab einem gewissen Schwellwert eine Disambiguierung vorzunehmen, und die nicht-disambiguierten Einträge zumindest als solche erkennen zu lassen. Eine andere Möglichkeit läge in der (zusätzlichen) Verwendung von Literaturlexika, die (womöglich) eine größere Abdeckung zu fiktionalen Figuren aufweisen. Beide Optionen werden wir in zukünftigen Arbeiten genauer untersuchen. 
                     </p>
                     <p>Da es sich bei den Reviews letztlich um Inhalte aus einem sozialen Medium handelt, kommt es auch vor, dass Namen falsch geschrieben werden oder gar der gesamte Text schriftsprachliche Konventionen übergeht. Prima vista sind diese Fälle im Vergleich zu Buchrezensionen zwar häufig anzutreffen, wir können das Problem aber umgehen, indem wir nur diejenigen Erwähnungen berücksichtigen, die mehr als einmal vorkommen. Festzuhalten bleibt aber ebenfalls, dass die Texte im Vergleich zu z.B. Twitter-Daten deutlich sauberer sind.</p>
                     <p>Eine weitere mögliche (jedoch noch nicht tatsächlich beobachtete) Fehlerquelle liegt in der Natur des PageRank-Algorithmus: Wenn eine Figur in einem Werk existiert, ein Leser oder eine Leserin jedoch explizit z.B. eine Person des öffentlichen Lebens mit dem gleichen Namen erwähnt, wird der Algorithmus diese Erwähnung eher der Figur zuschlagen, da diese dichter mit anderen Figuren verknüpft ist. </p>
                 </div>
             </div>
-            <div>
+            <div type="div1" rend="DH-Heading1">
                 <head>Auswertung als Netzwerk</head>
                 <p>Die oben extrahierten Daten erlauben Auswertungen auf vielfältige Weise. Exemplarisch konzentrieren wir uns hier auf eine Form, in der von Lesern zugeschriebene Gemeinsamkeiten zwischen literarischen Texten untersucht werden. Die Texte und die ihnen zugeschriebenen Assoziationen werden dabei als Knoten in einem Netzwerk repräsentiert. Ein Text ist also mit allen ihm zugeschriebenen Assoziationen verbunden, wobei das Gewicht der Kante die Anzahl der Reviews angibt, in denen eine bestimmte Assoziation auftaucht. </p>
                 <p>Durch diesen Aufbau ergeben sich Kerneigenschaften des Netzwerkes, die bei der Analyse zu beachten sind: Ein Teil der erwähnten Entitäten sind 
-                    <hi>intra</hi>textuelle Referenzen, d.h. Figuren aus dem jeweiligen Text selbst (Veldhues, 1995). Auch wenn diese keine 
-                    <hi>inter</hi>textuellen Assoziationen und damit nur sekundäres Extraktionsziel sind, behandeln wir sie als gleichwertige Assoziationen
-                    <note>
+                    <hi rend="italic">intra</hi>textuelle Referenzen, d.h. Figuren aus dem jeweiligen Text selbst (Veldhues, 1995). Auch wenn diese keine 
+                    <hi rend="italic">inter</hi>textuellen Assoziationen und damit nur sekundäres Extraktionsziel sind, behandeln wir sie als gleichwertige Assoziationen
+                    <note place="foot" xml:id="ftn2" n="2">
                         <p>Das Filtern von innertextuellen Figuren ist technisch möglich (Beck, 2017), aber zeitaufwändig und für die hier vorgestellte Nutzung als Explorationswerkzeug letztlich unnötig.</p>
                     </note>. 
                 </p>
                 <p>Figuren, die in mehr als einem Werk auftauchen (z.B. 
-                    <hi>Sherlock Holmes</hi> oder 
-                    <hi>Harry Potter</hi>) bilden eine hoch gewichtete Verbindung zwischen den Texten einer literarischen Reihe, wobei Reihen durch die von ihnen geteilte fiktionale Welt markiert sind. Als gemeinsamer Assoziationsraum sind sie aufgrund der hohen Gewichtung auch angemessen im Netzwerk repräsentiert.
+                    <hi rend="italic">Sherlock Holmes</hi> oder 
+                    <hi rend="italic">Harry Potter</hi>) bilden eine hoch gewichtete Verbindung zwischen den Texten einer literarischen Reihe, wobei Reihen durch die von ihnen geteilte fiktionale Welt markiert sind. Als gemeinsamer Assoziationsraum sind sie aufgrund der hohen Gewichtung auch angemessen im Netzwerk repräsentiert.
                 </p>
                 <p>Durch die gemeinsame Darstellung der Werke und assoziierten Entitäten ergeben sich -- bei Auswahl eines geeigneten Layout-Algorithmus z.B. in Gephi
-                    <note>
+                    <note place="foot" xml:id="ftn3" n="3">
                         <p>https://gephi.org</p>
                     </note> -- eng zusammenhängende Gruppen von Werken. Das hier exemplarisch angeführte Resultat eines engen Zusammenhangs repräsentiert jedoch nicht bestimmte Texteigenschaften selbst, sondern lediglich von Leserinnen und Lesern gemeinsam gemachte Zuschreibungen an diese Texte.
                 </p>
                 <p>Das hier beschriebene Netzwerk wird im Zuge der Konferenz frei zugänglich gemacht.</p>
                 <p>
-                    <graphic/>
-                    <hi>Abbildung 1</hi>: Assoziationen zu Conan Doyles 
-                    <hi>The Hound of the Baskervilles</hi>, extrahiert aus den Reviews von Benutzern. Die Abbildung zeigt zur Illustration sämtliche assoziierte Entitäten, unabhängig von der Häufigkeit.
+                    <graphic n="1001"
+                        width="15.927916666666667cm"
+                        height="10.900833333333333cm"
+                        rend="inline"
+                        url="../images/BECK_Jens_Was_Lesende_denken__Assoziationen_zu_B_chern_in_So.xml-image1.png"/>
+                    <hi rend="bold">Abbildung 1</hi>: Assoziationen zu Conan Doyles 
+                    <hi rend="italic">The Hound of the Baskervilles</hi>, extrahiert aus den Reviews von Benutzern. Die Abbildung zeigt zur Illustration sämtliche assoziierte Entitäten, unabhängig von der Häufigkeit.
                 </p>
             </div>
-            <div>
+            <div type="div1" rend="DH-Heading1">
                 <head>Nächste Schritte</head>
                 <p>Durch den Zugriff auf bisher undenkbar große Rezeptionsdatenmengen erhält die empirische Leseforschung einen sie fundamental erweiternden Impetus, war sie methodisch betrachtet bisher überwiegend auf Fragebögen
-                    <note>
+                    <note place="foot" xml:id="ftn4" n="4">
                         <p>Groeben 1979; Baurmann 1981; Funke 2003; Christmann u. Schreier 2003; Wübben 2009 u.v.m.</p>
                     </note> und peripheriephysiologische Messungen angewiesen, jüngst gestützt durch bildgebende Verfahren. Computerlinguistische Methoden der Sprach- und Korpusverarbeitung versprechen nicht nur die Analyse unlesbarer Mengen an Rezeptionszeugnissen, sondern auch eine Modellierung leserattribuierter Kontexte literarischer Texte und somit einen ersten Einblick in die bisher unbeantwortete Frage, mit welchem Vorwissen echte Leser eigentlich lesen.
                 </p>
                 <p>In diesem Sinne präsentiert das eingereichte Paper erste, jedoch bereits substanzielle Ergebnisse. </p>
                 <p>Die nächsten Schritte leiten sich direkt aus der oben diskutierten Fehleranalyse ab. Zum einen soll die Wissensbasis um fiktionale Figuren aus den Werken erweitert werden (was z.B. über 
-                    <hi>named entity recognition</hi> über den Volltexten machbar wäre). Zum anderen soll der Algorithmus in die Lage versetzt werden bestimmte (fehlerhafte) Zuweisungen zurückzuweisen, etwa mit einem zu definierenden 
-                    <hi>threshold</hi>.
+                    <hi rend="italic">named entity recognition</hi> über den Volltexten machbar wäre). Zum anderen soll der Algorithmus in die Lage versetzt werden bestimmte (fehlerhafte) Zuweisungen zurückzuweisen, etwa mit einem zu definierenden 
+                    <hi rend="italic">threshold</hi>.
                 </p>
             </div>
         </body>
         <back>
-            <div>
+            <div type="bibliogr">
                 <listBibl>
                     <head>Bibliographie</head>
                     <bibl>
-                        <hi>Agirre, Eneko / Soroa, Aitor</hi> (2009): “Personalizing PageRank for Word Sense Disambiguation”, in: Proceedings of the 12th conference of the European chapter of the Association for Computational Linguistics (EACL-2009). Athens, Greece.
+                        <hi rend="bold">Agirre, Eneko / Soroa, Aitor</hi> (2009): “Personalizing PageRank for Word Sense Disambiguation”, in: Proceedings of the 12th conference of the European chapter of the Association for Computational Linguistics (EACL-2009). Athens, Greece.
                     </bibl>
                     <bibl>
-                        <hi>Agirre, Eneko / Barrena, Ander / Soroa, Aitor</hi> (2015): Studying the Wikipedia Hyperlink Graph for Relatedness and Disambiguation. http://arxiv.org/abs/1503.01655
+                        <hi rend="bold">Agirre, Eneko / Barrena, Ander / Soroa, Aitor</hi> (2015): Studying the Wikipedia Hyperlink Graph for Relatedness and Disambiguation. http://arxiv.org/abs/1503.01655
                     </bibl>
                     <bibl>
-                        <hi>Beck, Jens</hi> (2017): How do People Read Literature? - Detection and Identification of Names in Book Reviews. Bachelor’s thesis, Institut für Maschinelle Sprachverarbeitung, Universität Stuttgart.
+                        <hi rend="bold">Beck, Jens</hi> (2017): How do People Read Literature? - Detection and Identification of Names in Book Reviews. Bachelor’s thesis, Institut für Maschinelle Sprachverarbeitung, Universität Stuttgart.
                     </bibl>
                     <bibl>
-                        <hi>Baurmann, Jürgen</hi> (1981). „Textrezeption empirisch. Wege zu einem ziel, behelfsbrücken oder holzwege?". Rezeptionspragmatik. Beiträge zur Praxis des Lesens. Uni-Taschenbücher. Band 1026. Hrsg. v. Gerhard Köpf, 201–218. München.
+                        <hi rend="bold">Baurmann, Jürgen</hi> (1981). „Textrezeption empirisch. Wege zu einem ziel, behelfsbrücken oder holzwege?". Rezeptionspragmatik. Beiträge zur Praxis des Lesens. Uni-Taschenbücher. Band 1026. Hrsg. v. Gerhard Köpf, 201–218. München.
                     </bibl>
                     <bibl>
-                        <hi>Christmann, Ursula / Margrit Schreier</hi> (2003). „Kognitionspsychologie der Textverarbeitung und Konsequenzen für die Bedeutungskonstitution literarischer Texte". Regeln der Bedeutung. Zur Theorie der Bedeutung literarischer Texte. Revisionen. Hrsg. v. Fotis Jannidis, Gerhard Lauer, Matías Martínez &amp; Simone Winko, 246–284. Berlin.
+                        <hi rend="bold">Christmann, Ursula / Margrit Schreier</hi> (2003). „Kognitionspsychologie der Textverarbeitung und Konsequenzen für die Bedeutungskonstitution literarischer Texte". Regeln der Bedeutung. Zur Theorie der Bedeutung literarischer Texte. Revisionen. Hrsg. v. Fotis Jannidis, Gerhard Lauer, Matías Martínez &amp; Simone Winko, 246–284. Berlin.
                     </bibl>
                     <bibl>
-                        <hi>Dijkstra, Katinka</hi> (1994): Leseentscheidung und Lektürewahl. Empirische Untersuchungen über Einflussfaktoren auf das Leseverhalten. Berlin.
+                        <hi rend="bold">Dijkstra, Katinka</hi> (1994): Leseentscheidung und Lektürewahl. Empirische Untersuchungen über Einflussfaktoren auf das Leseverhalten. Berlin.
                     </bibl>
                     <bibl>
-                        <hi>Dimitrov, Stefan / Zamal, Faiyaz / Piper, Andrew / Ruths, Derek</hi> (2015): “Goodreads vs Amazon: The Effect Of Decoupling Book Reviewing And Book Selling", in: International Conference on Web and Social Media (ICWSM-14).
+                        <hi rend="bold">Dimitrov, Stefan / Zamal, Faiyaz / Piper, Andrew / Ruths, Derek</hi> (2015): “Goodreads vs Amazon: The Effect Of Decoupling Book Reviewing And Book Selling", in: International Conference on Web and Social Media (ICWSM-14).
                     </bibl>
                     <bibl>
-                        <hi>Eco, Umberto</hi> (1979): The Role of the Reader. Explorations in the Semiotics of Texts. Bloomington, IN.
+                        <hi rend="bold">Eco, Umberto</hi> (1979): The Role of the Reader. Explorations in the Semiotics of Texts. Bloomington, IN.
                     </bibl>
                     <bibl>
-                        <hi>Finkel, Jenny Rose / Grenager, Trond / Manning, Christopher</hi> (2005): “Incorporating Non-local Information into Information Extraction Systems by Gibbs Sampling”, in: 
-                        <hi>Proceedings of the 43nd Annual Meeting of the Association for Computational Linguistics (ACL 2005),</hi> pp. 363-370.
+                        <hi rend="bold">Finkel, Jenny Rose / Grenager, Trond / Manning, Christopher</hi> (2005): “Incorporating Non-local Information into Information Extraction Systems by Gibbs Sampling”, in: 
+                        <hi rend="italic">Proceedings of the 43nd Annual Meeting of the Association for Computational Linguistics (ACL 2005),</hi> pp. 363-370.
                     </bibl>
                     <bibl>
-                        <hi>Fish, Stanley E.</hi> (1970): „Literature in the Reader: Affective Stylistics“, in: 
-                        <hi>New Literary History</hi> 1(2): 123–162.
+                        <hi rend="bold">Fish, Stanley E.</hi> (1970): „Literature in the Reader: Affective Stylistics“, in: 
+                        <hi rend="italic">New Literary History</hi> 1(2): 123–162.
                     </bibl>
                     <bibl>
-                        <hi>Funke, Mandy</hi> (2003). „Das Abenteuer der Fragebögen. Aspekte zur empirischen Wirkungsforschung in der DDR". Wissenschaft und Systemveränderung. Rezeptionsforschung in Ost und West – Eine konvergente Entwicklung? Euphorion. Band 44. Hrsg. v. Wolfgang Adam, Holger Dainat &amp; Gunther Schandera, 119–126. Heidelberg.
+                        <hi rend="bold">Funke, Mandy</hi> (2003). „Das Abenteuer der Fragebögen. Aspekte zur empirischen Wirkungsforschung in der DDR". Wissenschaft und Systemveränderung. Rezeptionsforschung in Ost und West – Eine konvergente Entwicklung? Euphorion. Band 44. Hrsg. v. Wolfgang Adam, Holger Dainat &amp; Gunther Schandera, 119–126. Heidelberg.
                     </bibl>
                     <bibl>
-                        <hi>Groeben, Norbert</hi> (1979). „Zur Relevanz empirischer Konkretisationserhebungen für die Literaturwissenschaft". Empirie in Literatur- und Kunstwissenschaft. Grundfragen der Literaturwissenschaft. Hrsg. v. Siegfried J. Schmidt, 43–82. München.
+                        <hi rend="bold">Groeben, Norbert</hi> (1979). „Zur Relevanz empirischer Konkretisationserhebungen für die Literaturwissenschaft". Empirie in Literatur- und Kunstwissenschaft. Grundfragen der Literaturwissenschaft. Hrsg. v. Siegfried J. Schmidt, 43–82. München.
                     </bibl>
                     <bibl>
-                        <hi>Iser, Wolfgang</hi> (1976). Der Akt des Lesens. Theorie ästhetischer Wirkung. Band 636. München.
+                        <hi rend="bold">Iser, Wolfgang</hi> (1976). Der Akt des Lesens. Theorie ästhetischer Wirkung. Band 636. München.
                     </bibl>
                     <bibl>
-                        <hi>Page, Lawrence / Brin, Sergey / Motwani, Rajeev / Winograd, Terry</hi> (1999): “The PageRank Citation Ranking: Bringing Order to the Web”
-                        <hi>,</hi> technical Report. Stanford InfoLab.
+                        <hi rend="bold">Page, Lawrence / Brin, Sergey / Motwani, Rajeev / Winograd, Terry</hi> (1999): “The PageRank Citation Ranking: Bringing Order to the Web”
+                        <hi rend="italic">,</hi> technical Report. Stanford InfoLab.
                     </bibl>
                     <bibl>
-                        <hi>Schleiermacher, Friedrich</hi> (1838): Hermeneutik und Kritik mit besonderer Beziehung auf das Neue Testament. Aus Schleiermachers handschriftlichem Nachlasse und nachgeschriebenen Vorlesungen herausgegeben von Friedrich Lücke. In: Friedrich Schleiermacher’s sämmtliche Werke. Berlin: Reimer.
+                        <hi rend="bold">Schleiermacher, Friedrich</hi> (1838): Hermeneutik und Kritik mit besonderer Beziehung auf das Neue Testament. Aus Schleiermachers handschriftlichem Nachlasse und nachgeschriebenen Vorlesungen herausgegeben von Friedrich Lücke. In: Friedrich Schleiermacher’s sämmtliche Werke. Berlin: Reimer.
                     </bibl>
                     <bibl>
-                        <hi>Schmid, Wolf</hi> (2005): Elemente der Narratologie. Narratologia. Band 8. Berlin.
+                        <hi rend="bold">Schmid, Wolf</hi> (2005): Elemente der Narratologie. Narratologia. Band 8. Berlin.
                     </bibl>
                     <bibl>
-                        <hi>Veldhues, Christoph</hi> (1995): "Gleich- und Gegenüberstellung".Intratextuelle und intertextuelle Bedeutung in der Literatur. Zeitschrift für französische Sprache und Literatur 40/3 (1995), 243-267.
+                        <hi rend="bold">Veldhues, Christoph</hi> (1995): "Gleich- und Gegenüberstellung".Intratextuelle und intertextuelle Bedeutung in der Literatur. Zeitschrift für französische Sprache und Literatur 40/3 (1995), 243-267.
                     </bibl>
                     <bibl>
-                        <hi>Willand, Marcus</hi> (2014): Lesermodelle und Lesertheorien. Historische und systematische Perspektiven. Narratologia. Band 41. Berlin.
+                        <hi rend="bold">Willand, Marcus</hi> (2014): Lesermodelle und Lesertheorien. Historische und systematische Perspektiven. Narratologia. Band 41. Berlin.
                     </bibl>
                     <bibl>
-                        <hi>Wübben, Yvonne</hi> (2009). „Lesen als Mentalisieren? Neuere kognitionswissenschaftliche Ansätze in der Leseforschung". Literatur und Kognition. Bestandsaufnahmen und Perspektiven eines Arbeitsfeldes. Poetogenesis. Band 6. Hrsg. v. Martin Huber &amp; Simone Winko, 29–44. Paderborn.
+                        <hi rend="bold">Wübben, Yvonne</hi> (2009). „Lesen als Mentalisieren? Neuere kognitionswissenschaftliche Ansätze in der Leseforschung". Literatur und Kognition. Bestandsaufnahmen und Perspektiven eines Arbeitsfeldes. Poetogenesis. Band 6. Hrsg. v. Martin Huber &amp; Simone Winko, 29–44. Paderborn.
                     </bibl>
                 </listBibl>
             </div>

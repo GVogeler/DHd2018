@@ -65,25 +65,25 @@
         </fileDesc>
         <encodingDesc>
             <appInfo>
-                <application>
+                <application ident="DHCONVALIDATOR" version="1.17">
                     <label>DHConvalidator</label>
                 </application>
             </appInfo>
         </encodingDesc>
         <profileDesc>
             <textClass>
-                <keywords>
+                <keywords scheme="ConfTool" n="category">
                     <term>Paper</term>
                 </keywords>
-                <keywords>
+                <keywords scheme="ConfTool" n="subcategory">
                     <term>Poster</term>
                 </keywords>
-                <keywords>
+                <keywords scheme="ConfTool" n="keywords">
                     <term>Literatur</term>
                     <term>Netzwerkanalyse</term>
                     <term>Gamification</term>
                 </keywords>
-                <keywords>
+                <keywords scheme="ConfTool" n="topics">
                     <term>Modellierung</term>
                     <term>Kommunikation</term>
                     <term>Netzwerkanalyse</term>
@@ -101,10 +101,10 @@
             <p>Dabei wird das Posterformat in zweierlei Hinsicht bespielt: Das Poster ist einerseits eine Datenvisualisierung auf Grundlage eines selbst gepflegten größeren Dramenkorpus. Andererseits ist es ein in 32 Teile zerlegbares Dramenquartett, das spielerisch mit den Bedeutungshorizonten verschiedener netzwerktheoretischer Größen bekannt macht und ein Bewusstsein für komparatistische Möglichkeiten trainiert. Dieser Ansatz ist in den Geisteswissenschaften nicht neu, verwiesen sei etwa auf das architekturgeschichtliche Quartettspiel »Plattenbauten. Berliner Betonerzeugnisse« (Mangold u. a. 2001), in dem technische Daten verschiedener Plattenbautypen gegenübergestellt werden (vgl. auch Richter 2006).</p>
             <p>Die Didaxe des Dramenquartetts bezieht sich auf mehrere Dimensionen: eine literaturgeschichtliche, eine quantitative, eine netzwerktheoretische. Die 32 Stücke bilden einen Minimalkanon, der von der Zeit der Gottschedischen Theaterreformen bis in die Moderne reicht. Statt der lexikonartigen Beschreibung eines solchen Kanons (wie etwa im »Dramenlexikon des 18. Jahrhunderts«, Hollmer/Meier 2001), besteht das Beschreibungsinstrument hier in visuellen und quantitativen Werten, die Vergleichbarkeit herstellen – erst dieser Umstand vereint die verschiedenen Karten zu einem kompetitiven Spiel.</p>
             <p>Als visueller Catch der Quartettkarten dient eine Visualisierung des jeweiligen extrahierten sozialen Netzwerks (vgl. Fischer u. a. 2016). Die weiteren Informationen auf den Karten setzen sich aus (Kanonwissen präsentierenden) Metadaten (Autor*in – Titel – Untertitel – Genre – Jahr) und vor allem aus statischen und dynamischen Netzwerkdaten zusammen (Anzahl von Subgraphen – Netzwerkgröße – Netzwerkdichte – Clustering-Koeffizient – Durchschnittliche Pfadlänge – Höchster Degreewert und Name der entsprechenden Figur –), wie sie im Rahmen des dlina-Projekts berechnet wurden.
-                <note>
-                    <p> Vgl. das Blog 
-                        <ref>https://dlina.github.io/</ref> und das Github-Repo 
-                        <ref>https://github.com/dlina</ref>.
+                <note place="foot" xml:id="ftn1" n="1">
+                    <p rend="footnote text"> Vgl. das Blog 
+                        <ref target="https://dlina.github.io/">https://dlina.github.io/</ref> und das Github-Repo 
+                        <ref target="https://github.com/dlina">https://github.com/dlina</ref>.
                     </p>
                 </note> Das Deckblatt enthält eine Einführung zum Projekt und seinen Hintergründen sowie Kurzdefinitionen der auf den einzelnen Karten enthaltenen netzwerktheoretischen Maßzahlen, die damit nicht nur spielerisch erkundet, sondern auch konzeptuell verstanden werden können. 
             </p>
@@ -112,34 +112,34 @@
             <p>Auf der Konferenz werden wir neben einem Poster, das das didaktisch-interventionistische Konzept veranschaulicht, auch diverse Quartett-Sets präsentieren. </p>
         </body>
         <back>
-            <div>
+            <div type="bibliogr">
                 <listBibl>
                     <head>Bibliographie</head>
                     <bibl>
-                        <hi>Fischer, Frank / Göbel, Mathias / Kampkaspar, Dario / Kittel, Christopher / Trilcke, Peer </hi>(2016): “Distant-Reading Showcase. 200 Years of Literary Network Data at a Glance”, DHd2016, Leipzig. DOI: &lt;
-                        <ref>
-                            <hi>https://dx.doi.org/10.6084/m9.figshare.3101203.v1</hi>
+                        <hi rend="bold">Fischer, Frank / Göbel, Mathias / Kampkaspar, Dario / Kittel, Christopher / Trilcke, Peer </hi>(2016): “Distant-Reading Showcase. 200 Years of Literary Network Data at a Glance”, DHd2016, Leipzig. DOI: &lt;
+                        <ref target="https://dx.doi.org/10.6084/m9.figshare.3101203.v1">
+                            <hi rend="color(1155CC)">https://dx.doi.org/10.6084/m9.figshare.3101203.v1</hi>
                         </ref>&gt;.
                     </bibl>
                     <bibl>
-                        <hi>Göbel, Matthias / Meiners, Hanna-Lena</hi>: Play(s): Crowdbasierte Anreicherung eines literarischen Volltext-Korpus”. DHd2016, Leipzig.
+                        <hi rend="bold">Göbel, Matthias / Meiners, Hanna-Lena</hi>: Play(s): Crowdbasierte Anreicherung eines literarischen Volltext-Korpus”. DHd2016, Leipzig.
                     </bibl>
                     <bibl>
-                        <hi>Hollmer, Holmer / Meier, Albert</hi> (eds.) (2011): Dramenlexikon des 18. Jahrhunderts. München: C.H. Beck.
+                        <hi rend="bold">Hollmer, Holmer / Meier, Albert</hi> (eds.) (2011): Dramenlexikon des 18. Jahrhunderts. München: C.H. Beck.
                     </bibl>
                     <bibl>
-                        <hi>Kittel Christopher / Fischer, Frank</hi>: “dramavis v0.4” (September 2017). Repo: &lt;
-                        <ref>
-                            <hi>https://github.com/lehkost/dramavis</hi>
+                        <hi rend="bold">Kittel Christopher / Fischer, Frank</hi>: “dramavis v0.4” (September 2017). Repo: &lt;
+                        <ref target="https://github.com/lehkost/dramavis">
+                            <hi rend="color(1155CC)">https://github.com/lehkost/dramavis</hi>
                         </ref>&gt;.
                     </bibl>
                     <bibl>
-                        <hi>Mangold, Cornelius u.a.</hi> (2001): 
-                        <hi>Plattenbauten. Berliner Betonerzeugnisse. Ein Quartettspiel</hi>. Berlin
+                        <hi rend="bold">Mangold, Cornelius u.a.</hi> (2001): 
+                        <hi rend="italic">Plattenbauten. Berliner Betonerzeugnisse. Ein Quartettspiel</hi>. Berlin
                     </bibl>
                     <bibl>
-                        <hi>Richter, Peter </hi>(2006): 
-                        <hi>Der Plattenbau als Krisengebiet. Die architektonische und politische Transformation industriell errichteter Wohngebäude aus der DDR am Beispiel der Stadt Leinefelde</hi>. Hamburg: Univ., Diss.
+                        <hi rend="bold">Richter, Peter </hi>(2006): 
+                        <hi rend="italic">Der Plattenbau als Krisengebiet. Die architektonische und politische Transformation industriell errichteter Wohngebäude aus der DDR am Beispiel der Stadt Leinefelde</hi>. Hamburg: Univ., Diss.
                     </bibl>
                 </listBibl>
             </div>

@@ -41,25 +41,25 @@
         </fileDesc>
         <encodingDesc>
             <appInfo>
-                <application>
+                <application ident="DHCONVALIDATOR" version="1.17">
                     <label>DHConvalidator</label>
                 </application>
             </appInfo>
         </encodingDesc>
         <profileDesc>
             <textClass>
-                <keywords>
+                <keywords scheme="ConfTool" n="category">
                     <term>Paper</term>
                 </keywords>
-                <keywords>
+                <keywords scheme="ConfTool" n="subcategory">
                     <term>Vortrag</term>
                 </keywords>
-                <keywords>
+                <keywords scheme="ConfTool" n="keywords">
                     <term>Sentimentanalyse</term>
                     <term>unstrukturierte Texte</term>
                     <term>literaturgeschichtliche Rezeptionsanalyse</term>
                 </keywords>
-                <keywords>
+                <keywords scheme="ConfTool" n="topics">
                     <term>Inhaltsanalyse</term>
                     <term>Methoden</term>
                     <term>Forschungsprozess</term>
@@ -71,69 +71,73 @@
     <text>
         <body>
             <p>
-                <hi>Ausgangspunkt</hi>
+                <hi rend="bold underline">Ausgangspunkt</hi>
             </p>
             <p>Die fortschreitende Retrodigitalisierung von Kulturzeitschriften und anderen Publikationsformen mit literaturkritischen Inhalten eröffnet der literaturgeschichtlichen Rezeptionsanalyse die Möglichkeit, mit historisch repräsentativen Korpora zu arbeiten. Dabei stellt sich jedoch das Problem, dass insbesondere Zeitschriftendigitalisate in der Regel nicht als edierte Texte von standardisierter Qualität vorliegen, sondern mit ‘schmutzigen Texten’, also Texten mit fehlerhafter OCR und ohne linguistische Strukturierung gearbeitet werden muss. Wir wollen im Rahmen des Themas “Kritik der digitalen Vernunft” einen konstruktiven Umgang mit diesem Problem vorstellen. Wir unterscheiden dazu grundsätzlich zwei Zielperspektiven:</p>
-            <list>
+            <list type="ordered">
                 <item>Korpusanalyse als Untersuchung mit validen Ergebnissen und</item>
                 <item>Korpusanalyse als Heuristik zur vorläufigen Trenddarstellung.</item>
             </list>
             <p>Die erste Perspektive ist auf qualitativ hochwertige Textkorpora angewiesen, um statistisch aussagekräftige Ergebnisse zu erzielen. Sie ist die Standardperspektive, wenn Korpusanalysen als Forschungsinstrument eingesetzt werden. Wir nehmen hingegen die zweite Perspektive ein: In ihr werden qualitativ minderwertige Textkorpora nicht als bedauerliche Abweichung vom eigentlich Gewünschten aufgefasst, sondern als Forschungsgegenstand eigener Art, der auch eine Methodik eigener Art erfordert. Diese Methodik hebt auf vorläufige Trenddarstellungen ab, die nicht als (noch unvollkommene) Vorstufe einer validen Korpusanalyse, sondern als eigenständige Heuristik zur Identifikation potentieller Ereignisse in einem diachronen Korpus aufgefasst werden. Die Methode soll sozusagen grobe Bewegungsprofile liefern, von denen aus anschließend wieder gezielte hermeneutische Tiefensondierungen unternommen werden können. Digitale und hermeneutische ‘Vernunft’ stehen hier also in einem komplementären Verhältnis; nicht versucht wird, die eine durch die andere möglichst perfekt nachzubilden.</p>
             <p>
-                <hi>Beispielprojekt: Sentimentanalyse in historischer Literaturkritik</hi>
+                <hi rend="bold underline">Beispielprojekt: Sentimentanalyse in historischer Literaturkritik</hi>
             </p>
             <p>Bei den angezielten Bewegungsprofilen handelt es sich im Rahmen unseres Forschungsprojekts
-                <note>
-                    <p> “Historische Rezeptionsanalyse” (gefördert von der Volkswagenstiftung), Teilprojekt “SentiLitKrit” (Göttingen, 2015-2018).</p>
+                <note place="foot" xml:id="ftn1" n="1">
+                    <p rend="footnote text"> “Historische Rezeptionsanalyse” (gefördert von der Volkswagenstiftung), Teilprojekt “SentiLitKrit” (Göttingen, 2015-2018).</p>
                 </note> um Zäsuren in der Bewertung literarischer Autoren. Wir untersuchen in einem Pilotprojekt die Rezeption von Literatur in literaturkritischen Zeitschriften des ausgehenden 19. Jahrhunderts mittels einer Sentimentanalyse der Textumgebung von Autorerwähnungen. An einem Testkorpus optimieren wir durch den Vergleich automatisierter mit manuellen Analysen eine an das historische Genre ‘Literaturkritik um 1900’ angepasste Sentimentwortliste.
             </p>
             <p>
-                <hi>1. Literaturwissenschaftliche Fragestellung</hi>
+                <hi rend="bold">1. Literaturwissenschaftliche Fragestellung</hi>
             </p>
             <p>Historische Rezeptionsanalyse (Mellmann/Willand 2013) rekonstruiert die Aufnahme literarischer Werke durch das originale zeitgenössische Publikum. Dazu zählen insbesondere (a) Inhaltsverständnis, (b) ästhetische Wertung und (c) Kontextualisierung mit außerliterarischen zeitgenössischen Wissensformationen. Wir befassen uns in unserer Studie ausschließlich mit der ästhetischen Wertung (b).</p>
             <p>Diese ist symptomatisch für einen umfassenden literaturgeschichtlichen Wandel in der zweiten Hälfte des 19. Jahrhunderts: Auf dem Übergang vom Bürgerlichen Realismus zur Klassischen Moderne verlieren ehemals reputierte Autoren noch während ihrer aktien Schaffenszeit ihren führenden Status; neue Stile aus dem Bereich des gesamteuropäischen Naturalismus und Ästhetizismus gewinnen an Reputation. Für einzelne Autoren und insbesondere für poetologische Programmatiken wurde dies bereits vielfach gezeigt. Was noch aussteht, ist eine Einschätzung, wie repräsentativ die in Einzelstudien ermittelten Entwicklungen für die Gesamtentwicklung sind, insbesondere unter Einschluss auch der wenig erforschten nichtkanonischen Literatur. Abhilfe schaffen könnte hier die Analyse eines großen Korpus repräsentativer Literaturzeitschriften, die diachrone Wertungsprofile zu symptomatischen Autorengruppen liefert.</p>
             <p>
-                <hi>2. Korpusbildung</hi>
+                <hi rend="bold">2. Korpusbildung</hi>
             </p>
             <p>Langfristiges Ziel ist eine Analyse von sieben repräsentativen Zeitschriften über einen Erscheinungszeitraum von ca. 1860 bis 1900: “Die Grenzboten”, “Die Gegenwart”, “Deutsche Rundschau”, “Nord und Süd”, “Blätter für literarische Unterhaltung”, “Westermanns Monatshefte” und “Magazin für Literatur”. Als Volltext verfügbar ist derzeit nur die Zeitschrift “Die Grenzboten”. Sie dient uns als erster Anwendungsfall nach den überwachten Optimierungsläufen an einem auf der Basis einer Anthologie (Kreuzer 2006, Bd. I und II) erstellten Testkorpus.</p>
             <p>Literaturkritisches Schrifttum im ausgehenden 19. Jahrhundert ist ein außergewöhnlich stark rhetorisiertes Textgenre, das durch einen hohen Grad an Ironie, Intertextualität, Euphemismus und Understatement besondere Herausforderungen an die Methode der digitalen Sentimentanalyse stellt, zumal in unstrukturierten Texten, die keine Berücksichtigung von grammatischen Komplexitäten (wie z.B. doppelter Verneinung, Konjunktiven, indirekter Rede) zulassen. Die Optimierung der Sentimentwortliste ist deshalb weniger auf eine Verfeinerung als auf eine Vergröberung hin ausgelegt. Die Korpusanalyse soll vor allem eklatante Veränderungen identifizieren.</p>
             <p>
-                <hi>3. Erste Testläufe digitaler Analysen</hi>
+                <hi rend="bold">3. Erste Testläufe digitaler Analysen</hi>
             </p>
             <p>Der Volltext des Testkorpus wurde durch NLTK Punkt Sentence Tokenizer
-                <note>
-                    <p> http://www.nltk.org/api/nltk.tokenize.html#module-nltk.tokenize.punkt</p>
+                <note place="foot" xml:id="ftn2" n="2">
+                    <p rend="footnote text"> http://www.nltk.org/api/nltk.tokenize.html#module-nltk.tokenize.punkt</p>
                 </note> tokenisiert. Mittels des Namensregisters der Anthologie wurden anschließend alle Sätze mit Erwähnung eines Autornamens extrahiert. Jeder Satz wurde in einem manuellen Rating als positiv, neutral oder negativ annotiert. Das Testkorpus umfasst 1731 1-Satz-Textsnippets. Nach der manuellen Annotation sind 505 davon positiv, 909 neutral und 317 negativ. Ausgangsbasis unserer Sentimentwortliste war die deutschsprachige Ressource “SentimentWortschatz” (Remus et al. 2010), die manuell um den im Rating auffällig gewordenen Wortschatz erweitert und um offenkundig unbrauchbare oder überflüssige Wörter gekürzt wurde. Danach erfolgte ein erster Testlauf: 
             </p>
             <p>Der Grundwert jedes Sentimentworts wurde mit 1 angesetzt. Die Polarität eines Satzes wurde in zwei Schritten festgelegt: Zuerst wurde das Vorkommen der positiven und negativen Sentimentwörter im Satz gezählt. Anschließend wurde die „Aggregation function“ (Abb. 1) für die Berechnung des Sentiment-Werts des Satzes verwendet: „
-                <hi>se</hi>
-                <hi>j</hi> is a sentiment expression in sentence 
-                <hi>s</hi>, 
-                <hi>dist(se</hi>
-                <hi>j</hi>
-                <hi>, a</hi>
-                <hi>i</hi>
-                <hi>)</hi> is the word distance between aspect 
-                <hi>a</hi>
-                <hi>i</hi> and sentiment expression 
-                <hi>se</hi>
-                <hi>j</hi> in 
-                <hi>s</hi>, and 
-                <hi>se</hi>
-                <hi>j</hi>
-                <hi>.ss</hi> is the sentiment score of 
-                <hi>se</hi>
-                <hi>j</hi>“ (Liu 2015). 
+                <hi rend="italic">se</hi>
+                <hi rend="italic subscript">j</hi> is a sentiment expression in sentence 
+                <hi rend="italic">s</hi>, 
+                <hi rend="italic">dist(se</hi>
+                <hi rend="italic subscript">j</hi>
+                <hi rend="italic">, a</hi>
+                <hi rend="italic subscript">i</hi>
+                <hi rend="italic">)</hi> is the word distance between aspect 
+                <hi rend="italic">a</hi>
+                <hi rend="italic subscript">i</hi> and sentiment expression 
+                <hi rend="italic">se</hi>
+                <hi rend="italic subscript">j</hi> in 
+                <hi rend="italic">s</hi>, and 
+                <hi rend="italic">se</hi>
+                <hi rend="italic subscript">j</hi>
+                <hi rend="italic">.ss</hi> is the sentiment score of 
+                <hi rend="italic">se</hi>
+                <hi rend="italic subscript">j</hi>“ (Liu 2015). 
             </p>
             <figure>
-                <graphic/>
+                <graphic n="1001"
+                     width="10.662708333333333cm"
+                     height="3.8986111111111112cm"
+                     rend="inline"
+                     url="../images/DU_Keli_Sentimentanalyse_in_unstrukturierten_Texten__am_Bsp_.xml-image1.jpg"/>
             </figure>
             <p>
-                <hi>Abb. 1: Aggregation function</hi>
+                <hi rend="italic">Abb. 1: Aggregation function</hi>
             </p>
             <p>Ist der Sentiment-Wert größer als 0, gilt der Satz als positiv; kleiner als 0 gilt als negativ; ist der Wert gleich 0 (z.B., weil kein Sentimentwort im Satz auftaucht), gilt der Satz als neutral. Die im Satz ermittelten Sentimentwörter wurden in die Ergebnisdarstellung übernommen, um die digitale Analyse anschließend manuell überprüfen und die Sentimentwortliste optimieren zu können. Wörter, die sich als überwiegend dysfunktional erweisen, werden von der Sentimentwortliste gelöscht, fehlende Sentimentwörter werden ergänzt.</p>
             <p>Im ersten Testlauf wurden nur ca. 47.4% der Sätze richtig erkannt (Tab. 1). Unsere Wortliste konnte vor allem die negativen Sätze schwer identifizieren. Ca. 77% der positiven Sätze wurden richtig identifiziert. Aber auch der Anteil der fälschlich als positiv klassifizierten Sätze war sehr hoch. Außerdem war der Sentiment-Wert von vielen als neutral eingestuften Sätzen nicht gleich 0.</p>
-            <table>
+            <table rend="rules">
                 <row>
                     <cell>Dimension</cell>
                     <cell>richtig identifizierte Sätze</cell>
@@ -168,18 +172,18 @@
                 </row>
             </table>
             <p>
-                <hi>Tab. 1: Ergebnis des ersten Testlaufs</hi>
+                <hi rend="italic">Tab. 1: Ergebnis des ersten Testlaufs</hi>
             </p>
             <p>In einem zweiten Testlauf haben wir eine automatische Klassifikation ausprobiert. Dabei wurden die Anzahl der Sentimentwörter und der Sentiment-Wert eines Satzes als Feature verwendet. Im Verhältnis 80% zu 20% wurden die Daten in einen Trainings- und einen Testdatensatz aufgespalten. Es wurde ein Support Vector Machine (SVM) Modell trainiert; die Evaluation erfolgte als 10-fache Kreuzvalidierung (Cross-Validation). Dadurch verbesserte sich das Ergebnis um ca. 10%: Die Trefferquote der Klassifikation lag bei 57% (+/- 7%).
-                <note>
-                    <p> Es wurden zusätzlich Lineare SVM und Gaussian Naive Bayes ausprobiert. Die Trefferquote lag bei 0.56 (+/- 0.05) bzw. 0.56 (+/- 0.07).</p>
+                <note place="foot" xml:id="ftn3" n="3">
+                    <p rend="footnote text"> Es wurden zusätzlich Lineare SVM und Gaussian Naive Bayes ausprobiert. Die Trefferquote lag bei 0.56 (+/- 0.05) bzw. 0.56 (+/- 0.07).</p>
                 </note> Wenn man eine Klassifikation nur zwischen positiven und negativen Sätzen durchführt, beträgt die Trefferquote 68% (+/- 10%).
-                <note>
-                    <p> Es wurden zusätzlich Logistic Regression, Lineare SVM und Gaussian Naive Bayes ausprobiert. Die Trefferquote lag bei 0.70 (+/- 0.10), 0.70 (+/- 0.11) bzw. 0.70 (+/- 0.11).</p>
+                <note place="foot" xml:id="ftn4" n="4">
+                    <p rend="footnote text"> Es wurden zusätzlich Logistic Regression, Lineare SVM und Gaussian Naive Bayes ausprobiert. Die Trefferquote lag bei 0.70 (+/- 0.10), 0.70 (+/- 0.11) bzw. 0.70 (+/- 0.11).</p>
                 </note>
             </p>
             <p>Für einen dritten Testlauf wurde die Sentimentwortliste bearbeitet und die Textsnippets wurden einem zweiten manuellen Rating mit mehr als nur 3 Kategorien unterzogen. Insbesondere sollte zwischen tatsächlich neutralen Sätzen (z.B. “X wurde 1826 in Berlin geboren.” = 0) und Sätzen mit (einander ausgleichenden) positiven und negativen Bewertungen (z.B. “Trotz dieser erheblichen Schwächen ist X ein Werk gelungen, das …” = 0,###) unterschieden werden. Auch Problemfälle (wie z.B. erwartbare Artefakte durch Zitation oder Ironie) wurden separiert, um die Analyseergebnisse gesondert evaluieren zu können. Von den 1687 eindeutig positiven, negativen oder neutralen Sätzen wurden 65,6% richtig erkannt (Tab. 2).</p>
-            <table>
+            <table rend="rules">
                 <row>
                     <cell>Dimension</cell>
                     <cell>richtig identifizierte Sätze</cell>
@@ -214,28 +218,28 @@
                 </row>
             </table>
             <p>
-                <hi>Tab. 2: Ergebnis des dritten Testlaufs</hi>
+                <hi rend="italic">Tab. 2: Ergebnis des dritten Testlaufs</hi>
             </p>
             <p>In unserer Präsentation werden wir die ausführliche Ergebnisevaluation des dritten Testlaufs vorstellen und die sich stellenden Probleme im Hinblick auf die eingangs dargestellte Zielsetzung diskutieren. Außerdem soll ein erster Probelauf über das inzwischen provisorisch erstellte Satzkorpus aus den “Grenzboten” präsentiert werden, der die angezielte Methodik der diachronen Trenddarstellung illustriert.</p>
         </body>
         <back>
-            <div>
+            <div type="bibliogr">
                 <listBibl>
                     <head>Bibliographie</head>
                     <bibl>
-                        <hi>Kreuzer, Helmut</hi> (Hg.) (2006): Deutschsprachige Literaturkritik 1870-1914. Eine Dokumentation. Unter Mitarbeit von Doris Rosenstein. 4 Bde. Frankfurt am Main: Lang.
+                        <hi rend="bold">Kreuzer, Helmut</hi> (Hg.) (2006): Deutschsprachige Literaturkritik 1870-1914. Eine Dokumentation. Unter Mitarbeit von Doris Rosenstein. 4 Bde. Frankfurt am Main: Lang.
                     </bibl>
                     <bibl>
-                        <hi>Liu, Bing</hi> (2015). Sentiment Analysis: Mining Opinions, Sentiments, and Emotions. Cambridge University Press.
+                        <hi rend="bold">Liu, Bing</hi> (2015). Sentiment Analysis: Mining Opinions, Sentiments, and Emotions. Cambridge University Press.
                     </bibl>
                     <bibl>
-                        <hi>Mellmann, Katja / Willand, Marcus </hi>(2013): Historische Rezeptionsanalyse. Zur Empirisierung von Textbedeutungen. In: P. Ajouri, K. Mellmann &amp; C. Rauen (Hg.): Empirie in der Literaturwissenschaft. Münster: Mentis, S. 263–281.
+                        <hi rend="bold">Mellmann, Katja / Willand, Marcus </hi>(2013): Historische Rezeptionsanalyse. Zur Empirisierung von Textbedeutungen. In: P. Ajouri, K. Mellmann &amp; C. Rauen (Hg.): Empirie in der Literaturwissenschaft. Münster: Mentis, S. 263–281.
                     </bibl>
                     <bibl>
-                        <hi>Remus, Robert / Quasthoff, Uwe / Heyer, Gerhard</hi> (2010): SentiWS - a Publicly Available German-Language Resource for Sentiment Analysis. In: Proceedings of the 7th International Language Ressources and Evaluation, pp. 1168-1171.
+                        <hi rend="bold">Remus, Robert / Quasthoff, Uwe / Heyer, Gerhard</hi> (2010): SentiWS - a Publicly Available German-Language Resource for Sentiment Analysis. In: Proceedings of the 7th International Language Ressources and Evaluation, pp. 1168-1171.
                     </bibl>
                     <bibl>
-                        <hi>van Bellen, Maurits</hi> (2010): Sentiment Analysis on historical book reviews with a Bayesian Classifier. Bachelor-Arbeit. University of Amsterdam.
+                        <hi rend="bold">van Bellen, Maurits</hi> (2010): Sentiment Analysis on historical book reviews with a Bayesian Classifier. Bachelor-Arbeit. University of Amsterdam.
                     </bibl>
                 </listBibl>
             </div>

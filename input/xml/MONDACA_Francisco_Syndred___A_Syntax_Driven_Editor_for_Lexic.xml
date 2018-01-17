@@ -57,26 +57,26 @@
         </fileDesc>
         <encodingDesc>
             <appInfo>
-                <application>
+                <application ident="DHCONVALIDATOR" version="1.17">
                     <label>DHConvalidator</label>
                 </application>
             </appInfo>
         </encodingDesc>
         <profileDesc>
             <textClass>
-                <keywords>
+                <keywords scheme="ConfTool" n="category">
                     <term>Paper</term>
                 </keywords>
-                <keywords>
+                <keywords scheme="ConfTool" n="subcategory">
                     <term>Poster</term>
                 </keywords>
-                <keywords>
+                <keywords scheme="ConfTool" n="keywords">
                     <term>Syntax</term>
                     <term>Editor</term>
                     <term>Auszeichnung</term>
                     <term>Parser</term>
                 </keywords>
-                <keywords>
+                <keywords scheme="ConfTool" n="topics">
                     <term>Strukturanalyse</term>
                     <term>Webentwicklung</term>
                     <term>Sprache</term>
@@ -90,12 +90,12 @@
             <p>Kontinuierlich steigt die Menge der erzeugten und prozessierten Information und damit der Bedarf an technologisch assistierter bishin zu autonomer Datenverarbeitung. Textuell repräsentierte Inhalte mittels strukturgebender Methoden aufzubereiten ist meist aufwendiger als deren Erzeugung, insofern gewinnt automatische Textprozessierung zunehmend an Bedeutung (Bernstein et al.: 2016).</p>
             <p> </p>
             <p>Mithilfe der formalen Grammatiken RBNF (Rich Backus-Naur Form)
-                <note>
+                <note place="foot" xml:id="ftn1" n="1">
                     <p> RBNF ist eine EBNF (Extended Backus-Naus Form) Erweiterung um Rich-Text Auszeichnungen.</p>
                 </note> und ABNF (Augmented Backus-Naus Form) können Produktionssysteme im Sinne domänenspezifischer, formaler Sprachen (engl. Domain-Specific Languages) modelliert und auf textuelle Daten angewandt werden: Syndred
-                <note>
-                    <p>
-                        <hi>https://github.com/spinfo/syndred</hi>
+                <note place="foot" xml:id="ftn2" n="2">
+                    <p rend="footnote text">
+                        <hi rend="underline color(386EFF)">https://github.com/spinfo/syndred</hi>
                     </p>
                 </note> nutzt als Parser konkretisierte Grammatiken zur Abbildung von Texten auf Strukturbäume (engl. Parse Trees), die in vielfältiger Form (z. B. als TEI-Dokumente) persistiert, mittels Treewalkern (Parr 2013: 17ff) für weitere Prozessierung transformiert oder beispielhaft zur Überprüfung formaler Korrektheit unter Berücksichtigung von Merkmalen wie bspw. Schriftgröße, -stil und -farbe eingesetzt werden.
             </p>
@@ -107,19 +107,19 @@
             <p>Syndred wartet mit einem Split-View Design auf, welches einerseits das Erstellen und Bearbeiten von Grammatiken und andererseits syntaxkontrolliertes Editieren textueller Inhalte in direkten, visueller Bezug zueinander bringt. Kernkompetenzen der Benutzerschnittstelle sind die Herleitungen von Grammatiken aus textuellen Bestandsdaten oder Rückmeldungen formaler Produktionsregeln zu textuellen Inhalten.</p>
             <p> </p>
             <p>Dezentrales Arbeiten erfordert eine netzwerkbasierte Architektur, idealerweise eine Web-Applikation mit clientseitigem Editor und serverseitigem Parser; Syndred nutzt das auf ReactJS
-                <note>
-                    <p>
-                        <hi>https://facebook.github.io/react</hi>
+                <note place="foot" xml:id="ftn3" n="3">
+                    <p rend="footnote text">
+                        <hi rend="underline color(386EFF)">https://facebook.github.io/react</hi>
                     </p>
                 </note> basierende Editor-Framework DraftJS
-                <note>
-                    <p>
-                        <hi>https://draftjs.org</hi>
+                <note place="foot" xml:id="ftn4" n="4">
+                    <p rend="footnote text">
+                        <hi rend="underline color(386EFF)">https://draftjs.org</hi>
                     </p>
                 </note> und kommuniziert im JSON-Format über WebSockets mit einer zentralen, auf Basis des Spring-Frameworks
-                <note>
-                    <p>
-                        <hi>https://projects.spring.io/spring-framework</hi>
+                <note place="foot" xml:id="ftn5" n="5">
+                    <p rend="footnote text">
+                        <hi rend="underline color(386EFF)">https://projects.spring.io/spring-framework</hi>
                     </p>
                 </note> implementierten Java-Applikation. Neben dem Vorteil der Plattformunabhängigkeit ermöglichen die eingesetzten Web-Technologien die zentralisierung der Hardwareleistung wie auch des Speicherbedarfs und sichern gegen Datenverlust ab. Auch garantiert die Bidirektionalität der Client-Server-Verbindung die Kohärenz und Persistenz der kollaborativen Instanzen. Zeitnahe Verfügbarkeit aller für die kollaborative Arbeit mit Syndred notwendigen Ressourcen wird durch einen serverseitigen Cached Thread Pool sichergestellt; aktiven Instanzen wird bei Bedarf ein Parser-Threads zur Verfügung gestellt, der nach Verwendung beendet wird.
             </p>
@@ -127,38 +127,38 @@
             <p>Syndred ist somit ein Werkzeug zur intuitiven Entwicklung domänenspezifische Sprachen und Überprüfung textueller Inhalte anhand dieser formalen Grammatiken, realisiert als kollaborative Web- Applikation; zusammengenommen ein Meilenstein in der Entwicklung dieser Art von Programmiersprachen.</p>
         </body>
         <back>
-            <div>
+            <div type="bibliogr">
                 <listBibl>
                     <head>Bibliographie</head>
                     <bibl>
-                        <hi>Bernstein, Abraham / Hendler, James / Noy, Natalya </hi>(2016): “A New Look at the Semantic Web.” in: 
-                        <hi>Communications of the ACM</hi>. 59:9. 35-37.
+                        <hi rend="bold">Bernstein, Abraham / Hendler, James / Noy, Natalya </hi>(2016): “A New Look at the Semantic Web.” in: 
+                        <hi rend="italic">Communications of the ACM</hi>. 59:9. 35-37.
                     </bibl>
                     <bibl>
-                        <hi>Fowler, Martin</hi> (2011): 
-                        <hi>Domain-Specific Languages</hi>. Addison-Wesley: Upper Saddle River, New Jersey.
+                        <hi rend="bold">Fowler, Martin</hi> (2011): 
+                        <hi rend="italic">Domain-Specific Languages</hi>. Addison-Wesley: Upper Saddle River, New Jersey.
                     </bibl>
                     <bibl>
-                        <hi>Gutknecht, Jürg</hi> (1985): “Concepts of the Text Editor Lara.” in: 
-                        <hi>Communications of the ACM</hi>. 28:9. 942-960.
+                        <hi rend="bold">Gutknecht, Jürg</hi> (1985): “Concepts of the Text Editor Lara.” in: 
+                        <hi rend="italic">Communications of the ACM</hi>. 28:9. 942-960.
                     </bibl>
                     <bibl>
-                        <hi>Parr, Terence</hi> (2013):  
-                        <hi>The Definitive ANTLR 4 Reference</hi>. Pragmatic Bookshelf: Dallas Texas.
+                        <hi rend="bold">Parr, Terence</hi> (2013):  
+                        <hi rend="italic">The Definitive ANTLR 4 Reference</hi>. Pragmatic Bookshelf: Dallas Texas.
                     </bibl>
                     <bibl>
-                        <hi>Wirth, Niklaus</hi> (1986
-                        <hi>4</hi>): 
-                        <hi>Compilerbau</hi>. Teubner: Stuttgart.
+                        <hi rend="bold">Wirth, Niklaus</hi> (1986
+                        <hi rend="superscript">4</hi>): 
+                        <hi rend="italic">Compilerbau</hi>. Teubner: Stuttgart.
                     </bibl>
                     <bibl>
-                        <hi>Wirth, Niklaus</hi> (2000
-                        <hi>5</hi>): 
-                        <hi>Algorithmen und Datenstrukturen</hi>. Teubner: Stuttgart.
+                        <hi rend="bold">Wirth, Niklaus</hi> (2000
+                        <hi rend="superscript">5</hi>): 
+                        <hi rend="italic">Algorithmen und Datenstrukturen</hi>. Teubner: Stuttgart.
                     </bibl>
                     <bibl>
-                        <hi>Wirth, Niklaus / Gutknecht, Jürg</hi> (1992):  
-                        <hi>Project Oberon: Design of an Operating System and Compiler</hi>. Addison-Wesley Longman: Amsterdam. 
+                        <hi rend="bold">Wirth, Niklaus / Gutknecht, Jürg</hi> (1992):  
+                        <hi rend="italic">Project Oberon: Design of an Operating System and Compiler</hi>. Addison-Wesley Longman: Amsterdam. 
                     </bibl>
                 </listBibl>
             </div>

@@ -3,9 +3,9 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>
-                    <title>Gute Forschungsdaten, bessere Forschung: wie Forschung durch Forschungsdatenmanagement unterstützt wird</title>
-                    <title/>
+                <title type="full">
+                    <title type="main">Gute Forschungsdaten, bessere Forschung: wie Forschung durch Forschungsdatenmanagement unterstützt wird</title>
+                    <title type="sub"/>
                 </title>
                 <author>
                     <persName>
@@ -108,25 +108,25 @@
         </fileDesc>
         <encodingDesc>
             <appInfo>
-                <application>
+                <application ident="DHCONVALIDATOR" version="1.17">
                     <label>DHConvalidator</label>
                 </application>
             </appInfo>
         </encodingDesc>
         <profileDesc>
             <textClass>
-                <keywords>
+                <keywords scheme="ConfTool" n="category">
                     <term>Paper</term>
                 </keywords>
-                <keywords>
+                <keywords scheme="ConfTool" n="subcategory">
                     <term>Panel</term>
                 </keywords>
-                <keywords>
+                <keywords scheme="ConfTool" n="keywords">
                     <term>Datenmanagement</term>
                     <term>Forschungsinfrastrukturen</term>
                     <term>Datenzentren</term>
                 </keywords>
-                <keywords>
+                <keywords scheme="ConfTool" n="topics">
                     <term>Teilen</term>
                     <term>Archivierung</term>
                     <term>Veröffentlichung</term>
@@ -139,19 +139,19 @@
     </teiHeader>
     <text>
         <body>
-            <div>
+            <div type="div1" rend="DH-Heading1">
                 <head>Kurzzusammenfassung</head>
                 <p>In diesem Panel geht es um die Förderung der geisteswissenschaftlichen Forschung durch eine planvolle Erhebung, Archivierung, Veröffentlichung und die dadurch ermöglichte Nachnutzung von Forschungsdaten, die sowohl zur Qualitätssicherung in der Forschung beitragen als auch nicht zuletzt neue Fragestellungen erlauben. Aus unterschiedlichen Perspektiven soll in dem Panel beleuchtet werden, welchen Mehrwert das Datenmanagement für die Forschung in den digitalen Geisteswissenschaften hat, wie man diesen Mehrwert erreicht und auch die Veröffentlichung der Forschungsdaten als ein selbstverständliches Element der Dissemination der Forschungsergebnisse etabliert und wie man gleichzeitig den Aufwand für die Forschung abschätzen kann.</p>
             </div>
-            <div>
+            <div type="div1" rend="DH-Heading1">
                 <head>Ziele des Panels</head>
                 <p>Vor dem Hintergrund der notwendigen Diskussion zum Management, zur Interoperabilität, Sicherung, Publikation und Zitation aber auch zur Auswahl und Kassation von Forschungsdaten wird das Panel Experten aus der Forschung, Entwicklung, aus wissenschaftsgeleiteten Forschungsinfrastrukturen sowie dem Bibliotheks- und Universitäts-Verlagswesen zusammenbringen. Im Fokus steht die kritische oder auch kontroverse Auseinandersetzung, welche Aufgaben Forschende selbst übernehmen können und wollen, welche Aufgaben bei digitalen Infrastrukturen anzusiedeln sind, welche gemeinsamen Strategien aller Mitwirkenden nötig sind, wo eine Parallelisierung von Entwicklungen vermieden werden muss und wo eine Vielfalt von Ansätzen wünschenswert wäre.</p>
                 <p>Dazu werden die Teilnehmenden des Panels anhand von vier Leitfragen aus ihrer jeweiligen Perspektive kurz Stellung zum Thema nehmen.</p>
                 <p> </p>
             </div>
-            <div>
+            <div type="div1" rend="DH-Heading1">
                 <head>Leitfragen</head>
-                <list>
+                <list type="unordered">
                     <item>Welche spezifischen Anforderungen aus der geisteswissenschaftlichen Praxis beeinflussen das Datenmanagement?</item>
                     <item>Wie beeinflusst die Datenveröffentlichung herkömmliche Publikationen und welche Datenmanagementoptionen sind für die Publikationen von Daten relevant?</item>
                     <item>Wieweit können Forschungsdatenmanagementpläne die Forschenden dabei unterstützen, schon vom Moment der Formulierung der Forschungsfrage und der Beantragung eines Projektes an für die sichere forschungsbegleitende und forschungsabschließende Veröffentlichung der gesammelten, erhobenen und erstellten Daten – möglichst den FAIR-Prinzipien konform – zu sorgen?</item>
@@ -159,138 +159,138 @@
                 </list>
                 <p> </p>
             </div>
-            <div>
+            <div type="div1" rend="DH-Heading1">
                 <head>Hintergrund</head>
                 <p>Geisteswissenschaftliche Forschung basiert darauf, Ideen und Konzepte anderer Forschender zu betrachten, zu kommentieren und weiter zu entwickeln. Im Rahmen des Paradigmenwechsels  (siehe etwa Berry, 2011; Baum and Stäcker 2015 ; Thiel, 2012), der sich gerade auch in den digitalen Geisteswissenschaften durch teilautomatische Analysen (siehe bereits Busa, R., 1951),  Visualisierungen und Verknüpfungen unterschiedlicher Datentypen manifestiert, ist die Nachnutzung von Daten, Informationen und Konzepten von Anfang an ein integraler Bestandteil der Forschung gewesen (siehe etwa den Impact von Busa beschrieben von Winter, 1999; die Daten von Busa unter &lt;
-                    <ref>http://www.corpusthomisticum.org</ref>/&gt;; arbeiten von Antonio Zampolli, 1973; etc.)
+                    <ref target="http://www.corpusthomisticum.org/">http://www.corpusthomisticum.org</ref>/&gt;; arbeiten von Antonio Zampolli, 1973; etc.)
                 </p>
                 <p>Die Veröffentlichung von Forschungsdaten selbst ist kein Novum - in Anhängen, in Tabellen, in Abbildungen wurden “Daten” analog als Merkmale der Wissenschaftlichkeit einer Publikation veröffentlicht, und selbst Busa (ebd.) referenziert existierende Konkordanzen und Indizes, die allerdings noch nicht elektronisch vorlagen. Die elektronische Publikation und Weitergabe ist auch nicht neu: Bereits in den 1990er Jahren fanden sich elektronische Beilagen auf CD-ROM in Verlagspublikationen und auch bei Hausarbeiten; Webseiten enthielten schon früh Forschungsdaten
-                    <note>Zum Beispiel gab es schon im Jahr 2000 auf der Webseite 
-                        <ptr/> Sprachdokumentationsdaten der Sprache Ega in Côte d'Ivoire. Diese Seite kann als typisches Beispiel für Projektwebseiten mit Daten angesehen werden, deren Nachhaltigkeit durch das Engagement des betreibenden Einzelwissenschaftlers bestimmt wird.
+                    <note xml:id="ftn0" place="foot" n="1">Zum Beispiel gab es schon im Jahr 2000 auf der Webseite 
+                        <ptr target="http://wwwhomes.uni-bielefeld.de/gibbon/EGA/"/> Sprachdokumentationsdaten der Sprache Ega in Côte d'Ivoire. Diese Seite kann als typisches Beispiel für Projektwebseiten mit Daten angesehen werden, deren Nachhaltigkeit durch das Engagement des betreibenden Einzelwissenschaftlers bestimmt wird.
                     </note>, die – zumindest während der Projektlaufzeit – diese auch für andere Forschende verfügbar machten.
                 </p>
                 <p>Die Publikation über öffentlich zugängliche Datenrepositorien ist dagegen recht neu, d.h. in zentralen Einrichtungen, die auch über Projektlaufzeiten hinaus Forschungsdaten vorhalten können, dafür aber eine Übergabe durch Datenbereitsteller nach bestimmten Qualitäts- und Beschreibungsrichtlinien verlangen. Dabei erlauben Repositorien, extrem große Mengen von (vernetzten) Daten zu veröffentlichen: alle erhobenen Daten können publiziert werden. Darunter können auch Daten sein, die für die eigene Forschungsfrage letztendlich nicht relevant waren, aber den Forschungsweg und die Ergebnisse nachvollziehbar machen, also sogenannte  “null-results”. Innerhalb von Enhanced Publications können sie referenziert werden und z.B. mittels Linked Data als dynamisch vernetzende Daten aufeinander verweisen. Ihre Nachnutzung erlaubt es, Analysen, die in der Vergangenheit nur als Gedankenexperimente möglich waren, praktisch durchzuführen.</p>
                 <p>Auch deswegen setzen Forschungsförderer zunehmend voraus, dass ein Konzept zur Nachnutzung der Daten, auf denen Forschungsergebnisse beruhen, zusammen mit Projektanträgen eingereicht wird, und dass zudem bereits existierende Daten und Werkzeuge gegebenenfalls nachgenutzt werden (siehe Senat der DFG, 2015; Deutsche Forschungsgemeinschaft, 2013; Deutsche Forschungsgemeinschaft, 2009; Deutsche Forschungsgemeinschaft, undatiert; H2020 Programme, 2013; Allianz der deutschen Wissenschaftsorganisationen, 2010). Gleichzeitig wird durch die Attribution der Datenaufbereitung die Leistung derjenigen sichtbar, die die Daten bereitgestellt haben, so dass die Veröffentlichung “infrastrukturbezogene[r] wissenschaftliche[r] Leistungen” und Forschungsdaten “in Qualifikationsverfahren ergänzend anerkannt werden” können (vgl. Wissenschaftsrat, 2011). Die Bereitstellung von Forschungsdaten folgt dabei den sogenannten FAIR-Prinzipien
-                    <note>Findable, Accessible, Interoperable, und Re-usable, siehe h
-                        <ref>ttps://www.force11.org/group/fairgroup/fairprinciples</ref>
+                    <note xml:id="ftn1" place="foot" n="2">Findable, Accessible, Interoperable, und Re-usable, siehe h
+                        <ref target="https://www.force11.org/group/fairgroup/fairprinciples">ttps://www.force11.org/group/fairgroup/fairprinciples</ref>
                     </note>, ist Teil der sich entwickelnden Open-Science-Landschaft und wird etwa von wissenschaftsgeleiteten Forschungsinfrastrukturen wie CLARIN-D (siehe Hinrichs und Trippel, 2017) und DARIAH-DE (Gradl und Henrich, 2016)  unterstützt.
                 </p>
                 <p>Auch wenn der Mehrwert des Forschungsdatenmanagements in diesem Bereich dokumentiert ist, als Anforderung formuliert wird und positiv konnotiert ist (siehe Bargheer u.a. 2017), erscheint es einigen Forschenden trotzdem eher als aufgezwungene, lästige Notwendigkeit denn als Mehrwert für die Forschung in den DH. Auch deshalb sollen in dem Panel die Vertreter der Forschungsinfrastrukturen und die WissenschaftlerInnen reflektieren, ob die bisher an die Forschenden herangetragenen Angebote ausreichen, um ihre Anforderungen zu erfüllen und ihr Vertrauen zu gewinnen, und, was die Forschungsinfrastukturen tun können, um hier weitere Fortschritte zu erzielen.</p>
             </div>
-            <div>
+            <div type="div1" rend="DH-Heading1">
                 <head>Panel Format</head>
                 <p>Das Panel besteht aus drei Teilen:</p>
-                <list>
+                <list type="unordered">
                     <item>Kurze Impulsvorträge von max. 5 Minuten von den Panel-Teilnehmenden unter Einnahme ihrer jeweiligen Perspektive</item>
                     <item>Diskussion der Leitfragen zwischen den Panelteilnehmenden moderiert aus der Anwenderperspektive </item>
                     <item>Öffnung der Diskussion für die Zuhörenden durch die Moderation</item>
                 </list>
             </div>
-            <div>
+            <div type="div1" rend="DH-Heading1">
                 <head>
-                    <anchor/>Panel-Teilnehmende:
+                    <anchor xml:id="id__ibyu6oupqcs1"/>Panel-Teilnehmende:
                 </head>
-                <div>
+                <div type="div2" rend="DH-Heading2">
                     <head>Moderatorin</head>
                     <p>Elke Teich (Saarbrücken): Als Sprecherin eines interdisziplinären SFB verfügt Prof. Teich über eine hervorragende Kenntnis der Erfordernisse und Hindernisse im Forschungsdatenmanagement in großen Forschungsverbünden.  Sie wird das Panel aus der spezifischen Perspektive der Geisteswissenschaften moderieren.</p>
                 </div>
-                <div>
+                <div type="div2" rend="DH-Heading2">
                     <head>
-                        <anchor/>Teilnehmende auf dem Panel und Impulsvorträge
+                        <anchor xml:id="id__3u0j5bm8i3hy"/>Teilnehmende auf dem Panel und Impulsvorträge
                     </head>
-                    <list>
+                    <list type="unordered">
                         <item>Lydia Müller (Mind Research Repository, Universität Leipzig): In den Kognitionswissenschaften ist die Verwaltung von Daten im Zusammenhang mit der Publikation von Artikeln zusammen mit den zugrundeliegenden Daten teilweise gelebte Praxis. Lydia Müller ist als Maintainerin des Mind Research Repository (
-                            <ptr/>) an einer Schlüsselstelle, da dieses Verzeichnis die Integration von Daten und Publikationen ermöglicht. Vor dem Hintergrund der dort gehosteten Daten und Publikationen kennt sie die Fallstricke bei der Integration von Daten und Publikationen und weiß, wie die Daten nachhaltig und gesichert abgelegt werden können und hat Erfahrungen damit, auf diese Daten zu verweisen. Sie steht damit für einen Aspekt der FAIR-Prinzipien für Forschungsdaten im Rahmen des Forschungsdatenzyklus in den Geisteswissenschaften: der Aufbewahrung und Zugänglichmachung von Daten.
+                            <ptr target="http://openscience.uni-leipzig.de/"/>) an einer Schlüsselstelle, da dieses Verzeichnis die Integration von Daten und Publikationen ermöglicht. Vor dem Hintergrund der dort gehosteten Daten und Publikationen kennt sie die Fallstricke bei der Integration von Daten und Publikationen und weiß, wie die Daten nachhaltig und gesichert abgelegt werden können und hat Erfahrungen damit, auf diese Daten zu verweisen. Sie steht damit für einen Aspekt der FAIR-Prinzipien für Forschungsdaten im Rahmen des Forschungsdatenzyklus in den Geisteswissenschaften: der Aufbewahrung und Zugänglichmachung von Daten.
                         </item>
                         <item>Susanne Haaf (BBAW) ist am Aufbau und Betrieb des Deutschen Textarchivs (DTA) beteiligt und hat die Spezifikation des standardisierten DTA-Basisformats maßgeblich mit beeinflusst, das Eingang in die einschlägigen DFG-Richtlinien gefunden hat. Damit war sie an der Erstellung von geisteswissenschaftlichen Forschungsdaten selbst beteiligt und entwickelte aktiv Standards und Richtlinien, die für große Datenmengen eingesetzt wurden. Daneben vermittelte sie die zugrundeliegenden Workflows, Richtlinien und Technologien im Rahmen von Workshops und Lehrveranstaltungen innerhalb der DH-Nutzercommunity. Das DTA vertritt mehr als 2000 Nutzende, die zur Weiterentwicklung seines bislang einzigartigen Korpus interoperabler Forschungsdaten des historischen Deutschen für die Geisteswissenschaften beitragen.</item>
                         <item>Torsten Schrade (Leiter der Digitalen Akademie der Akademie der Wissenschaften und der Literatur Mainz, Professor für Digital Humanities an der Hochschule Mainz): Torsten Schrade ist ausgewiesener Experte für Forschungsdatenmanagement und Webtechnologien für die geisteswissenschaftliche Grundlagenforschung, für historische Fachinformationssysteme, webbasierte Arbeitsumgebungen, digitale Editionen, Webservices für geisteswissenschaftliche Fachdaten und Semantic Web Anwendungen.</item>
                         <item>Thorsten Trippel: Im Rahmen von CLARIN-D und dem europäischen Projekt Parthenos beschäftigt sich Thorsten Trippel mit der Erstellung und Umsetzung von Datenmanagementpläne für die geisteswissenschaftliche Forschung. Zusammen mit Antragstellern entwickelt er dazu Datenmanagementpläne, wie sie von Drittmittelgebern zunehmend gefordert sind, und begleitet die Projekte über alle Phasen der geisteswissenschaftlichen Forschung - vom Erstellen oder Auffinden von Forschungsdaten, über die Aufbereitung, Analyse, Bereitstellung bis zur Archivierung, um die FAIR-Prinzipien umzusetzen.</item>
                         <item>Tobias Gradl: Im Rahmen seiner Forschung hat sich Tobias Gradl innerhalb von DARIAH mit der nachhaltigen Aufbereitung von Forschungsdaten beschäftigt, besonders mit Daten, die nicht standardkonform aufbereitet wurden und im Rahmen spezifischer Forschungsfragestellungen anfallen. Daher bearbeitet er Modelle, um Daten in einer nachhaltig erschlossenen Form bereitzustellen.</item>
                         <item>Maria Effinger (UB Heidelberg): 
-                            <anchor/>Im Rahmen des DFG-Projekts OA-Monos, des Universitätsverlags "Heidelberg University Publishing" und der Fachinformationsdienste "arthistoricum.net" und, "Proyplaeum" hat Maria Effinger XML-basiertes Publizieren implementiert und in der Universitätsbibliothek in Heidelberg umgesetzt. Die Veröffentlichungsmöglichkeiten über universitätseigene Verlage nehmen für offene Publikationen und damit verbundene Daten eine wichtige Funktion ein, indem sie in einer engen Zusammenarbeit mit den Forschenden die prinzipielle Nachvollziehbarkeit und Überprüfbarkeit wissenschaftlicher Ergebnisse sichern. Diesen Aspekt wird Frau Effinger im Panel vertreten.
+                            <anchor xml:id="id_OLK_SRC_BODY_SECTION"/>Im Rahmen des DFG-Projekts OA-Monos, des Universitätsverlags "Heidelberg University Publishing" und der Fachinformationsdienste "arthistoricum.net" und, "Proyplaeum" hat Maria Effinger XML-basiertes Publizieren implementiert und in der Universitätsbibliothek in Heidelberg umgesetzt. Die Veröffentlichungsmöglichkeiten über universitätseigene Verlage nehmen für offene Publikationen und damit verbundene Daten eine wichtige Funktion ein, indem sie in einer engen Zusammenarbeit mit den Forschenden die prinzipielle Nachvollziehbarkeit und Überprüfbarkeit wissenschaftlicher Ergebnisse sichern. Diesen Aspekt wird Frau Effinger im Panel vertreten.
                         </item>
                     </list>
                 </div>
             </div>
         </body>
         <back>
-            <div>
+            <div type="bibliogr">
                 <listBibl>
                     <head>Bibliographie</head>
                     <bibl>
-                        <hi>Allianz der deutschen Wissenschaftsorganisationen</hi> (2010): "Grundsätze zum Umgang mit Forschungsdaten". 
-                        <ptr/> [letzter Zugriff 15. Januar 2017].
+                        <hi rend="bold">Allianz der deutschen Wissenschaftsorganisationen</hi> (2010): "Grundsätze zum Umgang mit Forschungsdaten". 
+                        <ptr target="http://www.allianzinitiative.de/de/handlungsfelder/forschungsdaten/grundsaetze.html"/> [letzter Zugriff 15. Januar 2017].
                     </bibl>
                     <bibl>
-                        <hi>Bargheer, Margo, / Zeki, Mustafa Dogan / Horstmann, Wolfram / Mertens, Mike / Rapp, Andrea</hi> (2017): "Unlocking the digital potential of scholarly  monographs in 21st century research," in: 
-                        <hi>Liber Quaterly 27</hi>(2). 
+                        <hi rend="bold">Bargheer, Margo, / Zeki, Mustafa Dogan / Horstmann, Wolfram / Mertens, Mike / Rapp, Andrea</hi> (2017): "Unlocking the digital potential of scholarly  monographs in 21st century research," in: 
+                        <hi rend="italic">Liber Quaterly 27</hi>(2). 
                     </bibl>
                     <bibl>
-                        <hi>Baum, Constanze / Stäcker, Thomas</hi> (2015): "Methoden – Theorien – Projekte," in: 
-                        <hi>Zeitschrift für digitale Geisteswissenschaften, 1</hi>(Sonderband: Grenzen und Möglichkeiten der Digital Humanities), 4-12. doi:DOI 10.17175/sb001_023
+                        <hi rend="bold">Baum, Constanze / Stäcker, Thomas</hi> (2015): "Methoden – Theorien – Projekte," in: 
+                        <hi rend="italic">Zeitschrift für digitale Geisteswissenschaften, 1</hi>(Sonderband: Grenzen und Möglichkeiten der Digital Humanities), 4-12. doi:DOI 10.17175/sb001_023
                     </bibl>
                     <bibl>
-                        <hi>Berry, David M</hi> (2011): "The Computational Turn: Thinking about the Digital Humanities", in: 
-                        <hi>Cultural Machine, 12</hi>, 1-22. 
-                        <ptr/>
+                        <hi rend="bold">Berry, David M</hi> (2011): "The Computational Turn: Thinking about the Digital Humanities", in: 
+                        <hi rend="italic">Cultural Machine, 12</hi>, 1-22. 
+                        <ptr target="http://www.culturemachine.net/index.php/cm/article/view/440"/>
                     </bibl>
                     <bibl>
-                        <hi>Busa, Roberto</hi> (1951): 
-                        <hi>Sancti Thomae Aquinatis Hymnorum Ritualium Varia Specimina Concordantiarum</hi>. Milano: Fratelli Bocca.
+                        <hi rend="bold">Busa, Roberto</hi> (1951): 
+                        <hi rend="italic">Sancti Thomae Aquinatis Hymnorum Ritualium Varia Specimina Concordantiarum</hi>. Milano: Fratelli Bocca.
                     </bibl>
                     <bibl>
-                        <hi>Deutsche Forschungsgemeinschaft</hi> (2013): "Empfehlungen der Kommission „Selbstkontrolle in der Wissenschaft“". 
-                        <hi>Sicherung guter wissenschaftlicher Praxis</hi>. 
-                        <ptr/> [letzter Zugriff 15. Januar 2017]
+                        <hi rend="bold">Deutsche Forschungsgemeinschaft</hi> (2013): "Empfehlungen der Kommission „Selbstkontrolle in der Wissenschaft“". 
+                        <hi rend="italic">Sicherung guter wissenschaftlicher Praxis</hi>. 
+                        <ptr target="http://www.dfg.de/download/pdf/dfg_im_profil/reden_stellungnahmen/download/empfehlung_wiss_praxis_1310.pdf"/> [letzter Zugriff 15. Januar 2017]
                     </bibl>
                     <bibl>
-                        <hi>Deutsche Forschungsgemeinschaft</hi>
-                        <hi>(DFG)</hi>: "Umgang mit Forschungsdaten: DFG-Leitlinien zum Umgang mit Forschungsdaten". http://www.dfg.de/foerderung/antrag_gutachter_gremien/antragstellende/antragstellung/nachnutzung_forschungsdaten/ [letzter Zugriff 15. Januar 2017]
+                        <hi rend="bold">Deutsche Forschungsgemeinschaft</hi>
+                        <hi rend="bold">(DFG)</hi>: "Umgang mit Forschungsdaten: DFG-Leitlinien zum Umgang mit Forschungsdaten". http://www.dfg.de/foerderung/antrag_gutachter_gremien/antragstellende/antragstellung/nachnutzung_forschungsdaten/ [letzter Zugriff 15. Januar 2017]
                     </bibl>
                     <bibl>
-                        <hi>Deutsche Forschungsgemeinschaft (DFG) Ausschuss für wissenschaftliche Bibliotheken und Informationssysteme (Unterausschuss für Informationsmanagement)</hi> (2009)" 
-                        <hi>Empfehlungen zur gesicherten Aufbewahrung und Bereitstellung digitaler Forschungsprimärdaten</hi>. Bonn: Deutsche Forschungsgemeinschaft. http://www.dfg.de/download/pdf/foerderung/programme/lis/ua_inf_empfehlungen_200901.pdf [letzter Zugriff 15. Januar 2017]
+                        <hi rend="bold">Deutsche Forschungsgemeinschaft (DFG) Ausschuss für wissenschaftliche Bibliotheken und Informationssysteme (Unterausschuss für Informationsmanagement)</hi> (2009)" 
+                        <hi rend="italic">Empfehlungen zur gesicherten Aufbewahrung und Bereitstellung digitaler Forschungsprimärdaten</hi>. Bonn: Deutsche Forschungsgemeinschaft. http://www.dfg.de/download/pdf/foerderung/programme/lis/ua_inf_empfehlungen_200901.pdf [letzter Zugriff 15. Januar 2017]
                     </bibl>
                     <bibl>
-                        <hi>Geyken, Alexander</hi> (2011): "
-                        <hi>Wege zu einem historischen Referenzkorpus des Deutschen: das Projekt Deutsches Textarchiv</hi>," in: Perspektiven einer corpusbasierten historischen Linguistik. Internationale Tagung des Akademienvorhabens „Altägyptisches Wörterbuch“, Berlin, Germany.
+                        <hi rend="bold">Geyken, Alexander</hi> (2011): "
+                        <hi rend="italic">Wege zu einem historischen Referenzkorpus des Deutschen: das Projekt Deutsches Textarchiv</hi>," in: Perspektiven einer corpusbasierten historischen Linguistik. Internationale Tagung des Akademienvorhabens „Altägyptisches Wörterbuch“, Berlin, Germany.
                     </bibl>
                     <bibl>
-                        <hi>Geyken, Alexander / Haaf, Susanne / Boenig, Matthias / Thomas, Christian / Wiegand, Frank</hi> (seit 2007): Deutsches Text Archiv (DTA). 
-                        <ptr/>  [letzter Zugriff 15. Januar 2017]
+                        <hi rend="bold">Geyken, Alexander / Haaf, Susanne / Boenig, Matthias / Thomas, Christian / Wiegand, Frank</hi> (seit 2007): Deutsches Text Archiv (DTA). 
+                        <ptr target="http://www.deutschestextarchiv.de/"/>  [letzter Zugriff 15. Januar 2017]
                     </bibl>
                     <bibl>
-                        <hi>Gradl, Tobias / Henrich, Andreas</hi> (2016): "Die DARIAH-DE-Föderationsarchitektur – Datenintegration im Spannungsfeld forschungsspezifischer und domänenübergreifender Anforderungen," in: 
-                        <hi>Bibliothek - Forschung und Praxis, 40</hi>(2), 222-228. doi:10.1515/bfp-2016-0027
+                        <hi rend="bold">Gradl, Tobias / Henrich, Andreas</hi> (2016): "Die DARIAH-DE-Föderationsarchitektur – Datenintegration im Spannungsfeld forschungsspezifischer und domänenübergreifender Anforderungen," in: 
+                        <hi rend="italic">Bibliothek - Forschung und Praxis, 40</hi>(2), 222-228. doi:10.1515/bfp-2016-0027
                     </bibl>
                     <bibl>
-                        <hi>Hinrichs, Erhard / Trippel, Thorsten</hi> (2017): "CLARIN-D: eine Forschungsinfrastruktur für die sprachbasierte Forschung in den Geistes- und Sozialwissenschaften," in: 
-                        <hi>Bibliothek - Forschung und Praxis, 1</hi>(41).
+                        <hi rend="bold">Hinrichs, Erhard / Trippel, Thorsten</hi> (2017): "CLARIN-D: eine Forschungsinfrastruktur für die sprachbasierte Forschung in den Geistes- und Sozialwissenschaften," in: 
+                        <hi rend="italic">Bibliothek - Forschung und Praxis, 1</hi>(41).
                     </bibl>
                     <bibl>
-                        <hi>Senat der Deutschen Forschungsgemeinschaft (DFG)</hi> (2015): "Leitlinien zum Umgang mit Forschungsdaten.  
-                        <ptr/> [letzter Zugriff 15. Januar 2017].
+                        <hi rend="bold">Senat der Deutschen Forschungsgemeinschaft (DFG)</hi> (2015): "Leitlinien zum Umgang mit Forschungsdaten.  
+                        <ptr target="https://www.wissenschaftsrat.de/download/archiv/10466-11.pdf"/> [letzter Zugriff 15. Januar 2017].
                     </bibl>
                     <bibl>
-                        <hi>Thiel, Thomas</hi> (2012): "Digital Humanities: Eine empirische Wende für die Geisteswissenschaften?", in: 
-                        <hi>Frankfurter Allgemeine Zeitung</hi>, 24.07.2012.  
-                        <ptr/> [letzter Zugriff 15. Januar 2017].
+                        <hi rend="bold">Thiel, Thomas</hi> (2012): "Digital Humanities: Eine empirische Wende für die Geisteswissenschaften?", in: 
+                        <hi rend="italic">Frankfurter Allgemeine Zeitung</hi>, 24.07.2012.  
+                        <ptr target="http://www.faz.net/aktuell/feuilleton/forschung-und-lehre/digital-humanities-eine-empirische-wende-fuer-die-geisteswissenschaften-11830514.html"/> [letzter Zugriff 15. Januar 2017].
                     </bibl>
                     <bibl>
-                        <hi>Winter, Thomas Nelson</hi> (1999): "Roberto Busa, S.J., and the Invention of the
+                        <hi rend="bold">Winter, Thomas Nelson</hi> (1999): "Roberto Busa, S.J., and the Invention of the
                     </bibl>
                     <bibl>Machine-Generated Concordance," in: 
-                        <hi>Faculty Publications, Classics and Religious Studies Department</hi>. 
-                        <ptr/> [letzter Zugriff 15. Januar 2017].
+                        <hi rend="italic">Faculty Publications, Classics and Religious Studies Department</hi>. 
+                        <ptr target="http://digitalcommons.unl.edu/classicsfacpub/70/"/> [letzter Zugriff 15. Januar 2017].
                     </bibl>
                     <bibl>
-                        <hi>Wissenschaftsra</hi>t (2011): 
-                        <hi>Übergreifende Empfehlungen zu Informationsinfrastrukturen</hi> Vol. Drs. 10466-11. 
-                        <ptr/> [letzter Zugriff 15. Januar 2017].
+                        <hi rend="bold">Wissenschaftsra</hi>t (2011): 
+                        <hi rend="italic">Übergreifende Empfehlungen zu Informationsinfrastrukturen</hi> Vol. Drs. 10466-11. 
+                        <ptr target="https://www.wissenschaftsrat.de/download/archiv/10466-11.pdf"/> [letzter Zugriff 15. Januar 2017].
                     </bibl>
                     <bibl>
-                        <hi>Zampolli, Antonio</hi> (1973): "Humanities Computing in Italy," in: 
-                        <hi>Computers and the Humanities, VII</hi>(6), 343-360. doi:10.1007/BF02395110
+                        <hi rend="bold">Zampolli, Antonio</hi> (1973): "Humanities Computing in Italy," in: 
+                        <hi rend="italic">Computers and the Humanities, VII</hi>(6), 343-360. doi:10.1007/BF02395110
                     </bibl>
                 </listBibl>
             </div>

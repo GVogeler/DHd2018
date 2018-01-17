@@ -41,25 +41,25 @@
         </fileDesc>
         <encodingDesc>
             <appInfo>
-                <application>
+                <application ident="DHCONVALIDATOR" version="1.17">
                     <label>DHConvalidator</label>
                 </application>
             </appInfo>
         </encodingDesc>
         <profileDesc>
             <textClass>
-                <keywords>
+                <keywords scheme="ConfTool" n="category">
                     <term>Paper</term>
                 </keywords>
-                <keywords>
+                <keywords scheme="ConfTool" n="subcategory">
                     <term>Poster</term>
                 </keywords>
-                <keywords>
+                <keywords scheme="ConfTool" n="keywords">
                     <term>Vagheit</term>
                     <term>historische Texte</term>
                     <term>multi-ebene Annotation</term>
                 </keywords>
-                <keywords>
+                <keywords scheme="ConfTool" n="topics">
                     <term>Inhaltsanalyse</term>
                     <term>Strukturanalyse</term>
                     <term>Modellierung</term>
@@ -72,25 +72,25 @@
     </teiHeader>
     <text>
         <body>
-            <div>
+            <div type="div1" rend="DH-Heading1">
                 <head>Das Korpus</head>
                 <p>Das ausgewählte Korpus besteht aus zwei Hauptwerken Dimitrie Cantemirs, eines Universalgelehrten des 17. Jahrhunderts und Mitglied der „Kurfürstlich –Brandenburgischen Societät der Wissenschaften“. Die zwei Werke wurden ursprünglich auf Lateinisch verfasst, die Originale sind aber verloren aber Kopien davon wurden im späten 20. Jh. wiederentdeckt. Im Umlauf waren lange Zeit nur Übersetzungen ins Englische, Deutsche (Cantemir 1771), (Cantemir 1745), und Französische, die mindestens bis Mitte des 19. Jh. Referenzwerke für die Geschichte des osmanischen Reichs und der historischen Provinz Moldawien waren. Durch seinen langen Aufenthalt in Istanbul, hatte Cantemir Zugang zu vielen Quellen die er zitiert. Daneben zitiert er auch Sagen und Legenden und versucht immer durch geschickte sprachliche Redewendungen zu vermitteln, was seiner Meinung nach historisch gesichert ist. Daher ist das Korpus besonders illustrativ für das Problem der Vagheitsannotation.</p>
             </div>
-            <div>
+            <div type="div1" rend="DH-Heading1">
                 <head>Erste Schritte zur Vagheitsannotation</head>
                 <p>Das Projekt HerCore versucht durch gezielte Annotation von Vagheit drei geisteswissenschaftliche Fragestellungen in Bezug auf die Cantemir-Forschung zu lösen:</p>
-                <list>
+                <list type="unordered">
                     <item>Der erstmalige Vergleich aller historischen Übersetzungen, da seit geraumer Zeit die Vermutung formuliert wurde, dass diese relativ stark von den Originalen abweichen.</item>
                     <item>Die Untersuchung der Zuverlässigkeit von Äußerungen Cantemirs. Hierbei werden vor allem Quellen von turkologischen Fachwissenschaftlern einbezogen.</item>
                     <item>Die Konsistenz von Cantemir über dieselben Personen und Ereignisse in den zwei Werken. </item>
                 </list>
                 <p>Die Annotation von Vagheit wird auf drei Ebenen untersucht:</p>
-                <list>
+                <list type="ordered">
                     <item>Linguistisch,</item>
                     <item>In Metadaten und Editorik, </item>
                     <item>im Fachwissen.</item>
                 </list>
-                <list>
+                <list type="unordered">
                     <item>Für die Linguistische Ebene wurde als Startpunkt die Klassifizierung von (Pinkal 1981)</item>
                 </list>
                 <p>benutzt. Für die Laufzeit des Projekts haben wir aus dem o.g. Schema wegen besonderer Angemessenheit für das zu analysierende Korpus folgende mögliche Vagheitsindikatoren ausgewählt: </p>
@@ -100,7 +100,7 @@
                 <p>Als Vorbereitung wird das Korpus zuerst einer linguistischen Ananlyse unterzogen, um Lemmas und Wortarten, sowie die Textstruktur (Sätze, Paragraphen) zu markieren. Diese wird dann die Basis für die semi-automatische Annotation von Vagheitsausdrücken (Vertan et al 2017).</p>
                 <p>Die Annotation von vager Information wird dann in einem ersten Schritt manuell von Fachwissenschaftlern in einem Korpus-Ausschnitt vorgenommen. In einem zweiten Schritt wird versucht diese Annotation automatisch im Korpus zu propagieren. Ein dritter Schritt soll die Ergebnisse von Inferenzen zwischen vagen Ausdrücken erzeugen, um sich nicht dem Vorwurf auszusetzen man schreibe mit einem spezifischen Erkenntnis leitendem Interesse zunächst Annotationen in den Text um sie dann nur wörtlich wieder auszulesen.</p>
             </div>
-            <div>
+            <div type="div1" rend="DH-Heading1">
                 <head>Zusammenfassung</head>
                 <p>Der Beitrag wird die gesamte Systemarchitektur, sowie die einzelnen Schritte zur Annotation von Linguistischer Vagheit illustrieren.</p>
                 <p>Um dem Wissenschaftler am Ende eine hermeneutische Interpretation zu erlauben, muss ihm zu jedem annotierten Objekt ein Vagheits-Profil sowie Metadaten über Autoren, Genres und Inferenzergebnisse gezeigt werden können.</p>
@@ -110,21 +110,21 @@
             </div>
         </body>
         <back>
-            <div>
+            <div type="bibliogr">
                 <listBibl>
                     <head>Bibliographie</head>
                     <bibl>
-                        <hi>Cantemir, Dimitrie,</hi> (1771) Beschreibung der Moldau, Faksimiledruck der Originalausgabe von 1771, Frankfurt und Leipzig 
+                        <hi rend="bold">Cantemir, Dimitrie,</hi> (1771) Beschreibung der Moldau, Faksimiledruck der Originalausgabe von 1771, Frankfurt und Leipzig 
                     </bibl>
                     <bibl>
-                        <hi>Cantemir, Dimitrie,</hi> (1745) Geschichte des osmanischen Reichs nach seinem Anwachse und Abnehmen, 1745, Herold, Hamburg
+                        <hi rend="bold">Cantemir, Dimitrie,</hi> (1745) Geschichte des osmanischen Reichs nach seinem Anwachse und Abnehmen, 1745, Herold, Hamburg
                     </bibl>
                     <bibl>
-                        <hi>Pinkal, Manfred,</hi>(1981) Semantische Vagheit: Phänomene und Theorien, Teil I/II. In: Linguistische Berichte Nr. 7/72, Wiesbaden 1980/1981.
+                        <hi rend="bold">Pinkal, Manfred,</hi>(1981) Semantische Vagheit: Phänomene und Theorien, Teil I/II. In: Linguistische Berichte Nr. 7/72, Wiesbaden 1980/1981.
                     </bibl>
                     <bibl>
-                        <hi>Vertan, Cristina / von Hahn, Walther / Dinu, Anca</hi>
-                        <hi> (2017) On the annotation of vague expressions: a case study on Romanian historical texts, Proceedings of the first Workshop on Language Technology for Digital Humanities in Central and (South-) Eastern Europe, in association with RANL 2017, Varna</hi>
+                        <hi rend="bold color(111111)">Vertan, Cristina / von Hahn, Walther / Dinu, Anca</hi>
+                        <hi rend="color(111111)"> (2017) On the annotation of vague expressions: a case study on Romanian historical texts, Proceedings of the first Workshop on Language Technology for Digital Humanities in Central and (South-) Eastern Europe, in association with RANL 2017, Varna</hi>
                     </bibl>
                 </listBibl>
             </div>

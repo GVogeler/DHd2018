@@ -33,27 +33,27 @@
         </fileDesc>
         <encodingDesc>
             <appInfo>
-                <application>
+                <application ident="DHCONVALIDATOR" version="1.17">
                     <label>DHConvalidator</label>
                 </application>
             </appInfo>
         </encodingDesc>
         <profileDesc>
             <textClass>
-                <keywords>
+                <keywords scheme="ConfTool" n="category">
                     <term>Paper</term>
                 </keywords>
-                <keywords>
+                <keywords scheme="ConfTool" n="subcategory">
                     <term>Poster</term>
                 </keywords>
-                <keywords>
+                <keywords scheme="ConfTool" n="keywords">
                     <term>Brief</term>
                     <term>Editon</term>
                     <term>Einzelstellenkommentar</term>
                     <term>API</term>
                     <term>Annotation</term>
                 </keywords>
-                <keywords>
+                <keywords scheme="ConfTool" n="topics">
                     <term>Annotieren</term>
                     <term>Kommentierung</term>
                     <term>Infrastruktur</term>
@@ -68,43 +68,47 @@
         <body>
             <p>Vernetzung von Texten und anderen Ressourcen war und ist ein großes Versprechen des digitalen Zeitalters im Allgemeinen, aber auch der digitalen Editionsphilologie im Besonderen. Während man um 2000 darunter noch vorwiegend das manuelle Setzen von einzelnen Links verstand, wurde spätestens seit Beginn dieses Jahrzehnts die automatisierte Verknüpfung in den Blick genommen. So wurde in Portalen, Websites und auch digitalen Editionen (vornehmlich des deutschsprachigen Raums) die automatisierte Verlinkung von Personenregistereinträgen eingeführt, die mit Hilfe der Gemeinsamen Normdatei und von BEACON-Schnittstellen ermöglicht wird. Diese Vernetzung auf Basis von BEACON-Schnittstellen gehört heute zum Standard digitaler Editionen und ist nicht mehr wegzudenken (Stadler 2012). </p>
             <p>Mit den Fortschritten im Internet allgemein wuchs aber seit einigen Jahren der Wunsch, digitale Editionen über solche basalen Verlinkungen hinaus zu verknüpfen. Im Bereich der Briefeditionen z.B. wurde schon recht früh der Wunsch geäußert, Briefe editionsübergreifend durchsuchbar zu machen und zu vernetzen. Basis dafür sollten die in TEI-XML kodierten Briefmetadaten, also die wichtigsten Kopfdaten eines Briefes, sein. Mit Entwicklung des Correspondence Metadata Interchange Format (TEI Correspondence SIG 2015) und des da-rauf aufbauenden Webservices correspSearch (
-                <ref>http://correspSearch.net</ref>) konnte dies realisiert werden. Nicht nur können Briefeditionen jetzt digitale Briefverzeichnisse bereitstellen, die durch correspSearch zentral recherchierbar gemacht werden. Digitalen Briefeditionen ist es hier nun möglich, über die API von correspSearch Briefmetadaten zu beziehen und passend zu einem – in der eigenen Edition vorliegenden – Brief zu präsentieren (Dumont 2018). Damit werden schon einige methodische Probleme der Briefedition überwunden, andere bleiben hingegen noch offen.
+                <ref target="http://correspSearch.net">http://correspSearch.net</ref>) konnte dies realisiert werden. Nicht nur können Briefeditionen jetzt digitale Briefverzeichnisse bereitstellen, die durch correspSearch zentral recherchierbar gemacht werden. Digitalen Briefeditionen ist es hier nun möglich, über die API von correspSearch Briefmetadaten zu beziehen und passend zu einem – in der eigenen Edition vorliegenden – Brief zu präsentieren (Dumont 2018). Damit werden schon einige methodische Probleme der Briefedition überwunden, andere bleiben hingegen noch offen.
             </p>
             <p>So kann es vorkommen, dass ein Brief mehrfach ediert vorliegt. Diese Situation kann dadurch entstanden sein, dass ältere Editionen (etwa des 19. Jahrhunderts) durch zeitgemäße abgelöst werden. Sie kann aber auch dadurch aufgekommen sein, dass der Brief nicht in einer Briefwechselausgabe, sondern in zwei Gesamtausgaben erschienen ist: Einerseits in derjenigen Gesamtausgabe, die die Korrespondenz des Autors ediert, andererseits in derjenigen, die die Korrespondenz des Empfängers ediert. In so einem Fall entstehen zum einen Kommentierungen, die in beiden Editionen ähnlich vorgenommen werden (z.B. Identifizierung von Personen etc.). Zum anderen werden aber auch Kommentierungen vorgenommen, die aus der spezifischen Perspektive der Edition entstehen – d.h. mit Fokus auf diejenige Person, deren Korrespondenz ediert wird. Dadurch entstehen zwei Annotationslayer, die sich im Idealfall ergänzen. Die Einzelstellen(-kommentierung) aus der jeweils anderen Edition kann also u.U. äußerst wertvoll für einen Nutzer sein. </p>
             <p>In digitalen Briefeditionen besteht nun prinzipiell die Möglichkeit, Daten aus anderen digitalen Editionen bzw. Portalen zu integrieren. Anstelle eines einmaligen, manuellen Importes bzw. Übernahme dieser Daten, ist heutzutage deren automatisierter Abruf über ein Application Programming Interface (API) zu favorisieren. Daten aus externen Quellen können so schneller aggregiert, aktualisiert und zusammen mit den eigenen Forschungsdaten – hier: edierte Briefe – angeboten werden. Daher erscheint die Nutzung von APIs und standardisierten Datenformaten angeraten. Im Regelfall liegen Einzelstellenkommentare in digitalen Briefeditionen heutzutage als Bestandteil der TEI-XML-Dokumente vor (etwa im Element &lt;note&gt;). Sollen diese Kommentare allerdings über eine Schnittstelle zur freien Nachnutzung durch externe Editionen angeboten werden, müssen sie deutlich mehr Informationen tragen, als im Kontext der Edition – nämlich Metadaten (Autor des Kommentars, Bezugstext etc.). Auch eine Übermittlung des ganzen Briefes mitsamt seinen Einzelstellenerläuterungen ist nicht gewünscht, liegt der Text doch gerade im hier geschilderten Fall bereits vor. </p>
             <p>In Betracht kommt daher ein Datenformat, dass dediziert für den Austausch und die Aggregation von Kommentaren, also vorwiegend textuell vorliegender Annotation, konzipiert ist. Zwar wäre es möglich ein solches Format in TEI-XML neu zu definieren, allerdings gibt es für diesen Bereich bereits einen Standard, der auch schon breite Anwendung findet: das Web Annotation Data Model (Sanderson, Ciccarese, und Young 2017). Es ist für genau dieses Nutzungsszenario – Austausch von Kommentaren – konzipiert und durch das W3C standardisiert. Es wird daher auch von DARIAH-DE empfohlen (Lordick u. a. 2016). </p>
             <p>Das Poster stellt nun anhand eines Beispiels diesen Ansatz exemplarisch vor und demonstriert seinen Nutzen. Als Beispiel ist der überlieferte Briefwechsel zwischen Alexander von Humboldt und Samuel Thomas Soemmerring gewählt, der zum einen in 
-                <hi>edition humboldt digital</hi> (
-                <ref>http://edition-humboldt.de</ref>) vorliegt, zum anderen in einer (derzeit noch unveröffentlichten) digitalen Edition zu Soemmerrings Biographica. Konkret sieht die Implementierung so aus: Einzelstellenerläuterungen aus der Soemmerring-Edition, die ursprünglich als TEI-XML vorliegen, werden über eine API im Web Annotation Data Model angeboten. Diese API wird von correspSearch abgefragt und die Daten aggregiert. Andere digitale Editionen, hier beispielhaft die 
-                <hi>edition humboldt digital</hi>, können anhand einer Kalliope-URI, also der eindeutigen und maschinenlesbaren Archivkennung, den Webservice correspSearch auf Annotationen zu einem bestimmten Brief hin abfragen. Im Erfolgsfall werden die Annotationen ausgeliefert und in der 
-                <hi>edition humboldt digital</hi> am Brief angezeigt (mit Quelle, Autor etc.). 
+                <hi rend="italic">edition humboldt digital</hi> (
+                <ref target="http://edition-humboldt.de">http://edition-humboldt.de</ref>) vorliegt, zum anderen in einer (derzeit noch unveröffentlichten) digitalen Edition zu Soemmerrings Biographica. Konkret sieht die Implementierung so aus: Einzelstellenerläuterungen aus der Soemmerring-Edition, die ursprünglich als TEI-XML vorliegen, werden über eine API im Web Annotation Data Model angeboten. Diese API wird von correspSearch abgefragt und die Daten aggregiert. Andere digitale Editionen, hier beispielhaft die 
+                <hi rend="italic">edition humboldt digital</hi>, können anhand einer Kalliope-URI, also der eindeutigen und maschinenlesbaren Archivkennung, den Webservice correspSearch auf Annotationen zu einem bestimmten Brief hin abfragen. Im Erfolgsfall werden die Annotationen ausgeliefert und in der 
+                <hi rend="italic">edition humboldt digital</hi> am Brief angezeigt (mit Quelle, Autor etc.). 
             </p>
             <p>Das Poster stellt nicht nur Konzept und Implementierung vor, sondern diskutiert auch die noch offenen Probleme einer solchen API, wie z.B. die korrekte und stabile Referenzierung des Bezugstextes (d.h. der kommentierten Textstelle).</p>
             <figure>
-                <graphic/>
+                <graphic n="1001"
+                     width="16.002cm"
+                     height="12.1285cm"
+                     rend="inline"
+                     url="../images/DUMONT_Stefan_Ein_Brief___zwei_Perspektiven__Stellenkommenta.xml-image1.png"/>
             </figure>
             <p>Beispielhafte Implementierung in der Entwicklungsversion von 
-                <hi>edition humboldt digital</hi>
+                <hi rend="italic">edition humboldt digital</hi>
             </p>
         </body>
         <back>
-            <div>
+            <div type="bibliogr">
                 <listBibl>
                     <head>Bibliographie</head>
                     <bibl>
-                        <hi>Dumont, Stefan.</hi> 2018. „CorrespSearch – Connecting Scholarly Editions of Letters“. Journal of the Text Encoding Initiative 10. [Im Erscheinen].
+                        <hi rend="bold">Dumont, Stefan.</hi> 2018. „CorrespSearch – Connecting Scholarly Editions of Letters“. Journal of the Text Encoding Initiative 10. [Im Erscheinen].
                     </bibl>
                     <bibl>
-                        <hi>Lordick, Harald, Rainer Becker, Michael Bender, Luise Borek, Canan Hastik, Thomas Kollatz, Beata Mache, Andrea Rapp, Ruth Reiche, und Niels-Oliver Walkowski.</hi> 2016. „Digitale Annotationen in der geisteswissenschaftlichen Praxis“. Bibliothek Forschung und Praxis 40 (2): 186–199. doi:10.1515/bfp-2016-0042.
+                        <hi rend="bold">Lordick, Harald, Rainer Becker, Michael Bender, Luise Borek, Canan Hastik, Thomas Kollatz, Beata Mache, Andrea Rapp, Ruth Reiche, und Niels-Oliver Walkowski.</hi> 2016. „Digitale Annotationen in der geisteswissenschaftlichen Praxis“. Bibliothek Forschung und Praxis 40 (2): 186–199. doi:10.1515/bfp-2016-0042.
                     </bibl>
                     <bibl>
-                        <hi>Sanderson, Robert, Paolo Ciccarese, und Benjamin Young</hi>. 2017. „Web Annotation Data Model. W3C Recommendation“. W3C. https://www.w3.org/TR/annotation-model/.
+                        <hi rend="bold">Sanderson, Robert, Paolo Ciccarese, und Benjamin Young</hi>. 2017. „Web Annotation Data Model. W3C Recommendation“. W3C. https://www.w3.org/TR/annotation-model/.
                     </bibl>
                     <bibl>
-                        <hi>Stadler, Peter.</hi> 2012. „Normdateien in der Edition“. editio 26: 174–83.
+                        <hi rend="bold">Stadler, Peter.</hi> 2012. „Normdateien in der Edition“. editio 26: 174–83.
                     </bibl>
                     <bibl>
-                        <hi>TEI Correspondence SIG.</hi> 2015. „Correspondence Metadata Interchange Format (CMIF)“. https://github.com/TEI-Correspondence-SIG/CMIF.
+                        <hi rend="bold">TEI Correspondence SIG.</hi> 2015. „Correspondence Metadata Interchange Format (CMIF)“. https://github.com/TEI-Correspondence-SIG/CMIF.
                     </bibl>
                 </listBibl>
             </div>

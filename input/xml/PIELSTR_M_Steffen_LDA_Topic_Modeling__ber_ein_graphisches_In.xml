@@ -3,9 +3,9 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>
-                    <title>LDA Topic Modeling über ein graphisches Interface</title>
-                    <title/>
+                <title type="full">
+                    <title type="main">LDA Topic Modeling über ein graphisches Interface</title>
+                    <title type="sub"/>
                 </title>
                 <author>
                     <persName>
@@ -52,24 +52,24 @@
         </fileDesc>
         <encodingDesc>
             <appInfo>
-                <application>
+                <application ident="DHCONVALIDATOR" version="1.17">
                     <label>DHConvalidator</label>
                 </application>
             </appInfo>
         </encodingDesc>
         <profileDesc>
             <textClass>
-                <keywords>
+                <keywords scheme="ConfTool" n="category">
                     <term>Paper</term>
                 </keywords>
-                <keywords>
+                <keywords scheme="ConfTool" n="subcategory">
                     <term>Poster</term>
                 </keywords>
-                <keywords>
+                <keywords scheme="ConfTool" n="keywords">
                     <term>Topic Modeling</term>
                     <term>Python</term>
                 </keywords>
-                <keywords>
+                <keywords scheme="ConfTool" n="topics">
                     <term>Inhaltsanalyse</term>
                     <term>Modellierung</term>
                     <term>Visualisierung</term>
@@ -80,72 +80,72 @@
     <text>
         <body>
             <p>
-                <anchor/>LDA (Latent Dirichlet Allocation) Topic Modeling ist ein computergestütztes Verfahren zur semantischen Analyse digitaler Textsammlungen. Hierbei werden mit Hilfe eines probabilistischen Verfahrens aus Texten eine Reihe sogenannter “Topics” generiert: Gruppen semantisch ähnlicher Begriffe, die über mehrere Texte gemeinsam auftreten und im Modell als Wahrscheinlichkeitsverteilungen über die Gesamtheit des analysierten Vokabulars repräsentiert werden. Das heißt, daß zum Beispiel in einem Topic zum Thema Seefahrt nautische Begriffe besonders hohe Wahrscheinlichkeiten haben (Blei 2012, Steyvers und Griffiths 2006).
+                <anchor xml:id="id_docs-internal-guid-2033756f-ba92-c518-3bed-9e08eaf11c1e"/>LDA (Latent Dirichlet Allocation) Topic Modeling ist ein computergestütztes Verfahren zur semantischen Analyse digitaler Textsammlungen. Hierbei werden mit Hilfe eines probabilistischen Verfahrens aus Texten eine Reihe sogenannter “Topics” generiert: Gruppen semantisch ähnlicher Begriffe, die über mehrere Texte gemeinsam auftreten und im Modell als Wahrscheinlichkeitsverteilungen über die Gesamtheit des analysierten Vokabulars repräsentiert werden. Das heißt, daß zum Beispiel in einem Topic zum Thema Seefahrt nautische Begriffe besonders hohe Wahrscheinlichkeiten haben (Blei 2012, Steyvers und Griffiths 2006).
             </p>
             <p>In den letzten Jahren ist das Interesse an LDA als Verfahren für die Analyse literarischer Textcorpora auf Seiten der digitalen Geisteswissenschaften stark gestiegen. Im Kontrast zu diesem gesteigerten Interesse ist die Anwendung der Methode allerdings nicht wesentlich leichter geworden. Gängige Implementierungen des LDA-Algorithmus werden entweder über ein kommandozeilenbasiertes Java-Programm (MALLET von McCallum 2002) oder über Skripte in der Programmiersprache Python (Gensim von Rehurek und Sojka 2010) angesprochen. Die Aufbereitung der Daten vor dem Topic Modeling, das sog. “Preprocessing” und die Analyse der Ergebnisse hinterher geschieht dann zumindest in Teilen häufig unter Verwendung weiterer Programme bzw. Arbeitsumgebungen. Alles in allem erfordert die Durchführung einer LDA-basierten Inhaltsanalyse damit zur Zeit relativ umfangreiche technische Kenntnisse.</p>
             <p>
-                <hi>Um den Zugang zu dieser Methode zu erleichtern entwickeln wir im Rahmen von DARIAH-DE (https://de.dariah.eu/) zur Zeit eine ausführlich dokumentierte Python-Programmbibliothek, die es ermöglichen soll, den gesamten Arbeitsprozess einer LDA-basierten Analyse in einer einzigen Umgebung durchzuführen (</hi>
-                <ptr/>
-                <hi>). Neben der Schaffung integrierter, flexibler Arbeitsabläufe, die vollständig in einer Programmiersprache und Umgebung stattfinden können,  wollen wir auch Forscherinnen und Forschern ohne vorherige Programmierkenntnisse eine Möglichkeit zu bieten, Topic Modeling als Ve</hi>
-                <hi>r</hi>
-                <hi>fahren kennen zu lernen und an eigenen Daten auszuprobieren.</hi>
+                <hi rend="color(#000000)">Um den Zugang zu dieser Methode zu erleichtern entwickeln wir im Rahmen von DARIAH-DE (https://de.dariah.eu/) zur Zeit eine ausführlich dokumentierte Python-Programmbibliothek, die es ermöglichen soll, den gesamten Arbeitsprozess einer LDA-basierten Analyse in einer einzigen Umgebung durchzuführen (</hi>
+                <ptr target="https://github.com/DARIAH-DE/Topics"/>
+                <hi rend="color(#000000)">). Neben der Schaffung integrierter, flexibler Arbeitsabläufe, die vollständig in einer Programmiersprache und Umgebung stattfinden können,  wollen wir auch Forscherinnen und Forschern ohne vorherige Programmierkenntnisse eine Möglichkeit zu bieten, Topic Modeling als Ve</hi>
+                <hi rend="color(#000000)">r</hi>
+                <hi rend="color(#000000)">fahren kennen zu lernen und an eigenen Daten auszuprobieren.</hi>
             </p>
             <p>
-                <hi>Um einen leichtgewichtigen Einstieg in diese Thematik zu bieten haben wir auf Basis unserer Programmbibliothek, der Python-nativen LDA-Implementierung von Allan Riddell (https://pypi.python.org/pypi/lda) und dem Python-Microframework “Flask” (</hi>
-                <ptr/>
-                <hi>) einen sogenannten GUI-Demonstrator entwickelt (Abb. 1). Dabei handelt es sich um eine browserbasierte graphische Benutzeroberfläche für die DARIAH-Topics Bibliothek, mit der sich ein basaler Topic-Modeling Analysevorgang lokal, mit eigenen Daten, aber eben ohne jegliche Programmierkenntnisse durchführen lässt.</hi>
+                <hi rend="color(#000000)">Um einen leichtgewichtigen Einstieg in diese Thematik zu bieten haben wir auf Basis unserer Programmbibliothek, der Python-nativen LDA-Implementierung von Allan Riddell (https://pypi.python.org/pypi/lda) und dem Python-Microframework “Flask” (</hi>
+                <ptr target="http://flask.pocoo.org/"/>
+                <hi rend="color(#000000)">) einen sogenannten GUI-Demonstrator entwickelt (Abb. 1). Dabei handelt es sich um eine browserbasierte graphische Benutzeroberfläche für die DARIAH-Topics Bibliothek, mit der sich ein basaler Topic-Modeling Analysevorgang lokal, mit eigenen Daten, aber eben ohne jegliche Programmierkenntnisse durchführen lässt.</hi>
             </p>
             <p>Der GUI-Demonstrator übernimmt und erklärt hierbei exemplarisch alle Arbeitsschritte einer einfachen Analyse. Zunächst werden Textdateien über ein Auswahlmenü eingelesen und tokenisiert. Nutzerinnen und Nutzer können zur Reduktion des Vokabulars auf die Funktionswörter vorgeben, wie viele der häufigsten Wörter aus den Texten entfernt werden sollen, oder alternativ über ein weiteres Auswahlmenü eine externe Stopwortliste einbinden. Die Anzahl der zu berechnenden Topics und die Zahl der Iterationen, über die die Berechnung durchgeführt werden soll, ein Faktor, der die Qualität der Ergebnisse entscheidend beeinflusst, können ebenfalls über das Interface gesteuert werden. In der derzeitigen Form generiert das Programm als Output eine Tabelle mit den zehn am stärksten gewichteten Wörtern in jedem Topic, sowie ein Heatmap als Übersicht über die Verteilung der Topics über die Texte.</p>
             <p>
-                <hi>Im Fokus der gegenwärtigen Weiterentwicklung steht die Gestaltung interaktiver Outputs mit Hilfe von Bokeh (</hi>
-                <ptr/>
-                <hi>), die einen flexibleren Zugriff auf eine größere Zahl von Aspekten der Modellierungsergebnisse ermöglichen sollen.</hi>
+                <hi rend="color(#000000)">Im Fokus der gegenwärtigen Weiterentwicklung steht die Gestaltung interaktiver Outputs mit Hilfe von Bokeh (</hi>
+                <ptr target="https://bokeh.pydata.org/"/>
+                <hi rend="color(#000000)">), die einen flexibleren Zugriff auf eine größere Zahl von Aspekten der Modellierungsergebnisse ermöglichen sollen.</hi>
             </p>
             <p>Das Ziel dieser Entwicklung bleibt aber in erster Linie ein didaktisches: Der GUI-Demonstrator führt die  grundsätzlichen Möglichkeiten der Methode vor und informiert gleichzeitig über die Abläufe im Hintergrund, so dass der Schritt hin zur Verwendung der gleichen Funktionalitäten in einem vorbereiteten Notebook mit interaktiven Codeblöcken, das schnell an die spezifischen Bedürfnisse eine bestimmten Forschungsfrage angepasst werden kann, nur noch klein ist.</p>
             <p>
                 <figure>
-                    <graphic/>
+                    <graphic url="../images/PIELSTR_M_Steffen_LDA_Topic_Modeling__ber_ein_graphisches_In.xml-10000201000004B50000038C09038E5B.png"/>
                 </figure>
             </p>
             <p>Abbildung 1.: Screenshot</p>
         </body>
         <back>
-            <div>
+            <div type="bibliogr">
                 <listBibl>
                     <head>Bibliographie</head>
                     <bibl>
-                        <anchor/>
-                        <hi>Blei, David M.</hi>
-                        <hi> </hi>
-                        <hi>(2012): „Probabilistic Topic Models“, in </hi>
-                        <hi>Communication of the ACM</hi>
-                        <hi> </hi>
-                        <hi>55, Nr. 4 (2012): 77–84. doi:10.1145/2133806.2133826.</hi>
+                        <anchor xml:id="id_docs-internal-guid-2033756f-ba93-21db-bc18-ce75d429b064"/>
+                        <hi rend="color(#000000)bold">Blei, David M.</hi>
+                        <hi rend="color(#000000)"> </hi>
+                        <hi rend="color(#000000)">(2012): „Probabilistic Topic Models“, in </hi>
+                        <hi rend="color(#000000)italic">Communication of the ACM</hi>
+                        <hi rend="color(#000000)"> </hi>
+                        <hi rend="color(#000000)">55, Nr. 4 (2012): 77–84. doi:10.1145/2133806.2133826.</hi>
                     </bibl>
                     <bibl>
-                        <hi>McCallum, Andrew K.</hi>
-                        <hi> </hi>
-                        <hi>(2002): </hi>
-                        <hi>MALLET : A Machine Learning for Language Toolkit</hi>
-                        <hi>. </hi>
-                        <ref>
-                            <hi>http://mallet.cs.umass.edu</hi>
+                        <hi rend="color(#000000)bold">McCallum, Andrew K.</hi>
+                        <hi rend="color(#000000)"> </hi>
+                        <hi rend="color(#000000)">(2002): </hi>
+                        <hi rend="color(#000000)italic">MALLET : A Machine Learning for Language Toolkit</hi>
+                        <hi rend="color(#000000)">. </hi>
+                        <ref target="http://mallet.cs.umass.edu/">
+                            <hi rend="color(#000000)underline">http://mallet.cs.umass.edu</hi>
                         </ref>
-                        <hi>.</hi>
+                        <hi rend="color(#000000)">.</hi>
                     </bibl>
                     <bibl>
-                        <hi>Rehurek, Radim/ Sojka, Petr</hi>
-                        <hi> </hi>
-                        <hi>(2010): "Software framework for topic modelling with large corpora." </hi>
-                        <hi>In Proceedings of the LREC 2010 Workshop on New Challenges for NLP Frameworks</hi>
-                        <hi>.</hi>
+                        <hi rend="color(#000000) background-color(#ffffff)bold">Rehurek, Radim/ Sojka, Petr</hi>
+                        <hi rend="color(#000000) background-color(#ffffff)"> </hi>
+                        <hi rend="color(#000000) background-color(#ffffff)">(2010): "Software framework for topic modelling with large corpora." </hi>
+                        <hi rend="color(#000000) background-color(#ffffff)italic">In Proceedings of the LREC 2010 Workshop on New Challenges for NLP Frameworks</hi>
+                        <hi rend="color(#000000) background-color(#ffffff)">.</hi>
                     </bibl>
                     <bibl>
-                        <hi>Steyvers, Mark/ Griffiths, Tom</hi>
-                        <hi> </hi>
-                        <hi>(2006): „Probabilistic Topic Models“, in </hi>
-                        <hi>Latent Semantic Analysis: A Road to Meaning</hi>
-                        <hi>, herausgegeben von T. Landauer, D. McNamara, S. Dennis, und W. Kintsch. Laurence Erlbaum.</hi>
+                        <hi rend="color(#000000)bold">Steyvers, Mark/ Griffiths, Tom</hi>
+                        <hi rend="color(#000000)"> </hi>
+                        <hi rend="color(#000000)">(2006): „Probabilistic Topic Models“, in </hi>
+                        <hi rend="color(#000000)italic">Latent Semantic Analysis: A Road to Meaning</hi>
+                        <hi rend="color(#000000)">, herausgegeben von T. Landauer, D. McNamara, S. Dennis, und W. Kintsch. Laurence Erlbaum.</hi>
                     </bibl>
                 </listBibl>
             </div>

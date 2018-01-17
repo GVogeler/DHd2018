@@ -49,27 +49,27 @@
         </fileDesc>
         <encodingDesc>
             <appInfo>
-                <application>
+                <application ident="DHCONVALIDATOR" version="1.17">
                     <label>DHConvalidator</label>
                 </application>
             </appInfo>
         </encodingDesc>
         <profileDesc>
             <textClass>
-                <keywords>
+                <keywords scheme="ConfTool" n="category">
                     <term>Paper</term>
                 </keywords>
-                <keywords>
+                <keywords scheme="ConfTool" n="subcategory">
                     <term>Poster</term>
                 </keywords>
-                <keywords>
+                <keywords scheme="ConfTool" n="keywords">
                     <term>sonnet</term>
                     <term>corpus</term>
                     <term>Spanish</term>
                     <term>TEI</term>
                     <term>verse</term>
                 </keywords>
-                <keywords>
+                <keywords scheme="ConfTool" n="topics">
                     <term>Sammlung</term>
                     <term>Programmierung</term>
                     <term>Annotieren</term>
@@ -82,12 +82,12 @@
     </teiHeader>
     <text>
         <body>
-            <div>
+            <div type="div1" rend="DH-Heading1">
                 <head>Introduction</head>
                 <p>
-                    <hi>This poster presents a corpus of 19th-century sonnets in Spanish in XML-TEI (685 authors, 2677 sonnets). It includes well-known authors, but also less canonized authors. Texts and authors are enriched with identifiers and metadata. See </hi>
-                    <ref>
-                        <hi>https://github.com/pruizf/disco</hi>
+                    <hi rend="italic">This poster presents a corpus of 19th-century sonnets in Spanish in XML-TEI (685 authors, 2677 sonnets). It includes well-known authors, but also less canonized authors. Texts and authors are enriched with identifiers and metadata. See </hi>
+                    <ref target="https://github.com/pruizf/disco">
+                        <hi rend="italic">https://github.com/pruizf/disco</hi>
                     </ref>
                 </p>
                 <p>A fundamental difficulty for Digital Humanities studies on Spanish literature is a scarcity of digital resources (Agenjo, 2015). </p>
@@ -95,9 +95,9 @@
                 <p>Regarding 19th-century Spanish literature, available collections covering different genres are Textbox (Schöch et al., 2015), BETTE (Santa María Fernández, 2017), Aracne (Álvarez-Mellado and Martín-Fuertes, 2015), and Revistas Culturales 2.0 (Ehrlicher and Rißler-Pipka, 2015). Nevertheless, none of these projects are working on poetry. </p>
                 <p>DISCO complements this growing ecosystem by adding a meaningful representation of 19th-century sonnets, with more periods under validation, to be published shortly.</p>
             </div>
-            <div>
+            <div type="div1" rend="DH-Heading1">
                 <head>Corpus description</head>
-                <div>
+                <div type="div2" rend="DH-Heading2">
                     <head>What is DISCO</head>
                     <p>Our corpus collects 2677 sonnets in Spanish from the 19th century, by 685 authors (Spain or Latin America). It intends to provide a wide sample, inspired by distant reading approaches (Moretti, 2005). The raw texts were extracted from Biblioteca Virtual Miguel de Cervantes (1999), which contains an anthology (Garcia, 2006) of 19th century sonnets covering both well-known and non-canonical authors. We used an anthology in order to have external scholarly criteria for the literary relevance of the corpus texts. </p>
                     <p>The texts have been encoded in XML-TEI P5, given this standard’s benefits in terms of reuse, storage and retrieval. Author metadata have been extracted or inferred from unstructured content in the sources, and placed in the TEIheader (year, place of birth and death, and gender). Two versions of the texts are available: one collecting every sonnet per author, the other encoding a single sonnet per file. For corpus preparation, we closely followed the TEI guidelines and RIDE’s criteria for Digital Text Collections (Henny and Neuber, 2017).</p>
@@ -105,109 +105,109 @@
                     <p>The metadata we added allow users to create subcorpora, such as “female authors from Cuba born in the first half of the 19th century”.</p>
                     <p>We have also obtained sonnets from other centuries, since the 15th century to the present. These are under validation and will be published shortly within the DISCO corpus, which intends to give a wide perspective on the sonnet in Spanish diachronically.</p>
                 </div>
-                <div>
+                <div type="div2" rend="DH-Heading2">
                     <head>Why sonnets</head>
                     <p>The sonnet has had great importance in European poetry; the relevance of the corpus for literary scholarship is guaranteed. It is a "manageable" form to treat computationally, obeying clear restrictions. Variability stays within bounds, making meaningful comparison across poems easier, regarding scansion or rhyme types. Besides, some digital collections of sonnets already exist (with different features to ours, as discussed below) as well as automatic analyses of this form. The sonnet has received attention from the computational linguistics community (Navarro-Colorado et al, 2015, 2016, 2017; Agirrezabal, 2017) including the ADSO project (Navarro-Colorado 2017). The DISCO corpus will also be useful for that audience. For these reasons, a new sonnet corpus allows us to engage in a dialogue with earlier work in traditional literary studies, in digital corpus development, and in computational poetry analyses. </p>
                     <p>Concerning digitally available sonnet corpora, Sonnet-Archiv (Elf Edition) is organized as a forum, and its coverage is less wide than ours. The “Sonnet Library” (Biblioteca Virtual Miguel de Cervantes, 2007) is organized alphabetically, rather than using meaningful criteria for literary scholarship, like periods. Both are traditional websites. Finally, the Corpus of Spanish Golden Age Sonnets (Navarro-Colorado et al., 2015) covers major authors from the 15th to the 17th century, with an automatic metrical annotation. Author metadata in these corpora are very limited and unavailable in a machine-readable format (see Calvo Tello, 2017, for discussion of related issues). With the DISCO corpus, we are offering a wider period and author range, from major to minor authors, encoded in XML-TEI, available as repository, with richer structured and standard metadata.</p>
                 </div>
             </div>
-            <div>
+            <div type="div1" rend="DH-Heading1">
                 <head>Conclusion</head>
                 <p>With the DISCO corpus, while focusing on sonnets, we intend to increase available digital resources in Spanish poetry, by addressing additional periods, covering minor as well as canonical authors, and including materials from several Spanish-speaking countries. Choosing the sonnet complements existing work on this form, in traditional and computational literary studies. TEI was adopted in order to serve the large community using this format. The corpus can be made available as linked open data as it includes VIAF IDs. It is published at 
-                    <ref>https://github.com/pruizf/disco</ref> and 
-                    <ref>https://doi.org/10.5281/zenodo.1012567</ref>.
+                    <ref target="https://github.com/pruizf/disco">https://github.com/pruizf/disco</ref> and 
+                    <ref target="https://doi.org/10.5281/zenodo.1012567">https://doi.org/10.5281/zenodo.1012567</ref>.
                 </p>
             </div>
-            <div>
+            <div type="div1" rend="DH-Heading1">
                 <head>Acknowledgements</head>
                 <p>The work was supported by Starting Grant ERC-2015-STG-679528 
-                    <ref>POSTDATA</ref>, PI Elena González-Blanco. We also thank Helena Bermúdez from the LINHD-UNED lab for later contributions to the corpus.
+                    <ref target="http://postdata.linhd.es/">POSTDATA</ref>, PI Elena González-Blanco. We also thank Helena Bermúdez from the LINHD-UNED lab for later contributions to the corpus.
                 </p>
             </div>
         </body>
         <back>
-            <div>
+            <div type="bibliogr">
                 <listBibl>
                     <head>Bibliography</head>
                     <bibl>
-                        <hi>Agenjo, Xavier</hi> (2015): “Las bibliotecas virtuales españolas y el tratamiento textual de los recursos bibliográficos”, in Ínsula: revista de letras y ciencias humanas 822: 12–15.
+                        <hi rend="bold">Agenjo, Xavier</hi> (2015): “Las bibliotecas virtuales españolas y el tratamiento textual de los recursos bibliográficos”, in Ínsula: revista de letras y ciencias humanas 822: 12–15.
                     </bibl>
                     <bibl>
-                        <hi>Agirrezabal, Manex</hi> (2017): Automatic Scansion of Poetry. PhD Thesis. University of the Basque Country.
+                        <hi rend="bold">Agirrezabal, Manex</hi> (2017): Automatic Scansion of Poetry. PhD Thesis. University of the Basque Country.
                     </bibl>
                     <bibl>
-                        <hi>Álvarez Mellado, Elena / Martín-Fuertes, Leticia</hi> (2015): Aracne Project [online]. Available at: http://www.fundeu.es/aracne/ [Accessed 22 Sep. 2017].
+                        <hi rend="bold">Álvarez Mellado, Elena / Martín-Fuertes, Leticia</hi> (2015): Aracne Project [online]. Available at: http://www.fundeu.es/aracne/ [Accessed 22 Sep. 2017].
                     </bibl>
                     <bibl>
-                        <hi>Biblioteca Virtual Miguel de Cervantes</hi> (1999): Biblioteca Virtual Miguel de Cervantes [online]. Available at: 
-                        <ref>http://www.cervantesvirtual.com/</ref> [Accessed 22 Sep. 2017].
+                        <hi rend="bold">Biblioteca Virtual Miguel de Cervantes</hi> (1999): Biblioteca Virtual Miguel de Cervantes [online]. Available at: 
+                        <ref target="http://www.cervantesvirtual.com/">http://www.cervantesvirtual.com/</ref> [Accessed 22 Sep. 2017].
                     </bibl>
                     <bibl>
-                        <hi>Biblioteca Virtual Miguel de Cervantes</hi> (2007): Biblioteca del Soneto [Sonnet Library] [online]. Available at: 
-                        <ref>http://www.cervantesvirtual.com/bib/portal/bibliotecasoneto/</ref> [Accessed 22 Sep. 2017].
+                        <hi rend="bold">Biblioteca Virtual Miguel de Cervantes</hi> (2007): Biblioteca del Soneto [Sonnet Library] [online]. Available at: 
+                        <ref target="http://www.cervantesvirtual.com/bib/portal/bibliotecasoneto/">http://www.cervantesvirtual.com/bib/portal/bibliotecasoneto/</ref> [Accessed 22 Sep. 2017].
                     </bibl>
                     <bibl>
-                        <hi>Calvo Tello, José</hi>. (2017). Review of Corpus of Spanish Golden Age Sonnets by Borja Navarro Colorado, María Ribes Lafoz and Noelia Sánchez (ed.), in RIDE, 6. Institut für Dokumentologie und Editorik, Köln. [Online]. Available at: http://ride.i-d-e.de/issue-6/corpus-of-spanish-golden-age-sonnets/ [Accessed 22 Sep. 2017].
+                        <hi rend="bold">Calvo Tello, José</hi>. (2017). Review of Corpus of Spanish Golden Age Sonnets by Borja Navarro Colorado, María Ribes Lafoz and Noelia Sánchez (ed.), in RIDE, 6. Institut für Dokumentologie und Editorik, Köln. [Online]. Available at: http://ride.i-d-e.de/issue-6/corpus-of-spanish-golden-age-sonnets/ [Accessed 22 Sep. 2017].
                     </bibl>
                     <bibl>
-                        <hi>Ehrlicher, Hanno / Rißler-Pipka, Nanette</hi> (2015). Revistas Culturales 2.0. Augsburg: Universität Augsburg. [Online]. Available at: 
-                        <ref>https://www.revistas-culturales.de/es</ref> [Accessed 22 Sep. 2017].
+                        <hi rend="bold">Ehrlicher, Hanno / Rißler-Pipka, Nanette</hi> (2015). Revistas Culturales 2.0. Augsburg: Universität Augsburg. [Online]. Available at: 
+                        <ref target="https://www.revistas-culturales.de/es">https://www.revistas-culturales.de/es</ref> [Accessed 22 Sep. 2017].
                     </bibl>
                     <bibl>
-                        <hi>Elf Edition</hi>: Sonett-Archiv [online]. Available at: http://sonett-archiv.com [Accessed 22 Sep. 2017].
+                        <hi rend="bold">Elf Edition</hi>: Sonett-Archiv [online]. Available at: http://sonett-archiv.com [Accessed 22 Sep. 2017].
                     </bibl>
                     <bibl>
-                        <hi>Escribano, Juanjo / González-Blanco, Elena / Río Riande, Gimena del</hi> (2016). PoeMetCa—Recursos digitales para el estudio de la Poesía Medieval Castellana. [Online]. Available at: 
-                        <ref>http://poemteca.linhd.es</ref> [Accessed 22 Sep. 2017].
+                        <hi rend="bold">Escribano, Juanjo / González-Blanco, Elena / Río Riande, Gimena del</hi> (2016). PoeMetCa—Recursos digitales para el estudio de la Poesía Medieval Castellana. [Online]. Available at: 
+                        <ref target="http://poemteca.linhd.es">http://poemteca.linhd.es</ref> [Accessed 22 Sep. 2017].
                     </bibl>
                     <bibl>
-                        <hi>Gago Jover, Francisco</hi> (2015): “La biblioteca digital de textos del español antiguo (BiDTEA), in Scriptum Digital 4: 5–36.
+                        <hi rend="bold">Gago Jover, Francisco</hi> (2015): “La biblioteca digital de textos del español antiguo (BiDTEA), in Scriptum Digital 4: 5–36.
                     </bibl>
                     <bibl>
-                        <hi>García González, Ramón</hi> (2006): Sonetos del siglo XIX. Biblioteca Virtual Miguel de Cervantes, Alicante. [Online]. Available at: 
-                        <ref>http://www.cervantesvirtual.com/obra-visor/sonetos-del-siglo-xix--0/html/</ref> [Accessed 26 Nov. 2017
-                        <hi>]</hi>
+                        <hi rend="bold">García González, Ramón</hi> (2006): Sonetos del siglo XIX. Biblioteca Virtual Miguel de Cervantes, Alicante. [Online]. Available at: 
+                        <ref target="http://www.cervantesvirtual.com/obra-visor/sonetos-del-siglo-xix--0/html/">http://www.cervantesvirtual.com/obra-visor/sonetos-del-siglo-xix--0/html/</ref> [Accessed 26 Nov. 2017
+                        <hi rend="bold">]</hi>
                     </bibl>
                     <bibl>
-                        <hi>González-Blanco, Elena / Rodríguez, José Luis</hi> (2014): “ReMetCa: A Proposal for Integrating RDBMS and TEI-Verse”, in Journal of the Text Encoding Initiative 8 [online]. Available at: 
-                        <ref>https://jtei.revues.org/1274</ref> [Accessed 22 Sep. 2017], doi:10.4000/jtei.1274.
+                        <hi rend="bold">González-Blanco, Elena / Rodríguez, José Luis</hi> (2014): “ReMetCa: A Proposal for Integrating RDBMS and TEI-Verse”, in Journal of the Text Encoding Initiative 8 [online]. Available at: 
+                        <ref target="https://jtei.revues.org/1274">https://jtei.revues.org/1274</ref> [Accessed 22 Sep. 2017], doi:10.4000/jtei.1274.
                     </bibl>
                     <bibl>
-                        <hi>Henny, Ulrike / Neuber, Frederike</hi> (2017): “Criteria for Reviewing Digital Text Collections, version 1.0”. IDE, Institut for Dokumentologie und Editorik, [online]. Available at: 
-                        <ref>https://www.i-d-e.de/publikationen/weitereschriften/criteria-text-collections-version-1-0/</ref> [Accessed 22 Sep. 2017].
+                        <hi rend="bold">Henny, Ulrike / Neuber, Frederike</hi> (2017): “Criteria for Reviewing Digital Text Collections, version 1.0”. IDE, Institut for Dokumentologie und Editorik, [online]. Available at: 
+                        <ref target="https://www.i-d-e.de/publikationen/weitereschriften/criteria-text-collections-version-1-0/">https://www.i-d-e.de/publikationen/weitereschriften/criteria-text-collections-version-1-0/</ref> [Accessed 22 Sep. 2017].
                     </bibl>
                     <bibl>
-                        <hi>Marcos Marín, Francisco / Faulhaber, Charles B. (coord.)</hi> (1992): ADMYTE. Archivo Digital de Manuscritos y Textos Españoles, in 
-                        <ref>http://www.admyte.com/admyteonline/contenido.htm</ref> [Accessed 22 Sep. 2017].
+                        <hi rend="bold">Marcos Marín, Francisco / Faulhaber, Charles B. (coord.)</hi> (1992): ADMYTE. Archivo Digital de Manuscritos y Textos Españoles, in 
+                        <ref target="http://www.admyte.com/admyteonline/contenido.htm">http://www.admyte.com/admyteonline/contenido.htm</ref> [Accessed 22 Sep. 2017].
                     </bibl>
                     <bibl>
-                        <hi>Moretti, Franco</hi> (2005): Graphs, Maps, Trees: Abstract Models for a Literary History. London and New York: Verso.
+                        <hi rend="bold">Moretti, Franco</hi> (2005): Graphs, Maps, Trees: Abstract Models for a Literary History. London and New York: Verso.
                     </bibl>
                     <bibl>
-                        <hi>Navarro-Colorado, Borja</hi> (2015): A computational linguistic approach to Spanish Golden Age Sonnets: metrical and semantic aspects. In ACL Workshop on Computational Linguistics for Literature 105.
+                        <hi rend="bold">Navarro-Colorado, Borja</hi> (2015): A computational linguistic approach to Spanish Golden Age Sonnets: metrical and semantic aspects. In ACL Workshop on Computational Linguistics for Literature 105.
                     </bibl>
                     <bibl>
-                        <hi>Navarro-Colorado, Borja</hi> (2017): ADSO project – Análisis distante del soneto castellano de los Siglos de Oro [Distant analysis of the Spanish Golden Age sonnet] [online]. Available at: 
-                        <ref>http://adso.gplsi.es/index.php/es/proyecto-adso</ref> [Accessed 22 Sep. 2017].
+                        <hi rend="bold">Navarro-Colorado, Borja</hi> (2017): ADSO project – Análisis distante del soneto castellano de los Siglos de Oro [Distant analysis of the Spanish Golden Age sonnet] [online]. Available at: 
+                        <ref target="http://adso.gplsi.es/index.php/es/proyecto-adso">http://adso.gplsi.es/index.php/es/proyecto-adso</ref> [Accessed 22 Sep. 2017].
                     </bibl>
                     <bibl>
-                        <hi>Navarro-Colorado, Borja / Ribes Lafoz, María / Sánchez, Noelia</hi> (2015): Corpus of Spanish Golden-Age Sonnets. Alicante: University of Alicante [online]. Available at: 
-                        <ref>https://github.com/bncolorado/CorpusSonetosSigloDeOro</ref> [Accessed 22 Sep. 2017].
+                        <hi rend="bold">Navarro-Colorado, Borja / Ribes Lafoz, María / Sánchez, Noelia</hi> (2015): Corpus of Spanish Golden-Age Sonnets. Alicante: University of Alicante [online]. Available at: 
+                        <ref target="https://github.com/bncolorado/CorpusSonetosSigloDeOro">https://github.com/bncolorado/CorpusSonetosSigloDeOro</ref> [Accessed 22 Sep. 2017].
                     </bibl>
                     <bibl>
-                        <hi>Navarro-Colorado, Borja / Ribes Lafoz, María, / Sánchez, Noelia</hi> (2016): “Metrical Annotation of a Large Corpus of Spanish Sonnets: Representation, Scansion and Evaluation”, in Proceedings of the Language Resources and Evaluation Conference [online]. Available at: 
-                        <ref>http://www.lrec-conf.org/proceedings/lrec2016/pdf/453_Paper.pdf</ref> [Accessed 22 Sep. 2017]
+                        <hi rend="bold">Navarro-Colorado, Borja / Ribes Lafoz, María, / Sánchez, Noelia</hi> (2016): “Metrical Annotation of a Large Corpus of Spanish Sonnets: Representation, Scansion and Evaluation”, in Proceedings of the Language Resources and Evaluation Conference [online]. Available at: 
+                        <ref target="http://www.lrec-conf.org/proceedings/lrec2016/pdf/453_Paper.pdf">http://www.lrec-conf.org/proceedings/lrec2016/pdf/453_Paper.pdf</ref> [Accessed 22 Sep. 2017]
                     </bibl>
                     <bibl>
-                        <hi>Navarro-Colorado, Borja</hi> (2017): “A metrical scansion system for fixed-metre Spanish poetry”, in Digital Scholarship in the Humanities. 
-                        <ref>https://doi.org/10.1093/llc/fqx009</ref> [Accessed 22 Sep. 2017]
+                        <hi rend="bold">Navarro-Colorado, Borja</hi> (2017): “A metrical scansion system for fixed-metre Spanish poetry”, in Digital Scholarship in the Humanities. 
+                        <ref target="https://doi.org/10.1093/llc/fqx009">https://doi.org/10.1093/llc/fqx009</ref> [Accessed 22 Sep. 2017]
                     </bibl>
                     <bibl>
-                        <hi>Santa María Fernández, María Teresa / Jiménez Fernández, Concepción María</hi> (2017): Biblioteca Electrónica Textual Del Teatro Español, 1868-1936. Universidad Internacional de la Rioja, Spain.
+                        <hi rend="bold">Santa María Fernández, María Teresa / Jiménez Fernández, Concepción María</hi> (2017): Biblioteca Electrónica Textual Del Teatro Español, 1868-1936. Universidad Internacional de la Rioja, Spain.
                     </bibl>
                     <bibl>
-                        <hi>Schöch, Christof / Henny, Ulrike / Calvo Tello, José / Popp, Stefanie</hi> (2015): The CLiGS Textbox. Würzburg: University of Würzburg. [Online]. Available at: 
-                        <ref>https://github.com/cligs/textbox</ref> [Accessed 22 Sep. 2017]
+                        <hi rend="bold">Schöch, Christof / Henny, Ulrike / Calvo Tello, José / Popp, Stefanie</hi> (2015): The CLiGS Textbox. Würzburg: University of Würzburg. [Online]. Available at: 
+                        <ref target="https://github.com/cligs/textbox">https://github.com/cligs/textbox</ref> [Accessed 22 Sep. 2017]
                     </bibl>
                 </listBibl>
             </div>

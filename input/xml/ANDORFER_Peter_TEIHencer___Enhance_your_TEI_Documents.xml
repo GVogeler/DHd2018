@@ -41,24 +41,24 @@
         </fileDesc>
         <encodingDesc>
             <appInfo>
-                <application>
+                <application ident="DHCONVALIDATOR" version="1.17">
                     <label>DHConvalidator</label>
                 </application>
             </appInfo>
         </encodingDesc>
         <profileDesc>
             <textClass>
-                <keywords>
+                <keywords scheme="ConfTool" n="category">
                     <term>Paper</term>
                 </keywords>
-                <keywords>
+                <keywords scheme="ConfTool" n="subcategory">
                     <term>Poster</term>
                 </keywords>
-                <keywords>
+                <keywords scheme="ConfTool" n="keywords">
                     <term>Georeferenzierung</term>
                     <term>TEI</term>
                 </keywords>
-                <keywords>
+                <keywords scheme="ConfTool" n="topics">
                     <term>Räumliche Analyse</term>
                     <term>Bearbeitung</term>
                     <term>Webentwicklung</term>
@@ -77,28 +77,28 @@
             <p>Im Zuge der Posterpräsentation soll der TEIHencer der einschlägigen DH-Comunity vorgestellt werden und zwar an dem konkreten Fallbeispiel der “Andreas Okopenko: Tagebücher aus dem Nachlass (Hybridedition)”[5]. Dabei handelt es sich um ein digitales Editionsprojekt, das eine Auswahl der Tagebücher Andreas Okopenkos im Zeitraum von 1949 bis 1955 inhaltlich erschließen und einem breiteren Publikum zugänglich machen möchte. Einer der Schwerpunkte des Projekts liegt hierbei auf der inhaltlichen Erschließung des örtlichen Wirkungs- und Schaffensraums des Nachkriegsavantgardisten, indem nicht nur erwähnte Orte (&lt;tei:placeName&gt;), sondern nach Maßgabe auch Werke und Organisationen (&lt;tei:title&gt; und &lt;tei:orgName&gt;) mit geographischen Normdaten verknüpft werden, um so ein umfassenderes Bild von Okopenkos kulturellem Kontext vermitteln zu können.</p>
             <p>Neben der eigentlich Applikation und des konkreten Use-Cases wird am Poster auch das Konferenzthema “Kritik der Digitalen Vernunft” bzw. das Subthema “Kritik digitaler Angebote, Projekte und Werkzeuge” in Form der Frage nach der Nachhaltigkeit des vorgestellten Tools reflektiert. Eine solche glauben wir nämlich insofern gewährleisten zu können, als das Tool a) in ein konkretes Projekt (Okopenko) eingebettet ist, b) einen weit verbreiteten Standard (TEI) unterstützt, c) auf bestehende Eigenentwicklungen (APIS) aufbaut und d) Teile des Codes als selbstständige Module (TEI-Modul als python-package) konzipiert sind, die auch jenseits der konkreten Applikation Anwendung finden können. Darüber hinaus, e) ist der gesamte Code auf GitHub publiziert [3].  </p>
             <p>[1] 
-                <ref>
-                    <hi>http://www.getty.edu/research/tools/vocabularies/tgn/index.html</hi>
+                <ref target="http://www.getty.edu/research/tools/vocabularies/tgn/index.html">
+                    <hi rend="color(1155CC)">http://www.getty.edu/research/tools/vocabularies/tgn/index.html</hi>
                 </ref>
             </p>
             <p>[2] 
-                <ref>
-                    <hi>https://geobrowser.de.dariah.eu/edit/index.html</hi>
+                <ref target="https://geobrowser.de.dariah.eu/edit/index.html">
+                    <hi rend="color(1155CC)">https://geobrowser.de.dariah.eu/edit/index.html</hi>
                 </ref>
             </p>
             <p>[3] 
-                <ref>
-                    <hi>https://github.com/acdh-oeaw/teihencer</hi>
+                <ref target="https://github.com/acdh-oeaw/teihencer">
+                    <hi rend="color(1155CC)">https://github.com/acdh-oeaw/teihencer</hi>
                 </ref>
             </p>
             <p>[4] 
-                <ref>
-                    <hi>https://github.com/acdh-oeaw/apis-core</hi>
+                <ref target="https://github.com/acdh-oeaw/apis-core">
+                    <hi rend="color(1155CC)">https://github.com/acdh-oeaw/apis-core</hi>
                 </ref>
             </p>
             <p>[5] 
-                <ref>
-                    <hi>https://www.onb.ac.at/bibliothek/sammlungen/literatur/forschung/projekte/andreas-okopenko-tagebuecher-aus-dem-nachlass-hybridedition/</hi>
+                <ref target="https://www.onb.ac.at/bibliothek/sammlungen/literatur/forschung/projekte/andreas-okopenko-tagebuecher-aus-dem-nachlass-hybridedition/">
+                    <hi rend="color(1155CC)">https://www.onb.ac.at/bibliothek/sammlungen/literatur/forschung/projekte/andreas-okopenko-tagebuecher-aus-dem-nachlass-hybridedition/</hi>
                 </ref>
             </p>
         </body>

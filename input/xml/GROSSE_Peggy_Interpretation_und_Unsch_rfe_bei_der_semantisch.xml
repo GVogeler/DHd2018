@@ -41,20 +41,20 @@
         </fileDesc>
         <encodingDesc>
             <appInfo>
-                <application>
+                <application ident="DHCONVALIDATOR" version="1.17">
                     <label>DHConvalidator</label>
                 </application>
             </appInfo>
         </encodingDesc>
         <profileDesc>
             <textClass>
-                <keywords>
+                <keywords scheme="ConfTool" n="category">
                     <term>Paper</term>
                 </keywords>
-                <keywords>
+                <keywords scheme="ConfTool" n="subcategory">
                     <term>Vortrag</term>
                 </keywords>
-                <keywords>
+                <keywords scheme="ConfTool" n="keywords">
                     <term>Semantische Wissensmodellierung</term>
                     <term>CIDOC-CRM</term>
                     <term>Interpretation historischer Quellen</term>
@@ -62,7 +62,7 @@
                     <term>Digitale Edition</term>
                     <term>Friedensrepräsentationen</term>
                 </keywords>
-                <keywords>
+                <keywords scheme="ConfTool" n="topics">
                     <term>Sammlung</term>
                     <term>Transkription</term>
                     <term>Inhaltsanalyse</term>
@@ -75,76 +75,76 @@
     </teiHeader>
     <text>
         <body>
-            <p>Einleitung</p>
+            <p rend="DH-Heading3">Einleitung</p>
             <p>Um im Rahmen eines Forschungsprojekts die anfallenden Daten in einer virtuellen Forschungsumgebung semantisch zu erschließen, wird unter Berücksichtigung der Fragestellung sowie der gewählten Bearbeitungsmethode für die formalisierte Erfassung und Darstellung eine Modellierung erarbeitet. Bei der Erschließung historischer Quellen werden Bearbeiter häufig mit inhaltlichen Unschärfen konfrontiert, die in der Regel eine Interpretation der Quellen in Hinblick auf die eigene Fragestellung unter Einbeziehung schon vorhandener Forschungsergebnisse erfordern. </p>
             <p>Es stellt sich folglich das Problem, wie die gewonnenen Forschungsdaten einerseits semantisch erschlossen und formalisiert werden können, um eine möglichst große Vergleichbarkeit der Daten zu gewährleisten, andererseits aber der Vorgang der Interpretation so transparent gehalten werden kann, dass er schließlich auch für Dritte nachvollziehbar bleibt. Das geschilderte Problem beginnt mit der Konzeption und Modellierung der Forschungsumgebung und reicht über die Erfassung durch Projektmitarbeiter bis zur Rezeption und gegebenenfalls Weiterverarbeitung der Daten durch Dritte. </p>
             <p>Im Folgenden soll dieses Problem anhand zweier Projekte erläutert werden, die mit der virtuellen Forschungsumgebung ‚Wissenschaftliche KommunikationsInfrastruktur‘ (WissKI)
-                <note>
-                    <p> http://wiss-ki.eu/.</p>
+                <note place="foot" xml:id="ftn1" n="1">
+                    <p rend="footnote text"> http://wiss-ki.eu/.</p>
                 </note> arbeiten. WissKI wurde speziell für die Forschung im Bereich des kulturellen Erbes entwickelt und arbeitet mit Linked Open Data sowie Semantic Web-Technologien. Als ‚Semantisches Backend‘ und somit Referenzontologie wird das CIDOC Conceptual Reference Model (CIDOC CRM, ISO21127)
-                <note>
-                    <p> http://www.cidoc-crm.org/.</p>
+                <note place="foot" xml:id="ftn2" n="2">
+                    <p rend="footnote text"> http://www.cidoc-crm.org/.</p>
                 </note> des International Council of Museums genutzt (vgl. Doerr/Lampe/Krause 2011, Görz 2011, Hohmann 2011, Hohmann/Schiemann 2013, Hohmann/Fichtner 2015).
             </p>
-            <p>Erste Fallstudie: Digitale Edition der Posse-Tagebücher</p>
+            <p rend="DH-Heading3">Erste Fallstudie: Digitale Edition der Posse-Tagebücher</p>
             <p>Das vom Deutschen Zentrum für Kulturgutverluste geförderte Projekt “Kommentierte Online-Edition der fünf Reisetagebücher Hans Posses (1939-1942)” wertet die Reisetagebücher des Kunsthistorikers Hans Posse aus. In seiner Funktion als Sonderbeauftragter Adolf Hitlers war Posse für den Aufbau einer Sammlung für das ‚Führermuseum Linz‘ sowie die Vorbereitung und Umsetzung eines Verteilungsprogramms von NS-Raubkunst auf die Museen im Deutschen Reich zuständig. Da Posse seine Aufzeichnungen meistens vor Ort vornahm, handelt es sich um schwer lesbare Kurznotizen, Listen und Aufzählungen, nur selten um Fließtext. </p>
             <p>Ausgehend von den in den Tagebüchern beschriebenen historischen Ereignissen wird es sich bei der Erarbeitung und Rezeption der Edition um das Produkt diverser Interpretationsvorgänge handeln (vgl. Sahle 2013a: 208). Die erste Interpretationsebene sind dabei die Aufzeichnungen von Posse selbst. Da die Tagebücher nie zur Veröffentlichung gedacht waren, sondern ihm lediglich als Gedächtnisstützen dienten, kann davon ausgegangen werden, dass es sich bei Posse im Rahmen der ihm zur Verfügung stehenden Informationen um einen zuverlässigen Erzähler handelt.</p>
             <p>Die zweite Interpretationsebene erfolgt durch die Modellierung der Daten, die der Erfassung der vorgefundenen Inhalte und deren Auswertung eine Struktur verleiht. Die dritte Interpretationsebene ist die der inhaltlichen Bearbeitung des historischen Materials. So nutzte Posse in seinen Aufzeichnungen ungebräuchliche Kürzel, z.B. Rbdt. für Rembrandt oder Hbst. für den Kunsthändler Karl Haberstock. Er schrieb Namen nach Gehör und vergab für Kunstwerke, die er sich vor Ort ansah, selbst erfundene Titel. Zudem sind die Aufzeichnungen, bedingt durch ihre Funktion als Gedächtnisstütze, lückenhaft. Es fehlen beispielsweise vollständige Namensangaben oder Angaben zu Kunstwerken wie der Künstler, die Datierung etc. Durch das Hinzuziehen von Forschungsliteratur lassen sich viele der fehlenden Angaben rekonstruieren. Dennoch sind die Zuschreibungen durch die Bearbeiter mit kleineren oder größeren Unsicherheiten behaftet. Das konkrete Problem ist also folgendes: Einerseits sollen durch die Annotierung und Erfassung von Personen, Körperschaften, Orten und Werken möglichst viele Informationen formalisiert und damit vergleichbar und nachnutzbar werden. Andererseits sind nicht alle der vorgenommenen Zuschreibungen gleich wahrscheinlich. Auch die Unschärfen und Auslegung des Textes müssen also (semantisch) modelliert und für die späteren Nutzer nachvollziehbar sein, um ihnen eine angemessene Einordnung – auf der vierten Interpretationsebene - der vorgefundenen Informationen zu ermöglichen (vgl. Sahle 2013b: 184).</p>
             <p>Konkret wird dieses Problem in der Modellierung mit zwei Lösungswegen angegangen. Vor allem bei den von Posse begutachteten Kunstwerken ist aufgrund der lückenhaften Informationen eine eindeutige Zuschreibung oft unmöglich. Auf semantischer Ebene dient deswegen ein Zuschreibungsereignis (attribute assignment) als Basis für die Erfassung eines Kunstwerks, das mit allen aus dem Text hervorgehenden Kontextinformationen verknüpft wird. Zusätzliche Informationen zu identifizierten Werken können bei Bedarf ergänzend hinzugefügt werden.</p>
             <p>In der Transkription werden unsichere Zuschreibungen nicht direkt im Text vorgenommen, sondern mit zusätzlicher Erläuterung in den Fußnoten und dort annotiert. Um die Zuweisung auch im Rückschluss, ausgehend von den Entitäten wie Personen, Institutionen etc., nachvollziehbar zu machen, wird ein Zuschreibungsereignis zwischengeschaltet, das entweder auf den Tagebuchtext oder die Fußnoten verweist.</p>
             <p>Diese Maßnahmen führen allerdings dazu, dass die semantische Modellierung der Daten sehr komplex wird und eine sehr gute Kenntnis der verwendeten Ontologie, in diesem Fall des CIDOC CRM voraussetzt. Ohne ausführliche erläuternde Texte zur Vorgehensweise wird die Bewertung und Einordnung der Information trotz einer Berücksichtigung in der Darstellung kaum möglich sein.</p>
-            <p>Zweite Fallstudie: Repräsentationen des Friedens in der Vormoderne</p>
+            <p rend="DH-Heading3">Zweite Fallstudie: Repräsentationen des Friedens in der Vormoderne</p>
             <p>Das von der Leibniz-Gemeinschaft seit Juli 2015 geförderte internationale Kooperationsprojekt „Repräsentationen des Friedens im vormodernen Europa“ erforscht Friedensbilder im Zeitraum vom 16. bis 18. Jahrhundert. Friedensvereinbarungen mussten über den reinen Vertragstext hinaus erklärt, begründet und vermittelt werden. Das übernahmen Friedensrepräsentationen, die ein multimediales Phänomen der Frühen Neuzeit waren. Folglich beschäftigt sich das Forschungsprojekt mit visuellen Darstellungen, sprachlichen Bilder sowie musikalischen Ausprägungsformen.</p>
             <p>Um abstrakte Konzepte wie Frieden, Gerechtigkeit oder Wohlstand darzustellen, verwendeten Künstler, Dichter oder Komponisten einen Kanon von Motiven, die europaweit genutzt und verstanden wurde. Dieses ‚Vokabular‘ des Friedens soll beispielhaft erschlossen und über Gattungs- und Genregrenzen hinweg analysiert werden. Zudem wurden gemeinsame Fragestellungen zu transmedialen Rezeptionsvorgängen, Veränderungen der Motivik im Zusammenhang mit unterschiedlichen Friedensschlüssen entwickelt. Durch die Verwendung von WissKI ist ein transdisziplinäres und ortsunabhängiges Arbeiten an den Quellen möglich. Es erlaubt eine formular- und textbasierte Erfassung der Bestände, die durch Reproduktionen der graphischen und numismatischen Objekte sowie Verlinkungen auf Textquellen ergänzt wird. Die Erfassung der Themen, Motive und Friedensereignisse erfolgt im Objektformular, um eine möglichst hohe Auffindbarkeit zu garantieren.</p>
             <p>Sowohl die Historizität der Quellen, als auch die Auslegung bzw. Deutung von visuellen und sprachlichen Symbolen durch die Projektmitarbeiter ist mit Unschärfen behaftet, die nur eingeschränkt in einer formularbasierten Erfassung in einer Datenbank für Dritte sichtbar gemacht werden können. Anhand von Bildquellen soll diese Problematik im Folgenden kurz erläutert werden. </p>
             <p>Die Deutung von Bildern erfolgt in mehreren Interpretationsebenen: Zunächst muss sich der Betrachter versichern, was er sieht (Büttner 2014: 12). Doch ist diese erste vordergründig neutrale Auswertung einer Quelle nicht objektiv, sondern kann die individuelle Betrachtung von kulturellen Mustern und subjektiven Erfahrungen geprägt sein (Büttner 2014: 17). Die zweite Interpretationsebene ist die Identifizierung des Themas bzw. des Motivs und des Entstehungskontextes. Hier gilt es die vom Künstler oder Auftraggeber intendierte Funktion und Bedeutung visueller Symbole einzubeziehen bzw. dieser Absicht möglichst nahe zu kommen. Um sich der Intention anzunähern, ist der Entstehungskontext eines Werkes wichtig, der ausgehend von den Forschungsfragen vor allem das entsprechende Friedensereignis betrifft, für das ein Werk geschaffen wurde. Das kann mal explizit (durch Nennung im Text oder Bildbeischriften, Datierung) und mal weniger eindeutig sein. Anders als in einem beschreibenden Text kann der Weg, der zum Eintrag eines Themas oder eines Friedensereignisses im Formular führt, nicht ohne viel Aufwand abgebildet werden, sodass die eingetragene Information immer ein Endprodukt eines Interpretationsvorganges darstellt.</p>
             <p>Auf der Ebene der semantischen Datenmodellierung wurde sowohl bei der Zuweisung von Motiven als auch bei Ereignissen durch die Einbindung eines Zuschreibungsereignisses (attribute assignment) der Vorgang der Interpretation ausgedrückt. Um eine Einheitlichkeit in der Benennung von Motiven und Themen zu erzielen wurde für die standardisierte Erfassung das weitverbreitete Klassifizierungssystem Iconclass hinterlegt.
-                <note>
-                    <p> http://www.iconclass.nl/about-iconclass/what-is-iconclass.</p>
+                <note place="foot" xml:id="ftn3" n="3">
+                    <p rend="footnote text"> http://www.iconclass.nl/about-iconclass/what-is-iconclass.</p>
                 </note>
             </p>
             <p>Für die Nachnutzung der Informationen durch Dritte muss erläutert werden, nach welchen Kriterien die Auslegung der Quellen erfolgte und wie dabei vorgegangen wurde. Für die weitere Benutzung zwar standardisierter, aber mit Unschärfen behafteter Daten, braucht es deshalb ein hohes Maß an Reflexion und Kenntnis der in der Erfassung involvierten Fachdisziplinen, um Informationen auswerten und einordnen zu können.</p>
-            <p>Fazit</p>
+            <p rend="DH-Heading3">Fazit</p>
             <p>Als Fazit lässt sich festhalten, dass mit der semantischen Modellierung auf Basis des CIDOC CRM eine Basis geschaffen wurde, auf struktureller Ebene Daten zu historischen Quellen vergleichbar zu erfassen.</p>
             <p>Trotz der semantischen Datenmodellierung auf Basis einer standardisierten Ontologie und der dadurch gegebenen Vorstrukturierung der Inhalte unterliegt jedes System jedoch immer der Interpretation eines Forschungsgegenstandes. Um diesen Vorgang dem Nutzer zu vermitteln, bedarf es im Allgemeinen ausführlicher Erläuterungen in Form von Rahmentexten oder Fußnoten. </p>
             <p>Auch wenn sich durch die semantische Modellierung auf Basis einer standardisierten Ontologie ein in sich logisches System auf Projektebene aufbauen lässt, so stellt sich doch die Frage, inwiefern verschiedene Forschungsumgebungen - trotz ähnlicher Forschungsgegenstände - noch vergleichbar im Sinne des Semantic Web-Gedanken bzw. des Linked Open Data sind. Eine inhaltliche Vergleichbarkeit ist nur bei grundlegenden Konzepten wie Personen, Orten oder Körperschaften gegeben. Für die Bewertung der Inhalte bleibt nach aktuellem Stand die genaue Kenntnis des Kontexts eines Forschungsprojekts unabdingbar.</p>
         </body>
         <back>
-            <div>
+            <div type="bibliogr">
                 <listBibl>
                     <head>Bibliographie</head>
                     <bibl>
-                        <hi>Büttner, Nils (2014): </hi>
-                        <hi>Einführung in die frühneuzeitliche Ikonographie. Darmstadt: Wissenschaftliche Buchgesellschaft.</hi>
+                        <hi rend="bold">Büttner, Nils (2014): </hi>
+                        <hi rend="italic">Einführung in die frühneuzeitliche Ikonographie. Darmstadt: Wissenschaftliche Buchgesellschaft.</hi>
                     </bibl>
                     <bibl>
-                        <hi>Doerr, Martin / Lampe, Karl-Heinz / Krause, Siegfried (2011):</hi>
-                        <hi>Definition des CIDOC Conceptual Reference Model Version 5.0.1</hi>.; autor. durch die CIDOC CRM Special Interest Group (SIG) (= Beiträge zur Museologie 1). Berlin: ICOM Deutschland.
+                        <hi rend="bold">Doerr, Martin / Lampe, Karl-Heinz / Krause, Siegfried (2011):</hi>
+                        <hi rend="italic">Definition des CIDOC Conceptual Reference Model Version 5.0.1</hi>.; autor. durch die CIDOC CRM Special Interest Group (SIG) (= Beiträge zur Museologie 1). Berlin: ICOM Deutschland.
                     </bibl>
                     <bibl>
-                        <hi>Görz, Günther (2011)</hi>: „WissKI: Semantische Annotation, Wissensverarbeitung und Wissenschaftskommunikation in einer virtuellen Forschungsumgebung” in: 
-                        <hi>Kunstgeschichte, Open Peer Reviewed Journal</hi>, urn:nbn:de:bvb:355-kuge-167-7 [letzter Zugriff 10.01.2018].
+                        <hi rend="bold">Görz, Günther (2011)</hi>: „WissKI: Semantische Annotation, Wissensverarbeitung und Wissenschaftskommunikation in einer virtuellen Forschungsumgebung” in: 
+                        <hi rend="italic">Kunstgeschichte, Open Peer Reviewed Journal</hi>, urn:nbn:de:bvb:355-kuge-167-7 [letzter Zugriff 10.01.2018].
                     </bibl>
                     <bibl>
-                        <hi>Hohmann, Georg (2011):</hi> „Die Anwendung von Ontologien zur Wissensrepräsentation und -kommunikation im Bereich des Kulturellen Erbes” in: Schomburg, Silke u.a. (eds.): 
-                        <hi>Digitale Wissenschaft. Stand und Entwicklung digital vernetzter Forschung in Deutschland</hi>. Köln: Hochschulbibliothekszentrum NRW 33-39.
+                        <hi rend="bold">Hohmann, Georg (2011):</hi> „Die Anwendung von Ontologien zur Wissensrepräsentation und -kommunikation im Bereich des Kulturellen Erbes” in: Schomburg, Silke u.a. (eds.): 
+                        <hi rend="italic">Digitale Wissenschaft. Stand und Entwicklung digital vernetzter Forschung in Deutschland</hi>. Köln: Hochschulbibliothekszentrum NRW 33-39.
                     </bibl>
                     <bibl>
-                        <hi>Hohmann, Georg / Schiemann, Bernhard (2013):</hi> „An Ontology-Based Communication System for Cultural Heritage. Approach and Progress of the WissKI Project in: Hans Bock u.a. (eds.): 
-                        <hi>Scientific Computing and Cultural Heritage</hi>. Berlin: Springer 127-135.
+                        <hi rend="bold">Hohmann, Georg / Schiemann, Bernhard (2013):</hi> „An Ontology-Based Communication System for Cultural Heritage. Approach and Progress of the WissKI Project in: Hans Bock u.a. (eds.): 
+                        <hi rend="italic">Scientific Computing and Cultural Heritage</hi>. Berlin: Springer 127-135.
                     </bibl>
                     <bibl>
-                        <hi>Hohmann, Georg / Fichtner, Mark (2015):</hi> „Chancen und Herausforderungen in der praktischen Anwendung von Ontologien für das Kulturerbe" in: Robertson – von Trotta, Caroline Y. / Schneider, Ralf Y. (eds.): 
-                        <hi>Digitales Kulturerbe</hi>. 
-                        <hi>Bewahrung und Zugänglichkeit in der wissenschaftlichen Praxis</hi>. (= Kulturelle Überlieferung – digital 2). Karlsruhe: KIT Scientific Publishing 115-128.
+                        <hi rend="bold">Hohmann, Georg / Fichtner, Mark (2015):</hi> „Chancen und Herausforderungen in der praktischen Anwendung von Ontologien für das Kulturerbe" in: Robertson – von Trotta, Caroline Y. / Schneider, Ralf Y. (eds.): 
+                        <hi rend="italic">Digitales Kulturerbe</hi>. 
+                        <hi rend="italic">Bewahrung und Zugänglichkeit in der wissenschaftlichen Praxis</hi>. (= Kulturelle Überlieferung – digital 2). Karlsruhe: KIT Scientific Publishing 115-128.
                     </bibl>
                     <bibl>
-                        <hi>Sahle, Patrick (2013a): </hi>
-                        <hi>Digitale Editionsformen - Teil 1: Das typografische Erbe: Zum Umgang mit der Überlieferung unter den Bedingungen des Medienwandels. </hi>Norderstedt: BoD.
+                        <hi rend="bold">Sahle, Patrick (2013a): </hi>
+                        <hi rend="italic">Digitale Editionsformen - Teil 1: Das typografische Erbe: Zum Umgang mit der Überlieferung unter den Bedingungen des Medienwandels. </hi>Norderstedt: BoD.
                     </bibl>
                     <bibl>
-                        <hi>Sahle, Patrick (2013b): </hi>
-                        <hi>Digitale Editionsformen – Teil 2: Befunde, Theorie und Methodik. Zum Umgang mit der Überlieferung unter den Bedingungen des Medienwandels. </hi>Norderstedt: BoD.
+                        <hi rend="bold">Sahle, Patrick (2013b): </hi>
+                        <hi rend="italic">Digitale Editionsformen – Teil 2: Befunde, Theorie und Methodik. Zum Umgang mit der Überlieferung unter den Bedingungen des Medienwandels. </hi>Norderstedt: BoD.
                     </bibl>
                 </listBibl>
             </div>

@@ -73,24 +73,24 @@
         </fileDesc>
         <encodingDesc>
             <appInfo>
-                <application>
+                <application ident="DHCONVALIDATOR" version="1.17">
                     <label>DHConvalidator</label>
                 </application>
             </appInfo>
         </encodingDesc>
         <profileDesc>
             <textClass>
-                <keywords>
+                <keywords scheme="ConfTool" n="category">
                     <term>Paper</term>
                 </keywords>
-                <keywords>
+                <keywords scheme="ConfTool" n="subcategory">
                     <term>Panel</term>
                 </keywords>
-                <keywords>
+                <keywords scheme="ConfTool" n="keywords">
                     <term>Computergestützte Filmanalyse</term>
                     <term>Stilanalyse</term>
                 </keywords>
-                <keywords>
+                <keywords scheme="ConfTool" n="topics">
                     <term>Entdeckung</term>
                     <term>Annotieren</term>
                     <term>Stilistische Analyse</term>
@@ -103,86 +103,86 @@
     </teiHeader>
     <text>
         <body>
-            <div>
+            <div type="div1" rend="DH-Heading1">
                 <head>Konzeption und Zielsetzung</head>
                 <p>Das Thema Bild- und Bewegtbildanalyse gewinnt auch in der – bis dato stark auf Text fokussierten – Digital Humanities-Community immer mehr an Bedeutung. Vor diesem Hintergrund wurde Anfang des Jahres eine dedizierte DHd-Arbeitsgruppe „Film und Video“
-                    <note>
-                        <p> Mehr Informationen unter http://dig-hum.de/ag-film-und-video</p>
+                    <note place="foot" xml:id="ftn1" n="1">
+                        <p rend="footnote text"> Mehr Informationen unter http://dig-hum.de/ag-film-und-video</p>
                     </note>
-                    <hi> </hi>gegründet. Nachdem die AG im Juli 2017 bereits ein erstes Symposium zum Thema „Film rechnen – Computergestützte Methoden in der Filmanalyse“
-                    <note>
-                        <p> Mehr Informationen unter https://dhregensburg.wordpress.com/2017/07/03/symposium-film-rechnen-computergestuetzte-methoden-in-der-filmanalyse-2/</p>
+                    <hi rend="Fußnotenanker"> </hi>gegründet. Nachdem die AG im Juli 2017 bereits ein erstes Symposium zum Thema „Film rechnen – Computergestützte Methoden in der Filmanalyse“
+                    <note place="foot" xml:id="ftn2" n="2">
+                        <p rend="footnote text"> Mehr Informationen unter https://dhregensburg.wordpress.com/2017/07/03/symposium-film-rechnen-computergestuetzte-methoden-in-der-filmanalyse-2/</p>
                     </note>
-                    <hi> </hi>in Regensburg abgehalten hat, soll als nächster Schritt ein entsprechendes Panel auf der DHd 2018 in Köln ausgerichtet werden, um in einem größeren Kreis die Grenzen und Möglichkeiten computergestützter Analyseverfahren für Film und Video zu diskutieren.
+                    <hi rend="Fußnotenanker"> </hi>in Regensburg abgehalten hat, soll als nächster Schritt ein entsprechendes Panel auf der DHd 2018 in Köln ausgerichtet werden, um in einem größeren Kreis die Grenzen und Möglichkeiten computergestützter Analyseverfahren für Film und Video zu diskutieren.
                 </p>
                 <p>Wesentliche Herausforderungen bei der computergestützten Analyse von Film und Video ergeben sich dabei vor allem durch die komplexe mediale Struktur von Bewegtbildern, die sich in einer Vielzahl technischer Formate und einer enormen Bandbreite von Analyseansätzen und -perspektiven niederschlagen. Anders als bspw. für den Bereich Text, gibt es für die Filmanalyse bislang nur wenige etablierte Verfahren und Softwarelösungen zur Erschließung und Verarbeitung von Film- und Videodaten. Wenngleich etablierte Felder aus der Informatik – wie etwa 
-                    <hi>computer vision</hi> oder 
-                    <hi>audio processing</hi> – vielversprechende Ansätze für die computergestützte Analyse von Film und Video bereitstellen, so erfordern diese mitunter erhebliches informatisches Know-How.
+                    <hi rend="italic">computer vision</hi> oder 
+                    <hi rend="italic">audio processing</hi> – vielversprechende Ansätze für die computergestützte Analyse von Film und Video bereitstellen, so erfordern diese mitunter erhebliches informatisches Know-How.
                 </p>
                 <p>Trotz dieser schwierigen Gemengelage ist – zumindest in Einzelprojekten – im Kontext computergestützter Forschung bereits zu einzelnen filmwissenschaftlichen Fragestellungen und Aspekten wie Schnittrhythmus, Farbstrukturen, Rollenverteilungen, Plotstrukturen, Filmsprache oder der globalen Zirkulation von Filmen geforscht worden. Im Rahmen des Panels sollen nach einer kurzen Vorstellung der entsprechenden DHd-AG in insgesamt fünf Impulsreferaten exemplarische Ansätze zur computerbasierten Analyse von Film und Video vorgestellt und mit dem Plenum diskutiert werden. Im Anschluss an die Panelvorträge findet dann eine allgemeine Diskussionsrunde mit den Vortragenden und dem Plenum statt, in der ggf. weitere digitale Analyseansätze ergänzt und zur Diskussion gestellt werden können. Weiterhin sollen strategische Ziele der AG „Film und Video“ vorgestellt und diskutiert werden. Durch diesen Austausch soll die Möglichkeit methodischer Überschneidungen mit anderen Forschungsfeldern evaluiert und diskutiert werden, um so einen Beitrag zur methodischen Profilierung computergestützter Analyseverfahren und zum Methodentransfer zwischen verschiedenen Forschungsfeldern insgesamt zu leisten.</p>
                 <p>
-                    <hi>Ablauf</hi> (Gesamtdauer 90 Minuten):
+                    <hi rend="bold">Ablauf</hi> (Gesamtdauer 90 Minuten):
                 </p>
                 <p>
-                    <hi>Teil 1) Einführung</hi> in das Thema computergestützte Film- und Videoanalyse und Kurzvorstellung der DHd-AG „Film und Video“ (10 Minuten)
+                    <hi rend="bold">Teil 1) Einführung</hi> in das Thema computergestützte Film- und Videoanalyse und Kurzvorstellung der DHd-AG „Film und Video“ (10 Minuten)
                 </p>
                 <p>
-                    <hi>Teil 2) Panelvorträge </hi>in Form von Impulsreferaten (Gesamtdauer 50 Minuten)
+                    <hi rend="bold">Teil 2) Panelvorträge </hi>in Form von Impulsreferaten (Gesamtdauer 50 Minuten)
                 </p>
                 <p>
-                    <hi>Teil 3) Moderierte Diskussion </hi>zu den folgenden Themen (30 Minuten):
+                    <hi rend="bold">Teil 3) Moderierte Diskussion </hi>zu den folgenden Themen (30 Minuten):
                 </p>
-                <list>
+                <list type="unordered">
                     <item>Grenzen und Möglichkeiten der in den Impulsreferaten gezeigten Ansätze</item>
                     <item>Weitere Ansätze / Desiderate in der computergestützten Film- und Videoanalyse</item>
                     <item>Strategische Ziele der DHd-AG „Film und Video“ </item>
                 </list>
             </div>
-            <div>
+            <div type="div1" rend="DH-Heading1">
                 <head>Panelvorträge</head>
-                <div>
+                <div type="div2" rend="DH-Heading2">
                     <head>Computergestützte Analyse von Filmsprache: Zwei Fallstudien</head>
                     <p>Manuel Burghardt, Universität Regensburg</p>
                     <p>Für die computergestützte Analyse von Filmen bieten sich auf der visuellen Ebene eine ganze Reihe von quantitativ erfassbaren Parametern an, etwa die Analyse von Einstellungslängen und -frequenzen, Farben, Personen oder Objekten. Weiterhin bietet die Filmsprache – die in Form von Untertiteln für eine Vielzahl von Filmen bereits als textuelle Transkription vorliegt – einen niederschwelligen Analysezugang, für den viele bestehende Tools und Methoden aus der computergestützten Sprach- und Literaturanalyse angewendet werden können (Burghardt &amp; Wolff, 2016; Burghardt et al., 2016). Im Rahmen des Panelvortrags sollen überblicksartig zwei Ansätze zur Analyse von Film und Serien auf Basis der jeweiligen Sprachdaten vorgestellt werden. Die erste Fallstudie illustriert dabei Möglichkeiten der automatischen Berechnung von filmischen Strukturen, indem das Konzept von Marcus (1970) mathematischer Dramenanalyse auf den Bereich von TV-Serien übertragen wird. Eine zweite Fallstudie zeigt auf, wie mithilfe computergestützter Methoden ein exploratives Tool für die Analyse von Filmen umgesetzt werden kann, welches es erlaubt einen Film nach bestimmten Figurennamen und Schlüsselwörtern zu durchsuchen. Das Ergebnis dieser Suche wird in einer interaktiven Visualisierung der Trefferszenen zur weiteren Analyse dargestellt.</p>
                 </div>
-                <div>
+                <div type="div2" rend="DH-Heading2">
                     <head>Dem Film auf der Spur – Die computergestützte Auffindbarkeit von Bild, Clip, Stil</head>
                     <p>Adelheid Heftberger, Brandenburgisches Zentrum für Medienwissenschaften, Potsdam</p>
                     <p>Filmschaffende haben sich von Anfang bei ihrer Kollegenschaft sowie audiovisuellen Archiven bedient. Einerseits handelt es sich dabei um die Integration von Ausschnitten in eigene Filme (Heftberger, 2016), andererseits um die Übernahme stilistischer Verfahren. Auch aus einer Archiv-Perspektive ist es interessant, die Spuren von filmischer Überlieferung zu verfolgen. Solche Untersuchungen unterliegen bislang nach wie vor den Grenzen der menschlichen Recherchekapazität, der Verfügbarkeit von Quellen und auch Rollenzuschreibungen der beteiligten Institutionen (Heftberger, 2014). Im Panelvortrag sollen aus filmgeschichtlicher Perspektive Desiderate an die computergestützte Analyse formuliert werden, deren Umsetzung erst zögerlich erfolgt. Anhand einer Fallstudie soll das Potential aufgezeigt werden, dass sich aus der multimodalen Analyse für die Filmgeschichte und v.a. die Überlieferungs- und Rezeptionsgeschichte ergeben könnte.</p>
                 </div>
-                <div>
+                <div type="div2" rend="DH-Heading2">
                     <head>
-                        <hi>Wikidata</hi> für die Zugänglichmachung von Forschungsdaten in den Filmwissenschaften
+                        <hi rend="italic">Wikidata</hi> für die Zugänglichmachung von Forschungsdaten in den Filmwissenschaften
                     </head>
                     <p>Claudia Müller-Birn, Freie Universität Berlin</p>
                     <p>Wissenschaftliche Publikationen in den Geisteswissenschaften haben oft nicht die Reichweite und Nachhaltigkeit, die für HerausgeberInnen und AutorInnen wünschenswert wäre. Die Ablieferung von Faktenwissen an eine breiter rezipierte und maschinenlesbare Wissensdatenbank wie 
-                        <hi>Wikidata</hi> könnte ein Ansatz sein, diese Reichweite und Nachhaltigkeit zu erzeugen. Dafür müssen allerdings nutzerzentrierte Softwarelösungen entwickelt werden, die es erlauben, dieses Faktenwissen auch niederschwellig und korrekt zu übertragen (Breitenfeld et al., 2017). Am Beispiel der multilingualen Open Access Zeitschrift „Apparatus – Film, Media and Digital Cultures in Central and Eastern Europe“ soll demonstriert werden, wie ein solcher Workflow zur Übertragung von Faktenwissen aussehen könnte. Einerseits werden Einträge in 
-                        <hi>Wikidata</hi> mit Referenzen (Bezug auf die jeweilige Publikation) versehen, andererseits werden bestehende Einträge auch mit neuen Informationen angereichert oder sogar neu erstellt, sofern sie nicht vorhanden sind. Der Panelbeitrag zeigt das Potential für die bessere Zugänglichmachung von Forschungsdaten in den Filmwissenschaften (Müller-Birn et al., 2017).
+                        <hi rend="italic">Wikidata</hi> könnte ein Ansatz sein, diese Reichweite und Nachhaltigkeit zu erzeugen. Dafür müssen allerdings nutzerzentrierte Softwarelösungen entwickelt werden, die es erlauben, dieses Faktenwissen auch niederschwellig und korrekt zu übertragen (Breitenfeld et al., 2017). Am Beispiel der multilingualen Open Access Zeitschrift „Apparatus – Film, Media and Digital Cultures in Central and Eastern Europe“ soll demonstriert werden, wie ein solcher Workflow zur Übertragung von Faktenwissen aussehen könnte. Einerseits werden Einträge in 
+                        <hi rend="italic">Wikidata</hi> mit Referenzen (Bezug auf die jeweilige Publikation) versehen, andererseits werden bestehende Einträge auch mit neuen Informationen angereichert oder sogar neu erstellt, sofern sie nicht vorhanden sind. Der Panelbeitrag zeigt das Potential für die bessere Zugänglichmachung von Forschungsdaten in den Filmwissenschaften (Müller-Birn et al., 2017).
                     </p>
                 </div>
-                <div>
+                <div type="div2" rend="DH-Heading2">
                     <head>Licht und Schatten. Methodische Herangehensweisen an die Analyse von Farbstrukturen in Filmen</head>
                     <p>
-                        <hi>Niels-Oliver Walkowski, Berlin-Brandenburgische Akademie der Wissenschaften
+                        <hi rend="italic">Niels-Oliver Walkowski, Berlin-Brandenburgische Akademie der Wissenschaften
                             <lb/>Johannes Pause, Universität Luxemburg
                         </hi>
                     </p>
                     <p>Obgleich Film als stark visuell geprägtes Medium in weiten Teilen vom Spiel der Farben, ihrer Inszenierung und Dramaturgisierung lebt, stellte die Untersuchung von Farbstrukturen Wendy Everetts (2007) zufolge innerhalb der Filmtheorie vor 10 Jahren immer noch so etwas wie „the last great wilderness, the one remaining area yet to be explored, mapped, and charted“ dar. Diese Situation hat sich bisher nicht signifikant verändert. Allerdings macht es die Entwicklung digitaler Methoden in den Filmwissenschaften während der seitdem vergangenen Zeit möglich, der Problematik neue Impulse zu verleihen. Eine Reihe von Projekten der letzten Jahre versucht genau dies zu tun. Zu nennen sind hier unter anderem Brodbecks (2011) 
-                        <hi>Cinemetrics,</hi> Bakers (2015) 
-                        <hi>Spectrum</hi> sowie die Projekte 
-                        <hi>MovieBarcodes</hi> (Anonymus, 2016), 
-                        <hi>MovieAnalyzer</hi> (Burghardt et al., 2016), das 
-                        <hi>ACTION Toolkit</hi> (Casey, 2014), das Projekt 
-                        <hi>FilmColors</hi> (Flückiger, 2015) sowie die Arbeit von Pause und Walkowski (2017). Mit Ausnahme der letzten drei Beiträge entstammen diese Arbeiten anderen Forschungsfeldern als den Filmwissenschaften. Diese Situation sowie der Umstand, dass die computergestützte Analyse von Farbe in einem filmwissenschaftlichen Kontext ein so junges Forschungsfeld ist, lassen eine methodische Systematisierung und Diskussion verschiedener Ansätze der Farbanalyse sinnvoll erscheinen. Der Panelbeitrag wird eine solche Übersicht geben. Des Weiteren werden unterschiedliche Strategien vorgestellt, mit denen versucht wird eine Interpretation und Vermittlung der Analyseergebnisse zu unterstützen.
+                        <hi rend="italic">Cinemetrics,</hi> Bakers (2015) 
+                        <hi rend="italic">Spectrum</hi> sowie die Projekte 
+                        <hi rend="italic">MovieBarcodes</hi> (Anonymus, 2016), 
+                        <hi rend="italic">MovieAnalyzer</hi> (Burghardt et al., 2016), das 
+                        <hi rend="italic">ACTION Toolkit</hi> (Casey, 2014), das Projekt 
+                        <hi rend="italic">FilmColors</hi> (Flückiger, 2015) sowie die Arbeit von Pause und Walkowski (2017). Mit Ausnahme der letzten drei Beiträge entstammen diese Arbeiten anderen Forschungsfeldern als den Filmwissenschaften. Diese Situation sowie der Umstand, dass die computergestützte Analyse von Farbe in einem filmwissenschaftlichen Kontext ein so junges Forschungsfeld ist, lassen eine methodische Systematisierung und Diskussion verschiedener Ansätze der Farbanalyse sinnvoll erscheinen. Der Panelbeitrag wird eine solche Übersicht geben. Des Weiteren werden unterschiedliche Strategien vorgestellt, mit denen versucht wird eine Interpretation und Vermittlung der Analyseergebnisse zu unterstützen.
                     </p>
                 </div>
-                <div>
+                <div type="div2" rend="DH-Heading2">
                     <head>Automatisierte Verfahren für Analyse, Retrieval und Annotation von Video und Film</head>
                     <p>Matthias Zeppelzauer, Fachhochschule St. Pölten, Österreich</p>
                     <p>Die manuelle Annotation von Videodaten ist üblicherweise eine zeitaufwendige Tätigkeit, die aufgrund der subjektiven Bewertungen unterschiedlicher AnnotatorInnen leicht zu Inkonsistenzen führen kann, insbesondere wenn die zu annotierenden Konzepte großen semantischen Interpretationsspielraum bieten. Automatische Annotationsmethoden basierend auf automatischen Bild- und Videoanalysemethoden aus dem Bereich des maschinellen Sehens (
-                        <hi>computer vision</hi>) bieten eine vielversprechende Alternative, um den Annotationsvorgang einerseits zu beschleunigen und andererseits zu formalisieren und zu objektivieren. In der Vergangenheit wurden zunächst automatisierte Methoden für die Erkennung von Schnitten und Einstellungsübergängen entwickelt. Darauf aufbauend wurden dann Lösungen präsentiert für die automatische Segmentierung von Videos und Filmen in einzelne semantisch kohärente Szenen. Methoden aus dem Bereich der inhaltsbasierten Bildsuche können eingesetzt werden, um nach visuellen Mustern, z.B. häufig auftretende Motive, Objekte oder Personen zu suchen. Methoden der Bewegungsanalyse (
-                        <hi>motion tracking</hi>) können eingesetzt werden, um Kamerabewegungen oder Objektbewegungen automatisiert zu erfassen. Ergänzend zur Bildanalyse kann die akustische Analyse der Tonspur weitere interessante Einsichten in den Rhythmus und die Montage von Filmen geben. Im interdisziplinären Projekt 
-                        <hi>Digital Formalism</hi> wurde ein breites Spektrum automatisierter Verfahren erfolgreich für die Analyse und die Annotation von Video- und Filmdaten eingesetzt (vgl. Mitrovic et al., 2010 / 2011; Zaharieva et al. 2010; Zeppelzauer et al. 2011a / 2011b). In diesem Impulsreferat soll das Potenzial automatischer inhaltsbasierter Analyseverfahren an kurzen Beispielen aus der Praxis illustriert werden.
+                        <hi rend="italic">computer vision</hi>) bieten eine vielversprechende Alternative, um den Annotationsvorgang einerseits zu beschleunigen und andererseits zu formalisieren und zu objektivieren. In der Vergangenheit wurden zunächst automatisierte Methoden für die Erkennung von Schnitten und Einstellungsübergängen entwickelt. Darauf aufbauend wurden dann Lösungen präsentiert für die automatische Segmentierung von Videos und Filmen in einzelne semantisch kohärente Szenen. Methoden aus dem Bereich der inhaltsbasierten Bildsuche können eingesetzt werden, um nach visuellen Mustern, z.B. häufig auftretende Motive, Objekte oder Personen zu suchen. Methoden der Bewegungsanalyse (
+                        <hi rend="italic">motion tracking</hi>) können eingesetzt werden, um Kamerabewegungen oder Objektbewegungen automatisiert zu erfassen. Ergänzend zur Bildanalyse kann die akustische Analyse der Tonspur weitere interessante Einsichten in den Rhythmus und die Montage von Filmen geben. Im interdisziplinären Projekt 
+                        <hi rend="italic">Digital Formalism</hi> wurde ein breites Spektrum automatisierter Verfahren erfolgreich für die Analyse und die Annotation von Video- und Filmdaten eingesetzt (vgl. Mitrovic et al., 2010 / 2011; Zaharieva et al. 2010; Zeppelzauer et al. 2011a / 2011b). In diesem Impulsreferat soll das Potenzial automatischer inhaltsbasierter Analyseverfahren an kurzen Beispielen aus der Praxis illustriert werden.
                     </p>
                 </div>
             </div>

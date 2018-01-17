@@ -49,25 +49,25 @@
         </fileDesc>
         <encodingDesc>
             <appInfo>
-                <application>
+                <application ident="DHCONVALIDATOR" version="1.17">
                     <label>DHConvalidator</label>
                 </application>
             </appInfo>
         </encodingDesc>
         <profileDesc>
             <textClass>
-                <keywords>
+                <keywords scheme="ConfTool" n="category">
                     <term>Paper</term>
                 </keywords>
-                <keywords>
+                <keywords scheme="ConfTool" n="subcategory">
                     <term>Workshop</term>
                 </keywords>
-                <keywords>
+                <keywords scheme="ConfTool" n="keywords">
                     <term>Digitale 3D-Rekonstruktion</term>
                     <term>Hackathon</term>
                     <term>Wettbewerb</term>
                 </keywords>
-                <keywords>
+                <keywords scheme="ConfTool" n="topics">
                     <term>Gestaltung</term>
                     <term>Veröffentlichung</term>
                     <term>Visualisierung</term>
@@ -83,12 +83,12 @@
             <div>
                 <p>Die Arbeitsgruppe „Digitale Rekonstruktion“ ging aus der 1. Jahrestagung der Digital Humanities im deutschsprachigen Raum (25.-28.03.2014, Universität Passau) hervor. Die Arbeitsgruppe versammelt Kolleginnen und Kollegen, die sich dem Thema digitale Rekonstruktion aus dem Blickwinkel der Architektur, Archäologie, Bau- und Kunstgeschichte sowie Computergraphik und Informatik verschrieben haben. Die Arbeitsgruppe bietet eine Plattform für einen Austausch und eine feste Etablierung der digitalen Rekonstruktion im Dienste einer Erfassung, Erforschung und Vermittlung kultureller und geschichtlicher Inhalte innerhalb der Digital Humanities. Vorrangiges Ziel der Arbeitsgruppe ist es, die Akteure im deutschsprachigen Raum zusammenzubringen, um sich den Fragen der Begriffsklärung und der Arbeitsmethodik sowie der Dokumentation und Langzeitarchivierung von digitalen Rekonstruktionsprojekten zu widmen. Der Arbeitsgemeinschaft gehören ca. 50 Personen aus 29 Einrichtungen im deutschsprachigen Raum sowie 4 assoziierten Mitgliedseinrichtungen im europäischen Raum an. In bisher 4 Beiträgen wurden bei vergangenen DHd-Jahrestagungen durch die Arbeitsgemeinschaft „Allgemeine Standards, Methodik und Dokumentation“ (Kuroczyński et al., 2014) und „aktuelle Herausforderungen“ (Kuroczyński et al., 2015) sowie Transformationsprozesse „vom digitalen 3D-Datensatz zum wissenschaftlichen Informationsmodell“ (Kuroczyński et al., 2016) und nicht zuletzt aktuelle Projekte und Forschungsschwerpunkte (Münster et al., 2017) beleuchtet. Während damit vor allem theoretische Perspektiven digitaler Rekonstruktion als Forschungs- und Vermittlungsmethode aufgezeigt wurden, soll auf der DHd 2018 im Rahmen eines an das Format des Hackathons (Wikipedia, 2017) angelehnten Modellathons praktisches Handwerkszeug digitaler 3D-Rekonstruktion in wissenschaftlichen Kontexten vermittelt und erprobt werden. Der Modellathon beinhaltet einen ½ tägigen Workshop zur Vermittlung von Grundlagen der 3D-Rekonstruktionen und deren filmischer oder bildlicher Inszenierung. Daran anschliessend sollen im Rahmen eines die DHd-Jahrestagung begleitenden Wettbewerbs durch studentische Arbeitsteams 3D-Rekonstruktionen eines noch zu benennenden Objekts erstellt werden. Die Ergebnisse werden im abschliessenden DHd-Plenum vorgestellt und durch das Publikum sowie eine Expertenjury bewertet sowie prämiert.</p>
             </div>
-            <div>
+            <div type="div1" rend="DH-Heading1">
                 <head>Der Modellathon</head>
-                <div>
+                <div type="div2" rend="DH-Heading2">
                     <head>Workshop</head>
                     <p>Der Modellathon besteht aus einem ½ tägigen, der DHd-Jahrestagung (26.2.-2.3.2018) vorgelagerten Workshop, bei welchem sowohl den studentischen Arbeitsteams als auch interessierten Besuchern eine Einführung in den Gegenstand sowie Grundlagen wissenschaftlicher 3D-Rekonstruktion geboten werden. Hierfür sind folgende Inhalte vorgesehen, welche durch Mitglieder der AG vermittelt werden:</p>
-                    <table>
+                    <table rend="rules">
                         <row>
                             <cell>Zeitplanung</cell>
                             <cell>Inhalt</cell>
@@ -98,7 +98,7 @@
                             <cell>14.00-15.30 Uhr (90 min.)</cell>
                             <cell>
                                 <p>Grundlagen wissenschaftlicher 3D-Rekonstruktion:</p>
-                                <list>
+                                <list type="unordered">
                                     <item>Wissenschaftliches Arbeiten und Forschungseinbettung</item>
                                     <item>Quellengestützte Modellierung</item>
                                 </list>
@@ -115,10 +115,10 @@
                         </row>
                     </table>
                 </div>
-                <div>
+                <div type="div2" rend="DH-Heading2">
                     <head>Wettbewerb</head>
                     <p>An den Workshop anschließend wird ein die DHd-Jahrestagung begleitender Wettbewerb zur 3D-Rekonstruktion eines zum Workshop-Auftakt zu benennenden historischen Objekts durchgeführt. Zur individuellen Bearbeitung der Projekte durch die studentischen Teams steht während der gesamten Jahrestagung ein durch Mitglieder der AG „Digitale Rekonstruktion“ betreuter Arbeitsraum zur Verfügung, welcher während der Keynotes geschlossen wird. Die individuelle Arbeit am Projekt wird durch Kurztutorien von jeweils ca. 15-20 min. Dauer begleitet, in welchen praxisrelevante Techniken bspw. zu Interdisziplinarität, Modellierungspraktiken, interaktiven Web-Modellen u. ä. vermittelt werden. Ergebnisse des Wettbewerbs können Bilder, Filme oder interaktive Präsentationen der durch die studentischen Teams erstellten 3D-rekonstruierten Modelle sein. Diese werden durch die Teams im DHd-Plenum in Form eines „Elevator-Pitchs“ (je Team max. 2 Minuten Vorstellung + 2 Minuten für Fragen) vorgestellt und durch das Publikum sowie eine Expertenjury anhand der Kriterien Wissenschaftlichkeit, Inszenierung, Qualität und Vermittlung bewertet.</p>
-                    <table>
+                    <table rend="rules">
                         <row>
                             <cell>Zeitplanung</cell>
                             <cell>Inhalt</cell>
@@ -128,7 +128,7 @@
                             <cell>27.2. 9.00-10.30 Uhr (90 min.)</cell>
                             <cell>
                                 <p>Start des Modellathons:</p>
-                                <list>
+                                <list type="unordered">
                                     <item>Vorstellung der Aufgabenstellung und der Bewertungskriterien</item>
                                     <item>Gegenstand &amp; Material</item>
                                 </list>
@@ -159,21 +159,21 @@
                     </table>
                 </div>
             </div>
-            <div>
+            <div type="div1" rend="DH-Heading1">
                 <head>Rahmenbedingungen</head>
-                <div>
+                <div type="div2" rend="DH-Heading2">
                     <head>Preise</head>
                     <p>Als Sachpreis wird eine Maxon Cinema 4D Studio Lizenz (Wert ca. 3000 EUR, gestiftet durch die Maxon Computer GmbH) vergeben. </p>
                 </div>
-                <div>
+                <div type="div2" rend="DH-Heading2">
                     <head>Teilnahmevoraussetzungen</head>
                     <p>Workshop</p>
                     <p>Eine Teilnahme am Workshop steht allen Interessierten offen. Teilnahmevoraussetzungen sind ein eigener Laptop mit einem gängigen 3D-Modellierungspaket (bspw. Autodesk 3DStudio Max oder Maya, Maxon Cinema 4D, Blender, Mc Neel Rhino) sowie Grundkenntnisse der 3D-Modellierung. Teilnehmer des Workshops erhalten einen Überblick zu Problemstellungen und Ansätzen wissenschaftlicher 3D-Rekonstruktion sowie Visualisierung und können diese anhand einer Beispielaufgabe praktisch erproben. </p>
                     <p>Wettbewerb</p>
                     <p>Der darüber hinaus stattfindende Wettbewerb steht studentischen Arbeitsteams sowie Einzelstudenten offen. Bis zum 10. Dezember konnten sich Studierende von außerhalb Kölns für eine durch den DHd-Vorstand gestiftete Förderung der Teilnahme an Workshop und Wettbewerb in Höhe von 250 EUR je Person bewerben. An 10 Bewerber wurden dabei 10 Stipendien vergeben, weitere 3 Studierende sind ohne Förderung zum Wettbewerb eingeladen.</p>
-                    <div>
+                    <div type="div3" rend="DH-Heading3">
                         <head>Zeitplanung</head>
-                        <table>
+                        <table rend="rules">
                             <row>
                                 <cell>30. September 2017</cell>
                                 <cell>Veröffentlichung eines an die Teilnehmer gerichteten Calls </cell>
@@ -198,11 +198,11 @@
                     </div>
                 </div>
             </div>
-            <div>
+            <div type="div1" rend="DH-Heading1">
                 <head>Jury</head>
                 <p>Die Jury setzt sich aus Mitgliedern des DHd-Vorstands, der AGDR sowie ggf. Vertretern der noch zu benennenden inhaltlichen Schirmherren zusammen. Aufgaben der Jury sind (a) die Vergabe der Teilnahmeförderungen sowie (b) die Bewertung der im DHd-Plenum vorgestellten Wettbewerbsergebnisse aus Expertensicht. Die Jury setzt sich aus Vertretern des DHd-Vorstandes, der AG Digitale Rekonstruktion sowie der inhaltlichen Schirmherren zusammen.</p>
             </div>
-            <div>
+            <div type="div1" rend="DH-Heading1">
                 <head>Ausrichter</head>
                 <p>Dr. Sander Münster</p>
                 <p>Technische Universität Dresden</p>
@@ -219,7 +219,7 @@
                 <p>Telefon +41 43 446 32 80</p>
                 <p>Mobile +41 78 717 83 85 (Di, Fr)</p>
                 <p>
-                    <ref>jonas.christen@zhdk.ch</ref>
+                    <ref target="mailto:jonas.christen@zhdk.ch">jonas.christen@zhdk.ch</ref>
                 </p>
                 <p>Jonas Christen ist wissenschaftlicher Mitarbeiter an der Zürcher Hochschule der Künste im Bereich Design. Er gehört der Forschungsgruppe Knowledge Visualization an und ist langjähriges Mitglied der AG Digitale Rekonstruktion.</p>
                 <p>Dr.-Ing. Mieke Pfarr-Harfst</p>
@@ -230,38 +230,38 @@
                 <p>64287 Darmstadt</p>
                 <p>fon: +49 6151 16-22482 | fax: +49 6151 16-22480</p>
                 <p>mail: pfarr@dg.tu-darmstadt.de | 
-                    <ref>http://www.dg.tu-darmstadt.de</ref>
+                    <ref target="http://www.dg.tu-darmstadt.de">http://www.dg.tu-darmstadt.de</ref>
                 </p>
                 <p>Mieke Pfarr-Harfst leitet derzeit den Forschungsschwerpunkt "Digitale Rekonstruktionen" am Fachgebiet Digitales Gestalten an der TU Darmstadt. In ihrer Promotion „Dokumentationssystem für Digitale Rekonstruktionen“ und ihrer aktuellen Forschungsarbeit setzt sich Frau Pfarr-Harfst mit den digitalen dreidimensionalen Gebäudemodellen als innovative Methode zur Erforschung des kulturellen Erbes auseinander.</p>
             </div>
-            <div>
+            <div type="div1" rend="DH-Heading1">
                 <head>Erwartete Teilnehmer</head>
                 <p>Ca. 15</p>
             </div>
-            <div>
+            <div type="div1" rend="DH-Heading1">
                 <head>Benötigte Ausstattung</head>
                 <p>Für Workshop und Wettbewerb wird um die Bereitstellung eines (idealerweise abschließbaren) Raumes mit ca. 15-20 Plätzen für die gesamte DHd-Konferenzdauer gebeten. Benötigt werden ein Datenprojektor und ca. 15 Steckdosenplätze.</p>
             </div>
         </body>
         <back>
-            <div>
+            <div type="bibliogr">
                 <listBibl>
                     <head>Bibliographie</head>
                     <bibl>
-                        <hi>Kuroczyński, P./ Grellert, M./ Hauck, O./ Münster, S./ Pfarr-Harfst, M. / Scholz, M. </hi>(2015): Digitale Rekonstruktion und aktuelle Herausforderungen (Panel). 2. Jahrestagung der Digital Humanities im deutschsprachigen Raum (DHd 2015). Graz.
+                        <hi rend="bold">Kuroczyński, P./ Grellert, M./ Hauck, O./ Münster, S./ Pfarr-Harfst, M. / Scholz, M. </hi>(2015): Digitale Rekonstruktion und aktuelle Herausforderungen (Panel). 2. Jahrestagung der Digital Humanities im deutschsprachigen Raum (DHd 2015). Graz.
                     </bibl>
                     <bibl>
-                        <hi>Kuroczyński, P./ Hauck, O./ Hoppe, S./ Münster, S. / Pfarr-Harfst, M. </hi>(2016): Der Modelle Tugend 2.0 – Vom digitalen 3D-Datensatz zum wissenschaftlichen Informationsmodell. (Panel). 3. Jahrestagung der Digital Humanities im deutschsprachigen Raum (DHd 2016). Leipzig.
+                        <hi rend="bold">Kuroczyński, P./ Hauck, O./ Hoppe, S./ Münster, S. / Pfarr-Harfst, M. </hi>(2016): Der Modelle Tugend 2.0 – Vom digitalen 3D-Datensatz zum wissenschaftlichen Informationsmodell. (Panel). 3. Jahrestagung der Digital Humanities im deutschsprachigen Raum (DHd 2016). Leipzig.
                     </bibl>
                     <bibl>
-                        <hi>Kuroczyński, P./ Pfarr-Harfst, M./ Wacker, M./ Münster, S. / Henze, F. </hi>(2014): Pecha Kucha "Virtuelle Rekonstruktion – Allgemeine Standards, Methodik und Dokumentation" (Panel). 
-                        <hi>1. Jahrestagung der Digital Humanities im deutschsprachigen Raum (DHd 2014).</hi> Passau.
+                        <hi rend="bold">Kuroczyński, P./ Pfarr-Harfst, M./ Wacker, M./ Münster, S. / Henze, F. </hi>(2014): Pecha Kucha "Virtuelle Rekonstruktion – Allgemeine Standards, Methodik und Dokumentation" (Panel). 
+                        <hi rend="italic">1. Jahrestagung der Digital Humanities im deutschsprachigen Raum (DHd 2014).</hi> Passau.
                     </bibl>
                     <bibl>
-                        <hi>Münster, S./ Kuroczyński, P. / Pfarr-Harfst, M. </hi>(2017): Projekte und Aktivitäten im Kontext digitaler 3D-Rekonstruktion im deutschsprachigen Raum. 4. Jahrestagung der Digital Humanities im deutschsprachigen Raum (DHd 2017). Bern.
+                        <hi rend="bold">Münster, S./ Kuroczyński, P. / Pfarr-Harfst, M. </hi>(2017): Projekte und Aktivitäten im Kontext digitaler 3D-Rekonstruktion im deutschsprachigen Raum. 4. Jahrestagung der Digital Humanities im deutschsprachigen Raum (DHd 2017). Bern.
                     </bibl>
-                    <bibl>
-                        <hi>Wikipedia </hi>(2017): Hackathon [Online]. Available: https://de.wikipedia.org/wiki/Hackathon, 10.9.2017.
+                    <bibl rend="EndNote Bibliography">
+                        <hi rend="bold">Wikipedia </hi>(2017): Hackathon [Online]. Available: https://de.wikipedia.org/wiki/Hackathon, 10.9.2017.
                     </bibl>
                 </listBibl>
             </div>

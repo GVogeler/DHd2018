@@ -73,25 +73,25 @@
         </fileDesc>
         <encodingDesc>
             <appInfo>
-                <application>
+                <application ident="DHCONVALIDATOR" version="1.17">
                     <label>DHConvalidator</label>
                 </application>
             </appInfo>
         </encodingDesc>
         <profileDesc>
             <textClass>
-                <keywords>
+                <keywords scheme="ConfTool" n="category">
                     <term>Paper</term>
                 </keywords>
-                <keywords>
+                <keywords scheme="ConfTool" n="subcategory">
                     <term>Poster</term>
                 </keywords>
-                <keywords>
+                <keywords scheme="ConfTool" n="keywords">
                     <term>Forschungssoftware</term>
                     <term>Archivierung</term>
                     <term>Lebende Systeme</term>
                 </keywords>
-                <keywords>
+                <keywords scheme="ConfTool" n="topics">
                     <term>Archivierung</term>
                     <term>Konservierung</term>
                     <term>Software</term>
@@ -110,7 +110,7 @@
             <p>Das Projekt „SustainLife“, das in Zusammenarbeit zwischen des Data Center for the Humanities (DCH) aus Köln und des Instituts für Architektur von Anwendungssystemen (IAAS) der Universität Stuttgart durchgeführt wird, adressiert diese Probleme. In diesem Poster stellen wir das Projekt vor und präsentieren den ersten Teil einer Anforderungsanalyse an lebende Systeme der Digital Humanities. Als zweiten Teil soll vor Ort eine Umfrage unter den Teilnehmern der Konferenz durchgeführt werden, um die Anforderungen an lebende Systeme aus unterschiedlichsten Domänen möglichst zielgenau zu analysieren. Diese Anforderungsanalyse stellt die Basis für im Projekt SustainLife geplante Erweiterungen der open-source Software „OpenTOSCA“ (Binz et al. 2013) dar, welche auf dem OASIS-Standard TOSCA (OASIS 2013) basieren. Dieser Standard ermöglicht die Automatisierung des Deployments und Managements von Anwendungen und stellt damit eine vielversprechende Grundlage zur kostengünstigen Sicherung der Nachhaltigkeit lebender Systeme dar.</p>
         </body>
         <back>
-            <div>
+            <div type="bibliogr">
                 <listBibl>
                     <head>Bibliographie</head>
                     <bibl>Bingert, Sven / Blumtritt, Jonathan / Buddenbohm, Stefan / Engelhardt, Claudia / Kronenwett, Simone / Kurzawe, Daniel (2016): "Anwendungskonservierung und die Nachhaltigkeit von Forschungsanwendungen", in: Forschungsdaten in den Geisteswissenschaften (FORGE 2016) 13-16 https://www.fdm.uni-hamburg.de/ueber-uns/a-nachrichten/aktivitaeten/forge16/praesentationen/programmheft.pdf [letzter Zugriff 20. September 2017].</bibl>

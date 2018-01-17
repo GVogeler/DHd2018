@@ -41,26 +41,26 @@
         </fileDesc>
         <encodingDesc>
             <appInfo>
-                <application>
+                <application ident="DHCONVALIDATOR" version="1.17">
                     <label>DHConvalidator</label>
                 </application>
             </appInfo>
         </encodingDesc>
         <profileDesc>
             <textClass>
-                <keywords>
+                <keywords scheme="ConfTool" n="category">
                     <term>Paper</term>
                 </keywords>
-                <keywords>
+                <keywords scheme="ConfTool" n="subcategory">
                     <term>Poster</term>
                 </keywords>
-                <keywords>
+                <keywords scheme="ConfTool" n="keywords">
                     <term>Edition</term>
                     <term>TEI</term>
                     <term>Linked Open Data</term>
                     <term>Jüdische Geschichte</term>
                 </keywords>
-                <keywords>
+                <keywords scheme="ConfTool" n="topics">
                     <term>Sammlung</term>
                     <term>Transkription</term>
                     <term>Archivierung</term>
@@ -73,7 +73,7 @@
     <text>
         <body>
             <p>Die vom Institut für die Geschichte der deutschen Juden (IGdJ) erstellte, seit Juli 2015 von der DFG geförderte und seit September 2016 frei zugängliche zweisprachige (deutsch/englisch) Online-Quellenedition „Hamburger Schlüsseldokumente zur deutsch-jüdischen Geschichte“ (
-                <ref>http://juedische-geschichte-online.net/</ref>) wirft am Beispiel von derzeit etwa 75 ausgewählten Quellen thematische Schlaglichter auf zentrale Aspekte der deutsch-jüdischen Geschichte Hamburgs.
+                <ref target="http://juedische-geschichte-online.net/">http://juedische-geschichte-online.net/</ref>) wirft am Beispiel von derzeit etwa 75 ausgewählten Quellen thematische Schlaglichter auf zentrale Aspekte der deutsch-jüdischen Geschichte Hamburgs.
             </p>
             <p>Mit der Auswahl und Digitalisierung von Text-, Bild-, Ton- und Sachquellen, die exemplarisch Einblick in historische Zusammenhänge und Ereignisse von der frühen Neuzeit bis in die Gegenwart bieten – den sog. Schlüsseldokumenten – führt sie das aufgrund von Vertreibung und Migration verstreute jüdische Erbe der Stadt digital wieder zusammen und trägt zu seiner langfristigen Sicherung für zukünftige Generationen bei. Ziel ist dabei, das Digitale nicht nur als ein weiteres Medium zu begreifen, sondern als einen Werkzeugkasten, mit dem das Material auf unterschiedlichen Ebenen bearbeitet werden kann. Zum einen führt die Digitalisierung selbst zur besseren Zugänglichkeit und nachhaltigen Sicherung, zum anderen erlauben die technische Auszeichnung nach TEI und Verknüpfung der bereitgestellten Materialien die Auswertung bislang nicht systematisch erfasster Informationen. Und schließlich bietet eine digitale Publikationsumgebung die Möglichkeit, neben Textquellen Bild-, Ton- und Videodokumente (sowie zukünftig 3D-Repräsentationen von Objekten) einzubinden und damit in den Geschichtswissenschaften bislang eher stiefmütterlich behandelte Quellengattungen verstärkt in den Blick zu nehmen.</p>
             <p>Von diesen Überlegungen ausgehend, bilden die digitalisierten und technisch aufbereiteten Quellen konsequenterweise den Dreh- und Angelpunkt der Edition, die zugleich so strukturiert ist, dass sie hypertextuell angelegt und modular aufgebaut ist. Dass die Auseinandersetzung über konkrete Deutungen und Einordnungen am Beispiel konkreter Dokumente erfolgt und diese zugleich neuartig aufbereitet präsentiert werden, erlaubt ihre Fruchtbarmachung für neue Fragestellungen und kann Impulse für die deutsch-jüdische Geschichte geben. Alle Quellen werden als Transkript und digitales Faksimile bereitgestellt. Sowohl Quellen als auch Interpretationstexte werden nach TEI P5 gemäß dem Basisformat des Deutschen Textarchivs ausgezeichnet (Haaf et al 2015). Dies erlaubt neben der Auszeichnung der grundlegende Textstruktur die Verknüpfung mit Normdaten (Personen, Institutionen, Orte) sowie eine interne Verlinkungen mit weiteren Quellen, um so den Texten eine zweite Informationsebene einzuschreiben. Zugleich werden alle bereitgestellten Materialien mit einer DOI versehen, die die langfristige Referenzierbarkeit sicherstellt und die Bearbeitungshistorie transparent werden lässt.</p>
@@ -83,11 +83,11 @@
             <p>Unser Poster zeigt die zentralen Eigenschaften der Online-Edition und hilft, den konzeptionellen Rahmen sowie die technische Umsetzung zu verstehen. Es illustriert die Verknüpfung zwischen TEI-Kodierung der Dokumente sowie ihrer Präsentation und Navigation. Es soll damit den konzeptionellen Grundgedanken des Projektes veranschaulichen, das Digitale mit seinen Möglichkeiten ernst zu nehmen, jedoch nicht in Konkurrenz, sondern in Ergänzung zum Analogen.</p>
         </body>
         <back>
-            <div>
+            <div type="bibliogr">
                 <listBibl>
                     <head>Bibliographie</head>
                     <bibl>
-                        <hi>Haaf, Susanne / Geyken, Alexander / Wiegand, Frank</hi> (2015): "The DTA 'Base Format': A TEI Subset for the Compilation of a Large Reference Corpus of Printed Text from Multiple Sources", in: Journal of the Text Encoding Initiative 8, December 2014 - December 2015, http://journals.openedition.org/jtei/1114 [letzter Zugriff 10. Januar 2018].
+                        <hi rend="bold">Haaf, Susanne / Geyken, Alexander / Wiegand, Frank</hi> (2015): "The DTA 'Base Format': A TEI Subset for the Compilation of a Large Reference Corpus of Printed Text from Multiple Sources", in: Journal of the Text Encoding Initiative 8, December 2014 - December 2015, http://journals.openedition.org/jtei/1114 [letzter Zugriff 10. Januar 2018].
                     </bibl>
                 </listBibl>
             </div>

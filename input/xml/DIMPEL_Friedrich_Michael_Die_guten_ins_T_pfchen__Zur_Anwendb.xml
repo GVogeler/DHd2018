@@ -33,24 +33,24 @@
         </fileDesc>
         <encodingDesc>
             <appInfo>
-                <application>
+                <application ident="DHCONVALIDATOR" version="1.17">
                     <label>DHConvalidator</label>
                 </application>
             </appInfo>
         </encodingDesc>
         <profileDesc>
             <textClass>
-                <keywords>
+                <keywords scheme="ConfTool" n="category">
                     <term>Paper</term>
                 </keywords>
-                <keywords>
+                <keywords scheme="ConfTool" n="subcategory">
                     <term>Vortrag</term>
                 </keywords>
-                <keywords>
+                <keywords scheme="ConfTool" n="keywords">
                     <term>Stilometrie; Autorschaftsattribution</term>
                     <term>Quantitative Verfahren</term>
                 </keywords>
-                <keywords>
+                <keywords scheme="ConfTool" n="topics">
                     <term>Stilistische Analyse</term>
                     <term>Visualisierung</term>
                     <term>Sprache</term>
@@ -62,57 +62,77 @@
     </teiHeader>
     <text>
         <body>
-            <div>
+            <div type="div1" rend="DH-Heading1">
                 <head>Einleitung</head>
                 <p>Die Anwendbarkeit von Burrows’ Delta (Burrows 2002) als Autorschaftstest für das Deutsche ist in Validierungstestreihen wiederholt eindrucksvoll demonstriert worden (Büttner et alia 2017, Eder 2013a/b, Evert et alia 2015. Evert et alia 2016); auch im Mittelhochdeutschen ist Delta anwendbar (Dimpel 2016/2018). Die Stabilität des Verfahrens wurde in Noise-Tests belegt: Wenn man etwa 12% aller Wörter durch Fremdmaterial austauscht, sinkt die Erkennungsquote kaum (Dimpel 2017a/2018).</p>
                 <p>Bei nicht-normalisierten mittelhochdeutschen Texten steigt die Erkennungsquote in einem Validierungstest von 80% auf 91%, wenn man die bei Evert et alia (2016) entwickelte Methode der Z-Wert-Begrenzung mit einem von mir zusammengestellten Normalisierungswörterbuch kombiniert (Dimpel 2017a). Kontraintuitiv ist, dass nur die Kombination dieser Optimierungsverfahren zu einer Verbesserung um 11% führt, während in diesem Setting nur der Einsatz der Z-Wert-Begrenzung zu einer minimalen Verschlechterung führt; der Einsatz nur des Normalisierungswörterbuchs führt nur zu einer Verbesserung um 5,6%. Dieser Befund wird unter dem Stichwort „Delta-Rätsel“ in einem Dariah-de-Working-Paper (Dimpel 2017b) ausführlich analysiert. Bei der Rätsel-Analyse wurde – ein Serendipitätseffekt – eine Möglichkeit entdeckt, wie man bei einem konkreten Vergleich von drei Texten die Wortformen identifizieren kann, die eine korrekte Autorschaftserkennung begünstigen oder behindern – dazu im Weiteren.</p>
             </div>
-            <div>
+            <div type="div1" rend="DH-Heading1">
                 <head>Gute und schlechte Wortformen</head>
                 <p>Beim Delta-Test berechnet man aus den Wortfrequenzen für ein Korpus jeweils die zugehörigen Z-Werte. Beim Vergleich von zwei Wortformen aus zwei Texten wird die Differenz der jeweiligen Z-Werte gebildet und der Betrag dieser Differenz genommen. Delta ist schließlich der Mittelwert der absoluten Z-Wert-Differenzen für alle Wortformen.</p>
                 <figure>
-                    <graphic/>
+                    <graphic n="1001"
+                        width="14.87128888888889cm"
+                        height="6.890744444444445cm"
+                        rend="inline"
+                        url="../images/DIMPEL_Friedrich_Michael_Die_guten_ins_T_pfchen__Zur_Anwendb.xml-image1.png"/>
                 </figure>
                 <p>Abb. 1: Ratetext-Z-Werte (blau) sowie Z-Wert-Differenzen Ratetext–Autor-Vergleichstext (orange)</p>
                 <p>Abb. 1. zeigt oben die Z-Werte der Handschrift M von Wolframs ‚Parzival‘ in einem Test, in dem sich im Vergleichskorpus neben Wolframs ‚Willehalm‘ noch weitere 19 Distraktortexte von anderen Autoren befinden (ausführlich zum Testverfahren Dimpel 2017b). Der ‚Parzival‘ soll dem Autor-Vergleichstext (Wolframs ‚Willehalm‘) zugeordnet werden und nicht etwa Konrads ‚Partonopier‘. Im oberen linken Viertel sind positive Z-Werte blau aufgetragen und nach der Höhe der Z-Werte sortiert. Ab der Stelle, an der die blauen Balken auf 0 zurückgehen, folgt rechts der Betrag der negativen Z-Werte (blau). Unten stehen (orange) die absoluten Z-Wert-Differenzen zwischen dem Ratetext und dem Autor-Vergleichstext (Differenzen der Z-Werte von Wolframs ‚Parzival‘ und Wolframs ‚Willehalm‘).</p>
                 <p>Man könnte A) den Verdacht haben, dass Wortformen bei hohen blauen Balken „gut“ sind, um einen Text von Distraktortexten zu unterscheiden, da hohe Z-Werte auf erhebliche Abweichung von den übrigen Korpusfrequenzen hindeuten. Man könnte auch B) den Verdacht haben, dass Wortformen bei hohen orangen Balken „schlecht“ für die Autorerkennung sind: Unterschiede zwischen dem Ratetext und Autor-Vergleichstext (also Unterschiede von zwei Texten des gleichen Autors) sollten eher niedrig sein, damit die Erkennung funktioniert. Allerdings sind bei hohen blauen Balken relativ oft auch hohe orange Balken vorhanden – auch in anderen Tests (Dimpel 2017b). Dieses Diagramm erlaubt also keine Aussage darüber, welche Wortformen gut für die Autorerkennung sind; hohe Z-Werte allein erlauben noch keine Aussage darüber, ob ein Wort hier gut geeignet ist, um einen Autor zu charakterisieren.</p>
                 <figure>
-                    <graphic/>
+                    <graphic n="1002"
+                        width="16.038869444444444cm"
+                        height="7.431752777777778cm"
+                        rend="inline"
+                        url="../images/DIMPEL_Friedrich_Michael_Die_guten_ins_T_pfchen__Zur_Anwendb.xml-image2.png"/>
                 </figure>
                 <p>Abb. 2: Z-Wert-Differenzen Ratetext–Autor-Vergleichstext (orange: Wolframs ‚Parzival‘– Wolframs ‚Willehalm‘) und Z-Wert-Differenzen Ratetext–Distraktortext (grau: Wolframs ‚Parzival‘ – Konrads ‚Partonopier‘)</p>
                 <p>Neu ist in Abb. 2 nur die obere Hälfte: Sie enthält Z-Wert-Differenzen des Ratetexts zum Distraktortext (‚Partonopier‘). Diese grauen Unterschiede sollten bei funktionierender Autorerkennung eher groß sein; gleichzeitig sollten die orangen Unterschiede der Texte vom gleichen Autor niedriger sein als die grauen. Dort, wo die grauen Balken genauso hoch sind wie die orangen, hilft das Wort nicht bei der Autorerkennung – dies ist bei sehr hohen positiven Z-Werten der Fall. Sind die orangen Balken höher als die grauen, stört die Wortform die Autorerkennung: Die Differenzen zwischen Texten verschiedener Autoren müssen größer sein als die Differenzen zwischen Texten gleicher Autoren, wenn die Autorschaftserkennung funktioniert. </p>
                 <p>Die Differenz zwischen orange und grau sei ‚Level-2-Differenz‘ genannt: „Differenz aus der Z-Wert-Differenz zwischen Ratetext und Distraktortext einerseits und der Z-Wert-Differenz zwischen Ratetext und Autor-Vergleichstext andererseits“. Bei positiven Level-2-Differenzen ist eine Wortform vorteilhaft für die Autorerkennung – mit Blick auf den einen untersuchten Distraktortext. Bei negativen Level-2-Differenzen ist die Wortform schlecht für die Autorerkennung. Über diese Differenz kann man „gute“ und „schlechte“ Wortformen einzeln identifizieren.</p>
             </div>
-            <div>
+            <div type="div1" rend="DH-Heading1">
                 <head>Use-Case-Szenario ‚Halbe Birne‘ </head>
                 <p>Konrads Autorschaft wurde der ‚Halben Birne‘ trotz Selbstnennung im Epilog (
-                    <hi>von Wirzburc maister Kuonrat</hi>) abgesprochen (Lachmann 1820, Laudan 1906, de Boor 1973, de Boor / Janota 1997; ‚Konrad‘ mit Fragezeichen bei Grubmüller 1996) – aufgrund des „obszönen“ Inhalts und sprachlicher Merkmale; anders Feistner 2000.
+                    <hi rend="italic">von Wirzburc maister Kuonrat</hi>) abgesprochen (Lachmann 1820, Laudan 1906, de Boor 1973, de Boor / Janota 1997; ‚Konrad‘ mit Fragezeichen bei Grubmüller 1996) – aufgrund des „obszönen“ Inhalts und sprachlicher Merkmale; anders Feistner 2000.
                 </p>
                 <p>Die stilometrische Analyse ist in mehrfacher Hinsicht eine Herausforderung: Eine gattungsübergreifende Attribution ist mangels anderer Vergleichstexte nötig (nach Schöch 2014 wäre eine Gattungsmischung möglichst zu meiden). In Konrads Oevre herrscht eine Vielfalt an Themen, Frivoles wie in der ‚Halben Birne‘ ist eher selten – auch im einzigen anderen Märentext Konrads: im ‚Herzmäre‘ bleibt die Liebe unerfüllt, es kommt zum doppelten Minnetod. Zudem ist die ‚Halbe Birne‘ recht kurz: sehr gute Quoten erreicht Delta ab 5.000 Wortformen in einer Bag-of-Words (vgl. Abb. 3 sowie Eder 2013a und Eder 2013b).</p>
                 <figure>
-                    <graphic/>
+                    <graphic n="1003"
+                        width="15.444611111111112cm"
+                        height="10.600972222222222cm"
+                        rend="inline"
+                        url="../images/DIMPEL_Friedrich_Michael_Die_guten_ins_T_pfchen__Zur_Anwendb.xml-image3.png"/>
                 </figure>
                 <p>Abb. 3; zum Setting vgl. Dimpel 2018.</p>
                 <p>Die ‚Halbe Birne‘ enthält jedoch nur 2.469 Wortformen. Wenn man nun die ‚Birne‘ gegen ein Konrad-Korpus testet, kann man entweder die Wörter mit hoher Level-2-Differenz, die einer Erkennung von Konrad entgegenstehen, aus der Liste der untersuchten Most-Frequent-Words (MFWs) streichen. Oder man kann eine Positivliste mit „guten“ Wörtern bevorzugt verwenden – Wörter mit hoher positiver Level-2-Differenz.</p>
                 <p>Vorab wird das Verfahren validiert: In einer Ermittlungsgruppe (vier Konrad-Texte) werden „gute“ und „schlechte“ Wörter identifiziert.
-                    <note>
-                        <p> Im Vergleichskorpus verwende ich hier und für die folgenden Attributionstests 7 Romane und 13 Mären: Barlaam, Daniel, Lanzelet, Meleranz, Parzival, Tristan, Wigalois; Frauentreue, Haeslein, Heidin_B, JvFreiberg_Raedlein, Kaufringer_Moerderin, Kaufringer_Rache, Kaufringer_listige_Frauen, Pyramus, Rosenpluet_Pfarrer, Schlegel, Schueler_Paris, StudentenAbenteuer_A, Zwickauer_Moenches_Not.</p>
+                    <note place="foot" xml:id="ftn1" n="1">
+                        <p rend="footnote text"> Im Vergleichskorpus verwende ich hier und für die folgenden Attributionstests 7 Romane und 13 Mären: Barlaam, Daniel, Lanzelet, Meleranz, Parzival, Tristan, Wigalois; Frauentreue, Haeslein, Heidin_B, JvFreiberg_Raedlein, Kaufringer_Moerderin, Kaufringer_Rache, Kaufringer_listige_Frauen, Pyramus, Rosenpluet_Pfarrer, Schlegel, Schueler_Paris, StudentenAbenteuer_A, Zwickauer_Moenches_Not.</p>
                     </note> In einer Kontrollgruppe (vier andere Konrad-Texte) zeigt sich, dass die Erkennungsquote durch dieses Verfahren bei Bag-of-Words mit 2.000 Wortformen steigt – beim bevorzugten Verwenden „guter“ Wörtern stärker als beim Aussortieren der „schlechten“. Danach werden alle acht Konrad-Texte erneut zur Bildung der Listen der „guten“ und „schlechten“ Wortformen herangezogen. Als geeignete Parameter haben sich gezeigt:
                 </p>
                 <p>„Gute Wörter“: Level-2-Differenzen &gt;+2,31 in 6 von 7 Ermittlungsgruppen-Ratetexten, 304 items</p>
                 <p>„Schlechte Wörter“: Level-2-Differenzen &lt;-1,2 in 2 von 7 Ermittlungsgruppen-Ratetexten, 174 items</p>
                 <figure>
-                    <graphic/>
+                    <graphic n="1004"
+                        width="16.002cm"
+                        height="5.2034722222222225cm"
+                        rend="inline"
+                        url="../images/DIMPEL_Friedrich_Michael_Die_guten_ins_T_pfchen__Zur_Anwendb.xml-image4.png"/>
                 </figure>
                 <p>Im Attributionstest 1 wird die ‚Halbe Birne‘ als Autor-Vergleichstext verwendet, als Ratetexte werden die acht Konrad-Texte sowie das ‚Herzmäre‘ verwendet; im ‚Herzmäre‘-Test bleibt es bei acht Konrad-Ratetexten; das ‚Herzmäre‘ ist Autor-Vergleichstext. Hier erreicht das ‚Herzmäre‘ nur 4,5%, ein schlechter Wert, obwohl hier die Autorschaft nicht infrage gestellt wurde. Dagegen liegt die Erkennungsquote bei der ‚Halben Birne‘ auch ohne zusätzliche Wortlisten bereits über dem Zufallswert: Wenn ein Konrad-Text aus dem Ratekorpus nun nicht einem der 20 Texte von anderen Autoren zuordnet wird, sondern der ‚Halben Birne‘, dann stehen die Chancen dafür 1 zu 21. Wenn es also auf den Zufall zurückzuführen wäre, dass ein Text dem richtigen Autor zugeordnet wird, dann müsste die Erkennungsquote bei 5% liegen – so beim ‚Herzmäre‘. 83,8% bei der ‚Halben Birne‘ sind ein ordentlicher Wert, wenn man bedenkt, dass nur kurze Bag-of-Words mit 2.000 Wortformen getestet werden können und dass gattungsübergreifend getestet wird. </p>
                 <p>Beim Attributionstest 1 befand sich die ‚Halbe Birne‘ im Vergleichskorpus. Im Ratekorpus waren inklusive ‚Herzmäre‘ 9 Konrad-Texte. Nun werden umgekehrt ‚Halbe Birne‘ bzw. ‚Herzmäre‘ als Ratetexte verwendet. Ins Vergleichskorpus gebe ich zu den 20 Distraktortexten in separaten Tests jeweils einen Konrad-Text als Autor-Vergleichstext ins Vergleichskorpus.</p>
                 <p>Attributionstest 2:</p>
                 <figure>
-                    <graphic/>
+                    <graphic n="1005"
+                        width="7.510666666666666cm"
+                        height="5.441122222222222cm"
+                        rend="inline"
+                        url="../images/DIMPEL_Friedrich_Michael_Die_guten_ins_T_pfchen__Zur_Anwendb.xml-image5.png"/>
                 </figure>
                 <p>Im Attributionstest 2 übersteigen die meisten Werte 86%. Es gibt lediglich zwei deutliche Ausreißer, an denen jeweils das ‚Herzmäre‘ beteiligt ist. Dieses Minneleid-und-Minnetod-Märe fügt sich nicht zur politischen Propagandadichtung ‚Turnier von Nantes‘. Auch zur ‚Halben Birne‘ passt das ‚Herzmäre‘ nicht: Dort geht es um eine Dame, die einen Ritter abweist, weil er beim Birnenverzehr keine Tischmanieren an den Tag legt. Die Dame schläft mit einem vermeintlich taubstummen Hofnarren, der sich jedoch später als der abgewiesene Birnen-Ritter entpuppt. Interessante Fehlattributionen (etwa ‚Birne‘ zu ‚Häslein‘ statt zum ‚Herzmäre‘) werden im Vortrag vorgestellt.</p>
             </div>
-            <div>
+            <div type="div1" rend="DH-Heading1">
                 <head>Ein kleiner Schritt für die Attribution der ‚Halben Birne‘ an Konrad</head>
                 <p>Als Katharina Zeppezauer-Wachauer (Salzburg) mir einige Mären aus der Mittelhochdeutschen Begriffsdatenbank überlassen hat (vielen Dank dafür!), hat sie notiert: „Vielleicht können Sie ja wirklich, wie Edith Feistner gefordert hat, ‚Konrad seine Birne wiedergeben‘!“ Auch wenn die Zahlen in beiden Attributionstests trotz der geringen Textlänge und trotz der Gattungsproblematik überraschend eindeutig sind, möchte ich bei einer vorsichtigen Interpretation bleiben. Zwar ist die Wahrscheinlichkeit sehr gering, dass die gefundene Nähe der ‚Halben Birne‘ zum Konrad-Korpus auf dem Zufall beruht. Allerdings wären ‚Kontrollpeilungen‘ (Eibl 2013) wünschenswert: Eine Attribution sollte nicht auf einem einzelnen Test mit einer Methode erfolgen, wünschenswert wären Bestätigungen mit anderen Methoden. Immerhin aber geht es hier nicht um eine blinde Attribution, sondern lediglich um Widerspruch gegen eine Athetese der Forschung. Eine Attribution stünde in Einklang mit Konrads Selbstnennung in fünf von sieben überlieferten Textzeugen.</p>
                 <p>Zudem würde ich den Test gerne mit einem größeren Mären-Korpus wiederholen, in dem idealerweise längere Texte wären und mehr Texte, die näher an Konrads Schaffenszeit liegen. Dass die Birne nicht zu Kaufringer clustert, könnte auch dem zeitlichen Abstand geschuldet sein, der durch gemeinsame groteske oder frivole Inhaltselemente nicht überlagert wird.</p>
@@ -120,70 +140,70 @@
             </div>
         </body>
         <back>
-            <div>
+            <div type="bibliogr">
                 <listBibl>
                     <head>Bibliographie</head>
                     <bibl>Büttner, Andreas / Dimpel, Friedrich Michael / Evert, Stefan / Jannidis, Fotis / Pielström, Steffen / Proisl, Thomas / Reger, Isabella / Schöch, Christof / Vitt, Thorsten (forthcoming 2017): „„Delta“ in der stilometrischen Autorschaftsattribution“, in: ZfdG. </bibl>
                     <bibl>Burrows, John (2002): „‘Delta’: A Measure of Stylistic Difference and a Guide to Likely Authorship“, in: 
-                        <hi>Literary and Linguistic Computing</hi> 17/3: 267–87. 10.1093/llc/17.3.267.
+                        <hi rend="italic">Literary and Linguistic Computing</hi> 17/3: 267–87. 10.1093/llc/17.3.267.
                     </bibl>
                     <bibl>De Boor, Helmut (1967): „Die Chronologie der Werke Konrads von Würzburg, insbesondere die Stellung des Turniers von Nantes“, in: 
-                        <hi>PBB</hi> 89: 210–269.
+                        <hi rend="italic">PBB</hi> 89: 210–269.
                     </bibl>
                     <bibl>Dimpel, Friedrich Michael (2016): 
-                        <hi>„Burrows’ Delta im Mittelalter: Wilde Graphien und metrische Analysedaten“</hi>, in: Modellierung – Vernetzung – Visualisierung. Die Digital Humanities als fächerübergreifendes Forschungsparadigma. Konferenzabstracts zur DHd-Tagung 2016 in Leipzig, http://dhd2016.de/: 65–70.
+                        <hi rend="italic">„Burrows’ Delta im Mittelalter: Wilde Graphien und metrische Analysedaten“</hi>, in: Modellierung – Vernetzung – Visualisierung. Die Digital Humanities als fächerübergreifendes Forschungsparadigma. Konferenzabstracts zur DHd-Tagung 2016 in Leipzig, http://dhd2016.de/: 65–70.
                     </bibl>
                     <bibl>Dimpel, Friedrich Michael (2017a): 
-                        <hi>„Autorschaftsattribution bei nicht-normalisiertem Mittelhochdeutsch. Bessere Erkennungsquoten durch ein Normalisierungswörterbuch“</hi>, in Stolz, Michael (Hrsg.): 
-                        <hi>Konferenzabstracts DHd 2017 Bern. Digitale Nachhaltigkeit</hi>. Bern: 100-103. http://www.dhd2017.ch/programm.
+                        <hi rend="italic">„Autorschaftsattribution bei nicht-normalisiertem Mittelhochdeutsch. Bessere Erkennungsquoten durch ein Normalisierungswörterbuch“</hi>, in Stolz, Michael (Hrsg.): 
+                        <hi rend="italic">Konferenzabstracts DHd 2017 Bern. Digitale Nachhaltigkeit</hi>. Bern: 100-103. http://www.dhd2017.ch/programm.
                     </bibl>
                     <bibl>Dimpel, Friedrich Michael (forthcoming 2017b): „Ein Delta-Rätsel: Nicht-normalisierte mittelhochdeutsche Texte, Z-Wert-Begrenzung und ein Normalisierungswörterbuch. Oder: Auf welche Wörter kommt es bei Delta an?“, in: 
-                        <hi>Dariah-de-Working Papers</hi> n.n. 
+                        <hi rend="italic">Dariah-de-Working Papers</hi> n.n. 
                     </bibl>
                     <bibl>Dimpel, Friedrich Michael (forthcoming 2018): 
-                        <hi>„Stabile Autorschaft trotz handschriftlicher Varianz? Die Erfolgsquote von Burrows' Delta bei nicht-normalisierten mittelhochdeutschen Texten optimieren“</hi> (in Begutachtung, n.n.).
+                        <hi rend="italic">„Stabile Autorschaft trotz handschriftlicher Varianz? Die Erfolgsquote von Burrows' Delta bei nicht-normalisierten mittelhochdeutschen Texten optimieren“</hi> (in Begutachtung, n.n.).
                     </bibl>
                     <bibl>Eder, Maciej (2013a): „Mind Your Corpus: systematic errors in authorship attribution“, in: 
-                        <hi>Literary and Linguistic Computing</hi> 28:603-614. 10.1093/llc/fqt039.
+                        <hi rend="italic">Literary and Linguistic Computing</hi> 28:603-614. 10.1093/llc/fqt039.
                     </bibl>
                     <bibl>Eder, Maciej (2013b): „Does size matter? Authorship attribution, small samples, big problem“, in: 
-                        <hi>Literary and Linguistic Computing Advanced Access</hi> 29:1-16. 10.1093/llc/fqt066.
+                        <hi rend="italic">Literary and Linguistic Computing Advanced Access</hi> 29:1-16. 10.1093/llc/fqt066.
                     </bibl>
                     <bibl>Eibl, Karl (2013): „Ist Literaturwissenschaft als Erfahrungswissenschaft möglich? Mit einigen Anmerkungen zur Wissenschaftsphilosophie des Wiener Kreises“, in: Philip Ajouri [u. a.] (Hrsg.): 
-                        <hi>Empirie in der Literaturwissenschaft, Münster</hi> (Poetogenesis. Studien zur empirischen Anthropologie der Literatur 8): 19–45.
+                        <hi rend="italic">Empirie in der Literaturwissenschaft, Münster</hi> (Poetogenesis. Studien zur empirischen Anthropologie der Literatur 8): 19–45.
                     </bibl>
                     <bibl>Evert, Stefan / Proisl, Thomas / Jannidis, Fotis / Pielström, Steffen / Schöch, Christof / Vitt, Thorsten (2015): 
-                        <hi>„Towards a better understanding of Burrows’s Delta in literary authorship attribution“</hi>, in: 
-                        <hi>Proceedings of the Fourth Workshop on Computational Linguistics for Literature</hi>. Denver, CO: Association for Computational Linguistics: 79–88. 10.5281/zenodo.18177. http://www.aclweb.org/anthology/W/W15/W15-0709.pdf [Abruf 20.8.2015].
+                        <hi rend="italic">„Towards a better understanding of Burrows’s Delta in literary authorship attribution“</hi>, in: 
+                        <hi rend="italic">Proceedings of the Fourth Workshop on Computational Linguistics for Literature</hi>. Denver, CO: Association for Computational Linguistics: 79–88. 10.5281/zenodo.18177. http://www.aclweb.org/anthology/W/W15/W15-0709.pdf [Abruf 20.8.2015].
                     </bibl>
                     <bibl>Evert, Stefan / Proisl, Thomas / Jannidis, Fotis / Pielström, Steffen / Reger, Isabella/ Schöch, Christof / Vitt, Thorsten (2016): 
-                        <hi>„Burrows Delta verstehen“</hi>, in: 
-                        <hi>Modellierung – Vernetzung – Visualisierung. Die Digital Humanities als fächerübergreifendes Forschungsparadigma. Konferenzabstracts zur DHd-Tagung 2016 in Leipzig</hi>, http://dhd2016.de/: 61–65.
+                        <hi rend="italic">„Burrows Delta verstehen“</hi>, in: 
+                        <hi rend="italic">Modellierung – Vernetzung – Visualisierung. Die Digital Humanities als fächerübergreifendes Forschungsparadigma. Konferenzabstracts zur DHd-Tagung 2016 in Leipzig</hi>, http://dhd2016.de/: 61–65.
                     </bibl>
                     <bibl>Edith Feistner (2000): „Kulinarische Begegnungen. Konrad von Würzburg und ‚Die halbe Birne‘“ in: Dorothea Klein et al. (Hrsg.): 
-                        <hi>Vom Mittelalter zur Neuzeit. FS Horst Brunner. </hi>Wiesbaden: 291–304. Grubmüller, Klaus (1996): 
-                        <hi>Novellistik des Mittelalters. Märendichtung</hi>. Frankfurt/Main 1996 (Bibliothek des Mittelalters 23).
+                        <hi rend="italic">Vom Mittelalter zur Neuzeit. FS Horst Brunner. </hi>Wiesbaden: 291–304. Grubmüller, Klaus (1996): 
+                        <hi rend="italic">Novellistik des Mittelalters. Märendichtung</hi>. Frankfurt/Main 1996 (Bibliothek des Mittelalters 23).
                     </bibl>
                     <bibl>Jannidis, Fotis / Lauer, Gerhard (2014). 
-                        <hi>„Burrows’s Delta and Its Use in German Literary History“</hi> in: Erlin, Matt / Tatlock, Lynne (eds.): 
-                        <hi>Distant Readings. Topologies of German Culture in the Long Nineteenth Century</hi>. New York: 29–54.
+                        <hi rend="italic">„Burrows’s Delta and Its Use in German Literary History“</hi> in: Erlin, Matt / Tatlock, Lynne (eds.): 
+                        <hi rend="italic">Distant Readings. Topologies of German Culture in the Long Nineteenth Century</hi>. New York: 29–54.
                     </bibl>
                     <bibl>Jannidis, Fotis / Pielström, Steffen / Schöch, Christof / Vitt, Thorsten (2015): 
-                        <hi>„Improving Burrows’ Delta – An Empirical Evaluation of Text Distance Measures“</hi>, in: 
-                        <hi>Digital Humanities Conference 2015</hi>, Sydney. http://dh2015.org/abstracts/xml/JANNIDIS_Fotis_Improving_Burrows__Delta___An_empi/JANNIDIS_Fotis_Improving_Burrows__Delta___An_empirical_.html.
+                        <hi rend="italic">„Improving Burrows’ Delta – An Empirical Evaluation of Text Distance Measures“</hi>, in: 
+                        <hi rend="italic">Digital Humanities Conference 2015</hi>, Sydney. http://dh2015.org/abstracts/xml/JANNIDIS_Fotis_Improving_Burrows__Delta___An_empi/JANNIDIS_Fotis_Improving_Burrows__Delta___An_empirical_.html.
                     </bibl>
                     <bibl>De Boor, Helmut / Janota, Johannes (1997): 
-                        <hi>Geschichte der deutschen Literatur von den Anfängen bis zur Gegenwart. Band III /,1. Die deutsche Literatur im späten Mittelalter: Epik, Lyrik, Didaktik, geistliche und historische Dichtung: 1250–1350</hi>, 5., neubearb. Aufl. von Johannes Janota. München.
+                        <hi rend="italic">Geschichte der deutschen Literatur von den Anfängen bis zur Gegenwart. Band III /,1. Die deutsche Literatur im späten Mittelalter: Epik, Lyrik, Didaktik, geistliche und historische Dichtung: 1250–1350</hi>, 5., neubearb. Aufl. von Johannes Janota. München.
                     </bibl>
                     <bibl>Lachmann, Karl (1820): 
-                        <hi>Auswahl aus den Hochdeutschen Dichtern des dreizehnten Jahrhunderts</hi>, Berlin.
+                        <hi rend="italic">Auswahl aus den Hochdeutschen Dichtern des dreizehnten Jahrhunderts</hi>, Berlin.
                     </bibl>
                     <bibl>Laudan, Hans (1908): „‚Die Halbe Birne‘ nicht von Konrad von Würzburg“, in: 
-                        <hi>ZfdA</hi> 50: 158–166.
+                        <hi rend="italic">ZfdA</hi> 50: 158–166.
                     </bibl>
                     <bibl>Schöch, Christof (2014): 
-                        <hi>„Corneille, Molière et les autres. Stilometrische Analysen zu Autorschaft und Gattungszugehörigkeit im französischen Theater der Klassik“</hi> in: Christof Schöch und Lars Schneider (Hrsg.): 
-                        <hi>Literaturwissenschaft im digitalen Medienwandel</hi>, Berlin (Philologie im Netz, Beiheft 7): 130–157.
+                        <hi rend="italic">„Corneille, Molière et les autres. Stilometrische Analysen zu Autorschaft und Gattungszugehörigkeit im französischen Theater der Klassik“</hi> in: Christof Schöch und Lars Schneider (Hrsg.): 
+                        <hi rend="italic">Literaturwissenschaft im digitalen Medienwandel</hi>, Berlin (Philologie im Netz, Beiheft 7): 130–157.
                     </bibl>
                 </listBibl>
             </div>

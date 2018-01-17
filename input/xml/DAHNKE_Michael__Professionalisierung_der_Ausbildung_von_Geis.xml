@@ -3,14 +3,14 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>
-                    <title> Professionalisierung der Ausbildung von Geisteswissenschaftlern in der Digitalisierung von Texten</title>
-                    <title/>
-                    <title>2.1. Rechtliche Grundlagen der Bilddigitalisierung</title>
-                    <title>2.2. Suche nach vorhandenen Digitalisaten beziehungsweise deren Erstellung</title>
-                    <title>2.3. Aufbereitung der Digitalisate für das OCR</title>
-                    <title>2.4. OCR</title>
-                    <title>2.5. Auszeichnung/Anreicherung</title>
+                <title type="full">
+                    <title type="main"> Professionalisierung der Ausbildung von Geisteswissenschaftlern in der Digitalisierung von Texten</title>
+                    <title type="sub"/>
+                    <title type="sub">2.1. Rechtliche Grundlagen der Bilddigitalisierung</title>
+                    <title type="sub">2.2. Suche nach vorhandenen Digitalisaten beziehungsweise deren Erstellung</title>
+                    <title type="sub">2.3. Aufbereitung der Digitalisate für das OCR</title>
+                    <title type="sub">2.4. OCR</title>
+                    <title type="sub">2.5. Auszeichnung/Anreicherung</title>
                 </title>
                 <author>
                     <persName>
@@ -41,23 +41,23 @@
         </fileDesc>
         <encodingDesc>
             <appInfo>
-                <application>
+                <application ident="DHCONVALIDATOR" version="1.17">
                     <label>DHConvalidator</label>
                 </application>
             </appInfo>
         </encodingDesc>
         <profileDesc>
             <textClass>
-                <keywords>
+                <keywords scheme="ConfTool" n="category">
                     <term>Paper</term>
                 </keywords>
-                <keywords>
+                <keywords scheme="ConfTool" n="subcategory">
                     <term>Vortrag</term>
                 </keywords>
-                <keywords>
+                <keywords scheme="ConfTool" n="keywords">
                     <term>Digitalisierung OCR Metadaten Transkription TEI</term>
                 </keywords>
-                <keywords>
+                <keywords scheme="ConfTool" n="topics">
                     <term>Bilderfassung</term>
                     <term>Transkription</term>
                     <term>Daten</term>
@@ -69,27 +69,27 @@
     </teiHeader>
     <text>
         <body>
-            <div>
+            <div type="div1" rend="DH-Heading1">
                 <head>Motivation</head>
                 <p>
-                    <ref>»Angesichts der steigenden Sichtbarkeit der Digital Humanities, auch und gerade bei universitären Schwerpunktsetzungen, ist die Frage, wie sie am sinnvollsten gelehrt werden sollen, von steigender Bedeutung« […] »Um diese Bemühungen längerfristig in der Community zu verankern, wurde auf der ersten Jahreskonferenz der Digital Humanities der deutschsprachigen Länder im März 2014« […] »eine Arbeitsgruppe der DHd gegründet. Die Proponenten der Arbeitsgruppe schlugen vor,« […] »die bisher losen Diskussionen stärker auf ein »Referenzcurriculum« zu fokussieren.«</ref> Diesem Anliegen fühlt sich der als Dozent für die Vermittlung von Digitalisierungskompetenz an der Universitäsbibliothek Würzburg arbeitende Autor verpflichtet. Er engagiert sich in der 
-                    <ref>
-                        <hi>AG Referenzcurriculum Digital Humanities</hi>
+                    <ref target="../../../../../Volumes/NO_NAME/wma_ub_wuerzburg/dhd2018/contribution/%20https://dig-hum.de/ag-referenzcurriculum-digital-humanities">»Angesichts der steigenden Sichtbarkeit der Digital Humanities, auch und gerade bei universitären Schwerpunktsetzungen, ist die Frage, wie sie am sinnvollsten gelehrt werden sollen, von steigender Bedeutung« […] »Um diese Bemühungen längerfristig in der Community zu verankern, wurde auf der ersten Jahreskonferenz der Digital Humanities der deutschsprachigen Länder im März 2014« […] »eine Arbeitsgruppe der DHd gegründet. Die Proponenten der Arbeitsgruppe schlugen vor,« […] »die bisher losen Diskussionen stärker auf ein »Referenzcurriculum« zu fokussieren.«</ref> Diesem Anliegen fühlt sich der als Dozent für die Vermittlung von Digitalisierungskompetenz an der Universitäsbibliothek Würzburg arbeitende Autor verpflichtet. Er engagiert sich in der 
+                    <ref target="https://dig-hum.de/ag-referenzcurriculum-digital-humanities">
+                        <hi rend="italic">AG Referenzcurriculum Digital Humanities</hi>
                     </ref>, ist Mitglied des Würzburger Arbeitskreis Digitale Editionen und unterstützt das Editionsprojekt 
-                    <ref>
-                        <hi>Narragonien digital</hi>
+                    <ref target="http://kallimachos.de/kallimachos/index.php/Narragonien">
+                        <hi rend="italic">Narragonien digital</hi>
                     </ref>. Er plädiert mit seinem Beitrag dafür, die DH-Ausbildung bezüglich der Bilddigitalisierung und des OCR (Optical Character Recognition) stärker zu kanonisieren. Mit seiner eigenen 
-                    <ref>Lehrveranstaltung</ref>
-                    <ref>
-                        <hi>Bilddigitalisierung und OCR für Geisteswissenschaftler</hi>
+                    <ref target="https://www.bibliothek.uni-wuerzburg.de/fileadmin/ub/pdf-Dateien/Infoblaetter/handzettelModulvorstellung.pdf">Lehrveranstaltung</ref>
+                    <ref target="https://www.bibliothek.uni-wuerzburg.de/fileadmin/ub/pdf-Dateien/Infoblaetter/handzettelModulvorstellung.pdf">
+                        <hi rend="italic">Bilddigitalisierung und OCR für Geisteswissenschaftler</hi>
                     </ref>, deren Schwerpunkt auf der Erstellung der Digitalisate und dem OCR liegt, bietet er eine Referenz, die er hiermit zur Diskussion in der Community stellt.
                 </p>
                 <p>Das Ziel der Lehrveranstaltung ist die Vermittlung von Kenntnissen des gesamten Digitalisierungsprozesses für MA-, BA- und LA-Studentinnen und Studenten aller geisteswissenschaftlichen Fachrichtungen. Diese nachfolgend als Zielgruppe Bezeichneten sollen in die Lage versetzt werden, selbständig strukturiert ausgezeichnete, digitale Volltexte zu erzeugen und die Ergebnisse der Erstellung derselben beurteilen zu können. Diese Kenntnisse sind wichtig, weil Projekte häufig auch dadurch gefährdet sind, dass Vertretern der Zielgruppe die mangelnde Qualität der ihnen vorliegenden Digitalisate zu spät bewusst wird. Darum müssen sie von Beginn an Digitalisate auf ihre Brauchbarkeit für die automatische Texterkennung beurteilen können. Strukturiert ausgezeichnete, digitale Volltexte sind unabdingbar beispielsweise für Topic Modeling oder Sentiment Analysis auf größeren Textcorpora und als Zwischenstufe für die Erstellung digitaler Editionen.</p>
             </div>
-            <div>
+            <div type="div1" rend="DH-Heading1">
                 <head>Ablauf</head>
                 <p>Kurz gefaßt sind die sechs Arbeitschritte dafür</p>
-                <list>
+                <list type="ordered">
                     <item>die Sensibilisierung für juristische Aspekte der Bilddigitalisierung,</item>
                     <item>die Suche nach vorhandenen oder die Erstellung von eigenen Digitalisaten,</item>
                     <item>deren Vorverarbeitung,</item>
@@ -98,7 +98,7 @@
                     <item>die inhaltliche Auszeichnung des generierten Rohtextes.</item>
                 </list>
                 <p>Um den Teilnehmern den typischen Arbeitsablauf der Textdigitalisierung möglichst stringent und ohne thematische Abschweifungen vorzuführen, werden sie zuerst intensiv mit den juristischen Grundlagen der Bilddigitalisierung vertraut gemacht. Dazu gehören</p>
-                <list>
+                <list type="ordered">
                     <item>die Vorstellung des UrhG beziehungsweise speziell der § 60d und 60g UrhG in der novellierten Fassung des UrhWissG 2017,</item>
                     <item>die Unterscheidung zwischen Immaterial- und Materialgüterrecht und was daraus für die Digitalisierung zweidimensionaler Objekte folgt,</item>
                     <item>die Persönlichkeitsrechte des Urhebers und weiterer Betroffener sowie</item>
@@ -108,64 +108,64 @@
                 <p>Ausgehend von den skizzierten Anforderungen werden den Vertretern der Zielgruppe in der Veranstaltung die Grundlagen der Bilddigitalisierung nahe gebracht. Vertieft wird hier auf das menschliche Sehen und die Farbreproduktion, die Entstehung digitaler Bilder (Rastergraphik, optische und interpolierte Auflösung, Farbtiefe), Farbräume, Color-Management-Systeme, verschiedene Graphikspeicherformate, Speichermedien und verschiedene Scannertypen eingegangen. Auch für die Berücksichtigung konservatorischer Aspekte werden die Teilnehmer sensibilisiert.</p>
                 <p>Die Forschung im Bereich OCR, insbesondere auf Inkunabeln und Wiegendrucken, sowie die eigene Praxis des Autors belegen die Bedeutung einer vorherigen Aufbereitung der Digitalisate für das OCR, der darum entsprechend Platz in der Veranstaltung eingeräumt wird (Springmann 2015: 9). Als Tätigkeiten sind hier in der Reihenfolge ihrer Ausführung die Bereinigung und anschließende Binarisierung der Digitalisate, deren Segmentierung in einzelne Textabschnitte und schließlich einzelne Textzeilen sowie die Transkription (›ground truth‹) einer Anzahl der Textzeilen zu nennen. Die gesamte Aufbereitung der Digitalisate für das OCR führen die Vertreter der Zielgruppe in der Veranstaltung selbst an ausgewähltem Trainingsmaterial durch. Nach der Teilnahme an der Veranstaltung sollen sie auch diesen Arbeitsschritt selbständig erledigen und Arbeitsergebnisse anderer in diesem Bereich beurteilen können.</p>
                 <p>Entsprechend der zunehmenden Spezialisierung des Digitalisierungszentrums der UB Würzburg ist es erstens wünschenswert, in der Lehrveranstaltung besonders auf das Training eigener Modelle beispielsweise mit 
-                    <ref>
-                        <hi>OCRopus</hi>
+                    <ref target="https://github.com/tmbdev/ocropy">
+                        <hi rend="italic">OCRopus</hi>
                     </ref> einzugehen. Zweitens soll ein Arbeitsablauf für die Digitalisierung eigener Texte vorgestellt werden, der von den Vertretern der Zielgruppe selbständig mit möglichst geringem technischen Aufwand realisierbar ist. Diese Form der Digitalisierung von Texten soll als handhabbares Mittel zum Zweck wahrgenommen werden.
                 </p>
                 <p>Schließlich wird in diesem Zusammenhang auf die Frage nach dem Zeitpunkt der Normalisierung des mit dem OCR erstellten Textes eingegangen. Soll bereits mit dem OCR ein normalisierter Text erstellt werden und wenn ja, nach welchen Regeln? Ist also beispielsweise von der verwendeten OCR-Software das Schaft-s bereits automatisch als Rund-s zu lernen und anschließend zu transkribieren? Oder soll das Ergebnis des OCR graphisch so dicht wie möglich am Original bleiben und normalisierende Eingriffe erst hinterher erfolgen?</p>
                 <p>Nach dem OCR wird erst die Notwendigkeit der Auszeichnung sowohl der Digitalisate mit Metadaten als auch des Rohtextes erläutert, die die Teilnehmer dann auch selbst vornehmen sollen. Für den extrahierten Rohtext gilt das in zweifacher Hinsicht: Erstens sind ihm Metadaten hinzuzufügen, welche die spätere, eindeutige Identifikation des Werkes und dessen Auffindbarkeit ermöglichen. Zweitens muss der Text strukturiert mit inhaltsbezogenen Elementen angereichert werden.</p>
                 <p>Konkret sind bei der digitalen Repräsentation eines Romans beispielsweise die Figuren, Orte, Zeitpunkte und gegebenenfalls weitere signifikante Entitäten im Text für das spätere, automatisierte Retrieval zu kodieren. Andere Anforderungen stellen digitalierte Transkriptionen gesprochener Sprache und wiederum andere die Erstellung einer Urkundenedition (Vogeler 2015). Für die visuelle Präsentation, beispielsweise auf einem Webportal, sind textstrukturierende Merkmale wie die Einteilung nach Kapiteln, Abschnitten, Fußnoten etc. zu kennzeichnen. Dem unterschiedlichen Kenntnisstand der Teilnehmer geschuldet muss hier vor der Vorstellung der TEI Guidelines zuvor zweifelsohne XML dargestellt werden. Wie ausführlich daneben 
-                    <ref>Dublin Core</ref> und bibliotheksspezifische Formate (MARC21) thematisiert werden, ist noch nicht entschieden. Wieviel Zeit für weiterführende Themen wie 
-                    <ref>Named Entity Recognition</ref>, 
-                    <ref>PID</ref> und Normdaten wie GND bleibt, muß ebenfalls die Praxis weisen.
+                    <ref target="http://dublincore.org/">Dublin Core</ref> und bibliotheksspezifische Formate (MARC21) thematisiert werden, ist noch nicht entschieden. Wieviel Zeit für weiterführende Themen wie 
+                    <ref target="http://www.datacommunitydc.org/blog/2013/04/a-survey-of-stochastic-and-gazetteer-based-approaches-for-named-entity-recognition">Named Entity Recognition</ref>, 
+                    <ref target="http://www.persid.org/downloads/PI-intro-2010-09-22.pdf">PID</ref> und Normdaten wie GND bleibt, muß ebenfalls die Praxis weisen.
                 </p>
             </div>
-            <div>
+            <div type="div1" rend="DH-Heading1">
                 <head>Forschungsbezug und Weiterentwicklung</head>
                 <p>Die eine Stärke der Würzburger Lehrveranstaltung ist die Praxisorientierung, der nach der zweitägigen Einführung noch stärker mit einer drei Tage dauernden Übung Rechnung getragen wird. Bei dieser werden die Vertreter der Zielgruppe mit vorbereiteten Scans selbständig die genannten Arbeitsschritte von der Bereinigung und anschließenden Binarisierung über die Segmentierung und Transkription, dem OCR bis zum anschließenden Auszeichnen beziehungsweise der Anreicherung des digitalen Corpus mit den nötigen Metadaten vornehmen.</p>
                 <p>­Unverzichtbar für die gesamte Ausbildung im DH-Bereich ist neben dem Praxisbezug die Orientierung am neuesten Stand der Forschung in allen Teilbereichen. Dem wird bei der skizzierten Lehrveranstaltung erstens durch die Forschung einzelner Mitglieder des Digitalisierungszentrums als die Veranstaltung verantwortende Abteilung Rechnung getragen (1. Reul/Wick/Springmann/Puppe: 2017. 2. Springmann: 2016. 459–462). Zweitens ist die enge Zusammenarbeit des Digitalisierungszentrums mit dem Lehrstuhl für Informatik VI der Universität Würzburg zu nennen.</p>
                 <p>Denkbare Erweiterungen für eine zukünftig breiter angelegte Lehrveranstaltung der beschriebenen Art sind die Vorstellung a) des OCR von Handschriften, beispielsweise in der Kooperation mit einer 
-                    <ref>Transkribus</ref> anwendenden Institution, idealerweise der 
-                    <ref>
-                        <hi>Digitalisierung und elektronische Archivierung – DEA</hi>
+                    <ref target="https://transkribus.eu/wikiDe/index.php/Hauptseite">Transkribus</ref> anwendenden Institution, idealerweise der 
+                    <ref target="https://transkribus.eu/Transkribus/">
+                        <hi rend="italic">Digitalisierung und elektronische Archivierung – DEA</hi>
                     </ref> der Universität Innsbruck, und b) des Einsatzes virtueller Forschungsumgebungen zur Herstellung digitaler Ressourcen.
                 </p>
                 <p>Aus Sicht des Autors ist nach der erfolgreichen Durchführung die kritische Diskussion mit den Autors ähnlicher oder gleicher Veranstaltungen von anderen Institutionen unverzichtbar. Ausgehend von
-                    <ref>http://cceh.uni-koeln.de/digitale-geisteswissenschaften-studiengange-2011/</ref> befragt er aktuell die Mitarbeiter einschlägiger Institutionen nach deren Angeboten im Bereich der Digitalisierung von Texten. Er hofft mit seinem Beitrag wie dem AG Treffen an der DHd2018 auf einen fruchtbaren Meinungsaustausch.
+                    <ref target="http://cceh.uni-koeln.de/digitale-geisteswissenschaften-studiengange-2011/">http://cceh.uni-koeln.de/digitale-geisteswissenschaften-studiengange-2011/</ref> befragt er aktuell die Mitarbeiter einschlägiger Institutionen nach deren Angeboten im Bereich der Digitalisierung von Texten. Er hofft mit seinem Beitrag wie dem AG Treffen an der DHd2018 auf einen fruchtbaren Meinungsaustausch.
                 </p>
             </div>
         </body>
         <back>
-            <div>
+            <div type="bibliogr">
                 <listBibl>
                     <head>Bibliographie</head>
                     <bibl>Corbach, Almuth: 
-                        <hi>Bestandsschonendes Digitalisieren von schriftlichem Kulturgut</hi>. In: Digital und analog. Die beiden Archivwelten. 46. Rheinischer Archivtag. Ratingen 21.-22. Juni 2012.
+                        <hi rend="italic">Bestandsschonendes Digitalisieren von schriftlichem Kulturgut</hi>. In: Digital und analog. Die beiden Archivwelten. 46. Rheinischer Archivtag. Ratingen 21.-22. Juni 2012.
                     </bibl>
                     <bibl>Jannidis, Fotis/Hubertus Kohle/Malte Rehbein [Hrsg.]: 
-                        <hi>Digital Humanities. Eine Einführung</hi>. Springer-Verlag GmbH Deutschland, 2017.
+                        <hi rend="italic">Digital Humanities. Eine Einführung</hi>. Springer-Verlag GmbH Deutschland, 2017.
                     </bibl>
                     <bibl>Kneißl, Michael: 
-                        <hi>Scannen wie die Profis : Text- und Bildvorlagen perfekt digitalisieren</hi>. München: DTV. (2)2002.
+                        <hi rend="italic">Scannen wie die Profis : Text- und Bildvorlagen perfekt digitalisieren</hi>. München: DTV. (2)2002.
                     </bibl>
                     <bibl>Loewenheim, Ulrich/Adolf Dietz/Gerhard Schricker: 
-                        <hi>Urheberrecht</hi>. Kommentar. München: Beck. (4)2010.
+                        <hi rend="italic">Urheberrecht</hi>. Kommentar. München: Beck. (4)2010.
                     </bibl>
                     <bibl>Reul, Christian/Christoph Wick/Uwe Springmann/Frank Puppe: 
-                        <hi>Transfer Learning for OCRopus Model Training on Early Printed Books</hi>. In: 
-                        <hi>Zeitschrift für Bibliothekskultur</hi>. Bd. 5, Nr. 1 (2017).
+                        <hi rend="italic">Transfer Learning for OCRopus Model Training on Early Printed Books</hi>. In: 
+                        <hi rend="italic">Zeitschrift für Bibliothekskultur</hi>. Bd. 5, Nr. 1 (2017).
                     </bibl>
                     <bibl>Springmann, Uwe: 
-                        <hi>A high accuracy OCR method to convert early printings into digital text. A Tutorial</hi>. 
-                        <hi>Center for Information and Language Processing (CIS)</hi>. LMU. München. 2015. S. 9.
+                        <hi rend="italic">A high accuracy OCR method to convert early printings into digital text. A Tutorial</hi>. 
+                        <hi rend="italic">Center for Information and Language Processing (CIS)</hi>. LMU. München. 2015. S. 9.
                     </bibl>
                     <bibl>Springmann, Uwe: 
-                        <hi>OCR für alte Drucke</hi>. 
-                        <hi>Informatik-Spektrum</hi>. 39(6):459–462. 2016.
+                        <hi rend="italic">OCR für alte Drucke</hi>. 
+                        <hi rend="italic">Informatik-Spektrum</hi>. 39(6):459–462. 2016.
                     </bibl>
                     <bibl>Vogeler, Georg: 
-                        <hi>Die Text Encoding Initiative (TEI) als Werkzeug des Urkundeneditors – Erfahrungen und Desiderate</hi>. In: Fees, Irmgard Prof. Dr.; Hotz, Benedikt; Schönfeld, Benjamin (Hrsg.): 
-                        <hi>Papsturkundenforschung zwischen internationaler Vernetzung und Digitalisierung. Neue Zugangsweisen zur europäischen Schriftgeschichte</hi>. Göttingen. 2015.
+                        <hi rend="italic">Die Text Encoding Initiative (TEI) als Werkzeug des Urkundeneditors – Erfahrungen und Desiderate</hi>. In: Fees, Irmgard Prof. Dr.; Hotz, Benedikt; Schönfeld, Benjamin (Hrsg.): 
+                        <hi rend="italic">Papsturkundenforschung zwischen internationaler Vernetzung und Digitalisierung. Neue Zugangsweisen zur europäischen Schriftgeschichte</hi>. Göttingen. 2015.
                     </bibl>
                     <bibl>Weitzmann, John H./Paul Klimpel: Rechtliche Rahmenbedingungen für Digitalisierungsprojekte von Gedächtnisinstitutionen. Berlin: Zuse Institute Berlin. digiS – Servicestelle Digitalisierung Berlin. (3)2016.</bibl>
                 </listBibl>

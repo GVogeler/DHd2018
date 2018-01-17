@@ -3,9 +3,9 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>
-                    <title>Alles ist im Fluss - Ressourcen und Rezensionen in den Digital Humanities.</title>
-                    <title/>
+                <title type="full">
+                    <title type="main">Alles ist im Fluss - Ressourcen und Rezensionen in den Digital Humanities.</title>
+                    <title type="sub"/>
                 </title>
                 <author>
                     <persName>
@@ -60,27 +60,27 @@
         </fileDesc>
         <encodingDesc>
             <appInfo>
-                <application>
+                <application ident="DHCONVALIDATOR" version="1.17">
                     <label>DHConvalidator</label>
                 </application>
             </appInfo>
         </encodingDesc>
         <profileDesc>
             <textClass>
-                <keywords>
+                <keywords scheme="ConfTool" n="category">
                     <term>Paper</term>
                 </keywords>
-                <keywords>
+                <keywords scheme="ConfTool" n="subcategory">
                     <term>Panel</term>
                 </keywords>
-                <keywords>
+                <keywords scheme="ConfTool" n="keywords">
                     <term>Rezension</term>
                     <term>Kritik</term>
                     <term>Digitale Ressourcen</term>
                     <term>Best Practices</term>
                     <term>Methodendiskurs</term>
                 </keywords>
-                <keywords>
+                <keywords scheme="ConfTool" n="topics">
                     <term>Community-Bildung</term>
                     <term>Bewertung</term>
                     <term>Forschung</term>
@@ -92,186 +92,186 @@
     <text>
         <body>
             <p>Eine Kritik der digitalen Vernunft muss auch eine Kritik der digitalen Ressourcen umfassen.
-                <note>Unter “digitale Ressource” verstehen wir publizierte digitale Objekte, in Anlehnung an die Definitionen der DNB im Papier “Digitale Publikation” (DNB 2017).</note> Eine traditionelle Form der Kritik ist die wissenschaftliche Besprechung oder Rezension. Die kritische Instanz eines Rezensionswesens fehlt den Digital Humanities bisher fast gänzlich. Digitale Ressourcen wie etwa wissenschaftliche Editionen, Textkorpora, Bilddatenbanken oder auch Software werden selten umfassend rezensiert.
-                <note>Werden digitale Ressourcen rezensiert, dann meist aus der Fachperspektive. Einige Beispiele für verstreute Rezensionen aus DH-Perspektive sind Schöch (2017); Schelbert (2017); Assmann und Sahle (2008) mit Rezension zur Rezension (Just 2009); erste Ansätze für systematische Kritik im Sinne gebündelter Aktivitäten zur Bewertung bestimmter Typen digitaler Ressourcen (wie Projekte, Editionen, Textsammlungen, Datensätze), mit Begleitmaterialien und eingebunden in einen kritischen Diskurs, finden sich im DH Commons Journal, dem jTEI und RIDE.</note> Das Gleiche gilt für das “Primärmaterial” dieser Ressourcen, also für Datensätze.
+                <note xml:id="ftn1" place="foot" n="1">Unter “digitale Ressource” verstehen wir publizierte digitale Objekte, in Anlehnung an die Definitionen der DNB im Papier “Digitale Publikation” (DNB 2017).</note> Eine traditionelle Form der Kritik ist die wissenschaftliche Besprechung oder Rezension. Die kritische Instanz eines Rezensionswesens fehlt den Digital Humanities bisher fast gänzlich. Digitale Ressourcen wie etwa wissenschaftliche Editionen, Textkorpora, Bilddatenbanken oder auch Software werden selten umfassend rezensiert.
+                <note xml:id="ftn2" place="foot" n="2">Werden digitale Ressourcen rezensiert, dann meist aus der Fachperspektive. Einige Beispiele für verstreute Rezensionen aus DH-Perspektive sind Schöch (2017); Schelbert (2017); Assmann und Sahle (2008) mit Rezension zur Rezension (Just 2009); erste Ansätze für systematische Kritik im Sinne gebündelter Aktivitäten zur Bewertung bestimmter Typen digitaler Ressourcen (wie Projekte, Editionen, Textsammlungen, Datensätze), mit Begleitmaterialien und eingebunden in einen kritischen Diskurs, finden sich im DH Commons Journal, dem jTEI und RIDE.</note> Das Gleiche gilt für das “Primärmaterial” dieser Ressourcen, also für Datensätze.
             </p>
             <p>Im Gegensatz zu traditionellen Forschungsergebnissen der Geisteswissenschaften sind digitale Ressourcen nicht statisch, sondern wandelbar, oft prozesshaft und nicht abgeschlossen. Die Kritik der Ressourcen muss die besonderen Bedingungen, Eigenschaften und Folgephänomene digitaler Daten berücksichtigen und eine eigene Form finden.
-                <note>Vgl. zu diesem Problemfeld u.a. die Sektion “Evaluating Digital Scholarship” in Profession, herausgegeben von Schreibman et al. 2011; das Working Paper der DHd-Arbeitsgruppe “Digitales Publizieren” 2016; der Band “Closing the Evaluation Gap” des JDH von Cohen / Fragaszy Trojano 2012; zu digitalen Editionen insbesondere Pierazzo 2014, Yates 2008 und Henny, erscheint demnächst.</note> Wie sich die Ressourcen wandeln, so muss sich auch die Kritik wandeln, denn panta rhei - “alles fließt”, sagt Heraklit.
-                <note>Ein Phänomen dieses Wandels sind diverse Kataloge für Best Practices und Bewertungskriterien digitaler Ressourcen (AHA 2015, Jannidis 1999, MLA 2012, Presner 2012, Rockwell 2012, Sahle et al. 2014, Henny und Neuber 2017).</note>
+                <note xml:id="ftn3" place="foot" n="3">Vgl. zu diesem Problemfeld u.a. die Sektion “Evaluating Digital Scholarship” in Profession, herausgegeben von Schreibman et al. 2011; das Working Paper der DHd-Arbeitsgruppe “Digitales Publizieren” 2016; der Band “Closing the Evaluation Gap” des JDH von Cohen / Fragaszy Trojano 2012; zu digitalen Editionen insbesondere Pierazzo 2014, Yates 2008 und Henny, erscheint demnächst.</note> Wie sich die Ressourcen wandeln, so muss sich auch die Kritik wandeln, denn panta rhei - “alles fließt”, sagt Heraklit.
+                <note xml:id="ftn4" place="foot" n="4">Ein Phänomen dieses Wandels sind diverse Kataloge für Best Practices und Bewertungskriterien digitaler Ressourcen (AHA 2015, Jannidis 1999, MLA 2012, Presner 2012, Rockwell 2012, Sahle et al. 2014, Henny und Neuber 2017).</note>
             </p>
             <p>Vor diesem Hintergrund widmet sich das Panel u. a. folgenden Fragen: Wie können traditionelle Rezensionsorgane die Besprechung digitaler Ressourcen fördern? Brauchen die Digital Humanities ein eigenes Rezensionswesen, um den Besonderheiten digitaler Ressourcen gerecht zu werden? Wenn ja, wie muss die Rezension als ,Momentaufnahme’ einer digitalen Ressource methodisch und technisch konzipiert sein, um nicht der ,Schnelllebigkeit’ der digitalen Welt zu erliegen? Welche Herausforderungen stellen Publikationen von Daten oder Algorithmen an die RezensentInnen? Inwiefern steigen mit dem Zuwachs an technischen Möglichkeiten auch die Ansprüche an digitale Ressourcen und wie lassen sich diese als Standards und Evaluationskriterien verhandeln, dokumentieren und weiterentwickeln? Wie kann man die Digitalität des Rezensionswesens nutzen, um die Prozesshaftigkeit der zu rezensierenden Objekte zu berücksichtigen, z. B. auch durch dynamischere Formen der Kritik jenseits der traditionellen Rezension?</p>
             <p> Das Panel wird mit einer Moderation und sechs Impulsbeiträgen einen Überblick über das Themenfeld “Ressourcen und Rezensionen in den Digital Humanities” geben. Die ReferentInnen berichten von Erfahrungen aus der herausgeberischen Praxis, diskutieren Problemfelder und setzen theoretische Impulse, um im Anschluss rasch in eine offene Diskussion mit dem Publikum überzugehen.</p>
-            <div>
+            <div type="div1" rend="DH-Heading">
                 <head>
-                    <anchor/>Rüdiger Hohls:
-                    <note>Humboldt-Universität zu Berlin, Redaktionsmitglied von Clio online bzw. H-Soz-Kult (Projektleitung).</note> Die Rezension analoger und digitaler Medien bei H-Soz-Kult
+                    <anchor xml:id="id__477l2rrnn3gt"/>Rüdiger Hohls:
+                    <note xml:id="ftn5" place="foot" n="5">Humboldt-Universität zu Berlin, Redaktionsmitglied von Clio online bzw. H-Soz-Kult (Projektleitung).</note> Die Rezension analoger und digitaler Medien bei H-Soz-Kult
                 </head>
                 <p>Die Tradition der wissenschaftlichen Rezensionen wird vor allem in den Geistes-, Kunst-, Kultur-, Politik- und Sozialwissenschaften gepflegt, überwiegend Fächer, die unter einer Überproduktion von Texten leiden und deshalb für eine Sichtung und für ein „Marketing“ über Rezensionen besonders empfänglich sind. 
-                    <hi> </hi>
+                    <hi rend="bold"> </hi>
                 </p>
                 <p>Zu den Pflichten einer Rezension zählt laut Georg Jäger (2001) die Berichtspflicht über Zielsetzung, Gliederung, Argumentationslinien und Ergebnisse, kritische Reflexion des methodischen Vorgehens und der ausgewählten Quellen, weiterhin die Wertung und Einbettung in den Kontext der einschlägigen Fachdiskussion. Zur Kür bei digital vertriebenen Rezensionen zählt darüber hinaus ein „feuilletonistischer Ton“. Außerdem sei es notwendig, die „Ethik wissenschaftlicher Kommunikation“ neu zu justieren. Viele dieser Aspekte gelten auch für die Rezension digitaler Medien, und natürlich haben wir bei H-Soz-Kult unsere formatspezifischen Hinweise für RezensentInnen regelmäßig an neue technische Entwicklungen angepasst. </p>
                 <p>H-Soz-Kult hat seit 1996 über 15.200 Buchrezensionen, mehr als 220 Ausstellungsrezensionen, knapp 160 Rezensionen zu Publikationen auf digitalen Trägermedien und lediglich 33 sogenannte Webrezensionen veröffentlicht. Die Zahlen sprechen nicht nur für die Relevanz der Genres bei H-Soz-Kult, sondern unterstreichen auch die Bedeutung des „Buchs“ in den Geschichtswissenschaften, egal ob analog oder digital publiziert. Es stellt sich aber u. a. die Frage, warum es trotz aller Bemühungen bei H-Soz-Kult nur vergleichsweise wenige Besprechungen von fachwissenschaftlichen digitalen Ressourcen gibt.</p>
             </div>
-            <div>
+            <div type="div1" rend="DH-Heading">
                 <head>
-                    <anchor/>Frederike Neuber:
-                    <note>Berlin-Brandenburgische Akademie der Wissenschaften, Mit-Herausgeberin des Rezensionsjournals RIDE.</note> RIDE und die Herausforderungen der Digitalität
+                    <anchor xml:id="id__gcbw4b6ndyda"/>Frederike Neuber:
+                    <note xml:id="ftn6" place="foot" n="6">Berlin-Brandenburgische Akademie der Wissenschaften, Mit-Herausgeberin des Rezensionsjournals RIDE.</note> RIDE und die Herausforderungen der Digitalität
                 </head>
                 <p>Seit 2014 gibt das IDE die digitale Rezensionszeitschrift RIDE (
-                    <hi>A review journal for digital editions and resources</hi>) heraus. Bis Dezember 2017 wurden in sieben Ausgaben 30 wissenschaftliche digitale Editionen und 10 digitale Textsammlungen rezensiert. Zum methodischen Rahmenprogramm RIDEs zählen Kriterienkataloge für die Besprechung des jeweiligen Ressourcentyps (Henny u. Neuber 2017, Sahle 2014), die Erhebung von Daten in einem Questionnaire und ein externes Peer Reviewing der Beiträge.
+                    <hi rend="italic">A review journal for digital editions and resources</hi>) heraus. Bis Dezember 2017 wurden in sieben Ausgaben 30 wissenschaftliche digitale Editionen und 10 digitale Textsammlungen rezensiert. Zum methodischen Rahmenprogramm RIDEs zählen Kriterienkataloge für die Besprechung des jeweiligen Ressourcentyps (Henny u. Neuber 2017, Sahle 2014), die Erhebung von Daten in einem Questionnaire und ein externes Peer Reviewing der Beiträge.
                 </p>
                 <p>Ein “
-                    <hi>markantes Kennzeichen digitaler Texte ist deren Veränderbarkeit und prinzipielle Offenheit” (cf. </hi>Working Paper der DHd-Arbeitsgruppe “Digitales Publizieren” 2016
-                    <hi>), das gilt auch für die Rezensionsobjekte in RIDE:</hi> Etwa kann sich schon während des Rezensierens und/oder nach der Publikation einer Rezension die Datengrundlage einer besprochenen Ressource verändern; im Zuge eines Relaunches kann ein User Interface ersetzt werden. Um derlei Fällen vorzubeugen empfehlen die RIDE-
-                    <hi>Reviewing Guidelines</hi>
-                    <hi>
-                        <note>Siehe Institut für Dokumentologie und Editorik e.V. (2014 ff.), 
-                            <ptr/>.
+                    <hi rend="background-color(#ffffff)">markantes Kennzeichen digitaler Texte ist deren Veränderbarkeit und prinzipielle Offenheit” (cf. </hi>Working Paper der DHd-Arbeitsgruppe “Digitales Publizieren” 2016
+                    <hi rend="background-color(#ffffff)">), das gilt auch für die Rezensionsobjekte in RIDE:</hi> Etwa kann sich schon während des Rezensierens und/oder nach der Publikation einer Rezension die Datengrundlage einer besprochenen Ressource verändern; im Zuge eines Relaunches kann ein User Interface ersetzt werden. Um derlei Fällen vorzubeugen empfehlen die RIDE-
+                    <hi rend="italic">Reviewing Guidelines</hi>
+                    <hi rend="italic">
+                        <note xml:id="ftn7" place="foot" n="7">Siehe Institut für Dokumentologie und Editorik e.V. (2014 ff.), 
+                            <ptr target="http://ride.i-d-e.de/reviewers/guidelines/"/>.
                         </note>
                     </hi> etwa die Erstellung von Screenshots und die Archivierung von Websites. Damit ist der Status Quo der Ressourcen zum jeweiligen Rezensionszeitpunkt zumindest teilweise dokumentiert.
                 </p>
                 <p>Wie die Rezensionsobjekte, so sind auch die digitalen Rezensionstexte grundsätzlich offener und veränderlicher als das bei gedruckten Rezensionen der Fall ist. Vereinzelt wurden in RIDE bereits nachträgliche Änderungen (z. B. auf Wunsch der BetreiberInnen der rezensierten Ressource) in Rezensionstexte integriert, was in der XML/TEI-Version der jeweiligen Ressource dokumentiert ist.</p>
                 <p>Grundsätzlich steht die “Aktualität” digitaler Rezensionen von digitalen Ressourcen trotz den in RIDE bestehenden und oben geschilderten Dokumentationsverfahren auf wackeligen Beinen. Es stellt sich daher die Frage, ob eine Rezension mehr sein kann bzw. muss als die “Momentaufnahme” eines bestimmten Entwicklungsstandes einer digitalen Ressource. Und wenn sich eine Ressource nach der Rezension signifikant weiterentwickelt, liegt es dann in der Verantwortung der RIDE-HerausgeberInnen, eine erneute Rezension anzustoßen? Oder sollte man den RessourcenbetreiberInnen selbst die Möglichkeit geben, in RIDE über Updates zu berichten, wenn Rezension und aktueller Ressourcenstand zu sehr divergieren? </p>
             </div>
-            <div>
+            <div type="div1" rend="DH-Heading">
                 <head>
-                    <anchor/>Anne Baillot:
-                    <note>Le Mans Université, Managing Editor des Journals der Text Encoding Initiative und Redaktionsmitglied der Zeitschrift des französischsprachigen DH-Verbandes Humanistica sowie bei DHCommons.</note> Daten als Rezensionsobjekte
+                    <anchor xml:id="id__e6dpga3fhp4v"/>Anne Baillot:
+                    <note xml:id="ftn8" place="foot" n="8">Le Mans Université, Managing Editor des Journals der Text Encoding Initiative und Redaktionsmitglied der Zeitschrift des französischsprachigen DH-Verbandes Humanistica sowie bei DHCommons.</note> Daten als Rezensionsobjekte
                 </head>
                 <p>In den Geisteswissenschaften werden Forschungsfragen verfolgt und in Publikationen beantwortet. Diese sind traditionell Gegenstand von Rezensionen. Im Digitalen kommt mit den Forschungsdaten eine “neue” Publikationsform hinzu, die in das Rezensionswesen einbezogen werden muss. Der Status des "Primärmaterials" ist im digitalen Rezensionswesen zu klären und kann sich unter Umständen am Modell der Naturwissenschaften orientieren. Data Papers und Data Journals sind neue Formen der Dokumentation und Publikation, die sich Struktur, Kohärenz und Vollständigkeit von Daten widmen. Damit rückt auch Datenmodellierung als eine zu evaluierende wissenschaftliche Tätigkeit mehr in den Vordergrund.</p>
                 <p>Während naturwissenschaftliche Zeitschriften, die Data Papers veröffentlichen oder rezensieren, solche Datensätze in speziellen, selten öffentlich zugänglichen Repositorien verfügbar machen, entwickelt sich in den Geisteswissenschaften die Tendenz, die Primärdaten eher zusammen mit ihren Auswertungen oder auf allgemeinen Plattformen offen und langzeitverfügbar zugänglich zu machen. Wie stabil ist diese offene Bereitstellung auf lange Sicht? Wie komplex wird dadurch bei einer immer wieder aktualisierten digitalen Ressource die Bezugnahme auf jene Version, die in einer Rezension begutachtet wird? Darüber hinaus stellt sich die grundsätzliche Frage: Stoßen Rezensionen von Data Papers und den Daten selbst in einem Kontext der Informationsflut, in der kaum die Auswertungen wahrgenommen werden, überhaupt auf Interesse? Welche Funktion hätten sie dann in einem geisteswissenschaftlichen Rezensionswesen in der digitalen Welt? Werden sie zur Rettung oder zum endgültigen Sturz des Rezensionswesens in die Bedeutungslosigkeit beitragen?</p>
             </div>
-            <div>
+            <div type="div1" rend="DH-Heading">
                 <head>
-                    <anchor/>Christof Schöch:
-                    <note>Universität Trier, Redaktionsmitglied bei Romanistik.de.</note> Im Spannungsfeld von Projektzielen und Best Practice-Anforderungen
+                    <anchor xml:id="id__ubo6v7th83z"/>Christof Schöch:
+                    <note xml:id="ftn9" place="foot" n="9">Universität Trier, Redaktionsmitglied bei Romanistik.de.</note> Im Spannungsfeld von Projektzielen und Best Practice-Anforderungen
                 </head>
                 <p>Bei der Rezension digitaler Ressourcen treffen zwei Perspektiven aufeinander: Einerseits ist das der Rahmen der jeweils spezifischen Projektziele, die für die Erstellung einer Ressource handlungsleitend waren. Hierzu gehören auch praktische Aspekte der Machbarkeit wie Zeitrahmen, Budget und Personal. Nicht immer ist diese Perspektive für die Rezensierenden transparent. Andererseits ist das die Perspektive der theoretischen Anforderungen und der mehr oder weniger gut etablierten Best Practices, die in Form von Qualitätskriterien an eine digitale Ressource herangetragen werden können. Auch hier sind die entsprechenden Maßstäbe nicht immer geteilt und explizit. </p>
                 <p>Dieses Spannungsfeld und die unter Umständen asymmetrische Verfügbarkeit von Informationen wirft die Frage auf, wie die Rezension einer digitalen Ressource sowohl fair als auch anspruchsvoll sein kann, wenn unterschiedliche Maßstäbe zugleich anzulegen sind. Es stellt sich auch die Frage, inwiefern die Rezension digitaler Ressourcen hier grundsätzlich anders funktioniert als die Rezension von Monographien oder Sammelbänden. Inwieweit sollten bei der Rezension digitaler Ressourcen die äußeren Bedingungen ihrer Erstellung berücksichtigt werden? Braucht es womöglich verschiedene Ebenen von Anforderungen, wenn z. B. Ergebnisse der Individualforschung mit denjenigen großer Projekte verglichen werden? Inwiefern muss beim Anlegen von Maßstäben berücksichtigt werden, ob eine digitale Ressource weitestgehend abgeschlossen oder noch in der Bearbeitung ist?</p>
             </div>
-            <div>
+            <div type="div1" rend="DH-Heading">
                 <head>
-                    <anchor/>Jürgen Hermes:
-                    <note>Universität zu Köln, Institut für Digital Humanities.</note> Die Rezension als Prozess
+                    <anchor xml:id="id__kxejorfqoc1y"/>Jürgen Hermes:
+                    <note xml:id="ftn10" place="foot" n="10">Universität zu Köln, Institut für Digital Humanities.</note> Die Rezension als Prozess
                 </head>
                 <p>Ein Leitsatz, der die Open Source-Softwareentwicklung stark geprägt hat, und der sich auch im Paradigma der agilen Entwicklung wiederfindet, lautet “Release early, release often” (Raymond 2001).</p>
                 <p>Ist dieses Paradigma auch auf andere Arten digitaler Publikationen wie digitale Monographien, Aufsätze, Editionen, Text- und Datensammlungen anwendbar? Eine Veröffentlichung auf digitalen Plattformen bietet völlig neue Möglichkeiten des Austauschs zwischen ErstellerInnen und KonsumentInnen von digitalen Ressourcen ‒ Errata können kurz nach ihrer Entdeckung korrigiert, Verbesserungsvorschläge zum Zeitpunkt ihrer Einreichung aufgenommen werden. Das Zusammenspiel zwischen Veröffentlichung und kritischer Würdigung wird so granularer, als dies beim althergebrachten Zusammenspiel zwischen Monographie und Rezension der Fall war. </p>
                 <p>Derartige, sich im Fluss befindliche Ressourcen schaffen aber dort Probleme, wo auf verlässliche Quellen verwiesen werden soll. Ebenso wird die etablierte Kultur des wissenschaftlichen Diskurses in Frage gestellt, der auf der Grundlage fixierter Objekte stattfindet. Derlei Aspekte müssen ernst genommen, können aber womöglich durch Entwicklungen in den Bereichen der Kontrolle, Referenzierung und Kommentierung von Text- und Daten-Versionen aufgefangen werden. Des Vorteils, wissenschaftliche Daten, Methoden und Ergebnisse zeitnaher, barrierefreier und intensiver zu diskutieren, sollten sich auch GeisteswissenschaftlerInnen nicht berauben lassen. </p>
             </div>
-            <div>
+            <div type="div1" rend="DH-Heading">
                 <head>
-                    <anchor/>Patrick Sahle:
-                    <note>Universität zu Köln, CCeH, Mit-Herausgeber des Rezensionsjournals RIDE.</note> Prinzipien der Digitalität
+                    <anchor xml:id="id__j0a661h8ksot"/>Patrick Sahle:
+                    <note xml:id="ftn11" place="foot" n="11">Universität zu Köln, CCeH, Mit-Herausgeber des Rezensionsjournals RIDE.</note> Prinzipien der Digitalität
                 </head>
                 <p>Unsere digitale Informationsumwelt ist, wie die vorhergehende analoge Welt, von wenigen Grundprinzipien geprägt, die zunächst technischer Natur sind, dann aber Folgen in allen möglichen Bereichen erzeugen: Technik, Methode, Inhalte, Form, Soziologie, Politik von Wissen, Wissensproduktion und Wissenspräsentation in der Forschung. Im Bereich digitaler Ressourcen und Rezensionen lassen sich hier vielfältige Phänomene durch verallgemeinernde Schlagworte andeuten: Multimedialisierung, Vernetzung, Aufhebung von Mengenbegrenzungen, Trennung von Daten, Auswertung und Präsentation, Generativität und Prozesshaftigkeit von Publikationen, Dynamik und Interaktion, Zunahme der Komplexität, Kollaborativität, Interdisziplinarität, unmittelbare Diskursivität etc. Damit sind neue Herausforderungen markiert, deren Lösungen jetzt noch nicht absehbar oder erst thesenhaft formulierbar sind. Zu nennen wären hier unmittelbare Sichtbarkeit, “Unfassbarkeit” von Ressourcen (hinsichtlich Inhalt, Status, Version, Verantwortung), Probleme der Kreditierung von Leistungen, Interdisziplinarität als Kompetenzproblem, unformierte Wissenschaftskommunikation, Halbwertszeit von Kritik, eingefrorene versus dynamische Kritikdiskurse, Standardisierung versus Innovation etc. Auch die digitale Rezension digitaler Ressourcen steht damit vor ganz anderen Aufgaben als die eingeführte Form der Besprechung.</p>
                 <p>Vielleicht kann man es aber auch so zusammenfassen: Die Rezension in der Buchkultur ist die Grabrede auf ein in den Brunnen gefallenes Kind ‒ die Rezension in einer digitalen Kultur ist ein Verbesserungsvorschlag, der mit seiner Annahme hinfällig wird. Wie so vieles wird in der digitalen Welt auch die Kritik komplexer, die ihre neue Form und Position noch nicht gefunden hat. Vielleicht muss sie aber auch grundsätzlich anders gedacht werden, denn als Fortsetzung des traditionellen Objekts “Rezension”?</p>
             </div>
         </body>
         <back>
-            <div>
+            <div type="bibliogr">
                 <listBibl>
                     <head>Bibliographie</head>
                     <bibl>
-                        <anchor/>
-                        <hi>American Historical Associatio</hi>n (AHA, ed., 2015): “Guidelines for the Evaluation of Digital Scholarship in History”. 
-                        <ptr/> [letzter Zugriff 14. Januar 2018]
+                        <anchor xml:id="id_docs-internal-guid-c79ca25d-f90c-0841-1f74-1b0281500f3f"/>
+                        <hi rend="bold">American Historical Associatio</hi>n (AHA, ed., 2015): “Guidelines for the Evaluation of Digital Scholarship in History”. 
+                        <ptr target="https://www.historians.org/teaching-and-learning/digital-history-resources/evaluation-of-digital-scholarship-in-history/guidelines-for-the-evaluation-of-digital-scholarship-in-history"/> [letzter Zugriff 14. Januar 2018]
                     </bibl>
                     <bibl>
-                        <hi>Assmann, Bernhard / Sahle, Patrick </hi>(2008): 
-                        <hi>Digital ist besser. Die Monumenta Germaniae Historica mit den dMGH auf dem Weg in die Zukunft – eine Momentaufnahme.</hi> Norderstedt: Books on Demand.
+                        <hi rend="bold">Assmann, Bernhard / Sahle, Patrick </hi>(2008): 
+                        <hi rend="italic">Digital ist besser. Die Monumenta Germaniae Historica mit den dMGH auf dem Weg in die Zukunft – eine Momentaufnahme.</hi> Norderstedt: Books on Demand.
                     </bibl>
                     <bibl>
-                        <hi>Cohen, Daniel J. / Fragaszy Trojano, Joan </hi>(eds., 2012): “Closing the Evaluation Gap”, in: 
-                        <hi>Journal of the Digital Humanities</hi> 1, 4. 
-                        <ptr/> [letzter Zugriff 14. Januar 2018]
+                        <hi rend="bold">Cohen, Daniel J. / Fragaszy Trojano, Joan </hi>(eds., 2012): “Closing the Evaluation Gap”, in: 
+                        <hi rend="italic">Journal of the Digital Humanities</hi> 1, 4. 
+                        <ptr target="http://journalofdigitalhumanities.org/1-4/closing-the-evaluation-gap/"/> [letzter Zugriff 14. Januar 2018]
                     </bibl>
                     <bibl>
-                        <hi>Deutsche Nationalbibliothek</hi> (ed., 2017): Definition des Begriffs “Digitale Publikation” und aktuelle Verwendung der Terminologie in der Deutschen Nationalbibliothek. Ergänzende Ausführungen im Rahmen der Diskussion “Zum Sammelauftrag der Deutschen Nationalbibliothek”. 
-                        <ptr/> [letzter Zugriff 14. Januar 2018]
+                        <hi rend="bold">Deutsche Nationalbibliothek</hi> (ed., 2017): Definition des Begriffs “Digitale Publikation” und aktuelle Verwendung der Terminologie in der Deutschen Nationalbibliothek. Ergänzende Ausführungen im Rahmen der Diskussion “Zum Sammelauftrag der Deutschen Nationalbibliothek”. 
+                        <ptr target="http://www.dnb.de/SharedDocs/Downloads/DE/DNB/wir/definitionDigitalePublikation.pdf"/> [letzter Zugriff 14. Januar 2018]
                     </bibl>
                     <bibl>
-                        <hi>Digital Humanities im deutschsprachigen Raum </hi>(DHd, ed., 2016): “Digitales Publizieren”. Wolfenbüttel: HAB. Stand: 01.03.2016. DOI: 10.15499/dhd-wp.001 
-                        <ptr/> [letzter Zugriff 14. Januar 2018].
+                        <hi rend="bold">Digital Humanities im deutschsprachigen Raum </hi>(DHd, ed., 2016): “Digitales Publizieren”. Wolfenbüttel: HAB. Stand: 01.03.2016. DOI: 10.15499/dhd-wp.001 
+                        <ptr target="http://dx.doi.org/10.15499/dhd-wp.001"/> [letzter Zugriff 14. Januar 2018].
                     </bibl>
                     <bibl>
-                        <hi>Henny, Ulrike / Neuber, Frederike / unter Mitarbeit von den Mitgliedern des IDE </hi>(2017):. 
-                        <hi>Criteria for Reviewing Digital Text Collections</hi>, version 1.0. 
-                        <ptr/> [letzter Zugriff 14. Januar 2018].
+                        <hi rend="bold">Henny, Ulrike / Neuber, Frederike / unter Mitarbeit von den Mitgliedern des IDE </hi>(2017):. 
+                        <hi rend="italic">Criteria for Reviewing Digital Text Collections</hi>, version 1.0. 
+                        <ptr target="https://www.i-d-e.de/publikationen/weitereschriften/criteria-text-collections-version-1-0/"/> [letzter Zugriff 14. Januar 2018].
                     </bibl>
                     <bibl>
-                        <hi>Henny, Ulrike </hi>[erscheint demnächst]: “Reviewing von digitalen Editionen im Kontext der Evaluation digitaler Forschungsergebnisse.” In: 
-                        <hi>Zeitschrift für digitale Geisteswissenschaften</hi> (ZfdG). 
-                        <hi>Sonderband 2: Digitale Metamorphose. Digital Humanities und Editionswissenschaft.</hi> Hrsg. von Roland S. Kamzelak und Timo Steyer.
+                        <hi rend="bold">Henny, Ulrike </hi>[erscheint demnächst]: “Reviewing von digitalen Editionen im Kontext der Evaluation digitaler Forschungsergebnisse.” In: 
+                        <hi rend="italic">Zeitschrift für digitale Geisteswissenschaften</hi> (ZfdG). 
+                        <hi rend="italic">Sonderband 2: Digitale Metamorphose. Digital Humanities und Editionswissenschaft.</hi> Hrsg. von Roland S. Kamzelak und Timo Steyer.
                     </bibl>
                     <bibl>
-                        <hi>Hohls, Rüdiger </hi>(eds., 1996ff.): 
-                        <hi>H-Soz-Kult. Kommunikation und Fachinformation für die Geisteswissenschaften. Angeboten von Clio-online - Historisches Fachinformationssystem e.V. Berlin.</hi>
-                        <ptr/> [letzter Zugriff 14. Januar 2018].
+                        <hi rend="bold">Hohls, Rüdiger </hi>(eds., 1996ff.): 
+                        <hi rend="italic">H-Soz-Kult. Kommunikation und Fachinformation für die Geisteswissenschaften. Angeboten von Clio-online - Historisches Fachinformationssystem e.V. Berlin.</hi>
+                        <ptr target="http://www.hsozkult.de/"/> [letzter Zugriff 14. Januar 2018].
                     </bibl>
                     <bibl>
-                        <hi>Institut für Dokumentologie und Editorik e.V.</hi> (eds. 2014ff.): 
-                        <hi>RIDE. A Review Journal for Digital Editions and Resources</hi>. Köln. 
-                        <ptr/> [letzter Zugriff 14. Januar 2018].
+                        <hi rend="bold">Institut für Dokumentologie und Editorik e.V.</hi> (eds. 2014ff.): 
+                        <hi rend="italic">RIDE. A Review Journal for Digital Editions and Resources</hi>. Köln. 
+                        <ptr target="http://ride.i-d-e.de/"/> [letzter Zugriff 14. Januar 2018].
                     </bibl>
                     <bibl>
-                        <hi>Jäger, Georg </hi>(2001): “Von Pflicht und Kür im Rezensionswesen.” In: 
-                        <hi>IASLonline Diskussionsforum. Wissenschaftliche Kommunikation in der Kontroverse</hi>. Bayreuth / München, 
-                        <ptr/> [letzter Zugriff 14. Januar 2018].
+                        <hi rend="bold">Jäger, Georg </hi>(2001): “Von Pflicht und Kür im Rezensionswesen.” In: 
+                        <hi rend="italic">IASLonline Diskussionsforum. Wissenschaftliche Kommunikation in der Kontroverse</hi>. Bayreuth / München, 
+                        <ptr target="http://www.iasl.uni-muenchen.de/discuss/lisforen/jaerezen.html"/> [letzter Zugriff 14. Januar 2018].
                     </bibl>
                     <bibl>
-                        <hi>Jannidis, Fotis</hi> (1999): “Bewertungskriterien für elektronische Editionen”, in: 
-                        <hi>IASL Diskussionsforum online</hi>. 
-                        <ptr/> [letzter Zugriff 14. Januar 2018].
+                        <hi rend="bold">Jannidis, Fotis</hi> (1999): “Bewertungskriterien für elektronische Editionen”, in: 
+                        <hi rend="italic">IASL Diskussionsforum online</hi>. 
+                        <ptr target="http://iasl.uni-muenchen.de/discuss/lisforen/jannidis.htm"/> [letzter Zugriff 14. Januar 2018].
                     </bibl>
                     <bibl>
-                        <hi>Just, Thomas </hi>(2009): “Rezension von: Digital ist besser”, in: 
-                        <hi>sehepunkte </hi>9, Nr. 3 
-                        <ptr/> [letzter Zugriff 14. Januar 2018].
+                        <hi rend="bold">Just, Thomas </hi>(2009): “Rezension von: Digital ist besser”, in: 
+                        <hi rend="italic">sehepunkte </hi>9, Nr. 3 
+                        <ptr target="http://www.sehepunkte.de/2009/03/14673.html"/> [letzter Zugriff 14. Januar 2018].
                     </bibl>
                     <bibl>
-                        <hi>Modern Language Association</hi> (MLA, ed., 2012): “Guidelines for Evaluating Work in Digital Humanities and Digital Media” 
-                        <ptr/> [letzter Zugriff 14. Januar 2018].
+                        <hi rend="bold">Modern Language Association</hi> (MLA, ed., 2012): “Guidelines for Evaluating Work in Digital Humanities and Digital Media” 
+                        <ptr target="https://www.mla.org/About-Us/Governance/Committees/Committee-Listings/Professional-Issues/Committee-on-Information-Technology/Guidelines-for-Evaluating-Work-in-Digital-Humanities-and-Digital-Media"/> [letzter Zugriff 14. Januar 2018].
                     </bibl>
                     <bibl>
-                        <hi>Pierazzo, Elena</hi> (2014): “Trusting Digital Editions? Peer Review and Evaluation of Digital Scholarship”, in: dies. 
-                        <hi>Digital Scholarly Editing: Theories, Models and Methods</hi>, 182-205. Hal Id: hal-01182162. 
-                        <ptr/> [letzter Zugriff 14. Januar 2018].
+                        <hi rend="bold">Pierazzo, Elena</hi> (2014): “Trusting Digital Editions? Peer Review and Evaluation of Digital Scholarship”, in: dies. 
+                        <hi rend="italic">Digital Scholarly Editing: Theories, Models and Methods</hi>, 182-205. Hal Id: hal-01182162. 
+                        <ptr target="http://hal.univ-grenoble-alpes.fr/hal-01182162"/> [letzter Zugriff 14. Januar 2018].
                     </bibl>
                     <bibl>
-                        <hi>Presner, Todd </hi>(2012): “How to Evaluate Digital Scholarship”, in: 
-                        <hi>Journal of Digital Humanities </hi>1, 4 (2012).
+                        <hi rend="bold">Presner, Todd </hi>(2012): “How to Evaluate Digital Scholarship”, in: 
+                        <hi rend="italic">Journal of Digital Humanities </hi>1, 4 (2012).
                     </bibl>
                     <bibl>
-                        <hi>Raymond, Eric S.</hi> (2001): 
-                        <hi>The Cathedral &amp; the Bazaar: Musings on Linux and Open Source by an Accidental Revolutionary</hi>. Sebastopol: O’Reilly, 
-                        <ptr/> [letzter Zugriff 14. Januar 2018].
+                        <hi rend="bold">Raymond, Eric S.</hi> (2001): 
+                        <hi rend="italic">The Cathedral &amp; the Bazaar: Musings on Linux and Open Source by an Accidental Revolutionary</hi>. Sebastopol: O’Reilly, 
+                        <ptr target="http://www.catb.org/~esr/writings/cathedral-bazaar/cathedral-bazaar/"/> [letzter Zugriff 14. Januar 2018].
                     </bibl>
                     <bibl>
-                        <hi>Rockwell, Geoffrey</hi> (2012): “Short Guide To Evaluation Of Digital Work”, in: 
-                        <hi>Journal of Digital Humanities</hi> 1, 4 (2012).
+                        <hi rend="bold">Rockwell, Geoffrey</hi> (2012): “Short Guide To Evaluation Of Digital Work”, in: 
+                        <hi rend="italic">Journal of Digital Humanities</hi> 1, 4 (2012).
                     </bibl>
                     <bibl>
-                        <hi>Sahle, Patrick / unter Mitarbeit von Georg Vogeler und den Mitgliedern des IDE</hi> (2014): 
-                        <hi>Kriterienkatalog für die Besprechung digitaler Editionen</hi>, Version 1.1. 
-                        <ptr/> [letzter Zugriff 14. Januar 2018].
+                        <hi rend="bold">Sahle, Patrick / unter Mitarbeit von Georg Vogeler und den Mitgliedern des IDE</hi> (2014): 
+                        <hi rend="italic">Kriterienkatalog für die Besprechung digitaler Editionen</hi>, Version 1.1. 
+                        <ptr target="https://www.i-d-e.de/publikationen/weitereschriften/kriterien-version-1-1/"/> [letzter Zugriff 14. Januar 2018].
                     </bibl>
                     <bibl>
-                        <hi>Schelbert, Georg </hi>(2017): “Digital kann mehr! Das neue Graphikportal”, in: 
-                        <hi>blog.arthistoricum.net </hi>
-                        <ptr/> [letzter Zugriff 14. Januar 2018].
+                        <hi rend="bold">Schelbert, Georg </hi>(2017): “Digital kann mehr! Das neue Graphikportal”, in: 
+                        <hi rend="italic">blog.arthistoricum.net </hi>
+                        <ptr target="https://blog.arthistoricum.net/beitrag/2017/11/23/digital-kann-mehr-das-neue-graphikportal/"/> [letzter Zugriff 14. Januar 2018].
                     </bibl>
                     <bibl>
-                        <hi>Schöch, Christof </hi>(2017):. “Poston / Niles, eds., Folger Digital Texts”, in: 
-                        <hi>Variants</hi> 11, 2014, pp. 16-20. DOI: 
-                        <ptr/> [letzter Zugriff 14. Januar 2018].
+                        <hi rend="bold">Schöch, Christof </hi>(2017):. “Poston / Niles, eds., Folger Digital Texts”, in: 
+                        <hi rend="italic">Variants</hi> 11, 2014, pp. 16-20. DOI: 
+                        <ptr target="http://doi.org/10.5281/zenodo.13745"/> [letzter Zugriff 14. Januar 2018].
                     </bibl>
                     <bibl>
-                        <hi>Schreibman, Susan / Mandell, Laura / Olsen, Stephen </hi>(eds., 2011): “Evaluating Digital Scholarship”, in: 
-                        <hi>Profession.</hi> DOI: 10.1632/prof.2011.2011.1.123
+                        <hi rend="bold">Schreibman, Susan / Mandell, Laura / Olsen, Stephen </hi>(eds., 2011): “Evaluating Digital Scholarship”, in: 
+                        <hi rend="italic">Profession.</hi> DOI: 10.1632/prof.2011.2011.1.123
                     </bibl>
                     <bibl>
-                        <hi>Yates, Kimberly </hi>(2008): “Creating a Prize for the Best Digital Editions / Online Archives.”, in: 
-                        <hi>Scroll – Essays on the Design of Electronic Texts</hi> 1, 1.
+                        <hi rend="bold">Yates, Kimberly </hi>(2008): “Creating a Prize for the Best Digital Editions / Online Archives.”, in: 
+                        <hi rend="italic">Scroll – Essays on the Design of Electronic Texts</hi> 1, 1.
                     </bibl>
                 </listBibl>
             </div>

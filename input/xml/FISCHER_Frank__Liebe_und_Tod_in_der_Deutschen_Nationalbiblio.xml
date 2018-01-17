@@ -3,9 +3,9 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>
-                    <title> Liebe und Tod in der Deutschen Nationalbibliothek</title>
-                    <title>Der DNB-Katalog als Forschungsobjekt der digitalen Literaturwissenschaft</title>
+                <title type="full">
+                    <title type="main"> Liebe und Tod in der Deutschen Nationalbibliothek</title>
+                    <title type="sub">Der DNB-Katalog als Forschungsobjekt der digitalen Literaturwissenschaft</title>
                 </title>
                 <author>
                     <persName>
@@ -44,26 +44,26 @@
         </fileDesc>
         <encodingDesc>
             <appInfo>
-                <application>
+                <application ident="DHCONVALIDATOR" version="1.17">
                     <label>DHConvalidator</label>
                 </application>
             </appInfo>
         </encodingDesc>
         <profileDesc>
             <textClass>
-                <keywords>
+                <keywords scheme="ConfTool" n="category">
                     <term>Paper</term>
                 </keywords>
-                <keywords>
+                <keywords scheme="ConfTool" n="subcategory">
                     <term>Vortrag</term>
                 </keywords>
-                <keywords>
+                <keywords scheme="ConfTool" n="keywords">
                     <term>Deutsche Nationalbibliothek</term>
                     <term>Metadaten</term>
                     <term>Katalogdaten</term>
                     <term>Literaturwissenschaft</term>
                 </keywords>
-                <keywords>
+                <keywords scheme="ConfTool" n="topics">
                     <term>Programmierung</term>
                     <term>Visualisierung</term>
                     <term>Literatur</term>
@@ -74,349 +74,349 @@
     </teiHeader>
     <text>
         <body>
-            <div>
+            <div type="div1" rend="DH-Heading1">
                 <head>Einleitung</head>
                 <p>Der Sammelauftrag der Deutschen Nationalbibliothek (DNB) beginnt 1913 und bezieht sich auf »lückenlos alle deutschen und deutschsprachigen Publikationen« (»Wir über uns«, 16.03.2017). Der DNB-Katalog ist natürlich längst digitalisiert und die Arbeit mit ihm mittlerweile sehr komfortabel, da der Datendienst der DNB unter http://www.dnb.de/datendienst vierteljährlich einen Komplettabzug der Katalogdaten im RDF-Format bereitstellt, unter der freien Lizenz CC0 1.0. Momentan (Stand vom 23.06.2017) enthält er 14 102 309 Datensätze, also Metadaten zu von der DNB gesammelten Medien. Bisher gibt es aus geisteswissenschaftlicher Sicht nur wenige Versuche, diese Quelle nutzbar zu machen (eine Ausnahme bilden etwa Häntzschel u. a. 2009). Wir präsentieren ein einfaches Framework, mit dem verschiedene Aspekte des DNB-Katalogs untersucht werden können, seine Entwicklung über die knapp 105 Jahre seit Bestehen der Nationalbibliothek (vgl. auch Schmidt 2017, der für die Library of Congress einen ähnlichen Ansatz vorgestellt hat). Wir konzentrieren uns dabei auf Romane als Untersuchungsobjekt, von denen in der DNB rund 180 000 als solche rubriziert sind (dies entspricht nicht der Gesamtanzahl an Romanen, denn Nachauflagen und Übersetzungen zählen dort mit hinein – außerdem fehlen auch einige Romane, da sie nicht entsprechend verschlagwortet worden sind. Dieser Vortrag ist methoden-, nicht vorderhand ergebniszentriert, wobei wir an zwei Anwendungsszenarien aus der Praxis der digitalen Literaturwissenschaft demonstrieren, wie Katalogmetadaten bei der Bearbeitung konkreter Forschungsfragen behilflich sein können bzw. diese überhaupt erst ermöglichen.</p>
             </div>
-            <div>
+            <div type="div1" rend="DH-Heading1">
                 <head>Beschreibung des Frameworks</head>
                 <p>Die Titeldaten der DNB werden in typischen Linked-Data-Formaten (RDF/XML, JSON-LD usw.) angeboten. Der übliche Ansatz mit solchen Daten zu arbeiten ist, diese in eine geeignete Datenbank (Triple-Store) einzuladen und Anfragen mit Hilfe der entsprechenden Anfragesprache (i. A. SPARQL) zu stellen. Prinzipiell sind auch andere Systeme (z. B. relationale Datenbank, Suchmaschine) geeignet. Dies ermöglicht sehr flexible Anfragen und die leichte Einbindung weiterer Datenquellen. Da die Größe der Daten (unkomprimiert ca. 21 GB) jedoch gewisse Anforderungen an die Hardware stellt und die Konfiguration und Optimierung der Datenbank aufwendig ist, haben wir uns für eine andere, kompakte und leichter nachzuvollziehende Lösung entschieden. Langfristiges Ziel ist jedoch die Bereitstellung einer fertig konfigurierten Arbeitsumgebung in Form eines Docker-Containers, in der die Daten in einer Datenbank ad hoc verfüg- und analysierbar sind.</p>
                 <p>Der Titeldatensatz ist mit 14 102 309 Datensätzen und 227 212 707 Tripeln (»Fakten«) sehr umfangreich und enthält neben Angaben zu Büchern auch Angaben zu weiteren Medientypen wie etwa Zeitschriften. Neben den üblichen Metadatenfeldern wie Titel und Erscheinungsjahr ist bei Buchobjekten meist auch die Seitenanzahl sowie das Format vermerkt. Ganz im Sinne von Linked Data werden viele Angaben mit Hilfe von standardisierten Vokabularien (z. B. Dublin Core oder Bibo) beschrieben und ermöglichen so die Verlinkung mit weiteren Datensätzen. Insbesondere ermöglicht die Angabe der Autor*innen durch die numerische Kennung aus der Gemeinsamen Normdatei (GND) die Verknüpfung der Daten mit Wikidata, der (zukünftig) hinter Wikipedia stehenden Faktendatenbank. Wikidata verwendet ein auf Linked Data basierendes Datenmodell und ermöglicht, ähnlich wie Wikipedia, jedermann das Hinzufügen und Bearbeiten von Daten. Neben Angaben zu Städten und Ländern (z. B. Fläche, Einwohnerzahl) sind in Wikidata auch Daten zu zahlreichen Persönlichkeiten gespeichert, etwa deren Namen, Geburtsdaten, Berufe, Werke und, falls vorhanden, GND-Kennung (als Beispiel sei auf die Seite zu Johann Wolfgang von Goethe verwiesen: https://www.wikidata.org/wiki/Q5879).</p>
                 <p>Unser Framework umfasst derzeit vier Schritte, die im Folgenden beschrieben werden:</p>
-                <div>
+                <div type="div2" rend="DH-Heading2">
                     <head>Vorverarbeitung und Konvertierung der Daten von RDF/XML zu JSON (rdf2json.py)</head>
                     <p>RDF/XML wird von den üblichen Softwaretools im Allgemeinen nicht als Datenstrom verarbeitet, sondern im Hauptspeicher abgelegt und dann weiterverarbeitet. Aufgrund der Größe der Daten scheidet diese Möglichkeit aus. Da jedoch alle wesentlichen Daten zu einem Medium typischerweise innerhalb eines XML-Tags "rdf:Description" abgelegt sind, können wir die Daten auch mit Hilfe eines SAX-Parsers als XML verarbeiten. Wir extrahieren die für die Analyse wesentlichen Metadaten (z. B. dcterms:contributor, dcterms:language, dc:title, dcterms:extent, rdau:P60493) und speichern diese als JSON ab. JSON ist im Allgemeinen platzsparender als RDF/XML und kann leicht in Elasticsearch eingeladen werden, was ein geplanter nächster Schritt ist.</p>
                 </div>
-                <div>
+                <div type="div2" rend="DH-Heading2">
                     <head>Extraktion von Daten zu Autoren aus Wikidata (WKD-Toolkit)</head>
                     <p>Unser Ziel ist die Anreicherung der Autorenangaben im DNB-Datensatz mit Informationen aus Wikidata, beispielsweise Geburtsdatum- und ‑ort, Beruf und Verweis auf einen etwa vorhandenen Artikel in Wikipedia. Da die Python-Softwarebibliothek zur Verarbeitung von Wikidata-Datensätzen veraltet ist, greifen wir auf das Java-basierte Wikidata Toolkit zurück. Nach Herunterladen des aktuell (14.08.2017) 16 GB großen komprimierten Wikidata-Datensatzes extrahieren wir in zwei Durchgängen zunächst alle Elemente mit einer GND-Kennung einschließlich ausgewählter Merkmale und ergänzen im zweiten Durchlauf die Werte der Merkmale. Das Ergebnis speichern wir im JSON-Format.</p>
                 </div>
-                <div>
+                <div type="div2" rend="DH-Heading2">
                     <head>Normalisierung und Anreicherung der Daten (json2json.py)</head>
                     <p>Unser Python-Skript implementiert eine Pipeline, die alle in den vorherigen Schritten extrahierten Daten einliest und mit Hilfe der GND-Kennung verknüpft, Metadatenangaben (wie z. B. Seitenanzahlen) extrahiert, vereinfacht und normalisiert, Datensätze mit fehlenden Angaben filtert und schließlich die gewünschten Datenfelder spaltenbasiert ausgibt. Die Vereinfachung umfasst vor Allem das Entfernen von Namespace-Präfixen (etwa http://id.loc.gov/vocabulary/iso639-2/ bei der Angabe der Sprache); Seitenanzahlen werden mit Hilfe eines regulären Ausdrucks extrahiert, der die häufigsten Fälle abdeckt; Jahreszahlen ebenso; Verlagsnamen können mit Hilfe einer Normtabelle normiert werden (dies ist nötig, da die Schreibung dieser Namen innerhalb des Katalogs nicht standardisiert ist).</p>
                 </div>
-                <div>
+                <div type="div2" rend="DH-Heading2">
                     <head>Analyse der Daten (Shell-Skripte und -Tools wie awk, sort, datamash, gnuplot, ...)</head>
                     <p>Die entstandenen Dateien im TSV-Format können mit den üblichen Unix-Kommandozeilen-Werkzeugen wie awk, sort, uniq etc. leicht verarbeitet und analysiert werden; Visualisierungen wurden mit gnuplot erzeugt. Alle Schritte sind im GitHub-Repository dokumentiert.</p>
                 </div>
             </div>
-            <div>
+            <div type="div1" rend="DH-Heading1">
                 <head>Zeitliche Entwicklung über 105 Jahre DNB</head>
                 <p>Abbildung 1 zeigt die zeitliche Verteilung einiger Subdatensätze des Katalogs. Von den etwa 14,1 Mio. Objekten im originalen DNB-Datensatz weisen etwa 8,3 Mio. extrahierbare Seitenanzahlen auf (59 %). Beschränken wir diese Anzahl auf ›Romane‹ (über das Datenfeld "rdau:P60493"), bleiben 353 498 übrig, von denen wiederum 316 518 Umfangsangaben aufweisen und 180 219 einen Verfasser, der mindestens einen Wikipedia-Eintrag (in egal welcher Sprache) besitzt. Dieses Datenset ist die Grundlage für die unten folgenden Anwendungsszenarien.</p>
                 <p>
                     <figure>
-                        <graphic/>
+                        <graphic url="../images/FISCHER_Frank__Liebe_und_Tod_in_der_Deutschen_Nationalbiblio.xml-100000000000032000000258EB09BF3712618D9C.png"/>
                     </figure>Abbildung 1: Fünf verschieden qualifizierte Subdatensätze des DNB-Katalogs in zeitlicher Verteilung.
                 </p>
             </div>
-            <div>
+            <div type="div1" rend="DH-Heading1">
                 <head>Repräsentativität</head>
                 <p>Als möglicher Plausibilitäts- bzw. Repräsentativitätstest kann das Auszählen derjenigen Romanciers dienen, die mit den meisten Romanen im Katalog vertreten sind. Da der DNB-Katalog Vollständigkeit anstrebt, kann ein entsprechendes Ranking etwas über vergangene Realitäten auf dem deutschsprachigen Buchmarkt aussagen (Tab. 1), und tatsächlich stehen die Verfasser*innen von Romanbestsellern im Unterhaltungsbereich ganz oben (die Anzahl der Bücher umfasst von der DNB mitgesammelte Neuauflagen, Konsalik hat also nicht über 2 000 Romane geschrieben).</p>
-                <table>
+                <table rend="frame" xml:id="Tabelle3">
                     <row>
-                        <cell>Autor*in</cell>
-                        <cell>Romane</cell>
+                        <cell rend="start color(#000000)bold">Autor*in</cell>
+                        <cell rend="center bold">Romane</cell>
                     </row>
                     <row>
-                        <cell>Heinz G. Konsalik</cell>
-                        <cell>2232</cell>
+                        <cell rend="color(#000000)">Heinz G. Konsalik</cell>
+                        <cell rend="center">2232</cell>
                     </row>
                     <row>
-                        <cell>Marie Louise Fischer</cell>
-                        <cell>1264</cell>
+                        <cell rend="color(#000000)">Marie Louise Fischer</cell>
+                        <cell rend="center">1264</cell>
                     </row>
                     <row>
-                        <cell>Gert Fritz Unger</cell>
-                        <cell>1013</cell>
+                        <cell rend="color(#000000)">Gert Fritz Unger</cell>
+                        <cell rend="center">1013</cell>
                     </row>
                     <row>
-                        <cell>Georges Simenon</cell>
-                        <cell>783</cell>
+                        <cell rend="color(#000000)">Georges Simenon</cell>
+                        <cell rend="center">783</cell>
                     </row>
                     <row>
-                        <cell>Utta Danella</cell>
-                        <cell>778</cell>
+                        <cell rend="color(#000000)">Utta Danella</cell>
+                        <cell rend="center">778</cell>
                     </row>
                     <row>
-                        <cell>Edgar Wallace</cell>
-                        <cell>654</cell>
+                        <cell rend="color(#000000)">Edgar Wallace</cell>
+                        <cell rend="center">654</cell>
                     </row>
                     <row>
-                        <cell>Hedwig Courths-Mahler</cell>
-                        <cell>647</cell>
+                        <cell rend="color(#000000)">Hedwig Courths-Mahler</cell>
+                        <cell rend="center">647</cell>
                     </row>
                     <row>
-                        <cell>Eleanor Hibbert</cell>
-                        <cell>635</cell>
+                        <cell rend="color(#000000)">Eleanor Hibbert</cell>
+                        <cell rend="center">635</cell>
                     </row>
                     <row>
-                        <cell>Pearl S. Buck</cell>
-                        <cell>596</cell>
+                        <cell rend="color(#000000)">Pearl S. Buck</cell>
+                        <cell rend="center">596</cell>
                     </row>
                     <row>
-                        <cell>Alistair MacLean</cell>
-                        <cell>582</cell>
+                        <cell rend="color(#000000)">Alistair MacLean</cell>
+                        <cell rend="center">582</cell>
                     </row>
                     <row>
-                        <cell>Stephen King</cell>
-                        <cell>577</cell>
+                        <cell rend="color(#000000)">Stephen King</cell>
+                        <cell rend="center">577</cell>
                     </row>
                     <row>
-                        <cell>Georgette Heyer</cell>
-                        <cell>576</cell>
+                        <cell rend="color(#000000)">Georgette Heyer</cell>
+                        <cell rend="center">576</cell>
                     </row>
                     <row>
-                        <cell>Agatha Christie</cell>
-                        <cell>574</cell>
+                        <cell rend="color(#000000)">Agatha Christie</cell>
+                        <cell rend="center">574</cell>
                     </row>
                     <row>
-                        <cell>Theodor Fontane</cell>
-                        <cell>565</cell>
+                        <cell rend="color(#000000)">Theodor Fontane</cell>
+                        <cell rend="center">565</cell>
                     </row>
                     <row>
-                        <cell>Hans Ernst</cell>
-                        <cell>563</cell>
+                        <cell rend="color(#000000)">Hans Ernst</cell>
+                        <cell rend="center">563</cell>
                     </row>
                     <row>
-                        <cell>Lion Feuchtwanger</cell>
-                        <cell>501</cell>
+                        <cell rend="color(#000000)">Lion Feuchtwanger</cell>
+                        <cell rend="center">501</cell>
                     </row>
                     <row>
-                        <cell>Erich Maria Remarque</cell>
-                        <cell>419</cell>
+                        <cell rend="color(#000000)">Erich Maria Remarque</cell>
+                        <cell rend="center">419</cell>
                     </row>
                     <row>
-                        <cell>Hans Hellmut Kirst</cell>
-                        <cell>411</cell>
+                        <cell rend="color(#000000)">Hans Hellmut Kirst</cell>
+                        <cell rend="center">411</cell>
                     </row>
                     <row>
-                        <cell>Johannes Mario Simmel</cell>
-                        <cell>403</cell>
+                        <cell rend="color(#000000)">Johannes Mario Simmel</cell>
+                        <cell rend="center">403</cell>
                     </row>
                     <row>
-                        <cell>Hans Fallada</cell>
-                        <cell>396</cell>
+                        <cell rend="color(#000000)">Hans Fallada</cell>
+                        <cell rend="center">396</cell>
                     </row>
                     <row>
-                        <cell>Heinrich Mann</cell>
-                        <cell>394</cell>
+                        <cell rend="color(#000000)">Heinrich Mann</cell>
+                        <cell rend="center">394</cell>
                     </row>
                     <row>
-                        <cell>Fjodor Dostojewski</cell>
-                        <cell>390</cell>
+                        <cell rend="color(#000000)">Fjodor Dostojewski</cell>
+                        <cell rend="center">390</cell>
                     </row>
                     <row>
-                        <cell>Barbara Cartland</cell>
-                        <cell>390</cell>
+                        <cell rend="color(#000000)">Barbara Cartland</cell>
+                        <cell rend="center">390</cell>
                     </row>
                     <row>
-                        <cell>Nora Roberts</cell>
-                        <cell>381</cell>
+                        <cell rend="color(#000000)">Nora Roberts</cell>
+                        <cell rend="center">381</cell>
                     </row>
                     <row>
-                        <cell>Graham Greene</cell>
-                        <cell>375</cell>
+                        <cell rend="color(#000000)">Graham Greene</cell>
+                        <cell rend="center">375</cell>
                     </row>
                     <row>
-                        <cell>A. J. Cronin</cell>
-                        <cell>370</cell>
+                        <cell rend="color(#000000)">A. J. Cronin</cell>
+                        <cell rend="center">370</cell>
                     </row>
                     <row>
-                        <cell>Vicki Baum</cell>
-                        <cell>366</cell>
+                        <cell rend="color(#000000)">Vicki Baum</cell>
+                        <cell rend="center">366</cell>
                     </row>
                     <row>
-                        <cell>Thomas Mann</cell>
-                        <cell>359</cell>
+                        <cell rend="color(#000000)">Thomas Mann</cell>
+                        <cell rend="center">359</cell>
                     </row>
                     <row>
-                        <cell>Robert Ludlum</cell>
-                        <cell>358</cell>
+                        <cell rend="color(#000000)">Robert Ludlum</cell>
+                        <cell rend="center">358</cell>
                     </row>
                     <row>
-                        <cell>Gerd Hafner</cell>
-                        <cell>357</cell>
+                        <cell rend="color(#000000)">Gerd Hafner</cell>
+                        <cell rend="center">357</cell>
                     </row>
                     <row>
-                        <cell>Dean Koontz</cell>
-                        <cell>354</cell>
+                        <cell rend="color(#000000)">Dean Koontz</cell>
+                        <cell rend="center">354</cell>
                     </row>
                     <row>
-                        <cell>Heinrich Böll</cell>
-                        <cell>340</cell>
+                        <cell rend="color(#000000)">Heinrich Böll</cell>
+                        <cell rend="center">340</cell>
                     </row>
                     <row>
-                        <cell>Alexandra Cordes</cell>
-                        <cell>325</cell>
+                        <cell rend="color(#000000)">Alexandra Cordes</cell>
+                        <cell rend="center">325</cell>
                     </row>
                     <row>
-                        <cell>John le Carré</cell>
-                        <cell>322</cell>
+                        <cell rend="color(#000000)">John le Carré</cell>
+                        <cell rend="center">322</cell>
                     </row>
                     <row>
-                        <cell>Marion Zimmer Bradley</cell>
-                        <cell>321</cell>
+                        <cell rend="color(#000000)">Marion Zimmer Bradley</cell>
+                        <cell rend="center">321</cell>
                     </row>
                     <row>
-                        <cell>Jason Dark</cell>
-                        <cell>317</cell>
+                        <cell rend="color(#000000)">Jason Dark</cell>
+                        <cell rend="center">317</cell>
                     </row>
                     <row>
-                        <cell>Willi Heinrich</cell>
-                        <cell>313</cell>
+                        <cell rend="color(#000000)">Willi Heinrich</cell>
+                        <cell rend="center">313</cell>
                     </row>
                     <row>
-                        <cell>Ludwig Ganghofer</cell>
-                        <cell>311</cell>
+                        <cell rend="color(#000000)">Ludwig Ganghofer</cell>
+                        <cell rend="center">311</cell>
                     </row>
                     <row>
-                        <cell>Jack London</cell>
-                        <cell>309</cell>
+                        <cell rend="color(#000000)">Jack London</cell>
+                        <cell rend="center">309</cell>
                     </row>
                     <row>
-                        <cell>Joseph Roth</cell>
-                        <cell>307</cell>
+                        <cell rend="color(#000000)">Joseph Roth</cell>
+                        <cell rend="center">307</cell>
                     </row>
                     <row>
-                        <cell>Danielle Steel</cell>
-                        <cell>299</cell>
+                        <cell rend="color(#000000)">Danielle Steel</cell>
+                        <cell rend="center">299</cell>
                     </row>
                     <row>
-                        <cell>Johanna Lindsey</cell>
-                        <cell>288</cell>
+                        <cell rend="color(#000000)">Johanna Lindsey</cell>
+                        <cell rend="center">288</cell>
                     </row>
                     <row>
-                        <cell>Erle Stanley Gardner</cell>
-                        <cell>287</cell>
+                        <cell rend="color(#000000)">Erle Stanley Gardner</cell>
+                        <cell rend="center">287</cell>
                     </row>
                     <row>
-                        <cell>Siegfried Lenz</cell>
-                        <cell>279</cell>
+                        <cell rend="color(#000000)">Siegfried Lenz</cell>
+                        <cell rend="center">279</cell>
                     </row>
                     <row>
-                        <cell>Jules Verne</cell>
-                        <cell>277</cell>
+                        <cell rend="color(#000000)">Jules Verne</cell>
+                        <cell rend="center">277</cell>
                     </row>
                     <row>
-                        <cell>Rosamunde Pilcher</cell>
-                        <cell>274</cell>
+                        <cell rend="color(#000000)">Rosamunde Pilcher</cell>
+                        <cell rend="center">274</cell>
                     </row>
                     <row>
-                        <cell>Franz Kafka</cell>
-                        <cell>271</cell>
+                        <cell rend="color(#000000)">Franz Kafka</cell>
+                        <cell rend="center">271</cell>
                     </row>
                     <row>
-                        <cell>Ernest Hemingway</cell>
-                        <cell>271</cell>
+                        <cell rend="color(#000000)">Ernest Hemingway</cell>
+                        <cell rend="center">271</cell>
                     </row>
                     <row>
-                        <cell>Taylor Caldwell</cell>
-                        <cell>269</cell>
+                        <cell rend="color(#000000)">Taylor Caldwell</cell>
+                        <cell rend="center">269</cell>
                     </row>
                     <row>
-                        <cell>Dorothy L. Sayers</cell>
-                        <cell>269</cell>
+                        <cell rend="color(#000000)">Dorothy L. Sayers</cell>
+                        <cell rend="center">269</cell>
                     </row>
                 </table>
                 <p>Tabelle 1: Romanautor*innen geordnet nach Anzahl der Werke (inkl. Nachauflagen) im DNB-Katalog.</p>
             </div>
-            <div>
+            <div type="div1" rend="DH-Heading1">
                 <head>Anwendungsfall 1: Buchtitel</head>
                 <p>Die Verfügbarkeit großer digitalisierter Kataloge ermöglicht Large-Scale-Analysen bibliografischer Metadaten, etwa die Entwicklung von Romantiteln. Ein Vorläufer auf diesem Gebiet, Werner Bergengruens immer noch zu empfehlende Bibliothekarsfantasie »Titulus« von 1960, musste sich noch auf eine manuelle Sammlung des Autors stützen. Mittlerweile gibt es mit Franco Morettis Studie »Style Inc.« (2009) ein prominentes datengestütztes Beispiel (wobei sich Moretti bei seiner Analyse von um die 7 000 Romantiteln auf Fachbibliografien stützte, nicht auf Katalogdaten).</p>
                 <p>Um einen ersten Einblick in das Vokabular von Romantiteln zu bekommen, seien in Tabelle 2 die am häufigsten vorkommenden Substantive aufgelistet.</p>
-                <table>
+                <table rend="frame" xml:id="Tabelle1">
                     <row>
-                        <cell>Substantiv</cell>
-                        <cell>Frequenz</cell>
+                        <cell rend="center bold">Substantiv</cell>
+                        <cell rend="center bold">Frequenz</cell>
                     </row>
                     <row>
-                        <cell>Liebe</cell>
-                        <cell>3117</cell>
+                        <cell rend="center">Liebe</cell>
+                        <cell rend="center">3117</cell>
                     </row>
                     <row>
-                        <cell>Mann</cell>
-                        <cell>1906</cell>
+                        <cell rend="center">Mann</cell>
+                        <cell rend="center">1906</cell>
                     </row>
                     <row>
-                        <cell>Frau</cell>
-                        <cell>1686</cell>
+                        <cell rend="center">Frau</cell>
+                        <cell rend="center">1686</cell>
                     </row>
                     <row>
-                        <cell>Tod</cell>
-                        <cell>1537</cell>
+                        <cell rend="center">Tod</cell>
+                        <cell rend="center">1537</cell>
                     </row>
                     <row>
-                        <cell>Nacht</cell>
-                        <cell>1505</cell>
+                        <cell rend="center">Nacht</cell>
+                        <cell rend="center">1505</cell>
                     </row>
                     <row>
-                        <cell>Leben</cell>
-                        <cell>1496</cell>
+                        <cell rend="center">Leben</cell>
+                        <cell rend="center">1496</cell>
                     </row>
                     <row>
-                        <cell>Welt</cell>
-                        <cell>1188</cell>
+                        <cell rend="center">Welt</cell>
+                        <cell rend="center">1188</cell>
                     </row>
                     <row>
-                        <cell>Haus</cell>
-                        <cell>1158</cell>
+                        <cell rend="center">Haus</cell>
+                        <cell rend="center">1158</cell>
                     </row>
                     <row>
-                        <cell>Zeit</cell>
-                        <cell>1037</cell>
+                        <cell rend="center">Zeit</cell>
+                        <cell rend="center">1037</cell>
                     </row>
                     <row>
-                        <cell>Schatten</cell>
-                        <cell>1029</cell>
+                        <cell rend="center">Schatten</cell>
+                        <cell rend="center">1029</cell>
                     </row>
                 </table>
                 <p>Tabelle 2: Häufigste Substantive in Romantiteln im gesamten DNB-Katalog.</p>
                 <p>Überzeitliche Konzepte – Liebe, Tod usw. – dominieren das Feld. Und nebenbei bemerkt: Ein wenig erinnert diese Liste an Jan Böhmermanns satirischen Song »Menschen, Leben, Tanzen, Welt«, mit dem auf die Beliebig- und Austauschbarkeit kontemporärer deutschsprachiger Liedproduktion angespielt wird (vgl. Pandzko/Böhmermann 2017), ein Befund, der sich analog auch auf Romantitel projizieren ließe.</p>
                 <p>Diese Anfragetechnik kann – wie beim Google Ngram Viewer – auf n-Gramme ausgedehnt werden, die Top-10 der häufigsten Trigramme findet sich in Tabelle 3.</p>
-                <table>
+                <table rend="frame" xml:id="Tabelle2">
                     <row>
-                        <cell>Trigramm</cell>
-                        <cell>Frequenz</cell>
+                        <cell rend="center bold">Trigramm</cell>
+                        <cell rend="center bold">Frequenz</cell>
                     </row>
                     <row>
-                        <cell>Das Geheimnis der</cell>
-                        <cell>238</cell>
+                        <cell rend="center">Das Geheimnis der</cell>
+                        <cell rend="center">238</cell>
                     </row>
                     <row>
-                        <cell>Das Haus der</cell>
-                        <cell>224</cell>
+                        <cell rend="center">Das Haus der</cell>
+                        <cell rend="center">224</cell>
                     </row>
                     <row>
-                        <cell>Der Mann der</cell>
-                        <cell>189</cell>
+                        <cell rend="center">Der Mann der</cell>
+                        <cell rend="center">189</cell>
                     </row>
                     <row>
-                        <cell>Das Geheimnis des</cell>
-                        <cell>175</cell>
+                        <cell rend="center">Das Geheimnis des</cell>
+                        <cell rend="center">175</cell>
                     </row>
                     <row>
-                        <cell>Die Tochter des</cell>
-                        <cell>160</cell>
+                        <cell rend="center">Die Tochter des</cell>
+                        <cell rend="center">160</cell>
                     </row>
                     <row>
-                        <cell>Im Schatten des</cell>
-                        <cell>128</cell>
+                        <cell rend="center">Im Schatten des</cell>
+                        <cell rend="center">128</cell>
                     </row>
                     <row>
-                        <cell>Der Mann im</cell>
-                        <cell>128</cell>
+                        <cell rend="center">Der Mann im</cell>
+                        <cell rend="center">128</cell>
                     </row>
                     <row>
-                        <cell>Das Lied der</cell>
-                        <cell>125</cell>
+                        <cell rend="center">Das Lied der</cell>
+                        <cell rend="center">125</cell>
                     </row>
                     <row>
-                        <cell>Die Frau des</cell>
-                        <cell>124</cell>
+                        <cell rend="center">Die Frau des</cell>
+                        <cell rend="center">124</cell>
                     </row>
                     <row>
-                        <cell>Die Reise nach</cell>
-                        <cell>108</cell>
+                        <cell rend="center">Die Reise nach</cell>
+                        <cell rend="center">108</cell>
                     </row>
                 </table>
                 <p>Tabelle 3: Häufigste Trigramme in Romantiteln im DNB-Katalog.</p>
@@ -424,64 +424,64 @@
                 <p>Für genauere Analysen auf Grundlage dieser Extraktions- und Visualisierungsmethoden stellt das von uns vorgestellte Framework eine ideale Basis dar.</p>
                 <p>
                     <figure>
-                        <graphic/>
+                        <graphic url="../images/FISCHER_Frank__Liebe_und_Tod_in_der_Deutschen_Nationalbiblio.xml-1000000000000320000002588354496A458DC01A.png"/>
                     </figure>Abbildung 2: Vorkommen ausgewählter Wörter in Romantiteln im zeitlichen Verlauf (absolut).
                 </p>
                 <p>
                     <figure>
-                        <graphic/>
+                        <graphic url="../images/FISCHER_Frank__Liebe_und_Tod_in_der_Deutschen_Nationalbiblio.xml-1000000000000320000002582D3B4403ADB68D41.png"/>
                     </figure>Abbildung 3: Vorkommen ausgewählter Wörter in Romantiteln im zeitlichen Verlauf (relativ).
                 </p>
             </div>
-            <div>
+            <div type="div1" rend="DH-Heading1">
                 <head>Anwendungsfall 2: Textumfang</head>
                 <p>Unser zweites Anwendungsszenario betrifft die Erforschung des literarischen Textumfangs. Abbildung 4 zeigt die durchschnittliche Seitenanzahl von Romanen im Katalog der DNB.</p>
                 <p>Als Zuarbeit zu einer Theorie des literarischen Textumfangs haben wir mit dem von uns hier vorgestellten Framework in einer umfangreicheren Studie untersucht, wie sich der Umfang von Romanen etwa auf die Kanonbildung auswirkt (längere Romane, speziell solche von mehr als 1 000 Seiten Umfang, haben es leichter, in Kanonlisten zu landen). Außerdem ist es uns gelungen zu zeigen, wie umfangreiche Romane die DNA von Verlagen bestimmen können (vgl. Fischer/Jäschke 2018).</p>
                 <p>
                     <figure>
-                        <graphic/>
+                        <graphic url="../images/FISCHER_Frank__Liebe_und_Tod_in_der_Deutschen_Nationalbiblio.xml-1000000000000320000002588593112BE8F98C35.png"/>
                     </figure>Abbildung 4: Entwicklung der mittleren Seitenanzahl pro Jahr seit 1913.
                 </p>
             </div>
-            <div>
+            <div type="div1" rend="DH-Heading1">
                 <head>Fazit</head>
                 <p>Katalogdaten als Untersuchungsobjekt der quantifizierenden Literaturwissenschaften sind keine sich selbst erklärende Quelle, sondern ein über Jahrhunderte gewachsenes, überaus komplexes System. Die bibliothekarische Betreuung dieser Daten zielt nicht per se auf literaturwissenschaftliche Anwendungsfälle. Die Verschlagwortung kann lückenbehaftet sein, bestimmte Angaben wie etwa zum Textumfang können Fehler aufweisen. Die literaturwissenschaftliche Beschäftigung mit Katalogdaten setzt deren Explorier- und Kontrollierbarkeit voraus, wozu das hier vorgestellte Framework einen ersten Beitrag leisten soll. Zwei konkrete Anwendungsfälle sollten als Praxisbeispiele und ausdrücklich als Anreiz für weitere Szenarien dienen.</p>
             </div>
         </body>
         <back>
-            <div>
+            <div type="bibliogr">
                 <listBibl>
                     <head>Bibliographie</head>
                     <bibl>Das 
-                        <hi>Arbeitsrepositorium</hi> ist unter &lt;
-                        <ptr/>&gt; zu finden.
+                        <hi rend="bold">Arbeitsrepositorium</hi> ist unter &lt;
+                        <ptr target="https://github.com/weltliteratur/dnb"/>&gt; zu finden.
                     </bibl>
                     <bibl>
-                        <hi>Bergengruen, Werner</hi> (1960): Titulus. Das ist: Miszellen, Kollektaneen u. fragmentar., mit gelegentl. Irrtümern durchsetzte Gedanken zur Naturgeschichte d. dt. Buchtitels oder unbetitelter Lebensroman e. Bibliotheksbeamten. Zürich: Verlag der Arche.
+                        <hi rend="bold">Bergengruen, Werner</hi> (1960): Titulus. Das ist: Miszellen, Kollektaneen u. fragmentar., mit gelegentl. Irrtümern durchsetzte Gedanken zur Naturgeschichte d. dt. Buchtitels oder unbetitelter Lebensroman e. Bibliotheksbeamten. Zürich: Verlag der Arche.
                     </bibl>
                     <bibl>
-                        <hi>DNB</hi> (2017): »Wir über uns«, Stand 16.03.2017. URL: &lt;
-                        <ptr/>&gt;.
+                        <hi rend="bold">DNB</hi> (2017): »Wir über uns«, Stand 16.03.2017. URL: &lt;
+                        <ptr target="http://www.dnb.de/DE/Wir/wir_node.html"/>&gt;.
                     </bibl>
                     <bibl>
-                        <hi>Fischer, Frank; Jäschke, Robert</hi> (2018): Ein Quantum Literatur. Empirische Daten zu einer Theorie des literarischen Textumfangs. DFG-Symposium »Digitale Literaturwissenschaft«. Villa Vigoni, 9.–13. Oktober 2017. (Entsprechender Sammelband erscheint demnächst.)
+                        <hi rend="bold">Fischer, Frank; Jäschke, Robert</hi> (2018): Ein Quantum Literatur. Empirische Daten zu einer Theorie des literarischen Textumfangs. DFG-Symposium »Digitale Literaturwissenschaft«. Villa Vigoni, 9.–13. Oktober 2017. (Entsprechender Sammelband erscheint demnächst.)
                     </bibl>
                     <bibl>
-                        <hi>Häntzschel, Günter; Hummel, Adrian; Zedler, Jörg</hi> (2009): Deutschsprachige Buchkultur der 1950er Jahre. Fiktionale Literatur in Quellen, Analysen und Interpretationen. Wiesbaden: Harrassowitz 2009. URL: &lt;
-                        <ptr/>&gt;.
+                        <hi rend="bold">Häntzschel, Günter; Hummel, Adrian; Zedler, Jörg</hi> (2009): Deutschsprachige Buchkultur der 1950er Jahre. Fiktionale Literatur in Quellen, Analysen und Interpretationen. Wiesbaden: Harrassowitz 2009. URL: &lt;
+                        <ptr target="https://books.google.com/books?id=t88xc3CzK60C"/>&gt;.
                     </bibl>
                     <bibl>
-                        <hi>Moretti, Franco</hi> (2009): Style Inc. Reflections on Seven Thousand Titles (British Novels, 1740–1850). In: Critical Inquiry, Vol. 36, No. 1 (Autumn 2009), S. 134–158.
+                        <hi rend="bold">Moretti, Franco</hi> (2009): Style Inc. Reflections on Seven Thousand Titles (British Novels, 1740–1850). In: Critical Inquiry, Vol. 36, No. 1 (Autumn 2009), S. 134–158.
                     </bibl>
                     <bibl>
-                        <hi>Pandzko, Jim</hi>
-                        <hi>; </hi>
-                        <hi>Böhmermann, Jan </hi>(2017): Menschen Leben Tanzen Welt [Musikvideo]. In: Neo Magazin Royale, 05.04.2017. URL: &lt;
-                        <ptr/>&gt;.
+                        <hi rend="bold">Pandzko, Jim</hi>
+                        <hi rend="bold">; </hi>
+                        <hi rend="bold">Böhmermann, Jan </hi>(2017): Menschen Leben Tanzen Welt [Musikvideo]. In: Neo Magazin Royale, 05.04.2017. URL: &lt;
+                        <ptr target="https://youtu.be/h8MVXC_hqNY"/>&gt;.
                     </bibl>
                     <bibl>
-                        <hi>Schmidt, Ben</hi> (2017): A brief visual history of MARC cataloging at the Library of Congress. In: Sapping Attention [Blog], 16.05.2017. URL: &lt;
-                        <ptr/>&gt;.
+                        <hi rend="bold">Schmidt, Ben</hi> (2017): A brief visual history of MARC cataloging at the Library of Congress. In: Sapping Attention [Blog], 16.05.2017. URL: &lt;
+                        <ptr target="http://sappingattention.blogspot.de/2017/05/a-brief-visual-history-of-marc.html"/>&gt;.
                     </bibl>
                 </listBibl>
             </div>

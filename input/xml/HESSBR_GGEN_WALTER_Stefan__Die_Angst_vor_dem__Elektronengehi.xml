@@ -3,9 +3,9 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>
-                    <title> Die Angst vor dem „Elektronengehirn“: Topoi der Kybernetik-Kritik in der bundesdeutschen Nachkriegsphilosophie</title>
-                    <title/>
+                <title type="full">
+                    <title type="main"> Die Angst vor dem „Elektronengehirn“: Topoi der Kybernetik-Kritik in der bundesdeutschen Nachkriegsphilosophie</title>
+                    <title type="sub"/>
                 </title>
                 <author>
                     <persName>
@@ -36,27 +36,27 @@
         </fileDesc>
         <encodingDesc>
             <appInfo>
-                <application>
+                <application ident="DHCONVALIDATOR" version="1.17">
                     <label>DHConvalidator</label>
                 </application>
             </appInfo>
         </encodingDesc>
         <profileDesc>
             <textClass>
-                <keywords>
+                <keywords scheme="ConfTool" n="category">
                     <term>Paper</term>
                 </keywords>
-                <keywords>
+                <keywords scheme="ConfTool" n="subcategory">
                     <term>Vortrag</term>
                 </keywords>
-                <keywords>
+                <keywords scheme="ConfTool" n="keywords">
                     <term>Kybernetik</term>
                     <term>Geschichte der DH</term>
                     <term>Philosophie</term>
                     <term>Theorie</term>
                     <term>Wissenschaftspolitik</term>
                 </keywords>
-                <keywords>
+                <keywords scheme="ConfTool" n="topics">
                     <term>Bewertung</term>
                     <term>Forschungsprozess</term>
                     <term>Forschungsergebnis</term>
@@ -66,7 +66,7 @@
     </teiHeader>
     <text>
         <body>
-            <div>
+            <div type="div1" rend="DH-Heading1">
                 <head>Mein Beitrag greift einen Diskurs auf, der meines Wissens selbst in der Wissenschaftsgeschichte der Kybernetik noch keine Beachtung gefunden hat und erst recht für die ‚Vorgeschichte‘ der digital humanities im deutschsprachigen Raum noch nicht ausgewertet worden ist: die philosophische Kritik der Kybernetik in der Bundesrepublik der 60er Jahre. Ich beschränke mich dabei exemplarisch auf die Analyse dreier Aufsätze, die in der Zeitschrift für philosophische Forschung zwischen den Jahren 1965 und 1970 veröffentlicht worden sind. Die Reihe eröffnete der Gründer und Herausgeber der Zeitschrift Georgi Schischkoff (Schischkoff 1965). Der zweite Text wurde vom in Karlsruhe lehrenden österreichischen Philosophen Simon Moser verfasst (Moser 1967). Sein Tübinger Kollege Walter Gölz äußerte sich abschließend (Gölz 1970). Mein Beitrag soll zur Genealogie heutiger Kritik digitaler Geisteswissenschaft beitragen.</head>
                 <p>In der Kybernetik wurden Regelungstheorie, Informationstheorie und Theorie der Nachrichtenverarbeitung zusammengeführt (Steinbuch 1963: 317). Sie sollte als „zukünftige Universalwissenschaft“ (Steinbuch 1963: 340) den „Weg zu einer neuen Einheit der Wissenschaften“ (Steinbuch 1963: 319) bahnen, indem sie Modelle und Erklärungsansätze der Technik auf die Erklärung von Lebewesen, insbesondere des Menschen, und Gesellschaften überträgt (Kline 2015: 11-12). Jedenfalls zielte sie auf den Abbau von Barrieren zwischen Disziplinen und Verbesserung des Austauschs zwischen ihnen beitragen (KLine 2015: 63). Der institutionelle Erfolg der Kybernetik trug jedoch zur Verwischung ihres Profils bei. Zugleich wuchs der Zweifel, ob ihre Versprechungen überhaupt einlösbar erschienen (Kline 2015: 179-181, Aumann 2015: 25).</p>
                 <p>Ähnlich wie die digitalen Geisteswissenschaften nutzte die Kybernetik also formalwissenschaftliche Werkzeuge zur Behandlung von Fragen, die auf den ersten Blick einer solchen Behandlung nicht zugänglich sind (Steinbuch 1963, 317). Hierzu zählten Analysen der Wahrnehmung ästhetischer Information (Steinbuch, 1963, 280) genauso wie der Plan einer formalen, aber qualitativen Informationstheorie (Steinbuch 1963, 315). Zu verweisen ist auch auf die Affinität zwischen Kybernetik und der Entwicklung strukturalistischer Linguistik, etwa bei Jakobson (Kline 2015, 41). „Das Eindringen der Kybernetik in die Geisteswissenschaft ist ein Markstein in der Geschichte der Wissenschaften.“ (Steinbuch 1963, 339) In den USA wurden Thesen der Kybernetik auch in der analytischen Philosophie und Wissenschaftstheorie rezipiert, nicht immer positiv (Kline 2015: 98-99).</p>
@@ -78,32 +78,32 @@
             </div>
         </body>
         <back>
-            <div>
+            <div type="bibliogr">
                 <listBibl>
                     <head>Bibliographie</head>
                     <bibl>
-                        <hi>Aumann, Philipp</hi> (2015): „Neues Denken in Wissenschaft und Gesellschaft: Die Kybernetik in der Mitte des 20. Jahrhunderts“ in: Jeschke, Sabina / Dröge, Alicia / Schmitt, Robert (eds.): 
-                        <hi>Exploring Cybernetics: Kybernetik im interdisziplinären Diskurs</hi>, Wiesbaden: Springer Fachmedien 21-40
+                        <hi rend="bold">Aumann, Philipp</hi> (2015): „Neues Denken in Wissenschaft und Gesellschaft: Die Kybernetik in der Mitte des 20. Jahrhunderts“ in: Jeschke, Sabina / Dröge, Alicia / Schmitt, Robert (eds.): 
+                        <hi rend="italic">Exploring Cybernetics: Kybernetik im interdisziplinären Diskurs</hi>, Wiesbaden: Springer Fachmedien 21-40
                     </bibl>
                     <bibl>
-                        <hi>Gölz, Walter</hi> (1970): „Philosophisches Problembewußtsein und kybernetische Theorie“,in: 
-                        <hi>Zeitschrift für philosophische Forschung</hi> 24: 253-264
+                        <hi rend="bold">Gölz, Walter</hi> (1970): „Philosophisches Problembewußtsein und kybernetische Theorie“,in: 
+                        <hi rend="italic">Zeitschrift für philosophische Forschung</hi> 24: 253-264
                     </bibl>
                     <bibl>
-                        <hi>Kline, Ronald R</hi> (2015): 
-                        <hi>The Cybernetics Moment. Or Why we Call Our Age the Information Age</hi>. Baltimore: Johns Hopkins University Press
+                        <hi rend="bold">Kline, Ronald R</hi> (2015): 
+                        <hi rend="italic">The Cybernetics Moment. Or Why we Call Our Age the Information Age</hi>. Baltimore: Johns Hopkins University Press
                     </bibl>
                     <bibl>
-                        <hi>Moser, Simon</hi> (1967): „Zur philosophischen Diskussion der Kybernetik in der Gegenwart“,in: 
-                        <hi>Zeitschrift für philosophische Forschung</hi> 21: 64-77
+                        <hi rend="bold">Moser, Simon</hi> (1967): „Zur philosophischen Diskussion der Kybernetik in der Gegenwart“,in: 
+                        <hi rend="italic">Zeitschrift für philosophische Forschung</hi> 21: 64-77
                     </bibl>
                     <bibl>
-                        <hi>Schischkoff, Georgi</hi> (1965): „Philosophie und Kybernetik. Zur Kritik am kybernetischen Positivismus“,in: 
-                        <hi>Zeitschrift für philosophische Forschung</hi> 19: 248-278
+                        <hi rend="bold">Schischkoff, Georgi</hi> (1965): „Philosophie und Kybernetik. Zur Kritik am kybernetischen Positivismus“,in: 
+                        <hi rend="italic">Zeitschrift für philosophische Forschung</hi> 19: 248-278
                     </bibl>
                     <bibl>
-                        <hi>Steinbuch, Karl</hi> (1963): 
-                        <hi>Automat und Mensch: Kybernetische Tatsachen und Hypothesen</hi>. Berlin / Göttingen / Heidelberg: Springer Verlag OHG 
+                        <hi rend="bold">Steinbuch, Karl</hi> (1963): 
+                        <hi rend="italic">Automat und Mensch: Kybernetische Tatsachen und Hypothesen</hi>. Berlin / Göttingen / Heidelberg: Springer Verlag OHG 
                     </bibl>
                 </listBibl>
             </div>

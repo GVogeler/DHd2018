@@ -41,25 +41,25 @@
         </fileDesc>
         <encodingDesc>
             <appInfo>
-                <application>
+                <application ident="DHCONVALIDATOR" version="1.17">
                     <label>DHConvalidator</label>
                 </application>
             </appInfo>
         </encodingDesc>
         <profileDesc>
             <textClass>
-                <keywords>
+                <keywords scheme="ConfTool" n="category">
                     <term>Paper</term>
                 </keywords>
-                <keywords>
+                <keywords scheme="ConfTool" n="subcategory">
                     <term>Workshop</term>
                 </keywords>
-                <keywords>
+                <keywords scheme="ConfTool" n="keywords">
                     <term>distributional semantics</term>
                     <term>word2vec</term>
                     <term>topic modeling</term>
                 </keywords>
-                <keywords>
+                <keywords scheme="ConfTool" n="topics">
                     <term>Inhaltsanalyse</term>
                     <term>Strukturanalyse</term>
                     <term>Modellierung</term>
@@ -72,20 +72,20 @@
             <p>The Use of Distributional Models in the Digital Humanities</p>
             <p>In recent years, the Digital Humanities have witnessed the steadily growing popularity of models from distributional semantics which can be used to model the meaning of documents and words in large digital text collections. Well-known examples of influential distributional models include Latent Dirichlet Allocation for topic modelling (Blei et al.) or Word2vec for estimating word vectors (Mikolov et al. 2013). Such distributional models have recently gained much prominence in the fields of Natural Language Processing and, more recently, Deep Representation Learning (Manning 2016). Humanities data is typically sparse and distributional models help scholars obtain smoother estimations of them. Whereas, for instance, words are conventionally encoded as binary ‘one-hot vectors’ in digital text analysis, embedding techniques from distributional semantics allow scholars to obtain dense, yet rich representations of vocabularies. These embedded representations are known to capture all sorts of valuable relationships between data points, although embedding techniques are typically trained using unsupervised objectives and require relatively little parameter tuning from scholars. Inspiring applications of this emergent technology in DH have ranged from more technical work in cultural studies at large (Bamman et al. 2014), case studies in literary history (Mimno 2012; Schoech 2017) or valuable DH-oriented web apps, such as ShiCo (Martinez-Ortiz et al. 2016). The availability of high-quality implementations in the public domain, in software suites as gensim, word2vec, or mallet etc. has greatly added these methods’ popularity.</p>
             <p>
-                <hi>In spite of their huge potential for Digital Humanities, multiple aspects of their application still remain untapped. Unsupervised models such as Word2vec, for instance, are notoriously hard to evaluate directly – often researchers have to resort to indirect evaluations in this respect. This renders it intriguing to which extent the output of distributional models should play a decisive role in hermeneutical debates or controversies in the Humanities. With other techniques for Distant Reading, distributional models moreover share the drawback that they typically only yield a </hi>
-                <hi>single reading </hi>
-                <hi>for a particular corpus so that for example the polysemy of a word isn’t rendered adequately. Interesting progress into representing the complex variability of meaning has been achieved, for example on the level of diachronic word embeddings, where convincing attempts have been made to allow for semantic shifts in an individual word’s meaning (Hamilton et al. 2016). Likewise, critical studies have revealed how tightly distributional models reproduce cultural biases with respect to gender and race (Bolukbasi et al. 2016), which calls for a debate about the ethical aspects of the matter. Likewise, it deserves emphasis how distributional models depend on large datasets and typically yield poor estimates for more restrictive data collections. This might help explain why word embeddings so far have not that many applications in fields like stylometry, that mostly work with relatively small corpora.</hi>
+                <hi rend="color(#222222) background-color(#ffffff)">In spite of their huge potential for Digital Humanities, multiple aspects of their application still remain untapped. Unsupervised models such as Word2vec, for instance, are notoriously hard to evaluate directly – often researchers have to resort to indirect evaluations in this respect. This renders it intriguing to which extent the output of distributional models should play a decisive role in hermeneutical debates or controversies in the Humanities. With other techniques for Distant Reading, distributional models moreover share the drawback that they typically only yield a </hi>
+                <hi rend="color(#222222) background-color(#ffffff)italic">single reading </hi>
+                <hi rend="color(#222222) background-color(#ffffff)">for a particular corpus so that for example the polysemy of a word isn’t rendered adequately. Interesting progress into representing the complex variability of meaning has been achieved, for example on the level of diachronic word embeddings, where convincing attempts have been made to allow for semantic shifts in an individual word’s meaning (Hamilton et al. 2016). Likewise, critical studies have revealed how tightly distributional models reproduce cultural biases with respect to gender and race (Bolukbasi et al. 2016), which calls for a debate about the ethical aspects of the matter. Likewise, it deserves emphasis how distributional models depend on large datasets and typically yield poor estimates for more restrictive data collections. This might help explain why word embeddings so far have not that many applications in fields like stylometry, that mostly work with relatively small corpora.</hi>
             </p>
             <p>
-                <hi>The DARIAH working group on Text and Data Analytics (@dariahtdawg), in collaboration with the FWO-sponsored scientific community Digital Humanities Flanders (DHuF) proposes to collocate a one-day workshop with the 2018 DHd conference in Cologne. The workshop aims to bring together ca. </hi>
-                <hi>10-12</hi>
-                <hi> practitioners from the Digital Humanities to present and discuss recent advances in the field, through 30-minute presentations on focused case studies, including work-in-progress or theoretical contributions. Additionally, the workshop aims to reach an audience of non-presenting participants who take an active interest in distributional models and who are planning to apply distributional models to their own data in the near future. </hi>
-                <hi>We aim to bring together a diverse group of both junior and senior stakeholders in this nascent subfield of DH. </hi>
-                <hi>The goal of the workshop is to identify the state of the art in the field, identify common challenges and share recommendations for a best practice. Special attention will be given to the (both hermeneutic and quantitative) evaluation of distributional models in the context of Humanities research, which remains a challenging issue. The workshop is open to scholars from all backgrounds with an interest in semantic representation learning and encourages submissions that deal with under-researched resource-scarce and/or historic languages. </hi>
-                <hi>Abstracts (between 250 and 300 words, not including references) can be submitted to mike.kestemont@uantwerp.be. The workshop also explicitly welcomes submissions presenting previously published research which is of interest to the DH community (although this work should not overlap strongly with work presented at the main conference).</hi>
+                <hi rend="color(#222222) background-color(#ffffff)">The DARIAH working group on Text and Data Analytics (@dariahtdawg), in collaboration with the FWO-sponsored scientific community Digital Humanities Flanders (DHuF) proposes to collocate a one-day workshop with the 2018 DHd conference in Cologne. The workshop aims to bring together ca. </hi>
+                <hi rend="color(#222222) background-color(#ffffff)">10-12</hi>
+                <hi rend="color(#222222) background-color(#ffffff)"> practitioners from the Digital Humanities to present and discuss recent advances in the field, through 30-minute presentations on focused case studies, including work-in-progress or theoretical contributions. Additionally, the workshop aims to reach an audience of non-presenting participants who take an active interest in distributional models and who are planning to apply distributional models to their own data in the near future. </hi>
+                <hi rend="color(#222222)">We aim to bring together a diverse group of both junior and senior stakeholders in this nascent subfield of DH. </hi>
+                <hi rend="color(#222222) background-color(#ffffff)">The goal of the workshop is to identify the state of the art in the field, identify common challenges and share recommendations for a best practice. Special attention will be given to the (both hermeneutic and quantitative) evaluation of distributional models in the context of Humanities research, which remains a challenging issue. The workshop is open to scholars from all backgrounds with an interest in semantic representation learning and encourages submissions that deal with under-researched resource-scarce and/or historic languages. </hi>
+                <hi rend="color(#222222)">Abstracts (between 250 and 300 words, not including references) can be submitted to mike.kestemont@uantwerp.be. The workshop also explicitly welcomes submissions presenting previously published research which is of interest to the DH community (although this work should not overlap strongly with work presented at the main conference).</hi>
             </p>
             <p>Topics which seem of special interest to the DH community nowadays include, but are not limited to:</p>
-            <list>
+            <list type="unordered">
                 <item>the general use of distributional semantics in DH (such as topic modelling and word embeddings), but also more specific case studies, including work in progress;</item>
                 <item>the diachronic study of cultural phenomena via distributed methods;</item>
                 <item>the evaluation of distributional models, both from an empiric and hermeneutic perspective;</item>
@@ -97,111 +97,111 @@
             <p>Convenors</p>
             <p>Fotis Jannidis (University of Würzburg, Germany)</p>
             <p>
-                <hi>Fotis.jannidis@uni-wuerzburg.de, </hi>
-                <ref>
-                    <hi>www.jannidis.de</hi>
+                <hi rend="background-color(#ffffff)">Fotis.jannidis@uni-wuerzburg.de, </hi>
+                <ref target="http://www.jannidis.de/">
+                    <hi rend="color(#00000a) background-color(#ffffff)">www.jannidis.de</hi>
                 </ref>
             </p>
             <p>Fotis holds the chair for literary computing in the department of German studies at the University of Würzburg. In the last years, the main focus of his work is the computational analysis of larger collections of literature, especially narrative texts. He is interested in developing new research methods for this new subfield of literary studies, but also in new applications for established methods and also in a better understanding, why successful algorithms in this field work.</p>
             <p>Mike Kestemont (University of Antwerp, Belgium)</p>
             <p>
-                <hi>mike.kestemont@uantwerp.be, </hi>
-                <ref>
-                    <hi>www.mike-kestemont.org</hi>
+                <hi rend="background-color(#ffffff)">mike.kestemont@uantwerp.be, </hi>
+                <ref target="http://www.mike-kestemont.org/">
+                    <hi rend="color(#00000a) background-color(#ffffff)">www.mike-kestemont.org</hi>
                 </ref>
             </p>
             <p>
-                <hi>Mike is a tenure track research professor in the department of Literature the University of Antwerp. He specializes in computational text analysis for the Humanities, in particular stylometry or computational stylistics. He has published</hi>
-                <hi> on the topic of authorship attribution in various fields, such as Classics or medieval European literature. Mike actively engages in the debate surrounding the Digital Humanities and attempts to merge methods from Artificial Intelligence with traditional scholarship in the Humanities. He recently took up an interest in so-called ‘deep’ representation learning using neural networks.</hi>
+                <hi rend="background-color(#ffffff)">Mike is a tenure track research professor in the department of Literature the University of Antwerp. He specializes in computational text analysis for the Humanities, in particular stylometry or computational stylistics. He has published</hi>
+                <hi rend="color(#222222) background-color(#ffffff)"> on the topic of authorship attribution in various fields, such as Classics or medieval European literature. Mike actively engages in the debate surrounding the Digital Humanities and attempts to merge methods from Artificial Intelligence with traditional scholarship in the Humanities. He recently took up an interest in so-called ‘deep’ representation learning using neural networks.</hi>
             </p>
         </body>
         <back>
-            <div>
+            <div type="bibliogr">
                 <listBibl>
                     <head>Bibliographie</head>
                     <bibl>
-                        <hi>Bamman, D./ Underwood, T./ Smith, N. A. </hi>
-                        <hi>(2014): „A Bayesian Mixed Effects Model of Literary Character“, </hi>
-                        <hi>in</hi>
-                        <hi> </hi>
-                        <hi>Proceedings of ACL</hi>
-                        <hi>.</hi>
+                        <hi rend="color(#222222)bold">Bamman, D./ Underwood, T./ Smith, N. A. </hi>
+                        <hi rend="color(#222222)">(2014): „A Bayesian Mixed Effects Model of Literary Character“, </hi>
+                        <hi rend="color(#222222)">in</hi>
+                        <hi rend="color(#222222)"> </hi>
+                        <hi rend="color(#222222)italic">Proceedings of ACL</hi>
+                        <hi rend="color(#222222)">.</hi>
                     </bibl>
                     <bibl>
-                        <hi>Blei, </hi>
-                        <hi>David</hi>
-                        <hi> </hi>
-                        <hi>(2012): „Probabilistic Topic Models“, </hi>
-                        <hi>in</hi>
-                        <hi> </hi>
-                        <hi>Communications of the ACM</hi>
-                        <hi> 55, 77-84.</hi>
+                        <hi rend="color(#222222)bold">Blei, </hi>
+                        <hi rend="color(#222222)bold">David</hi>
+                        <hi rend="color(#222222)bold"> </hi>
+                        <hi rend="color(#222222)">(2012): „Probabilistic Topic Models“, </hi>
+                        <hi rend="color(#222222)">in</hi>
+                        <hi rend="color(#222222)"> </hi>
+                        <hi rend="color(#222222)italic">Communications of the ACM</hi>
+                        <hi rend="color(#222222)"> 55, 77-84.</hi>
                     </bibl>
                     <bibl>
-                        <hi>Bolukbasi, T./ Chang, K. W./ Zou, J./ Saligrama, V./ Kalai, A.</hi>
-                        <hi> (2016): „Quantifying and Reducing Stereotypes in Word Embeddings“, </hi>
-                        <hi>in</hi>
-                        <hi> </hi>
-                        <hi>arXiv:1606.06121</hi>
-                        <hi>.</hi>
+                        <hi rend="color(#222222)bold">Bolukbasi, T./ Chang, K. W./ Zou, J./ Saligrama, V./ Kalai, A.</hi>
+                        <hi rend="color(#222222)"> (2016): „Quantifying and Reducing Stereotypes in Word Embeddings“, </hi>
+                        <hi rend="color(#222222)">in</hi>
+                        <hi rend="color(#222222)"> </hi>
+                        <hi rend="color(#222222)italic">arXiv:1606.06121</hi>
+                        <hi rend="color(#222222)">.</hi>
                     </bibl>
                     <bibl>
-                        <hi>Chang, J./ Gerrish, S./ </hi>
-                        <hi>Sang</hi>
-                        <hi>, C./ Boyd-Graber, J. L./ Blei, D. M. </hi>
-                        <hi>(2009): „Reading Tea Leaves: How Humans Interpret Topic Models“, </hi>
-                        <hi>in</hi>
-                        <hi> Proceedings of NIPS, 288-296.</hi>
+                        <hi rend="color(#222222)bold">Chang, J./ Gerrish, S./ </hi>
+                        <hi rend="color(#222222)bold">Sang</hi>
+                        <hi rend="color(#222222)bold">, C./ Boyd-Graber, J. L./ Blei, D. M. </hi>
+                        <hi rend="color(#222222)">(2009): „Reading Tea Leaves: How Humans Interpret Topic Models“, </hi>
+                        <hi rend="color(#222222)">in</hi>
+                        <hi rend="color(#222222)"> Proceedings of NIPS, 288-296.</hi>
                     </bibl>
                     <bibl>
-                        <hi>Hamilton, W. L./ Leskovec, J./ Jurafsky, D.</hi>
-                        <hi> (2016): „Diachronic Word Embeddings Reveal Statistical Laws of Semantic Change“, </hi>
-                        <hi>in</hi>
-                        <hi> </hi>
-                        <hi>Proceedings of ACL</hi>
-                        <hi>.</hi>
+                        <hi rend="color(#222222)bold">Hamilton, W. L./ Leskovec, J./ Jurafsky, D.</hi>
+                        <hi rend="color(#222222)"> (2016): „Diachronic Word Embeddings Reveal Statistical Laws of Semantic Change“, </hi>
+                        <hi rend="color(#222222)">in</hi>
+                        <hi rend="color(#222222)"> </hi>
+                        <hi rend="color(#222222)italic">Proceedings of ACL</hi>
+                        <hi rend="color(#222222)">.</hi>
                     </bibl>
                     <bibl>
-                        <hi>Manning, </hi>
-                        <hi>Christopher D.</hi>
-                        <hi> (2016): „Computational Linguistics and Deep Learning“, </hi>
-                        <hi>in</hi>
-                        <hi> </hi>
-                        <hi>Computational Linguistics </hi>
-                        <hi>41, 701-707.</hi>
+                        <hi rend="color(#222222)bold">Manning, </hi>
+                        <hi rend="color(#222222)bold">Christopher D.</hi>
+                        <hi rend="color(#222222)"> (2016): „Computational Linguistics and Deep Learning“, </hi>
+                        <hi rend="color(#222222)">in</hi>
+                        <hi rend="color(#222222)"> </hi>
+                        <hi rend="color(#222222)italic">Computational Linguistics </hi>
+                        <hi rend="color(#222222)">41, 701-707.</hi>
                     </bibl>
                     <bibl>
-                        <hi>Martinez-Ortiz, C./ Huijnen, P./ Kenter, T./ Verheul, J./ Wevers, M./ van Eijnatten, J.</hi>
-                        <hi> (2016): „ShiCo: A Visualization Tool for Shifting Concepts Through Time“, </hi>
-                        <hi>in</hi>
-                        <hi> </hi>
-                        <hi>Digital Humanities Benelux: Book af Abstracts</hi>
-                        <hi>, s.p.</hi>
+                        <hi rend="color(#222222)bold">Martinez-Ortiz, C./ Huijnen, P./ Kenter, T./ Verheul, J./ Wevers, M./ van Eijnatten, J.</hi>
+                        <hi rend="color(#222222)"> (2016): „ShiCo: A Visualization Tool for Shifting Concepts Through Time“, </hi>
+                        <hi rend="color(#222222)">in</hi>
+                        <hi rend="color(#222222)"> </hi>
+                        <hi rend="color(#222222)italic">Digital Humanities Benelux: Book af Abstracts</hi>
+                        <hi rend="color(#222222)">, s.p.</hi>
                     </bibl>
                     <bibl>
-                        <hi>Mikolov, T./ Sutskever, I./ Chen, K./ Corrado, G. S./ Dean, J.</hi>
-                        <hi> (2013): „Distributed representations of words and phrases and their compositionality“, </hi>
-                        <hi>in</hi>
-                        <hi> </hi>
-                        <hi>Proceedings of NIPS 2013</hi>
-                        <hi>.</hi>
+                        <hi rend="color(#222222)bold">Mikolov, T./ Sutskever, I./ Chen, K./ Corrado, G. S./ Dean, J.</hi>
+                        <hi rend="color(#222222)"> (2013): „Distributed representations of words and phrases and their compositionality“, </hi>
+                        <hi rend="color(#222222)">in</hi>
+                        <hi rend="color(#222222)"> </hi>
+                        <hi rend="color(#222222)italic">Proceedings of NIPS 2013</hi>
+                        <hi rend="color(#222222)">.</hi>
                     </bibl>
                     <bibl>
-                        <hi>Mimno, </hi>
-                        <hi>David</hi>
-                        <hi> (2012): „Computational Historiography: Data Mining in a Century of Classics Journals“, </hi>
-                        <hi>in</hi>
-                        <hi> </hi>
-                        <hi>ACM Journal of Computing in Cultural Heritage</hi>
-                        <hi> 5.</hi>
+                        <hi rend="color(#222222)bold">Mimno, </hi>
+                        <hi rend="color(#222222)bold">David</hi>
+                        <hi rend="color(#222222)"> (2012): „Computational Historiography: Data Mining in a Century of Classics Journals“, </hi>
+                        <hi rend="color(#222222)">in</hi>
+                        <hi rend="color(#222222)"> </hi>
+                        <hi rend="color(#222222)italic">ACM Journal of Computing in Cultural Heritage</hi>
+                        <hi rend="color(#222222)"> 5.</hi>
                     </bibl>
                     <bibl>
-                        <hi>Schoech, </hi>
-                        <hi>Christof</hi>
-                        <hi> </hi>
-                        <hi>(2017): „Topic Modeling Genre: An Exploration of French Classical and Enlightenment Drama“, </hi>
-                        <hi>Digital Humanities Quarterly</hi>
-                        <hi> 11, s.p.</hi>
+                        <hi rend="color(#222222)bold">Schoech, </hi>
+                        <hi rend="color(#222222)bold">Christof</hi>
+                        <hi rend="color(#222222)bold"> </hi>
+                        <hi rend="color(#222222)">(2017): „Topic Modeling Genre: An Exploration of French Classical and Enlightenment Drama“, </hi>
+                        <hi rend="color(#222222)italic">Digital Humanities Quarterly</hi>
+                        <hi rend="color(#222222)"> 11, s.p.</hi>
                     </bibl>
                 </listBibl>
             </div>
