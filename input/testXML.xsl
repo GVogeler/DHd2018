@@ -90,7 +90,7 @@ move "</xsl:text>
                 <body>
                     <xsl:for-each select="$files">
                         <xsl:variable name="filename" select="tokenize(document-uri(.),'/')[last()]"/>
-                        <div><h1><xsl:value-of select="$filename"/></h1>
+                        <div><h1><a href="xml/{$filename}"><xsl:value-of select="$filename"/></a></h1>
                         <ul>
                             <xsl:apply-templates select=".//bibl" mode="bibl.html"/>
                         </ul>
@@ -136,10 +136,10 @@ move "</xsl:text>
                     <xsl:variable name="filename" select="tokenize(document-uri(.),'/')[last()]"/>
                     <xsl:variable name="current-folder" select="replace(replace(substring-after(substring-before(document-uri(.), $filename),'file:/'), '/', '\\'), '%20', ' ')"/>
                     <!-- Kopiere XML-Dateien in das XML-Verzeichnis -->
-                    <xsl:result-document href="xml/{$filename}">
+<!--                    <xsl:result-document href="xml/{$filename}">
                         <xsl:copy-of select="."/>
                     </xsl:result-document>
-                    <div id="document-uri(.)" class="contrib">
+-->                    <div id="document-uri(.)" class="contrib">
                         <p>Datei: <a href="{document-uri(.)}"><xsl:value-of select="tokenize(document-uri(.),'/')[last()]"/></a></p>
                         <p>Typ: <xsl:value-of select=".//keywords[@scheme='ConfTool'][@n='subcategory']/term"/></p>
                         <p>Titel: <xsl:value-of select="/TEI/teiHeader[1]/fileDesc[1]/titleStmt[1]/title"/></p>
