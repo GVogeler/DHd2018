@@ -90,7 +90,7 @@
                         width="11.263819444444444cm"
                         height="8.403166666666667cm"
                         rend="inline"
-                        url="../images/HAAF_Susanne__Perspektiven_auf_ein_Korpus__Kombinationen_qua.xml-image1.png"/>
+                        url="HAAF_Susanne__Perspektiven_auf_ein_Korpus__Kombinationen_qua.xml-image1.png"/>
                 </figure>
                 <p>Abb. 1: Relative Häufigkeiten je 1 Mio. Token und deren Verteilung in den drei untersuchten Korpora für das Merkmal „Marginalie“</p>
                 <figure>
@@ -98,7 +98,7 @@
                         width="11.77925cm"
                         height="8.787694444444444cm"
                         rend="inline"
-                        url="../images/HAAF_Susanne__Perspektiven_auf_ein_Korpus__Kombinationen_qua.xml-image2.png"/>
+                        url="HAAF_Susanne__Perspektiven_auf_ein_Korpus__Kombinationen_qua.xml-image2.png"/>
                 </figure>
                 <p>Abb. 2: Relative Häufigkeiten je 1 Mio. Token und deren Verteilung in den drei untersuchten Korpora für das Merkmal „Horizontale Trennlinie“</p>
                 <p>Weiterhin konnten im gegebenen Kontext (4) auch Merkmale mit geringeren Häufigkeiten relevant sein, und schließlich ist nicht zuletzt (5) auch der Ort, an dem ein Merkmal im Dokument auftritt, zu berücksichtigen. Beide Aspekte (4 und 5) zeigen sich z.B. am Merkmal der Liste, die in den erbaulichen Prosawerken erwartungsgemäß selten, aber relativ regelmäßig auftritt, und zwar in Form von Registern am Buchbeginn oder Buchende (in tei:front oder tei:back).</p>

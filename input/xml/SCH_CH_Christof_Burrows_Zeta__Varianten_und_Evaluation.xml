@@ -113,13 +113,13 @@
                 <p>Ein Effekt dieser Berechnungsweise ist, dass Zeta Inhaltswörter als distinktive Wörter favorisiert, Funktionswörter sowie Eigennamen hingegen penalisiert. Daraus ergibt sich eine hohe Interpretierbarkeit der Ergebnisse, die Zeta im Vergleich zu anderen Maßen für die (digitalen) Literaturwissenschaften besonders attraktiv macht. Ein Nachteil ist, dass Merkmale durch die Subtraktion niemals einen Zeta-Wert bekommen können, der höher ist als ihre “document proportion” in der untersuchten Textgruppe, selbst wenn sie gegenüber der Vergleichsgruppe deutlich überrepräsentiert sind (Abbildung 1, Wörter in den roten Rahmen; Schöch im Druck).</p>
                 <p>
                     <figure>
-                        <graphic url="../images/SCH_CH_Christof_Burrows_Zeta__Varianten_und_Evaluation.xml-1000020100000522000003CDE24B21AB28677D48.png"/>
+                        <graphic url="SCH_CH_Christof_Burrows_Zeta__Varianten_und_Evaluation.xml-1000020100000522000003CDE24B21AB28677D48.png"/>
                         <head>Abbildung 1: Scatterplot der Wörter in zwei Textgruppen (französische Komödien und Tragödien): “document proportions” der Wörter in zwei Textgruppen (x- und y-Achse) und resultierende Zeta-Werte (Distanz von der Diagonale).</head>
                     </figure>Eine bekannte Implementierung von Zeta existiert im stylo-Paket für Rin der Funktion "oppose()" (Eder et al. 2016). Abbildung 2 zeigt für ein Beispiel die Ergebnisdarstellung in der hier verwendeten “pyzeta”-Implementierung.
                 </p>
                 <p>
                     <figure>
-                        <graphic url="../images/SCH_CH_Christof_Burrows_Zeta__Varianten_und_Evaluation.xml-100002010000060C00000492F0CFA849DB906AEF.png"/>
+                        <graphic url="SCH_CH_Christof_Burrows_Zeta__Varianten_und_Evaluation.xml-100002010000060C00000492F0CFA849DB906AEF.png"/>
                         <head>Abbildung 2: Positive und negative Keywords für französische Komödien (rechts) im Vergleich mit Tragödien (links). Zeta-Werte auf der horizontalen Achse.</head>
                     </figure>
                 </p>
@@ -128,7 +128,7 @@
             <div type="div1" rend="DH-Heading1">
                 <head>
                     <figure>
-                        <graphic url="../images/SCH_CH_Christof_Burrows_Zeta__Varianten_und_Evaluation.xml-100002010000063C000004940268170BBB0FF291.png"/>
+                        <graphic url="SCH_CH_Christof_Burrows_Zeta__Varianten_und_Evaluation.xml-100002010000063C000004940268170BBB0FF291.png"/>
                         <head>Abbildung 3: Hauptkomponentenanalyse auf Grundlage der 50 Wörter, die für Komödien und Tragödien die höchsten Zeta-Werte erhalten. Komödien in rot, Tragödien in blau, Tragikomödien in grün. Quelle: Schöch im Druck.</head>
                     </figure>Varianten von Zeta
                 </head>
@@ -184,7 +184,7 @@
                     <p>Um den Grad der Abweichung der Ergebnisse für alle Varianten zueinander auf der Grundlage längerer Wortlisten zu erheben, ist ein quantifizierendes Verfahren unerlässlich. Ein Ansatz ist, ein Clustering der Maße auf Basis der Zeta-Werte ihrer Wörter vorzunehmen (Abbildung 4). </p>
                     <p>
                         <figure>
-                            <graphic url="../images/SCH_CH_Christof_Burrows_Zeta__Varianten_und_Evaluation.xml-10000201000004DA000003E7A211FD835E2ECF8D.png"/>
+                            <graphic url="SCH_CH_Christof_Burrows_Zeta__Varianten_und_Evaluation.xml-10000201000004DA000003E7A211FD835E2ECF8D.png"/>
                             <head>Abbildung 4: Dendrogramm auf Grundlage einer Cluster Analyse der Zeta-Werte für die 8 Zeta-Varianten (Théâtre-classique-Datensatz; 500 distinktive Wörter; Ward-Verfahren).</head>
                         </figure>Abbildung 4 zeigt, dass der wichtigste Faktor für die Unterschiedlichkeit der Varianten ist, ob subtrahiert oder dividiert wird (zwei Haupt-Cluster). Die beiden anderen Variablen spielen eine viel kleinere Rolle. (Die Ergebnisse weiterer Analysen, u.a. auf Basis der RBO-Ähnlichkeit (“ranked biased order”, Webber et al. 2010), werden aus Platzgründen hier nicht diskutiert.)
                     </p>

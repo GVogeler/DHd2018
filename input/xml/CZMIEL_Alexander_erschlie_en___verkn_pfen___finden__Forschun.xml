@@ -106,7 +106,7 @@
                      width="16.002cm"
                      height="9.726083333333333cm"
                      rend="inline"
-                     url="../images/CZMIEL_Alexander_erschlie_en___verkn_pfen___finden__Forschun.xml-image1.png"/>
+                     url="CZMIEL_Alexander_erschlie_en___verkn_pfen___finden__Forschun.xml-image1.png"/>
             </figure>
             <p>Die Beschreibung der Metadaten erfolgt mittels eines flexiblen OAI-ORE-basierten Metadatenschemas, das die Abbildung aller, teilweise komplexen, Forschungsvorhaben der BBAW ermöglicht. Ähnlich den technisch niedrigschwelligen Anforderungen an die Volltext-Indexierung besteht auch für den Bereich der Metadaten die Möglichkeit, mit wenigen Pflichtfeldern weitere Sammlungen und Forschungsprojekte in den Wissensspeicher aufzunehmen. Die Metadaten zu allen Projekten werden über eine SPARQL-Schnittstelle für die weitere maschinelle Nachnutzung, z.B. die Integration in die Linked-Open-Data-Cloud bereitgestellt. </p>
             <figure>
@@ -114,7 +114,7 @@
                      width="16.002cm"
                      height="12.266083333333333cm"
                      rend="inline"
-                     url="../images/CZMIEL_Alexander_erschlie_en___verkn_pfen___finden__Forschun.xml-image2.png"/>
+                     url="CZMIEL_Alexander_erschlie_en___verkn_pfen___finden__Forschun.xml-image2.png"/>
             </figure>
             <p>Der Digitale Wissensspeicher ist unter der Adresse http://wissensspeicher.bbaw.de für den öffentlichen Zugriff erreichbar. Damit bietet der Wissensspeicher eine exemplarische Lösung für einen Katalog heterogener, digitaler geisteswissenschaftlicher Ressourcen, die zentral aggregiert und über eine Volltextsuche verfügbar gemacht werden. Dass es sich dabei nicht nur um digitale Ressourcen der BBAW handeln muss, liegt auf der Hand. Damit auch Sammlungen anderer Projekte und Institutionen von der Entwicklung des Wissensspeichers profitieren können, wurden Guidelines mit strukturellen und inhaltlichen Mindestanforderungen, die Ressourcen und Metadaten für die Aufnahme erfüllen müssen bzw. Schnittstellenbeschreibungen für vom Wissensspeicher unterstützte Formate bereitgestellt. Damit werden niedrigschwellige Zielvorgaben für die (technische) Qualität der in den Wissensspeicher aufzunehmenden Ressourcen mit ihren Metadaten formuliert. Zu den unterstützten Formaten gehören u.a. HTML-Websites, XML-basierte Ressourcen, PDF-Dokumente und institutionelle Repositorien sowie jede Form von Daten, die in der vom Wissensspeicher definierten Form eines XML-Exports ausgeliefert werden können (z.B. relationale Datenbanken oder NoSQL-Datenbanken). </p>
             <p>Das große Spektrum unterschiedlicher Erscheinungsformen digitaler Ressourcen in den Geisteswissenschaften kann somit vom Wissensspeicher verarbeitet und integriert werden. Durch die projektübergreifende Volltextsuche in allen verzeichneten Sammlungen sowie die miteinander vernetzten Metadaten verbessert der Digitale Wissensspeicher die Auffindbarkeit, Sichtbarkeit und damit die Nutzbarkeit von Digital-Humanities-Projekten und digitalen Forschungsergebnissen.</p>

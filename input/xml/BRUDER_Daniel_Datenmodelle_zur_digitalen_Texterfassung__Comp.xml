@@ -110,27 +110,27 @@
                     <p>Non-linear text results from editorial operations such as insertions, deletions, substitutions. For instance, recording the genealogical writing process of two undecided variants within the same sentence, yields four different, non-linear potential readings.</p>
                     <p>
                         <figure>
-                            <graphic url="../images/BRUDER_Daniel_Datenmodelle_zur_digitalen_Texterfassung__Comp.xml-10000201000004BC0000013C2C948493.png"/>
+                            <graphic url="BRUDER_Daniel_Datenmodelle_zur_digitalen_Texterfassung__Comp.xml-10000201000004BC0000013C2C948493.png"/>
                         </figure>These four different readings derived from mechanical re-combination potentially are not intended and to be reduced to specific readings only.
                     </p>
                     <p>
                         <figure>
-                            <graphic url="../images/BRUDER_Daniel_Datenmodelle_zur_digitalen_Texterfassung__Comp.xml-100002010000048C000000D02F5C458C.png"/>
+                            <graphic url="BRUDER_Daniel_Datenmodelle_zur_digitalen_Texterfassung__Comp.xml-100002010000048C000000D02F5C458C.png"/>
                         </figure>Constraining these combinatorial permutations cannot be done in general ways within the mono-hierarchical tree data model. The tree model exposes a general limitation – even without the prevalence of overlapping structures.
                     </p>
                     <p>
                         <figure>
-                            <graphic url="../images/BRUDER_Daniel_Datenmodelle_zur_digitalen_Texterfassung__Comp.xml-100002010000045E000001E8B4A5A17E.png"/>
+                            <graphic url="BRUDER_Daniel_Datenmodelle_zur_digitalen_Texterfassung__Comp.xml-100002010000045E000001E8B4A5A17E.png"/>
                         </figure>While interconnecting nodes across the tree’s boundaries by (ab-)using attributes is syntactically possible it nevertheless makes the data idiosyncratic on semantic level, i.e. project-specific rules are introduced and must individually be followed when working with the data.
                     </p>
                     <p>
                         <figure>
-                            <graphic url="../images/BRUDER_Daniel_Datenmodelle_zur_digitalen_Texterfassung__Comp.xml-10000201000004BA000002160FBA5023.png"/>
+                            <graphic url="BRUDER_Daniel_Datenmodelle_zur_digitalen_Texterfassung__Comp.xml-10000201000004BA000002160FBA5023.png"/>
                         </figure>These interconnections to constrain the combinatorics to specific readings cannot formally be made part of the tree structure itself. To build a tree, any node in the tree must have exactly one parent. A different data model and data structure is necessary to model more than one parent for one node, namely the data model of the graph.
                     </p>
                     <p>
                         <figure>
-                            <graphic url="../images/BRUDER_Daniel_Datenmodelle_zur_digitalen_Texterfassung__Comp.xml-100002010000047E00000106D01A4E37.png"/>
+                            <graphic url="BRUDER_Daniel_Datenmodelle_zur_digitalen_Texterfassung__Comp.xml-100002010000047E00000106D01A4E37.png"/>
                         </figure>
                     </p>
                 </div>
@@ -139,22 +139,22 @@
                     <p>Complex XML can also result from linear text, open for annotation. The following schematic example shows a linear text with overlapping annotation:</p>
                     <p>
                         <figure>
-                            <graphic url="../images/BRUDER_Daniel_Datenmodelle_zur_digitalen_Texterfassung__Comp.xml-10000201000004B4000001104AB5DE41.png"/>
+                            <graphic url="BRUDER_Daniel_Datenmodelle_zur_digitalen_Texterfassung__Comp.xml-10000201000004B4000001104AB5DE41.png"/>
                         </figure>Corresponding serialisation using XML and the segmentation method (TEI Consortium 2016d):
                     </p>
                     <p>
                         <figure>
-                            <graphic url="../images/BRUDER_Daniel_Datenmodelle_zur_digitalen_Texterfassung__Comp.xml-10000201000004A800000186D676681C.png"/>
+                            <graphic url="BRUDER_Daniel_Datenmodelle_zur_digitalen_Texterfassung__Comp.xml-10000201000004A800000186D676681C.png"/>
                         </figure>The necessary interconnection and recombination of fragmented nodes cannot be modelled within the tree structure in general ways:
                     </p>
                     <p>
                         <figure>
-                            <graphic url="../images/BRUDER_Daniel_Datenmodelle_zur_digitalen_Texterfassung__Comp.xml-10000201000004960000018CF71AE149.png"/>
+                            <graphic url="BRUDER_Daniel_Datenmodelle_zur_digitalen_Texterfassung__Comp.xml-10000201000004960000018CF71AE149.png"/>
                         </figure>Another representation shows how one node in the tree is made the child of two parents:
                     </p>
                     <p>
                         <figure>
-                            <graphic url="../images/BRUDER_Daniel_Datenmodelle_zur_digitalen_Texterfassung__Comp.xml-100002010000040A0000012A52D7B195.png"/>
+                            <graphic url="BRUDER_Daniel_Datenmodelle_zur_digitalen_Texterfassung__Comp.xml-100002010000040A0000012A52D7B195.png"/>
                         </figure>
                     </p>
                 </div>

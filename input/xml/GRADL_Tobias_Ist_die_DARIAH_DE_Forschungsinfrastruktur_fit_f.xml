@@ -101,7 +101,7 @@
                 <p>Die Verarbeitung der Daten wird unterstützt durch das DME und insbesondere dessen Fähigkeit, auf externe Ressourcen zuzugreifen. Zwei Schnittstellen zu Diensten des DAI wurden implementiert, damit zeit- und ortsbezogene Textangaben wie „Grobdatierung: hellenistisch-kaiserzeitlich“ oder „Provenienz: Pergamon“ mit den entsprechenden und in Zahlen ausgedrückten Werten kartiert werden können. Schließlich werden die angereicherten Daten mittels des DARIAH-DE Geo-Browsers visualisiert, um die zeitliche und geographische Verteilung der in den Datensätzen beschriebenen Objekte visuell abzubilden.</p>
                 <p>
                     <figure>
-                        <graphic url="../images/GRADL_Tobias_Ist_die_DARIAH_DE_Forschungsinfrastruktur_fit_f.xml-100000000000088F0000070B422420D63F09A2EB.png"/>
+                        <graphic url="GRADL_Tobias_Ist_die_DARIAH_DE_Forschungsinfrastruktur_fit_f.xml-100000000000088F0000070B422420D63F09A2EB.png"/>
                     </figure>
                 </p>
                 <p>
@@ -149,7 +149,7 @@
                     <p>Abbildung 2 veranschaulicht neben dem Elementmodell auch die Funktionalität zur Verarbeitung von Beispieldaten, mit deren Hilfe überprüft werden kann, ob Daten korrekt prozessiert werden.</p>
                     <p>
                         <figure>
-                            <graphic url="../images/GRADL_Tobias_Ist_die_DARIAH_DE_Forschungsinfrastruktur_fit_f.xml-10000201000003EF0000029B821417B584F7882F.png"/>
+                            <graphic url="GRADL_Tobias_Ist_die_DARIAH_DE_Forschungsinfrastruktur_fit_f.xml-10000201000003EF0000029B821417B584F7882F.png"/>
                         </figure>
                     </p>
                     <p>
@@ -197,7 +197,7 @@
                         </p>
                         <p>
                             <figure>
-                                <graphic url="../images/GRADL_Tobias_Ist_die_DARIAH_DE_Forschungsinfrastruktur_fit_f.xml-10000201000003EF0000029BE52DB7DC764D8B4F.png"/>
+                                <graphic url="GRADL_Tobias_Ist_die_DARIAH_DE_Forschungsinfrastruktur_fit_f.xml-10000201000003EF0000029BE52DB7DC764D8B4F.png"/>
                             </figure>
                         </p>
                         <p>
@@ -215,7 +215,7 @@
                         </p>
                         <p>
                             <figure>
-                                <graphic url="../images/GRADL_Tobias_Ist_die_DARIAH_DE_Forschungsinfrastruktur_fit_f.xml-10000201000003EF0000029BD9AA7377699823A0.png"/>
+                                <graphic url="GRADL_Tobias_Ist_die_DARIAH_DE_Forschungsinfrastruktur_fit_f.xml-10000201000003EF0000029BD9AA7377699823A0.png"/>
                             </figure>
                         </p>
                         <p>
@@ -233,7 +233,7 @@
                         </p>
                         <p>
                             <figure>
-                                <graphic url="../images/GRADL_Tobias_Ist_die_DARIAH_DE_Forschungsinfrastruktur_fit_f.xml-10000201000003EF0000029B624A145F5C9AD247.png"/>
+                                <graphic url="GRADL_Tobias_Ist_die_DARIAH_DE_Forschungsinfrastruktur_fit_f.xml-10000201000003EF0000029B624A145F5C9AD247.png"/>
                             </figure>
                         </p>
                         <p>
@@ -265,7 +265,7 @@
                     <p>Für die Transformation originärer Pergamon-Daten in das KML Format ist schließlich die Modellierung von Zusammenhängen der Datenmodelle erforderlich. Abbildung 6 zeigt die drei Mappings, die für den Anwendungsfall modelliert wurden.</p>
                     <p>
                         <figure>
-                            <graphic url="../images/GRADL_Tobias_Ist_die_DARIAH_DE_Forschungsinfrastruktur_fit_f.xml-10000201000003EF0000029BCA214AE6FBAC7142.png"/>
+                            <graphic url="GRADL_Tobias_Ist_die_DARIAH_DE_Forschungsinfrastruktur_fit_f.xml-10000201000003EF0000029BCA214AE6FBAC7142.png"/>
                         </figure>
                     </p>
                     <p>
@@ -285,7 +285,7 @@
                         <hi rend="color(#212121) background-color(#ffffff)">Transformierte Daten können in verschiedenen Formaten heruntergeladen werden. Als KML Datei exportiert, können die 100 archäologischen Beispieldatensätze im GeoBrowser bereitgestellt und angezeigt werden (vgl. Abbildung 7). </hi>
                         <hi rend="color(#212121) background-color(#ffffff)">
                             <figure>
-                                <graphic url="../images/GRADL_Tobias_Ist_die_DARIAH_DE_Forschungsinfrastruktur_fit_f.xml-1000020100000639000003AB94BBD79CFD153878.png"/>
+                                <graphic url="GRADL_Tobias_Ist_die_DARIAH_DE_Forschungsinfrastruktur_fit_f.xml-1000020100000639000003AB94BBD79CFD153878.png"/>
                             </figure>
                         </hi>
                         <hi rend="color(#212121) background-color(#ffffff)bold">Abb. 7</hi>

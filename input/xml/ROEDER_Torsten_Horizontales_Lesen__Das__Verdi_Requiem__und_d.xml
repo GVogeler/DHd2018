@@ -91,7 +91,7 @@
                     <p>Die Analyse der Metadaten mithilfe geographischer und einfacher statistischer Visualisierungstools (z. B. OpenLayers/MapWarper und Google Chart API) gab Aufschluss über die geographische und chronologische Verteilung der Texte. Die Presseresonanz ist in den Monaten der Erstaufführungen an den jeweiligen Orten wie erwartet am stärksten. Dabei fiel auf, dass die Verteilung im Deutschen Reich großflächiger ist als in dem stark auf Wien zentrierten Österreich (vgl. Abbildung 1). Die Anzahl der Berichte an einem Ort ist in Österreich durchschnittlich höher als im Deutschen Reich, da dort durch das Digitalisierungsprojekt ANNO erheblich mehr Periodika digitalisiert wurden und relevante Texte durch Suche im OCR-Volltext viel leichter aufzufinden sind als in realen Zeitungsbänden. Im Deutschen Reich überwiegt deshalb auch der Anteil an Texten aus den bereits umfassend digitalisierten Musikfachzeitschriften (vor allem aus Leipzig) um so mehr.</p>
                     <p>
                         <figure>
-                            <graphic url="../images/ROEDER_Torsten_Horizontales_Lesen__Das__Verdi_Requiem__und_d.xml-1000000000000431000003439DF6B0D0A0614BEE.png"/>
+                            <graphic url="ROEDER_Torsten_Horizontales_Lesen__Das__Verdi_Requiem__und_d.xml-1000000000000431000003439DF6B0D0A0614BEE.png"/>
                         </figure>(Abbildung 1: Übersicht aller Spielorte, die im deutschsprachigen Raum erwähnt wurden)
                     </p>
                 </div>
@@ -101,7 +101,7 @@
                     <p>Deshalb wurde der Fokus in einem zweiten Versuch auf die "Named Entities" gesetzt, also die bereits durch das Tagging identifizierten sachlichen Einheiten. Eine solche Einheit konnte beispielsweise ein Werkteil wie das "Kyrie" oder das "Agnus Dei" sein, zu dem dann aus allen Texten die unmittelbaren Kontexte ausgezogen und zu einem Spektrum zusammengestellt wurden. Die Kontexte zur stark umstrittenen Nummer "Mors stupebit" aus dem zweiten Teil des Werkes zeigen sowohl eine grundsätzliche Ablehnung und eine starke Grenzziehung zwischen "nordischen" und "italienischen" Stereotypen auf.</p>
                     <p>
                         <figure>
-                            <graphic url="../images/ROEDER_Torsten_Horizontales_Lesen__Das__Verdi_Requiem__und_d.xml-10000000000003A20000023D9BE1018A369BFE1E.png"/>
+                            <graphic url="ROEDER_Torsten_Horizontales_Lesen__Das__Verdi_Requiem__und_d.xml-10000000000003A20000023D9BE1018A369BFE1E.png"/>
                         </figure>(Abbildung 2: Kontexte für "Mors stupebit")
                     </p>
                     <p>Aus geisteswissenschaftlicher Perspektive genügt bereits diese Aufstellung, die ich hier "semantische Sichtachse" nennen möchte, um ein Spektrum von unterschiedlichen Positionen aufzuzeigen, in das auch die Haltungen der nicht näher bekannten Autoren mit einfließen. Vergleicht man die hier gezeigte Sichtachse zum "Mors stupebit" mit der Sichtachse des fast überall bewunderten "Agnus Dei", kommt ein Kontrast zwischen einer idealisierenden und einer realistischen Repräsentation des Todes deutlich zum Vorschein. Weitere aufschlussreiche Sichtachsen können beispielsweise zu Vergleichswerken (etwa die Requiem-Kompositionen von Mozart oder Cherubini), Komponistennamen (im Sinne einer stilistischen Referenz) und auch zu Schlagwörtern wie z. B. "Realismus" erzeugt werden.</p>

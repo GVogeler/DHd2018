@@ -189,7 +189,7 @@
                     </p>
                     <p>
                         <figure>
-                            <graphic url="../images/KONLE_Leonard_Analysing_Direct_Speech_in_German_Novels.xml-100002010000042C00000104B331E8B55EE32983.png"/>
+                            <graphic url="KONLE_Leonard_Analysing_Direct_Speech_in_German_Novels.xml-100002010000042C00000104B331E8B55EE32983.png"/>
                         </figure>
                     </p>
                     <p>Since we noticed that three of our classifiers all ended up with about the same score, we decided to give the task to two human annotators to establish an upper bound. We selected 250 sentences for manual annotation and again removed all quotation marks. Both annotators ended up with an accuracy comparable to that of the best machine learning methods, 84% and 82.8% respectively. From this result we concluded that it is not expedient to further optimise the sentence classification task, as we had already reached human-level accuracy.</p>
@@ -212,7 +212,7 @@
                     </p>
                     <p>
                         <figure>
-                            <graphic url="../images/KONLE_Leonard_Analysing_Direct_Speech_in_German_Novels.xml-5LwTt5-PTd2T5Q4_SgpNLAkmLjcFtZjsJ-2duHd-E3Z4z5HGh7RjaPLE4QJVc1RcCwk9tG4Mt_8TreTwxju-JmdIcR_1EAvw7BJBepuMDMWERY9Gyk6I6i61nUwY4YHHrJyZjeve"/>
+                            <graphic url="KONLE_Leonard_Analysing_Direct_Speech_in_German_Novels.xml-5LwTt5-PTd2T5Q4_SgpNLAkmLjcFtZjsJ-2duHd-E3Z4z5HGh7RjaPLE4QJVc1RcCwk9tG4Mt_8TreTwxju-JmdIcR_1EAvw7BJBepuMDMWERY9Gyk6I6i61nUwY4YHHrJyZjeve"/>
                             <head>
                                 <lb/>Figure 1: Architecture of recurrent network to detect direct speech.
                             </head>
@@ -236,7 +236,7 @@
                             <cell rend="color(#000000)">
                                 <lb/>
                                 <figure>
-                                    <graphic url="../images/KONLE_Leonard_Analysing_Direct_Speech_in_German_Novels.xml-sVQJdGAFG_HNiz9YW-w3G2MiSnKJeHhQ2ChM8kMtATdHunjK1PEp4OiTezVOC4T7x0QPUjgHqadu9HoB5-19BUrVfNo8II_eKXybKeTJeTpkH1o_GqzqWYC14cM4i0lr_tLhmRmo"/>
+                                    <graphic url="KONLE_Leonard_Analysing_Direct_Speech_in_German_Novels.xml-sVQJdGAFG_HNiz9YW-w3G2MiSnKJeHhQ2ChM8kMtATdHunjK1PEp4OiTezVOC4T7x0QPUjgHqadu9HoB5-19BUrVfNo8II_eKXybKeTJeTpkH1o_GqzqWYC14cM4i0lr_tLhmRmo"/>
                                     <head>
                                         <lb/>Figure 2: Ratio of direct speech in German novels from 1800 – 1900.
                                     </head>
@@ -255,7 +255,7 @@
                         <row>
                             <cell rend="center color(#000000)">
                                 <figure>
-                                    <graphic url="../images/KONLE_Leonard_Analysing_Direct_Speech_in_German_Novels.xml-wySMdpqmFsU3zKA7MfZmgxZqEzkGZpQqJC0ZjDjSG0LYa_9lwNRyvqw09OExJE8SEFEwfjnVP427SPm0lL78sEsooOoXLsgHEugvOFn3_zcNBZj0YtJx4SkkRgJMK2PqUH0k_t6a"/>
+                                    <graphic url="KONLE_Leonard_Analysing_Direct_Speech_in_German_Novels.xml-wySMdpqmFsU3zKA7MfZmgxZqEzkGZpQqJC0ZjDjSG0LYa_9lwNRyvqw09OExJE8SEFEwfjnVP427SPm0lL78sEsooOoXLsgHEugvOFn3_zcNBZj0YtJx4SkkRgJMK2PqUH0k_t6a"/>
                                     <head>
                                         <lb/>Figure 3: Number of provided novels per year.
                                     </head>
@@ -273,7 +273,7 @@
                         <row>
                             <cell rend="color(#000000)">
                                 <figure>
-                                    <graphic url="../images/KONLE_Leonard_Analysing_Direct_Speech_in_German_Novels.xml-gu2pT1QJCEYw87McQtM67zsynoL5trAJoz3f1s5iPTFA6FxefTEkP3-3WGqnr0Gg9-a-KgQE7BTMgPbhJI5cliZdk6OHq154aqJZiTncW2nn07hEx2w-eA1Cl03Bs17homxmXuzZ"/>
+                                    <graphic url="KONLE_Leonard_Analysing_Direct_Speech_in_German_Novels.xml-gu2pT1QJCEYw87McQtM67zsynoL5trAJoz3f1s5iPTFA6FxefTEkP3-3WGqnr0Gg9-a-KgQE7BTMgPbhJI5cliZdk6OHq154aqJZiTncW2nn07hEx2w-eA1Cl03Bs17homxmXuzZ"/>
                                     <head>
                                         <lb/>Figure 4: Ratio of direct speech in German low and high brow novels after 1945.
                                     </head>

@@ -75,7 +75,7 @@
                         width="14.87128888888889cm"
                         height="6.890744444444445cm"
                         rend="inline"
-                        url="../images/DIMPEL_Friedrich_Michael_Die_guten_ins_T_pfchen__Zur_Anwendb.xml-image1.png"/>
+                        url="DIMPEL_Friedrich_Michael_Die_guten_ins_T_pfchen__Zur_Anwendb.xml-image1.png"/>
                 </figure>
                 <p>Abb. 1: Ratetext-Z-Werte (blau) sowie Z-Wert-Differenzen Ratetext–Autor-Vergleichstext (orange)</p>
                 <p>Abb. 1. zeigt oben die Z-Werte der Handschrift M von Wolframs ‚Parzival‘ in einem Test, in dem sich im Vergleichskorpus neben Wolframs ‚Willehalm‘ noch weitere 19 Distraktortexte von anderen Autoren befinden (ausführlich zum Testverfahren Dimpel 2017b). Der ‚Parzival‘ soll dem Autor-Vergleichstext (Wolframs ‚Willehalm‘) zugeordnet werden und nicht etwa Konrads ‚Partonopier‘. Im oberen linken Viertel sind positive Z-Werte blau aufgetragen und nach der Höhe der Z-Werte sortiert. Ab der Stelle, an der die blauen Balken auf 0 zurückgehen, folgt rechts der Betrag der negativen Z-Werte (blau). Unten stehen (orange) die absoluten Z-Wert-Differenzen zwischen dem Ratetext und dem Autor-Vergleichstext (Differenzen der Z-Werte von Wolframs ‚Parzival‘ und Wolframs ‚Willehalm‘).</p>
@@ -85,7 +85,7 @@
                         width="16.038869444444444cm"
                         height="7.431752777777778cm"
                         rend="inline"
-                        url="../images/DIMPEL_Friedrich_Michael_Die_guten_ins_T_pfchen__Zur_Anwendb.xml-image2.png"/>
+                        url="DIMPEL_Friedrich_Michael_Die_guten_ins_T_pfchen__Zur_Anwendb.xml-image2.png"/>
                 </figure>
                 <p>Abb. 2: Z-Wert-Differenzen Ratetext–Autor-Vergleichstext (orange: Wolframs ‚Parzival‘– Wolframs ‚Willehalm‘) und Z-Wert-Differenzen Ratetext–Distraktortext (grau: Wolframs ‚Parzival‘ – Konrads ‚Partonopier‘)</p>
                 <p>Neu ist in Abb. 2 nur die obere Hälfte: Sie enthält Z-Wert-Differenzen des Ratetexts zum Distraktortext (‚Partonopier‘). Diese grauen Unterschiede sollten bei funktionierender Autorerkennung eher groß sein; gleichzeitig sollten die orangen Unterschiede der Texte vom gleichen Autor niedriger sein als die grauen. Dort, wo die grauen Balken genauso hoch sind wie die orangen, hilft das Wort nicht bei der Autorerkennung – dies ist bei sehr hohen positiven Z-Werten der Fall. Sind die orangen Balken höher als die grauen, stört die Wortform die Autorerkennung: Die Differenzen zwischen Texten verschiedener Autoren müssen größer sein als die Differenzen zwischen Texten gleicher Autoren, wenn die Autorschaftserkennung funktioniert. </p>
@@ -102,7 +102,7 @@
                         width="15.444611111111112cm"
                         height="10.600972222222222cm"
                         rend="inline"
-                        url="../images/DIMPEL_Friedrich_Michael_Die_guten_ins_T_pfchen__Zur_Anwendb.xml-image3.png"/>
+                        url="DIMPEL_Friedrich_Michael_Die_guten_ins_T_pfchen__Zur_Anwendb.xml-image3.png"/>
                 </figure>
                 <p>Abb. 3; zum Setting vgl. Dimpel 2018.</p>
                 <p>Die ‚Halbe Birne‘ enthält jedoch nur 2.469 Wortformen. Wenn man nun die ‚Birne‘ gegen ein Konrad-Korpus testet, kann man entweder die Wörter mit hoher Level-2-Differenz, die einer Erkennung von Konrad entgegenstehen, aus der Liste der untersuchten Most-Frequent-Words (MFWs) streichen. Oder man kann eine Positivliste mit „guten“ Wörtern bevorzugt verwenden – Wörter mit hoher positiver Level-2-Differenz.</p>
@@ -118,7 +118,7 @@
                         width="16.002cm"
                         height="5.2034722222222225cm"
                         rend="inline"
-                        url="../images/DIMPEL_Friedrich_Michael_Die_guten_ins_T_pfchen__Zur_Anwendb.xml-image4.png"/>
+                        url="DIMPEL_Friedrich_Michael_Die_guten_ins_T_pfchen__Zur_Anwendb.xml-image4.png"/>
                 </figure>
                 <p>Im Attributionstest 1 wird die ‚Halbe Birne‘ als Autor-Vergleichstext verwendet, als Ratetexte werden die acht Konrad-Texte sowie das ‚Herzmäre‘ verwendet; im ‚Herzmäre‘-Test bleibt es bei acht Konrad-Ratetexten; das ‚Herzmäre‘ ist Autor-Vergleichstext. Hier erreicht das ‚Herzmäre‘ nur 4,5%, ein schlechter Wert, obwohl hier die Autorschaft nicht infrage gestellt wurde. Dagegen liegt die Erkennungsquote bei der ‚Halben Birne‘ auch ohne zusätzliche Wortlisten bereits über dem Zufallswert: Wenn ein Konrad-Text aus dem Ratekorpus nun nicht einem der 20 Texte von anderen Autoren zuordnet wird, sondern der ‚Halben Birne‘, dann stehen die Chancen dafür 1 zu 21. Wenn es also auf den Zufall zurückzuführen wäre, dass ein Text dem richtigen Autor zugeordnet wird, dann müsste die Erkennungsquote bei 5% liegen – so beim ‚Herzmäre‘. 83,8% bei der ‚Halben Birne‘ sind ein ordentlicher Wert, wenn man bedenkt, dass nur kurze Bag-of-Words mit 2.000 Wortformen getestet werden können und dass gattungsübergreifend getestet wird. </p>
                 <p>Beim Attributionstest 1 befand sich die ‚Halbe Birne‘ im Vergleichskorpus. Im Ratekorpus waren inklusive ‚Herzmäre‘ 9 Konrad-Texte. Nun werden umgekehrt ‚Halbe Birne‘ bzw. ‚Herzmäre‘ als Ratetexte verwendet. Ins Vergleichskorpus gebe ich zu den 20 Distraktortexten in separaten Tests jeweils einen Konrad-Text als Autor-Vergleichstext ins Vergleichskorpus.</p>
@@ -128,7 +128,7 @@
                         width="7.510666666666666cm"
                         height="5.441122222222222cm"
                         rend="inline"
-                        url="../images/DIMPEL_Friedrich_Michael_Die_guten_ins_T_pfchen__Zur_Anwendb.xml-image5.png"/>
+                        url="DIMPEL_Friedrich_Michael_Die_guten_ins_T_pfchen__Zur_Anwendb.xml-image5.png"/>
                 </figure>
                 <p>Im Attributionstest 2 übersteigen die meisten Werte 86%. Es gibt lediglich zwei deutliche Ausreißer, an denen jeweils das ‚Herzmäre‘ beteiligt ist. Dieses Minneleid-und-Minnetod-Märe fügt sich nicht zur politischen Propagandadichtung ‚Turnier von Nantes‘. Auch zur ‚Halben Birne‘ passt das ‚Herzmäre‘ nicht: Dort geht es um eine Dame, die einen Ritter abweist, weil er beim Birnenverzehr keine Tischmanieren an den Tag legt. Die Dame schläft mit einem vermeintlich taubstummen Hofnarren, der sich jedoch später als der abgewiesene Birnen-Ritter entpuppt. Interessante Fehlattributionen (etwa ‚Birne‘ zu ‚Häslein‘ statt zum ‚Herzmäre‘) werden im Vortrag vorgestellt.</p>
             </div>

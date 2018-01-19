@@ -85,7 +85,7 @@
                         width="6.526388888888889cm"
                         height="3.3513888888888888cm"
                         rend="inline"
-                        url="../images/ANDRESEN_Melanie_Sprachliche_Variation_in_der_Germanistik__e.xml-image1.png"/>
+                        url="ANDRESEN_Melanie_Sprachliche_Variation_in_der_Germanistik__e.xml-image1.png"/>
                 </p>
                 <p>Abbildung 1: Lineare und syntaktische n-Gramme im Vergleich an einem Beispielsatz (vgl. Andresen und Zinsmeister 2017)</p>
             </div>
@@ -121,7 +121,7 @@
                         width="9.846744444444445cm"
                         height="6.5637694444444445cm"
                         rend="inline"
-                        url="../images/ANDRESEN_Melanie_Sprachliche_Variation_in_der_Germanistik__e.xml-image2.png"/>
+                        url="ANDRESEN_Melanie_Sprachliche_Variation_in_der_Germanistik__e.xml-image2.png"/>
                 </figure>
                 <p>Abbildung 2: Die distinktivsten Wortarten, visualisiert anhand der Teststatistik t. Visualisierung inspiriert durch das R-Paket 
                     <hi rend="italic">stylo</hi> (Eder et al. 2016).

@@ -30,10 +30,20 @@
             </xsl:otherwise>
         </xsl:choose>
     </xsl:variable>
+    <xsl:variable name="files-in-folder">
+        <xsl:choose>
+            <xsl:when test="//*:folder">
+                <xsl:value-of select="//*:folder[1]/@n"/>
+            </xsl:when>
+            <xsl:otherwise>
+                <xsl:text>xml</xsl:text>
+            </xsl:otherwise>
+        </xsl:choose>
+    </xsl:variable>
     <xsl:variable name="files" select="collection(concat($folder,'/?recurse=yes;select=*.xml'))"/>
     <xsl:template match="/">
-<!--        <xsl:result-document href="images/bilder.bat" method="text" encoding="utf-8">
-<!-\-            Erzeuge eine .bat-Datei, mit der die bilder aus dem originalen Ordner in einen Zielordner kopiert werden und dabei normalisiert benannt werden.-\->
+        <xsl:result-document href="images/bilder.bat" method="text" encoding="utf-8">
+<!--            Erzeuge eine .bat-Datei, mit der die bilder aus dem originalen Ordner in einen Zielordner kopiert werden und dabei normalisiert benannt werden.-->
             <xsl:variable name="imagetypes" select="$files//graphic/@url[not(starts-with(., 'http'))]/tokenize(., '\.')[last()]"/>
             <xsl:text>REM </xsl:text>
             <xsl:for-each select="distinct-values($imagetypes)"><xsl:value-of select="."/><xsl:text>, </xsl:text></xsl:for-each><xsl:text>
@@ -52,7 +62,7 @@
                 <xsl:variable name="current-folder" select="replace(replace(substring-after(substring-before($docuri, $filename),'file:/'), '/', '\\'), '%20', ' ')"/>
                 <xsl:for-each select=".//graphic">
                     <xsl:variable name="image-file-name" select="replace(tokenize(@url,'/')[last()], '/', '\\')"/>
-                    <!-\- 1. Erzeuge Unterverzeichnis Pictures und verschiebe die Bilddateien dorthin -\->
+                    <!-- 1. Erzeuge Unterverzeichnis Pictures und verschiebe die Bilddateien dorthin -->
                     <xsl:text>mkdir "</xsl:text>
                     <xsl:value-of select="$current-folder"/>
                     <xsl:text>Pictures\</xsl:text>
@@ -65,7 +75,7 @@ move "</xsl:text>
                     <xsl:text>Pictures\</xsl:text>
                     <xsl:value-of select="$image-file-name"/><xsl:text>"
 </xsl:text>
-                    <!-\- 2. Kopiere sie in input/images/{filename}-{imagename} -\->
+                    <!-- 2. Kopiere sie in input/images/{filename}-{imagename} -->
                     <xsl:text>copy "</xsl:text>
                     <xsl:value-of select="$current-folder"/>
                     <xsl:text>Pictures\</xsl:text>
@@ -77,7 +87,7 @@ move "</xsl:text>
 </xsl:text></xsl:for-each>
             </xsl:for-each>
         </xsl:result-document>
--->        <xsl:result-document href="Bibliographie.html">
+        <xsl:result-document href="Bibliographie.html">
             <html>
                 <head>
                     <title>Bibliographien</title>
@@ -121,16 +131,29 @@ move "</xsl:text>
                 </text>
             </TEI>
         </xsl:result-document>
-        <html><head><title>XML-Test</title><style>
+        <html>
+            <head>
+                <title>XML-Test</title>
+                <style>
             .Achtung {font-weight:bold;}
             .contrib {border-style: solid;
                 page-break-inside:avoid;}
-            img {display:block}
+<!--            img {display:block}-->
             .authorname {font-variant: small-caps;}
         </style>
             <meta charset="utf-8"/>
         </head>
             <body>
+                <p>Anzahl Dateien: <xsl:value-of select="count($files)"/></p>
+                <xsl:if test="count($files) != $files-in-folder">
+                    <p>Zahl der Dateien stimmt nicht überein: <a href="dir.xml.txt">dir.xml.txt</a></p>
+                    <xsl:result-document href="dir.xml.txt" method="text">
+                        <xsl:for-each select="$files">
+                            <xsl:text>
+</xsl:text><xsl:value-of  select="replace(replace(replace(substring-after(document-uri(.),'file:/'), '/', '\\'), '%20', ' '), '\\Uni\\', '\\uni\\')"/>
+                        </xsl:for-each>
+                    </xsl:result-document>
+                </xsl:if>
                 <xsl:for-each select="$files">
                     <xsl:sort select="document-uri(.)"></xsl:sort>
                     <xsl:variable name="filename" select="tokenize(document-uri(.),'/')[last()]"/>
@@ -158,8 +181,10 @@ move "</xsl:text>
                                 $image-file-name
                                 }" height="100"/></xsl:for-each>
                         </p></xsl:if> 
-                        <p>Bibliographie: <xsl:value-of select="count(.//bibl)"/><xsl:if test="count(.//bibl) = 0"><span class="Achtung">ACHTUNG! Keine Bibliographie!</span></xsl:if>
-                            <xsl:if test=".//bibl[not(hi)]"><ul><xsl:for-each select=".//bibl[not(hi)]"><xsl:apply-templates select="."/></xsl:for-each></ul></xsl:if></p>
+                        <p>Bibliographie: <xsl:value-of select="count(.//bibl)"/><xsl:if test="count(.//bibl) = 0"><span class="Achtung"> ACHTUNG! Keine Bibliographie!</span></xsl:if>
+                            <xsl:if test=".//bibl[not(hi)]"><span style="font-weight:bold;"><xsl:text> ACHTUN! Bibliographie ohne Formatierung?</xsl:text></span>
+                                <!--<ul><xsl:for-each select=".//bibl[not(hi)]"><xsl:apply-templates select="."/></xsl:for-each></ul>-->
+                            </xsl:if></p>
                     </div>
                 </xsl:for-each>
             </body>
@@ -208,7 +233,6 @@ move "</xsl:text>
             <xsl:apply-templates 
                 select="@*[name() != 'url']" mode="copyxml"/>
             <xsl:attribute name="url">
-                <xsl:text>../images/</xsl:text>
                 <xsl:value-of select="$filename"/>
                 <xsl:text>-</xsl:text>
                 <xsl:value-of select="$image-file-name"/>

@@ -92,7 +92,7 @@
             </p>
             <p>
                 <figure>
-                    <graphic url="../images/BLESSING_Andre_NLP_meets_RegNLP_meets_Regesta_Imperii.xml-10000201000005A40000056C797DE58A7969E732.png"/>
+                    <graphic url="BLESSING_Andre_NLP_meets_RegNLP_meets_Regesta_Imperii.xml-10000201000005A40000056C797DE58A7969E732.png"/>
                     <head>
                         <lb/>Abbildung 1 Graphbasierte Repräsentation von Regesten (gelb) mit zugehörigen Registereinträgen (rot,blau,grau).
                     </head>
@@ -106,7 +106,7 @@
             </p>
             <p>
                 <figure>
-                    <graphic url="../images/BLESSING_Andre_NLP_meets_RegNLP_meets_Regesta_Imperii.xml-100000000000045200000155EA86225E7BFC13A4.png"/>
+                    <graphic url="BLESSING_Andre_NLP_meets_RegNLP_meets_Regesta_Imperii.xml-100000000000045200000155EA86225E7BFC13A4.png"/>
                     <head>
                         <lb/>Abbildung 2: links: Regesttext, erkannte Entitäten sind hervorgehoben (bereits neu verortete Textstellen zum Eintrag sind grün); rechts: verknüpfte Registereinträge zum Regest
                     </head>
@@ -128,7 +128,7 @@
             </p>
             <p>
                 <figure>
-                    <graphic url="../images/BLESSING_Andre_NLP_meets_RegNLP_meets_Regesta_Imperii.xml-10000201000002CE000001D25D5DA174A6919ABE.png"/>
+                    <graphic url="BLESSING_Andre_NLP_meets_RegNLP_meets_Regesta_Imperii.xml-10000201000002CE000001D25D5DA174A6919ABE.png"/>
                     <head>
                         <lb/>Abbildung 3: Depedenzanlayse, die zeigt wie Verwandtschaftsrelationen direkt aus der Analyse extrahiert werden können. In diesem Beispiel ist Colyn Beissel der Sohn von Johann Beissel.
                     </head>

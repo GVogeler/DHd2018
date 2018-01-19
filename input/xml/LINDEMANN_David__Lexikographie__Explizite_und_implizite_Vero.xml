@@ -88,7 +88,7 @@
                 <p>In der hier vorgestellten Studie gehen wir der Frage nach, wie sich der gemeinsame Diskursraum als Schnittmenge von Lexikographie und Digital Humanities mit quantitativen Methoden definieren lässt. Nach einer nicht exhaustiven und von Hand durchgeführten Voruntersuchung folgen wir der Ausgangshypothese, der gemeinsame Diskursraum sei um ein Vielfaches größer als man annehmen könnte, folgte man allein denjenigen Themen, die als lexikographierelevant gelten können und die in Publikationen diskutiert werden, die explizit zum Bereich der DH gehören (vgl. Abb. 1).</p>
                 <p>
                     <figure>
-                        <graphic url="../images/LINDEMANN_David__Lexikographie__Explizite_und_implizite_Vero.xml-100000000000022F0000018D05ADDE0B7CF7FC8F.jpg"/>
+                        <graphic url="LINDEMANN_David__Lexikographie__Explizite_und_implizite_Vero.xml-100000000000022F0000018D05ADDE0B7CF7FC8F.jpg"/>
                     </figure>Abb. 1: Ausgangshypothese: Explizite und implizite Schnittmengen.
                 </p>
                 <p>Diejenigen Arbeiten, die im DH-Kontext veröffentlicht werden und explizit einem Thema der Lexikographie zugeordnet werden, sind recht leicht über relevante Schlüsselwörter bestimmbar. Dazu tritt die Gruppe jener Publikationen, die zur eingangs skizzierten Schnittmenge zu zählen sind, ohne dass sie sich selbst ausdrücklich den Digital Humanities zuordnen. Es ist das Ziel dieser Untersuchung, zu bestimmen, welche in der Lexikographie diskutierten Themen und welche Autoren zu dieser Gruppe gerechnet werden und also eine Zurechnung zu den Digital Humanities 
@@ -225,7 +225,7 @@
                     <p>Abbildung 2 zeigt für 50 von MALLET bestimmte Topics (Spalten) die Verteilung der 100 jeweils relevantesten Texte über die Subcorpora (Ausgabe von MALLET; DH-Beiträge sind grün, Lexicog-Beiträge violett unterlegt). Es wird deutlich, dass ein Teil der Topics eindeutig einem der Subkorpora zuzurechnen ist, andere Topics dagegen eine starke Durchmischung aufweisen.</p>
                     <p>
                         <figure>
-                            <graphic url="../images/LINDEMANN_David__Lexikographie__Explizite_und_implizite_Vero.xml-100000000000080000000404C39E377C37040386.jpg"/>
+                            <graphic url="LINDEMANN_David__Lexikographie__Explizite_und_implizite_Vero.xml-100000000000080000000404C39E377C37040386.jpg"/>
                         </figure>Abb. 2: Visualisierung des Topic Modeling
                     </p>
                 </div>
