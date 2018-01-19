@@ -182,7 +182,7 @@ move "</xsl:text>
                                 }" height="100"/></xsl:for-each>
                         </p></xsl:if> 
                         <p>Bibliographie: <xsl:value-of select="count(.//bibl)"/><xsl:if test="count(.//bibl) = 0"><span class="Achtung"> ACHTUNG! Keine Bibliographie!</span></xsl:if>
-                            <xsl:if test=".//bibl[not(hi)]"><span style="font-weight:bold;"><xsl:text> ACHTUN! Bibliographie ohne Formatierung?</xsl:text></span>
+                            <xsl:if test=".//bibl[not(hi)]"><span style="font-weight:bold;"><xsl:text> ACHTUNG! Bibliographie ohne Formatierung?</xsl:text></span>
                                 <!--<ul><xsl:for-each select=".//bibl[not(hi)]"><xsl:apply-templates select="."/></xsl:for-each></ul>-->
                             </xsl:if></p>
                     </div>
