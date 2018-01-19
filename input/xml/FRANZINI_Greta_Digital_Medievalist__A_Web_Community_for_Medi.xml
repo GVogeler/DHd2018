@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Digital Medievalist: A Web Community for Medievalists working with Digital Media</title>
+                <author>
+                    <persName>
+                        <surname>Franzini</surname>
+                        <forename>Greta</forename>
+                    </persName>
+                    <affiliation>Georg-August-Universität Göttingen</affiliation>
+                    <email>gfranzini@etrap.eu</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Fischer</surname>
+                        <forename>Franz</forename>
+                    </persName>
+                    <affiliation>Universität zu Köln</affiliation>
+                    <email>franz.fischer@uni-koeln.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Kestemont</surname>
+                        <forename>Mike</forename>
+                    </persName>
+                    <affiliation>Universiteit Antwerpen</affiliation>
+                    <email>mike.kestemont@uantwerpen.be</email>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2014-12-19T13:50:00Z</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Prof. Dr. Georg Vogeler</publisher>
+                <address>
+                    <addrLine>UniversitÃ¤t Graz</addrLine>
+                    <addrLine>Zentrum fÃ¼r Informationsmodellierung - Austrian Centre for Digital Humanities</addrLine>
+                    <addrLine>ElisabethstraÃ&#x9f;e 59/III</addrLine>
+                    <addrLine>8010 Graz</addrLine>
+                </address>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Converted from a Word document </p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.17">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Poster</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>medieval studies</term>
+                    <term>community</term>
+                    <term>digital humanities</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Community-Bildung</term>
+                    <term>Veröffentlichung</term>
+                    <term>Methoden</term>
+                    <term>Forschung</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>
+                <hi rend="italic">Digital Medievalist </hi>is an international web community for medievalists working with digital media. Established in 2003 by a group of volunteers
+                <note place="foot" xml:id="ftn1" n="1">
+                    <p rend="footnote text"> Daniel Paul O'Donnell, Peter Baker, James Cummings, Martin Foys, Murray McGillivray, Dot Porter, Roberto Rosselli Del Turco, and Elizabeth Solopova. 
+                        <hi rend="italic">Digital Medievalist</hi>
+                        <hi rend="color(333333)">was founded with direct financial support from the Faculty of Arts and Science at the University of Lethbridge, the Curriculum Redevelopment Centre (now the Teaching Centre) at the University of Lethbridge, the</hi>
+                        <hi rend="italic color(333333)">Image, Text, Sound, and Technology (ITST)</hi>
+                        <hi rend="color(333333)">programme of the Social Sciences and Humanities Research Council of Canada (SSHRC).</hi>
+                    </p>
+                </note> and before the arrival of Facebook and Twitter
+                <note place="foot" xml:id="ftn2" n="2">
+                    <p rend="footnote text"> Facebook was founded in 2004 and Twitter in 2006.</p>
+                </note>, the goal of 
+                <hi rend="italic">Digital Medievalist</hi> would also become that of the popular social networks: to connect people around the world providing them with an exchange platform. But where Facebook and Twitter were driven by relationships, 
+                <hi rend="italic">Digital Medievalist</hi> was driven by interest. 
+            </p>
+            <p>The very first Digital Humanities disciplinary-focus community of practice, 
+                <hi rend="italic">Digital Medievalist</hi> sought to meet the increasingly sophisticated demands faced by creators of digital projects working with medieval content. Among its initial community-building activities, 
+                <hi rend="italic">Digital Medievalist</hi> started an homonymous open access scholarly journal, which is still active today, and commissioned the publication of short tutorials on its website to guide interested scholars through the basics of text encoding, web development and manuscript digitisation, to mention but a few. The benefits brought by 
+                <hi rend="italic">Digital Medievalist</hi> became so evident that other, similar web communities began to emerge, such as the 
+                <hi rend="italic">Digital Classicist</hi>
+                <note place="foot" xml:id="ftn3" n="3">
+                    <p rend="footnote text"> For a discussion on the relationship between 
+                        <hi rend="italic">Digital Medievalist</hi> and 
+                        <hi rend="italic">Digital Classicist</hi>, see Bodard and O’Donnell (2008).
+                    </p>
+                </note> (Mahony, 2017) and 
+                <hi rend="italic">Digital Victorianist</hi>.
+            </p>
+            <p>Over time, and as new technologies rapidly developed, 
+                <hi rend="italic">Digital Medievalist</hi>’s didactic component was superseded by free online courses, moodles and web tutorials, shifting its focus toward the dissemination of scholarly research to the widest possible audience. The 
+                <hi rend="italic">Digital Medievalist</hi> community has continued to gather importance since its founding and today serves a number of disciplinary fields, including Digital Humanities, Medieval Studies and Auxiliary Sciences, Cultural Heritage, Archaeology, Literary Studies, History, Linguistics, and Museum and Archival Science.
+            </p>
+            <p>Membership to 
+                <hi rend="italic">Digital Medievalist </hi>is open to anyone with an interest in its subject matter, regardless of skill or previous experience in Digital Humanities or medieval studies. Participants range from novices contemplating their first project to many of the pioneers in the field. The entire 
+                <hi rend="italic">Digital Medievalist</hi> community counts over 1,500 members worldwide. 
+            </p>
+            <p>The current activities and assets of 
+                <hi rend="italic">Digital Medievalist</hi> include: 
+            </p>
+            <list type="unordered">
+                <item>The 
+                    <hi rend="italic">Digital Medievalist </hi>mailing list: 1,272 (as of Sept. 14th 2017) list members use this platform to ask for advice, discuss problems, and share any kind of information related to the field of medieval studies. The list’s collegial atmosphere encourages a variety of conversations.
+                </item>
+                <item>The 
+                    <hi rend="italic">Digital Medievalist</hi> journal: The community’s online, open access, refereed journal publishes original research and scholarship, notes on technological topics (standards, tools, software, etc.), commentary pieces discussing developments in the field, bibliographic and review articles, and project reports. The journal is funded in part through grants provided by the University of Lethbridge School of Graduate Studies and recently joined the Open Library of Humanities (OLH)
+                    <hi rend="italic bold">,</hi> a non-profit organisation dedicated to publishing open access scholarship with no author-facing article processing charges. Funded by an international consortium of libraries OLH has built a sustainable business model in order to make scholarly publishing fairer, more accessible, and rigorously preserved for the digital future.
+                </item>
+                <item>The 
+                    <hi rend="italic">Digital Medievalist</hi> website: The community’s online presence provides comprehensive information about the organisation including membership, structure and bylaws. It also provides announcements and an up-to-date list of recent and upcoming conferences, colloquia, workshops and training events relevant to (digital) medieval studies. The website also invites members to write blog-posts for several thematic series.
+                </item>
+                <item>The 
+                    <hi rend="italic">Digital Medievalist</hi> Facebook group with over 1,600 members and a Twitter presence to widen the scope and impact of scholarly communication, and to disseminate best practice, data and knowledge pertaining to digital medieval studies (Ross, 2012; Terras, 2012).
+                </item>
+            </list>
+            <p>In 2017, 
+                <hi rend="italic">Digital Medievalist</hi> joined the European Alliance for Social Sciences and Humanities (EASSH) as a learned society in order to increase the visibility of the 
+                <hi rend="italic">Digital Medievalist </hi>community. 
+            </p>
+            <p>DHd 2018 provides the ideal venue to expose 
+                <hi rend="italic">Digital Medievalist</hi> to a large German-speaking community of scholars. The 
+                <hi rend="italic">Digital Medievalist</hi> website averages 2,760 views per day from Germany alone; the 
+                <hi rend="italic">Digital Medievalist</hi> conference representatives are eager to speak to practitioners in Germany to better understand how 
+                <hi rend="italic">Digital Medievalist</hi> is meeting their needs and how it can improve. Additionally, we think that 
+                <hi rend="italic">Digital Medievalist</hi> can still serve as an example for community building. Its history and current state demonstrates how the interest in digital methods intersects with the use of digital communication tools, and is thus maybe an archetypical example of Digital Humanities.
+            </p>
+            <p>The poster will outline the aforementioned activities and will serve as a conversation starter to establish connections with relevant initiatives, start reflection on the role of this and similar activities, collect feedback and continue fostering as wide a geographical coverage as possible. </p>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>Bodard, G., O’Donnell, D. (2008) ‘We are all together: On publishing a Digital Classicist issue of the Digital Medievalist journal’, 
+                        <hi rend="italic">Digital Medievalist</hi>, 4. DOI: http://doi.org/10.16995/dm.18
+                    </bibl>
+                    <bibl>Digital Medievalist website: https://digitalmedievalist.wordpress.com/</bibl>
+                    <bibl>Digital Medievalist journal: https://journal.digitalmedievalist.org/</bibl>
+                    <bibl>Digital Medievalist mailing list: https://digitalmedievalist.wordpress.com/mailing-list/</bibl>
+                    <bibl>Digital Medievalist on Facebook: https://www.facebook.com/groups/49320313760/</bibl>
+                    <bibl>Digital Medievalist on Twitter: https://twitter.com/digitalmedieval</bibl>
+                    <bibl>European Alliance for Social Sciences and Humanities: http://www.eassh.eu/</bibl>
+                    <bibl>Mahony, S. (2017) ‘The Digital Classicist: Building a Digital Humanities Community’, 
+                        <hi rend="italic">Digital Humanities Quarterly</hi>, 11(3). At: http://www.digitalhumanities.org/dhq/vol/11/3/000335/000335.html
+                    </bibl>
+                    <bibl>Open Library of Humanities: https://www.openlibhums.org/</bibl>
+                    <bibl>Open Scholarly Communities on the Web, ISCH COST Action A32. At: http://www.cost.eu/COST_Actions/isch/A32 </bibl>
+                    <bibl>Ross, C. (2012) ‘Social media for digital humanities and community engagement’, In C. Warwick, M. Terras and J. Nyhan (eds.) 
+                        <hi rend="italic">Digital Humanities in Practice</hi>. Facet Publishing, pp. 23-46.
+                    </bibl>
+                    <bibl>Terras, M. (2012) ‘The Impact of Social Media on the Dissemination of Research: Results of an Experiment’, 
+                        <hi rend="italic">Journal of Digital Humanities</hi>, 1(3). At: http://journalofdigitalhumanities.org/1-3/the-impact-of-social-media-on-the-dissemination-of-research-by-melissa-terras/
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

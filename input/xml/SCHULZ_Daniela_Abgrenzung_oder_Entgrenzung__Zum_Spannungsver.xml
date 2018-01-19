@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Abgrenzung oder Entgrenzung? Zum Spannungsverhältnis zwischen Historischen Hilfswissenschaften und Digital Humanities</title>
+                <author>
+                    <persName>
+                        <surname>Schulz</surname>
+                        <forename>Daniela</forename>
+                    </persName>
+                    <affiliation>Bergische Universität Wuppertal</affiliation>
+                    <email>dschulz@uni-wuppertal.de</email>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2018-01-17T21:13:00Z</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Prof. Dr. Georg Vogeler</publisher>
+                <address>
+                    <addrLine>UniversitÃ¤t Graz</addrLine>
+                    <addrLine>Zentrum fÃ¼r Informationsmodellierung - Austrian Centre for Digital Humanities</addrLine>
+                    <addrLine>ElisabethstraÃ&#x9f;e 59/III</addrLine>
+                    <addrLine>8010 Graz</addrLine>
+                </address>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Converted from a Word document </p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.17">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Panel</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Historische Grundwissenschaften</term>
+                    <term>Kollaboration</term>
+                    <term>Projekte</term>
+                    <term>Methoden</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Community-Bildung</term>
+                    <term>Kollaboration</term>
+                    <term>Lehre</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>„Als Grundwissenschaft erwirken die Digital Humanities das so elementar wichtige 
+                <hi rend="italic">Nutzenkönnen</hi> digitaler Methoden und Daten, wie die Paläographie uns das 
+                <hi rend="italic">Lesenkönnen</hi> unserer Quellen sicherstellt“. (Rehbein 2015) Wie Malte Rehbein hier andeutet, scheint es hinsichtlich des Stellenwertes, der den Historischen Hilfs- oder Grundwissenschaften (HGW) wie auch den Digital Humanities (DH) eigentlich beigemessen werden sollte, durchaus Ähnlichkeiten zu geben. „Sollte“! Denn sowohl bei den HGW als auch bei den DH ist ihr Status als eigenständiger wissenschaftlicher Zweig nicht gänzlich unumstritten. Beide werden aktuell häufig als reine Zulieferer-Wissenschaften oder Dienstleister gegenüber der „richtigen“ Forschung wahrgenommen und ihr eigener wissenschaftlicher Wert in Zweifel gezogen.
+            </p>
+            <p>Die zum Kanon der traditionellen HGW gehörenden, teils sehr unterschiedlichen Teildisziplinen – neben der bereits genannten Paläographie zählen unter anderem auch Kodikologie, Epigraphik, Heraldik, Sphragistik oder Diplomatik dazu – arbeiten allesamt quellennah und betreiben damit wertvolle Grundlagenforschung. Ob der Breite dieses Kanons fällt es nicht ganz leicht, die HGW in Patrick Sahles „3-Sphären-Modell zur Kartierung der Digital Humanities als Schnittmenge, Brücke und eigenständigem Bereich zwischen (ausgewählten) traditionellen Disziplinen“ (Sahle 2015) zu verorten. In vielen Aspekten scheinen sie den DH im Hinblick auf Interdisziplinarität, Methoden, Stellenwert etc. jedoch sogar näher zu stehen als die Geschichtswissenschaft, unter die sie im Allgemeinen subsumiert werden. Ja, es gab sogar eine Phase, in der die Historische Fachinformatik als neue Teildisziplin der HGW galt.
+                <note place="foot" xml:id="ftn1" n="1">
+                    <p rend="footnote text"> http://www.hgw.geschichte.uni-muenchen.de/ueber_uns/faecher/fachinformatik/index.html</p>
+                </note>
+            </p>
+            <p>Während Professuren mit einer DH-Ausrichtung oder Denomination auf dem Vormarsch zu sein scheinen – in seinem Beitrag „Zur Professoralisierung der Digital Humanities“ zählt Sahle mittlerweile 53 Ausschreibungen (Stand: Januar 2018) im deutschsprachigen Raum mit allerdings äußerst diversen Ausrichtungen (Sahle 2016) – ist in den letzten Jahren die Zahl der Universitätsstandorte, die HGW im Programm haben, zunehmend kleiner geworden, so dass diese heute mit zu den strukturprekären Disziplinen gehören.
+                <note place="foot" xml:id="ftn2" n="2">
+                    <p> Die innerdeutsche Verteilung gestaltet sich entsprechend recht übersichtlich: 1. Ruprecht-Karls-Universität Heidelberg (Früheres Mittelalter und historische Grundwissenschaften), 2. Eberhard-Karls-Universität Tübingen (Geschichtliche Landeskunde und Historische Hilfswissenschaften), 3. Otto-Friedrich-Universität Bamberg (Historische Grundwissenschaften), 4. Friedrich-Alexander-Universität Erlangen-Nürnberg (Mittelalterliche Geschichte und Historische Hilfswissenschaften), 5. Ludwig-Maximilians-Universität München (Historische Grundwissenschaften und Historische Medienkunde), 6. Universität Passau (Mittelalterliche Geschichte und historische Hilfswissenschaften), 7. Universität Regensburg (Historische Hilfswissenschaften), 8. Julius-Maximilians-Universität Würzburg (Mittelalterliche Geschichte und historische Hilfswissenschaften), 9. Christian-Albrechts-Universität zu Kiel (Mittelalterliche Geschichte und historische Hilfswissenschaften), 10. Ruhr-Universität Bochum (Historische Hilfswissenschaften), 11. Rheinische Friedrich-Wilhelms-Universität Bonn (Historische Hilfswissenschaften und Archivkunde), 12. Universität zu Köln (Historische Hilfswissenschaften)</p>
+                </note> (Arbeitsstelle Kleine Fächer) Diese Situation war Ende 2015 Anlass für die Formulierung des Positionspapieres „Quellenkritik im digitalen Zeitalter. Die Historischen Grundwissenschaften als zentrale Kompetenz der Geschichtswissenschaft und benachbarter Fächer“ von Eva Schlotheuber und Frank Bösch (Schlotheuber / Bösch 2015), welches eine breite Diskussion auf „H-Soz-Kult“ in Gang setzte, bei der (teils beiläufig) auch immer wieder das Verhältnis von HGW und DH thematisiert wurde. Trotz aller Differenzen, die bei diesem – mitunter durchaus kontrovers geführten – Austausch zutage kamen, herrschte hinsichtlich eines Aspektes mehrheitlich Einigkeit: Der Wegfall von Professuren, Studiengängen und Lehrveranstaltungen, die das notwendige methodische, grundwissenschaftliche Rüstzeug an heutige und künftige Generationen von Studierenden weitergeben, resultiert in einem Mangel an entsprechenden Fachkompetenzen. In einer Zeit, in der im Zuge zunehmender Digitalisierung historische Quellen in großer Zahl allgemein und jederzeit verfügbar geworden sind, führt dies zu der grotesken Situation, dass das Auffinden von Quellen und der Zugriff auf sie heute zwar deutlich einfacher geworden ist, die Mittel, mit diesen adäquat umzugehen, vielen Personen aber nicht mehr (oder noch nicht) zur Verfügung stehen. Dass der Zugang zu Datenbanken, die beispielsweise bei der Datierung, Verortung oder Einordnung von Einbänden, Wasserzeichen, Initialen etc. helfen, die Arbeit der Grundwissenschaftler|innen und auch anderer Forschenden heute erleichtert und ökonomisiert, wird von den Nutzer|inne|n niemand bestreiten. Das Gros des heutigen in den HGW beschäftigten Lehrpersonals ist allerdings selbst oft nicht ausreichend geschult, um die notwendigen Kenntnisse im Umgang mit diesen Ressourcen an die Studierenden zu vermitteln. 
+            </p>
+            <p>Dennoch fordern aktuelle Ausschreibungen von Bewerber|innen häufig ausgeprägte grundwissenschaftliche Kompetenzen und gleichzeitig Kenntnisse im Bereich der DH. Die wenigsten Absolvent|inn|en deutscher Hochschulen können diesem Profil heute wirklich gerecht werden. Personen, die im Rahmen ihres Studiums noch eine tiefergehende Ausbildung im erstgenannten Bereich genossen haben, stehen oft vor der Problematik, dass sie sich ihr Wissen im Bereich der DH mühevoll im Selbststudium oder in den zahlreich angebotenen Summer Schools erarbeiten müssen. </p>
+            <p>Neben diesen praktischen Problemen der Zugänglichkeit zu entsprechenden Weiterbildungsangeboten, differieren aber auch die grundlegenden Auffassungen darüber, welche (technischen) Kompetenzen überhaupt notwendig sind, um das „digital“ Dargebotene hinsichtlich seiner Wissenschaftlichkeit und Vollständigkeit hinreichend bewerten zu können.
+                <note place="foot" xml:id="ftn3" n="3">
+                    <p rend="footnote text"> Das Gleiche gilt auch für die schon zahlreich verfügbaren Tools zu deren vereinfachten Be- oder Verarbeitung.</p>
+                </note> Auch herrscht weiterhin Uneinigkeit darüber, wie diese Kompetenzen (an Studierende und Lehrende) überhaupt vermittelt werden können. Sind die Grundwissenschaften in der Pflicht, ihre Vermittlungskonzepte auf die veränderte Situation anzupassen? (Vogeler 2015) Definitiv! „[S]ind digitale Techniken und Methoden nicht nur eine Chance, sondern vielleicht auch die einzige Möglichkeit für eine sinnvolle Weiterentwicklung der Hilfswissenschaften“? (Hiltmann 2015) Wahrscheinlich ja! Doch wie kann diese Weiterentwicklung ganz konkret aussehen? (Wie) Können die hergebrachten grundwissenschaftlichen Kompetenzen erhalten, und dabei gleichzeitig neue Kompetenzen aufgebaut werden, die für das heutige und zukünftige wissenschaftliche Arbeiten benötigt werden? Wie müsste eine Neuausrichtung grundwissenschaftlicher Curricula, die stärker digitale Methoden in die Lehre integrieren, aussehen? Welche Umsetzungsversuche gibt es hier bereits? Welche Kompetenzen werden gebraucht und wo kann Kompetenzaufbau (auch für Graduierte) stattfinden? Welche Maßnahmen sind hierfür notwendig? Welche konkreten Maßnahmen wurden in den vergangen zwei bis drei Jahren vielleicht auch schon in Gang gesetzt, um den Bereich der HGW zu erhalten bzw. zu neuem Leben zu erwecken?
+                <note place="foot" xml:id="ftn4" n="4">
+                    <p> Exemplarisch können hier – neben der noch aktuellen Ausschreibung einer (wenn auch befristeten) W2 Professur für „Historische Grundwissenschaften unter besonderer Berücksichtigung der Digital Humanities“ – auch der Zusammenschluss historisch arbeitender Wissenschaftler|inne|n zur „Arbeitsgemeinschaft Historische Grundwissenschaften“ (AHiG, 
+                        <ref target="https://www.ahigw.de/">https://www.ahigw.de/</ref>) genannt werden, sowie die Gründung des „Netzwerk Historische Grundwissenschaften“ (NHG, 
+                        <ref target="https://www.ahigw.de/nachwuchsnetzwerk/">https://www.ahigw.de/nachwuchsnetzwerk/</ref>). Bei letzterem handelt es sich um einen Zusammenschluss von Nachwuchswissenschaftler|inn|en verschiedener Disziplinen und Qualifikationsstufen, die neben der Organisation einer jährlichen Konferenz mit grundwissenschaftlicher Ausrichtung, auch auf anderen Wegen versuchen, sich produktiv in die aktuellen Diskussionen einzuschalten und Entwicklungen voran zu treiben – so z.B. auch mit der Organisation dieses Panels. 
+                    </p>
+                </note> Wie kann das unzweifelhaft vorhandene Potenzial bestmöglich genutzt werden, um die grundwissenschaftliche Forschung zu befördern? Aber auch: Wo liegen vielleicht grundlegende Probleme in der Kollaboration von HGW und DH?
+            </p>
+            <p>Bei der Aushandlung des Stellenwertes bzw. der Verortung der DH ging es bisher meist um das Verhältnis zwischen angewandter Informatik und traditionellen Geisteswissenschaften. Der Dialog zwischen HGW und DHs erscheint aber besonders für einen fruchtbaren Austausch geeignet, da beide „Disziplinen“ teils mit sehr ähnlichen Problemen zu kämpfen haben und aus sich heraus schon interdisziplinär arbeiten. Andererseits stellen aber die DH gerade aus Sicht einiger Grundwissenschaftler|innen vermehrt ein Feindbild dar, da sie vermeintlich die Existenz des eigenen Faches bedroht sehen und/oder sich den neuen Herausforderungen nicht gewachsen fühlen. </p>
+            <p>Das Panel, welches diesmal Vertreter|inn|en der traditionellen HGW 
+                <hi rend="underline">UND</hi> Digital Humanists als dezidierte „Grenzgänger“ an einen Tisch bringt, soll also zum einen dazu dienen, Vorurteile abzubauen und die bereits begonnenen Diskussionen am Leben zu halten, zu konkretisieren und weiterzuführen, zum anderen auch Gelegenheit bieten, beispielsweise Projekte mit grundwissenschaftlicher Ausrichtung sichtbar zu machen und damit gleichzeitig deren Ansätze, Methoden und Umsetzung zur allgemeinen Diskussion zu stellen. 
+            </p>
+            <p>Die folgenden Personen (in alphabetischer Reihenfolge) haben ihre Teilnahme am Panel zugesagt:</p>
+            <p>Jun.-Prof. Dr. Étienne Doublier, Juniorprofessur für Historische Hilfswissenschaften (Bergische Universität Wuppertal)</p>
+            <p>Jun.-Prof. Dr. Torsten Hiltmann, Juniorprofessur für die Geschichte des Hoch- und 
+                <lb/>Spätmittelalters / Historische Hilfswissenschaften (Westfälische Wilhelms-Universität Münster)
+            </p>
+            <p>Prof. Dr. Andrea Stieldorf, Institut für Geschichtswissenschaft, Abteilung für Historische Hilfswissenschaften und Archivkunde, Rheinische Friedrich-Wilhelms-Universität Bonn</p>
+            <p>Prof. Dr. Georg Vogeler, 
+                <hi rend="st">Zentrum für Informationsmodellierung in den Geisteswissenschaften, Karl-Franzens-Universität Graz</hi>
+            </p>
+            <p>Der geplante Ablauf ist wie folgt: </p>
+            <p>
+                <hi rend="st">Nach einer knappen Einleitung in die Thematik des Panels und der Motivation zu dessen Organisation, erhalten die Diskutant|inn|en zunächst Gelegenheit zu einer individuellen Stellungnahme. Der Verlauf der anschließenden Diskussion wird nicht – wie sonst üblich – durch vorgegebene Fragen seitens der Moderatorin vorgegeben, sondern „von außen“ bestimmt, so dass dieser für alle Beteiligten nicht vorhersehbar ist. Mit „von außen“ ist hier zum einen das Plenum der Anwesenden gemeint, unten denen sich hoffentlich auch zahlreiche Vertreter der Studierendenschaft und des wissenschaftlichen Nachwuchses befinden, zum anderen aber gerade auch Personen, die selbst nicht an der Veranstaltung teilnehmen können. Hierzu wurde Ende 2017 unter anderem über Twitter ein Aufruf gestartet, (unter </hi>
+                <ref target="https://twitter.com/hashtag/dhdp3a?src=hash">
+                    <hi rend="strikethrough">#</hi>
+                    <hi rend="bold">dhdp3a</hi>
+                </ref>) Fragen und Diskussionsthemen einzureichen, die dann vor Ort besprochen werden können. Dieses Vorgehen soll sicherstellen, dass 1) in der Diskussion tatsächlich jene Themen aufgegriffen werden, die von allgemeinem Interesse sind, 2) nicht bereits vielfach geführte Debatten lediglich repliziert werden, und 3) 
+                <hi rend="st">ein wirklicher Dialog zwischen „Betroffenen“ und anderen Interessierten stattfinden kann, da diesmal nicht exklusiv auf professoraler Ebene diskutiert wird.</hi>
+            </p>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl>Arbeitsstelle Kleine Fächer, Fachstandort der Historischen Hilfswissenschaften. URL: 
+                        <ref target="http://www.kleinefaecher.de/historische-hilfswissenschaften/">http://www.kleinefaecher.de/historische-hilfswissenschaften/</ref> [letzter Zugriff 24.09.2017]
+                    </bibl>
+                    <bibl>Hiltmann, Torsten (2015): „Hilfswissenschaften in Zeiten der Digitalisierung“, in: H-Soz-Kult, 14.12.2015. URL: 
+                        <ref target="file:///C:\Users\Daniela\AppData\Local\Temp\www.hsozkult.de\debate\id\diskussionen-2936">www.hsozkult.de/debate/id/diskussionen-2936</ref> [letzter Zugriff 24.09.2017]
+                    </bibl>
+                    <bibl>Rehbein, Malte (2015): „Digitalisierung braucht Historiker/innen, die sie beherrschen, nicht beherrscht“, in: H-Soz-Kult, 27.11.2015. URL: 
+                        <ref target="http://www.hsozkult.de/debate/id/diskussionen-2905">www.hsozkult.de/debate/id/diskussionen-2905</ref> [letzter Zugriff 24.09.2017]
+                    </bibl>
+                    <bibl>Sahle, Patrick (2015): „Digital Humanities? Gibt’s doch gar nicht! in: Grenzen und Möglichkeiten der Digital Humanities (Sonderband der Zeitschrift für digitale Geisteswissenschaften 1). DOI: 
+                        <ref target="http://dx.doi.org/10.17175/sb001_004">10.17175/sb001_004</ref> [letzter Zugriff 13.01.2017]
+                    </bibl>
+                    <bibl>Sahle, Patrick (2016): „Zur Professoralisierung der Digital Humanities“, in: DHd-Blog, 23. März 2016. URL: 
+                        <ref target="http://dhd-blog.org/?p=6174">http://dhd-blog.org/?p=6174</ref> [letzter Zugriff 24.09.2017]
+                    </bibl>
+                    <bibl>Vogeler, Georg (2015): „Digitale Quellenkritik in der Forschungspraxis“, in: H-Soz-Kult, 28.11.2015. URL: 
+                        <ref target="http://www.hsozkult.de/debate/id/diskussionen-2893">www.hsozkult.de/debate/id/diskussionen-2893</ref> [letzter Zugriff 24.09.2017]
+                    </bibl>
+                    <bibl>Schlotheuber, Eva / Bösch, Frank (2015): „Quellenkritik im digitalen Zeitalter. Die Historischen Grundwissenschaften als zentrale Kompetenz der Geschichtswissenschaft und benachbarter Fächer“, in: H-Soz-Kult, 15.11.2015. URL: 
+                        <ref target="file:///C:\Users\User\sciebo\Veranstaltungen\DHd2018\www.hsozkult.de\text\id\texte-2890">www.hsozkult.de/text/id/texte-2890</ref> [letzter Zugriff 24.09.2017]
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

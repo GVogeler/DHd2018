@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="full">
+                    <title type="main"> Im Netz der Möglichkeiten - Wechselwirkungen in der Entwicklung von Theorie, Methode und Tools in den Digital Humanities am Beispiel der TEI</title>
+                    <title type="sub"/>
+                </title>
+                <author>
+                    <persName>
+                        <surname>Schaßan</surname>
+                        <forename>Torsten</forename>
+                    </persName>
+                    <affiliation>Herzog August Bibliothek Wolfenbüttel, Deutschland</affiliation>
+                    <email>schassan@hab.de</email>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2017-09-26T01:08:05.274525202</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Prof. Dr. Georg Vogeler</publisher>
+                <address>
+                    <addrLine>UniversitÃ¤t Graz</addrLine>
+                    <addrLine>Zentrum fÃ¼r Informationsmodellierung - Austrian Centre for Digital Humanities</addrLine>
+                    <addrLine>ElisabethstraÃ&#x9f;e 59/III</addrLine>
+                    <addrLine>8010 Graz</addrLine>
+                </address>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Converted from an OASIS Open Document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.17">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Vortrag</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Text Encoding Initiative</term>
+                    <term>Digitale Edition</term>
+                    <term>Korrespondenznetzwerke</term>
+                    <term>Theoriebildung</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Modellierung</term>
+                    <term>Theoretisierung</term>
+                    <term>Methoden</term>
+                    <term>Forschungsprozess</term>
+                    <term>Standards</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>
+                <hi rend="color(#000000)">In der Beschreibung der DHd-Konferenz 2018 „Kritik der digitalen Vernunft“ </hi>
+                <hi rend="color(#000000)">wird die These formuliert, dass die Digital Humanities </hi>
+                <hi rend="color(#000096)">„</hi>
+                <hi rend="color(#000000)">häufig als digital transformierte Bearbeitung von Fragestellungen aus den verschiedenen beteiligten Fächern beschrieben</hi>
+                <hi rend="color(#000096)">“</hi>
+                <hi rend="color(#000000)"> werden und </hi>
+                <hi rend="color(#000096)">„</hi>
+                <hi rend="color(#000000)">in weiten Teilen eine daten-, algorithmen- und werkzeuggetriebene Wissenschaft sei[en], die von ihren unmittelbaren Möglichkeiten und ihren Praktiken dominiert</hi>
+                <hi rend="color(#000096)">“</hi>
+                <hi rend="color(#000000)"> werden, welche den Prinzipien kritischer Wissenschaftlichkeit möglicherweise nicht genüge. Am Beispiel der Entwicklung der Guidelines sowie der Analyse einzelner konkreter Anwendungsfälle der Text Encoding Initiative </hi>
+                <hi rend="color(#000000)">(TEI; </hi>
+                <hi rend="color(#000000)">Synonym auch für die Richtlinien der Initiative, den „Guidelines for (Electronic) Text Encoding and Interchange“</hi>
+                <hi rend="color(#000000)">) </hi>
+                <hi rend="color(#000000)">soll untersucht werden, welche Wechselwirkungen es hierbei zwischen Theorie, Methode und Tool-Entwicklung gegeben hat.</hi>
+            </p>
+            <div type="div1" rend="DH-Heading">
+                <head>Der Gegenstand</head>
+                <p>
+                    <hi rend="color(#000000)">Der Beobachtungsgegenstand dieser Untersuchung sind die Guidelines der TEI selbst, die daraus resultierenden Schemata sowie deren Anwendung in ausgewählten Anwendungsfeldern der DH. Die TEI dokumentiert die Entwicklung der Guidelines seit der Einführung 1990 mit der Version P1 in unterschiedlicher Tiefe. Während für die älteren Versionen meist nur deren Endprodukt in Form der </hi>
+                    <hi rend="color(#000000)">Document Type Definition (</hi>
+                    <hi rend="color(#000000)">DTD</hi>
+                    <hi rend="color(#000000)">)</hi>
+                    <hi rend="color(#000000)"> bzw. des Textes der Guidelines vorliegt, kann man die Entwicklung des de-facto-Standards seit der Version P4 und dann ab 2007 in listenförmiger Dokumentation der vorgenommenen Änderungen nachvollziehen. Die TEI dokumentiert außerdem die Diskussionen, die in ihren Gremien sowie in der Community über Mailingliste geführt werden, in je eigenen Archiven. Damit lässt sich ein nahezu lückenloses Bild der Entwicklungsschritte hin zu der geltenden Version nachvollziehen. Diese Materialien können vor dem Hintergrund der oben genannten Thesen untersucht und mit den traditionellen Wissenschaften in Kontext gesetzt werden, um Aufschlüsse über die Wechselwirkungen zu erhalten.</hi>
+                </p>
+                <p>Ein weiterer Gegenstand besteht in der konkreten Anwendung der Guidelines bzw. Schemata der TEI in Projekten. Hier sollen beispielhaft Editionsprojekte sowie die Verwendung der TEI zur Speicherung von Metadaten betrachtet werden, um die Wechselwirkungen zu analysieren. Es soll damit der Frage nachgegangen werden, inwieweit die Definition einer Markup-Sprache, die Anwendung der Sprache bei der Erstellung konkreter Dokumente und die Validierung der Ergebnisse durch technische Rahmenbedingungen vorgegeben oder durch außerhalb der DH liegenden Theoriebildung beeinflusst werden oder die Theoriebildung und Methodenentwicklung selbst vorantreiben.</p>
+            </div>
+            <div type="div1" rend="DH-Heading">
+                <head>Theoriebildung</head>
+                <p>
+                    <hi rend="color(#000000)">Bereits 1994 wies Sperberg-McQueen auf die theoretischen Implikationen der Textauszeichnung, analog dazu: des Gebrauchs einer Wissenschaftssprache, hin: </hi>
+                    <hi rend="color(#000096)">„</hi>
+                    <hi rend="color(#000000)">Like any notation, the TEI Guidelines inevitably make it easy to express certain kinds of ideas, and concomitantly harder to express other kinds of ideas, about the texts we encode in electronic form. Any notation carries with it the danger that it must favor certain habits of thought --- in the TEI's case, certain approaches to text --- at the expense of others. No one should use TEI markup without being aware of this danger --- any more than we should use the English language, or any other, without realizing that it favors the expression of certain kinds of ideas, and discourages the expression, and even the conception, of other ideas.“ </hi>
+                    <hi rend="color(#000000)">(Sperberg-McQueen 1994) </hi>
+                    <hi rend="color(#000000)">Die TEI-Community versucht allerdings dennoch, diesen Gefahren mit der offenen Diskussion über die semantischen Dimensionen des Markups, mit Best-Practice-Beispielen für die Anwendung entgegen zu wirken. Die Community beweist immer wieder die </hi>
+                    <hi rend="color(#000000)">F</hi>
+                    <hi rend="color(#000000)">ähigkeit, den </hi>
+                    <hi rend="color(#000000)">etablierten Standard im Fall erweiterter Anforderungen an neue Aufgaben anzupassen. Paradigmenwechsel in der Editionsphilologie können dadurch adaptiert, in der Auszeichnungspraxis angewendet und somit wissenschaftlich nutzbar gemacht werden, ohne deshalb vorhandene Dokumente ungültig werden zu lassen oder die bisherige Anwendung des Standards zu konterkarieren. Beispiele hierfür sind die Inkorporation von Markup-Subsystemen für genetische Editionen, zur Beschreibung von Handschriften oder auch zur Dokumentation von Kommunikationsvorgängen, etwa in Briefen, mit der Einführung von </hi>
+                    <hi rend="color(#000000)">&lt;</hi>
+                    <hi rend="color(#000000)">correspDesc</hi>
+                    <hi rend="color(#000000)">&gt;.</hi>
+                    <hi rend="color(#000000)"> Das System der TEI wurde dabei </hi>
+                    <hi rend="color(#000000)">prinzipiell</hi>
+                    <hi rend="color(#000000)"> erweitert als grundlegend verändert. Die Abschaffung von Elementen oder Attributen, die etwa die Falsifikation nach Popper gleich zu setzen wären, ist daher sehr viel seltener als der Proof of Concept, mit welchem zunächst die Tauglichkeit von Markup zur Repräsentation bestimmter Phänomene getestet wird, bevor die Aufnahme in den Standard erfolgt und die Angebote durch die Community weiter genutzt werden können.</hi>
+                </p>
+                <p>
+                    <hi rend="color(#000000)">Gleichzeitig bestimmen die Anforderungen der inhaltlichen bzw. theoretischen Weiterentwicklung eines Faches die technische und theoretische Weiterentwicklung der TEI mit. Ein rezentes Beispiel hierfür ist die theoretische Ausrichtung des </hi>
+                    <hi rend="color(#000000)">M</hi>
+                    <hi rend="color(#000000)italic">aterial </hi>
+                    <hi rend="color(#000000)italic">T</hi>
+                    <hi rend="color(#000000)italic">urns</hi>
+                    <hi rend="color(#000000)"> in der Editionsphilologie und den historischen Wissenschaften. Die Hinwendung zum Objekt wird in der TEI mit der Einführung von </hi>
+                    <hi rend="color(#000000)">&lt;</hi>
+                    <hi rend="color(#000000)">facsimile</hi>
+                    <hi rend="color(#000000)">&gt; </hi>
+                    <hi rend="color(#000000)">und dem Modul für genetische Editionen gespiegelt. Auch Überlegungen zur Verallgemeinerung des Beschreibungsstandards von Dokumenten und Objekten mittels der Strukturen vo</hi>
+                    <hi rend="color(#000000)">n &lt;</hi>
+                    <hi rend="color(#000000)">msDesc</hi>
+                    <hi rend="color(#000000)">&gt; </hi>
+                    <hi rend="color(#000000)">wären hier zu nennen.</hi>
+                </p>
+            </div>
+            <div type="div1" rend="DH-Heading">
+                <head>Methodenbildung</head>
+                <p>
+                    <hi rend="color(#000000)">Ein Beispiel für die Anwendung neuer Methoden </hi>
+                    <hi rend="color(#000000)">der DH</hi>
+                    <hi rend="color(#000000)"> ist die Anreicherung von Texten um bestimmte Kontexte. Wenn in einem Text benannte Entitäten wie Personen, Orte, Objekte oder Ereignisse ausgezeichnet werden, dann entspricht dies zunächst der Registerarbeit traditioneller Publikationsverfahren. Wenn diese Entitäten allerdings mit Normdaten angereichert und diese somit zu nachnutzbaren Bestandteilen im Sinne der Linked Open Data (LOD) werden, darf man wohl von der Anwendung einer neuen Methode sprechen. Die entstandenen Dokumente verändern ihren Charakter von traditionell erstellten und händisch ausgewerteten Objekten zu konzeptionell gestalteten und automatisiert nutzbaren. Die Dokumente werden in die Lage versetzt, auch außerhalb bestimmter, inhaltlich vorgegebener Auswertungskontexte mit anderen Methoden ausgewertet zu werden.</hi>
+                </p>
+                <p>
+                    <hi rend="color(#000000)">Die Konformität zu </hi>
+                    <hi rend="color(#000000)">den</hi>
+                    <hi rend="color(#000000)"> TEI-</hi>
+                    <hi rend="color(#000000)">Richtlinien</hi>
+                    <hi rend="color(#000000)"> spielt </hi>
+                    <hi rend="color(#000000)">in der Anwendung der neuen Methode </hi>
+                    <hi rend="color(#000000)">eine wesentliche Rolle. Im System der TEI ist die </hi>
+                    <hi rend="color(#000000)italic">Customisation </hi>
+                    <hi rend="color(#000000)">als Normalfall vorgesehen. </hi>
+                    <hi rend="color(#000000)">Unter </hi>
+                    <hi rend="color(#000000)italic">Customisation</hi>
+                    <hi rend="color(#000000)"> wird </hi>
+                    <hi rend="color(#000000)">die kontextabhängige Auswahl von Modulen, Elementen und Attributen oder die Vorgabe von Wertemengen für Attribute </hi>
+                    <hi rend="color(#000000)">verstanden</hi>
+                    <hi rend="color(#000000)">. Diese Vorgaben können in der TEI in sogenannten „</hi>
+                    <hi rend="color(#000000)">One Document Does it all“</hi>
+                    <hi rend="color(#000000)">-Dateien </hi>
+                    <hi rend="color(#000000)">(ODD)</hi>
+                    <hi rend="color(#000000)"> definiert und dokumentiert werden, um dann anschließend daraus eigene Datenstrukturdefinitionen in Form von Schema-Dokumenten zu generieren. Zunehmend werden hierbei neben den klassischen Schemasprachen zur Validierung von Datenstrukturen (DTD, RelaxNG, XML Schema) auch Regelwerke definiert, welche eine Validierung des Inhalts eines Dokumentes ermöglichen. (Schematron) ODD sind durch die Dokumentationsleistung und eine normierte Beschreibungssprache ein starkes Hilfsmittel, um die Verwissenschaftlichung von textuellem Markup und dem unterliegenden Textverständnis zu erreichen. Wie aber der Grad der TEI-Konformität zu messen und zu beschreiben sei, ist in der </hi>
+                    <hi rend="color(#000096)"> </hi>
+                    <hi rend="color(#000000)">TEI bereits seit Längerem Gegenstand von Diskussionen.</hi>
+                </p>
+            </div>
+            <div type="div1" rend="DH-Heading">
+                <head>Tool-Entwicklung</head>
+                <p>
+                    <hi rend="color(#000000)">Wo nun mehr Texte in TEI-konformer Auszeichnung vorliegen, umso wichtiger wird die Existenz von Tools, um diese Daten zu nutzen. Wo Text- und Image-Digitalisierung Quellen einfacher zugänglich macht, werden diese Materialien potentiell als Gegenstand der Digital Humanities nützlich. Ähnlich wie bei der Theorie- oder Methodenbildung befruchten sich zur Verfügung stehende Materialien und daran anzulegende Fragestellungen gegenseitig. Die Kritik der digitalen Methoden wird hier ansetzen müssen, wo das Markup vom Ende her zu denken ist, weil b</hi>
+                    <hi rend="color(#000000)">e</hi>
+                    <hi rend="color(#000000)">stimmte Funktionalitäten gewünscht </hi>
+                    <hi rend="color(#000000)">sind</hi>
+                    <hi rend="color(#000000)">: Dokumente sollen nach bestimmten Kriterien sortiert werden? Was bedeutet dies für die Aufbereitung der Daten? – Dokumente sollen im Rahmen des LOD genutzt werden? Welche Eigenschaften müssen sie hierfür haben?</hi>
+                </p>
+            </div>
+            <div type="div1" rend="DH-Heading">
+                <head>DH, eine Wissenschaft wie jede andere?</head>
+                <p>Die in einer Wissenschaft zur Verfügung stehenden Quellen und deren Verarbeitungsmechanismen haben sich immer schon gegenseitig sowie die Theorie- und Methodenbildung beeinflusst. An den Beispielen der Untersuchung soll gezeigt werden, dass sich dies in den DH nicht anders ausnimmt.</p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl>
+                        <hi rend="color(#000000)bold">Lou Burnard / Sebastian Rahtz</hi>
+                        <hi rend="color(#000000)"> (2004): "RelaxNG with Son of ODD", in: </hi>
+                        <hi rend="color(#000000)italic">Proceedings of Extreme Markup Languages 2004</hi>
+                        <hi rend="color(#000000)">.</hi>
+                        <hi rend="color(#000096)"> </hi>
+                        <ptr target="http://conferences.idealliance.org/extreme/html/2004/Burnard01/EML2004Burnard01.html"/>
+                        <hi rend="color(#000000)"> </hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="color(#000000)bold">Lou Burnard / C. Michael Sperberg-McQueen</hi>
+                        <hi rend="color(#000000)"> (1995): "The Design of the TEI Encoding Scheme", in: </hi>
+                        <hi rend="color(#000000)italic">Computers and the Humanities </hi>
+                        <hi rend="color(#000000)">29 (1) p. 17–39.</hi>
+                        <hi rend="color(#000096)"> </hi>
+                        <hi rend="color(#000000)">10.1007/BF01830314</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="color(#000000)bold">Guidelines for Electronic Text Encoding and Interchange</hi>
+                        <hi rend="color(#000000)">, edited by TEI Consortium. 1990-, P1--P5. </hi>
+                        <ptr target="http://www.tei-c.org/Guidelines/"/>
+                        <hi rend="color(#000000)">, </hi>
+                        <ptr target="http://www.tei-c.org/Vault/"/>
+                    </bibl>
+                    <bibl>
+                        <hi rend="color(#000000)bold">Patrick Sahle</hi>
+                        <hi rend="color(#000000)"> (2013): </hi>
+                        <hi rend="color(#000000)italic">Digitale Editionsformen. Zum Umgang mit der Überlieferung unter den Bedingungen des Medienwandels.</hi>
+                        <hi rend="color(#000000)"> 3 Bde. Norderstedt: BoD. </hi>
+                        <ptr target="https://www.i-d-e.de/publikationen/schriften/s7-9-digitale-editionsformen/"/>
+                        <hi rend="color(#000000)"> </hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="color(#000000)bold">C. Michael Sperberg-McQueen </hi>
+                        <hi rend="color(#000000)">(1994): </hi>
+                        <hi rend="color(#000000)italic">Textual Criticism and the Text Encoding Initiative</hi>
+                        <hi rend="color(#000000)">. (First draft of a paper presented at MLA, San Diego, 1994) </hi>
+                        <ptr target="http://www.tei-c.org/Vault/XX/mla94.html"/>
+                    </bibl>
+                    <bibl>
+                        <hi rend="color(#000000)bold">C. Michael Sperberg-McQueen / Henry Thompson </hi>
+                        <hi rend="color(#000000)">(2000): </hi>
+                        <hi rend="color(#000000)italic">XML-Schema</hi>
+                        <hi rend="color(#000000)">. </hi>
+                        <ptr target="https://www.w3.org/XML/Schema"/>
+                    </bibl>
+                    <bibl>
+                        <hi rend="color(#000000)bold">Jörg Wettlaufer </hi>
+                        <hi rend="color(#000000)">(2016): "Neue Erkenntnisse durch digitalisierte Geschichtswissenschaft(en)? Zur hermeneutischen Reichweite aktueller digitaler Methoden in informationszentrierten Fächern", in: </hi>
+                        <hi rend="color(#000000)italic">Zeitschrift für digitale Geisteswissenschaften. </hi>
+                        <hi rend="color(#000000)">DOI: 10.17175/2016_011</hi>
+                        <hi rend="color(#000096)">.</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="color(#000000)bold">RelaxNG</hi>
+                        <hi rend="color(#000000)"> (2008): </hi>
+                        <hi rend="color(#000000)italic">ISO/IEC 19757-2:2008. Information technology -- Document Schema Definition Language (DSDL) -- Part 2: Regular-grammar-based validation -- RELAX NG. </hi>
+                        <ptr target="http://standards.iso.org/ittf/PubliclyAvailableStandards/c052348_ISO_IEC_19757-2_2008(E).zip"/>
+                        <hi rend="color(#000000)"> </hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="color(#000000)bold">Schematron</hi>
+                        <hi rend="color(#000000)"> (2016): </hi>
+                        <hi rend="color(#000000)italic">ISO/IEC 19757-3:2016. Information technology -- Document Schema Definition Languages (DSDL) -- Part 3: Rule-based validation – Schematron.</hi>
+                        <hi rend="color(#000096)italic"> </hi>
+                        <ptr target="http://standards.iso.org/ittf/PubliclyAvailableStandards/c055982_ISO_IEC_19757-3_2016.zip"/>
+                        <hi rend="color(#000000)"> </hi>
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

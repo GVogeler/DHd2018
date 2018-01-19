@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="full">
+                    <title type="main">Auf der Suche nach der verlorenen Materialität. </title>
+                    <title type="sub">Kodikologie und Restaurierungswissenschaft im Zeitalter der (Massen-) Digitalisierung.</title>
+                </title>
+                <author>
+                    <persName>
+                        <surname>Busch</surname>
+                        <forename>Hannah</forename>
+                    </persName>
+                    <affiliation>Center for Digital Humanities, Universität Trier, Deutschland</affiliation>
+                    <email>buschh@uni-trier.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Bös</surname>
+                        <forename>Eva</forename>
+                    </persName>
+                    <affiliation>Buchbinderei Mohr, Trier, Deutschland</affiliation>
+                    <email>ef_fa@web.de</email>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2016-08-22T21:51:20.48</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Prof. Dr. Georg Vogeler</publisher>
+                <address>
+                    <addrLine>UniversitÃ¤t Graz</addrLine>
+                    <addrLine>Zentrum fÃ¼r Informationsmodellierung - Austrian Centre for Digital Humanities</addrLine>
+                    <addrLine>ElisabethstraÃ&#x9f;e 59/III</addrLine>
+                    <addrLine>8010 Graz</addrLine>
+                </address>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Converted from an OASIS Open Document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.17">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Vortrag</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Restaurierung</term>
+                    <term>Kodikologie</term>
+                    <term>Handschriftenbeschreibung</term>
+                    <term>Digitalisierung</term>
+                    <term>Dokumentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Bilderfassung</term>
+                    <term>Archivierung</term>
+                    <term>Konservierung</term>
+                    <term>Manuskript</term>
+                    <term>Standards</term>
+                    <term>texttragende Gegenstände</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="div1">
+                <head>Einleitung</head>
+                <p>Die Materialitäten von Handschriften und ihrer digitalen Abbilder bieten den Ausgangspunkt unseres Vortrags, der zwei Disziplinen in einen Dialog bringt, die sich mit der Materialität handgeschriebener Artefakte beschäftigen und an der Digitalisierung beteiligt sind: die digitale Kodikologie und die Restaurierungwissenschaft. Die handwerkliche Arbeit der Buchrestauratoren ist für Digitalisierungsprojekte unerlässlich und gehört zur Vor- und Nachbereitung: In der Regel geht jeder Kodex zunächst durch ihre Hände, da unter Umständen der Zustand des Objekts bewertet, Festigungsmaßnahmen oder andere Eingriffe vorgenommen werden müssen, um die Digitalisierung physisch zu ermöglichen.
+                    <ref target="#_ftn1">
+                        <hi rend="color(#000000)">[1]</hi>
+                    </ref>Restauratoren sind aber mehr als bloße Dienstleister, sondern verfügen über einen speziellen Blick auf die Materialität von Originalen, der zusätzliche Informationen für digital basierte kodikologische Untersuchungen bereitstellen kann. Umgekehrt verfügen die Digital Humanities über Methoden, die für Anliegen der Restaurierung nützlich sein und gemeinsam weiterentwickelt werden könnten. Nur durch interdisziplinäre Ansätze, so die These, kann das Potenzial des Digitalisats erkannt und ausgeschöpft werden. Gleichzeitig führt die Synergie zur Kompetenzerweiterung der beteiligten Disziplinen.
+                </p>
+                <p>Seit mehr als zwanzig Jahren werden sukzessive Handschriftenbestände digitalisiert. Zunächst beschränkte sich dieses Unternehmen auf besonders hervorzuhebende Bestände und Einzelstücke von erhöhtem öffentlichem Interesse. Es kann davon ausgegangen werden, dass diese Digitalisierungsmaßnahme in erster Linie der allgemeinen Bereitstellung und dem Schutz des Originals galt. Das digitale Faksimile ersetzt das Original im ‘alltäglichen’ Gebrauch und schont damit das materielle Objekt, zudem dient es zumindest als visuelle Sicherung im Falle eines Verlustes des Originals. Im Gegensatz zur Ausstellung im musealen Raum, in dem in der Regel nur ein auf eine Doppelseite begrenzter Einblick in das Kulturgut gegeben werden kann, bietet das Digitalisat die Möglichkeit, die Handschrift zu durchblättern. Durch Bereitstellung im World Wide Web wird zudem die örtliche und zeitliche Begrenzung aufgehoben und ein Zugang für Forscher weltweit ermöglicht. Der Einblick in die Handschrift kann ortsunabhängig nahezu unbegrenzt vielen Personen zur selben Zeit ermöglicht werden und auch beliebig oft, ohne Verschleißerscheinungen am Original und am Digitalisat zu hinterlassen. Seitdem die Anschaffung hochwertiger Scanner oder Konstruktionen, die mit digitaler Fotografie arbeiten
+                    <ref target="#_ftn2">
+                        <hi rend="color(#000000)">[2]</hi>
+                    </ref>, nicht nur für die großen Digitalisierungszentren erschwinglich geworden ist, werden auch immer mehr Gesamtbestände mittelalterlicher Bibliotheken digitalisiert und der Forschung sowie interessierten Personen zur Verfügung gestellt. Digitalisierung ermöglicht also, vergessene und/oder besonders fragile handschriftliche Kulturgüter wieder in den Fokus der öffentlichen Aufmerksamkeit zu bringen und bestandsübergreifende Forschung zu erleichtern. 
+                </p>
+                <p>Angesichts der gewaltigen Masse finanzieller und personeller Ressourcen, die Digitalisierungsprojekte innerhalb von Institutionen binden, erscheint das Nachdenken darüber, welche Bearbeitungsschritte und technischen Features in bestehende Workflows im Kontext der Digitalisierung eingebunden werden könnten, sowohl in wissenschaftsorientierter als auch in wirtschaftlicher Hinsicht lohnenswert.
+                    <ref target="#_ftn3">
+                        <hi rend="color(#000000)">[3]</hi>
+                    </ref>Die Tatsache, dass im Rahmen von Digitalisierungen eine immense Zahl an Objekten einzeln in die Hand genommen und Seite für Seite durchblättert wird, birgt ein bislang noch nicht ausgeschöpftes Potential für interdisziplinäre Anschlussmöglichkeiten.
+                    <hi rend="color(#000000)"> </hi>
+                </p>
+            </div>
+            <div type="div1">
+                <head>Gegen eine Theoretisierung der Materialität
+                    <ref target="#_ftn4">
+                        <hi rend="color(#434343)">[</hi>
+                    </ref>
+                    <ref target="#_ftn4">
+                        <hi rend="color(#434343)">4</hi>
+                    </ref>
+                    <ref target="#_ftn4">
+                        <hi rend="color(#434343)">]</hi>
+                    </ref>‒ Materialität von analogem Original und digitalem Faksimile
+                </head>
+                <p>Dem digitalisierten Objekt wird häufig seine Materialität abgesprochen; darüber zu diskutieren, dass das digitale Faksimile einer mittelalterlichen Handschrift nicht die gleiche synästhetische Erfahrung bieten kann wie das Original, ist obsolet. Es ist wahr, dass das digitale Faksimile zunächst nicht dazu geeignet scheint physische Eigenschaften, wie Lagenstrukturen, Linierung, den Erhaltungszustand oder Eigenschaften der Bindung zu untersuchen (vgl. Pierazzo 2016:94). Dass dennoch gerade eHumanities-Projekte, die sich im Feld der digitalen Kodikologie angesiedelt haben, materielle Eigenschaften von Handschriften ins Zentrum zu rücken verstehen, zeigen etwa das groß angelegte Projekt der 
+                    <ref target="https://www.wasserzeichen-online.de/wzis/index.php">Wasserzeichendatenbank</ref>, die Untersuchungen des 
+                    <ref target="http://www.archimedespalimpsest.org/">Archimedes Palimpsest</ref>, 
+                    <ref target="https://github.com/leoba/VisColl">VisColl</ref>zur Visualisierung von Lagenstrukturen oder 
+                    <ref target="http://www.ecodicology.org/">eCodicology</ref>.
+                    <lb/>Das Potenzial des Digitalisats liegt im Material des Originals. Restaurierungswissenschaft kann Materialaspekte bestimmen; die Digital Humanities computergestützte Techniken bereitstellen, um diese Informationen zu erfassen, zu dokumentieren und so aufzubereiten, dass die Daten z.B. miteinander verglichen, auf unterschiedliche Weise systematisiert, visualisiert und eine Nachnutzung ermöglicht werden kann.
+                    <lb/>Der Beitrag möchte sich deshalb weniger der allgemeinen Defintion von Materialität widmen, sondern bisherige Digitalisierungspraktiken hinterfragen. Dabei steht immer die Frage im Hintergrund, welche Synergieeffekte sich durch den Austausch der Disziplinen ergeben, die in die Digitalisierungsabläufe involviert sind.
+                    <ref target="#_ftn5">
+                        <hi rend="color(#000000)">[</hi>
+                    </ref>
+                    <ref target="#_ftn5">
+                        <hi rend="color(#000000)">5</hi>
+                    </ref>
+                    <ref target="#_ftn5">
+                        <hi rend="color(#000000)">]</hi>
+                    </ref>
+                </p>
+            </div>
+            <div type="div1">
+                <head>Gemeinsame Aufgaben, gemeinsame Ziele, gemeinsame Probleme </head>
+                <p>Wirft man einen Blick auf die Unterfangen der Digitalisierung und der Restaurierung fällt auf, dass sie die Kernaufgabe, Kulturgut zu erhalten und zugleich der Forschung und dem allgemeinen Nutzen zugänglich zu machen, gemeinsam haben. Sie teilen aber auch die mit diesen gemeinsamen Aufgaben und Zielen einhergehenden Probleme der Finanzierung der Maßnahmen, das ungeklärte und teils unabsehbare Problem der Langzeiterhaltung und den Kampf um die nötige Aufmerksamkeit auf institutioneller und politischer Ebene.
+                    <ref target="#_ftn6">
+                        <hi rend="color(#000000)">[</hi>
+                    </ref>
+                    <ref target="#_ftn6">
+                        <hi rend="color(#000000)">6</hi>
+                    </ref>
+                    <ref target="#_ftn6">
+                        <hi rend="color(#000000)">]</hi>
+                    </ref>Sammlungen und Einzelexemplare mit einer hohen Nutzungsintensität stehen in einem erhöhten Interesse der Zugänglichmachung und werden mit einer höheren Priorität der Bestandserhaltung zugeführt, während andere Handschriften ihr einsames und weitgehend ungeachtetes Dasein in den Magazinen von Bibliotheken und Magazinen fristen. Durch die Motivation, vollständige Handschriftenbestände zu digitalisieren – beispielsweise um dislozierte Bestände digital wieder zusammenzuführen – rücken jedoch inzwischen auch bisher wenig beachtete Bestände in den Fokus und erhalten den ‚Luxus‘ restauratorischer Begutachtung und Behandlung sowie der prioritären Bestandserhaltung mittels Digitalisierung
+                    <anchor xml:id="id__1fob9te"/>.
+                    <ref target="#_ftn7">
+                        <hi rend="color(#000000)">[</hi>
+                    </ref>
+                    <ref target="#_ftn7">
+                        <hi rend="color(#000000)">7</hi>
+                    </ref>
+                    <ref target="#_ftn7">
+                        <hi rend="color(#000000)">]</hi>
+                    </ref>Geht man einen Schritt weiter und richtet seinen Fokus auf die daraus resultierenden neuen Möglichkeiten für die Forschungsdisziplinen Kodikologie und Restaurierungswissenschaft, lassen sich weitere Gemeinsamkeiten erkennen: beide bedienen sich derselben Techniken – der Bildverarbeitung und Mustererkennung – um neue Erkenntnisse und Arbeitsabläufe zu kreieren (vgl. Weber / Hähner 2014: 139ff und Busch / Chandna 2017), beide stehen vor den selben Herausforderungen, wie dem Mengenbetrieb sowie der daraus resultierenden Verwaltung großer Datenmengen. 
+                </p>
+            </div>
+            <div type="div1">
+                <head>Aspekte des Einzelobjekts/-digitalisats</head>
+                <p>Hinsichtlich der authentischen Abbildung originaler Materialität im Digitalisat stellt sich immer auch die Frage nach dem ‚digitalen Erhaltungszustand‘. Informationsverluste bei der Digitalisierung betreffen v.a. Farbigkeiten und Oberflächenstrukturen, letztere sind in herkömmlichen Auflichtaufnahmen kaum wahrnehmbar, sodass Tiefendimensionen eingeebnet sind.
+                    <lb/>Die Restaurierung arbeitet im Rahmen von Dokumentationen mit Streiflicht und Durchlicht, um Unebenheiten, Knicke, Risse, Trockenstempel, Linierungen etc. sichtbar zu machen. Könnten solche Aufnahmetechniken in Digitalisierungsprozesse einbezogen werden, um kodikologische Merkmale im Digitalisat zu bewahren? Und wie können die Resultate von restauratorischen Dokumentationen erfasst und beispielsweise in die Metadaten digitalisierter Sammlungen einfließen?
+                    <lb/>Verschiedene Belichtungsarten (UV, IR etc.) eröffnen auch Zugänge zu nicht nur ‚einer Materialität‘, z.B. können durch die unterschiedliche Reichweite der Strahlungen frühere materielle Zustände ‒ z.B. gelöschte oder überdeckte Schriftzeichen ‒ rekonstruiert, sichtbar und darstellbar gemacht werden, vgl. Archimedes Palimpsest oder die Weimarer lösch- und brandgeschädigte Notenhandschriften (Weber / Hähner 2014: 140ff.).
+                </p>
+            </div>
+            <div type="div1">
+                <head>Aspekte der Objekt-/Datenmengen</head>
+                <p>Die authentische Wiedergabe kodikologischer Merkmale ist nicht zuletzt für Methoden der digitalen quantitativen Kodikologie relevant (vgl. Chandna et al. 2015). Untersuchungen zur Mise-en-page etwa (bspw. Verhältnis von beschriebenem und unbeschriebenem Raum einer Handschriftenseite) würden zu realistischeren Ergebnissen führen, wenn mit einbezogen werden könnte, ob eine Handschrift einer Trockenreinigung, Bleiche o.ä. unterzogen worden ist, da dies Einfluss auf den Ist-Zustand des Textträgers hat. Durch die durchgeführten Maßnahmen weichen Farbwerte von Handschriften gleicher Provenienz, gleichen Alters und gleicher Materialität voneinander ab; der Kontrast von Schrift zu Hintergrund verändert sich. Durch die Festlegung eines Koeffizienten zur Korrektur dieser Abweichung könnte dem entgegengewirkt und eine größere Vergleichbarkeit gewährleistet werden. Die Dokumentation von Restaurierungsmaßnahmen könnte ein solches Verfahren ermöglichen.
+                    <lb/>Andersherum könnten Techniken der Datenverarbeitung aus den DH genutzt werden, um restaurierungsrelevante Daten wie Schadensbilder, Zustandsbeschreibungen oder objektbezogene Informationen zum Einband etc. zu erfassen, die etwa für die Vorbereitung von großangelegten Restaurierungsmaßnahmen genutzt werden könnten. 
+                    <lb/>In Prozessen der Bestandserhaltung und Restaurierung von Schriftgut – wie sie zum Beispiel vor der Digitalisierung oder nach Notfällen wie Bränden und Archiveinstürzen durchgeführt werden – stehen die materiellen Aspekte der Objekte bei der Schadensdokumentation im Mittelpunkt und werden in schriftlichen Schemata festgehalten; die Inhalte der Dokumentationen werden aber nur teilweise und eher selten in weiteren Projekten weitergenutzt oder virtuell zur Verfügung gestellt. In der HAAB Weimar wird an einer digitalen Form des dort analog verwendeten Dokumentationsschemas gearbeitet; im Bibliothekskatalog sind für die beim Brand geschädigten Exemplare Felder zur Materialbeschreibung und der Art des Schadens vorgesehen.
+                    <ref target="#_ftn8">
+                        <hi rend="color(#000000)">[8]</hi>
+                    </ref>Umgekehrt werden bei der Digitalisierung Materialdaten nicht erfasst, die sowohl für die Forschung als auch für die Bestandserhaltung (Langzeitarchivierung und analoger Objekterhalt) von Bedeutung sein könnten. 
+                </p>
+                <p>
+                    <lb/>Mit dem hier skizzierten Beitrag soll nicht nur eine Kritik an der bisherigen Digitalisierungspraxis ohne ausreichende Einbeziehung der Restaurierungswissenschaften geübt werden, sondern vielmehr das mögliche Potenzial der interdisziplinären Zusammenarbeit bei zukünftigen Initiativen an konkreten Anwendungsbeispielen aufzeigen. Darüber hinaus erhoffen wir uns, das Thema interdisziplinärer Synergieeffekte hinsichtlich der Erfassung von Materialität in Digitalisaten ins Gespräch zu bringen und Anregungen zu sammeln, inwiefern sich der vorgestellte Ansatz in Zukunft in der Praxis umsetzen lässt.
+                </p>
+                <p>
+                    <ref target="#_ftnref1">
+                        <hi rend="color(#000000)">[1]</hi>
+                    </ref> Bsp. der Steppkapitale der neugebundenen Mattheiser Handschriften in Trier, die vor der Digitalisierung aufgelöst und hinterher wieder erneuert werden mussten, um den nötigen Aufschlagwinkel zu erreichen.
+                </p>
+                <p>
+                    <ref target="#_ftnref2">
+                        <hi rend="color(#000000)">[2]</hi>
+                    </ref> Den größten Bekanntheitsgrad haben hier vermutlich der Grazer Büchertisch und der Wolfenbütteler Buchspiegel, aber auch Aufsichtsscanner liefern digitale Aufnahmen die hohen Qualitätsansprüchen gerecht werden.
+                </p>
+                <p>
+                    <ref target="#_ftnref3">
+                        <hi rend="color(#000000)">[3]</hi>
+                    </ref> Nicht zuletzt entsteht so auch ein Instrument für die Institutionen, ihre Relevanz für die Öffentlichkeit nachzuweisen (z.B. durch die Zahl der Zugriffe auf die digitalisierten Bestände). In Zeiten, in denen eine Vielzahl kultureller Einrichtungen um verhältnismäßig wenige öffentliche finanzielle Mittel buhlen muss und Evaluierung einen Teil des Arbeitsalltags ausmacht, ist es unerlässlich geworden, ein öffentliches Interesse der eigenen Tätigkeit nachweisen zu können, um mit einer Zuwendung bedacht zu werden (s. bspw. Knoche 2017).
+                </p>
+                <p>
+                    <ref target="#_ftnref4">
+                        <hi rend="color(#000000)">[4]</hi>
+                    </ref> Welchen Nutzen birgt das Digitalisat, abgesehen von der Bereitstellung und Zugänglichmachung von Texten inklusive eines Eindrucks des originalen Textträgers?
+                </p>
+                <p>
+                    <ref target="#_ftnref5">
+                        <hi rend="color(#000000)">[5]</hi>
+                    </ref> Welche Erkenntnisse kann uns die Materialität liefern? Wir können wir sie digital Erfassen und Präsentieren? Welchen Verlust der Materialität im Digitalen haben wir tatsächlich zu verzeichnen?
+                </p>
+                <p>
+                    <ref target="#_ftnref6">
+                        <hi rend="color(#000000)">[6]</hi>
+                    </ref> Siehe hierzu Initiativen wie den Berliner Appell aus dem Jahr 2013 und dem Weimarer Appell von 2014.
+                </p>
+                <p>
+                    <ref target="#_ftnref7">
+                        <hi rend="color(#000000)">[7]</hi>
+                    </ref> An dieser Stelle sei auf den im Dezember 2015 veröffentlichten Masterplan zur „Digitalisierung mittelalterlicher Handschriften in deutschen Bibliotheken“ verwiesen.
+                </p>
+                <p>
+                    <ref target="#_ftnref8">
+                        <hi rend="color(#000000)">[8]</hi>
+                    </ref> Die Verlust- und Schadensdokumentation der HAAB Weimar ist unter 
+                    <ptr target="https://lhwei.gbv.de/DB=2.2/"/> einsehbar [letzter Zugriff 24. September 2017].
+                </p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl> Berliner Appell zum Erhalt des digitalen Kulturerbes, September 2013.http://www.berliner-appell.org [letzter Zugriff am 25. September 2017].</bibl>
+                    <bibl> 
+                        <hi rend="bold">Busch, Hannah / Chandna, Swati </hi>(2017): “eCodicology: The Computer and the Mediaeval Library” in: Busch, Hannah / Fischer, Franz / Sahle, Patrick (Hrsg.): 
+                        <hi rend="italic">Kodikologie und Paläographie im digitalen Zeitalter 4. </hi>Norderstedt: BoD. urn:nbn:de:hbz:38-77742
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold"> </hi>
+                        <hi rend="bold">Chandna, Swati / Tonne, Danah / Jejkal, Thomas / Stotzka, Rainer / Krause, Celia / Vanscheidt, Philipp / Busch, Hannah / Prabhune, Ajinkya </hi>(2015): “Software Workflow for the Automatic Tagging of Mediaeval Manuscript Images (SWATI)” in: Ringger, Eric K. / Bart Lamiroy (eds.): 
+                        <hi rend="italic">SPIE Proceedings 9402.</hi>
+                        <hi rend="italic">Document Recognition and Retrieval XXII</hi>. San Francisco, February 11-12 2015.
+                    </bibl>
+                    <bibl> 
+                        <hi rend="bold">Knoche, Michael</hi> (2017): „Rettung von Bücherschätzen. In guter Ordnung, aber schlechter Verfassung“ in: F.A.Z. vom 18.07.2017. http://www.faz.net/-gqz-8zv5x [letzter Zugriff 25. September 2017].
+                    </bibl>
+                    <bibl> 
+                        <hi rend="bold">Pierazzo, Elena</hi> (2015): 
+                        <hi rend="italic">Digital Scholarly Editing. Theories, Models and Methods.</hi> London: Routledge.
+                    </bibl>
+                    <bibl> 
+                        <hi rend="bold">Schreiber, Carolin / </hi>
+                        <hi rend="bold">Fabian, Claudia</hi>
+                        <hi rend="bold"> (Red.)</hi> (2015): 
+                        <hi rend="italic">Digitalisierung mittelalterlicher Handschriften in deutschen Bibliotheken.</hi> Masterplan. München. http://www.handschriftenzentren.de/wp-content/uploads/2016/06/Priorisierungsfragen-Masterplan_pub.pdf
+                    </bibl>
+                    <bibl> 
+                        <hi rend="bold">Weber, Jürgen / Hähner, Ulrike (Hrsg.) </hi>(2014): 
+                        <hi rend="italic">Restaurieren nach dem Brand. Die Rettung der Bücher der Herzogin Anna Amalia Bibliothek</hi>. Petersberg: Michael Imhof Verlag.
+                    </bibl>
+                    <bibl> Weimarer Appell zur Erhaltung schriftlichen Kulturguts, September 2014.</bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>
