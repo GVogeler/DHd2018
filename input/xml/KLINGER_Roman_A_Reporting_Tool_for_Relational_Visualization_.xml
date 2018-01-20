@@ -214,19 +214,19 @@
                 <p>The protagonist Werther shows a degree of 21, which is the number of characters with whom he interacts. The closest relationship measured by edge weight (Figure 2) is observed between Werther and Lotte (81 interactions). The antagonist Albert has a low degree of 3. However, his weighted degree is 36 (third highest after Werther and Lotte), which confirms his important role in the triangular relationship.</p>
                 <p>
                     <figure>
-                        <graphic url="KLINGER_Roman_A_Reporting_Tool_for_Relational_Visualization_.xml-1000000000000311000001DB10CD1460576FED1F.png"/>
+                        <graphic url="KLINGER_Roman_A_Reporting_Tool_for_Relational_Visualization_-1000000000000311000001DB10CD1460576FED1F.png"/>
                         <head>Illustration 1: Degrees and weighted degrees for most important characters of Goethe’s Werther</head>
                     </figure>
                 </p>
                 <p>
                     <figure>
-                        <graphic url="KLINGER_Roman_A_Reporting_Tool_for_Relational_Visualization_.xml-100000000000030D00000197FFF1DE34125AE4EF.png"/>
+                        <graphic url="KLINGER_Roman_A_Reporting_Tool_for_Relational_Visualization_-100000000000030D00000197FFF1DE34125AE4EF.png"/>
                         <head>Illustration 2: Edge weights</head>
                     </figure>
                 </p>
                 <p>
                     <figure>
-                        <graphic url="KLINGER_Roman_A_Reporting_Tool_for_Relational_Visualization_.xml-10000201000002CE0000026C841F717B924E2366.png"/>
+                        <graphic url="KLINGER_Roman_A_Reporting_Tool_for_Relational_Visualization_-10000201000002CE0000026C841F717B924E2366.png"/>
                         <head>Illustration 3: Complete network of Goethe’s Werther</head>
                     </figure>
                 </p>
@@ -239,11 +239,11 @@
                 </p>
                 <p>
                     <figure>
-                        <graphic url="KLINGER_Roman_A_Reporting_Tool_for_Relational_Visualization_.xml-10000201000001AC000000D93E1514FF4941C591.png"/>
+                        <graphic url="KLINGER_Roman_A_Reporting_Tool_for_Relational_Visualization_-10000201000001AC000000D93E1514FF4941C591.png"/>
                         <head>Illustration 4: Word clouds for Werther-Lotte</head>
                     </figure>
                     <figure>
-                        <graphic url="KLINGER_Roman_A_Reporting_Tool_for_Relational_Visualization_.xml-10000201000001AB000000CF288645A8166E0D92.png"/>
+                        <graphic url="KLINGER_Roman_A_Reporting_Tool_for_Relational_Visualization_-10000201000001AB000000CF288645A8166E0D92.png"/>
                         <head>Illustration 5: Werther-Albert</head>
                     </figure>
                 </p>
@@ -251,7 +251,7 @@
                 <p>Additionally, the tool plots the development of the narrative (not bound to specific characters) based on the word fields, an example of which is shown on Figure 6. In this case we used words from the emotion domain (with emotion dictionaries by Klinger et al. (2016)).</p>
                 <p>
                     <figure>
-                        <graphic url="KLINGER_Roman_A_Reporting_Tool_for_Relational_Visualization_.xml-10000000000002C600000315B691CA7597929A2D.png"/>
+                        <graphic url="KLINGER_Roman_A_Reporting_Tool_for_Relational_Visualization_-10000000000002C600000315B691CA7597929A2D.png"/>
                         <head>Illustration 6: Word field development for Goethe’s Werther</head>
                     </figure>
                 </p>

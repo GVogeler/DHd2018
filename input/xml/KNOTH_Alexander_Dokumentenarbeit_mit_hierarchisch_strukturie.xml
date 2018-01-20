@@ -159,7 +159,7 @@
                            width="5.480402777777778cm"
                            height="9.290402777777778cm"
                            rend="inline"
-                           url="KNOTH_Alexander_Dokumentenarbeit_mit_hierarchisch_strukturie.xml-image1.png"/>
+                           url="KNOTH_Alexander_Dokumentenarbeit_mit_hierarchisch_strukturie-image1.png"/>
                     </figure>
                 </div>
                 <div type="div2" rend="DH-Heading2">
@@ -175,7 +175,7 @@
                            width="15.993180555555556cm"
                            height="9.359194444444444cm"
                            rend="inline"
-                           url="KNOTH_Alexander_Dokumentenarbeit_mit_hierarchisch_strukturie.xml-image2.png"/>
+                           url="KNOTH_Alexander_Dokumentenarbeit_mit_hierarchisch_strukturie-image2.png"/>
                     </figure>
                     <p>2. Cosinusähnlichkeiten </p>
                     <p>Mit dieser Funktion (Abbildung 3) lassen sich die Cosinusähnlichkeiten ganzer Versionstexte untereinander berechnen und ausgeben.</p>
@@ -184,7 +184,7 @@
                            width="15.968486111111112cm"
                            height="9.219847222222223cm"
                            rend="inline"
-                           url="KNOTH_Alexander_Dokumentenarbeit_mit_hierarchisch_strukturie.xml-image3.png"/>
+                           url="KNOTH_Alexander_Dokumentenarbeit_mit_hierarchisch_strukturie-image3.png"/>
                     </p>
                     <p>3. Wortzählungen und Wortprofile</p>
                     <p>Der Nutzer kann sich unter Angabe der Version, die von Interesse ist, die Aufkommenshäufigkeiten von Wörtern ausgeben lassen. Zudem lassen sich die Textstellen, die das gezählte Wort enthalten, zusammen mit einer Liste der Wörter ausgeben, die häufiger als ein definierter Schwellenwert (bspw. fünf Mal) in derselben textuellen Umgebung vorkommen (Abbildung 4).</p>
@@ -193,7 +193,7 @@
                            width="15.968486111111112cm"
                            height="9.313333333333333cm"
                            rend="inline"
-                           url="KNOTH_Alexander_Dokumentenarbeit_mit_hierarchisch_strukturie.xml-image4.png"/>
+                           url="KNOTH_Alexander_Dokumentenarbeit_mit_hierarchisch_strukturie-image4.png"/>
                     </figure>
                     <p>Das Beispiel zeigt die politische Kernkategorie, den Bürger, in Version 7 der irländischen Verfassung. Die textuelle Umgebung ist durch Begriffe wie Gesetz (42 mal), Gerichtshof (37 mal) und Präsident (28 mal), die Hinweise dazu liefern in welchen Sinnzusammenhängen der Bürger theamtisiert wird, gekennzeichnet. Die Begriffe Person (26 mal) und Staat (25 mal) weisen darauf hin, dass es sich beim Bürger offenbar tatsächlich um eine Kategorisierung als Person handelt, die wiederum in irgendeiner Beziehung zum Staat steht. Dieser Zusammenhang, die Beziehung von Bürger und Staat kann nun mithilfe von (historischen) Kontextrecherchen und Literatur basierten Konzepten und Theorien genauer untersucht werden. </p>
                     <p>Zur Erstellung der Wortprofile, d.h. für die Anreicherung der Daten mit bspw. Lemmata, POS-Taggs und Dependenzrelationen wurde die Pipeline des DARIAH-DKPro-Wrapper
@@ -206,7 +206,7 @@
                            width="10.054166666666667cm"
                            height="10.258777777777778cm"
                            rend="block"
-                           url="KNOTH_Alexander_Dokumentenarbeit_mit_hierarchisch_strukturie.xml-image5.png"/>
+                           url="KNOTH_Alexander_Dokumentenarbeit_mit_hierarchisch_strukturie-image5.png"/>
                     </figure>
                     <p>Das verwendete Beispiel, die Personenkategorie Mitglied, kommt in der gewählten Verfassungsversion 78 mal vor. Die Informationen, wovon Mitglied das Subjekt ist oder inwiefern Mitglied als Genitivattribut oder Akkusativobjekt von bestimmten Termini vorkommt können u.a. dabei helfen, die Eigenschaften dieser Kategorie oder auch die Prozesse in die diese kategorie eingebunden sein kann, genauer zu bestimmen. So kann ein Mitglied hinzugefügt oder auch ernannt werden. In weiteren Betrachtungen kann dann herausgearbeitet werden, wozu ein Mitglied ernannt oder hinzugefügt werden kann. Das Genitivattribut der Kategorie König gibt bspw. Auskunft darüber, von welcher Bezugsgruppe diese Person überhaupt der König ist. Diese automatisiert verfügbaren Informationen tragen dazu bei, die kategoriale Wissensbestände der Verfassungsstaaten historisch-vergleichend zu untersuchen.</p>
                     <p>4. Graphische Darstellungen </p>
@@ -216,7 +216,7 @@
                            width="15.993180555555556cm"
                            height="9.054041666666667cm"
                            rend="inline"
-                           url="KNOTH_Alexander_Dokumentenarbeit_mit_hierarchisch_strukturie.xml-image6.png"/>
+                           url="KNOTH_Alexander_Dokumentenarbeit_mit_hierarchisch_strukturie-image6.png"/>
                     </figure>
                     <p>In dem verwendeten Beispiel werden die Verkommenshäufkeiten von drei Personenkategorien – Gott, König und Bürger – in den Verfassungen der Niederlande für den Zeitraum 1815 bis 1948 dargestellt. Dabei fällt auf, dass der Bürger im Vergleich zum König als Repräsentation des Souveräns eine deutlich untergeordnete Rolle spielt und ab 1848 bis 1948 im Prinzip nicht vorkommt. Die Verfassungen spiegeln das politische System der Monarchie und nicht die Staatsbürgergesellschaft wieder. Ab 1848 nimmt auch das Vorkommen der Kategorie Gott signifikant ab. Während 1840 Gott noch 30 Mal vorkommt, verringert sich die Häufigkeit in den darauffolgenden 100 Jahren auf durchscnittlich sieben. Anahnd dieser Ergebnisse lassen sich ganz verschiedene Interpretationen und tiefergehende Analysen anschließen, um bspw. Erkenntniss über die religiöse Semantiken staatlicher Selbstbeschreibung (Gottesbezog, Gründungsmythen, Vorstellungen der Nation usw.) oder den Wandel des politischen Gemeinwesens und politischer Zugehörigkeit (wer gehört eigentlich dazu?) zu erlangen.</p>
                     <p>Diese Funktion wird demnächst um weitere bereichert werden, um die Potentiale von Visualisierungen als darstellende Klammer des Strukturvergleichs, der Wortsuche und der syntaktischen Wortrelationen wie auch als analytisches Werkzeug (Lupton 2014) selbst zu sondieren.</p>

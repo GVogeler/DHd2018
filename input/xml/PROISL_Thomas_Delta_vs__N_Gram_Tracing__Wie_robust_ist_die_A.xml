@@ -79,21 +79,21 @@
             <p>Aus Platzgründen berichten wir an dieser Stelle nur knapp die Ergebnisse des ersten Kürzungsexperiments und des ersten Samplingexperiments und beschränken und dabei auf auf die deutschen Daten. Die Ergebnisse des ersten Kürzungsexperiments, in dem nur der zu klassifizierende Text gekürzt wird, sind in der folgenden Abbildung dargestellt:</p>
             <p>
                 <figure>
-                    <graphic url="PROISL_Thomas_Delta_vs__N_Gram_Tracing__Wie_robust_ist_die_A.xml-100002010000090F000006340EB1A3F03D06D04B.png"/>
+                    <graphic url="PROISL_Thomas_Delta_vs__N_Gram_Tracing__Wie_robust_ist_die_A-100002010000090F000006340EB1A3F03D06D04B.png"/>
                 </figure>
             </p>
             <p>Wir vergleichen Cosine-Delta auf Basis der 3000 häufigsten Wörter mit N-Gram-Tracing auf Basis von Wort-1-bis-3-Grammen, Zeichen-4-bis-10-Grammen und Zeichen-11-Grammen. Bis zu einer Textlänge von 5000 Tokens liefern alle N-Gram-Tracing-Varianten bessere Ergebnisse als Delta, für längere Texte funktionieren Delta und N-Gram-Tracing auf Wort-N-Grammen am besten. Bei weniger als 2000 Tokens brechen die Ergebnisse für Delta ein, bei weniger als 1000 Tokens auch die für N-Gram-Tracing.</p>
             <p>Die Ergebnisse des ersten Samplingexperiments zeigen, dass die Klassifikationsgenauigkeit bei beiden Verfahren großen Schwankungen unterworfen ist. Hier die Ergebnisse für Cosine-Delta:</p>
             <p>
                 <figure>
-                    <graphic url="PROISL_Thomas_Delta_vs__N_Gram_Tracing__Wie_robust_ist_die_A.xml-100000000000090F00000634EF4A0F8C33962042.png"/>
+                    <graphic url="PROISL_Thomas_Delta_vs__N_Gram_Tracing__Wie_robust_ist_die_A-100000000000090F00000634EF4A0F8C33962042.png"/>
                 </figure>
             </p>
             <p>Die Grafik zeigt, dass ab ca. den 1000 häufigsten Wörtern zwar im Mittel eine Klassifikationsgenauigkeit von rund 85% erreicht wird, allerdings mit enormen Schwankungen zwischen knapp über 60% und knapp unter 100%.</p>
             <p>Die Ergebnisse für N-Gram-Tracing auf Basis von Wort-N-Grammen sehen ähnlich aus:</p>
             <p>
                 <figure>
-                    <graphic url="PROISL_Thomas_Delta_vs__N_Gram_Tracing__Wie_robust_ist_die_A.xml-100000000000090F0000063436D0AB185667E568.png"/>
+                    <graphic url="PROISL_Thomas_Delta_vs__N_Gram_Tracing__Wie_robust_ist_die_A-100000000000090F0000063436D0AB185667E568.png"/>
                 </figure>
             </p>
             <p>Durch die Kombination von Wort-1- bis Wort-3-Grammen wird zwar eine mittlere Klassifikationsgenauigkeit von über 70% erreicht, aber auch hier mit enormen Schwankungen.</p>

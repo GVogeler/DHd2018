@@ -109,7 +109,7 @@
                         width="9.810719444444445cm"
                         height="10.980208333333334cm"
                         rend="inline"
-                        url="KRAUTTER_Benjamin_Quantitatives__close_reading___Vier_mikroa.xml-image1.jpeg"/>
+                        url="KRAUTTER_Benjamin_Quantitatives__close_reading___Vier_mikroa-image1.jpeg"/>
                 </figure>
                 <p>
                     <hi rend="italic">Abbildung 1</hi>: 
@@ -127,7 +127,7 @@
                         width="16.007291666666667cm"
                         height="23.65375cm"
                         rend="inline"
-                        url="KRAUTTER_Benjamin_Quantitatives__close_reading___Vier_mikroa.xml-image2.jpeg"/>
+                        url="KRAUTTER_Benjamin_Quantitatives__close_reading___Vier_mikroa-image2.jpeg"/>
                 </p>
                 <p>
                     <hi rend="italic">Abbildung 2: Die Räuber, Die Verschwörung des Fiesco zu Genua, Maria Stuart, Minna von Barnhelm, Emilia Galotti, Miß Sara Sampson. </hi>Dendrogram, 1000 n-mfw, Cosine Delta, kein Culling, Ward-Clustering.
@@ -143,7 +143,7 @@
                         width="16.002cm"
                         height="3.993888888888889cm"
                         rend="inline"
-                        url="KRAUTTER_Benjamin_Quantitatives__close_reading___Vier_mikroa.xml-image3.jpeg"/>
+                        url="KRAUTTER_Benjamin_Quantitatives__close_reading___Vier_mikroa-image3.jpeg"/>
                     <hi rend="italic">Abbildung 3</hi>: Redeäußerungen und deren Position, 
                     <hi rend="italic">Minna von Barnhelm</hi>.
                     <note place="foot" xml:id="ftn6" n="6">
@@ -177,7 +177,7 @@
                         width="15.980833333333333cm"
                         height="13.255625cm"
                         rend="inline"
-                        url="KRAUTTER_Benjamin_Quantitatives__close_reading___Vier_mikroa.xml-image4.jpeg"/>
+                        url="KRAUTTER_Benjamin_Quantitatives__close_reading___Vier_mikroa-image4.jpeg"/>
                 </figure>
                 <p>
                     <hi rend="italic">Abbildung 4</hi>: Semantische Wortfelder in Minna von Barnhelm, normalisiert nach Länge der Figurenrede.
@@ -187,7 +187,7 @@
                         width="15.980833333333333cm"
                         height="13.149791666666667cm"
                         rend="inline"
-                        url="KRAUTTER_Benjamin_Quantitatives__close_reading___Vier_mikroa.xml-image5.jpeg"/>
+                        url="KRAUTTER_Benjamin_Quantitatives__close_reading___Vier_mikroa-image5.jpeg"/>
                 </figure>
                 <p>
                     <hi rend="italic">Abbildung 5</hi>: Euklidische Distanz der semantischen Wortfelder als Heatmap, Figurensegmente von Minna und Tellheim. Umso heller die Flächen dargestellt sind, umso größer ist die Übereinstimmung der Wortfelder.
@@ -203,7 +203,7 @@
                         width="16.007291666666667cm"
                         height="13.705416666666666cm"
                         rend="inline"
-                        url="KRAUTTER_Benjamin_Quantitatives__close_reading___Vier_mikroa.xml-image6.jpeg"/>
+                        url="KRAUTTER_Benjamin_Quantitatives__close_reading___Vier_mikroa-image6.jpeg"/>
                     <hi rend="italic">Abbildung 5</hi>: kumulative Sentiment-Analyse, Minna von Barnhelm Akt 5, Valenz der Redeanteile von Minna und Tellheim.
                     <note place="foot" xml:id="ftn10" n="10">
                         <p rend="footnote text"> Erstellt mit Hilfe des ‚syuzhet‘-Pakets für R, das die Valenz auf Ebene des Satzes bestimmt (Jockers). https://github.com/mjockers/syuzhet. Die Auswertung erfolgt mit der deutschen Version des NRC Word-Emotion Association Lexicon. http://saifmohammad.com/WebPages/NRC-Emotion-Lexicon.htm.</p>

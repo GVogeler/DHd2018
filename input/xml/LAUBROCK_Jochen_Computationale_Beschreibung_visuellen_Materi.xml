@@ -102,7 +102,7 @@
                         width="15.989561111111112cm"
                         height="7.949847222222222cm"
                         rend="inline"
-                        url="LAUBROCK_Jochen_Computationale_Beschreibung_visuellen_Materi.xml-image1.png"/>
+                        url="LAUBROCK_Jochen_Computationale_Beschreibung_visuellen_Materi-image1.png"/>
                     <head>Abbildung 1. Sprechblasendetektion mithilfe von Convolutional Features.</head>
                 </figure>
                 <p>Auch für die Erkennung gezeichneter Gesichter eignen sich CNNs, allerdings ist hier ein Training auf Ansichten in verschiedenen Perspektiven (Frontal, Profil) notwendig. Und schließlich lässt sich die empirische Fixationsverteilung mit Deep Gaze II insgesamt sehr überzeugend reproduzieren (Abb. 2). Die CNN-Features kodieren also aufmerksamkeitsrelevante Merkmale.</p>
@@ -111,7 +111,7 @@
                         width="6.096cm"
                         height="9.439994444444444cm"
                         rend="inline"
-                        url="LAUBROCK_Jochen_Computationale_Beschreibung_visuellen_Materi.xml-image2.png"/>
+                        url="LAUBROCK_Jochen_Computationale_Beschreibung_visuellen_Materi-image2.png"/>
                     <head>Abbildung 2. Empirische Fixationsverteilung von 100 Lesern (Punkte) und DeepGaze II-Vorhersagen (Konturlinien).</head>
                 </figure>
                 <p>Insgesamt eigenen sich auf Fotos trainierte CNNs schon ohne spezifisches weiteres Training recht gut zur Beschreibung gezeichneten Materials in Graphic Novels. </p>

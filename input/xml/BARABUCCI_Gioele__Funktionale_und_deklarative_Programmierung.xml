@@ -133,7 +133,7 @@
                 <p>Diese Operationen, die denKurationsprozess grob zusammenfassen, sind imMakefile monier.mkbeschrieben. Die Operationensind im Makefile in der folgenden Form ausgedrückt: „1) Datei X wird ausgehend von Datei Y hergestellt. 2) Wenn X fehlt oder älter als Y ist, wird X hergestellt, indem man Y anProgramm K mit bestimmten Parametern übergibt“. Abbildung 1 zeigt einige Regeln, die im Vergleich zum Original vereinfacht dargestellt sind.</p>
                 <p>
                     <figure>
-                        <graphic url="BARABUCCI_Gioele__Funktionale_und_deklarative_Programmierung.xml-100002010000043A0000028C0EC3C5249F2F569F.png"/>
+                        <graphic url="BARABUCCI_Gioele__Funktionale_und_deklarative_Programmierung-100002010000043A0000028C0EC3C5249F2F569F.png"/>
                         <head>
                             <lb/>Abbildung 1: Makefile für die Kuration des Monier Wörterbuches. In den ersten Zeilen werden verschiedene Parameter eingerichtet. Dann werden die Abhängigkeiten der target-Datei monier.tei beschrieben. Schließlich wird das Kommando eingerichtet, das man benötigt, um die target-Datei herzustellen.
                         </head>
@@ -146,7 +146,7 @@
                 <p>Operationen 2, 3 und 4 (die Behebung von Fehlern, die Umwandlung der originalen Daten in TEI/XML und deren Verlinkung mit externen Datenbanken) sind das Herzstück des Kurationsprozesses und wird durch verschiedeneXProcPipelines durchgeführt. Diese Pipelinesbestehen insgesamt aus 35 verschiedenen XSLT-Transformationen, von denen jede einzelne einen spezifischen Schritt des Kurationsprozesses darstellt. Beispiele für diese Schritte sind:fehlplatziertes Markup verschieben, falsch kodierte Devanagari-Buchstaben richtig stellen, bibliographische Referenzen hinzufügen. Abbildungen2 und 3 zeigen Ausschnitte von zwei XSLT-Transformationen.</p>
                 <p>
                     <figure>
-                        <graphic url="BARABUCCI_Gioele__Funktionale_und_deklarative_Programmierung.xml-100002010000065B00000464726B40CC8DBDA3AE.png"/>
+                        <graphic url="BARABUCCI_Gioele__Funktionale_und_deklarative_Programmierung-100002010000065B00000464726B40CC8DBDA3AE.png"/>
                         <head>
                             <lb/>Abbildung 2: Ein Miniprogramm. Dieser Schritt korrigiert nur einen bestimmten Fehler.
                         </head>
@@ -154,7 +154,7 @@
                 </p>
                 <p>
                     <figure>
-                        <graphic url="BARABUCCI_Gioele__Funktionale_und_deklarative_Programmierung.xml-100002010000045E000001847ACA3C93EEDF27A8.png"/>
+                        <graphic url="BARABUCCI_Gioele__Funktionale_und_deklarative_Programmierung-100002010000045E000001847ACA3C93EEDF27A8.png"/>
                         <head>
                             <lb/>Abbildung 3: Auszug aus der Haupt-TEI-Transformation. Da die vorherigen Schritte die kleinen Fehler schon behoben haben, kann diese Transformation kurz und bündig sein.
                         </head>

@@ -148,7 +148,7 @@
                     <p>Der Anlage des Zettelkastens folgend verstehen wir die Zettel als semantisch freie Einheiten und erzeugen für jede Zettelseite eine XML-TEI-Datei, in der die Transkription des Zettelinhalts erfolgt. Der Kopf (&lt;teiHeader&gt;) bietet Raum für Metainformationen, in einem umfangreichen Anhang zur Transkription (&lt;back&gt;) betten wir den Zettel in das Zettelnetzwerk ein. Wir unterscheiden mehrere Navigationswege durch den Kasten: Erstens eine physische Navigation in der von Zettelvorderseite zu folgender Vorderseite gesprungen wird. Zweitens geht es um übergeordnete Gliederungsverläufe. In einer dritten Navigation modellieren wir logische Abfolgen. In Form von Sprungzielen wird hier der nächste, in einem Gedankenstrang folgende Zettel angegeben, dabei werden von Luhmann eingeschobene Zettel zunächst ausgeblendet. Diese Abfolgen werden in eigenen Feldern klassifiziert und explizit gemacht.</p>
                     <p>
                         <figure>
-                            <graphic url="GOEDEL_Martina_Digitale_Differenz__Luhmanns_Zettelkasten_als.xml-uB_gHj5D2tuxIl0CAKJA1bO4N6bkHdrMxHFtD5YMWh75GKWSobJHz55uOI5VQgnkVQCJZNyZfwHJhbPH7BqGu6gBmNvME6HzeukumoP7LZsU_0SI770lzRfL9mPprgCf1x4pNbTV"/>
+                            <graphic url="GOEDEL_Martina_Digitale_Differenz__Luhmanns_Zettelkasten_als-uB_gHj5D2tuxIl0CAKJA1bO4N6bkHdrMxHFtD5YMWh75GKWSobJHz55uOI5VQgnkVQCJZNyZfwHJhbPH7BqGu6gBmNvME6Hzeuku"/>
                             <head>Abbildung 1: Ausschnitt aus der oXygen-Arbeitsoberfläche zur Transkription und Bearbeitung von Zettelseiten. (Zettel 1-5B1c)Zettel-Framework Vernetzung.png</head>
                         </figure>
                     </p>
@@ -173,7 +173,7 @@
                     <p>Innerhalb der Transkription sind Schlagwörter, bibliographische Angaben, Personennamen und vor allem Verweise zu anderen Zetteln verlinkt. Außerdem ist eine facettierte Volltext-Suche (z.B. nach Schlagworten oder bibliographischen Angaben) über vom Benutzer definierbare Bereiche des Zettelkastens möglich.</p>
                     <p>
                         <figure>
-                            <graphic url="GOEDEL_Martina_Digitale_Differenz__Luhmanns_Zettelkasten_als.xml-hOaTZrZDa_eL6oPhm3fGAXnKKVMTug-Gc6saRKvS65-DM-9Fj65LwKQ2mKCh-s-HtsejMRxngUGtiPYibDrfQfE5JZuzJRIMrtYfwlXXM1sINmEUY8SwuTEWk7N4hOgKs2kCR6Rq"/>
+                            <graphic url="GOEDEL_Martina_Digitale_Differenz__Luhmanns_Zettelkasten_als-hOaTZrZDa_eL6oPhm3fGAXnKKVMTug-Gc6saRKvS65-DM-9Fj65LwKQ2mKCh-s-HtsejMRxngUGtiPYibDrfQfE5JZuzJRIMrtYf"/>
                             <head>Abbildung 2: Ansicht eines Zettels im Forschungsportal</head>
                         </figure>
                     </p>
@@ -211,13 +211,13 @@
                     </p>
                     <p>
                         <figure>
-                            <graphic url="GOEDEL_Martina_Digitale_Differenz__Luhmanns_Zettelkasten_als.xml-6IUdqOX_Ix0yQbDQ7vg5G3pzu0aZBKkagPzWfoUctvaM5ck2yyXoAsfrJHtJh42TSFyMMA3HaDB2xh9m09lDcwOEKhTllUBVAuFl0szo4EFDUkquDolc1Fb5s-ySd734oqIKkaw1"/>
+                            <graphic url="GOEDEL_Martina_Digitale_Differenz__Luhmanns_Zettelkasten_als-6IUdqOX_Ix0yQbDQ7vg5G3pzu0aZBKkagPzWfoUctvaM5ck2yyXoAsfrJHtJh42TSFyMMA3HaDB2xh9m09lDcwOEKhTllUBVAuFl"/>
                             <head>Abbildung 3: Ausschnitt einer Visualisierung der im Rahmen der Edition erstellten inhaltlich-logischen Einordnungs- und Navigationsstruktur des digitalen Zettelkastens.BranchView Screenshot für DHd 2018.png</head>
                         </figure>
                     </p>
                     <p>
                         <figure>
-                            <graphic url="GOEDEL_Martina_Digitale_Differenz__Luhmanns_Zettelkasten_als.xml-d2fDbOPy7XiAf9IdbKIeAscvQ6nO5mi3AO5TBwADaGwi0gnlU78vuiHx4-cvkSyg3xDWikGGG52C08kZwZRyXB8fHl4c1coU-4XieXYG7kwHa9lheUxnFM4yXu4WsF2GxOIBdmtl"/>
+                            <graphic url="GOEDEL_Martina_Digitale_Differenz__Luhmanns_Zettelkasten_als-d2fDbOPy7XiAf9IdbKIeAscvQ6nO5mi3AO5TBwADaGwi0gnlU78vuiHx4-cvkSyg3xDWikGGG52C08kZwZRyXB8fHl4c1coU-4Xi"/>
                             <head>Abbildung 4: Visualisierung der internen Zettelverweise des ersten Auszugs von Zettelkasten I (ca. 3300 Zettel). Man erkennt die deutlichen Unterschiede der Vernetzungsdichte innerhalb und zwischen den 21 Abteilungen.</head>
                         </figure>
                     </p>

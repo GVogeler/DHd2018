@@ -105,7 +105,7 @@
                 <p>Abbildung 1 zeigt die zeitliche Verteilung einiger Subdatensätze des Katalogs. Von den etwa 14,1 Mio. Objekten im originalen DNB-Datensatz weisen etwa 8,3 Mio. extrahierbare Seitenanzahlen auf (59 %). Beschränken wir diese Anzahl auf ›Romane‹ (über das Datenfeld "rdau:P60493"), bleiben 353 498 übrig, von denen wiederum 316 518 Umfangsangaben aufweisen und 180 219 einen Verfasser, der mindestens einen Wikipedia-Eintrag (in egal welcher Sprache) besitzt. Dieses Datenset ist die Grundlage für die unten folgenden Anwendungsszenarien.</p>
                 <p>
                     <figure>
-                        <graphic url="FISCHER_Frank__Liebe_und_Tod_in_der_Deutschen_Nationalbiblio.xml-100000000000032000000258EB09BF3712618D9C.png"/>
+                        <graphic url="FISCHER_Frank__Liebe_und_Tod_in_der_Deutschen_Nationalbiblio-100000000000032000000258EB09BF3712618D9C.png"/>
                     </figure>Abbildung 1: Fünf verschieden qualifizierte Subdatensätze des DNB-Katalogs in zeitlicher Verteilung.
                 </p>
             </div>
@@ -424,12 +424,12 @@
                 <p>Für genauere Analysen auf Grundlage dieser Extraktions- und Visualisierungsmethoden stellt das von uns vorgestellte Framework eine ideale Basis dar.</p>
                 <p>
                     <figure>
-                        <graphic url="FISCHER_Frank__Liebe_und_Tod_in_der_Deutschen_Nationalbiblio.xml-1000000000000320000002588354496A458DC01A.png"/>
+                        <graphic url="FISCHER_Frank__Liebe_und_Tod_in_der_Deutschen_Nationalbiblio-1000000000000320000002588354496A458DC01A.png"/>
                     </figure>Abbildung 2: Vorkommen ausgewählter Wörter in Romantiteln im zeitlichen Verlauf (absolut).
                 </p>
                 <p>
                     <figure>
-                        <graphic url="FISCHER_Frank__Liebe_und_Tod_in_der_Deutschen_Nationalbiblio.xml-1000000000000320000002582D3B4403ADB68D41.png"/>
+                        <graphic url="FISCHER_Frank__Liebe_und_Tod_in_der_Deutschen_Nationalbiblio-1000000000000320000002582D3B4403ADB68D41.png"/>
                     </figure>Abbildung 3: Vorkommen ausgewählter Wörter in Romantiteln im zeitlichen Verlauf (relativ).
                 </p>
             </div>
@@ -439,7 +439,7 @@
                 <p>Als Zuarbeit zu einer Theorie des literarischen Textumfangs haben wir mit dem von uns hier vorgestellten Framework in einer umfangreicheren Studie untersucht, wie sich der Umfang von Romanen etwa auf die Kanonbildung auswirkt (längere Romane, speziell solche von mehr als 1 000 Seiten Umfang, haben es leichter, in Kanonlisten zu landen). Außerdem ist es uns gelungen zu zeigen, wie umfangreiche Romane die DNA von Verlagen bestimmen können (vgl. Fischer/Jäschke 2018).</p>
                 <p>
                     <figure>
-                        <graphic url="FISCHER_Frank__Liebe_und_Tod_in_der_Deutschen_Nationalbiblio.xml-1000000000000320000002588593112BE8F98C35.png"/>
+                        <graphic url="FISCHER_Frank__Liebe_und_Tod_in_der_Deutschen_Nationalbiblio-1000000000000320000002588593112BE8F98C35.png"/>
                     </figure>Abbildung 4: Entwicklung der mittleren Seitenanzahl pro Jahr seit 1913.
                 </p>
             </div>

@@ -201,17 +201,17 @@
                 </p>
                 <p>Experimente mit den beiden Unterstufen der ersten Stufe (Lokalisierung von Objekten und deren Verfeinerung) zeigen einen durchschnittlichen IoU von 0,68 (Median 0,76). Für Symbole, die in deutlich über 80 mal in Bildern annotiert werden konnten ist der IoU mit 0,74 (Median 0,76) nochmals höher. 
                     <figure>
-                        <graphic url="RADISCH_Erik_Contextualizing_Bandera__Ein_Distant_Watching_A.xml-1000000000000283000001E4F00163B99AE29F75.jpg"/>
+                        <graphic url="RADISCH_Erik_Contextualizing_Bandera__Ein_Distant_Watching_A-1000000000000283000001E4F00163B99AE29F75.jpg"/>
                     </figure>
                 </p>
                 <p>
                     <figure>
-                        <graphic url="RADISCH_Erik_Contextualizing_Bandera__Ein_Distant_Watching_A.xml-1000000000000282000001C4A8ACC909B8299B84.jpg"/>
+                        <graphic url="RADISCH_Erik_Contextualizing_Bandera__Ein_Distant_Watching_A-1000000000000282000001C4A8ACC909B8299B84.jpg"/>
                     </figure>
                 </p>
                 <p>
                     <figure>
-                        <graphic url="RADISCH_Erik_Contextualizing_Bandera__Ein_Distant_Watching_A.xml-100000000000028200000167A51A57351AC8D605.jpg"/>
+                        <graphic url="RADISCH_Erik_Contextualizing_Bandera__Ein_Distant_Watching_A-100000000000028200000167A51A57351AC8D605.jpg"/>
                     </figure>
                 </p>
                 <p>Auf den hier gezeigten Beispielbildern sind automatisch erkannte Regionen trainierter Symbole farblich hervorgehoben. Auf dem ersten Bild wurde die ukrainische Flagge sowie das Konterfei Banderas erkannt, auf dem zweiten Bild Hammer und Sichel, auf dem dritten Bild das Gesicht Adolf Hitlers. Aber nicht nur Vorhandensein und Nichtvorhandensein der Symbole ist feststellbar, auch Position und Größe können extrahiert werden.</p>
@@ -220,10 +220,10 @@
                 <p>Auch lässt sich auf diese Weise untersuchen, ob mit der Zeit bestimmte Symbole (zum Beispiel faschistische) in den Videos zu- oder abnahmen.</p>
                 <p>
                     <figure>
-                        <graphic url="RADISCH_Erik_Contextualizing_Bandera__Ein_Distant_Watching_A.xml-10000000000004CF000001EAC415D89E194E3CB9.png"/>
+                        <graphic url="RADISCH_Erik_Contextualizing_Bandera__Ein_Distant_Watching_A-10000000000004CF000001EAC415D89E194E3CB9.png"/>
                     </figure>
                     <figure>
-                        <graphic url="RADISCH_Erik_Contextualizing_Bandera__Ein_Distant_Watching_A.xml-10000000000004C9000002260D81D214094CA207.png"/>
+                        <graphic url="RADISCH_Erik_Contextualizing_Bandera__Ein_Distant_Watching_A-10000000000004C9000002260D81D214094CA207.png"/>
                     </figure>
                 </p>
             </div>
