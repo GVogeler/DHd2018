@@ -40,7 +40,19 @@
             </xsl:otherwise>
         </xsl:choose>
     </xsl:variable>
+    <xsl:variable name="input-image-files">
+        <xsl:choose>
+            <xsl:when test="//*:images">
+                <xsl:value-of select="//*:images[1]/@n"/>
+            </xsl:when>
+            <xsl:otherwise>
+                <xsl:text>????</xsl:text>
+            </xsl:otherwise>
+        </xsl:choose>
+    </xsl:variable>
     <xsl:variable name="files" select="collection(concat('xml','/?recurse=yes;select=*.xml'))"/>
+
+
     <xsl:template match="/">
         <xsl:result-document href="files.xml">
             <teiCorpus xmlns="http://www.tei-c.org/ns/1.0">
@@ -57,6 +69,8 @@
                 <xsl:copy-of select="$files"/>
             </teiCorpus>
         </xsl:result-document>
+
+
         <xsl:result-document href="bilder.bat" method="text" encoding="utf-8">
 <!--            Erzeuge eine .bat-Datei, mit der die bilder aus dem originalen Ordner in einen Zielordner kopiert werden und dabei normalisiert benannt werden.-->
             <xsl:variable name="imagetypes" select="$files//graphic/@url[not(starts-with(., 'http'))]/tokenize(., '\.')[last()]"/>
@@ -103,6 +117,8 @@ move "</xsl:text>
 </xsl:text></xsl:for-each>
             </xsl:for-each>
         </xsl:result-document>
+
+
         <xsl:result-document href="Bibliographie.html">
             <html>
                 <head>
@@ -125,6 +141,8 @@ move "</xsl:text>
                 </body>
             </html>
         </xsl:result-document>
+
+
         <xsl:result-document href="Bibliographie.xml">
             <TEI xmlns="http://www.tei-c.org/ns/1.0">
                 <teiHeader>
@@ -147,6 +165,8 @@ move "</xsl:text>
                 </text>
             </TEI>
         </xsl:result-document>
+
+
         <html>
             <head>
                 <title>XML-Test</title>
@@ -160,6 +180,7 @@ move "</xsl:text>
             <meta charset="utf-8"/>
         </head>
             <body>
+
                 <p>Anzahl Dateien: <xsl:value-of select="count($files)"/></p>
                 <xsl:if test="count($files) != $files-in-folder">
                     <p>Zahl der Dateien stimmt nicht überein: <a href="dir.xml.txt">dir.xml.txt</a></p>
@@ -170,16 +191,37 @@ move "</xsl:text>
                         </xsl:for-each>
                     </xsl:result-document>
                 </xsl:if>
+                
+                <p>Anzahl der Bilder: <xsl:value-of select="count($files//graphic)"/></p>
+                <xsl:if test="count($files//graphic) != $input-image-files">
+                    <p>Zahl der Bildreferenz im XML und der heruntergeladenen Bilder stimmt nicht überein: <a href="tei-graphic.txt">tei-graphic.txt</a> und <a href="images/">input/images</a></p>
+                    <xsl:result-document href="tei-graphic.txt" method="text">
+                        <xsl:for-each select="$files">
+                            <xsl:sort select="document-uri(.)"/>
+                            <xsl:variable name="filename" select="tokenize(document-uri(.),'/')[last()]"/>
+                            <xsl:variable name="filename-without-extension" select="substring-before($filename, '.xml')"/>
+
+                            <!-- Kopiere modifizierte XML-Dateien in das XML-Verzeichnis -->
+                            <xsl:result-document href="xml/{$filename}">
+                                <xsl:apply-templates mode="copyxml">
+                                    <xsl:with-param name="filename" select="$filename-without-extension"/>
+                                </xsl:apply-templates>
+                            </xsl:result-document>
+                            
+                            <!-- Liste alle Bilder auf -->
+                            <xsl:for-each select=".//graphic">
+                                <xsl:sort select="@url"/>
+                                <xsl:if test="not(starts-with(@url,$filename-without-extension))"><xsl:value-of select="$filename-without-extension"/><xsl:text>-</xsl:text></xsl:if><xsl:value-of select="replace(@url, '^Pictures/', '')"/><xsl:text>
+</xsl:text>
+                            </xsl:for-each>
+                        </xsl:for-each>
+                    </xsl:result-document>
+                </xsl:if>
+
                 <xsl:for-each select="$files">
                     <xsl:sort select="document-uri(.)"/>
                     <xsl:variable name="filename" select="tokenize(document-uri(.),'/')[last()]"/>
                     <xsl:variable name="current-folder" select="replace(replace(substring-after(substring-before(document-uri(.), $filename),'file:/'), '/', '\\'), '%20', ' ')"/>
-                    <!-- Kopiere XML-Dateien in das XML-Verzeichnis -->
-                    <xsl:result-document href="xml/{$filename}">
-                        <xsl:apply-templates mode="copyxml">
-                            <xsl:with-param name="filename" select="substring-before($filename, '.xml')"/>
-                        </xsl:apply-templates>
-                    </xsl:result-document>
                     <div id="document-uri(.)" class="contrib">
                         <p>Datei: <a href="{document-uri(.)}"><xsl:value-of select="tokenize(document-uri(.),'/')[last()]"/></a></p>
                         <p>Typ: <xsl:value-of select=".//keywords[@scheme='ConfTool'][@n='subcategory']/term"/></p>
@@ -253,10 +295,13 @@ move "</xsl:text>
                         <xsl:when test="starts-with(@url,'http')">
                             <xsl:value-of select="@url"/>
                         </xsl:when>
-                        <xsl:otherwise>
+                        <xsl:when test="starts-with(@url, 'Pictures/')">
                             <xsl:value-of select="$filename"/>
                             <xsl:text>-</xsl:text>
                             <xsl:value-of select="$image-file-name"/>
+                        </xsl:when>
+                        <xsl:otherwise>
+                            <xsl:apply-templates select="."/>
                         </xsl:otherwise>
                     </xsl:choose>
                 </xsl:attribute>
