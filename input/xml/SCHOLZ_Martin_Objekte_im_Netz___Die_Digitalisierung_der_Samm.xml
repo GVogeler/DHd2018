@@ -81,7 +81,17 @@
                     <term>virtuelle Forschungsumgebungen</term>
                 </keywords>
             </textClass>
-        </profileDesc>
+        <settingDesc>
+            <ab n="conference">DHd2018 - "Kritik der Digitalen Vernunft", Köln</ab>
+            <ab n="paperID">239</ab>
+            <ab n="session_ID">30</ab>
+            <ab n="session_numberInSession">3</ab>
+            <ab n="session_short">VP_1c</ab>
+            <ab n="session_title">Sammlungsdigitalisierung I</ab>
+            <ab n="session_start">2018-02-28 09:00</ab>
+            <ab n="session_end">2018-02-28 10:30</ab>
+         </settingDesc>
+      </profileDesc>
     </teiHeader>
     <text>
         <body>

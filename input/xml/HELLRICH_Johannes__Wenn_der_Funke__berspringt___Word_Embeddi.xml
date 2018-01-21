@@ -75,7 +75,17 @@
                     <term>Text</term>
                 </keywords>
             </textClass>
-        </profileDesc>
+        <settingDesc>
+            <ab n="conference">DHd2018 - "Kritik der Digitalen Vernunft", Köln</ab>
+            <ab n="paperID">147</ab>
+            <ab n="session_ID">29</ab>
+            <ab n="session_numberInSession">1</ab>
+            <ab n="session_short">VP_1b</ab>
+            <ab n="session_title">Textmining I</ab>
+            <ab n="session_start">2018-02-28 09:00</ab>
+            <ab n="session_end">2018-02-28 10:30</ab>
+         </settingDesc>
+      </profileDesc>
     </teiHeader>
     <text>
         <body>

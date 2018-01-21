@@ -87,7 +87,17 @@
                     <term>Text</term>
                 </keywords>
             </textClass>
-        </profileDesc>
+        <settingDesc>
+            <ab n="conference">DHd2018 - "Kritik der Digitalen Vernunft", Köln</ab>
+            <ab n="paperID">249</ab>
+            <ab n="session_ID">151</ab>
+            <ab n="session_numberInSession">1</ab>
+            <ab n="session_short">Panel_7a</ab>
+            <ab n="session_title">Digitale Editionen III</ab>
+            <ab n="session_start">2018-03-01 16:00</ab>
+            <ab n="session_end">2018-03-01 17:30</ab>
+         </settingDesc>
+      </profileDesc>
     </teiHeader>
     <text>
         <body>

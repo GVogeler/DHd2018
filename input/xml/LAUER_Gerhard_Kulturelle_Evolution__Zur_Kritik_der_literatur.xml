@@ -59,7 +59,17 @@
                     <term>Netzwerkanalyse</term>
                 </keywords>
             </textClass>
-        </profileDesc>
+        <settingDesc>
+            <ab n="conference">DHd2018 - "Kritik der Digitalen Vernunft", Köln</ab>
+            <ab n="paperID">141</ab>
+            <ab n="session_ID">32</ab>
+            <ab n="session_numberInSession">1</ab>
+            <ab n="session_short">VP_2a</ab>
+            <ab n="session_title">Theorie der digitalen Geisteswissenschaften II</ab>
+            <ab n="session_start">2018-02-28 11:00</ab>
+            <ab n="session_end">2018-02-28 12:30</ab>
+         </settingDesc>
+      </profileDesc>
     </teiHeader>
     <text>
         <body>

@@ -101,7 +101,17 @@
                     <term>Text</term>
                 </keywords>
             </textClass>
-        </profileDesc>
+        <settingDesc>
+            <ab n="conference">DHd2018 - "Kritik der Digitalen Vernunft", Köln</ab>
+            <ab n="paperID">296</ab>
+            <ab n="session_ID">60</ab>
+            <ab n="session_numberInSession">59</ab>
+            <ab n="session_short">Poster_1</ab>
+            <ab n="session_title">Postersession</ab>
+            <ab n="session_start">2018-03-01 17:45</ab>
+            <ab n="session_end">2018-03-01 23:00</ab>
+         </settingDesc>
+      </profileDesc>
     </teiHeader>
     <text>
         <body>
@@ -135,7 +145,7 @@
                         </p-->
                     <p>
                     <figure>
-                        <graphic url=""/>
+                        <graphic url="gloss1.gif"/>
                     </figure>
                     </p>
                     
@@ -155,7 +165,7 @@
                         </p-->
                     <p>
                         <figure>
-                            <graphic url=""/>
+                            <graphic url="gloss2.gif"/>
                         </figure>
                     </p>                    
                     
@@ -164,7 +174,7 @@
                     <!--p rend="HTML Preformatted">xvad  kešerxvaduk  AFF;LGSPEC4;ARGDA2S;V;LGSPEC6;ARGNO1S</p-->
                     <p>
                         <figure>
-                            <graphic url=""/>
+                            <graphic url="gloss3.gif"/>
                         </figure>
                     </p>
                     
@@ -186,7 +196,7 @@
                         </p-->
                     <p>
                         <figure>
-                            <graphic url=""/>
+                            <graphic url="gloss4.gif"/>
                         </figure>
                     </p>
                     

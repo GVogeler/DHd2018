@@ -70,7 +70,17 @@
                     <term>Link</term>
                 </keywords>
             </textClass>
-        </profileDesc>
+        <settingDesc>
+            <ab n="conference">DHd2018 - "Kritik der Digitalen Vernunft", Köln</ab>
+            <ab n="paperID">149</ab>
+            <ab n="session_ID">34</ab>
+            <ab n="session_numberInSession">2</ab>
+            <ab n="session_short">VP_2c</ab>
+            <ab n="session_title">Sammlungsdigitalisierung II</ab>
+            <ab n="session_start">2018-02-28 11:00</ab>
+            <ab n="session_end">2018-02-28 12:30</ab>
+         </settingDesc>
+      </profileDesc>
     </teiHeader>
     <text>
         <body>

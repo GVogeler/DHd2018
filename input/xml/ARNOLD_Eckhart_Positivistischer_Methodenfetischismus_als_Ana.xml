@@ -60,7 +60,17 @@
                     <term>Theoretisierung</term>
                 </keywords>
             </textClass>
-        </profileDesc>
+        <settingDesc>
+            <ab n="conference">DHd2018 - "Kritik der Digitalen Vernunft", Köln</ab>
+            <ab n="paperID">255</ab>
+            <ab n="session_ID">154</ab>
+            <ab n="session_numberInSession">2</ab>
+            <ab n="session_short">VP_8a</ab>
+            <ab n="session_title">Theorie der Digitalen Geisteswissenschaften III</ab>
+            <ab n="session_start">2018-03-02 09:00</ab>
+            <ab n="session_end">2018-03-02 10:30</ab>
+         </settingDesc>
+      </profileDesc>
     </teiHeader>
     <text>
         <body>

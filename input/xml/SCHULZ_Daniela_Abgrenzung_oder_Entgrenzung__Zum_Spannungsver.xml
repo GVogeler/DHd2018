@@ -58,7 +58,17 @@
                     <term>Lehre</term>
                 </keywords>
             </textClass>
-        </profileDesc>
+        <settingDesc>
+            <ab n="conference">DHd2018 - "Kritik der Digitalen Vernunft", Köln</ab>
+            <ab n="paperID">295</ab>
+            <ab n="session_ID">50</ab>
+            <ab n="session_numberInSession">1</ab>
+            <ab n="session_short">Panel_3a</ab>
+            <ab n="session_title">Historische Grundwissenschaften</ab>
+            <ab n="session_start">2018-02-28 14:00</ab>
+            <ab n="session_end">2018-02-28 15:30</ab>
+         </settingDesc>
+      </profileDesc>
     </teiHeader>
     <text>
         <body>

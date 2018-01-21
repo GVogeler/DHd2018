@@ -89,7 +89,17 @@
                     <term>Bilder</term>
                 </keywords>
             </textClass>
-        </profileDesc>
+        <settingDesc>
+            <ab n="conference">DHd2018 - "Kritik der Digitalen Vernunft", Köln</ab>
+            <ab n="paperID">287</ab>
+            <ab n="session_ID">36</ab>
+            <ab n="session_numberInSession">3</ab>
+            <ab n="session_short">VP_5b</ab>
+            <ab n="session_title">Der sehende Computer II</ab>
+            <ab n="session_start">2018-03-01 11:00</ab>
+            <ab n="session_end">2018-03-01 12:30</ab>
+         </settingDesc>
+      </profileDesc>
     </teiHeader>
     <text>
         <body>

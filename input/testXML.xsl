@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns:xs="http://www.w3.org/2001/XMLSchema"
-    exclude-result-prefixes="xs"
+    xmlns:dhd="http://dhd2018.uni-koeln.de"
+    xmlns:t="http://www.tei-c.org/ns/1.0"
+    exclude-result-prefixes="xs dhd t"
     xpath-default-namespace="http://www.tei-c.org/ns/1.0"
     version="2.0">
     <!-- Verarbeitungsprozeß:
@@ -51,7 +53,7 @@
         </xsl:choose>
     </xsl:variable>
     <xsl:variable name="files" select="collection(concat('xml','/?recurse=yes;select=*.xml'))"/>
-
+    <xsl:variable name="program" select="document('DHd2018-Programm.xml')"/>
 
     <xsl:template match="/">
         <xsl:result-document href="files.xml">
@@ -217,19 +219,26 @@ move "</xsl:text>
                         </xsl:for-each>
                     </xsl:result-document>
                 </xsl:if>
-
+                
                 <xsl:for-each select="$files">
                     <xsl:sort select="document-uri(.)"/>
                     <xsl:variable name="filename" select="tokenize(document-uri(.),'/')[last()]"/>
                     <xsl:variable name="current-folder" select="replace(replace(substring-after(substring-before(document-uri(.), $filename),'file:/'), '/', '\\'), '%20', ' ')"/>
+                    <xsl:variable name="title" select="/TEI//titleStmt/(title/title[@type='main']|title[not(title)])/dhd:strip(normalize-space(.))"/>
+                    <xsl:variable name="paper" select="$program//*:paper[./*:title[contains(./dhd:strip(normalize-space()), $title)]]"/>
+                    <xsl:variable name="session" select="$paper/*:session_short"/>
+                    
                     <div id="document-uri(.)" class="contrib">
                         <p>Datei: <a href="{document-uri(.)}"><xsl:value-of select="tokenize(document-uri(.),'/')[last()]"/></a></p>
-                        <p>Typ: <xsl:value-of select=".//keywords[@scheme='ConfTool'][@n='subcategory']/term"/></p>
+                        <p>Typ: <xsl:value-of select="//keywords[@scheme='ConfTool'][@n='subcategory']/term"/></p>
+                        <p>Session: <xsl:if test="count($session) != 1"><b>ACHTUNG, keine automatische Session-Zuordnung möglich!!!</b></xsl:if><xsl:value-of select="$session"/></p>
                         <p>Titel: <xsl:value-of select="/TEI/teiHeader[1]/fileDesc[1]/titleStmt[1]/title"/></p>
                         <p>Autoren: <xsl:apply-templates select="/TEI/teiHeader/fileDesc/titleStmt/author"/></p>
                         <p>Text: <xsl:value-of select="string-length(/TEI/text/body/string())"/><xsl:text> Zeichen </xsl:text>
                             <xsl:if test="string-length(/TEI/text/body/string()) lt 4000"><span class="Achtung">ACHTUNG: Text kürzer als 5000 Zeichen</span></xsl:if></p>
-                        <p>Überschriften: <xsl:value-of select="count(.//head)"/> <xsl:if test="count(.//head) = 0"><xsl:text> </xsl:text><span class="Achtung">Achtung, keine Überschriften im TEI</span></xsl:if></p>
+                        <p>Überschriften: <xsl:value-of select="count(.//head)"/> <xsl:if test="count(.//head) = 0"><xsl:text> </xsl:text><span class="Achtung">Achtung, keine Überschriften im TEI</span></xsl:if>
+                            <xsl:if test="count(.//titleStmt//title[@type='sub']) gt 1"><xsl:text> </xsl:text><b>ACHTUNG! mehr als ein Untertitel, evtl. vermischt mit Überschriften?</b></xsl:if>
+                        </p>
                         <xsl:if test=".//graphic"><p>Bilder: 
                             <xsl:for-each select=".//graphic">
                                 <xsl:variable name="image-file-name" select="replace(tokenize(@url,'/')[last()], '/', '\\')"/>
@@ -284,7 +293,7 @@ move "</xsl:text>
             </xsl:apply-templates>
         </xsl:copy>
     </xsl:template>
-    <xsl:template match="graphic" mode="copyxml">
+    <xsl:template match="graphic[contains(@url,'/')]" mode="copyxml">
         <xsl:param name="filename"/>
         <xsl:variable name="image-file-name" select="substring(replace(tokenize(@url,'/')[last()], '/', '\\'),1,100)"/>
         <xsl:copy>
@@ -301,10 +310,38 @@ move "</xsl:text>
                             <xsl:value-of select="$image-file-name"/>
                         </xsl:when>
                         <xsl:otherwise>
-                            <xsl:apply-templates select="."/>
+                            <xsl:value-of select="@url"/>
                         </xsl:otherwise>
                     </xsl:choose>
                 </xsl:attribute>
         </xsl:copy>
     </xsl:template>
+    <xsl:template match="profileDesc"
+        mode="copyxml">
+        <xsl:param name="filename"/>
+        <xsl:variable name="title" select="ancestor::TEI//titleStmt/(title/title[@type='main']|title[not(title)])/dhd:strip(normalize-space(.))"/>
+        <xsl:copy>
+            <xsl:apply-templates 
+                select="@*" mode="copyxml"/>
+            <xsl:apply-templates 
+                select="comment()|processing-instruction()|*|text()" 
+                mode="copyxml">
+                <xsl:with-param name="filename" select="$filename"/>
+            </xsl:apply-templates>
+            
+            <xsl:if test="not(settingDesc)">
+                <xsl:variable name="paper" select="$program//*:paper[./*:title[contains(./dhd:strip(normalize-space()), $title)]]"/>
+                <settingDesc xmlns="http://www.tei-c.org/ns/1.0">
+                    <ab n="conference">DHd2018 - "Kritik der Digitalen Vernunft", Köln</ab>
+                    <xsl:if test="$paper/*:paperID"><ab n="paperID"><xsl:value-of select="$paper/*:paperID"/></ab></xsl:if>
+                    <xsl:for-each select="$paper/*[contains(name(), 'session_')]">
+                        <ab n="{name()}"><xsl:value-of select="."/></ab>
+                    </xsl:for-each>
+            </settingDesc></xsl:if>
+        </xsl:copy>
+    </xsl:template>
+    <xsl:function name="dhd:strip">
+        <xsl:param name="input"/>
+        <xsl:value-of select="replace($input,'[^0-z]', '')"/>
+    </xsl:function>
 </xsl:stylesheet>

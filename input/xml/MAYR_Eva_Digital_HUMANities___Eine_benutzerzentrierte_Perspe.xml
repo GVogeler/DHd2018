@@ -74,7 +74,17 @@
                     <term>Forschungsprozess</term>
                 </keywords>
             </textClass>
-        </profileDesc>
+        <settingDesc>
+            <ab n="conference">DHd2018 - "Kritik der Digitalen Vernunft", Köln</ab>
+            <ab n="paperID">237</ab>
+            <ab n="session_ID">124</ab>
+            <ab n="session_numberInSession">3</ab>
+            <ab n="session_short">VP_4c</ab>
+            <ab n="session_title">Wissenschaftsorganisation II</ab>
+            <ab n="session_start">2018-03-01 09:00</ab>
+            <ab n="session_end">2018-03-01 10:30</ab>
+         </settingDesc>
+      </profileDesc>
     </teiHeader>
     <text>
         <body>

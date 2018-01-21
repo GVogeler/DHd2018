@@ -71,7 +71,17 @@
                     <term>Kommentierung</term>
                 </keywords>
             </textClass>
-        </profileDesc>
+        <settingDesc>
+            <ab n="conference">DHd2018 - "Kritik der Digitalen Vernunft", Köln</ab>
+            <ab n="paperID">174</ab>
+            <ab n="session_ID">158</ab>
+            <ab n="session_numberInSession">1</ab>
+            <ab n="session_short">VP_9b</ab>
+            <ab n="session_title">Semantische Analyse</ab>
+            <ab n="session_start">2018-03-02 11:00</ab>
+            <ab n="session_end">2018-03-02 12:30</ab>
+         </settingDesc>
+      </profileDesc>
     </teiHeader>
     <text>
         <body>
