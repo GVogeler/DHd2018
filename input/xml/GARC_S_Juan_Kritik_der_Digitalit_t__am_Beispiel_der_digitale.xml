@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Kritik der Digitalität (am Beispiel der digitalen Textwissenschaft)</title>
+                <author>
+                    <persName>
+                        <surname>Garcés</surname>
+                        <forename>Juan</forename>
+                    </persName>
+                    <affiliation>Sächsische Landesbibliothek – Staats- und Universitätsbibliothek Dresden (SLUB), Deutschland</affiliation>
+                    <email>juan.garces@slub-dresden.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Bräuer</surname>
+                        <forename>Johannes</forename>
+                    </persName>
+                    <affiliation>Technische Universität Dresden, Institut für Philosophie</affiliation>
+                    <email>johannes.braeuer@tu-dresden.de</email>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2018-01-23T15:06:00Z</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Prof. Dr. Georg Vogeler</publisher>
+                <address>
+                    <addrLine>UniversitÃ¤t Graz</addrLine>
+                    <addrLine>Zentrum fÃ¼r Informationsmodellierung - Austrian Centre for Digital Humanities</addrLine>
+                    <addrLine>ElisabethstraÃ&#x9f;e 59/III</addrLine>
+                    <addrLine>8010 Graz</addrLine>
+                </address>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Converted from a Word document </p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.17">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Vortrag</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Digitalität</term>
+                    <term>Geisteswissenschaften</term>
+                    <term>Ontologie</term>
+                    <term>Epistemologie</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Modellierung</term>
+                    <term>Theoretisierung</term>
+                    <term>Text</term>
+                </keywords>
+            </textClass>
+        <settingDesc>
+            <ab n="conference">DHd2018 - "Kritik der Digitalen Vernunft", Köln</ab>
+         </settingDesc>
+      </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>Welche Konsequenzen birgt die Digitalisierung der textbasierten Geisteswissenschaften? Zweifelsohne bringt die computerbetriebene Verarbeitung digital erschlossener Texte einen beachtlichen quantitativen Fortschritt mit sich: in dem Maße, in dem historische Texte digital erschlossen bzw. eine kritische Masse an digital erzeugten Texten zur Verfügung stehen, lassen sich aus den größeren, nun handhabbaren Datenmengen jetzt neues Wissen extrahieren und analysieren, das dieser Masse an Informationen gerecht werden kann. Neben den für das Druckzeitalter typischen akribischen Lektüren (
+                <hi rend="italic">close reading</hi>) gesellen sich jetzt beispielsweise „Lektüren aus der Distanz“ (Moretti: 
+                <hi rend="italic">distant reading</hi>; vgl. Jockers‘ 
+                <hi rend="italic">macroanalysis</hi>), eine Kontrastierung, die sich in der Folge als allzu holzschnittartig erweisen wird. Nur schwerlich wird sich diese Unterscheidung aufrecht erhalten lassen, ohne das „close reading“ als einen Anachronismus zu begreifen, der aber nur nachträglich in Kontrast zum distant reading funktioniert.
+            </p>
+            <p>Der Ausdruck des 
+                <hi rend="italic">distant reading</hi> ruft das Bild einer Neuorientierung in Bezug auf den wissenschaftlichen Gegenstand hervor. Die neugefundene Distanz zu den Gegenständen ermöglicht „eine spezifische Form der Erkenntnis“ (Moretti), die im Falle Morettis einem Schritt der visualisierten Abstraktion (beispielsweise als Kurven, Karten und Stammbäume) und einer anschließend darauf basierenden Analyse entspringt. Grundlegend scheint hierbei der Zugang zum Wissensgegenstand über ein abstrahiertes digitales Objekt, das als Surrogat für den Gegenstand (beim Text, beispielsweise, das „Werk“, jetzt zunehmend die „Werke“) selbst steht. Die Neuorientierung zeichnet sich also modellartig nicht nur durch eine neue Perspektive (Distanz), sondern gleichzeitig auch durch ein neuartige Form von Gegenständlichkeit und demzufolge durch einen neuen mediatisierten Weltbezug aus, der von Alexander Galloway folgendermaßen beschrieben wird:
+            </p>
+            <p rend="Quote">„[I]n order to be in a relation with the world informatically, one must erase the world, subjecting it to various forms of manipulation, preemption, modeling, and synthetic transformation. The computer takes our own superlative power over worlds as the condition of possibility for the creation of worlds. Our intense investment in worlds – our acute fact finding, our scanning and data mining, our spidering and extracting – is the precondition for how worlds are revealed. The promise is not one of revealing something as it is, but in simulating a thing so effectively that ‘what it is’ becomes less and less necessary to speak about, not because it is gone for good, but because we have perfected a language for it.“ (Interface Effect, 13)</p>
+            <p>Der wissenschaftliche Weltbezug durch ein medientechnologisch geprägtes Modell ist freilich kein Novum des digitalen Zeitalters. Dies hat man im Rahmen der digitalen Editorik überzeugend für das Druckzeitalter und im Allgemeinen für jedwede Texterschließung dargestellt: </p>
+            <p rend="Quote">„Der Textbegriff ist eine Funktion von Fragestellungen (Sichten auf den Text) und jeweils gegenwärtiger (also historischer) textmedialer Sozialisation. Bestimmte Textbegriffe werden immer durch bestimmte Texttechnologien gefördert oder behindert: Was der Text ist, ist eine ontologische Fragestellung, die von unterschiedlichen Technologien unterschiedlich beantwortet wird. Die Evolution der Techniken ist eine Evolution der Textbegriffe. Dabei neigen neue Techniken dazu, zunächst ihre Vorgängertechnologien zu imitieren (deren Textbegriff zu übernehmen), für bestimmte Probleme neue Lösungen anzubieten und damit für eine Verschiebung des Textbegriffes zu sorgen. Die Historizität der Technologien erhellt die Relativität der Textbegriffe. “ (Sahle, Bd. 1, S. 391)</p>
+            <p>Das Potential der digitalen Erschließung wird aber nicht nur als die neueste Entwicklung einer medientechnologischen Evolution, sondern auch als qualitativen Sprung gesehen, der sich über den Medienwechsel hinaus „vielmehr als eine Befreiung von medialer Gebundenheit“ (Sahle, Bd. 2, S. 281) überhaupt beschreiben lässt.</p>
+            <p>Der so konstruierte digitale Textbegriff lässt sich in politischer und ökonomischer Hinsicht beschreiben, stellt sich aber in der Folge auch als ein epistemologisches bzw. wissenschaftstheoretisches Problem dar:</p>
+            <p>Auf politischer und ökonomischer Ebene übernimmt unsere Beschreibung wesentliche Elemente der Lyotardschen Analyse des Informationsbegriffs (vgl. aber auch die „kypernetische Hypothese“ Galloways) in Bezug auf seine institutionelle Realität bzw. seine Funktion in der gegenwärtigen Organisation des Wissens. Lyotard diagnostizierte einen Statuswechsel des Wissens, der zeitgleich mit der technologischen Transformation postindustrialisierter Gesellschaften einhergeht. In der posttechnisierten Gesellschaft „kann“ Wissen „die neuen Kanäle nur dann passieren und einsatzfähig gemacht werden, wenn die Erkenntnis in Informationsquantitäten übersetzt werden kann“ (Lyotard, S. 30). Wissen, welches diesen Übersetzungsprozeß nicht überlebt, also sich nicht „der Bedingung der Übersetzbarkeit etwaiger Ergebnisse in die Maschinensprache unterordnen“ kann, wird „vernachlässigt“: „Mit der Hegemonie der Informatik ist es eine bestimmte Logik, die sich durchsetzt, und daher auch ein Gefüge von Präskriptionen über die als ‚zum Wissen‘ gehörig akzeptierten Aussagen gegeben.“ (Lyotard, S. 31; Hervorhebung von uns)</p>
+            <p>Dabei spielt der Begriff der Information für unser Vorhaben insofern eine besondere Rolle, als dass er einen Anker für den Textbegriff in den digitalen Textwissenschaften darstellt. Zweifelsohne ist die strukturelle Rückführbarkeit des Textbegriffs auf den Informationsbegriff nicht ohne Folgen etwa für die Funktion der Wissensorganisation an Hochschulen wie auch an Bibliotheken und Erinnerungsinstitutionen. Ein besonders deutliches Beispiel für diese Transformation des Textbegriffs ist die Förderung wissenschaftlicher Projekte, welche (zurecht!) ein Erschließungsprojekt – und zunehmend auch großflächige Textanalysen – ohne informatisch adäquate Rahmenbedingungen (Erschließungsstandards, Datenmanagement, Langzeitarchivierung) geradezu undenkbar macht. Insofern funktioniert der Begriff der Information also als ein theoretischer Dispositiv (Foucault) und führt uns so zu genuin epistemologischen bzw. wissenschaftstheoretische Fragestellungen.</p>
+            <p>Epistemologisch führt die Bestimmung eines Textes in Rekurs auf den Begriff der Information dazu, dass jegliches, modellhaft vermitteltes, Wissen in der Form der Information erscheint. Dieses ist von beeindruckender Produktivität bzw. zeichnet sich aus durch eine „Handlichkeit“ (digitale Datenverarbeitung), evakuiert allerdings so etwas wie das Subjekt der Handlung. Insofern liegt darin ein strukturelles Element der Entfremdung, das sich zurückführen lässt auf die Einführung eines im weitesten Sinne mathematischen Paradigmas in den Geisteswissenschaften. Dieses Paradigma aber all zu stark gegen das „klassische“ geisteswissenschaftliche auszuspielen setzt sich einem Ideologieverdacht aus, dem wir uns schon zu Beginn erwert haben. Worum es uns, jetzt wissenschaftstheoretisch, geht, ist einige Effekte zu benennen, die aus der Anwendung des Paradigmas in den Geisteswissenschaften folgen. </p>
+            <p>Dabei ist es bemerkenswert, dass auch diejenigen Geisteswissenschaften, die sich mit der Kunst beschäftigen zunehmend auf die Wissenschaftstheorie positivistischer Prägung rekurrieren. Die Vermittlung des Wissens durch ein Modell führt aber dazu, dass die Sache, die damit erklärt werden soll, gerade nicht mehr erfahren werden muss. Wendet man diese Form der Vermittlung auf genuine Gegenstände der Geisteswissenschaft an, betrachtet man sie als Gegenstände, die zur Ordnung der Natur gehören, also im Grunde als unmittelbare. Das Gegenteil ist aber der Fall, sie sind höchstvermittelt, d.h. sie sind Singulare.</p>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl>
+                        <hi rend="bold">Berry, David M.</hi> (2011): 
+                        <hi rend="italic">The Philosophy of Software: Code and Mediation in the Digital Age</hi>, Houndmills &amp; New York.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Berry, David M.</hi> (2014): 
+                        <hi rend="italic">Critical Theory and the Digital</hi>, New York &amp; London.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Dilthey, Wilhelm</hi> (1883): 
+                        <hi rend="italic">Einleitung in die Geisteswissenschaften: Versuch einer Grundlegung für das Studium der Gesellschaft und der Geschichte</hi>, Leipzig.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Evens, Aden</hi> (2015): 
+                        <hi rend="italic">Logic of the Digital</hi>, London u.a..
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Foucault, Michel</hi> (1978): 
+                        <hi rend="italic">Dispositive der Macht: Über Sexualität, Wissen und Wahrheit</hi>, Übers. Jutta Kranz et al., Berlin.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Galloway, Alexander R.</hi> (2012): 
+                        <hi rend="italic">The Interface Effect</hi>, Cambridge &amp; Malden.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Galloway, Alexander R.</hi> (2014): “The Cybernetic Hypothesis”, in: 
+                        <hi rend="italic">differences</hi> 25: 107-131.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Lyotard, Jean-François</hi> (2012): 
+                        <hi rend="italic">Das postmoderne Wissen: Ein Bericht</hi>, 7., überarb. Aufl., Wien.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Moretti, Franco</hi> (2009): 
+                        <hi rend="italic">Kurven, Karten, Bäume: Abstrakte Modelle für die Literaturgeschichte</hi>, übers. Florian Kessler, Frankfurt am Main.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">McCarty, Willard</hi> (2005): 
+                        <hi rend="italic">Humanities Computing</hi>, Houndmills &amp; New York.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Ramsay, Stephen</hi> (2011): 
+                        <hi rend="italic">Reading Machines: Towards an Algorithmic Criticism</hi>, Urbana &amp; Springfield.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Sahle, Patrick</hi> (2013): 
+                        <hi rend="italic">Digitale Editionsformen: Zum Umgang mit der Überlieferung unter den Bedingungen des Medienwandels</hi>, 3 Bde., Norderstedt.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Jockers, Matthew L.</hi> (2013): 
+                        <hi rend="italic">Macroanalysis: Digital Methods &amp; Literary History</hi>, Urbana &amp; Springfield.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>
