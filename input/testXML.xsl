@@ -182,10 +182,10 @@ move "</xsl:text>
             <meta charset="utf-8"/>
         </head>
             <body>
-
+                <h1>Test von <xsl:value-of select="current-dateTime()"/></h1>
                 <p>Anzahl Dateien: <xsl:value-of select="count($files)"/></p>
                 <xsl:if test="count($files) != $files-in-folder">
-                    <p>Zahl der Dateien stimmt nicht überein: <a href="dir.xml.txt">dir.xml.txt</a></p>
+                    <p>Achtung! Zahl der Dateien stimmt nicht überein: <a href="dir.xml.txt">dir.xml.txt</a></p>
                     <xsl:result-document href="dir.xml.txt" method="text">
                         <xsl:for-each select="$files">
                             <xsl:text>
@@ -196,7 +196,7 @@ move "</xsl:text>
                 
                 <p>Anzahl der Bilder: <xsl:value-of select="count($files//graphic)"/></p>
                 <xsl:if test="count($files//graphic) != $input-image-files">
-                    <p>Zahl der Bildreferenz im XML und der heruntergeladenen Bilder stimmt nicht überein: <a href="tei-graphic.txt">tei-graphic.txt</a> und <a href="images/">input/images</a></p>
+                    <p>Achtung! Zahl der Bildreferenz im XML und der heruntergeladenen Bilder stimmt nicht überein: <a href="tei-graphic.txt">tei-graphic.txt</a> und <a href="images/">input/images</a></p>
                     <xsl:result-document href="tei-graphic.txt" method="text">
                         <xsl:for-each select="$files">
                             <xsl:sort select="document-uri(.)"/>
@@ -241,12 +241,29 @@ move "</xsl:text>
                         </p>
                         <xsl:if test=".//graphic"><p>Bilder: 
                             <xsl:for-each select=".//graphic">
+                                <xsl:variable name="filename-short" select="substring-before($filename, '.xml')"/>
                                 <xsl:variable name="image-file-name" select="replace(tokenize(@url,'/')[last()], '/', '\\')"/>
-                                <img alt="###################### ACHTUNG! {@url}" src="../input/images/{
-                                replace(substring-before($filename, '.xml'), ' ', '_')
-                                }-{
-                                $image-file-name
-                                }" height="100"/></xsl:for-each>
+                                <xsl:variable name="image-path">
+                                    <xsl:choose>
+                                        <xsl:when test="@url=concat($filename-short,'-', $image-file-name)">
+                                            <xsl:value-of select="@url"/>
+                                        </xsl:when>
+                                        <xsl:when test="starts-with(@url,'http')">
+                                            <xsl:value-of select="@url"/>
+                                        </xsl:when>
+                                        <xsl:when test="starts-with(@url, 'Pictures/')">
+                                            <xsl:value-of select="$filename-short"/>
+                                            <xsl:text>-</xsl:text>
+                                            <xsl:value-of select="$image-file-name"/>
+                                        </xsl:when>
+                                        <xsl:otherwise>
+                                            <xsl:value-of select="@url"/>
+                                        </xsl:otherwise>
+                                    </xsl:choose>                                    
+                                </xsl:variable>
+                                <img alt="###################### ACHTUNG! {$image-path}" 
+                                    src="./images/{$image-path}" 
+                                    height="100"/></xsl:for-each>
                         </p></xsl:if> 
                         <p>Bibliographie: <xsl:value-of select="count(.//bibl)"/><xsl:if test="count(.//bibl) = 0"><span class="Achtung"> ACHTUNG! Keine Bibliographie!</span></xsl:if>
                             <xsl:if test=".//bibl[not(hi)]"><span style="font-weight:bold;"><xsl:text> ACHTUNG! Bibliographie ohne Formatierung?</xsl:text></span>
@@ -301,6 +318,9 @@ move "</xsl:text>
                 select="@*[name() != 'url']" mode="copyxml"/>
                 <xsl:attribute name="url">
                     <xsl:choose>
+                        <xsl:when test="@url=concat($filename,'-', $image-file-name)">
+                            <xsl:value-of select="@url"/>
+                        </xsl:when>
                         <xsl:when test="starts-with(@url,'http')">
                             <xsl:value-of select="@url"/>
                         </xsl:when>
