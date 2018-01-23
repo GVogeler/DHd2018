@@ -274,5 +274,31 @@
                 </div>
             </div>
         </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl>Agarwal, A. / Corvalan, A. / Jensen, J. / Rambow, O. (2012): “Social Network Analysis of Alice in Wonderland”, in: CLfL@ NAACL-HLT 88-96.</bibl>
+                    <bibl>Agarwal, A. / Kotalwar, A. / Rambow, O. (2013): “Automatic Extraction of Social Networks from Literary Text. A Case Study on Alice in Wonderland”, in: IJCNLP 1202-1208.</bibl>
+                    <bibl>Beveridge, A. / Shan, J., 2016: “Network of thrones”, in: Math Horizons, 23(4): 18-22.</bibl>
+                    <bibl>Bondy, J.A. / Murty, U.S.R. (1976): Graph theory with applications (Vol. 290). London: Macmillan.</bibl>
+                    <bibl>Burrows, J.F. (1987): “Word-patterns and story-shapes: The statistical analysis of narrative style”, in: Literary &amp; Linguistic Computing, 2(2): 61-70.</bibl>
+                    <bibl>Elson, D.K. / Dames, N. / McKeown, K.R. (2010): “Extracting social networks from literary fiction”, in: Proceedings of the 48th annual meeting of the association for computational linguistics 138-147. Association for Computational Linguistics.</bibl>
+                    <bibl>Heuser, R., F. Moretti / E. Steiner (2016): The Emotions of London. Technical report. Stanford University. Pamphlets of the Stanford Literary Lab.</bibl>
+                    <bibl>Jayannavar, P. / Agarwal, A. / Ju, M. and Rambow, O. (2015): “Validating Literary Theories Using Automatic Social Network Extraction”, in CLfL@ NAACL-HLT 32-41.</bibl>
+                    <bibl>Jockers, M.L. / Underwood, T. (2016): “Text‐Mining the Humanities”, in: Schreibman, Susan / Siemens, Ray / Unsworth, John (eds.): A New Companion to Digital Humanities 291-306.</bibl>
+                    <bibl>Kim, E. / Padó, S. / Klinger, R. (2017): “Investigating the Relationship between Literary Genres and Emotional Plot Development”, in: Proceedings of the Joint SIGHUM Workshop on Computational Linguistics for Cultural Heritage, Social Sciences, Humanities and Literature 17-26.</bibl>
+                    <bibl>Klinger, R. / Sulliya S.S. / Reiter N. (2016): “Automatic Emotion Detection for Quantitative Literary Studies -- A Case Study on Kafka's ‘Das Schloss’ and ‘Amerika’”, in: Digital Humanities (DH), Conference Abstracts, Kraków, Poland, 2016.</bibl>
+                    <bibl>Michel, J.B. / Shen, Y.K. / Aiden, A.P. / Veres, A. / Gray, M.K. / Pickett, J.P. / Hoiberg, D. / Clancy, D. / Norvig, P. / Orwant, J. / Pinker, S. (2011): “Quantitative analysis of culture using millions of digitized books”, in: science, 331(6014) 176-182.</bibl>
+                    <bibl>Moretti, F. (2005): Graphs, maps, trees: abstract models for a literary history. Verso.</bibl>
+                    <bibl>Moretti, F. (2011). Network theory, plot analysis. Stanford Literary Lab Pamphlet Series 2. Available at: https://litlab.stanford.edu/LiteraryLabPamphlet2.pdf</bibl>
+                    <bibl>Murr, S. / Barth, F. (2017): Digital Analysis of the Literary Reception of J.W. v. Goethe’s ‘Die Leiden des jungen Werthers’, in: Digital Humanities (DH), Conference Abstracts, Montreal, Canada 2017.</bibl>
+                    <bibl>Nalisnick, E.T. / Baird, H.S. (2013): “Extracting sentiment networks from Shakespeare's plays”, in: Document Analysis and Recognition (ICDAR), 2013 12th International Conference on IEEE 758-762.</bibl>
+                    <bibl>Park, G.M. / Kim, S.H. / Cho, H.G. (2013): “Structural analysis on social network constructed from characters in literature texts”, in: Journal of Computers, 8(9): 2442-2447.</bibl>
+                    <bibl>Rydberg-Cox, J., (2011): “Social networks and the language of greek tragedy”, in: Journal of the Chicago Colloquium on Digital Humanities and Computer Science (Vol. 1, No. 3).</bibl>
+                    <bibl>West, D.B. (2001): Introduction to graph theory (Vol. 2). Upper Saddle River: Prentice Hall.</bibl>
+                </listBibl>
+            </div>
+        </back>
     </text>
 </TEI>

@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Deutsche Geschichte-Digital: Ergebnisse der TEI-Konvertierung und Integration in Pilotprojekten</title>
+                <author>
+                    <persName>
+                        <surname>Hiebert</surname>
+                        <forename>Matthew</forename>
+                    </persName>
+                    <affiliation>German Historical Institute Washington</affiliation>
+                    <email>hiebert@ghi-dc.org</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Lässig</surname>
+                        <forename>Simone</forename>
+                    </persName>
+                    <affiliation>German Historical Institute Washington</affiliation>
+                    <email>laessigs@ghi-dc.org</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Witt</surname>
+                        <forename>Andreas</forename>
+                    </persName>
+                    <affiliation>Universität zu Köln</affiliation>
+                    <email>andreas.witt@uni-koeln.de</email>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2018-01-22T20:00:00Z</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Prof. Dr. Georg Vogeler</publisher>
+                <address>
+                    <addrLine>UniversitÃ¤t Graz</addrLine>
+                    <addrLine>Zentrum fÃ¼r Informationsmodellierung - Austrian Centre for Digital Humanities</addrLine>
+                    <addrLine>ElisabethstraÃ&#x9f;e 59/III</addrLine>
+                    <addrLine>8010 Graz</addrLine>
+                </address>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Converted from a Word document </p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.17">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Vortrag</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Archivierung</term>
+                    <term>Geschichte</term>
+                    <term>Infrastruktur</term>
+                    <term>Konservierung</term>
+                    <term>TEI</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Kommunikation</term>
+                    <term>Archivierung</term>
+                    <term>Kollaboration</term>
+                    <term>Konservierung</term>
+                    <term>Infrastruktur</term>
+                    <term>Forschung</term>
+                </keywords>
+            </textClass>
+        <settingDesc>
+            <ab n="conference">DHd2018 - "Kritik der Digitalen Vernunft", Köln</ab>
+            <ab n="paperID">297</ab>
+            <ab n="session_ID">60</ab>
+            <ab n="session_numberInSession">56</ab>
+            <ab n="session_short">Poster_1</ab>
+            <ab n="session_title">Postersession</ab>
+            <ab n="session_start">2018-03-01 17:45</ab>
+            <ab n="session_end">2018-03-01 23:00</ab>
+         </settingDesc>
+      </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>Das Deutsche Historische Institut in Washington (DHI) befindet sich in der Entwicklungsphase von " Deutsche Geschichte-
+                <hi rend="italic">Digital</hi> / German History-
+                <hi rend="italic">Digital</hi>" (DG-D), einer transatlantischen digitalen Initiative, um die wissenschaftlichen Bedürfnisse von HistorikerInnen im Kontext neuer historiografischer und technologischer Herausforderungen zu bewältigen. DG-D ist eine neue Infrastruktur zur Erleichterung der transnationalen historischen Wissensschöpfung für eine große Wissenschaftsgemeinschaft und eine wachsende Zahl von "Citizen Scholars", die bereits auf digitale Ressourcen des DHI angewiesen sind. Im Poster stellen wir zwei zentrale GH-Digital-Pilotprojekte und deren Integration in die DG-D "Knowledge Creation Environment" vor. Das erste ist "Deutsche Geschichte in Dokumenten und Bildern", unterstützt von der Deutschen Forschungsgemeinschaft (DFG), und das zweite ist Deutsche Geschichte 
+                <hi rend="italic">Intersections</hi>, unterstützt durch das Europäische Wiederaufbauprogramm (ERP). 
+            </p>
+            <p>Die Planung für DG-D umfasste die Befragung von mehr als vierhundert WissenschaftlerInnen, die bereits mit digitalen Ressourcen arbeiten, welche vom DHI produziert wurden. Die umfassendste dieser Ressourcen ist die im Jahr 2003 gestartete digitale Quellensammlung "Deutsche Geschichte in Dokumenten und Bildern / German History in Documents and Images" (GHDI), die an deutsch- und englischsprachigen Universitäten weitläufig genutzt wird. Derzeit wird GHDI in Verbindung mit DG-D einem technischen und konzeptionellen Umbau unterzogen. Es enthält Tausende Seiten englischsprachiger Übersetzungen deutscher historischer Texte sowie Bilder und Karten, die von ca. 5.000 Besuchern pro Tag genutzt werden. Unsere Planung für DG-D beinhaltet auch weiterhin Konsultationen und Workshops mit ExpertInnen aus den Geschichtswissenschaften und den digitalen Geisteswissenschaften sowie die Gründung von Partnerschaften mit Institutionen und großen Initiativen, die unser Interesse für die Zukunft der Geschichte im digitalen Zeitalter teilen.</p>
+            <p>Die Deutsche Geschichte-
+                <hi rend="italic">Digital</hi>-Plattform befasst sich mit den Bedürfnissen der digitalen Forschung durch fünf Ziele und integrierte Arbeitspakete, die auf diese Ziele abgestimmt sind: Entdeckung, Analyse, Produktion, Bewahrung und Gemeinschaft. DG-D beinhaltet die Entwicklung eines Peer-Review-Index von wissenschaftlichen digitalen Objekten mit Dublin Core (DC) und CLARINs Component MetaData Infrastructure (CMDI) Standards über einen angepassten Blacklight (http://projectblacklight.org/) Technologie-Stack.
+            </p>
+            <p>Für WissenschaftlerInnen, die historische digitale Projekte in Nordamerika entwickeln, gibt es keine interinstitutionelle Infrastruktur für die Speicherung ihrer Daten oder die Bereitstellung von Open Access. CLARIN-D, Teil der europäischen Forschungsinfrastruktur CLARIN, berät und unterstützt das DG-D-Projekt zur Erstellung eines Portals für CLARIN in Nordamerika am DHI Washington. Im Mittelpunkt dieses Prozesses steht die Implementierung eines Repository-Systems, das eine nachhaltige Speicherung des Inhalts und die Einbindung in eine digitale Umgebung ermöglicht, um den Zugriff, die Suche und die interoperablen Datenformate zu erleichtern. Unsere Partnerschaft mit CLARIN fördert den freien Zugang, die offene, kooperative Wissenschafts- und Wissenserzeugung im nordamerikanischen Kontext und ist ein wichtiger Bestandteil der gesamten Strategie der digitalen Geisteswissenschaften des DHI. Als Institut der Max Weber Stiftung sind wir auch in Partnerschaft mit DARIAH-DE. DARIAH-DE wird Web-Hosting und langfristige Bewahrung von DHI-Digitalprojekten in ihrer Gesamtheit, einschließlich der ersten Version der Webseite Deutsche Geschichte in Dokumenten und Bildern, zur Verfügung stellen.</p>
+            <p>Als kooperative Wissensplattform wird DG-D Redakteure, Forscher und Citizen Scientists bei der Entwicklung weiterer innovativer Online-Projekte zusammenbringen. Drei solcher Pilotprojekte befinden sich derzeit in der Entwicklung und beinhalten TEI und unsere Internationalisierung der Scalar 2.0 Plattform. DG-D verwendet Scalar 2.0 für das Baseline Content Management System, insbesondere aufgrund seiner Schnittstellenfunktionen, Unterstützung für Resource Description Framework (RDF), Konnektivität zu externen Repositorien, Dublin Core (DC) Unterstützung, Hypothes.is Integration und sein Mehrfachpfad-Navigationssystem.</p>
+            <p>HistorikerInnen nutzen zunehmend digitale Geisteswissenschaften, um Daten zu analysieren und ihre Forschungsergebnisse darzustellen. Ein weiterer Vorteil der Speicherung von TEI-Digitalobjekten in einem CLARIN-Repository ist, dass eine ganze Palette von korpus-linguistischen analytischen Werkzeugen von WissenschaftlerInnen auf Textinhalte angewendet werden kann. In diesem Zusammenhang werden wir unsere Entwicklung von Scalar Adapters für den Anschluss an deutsche Repositorien und virtuelle Forschungsumgebungen (VREs) diskutieren.</p>
+            <p>Die DG-D-Plattform integriert die Blog-Aggregation, ein erweitertes Diskussionssystem, Community-orientierte Tools und Social Media, um miteinander kooperierende Wissensgemeinschaften zu erleichtern und Forschung zu öffnen. Dies ist ein wegweisender Aspekt unseres Projektes, das die Annahme von sozialen und gemeinschaftlichen digitalen Instrumenten durch HistorikerInnen in ihren Forschungsaktivitäten untersuchen wird. Wir wollen hierbei auch die einzigartige Rolle nutzen, die das DHI als Drehscheibe des transatlantischen wissenschaftlichen Dialogs und als eines großen Knotenpunkts in einem internationalen Netzwerk von HistorikerInnen spielt, um die Zusammenhänge zwischen verschiedenen Wissenschaftsgemeinschaften zu erleichtern.</p>
+            <p>Deutsche Geschichte-
+                <hi rend="italic">Digital</hi> Projekte bietet ein Modell für neue, quellenbasierte methodische Ansätze in den Geschichtswissenschaften. Die Initiative zielt darauf ab, durch digitale Instrumente, Standards und Methoden zur argumentbasierten Forschung beizutragen. Es fördert transnationale Ansätze in der historischen Forschung durch das Verfügbarmachen einer transnationalen technischen Plattform, die auf TEI und anderen aufkommenden Standards in den digitalen Geisteswissenschaften wie DC und RDF gründet. 
+            </p>
+            <p>Es unterstützt narratologische Komplexität in der Geschichtsschreibung und vermeidet redaktionelle Ansätzen, die eine singuläre Erzählung oder „
+                <hi rend="italic">Master Narrative</hi>“ ergeben. 
+            </p>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl>Cohen, Daniel J., and Roy Rosenzweig (2006): 
+                        <hi rend="italic">Digital History: A Guide to Gathering, Preserving, and Presenting the Past on the Web. </hi>Philadelphia: University of Pennsylvania Press.
+                    </bibl>
+                    <bibl>Cohen, Daniel J., Michael Frisch, Patrick Gallagher, Steven Mintz, Kirsten Sword, Amy Murrell Taylor, William G. Thomas III, and William J. Turkel (2008): “Interchange: The Promise of Digital History.” 
+                        <hi rend="italic">Journal of American History</hi>, volume 95, issue 2, 452-491.
+                    </bibl>
+                    <bibl rend="footnote text">“Diskussionsforum: Historische Grundwissenschaften und die digitale Herausforderung.” From H-Soz-Kult, November 15, 2015 (
+                        <ref target="http://www.hsozkult.de/text/id/texte-2890">http://www.hsozkult.de/text/id/texte-2890</ref>).
+                    </bibl>
+                    <bibl>Fiedler, Norman and Werthmann, Antonina and Stuehrberg, Maik and Schonefeld, Oliver and Bingel, Joachim and Witt, Andreas (2014): Research infrastructures in non-university research facilities. Research paper. Mannheim: Institute for German Language, 2014. 116 S.</bibl>
+                    <bibl>Hiebert, Matthew, Lässig, Simone and Witt, Andreas (2017): German history-digital: A platform for transnational historical knowledge co-creation. In: Digital Humanities 2017, Conference Abstracts, McGill University &amp; Université de Montréal Montréal, Canada August 8-11, 2017. Montréal: McGill University &amp; Université de Montréal, 2017. p. 269-271</bibl>
+                    <bibl>Hiebert, Matthew, Bowen, W. R., and Siemens, R.G (2015): “Implementing a social knowledge creation environment.” Scholarly and Research Communication, 6(3).</bibl>
+                    <bibl>Mandi
+                        <hi rend="ff5">ć</hi>
+                        <hi rend="italic">,</hi> Slobodan (2005): 
+                        <hi rend="italic">Computerization and Historiography 1995-2005</hi>. Belgrade: Belgrade Historical Society.
+                    </bibl>
+                    <bibl>McCullough, Kelly, and James Retallack (2013): “Digital History Anthologies on the Web: German History in Documents and Images.” 
+                        <hi rend="italic">Central European History</hi>, volume 46, 346-361.
+                    </bibl>
+                    <bibl>Ngai, Mae M (2012): “The Future of the Discipline: The Promise and Perils of Transnational History.” 
+                        <hi rend="italic">Perspectives on History</hi>, December 2012 (
+                        <ref target="https://www.historians.org/publications-and-directories/perspectives-on-history/december-2012/the-future-of-the-discipline/promises-and-perils-of-transnational-history">https://www.historians.org/publications-and-directories/perspectives-on-history/december-2012/the-future-of-the-discipline/promises-and-perils-of-transnational-history</ref>).
+                    </bibl>
+                    <bibl>Patel, Kiran Klaus (2010): “
+                        <hi rend="doc_title">Transnational History</hi>.” In 
+                        <hi rend="en">
+                            <hi rend="italic">European </hi>
+                            <hi rend="italic">History</hi>
+                            <hi rend="italic"> Online</hi> (EGO), published by the Institute of European History (IEG). Mainz, 
+                        </hi>
+                        <hi rend="publicationsdate">2010</hi> (
+                        <ref target="http://www.ieg-ego.eu/patelk-2010-en">http://www.ieg-ego.eu/
+                            <hi rend="unique">
+                                <hi rend="underline color(0000FF)">patelk-2010</hi>
+                            </hi>-
+                            <hi rend="articlelanguage">
+                                <hi rend="underline color(0000FF)">en</hi>
+                            </hi>
+                        </ref>).
+                    </bibl>
+                    <bibl>Patel, Kiran Klaus (2011): “Zeitgeschichte im digitalen Zeitalter: Neue und alte Herausforderungen.” 
+                        <hi rend="italic">Vierteljahrshefte für Zeitgeschichte</hi>, volume 59, issue 3, July, 331-51.
+                    </bibl>
+                    <bibl>Putnam, Lara (2016): “The Transnational and the Text-Searchable: Digitized Sources and the Shadows They Cast.” 
+                        <hi rend="italic">The American Historical Review</hi>, volume 121, issue 2, April, 377-402. 
+                    </bibl>
+                    <bibl>Sahle, Patrick (
+                        <hi rend="st">2013):</hi>
+                        <hi rend="italic">Digital Editionsformen</hi>. 
+                        <hi rend="st">
+                            <hi rend="italic">Zum Umgang mit der Überlieferung unter den Bedingungen des Medienwandels. </hi>Volume 3 (Norderstedt).
+                        </hi>
+                    </bibl>
+                    <bibl>Thomas, William G., III (2016): “Renegotiating the Archive: Scholarly Practice in the Digital Age.” (
+                        <ref target="http://railroads.unl.edu/blog/?p=1195">http://railroads.unl.edu/blog/?p=1195</ref>
+                        <hi rend="Hyperlink">)</hi>. 
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

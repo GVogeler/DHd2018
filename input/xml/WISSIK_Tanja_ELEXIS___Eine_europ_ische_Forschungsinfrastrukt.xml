@@ -12,6 +12,78 @@
                     <affiliation>Österreichische Akademie der Wissenschaften, Österreich</affiliation>
                     <email>Tanja.Wissik@oeaw.ac.at</email>
                 </author>
+                <author>
+                    <persName>
+                        <surname>Krek</surname>
+                        <forename>Simon</forename>
+                    </persName>
+                    <affiliation>Institut Josef Sefan, Slowenien</affiliation>
+                    <email>simon.krek@guest.arnes.si</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Jakubicek</surname>
+                        <forename>Milos</forename>
+                    </persName>
+                    <affiliation>Lexical Computing CZ s.r.o.,Tschechien</affiliation>
+                    <email>milos.jakubicek@sketchengine.co.uk</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Tiberius</surname>
+                        <forename>Carol</forename>
+                    </persName>
+                    <affiliation>Instituut voor Nederlandse Lexicologie, Niederlande</affiliation>
+                    <email>carole.tiberius@inl.nl</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Navigli</surname>
+                        <forename>Roberto</forename>
+                    </persName>
+                    <affiliation>Università degli Studi di Roma La Spienza, Italien</affiliation>
+                    <email>navigli@di.uniroma1.it</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Navigli</surname>
+                        <forename>Roberto</forename>
+                    </persName>
+                    <affiliation>Università degli Studi di Roma La Spienza, Italien</affiliation>
+                    <email>navigli@di.uniroma1.it</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>McCrae</surname>
+                        <forename>John</forename>
+                    </persName>
+                    <affiliation>National Universtiy of Ireland, Galway Irland</affiliation>
+                    <email>john@mccr.ae</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Tasovac</surname>
+                        <forename>Toma</forename>
+                    </persName>
+                    <affiliation>Centar za digitalne humanističke nauke, Serbien</affiliation>
+                    <email>ttasovac@humanistika.org</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Tasovac</surname>
+                        <forename>Toma</forename>
+                    </persName>
+                    <affiliation>Centar za digitalne humanističke nauke, Serbien</affiliation>
+                    <email>ttasovac@humanistika.org</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Pedersen</surname>
+                        <forename>Bolette S.</forename>
+                    </persName>
+                    <affiliation>Kobenhavns Universitet, Dänemark</affiliation>
+                    <email>vnb282@ku.dk</email>
+                </author>
             </titleStmt>
             <editionStmt>
                 <edition>
@@ -83,5 +155,16 @@
             <p>ELEXIS wird eng mit den bereits existierenden Forschungsinfrastrukturen CLARIN und DARIAH zusammenarbeiten und auf den bereits vorhandenen Infrastrukturen aufbauen und zugleich diese beiden Infrastrukturen näher zusammenbringen.</p>
             <p>In diesem Poster werden die Grundzüge des neuen europäischen Infrastrukturprojektes beschrieben sowie die Methoden und Maßnahmen, mit denen die oben genannten Ziele erreicht werden sollen, präsentiert. Weiters wird speziell auf den Nutzen und die Vorteile der ELEXIS Infrastruktur für die DH Community eingegangen.</p>
         </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl>Schreibman, Susan / Ray Siemens, John Unsworth. ed. (2004): A Companion to Digital Humanites. Oxford: Blackwell.</bibl>
+                    <bibl>Oldman, Dominic /Doerr, Martin/ Gradmann, Stefan (2016): "Zen and the Art of Linked Data: New Strategies for a Semantc Web of Humanist Knowledge", in: Susan Schreibman/Ray Siemens/John Unsworth e. (2016): A New Companion to Digital Humanites, 2nd Editon. 2012. Oxford: Wiley-Blackwell</bibl>
+                    <bibl>Navigli Roberto / Ponzeto Simone P. (2012): "BabelNet: The Automatc Constructon, Evaluaton and Applicaton of a Wide-Coverage Multlingual Semantc Network", in: Artificial Intelligence, 193, Elsevier, 2012, pp. 217-250.</bibl>
+                    <bibl>McCrae,  John / Aguado-de-Cea, Guadalupe / Buitelaar, Paul / Cimiano, Philipp / Declerck, Thierry / Gómez-Pérez, Asunción / Gracia, Jorge / Hollink, Laura /Montel-Ponsoda, Elena / Spohr, Dennis / Wunner, Tobias (2012): "Interchanging lexical resources on the Semantc Web", in: Language Resources and Evaluaton, 46(6), pp 701-709, (2012).</bibl>
+                </listBibl>
+            </div>
+        </back>
     </text>
 </TEI>
