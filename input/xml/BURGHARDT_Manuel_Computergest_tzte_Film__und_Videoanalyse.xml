@@ -55,7 +55,7 @@
             </titleStmt>
             <editionStmt>
                 <edition>
-                    <date>2015-10-04T22:02:00Z</date>
+                    <date>2018-01-22T19:42:00Z</date>
                 </edition>
             </editionStmt>
             <publicationStmt>
@@ -118,12 +118,10 @@
                 <p>Das Thema Bild- und Bewegtbildanalyse gewinnt auch in der – bis dato stark auf Text fokussierten – Digital Humanities-Community immer mehr an Bedeutung. Vor diesem Hintergrund wurde Anfang des Jahres eine dedizierte DHd-Arbeitsgruppe „Film und Video“
                     <note place="foot" xml:id="ftn1" n="1">
                         <p rend="footnote text"> Mehr Informationen unter http://dig-hum.de/ag-film-und-video</p>
-                    </note>
-                    <hi rend="Fußnotenanker"> </hi>gegründet. Nachdem die AG im Juli 2017 bereits ein erstes Symposium zum Thema „Film rechnen – Computergestützte Methoden in der Filmanalyse“
+                    </note> gegründet. Nachdem die AG im Juli 2017 bereits ein erstes Symposium zum Thema „Film rechnen – Computergestützte Methoden in der Filmanalyse“
                     <note place="foot" xml:id="ftn2" n="2">
-                        <p rend="footnote text"> Mehr Informationen unter https://dhregensburg.wordpress.com/2017/07/03/symposium-film-rechnen-computergestuetzte-methoden-in-der-filmanalyse-2/</p>
-                    </note>
-                    <hi rend="Fußnotenanker"> </hi>in Regensburg abgehalten hat, soll als nächster Schritt ein entsprechendes Panel auf der DHd 2018 in Köln ausgerichtet werden, um in einem größeren Kreis die Grenzen und Möglichkeiten computergestützter Analyseverfahren für Film und Video zu diskutieren.
+                        <p rend="footnote text"> Mehr Informationen unter https://dhregensburg.wordpress.com/2017/07/03/symposium-film-rechnen-computergestuetzte-methoden-in-der-filmanalyse-2/ </p>
+                    </note> in Regensburg abgehalten hat, soll als nächster Schritt ein entsprechendes Panel auf der DHd 2018 in Köln ausgerichtet werden, um in einem größeren Kreis die Grenzen und Möglichkeiten computergestützter Analyseverfahren für Film und Video zu diskutieren.
                 </p>
                 <p>Wesentliche Herausforderungen bei der computergestützten Analyse von Film und Video ergeben sich dabei vor allem durch die komplexe mediale Struktur von Bewegtbildern, die sich in einer Vielzahl technischer Formate und einer enormen Bandbreite von Analyseansätzen und -perspektiven niederschlagen. Anders als bspw. für den Bereich Text, gibt es für die Filmanalyse bislang nur wenige etablierte Verfahren und Softwarelösungen zur Erschließung und Verarbeitung von Film- und Videodaten. Wenngleich etablierte Felder aus der Informatik – wie etwa 
                     <hi rend="italic">computer vision</hi> oder 
@@ -164,7 +162,9 @@
                     <head>
                         <hi rend="italic">Wikidata</hi> für die Zugänglichmachung von Forschungsdaten in den Filmwissenschaften
                     </head>
-                    <p>Claudia Müller-Birn, Freie Universität Berlin</p>
+                    <p>
+                        <hi rend="italic">Claudia Müller-Birn, Freie Universität Berlin</hi>
+                    </p>
                     <p>Wissenschaftliche Publikationen in den Geisteswissenschaften haben oft nicht die Reichweite und Nachhaltigkeit, die für HerausgeberInnen und AutorInnen wünschenswert wäre. Die Ablieferung von Faktenwissen an eine breiter rezipierte und maschinenlesbare Wissensdatenbank wie 
                         <hi rend="italic">Wikidata</hi> könnte ein Ansatz sein, diese Reichweite und Nachhaltigkeit zu erzeugen. Dafür müssen allerdings nutzerzentrierte Softwarelösungen entwickelt werden, die es erlauben, dieses Faktenwissen auch niederschwellig und korrekt zu übertragen (Breitenfeld et al., 2017). Am Beispiel der multilingualen Open Access Zeitschrift „Apparatus – Film, Media and Digital Cultures in Central and Eastern Europe“ soll demonstriert werden, wie ein solcher Workflow zur Übertragung von Faktenwissen aussehen könnte. Einerseits werden Einträge in 
                         <hi rend="italic">Wikidata</hi> mit Referenzen (Bezug auf die jeweilige Publikation) versehen, andererseits werden bestehende Einträge auch mit neuen Informationen angereichert oder sogar neu erstellt, sofern sie nicht vorhanden sind. Der Panelbeitrag zeigt das Potential für die bessere Zugänglichmachung von Forschungsdaten in den Filmwissenschaften (Müller-Birn et al., 2017).
@@ -188,7 +188,9 @@
                 </div>
                 <div type="div2" rend="DH-Heading2">
                     <head>Automatisierte Verfahren für Analyse, Retrieval und Annotation von Video und Film</head>
-                    <p>Matthias Zeppelzauer, Fachhochschule St. Pölten, Österreich</p>
+                    <p>
+                        <hi rend="italic">Matthias Zeppelzauer, Fachhochschule St. Pölten, Österreich</hi>
+                    </p>
                     <p>Die manuelle Annotation von Videodaten ist üblicherweise eine zeitaufwendige Tätigkeit, die aufgrund der subjektiven Bewertungen unterschiedlicher AnnotatorInnen leicht zu Inkonsistenzen führen kann, insbesondere wenn die zu annotierenden Konzepte großen semantischen Interpretationsspielraum bieten. Automatische Annotationsmethoden basierend auf automatischen Bild- und Videoanalysemethoden aus dem Bereich des maschinellen Sehens (
                         <hi rend="italic">computer vision</hi>) bieten eine vielversprechende Alternative, um den Annotationsvorgang einerseits zu beschleunigen und andererseits zu formalisieren und zu objektivieren. In der Vergangenheit wurden zunächst automatisierte Methoden für die Erkennung von Schnitten und Einstellungsübergängen entwickelt. Darauf aufbauend wurden dann Lösungen präsentiert für die automatische Segmentierung von Videos und Filmen in einzelne semantisch kohärente Szenen. Methoden aus dem Bereich der inhaltsbasierten Bildsuche können eingesetzt werden, um nach visuellen Mustern, z.B. häufig auftretende Motive, Objekte oder Personen zu suchen. Methoden der Bewegungsanalyse (
                         <hi rend="italic">motion tracking</hi>) können eingesetzt werden, um Kamerabewegungen oder Objektbewegungen automatisiert zu erfassen. Ergänzend zur Bildanalyse kann die akustische Analyse der Tonspur weitere interessante Einsichten in den Rhythmus und die Montage von Filmen geben. Im interdisziplinären Projekt 
@@ -197,5 +199,112 @@
                 </div>
             </div>
         </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl>
+                        <hi rend="bold">Anonymus</hi> (2016): 
+                        <hi rend="italic">MovieBarcodes</hi>. 
+                        <ref target="http://moviebarcode.tumblr.com/">
+                            <hi rend="Internetlink">
+                                <hi rend="color(0000FF)">http://moviebarcode.tumblr.com/</hi>
+                            </hi>
+                        </ref>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Baker</hi>, 
+                        <hi rend="bold">Dillon</hi> (2015): 
+                        <hi rend="italic">Spectrum</hi>. 
+                        <ref target="http://dillonbaker.com/spectrum/">
+                            <hi rend="Internetlink">
+                                <hi rend="color(0000FF)">http://dillonbaker.com/spectrum/</hi>
+                            </hi>
+                        </ref>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Breitenfeld, A. / Mackeprang, M. / Hong, M.-T. / Müller-Birn, C. </hi>(2017)
+                        <hi rend="bold">: “</hi>Enabling Structured Data Generation by Nontechnical Experts”. In: Burghardt, M., Wimmer, R., Wolff, C. &amp; Womser-Hacker, C. (Hrsg.), 
+                        <hi rend="italic">Mensch und Computer 2017 - Tagungsband. </hi>Regensburg: Gesellschaft für Informatik e.V.. (S. 181-192).
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Brodbeck, Frederic</hi> (2011): 
+                        <hi rend="italic">Film Data Visualization</hi>. 
+                        <ref target="http://cinemetrics.fredericbrodbeck.de/">
+                            <hi rend="Internetlink">
+                                <hi rend="color(0000FF)">http://cinemetrics.fredericbrodbeck.de/</hi>
+                            </hi>
+                        </ref>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Burghardt, Manuel / Wolff, Christian</hi> (2016): „Digital Humanities in Bewegung: Ansätze für die computergestützte Filmanalyse”, in 
+                        <hi rend="italic">Book of Abstracts der DHd-Konferenz</hi>.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Burghardt, Manuel / Kao, Michael / Wolff, Christian</hi> (2016): “Beyond Shot Lengths – Using Language Data and Color Information as Additional Parameters for Quantitative Movie Analysis”, in 
+                        <hi rend="italic">Book of Abstracts of the International Digital Humanities Conference (DH)</hi>.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Casey, Michael</hi> (2014): “ACTION: Audiovisual Cinematic Toolbox for Interactive Object-based Media Navigation”. 
+                        <ref target="http://aum.dartmouth.edu/~action/index.html">
+                            <hi rend="Internetlink">
+                                <hi rend="color(0000FF)">http://aum.dartmouth.edu/~action/index.html</hi>
+                            </hi>
+                        </ref>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Everett, Wendy</hi> (2007): “Mapping Colour. An Introduction to the Theories and Practices of Colour”, in 
+                        <hi rend="italic">Questions of Colour in Cinema. From Paintbrush to Pixel.</hi> Hg. von Wendy Everett. Bern, S. 7-38.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Flückiger, Barbara</hi> (2015): „FilmColors“. 
+                        <ref target="https://filmcolors.org/">
+                            <hi rend="Internetlink">
+                                <hi rend="color(0000FF)">https://filmcolors.org/</hi>
+                            </hi>
+                        </ref>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Heftberger, Adelheid</hi> (2016): 
+                        <hi rend="italic">Kollision der Kader Dziga Vertovs Filme, die Visualisierung ihrer Strukturen und die Digital Humanities</hi>. München: edition text+kritik.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Heftberger, Adelheid</hi> (2014): “Film archives and digital humanities – an impossible match? New job descriptions and the challenges of the digital era”, in 
+                        <hi rend="italic">MedieKultur – Journal of media and communication research</hi> 30, 57, S. 135-153.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Marcus, Solomon</hi> (1970): 
+                        <hi rend="italic">Mathematische Poetik</hi>. Frankfurt am Main: Athenäum Verlag.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Mitrovic, Dalibor / Hartlieb, Stefan / Zeppelzauer, Matthias / Zaharieva, Maia</hi> (2010): „Scene Segmentation in Artistic Archive Documentaries”, in 
+                        <hi rend="italic">HCI in Work and Learning, Life and Leisure</hi>, LNCS, vol. 6389, S. 400-410.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Mitrovic, Dalibor / Zeppelzauer, Matthias / Zaharieva, Maia / Breiteneder, Christian</hi> (2011): „Retrieval of VisualComposition in Film”, in 
+                        <hi rend="italic">Proceedings of the 12th International Workshop on Image Analysis for Multimedia Interactive Services</hi>, April 13-15, Delft, The Netherlands.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Müller-Birn, Claudia / Heftberger, Adelheid / Höper, Jackob / Walkowski / Niels-Oliver Sharing </hi>(2017): “Factual Knowledge from Research in Film and Media Studies using Wikidata”, presented at FORCE2017 Research Communication and e-¬Scholarship Conference, Berlin, Germany.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Pause, Johannes / Walkowski, Niels-Oliver </hi>(2017): “Dead and Beautiful: The Analysis of Colors by Means of Contrasts in Neo-Zombie Movies”, in 
+                        <hi rend="italic">Book of Abstracts der DHd-Konferenz</hi>.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Zaharieva, Maia / Zeppelzauer, Matthias / Breiteneder, Christian / Mitrovic, Dalibor</hi> (2010): “Camera Take Reconstruction”, in 
+                        <hi rend="italic">Proceedings of IEEE Multimedia Modeling Conference</hi>, Jan 6-8, 2010, Chongqing, China, S. 379-388.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Zeppelzauer, Matthias / Mitrovic, Dalibor / Breiteneder, Christian</hi> (2011a): “Cross-Modal Analysis of Audio Visual Film Montage”, in 
+                        <hi rend="italic">Proceedings of 20th International Conference on Computer Communications and Networks</hi>, Maui, USA.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Zeppelzauer, Matthias / Zaharieva, Maia / Mitrovic, Dalibor / Breiteneder, Christian</hi> (2011b): “Retrieval of Motion Composition in Film”, in 
+                        <hi rend="italic">Digital Creativity</hi>, 22(4), 219-234.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
     </text>
 </TEI>

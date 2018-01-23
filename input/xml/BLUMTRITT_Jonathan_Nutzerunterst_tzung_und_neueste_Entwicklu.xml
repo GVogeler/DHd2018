@@ -23,7 +23,7 @@
             </titleStmt>
             <editionStmt>
                 <edition>
-                    <date>2018-01-21T22:39:00Z</date>
+                    <date>2015-10-04T22:02:00Z</date>
                 </edition>
             </editionStmt>
             <publicationStmt>
@@ -31,7 +31,7 @@
                 <address>
                     <addrLine>UniversitÃ¤t Graz</addrLine>
                     <addrLine>Zentrum fÃ¼r Informationsmodellierung - Austrian Centre for Digital Humanities</addrLine>
-                    <addrLine>ElisabethstraÃe 59/III</addrLine>
+                    <addrLine>ElisabethstraÃ&#x9f;e 59/III</addrLine>
                     <addrLine>8010 Graz</addrLine>
                 </address>
             </publicationStmt>
@@ -68,20 +68,30 @@
                     <term>Video</term>
                 </keywords>
             </textClass>
-        </profileDesc>
+        <settingDesc>
+            <ab n="conference">DHd2018 - "Kritik der Digitalen Vernunft", Köln</ab>
+            <ab n="paperID">257</ab>
+            <ab n="session_ID">22</ab>
+            <ab n="session_numberInSession">1</ab>
+            <ab n="session_short">Workshop_12a</ab>
+            <ab n="session_start">2018-02-27 09:00</ab>
+            <ab n="session_end">2018-02-27 10:30</ab>
+         </settingDesc>
+      </profileDesc>
     </teiHeader>
     <text>
         <body>
+            <div/>
             <div type="div1" rend="DH-Heading1">
                 <head>Beschreibung</head>
-                <p>Digitale Spracharchive sind ein integraler Bestandteil der Forschungsdateninfrastruktur und haben den spezifische Auftrag, audiovisuelle Sprachdaten und Dokumente zu sichern und auf deren Basis Wissensgenerierung zu ermöglichen und zu unterstützen. Ein Spracharchiv ist in diesem Sinn eine Plattform, die zwischen Produzenten und Konsumenten von Primärdaten vermittelt, so dass diese direkt oder indirekt interagieren können. Den datenproduzierenden Forschern ermöglicht das Archiv, Audio- und Videoaufnahmen menschlicher Kommunikation zu archivieren und idealerweise web-basiert zugänglich zu machen. Auf der anderen Seite werden Forscher, Sprachgemeinschaften und die weitere Öffentlichkeit in die Lage versetzt, diese Daten aufzufinden, zu betrachten, herunterzuladen und weiterzuverwenden und auf dieser Grundlage neues Wissen zu generieren. Um diesen Austausch zu unterstützen, haben die verschiedenen Spracharchive komplexe Webplattformen entwickelt.</p>
-                <p>Wie alle Forschungsdatenarchive profitieren Repositorien für audiovisuelle Daten von einem voranschreitenden Standardisierungsprozess. Das OAIS Referenzmodell hat die Grundlage für ein gemeinsames Beschreibungsvokabular gelegt. Das Data Seal of Approval entwickelt sich zum de-facto Standard für die Zertifizierung von  Forschungsdatenrepositorien in den digitalen Geisteswissenschaften. Auf dem Gebiet der Sprachressourcen wirken die Infrastrukturinitiative CLARIN und der vom BMBF geförderte deutsche Partner CLARIN-D als starke integrative Kraft und haben mit der Etablierung von Standards, die in allen Aspekten des Datenlebenszyklus zur Anwendung kommen, gemeinsame Lösungen geschaffen. Forschungsdatenrepositorien für Sprachdaten sind herausgefordert, gültige Standards zu implementieren und gleichzeitig attraktive Dienste anzubieten, die die Spezifika der Datentypen und die Bedürfnisse der jeweiligen Nutzergruppen berücksichtigen, um eine erfolgreiche Nachnutzung von Forschungsdaten zu befördern. </p>
-                <p>Der Workshop soll Archivbetreibern, Datenkuratoren, Datenproduzenten und Datenkonsumenten die Möglichkeit zum Austausch über Angebote, Bedarfe und zentrale Weiterentwicklungen geben. Der Workshop richtet sich an Betreiber von Forschungsdatenrepositorien mit audiovisuellen (Sprach-)Daten sowie Mitarbeiter von Institutionen, die Forschungsdatenmanagement für Forschung mit audiovisuellen Daten anbieten. Ebenso sind auch Wissenschaftler als aktive oder potentielle Nutzer von Forschungsdatenrepositoren angesprochen.</p>
+                <p>Digitale Spracharchive sind ein integraler Bestandteil der Forschungsdateninfrastruktur und haben den spezifischen Auftrag audiovisuelle Sprachdaten und Dokumente zu sichern und auf deren Basis Wissensgenerierung zu ermöglichen und zu unterstützen. Ein Spracharchiv ist in diesem Sinn eine Plattform, die zwischen Produzenten und Konsumenten von Primärdaten vermittelt, so dass diese direkt oder indirekt interagieren können. Den datenproduzierenden Forschern ermöglicht das Archiv, Audio- und Videoaufnahmen menschlicher Kommunikation zu archivieren und idealerweise web-basiert zugänglich zu machen. Auf der anderen Seite werden Forscher, Sprachgemeinschaften und die weitere Öffentlichkeit in die Lage versetzt, diese Daten aufzufinden, zu betrachten, herunterzuladen und weiterzuverwenden und auf dieser Grundlage neues Wissen zu generieren. Um diesen Austausch zu unterstützen, haben die verschiedenen Spracharchive komplexe Webplattformen entwickelt.</p>
+                <p>Wie alle Forschungsdatenarchive profitieren Repositorien für audiovisuelle Daten von einem voranschreitenden Standardisierungsprozess. Das OAIS Referenzmodell hat die Grundlage für ein gemeinsames Beschreibungsvokabular gelegt. Das Data Seal of Approval/CoreTrustSeal entwickelt sich zum de-facto Standard für die Zertifizierung von  Forschungsdatenrepositorien in den digitalen Geisteswissenschaften. Auf dem Gebiet der Sprachressourcen wirken die Infrastrukturinitiative CLARIN und der vom BMBF geförderte deutsche Partner CLARIN-D als starke integrative Kraft und haben mit der Etablierung von Standards, die in allen Aspekten des Datenlebenszyklus zur Anwendung kommen, gemeinsame Lösungen geschaffen. Forschungsdatenrepositorien für Sprachdaten sind herausgefordert, gültige Standards zu implementieren und gleichzeitig attraktive Dienste anzubieten, die die Spezifika der Datentypen und die Bedürfnisse der jeweiligen Nutzergruppen berücksichtigen, um eine erfolgreiche Nachnutzung von Forschungsdaten zu befördern. </p>
+                <p>Der Workshop soll Archivbetreibern, Datenkuratoren, Datenproduzenten und Datenkonsumenten die Möglichkeit zum Austausch über Angebote, Bedarfe und zentrale Weiterentwicklungen geben. Der Workshop richtet sich an Betreiber von Forschungsdatenrepositorien mit audiovisuellen (Sprach-)Daten sowie Mitarbeiter von Institutionen, die Forschungsdatenmanagement für Forschung mit audiovisuellen Daten anbieten. Ebenso sind auch WissenschaftlerInnen als aktive oder potentielle Nutzer von Forschungsdatenrepositorien angesprochen.</p>
             </div>
             <div type="div1" rend="DH-Heading1">
                 <head>Ablauf</head>
                 <p>Der Workshop wird eingeleitet durch eine 15-minütige Einführung in den Themenkomplex und eine Vorstellung der Beitragenden aus verschiedenen Institutionen, die sich mit den Problemen und Lösungen rund um die Archivierung und Bereitstellung von AV-Daten auseinandersetzen.</p>
-                <p>Der Hauptteil des Workshop gliedert sich in drei Sektionen, die unterschiedliche Aspekte der Nutzerunterstützung im Datenlebenszyklus behandeln. In jeder Sektion wird es zwei aufeinanderfolgende 15-minütige Impulsvorträge geben, die diesen Themenkomplex jeweils aus der Sicht eines der beitragenden Forschungsdatenrepositorien beleuchten und Antworten darauf geben, mit welchen Maßnahmen, Policies oder technischen Implementierungen sie den jeweiligen Aspekt adressieren und wie sie diese an ihre Nutzerschaft kommunizieren. Jede Sektion endet jeweils in einer 30-minütigen Diskussion.</p>
+                <p>Der Hauptteil des Workshops gliedert sich in drei Sektionen, die unterschiedliche Aspekte der Nutzerunterstützung im Datenlebenszyklus behandeln. In jeder Sektion wird es zwei aufeinanderfolgende 15-minütige Impulsvorträge geben, die diesen Themenkomplex jeweils aus der Sicht eines der beitragenden Forschungsdatenrepositorien beleuchten und Antworten darauf geben, mit welchen Maßnahmen, Policies oder technischen Implementierungen sie den jeweiligen Aspekt adressieren und wie sie diese an ihre Nutzerschaft kommunizieren. Jede Sektion endet jeweils in einer 30-minütigen Diskussion.</p>
                 <p>Der Workshop schließt mit einer kurzen Zusammenfassung und Abschlussdiskussion.</p>
                 <div type="div2" rend="DH-Heading2">
                     <head>Sektion 1: Wie komme ich an die Daten?</head>
@@ -89,78 +99,127 @@
                 </div>
                 <div type="div2" rend="DH-Heading2">
                     <head>Sektion 2: Wie kommen die Daten ins Archiv?</head>
-                    <p>Archive haben verschiedene Workflows für die Einreichung und Integration neuer Daten. Zum Teil werden vollständig technisch geleitete Verfahren angeboten, die es dem Produzenten ermöglichen, weitgehend autark Daten über das Archiv bereitzustellen (“self-archiving”). Andere Institutionen optieren bewusst für eine intensive Begleitung und Prüfung durch einen digitalen Archivar oder Kurator. Ebenso können die Herangehensweisen an die Veränderlichkeit von Datenbeständen weit auseinandergehen. Während manche Archive ausschließlich oder bevorzugt abgeschlossene Datensammlungen integrieren, begünstigen andere in ihren Implementierung eine laufende und teils feingranulare Aktualisierung und Erweiterung von Sammlungen (“living archive”).</p>
+                    <p>Archive haben verschiedene Workflows für die Einreichung und Integration neuer Daten. Zum Teil werden vollständig technisch geleitete Verfahren angeboten, die es dem Produzenten ermöglichen, weitgehend autark Daten über das Archiv bereitzustellen („self-archiving”). Andere Institutionen optieren bewusst für eine intensive Begleitung und Prüfung durch einen digitalen Archivar oder Kurator. Ebenso können die Herangehensweisen an die Veränderlichkeit von Datenbeständen weit auseinandergehen. Während manche Archive ausschließlich oder bevorzugt abgeschlossene Datensammlungen integrieren, begünstigen andere in ihren Implementierung eine laufende und teils feingranulare Aktualisierung und Erweiterung von Sammlungen („living archive”).</p>
                     <p>Der Wirkungsbereich eines digitalen Archivs geht idealerweise weit über den eigentlichen Einreichungsprozess hinaus. Qualitätssicherung beginnt mit einer frühen Beratung, Begleitung/Schulung und der Etablierung von Workflows für Arbeitsgruppen, die Daten in einem Repositorium archiven wollen. Datenarchive sind nicht selten auch an der Entwicklung von Software beteiligt, die in der Korpuserstellung und -kuratierung zum Einsatz kommt (z.B. Annotations-Tools, Metadaten-Editoren).</p>
                 </div>
                 <div type="div2" rend="DH-Heading2">
                     <head>Sektion 3: Was kann ich mit den Daten machen?</head>
-                    <p>Archive können “Mehrwert-Dienste” anbieten, die die Daten in einer fachspezifischen Art und Weise darstellen, kontextualisieren und vernetzen, oder sogar die Auswertung und Weiterverarbeitung unterstützen. In welcher Weise unterstützt das Archiv den wissenschaftlichen Nutzer des Archivs? </p>
+                    <p>Archive können „Mehrwert-Dienste” anbieten, die die Daten in einer fachspezifischen Art und Weise darstellen, kontextualisieren und vernetzen, oder sogar die Auswertung und Weiterverarbeitung unterstützen. In welcher Weise unterstützt das Archiv den wissenschaftlichen Nutzer des Archivs? </p>
                 </div>
             </div>
             <div type="div1" rend="DH-Heading1">
-                <head>Ausrichter des Workshops</head>
-                <p>Der Workshop wird von dem an der Universität zu Köln angesiedelten BMBF-Zentrum “Kölner Zentrum Analyse und Archivierung von AV-Daten” (KA³) ausgerichtet. Das Zentrum wird am Standort Köln vom dem Institut für Liguistik (IfL), dem Regionalen Rechenzentrum der Universität zu Köln (RRZK) und dem Data Center for the Humanties (DCH) getragen.</p>
-            </div>
-            <div type="div1" rend="DH-Heading1">
                 <head>Vorträge</head>
-                <p>Dynamische Forschungsdatenrepositiorien für die Geisteswissenschaften</p>
-                <p>Der Vortrag präsentiert den Ansatz eines dynamischen Forschungsdatenrepositoriums für die Geisteswissenschaften, der im BMBF-Zentrumsprojekt „Kölner Zentrum Analyse und Archivierung von AV‐Daten“ (KA³) implementiert wird. Im Mittelpunkt steht die Vereinbarkeit von Skalierbarkeit und Berücksichtigung fachspezifischer Anforderungen.
-                    <lb/>
-                </p>
-                <p>Andreas Witt (andreas.witt@uni-koeln.de), Institut für Digital Humanities, Universität zu Köln und Michael Lönhardt (loenhardt@uni-koeln.de), Dienstentwicklung, Regionales Rechenzentrum, Universität zu Köln</p>
-                <p>Eines für alle - Alles für einen</p>
-                <p>Der Beitrag beleuchtet die besonderen Anforderungen, die an ressourcentyp- bzw. fachspezifische Repositorien gestellt werden. Am Beispiel des HZSK-Repositoriums am Hamburger Zentrum für Sprachkorpora wird das Spannungsfeld zwischen dem Ziel einer möglichst breiten Nutzbarkeit und der Anpassung an spezifische Nutzergruppen diskutiert. </p>
-                <p>Hanna Hedeland (hanna.hedeland@uni-hamburg.de) Hamburger Zentrum für Sprachkorpora (HZSK), CLARIN-D, Universität Hamburg und Timm Lehmberg (timm.lehmberg@uni-hamburg.de), INEL, Institut für Finnougristik/Uralistik, Universität Hamburg</p>
-                <p>Muss es immer Fedora sein? Die Repositoriumslösung der Sprachbank von Finnland (Kielipankki)</p>
-                <p>Vorgestellt wird ein alternativer Ansatz der Datenbereitstellug, der ohne Repositoriumssoftware wie Fedora oder DSpace auskommt. Das Zusammenspiel zwischen verschiedenen Zugangsformen, PID-Verwaltung, Metadatenverwaltung, Versionierung und Zugangskontrolle wird erläutert, wobei besonders auf den Download-Service, die PID- und Metadatenverwaltung näher eingegangen wird.</p>
-                <p>Martin Matthiesen (martin.matthiesen@csc.fi), The Language Bank of Finland, CSC - IT Center for Science</p>
-                <p>Virtuelles An-die-Hand-nehmen: Qualitätssicherung für linguistische und kulturelle Datensammlungen</p>
-                <p>ELAR betreut weltweit intensiv Linguisten mit unterschiedlichsten linguistischen und digitalen Vorkenntnissen, um diese in die Lage zu versetzen, digitale Daten selbst zu kurieren, zu archivieren und langfristig für andere nutzbar zu machen.</p>
-                <p>Vera Ferreira (vf4@soas.ac.uk), Sophie Salffner (ss123@soas.ac.uk) und Mandana Seyfeddinipur (ms123@soas.ac.uk), Endangered Languages Archive, SOAS University of London</p>
-                <p>Visualisierung zeitalignierter Audio-Annotationen mit IIIF</p>
-                <p>Der Vortrag gibt Einblick in ein im Rahmen des Projekts KA3 entwickeltes Softwaresystem zur Visualisierung zeitalignierter Audio-Annotationen. Neben einer Live Demonstration werden die konzeptionellen Anpassungen und technischen Entwicklungen vorgestellt, die nötig waren, um die REST Standardisierungsbemühungen des International Image Interoperability Framework (IIIF Image API, IIIF Presentation API, IIIF Search API) für den Bereich zeitalignierter Audio-Annotationen nutzbar zu machen.</p>
-                <p>Jochen Graf (jochen.graf@uni-koeln.de), Mitarbeiter im Projekt KA³, Regionales Rechenzentrum, Abteilung Diensteentwicklung, Universität zu Köln</p>
-                <p>Erschließung audiovisueller Daten im AGD am Beispiel des FOLK-Korpus</p>
-                <p>Im AGD werden Varietäten- und Gesprächskorpora im Deutschen archiviert und bereitgestellt. Wir konzentrieren uns in diesem Beitrag darauf, wie Audios, Videos und Transkripte durch die DGD nutzbar gemacht werden.</p>
-                <p>Jan Gorisch (gorisch@ids-mannheim.de) &amp; Thomas Schmidt (thomas.schmidt@ids-mannheim.de), Programmbereich Mündliche Korpora, Institut für Deutsche Sprache, Mannheim</p>
+                <div type="div2" rend="DH-Heading2">
+                    <head>Dynamische Forschungsdatenrepositiorien für die Geisteswissenschaften</head>
+                    <p>Der Vortrag präsentiert den Ansatz eines dynamischen Forschungsdatenrepositoriums für die Geisteswissenschaften, der im BMBF-Zentrumsprojekt „Kölner Zentrum Analyse und Archivierung von AV‐Daten“ (KA³) implementiert wird. Im Mittelpunkt steht die Vereinbarkeit von Skalierbarkeit und Berücksichtigung fachspezifischer Anforderungen.
+                        <lb/>
+                    </p>
+                    <p>
+                        <hi rend="italic">Andreas Witt</hi> (andreas.witt@uni-koeln.de), Institut für Digital Humanities, Universität zu Köln und 
+                        <hi rend="italic">Michael Lönhardt</hi> (loenhardt@uni-koeln.de), Diensteentwicklung, Regionales Rechenzentrum, Universität zu Köln
+                    </p>
+                </div>
+                <div type="div2" rend="DH-Heading2">
+                    <head>Eines für alle - Alles für einen</head>
+                    <p>Der Beitrag beleuchtet die besonderen Anforderungen, die an ressourcentyp- bzw. fachspezifische Repositorien gestellt werden. Am Beispiel des HZSK-Repositoriums am Hamburger Zentrum für Sprachkorpora wird das Spannungsfeld zwischen dem Ziel einer möglichst breiten Nutzbarkeit und der Anpassung an spezifische Nutzergruppen diskutiert. </p>
+                    <p>
+                        <hi rend="italic">Hanna Hedeland</hi> (hanna.hedeland@uni-hamburg.de) Hamburger Zentrum für Sprachkorpora (HZSK), CLARIN-D, Universität Hamburg und 
+                        <hi rend="italic">Timm Lehmberg</hi> (timm.lehmberg@uni-hamburg.de), INEL, Institut für Finnougristik/Uralistik, Universität Hamburg
+                    </p>
+                </div>
+                <div type="div2" rend="DH-Heading2">
+                    <head>Muss es immer Fedora sein? Die Repositoriumslösung der Sprachbank von Finnland (Kielipankki)</head>
+                    <p>Vorgestellt wird ein alternativer Ansatz der Datenbereitstellug, der ohne Repositoriumssoftware wie Fedora oder DSpace auskommt. Das Zusammenspiel zwischen verschiedenen Zugangsformen, PID-Verwaltung, Metadatenverwaltung, Versionierung und Zugangskontrolle wird erläutert, wobei besonders auf den Download-Service, die PID- und Metadatenverwaltung näher eingegangen wird.</p>
+                    <p>
+                        <hi rend="italic">Martin Matthiesen</hi> (martin.matthiesen@csc.fi), The Language Bank of Finland, CSC - IT Center for Science
+                    </p>
+                </div>
+                <div type="div2" rend="DH-Heading2">
+                    <head>Virtuelles An-die-Hand-nehmen: Qualitätssicherung für linguistische und kulturelle Datensammlungen</head>
+                    <p>ELAR betreut weltweit intensiv Linguisten mit unterschiedlichsten linguistischen und digitalen Vorkenntnissen, um diese in die Lage zu versetzen, digitale Daten selbst zu kurieren, zu archivieren und langfristig für andere nutzbar zu machen.</p>
+                    <p>
+                        <hi rend="italic">Vera Ferreira</hi> (vf4@soas.ac.uk), 
+                        <hi rend="italic">Sophie Salffner</hi> (ss123@soas.ac.uk) und 
+                        <hi rend="italic">Mandana Seyfeddinipur</hi> (ms123@soas.ac.uk), Endangered Languages Archive, SOAS University of London
+                    </p>
+                </div>
+                <div type="div2" rend="DH-Heading2">
+                    <head>Visualisierung zeitalignierter Audio-Annotationen mit IIIF</head>
+                    <p>Der Vortrag gibt Einblick in ein im Rahmen des Projekts KA³ entwickeltes Softwaresystem zur Visualisierung zeitalignierter Audio-Annotationen. Neben einer Live Demonstration werden die konzeptionellen Anpassungen und technischen Entwicklungen vorgestellt, die nötig waren, um die REST Standardisierungsbemühungen des International Image Interoperability Framework (IIIF Image API, IIIF Presentation API, IIIF Search API) für den Bereich zeitalignierter Audio-Annotationen nutzbar zu machen.</p>
+                    <p>
+                        <hi rend="italic">Jochen Graf</hi> (jochen.graf@uni-koeln.de), Mitarbeiter im Projekt KA³, Regionales Rechenzentrum, Abteilung Diensteentwicklung, Universität zu Köln
+                    </p>
+                </div>
+                <div type="div2" rend="DH-Heading2">
+                    <head>Erschließung audiovisueller Daten im AGD am Beispiel des FOLK-Korpus</head>
+                    <p>Im AGD werden Varietäten- und Gesprächskorpora im Deutschen archiviert und bereitgestellt. Wir konzentrieren uns in diesem Beitrag darauf, wie Audios, Videos und Transkripte durch die DGD nutzbar gemacht werden.</p>
+                    <p>
+                        <hi rend="italic">Jan Gorisch</hi> (gorisch@ids-mannheim.de) &amp; 
+                        <hi rend="italic">Thomas Schmidt</hi> (thomas.schmidt@ids-mannheim.de), Programmbereich Mündliche Korpora, Institut für Deutsche Sprache, Mannheim
+                    </p>
+                </div>
             </div>
             <div type="div1" rend="DH-Heading1">
                 <head>Liste der Beitragenden</head>
-                <p>Vera Ferreira, M.A.</p>
-                <p>Endangered Languages Archive, SOAS, University of London</p>
+                <p>
+                    <hi rend="bold">Dr. Vera Ferreira, </hi>
+                    <hi rend="italic">Endangered Languages Archive, SOAS, University of London</hi>
+                </p>
                 <p>Vera is a trained linguist with a background in language documentation and field research. Her main research interests lie in European endangered languages and in the connection between documentary data and language revitalisation. She is head of CIDLeS (Interdisciplinary Centre for Social and Language Documentation) and digital archivist at Endangered Languages Archive (SOAS University of London). As the digital archivist, Vera provides advice and training on all aspects of data management, metadata preparation and digital archiving.</p>
-                <p>Dr. Jan Gorisch </p>
-                <p>Institut für Deutsche Sprache, Mannheim, Programmbereich Mündliche Korpora </p>
+                <p>
+                    <hi rend="bold">Dr. Jan Gorisch, </hi>
+                    <hi rend="italic">Institut für Deutsche Sprache, Mannheim, Programmbereich Mündliche Korpora </hi>
+                </p>
                 <p>Jan Gorisch ist Mitarbeiter des Archivs für Gesprochenes Deutsch (AGD) und wirkt bei Datenübernahmen und deren Kuration mit. Er arbeitet an der Automatisierung des Workflows am AGD und entwickelt Tools zur Integration von Sprachtechnologie bei der Erschließung der Sprachdaten. </p>
-                <p>Jochen Graf, M.A.</p>
-                <p>Regionales Rechenzentrum, Abteilung Diensteentwicklung, Universität zu Köln
-                    <lb/>
+                <p>
+                    <hi rend="bold">Jochen Graf, M.A., </hi>
+                    <hi rend="italic">Regionales Rechenzentrum, Diensteentwicklung, Universität zu Köln</hi>
                 </p>
                 <p>Jochen Graf hat einen langjährigen Hintergrund in Digital Humanities Projekten und ist Entwickler im BMBF-Zentrumsprojekt „Kölner Zentrum Analyse und Archivierung von AV‐Daten“ (KA³) am Regionalen Rechenzentrum an der Universität zu Köln.</p>
-                <p>Hanna Hedeland, M.A. </p>
-                <p>Hamburger Zentrum für Sprachkorpora, CLARIN-D, Universität Hamburg</p>
+                <p>
+                    <hi rend="bold">Hanna Hedeland, M.A.,</hi>
+                    <hi rend="italic">Hamburger Zentrum für Sprachkorpora, CLARIN-D, Universität Hamburg</hi>
+                </p>
                 <p>Hanna Hedeland koordiniert als Geschäftsführerin des Hamburger Zentrums für Sprachkorpora (HZSK) die Arbeit der dort angesiedelten Infrastrukturprojekte sowie die Kooperationen mit externen Forschungsprojekten. Im Rahmen des Projekts CLARIN beschäftigt sie sich mit der Entwicklung von Standards und Best Practices sowie entsprechenden Technologien und Workflows für die Aufbereitung und Bereitstellung (mehrsprachiger) gesprochener Daten.</p>
-                <p>Timm Lehmberg, M.A. </p>
-                <p>Institut für Finnougristik/Uralistik, Langzeitprojekt INEL/Hamburger Zentrum für Sprachkorpora (HZSK), Universität Hamburg</p>
+                <p>
+                    <hi rend="bold">Timm Lehmberg, M.A., </hi>
+                    <hi rend="italic">Institut für Finnougristik/Uralistik, Langzeitprojekt INEL/Hamburger Zentrum für Sprachkorpora (HZSK), Universität Hamburg</hi>
+                </p>
                 <p>Timm Lehmberg ist technischer Koordinator des Langzeitvorhabens INEL („Grammatiken, Korpora und Sprachtechnologie für indigene nordeurasische Sprachen“), das im Rahmen des gemeinsam von Bund und Ländern finanzierten Akademieprogramms durchgeführt wird sowie Mitwirkender am Hamburger Zentrum für Sprachkorpora (HZSK).</p>
-                <p>Dipl.-Inf. Michael Lönhardt</p>
-                <p>Regionales Rechenzentrum, Diensteentwicklung, Universität zu Köln</p>
+                <p>
+                    <hi rend="bold">Dipl.-Inf. Michael Lönhardt,</hi>
+                    <hi rend="italic">Regionales Rechenzentrum, Diensteentwicklung, Universität zu Köln</hi>
+                </p>
                 <p>Michael Lönhardt ist Leiter der Diensteentwicklung am Regionalen Rechenzentrum der Universität zu Köln.</p>
-                <p>Martin Matthiesen, M.A. </p>
-                <p>Senior Application Specialist, CSC - IT Center for Science, Finnland </p>
-                <p>Martin Matthiesen ist Administrator der Sprachbank von Finnland (www.kielipankki.fi/languagebank/) und beschäftigt sich mit der nachhaltigen Bereitstellung von Forschungsdaten für. Dies umfasst Versionierung, Metadaten, Persistente Identifikatoren (PIDs) und Zugangsverwaltung für nicht frei zugängliche Daten. Die Sprachbank ist ein gemeinsamer Service von CSC - IT Center for Science (www.csc.fi) und der Universität Helsinki (www.helsinki.fi/en) für FIN-CLARIN (www.kielipankki.fi/organization/).</p>
-                <p>Dr. Sophie Salffner</p>
-                <p>Endangered Languages Archive, SOAS, University of London</p>
-                <p>Sophie Salffner ist Digitale Archivarin am Endangered Languages Archive an der SOAS University of London. Sie arbeitet u.a. in der Aus- und Weiterbildung der BenutzerInnen des Archivs und schult WissenschaftlerInnen im wissenschaftlichen Datenmanagement, in der Aufbereitung von Metadaten und im Archivieren in Forschungsdatenrepositorien.</p>
-                <p>Dr. Thomas Schmidt </p>
-                <p>Institut für Deutsche Sprache, Mannheim, Programmbereich Mündliche Korpora</p>
+                <p>
+                    <hi rend="bold">Martin Matthiesen, M.A</hi>., 
+                    <hi rend="italic">Senior Application Specialist, CSC - IT Center for Science, Finnland </hi>
+                </p>
+                <p>Martin Matthiesen ist Administrator der Sprachbank von Finnland (www.kielipankki.fi/languagebank/) und beschäftigt sich mit der nachhaltigen Bereitstellung von multimodalen Forschungsdaten für die Sprachwissenschaft und angrenzenden Disziplinen. Dies umfasst Versionierung, Metadaten, Persistente Identifikatoren (PIDs) und Zugangsverwaltung für nicht frei zugängliche Daten. Die Sprachbank ist ein gemeinsamer Service von CSC - IT Center for Science (www.csc.fi) und der Universität Helsinki (www.helsinki.fi/en) für FIN-CLARIN (www.kielipankki.fi/organization/).</p>
+                <p>
+                    <hi rend="bold">Dr. Sophie Salffner, </hi>
+                    <hi rend="italic">Endangered Languages Archive, SOAS, University of London</hi>
+                </p>
+                <p>Sophie Salffner ist Digitale Archivarin am Endangered Languages Archive an der SOAS University of London. Sie arbeitet u.a. in der Aus- und Weiterbildung der BenutzerInnen des Archivs und schult WissenschaftlerInnen im wissenschaftlichen Datenmanagement, in der Aufbereitung von Metadaten und im Archivieren in digitalen Archiven.</p>
+                <p>
+                    <hi rend="bold">Dr. Thomas Schmidt, </hi>
+                    <hi rend="italic">Institut für Deutsche Sprache, Mannheim, Programmbereich Mündliche Korpora</hi>
+                </p>
                 <p>Thomas Schmidt leitet das Archiv für Gesprochenes Deutsch (AGD) und den Aufbau des Forschungs- und Lehrkorpus Gesprochenes Deutsch (FOLK) am IDS. Mit EXMARaLDA und der Datenbank für Gesprochenes Deutsch (DGD) beschäftigt er sich außerdem mit der Entwicklung von Technologie für die Arbeit mit und den Zugriff auf audiovisuelle Daten gesprochener Sprache. </p>
-                <p>Dr. Mandana Seyfeddinipur </p>
-                <p>Endangered Languages Archive, SOAS University of London</p>
+                <p>
+                    <hi rend="bold">Dr. Mandana Seyfeddinipur,</hi>
+                    <hi rend="italic">Endangered Languages Archive, SOAS University of London</hi>
+                </p>
                 <p>Mandana Seyfeddinipur ist Leiterin des Endangered Languages Archive (ELAR) an der SOAS University of London.</p>
-                <p>Prof. Dr. Andreas Witt</p>
-                <p>Institut für Digital Humanities/Data Centre for the Humanities, Universität zu Köln</p>
-                <p>Andreas Witt ist Direktor des Instituts für Digital Humanities an der Universität zu Köln.</p>
+                <p>
+                    <hi rend="bold">Prof. Dr. Andreas Witt,</hi>
+                    <hi rend="italic">Institut für Digital Humanities/Data Centre for the Humanities, Universität zu Köln</hi>
+                </p>
+                <p>Andreas Witt ist geschäftsführender Direktor des Instituts für Digital Humanities an der Universität zu Köln. Er beschäftigt sich mit digitalen Forschungsinfrastrukturen für linguistische Ressourcen, insbesondere mit der Standardisierung von Datenformaten und mit ethischen und juristischen Aspekten beim Umgang mit Forschungsdaten.</p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Ausrichter des Workshops</head>
+                <p>Der Workshop wird von dem an der Universität zu Köln angesiedelten BMBF-Zentrum „Kölner Zentrum Analyse und Archivierung von AV-Daten” (KA³) ausgerichtet. Das Zentrum wird am Standort Köln vom Institut für Liguistik (IfL), dem Regionalen Rechenzentrum der Universität zu Köln (RRZK) und dem Data Center for the Humanties (DCH) getragen.</p>
             </div>
         </body>
     </text>
