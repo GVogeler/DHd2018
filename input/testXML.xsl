@@ -170,7 +170,7 @@ move "</xsl:text>
                 <h1>Test von <xsl:value-of select="current-dateTime()"/></h1>
                 <p>Anzahl Dateien: <xsl:value-of select="count($files)"/></p>
                 <xsl:if test="count($files) != $files-in-folder">
-                    <p>Achtung! Zahl der Dateien stimmt nicht überein: <a href="dir.xml.txt">dir.xml.txt</a></p>
+                    <p class="Achtung">Achtung! Zahl der Dateien stimmt nicht überein: <a href="dir.xml.txt">dir.xml.txt</a></p>
                     <xsl:result-document href="dir.xml.txt" method="text">
                         <xsl:for-each select="$files">
                             <xsl:text>
@@ -181,7 +181,7 @@ move "</xsl:text>
                 
                 <p>Anzahl der Bilder: <xsl:value-of select="count($files//graphic)"/></p>
                 <xsl:if test="count($files//graphic) != $input-image-files">
-                    <p>Achtung! Zahl der Bildreferenz im XML und der heruntergeladenen Bilder stimmt nicht überein: <a href="tei-graphic.txt">tei-graphic.txt</a> und <a href="images/">input/images</a></p>
+                    <p class="Achtung">Achtung! Zahl der Bildreferenz im XML und der heruntergeladenen Bilder stimmt nicht überein: <a href="tei-graphic.txt">tei-graphic.txt</a> und <a href="images/">input/images</a></p>
                     <xsl:result-document href="tei-graphic.txt" method="text">
                         <xsl:for-each select="$files">
                             <xsl:sort select="document-uri(.)"/>
@@ -216,7 +216,13 @@ move "</xsl:text>
                     <div id="document-uri(.)" class="contrib">
                         <p>Datei: <a href="{document-uri(.)}"><xsl:value-of select="tokenize(document-uri(.),'/')[last()]"/></a></p>
                         <p>Typ: <xsl:value-of select="//keywords[@scheme='ConfTool'][@n='subcategory']/term"/></p>
-                        <p>Session: <xsl:if test="count($session) != 1"><b>ACHTUNG, keine automatische Session-Zuordnung möglich!!!</b></xsl:if><xsl:value-of select="$session"/></p>
+                        <p>Session: <xsl:if test="count($session) != 1"><b>ACHTUNG, keine automatische Session-Zuordnung möglich!!!</b></xsl:if><xsl:value-of select="$session"/>
+                            <xsl:variable name="typConfTool" select="substring(./TEI/teiHeader[1]/profileDesc[1]/textClass[1]/keywords[@n='subcategory']/term[1], 1,1)"/>
+                            <xsl:variable name="session" select="./TEI/teiHeader[1]/profileDesc[1]/settingDesc[1]/ab[@n='session_short']/string()"/>
+                            <xsl:if test="not(starts-with($session, $typConfTool))">
+                                <span type="Achtung"><xsl:text>Achtung! Typ-ConfTool </xsl:text><xsl:value-of select="$typConfTool"/><xsl:text> und </xsl:text><xsl:value-of select="$session"/><text> passen nicht zu einander!</text></span>
+                            </xsl:if>
+                        </p>
                         <p>Titel: <xsl:value-of select="/TEI/teiHeader[1]/fileDesc[1]/titleStmt[1]/title"/></p>
                         <p>Autoren: <xsl:apply-templates select="/TEI/teiHeader/fileDesc/titleStmt/author"/></p>
                         <p>Text: <xsl:value-of select="string-length(/TEI/text/body/string())"/><xsl:text> Zeichen </xsl:text>
