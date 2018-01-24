@@ -559,8 +559,8 @@
     <xsl:if test="(//term[text()='Plenary'])[1] is ."><fo:block keep-with-next="always"><xsl:call-template name="subhead"/>Plenarvorträge</fo:block></xsl:if>
   </xsl:template>
 
-  <xsl:template match="//term[text()='Workshops']" mode="toc">
-    <xsl:if test="(//term[text()='Workshops'])[1] is ."><fo:block keep-with-next="always"><xsl:call-template name="subhead"/>Workshops</fo:block></xsl:if>
+  <xsl:template match="//term[text()='Workshop']" mode="toc">
+    <xsl:if test="(//term[text()='Workshop'])[1] is ."><fo:block keep-with-next="always"><xsl:call-template name="subhead"/>Workshops</fo:block></xsl:if>
   </xsl:template>
 
   <xsl:template match="//term[text()='Panel']" mode="toc">
@@ -783,7 +783,7 @@
             <xsl:if test="descendant::keywords[@n='subcategory']/term[1] = 'Sektion' or
               descendant::keywords[@n='subcategory']/term[1] = 'Panel' or
               descendant::keywords[@n='subcategory']/term[1] = 'Poster' or
-              descendant::keywords[@n='subcategory']/term[1] = 'Workshops' or
+              descendant::keywords[@n='subcategory']/term[1] = 'Workshop' or
               descendant::keywords[@n='subcategory']/term[1] = 'Vortrag' or
               descendant::keywords[@n='subcategory']/term[1] = 'Plenary' or
               descendant::keywords[@n='subcategory']/term[1] = 'Reviewers'">
@@ -964,7 +964,7 @@
       ~~~~~~~~~~~~~~~~~~~~~ -->
 
       <!-- Title Page -->
-      <xsl:if test="//keywords[@n='subcategory']/term[1] = 'Workshops'">
+      <xsl:if test="//keywords[@n='subcategory']/term[1] = 'Workshop'">
         <fo:page-sequence master-reference="Single">
           <fo:flow flow-name="xsl-region-body">
             <fo:block>
@@ -981,7 +981,7 @@
           <fo:flow flow-name="xsl-region-body">
             <xsl:for-each select="//TEI">
               <!-- if poster. This is a lazy way to select the panels, but I wasn't too concerned with code efficiency. -->
-              <xsl:if test="normalize-space(teiHeader[1]/profileDesc[1]/textClass[1]/keywords[@n='subcategory']/term[1]) = 'Workshops'">
+              <xsl:if test="normalize-space(teiHeader[1]/profileDesc[1]/textClass[1]/keywords[@n='subcategory']/term[1]) = 'Workshop'">
                 <!-- Title -->
                 <fo:block id="{@n}" keep-with-next="always">
                   <xsl:call-template name="head"/>
