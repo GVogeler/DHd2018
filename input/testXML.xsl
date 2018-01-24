@@ -336,6 +336,32 @@ move "</xsl:text>
                 </xsl:attribute>
         </xsl:copy>
     </xsl:template>
+    <xsl:template match="TEI"
+        mode="copyxml">
+        <xsl:param name="filename"/>
+        <xsl:copy>
+            <xsl:apply-templates 
+                select="@*[name() != 'url']" mode="copyxml"/>
+            <xsl:attribute name="xml:id" select="$filename"/>
+            <xsl:apply-templates 
+                select="comment()|processing-instruction()|*|text()" 
+                mode="copyxml">
+                <xsl:with-param name="filename" select="$filename"/>
+            </xsl:apply-templates>
+        </xsl:copy>
+    </xsl:template>
+    <xsl:template match="/TEI/teiHeader[1]/fileDesc[1]/publicationStmt[1]"
+        mode="copyxml">
+        <xsl:copy>
+            <publisher>Georg Vogeler, im Auftrag des Verbands Digital Humanities im deutschaprachigen Raum e.V.</publisher>
+            <address>
+                <addrLine>Universität Graz</addrLine>
+                <addrLine>Zentrum für Informationsmodellierung - Austrian Centre for Digital Humanities</addrLine>
+                <addrLine>Elisabethstraße 59/III</addrLine>
+                <addrLine>8010 Graz</addrLine>
+            </address>
+        </xsl:copy>
+    </xsl:template>
     <xsl:template match="profileDesc"
         mode="copyxml">
         <xsl:param name="filename"/>
