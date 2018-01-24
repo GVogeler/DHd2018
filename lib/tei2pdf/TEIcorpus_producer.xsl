@@ -92,7 +92,7 @@
             </xsl:for-each>
 
             <!-- Panels -->
-            <xsl:for-each select="$files[normalize-space(//keywords[@n='category']) = 'Panel']">
+            <xsl:for-each select="$files[normalize-space(//keywords[@n='subcategory']) = 'Panel']">
                 <xsl:sort select="replace(lower-case(normalize-space(/TEI/teiHeader[1]/fileDesc[1]/titleStmt[1]/title[1])), '[^a-z]', '')"/>
                     <xsl:variable name="id"><xsl:value-of select="/TEI/@xml:id"/></xsl:variable>
                     <TEI n="{$id}">
@@ -106,7 +106,7 @@
             </xsl:for-each>
 
             <!-- Sektionen -->
-            <xsl:for-each select="$files[normalize-space(//keywords[@n='category']) = 'Sektion']">
+            <xsl:for-each select="$files[normalize-space(//keywords[@n='subcategory']) = 'Sektion']">
                 <xsl:sort select="replace(lower-case(normalize-space(/TEI/teiHeader[1]/fileDesc[1]/titleStmt[1]/title[1])), '[^a-z]', '')"/>
                     <xsl:variable name="id"><xsl:value-of select="/TEI/@xml:id"/></xsl:variable>
                     <TEI n="{$id}">
@@ -120,7 +120,7 @@
             </xsl:for-each>
 
             <!-- Vorträge -->
-            <xsl:for-each select="$files[normalize-space(//keywords[@n='category']) = 'Vortrag']">
+            <xsl:for-each select="$files[normalize-space(//keywords[@n='subcategory']) = 'Vortrag']">
                 <xsl:sort select="replace(lower-case(normalize-space(/TEI/teiHeader[1]/fileDesc[1]/titleStmt[1]/title[1])), '[^a-z]', '')"/>
                     <xsl:variable name="id"><xsl:value-of select="/TEI/@xml:id"/></xsl:variable>
                     <TEI n="{$id}">
@@ -134,7 +134,7 @@
             </xsl:for-each>
 
             <!-- Posters -->
-            <xsl:for-each select="$files[normalize-space(//keywords[@n='category']) = 'Poster']">
+            <xsl:for-each select="$files[normalize-space(//keywords[@n='subcategory']) = 'Poster']">
                 <xsl:sort select="replace(lower-case(normalize-space(/TEI/teiHeader[1]/fileDesc[1]/titleStmt[1]/title[1])), '[^a-z]', '')"/>
                     <xsl:variable name="id"><xsl:value-of select="/TEI/@xml:id"/></xsl:variable>
                     <TEI n="{$id}">
