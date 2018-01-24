@@ -813,7 +813,7 @@
 
                       <fo:inline-container inline-progression-dimension="79.9%">
                         <fo:block>
-                          <xsl:for-each select="teiHeader[1]/fileDesc[1]/titleStmt[1]/author/name[1]">
+                          <xsl:for-each select="teiHeader[1]/fileDesc[1]/titleStmt[1]/author/persName[1]">
                             <fo:inline>
                               <!-- <xsl:call-template name="text"/> -->
                               <xsl:value-of select="surname"/>
@@ -929,9 +929,9 @@
                         <xsl:attribute name="id">
                           <xsl:value-of select="@n"></xsl:value-of>
                         </xsl:attribute>
-                        <xsl:value-of select="name/surname"/>
+                        <xsl:value-of select="persName/surname"/>
                         <xsl:text>, </xsl:text>
-                        <xsl:value-of select="name/forename"/>
+                        <xsl:value-of select="persName/forename"/>
                       </fo:block>
                       <fo:block>
                         <xsl:call-template name="author_email"/>
@@ -1003,9 +1003,9 @@
                         <xsl:attribute name="id">
                           <xsl:value-of select="@n"></xsl:value-of>
                         </xsl:attribute>
-                        <xsl:value-of select="name/surname"/>
+                        <xsl:value-of select="persName/surname"/>
                         <xsl:text>, </xsl:text>
-                        <xsl:value-of select="name/forename"/>
+                        <xsl:value-of select="persName/forename"/>
                       </fo:block>
                       <fo:block>
                         <xsl:call-template name="author_email"/>
@@ -1075,9 +1075,9 @@
                         <xsl:attribute name="id">
                           <xsl:value-of select="@n"></xsl:value-of>
                         </xsl:attribute>
-                        <xsl:value-of select="name/surname"/>
+                        <xsl:value-of select="persName/surname"/>
                         <xsl:text>, </xsl:text>
-                        <xsl:value-of select="name/forename"/>
+                        <xsl:value-of select="persName/forename"/>
                       </fo:block>
                       <fo:block>
                         <xsl:call-template name="author_email"/>
@@ -1149,9 +1149,9 @@
                         <xsl:attribute name="id">
                           <xsl:value-of select="@n"></xsl:value-of>
                         </xsl:attribute>
-                        <xsl:value-of select="name/surname"/>
+                        <xsl:value-of select="persName/surname"/>
                         <xsl:text>, </xsl:text>
-                        <xsl:value-of select="name/forename"/>
+                        <xsl:value-of select="persName/forename"/>
                       </fo:block>
                       <fo:block>
                         <xsl:call-template name="author_email"/>
@@ -1220,9 +1220,9 @@
                         <xsl:attribute name="id">
                           <xsl:value-of select="@n"></xsl:value-of>
                         </xsl:attribute>
-                        <xsl:value-of select="name/surname"/>
+                        <xsl:value-of select="persName/surname"/>
                         <xsl:text>, </xsl:text>
-                        <xsl:value-of select="name/forename"/>
+                        <xsl:value-of select="persName/forename"/>
                       </fo:block>
                       <fo:block>
                         <xsl:call-template name="author_email"/>
@@ -1291,9 +1291,9 @@
                         <xsl:attribute name="id">
                           <xsl:value-of select="@n"></xsl:value-of>
                         </xsl:attribute>
-                        <xsl:value-of select="name/surname"/>
+                        <xsl:value-of select="persName/surname"/>
                         <xsl:text>, </xsl:text>
-                        <xsl:value-of select="name/forename"/>
+                        <xsl:value-of select="persName/forename"/>
                       </fo:block>
                       <fo:block>
                         <xsl:call-template name="author_email"/>
@@ -1334,8 +1334,8 @@
               <xsl:value-of select="parent::name"/><xsl:text> </xsl:text>
               <fo:leader leader-pattern="dots"/>
               <xsl:for-each select="current-group()">
-                <fo:basic-link internal-destination="{parent::name/parent::author/@n}">
-                  <fo:page-number-citation ref-id="{parent::name/parent::author/@n}"/><xsl:if test="position() != last()"><xsl:text>,</xsl:text></xsl:if>
+                <fo:basic-link internal-destination="{parent::persName/parent::author/@n}">
+                  <fo:page-number-citation ref-id="{parent::persName/parent::author/@n}"/><xsl:if test="position() != last()"><xsl:text>,</xsl:text></xsl:if>
                 </fo:basic-link>
               </xsl:for-each>
             </fo:block>
