@@ -6,21 +6,6 @@
     exclude-result-prefixes="xs dhd t"
     xpath-default-namespace="http://www.tei-c.org/ns/1.0"
     version="2.0">
-    <!-- Verarbeitungsprozeß:
-        Herunterladen aller DHc-Dateien
-        Umbenennen (rename *.dhc *.zip)
-        Extrahieren Ordner
-        Extrahieren XML, verschieben nach input\xml
-        Verschieben Bilder
-    -->
-    <!-- Testen:
-    Vorhandensein von 
-        Titel, Untertitel
-        Autoren, 
-        Text, 
-        Bildern 
-        Bibliographie
-    -->
     <xsl:output method="xml" indent="yes"/>
     <xsl:variable name="folder">
         <xsl:choose>
@@ -353,13 +338,13 @@ move "</xsl:text>
     <xsl:template match="/TEI/teiHeader[1]/fileDesc[1]/publicationStmt[1]"
         mode="copyxml">
         <xsl:copy>
-            <publisher>Georg Vogeler, im Auftrag des Verbands Digital Humanities im deutschaprachigen Raum e.V.</publisher>
-            <address>
-                <addrLine>Universität Graz</addrLine>
-                <addrLine>Zentrum für Informationsmodellierung - Austrian Centre for Digital Humanities</addrLine>
-                <addrLine>Elisabethstraße 59/III</addrLine>
-                <addrLine>8010 Graz</addrLine>
-            </address>
+            <t:publisher>Georg Vogeler, im Auftrag des Verbands Digital Humanities im deutschaprachigen Raum e.V.</t:publisher>
+            <t:address>
+                <t:addrLine>Universität Graz</t:addrLine>
+                <t:addrLine>Zentrum für Informationsmodellierung - Austrian Centre for Digital Humanities</t:addrLine>
+                <t:addrLine>Elisabethstraße 59/III</t:addrLine>
+                <t:addrLine>8010 Graz</t:addrLine>
+            </t:address>
         </xsl:copy>
     </xsl:template>
     <xsl:template match="profileDesc"

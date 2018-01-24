@@ -63,13 +63,13 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-            <publisher xmlns="">Georg Vogeler, im Auftrag des Verbands Digital Humanities im deutschaprachigen Raum e.V.</publisher>
-            <address xmlns="">
-               <addrLine>Universität Graz</addrLine>
-               <addrLine>Zentrum für Informationsmodellierung - Austrian Centre for Digital Humanities</addrLine>
-               <addrLine>Elisabethstraße 59/III</addrLine>
-               <addrLine>8010 Graz</addrLine>
-            </address>
+            <t:publisher xmlns:t="http://www.tei-c.org/ns/1.0">Georg Vogeler, im Auftrag des Verbands Digital Humanities im deutschaprachigen Raum e.V.</t:publisher>
+            <t:address xmlns:t="http://www.tei-c.org/ns/1.0">
+               <t:addrLine>Universität Graz</t:addrLine>
+               <t:addrLine>Zentrum für Informationsmodellierung - Austrian Centre for Digital Humanities</t:addrLine>
+               <t:addrLine>Elisabethstraße 59/III</t:addrLine>
+               <t:addrLine>8010 Graz</t:addrLine>
+            </t:address>
          </publicationStmt>
             <sourceDesc>
                 <p>Converted from an OASIS Open Document</p>
