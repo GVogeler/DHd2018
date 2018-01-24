@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # locate saxon jar file
-sax_jar=lib/SaxonHE9-7-0-15J/saxon9he.jar
+sax_jar=lib/SaxonHE9-8-0-7J/saxon9he.jar
 
 # locate FOP base directory
 fop_lib=lib/fop-2.1
@@ -20,7 +20,7 @@ fo_obj=output/pdf.fo
 pdf_obj=output/pdf.pdf
 
 tei_xsl=lib/tei2pdf/TEIcorpus_producer.xsl
-xslfo_xsl=lib/tei2pdf/xsl-fo-producer.xsl
+xslfo_xsl=lib/tei2pdf/xsl-fo-producer-singlePage.xsl
 init_xml=lib/tei2pdf/empty.xml
 final_xml=output/Book_Corpus.xml
 
