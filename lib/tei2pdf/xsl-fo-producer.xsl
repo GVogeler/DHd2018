@@ -778,18 +778,18 @@
           <xsl:for-each select="//TEI">
             <!-- Controlled by individual templates below, gives section headers for TOC -->
 
-            <xsl:apply-templates select="teiHeader/profileDesc/textClass/keywords[1]/term[1]" mode="toc"/>
+            <xsl:apply-templates select="teiHeader/profileDesc/textClass/keywords[2]/term[1]" mode="toc"/>
 
-            <xsl:if test="descendant::keywords[@n='category']/term[1] = 'Sektion' or
-              descendant::keywords[@n='category']/term[1] = 'Panel' or
-              descendant::keywords[@n='category']/term[1] = 'Poster' or
-              descendant::keywords[@n='category']/term[1] = 'Workshops' or
-              descendant::keywords[@n='category']/term[1] = 'Vortrag' or
-              descendant::keywords[@n='category']/term[1] = 'Plenary' or
-              descendant::keywords[@n='category']/term[1] = 'Reviewers'">
+            <xsl:if test="descendant::keywords[@n='subcategory']/term[1] = 'Sektion' or
+              descendant::keywords[@n='subcategory']/term[1] = 'Panel' or
+              descendant::keywords[@n='subcategory']/term[1] = 'Poster' or
+              descendant::keywords[@n='subcategory']/term[1] = 'Workshops' or
+              descendant::keywords[@n='subcategory']/term[1] = 'Vortrag' or
+              descendant::keywords[@n='subcategory']/term[1] = 'Plenary' or
+              descendant::keywords[@n='subcategory']/term[1] = 'Reviewers'">
 
               <xsl:choose>
-                <xsl:when test="descendant::keywords[@n='category']/term[1] = 'Reviewers'">
+                <xsl:when test="descendant::keywords[@n='subcategory']/term[1] = 'Reviewers'">
                   <!-- Reviewers has no authors, so gets a slightly different treatment -->
                   <fo:block text-align-last="justify">
                     <xsl:call-template name="text"/>
@@ -813,7 +813,7 @@
 
                       <fo:inline-container inline-progression-dimension="79.9%">
                         <fo:block>
-                          <xsl:for-each select="teiHeader[1]/fileDesc[1]/titleStmt[1]/author/name[1]">
+                          <xsl:for-each select="teiHeader[1]/fileDesc[1]/titleStmt[1]/author/persName[1]">
                             <fo:inline>
                               <!-- <xsl:call-template name="text"/> -->
                               <xsl:value-of select="surname"/>
@@ -886,7 +886,7 @@
 
       <!-- Title Page -->
 
-      <xsl:if test="//keywords[@n='category'][1]/term[1] = 'Plenary'">
+      <xsl:if test="//keywords[@n='subcategory'][1]/term[1] = 'Plenary'">
         <fo:page-sequence master-reference="Single">
           <fo:flow flow-name="xsl-region-body">
             <fo:block>
@@ -901,7 +901,7 @@
 
         <xsl:for-each select="//TEI">
           <!-- if panel. This is a lazy way to select the panels, but I wasn't too concerned with code efficiency. -->
-          <xsl:if test="normalize-space(teiHeader[1]/profileDesc[1]/textClass[1]/keywords[@n='category']/term[1]) = 'Plenary'">
+          <xsl:if test="normalize-space(teiHeader[1]/profileDesc[1]/textClass[1]/keywords[@n='subcategory']/term[1]) = 'Plenary'">
 
             <fo:page-sequence master-reference="Single">
               <xsl:copy-of select="$header_and_footer"/>
@@ -929,9 +929,9 @@
                         <xsl:attribute name="id">
                           <xsl:value-of select="@n"></xsl:value-of>
                         </xsl:attribute>
-                        <xsl:value-of select="name/surname"/>
+                        <xsl:value-of select="persName/surname"/>
                         <xsl:text>, </xsl:text>
-                        <xsl:value-of select="name/forename"/>
+                        <xsl:value-of select="persName/forename"/>
                       </fo:block>
                       <fo:block>
                         <xsl:call-template name="author_email"/>
@@ -964,7 +964,7 @@
       ~~~~~~~~~~~~~~~~~~~~~ -->
 
       <!-- Title Page -->
-      <xsl:if test="//keywords[@n='category']/term[1] = 'Workshops'">
+      <xsl:if test="//keywords[@n='subcategory']/term[1] = 'Workshops'">
         <fo:page-sequence master-reference="Single">
           <fo:flow flow-name="xsl-region-body">
             <fo:block>
@@ -981,7 +981,7 @@
           <fo:flow flow-name="xsl-region-body">
             <xsl:for-each select="//TEI">
               <!-- if poster. This is a lazy way to select the panels, but I wasn't too concerned with code efficiency. -->
-              <xsl:if test="normalize-space(teiHeader[1]/profileDesc[1]/textClass[1]/keywords[@n='category']/term[1]) = 'Workshops'">
+              <xsl:if test="normalize-space(teiHeader[1]/profileDesc[1]/textClass[1]/keywords[@n='subcategory']/term[1]) = 'Workshops'">
                 <!-- Title -->
                 <fo:block id="{@n}" keep-with-next="always">
                   <xsl:call-template name="head"/>
@@ -1003,9 +1003,9 @@
                         <xsl:attribute name="id">
                           <xsl:value-of select="@n"></xsl:value-of>
                         </xsl:attribute>
-                        <xsl:value-of select="name/surname"/>
+                        <xsl:value-of select="persName/surname"/>
                         <xsl:text>, </xsl:text>
-                        <xsl:value-of select="name/forename"/>
+                        <xsl:value-of select="persName/forename"/>
                       </fo:block>
                       <fo:block>
                         <xsl:call-template name="author_email"/>
@@ -1035,7 +1035,7 @@
       ~~~~~~~~~~~~~~~~~~~~~ -->
 
       <!-- Title Page -->
-      <xsl:if test="//keywords[@n='category'][1]/term[1] = 'Panel'">
+      <xsl:if test="//keywords[@n='subcategory'][1]/term[1] = 'Panel'">
         <fo:page-sequence master-reference="Single">
           <fo:flow flow-name="xsl-region-body">
             <fo:block>
@@ -1053,7 +1053,7 @@
           <fo:flow flow-name="xsl-region-body">
             <xsl:for-each select="//TEI">
               <!-- if panel. This is a lazy way to select the panels, but I wasn't too concerned with code efficiency. -->
-              <xsl:if test="normalize-space(teiHeader[1]/profileDesc[1]/textClass[1]/keywords[@n='category']/term[1]) = 'Panel'">
+              <xsl:if test="normalize-space(teiHeader[1]/profileDesc[1]/textClass[1]/keywords[@n='subcategory']/term[1]) = 'Panel'">
                 <!-- Title -->
                 <fo:block id="{@n}" keep-with-next="always">
                   <xsl:call-template name="head"/>
@@ -1075,9 +1075,9 @@
                         <xsl:attribute name="id">
                           <xsl:value-of select="@n"></xsl:value-of>
                         </xsl:attribute>
-                        <xsl:value-of select="name/surname"/>
+                        <xsl:value-of select="persName/surname"/>
                         <xsl:text>, </xsl:text>
-                        <xsl:value-of select="name/forename"/>
+                        <xsl:value-of select="persName/forename"/>
                       </fo:block>
                       <fo:block>
                         <xsl:call-template name="author_email"/>
@@ -1110,7 +1110,7 @@
 
       <!-- Title Page -->
 
-      <xsl:if test="//keywords[@n='category']/term[1] = 'Sektion'">
+      <xsl:if test="//keywords[@n='subcategory']/term[1] = 'Sektion'">
         <fo:page-sequence master-reference="Single">
           <fo:flow flow-name="xsl-region-body">
             <fo:block>
@@ -1127,7 +1127,7 @@
           <fo:flow flow-name="xsl-region-body">
             <xsl:for-each select="//TEI">
               <!-- if paper. This is a lazy way to select the panels, but I wasn't too concerned with code efficiency. -->
-              <xsl:if test="normalize-space(teiHeader[1]/profileDesc[1]/textClass[1]/keywords[@n='category']/term[1]) = 'Sektion'">
+              <xsl:if test="normalize-space(teiHeader[1]/profileDesc[1]/textClass[1]/keywords[@n='subcategory']/term[1]) = 'Sektion'">
                 <!-- Title -->
                 <fo:block id="{@n}" keep-with-next="always">
                   <xsl:call-template name="head"/>
@@ -1149,9 +1149,9 @@
                         <xsl:attribute name="id">
                           <xsl:value-of select="@n"></xsl:value-of>
                         </xsl:attribute>
-                        <xsl:value-of select="name/surname"/>
+                        <xsl:value-of select="persName/surname"/>
                         <xsl:text>, </xsl:text>
-                        <xsl:value-of select="name/forename"/>
+                        <xsl:value-of select="persName/forename"/>
                       </fo:block>
                       <fo:block>
                         <xsl:call-template name="author_email"/>
@@ -1181,7 +1181,7 @@
       ~~~~~~~~~~~~~~~~~~~~~ -->
 
       <!-- Title Page -->
-      <xsl:if test="//keywords[@n='category']/term[1] = 'Vortrag'">
+      <xsl:if test="//keywords[@n='subcategory']/term[1] = 'Vortrag'">
         <fo:page-sequence master-reference="Single">
           <fo:flow flow-name="xsl-region-body">
             <fo:block>
@@ -1198,7 +1198,7 @@
           <fo:flow flow-name="xsl-region-body">
             <xsl:for-each select="//TEI">
               <!-- if poster. This is a lazy way to select the panels, but I wasn't too concerned with code efficiency. -->
-              <xsl:if test="normalize-space(teiHeader[1]/profileDesc[1]/textClass[1]/keywords[@n='category']/term[1]) = 'Vortrag'">
+              <xsl:if test="normalize-space(teiHeader[1]/profileDesc[1]/textClass[1]/keywords[@n='subcategory']/term[1]) = 'Vortrag'">
                 <!-- Title -->
                 <fo:block id="{@n}" keep-with-next="always">
                   <xsl:call-template name="head"/>
@@ -1220,9 +1220,9 @@
                         <xsl:attribute name="id">
                           <xsl:value-of select="@n"></xsl:value-of>
                         </xsl:attribute>
-                        <xsl:value-of select="name/surname"/>
+                        <xsl:value-of select="persName/surname"/>
                         <xsl:text>, </xsl:text>
-                        <xsl:value-of select="name/forename"/>
+                        <xsl:value-of select="persName/forename"/>
                       </fo:block>
                       <fo:block>
                         <xsl:call-template name="author_email"/>
@@ -1252,7 +1252,7 @@
       ~~~~~~~~~~~~~~~~~~~~~ -->
 
       <!-- Title Page -->
-      <xsl:if test="//keywords[@n='category']/term[1] = 'Poster'">
+      <xsl:if test="//keywords[@n='subcategory']/term[1] = 'Poster'">
         <fo:page-sequence master-reference="Single">
           <fo:flow flow-name="xsl-region-body">
             <fo:block>
@@ -1269,7 +1269,7 @@
           <fo:flow flow-name="xsl-region-body">
             <xsl:for-each select="//TEI">
               <!-- if poster. This is a lazy way to select the panels, but I wasn't too concerned with code efficiency. -->
-              <xsl:if test="normalize-space(teiHeader[1]/profileDesc[1]/textClass[1]/keywords[@n='category']/term[1]) = 'Poster'">
+              <xsl:if test="normalize-space(teiHeader[1]/profileDesc[1]/textClass[1]/keywords[@n='subcategory']/term[1]) = 'Poster'">
                 <!-- Title -->
                 <fo:block id="{@n}" keep-with-next="always">
                   <xsl:call-template name="head"/>
@@ -1291,9 +1291,9 @@
                         <xsl:attribute name="id">
                           <xsl:value-of select="@n"></xsl:value-of>
                         </xsl:attribute>
-                        <xsl:value-of select="name/surname"/>
+                        <xsl:value-of select="persName/surname"/>
                         <xsl:text>, </xsl:text>
-                        <xsl:value-of select="name/forename"/>
+                        <xsl:value-of select="persName/forename"/>
                       </fo:block>
                       <fo:block>
                         <xsl:call-template name="author_email"/>
@@ -1326,16 +1326,16 @@
             <xsl:text>Index der Autorinnen und Autoren</xsl:text>
           </fo:block>
 
-          <xsl:for-each-group group-by="." select="//TEI/teiHeader/fileDesc/titleStmt/author/name/@n">
+          <xsl:for-each-group group-by="." select="//TEI/teiHeader/fileDesc/titleStmt/author/persName/@n">
             <xsl:sort select="."/>
 
             <fo:block text-align-last="justify">
               <xsl:call-template name="text"/>
-              <xsl:value-of select="parent::name"/><xsl:text> </xsl:text>
+              <xsl:value-of select="parent::persName"/><xsl:text> </xsl:text>
               <fo:leader leader-pattern="dots"/>
               <xsl:for-each select="current-group()">
-                <fo:basic-link internal-destination="{parent::name/parent::author/@n}">
-                  <fo:page-number-citation ref-id="{parent::name/parent::author/@n}"/><xsl:if test="position() != last()"><xsl:text>,</xsl:text></xsl:if>
+                <fo:basic-link internal-destination="{parent::persName/parent::author/@n}">
+                  <fo:page-number-citation ref-id="{parent::persName/parent::author/@n}"/><xsl:if test="position() != last()"><xsl:text>,</xsl:text></xsl:if>
                 </fo:basic-link>
               </xsl:for-each>
             </fo:block>
