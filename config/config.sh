@@ -20,7 +20,7 @@ fo_obj=output/pdf.fo
 pdf_obj=output/pdf.pdf
 
 tei_xsl=lib/tei2pdf/TEIcorpus_producer.xsl
-xslfo_xsl=lib/tei2pdf/xsl-fo-producer-singlePage.xsl
+xslfo_xsl=lib/tei2pdf/xsl-fo-producer.xsl
 init_xml=lib/tei2pdf/empty.xml
 final_xml=output/Book_Corpus.xml
 

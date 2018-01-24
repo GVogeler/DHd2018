@@ -778,18 +778,18 @@
           <xsl:for-each select="//TEI">
             <!-- Controlled by individual templates below, gives section headers for TOC -->
 
-            <xsl:apply-templates select="teiHeader/profileDesc/textClass/keywords[1]/term[1]" mode="toc"/>
+            <xsl:apply-templates select="teiHeader/profileDesc/textClass/keywords[2]/term[1]" mode="toc"/>
 
-            <xsl:if test="descendant::keywords[@n='category']/term[1] = 'Sektion' or
-              descendant::keywords[@n='category']/term[1] = 'Panel' or
-              descendant::keywords[@n='category']/term[1] = 'Poster' or
-              descendant::keywords[@n='category']/term[1] = 'Workshops' or
-              descendant::keywords[@n='category']/term[1] = 'Vortrag' or
-              descendant::keywords[@n='category']/term[1] = 'Plenary' or
-              descendant::keywords[@n='category']/term[1] = 'Reviewers'">
+            <xsl:if test="descendant::keywords[@n='subcategory']/term[1] = 'Sektion' or
+              descendant::keywords[@n='subcategory']/term[1] = 'Panel' or
+              descendant::keywords[@n='subcategory']/term[1] = 'Poster' or
+              descendant::keywords[@n='subcategory']/term[1] = 'Workshops' or
+              descendant::keywords[@n='subcategory']/term[1] = 'Vortrag' or
+              descendant::keywords[@n='subcategory']/term[1] = 'Plenary' or
+              descendant::keywords[@n='subcategory']/term[1] = 'Reviewers'">
 
               <xsl:choose>
-                <xsl:when test="descendant::keywords[@n='category']/term[1] = 'Reviewers'">
+                <xsl:when test="descendant::keywords[@n='subcategory']/term[1] = 'Reviewers'">
                   <!-- Reviewers has no authors, so gets a slightly different treatment -->
                   <fo:block text-align-last="justify">
                     <xsl:call-template name="text"/>
