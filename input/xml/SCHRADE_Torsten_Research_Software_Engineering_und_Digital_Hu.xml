@@ -32,17 +32,17 @@
             </titleStmt>
             <editionStmt>
                 <edition>
-                    <date>2015-10-04T22:02:00Z</date>
+                    <date>2018-01-24T09:41:00Z</date>
                 </edition>
             </editionStmt>
             <publicationStmt>
-            <t:publisher xmlns:t="http://www.tei-c.org/ns/1.0">Georg Vogeler, im Auftrag des Verbands Digital Humanities im deutschaprachigen Raum e.V.</t:publisher>
-            <t:address xmlns:t="http://www.tei-c.org/ns/1.0">
-               <t:addrLine>Universität Graz</t:addrLine>
-               <t:addrLine>Zentrum für Informationsmodellierung - Austrian Centre for Digital Humanities</t:addrLine>
-               <t:addrLine>Elisabethstraße 59/III</t:addrLine>
-               <t:addrLine>8010 Graz</t:addrLine>
-            </t:address>
+            <publisher>Georg Vogeler, im Auftrag des Verbands Digital Humanities im deutschaprachigen Raum e.V.</publisher>
+            <address>
+               <addrLine>Universität Graz</addrLine>
+               <addrLine>Zentrum für Informationsmodellierung - Austrian Centre for Digital Humanities</addrLine>
+               <addrLine>Elisabethstraße 59/III</addrLine>
+               <addrLine>8010 Graz</addrLine>
+            </address>
          </publicationStmt>
             <sourceDesc>
                 <p>Converted from a Word document </p>
@@ -90,8 +90,8 @@
     </teiHeader>
     <text>
         <body>
-            <p>Software ist ein integraler Bestandteil jeder Forschungsaktivität, so auch in den Digital Humanities zur Bearbeitung von geistes- und kulturwissenschaftlichen Forschungsfragen. Im allgemeinen Sinn verstanden reicht das Anwendungsfeld für geisteswissenschaftliche Forschungssoftware von der täglichen Arbeit mit Webbrowsern und Textverarbeitungsprogrammen bis hin zum Einsatz spezialisierter Softwarelösungen, virtueller Forschungsumgebungen oder auch webbasierter Publikations- und Analyseinstrumente für geisteswissenschaftliche Forschungsdaten. Im speziellen Sinn und insbesondere im projektspezifischen Forschungskontext verstanden ist Forschungssoftware in den Digital Humanities als Summe spezifischer Komponenten aufzufassen, die unter entwicklerischer Durchdringung der jeweiligen geisteswissenschaftlichen Wissens- und Anwendungsdomäne konzipiert und implementiert werden.</p>
-            <p>Zum aktuellen Zeitpunkt finden die Entwicklungsprozesse für Forschungssoftware in den Digital Humanities häufig noch isoliert, unreflektiert, undokumentiert, nicht an gängigen Industriestandards ausgerichtet und insbesondere nicht innerhalb eines organisierten, disziplinspezifischen Rahmens statt. Aus dieser Situation heraus ergibt sich ein eminentes Nachhaltigkeitsproblem für geisteswissenschaftliche Forschungssoftware. Dies verwundert umso mehr, denn während das Bewusstsein für eine nachhaltige Erschließung kultureller Objekte durch die Entwicklung und den Einsatz entsprechender systemneutraler Datenformate und -standards inzwischen als hoch eingeschätzt werden kann, spielt die Ebene der Softwareentwicklung in den Nachhaltigkeitsdiskussionen der Digital Humanities kaum eine Rolle. Während andere Disziplinen wie beispielsweise die Natur- und Ingenieurswissenschaften aber auch die informatisch geprägten Lebenswissenschaften diese Problematik erkannt und erste Gegenmaßnahmen ergriffen haben, gilt in den Digital Humanities immer noch das schon vor Jahren geprägte Mantra „Data ages like wine, software ages like fish“.
+            <p>Software ist in vielen Fällen ein integraler Bestandteil von Forschungsaktivität, so auch in den Digital Humanities zur Bearbeitung von geistes- und kulturwissenschaftlichen Forschungsfragen mit digitalen Methoden. Im weiteren Sinn verstanden reicht das Anwendungsfeld für geisteswissenschaftliche Forschungssoftware von der täglichen Arbeit mit Webbrowsern und Textverarbeitungsprogrammen bis hin zum Einsatz spezialisierter Softwarelösungen, virtueller Forschungsumgebungen oder auch webbasierter Publikations- und Analyseinstrumente für geisteswissenschaftliche Forschungsdaten. Im engeren Sinn verstanden ist Forschungssoftware in den Digital Humanities als Summe spezifischer Komponenten aufzufassen, die unter entwicklerischer Durchdringung der jeweiligen geisteswissenschaftlichen Wissens- und Anwendungsdomäne konzipiert und implementiert werden.</p>
+            <p>Zum aktuellen Zeitpunkt finden die Entwicklungsprozesse für Forschungssoftware in den Digital Humanities häufig noch isoliert, unreflektiert, undokumentiert, nicht an gängigen Industriestandards ausgerichtet und insbesondere nicht innerhalb eines organisierten, disziplinspezifischen Rahmens statt. Aus dieser Situation heraus ergibt sich ein eminentes Nachhaltigkeitsproblem für geisteswissenschaftliche Forschungssoftware. Dies verwundert umso mehr, denn während das Bewusstsein für eine nachhaltige Erschließung kultureller Objekte durch die Entwicklung und den Einsatz entsprechender systemneutraler Datenformate und -standards inzwischen als hoch eingeschätzt werden kann, spielt die Ebene der Softwareentwicklung in den Nachhaltigkeitsdiskussionen der Digital Humanities kaum eine Rolle. Während andere Disziplinen wie beispielsweise die Natur- und Ingenieurswissenschaften, aber auch die informatisch geprägten Lebenswissenschaften diese Problematik erkannt und erste Gegenmaßnahmen ergriffen haben, gilt in den Digital Humanities immer noch das schon vor Jahren geprägte Mantra „Data ages like wine, software ages like fish“.
                 <note place="foot" xml:id="ftn1" n="1">
                     <p> Dies wird bspw. am Programm der letzten internationalen RSE-Konferenz (September 2017, Manchester, 
                         <ref target="http://rse.ac.uk/conf2017/">
@@ -110,7 +110,7 @@
             </p>
             <p>Der hier vorgeschlagene Workshop versteht sich als eine erste Maßnahme, in den Digital Humanities im deutschsprachigen Raum einen kritischen Reflexionsprozess zum Thema 'Nachhaltige Softwareentwicklung' anzustoßen und durch die Etablierung einer gemeinsamen Diskussionsplattform ein stärkeres Bewusstsein für diesen zentralen, aber vernachlässigten Baustein guter Digital Humanities Forschung zu wecken. </p>
             <p>Der Workshop bildet den Arbeitsauftakt für die ins Auge gefasste Beantragung einer AG 
-                <hi rend="italic">Research Software Engineering</hi> innerhalb des DHd-Verbandes (AG DH-RSE). Ziel ist es, im Rahmen des Workshops möglichst vielen Wissenschaftler_innen sowohl aus universitären wie auch außeruniversitären Kontexten, die als digitale Geisteswissenschaftler_innen im Feld der geisteswissenschaftlichen Softwareentwicklung tätig sind, ein gemeinsames Forum für die Arbeit an einem 'Manifest' für eine gute und nachhaltige Implementierungspraxis zu geben. Dieses Manifest versteht sich gleichzeitig als Gründungsdokument der AG DH-RSE. Eine im Vorfeld dieser Einreichung getätigte informelle Erhebung hat einen großen Bedarf für ein solches Format ermittelt. Die Gruppe von Interessent_innen und potentiellen Teilnehmer_innen eines solchen Workshops sowie der angestrebten AG besteht bereits jetzt aus 20 Personen. Die Ausrichtung in Form eines Workshops auf der DHd-Konferenz soll das Einzugsgebiet und die Teilnahmemöglichkeit für weitere interessierte DH-Softwareentwickler_innen weiter vergrößern und öffnen, wobei als Zielgruppe insbesondere solche Entwickler_innen aus dem inner- wie außeruniversitären Kontext ins Auge gefasst werden, die über eine entsprechende Projekterfahrung verfügen.
+                <hi rend="italic">Research Software Engineering</hi> innerhalb des DHd-Verbandes (AG DH-RSE). Ziel ist es, im Rahmen des Workshops möglichst vielen Wissenschaftler_innen sowohl aus universitären wie auch außeruniversitären Kontexten, die als digitale Geisteswissenschaftler_innen im Feld der geisteswissenschaftlichen Softwareentwicklung tätig sind, ein gemeinsames Forum für die Arbeit an einem 'Manifest' für eine gute und nachhaltige Implementierungspraxis zu geben. Dieses Manifest versteht sich gleichzeitig als Gründungsdokument der AG DH-RSE. Eine im Vorfeld dieser Einreichung getätigte informelle Erhebung hat einen großen Bedarf für ein solches Format ermittelt. Die Gruppe von Interessent_innen und potentiellen Teilnehmer_innen eines solchen Workshops sowie der angestrebten AG besteht bereits jetzt aus 20 Personen. Die Ausrichtung in Form eines Workshops auf der DHd-Konferenz soll das Einzugsgebiet und die Teilnahmemöglichkeit für weitere interessierte DH-Softwareentwickler_innen vergrößern und öffnen, wobei als Zielgruppe insbesondere solche Entwickler_innen aus dem inner- wie außeruniversitären Kontext ins Auge gefasst werden, die über eine entsprechende Projekterfahrung verfügen.
             </p>
             <p>In Anlehnung an die im anglo-amerikanischen Raum bereits etablierte 
                 <hi rend="italic">UK Research Software Engineer Association</hi> (
@@ -123,16 +123,28 @@
                 </ref>) wird der DHd-Workshop verschiedene Formate integrieren. Hierzu gehören neben einer 
                 <hi rend="italic">Keynote</hi> auch 
                 <hi rend="italic">Lightning Talks</hi> und 
-                <hi rend="italic">Breakout Groups</hi>, die sich im Verlauf des Workshops spezifischen Unterthemen widmen. Eine Zusammenfassung zum Ende des Workshops fokussiert auf den erreichten Stand des gemeinsamen Manifests sowie auf die konkreten weiteren Schritte zur Implementierung der AG DH-RSE. Der Workshop gliedert sich demnach in folgende fünf Teile:
+                <hi rend="italic">Breakout Groups</hi>, die sich im Verlauf des Workshops spezifischen Unterthemen widmen. Eine Zusammenfassung zum Ende des Workshops fokussiert auf den erreichten Stand des gemeinsamen Manifests sowie auf die konkreten weiteren Schritte zur Implementierung der AG DH-RSE. Der Workshop gliedert sich wie folgt:
             </p>
             <list type="ordered">
-                <item>Impulsvorträge</item>
-                <item>Breakout-Sessions</item>
-                <item>Ergebnispräsentation</item>
-                <item>Planung der nächsten Schritte</item>
-                <item>Online-Veröffentlichung der Ergebnisse und des Manifests </item>
+                <item>Impuls: Warum eine AG DH-RSE?</item>
+                <item>Keynote </item>
+                <item>Impuls: Gegenwärtige 
+                    <hi rend="italic">best practices</hi> im Bereich nachhaltiger Softwareentwicklung
+                </item>
+                <item>
+                    <hi rend="italic">Breakout Groups</hi>
+                    <lb/>a) Ausbildung, Training, Software Carpentry, Standards
+                    <lb/>b) Struktur, Infrastruktur, Workflows für die AG DH-RSE
+                    <lb/>c) Definitionen: Sustainability, Software, Dokumentation, etc.
+                    <lb/>d) Manifest der AG DH-RSE; mit agiler Integration von Gruppen a), b), c)
+                </item>
+                <item>
+                    <hi rend="italic">Wrap-Up</hi> und Online-Veröffentlichung der Workshop-Ergebnisse sowie einer ersten Version des Manifests
+                </item>
             </list>
-            <p>Im Fazit möchte der Workshop eine kritische Reflexion der gegenwärtigen Prozesse und Praktiken im Bereich der DH-Softwareentwicklung anstoßen, eine erste Kartierung dieses wissenschaftlichen Tätigkeitsfeldes und seiner Akteure erstellen und eine Organisationsform für eine koordinierte Weiterentwicklung dieses wichtigen Teilbereiches der Digital Humanities finden.</p>
+            <p>Im Fazit möchte der Workshop eine kritische Reflexion der gegenwärtigen Prozesse und Praktiken im Bereich der DH-Softwareentwicklung anstoßen, eine erste Kartierung dieses wissenschaftlichen Tätigkeitsfeldes und seiner Akteure erstellen und eine Organisationsform für eine koordinierte Weiterentwicklung dieses wichtigen Teilbereiches der Digital Humanities finden. Als Startplattform für den Workshop steht eine GitHub-Website zur Verfügung, an der im Rahmen des Workshops kollaborativ gearbeitet wird: 
+                <ref target="https://dh-rse.github.io/dhd-workshop-2018/">https://dh-rse.github.io/dhd-workshop-2018/</ref>.
+            </p>
             <p rend="DH-Heading2">Kontaktdaten und Forschungsinteressen der Beitragenden</p>
             <p>Torsten Schrade
                 <lb/>Akademie der Wissenschaften und der Literatur | Mainz
