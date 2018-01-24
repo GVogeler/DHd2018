@@ -341,16 +341,40 @@ move "</xsl:text>
             </xsl:apply-templates>
         </xsl:copy>
     </xsl:template>
+    <xsl:template match="keywords[@scheme='ConfTool'][@type='subcategory']/term" mode="copyxml">
+        <xsl:param name="filename"/>
+        <xsl:copy>
+            <xsl:variable name="typConfTool" select="substring(ancestor::TEI/teiHeader[1]/profileDesc[1]/textClass[1]/keywords[@n='subcategory']/term[1], 1,1)"/>
+            <xsl:variable name="title" select="/TEI//titleStmt/(title/title[@type='main']|title[not(title)])/dhd:strip(normalize-space(.))"/>
+            <xsl:variable name="paper" select="$program//*:paper[./*:title[contains(./dhd:strip(normalize-space()), $title)]]"/>
+            <xsl:variable name="session" select="$paper/*:acceptance"/>
+            
+            <xsl:apply-templates 
+                select="@*[name() != 'url']" mode="copyxml"/>
+            <xsl:choose>
+                <xsl:when test="$session='Akzeptiert'">
+                    <xsl:apply-templates 
+                        select="comment()|processing-instruction()|*|text()" 
+                        mode="copyxml">
+                        <xsl:with-param name="filename" select="$filename"/>
+                    </xsl:apply-templates>
+                </xsl:when>
+                <xsl:otherwise>
+                    <xsl:value-of select="$session"/>            
+                </xsl:otherwise>
+            </xsl:choose>
+        </xsl:copy>
+    </xsl:template>
     <xsl:template match="/TEI/teiHeader[1]/fileDesc[1]/publicationStmt[1]"
         mode="copyxml">
         <xsl:copy>
-            <t:publisher>Georg Vogeler, im Auftrag des Verbands Digital Humanities im deutschaprachigen Raum e.V.</t:publisher>
-            <t:address>
-                <t:addrLine>Universität Graz</t:addrLine>
-                <t:addrLine>Zentrum für Informationsmodellierung - Austrian Centre for Digital Humanities</t:addrLine>
-                <t:addrLine>Elisabethstraße 59/III</t:addrLine>
-                <t:addrLine>8010 Graz</t:addrLine>
-            </t:address>
+            <publisher xmlns="http://www.tei-c.org/ns/1.0">Georg Vogeler, im Auftrag des Verbands Digital Humanities im deutschaprachigen Raum e.V.</publisher>
+            <address xmlns="http://www.tei-c.org/ns/1.0">
+                <addrLine>Universität Graz</addrLine>
+                <addrLine>Zentrum für Informationsmodellierung - Austrian Centre for Digital Humanities</addrLine>
+                <addrLine>Elisabethstraße 59/III</addrLine>
+                <addrLine>8010 Graz</addrLine>
+            </address>
         </xsl:copy>
     </xsl:template>
     <xsl:template match="profileDesc"
