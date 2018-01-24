@@ -78,7 +78,7 @@
             </xsl:for-each>
 
             <!-- Workshops -->
-            <xsl:for-each select="$files[normalize-space(//keywords[@n='category']) = 'Workshops']">
+            <xsl:for-each select="$files[normalize-space(//keywords[@n='subcategory']) = 'Workshop']">
                 <xsl:sort select="replace(lower-case(normalize-space(/TEI/teiHeader[1]/fileDesc[1]/titleStmt[1]/title[1])), '[^a-z]', '')"/>
                     <xsl:variable name="id"><xsl:value-of select="/TEI/@xml:id"/></xsl:variable>
                     <TEI n="{$id}">
