@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+    xml:id="DIMPEL_Friedrich_Michael_Die_guten_ins_T_pfchen__Zur_Anwendb">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Kritik der digitalen Vernunft</title>
+                <author>
+                    <persName>
+                        <surname>Sperberg-McQueen</surname>
+                        <forename>C. Michael</forename>
+                    </persName>
+                    <affiliation></affiliation>
+                    <email>cmsmcq@blackmesatech.com</email>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2018-01-25T07:44:00Z</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <t:publisher xmlns:t="http://www.tei-c.org/ns/1.0">Georg Vogeler, im Auftrag des Verbands Digital Humanities im deutschaprachigen Raum e.V.</t:publisher>
+                <t:address xmlns:t="http://www.tei-c.org/ns/1.0">
+                    <t:addrLine>Universität Graz</t:addrLine>
+                    <t:addrLine>Zentrum für Informationsmodellierung - Austrian Centre for Digital Humanities</t:addrLine>
+                    <t:addrLine>Elisabethstraße 59/III</t:addrLine>
+                    <t:addrLine>8010 Graz</t:addrLine>
+                </t:address>
+            </publicationStmt>
+            <sourceDesc>
+                <p>via E-Mail from the author</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.17">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Keynote</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Keynote</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                </keywords>
+            </textClass>
+            <settingDesc>
+                <ab n="conference">DHd2018 - "Kritik der Digitalen Vernunft", Köln</ab>
+                <ab n="paperID">x2</ab>
+                <ab n="session_ID">92</ab>
+                <ab n="session_numberInSession">1</ab>
+                <ab n="session_short"></ab>
+                <ab n="session_title">Abschluss von DHd 2018 und Abschluss-Keynote</ab>
+                <ab n="session_start">2018-03-02 14:00</ab>
+                <ab n="session_end">2018-03-02 15:30</ab>
+            </settingDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="div1" rend="DH-Heading1">
+                <head>Kritik der digitalen Vernunft</head>
+                
+                <p>Die Organisatoren der Tagung stellen den Teilnehmern die Frage</p>
+                
+                <quote>Gibt es im Umgang mit digitalen Medien, in der Modellierung,
+                Operationalisierung und Formalisierung der Arbeit mit Computern
+                implizite, stillschweigend akzeptierte Agenden, die einer
+                Reflexion durch einen „Intellectual Criticism“ bedürfen?</quote>
+                
+                <p>Wie sähe ein solcher Intellectual Criticism aus?  Worauf könnte er
+                basieren?</p>
+                
+                <p>In den drei großen Kritiken der reinen Vernunft, der praktischen
+                Vernunft, und der Urteilskraft hat Kant eine 'kopernikanische
+                Revolution' in der Philosophie mit dem Postulat eingeleitet, unsere
+                Erkenntnis richte sich nicht nach den Dingen, sondern die Dinge
+                richten sich nach unserer Erkenntnis: d.h. nach den apriorischen
+                Formen der Anschauung und nach den vorgegebenen Begriffen des
+                Verstandes (die Kategorient).</p>
+                
+                <p>Gibt es apriorische Formen, die den zu bearbeitenden Stoff der
+                digitalen Vernunft bestimmen, ähnlich wie Zeit und Raum die
+                menschliche Anschauung bestimmen?  Gibt es vorgegebene Begriffe, die
+                aller digitalen Vernunftarbeit zu Grunde liegen?  Wie verhält es sich
+                im digitalen Raum mit der Eigenverantwortung und der Autonomie, die
+                nach Kant das Wesen der Aufklärung und der Freiheit ausmachen?</p>
+            </div>
+        </body>
+    </text>
+</TEI>
