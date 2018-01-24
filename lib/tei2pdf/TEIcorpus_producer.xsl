@@ -228,8 +228,8 @@
     <xsl:template match="author">
         <author>
             <xsl:attribute name="n">
-                <xsl:value-of select="replace(name/surname,'[^a-zA-Z0-9]','')"/>
-                <xsl:value-of select="replace(name/forename,'[^a-zA-Z0-9]','')"/>
+                <xsl:value-of select="replace(persName/surname,'[^a-zA-Z0-9]','')"/>
+                <xsl:value-of select="replace(persName/forename,'[^a-zA-Z0-9]','')"/>
                 <xsl:choose>
                     <xsl:when test="/teiCorpus">
                         <xsl:value-of select="/teiCorpus/@xml:id"/>
@@ -239,12 +239,12 @@
                     </xsl:when>
                 </xsl:choose>
             </xsl:attribute>
-            <name>
+            <persName>
                 <xsl:attribute name="n">
-                    <xsl:value-of select="replace(name/surname,'[^a-zA-Z0-9]','') "/>
-                    <xsl:value-of select="replace(name/forename,'[^a-zA-Z0-9]','') "/>
+                    <xsl:value-of select="replace(persName/surname,'[^a-zA-Z0-9]','') "/>
+                    <xsl:value-of select="replace(persName/forename,'[^a-zA-Z0-9]','') "/>
                 </xsl:attribute>
-                <xsl:copy-of select="name/node()"/></name>
+                <xsl:copy-of select="persName/node()"/></persName>
             <xsl:copy-of select="affiliation"/>
             <xsl:copy-of select="email"/>
 
