@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="ANDRESEN_Melanie_Sprachliche_Variation_in_der_Germanistik__e">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -19,14 +20,14 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <publisher>Prof. Dr. Georg Vogeler</publisher>
-                <address>
-                    <addrLine>UniversitÃ¤t Graz</addrLine>
-                    <addrLine>Zentrum fÃ¼r Informationsmodellierung - Austrian Centre for Digital Humanities</addrLine>
-                    <addrLine>ElisabethstraÃ&#x9f;e 59/III</addrLine>
-                    <addrLine>8010 Graz</addrLine>
-                </address>
-            </publicationStmt>
+            <publisher xmlns="">Georg Vogeler, im Auftrag des Verbands Digital Humanities im deutschaprachigen Raum e.V.</publisher>
+            <address xmlns="">
+               <addrLine>Universität Graz</addrLine>
+               <addrLine>Zentrum für Informationsmodellierung - Austrian Centre for Digital Humanities</addrLine>
+               <addrLine>Elisabethstraße 59/III</addrLine>
+               <addrLine>8010 Graz</addrLine>
+            </address>
+         </publicationStmt>
             <sourceDesc>
                 <p>Converted from a Word document </p>
             </sourceDesc>
