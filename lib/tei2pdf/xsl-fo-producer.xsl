@@ -73,7 +73,8 @@
     <xsl:attribute name="page-width">210mm</xsl:attribute>
     <xsl:attribute name="margin-top">0.5in</xsl:attribute>
     <xsl:attribute name="margin-bottom">0.5in</xsl:attribute>
-    <!-- Stagger the pages for print but not PDF -->
+    
+<!-- Stagger the pages for print but not PDF -->
     <xsl:choose>
       <xsl:when test="$output = 'print'">
         <xsl:attribute name="margin-left">1in</xsl:attribute>
@@ -555,8 +556,8 @@
 
   <!-- Templates for TOC Headers -->
 
-  <xsl:template match="//term[text()='Plenary']" mode="toc">
-    <xsl:if test="(//term[text()='Plenary'])[1] is ."><fo:block keep-with-next="always"><xsl:call-template name="subhead"/>Plenarvorträge</fo:block></xsl:if>
+  <xsl:template match="//term[text()='Keynote']" mode="toc">
+    <xsl:if test="(//term[text()='Keynote'])[1] is ."><fo:block keep-with-next="always"><xsl:call-template name="subhead"/>Keynotes</fo:block></xsl:if>
   </xsl:template>
 
   <xsl:template match="//term[text()='Workshop']" mode="toc">
@@ -785,7 +786,7 @@
               descendant::keywords[@n='subcategory']/term[1] = 'Poster' or
               descendant::keywords[@n='subcategory']/term[1] = 'Workshop' or
               descendant::keywords[@n='subcategory']/term[1] = 'Vortrag' or
-              descendant::keywords[@n='subcategory']/term[1] = 'Plenary' or
+              descendant::keywords[@n='subcategory']/term[1] = 'Keynote' or
               descendant::keywords[@n='subcategory']/term[1] = 'Reviewers'">
 
               <xsl:choose>
@@ -844,14 +845,14 @@
       </fo:page-sequence>
 
       <!-- Reviewers -->
-      <xsl:if test="//keywords[@n='category'][1]/term[1] = 'Reviewers'">
+      <xsl:if test="//keywords[@n='subcategory'][1]/term[1] = 'Reviewers'">
         <fo:page-sequence master-reference="Triple" initial-page-number="1">
           <xsl:copy-of select="$header_and_footer"/>
 
           <fo:flow flow-name="xsl-region-body">
             <xsl:for-each select="//TEI">
               <!-- if panel. This is a lazy way to select the panels, but I wasn't too concerned with code efficiency. -->
-              <xsl:if test="normalize-space(teiHeader[1]/profileDesc[1]/textClass[1]/keywords[@n='category']/term[1]) = 'Reviewers'">
+              <xsl:if test="normalize-space(teiHeader[1]/profileDesc[1]/textClass[1]/keywords[@n='subcategory']/term[1]) = 'Reviewers'">
                 <!-- Title -->
                 <fo:block id="{@n}">
                   <xsl:call-template name="head"/>
@@ -881,33 +882,29 @@
       I try and clean it up) I've left it as separate sections. -->
 
       <!-- ~~~~~~~~~~~~~~~~~~
-      Plenary Sessions
+      Plenary Sessions / Keynotes
       ~~~~~~~~~~~~~~~~~~~~~ -->
 
       <!-- Title Page -->
 
-      <xsl:if test="//keywords[@n='subcategory'][1]/term[1] = 'Plenary'">
+      <xsl:if test="//keywords[@n='subcategory']/term[1] = 'Keynote'">
         <fo:page-sequence master-reference="Single">
           <fo:flow flow-name="xsl-region-body">
             <fo:block>
               <xsl:call-template name="section_head"/>
-              <xsl:text>Plenarvorträge</xsl:text>
+              <xsl:text>Keynotes</xsl:text>
             </fo:block>
           </fo:flow>
         </fo:page-sequence>
 
         <!-- Content -->
 
-
-        <xsl:for-each select="//TEI">
-          <!-- if panel. This is a lazy way to select the panels, but I wasn't too concerned with code efficiency. -->
-          <xsl:if test="normalize-space(teiHeader[1]/profileDesc[1]/textClass[1]/keywords[@n='subcategory']/term[1]) = 'Plenary'">
-
-            <fo:page-sequence master-reference="Single">
-              <xsl:copy-of select="$header_and_footer"/>
-
-              <fo:flow flow-name="xsl-region-body">
-
+        <fo:page-sequence master-reference="Single">
+           <xsl:copy-of select="$header_and_footer"/>
+           <fo:flow flow-name="xsl-region-body">
+              <xsl:for-each select="//TEI">
+              <!-- if panel. This is a lazy way to select the panels, but I wasn't too concerned with code efficiency. -->
+              <xsl:if test="normalize-space(teiHeader[1]/profileDesc[1]/textClass[1]/keywords[@n='subcategory']/term[1]) = 'Keynote'">
                 <!-- Title -->
                 <fo:block id="{@n}" keep-with-next="always">
                   <xsl:call-template name="head"/>
@@ -947,16 +944,15 @@
 
                 <!-- Text -->
                 <xsl:for-each select="text/body/div">
-                  <fo:block>
+                  <fo:block text-align="justify" text-align-last="left">
                     <xsl:call-template name="text"/>
                     <xsl:apply-templates/>
                   </fo:block>
                 </xsl:for-each>
-              </fo:flow>
-            </fo:page-sequence>
-          </xsl:if>
-        </xsl:for-each>
-
+              </xsl:if>
+            </xsl:for-each>
+          </fo:flow>
+        </fo:page-sequence>
       </xsl:if>
 
       <!-- ~~~~~~~~~~~~~~~~~~
@@ -1020,7 +1016,7 @@
                 </fo:block>
 
                 <!-- Text -->
-                <fo:block>
+                <fo:block text-align="justify" text-align-last="left">
                   <xsl:call-template name="text"/>
                   <xsl:apply-templates select="text"/>
                 </fo:block>
@@ -1093,7 +1089,7 @@
 
                 <!-- Text -->
                 <xsl:for-each select="text/body/div">
-                  <fo:block>
+                  <fo:block text-align="justify" text-align-last="left">
                     <xsl:call-template name="text"/>
                     <xsl:apply-templates/>
                   </fo:block>
@@ -1166,7 +1162,7 @@
                 </fo:block>
 
                 <!-- Text -->
-                <fo:block>
+                <fo:block text-align="justify" text-align-last="left">
                   <xsl:call-template name="text"/>
                   <xsl:apply-templates select="text"/>
                 </fo:block>
@@ -1197,7 +1193,7 @@
           <xsl:copy-of select="$header_and_footer"/>
           <fo:flow flow-name="xsl-region-body">
             <xsl:for-each select="//TEI">
-              <!-- if poster. This is a lazy way to select the panels, but I wasn't too concerned with code efficiency. -->
+              <!-- if Vortrag. This is a lazy way to select the panels, but I wasn't too concerned with code efficiency. -->
               <xsl:if test="normalize-space(teiHeader[1]/profileDesc[1]/textClass[1]/keywords[@n='subcategory']/term[1]) = 'Vortrag'">
                 <!-- Title -->
                 <fo:block id="{@n}" keep-with-next="always">
@@ -1237,7 +1233,7 @@
                 </fo:block>
 
                 <!-- Text -->
-                <fo:block>
+                <fo:block text-align="justify" text-align-last="left">
                   <xsl:call-template name="text"/>
                   <xsl:apply-templates select="text"/>
                 </fo:block>
@@ -1308,7 +1304,7 @@
                 </fo:block>
 
                 <!-- Text -->
-                <fo:block>
+                <fo:block text-align="justify" text-align-last="left">
                   <xsl:call-template name="text"/>
                   <xsl:apply-templates select="text"/>
                 </fo:block>
