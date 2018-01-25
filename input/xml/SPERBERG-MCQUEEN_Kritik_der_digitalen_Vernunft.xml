@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
-    xml:id="DIMPEL_Friedrich_Michael_Die_guten_ins_T_pfchen__Zur_Anwendb">
+    xml:id="SPERBERG-MCQUEEN_Kritik_der_digitalen_Vernunft">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -42,14 +42,16 @@
         <profileDesc>
             <textClass>
                 <keywords scheme="ConfTool" n="category">
-                    <term>Keynote</term>
+                    <term>Paper</term>
                 </keywords>
                 <keywords scheme="ConfTool" n="subcategory">
                     <term>Keynote</term>
                 </keywords>
                 <keywords scheme="ConfTool" n="keywords">
+                    <term></term>
                 </keywords>
                 <keywords scheme="ConfTool" n="topics">
+                    <term></term>
                 </keywords>
             </textClass>
             <settingDesc>
