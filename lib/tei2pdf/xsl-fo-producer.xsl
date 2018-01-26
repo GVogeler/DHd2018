@@ -493,13 +493,17 @@
   </xsl:template>
 
   <xsl:template name="figure_head">
-    <xsl:attribute name="font-weight">bold</xsl:attribute>
+    <xsl:attribute name="font-style">italic</xsl:attribute>
     <xsl:attribute name="font-family"><xsl:value-of select="$main_font"/></xsl:attribute>
+    <xsl:attribute name="space-before">.1in</xsl:attribute>
+    <xsl:attribute name="space-after">.1in</xsl:attribute>
   </xsl:template>
 
   <xsl:template name="figure_p">
     <xsl:attribute name="font-style">italic</xsl:attribute>
     <xsl:attribute name="font-family"><xsl:value-of select="$main_font"/></xsl:attribute>
+    <xsl:attribute name="space-before">.1in</xsl:attribute>
+    <xsl:attribute name="space-after">.1in</xsl:attribute>
   </xsl:template>
 
   <xsl:template name="code">
@@ -1494,7 +1498,7 @@
         <xsl:apply-templates/>
       </xsl:when>
       <xsl:otherwise>
-        <fo:block keep-with-next="always">
+        <fo:block keep-with-next="always"  text-align="left">
           <xsl:call-template name="subsubhead"/>
           <xsl:apply-templates/>
         </fo:block>
@@ -1688,8 +1692,8 @@
             <xsl:attribute name="src"><xsl:text>../../../input/images/</xsl:text><xsl:value-of select="graphic/@url"/></xsl:attribute>
             <xsl:call-template name="figure"/>
           </fo:external-graphic>
-          <fo:block><xsl:call-template name="figure_head"/><xsl:apply-templates select="head"/></fo:block>
-          <fo:block><xsl:call-template name="figure_p"/><xsl:apply-templates select="p"/></fo:block>
+          <fo:block text-align="left"><xsl:call-template name="figure_head"/><xsl:apply-templates select="head"/></fo:block>
+          <fo:block text-align="left"><xsl:call-template name="figure_p"/><xsl:apply-templates select="p"/></fo:block>
         </fo:block>
       </xsl:otherwise>
     </xsl:choose>
