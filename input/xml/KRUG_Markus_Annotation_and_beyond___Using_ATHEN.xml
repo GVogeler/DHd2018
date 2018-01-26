@@ -135,8 +135,7 @@
                         <p>
                             <ref target="https://gitlab2.informatik.uni-wuerzburg.de/kallimachos/Athen">https://gitlab2.informatik.uni-wuerzburg.de/kallimachos/Athen</ref>
                         </p>
-                    </note> (
-                    <hi rend="bold">A</hi>nnotation and 
+                    </note> (<hi rend="bold">A</hi>nnotation and 
                     <hi rend="bold">T</hi>ext 
                     <hi rend="bold">H</hi>ighlighting 
                     <hi rend="bold">En</hi>vironment), an extensible desktop-based annotation environment which supports more than just regular annotation. Besides being a general purpose annotation environment, ATHEN supports indexing and querying support of your data as well as the ability to automatically preprocess your data with Meta information. It is especially suited for those who want to extend existing general purpose annotation tools by implementing their own custom features, which cannot be fulfilled by other available annotation environments. On the according gitlab, we provide online tutorials, which demonstrate the use of specific features of ATHEN.
