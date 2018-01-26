@@ -437,6 +437,7 @@
   </xsl:template>
 
   <xsl:template name="list-item-body">
+    <xsl:attribute name="margin-left">.2in</xsl:attribute>
     <xsl:attribute name="text-indent">-1.6em</xsl:attribute>
     <xsl:attribute name="font-family"><xsl:value-of select="$main_font"/></xsl:attribute>
   </xsl:template>
@@ -1203,6 +1204,7 @@
                 <fo:block id="{@n}" keep-with-next="always">
                   <xsl:call-template name="head"/>
                   <xsl:value-of select="teiHeader/fileDesc/titleStmt/title"/>
+                  <xsl:apply-templates select="hi"/>
                   <!-- if variable is set, print ID's for proofing -->
                   <xsl:if test="$id= 'yes'">
                     <xsl:text> - </xsl:text>
@@ -1539,6 +1541,9 @@
         <fo:block>
           <xsl:if test="parent::list/@type='unordered'">
             <xsl:text>•&#160;&#160;&#160;&#160;&#160;</xsl:text>
+          </xsl:if>
+          <xsl:if test="parent::list/@type='ordered'">
+            <xsl:number/><xsl:text>.&#160;&#160;</xsl:text>
           </xsl:if>
           <xsl:apply-templates/>
         </fo:block>
