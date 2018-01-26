@@ -150,12 +150,17 @@
                 <p>4. Complexity of system requirements</p>
                 <p>5. Interoperability by supporting certain formats</p>
                 <p>6. Support of different annotation layers</p>
-                <p>7. Support of NLP-preprocessing to speed up manual annotation</p>
+                <p>7. Support of NLP-preprocessing to speed up manual</p>
+                <p>annotation</p>
                 <p>8. Support of visualization</p>
-                <p>9. Support of self-learning systems to speed up manual annotation</p>
+                <p>9. Support of self-learning systems to speed up manual</p>
+                <p>annotation</p>
                 <p>10. Support of querying annotated data</p>
-                <p>11. Possibility to do an inter-annotator-agreement, this is important for projects, in which more than one annotator labels the same documents</p>
+                <p>11. Possibility to do an inter-annotator-agreement, this</p>
+                <p>is important for projects, in which more than one</p> 
+                <p>annotator labels the same documents</p>
                 <p>12. Extensibility </p>
+                
                 <p>We explicitly do not want to compare subjective features like usability or how the annotations are presented.</p>
                 <figure>
                     <graphic n="1001"
@@ -181,21 +186,24 @@
                 </p>
             </div>
             <div type="div1" rend="DH-Heading1">
-                <head>Program of the workshop</head>
-                <p>The program is split into four sections:</p>
-                <list type="ordered">
-                    <item>Introduction to ATHEN and distinguishing from other existing annotation environments.</item>
-                    <item>Working with ATHEN, which contains the definition of scenarios and annotating sample documents.</item>
-                    <item>Utility of ATHEN (beyond regular annotation), which addresses the following topics:
-                        <list type="ordered">
-                            <item>Defining an annotation schema using OWL</item>
-                            <item>Preprocessing texts based on Apache UIMA Analysis Engines</item>
-                            <item>Creating and executing queries based on Apache Lucene</item>
-                            <item>Annotating images with ATHEN</item>
-                        </list>
-                    </item>
-                    <item>Extending ATHENs functionalities and adapting it to your needs (developer specific)</item>
-                </list>
+            <head>Program of the workshop</head>
+            <p>The program is split into four sections:</p>
+                    <p>- Introduction to ATHEN and distinguishing from other</p>
+                    <p>existing annotation environments.</p>
+                    <p>- Working with ATHEN, which contains the definition</p>
+                    <p>of scenarios and annotating sample documents.</p>
+                    <p>- Utility of ATHEN (beyond regular annotation), which</p>
+                    <p>addresses the following topics:</p>
+                    <lb/>
+                        <p>- Defining an annotation schema using OWL</p>
+                        <p>- Preprocessing texts based on Apache UIMA Analysis</p>
+                        <p>Engines</p>
+                        <p>- Creating and executing queries based on Apache</p>
+                        <p>Lucene</p>
+                        <p>- Annotating images with ATHEN</p>
+                        <p>- Extending ATHENs functionalities and adapting it</p>
+                        <p>to your needs (developer specific)</p>
+                
                 <p>The first section is a presentation which shows the main differences between the existing annotation tools. The second section defines an ordinary annotation scenario and it is used to introduce the participants to the general-purpose annotation view of ATHEN. Afterwards, for tasks to which ATHEN has special support (annotating character references and their coreferences, annotating direct speech and their speaker) an introduction to the special purpose views of ATHEN is given.</p>
                 <p>The third panel introduces the participants to the functionality of ATHEN beyond regular text annotation. It starts with the definition of an OWL ontology (and its utilization for texts). This is centered on relation detection of character references, as well as an attribution of those references.</p>
                 <p>To speed up manual annotation it is helpful to have it preprocessed with existing tools. The task definition is then changed from pure annotation to an application with a consecutive correction of the output of the automatic engines. In this context, Nappi, a submodule of ATHEN is presented and it is shown how to define, execute and integrate custom analysis engines. </p>
