@@ -27,4 +27,4 @@ final_xml=output/Book_Corpus.xml
 # further options that may be useful
 
 # cleanup transitional files when finished
-cleanup=true
+#cleanup=true
