@@ -402,7 +402,7 @@
   </xsl:template>
 
   <xsl:template name="p">
-    <xsl:attribute name="text-indent">.2in</xsl:attribute>
+    <xsl:attribute name="text-indent">.1in</xsl:attribute>
     <xsl:attribute name="font-family"><xsl:value-of select="$main_font"/></xsl:attribute>
     <!--<xsl:attribute name="space-before">.2in</xsl:attribute>
     <xsl:attribute name="space-after">.2in</xsl:attribute>-->
@@ -496,6 +496,8 @@
   <xsl:template name="figure_head">
     <xsl:attribute name="font-style">italic</xsl:attribute>
     <xsl:attribute name="font-family"><xsl:value-of select="$main_font"/></xsl:attribute>
+    
+    <xsl:attribute name="margin-left">.1in</xsl:attribute>
     <xsl:attribute name="space-before">.1in</xsl:attribute>
     <xsl:attribute name="space-after">.1in</xsl:attribute>
   </xsl:template>
@@ -1538,7 +1540,7 @@
       </fo:list-item-label>
       <fo:list-item-body>
         <xsl:call-template name="list-item-body"/>
-        <fo:block>
+        <fo:block text-align="left">
           <xsl:if test="parent::list/@type='unordered'">
             <xsl:text>•&#160;&#160;&#160;&#160;&#160;</xsl:text>
           </xsl:if>
@@ -1553,9 +1555,10 @@
 
   <xsl:template match="ref">
     <xsl:choose>
-      <xsl:when test="starts-with(@target, 'n')">
+      <xsl:when test="starts-with(@target, 'ftn')">
         <fo:inline><xsl:call-template name="superscript"/>
-        <!--<xsl:text> </xsl:text>-->
+          <xsl:value-of select="@n"/>
+          <!--<xsl:text> </xsl:text>-->
         <xsl:apply-templates/>
         <xsl:text> </xsl:text></fo:inline>
       </xsl:when>
@@ -1609,7 +1612,7 @@
     <xsl:choose>
       <!-- numbered end notes -->
       <xsl:when test="@n">
-        <fo:block>
+        <fo:block text-align="left">
           <xsl:call-template name="text"/>
           <xsl:value-of select="@n"/><xsl:text>. </xsl:text><xsl:apply-templates/>
         </fo:block>
