@@ -140,12 +140,11 @@
                 <p>Begonnen wird mit entsprechenden Impulsvorträgen, die in den Problemkreis einführen. Es schließt sich eine Podiumsdiskussion mit Vertretern namhafter Bildrepositorien an; so werden Prometheus mit Prof. Holger Simon, die Deutsche Fotothek mit Marc Rohrmüller und die UB Heidelberg mit Dr. Maria Effinger vertreten sein. </p>
                 <p>In einem nächsten Durchgang soll ein Vergleich zwischen bereits existierenden Repositorien durch die Nutzer gezogen werden, in dem Charakteristika, Vorteile und ggf. Verbesserungspotential eruiert werden. Auf diese Weise können verschiedene Suchstrategien vermittelt und erprobt werden, mit denen in vorhandenen Repositorien effizient Resultate erzielt werden können. </p>
                 <p>Daraufhin soll die seitens der ausrichtenden Gruppe die Testversion des 4D-Browsers als Plattform vorgestellt werden, um den erreichten Stand zu präsentieren und eine Einweisung in die Funktionsweise zu geben. Schließlich werden die Teilnehmer aktiv involviert, indem sie verschiedene Aufgaben in kleinen Gruppen von fünf bis sechs Personen bearbeiten, die der tatsächlichen kunsthistorischen Tätigkeit entlehnt sind. </p>
-                <list type="ordered">
-                    <item>Zu Beginn soll die Funktion zum Einbinden von Quellen kritisch getestet werden, sowohl im Hinblick auf räumliche als auch auf zeitliche Aspekte. Welche Features sind für Architekturhistoriker besonders nutzbringend? Wo werden Probleme gesehen? </item>
-                    <item>Daraufhin wird die eigentliche Suche erprobt, indem einerseits eine von Metadaten dominierte Suche mit einer rein ortsbasierten Suche verglichen wird. Wie zufriedenstellend sind die Resultate? Wo ergänzen sich beide sinnvoll? </item>
-                    <item>Als nächster Fall sollen Baustrukturen verglichen werden, etwa der Vorkriegszustand eines Bauwerks mit der Fassung der späteren Rekonstruktion. Welche Funktionen sind hier besonders wünschenswert, etwa Überblenden, Markierungen, Lineale? </item>
-                    <item>Eine vierte Aufgabe ist den digital humanities entlehnt und wird sich mit der Anzahl der Bilder beschäftigen, und mittels eines numerisches Verfahren nach der ikonischen Strahlkraft eines Bauwerks oder einer besonderen Ansicht fragen. Welche Ansicht hat besondere Aufmerksamkeit erfahren? Wird dieses Tool auch zur Erfassung von eher komplexen Auswertungsaufgaben dieser Art als geeignet empfunden?</item>
-                </list>
+                  
+                <p>Zu Beginn soll die Funktion zum Einbinden von Quellen kritisch getestet werden, sowohl im Hinblick auf räumliche als auch auf zeitliche Aspekte. Welche Features sind für Architekturhistoriker besonders nutzbringend? Wo werden Probleme gesehen? </p>
+                <p>Daraufhin wird die eigentliche Suche erprobt, indem einerseits eine von Metadaten dominierte Suche mit einer rein ortsbasierten Suche verglichen wird. Wie zufriedenstellend sind die Resultate? Wo ergänzen sich beide sinnvoll? </p>
+                <p>Als nächster Fall sollen Baustrukturen verglichen werden, etwa der Vorkriegszustand eines Bauwerks mit der Fassung der späteren Rekonstruktion. Welche Funktionen sind hier besonders wünschenswert, etwa Überblenden, Markierungen, Lineale? </p>
+                <p>Eine vierte Aufgabe ist den digital humanities entlehnt und wird sich mit der Anzahl der Bilder beschäftigen, und mittels eines numerisches Verfahren nach der ikonischen Strahlkraft eines Bauwerks oder einer besonderen Ansicht fragen. Welche Ansicht hat besondere Aufmerksamkeit erfahren? Wird dieses Tool auch zur Erfassung von eher komplexen Auswertungsaufgaben dieser Art als geeignet empfunden?</p>
                 <p>Der Workshop wird im Rahmen einer gemeinsamen Präsentation der Erfahrungen zur Ergebnissicherung vornehmen.</p>
             </div>
             <div type="div1" rend="DH-Heading1">
@@ -155,9 +154,8 @@
             <div type="div1" rend="DH-Heading1">
                 <head>Infos</head>
                 <p>Max. 30 Teilnehmer</p>
-                <p>
-                    <hi rend="bold">Bitte bringen Sie Ihre eigenen Laptops oder Tablets mit, möglichst mit Login in eduroam. </hi>
-                </p>
+                <p><hi rend="bold">Bitte bringen Sie Ihre eigenen Laptops oder Tablets</hi></p>
+                <p><hi rend="bold">mit, möglichst mit Login in eduroam.</hi></p>
             </div>
         </body>
         <back>

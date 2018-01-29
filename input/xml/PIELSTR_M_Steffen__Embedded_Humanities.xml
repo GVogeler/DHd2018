@@ -79,7 +79,7 @@
     </teiHeader>
     <text>
         <body>
-            <p>The Use of Distributional Models in the Digital Humanities</p>
+            <head>The Use of Distributional Models in the Digital Humanities</head>
             <p>In recent years, the Digital Humanities have witnessed the steadily growing popularity of models from distributional semantics which can be used to model the meaning of documents and words in large digital text collections. Well-known examples of influential distributional models include Latent Dirichlet Allocation for topic modelling (Blei et al.) or Word2vec for estimating word vectors (Mikolov et al. 2013). Such distributional models have recently gained much prominence in the fields of Natural Language Processing and, more recently, Deep Representation Learning (Manning 2016). Humanities data is typically sparse and distributional models help scholars obtain smoother estimations of them. Whereas, for instance, words are conventionally encoded as binary ‘one-hot vectors’ in digital text analysis, embedding techniques from distributional semantics allow scholars to obtain dense, yet rich representations of vocabularies. These embedded representations are known to capture all sorts of valuable relationships between data points, although embedding techniques are typically trained using unsupervised objectives and require relatively little parameter tuning from scholars. Inspiring applications of this emergent technology in DH have ranged from more technical work in cultural studies at large (Bamman et al. 2014), case studies in literary history (Mimno 2012; Schoech 2017) or valuable DH-oriented web apps, such as ShiCo (Martinez-Ortiz et al. 2016). The availability of high-quality implementations in the public domain, in software suites as gensim, word2vec, or mallet etc. has greatly added these methods’ popularity.</p>
             <p>
                 <hi rend="color(#222222) background-color(#ffffff)">In spite of their huge potential for Digital Humanities, multiple aspects of their application still remain untapped. Unsupervised models such as Word2vec, for instance, are notoriously hard to evaluate directly – often researchers have to resort to indirect evaluations in this respect. This renders it intriguing to which extent the output of distributional models should play a decisive role in hermeneutical debates or controversies in the Humanities. With other techniques for Distant Reading, distributional models moreover share the drawback that they typically only yield a </hi>
@@ -130,87 +130,87 @@
                 <listBibl>
                     <head>Bibliographie</head>
                     <bibl>
-                        <hi rend="color(#222222)bold">Bamman, D./ Underwood, T./ Smith, N. A. </hi>
+                        <hi rend="bold">Bamman, D./ Underwood, T./ Smith, N. A. </hi>
                         <hi rend="color(#222222)">(2014): „A Bayesian Mixed Effects Model of Literary Character“, </hi>
                         <hi rend="color(#222222)">in</hi>
                         <hi rend="color(#222222)"> </hi>
-                        <hi rend="color(#222222)italic">Proceedings of ACL</hi>
+                        <hi rend="italic">Proceedings of ACL</hi>
                         <hi rend="color(#222222)">.</hi>
                     </bibl>
                     <bibl>
-                        <hi rend="color(#222222)bold">Blei, </hi>
-                        <hi rend="color(#222222)bold">David</hi>
-                        <hi rend="color(#222222)bold"> </hi>
+                        <hi rend="bold">Blei, </hi>
+                        <hi rend="bold">David</hi>
+                        <hi rend="bold"> </hi>
                         <hi rend="color(#222222)">(2012): „Probabilistic Topic Models“, </hi>
                         <hi rend="color(#222222)">in</hi>
                         <hi rend="color(#222222)"> </hi>
-                        <hi rend="color(#222222)italic">Communications of the ACM</hi>
+                        <hi rend="italic">Communications of the ACM</hi>
                         <hi rend="color(#222222)"> 55, 77-84.</hi>
                     </bibl>
                     <bibl>
-                        <hi rend="color(#222222)bold">Bolukbasi, T./ Chang, K. W./ Zou, J./ Saligrama, V./ Kalai, A.</hi>
+                        <hi rend="bold">Bolukbasi, T./ Chang, K. W./ Zou, J./ Saligrama, V./ Kalai, A.</hi>
                         <hi rend="color(#222222)"> (2016): „Quantifying and Reducing Stereotypes in Word Embeddings“, </hi>
                         <hi rend="color(#222222)">in</hi>
                         <hi rend="color(#222222)"> </hi>
-                        <hi rend="color(#222222)italic">arXiv:1606.06121</hi>
+                        <hi rend="italic">arXiv:1606.06121</hi>
                         <hi rend="color(#222222)">.</hi>
                     </bibl>
                     <bibl>
-                        <hi rend="color(#222222)bold">Chang, J./ Gerrish, S./ </hi>
-                        <hi rend="color(#222222)bold">Sang</hi>
-                        <hi rend="color(#222222)bold">, C./ Boyd-Graber, J. L./ Blei, D. M. </hi>
+                        <hi rend="bold">Chang, J./ Gerrish, S./ </hi>
+                        <hi rend="bold">Sang</hi>
+                        <hi rend="bold">, C./ Boyd-Graber, J. L./ Blei, D. M. </hi>
                         <hi rend="color(#222222)">(2009): „Reading Tea Leaves: How Humans Interpret Topic Models“, </hi>
                         <hi rend="color(#222222)">in</hi>
                         <hi rend="color(#222222)"> Proceedings of NIPS, 288-296.</hi>
                     </bibl>
                     <bibl>
-                        <hi rend="color(#222222)bold">Hamilton, W. L./ Leskovec, J./ Jurafsky, D.</hi>
+                        <hi rend="bold">Hamilton, W. L./ Leskovec, J./ Jurafsky, D.</hi>
                         <hi rend="color(#222222)"> (2016): „Diachronic Word Embeddings Reveal Statistical Laws of Semantic Change“, </hi>
                         <hi rend="color(#222222)">in</hi>
                         <hi rend="color(#222222)"> </hi>
-                        <hi rend="color(#222222)italic">Proceedings of ACL</hi>
+                        <hi rend="italic">Proceedings of ACL</hi>
                         <hi rend="color(#222222)">.</hi>
                     </bibl>
                     <bibl>
-                        <hi rend="color(#222222)bold">Manning, </hi>
-                        <hi rend="color(#222222)bold">Christopher D.</hi>
+                        <hi rend="bold">Manning, </hi>
+                        <hi rend="bold">Christopher D.</hi>
                         <hi rend="color(#222222)"> (2016): „Computational Linguistics and Deep Learning“, </hi>
                         <hi rend="color(#222222)">in</hi>
                         <hi rend="color(#222222)"> </hi>
-                        <hi rend="color(#222222)italic">Computational Linguistics </hi>
+                        <hi rend="italic">Computational Linguistics </hi>
                         <hi rend="color(#222222)">41, 701-707.</hi>
                     </bibl>
                     <bibl>
-                        <hi rend="color(#222222)bold">Martinez-Ortiz, C./ Huijnen, P./ Kenter, T./ Verheul, J./ Wevers, M./ van Eijnatten, J.</hi>
+                        <hi rend="bold">Martinez-Ortiz, C./ Huijnen, P./ Kenter, T./ Verheul, J./ Wevers, M./ van Eijnatten, J.</hi>
                         <hi rend="color(#222222)"> (2016): „ShiCo: A Visualization Tool for Shifting Concepts Through Time“, </hi>
                         <hi rend="color(#222222)">in</hi>
                         <hi rend="color(#222222)"> </hi>
-                        <hi rend="color(#222222)italic">Digital Humanities Benelux: Book af Abstracts</hi>
+                        <hi rend="italic">Digital Humanities Benelux: Book af Abstracts</hi>
                         <hi rend="color(#222222)">, s.p.</hi>
                     </bibl>
                     <bibl>
-                        <hi rend="color(#222222)bold">Mikolov, T./ Sutskever, I./ Chen, K./ Corrado, G. S./ Dean, J.</hi>
+                        <hi rend="bold">Mikolov, T./ Sutskever, I./ Chen, K./ Corrado, G. S./ Dean, J.</hi>
                         <hi rend="color(#222222)"> (2013): „Distributed representations of words and phrases and their compositionality“, </hi>
                         <hi rend="color(#222222)">in</hi>
                         <hi rend="color(#222222)"> </hi>
-                        <hi rend="color(#222222)italic">Proceedings of NIPS 2013</hi>
+                        <hi rend="italic">Proceedings of NIPS 2013</hi>
                         <hi rend="color(#222222)">.</hi>
                     </bibl>
                     <bibl>
-                        <hi rend="color(#222222)bold">Mimno, </hi>
-                        <hi rend="color(#222222)bold">David</hi>
+                        <hi rend="bold">Mimno, </hi>
+                        <hi rend="bold">David</hi>
                         <hi rend="color(#222222)"> (2012): „Computational Historiography: Data Mining in a Century of Classics Journals“, </hi>
                         <hi rend="color(#222222)">in</hi>
                         <hi rend="color(#222222)"> </hi>
-                        <hi rend="color(#222222)italic">ACM Journal of Computing in Cultural Heritage</hi>
+                        <hi rend="italic">ACM Journal of Computing in Cultural Heritage</hi>
                         <hi rend="color(#222222)"> 5.</hi>
                     </bibl>
                     <bibl>
-                        <hi rend="color(#222222)bold">Schoech, </hi>
-                        <hi rend="color(#222222)bold">Christof</hi>
-                        <hi rend="color(#222222)bold"> </hi>
+                        <hi rend="bold">Schoech, </hi>
+                        <hi rend="bold">Christof</hi>
+                        <hi rend="bold"> </hi>
                         <hi rend="color(#222222)">(2017): „Topic Modeling Genre: An Exploration of French Classical and Enlightenment Drama“, </hi>
-                        <hi rend="color(#222222)italic">Digital Humanities Quarterly</hi>
+                        <hi rend="italic">Digital Humanities Quarterly</hi>
                         <hi rend="color(#222222)"> 11, s.p.</hi>
                     </bibl>
                 </listBibl>

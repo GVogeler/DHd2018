@@ -156,6 +156,7 @@
                 <p>10. Support of querying annotated data</p>
                 <p>11. Possibility to do an inter-annotator-agreement, this is important for projects, in which more than one annotator labels the same documents</p>
                 <p>12. Extensibility </p>
+                
                 <p>We explicitly do not want to compare subjective features like usability or how the annotations are presented.</p>
                 <figure>
                     <graphic n="1001"
@@ -181,20 +182,20 @@
                 </p>
             </div>
             <div type="div1" rend="DH-Heading1">
-                <head>Program of the workshop</head>
-                <p>The program is split into four sections:</p>
+            <head>Program of the workshop</head>
+            <p>The program is split into four sections:</p>
                 <list type="ordered">
                     <item>Introduction to ATHEN and distinguishing from other existing annotation environments.</item>
                     <item>Working with ATHEN, which contains the definition of scenarios and annotating sample documents.</item>
-                    <item>Utility of ATHEN (beyond regular annotation), which addresses the following topics:
-                        <list type="ordered">
-                            <item>Defining an annotation schema using OWL</item>
-                            <item>Preprocessing texts based on Apache UIMA Analysis Engines</item>
-                            <item>Creating and executing queries based on Apache Lucene</item>
-                            <item>Annotating images with ATHEN</item>
-                        </list>
-                    </item>
-                    <item>Extending ATHENs functionalities and adapting it to your needs (developer specific)</item>
+                    <item>Utility of ATHEN (beyond regular annotation), which</item>
+                    <item>addresses the following topics:</item>
+                    <list type="ordered">
+                        <item>Defining an annotation schema using OWL</item>
+                        <item>Preprocessing texts based on Apache UIMA Analysis Engines</item>
+                        <item>Creating and executing queries based on Apache Lucene</item>
+                        <item>Annotating images with ATHEN</item>
+                        <item>Extending ATHENs functionalities and adapting it to your needs (developer specific)</item>
+                    </list>
                 </list>
                 <p>The first section is a presentation which shows the main differences between the existing annotation tools. The second section defines an ordinary annotation scenario and it is used to introduce the participants to the general-purpose annotation view of ATHEN. Afterwards, for tasks to which ATHEN has special support (annotating character references and their coreferences, annotating direct speech and their speaker) an introduction to the special purpose views of ATHEN is given.</p>
                 <p>The third panel introduces the participants to the functionality of ATHEN beyond regular text annotation. It starts with the definition of an OWL ontology (and its utilization for texts). This is centered on relation detection of character references, as well as an attribution of those references.</p>
