@@ -144,19 +144,20 @@
             <div type="div1" rend="DH-Heading1">
                 <head>Related Work</head>
                 <p>We compare ATHEN to three web-based and four desktop applications in 12 categories by adapting most criteria defined by Neves and Leser (Neves / Leser 2012) to compare different annotation tools:</p>
-                <p>1. Availability and up-to-dateness of the documentation</p>
-                <p>2. Active development at the present time</p>
-                <p>3. Source code for download</p>
-                <p>4. Complexity of system requirements</p>
-                <p>5. Interoperability by supporting certain formats</p>
-                <p>6. Support of different annotation layers</p>
-                <p>7. Support of NLP-preprocessing to speed up manual annotation</p>
-                <p>8. Support of visualization</p>
-                <p>9. Support of self-learning systems to speed up manual annotation</p>
-                <p>10. Support of querying annotated data</p>
-                <p>11. Possibility to do an inter-annotator-agreement, this is important for projects, in which more than one annotator labels the same documents</p>
-                <p>12. Extensibility </p>
-                
+                <list type="ordered">
+                    <item>Availability and up-to-dateness of the documentation</item>
+                    <item>Active development at the present time</item>
+                    <item>Source code for download</item>
+                    <item>Complexity of system requirements</item>
+                    <item>Interoperability by supporting certain formats</item>
+                    <item>Support of different annotation layers</item>
+                    <item>Support of NLP-preprocessing to speed up manual annotation</item>
+                    <item>Support of visualization</item>
+                    <item>Support of self-learning systems to speed up manual annotation</item>
+                    <item>Support of querying annotated data</item>
+                    <item>Possibility to do an inter-annotator-agreement, this is important for projects, in which more than one annotator labels the same documents</item>
+                    <item>Extensibility </item>
+                </list>
                 <p>We explicitly do not want to compare subjective features like usability or how the annotations are presented.</p>
                 <figure>
                     <graphic n="1001"
