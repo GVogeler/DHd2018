@@ -160,11 +160,11 @@
                 <head>Lernziele</head>
                 <p>Am hier verwendeten Beispiel der automatischen Annotation von Entitätenreferenzen demonstrieren wir, welche Schritte für die Automatisierung einer Textanalyseaufgabe mittels maschinellen Lernverfahren nötig sind und wie diese konkret implementiert werden können. Die Teilnehmerinnen und Teilnehmer bekommen einen zusammenhängenden Überblick von der manuellen Annotation ausgewählter Texte über die Feinjustierung der Lernverfahren bis zur Evaluation der Ergebnisse. Die vorgestellte Vorgehensweise für den gesamten Ablauf ist grundsätzlich auf ähnliche Projekte übertragbar.</p>
                 <p>Das Tutorial schärft dabei das Verständnis für den Zusammenhang zwischen untersuchtem Konzept und den dafür relevanten Features, die in ein statistisches Lernverfahren einfließen. Durch Einblick in die technische Umsetzung bekommen die Teilnehmerinnen und Teilnehmer ein Verständnis für die Grenzen und Möglichkeiten der Automatisierung, das sie dazu befähigt, zum einen das Potenzial solcher Verfahren für eigene Vorhaben realistisch(er) einschätzen zu können, zum anderen aber auch Ergebnisse, die auf Basis solcher Verfahren erzielt wurden, angemessen hinterfragen und deuten zu können.</p>
-                <p>Zeitplan</p>
+                <p><hi rend="bold">Zeitplan</hi></p>
                 <list type="unordered">
                     <item>Im Vorfeld der Veranstaltung: Installationsanweisungen und Online-Support</item>
                 </list>
-                <p>Dauer in Minuten (ca.)</p>
+                <p><hi rend="bold">Dauer in Minuten (ca.)</hi></p>
                 <list type="unordered">
                     <item>10 Lecture
                         <list type="unordered">
