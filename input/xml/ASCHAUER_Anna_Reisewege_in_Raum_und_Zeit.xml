@@ -119,13 +119,16 @@
             <div type="div1" rend="DH-Heading1">
                 <head>Konzeptualisierung</head>
                 <p>Das CosmoTool ermöglicht eine Selektion und Filterung großer Datenmengen. Eine grundlegende Hypothese ist, dass ein Mehrwert durch die automatisierte Erstellung biographischer Profile entsteht. Die Gruppenprofile können anhand der von FachwissenschaftlerInnen erstellten Wortfelder aggregiert werden. So können Aggregationskriterien wie beispielsweise Berufsfelder oder Konfessions-/Religionsgruppen beschrieben werden.
+                <figure>   
                     <graphic n="1002"
                         width="14.419791666666667cm"
                         height="12.950472222222222cm"
                         rend="block"
                         url="ASCHAUER_Anna_Reisewege_in_Raum_und_Zeit-image2.png"/>
+                    <head>Abbildung 1: Auszug aus der Tabelle, die Konfessions-, bzw. religionsspezifische Wörter zur Identifikation eines (vormodernen) Katholiken, Protestanten, Juden oder eines Muslims in modernen (deutschsprachigen) biographischen Lexika, ermöglicht.</head>
+                </figure>     
                 </p>
-                <p>Abbildung 1: Auszug aus der Tabelle, die Konfessions-, bzw. religionsspezifische Wörter zur Identifikation eines (vormodernen) Katholiken, Protestanten, Juden oder eines Muslims in modernen (deutschsprachigen) biographischen Lexika, ermöglicht.</p>
+                
             </div>
             <div type="div1" rend="DH-Heading1">
                 <head>Thematische Schwerpunkte</head>
@@ -168,7 +171,7 @@
                 </p>
                 <p>Büchler, Gradl, Henrich)</p>
                 <p>09:30 - 10:00
-                    <hi rend="apple-tab-span"> </hi>Impulsvortrag Informatik (Gradl, Henrich): 
+                    <hi rend="apple-tab-span"></hi>Impulsvortrag Informatik (Gradl, Henrich): 
                     <hi rend="italic">Informatik und </hi>
                 </p>
                 <p>Infrastruktur: Analyse und Kombination forschungsspezifischer </p>
@@ -208,14 +211,14 @@
          <div type="bibliogr">
                 <listBibl>
                     <head>Bibliographie</head>
-                    <bibl>Berendt, B., Büchler, M., Rockwell, G. (2015) ‘Is it research or is it spying? – Rethinking ethics in Big Data AI and other fields of knowledge science‘, German Journal on Artificial Intelligence. Springer.</bibl>
-                    <bibl>Gradl, T.; Henrich, A. (2016a): Die DARIAH-DE-Föderationsarchitektur: Datenintegration im Spannungsfeld forschungsspezifischer und domänenübergreifender Anforderungen, Bibliothek Forschung und Praxis. Band 40, Heft 2, Seiten 222-228, ISSN (Online) 1865-7648, ISSN (Print) 0341-4183, DOI:
+                    <bibl><hi rend="bold">Berendt, B., Büchler, M., Rockwell, G.</hi> (2015) ‘Is it research or is it spying? – Rethinking ethics in Big Data AI and other fields of knowledge science‘, German Journal on Artificial Intelligence. Springer.</bibl>
+                    <bibl><hi rend="bold">Gradl, T.; Henrich, A.</hi>(2016a): Die DARIAH-DE-Föderationsarchitektur: Datenintegration im Spannungsfeld forschungsspezifischer und domänenübergreifender Anforderungen, Bibliothek Forschung und Praxis. Band 40, Heft 2, Seiten 222-228, ISSN (Online) 1865-7648, ISSN (Print) 0341-4183, DOI:
                         <ref target="https://doi.org/10.1515/bfp-2016-0027">
                             <hi rend="color(1155CC)">https://doi.org/10.1515/bfp-2016-0027</hi>
                         </ref>
                     </bibl>
-                    <bibl>Gradl, T.; Henrich, Andreas (2016b): „Data Integration for the Arts and Humanities: A Language Theoretical Concept“. In: Fuhr, Norbert et al. (Hg.): Research and Advanced Technology for Digital Libraries: 20th International Conference on Theory and Practice of Digital Libraries, TPDL 2016, Hannover, Germany, September 5‐9, 2016, Proceedings. Cham: Springer International Publishing, S. 281–293</bibl>
-                    <bibl>Panter, S.; Paulmann, Johannes und Margit Szöllösi-Janze (2015): “Mobility and Biography. Methodological Challenges and Perspectives”, in: Mobility and Biography, hrsg. von Sarah Panter (=Jahrbuch für Europäische Geschichte / European History Yearbook 16 ), Berlin: De Gruyter Oldenbourg, S. 1-14</bibl>
+                    <bibl><hi rend="bold">Gradl, T.; Henrich, Andreas </hi>(2016b): „Data Integration for the Arts and Humanities: A Language Theoretical Concept“. In: Fuhr, Norbert et al. (Hg.): Research and Advanced Technology for Digital Libraries: 20th International Conference on Theory and Practice of Digital Libraries, TPDL 2016, Hannover, Germany, September 5‐9, 2016, Proceedings. Cham: Springer International Publishing, S. 281–293</bibl>
+                    <bibl><hi rend="bold">Panter, S.; Paulmann, Johannes und Margit Szöllösi-Janze</hi> (2015): “Mobility and Biography. Methodological Challenges and Perspectives”, in: Mobility and Biography, hrsg. von Sarah Panter (=Jahrbuch für Europäische Geschichte / European History Yearbook 16 ), Berlin: De Gruyter Oldenbourg, S. 1-14</bibl>
                 </listBibl>
             </div>
       </back>

@@ -120,12 +120,13 @@
                 <item>Impuls: Gegenwärtige 
                     <hi rend="italic">best practices</hi> im Bereich nachhaltiger Softwareentwicklung
                 </item>
-                <item>
-                    <hi rend="italic">Breakout Groups</hi>
-                    <lb/>a) Ausbildung, Training, Software Carpentry, Standards
-                    <lb/>b) Struktur, Infrastruktur, Workflows für die AG DH-RSE
-                    <lb/>c) Definitionen: Sustainability, Software, Dokumentation, etc.
-                    <lb/>d) Manifest der AG DH-RSE; mit agiler Integration von Gruppen a), b), c)
+                <item><hi rend="italic">Breakout Groups</hi>
+                    <list type="unordered">
+                        <item> a) Ausbildung, Training, Software Carpentry, Standards</item>
+                        <item> b) Struktur, Infrastruktur, Workflows für die AG DH-RSE</item>
+                        <item> c) Definitionen: Sustainability, Software, Dokumentation, etc.</item>
+                        <item> d) Manifest der AG DH-RSE; mit agiler Integration von Gruppen a), b), c)</item>
+                    </list>
                 </item>
                 <item>
                     <hi rend="italic">Wrap-Up</hi> und Online-Veröffentlichung der Workshop-Ergebnisse sowie einer ersten Version des Manifests
@@ -134,42 +135,44 @@
             <p>Im Fazit möchte der Workshop eine kritische Reflexion der gegenwärtigen Prozesse und Praktiken im Bereich der DH-Softwareentwicklung anstoßen, eine erste Kartierung dieses wissenschaftlichen Tätigkeitsfeldes und seiner Akteure erstellen und eine Organisationsform für eine koordinierte Weiterentwicklung dieses wichtigen Teilbereiches der Digital Humanities finden. Als Startplattform für den Workshop steht eine GitHub-Website zur Verfügung, an der im Rahmen des Workshops kollaborativ gearbeitet wird: 
                 <ref target="https://dh-rse.github.io/dhd-workshop-2018/">https://dh-rse.github.io/dhd-workshop-2018/</ref>.
             </p>
-            <p rend="DH-Heading2">Kontaktdaten und Forschungsinteressen der Beitragenden</p>
-            <p>Torsten Schrade
-                <lb/>Akademie der Wissenschaften und der Literatur | Mainz
-                <lb/>Geschwister-Scholl-Str. 2
-                <lb/>55131 Mainz
-                <lb/>06131/577 119
-                <lb/>
-                <ref target="mailto:Torsten.Schrade@adwmainz.de">
-                    <hi rend="color(1155CC)">Torsten.Schrade@adwmainz.de</hi>
-                </ref>
-            </p>
-            <p>Torsten Schrade ist Leiter der Digitalen Akademie der Akademie der Wissenschaften und der Literatur | Mainz und Professor für Digital Humanities an der Hochschule Mainz. Zu seinen Forschungsinteressen zählen Methoden, Verfahren und Prozesse zur Steigerung der Nachhaltigkeit und Qualität geisteswissenschaftlicher Forschungssoftware, insbesondere aus dem Umfeld der agilen Softwareentwicklung. Weitere Schwerpunkte liegen im Forschungsdatenmanagement, dem Einsatz von Webtechnologien für geisteswissenschaftliche Forschungsapplikationen sowie der Anwendung von 
-                <hi rend="italic">Semantic Web</hi> und 
-                <hi rend="italic">Linked Open Data</hi> Technologien zur Erschließung neuer Analyse- und Nachnutzungspotentiale für geistes- und kulturwissenschaftliche Forschungsdaten.
-            </p>
-            <p>Stephan Druskat
-                <lb/>Humboldt-Universität zu Berlin
-                <lb/>Institut für deutsche Sprache und Linguistik
-                <lb/>Unter den Linden 6
-                <lb/>10099 Berlin
-                <lb/>030/2093 9726
-                <lb/>
-                <ref target="mailto:stephan.druskat@hu-berlin.de">
-                    <hi rend="color(1155CC)">stephan.druskat@hu-berlin.de</hi>
-                </ref>
-            </p>
-            <p>Stephan Druskat arbeitet als Research Software Engineer in der Linguistik und den Digital Humanities. Seine Forschungsinteressen umfassen die technische Nachhaltigkeit von Forschungssoftware, ihre Messung und Dokumentation, die Anwendung informatischer Methoden auf die Entwicklung von Forschungssoftware und Community- und Öffentlichkeitsaspekte dieses Feldes. Weitere Schwerpunkte liegen auf Forschungsdatenmanagement, insbesondere die Langzeitverfügbarkeit und Nachnutzbarkeit von Sprachdaten. Er ist aktives Mitglied von de-RSE, der Interessenvertretung der Research Software Engineers in Deutschland und Teil von WSSSPE, einer internationalen Arbeitsgruppe zur Nachhaltigkeit von Forschungssoftware.</p>
-            <p>Alexander Czmiel
-                <lb/>Berlin-Brandenburgische Akademie der Wissenschaften
-                <lb/>TELOTA - The electronic life of the Academy
-                <lb/>Jägerstr. 22/23
-                <lb/>10117 Berlin
-                <lb/>030/20370276
-                <lb/>czmiel@bbaw.de
-            </p>
-            <p>Alexander Czmiel ist seit 2005 wissenschaftlicher Mitarbeiter bei der TELOTA-Initiative der Berlin-Brandenburgischen Akademie der Wissenschaften und dort für die fachliche Beratung und Umsetzung von Projekten im Bereich der "Digital Humanities" verantwortlich. Seine Forschungsinteressen konzentrieren sich vor allem auf den Bereich der Digitalen Editionen und dort auf Konzepte, Workflows, Standardisierungsmöglichkeiten und Nutzeroberflächen. In diesem Kontext treibt ihn sein einiger Zeit die Nachhaltigkeit der Funktionalitätsschicht Digitaler Editionen um. Seit kurzem beschäftigt er sich zudem mit den Möglichkeiten von Augmented und Virtual Reality in den Digital Humanities.</p>
+            <div type="div2" rend="DH-Heading2">
+               <head>Kontaktdaten und Forschungsinteressen der Beitragenden</head>
+                 <p>Torsten Schrade
+                     <lb/>Akademie der Wissenschaften und der Literatur | Mainz
+                     <lb/>Geschwister-Scholl-Str. 2
+                     <lb/>55131 Mainz
+                     <lb/>06131/577 119
+                     <lb/>
+                     <ref target="mailto:Torsten.Schrade@adwmainz.de">
+                         <hi rend="color(1155CC)">Torsten.Schrade@adwmainz.de</hi>
+                     </ref>
+                 </p>
+                 <p>Torsten Schrade ist Leiter der Digitalen Akademie der Akademie der Wissenschaften und der Literatur | Mainz und Professor für Digital Humanities an der Hochschule Mainz. Zu seinen Forschungsinteressen zählen Methoden, Verfahren und Prozesse zur Steigerung der Nachhaltigkeit und Qualität geisteswissenschaftlicher Forschungssoftware, insbesondere aus dem Umfeld der agilen Softwareentwicklung. Weitere Schwerpunkte liegen im Forschungsdatenmanagement, dem Einsatz von Webtechnologien für geisteswissenschaftliche Forschungsapplikationen sowie der Anwendung von 
+                     <hi rend="italic">Semantic Web</hi> und 
+                     <hi rend="italic">Linked Open Data</hi> Technologien zur Erschließung neuer Analyse- und Nachnutzungspotentiale für geistes- und kulturwissenschaftliche Forschungsdaten.
+                 </p>
+                 <p>Stephan Druskat
+                     <lb/>Humboldt-Universität zu Berlin
+                     <lb/>Institut für deutsche Sprache und Linguistik
+                     <lb/>Unter den Linden 6
+                     <lb/>10099 Berlin
+                     <lb/>030/2093 9726
+                     <lb/>
+                     <ref target="mailto:stephan.druskat@hu-berlin.de">
+                         <hi rend="color(1155CC)">stephan.druskat@hu-berlin.de</hi>
+                     </ref>
+                 </p>
+                 <p>Stephan Druskat arbeitet als Research Software Engineer in der Linguistik und den Digital Humanities. Seine Forschungsinteressen umfassen die technische Nachhaltigkeit von Forschungssoftware, ihre Messung und Dokumentation, die Anwendung informatischer Methoden auf die Entwicklung von Forschungssoftware und Community- und Öffentlichkeitsaspekte dieses Feldes. Weitere Schwerpunkte liegen auf Forschungsdatenmanagement, insbesondere die Langzeitverfügbarkeit und Nachnutzbarkeit von Sprachdaten. Er ist aktives Mitglied von de-RSE, der Interessenvertretung der Research Software Engineers in Deutschland und Teil von WSSSPE, einer internationalen Arbeitsgruppe zur Nachhaltigkeit von Forschungssoftware.</p>
+                 <p>Alexander Czmiel
+                     <lb/>Berlin-Brandenburgische Akademie der Wissenschaften
+                     <lb/>TELOTA - The electronic life of the Academy
+                     <lb/>Jägerstr. 22/23
+                     <lb/>10117 Berlin
+                     <lb/>030/20370276
+                     <lb/>czmiel@bbaw.de
+                 </p>
+                 <p>Alexander Czmiel ist seit 2005 wissenschaftlicher Mitarbeiter bei der TELOTA-Initiative der Berlin-Brandenburgischen Akademie der Wissenschaften und dort für die fachliche Beratung und Umsetzung von Projekten im Bereich der "Digital Humanities" verantwortlich. Seine Forschungsinteressen konzentrieren sich vor allem auf den Bereich der Digitalen Editionen und dort auf Konzepte, Workflows, Standardisierungsmöglichkeiten und Nutzeroberflächen. In diesem Kontext treibt ihn sein einiger Zeit die Nachhaltigkeit der Funktionalitätsschicht Digitaler Editionen um. Seit kurzem beschäftigt er sich zudem mit den Möglichkeiten von Augmented und Virtual Reality in den Digital Humanities.</p>
+            </div>
         </body>
         <back>
          <div type="notes">
@@ -218,7 +221,8 @@
                     <bibl>
                         <hi rend="bold">Hettrick, Simon</hi> (2016): "Research Software Sustainability: Report on a Knowledge Exchange Workshop", Edinburgh, The Software Sustainability Institute 
                         <ref target="http://repository.jisc.ac.uk/6332/1/Research_Software_Sustainability_Report_on_KE_Workshop_Feb_2016_FINAL.pdf">
-                            <hi rend="color(1155CC)">http://repository.jisc.ac.uk/6332/1/Research_Software_Sustainability_Report_on_KE_Workshop_Feb_2016_FINAL.pdf</hi>
+                            <hi rend="color(1155CC)">http://repository.jisc.ac.uk/6332/1/Research_Software_Sustainability_Report_on_KE_
+                                Workshop_Feb_2016_FINAL.pdf</hi>
                         </ref> [letzter Zugriff am 25.09.2017].
                     </bibl>
                     <bibl>
