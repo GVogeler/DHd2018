@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xml:id="FECHNER_Martin_Eine_nachhaltige_Pr_sentationsschicht_f_r_dig">
-    <teiHeader>
+   <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Eine nachhaltige Präsentationsschicht für digitale Editionen </title>
@@ -75,41 +75,27 @@
          </settingDesc>
       </profileDesc>
     </teiHeader>
-    <text>
+   <text>
         <body>
             <div type="div1" rend="DH-Heading1">
                 <head>Einleitung</head>
                 <p>Die Anforderungen an die Erstellung von Editionen sind im letzten Jahrzehnt gestiegen.
-                    <note place="foot" xml:id="ftn1" n="1">
-                        <p> Ziele von Editionen finden sich bei (Förderkriterien 2015, Eggert 2016, Ralle 2016 und Sahle 2016).</p>
-                    </note> Es ist unstreitig, dass digitale Editionen Annäherungen an den edierten Text ermöglichen, die weit über den statischen Druck hinausgehen (Sahle 2016). Gleichzeitig gibt es aber auch noch immer Anforderungen, etwa die Zitierbarkeit, die im Druck gelöst sind, zu denen es aber in der Webpublikation noch keine einheitliche Entsprechung gibt. Insbesondere stellt sich die Frage nach der Nachhaltigkeit und der Langzeitarchivierung.
-                    <note place="foot" xml:id="ftn2" n="2">
-                        <p> Für die Forschungsdaten selbst ist die Langzeitarchivierung grundsätzlich gelöst. Digitalen Editionen wird jedoch nur geringe Zuverlässigkeit zugeschrieben (Pierazzo 2015: 169).</p>
-                    </note>
+                    <ref target="ftn1" n="1"/> Es ist unstreitig, dass digitale Editionen Annäherungen an den edierten Text ermöglichen, die weit über den statischen Druck hinausgehen (Sahle 2016). Gleichzeitig gibt es aber auch noch immer Anforderungen, etwa die Zitierbarkeit, die im Druck gelöst sind, zu denen es aber in der Webpublikation noch keine einheitliche Entsprechung gibt. Insbesondere stellt sich die Frage nach der Nachhaltigkeit und der Langzeitarchivierung.
+                    <ref target="ftn2" n="2"/>
                 </p>
                 <p>Ein Lösungsansatz besteht darin, Techniken der Data Curation zu etablieren (Pempe 2012: 141f.). Damit ist aber ein Aufwand verbunden, der linear mit der Zahl der Webpublikationen wächst und sogar polynomial ansteigt, wenn auch die Schnittstellen zu verknüpften Ressourcen gepflegt werden müssen. Eine besondere Herausforderung stellt sich, wenn man sinnvollerweise annimmt, dass die Darstellung und die Funktionalitäten Teil der Edition selbst sind (Ralle 2016, Pierazzo 2015: 127-146, Porter 2016 und Turska et al. 2016). Wenn also nur die Forschungsdaten nachhaltig archiviert werden, geht die ursprüngliche Präsentation letztendlich verloren. Es wird zwar momentan auf die Einführung von Standards gesetzt, 
-                    <note place="foot" xml:id="ftn3" n="3">
-                        <p> So wird das Format der Text Encoding Initiative (TEI) verbreitet eingesetzt, das nur ein erster Schritt zur Standardisierung ist (Holmes 2017). Weitere Standards und Identifikatoren sind etwa die GND für Personen, GeoNames-IDs für Orte oder der Canocical Text Service (CTS) für Zitationen, das DITA- oder DocBook-Format für (technische) Dokumentationen. Als Langzeitarchivierungsformat für Metadaten gibt es etwa LMER (Steinke 2005).</p>
-                    </note> einen wirklichen Mehrwert für den Gebrauch von digitalen Editionen entfalten diese aber erst, wenn sie durch das Angebot von technischen Schnittstellen unterstützt werden.
-                    <note place="foot" xml:id="ftn4" n="4">
-                        <p> Gute Ansätze einer Präsentationsoberfläche für Einzeldokumente bietet der "teiPublisher", der auf dem Datenformat ODD aufbaut (Meier 2017, Meier/Turska 2016 und Turska et al. 2016). </p>
-                    </note> Bisher fehlt es jedoch an einem klar definierten Interface, welches die Forschungsdaten in eine nachhaltige funktionale Präsentationsform mit allen Aspekten einer digitalen Edition übersetzt.
-                    <note place="foot" xml:id="ftn5" n="5">
-                        <p> Die Benutzbarkeit digitaler Editionen leidet unter mangelnden Interfaces (Robinson 2016). Pierazzo sieht es als Nachteil, dass viele digitale Editionen unterschiedliche User Interfaces besitzen, hält aber eine zukünftige Angleichung für wahrscheinlich (Pierazzo 2015: 162).</p>
-                    </note>
+                    <ref target="ftn3" n="3"/> einen wirklichen Mehrwert für den Gebrauch von digitalen Editionen entfalten diese aber erst, wenn sie durch das Angebot von technischen Schnittstellen unterstützt werden.
+                    <ref target="ftn4" n="4"/> Bisher fehlt es jedoch an einem klar definierten Interface, welches die Forschungsdaten in eine nachhaltige funktionale Präsentationsform mit allen Aspekten einer digitalen Edition übersetzt.
+                    <ref target="ftn5" n="5"/>
                 </p>
             </div>
             <div type="div1" rend="DH-Heading1">
                 <head>Entwurf einer Schnittstelle</head>
                 <p>Hier wird nun ein System für die Nachhaltigkeit von Webpublikationen entworfen. Es verbindet die Daten mit der Präsentationsschicht und kann mithilfe einer projektspezifischen, archivierbaren Konfiguration über eine Schnittstelle gesteuert werden. Durch den Einsatz einer solchen Schnittstelle können Webpublikationen inklusive der entsprechenden Funktionalitäten aus den Forschungsdaten reproduziert werden.
-                    <note place="foot" xml:id="ftn6" n="6">
-                        <p> Es gibt dabei sehr unterschiedliche Anforderungen, die an die Präsentation digitaler Editionen gestellt werden (Shillingsburg 2016, Ralle 2016: 154f. und Sahle 2014).</p>
-                    </note> Digitale Editionen unterscheiden sich technisch zwar zurzeit noch stark voneinander (Robinson 2016), der hier gemachte Vorschlag und das sich anschließende Software-Beispiel zeigen daher, wo es schon jetzt Möglichkeiten zur Standardisierung gibt und wie diese aussehen könnten. 
+                    <ref target="ftn6" n="6"/> Digitale Editionen unterscheiden sich technisch zwar zurzeit noch stark voneinander (Robinson 2016), der hier gemachte Vorschlag und das sich anschließende Software-Beispiel zeigen daher, wo es schon jetzt Möglichkeiten zur Standardisierung gibt und wie diese aussehen könnten. 
                 </p>
                 <p>Vorbild für das System ist der erfolgreiche IIIF-Standard, der zu einem ähnlichen Zweck für Bilder eingeführt wurde (Cramer 2011). Der IIIF-Standard sieht eine Aufteilung von Server- und Clientstruktur vor, und als Austauschformat fungiert eine Manifest-Datei. Übertragen auf Digitale Editionen heißt dies, dass eine archivierbare Manifestdatei notwendige Definitionen festhält, mit denen es einem Viewer möglich ist, die vollständige Präsentation und Funktionalität der jeweiligen digitalen Edition herzustellen.
-                    <note place="foot" xml:id="ftn7" n="7">
-                        <p> Für die Langzeitarchivierung könnte eine Kompatibilität der Manifestdatei etwa mit LMER hergestellt werden (Steinke 2005).</p>
-                    </note>
+                    <ref target="ftn7" n="7"/>
                 </p>
                 <div type="div2" rend="DH-Heading2">
                     <head>Manifestdatei</head>
@@ -118,14 +104,10 @@
                     <p>Mit der Definition einer Gliederung der Materialien, also von Editionstexten, Kommentaren und Begleitmaterial, können sinnvolle hierarchische Navigationselemente in der Darstellung umgesetzt werden.</p>
                     <p>In der Präsentationsoberfläche muss es möglich sein, zu den verschiedenen Datentypen zu navigieren und entsprechende Überblickslisten anzeigen zu lassen. Dafür werden die Typen von Datenobjekten (etwa Textsorten oder Register) definiert. Für die Unterstützung von facettierten Filtern, müssen diese entsprechend festgelegt werden. </p>
                     <p>Die Darstellung der Dokumente in der Einzelansicht kann unter Einbindung von Schnittstellen für die Transformation geschehen.
-                        <note place="foot" xml:id="ftn8" n="8">
-                            <p> TEI-Dokumente können etwa mit ODD zur Einzelpräsentation transformiert werden (Meier 2017).</p>
-                        </note> Auch können für die Navigation zu Abschnitten im Dokument, die entsprechenden Teile definiert werden. Zu jedem Objekttyp sollten auch die vorhandenen Beziehungen zu Teilen, als auch zu anderen Objekttypen festgehalten werden. Damit können verschiedene Forschungsdaten in einer dynamischen Ansicht zusammengeführt werden.
+                        <ref target="ftn8" n="8"/> Auch können für die Navigation zu Abschnitten im Dokument, die entsprechenden Teile definiert werden. Zu jedem Objekttyp sollten auch die vorhandenen Beziehungen zu Teilen, als auch zu anderen Objekttypen festgehalten werden. Damit können verschiedene Forschungsdaten in einer dynamischen Ansicht zusammengeführt werden.
                     </p>
                     <p>Für eine nachhaltige Einbindung externer Ressourcen sollte definiert werden, auf welche Ressourcen die Edition Bezug nimmt und welche Schnittstellen dazu genutzt werden. Die Integration externer Ressourcen kann problematisch sein, wenn deren Verfügbarkeit noch nicht gesichert ist.
-                        <note place="foot" xml:id="ftn9" n="9">
-                            <p> Externe Daten können auch in eine „Standalone“ Version überführt werden (Holmes 2017).</p>
-                        </note>
+                        <ref target="ftn9" n="9"/>
                     </p>
                     <table rend="rules">
                         <row>

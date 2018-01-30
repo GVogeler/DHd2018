@@ -1095,12 +1095,10 @@
                 </fo:block>
 
                 <!-- Text -->
-                <xsl:for-each select="text/body/div">
                   <fo:block text-align="justify" text-align-last="left">
                     <xsl:call-template name="text"/>
-                    <xsl:apply-templates/>
+                    <xsl:apply-templates select="text"/>
                   </fo:block>
-                </xsl:for-each>
               </xsl:if>
             </xsl:for-each>
           </fo:flow>
@@ -1558,12 +1556,34 @@
       <xsl:when test="starts-with(@target, 'ftn')">
         <fo:inline><xsl:call-template name="superscript"/>
           <xsl:value-of select="@n"/>
-          <!--<xsl:text> </xsl:text>-->
+          <xsl:text> </xsl:text>
         <xsl:apply-templates/>
         <xsl:text> </xsl:text></fo:inline>
       </xsl:when>
       <xsl:when test="starts-with(@target, 'http')">
         <xsl:text> </xsl:text>
+        <xsl:apply-templates/>
+        <xsl:text> </xsl:text>
+      </xsl:when>
+      <xsl:when test="@type='url'">
+        <xsl:apply-templates/>
+      </xsl:when>
+      <xsl:otherwise></xsl:otherwise>
+    </xsl:choose>
+  </xsl:template>
+
+  <xsl:template match="ptr">
+    <xsl:choose>
+      <xsl:when test="starts-with(@target, 'ftn')">
+        <fo:inline><xsl:call-template name="superscript"/>
+          <xsl:value-of select="@n"/>
+          <xsl:text> </xsl:text>
+          <xsl:apply-templates/>
+          <xsl:text> </xsl:text></fo:inline>
+      </xsl:when>
+      <xsl:when test="starts-with(@target, 'http')">
+        <xsl:text> </xsl:text>
+        <xsl:value-of select="@target"></xsl:value-of>
         <xsl:apply-templates/>
         <xsl:text> </xsl:text>
       </xsl:when>

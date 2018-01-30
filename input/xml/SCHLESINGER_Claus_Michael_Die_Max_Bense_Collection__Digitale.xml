@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xml:id="SCHLESINGER_Claus_Michael_Die_Max_Bense_Collection__Digitale">
-    <teiHeader>
+   <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title type="full">
@@ -78,7 +78,7 @@
          </settingDesc>
       </profileDesc>
     </teiHeader>
-    <text>
+   <text>
         <body>
             <div type="div1" rend="DH-Heading">
                 <head>Texte</head>
@@ -102,7 +102,7 @@
             </div>
         </body>
         <back>
-            <div type="bibliogr">
+         <div type="bibliogr">
                 <listBibl>
                     <head>Bibliographie</head>
                     <bibl>Bense, M. (1965) Aesthetica. Einführung in die neue Ästhetik. Agis-Verlag, Baden-Baden.</bibl>
@@ -115,6 +115,6 @@
                     <bibl>Schlesinger, C. (2018): Omeka-Theme "Stuttgart", https://github.com/cmcx/theme-stuttgart, Zugriff: 15.1.2018</bibl>
                 </listBibl>
             </div>
-        </back>
+      </back>
     </text>
 </TEI>

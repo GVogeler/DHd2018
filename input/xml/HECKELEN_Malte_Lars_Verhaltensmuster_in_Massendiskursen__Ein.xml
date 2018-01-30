@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xml:id="HECKELEN_Malte_Lars_Verhaltensmuster_in_Massendiskursen__Ein">
-    <teiHeader>
+   <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title type="full">
@@ -73,7 +73,7 @@
          </settingDesc>
       </profileDesc>
     </teiHeader>
-    <text>
+   <text>
         <body>
             <p>Seit der letzten Präsidentschaftswahl in den Vereinigten Staaten und der Verbreitung rechten Gedankenguts in Europa stellt sich für Forscher die interessante und wichtige Frage nach dem “Warum?”. Phänomene wie die Verbreitung radikaler, eigentlich unbeliebter Meinungen werden in der Presse mit Social Media und ihren technisch bedingten Dynamiken in Verbindung gebracht. Daneben sind es aber auch die auf das Diskursverhalten bezogenen Normen und strategisches Verhalten, die die Entwicklung des Meinungsbildes in Massendiskussionen prägen.</p>
             <p>Die sozialpsychologische Persuasionsforschung untersucht die Determinanten der Überzeugung auf der Mikroebene von Kleingruppen. Opinion Dynamics - Simulationsmodelle hingegen befassen sich mit der Verbindung der Mikroebene zur Makroebene: mit bewusst einfach konzeptualisierten Agenten als “Black Box”, deren simple Botschaftenübertragungen interagieren und zu emergenten Meinungsverteilungen und -dynamiken führen. Um theoretische Konzepte der Überzeugung von Individuen aggregierend auf Massendynamiken der Meinungslandschaft beziehen zu können, werden in diesem Projekt entscheidungstheoretische Modelle der Soziologie und Persuasionsforschung mit Opinion Dynamics - Simulationen verbunden (Agentenbasiertes Modell).</p>
@@ -92,7 +92,7 @@
             <p>Das Modell ist zurzeit im Java-Framework Repast Symphony mit voller Funktionalität des rc-Modus implementiert. Das geplante Poster wird die Ziele des Projekts, die Funktionsweise des Computermodells sowie erste Analysergebnisse vorstellen.</p>
         </body>
         <back>
-            <div type="bibliogr">
+         <div type="bibliogr">
                 <listBibl>
                     <head>Bibliographie</head>
                     <bibl>Chaiken, Shelly / Eagly, Alice H. Eagly (1989): “Heuristic and Systematic Information Processing Within and Beyond the Persuasion Context.” In: Uleman, J.S. / Bargh, J.A.: 
@@ -127,6 +127,6 @@
                     </bibl>
                 </listBibl>
             </div>
-        </back>
+      </back>
     </text>
 </TEI>

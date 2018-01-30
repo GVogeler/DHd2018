@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xml:id="WISSIK_Tanja_Meuchelm_rderInnen__Kindsm_rderInnen__DiebInnen">
-    <teiHeader>
+   <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>MeuchelmörderInnen, KindsmörderInnen, DiebInnen und die dazugehörigen Tatbestände: Erstellung eines Thesaurus für das österreichische Strafrecht des 18. Jahrhunderts zur Erschließung einer Flugblattsammlung</title>
@@ -82,7 +82,7 @@
          </settingDesc>
       </profileDesc>
     </teiHeader>
-    <text>
+   <text>
         <body>
             <p>In diesem Posterbeitrag beschreiben wir die Erstellung eines Thesaurus für das österreichische Strafrecht des 18. Jahrhunderts und gehen auf die damit verbundenen Herausforderungen ein, sowohl seitens des Themengebietes aber auch seitens der Quellen.</p>
             <p>Als Quellen dienen kaum erforschte Flugblätter zur Bekanntmachung von Hinrichtungen im 18. Jahrhundert (vgl. Ammerer/Adomeit 2010), die derzeit mit einem modernen Methodeninventar als XML-Dokumente nach den Richtlinien der TEI annotiert und auf ihre digitale Verfügbarkeit im Netz vorbereitet werden. Die Darstellung der Sachverhalte, die zur Hinrichtung führen, sind zwar medial überformt (vgl. Peil 2002, Kosenina 2005, Wiltenburg 2009, Dainat 2009, Härter 2010), beruhen allerdings auf den Entscheidungen des damaligen Stadtgerichts. </p>
@@ -103,7 +103,7 @@
             <p>Anhand des Posterbeitrags wollen wir erörtern, wie die einzelnen Tatbestände aus den unterschiedlichen Rechtsnormen miteinander in Relation gesetzt werden können, wie weiters eine Verbindung zu den heutigen Tatbeständen hergestellt werden wird und worin letztlich der Mehrwert für zukünftige UserInnen innerhalb und außerhalb der Academia besteht. Schließlich sollen auch mögliche Nachnutzungsszenarien für den Thesaurus thematisiert werden. </p>
         </body>
         <back>
-            <div type="bibliogr">
+         <div type="bibliogr">
                 <listBibl>
                     <head>Bibliographie</head>
                     <bibl>Adebayo, Kolawole John / Di Caro, Luigi / Boella Guido (2016): “Annotating Legal Documents with Ontology Concepts, Conference” in: Jusletter IT 25. Februar 2016, Proceedings IRIS 2016.
@@ -132,6 +132,6 @@
                     </bibl>
                 </listBibl>
             </div>
-        </back>
+      </back>
     </text>
 </TEI>

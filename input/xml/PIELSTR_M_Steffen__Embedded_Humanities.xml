@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xml:id="PIELSTR_M_Steffen__Embedded_Humanities">
-    <teiHeader>
+   <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title> Embedded Humanities</title>
@@ -77,7 +77,7 @@
          </settingDesc>
       </profileDesc>
     </teiHeader>
-    <text>
+   <text>
         <body>
             <div type="div1" rend="DH-Heading1">
                 <head>The Use of Distributional Models in the Digital Humanities</head>
@@ -130,7 +130,7 @@
             </div>
         </body>
         <back>
-            <div type="bibliogr">
+         <div type="bibliogr">
                 <listBibl>
                     <head>Bibliographie</head>
                     <bibl>
@@ -219,6 +219,6 @@
                     </bibl>
                 </listBibl>
             </div>
-        </back>
+      </back>
     </text>
 </TEI>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xml:id="WISSIK_Tanja_ELEXIS___Eine_europ_ische_Forschungsinfrastrukt">
-    <teiHeader>
+   <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>ELEXIS – Eine europäische Forschungsinfrastruktur für lexikographische Daten</title>
@@ -131,7 +131,7 @@
          </settingDesc>
       </profileDesc>
     </teiHeader>
-    <text>
+   <text>
         <body>
             <p>Die Bedeutung von Wörterbüchern, seien es einsprachige, zweisprache oder mehrsprachige Wörterbücher, ist in der heutigen Informationsgesellschaft nicht zu unterschätzen. Sie geben nicht nur Auskunft über Wortbedeutungen und dazugehörige Übersetzungen, sondern sind selbst Bestandteil der Kulturgüter eines Landes und sie stellen bedeutende Ressourcen für Linked Open Data und Semantic-Web-Technologien dar. Obwohl in fast jedem Land Wörterbücher erstellt wurden und werden, seien es traditionelle Wörterbücher in gedruckter Form oder lexikographische Ressourcen in digitaler Form, waren die Bestrebungen nach Kooperation auf europäischer Ebene eher limitiert. Dies führte dazu, dass bis jetzt die Synergien zwischen traditioneller Lexikographie und maschineller Sprachverarbeitung nicht optimal genutzt werden konnten. Dies soll durch das Infrastrukturprojekt ELEXIS geändert werden.</p>
             <p>Im Rahmen des ELEXIS Projekts soll eine Infrastruktur für lexikographische Daten entwickelt werden, die auf mehreren Ebenen ansetzt und den Bereich der traditionellen Lexikogrpahie mit dem Bereich der maschinellen Sprachverarbeitung verknüpft: Zum einen soll Kooperation und Austausch zwischen unterschiedlichen Forschungsgruppen, aber auch zwischen Forschungsgruppen und Verlagshäusern gefördert werden. Zum anderen soll an gemeinsamen Standards gearbeitet werden, um den Austausch und die Wiederverwendbarkeit von lexikographischen Daten in den unterschiedlichsten Szenarien zu fördern. Die Infrastruktur soll den Zugang zu Methoden, Tools und Daten ermöglichen und den bis jetzt nicht so weit verbreiteten Open-Access-Gedanken fördern.</p>
@@ -141,7 +141,7 @@
             <p>In diesem Poster werden die Grundzüge des neuen europäischen Infrastrukturprojektes beschrieben sowie die Methoden und Maßnahmen, mit denen die oben genannten Ziele erreicht werden sollen, präsentiert. Weiters wird speziell auf den Nutzen und die Vorteile der ELEXIS Infrastruktur für die DH Community eingegangen.</p>
         </body>
         <back>
-            <div type="bibliogr">
+         <div type="bibliogr">
                 <listBibl>
                     <head>Bibliographie</head>
                     <bibl>Schreibman, Susan / Ray Siemens, John Unsworth. ed. (2004): A Companion to Digital Humanites. Oxford: Blackwell.</bibl>
@@ -150,6 +150,6 @@
                     <bibl>McCrae,  John / Aguado-de-Cea, Guadalupe / Buitelaar, Paul / Cimiano, Philipp / Declerck, Thierry / Gómez-Pérez, Asunción / Gracia, Jorge / Hollink, Laura /Montel-Ponsoda, Elena / Spohr, Dennis / Wunner, Tobias (2012): "Interchanging lexical resources on the Semantc Web", in: Language Resources and Evaluaton, 46(6), pp 701-709, (2012).</bibl>
                 </listBibl>
             </div>
-        </back>
+      </back>
     </text>
 </TEI>

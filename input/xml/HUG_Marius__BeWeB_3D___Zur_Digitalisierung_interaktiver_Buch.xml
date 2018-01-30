@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xml:id="HUG_Marius__BeWeB_3D___Zur_Digitalisierung_interaktiver_Buch">
-    <teiHeader>
+   <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title type="full">
@@ -77,11 +77,11 @@
          </settingDesc>
       </profileDesc>
     </teiHeader>
-    <text>
+   <text>
         <body>
             <p>Im Rahmen des Projekts BeWeb-3D
-                <note xml:id="ftn1" place="foot" n="1"> http://staatsbibliothek-berlin.de/die-staatsbibliothek/projekte/beweb-3d/.</note>und in Kooperation mit dem Zentrum für digitale Kulturgüter in Museen (ZEDIKUM
-                <note xml:id="ftn2" place="foot" n="2"> http://www.zedikum.de/</note>) wurde an der Staatsbibliothek zu Berlin – Preußischer Kulturbesitz ein Konzept zur Digitalisierung sogenannter Bewegungsbücher erarbeitet. Dabei handelt es sich um Buchobjekte, die bewegliche Teile enthalten und damit eine Interaktion erfordern, die über das reine Umblättern der Seiten hinausgeht (vgl. Schmitz-Emans 2016). Populäre Formen dieses Buchtyps sind Klappbilderbücher – bereits im 16. Jahrhundert gab es anatomische Lehrbücher mit Papierklappen – oder Bücher mit Volvellen, i.e. drehbare Papierscheiben, die bspw. für kalendarische Berechnungen genutzt wurden. Einen richtigen Boom erfuhr das Medium Bewegungsbuch, als im Laufe des 19. Jahrhunderts das sogenannte Spielbilderbuch die (gutbürgerlichen) Kinderzimmer Mitteleuropas eroberte. In diesen aufwendig und von Hand produzierten Kinderbüchern finden sich alle Formen des angesprochenen Papierdesigns wieder, was im direkten Kontext zu den industriellen Fortschritten in den Bereichen der Papierproduktion und Buchdrucktechnologie (Lithographie und v.a. Chromolithographie) zu sehen ist. Eine besondere Ausprägung sind die in den 1880er und 90er Jahren in Perfektion vom Münchner Buchkünstler Lothar Meggendorfer produzierten Ziehbilderbücher (siehe Abb. 1), die historisch in enger Verwandtschaft zu den damals populären Marionetten- und Schattentheatern einerseits und Laterna Magica Vorführungen andererseits rezipiert werden müssen.
+                <ref target="ftn1" n="1"/>und in Kooperation mit dem Zentrum für digitale Kulturgüter in Museen (ZEDIKUM
+                <ref target="ftn2" n="2"/>) wurde an der Staatsbibliothek zu Berlin – Preußischer Kulturbesitz ein Konzept zur Digitalisierung sogenannter Bewegungsbücher erarbeitet. Dabei handelt es sich um Buchobjekte, die bewegliche Teile enthalten und damit eine Interaktion erfordern, die über das reine Umblättern der Seiten hinausgeht (vgl. Schmitz-Emans 2016). Populäre Formen dieses Buchtyps sind Klappbilderbücher – bereits im 16. Jahrhundert gab es anatomische Lehrbücher mit Papierklappen – oder Bücher mit Volvellen, i.e. drehbare Papierscheiben, die bspw. für kalendarische Berechnungen genutzt wurden. Einen richtigen Boom erfuhr das Medium Bewegungsbuch, als im Laufe des 19. Jahrhunderts das sogenannte Spielbilderbuch die (gutbürgerlichen) Kinderzimmer Mitteleuropas eroberte. In diesen aufwendig und von Hand produzierten Kinderbüchern finden sich alle Formen des angesprochenen Papierdesigns wieder, was im direkten Kontext zu den industriellen Fortschritten in den Bereichen der Papierproduktion und Buchdrucktechnologie (Lithographie und v.a. Chromolithographie) zu sehen ist. Eine besondere Ausprägung sind die in den 1880er und 90er Jahren in Perfektion vom Münchner Buchkünstler Lothar Meggendorfer produzierten Ziehbilderbücher (siehe Abb. 1), die historisch in enger Verwandtschaft zu den damals populären Marionetten- und Schattentheatern einerseits und Laterna Magica Vorführungen andererseits rezipiert werden müssen.
             </p>
             <p>
                 <figure>
@@ -97,7 +97,11 @@
             </p>
         </body>
         <back>
-            <div type="bibliogr">
+         <div type="notes">
+            <note xml:id="ftn1" n="1" place="foot"> http://staatsbibliothek-berlin.de/die-staatsbibliothek/projekte/beweb-3d/.</note>
+            <note xml:id="ftn2" n="2" place="foot"> http://www.zedikum.de/</note>
+         </div>
+         <div type="bibliogr">
                 <listBibl>
                     <head>Bibliographie</head>
                     <bibl>
@@ -118,6 +122,6 @@
                     </bibl>
                 </listBibl>
             </div>
-        </back>
+      </back>
     </text>
 </TEI>

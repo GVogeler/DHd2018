@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xml:id="FICHTNER_Mark_Von_Drupal_8_zur_virtuellen_Forschungsumgebung">
-    <teiHeader>
+   <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Von Drupal 8 zur virtuellen Forschungsumgebung - Der WissKI-Ansatz</title>
@@ -75,7 +75,7 @@
          </settingDesc>
       </profileDesc>
     </teiHeader>
-    <text>
+   <text>
         <body>
             <p>Im Rahmen des von der DFG finanzierten Projekts “WissKI” entstand in zwei Projektphasen eine digitale Forschungsumgebung für die Anwendung im Bereich der Digital Humanities. Mit dem Ende der zweiten Projektphase 2017 wurde die Forschungsumgebung grundlegend aktualisiert und setzt nun auf das Open Source Content Management System Drupal 8 auf. Damit ging eine Aktualisierung der gesamten zugrundeliegenden Frameworks und Technologien (php 7, SPARQL 1.1) einher. Die aktuelle Version der Forschungsumgebung steht nun der wissenschaftlichen Öffentlichkeit als Open Source zur freien Verfügung.</p>
             <p>Auch die aktuelle Fassung der Software setzt auf die bewährten Kernaspekte: Die Datenerfassung und -haltung in WissKI wird zentral bestimmt durch die semantischen Zusammenhänge zwischen einzelnen Fakten und Datensätzen. Dies wird durch umfassende Unterstützung aktueller Semantic Web Technologien erreicht. Die Einordnung und Speicherung der erhobenen Daten erfolgt auf Grundlage einer Domänenontologie, deren Konzepte und Relationen - zu sogenannten Pfaden verbunden - als Vorlage für die Masken und Felder im System dienen. Auf Basis dieser Technologie werden solitär erscheinende Daten zu einem gemeinsamen, semantischen Netzwerk verbunden und damit die unmittelbare Sichtbarkeit weiterer, tiefergehender Zusammenhänge ermöglicht. Hierdurch werden intuitiv Zusammenhänge in den Daten sichtbar, die sich für den Nutzer als Mehrwert anbieten. Das Webbasierte Systemdesign und der dadurch ermöglichte Zugriff über das Internet, die Anbindung von externen kuratierten Datenquellen (sog. Authority Files) und die Möglichkeit zur Bereitstellung ausgewählter Daten über gängige Online-Schnittstellen (Web-Frontend, SPARQL-Endpoint, ...) betonen den Semantic-Web-Gedanken hinter der Infrastruktur. Die Speicherung der Daten erfolgt in einem TripleStore, der die eingegebenen Fakten in einer Subjekt-Prädikat-Objekt-Satzform ablegt. Die Aneinanderreihung der hier verwendeten Prädikate zu Pfaden erfolgt im Kern des Systems, dem sogenannten Pathbuilder, mit dem die semantische Bedeutung der einzelnen Einträge in Bezug auf das beschriebene Objekt (auch Person, Ort o. Ä.) anhand der Ontologie festgelegt wird. Die Eingabe der Daten erfolgt über eine, mit den gängigen Datenbankoberflächen vergleichbare, Editier-Oberfläche. Sie ist aus Feldern aufgebaut, die wiederum je einem bestimmten Feldtyp zugeordnet sind. Feldtypen bestimmen die Ein- und Ausgabemodalitäten der Daten.</p>

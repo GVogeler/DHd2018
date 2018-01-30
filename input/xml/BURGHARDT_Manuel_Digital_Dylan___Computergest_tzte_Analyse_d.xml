@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xml:id="BURGHARDT_Manuel_Digital_Dylan___Computergest_tzte_Analyse_d">
-    <teiHeader>
+   <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Digital Dylan – Computergestützte Analyse der Liedtexte von Bob Dylan (1962 – 2016)</title>
@@ -89,7 +89,7 @@
          </settingDesc>
       </profileDesc>
     </teiHeader>
-    <text>
+   <text>
         <body>
             <div type="div1" rend="DH-Heading1">
                 <head>Hintergrund und Zielsetzung</head>
@@ -134,21 +134,15 @@
                     <head>Korpus und Datenaufbereitung</head>
                     <p>In dieser Arbeit wurde ein Korpus bestehend aus 452 Liedtexten mit einem Umfang von 133.045 Tokens untersucht, die Bob Dylan zwischen den Jahren 1962 und 2016 auf Studio-Alben veröffentlicht hat. Die Liedtexte und Metainformationen wie etwa Titel, Album und Jahr stammen von der Plattform 
                         <hi rend="italic">LyricsWikia</hi>
-                        <note place="foot" xml:id="ftn1" n="1">
-                            <p rend="footnote text"> http://lyrics.wikia.com, alle Hyperlinks dieses Dokuments wurden zuletzt abgerufen am 10.01.2018</p>
-                        </note>. Da es sich bei 
+                        <ref target="ftn1" n="1"/>. Da es sich bei 
                         <hi rend="italic">LyricsWikia</hi> um ein community-gestütztes Projekt handelt, erfolgte vorab ein stichprobenartiger Abgleich einzelner Lieder mit den offiziellen Texten nach 
                         <?biblio ADDIN CSL_CITATION { "citationItems" : [ { "id" : "ITEM-1", "itemData" : { "ISBN" : "9781451648768", "abstract" : "Simon & Schuster hardcover edition. Includes index. This collection contains Bob Dylan's lyrics, from his first album, Bob Dylan, to 2012's Tempest. Bob Dylan -- The freewheelin' Bob Dylan -- The times they are a-changin' -- Another side of Bob Dylan -- Bringing it all back home -- Highway 61 revisited -- Blonde on blonde -- John Wesley Harding -- Nashville skyline -- Self portrait -- New morning -- The basement tapes -- Pat Garrett & Billy the Kid -- Planet waves -- Blood on the tracks -- Desire -- Street legal -- Slow train coming -- Saved -- Shot of love -- Infidels -- Empire burlesque -- Knocked out loaded -- Down in the groove -- Oh mercy -- Under the red sky -- Time out of mind -- \"Love and theft\" -- Modern times -- Together through life -- Tempest.", "author" : [ { "dropping-particle" : "", "family" : "Dylan", "given" : "Bob", "non-dropping-particle" : "", "parse-names" : false, "suffix" : "" } ], "id" : "ITEM-1", "issued" : { "date-parts" : [ [ "2016" ] ] }, "number-of-pages" : "679", "publisher" : "Simon & Schuster", "publisher-place" : "New York", "title" : "The lyrics: 1961-2012", "type" : "book" }, "uris" : [ "http://www.mendeley.com/documents/?uuid=9cc32a94-9b6b-3b51-a81b-ef38129e8570" ] } ], "mendeley" : { "formattedCitation" : "(Dylan 2016)", "manualFormatting" : "Dylan (2016)", "plainTextFormattedCitation" : "(Dylan 2016)", "previouslyFormattedCitation" : "(Dylan 2016)" }, "properties" : { "noteIndex" : 0 }, "schema" : "https://github.com/citation-style-language/schema/raw/master/csl-citation.json" }?>, wobei keinerlei Abweichungen festgestellt werden konnten. 
                     </p>
                     <p>Das Korpus wurde weiterhin mit Methoden der Computerlinguistik aufbereitet, insbesondere unter Verwendung des 
                         <hi rend="italic">Python Natural Language Toolkits</hi> (NLTK
-                        <note place="foot" xml:id="ftn2" n="2">
-                            <p rend="footnote text"> Verfügbar unter http://www.nltk.org/</p>
-                        </note>). Die Verarbeitung des Korpus umfasst die grundlegende Lemmatisierung mit dem 
+                        <ref target="ftn2" n="2"/>). Die Verarbeitung des Korpus umfasst die grundlegende Lemmatisierung mit dem 
                         <hi rend="italic">WordNet-Lemmatizer</hi> (Teil des NLTK) und eine Stoppwortbereinigung (NLTK-Stoppwortliste für Englisch mit eigener Erweiterung
-                        <note place="foot" xml:id="ftn3" n="3">
-                            <p rend="footnote text"> Filterung von Stoppwörtern, wie „hey“, „ah“, „yeah“, und Verkürzungen, wie „‘ve“, „‘s“ etc.</p>
-                        </note>) sowie die Wortartenannotation mithilfe des 
+                        <ref target="ftn3" n="3"/>) sowie die Wortartenannotation mithilfe des 
                         <hi rend="italic">Stanford Log-linear Part-of-Speech-Taggers</hi>
                         <?biblio ADDIN CSL_CITATION { "citationItems" : [ { "id" : "ITEM-1", "itemData" : { "DOI" : "10.3115/1073445.1073478", "abstract" : "We present a new part-of-speech tagger that demonstrates the following ideas: (i) explicit use of both preceding and following tag contexts via a dependency network representation, (ii) broad use of lexical features, including jointly conditioning on multiple consecutive words, (iii) effective use of priors in conditional loglinear models, and (iv) \ufb01ne-grained modeling of unknown word features. Using these ideas together, the resulting tagger gives a 97.24% accuracy on the Penn Treebank WSJ, an error reduction of 4.4% on the best previous single automatically learned tagging result", "author" : [ { "dropping-particle" : "", "family" : "Toutanova", "given" : "Kristina", "non-dropping-particle" : "", "parse-names" : false, "suffix" : "" }, { "dropping-particle" : "", "family" : "Klein", "given" : "Dan", "non-dropping-particle" : "", "parse-names" : false, "suffix" : "" }, { "dropping-particle" : "", "family" : "Manning", "given" : "Christopher D", "non-dropping-particle" : "", "parse-names" : false, "suffix" : "" } ], "container-title" : "Proceedings of the 2003 Conference of the North American Chapter of the Association for Computational Linguistics on Human Language Technology - Volume 1 (NAACL '03),", "id" : "ITEM-1", "issued" : { "date-parts" : [ [ "2003" ] ] }, "note" : "NULL", "page" : "252-259", "title" : "Feature-rich part-of-speech tagging with a cyclic dependency network", "type" : "article-journal" }, "uris" : [ "http://www.mendeley.com/documents/?uuid=52a7cd62-5322-3e6b-b133-3b9229721a06" ] } ], "mendeley" : { "formattedCitation" : "(Toutanova et al. 2003)", "plainTextFormattedCitation" : "(Toutanova et al. 2003)", "previouslyFormattedCitation" : "(Toutanova et al. 2003)" }, "properties" : { "noteIndex" : 0 }, "schema" : "https://github.com/citation-style-language/schema/raw/master/csl-citation.json" }?>. Da Dylan in seinen Texten häufig umgangssprachliche Formulierungen wie etwa verkürzte Gerundformen (bspw. „savin“, „swimmin“) verwendet, wurde für den POS-Tagger ein Modell verwendet, welches auf der Grundlage von Twitter-Texten trainiert wurde und gute Ergebnisse für Texte mit nicht-standardisiertem Vokabular und Slang liefert 
                         <?biblio ADDIN CSL_CITATION { "citationItems" : [ { "id" : "ITEM-1", "itemData" : { "ISSN" : "13138502", "abstract" : "Part-of-speech information is a pre-requisite in many NLP algorithms. However, Twitter text is difficult to part-of-speech tag: it is noisy, with linguistic errors and idiosyncratic style. We present a detailed error analysis of existing taggers, motivating a series of tagger augmentations which are demonstrated to improve performance. We identify and evaluate techniques for improving English part-of-speech tagging performance in this genre. Further, we present a novel approach to system combination for the case where available taggers use different tagsets, based on voteconstrained bootstrapping with unlabeled data. Coupled with assigning prior probabilities to some tokens and handling of unknown words and slang, we reach 88.7% tagging accuracy (90.5% on development data). This is a new high in PTB-compatible tweet part-of-speech tagging, reducing token error by 26.8% and sentence error by 12.2%. The model, training data and tools are made available.", "author" : [ { "dropping-particle" : "", "family" : "Derczynski", "given" : "Leon", "non-dropping-particle" : "", "parse-names" : false, "suffix" : "" }, { "dropping-particle" : "", "family" : "Ritter", "given" : "Alan", "non-dropping-particle" : "", "parse-names" : false, "suffix" : "" }, { "dropping-particle" : "", "family" : "Clark", "given" : "Sam", "non-dropping-particle" : "", "parse-names" : false, "suffix" : "" }, { "dropping-particle" : "", "family" : "Bontcheva", "given" : "Kalina", "non-dropping-particle" : "", "parse-names" : false, "suffix" : "" } ], "container-title" : "Proceedings of the Recent Advances in Natural Language Processing", "id" : "ITEM-1", "issue" : "September", "issued" : { "date-parts" : [ [ "2013" ] ] }, "note" : "NULL", "page" : "198-206", "title" : "Twitter part-of-speech tagging for all: Overcoming sparse and noisy data", "type" : "article-journal" }, "uris" : [ "http://www.mendeley.com/documents/?uuid=da458a49-791e-3108-b4c5-fecd4eff7ef3" ] } ], "mendeley" : { "formattedCitation" : "(Derczynski et al. 2013)", "plainTextFormattedCitation" : "(Derczynski et al. 2013)", "previouslyFormattedCitation" : "(Derczynski et al. 2013)" }, "properties" : { "noteIndex" : 0 }, "schema" : "https://github.com/citation-style-language/schema/raw/master/csl-citation.json" }?>.
@@ -178,9 +172,7 @@
                         <p>Beim Korpusvergleich kann entweder das gesamte Dylan-Korpus mit dem Referenzkorpus verglichen werden, oder mit den jeweiligen Dylan-Subkorpora, also bspw. all seinen Texten aus den 1970er-Jahren oder aus der ersten Schaffensperiode „Becoming Bob Dylan“ (1960-1964). Ein Vergleich der einzelnen Dylan-Subkorpora zum Gesamtwerk ist ebenso möglich. Letztere Option wird z.B. genutzt, um anhand jeweils signifikanter Wörter die einzelnen Schaffensperioden nach Brown (2014) zu überprüfen und damit die grundsätzliche Eignung solch quantitativer Verfahren zur Identifikation thematischer Verschiebungen zu untersuchen. Die Ergebnisse dieses Korpusvergleichs sind, zusammen mit allen anderen Ergebnissen der angewandten Analyseverfahren, in einer interaktiven Webanwendung über unterschiedliche Visualisierungen (Balkendiagramm, 
                             <hi rend="italic">treemap, wordcloud, </hi>Tabelle
                             <hi rend="italic">) </hi>für weitere Interpretationen zugänglich
-                            <note place="foot" xml:id="ftn4" n="4">
-                                <p rend="footnote text"> https://www.colin-sippl.de/dylan (Klick auf den Analyse-Button rechts oben)</p>
-                            </note>. Wie schon bei den Assoziationsmaßen, so gilt auch hier, dass jede Visualisierungsform eine bestimmte Perspektive auf die Berechnungsergebnisse eröffnet.
+                            <ref target="ftn4" n="4"/>. Wie schon bei den Assoziationsmaßen, so gilt auch hier, dass jede Visualisierungsform eine bestimmte Perspektive auf die Berechnungsergebnisse eröffnet.
                         </p>
                     </div>
                 </div>
@@ -237,15 +229,20 @@
             <div type="div1" rend="DH-Heading1">
                 <head>Diskussion</head>
                 <p>Im Sinne einer Kritik der Digitalen Vernunft bleibt demnach festzuhalten, dass sich Methoden der computergestützten Textanalyse und des statistischen Korpusvergleichs grundsätzlich dafür eignen, einen inhaltlichen Gesamtüberblick zu einem Liedtext-Korpus zu erhalten. Es können damit diachrone Entwicklungen des Wortschatzes und Verlagerungen thematischer Schwerpunkte als grobe Tendenzen aufgezeigt werden, um das Bild des Gesamtwerks zu ergänzen. Ein solcher Ansatz eignet sich demnach gut für die initiale Thesengenerierung und kann in gewisser Weise die Funktion eines Empfehlungs- bzw. Hinweissystems für erklärungsbedürftige Stellen
-                    <note place="foot" xml:id="ftn5" n="5">
-                        <p rend="footnote text"> Diesen Gedanken äußerte Hubertus Kohle auf der #DigiCampus-Tagung im Juni 2017 in München, vgl. https://twitter.com/8urghardt/status/876725916487036928.</p>
-                    </note> in den Geisteswissenschaften übernehmen.
+                    <ref target="ftn5" n="5"/> in den Geisteswissenschaften übernehmen.
                 </p>
                 <p>Die Identifikation konkreter Schaffensperioden, ausschließlich auf Basis signifikant häufiger Wörter ist aber – zumindest für das Werk Dylans – nicht ohne Weiteres erfassbar. Bei den N-Grammen zeigt sich, dass im Falle von Dylans Texten methodenübergreifend und mit zunehmender N-Gramm-Länge meist keine brauchbaren Ergebnisse erzielt werden konnten. Dies ist ein Hinweis darauf, dass die hier präsentierten Analysemethoden, die für andere Textsorten wie bspw. Parlamentsprotokolle bereits erfolgreich eingesetzt werden konnten (vgl. Sippl et al. 2016), auf Liedtexte nur eingeschränkt anwendbar sind. Ein möglicher Kritikpunkt am hier beschriebenen Vorgehen mag zudem das verwendete OANC-Referenzkorpus sein, welches trotz hoher Anteile mündlicher Kommunikation doch nur beschränkt vergleichbar mit der Textsorte „Liedtext“ ist. Für künftige Vergleichsstudien böte sich ggf. ein Vergleich mehrerer unterschiedlicher Künstler und deren Liedtexte an, also bspw. Bob Dylan vs. Johnny Cash.</p>
             </div>
         </body>
         <back>
-            <div type="bibliogr">
+         <div type="notes">
+            <note xml:id="ftn1" n="1" rend="footnote text"> http://lyrics.wikia.com, alle Hyperlinks dieses Dokuments wurden zuletzt abgerufen am 10.01.2018</note>
+            <note xml:id="ftn2" n="2" rend="footnote text"> Verfügbar unter http://www.nltk.org/</note>
+            <note xml:id="ftn3" n="3" rend="footnote text"> Filterung von Stoppwörtern, wie „hey“, „ah“, „yeah“, und Verkürzungen, wie „‘ve“, „‘s“ etc.</note>
+            <note xml:id="ftn4" n="4" rend="footnote text"> https://www.colin-sippl.de/dylan (Klick auf den Analyse-Button rechts oben)</note>
+            <note xml:id="ftn5" n="5" rend="footnote text"> Diesen Gedanken äußerte Hubertus Kohle auf der #DigiCampus-Tagung im Juni 2017 in München, vgl. https://twitter.com/8urghardt/status/876725916487036928.</note>
+         </div>
+         <div type="bibliogr">
                 <listBibl>
                     <head>Bibliographie</head>
                     <bibl>
@@ -334,6 +331,6 @@
                     </bibl>
                 </listBibl>
             </div>
-        </back>
+      </back>
     </text>
 </TEI>

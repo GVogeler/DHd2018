@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xml:id="RAU_Felix_Audio_Mining_f_r_die_Geistes__und_Kulturwissenscha">
-    <teiHeader>
+   <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Audio Mining für die Geistes- und Kulturwissenschaften: Nutzungsszenarien und Herausforderungen</title>
@@ -96,7 +96,7 @@
          </settingDesc>
       </profileDesc>
     </teiHeader>
-    <text>
+   <text>
         <body>
             <div type="div1" rend="DH-Heading1">
                 <head>Workshopleiterinnen und -leiter</head>

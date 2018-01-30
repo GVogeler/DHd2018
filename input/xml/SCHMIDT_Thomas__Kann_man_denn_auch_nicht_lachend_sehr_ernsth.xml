@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xml:id="SCHMIDT_Thomas__Kann_man_denn_auch_nicht_lachend_sehr_ernsth">
-    <teiHeader>
+   <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>"Kann man denn auch nicht lachend sehr ernsthaft sein?" – Zum Einsatz von Sentiment Analyse-Verfahren für die quantitative Untersuchung von Lessings Dramen</title>
@@ -86,7 +86,7 @@
          </settingDesc>
       </profileDesc>
     </teiHeader>
-    <text>
+   <text>
         <body>
             <div type="div1" rend="DH-Heading1">
                 <head>Sentiment Analyse und Dramenanalyse</head>
@@ -94,9 +94,7 @@
                 <p>Zur Analyse von literarischen Texten mittels SA-Techniken finden sich bislang nur wenige Studien, z.B. zu Märchen (Alm, Roth &amp; Sproat 2005) und Romanen (Kakkonen &amp; Kakkonen 2011; Elsner 2012; Jannidis et al. 2016). Auf größeren Textkorpora wurde getestet, inwiefern SA-Werte eines Textes und Emotionskurven von Texten zur Genreklassifikation verwendet werden können (Kim, Padó &amp; Klinger 2017) und wie begriffsgeschichtliche Bedeutungsverschiebungen in literarischen Texten mithilfe von erweiterten SA-Methoden erforscht werden können (Buechel, Hellrich &amp; Hahn 2017). In Dramentexten hat man bisher die Verteilung von emotionalen Kategorien (Mohammad 2011) oder die Entwicklung von Figurenbeziehungen (Nalisnick &amp; Baird 2013) in Shakespeare-Dramen untersucht. Auch der vorliegende Beitrag beschäftigt sich mit dem Einsatz von SA im Bereich der Dramenanalyse. Es werden erstmals systematisch verschiedene Methoden der SA für Dramen getestet und evaluiert. Zudem wird exploriert, inwiefern bisher in der Literaturwissenschaft erforschte Aspekte von Dramen mithilfe der SA erfasst werden und inwiefern die SA auch für die Gewinnung neuer literaturwissenschaftlicher Erkenntnisse eingesetzt werden kann.</p>
                 <p>Das im Rahmen dieser Studie verwendete Lessing-Korpus umfasst ein mit Strukturinformationen annotiertes Dramenkorpus mit 11 Dramen, bestehend aus insgesamt 8224 Einzelrepliken. Sämtliche Dramen wurden über die Plattform 
                     <hi rend="italic">TextGrid</hi>
-                    <note place="foot" xml:id="ftn1" n="1">
-                        <p rend="footnote text"> https://textgridrep.org/repository.html; Hinweis: alle im Beitrag erwähnte URLs wurden zuletzt am 12.1.2018 überprüft</p>
-                    </note> bezogen, so dass alle im Rahmen dieses Beitrags entwickelten Tools auch auf andere 
+                    <ref target="ftn1" n="1"/> bezogen, so dass alle im Rahmen dieses Beitrags entwickelten Tools auch auf andere 
                     <hi rend="italic">TextGrid</hi>-Dramen anwendbar sind. Mit dem am besten evaluierten SA-Verfahren wurde eine webbasierte Anwendung zur Analyse und Visualisierung von Sentiment-Verteilungen und -Verläufen implementiert.
                 </p>
             </div>
@@ -155,9 +153,7 @@
                 <div type="div2" rend="DH-Heading2">
                     <head>Evaluationsmaße </head>
                     <p>Als Evaluationsmaße wurden Genauigkeit (accuracy), Recall, Precision und F-Werte (Gonçalves et al. 2013) herangezogen. Abb. 1 zeigt einen Ausschnitt aus den je fünf besten Kombinationen pro Lexikon, geordnet nach Genauigkeit.
-                        <note place="foot" xml:id="ftn2" n="2">
-                            <p rend="footnote text"> Die vollständige Tabelle ist online verfügbar unter https://drive.google.com/open?id=1cvyqiiLJ03XT1VNaWgSDoajeTE3wgeqxxr2PXp-VM4w</p>
-                        </note>
+                        <ref target="ftn2" n="2"/>
                     </p>
                     <figure>
                         <graphic n="1002"
@@ -187,9 +183,7 @@
             <div type="div1" rend="DH-Heading1">
                 <head>Online-Tool</head>
                 <p>Abschließend wurde auf Basis des besten SA-Ansatzes ein Web-Tool für die SA bei Dramen entwickelt. Dieses bietet interaktive Visualisierungen der Sentiment-Verteilungen und -Verläufe für alle berechneten Ebenen. Neben den SentiWS-Metriken wurden auch die Emotionskategorien des NRC integriert. Über das Tool kann man erste Fallstudien auf Dramen-, Akt-, Szenen-, Repliken-, Sprecher- und Sprecherbeziehungsebene durchführen. Die SA-Komponente ist online verfügbar.
-                    <note place="foot" xml:id="ftn3" n="3">
-                        <p rend="footnote text"> http://lauchblatt.github.io/QuantitativeDramenanalyseDH2015/FrontEnd/sa_selection.html</p>
-                    </note>
+                    <ref target="ftn3" n="3"/>
                 </p>
                 <p>Trotz der historischen Differenz stimmen die Ergebnisse der automatischen SA tendenziell mit dem überein, was man in der Dramengeschichte über Bewertungen von Figuren und deren Verhalten weiß. Zusätzlich ist aber ein wichtiger heuristischer Mehrwert zu beobachten: eine Analyse allein auf der Basis von Sentiment-Zuschreibungen führt dazu, dass man das Augenmerk gezielt auf Fakten des Textes richtet, die bisher nicht berücksichtigt wurden. </p>
                 <p>Im Folgenden einige Beispiele für die Bestätigung bekannter Ergebnisse und für Entscheidungen von Analysefragen: </p>
@@ -243,7 +237,12 @@
             </div>
         </body>
         <back>
-            <div type="bibliogr">
+         <div type="notes">
+            <note xml:id="ftn1" n="1" rend="footnote text"> https://textgridrep.org/repository.html; Hinweis: alle im Beitrag erwähnte URLs wurden zuletzt am 12.1.2018 überprüft</note>
+            <note xml:id="ftn2" n="2" rend="footnote text"> Die vollständige Tabelle ist online verfügbar unter https://drive.google.com/open?id=1cvyqiiLJ03XT1VNaWgSDoajeTE3wgeqxxr2PXp-VM4w</note>
+            <note xml:id="ftn3" n="3" rend="footnote text"> http://lauchblatt.github.io/QuantitativeDramenanalyseDH2015/FrontEnd/sa_selection.html</note>
+         </div>
+         <div type="bibliogr">
                 <listBibl>
                     <head>Bibliographie</head>
                     <bibl>
@@ -360,6 +359,6 @@
                     </bibl>
                 </listBibl>
             </div>
-        </back>
+      </back>
     </text>
 </TEI>

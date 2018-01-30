@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xml:id="DRUSKAT_Stephan_Nachnutzbarmachung_von_Forschungsdaten_und_T">
-    <teiHeader>
+   <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title type="full">
@@ -85,7 +85,7 @@
          </settingDesc>
       </profileDesc>
     </teiHeader>
-    <text>
+   <text>
         <body>
             <div type="div1" rend="DH-Heading1">
                 <head>Einleitung</head>
@@ -114,15 +114,13 @@
             <div type="div1" rend="DH-Heading1">
                 <head>Das GeTa Annotationstool</head>
                 <p>Im TraCES-Projekt
-                    <note xml:id="ftn1" place="foot" n="1">
-                        <ptr target="https://www.traces.uni-hamburg.de/"/>.
-                    </note>, das als Hauptziel die Entwicklung eines diachronen, tief annotierten Korpus für die Altäthiopische Sprache hat, implementieren wir eine neuartige Architektur, die sowohl Änderungen im Text als auch eine Mehrebenenannotation ermöglicht.
+                    <ref target="ftn1" n="1"/>, das als Hauptziel die Entwicklung eines diachronen, tief annotierten Korpus für die Altäthiopische Sprache hat, implementieren wir eine neuartige Architektur, die sowohl Änderungen im Text als auch eine Mehrebenenannotation ermöglicht.
                 </p>
                 <p>Wir betrachten als Grundtext den Originaltext in der altäthiopischen Schrift. Die Transliteration bildet die erste, die morphologische Annotation die zweite Ebene, wobei die Transliteration und der Originaltext bei allen Arbeitsschritten synchronisiert bleiben. Im folgenden Abschnitt beschreiben wir das Datenmodell, das diese Architektur ermöglicht.</p>
                 <p>Die Basiseinheit in unserem System ist ein Wort, das eine einmalige ID zugewiesen erhält (graphische Einheit). Ein Wort hat folgende Komponenten:</p>
                 <list type="unordered">
                     <item>Eine Liste der einzelnen Fidal
-                        <note xml:id="ftn2" place="foot" n="2"> "Fidal" ist der Terminus technicus für das äthiopische Silbenalphabet.</note>-Objekte, wobei ein Fidal-Objekt aus einer ID und einem Label (dem Fidal-Buchstaben) besteht.
+                        <ref target="ftn2" n="2"/>-Objekte, wobei ein Fidal-Objekt aus einer ID und einem Label (dem Fidal-Buchstaben) besteht.
                     </item>
                     <item>Eine Liste einzelner Silben-Objekte, wobei ein Silben-Objekt aus einer ID und einer Liste von einzelnen Buchstaben-Objekten besteht.</item>
                     <item>Ein Buchstaben-Objekt hat immer eine ID und ein Label (das graphische Symbol).</item>
@@ -189,9 +187,7 @@
                 </p>
                 <p>Im dritten Schritt werden mit Hilfe des 
                     <hi rend="italic">ANNIS</hi>-Exportmoduls
-                    <note xml:id="ftn3" place="foot" n="3">
-                        <ptr target="https://github.com/korpling/pepperModules-ANNISModules/"/>.
-                    </note> die für den Import in 
+                    <ref target="ftn3" n="3"/> die für den Import in 
                     <hi rend="italic">ANNIS </hi>benötigten Dateien im nativen Format geschrieben. Diese können nun in 
                     <hi rend="italic">ANNIS</hi> über dessen graphische Benutzeroberfläche importiert werden.
                 </p>
@@ -225,7 +221,16 @@
             </div>
         </body>
         <back>
-            <div type="bibliogr">
+         <div type="notes">
+            <note xml:id="ftn1" n="1" place="foot">
+                        <ptr target="https://www.traces.uni-hamburg.de/"/>.
+                    </note>
+            <note xml:id="ftn2" n="2" place="foot"> "Fidal" ist der Terminus technicus für das äthiopische Silbenalphabet.</note>
+            <note xml:id="ftn3" n="3" place="foot">
+                        <ptr target="https://github.com/korpling/pepperModules-ANNISModules/"/>.
+                    </note>
+         </div>
+         <div type="bibliogr">
                 <listBibl>
                     <head>Bibliographie</head>
                     <bibl>
@@ -292,6 +297,6 @@
                     </bibl>
                 </listBibl>
             </div>
-        </back>
+      </back>
     </text>
 </TEI>

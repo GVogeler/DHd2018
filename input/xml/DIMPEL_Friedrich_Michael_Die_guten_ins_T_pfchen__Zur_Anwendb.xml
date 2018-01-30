@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xml:id="DIMPEL_Friedrich_Michael_Die_guten_ins_T_pfchen__Zur_Anwendb">
-    <teiHeader>
+   <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Die guten ins Töpfchen: Zur Anwendbarkeit von Burrows’ Delta bei kurzen mittelhochdeutschen Texten nebst eines Attributionstests zu Konrads ‚Halber Birne‘</title>
@@ -71,7 +71,7 @@
          </settingDesc>
       </profileDesc>
     </teiHeader>
-    <text>
+   <text>
         <body>
             <div type="div1" rend="DH-Heading1">
                 <head>Einleitung</head>
@@ -118,9 +118,7 @@
                 <p>Abb. 3; zum Setting vgl. Dimpel 2018.</p>
                 <p>Die ‚Halbe Birne‘ enthält jedoch nur 2.469 Wortformen. Wenn man nun die ‚Birne‘ gegen ein Konrad-Korpus testet, kann man entweder die Wörter mit hoher Level-2-Differenz, die einer Erkennung von Konrad entgegenstehen, aus der Liste der untersuchten Most-Frequent-Words (MFWs) streichen. Oder man kann eine Positivliste mit „guten“ Wörtern bevorzugt verwenden – Wörter mit hoher positiver Level-2-Differenz.</p>
                 <p>Vorab wird das Verfahren validiert: In einer Ermittlungsgruppe (vier Konrad-Texte) werden „gute“ und „schlechte“ Wörter identifiziert.
-                    <note place="foot" xml:id="ftn1" n="1">
-                        <p rend="footnote text"> Im Vergleichskorpus verwende ich hier und für die folgenden Attributionstests 7 Romane und 13 Mären: Barlaam, Daniel, Lanzelet, Meleranz, Parzival, Tristan, Wigalois; Frauentreue, Haeslein, Heidin_B, JvFreiberg_Raedlein, Kaufringer_Moerderin, Kaufringer_Rache, Kaufringer_listige_Frauen, Pyramus, Rosenpluet_Pfarrer, Schlegel, Schueler_Paris, StudentenAbenteuer_A, Zwickauer_Moenches_Not.</p>
-                    </note> In einer Kontrollgruppe (vier andere Konrad-Texte) zeigt sich, dass die Erkennungsquote durch dieses Verfahren bei Bag-of-Words mit 2.000 Wortformen steigt – beim bevorzugten Verwenden „guter“ Wörtern stärker als beim Aussortieren der „schlechten“. Danach werden alle acht Konrad-Texte erneut zur Bildung der Listen der „guten“ und „schlechten“ Wortformen herangezogen. Als geeignete Parameter haben sich gezeigt:
+                    <ref target="ftn1" n="1"/> In einer Kontrollgruppe (vier andere Konrad-Texte) zeigt sich, dass die Erkennungsquote durch dieses Verfahren bei Bag-of-Words mit 2.000 Wortformen steigt – beim bevorzugten Verwenden „guter“ Wörtern stärker als beim Aussortieren der „schlechten“. Danach werden alle acht Konrad-Texte erneut zur Bildung der Listen der „guten“ und „schlechten“ Wortformen herangezogen. Als geeignete Parameter haben sich gezeigt:
                 </p>
                 <p>„Gute Wörter“: Level-2-Differenzen &gt;+2,31 in 6 von 7 Ermittlungsgruppen-Ratetexten, 304 items</p>
                 <p>„Schlechte Wörter“: Level-2-Differenzen &lt;-1,2 in 2 von 7 Ermittlungsgruppen-Ratetexten, 174 items</p>
@@ -151,7 +149,10 @@
             </div>
         </body>
         <back>
-            <div type="bibliogr">
+         <div type="notes">
+            <note xml:id="ftn1" n="1" rend="footnote text"> Im Vergleichskorpus verwende ich hier und für die folgenden Attributionstests 7 Romane und 13 Mären: Barlaam, Daniel, Lanzelet, Meleranz, Parzival, Tristan, Wigalois; Frauentreue, Haeslein, Heidin_B, JvFreiberg_Raedlein, Kaufringer_Moerderin, Kaufringer_Rache, Kaufringer_listige_Frauen, Pyramus, Rosenpluet_Pfarrer, Schlegel, Schueler_Paris, StudentenAbenteuer_A, Zwickauer_Moenches_Not.</note>
+         </div>
+         <div type="bibliogr">
                 <listBibl>
                     <head>Bibliographie</head>
                     <bibl>Büttner, Andreas / Dimpel, Friedrich Michael / Evert, Stefan / Jannidis, Fotis / Pielström, Steffen / Proisl, Thomas / Reger, Isabella / Schöch, Christof / Vitt, Thorsten (forthcoming 2017): „„Delta“ in der stilometrischen Autorschaftsattribution“, in: ZfdG. </bibl>
@@ -218,6 +219,6 @@
                     </bibl>
                 </listBibl>
             </div>
-        </back>
+      </back>
     </text>
 </TEI>

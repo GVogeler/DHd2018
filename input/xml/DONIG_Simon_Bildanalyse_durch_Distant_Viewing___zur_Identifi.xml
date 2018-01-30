@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xml:id="DONIG_Simon_Bildanalyse_durch_Distant_Viewing___zur_Identifi">
-    <teiHeader>
+   <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title type="full">
@@ -102,7 +102,7 @@
          </settingDesc>
       </profileDesc>
     </teiHeader>
-    <text>
+   <text>
         <body>
             <p>In den vergangenen Jahren haben digitale Forschungsinstrumente in Kunst-, Architektur- und Designgeschichte sowie den Material-Culture Studies an Bedeutung gewonnen (Berry 2017; Klinke 2016; Auslander 2005). Wie viele disruptive Technologien verändern neue Techniken im Bereich der Computer Vision (Bell &amp; Ommer 2015; dies. 2016) die Arbeitsweise unsere Disziplinen.</p>
             <p>Durch unsere Arbeit am Neoclassica-Framework (Donig et al. 2017a) möchten wir Forschenden solche neue Instrumente und Methoden für die Analyse und Klassifizierung materialer Kultur, konstruktiver Merkmale und ästhetischer Formen des Klassizismus an die Hand geben. In unserer Forschung konzentrieren wir uns dabei zunächst auf Raumkunst (insbesondere Mobiliar und Innenausstattung) sowie Architektur und deren jeweilige visuelle Darstellungen.</p>
@@ -336,7 +336,7 @@
             </div>
         </body>
         <back>
-            <div type="bibliogr">
+         <div type="bibliogr">
                 <listBibl>
                     <head>Bibliographie</head>
                     <bibl>
@@ -439,6 +439,6 @@
                     </bibl>
                 </listBibl>
             </div>
-        </back>
+      </back>
     </text>
 </TEI>

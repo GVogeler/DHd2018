@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xml:id="HODEL_Tobias_Konsequenzen_automatischer_Texterkennung___Ein_">
-    <teiHeader>
+   <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Konsequenzen automatischer Texterkennung – Ein Aufriss zur Texterkennung mit Machine Learning</title>
@@ -74,7 +74,7 @@
          </settingDesc>
       </profileDesc>
     </teiHeader>
-    <text>
+   <text>
         <body>
             <p>In den Geisteswissenschaften werden schon heute grosse Mengen an Text durchsucht, weiterverwertet und analysiert. Die Aufbereitung von Scans und Fotografien mit 
                 <hi rend="italic">optical character recognition</hi> (OCR) bei gedruckten Texten wird erwartet. Gleichzeitig stehen selten Überlegungen im Zentrum, wie Text erkannt, welche Annahmen und vor allem welches Textverständnis vorausgesetzt wurde. Mit Hilfe des Sahleschen Textrads analysiert der Beitrag die automatisierte Erkennung von Texten mit neuronalen Netzen und fordert eine höhere Transparenz der verwendeten Methoden.
@@ -93,9 +93,7 @@
             <p>Mit Fokus auf die Ausgabe des Erkennprozesses, werden erkannte Strings ins Zentrum gesetzt. Dabei muss nicht zwangsläufig nur ein String („die beste Lesung“) vorgelegt werden, sondern Varianten, also eine Reihe von Strings, die mehrere mögliche Lesungen enthalten, sind extrahierbar. Ergänzt um die durch die maschinell errechnete Wahrscheinlichkeit der Erkennung wird eine Matrix (sog. 
                 <hi rend="italic">confidence matrix</hi>) an möglichen Lesungen und deren Wahrscheinlichkeit erstellt, die ebenfalls durchsucht
                 <hi rend="annotation_reference">
-                    <note place="comment" resp="Microsoft_Office-Anwender">
-                        <date when="2018-01-12T13:31:00Z"/>Stärker als Gegensatz
-                    </note>
+                    
                 </hi> werden kann. Insbesondere innerhalb von grossen Quellenmassen lassen sich so potente Suchen (Volltextsuchen ohne zugrunde liegendem Volltext sozusagen) realisieren, die ausgesprochen gute Ergebnisse erzielen. Mit dem Nachteil, dass je nach Suche auch
                 <hi rend="italic"> false-positive </hi>Variantenlesungen vorgelegt werden. Die Methode wird daher nur bedingt für Auswertungen nutzbar, die auf Quantifizierung beruhen. Dank der Konfidenzen wird die Anzahl an Zeichenfehler, als zentralem Tool zur Messung von Textgüte relativiert, da ein alternativer Zugang zu den Strings besteht.
             </p>
@@ -134,7 +132,12 @@
             </p>
         </body>
         <back>
-            <div type="bibliogr">
+         <div type="notes">
+            <note place="comment" resp="Microsoft_Office-Anwender">
+                        <date when="2018-01-12T13:31:00Z"/>Stärker als Gegensatz
+                    </note>
+         </div>
+         <div type="bibliogr">
                 <listBibl>
                     <head>Bibliographie</head>
                     <bibl>Fügen Sie hier die von Ihnen benutzten Quellen ein:</bibl>
@@ -161,6 +164,6 @@
                     </bibl>
                 </listBibl>
             </div>
-        </back>
+      </back>
     </text>
 </TEI>

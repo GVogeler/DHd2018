@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xml:id="LINDEMANN_David__Lexikographie__Explizite_und_implizite_Vero">
-    <teiHeader>
+   <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title type="full">
@@ -86,7 +86,7 @@
          </settingDesc>
       </profileDesc>
     </teiHeader>
-    <text>
+   <text>
         <body>
             <div type="div1" rend="DH-Heading1">
                 <head>Zusammenfassung</head>
@@ -109,10 +109,8 @@
             <div type="div1" rend="DH-Heading1">
                 <head>Voruntersuchung und Zwischenergebnis: Explizite Verortung in den DH</head>
                 <p>Als Voruntersuchung zum benannten Gegenstand haben wir eine Recherche in den Archiven bedeutender englischsprachiger Zeitschriften der Digital Humanities
-                    <note xml:id="ftn1" place="foot" n="1"> Digital Humanities Quarterly, DSH, TEI Journal</note> sowie in den Proceedings der ADHO-Jahreskonferenzen
-                    <note xml:id="ftn2" place="foot" n="2">
-                        <ref target="http://adho.org/">http://adho.org</ref>
-                    </note> durchgeführt. Über die Suchbegriffe „Lexicography“ und „Dictionary“ finden sich in den genannten Archiven 31 englischsprachige Beiträge, die sich mit lexikographischen Themen befassen, und die sich qua Erscheinen in DH-Medien zu denjenigen Publikationen zählen lassen, die sich explizit in den Digital Humanities verorten.
+                    <ref target="ftn1" n="1"/> sowie in den Proceedings der ADHO-Jahreskonferenzen
+                    <ref target="ftn2" n="2"/> durchgeführt. Über die Suchbegriffe „Lexicography“ und „Dictionary“ finden sich in den genannten Archiven 31 englischsprachige Beiträge, die sich mit lexikographischen Themen befassen, und die sich qua Erscheinen in DH-Medien zu denjenigen Publikationen zählen lassen, die sich explizit in den Digital Humanities verorten.
                 </p>
                 <p>Eine manuelle Zuordnung lexikographierelevanter Schlüsselwörter zu den genannten 31 Beiträgen ergibt das in Tabelle 1 wiedergegebene Bild; dabei sind mehrfache Zuordnungen möglich. Zunächst lässt sich ohne Verwunderung feststellen, dass in allen Beiträgen die digitale Repräsentation lexikalischer Daten eine Rolle spielt, allerdings mit unterschiedlichen Fragestellungen, Herangehensweisen und Zielsetzungen. Die drei größten Themencluster haben wir hier, in dieser Reihenfolge, mit den Schlagwörtern „e-Wörterbücher / Visualisierung lexikalischer Daten“, „Historische Lexikographie“ und „Korpuslinguistik“ bezeichnet. Ersteres benennt Fragen der Produktion digitaler Wörterbücher einschließlich neuer Methoden der Visualisierung, letzteres die Erstellung und Nutzung elektronischer Textkorpora zu einer Reihe lexikographischer Zwecke. Beide Bereiche sind durch die Heraufkunft digitaler Methoden überhaupt erst möglich geworden und haben die Lexikographie revolutioniert. Die Historische Lexikographie kann als philologische Disziplin gelten, die sich mit der Edition historischer lexikalischer Datensammlungen befasst; die diesem Schlüsselwort zugeordneten Beiträge befassen sich grundsätzlich mit Methoden digitaler Edition, einem Kernbereich der DH.</p>
                 <table rend="frame" xml:id="Tabelle1">
@@ -163,9 +161,7 @@
             <div type="div1" rend="DH-Heading1">
                 <head>Methode für die Bestimmung implizit in den DH verorteter Arbeiten</head>
                 <p>Wir haben ein Textkorpus erstellt, das im Zeitraum 2000 bis zur Gegenwart (2018) erschienene englischsprachige Beiträge aus Zeitschriften, Kongressakten und Handbüchern zu den Digital Humanities (Subkorpus DH) und der Lexikographie (Subkorpus Lexicog) enthält; Tabelle 2 gibt die Titel der verarbeiteten Quellen wieder. Dabei wurden die ausgewählten Zeitschriften bzw. Sammelbände jeweils vollständig berücksichtigt; die Beiträge wurden zusammen mit Metadaten, u. a. Verfasser (Name und Affiliation), Datum, Textsorte, Umfang und Identifier (ISBN, DOI), im Tool Zotero
-                    <note xml:id="ftn3" place="foot" n="3">
-                        <ref target="http://www.zotero.org/">http://www.zotero.org</ref>
-                    </note> verwaltet. Die Volltexte wurden semiautomatisch bereinigt und zusammen mit Metadatensätzen in das Korpus aufgenommen. Darüber hinaus wurden die in den Volltexten enthaltenen bibliographischen Referenzen extrahiert (GROBID, Lopez 2009).
+                    <ref target="ftn3" n="3"/> verwaltet. Die Volltexte wurden semiautomatisch bereinigt und zusammen mit Metadatensätzen in das Korpus aufgenommen. Darüber hinaus wurden die in den Volltexten enthaltenen bibliographischen Referenzen extrahiert (GROBID, Lopez 2009).
                 </p>
                 <table rend="frame" xml:id="Tabelle2">
                     <row>
@@ -253,7 +249,16 @@
             </div>
         </body>
         <back>
-            <div type="bibliogr">
+         <div type="notes">
+            <note xml:id="ftn1" n="1" place="foot"> Digital Humanities Quarterly, DSH, TEI Journal</note>
+            <note xml:id="ftn2" n="2" place="foot">
+                        <ref target="http://adho.org/">http://adho.org</ref>
+                    </note>
+            <note xml:id="ftn3" n="3" place="foot">
+                        <ref target="http://www.zotero.org/">http://www.zotero.org</ref>
+                    </note>
+         </div>
+         <div type="bibliogr">
                 <listBibl>
                     <head>Bibliographie</head>
                     <bibl>
@@ -338,6 +343,6 @@
                     </bibl>
                 </listBibl>
             </div>
-        </back>
+      </back>
     </text>
 </TEI>

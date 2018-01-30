@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xml:id="GRADL_Tobias_Ist_die_DARIAH_DE_Forschungsinfrastruktur_fit_f">
-    <teiHeader>
+   <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title type="full">
@@ -85,7 +85,7 @@
          </settingDesc>
       </profileDesc>
     </teiHeader>
-    <text>
+   <text>
         <body>
             <div type="div1">
                 <head>Hintergrund</head>
@@ -94,15 +94,8 @@
                     <hi rend="italic">This is the central paradox for big infrastructure design: the very wish to cater to everyone pushes the designers toward generalization, and thus necessarily away from delivering data models specific enough to be useful to anyone.</hi> (van Zundert 2012: 172)
                 </p>
                 <p>Können generische Infrastrukturen und Datenmodelle für individuelle Forschungsfragen von Bedeutung sein? Und wenn ja, wie verhalten sich spezifische Forschungsdaten gegenüber den generischen Infrastrukturen? In diesem Beitrag diskutieren wir diese Frage im Hinblick auf die von DARIAH-DE
-                    <note xml:id="ftn1" place="foot" n="1">
-                        <ref target="http://de.dariah.eu/">
-                            <hi rend="color(#1155cc)underline">http://de.dariah.eu</hi>
-                        </ref>
-                    </note> entwickelte Forschungsdateninfrastruktur und insbesondere das Data Modelling Environment (DME). Als Schema und Crosswalk Registry entstanden (Gradl et al. 2015), entwickelte sich das DME zu einem umfangreichen Werkzeug für die Modellierung, Verfeinerung, Bereinigung und Anreicherung von Daten. Die Beispieldaten, die für diesen Anwendungsfall herangezogen wurden, stammen aus einer Datenbank der aus dem Deutschen Archäologischen Institut geführten Grabung in Pergamon
-                    <note xml:id="ftn2" place="foot" n="2">
-                        <ptr target="http://www.dainst.org/projekt/-/project-display/14186"/>
-                        <hi rend="color(#212121) background-color(#ffffff)"> </hi>
-                    </note> und beschreiben etwa 100 keramische Grabungsfunde.
+                    <ref target="ftn1" n="1"/> entwickelte Forschungsdateninfrastruktur und insbesondere das Data Modelling Environment (DME). Als Schema und Crosswalk Registry entstanden (Gradl et al. 2015), entwickelte sich das DME zu einem umfangreichen Werkzeug für die Modellierung, Verfeinerung, Bereinigung und Anreicherung von Daten. Die Beispieldaten, die für diesen Anwendungsfall herangezogen wurden, stammen aus einer Datenbank der aus dem Deutschen Archäologischen Institut geführten Grabung in Pergamon
+                    <ref target="ftn2" n="2"/> und beschreiben etwa 100 keramische Grabungsfunde.
                 </p>
                 <p>Für den Anwendungsfall wurde ein archäologischer Kontext gewählt, da relevante Forschungsdaten aufgrund ihrer Heterogenität eine besondere Herausforderung für Forschungsinfrastrukturen darstellen (Gradl, Henrich 2016a). Das wesentliche Ziel dieses Beitrags besteht darin, die Verwendbarkeit des DME auch im spezifischen Kontext von Pergamon-Daten anzudeuten. Eine Integration weiterer archäologischer Daten wie 2D-Bildern, 3D-Modellen und verschiedener Arten kontrollierter Vokabulare und geographischer Daten könnten für den gewählten Anwendungsfall Erkenntnisgewinne erreicht werden, die ggf. neue Fragen für die qualitative Forschung aufwerfen.</p>
                 <p>Durch eine kombinierte Visualisierung orts- und zeitbezogener Abhängigkeiten könnte man sich schnell einen ersten Überblick über die zeitliche und geographische Verteilung der Datensätze verschaffen. Wo liegt z. B. die höchste Dichte von auf die hellenistische Zeit datierten, keramischen Funden vor? Ein solcher visueller Überblick über die Grabungsdaten könnte den WissenschaftlerInnen auch erlauben, Diskrepanzen und Sonderfälle in der archäologischen Dokumentation einer Grabung zu erkennen. </p>
@@ -139,23 +132,13 @@
                 <div type="div2">
                     <head>Vorverarbeitung</head>
                     <p>Die archäologische Grabung in Pergamon wurde mittels der iDAI.Field Software dokumentiert. iDAI.Field ist ein modulares Dokumentationssystem für Feldforschungsprojekte, das am DAI entwickelt wurde und in ca. 50 verschiedenen Projekten eingesetzt wurde.
-                        <note xml:id="ftn3" place="foot" n="3">
-                            <hi rend="color(#212121) background-color(#ffffff)"> </hi>
-                            <ptr target="https://www.dainst.org/forschung/forschung-digital/idai.welt/data/-/asset_publisher/Pt831IfwO8uH/content/idai-field"/>
-                            <hi rend="color(#212121) background-color(#ffffff)"> </hi>
-                        </note> Die durch iDAI.Field gesammelten Daten werden in einer FileMaker-Datenbank gespeichert. Für eine Verarbeitung in der DARIAH-DE Infrastruktur wurde zunächst ein XML-Export aus der Datenbank ausgeführt.
+                        <ref target="ftn3" n="3"/> Die durch iDAI.Field gesammelten Daten werden in einer FileMaker-Datenbank gespeichert. Für eine Verarbeitung in der DARIAH-DE Infrastruktur wurde zunächst ein XML-Export aus der Datenbank ausgeführt.
                     </p>
                 </div>
                 <div type="div2">
                     <head>Datenmodellierung</head>
                     <p>Um Pergamon-Daten in ein vom Geo-Browser unterstütztes Eingabeformat, wie die Keyhole Markup Language (KML)
-                        <note xml:id="ftn4" place="foot" n="4">
-                            <hi rend="color(#212121) background-color(#ffffff)"> </hi>
-                            <ref target="https://wiki.de.dariah.eu/display/publicde/Geo-Browser+Dokumentation#Geo-BrowserDokumentation-SpezifikationenfürdieNutzung">
-                                <hi rend="color(#1155cc) background-color(#ffffff)underline">https://wiki.de.dariah.eu/display/publicde/Geo-Browser+Dokumentation#Geo-BrowserDokumentation-Spezifikationenf%C3%BCrdieNutzung</hi>
-                            </ref>
-                            <hi rend="color(#212121) background-color(#ffffff)"> </hi>
-                        </note> umwandeln zu können, müssen die relevanten Datenmodelle im DME vorliegen bzw. definiert werden. Dies kann durch das Hochladen von XSD-Schemata initiiert werden. Einmal hinterlegte Modelle können nach deren Definition in weiteren Anwendungsfällen nachgenutzt werden.
+                        <ref target="ftn4" n="4"/> umwandeln zu können, müssen die relevanten Datenmodelle im DME vorliegen bzw. definiert werden. Dies kann durch das Hochladen von XSD-Schemata initiiert werden. Einmal hinterlegte Modelle können nach deren Definition in weiteren Anwendungsfällen nachgenutzt werden.
                     </p>
                     <p>Abbildung 2 veranschaulicht neben dem Elementmodell auch die Funktionalität zur Verarbeitung von Beispieldaten, mit deren Hilfe überprüft werden kann, ob Daten korrekt prozessiert werden.</p>
                     <p>
@@ -183,23 +166,13 @@
                         <item>Anwendung von Transformationsregeln. Neben bereits implementierter Funktionalität - z.B. zur automatischen Sprachverarbeitung - kann das DME flexibel durch Plugins erweitert werden, um neue Funktionen zur Verarbeitung von Daten einzubinden.</item>
                     </list>
                     <p>Im vorliegenden Anwendungsfall sind Daten in eine strukturierte und außerhalb der Pergamon-Datenbank interpretierbare Form zu bringen. Hierzu werden Daten u. A. durch die Nutzung des iDAI.Gazetteer
-                        <note xml:id="ftn5" place="foot" n="5">
-                            <ref target="https://gazetteer.dainst.org/">
-                                <hi rend="color(#1155cc) background-color(#ffffff)underline">https://gazetteer.dainst.org</hi>
-                            </ref>
-                            <hi rend="color(#212121) background-color(#ffffff)">. Vgl. auch Cuy et al. 2014.</hi>
-                        </note> (Auflösung von Ortsbezeichnungen) und der iDAI.Chronontology
-                        <note xml:id="ftn6" place="foot" n="6">
-                            <ptr target="http://chronontology.dainst.org/"/>
-                            <hi rend="color(#212121) background-color(#ffffff)"> </hi>
-                        </note> (Auflösung zeitlicher Angaben) angereichert.
+                        <ref target="ftn5" n="5"/> (Auflösung von Ortsbezeichnungen) und der iDAI.Chronontology
+                        <ref target="ftn6" n="6"/> (Auflösung zeitlicher Angaben) angereichert.
                     </p>
                     <div type="div3">
                         <head>iDAI.ChronOntology</head>
                         <p>Die ChronOntology API ermöglicht u. a. eine Freitextsuche. Beispielsweise ist es möglich nach Zeitangaben zu suchen, die den String „Kaiserzeitlich“ beinhalten
-                            <note xml:id="ftn7" place="foot" n="7">Z.B. 
-                                <ptr target="http://chronontology.dainst.org/data/period/?q=kaiserzeitlich"/>
-                            </note> und die entsprechende Datierungen aufweisen können. So ist der Begriff „kaiserzeitlich“ mit „-27“ und „476“ als Beginn- und Enddatum verbunden.
+                            <ref target="ftn7" n="7"/> und die entsprechende Datierungen aufweisen können. So ist der Begriff „kaiserzeitlich“ mit „-27“ und „476“ als Beginn- und Enddatum verbunden.
                         </p>
                         <p>
                             <hi rend="color(#212121) background-color(#ffffff)">Im Rahmen des DME wird das Modell der Pergamon-Daten dahingehend erweitert, dass unter dem in XML vorhandenen Element </hi>
@@ -313,15 +286,52 @@
                 <head>Schlußdiskussion</head>
                 <p>Dieser Anwendungsfall basierte auf einer zu geringen Menge von Daten, als dass akute Mehrwerte erreichen werden könnten. Die Visualisierung von Daten aus mehreren Grabungsorten könnte dagegen die Einführung neuer Formen, Farben oder Keramiktypen in ort- und zeitbezogener Abhängigkeit darstellen und so zu der Generierung neuer Hypothesen führen. Das DME ist flexibel genug, um mit den heterogenen Daten der Archäologie umgehen zu können. </p>
                 <p>Indem das DME eine Modellierung von Verarbeitung von Daten spezifischer Anwendungsfälle ermöglicht, hat es das Potential das „OpenRefine für die digitalen Geisteswissenschaften“ zu werden: ein generisches Tool zur Modellierung, Verfeinerung, Bereinigung und Anreicherung von Forschungsdaten, das eine breite Vielfalt von Arbeitsabläufen unterstützen kann.
-                    <note xml:id="ftn8" place="foot" n="8">Für ein Beispiel der Benutzung von OpenRefine in den digitalen Geistenwissenschaften vgl. 
-                        <ptr target="https://programminghistorian.org/lessons/cleaning-data-with-openrefine"/>.
-                    </note>
+                    <ref target="ftn8" n="8"/>
                 </p>
                 <p>Zugleich stellt sich aber auch die Frage, wer die typischen BenutzerInnen des DME sein können? Oder: ist es realistisch zu erwarten, dass GeisteswissenschaftlerInnen dieses Werkzeug ohne die Unterstützung von DH Spezialisten bedienen können? Tatsächlich scheint das DME eine gemeinsame Basis der Kollaboration und Kommunikation sein zu wollen, in der das Wissen von GeisteswissenschaftlerInnen mit der technischen Expertise von DH-Experten zusammengeführt werden. Hierdurch können Aufgaben, wie die des vorliegenden Anwendungsfalls erfüllt werden ohne sämtliche technische Problemstellungen von Grund auf neu lösen zu müssen. Durch die wachsende Zahl von bestehenden Quell-/Zielmodelle, Transformationsregeln und API-Wrappers kann Wissen und Funktionalität nachgenutzt werden. </p>
             </div>
         </body>
         <back>
-            <div type="bibliogr">
+         <div type="notes">
+            <note xml:id="ftn1" n="1" place="foot">
+                        <ref target="http://de.dariah.eu/">
+                            <hi rend="color(#1155cc)underline">http://de.dariah.eu</hi>
+                        </ref>
+                    </note>
+            <note xml:id="ftn2" n="2" place="foot">
+                        <ptr target="http://www.dainst.org/projekt/-/project-display/14186"/>
+                        <hi rend="color(#212121) background-color(#ffffff)"> </hi>
+                    </note>
+            <note xml:id="ftn3" n="3" place="foot">
+                            <hi rend="color(#212121) background-color(#ffffff)"> </hi>
+                            <ptr target="https://www.dainst.org/forschung/forschung-digital/idai.welt/data/-/asset_publisher/Pt831IfwO8uH/content/idai-field"/>
+                            <hi rend="color(#212121) background-color(#ffffff)"> </hi>
+                        </note>
+            <note xml:id="ftn4" n="4" place="foot">
+                            <hi rend="color(#212121) background-color(#ffffff)"> </hi>
+                            <ref target="https://wiki.de.dariah.eu/display/publicde/Geo-Browser+Dokumentation#Geo-BrowserDokumentation-SpezifikationenfürdieNutzung">
+                                <hi rend="color(#1155cc) background-color(#ffffff)underline">https://wiki.de.dariah.eu/display/publicde/Geo-Browser+Dokumentation#Geo-BrowserDokumentation-Spezifikationenf%C3%BCrdieNutzung</hi>
+                            </ref>
+                            <hi rend="color(#212121) background-color(#ffffff)"> </hi>
+                        </note>
+            <note xml:id="ftn5" n="5" place="foot">
+                            <ref target="https://gazetteer.dainst.org/">
+                                <hi rend="color(#1155cc) background-color(#ffffff)underline">https://gazetteer.dainst.org</hi>
+                            </ref>
+                            <hi rend="color(#212121) background-color(#ffffff)">. Vgl. auch Cuy et al. 2014.</hi>
+                        </note>
+            <note xml:id="ftn6" n="6" place="foot">
+                            <ptr target="http://chronontology.dainst.org/"/>
+                            <hi rend="color(#212121) background-color(#ffffff)"> </hi>
+                        </note>
+            <note xml:id="ftn7" n="7" place="foot">Z.B. 
+                                <ptr target="http://chronontology.dainst.org/data/period/?q=kaiserzeitlich"/>
+                            </note>
+            <note xml:id="ftn8" n="8" place="foot">Für ein Beispiel der Benutzung von OpenRefine in den digitalen Geistenwissenschaften vgl. 
+                        <ptr target="https://programminghistorian.org/lessons/cleaning-data-with-openrefine"/>.
+                    </note>
+         </div>
+         <div type="bibliogr">
                 <listBibl>
                     <head>Bibliographie</head>
                     <bibl>van Zundert, J., 2012. “If You Build It, Will We Come? Large Scale Digital Infrastructures as a Dead End for Digital Humanities”. 
@@ -351,6 +361,6 @@
                     <bibl>Parr, Terence (2012): The definitive ANTLR 4 reference. 2. Aufl. Dallas, Raleigh: Pragmatic Bookshelf (= The pragmatic programmers)</bibl>
                 </listBibl>
             </div>
-        </back>
+      </back>
     </text>
 </TEI>

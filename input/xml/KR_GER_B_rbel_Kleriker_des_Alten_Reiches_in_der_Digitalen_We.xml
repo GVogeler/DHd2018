@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xml:id="KR_GER_B_rbel_Kleriker_des_Alten_Reiches_in_der_Digitalen_We">
-    <teiHeader>
+   <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Kleriker des Alten Reiches in der Digitalen Welt. Das Forschungsportal Germania Sacra Online</title>
@@ -81,7 +81,7 @@
          </settingDesc>
       </profileDesc>
     </teiHeader>
-    <text>
+   <text>
         <body>
             <p>Das Poster soll die digitalen Angebote der Germania Sacra vorstellen und an einem konkreten Beispiel Möglichkeiten und Grenzen diskutieren, wie mithilfe der Netzwerkanalyse große Datenkorpora visualisiert und ausgewertet werden können, um neue Fragestellungen zu generieren.</p>
             <p>Die Germania Sacra ist ein Forschungsprojekt an der Akademie der Wissenschaften zu Göttingen, das die Geschichte der Bistümer, Stifte und Klöster im Heiligen Römischen Reich Deutscher Nation aufarbeitet. Die geistlichen Institutionen werden von ihrer Gründung in der Spätantike bis in die Zeit der Säkularisation behandelt. Geographisch umfasst das Untersuchungsgebiet die heutige Bundesrepublik und die grenznahen Regionen ihrer Nachbarländer.</p>
@@ -101,7 +101,7 @@
             <p>Die Posterpräsentation soll Anstoß geben, alternative Strategien der Informationsauswertung durch den Einsatz digitaler Methoden vorzustellen und zu diskutieren.</p>
         </body>
         <back>
-            <div type="bibliogr">
+         <div type="bibliogr">
                 <listBibl>
                     <head>Bibliographie</head>
                     <bibl rend="Citavi Literaturverzeichnis">Serge ter 
@@ -122,6 +122,6 @@
                     </bibl>
                 </listBibl>
             </div>
-        </back>
+      </back>
     </text>
 </TEI>

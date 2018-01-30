@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xml:id="NEUBER_Frederike_Alles_ist_im_Fluss___Ressourcen_und_Rezensi">
-    <teiHeader>
+   <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title type="full">
@@ -100,22 +100,22 @@
          </settingDesc>
       </profileDesc>
     </teiHeader>
-    <text>
+   <text>
         <body>
             <p>Eine Kritik der digitalen Vernunft muss auch eine Kritik der digitalen Ressourcen umfassen.
-                <note xml:id="ftn1" place="foot" n="1">Unter “digitale Ressource” verstehen wir publizierte digitale Objekte, in Anlehnung an die Definitionen der DNB im Papier “Digitale Publikation” (DNB 2017).</note> Eine traditionelle Form der Kritik ist die wissenschaftliche Besprechung oder Rezension. Die kritische Instanz eines Rezensionswesens fehlt den Digital Humanities bisher fast gänzlich. Digitale Ressourcen wie etwa wissenschaftliche Editionen, Textkorpora, Bilddatenbanken oder auch Software werden selten umfassend rezensiert.
-                <note xml:id="ftn2" place="foot" n="2">Werden digitale Ressourcen rezensiert, dann meist aus der Fachperspektive. Einige Beispiele für verstreute Rezensionen aus DH-Perspektive sind Schöch (2017); Schelbert (2017); Assmann und Sahle (2008) mit Rezension zur Rezension (Just 2009); erste Ansätze für systematische Kritik im Sinne gebündelter Aktivitäten zur Bewertung bestimmter Typen digitaler Ressourcen (wie Projekte, Editionen, Textsammlungen, Datensätze), mit Begleitmaterialien und eingebunden in einen kritischen Diskurs, finden sich im DH Commons Journal, dem jTEI und RIDE.</note> Das Gleiche gilt für das “Primärmaterial” dieser Ressourcen, also für Datensätze.
+                <ref target="ftn1" n="1"/> Eine traditionelle Form der Kritik ist die wissenschaftliche Besprechung oder Rezension. Die kritische Instanz eines Rezensionswesens fehlt den Digital Humanities bisher fast gänzlich. Digitale Ressourcen wie etwa wissenschaftliche Editionen, Textkorpora, Bilddatenbanken oder auch Software werden selten umfassend rezensiert.
+                <ref target="ftn2" n="2"/> Das Gleiche gilt für das “Primärmaterial” dieser Ressourcen, also für Datensätze.
             </p>
             <p>Im Gegensatz zu traditionellen Forschungsergebnissen der Geisteswissenschaften sind digitale Ressourcen nicht statisch, sondern wandelbar, oft prozesshaft und nicht abgeschlossen. Die Kritik der Ressourcen muss die besonderen Bedingungen, Eigenschaften und Folgephänomene digitaler Daten berücksichtigen und eine eigene Form finden.
-                <note xml:id="ftn3" place="foot" n="3">Vgl. zu diesem Problemfeld u.a. die Sektion “Evaluating Digital Scholarship” in Profession, herausgegeben von Schreibman et al. 2011; das Working Paper der DHd-Arbeitsgruppe “Digitales Publizieren” 2016; der Band “Closing the Evaluation Gap” des JDH von Cohen / Fragaszy Trojano 2012; zu digitalen Editionen insbesondere Pierazzo 2014, Yates 2008 und Henny, erscheint demnächst.</note> Wie sich die Ressourcen wandeln, so muss sich auch die Kritik wandeln, denn panta rhei - “alles fließt”, sagt Heraklit.
-                <note xml:id="ftn4" place="foot" n="4">Ein Phänomen dieses Wandels sind diverse Kataloge für Best Practices und Bewertungskriterien digitaler Ressourcen (AHA 2015, Jannidis 1999, MLA 2012, Presner 2012, Rockwell 2012, Sahle et al. 2014, Henny und Neuber 2017).</note>
+                <ref target="ftn3" n="3"/> Wie sich die Ressourcen wandeln, so muss sich auch die Kritik wandeln, denn panta rhei - “alles fließt”, sagt Heraklit.
+                <ref target="ftn4" n="4"/>
             </p>
             <p>Vor diesem Hintergrund widmet sich das Panel u. a. folgenden Fragen: Wie können traditionelle Rezensionsorgane die Besprechung digitaler Ressourcen fördern? Brauchen die Digital Humanities ein eigenes Rezensionswesen, um den Besonderheiten digitaler Ressourcen gerecht zu werden? Wenn ja, wie muss die Rezension als ,Momentaufnahme’ einer digitalen Ressource methodisch und technisch konzipiert sein, um nicht der ,Schnelllebigkeit’ der digitalen Welt zu erliegen? Welche Herausforderungen stellen Publikationen von Daten oder Algorithmen an die RezensentInnen? Inwiefern steigen mit dem Zuwachs an technischen Möglichkeiten auch die Ansprüche an digitale Ressourcen und wie lassen sich diese als Standards und Evaluationskriterien verhandeln, dokumentieren und weiterentwickeln? Wie kann man die Digitalität des Rezensionswesens nutzen, um die Prozesshaftigkeit der zu rezensierenden Objekte zu berücksichtigen, z. B. auch durch dynamischere Formen der Kritik jenseits der traditionellen Rezension?</p>
             <p> Das Panel wird mit einer Moderation und sechs Impulsbeiträgen einen Überblick über das Themenfeld “Ressourcen und Rezensionen in den Digital Humanities” geben. Die ReferentInnen berichten von Erfahrungen aus der herausgeberischen Praxis, diskutieren Problemfelder und setzen theoretische Impulse, um im Anschluss rasch in eine offene Diskussion mit dem Publikum überzugehen.</p>
             <div type="div1" rend="DH-Heading">
                 <head>
                     <anchor xml:id="id__477l2rrnn3gt"/>Rüdiger Hohls:
-                    <note xml:id="ftn5" place="foot" n="5">Humboldt-Universität zu Berlin, Redaktionsmitglied von Clio online bzw. H-Soz-Kult (Projektleitung).</note> Die Rezension analoger und digitaler Medien bei H-Soz-Kult
+                    <ref target="ftn5" n="5"/> Die Rezension analoger und digitaler Medien bei H-Soz-Kult
                 </head>
                 <p>Die Tradition der wissenschaftlichen Rezensionen wird vor allem in den Geistes-, Kunst-, Kultur-, Politik- und Sozialwissenschaften gepflegt, überwiegend Fächer, die unter einer Überproduktion von Texten leiden und deshalb für eine Sichtung und für ein „Marketing“ über Rezensionen besonders empfänglich sind. 
                     <hi rend="bold"> </hi>
@@ -126,7 +126,7 @@
             <div type="div1" rend="DH-Heading">
                 <head>
                     <anchor xml:id="id__gcbw4b6ndyda"/>Frederike Neuber:
-                    <note xml:id="ftn6" place="foot" n="6">Berlin-Brandenburgische Akademie der Wissenschaften, Mit-Herausgeberin des Rezensionsjournals RIDE.</note> RIDE und die Herausforderungen der Digitalität
+                    <ref target="ftn6" n="6"/> RIDE und die Herausforderungen der Digitalität
                 </head>
                 <p>Seit 2014 gibt das IDE die digitale Rezensionszeitschrift RIDE (
                     <hi rend="italic">A review journal for digital editions and resources</hi>) heraus. Bis Dezember 2017 wurden in sieben Ausgaben 30 wissenschaftliche digitale Editionen und 10 digitale Textsammlungen rezensiert. Zum methodischen Rahmenprogramm RIDEs zählen Kriterienkataloge für die Besprechung des jeweiligen Ressourcentyps (Henny u. Neuber 2017, Sahle 2014), die Erhebung von Daten in einem Questionnaire und ein externes Peer Reviewing der Beiträge.
@@ -136,9 +136,7 @@
                     <hi rend="background-color(#ffffff)">), das gilt auch für die Rezensionsobjekte in RIDE:</hi> Etwa kann sich schon während des Rezensierens und/oder nach der Publikation einer Rezension die Datengrundlage einer besprochenen Ressource verändern; im Zuge eines Relaunches kann ein User Interface ersetzt werden. Um derlei Fällen vorzubeugen empfehlen die RIDE-
                     <hi rend="italic">Reviewing Guidelines</hi>
                     <hi rend="italic">
-                        <note xml:id="ftn7" place="foot" n="7">Siehe Institut für Dokumentologie und Editorik e.V. (2014 ff.), 
-                            <ptr target="http://ride.i-d-e.de/reviewers/guidelines/"/>.
-                        </note>
+                        <ref target="ftn7" n="7"/>
                     </hi> etwa die Erstellung von Screenshots und die Archivierung von Websites. Damit ist der Status Quo der Ressourcen zum jeweiligen Rezensionszeitpunkt zumindest teilweise dokumentiert.
                 </p>
                 <p>Wie die Rezensionsobjekte, so sind auch die digitalen Rezensionstexte grundsätzlich offener und veränderlicher als das bei gedruckten Rezensionen der Fall ist. Vereinzelt wurden in RIDE bereits nachträgliche Änderungen (z. B. auf Wunsch der BetreiberInnen der rezensierten Ressource) in Rezensionstexte integriert, was in der XML/TEI-Version der jeweiligen Ressource dokumentiert ist.</p>
@@ -147,7 +145,7 @@
             <div type="div1" rend="DH-Heading">
                 <head>
                     <anchor xml:id="id__e6dpga3fhp4v"/>Anne Baillot:
-                    <note xml:id="ftn8" place="foot" n="8">Le Mans Université, Managing Editor des Journals der Text Encoding Initiative und Redaktionsmitglied der Zeitschrift des französischsprachigen DH-Verbandes Humanistica sowie bei DHCommons.</note> Daten als Rezensionsobjekte
+                    <ref target="ftn8" n="8"/> Daten als Rezensionsobjekte
                 </head>
                 <p>In den Geisteswissenschaften werden Forschungsfragen verfolgt und in Publikationen beantwortet. Diese sind traditionell Gegenstand von Rezensionen. Im Digitalen kommt mit den Forschungsdaten eine “neue” Publikationsform hinzu, die in das Rezensionswesen einbezogen werden muss. Der Status des "Primärmaterials" ist im digitalen Rezensionswesen zu klären und kann sich unter Umständen am Modell der Naturwissenschaften orientieren. Data Papers und Data Journals sind neue Formen der Dokumentation und Publikation, die sich Struktur, Kohärenz und Vollständigkeit von Daten widmen. Damit rückt auch Datenmodellierung als eine zu evaluierende wissenschaftliche Tätigkeit mehr in den Vordergrund.</p>
                 <p>Während naturwissenschaftliche Zeitschriften, die Data Papers veröffentlichen oder rezensieren, solche Datensätze in speziellen, selten öffentlich zugänglichen Repositorien verfügbar machen, entwickelt sich in den Geisteswissenschaften die Tendenz, die Primärdaten eher zusammen mit ihren Auswertungen oder auf allgemeinen Plattformen offen und langzeitverfügbar zugänglich zu machen. Wie stabil ist diese offene Bereitstellung auf lange Sicht? Wie komplex wird dadurch bei einer immer wieder aktualisierten digitalen Ressource die Bezugnahme auf jene Version, die in einer Rezension begutachtet wird? Darüber hinaus stellt sich die grundsätzliche Frage: Stoßen Rezensionen von Data Papers und den Daten selbst in einem Kontext der Informationsflut, in der kaum die Auswertungen wahrgenommen werden, überhaupt auf Interesse? Welche Funktion hätten sie dann in einem geisteswissenschaftlichen Rezensionswesen in der digitalen Welt? Werden sie zur Rettung oder zum endgültigen Sturz des Rezensionswesens in die Bedeutungslosigkeit beitragen?</p>
@@ -155,7 +153,7 @@
             <div type="div1" rend="DH-Heading">
                 <head>
                     <anchor xml:id="id__ubo6v7th83z"/>Christof Schöch:
-                    <note xml:id="ftn9" place="foot" n="9">Universität Trier, Redaktionsmitglied bei Romanistik.de.</note> Im Spannungsfeld von Projektzielen und Best Practice-Anforderungen
+                    <ref target="ftn9" n="9"/> Im Spannungsfeld von Projektzielen und Best Practice-Anforderungen
                 </head>
                 <p>Bei der Rezension digitaler Ressourcen treffen zwei Perspektiven aufeinander: Einerseits ist das der Rahmen der jeweils spezifischen Projektziele, die für die Erstellung einer Ressource handlungsleitend waren. Hierzu gehören auch praktische Aspekte der Machbarkeit wie Zeitrahmen, Budget und Personal. Nicht immer ist diese Perspektive für die Rezensierenden transparent. Andererseits ist das die Perspektive der theoretischen Anforderungen und der mehr oder weniger gut etablierten Best Practices, die in Form von Qualitätskriterien an eine digitale Ressource herangetragen werden können. Auch hier sind die entsprechenden Maßstäbe nicht immer geteilt und explizit. </p>
                 <p>Dieses Spannungsfeld und die unter Umständen asymmetrische Verfügbarkeit von Informationen wirft die Frage auf, wie die Rezension einer digitalen Ressource sowohl fair als auch anspruchsvoll sein kann, wenn unterschiedliche Maßstäbe zugleich anzulegen sind. Es stellt sich auch die Frage, inwiefern die Rezension digitaler Ressourcen hier grundsätzlich anders funktioniert als die Rezension von Monographien oder Sammelbänden. Inwieweit sollten bei der Rezension digitaler Ressourcen die äußeren Bedingungen ihrer Erstellung berücksichtigt werden? Braucht es womöglich verschiedene Ebenen von Anforderungen, wenn z. B. Ergebnisse der Individualforschung mit denjenigen großer Projekte verglichen werden? Inwiefern muss beim Anlegen von Maßstäben berücksichtigt werden, ob eine digitale Ressource weitestgehend abgeschlossen oder noch in der Bearbeitung ist?</p>
@@ -163,7 +161,7 @@
             <div type="div1" rend="DH-Heading">
                 <head>
                     <anchor xml:id="id__kxejorfqoc1y"/>Jürgen Hermes:
-                    <note xml:id="ftn10" place="foot" n="10">Universität zu Köln, Institut für Digital Humanities.</note> Die Rezension als Prozess
+                    <ref target="ftn10" n="10"/> Die Rezension als Prozess
                 </head>
                 <p>Ein Leitsatz, der die Open Source-Softwareentwicklung stark geprägt hat, und der sich auch im Paradigma der agilen Entwicklung wiederfindet, lautet “Release early, release often” (Raymond 2001).</p>
                 <p>Ist dieses Paradigma auch auf andere Arten digitaler Publikationen wie digitale Monographien, Aufsätze, Editionen, Text- und Datensammlungen anwendbar? Eine Veröffentlichung auf digitalen Plattformen bietet völlig neue Möglichkeiten des Austauschs zwischen ErstellerInnen und KonsumentInnen von digitalen Ressourcen ‒ Errata können kurz nach ihrer Entdeckung korrigiert, Verbesserungsvorschläge zum Zeitpunkt ihrer Einreichung aufgenommen werden. Das Zusammenspiel zwischen Veröffentlichung und kritischer Würdigung wird so granularer, als dies beim althergebrachten Zusammenspiel zwischen Monographie und Rezension der Fall war. </p>
@@ -172,14 +170,29 @@
             <div type="div1" rend="DH-Heading">
                 <head>
                     <anchor xml:id="id__j0a661h8ksot"/>Patrick Sahle:
-                    <note xml:id="ftn11" place="foot" n="11">Universität zu Köln, CCeH, Mit-Herausgeber des Rezensionsjournals RIDE.</note> Prinzipien der Digitalität
+                    <ref target="ftn11" n="11"/> Prinzipien der Digitalität
                 </head>
                 <p>Unsere digitale Informationsumwelt ist, wie die vorhergehende analoge Welt, von wenigen Grundprinzipien geprägt, die zunächst technischer Natur sind, dann aber Folgen in allen möglichen Bereichen erzeugen: Technik, Methode, Inhalte, Form, Soziologie, Politik von Wissen, Wissensproduktion und Wissenspräsentation in der Forschung. Im Bereich digitaler Ressourcen und Rezensionen lassen sich hier vielfältige Phänomene durch verallgemeinernde Schlagworte andeuten: Multimedialisierung, Vernetzung, Aufhebung von Mengenbegrenzungen, Trennung von Daten, Auswertung und Präsentation, Generativität und Prozesshaftigkeit von Publikationen, Dynamik und Interaktion, Zunahme der Komplexität, Kollaborativität, Interdisziplinarität, unmittelbare Diskursivität etc. Damit sind neue Herausforderungen markiert, deren Lösungen jetzt noch nicht absehbar oder erst thesenhaft formulierbar sind. Zu nennen wären hier unmittelbare Sichtbarkeit, “Unfassbarkeit” von Ressourcen (hinsichtlich Inhalt, Status, Version, Verantwortung), Probleme der Kreditierung von Leistungen, Interdisziplinarität als Kompetenzproblem, unformierte Wissenschaftskommunikation, Halbwertszeit von Kritik, eingefrorene versus dynamische Kritikdiskurse, Standardisierung versus Innovation etc. Auch die digitale Rezension digitaler Ressourcen steht damit vor ganz anderen Aufgaben als die eingeführte Form der Besprechung.</p>
                 <p>Vielleicht kann man es aber auch so zusammenfassen: Die Rezension in der Buchkultur ist die Grabrede auf ein in den Brunnen gefallenes Kind ‒ die Rezension in einer digitalen Kultur ist ein Verbesserungsvorschlag, der mit seiner Annahme hinfällig wird. Wie so vieles wird in der digitalen Welt auch die Kritik komplexer, die ihre neue Form und Position noch nicht gefunden hat. Vielleicht muss sie aber auch grundsätzlich anders gedacht werden, denn als Fortsetzung des traditionellen Objekts “Rezension”?</p>
             </div>
         </body>
         <back>
-            <div type="bibliogr">
+         <div type="notes">
+            <note xml:id="ftn1" n="1" place="foot">Unter “digitale Ressource” verstehen wir publizierte digitale Objekte, in Anlehnung an die Definitionen der DNB im Papier “Digitale Publikation” (DNB 2017).</note>
+            <note xml:id="ftn2" n="2" place="foot">Werden digitale Ressourcen rezensiert, dann meist aus der Fachperspektive. Einige Beispiele für verstreute Rezensionen aus DH-Perspektive sind Schöch (2017); Schelbert (2017); Assmann und Sahle (2008) mit Rezension zur Rezension (Just 2009); erste Ansätze für systematische Kritik im Sinne gebündelter Aktivitäten zur Bewertung bestimmter Typen digitaler Ressourcen (wie Projekte, Editionen, Textsammlungen, Datensätze), mit Begleitmaterialien und eingebunden in einen kritischen Diskurs, finden sich im DH Commons Journal, dem jTEI und RIDE.</note>
+            <note xml:id="ftn3" n="3" place="foot">Vgl. zu diesem Problemfeld u.a. die Sektion “Evaluating Digital Scholarship” in Profession, herausgegeben von Schreibman et al. 2011; das Working Paper der DHd-Arbeitsgruppe “Digitales Publizieren” 2016; der Band “Closing the Evaluation Gap” des JDH von Cohen / Fragaszy Trojano 2012; zu digitalen Editionen insbesondere Pierazzo 2014, Yates 2008 und Henny, erscheint demnächst.</note>
+            <note xml:id="ftn4" n="4" place="foot">Ein Phänomen dieses Wandels sind diverse Kataloge für Best Practices und Bewertungskriterien digitaler Ressourcen (AHA 2015, Jannidis 1999, MLA 2012, Presner 2012, Rockwell 2012, Sahle et al. 2014, Henny und Neuber 2017).</note>
+            <note xml:id="ftn5" n="5" place="foot">Humboldt-Universität zu Berlin, Redaktionsmitglied von Clio online bzw. H-Soz-Kult (Projektleitung).</note>
+            <note xml:id="ftn6" n="6" place="foot">Berlin-Brandenburgische Akademie der Wissenschaften, Mit-Herausgeberin des Rezensionsjournals RIDE.</note>
+            <note xml:id="ftn7" n="7" place="foot">Siehe Institut für Dokumentologie und Editorik e.V. (2014 ff.), 
+                            <ptr target="http://ride.i-d-e.de/reviewers/guidelines/"/>.
+                        </note>
+            <note xml:id="ftn8" n="8" place="foot">Le Mans Université, Managing Editor des Journals der Text Encoding Initiative und Redaktionsmitglied der Zeitschrift des französischsprachigen DH-Verbandes Humanistica sowie bei DHCommons.</note>
+            <note xml:id="ftn9" n="9" place="foot">Universität Trier, Redaktionsmitglied bei Romanistik.de.</note>
+            <note xml:id="ftn10" n="10" place="foot">Universität zu Köln, Institut für Digital Humanities.</note>
+            <note xml:id="ftn11" n="11" place="foot">Universität zu Köln, CCeH, Mit-Herausgeber des Rezensionsjournals RIDE.</note>
+         </div>
+         <div type="bibliogr">
                 <listBibl>
                     <head>Bibliographie</head>
                     <bibl>
@@ -286,6 +299,6 @@
                     </bibl>
                 </listBibl>
             </div>
-        </back>
+      </back>
     </text>
 </TEI>

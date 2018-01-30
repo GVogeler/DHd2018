@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xml:id="B_RNER_Ingo_C_sar_Flaischlens__Graphische_Litteratur_Tafel__">
-    <teiHeader>
+   <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Cäsar Flaischlens „Graphische Litteratur-Tafel“ – digitale Erschließung einer großformatigen Karte zur Deutschen Literatur</title>
@@ -106,7 +106,7 @@
          </settingDesc>
       </profileDesc>
     </teiHeader>
-    <text>
+   <text>
         <body>
             <div type="div1" rend="DH-Heading1">
                 <head>Vorhaben</head>
@@ -161,7 +161,7 @@
             </div>
         </body>
         <back>
-            <div type="bibliogr">
+         <div type="bibliogr">
                 <listBibl>
                     <head>Bibliographie</head>
                     <bibl>Flaischlen, Cäsar (1890): 
@@ -196,6 +196,6 @@
                     </bibl>
                 </listBibl>
             </div>
-        </back>
+      </back>
     </text>
 </TEI>

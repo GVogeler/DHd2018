@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xml:id="ASCHAUER_Anna_Reisewege_in_Raum_und_Zeit">
-    <teiHeader>
+   <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Reisewege in Raum und Zeit</title>
@@ -95,7 +95,7 @@
          </settingDesc>
       </profileDesc>
     </teiHeader>
-    <text>
+   <text>
         <body>
             <div>
                 <p>Reisewege gut und genau zu kennen, ist für die Geschichtsforschung von enormer Bedeutung. Nicht nur, dass so persönliche Kontakte reflektiert werden können, so zeigen die Reisewege vielmehr auf, wie sich Güter oder Ideen verbreitet haben können. Weiterhin zeigen Reisewege auch auf, über welches Ortswissen eine bestimmte Person verfügt hat. So sei bspw. auf die aktuelle Diskussion rund um Shakespeare hingewiesen. Auf der einen Seite wird über stilometrische Analysen gezeigt, dass Shakespeare wirklich der Autor seiner Werke sein soll. Auf der anderen Seite wird in Romeo und Julia Verona so detailreich dargestellt, dass eine gute Ortskenntnis notwendig gewesen sein muss. Da Shakespeare nach jetzigem Kenntnisstand niemals in Italien war, nährt dies die Ansichten der Gegenseite, dass er nicht der Autor gewesen sein kann. Ferner gibt es nach dieser Ansicht auch stilometrische Signale, welche auf eine Frau hinweisen. Zusätzlich wird diese Sichtweise dahingehend unterstützt, dass sich die Charaktere in Shakespeares Werken mit den Namen von Familienmitgliedern von Emilia Lanier aus Bassano, Italien, auffällig gleichen. Das größte Problem in der gesamten Diskussion ist, dass es eine sieben-jährige Lücke in Shakespeares Lebenslauf gibt, in welcher völlig unklar ist, wo er war und mit wem er in Kontakt stand. Das Füllen dieser biographischen Lücke würde, wahrscheinlich, wichtige Impulse in der vorangestellten Diskussion geben. Ferner zeigt es im Allgemeinen wie wichtig die Vollständigkeit von Biographien nicht nur für Historiker, sondern auch für andere Disziplinen in den Geisteswissenschaften ist</p>
@@ -205,7 +205,7 @@
             </div>
         </body>
         <back>
-            <div type="bibliogr">
+         <div type="bibliogr">
                 <listBibl>
                     <head>Bibliographie</head>
                     <bibl>Berendt, B., Büchler, M., Rockwell, G. (2015) ‘Is it research or is it spying? – Rethinking ethics in Big Data AI and other fields of knowledge science‘, German Journal on Artificial Intelligence. Springer.</bibl>
@@ -218,6 +218,6 @@
                     <bibl>Panter, S.; Paulmann, Johannes und Margit Szöllösi-Janze (2015): “Mobility and Biography. Methodological Challenges and Perspectives”, in: Mobility and Biography, hrsg. von Sarah Panter (=Jahrbuch für Europäische Geschichte / European History Yearbook 16 ), Berlin: De Gruyter Oldenbourg, S. 1-14</bibl>
                 </listBibl>
             </div>
-        </back>
+      </back>
     </text>
 </TEI>

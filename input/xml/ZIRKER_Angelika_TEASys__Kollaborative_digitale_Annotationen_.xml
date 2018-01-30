@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xml:id="ZIRKER_Angelika_TEASys__Kollaborative_digitale_Annotationen_">
-    <teiHeader>
+   <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>TEASys: Kollaborative digitale Annotationen als Lehr- und Lernprozess </title>
@@ -98,7 +98,7 @@
          </settingDesc>
       </profileDesc>
     </teiHeader>
-    <text>
+   <text>
         <body>
             <p>Das Poster präsentiert TEASys (Tübingen Explanatory Annotations System; Bauer/Zirker 2015) und die Möglichkeiten, die es als heuristisches 
                 <hi rend="italic">tool</hi> in Lehr- und Lernprozessen bietet. Im Projekt annotieren Studierende kollaborativ Texte der englischsprachigen Literatur. Nachdem TEASys und seine Struktur wie auch Funktionen bereits bei der DHd 2016 und 2017 vorgestellt wurden, liegt der Schwerpunkt nun auf dem 
@@ -122,7 +122,7 @@
             <p>Das Poster stellt die einzelnen Lehr- und Lernprozesse des kollaborativen Annotierens dar und soll die Nachhaltigkeit des Projektes und sowie den Mehrwert der Heuristik von TEASys im Hinblick auf digitale Methoden im Literaturunterricht veranschaulichen. </p>
         </body>
         <back>
-            <div type="bibliogr">
+         <div type="bibliogr">
                 <listBibl>
                     <head>Bibliographie</head>
                     <bibl rend="Works Cited">
@@ -157,6 +157,6 @@
                     </bibl>
                 </listBibl>
             </div>
-        </back>
+      </back>
     </text>
 </TEI>

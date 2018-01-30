@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xml:id="SCHUBERT_Charlotte_Workshop_eComparatio__Textvergleich_und_d">
-    <teiHeader>
+   <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Workshop eComparatio: Textvergleich und digitaler Apparat</title>
@@ -96,7 +96,7 @@
          </settingDesc>
       </profileDesc>
     </teiHeader>
-    <text>
+   <text>
         <body>
             <p>
                 <hi rend="italic">Workshop eCOMPARATIO: Textvergleich und digitaler Apparat</hi>
@@ -159,7 +159,7 @@
             <p>Oliver Bräckel ist Althistoriker und arbeitet an einer Dissertation zu Politischen Flüchtlingen im Römischen Reich. Im Bereich der eHumanities hat er im Projekt „eCOMPARATIO“ am ICE der Universität Erfurt sowie im Projekt eXChange an der Uni Leipzig mitgearbeitet. Derzeit arbeitet er im von der Andrew W. Mellon Foundation geförderten Kooperationsprojekt der Universität Leipzig und der Furman University (Greenville, SC/ USA) „Annotating and Editing With Canonical Text Services (CTS)“.</p>
         </body>
         <back>
-            <div type="bibliogr">
+         <div type="bibliogr">
                 <listBibl>
                     <head>Bibliographie</head>
                     <bibl>A. Olheiser, Have We Been Reading the Declaration of Independence All Wrong?, 
@@ -186,6 +186,6 @@
                     </bibl>
                 </listBibl>
             </div>
-        </back>
+      </back>
     </text>
 </TEI>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xml:id="ROLSHOVEN_J_rgen_Strings_Structures">
-    <teiHeader>
+   <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title type="full">
@@ -102,7 +102,7 @@
          </settingDesc>
       </profileDesc>
     </teiHeader>
-    <text>
+   <text>
         <body>
             <p>Der vorliegende Beitrag befasst sich mit dem Projekt "Strings&amp;Structures. Codes of Sense and Function in Genomics and Linguistics". Dieses Projekt wird von der Sprachlichen Informationsverarbeitung und der Bioinformatik im Rahmen der Exzellenzinitiative der Universität zu Köln durchgeführt. Beide Bereiche befassen sich intensiv mit der Prozessierung von Texten. Bei der Sprachlichen Informationsverarbeitung handelt es sich um natürlichsprachliche Texte und Textkorpora, bei der Bioinformatik um genomische Texte. Das Projekt zielt auf die Aufdeckung von Mustern in Texten und die Analyse der Beziehung der Muster untereinander. Vor dem Hintergrund dieser Fragestellungen werden gemeinsam nutzbare Algorithmen entwickelt. Jedoch sollten dabei wesentliche Unterschiede der zugrundeliegenden Textarten nicht übersehen werden. Natürlichsprachliche Texte sind das Resultat grammatischer Produktionssysteme, genomische Texte sind Produktionssysteme. Das linguistische Vorhaben zielt auf die Rekonstruktion der erzeugenden Produktionssysteme aus zugrundeliegenden Textkorpora. Weitere Unterschiede zwischen natürlichsprachlichen Texten und genomischen Texten liegen in der Größe der zugrunde liegenden Alphabete und der zweigliedrigen Kombinatorikebenen natürlicher Sprachen. Wenngleich die Interaktion und Dynamik der Einheiten in genomischen Texten hochkomplex ist, so kann die Funktion einer einzelnen Einheit gut bestimmt werden. In natürlichen Sprachen dagegen ist die Bedeutung einzelner Einheiten oftmals nur schwierig zu bestimmen. Sie ist hochgradig kontext- und situationsabhängig. Dies hängt auch damit zusammen, dass sprachliche Einheiten weitgehend polysem sind.</p>
             <p>Die automatische Aufdeckung der Bedeutung und Funktion sprachlicher Zeichen vollzieht sich in einem vierstufigen Prozess:</p>

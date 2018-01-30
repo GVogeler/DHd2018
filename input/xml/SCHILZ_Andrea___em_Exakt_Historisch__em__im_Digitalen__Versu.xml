@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xml:id="SCHILZ_Andrea___em_Exakt_Historisch__em__im_Digitalen__Versu">
-    <teiHeader>
+   <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title type="full">
@@ -78,7 +78,7 @@
          </settingDesc>
       </profileDesc>
     </teiHeader>
-    <text>
+   <text>
         <body>
             <div type="div1">
                 <head>Thematik und Ziel</head>
@@ -158,7 +158,7 @@
             </div>
         </body>
         <back>
-            <div type="bibliogr">
+         <div type="bibliogr">
                 <listBibl>
                     <head>Bibliographie</head>
                     <bibl>Baumann, Jan / Hügi, Jasmin (2017): „compas. Strukturiertes Forschen im Web. Ein Projekt von infoclio.ch.“; ebd.:„2. 5. 2. Quellenkritik bei Quellen aus dem Internet“. 25.04.2017 http://www.compas.infoclio.ch/de/kompas/2-5-2-quellenkritik-bei-quellen-aus-dem-internet/164 [letzter Zugriff 11. September2017].</bibl>
@@ -250,6 +250,6 @@
                     </bibl>
                 </listBibl>
             </div>
-        </back>
+      </back>
     </text>
 </TEI>

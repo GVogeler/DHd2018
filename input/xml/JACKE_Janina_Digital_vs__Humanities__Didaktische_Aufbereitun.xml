@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xml:id="JACKE_Janina_Digital_vs__Humanities__Didaktische_Aufbereitun">
-    <teiHeader>
+   <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Digital vs. Humanities. Didaktische Aufbereitung digitaler Methoden für die klassischen Geisteswissenschaften im Projekt forTEXT</title>
@@ -91,56 +91,23 @@
          </settingDesc>
       </profileDesc>
     </teiHeader>
-    <text>
+   <text>
         <body>
             <div type="div1" rend="DH-Heading1">
                 <head>Einleitung</head>
                 <p>Computergestütztes Arbeiten kann geisteswissenschaftliches Forschen auf unterschiedlichste Weise befördern und bereichern. Dennoch müssen wir in unserem Arbeitsalltag und in Gesprächen mit Kolleginnen und Kollegen
-                    <note place="foot" xml:id="ftn1" n="1">
-                        <p rend="footnote text"> Wir werden aufgrund besserer Lesbarkeit im Folgenden nur noch die männliche Form verwenden – unsere Ausführungen beziehen sich aber selbstverständlich dennoch auf alle Geschlechter.</p>
-                    </note> immer wieder feststellen, dass viele traditioneller arbeitende Geisteswissenschaftler digitalen Methoden noch immer mit Skepsis begegnen.
-                    <note place="foot" xml:id="ftn2" n="2">
-                        <p rend="footnote text"> Auf diese persistente Skepsis verweisen beispielsweise auch Fiedler und Weiß in ihrem Tagungsbericht zur DHd-Konferenz 2015 in Graz (vgl. Fiedler/Weiß 2015).</p>
-                    </note> Dies liegt nicht zuletzt daran, dass in den Geisteswissenschaften zahlreiche Methoden zum Einsatz kommen, von denen nur einigen wenigen eine derart formalisierte Arbeitsweise naheliegt, wie sie im Rahmen der Digital Humanities oft verfolgt wird.
+                    <ref target="ftn1" n="1"/> immer wieder feststellen, dass viele traditioneller arbeitende Geisteswissenschaftler digitalen Methoden noch immer mit Skepsis begegnen.
+                    <ref target="ftn2" n="2"/> Dies liegt nicht zuletzt daran, dass in den Geisteswissenschaften zahlreiche Methoden zum Einsatz kommen, von denen nur einigen wenigen eine derart formalisierte Arbeitsweise naheliegt, wie sie im Rahmen der Digital Humanities oft verfolgt wird.
                 </p>
                 <p>Das lässt sich gut am Beispiel der Literaturwissenschaft illustrieren: Digitale Methoden werden bisher vornehmlich von Literaturwissenschaftlern genutzt, die an strukturellen oder anderen formalen Aspekten literarischer Texte interessiert sind (beispielsweise an narrativen Strukturen, Figurennetzwerken etc.).
-                    <note place="foot" xml:id="ftn3" n="3">
-                        <p rend="footnote text"> Beispiele hierfür sind u.a. die folgenden Projekte aus dem Bereich der digitalen Literaturwissenschaft: “heureCLÉA”, ein Projekt zur automatischen Annotation von Zeitphänomenen in narrativen Texten (
-                            <ref target="http://heureclea.de">
-                                <hi rend="color(1155CC)">http://www.heureclea.de</hi>
-                            </ref>, vgl. Bögel et al. 2015); “Redewiedergabe. Eine literatur- und sprachwissenschaftliche Korpusanalyse”, ein Projekt zur automatisierten Annotation von Figurenrede (
-                            <ref target="http://www.redewiedergabe.de/">
-                                <hi rend="color(1155CC)">http://www.redewiedergabe.de</hi>
-                            </ref>, vgl. auch Brunner 2015); die “Computational Stylistics Group” (
-                            <ref target="https://sites.google.com/site/computationalstylistics/">
-                                <hi rend="color(1155CC)">https://sites.google.com/site/computationalstylistics</hi>
-                            </ref>, vgl. Rybicki/Eder/Hoover 2016); das “Rhythmicalizer”-Projekt (
-                            <ref target="http://www.rhythmicalizer.net/">
-                                <hi rend="color(1155CC)">http://www.rhythmicalizer.net</hi>
-                            </ref>, vgl. Baumann/Meyer-Sickendiek 2016), das ein Tool zur Erkennung von Prosodie in freien Versen entwickelt; ebenso wie Projekte zur Analyse von Figurennetzwerken wie etwa “Digital Literary Network Analysis” (
-                            <ref target="https://dlina.github.io/about/">
-                                <hi rend="color(1155CC)">https://dlina.github.io/about</hi>
-                            </ref>, vgl. Fischer et al. 2017).
-                        </p>
-                    </note>
+                    <ref target="ftn3" n="3"/>
                 </p>
                 <p>Ihrem traditionellen Selbstverständnis nach ist die Literaturwissenschaft allerdings zentral an komplexen und innovativen 
                     <hi rend="italic">Interpretationen</hi> literarischer Texte interessiert
-                    <note place="foot" xml:id="ftn4" n="4">
-                        <p rend="footnote text"> So betonen beispielsweise Kindt und Köppe, dass literaturwissenschaftliche Interpretationen weniger auf strukturelle Aspekte oder bloßes Sprachverstehen gerichtet sind als vielmehr auf mannigfaltige, komplexe und oft nicht eindeutig umrissene Verstehensziele (vgl. Kindt/Köppe 2008: 12–14).</p>
-                    </note> – und wie diese durch digitale Methoden der Textanalyse befördert werden können, ist nicht evident.
+                    <ref target="ftn4" n="4"/> – und wie diese durch digitale Methoden der Textanalyse befördert werden können, ist nicht evident.
                 </p>
                 <p>Damit digitale Methoden eine breitere Akzeptanz finden, ist es deswegen notwendig, den Nutzen dieser Methoden auch für stärker hermeneutisch ausgerichtete geisteswissenschaftliche Forschungsfragen zu reflektieren. Unserem (weiten) Verständnis von “Hermeneutik” entsprechend handelt es sich bei hermeneutischen Forschungsfragen um Fragen, die auf die (holistische) Auslegung bzw. Deutung von Texten gerichtet sind (vgl. bspw. Spörl 2004: 128). In literaturwissenschaftlichen Zusammenhängen spielen dabei insbesondere Fragen nach Funktion bzw. Wirkung bestimmter Textelemente oder des Gesamttextes eine Rolle, ebenso wie die In-Beziehung-Setzung des Textes mit bestimmten Kontexten. Diese Forschungsfragen sollten exponiert im Zusammenhang mit der Entwicklung von Tools, digitaler Forschungsumgebungen und vor allem didaktischer Konzepte zur Vermittlung von DH-Methoden berücksichtigt werden. Diese Forderungen werden bisher jedoch nicht in zureichendem Maße erfüllt.
-                    <note place="foot" xml:id="ftn5" n="5">
-                        <p rend="footnote text"> So sind beispielsweise bestehende Verzeichnisse für Tools zur Textanalyse aufgrund der vornehmlich technisch ausgerichteten Beschreibungen für Geisteswissenschaftler ohne DH-Vorwissen äußerst schwer zugänglich (z.B. TAPoR, 
-                            <ref target="http://www.tapor.ca">
-                                <hi rend="color(1155CC)">http://www.tapor.ca</hi>
-                            </ref>). Einen vielversprechenden Ansatz zur nutzbaren Aufbereitung und Vermittlung digitaler Methoden – allerdings vornehmlich in schulischen Kontexten – stellt das Projekt “Digitalität in den Fachdidaktiken” dar (
-                            <ref target="http://dhd-blog.org/?p=6812">
-                                <hi rend="color(1155CC)">http://dhd-blog.org/?p=6812</hi>
-                            </ref>).
-                        </p>
-                    </note>
+                    <ref target="ftn5" n="5"/>
                 </p>
                 <p>Wir möchten in diesem Beitrag das aktuelle Projekt forTEXT (2017–2020) vorstellen, das der Vermittlung, Aufbereitung und Bereitstellung von Mitteln zur computergestützten Textanalyse insbesondere für hermeneutisch arbeitende Geisteswissenschaftler gewidmet ist. Im Folgenden sollen in diesem Zusammenhang zunächst die unterschiedlichen konzeptionellen Dimensionen (Abschnitt 2) sowie anschließend erste inhaltliche Ergebnisse des Projekts präsentiert werden (Abschnitt 3).</p>
             </div>
@@ -157,9 +124,7 @@
                     <p>(a) Orientierung an genuin geisteswissenschaftlichen Arbeitsweisen: Es geht, ganz im Sinne des geisteswissenschaftlichen Selbstverständnisses, um die Unterstützung der genuin 
                         <hi rend="italic">interpretativen</hi> Auseinandersetzung mit Texten. In anderen Worten: forTEXTs Fokus liegt 
                         <hi rend="italic">nicht</hi> ausschließlich auf der statistischen Auswertung von Texten, wie es sonst im Rahmen von DH-Methoden zur Textanalyse oft der Fall ist.
-                        <note place="foot" xml:id="ftn6" n="6">
-                            <p rend="footnote text"> So basieren zahlreiche DH-Praktiken zur Textanalyse auf der automatischen Verarbeitung von Textoberflächendaten wie Wortfrequenzen, beispielsweise stilometrische Untersuchungen oder Topic Modeling (vgl. Brett 2012).</p>
-                        </note> Auf diese Weise soll gewährleistet werden, dass traditioneller arbeitende Geisteswissenschaftler die Umgebung tatsächlich zur digitalen Unterstützung vertrauter Methoden der Textanalyse und -interpretation nutzen können und ihnen keine Hinwendung zur statistischen Textanalyse abverlangt wird.
+                        <ref target="ftn6" n="6"/> Auf diese Weise soll gewährleistet werden, dass traditioneller arbeitende Geisteswissenschaftler die Umgebung tatsächlich zur digitalen Unterstützung vertrauter Methoden der Textanalyse und -interpretation nutzen können und ihnen keine Hinwendung zur statistischen Textanalyse abverlangt wird.
                     </p>
                     <p>(b) Niedrigschwelliger Zugang: Geisteswissenschaftler sollen die digitale Forschungsumgebung 
                         <hi rend="italic">intuitiv</hi> und weitgehend ohne technische Vorkenntnisse nutzen können. Hierzu trägt zum einen die Tatsache bei, dass forTEXT ein individualisiertes Empfehlungssystem zur Verfügung stellt, das geisteswissenschaftlichen Nutzern Vorschläge unterbreitet, welche digitalen Ressourcen, Routinen und Tools für ihr Projekt hilfreich sein könnten (siehe auch Abschnitt 2.2). Nutzer werden also nicht einfach mit einem unüberschaubaren digitalen Angebot alleingelassen, dessen potenziellen Nutzen für die eigene Fragestellung sie sich erst noch selbst erschließen müssen. Zum anderen stellt forTEXT leicht verständliche Beschreibungen zu digitalen Methoden und Korpora zur Verfügung, ebenso wie intuitiv bedienbare Benutzeroberflächen für digitale Werkzeuge zur Textanalyse und -interpretation (siehe auch Abschnitt 2.3). Auf diese Weise können DH-Methoden ohne technisches Know-how sowie ohne das aufwändige Studieren von Nutzerhandbüchern eingesetzt werden.
@@ -180,9 +145,7 @@
                     </figure>
                     <p>Abb. 1: forTEXTs individualisiertes Empfehlungssystem für digitale Textuntersuchung (Ausschnitt des Prototyps)</p>
                     <p>Hier können die Nutzer beispielsweise angeben, ob sie schon Vorerfahrungen mit digitalen Methoden der Textanalyse gemacht haben, in welchem Zustand sich ihr Textkorpus befindet, unter welcher Fragestellung sie ihre Texte untersuchen wollen und welcher literaturtheoretischen Schule sie sich zuordnen.
-                        <note place="foot" xml:id="ftn7" n="7">
-                            <p rend="footnote text"> Der Fragebogen bietet Nutzern zudem die Option, auf fehlende Antwort- oder sogar Fragemöglichkeiten hinzuweisen. Auf diese Weise kann der Fragebogen – und mit ihm forTEXTs Empfehlungssystem – im Laufe des Projekts weiter optimiert werden.</p>
-                        </note> Als Output erhalten die Forscher, angepasst an die von ihnen gemachten Angaben, eine Liste mit Vorschlägen zu digitalen Korpora, Methoden und Werkzeugen, die zu ihrer Fragestellung und Arbeitsweise passen. Das Empfehlungssystem also eine individualisierte Kompilation aus forTEXTs Inhalten und Verzeichnissen, die im Folgenden kurz vorgestellt werden sollen.
+                        <ref target="ftn7" n="7"/> Als Output erhalten die Forscher, angepasst an die von ihnen gemachten Angaben, eine Liste mit Vorschlägen zu digitalen Korpora, Methoden und Werkzeugen, die zu ihrer Fragestellung und Arbeitsweise passen. Das Empfehlungssystem also eine individualisierte Kompilation aus forTEXTs Inhalten und Verzeichnissen, die im Folgenden kurz vorgestellt werden sollen.
                     </p>
                 </div>
                 <div type="div2" rend="DH-Heading2">
@@ -196,25 +159,14 @@
                     </p>
                     <p>(b) Ressourcen: Unter 
                         <hi rend="italic">Ressourcen</hi> ist ein Verzeichnis digital nutzbarer Korpora zu finden. Hierunter fallen sowohl hochqualitativ digitalisierte Textkorpora als auch inhaltlich annotierte Korpora, die nachgenutzt werden können. Einige annotierte Korpora werden im Rahmen von forTEXT selbst bzw. affiliierten Projekten produziert.
-                        <note place="foot" xml:id="ftn8" n="8">
-                            <p rend="footnote text"> Affiliierte Projekte sind beispielsweise “3DH” (
-                                <ref target="http://www.threedh.net">
-                                    <hi rend="color(1155CC)">http://www.threedh.net</hi>
-                                </ref>) und “SANTA: Shared Task on the Analysis of Narrative levels Through Annotation” (
-                                <ref target="https://sharedtasksinthedh.github.io/">
-                                    <hi rend="color(1155CC)">https://sharedtasksinthedh.github.io/</hi>
-                                </ref>), in deren Rahmen narrative Ebenen in Texten annotiert werden.
-                            </p>
-                        </note> Das Verzeichnis enthält darüber hinaus informative Beschreibungen der gelisteten Ressourcen.
+                        <ref target="ftn8" n="8"/> Das Verzeichnis enthält darüber hinaus informative Beschreibungen der gelisteten Ressourcen.
                     </p>
                     <p>(c) Tools: Im Bereich 
                         <hi rend="italic">Tools</hi> findet sich schließlich eine kommentierte Liste digitaler Werkzeug-Suites bzw. Funktionskomponenten, mithilfe derer unterschiedliche textanalytische und -interpretatorische Operationen durchgeführt oder unterstützt werden können. Darüber hinaus sollen in forTEXT auch eigene Funktionskomponenten entwickelt werden. Hierzu gehört vornehmlich die Weiterentwicklung des Textannotations- und Analyseprogramms CATMA (
                         <ref target="http://www.catma.de">
                             <hi rend="color(1155CC)">http://www.catma.de</hi>
                         </ref>) – aber auch die Entwicklung von graphischen Step-by-step-Benutzerschnittstellen für bestehende Tools.
-                        <note place="foot" xml:id="ftn9" n="9">
-                            <p rend="footnote text"> Ein Vorbild hierfür ist der bereits in CATMA integrierte “Query Builder”, mithilfe dessen Nutzer komplexe Abfragen über Text- und Annotationsdaten laufen lassen können, ohne eine Abfragesprache lernen zu müssen.</p>
-                        </note> Dies soll es technisch weniger versierten geisteswissenschaftlichen Nutzern ermöglichen, hochfunktionale Tools einzusetzen, ohne sich umfangreich einarbeiten zu müssen.
+                        <ref target="ftn9" n="9"/> Dies soll es technisch weniger versierten geisteswissenschaftlichen Nutzern ermöglichen, hochfunktionale Tools einzusetzen, ohne sich umfangreich einarbeiten zu müssen.
                     </p>
                     <p>Alle Verzeichnisse und Einträge aus den drei forTEXT-Bereichen Routinen, Ressourcen und Tools können von Nutzern eigenständig durchsucht und aufgerufen werden – oder es erfolgt ein angeleiteter Zugriff durch die Nutzung des Empfehlungssystems.</p>
                     <p>Im verbleibenden Teil dieses Beitrags möchten wir etwas genauer auf einen Lehrmodulentwurf eingehen, das dem forTEXT-Bereich 
@@ -226,9 +178,7 @@
                 <head>Lehrmodule Manuelles Annotieren</head>
                 <p>Zwei von forTEXTs 90-minütigen Lehrmodulen sind der Vermittlung der digitalen Methode des 
                     <hi rend="italic">manuellen Annotierens</hi> gewidmet. Die Methode des Annotierens stellt einen guten Brückenschlag zur traditionelleren geisteswissenschaftlichen Arbeitsweise dar – schließlich gehört das Anbringen von Notizen in zu interpretierenden literarischen Texten seit jeher zur literaturwissenschaftlichen Arbeitspraxis.
-                    <note place="foot" xml:id="ftn10" n="10">
-                        <p rend="footnote text"> Vgl. bspw. Bauer/Zirker 2015: Absatz 1.</p>
-                    </note> In den Lehrmodulen zum 
+                    <ref target="ftn10" n="10"/> In den Lehrmodulen zum 
                     <hi rend="italic">digitalen</hi> Annotieren gilt es nun, zum einen an die bereits bekannte Praxis anzuknüpfen und zum anderen deutlich zu machen, inwiefern die digitale Unterstützung es ermöglicht, bekannte Arbeitsprozesse deutlich effektiver durchzuführen, oder gar ganz neue Arbeitsweisen eröffnet, die das jeweilige Forschungsziel befördern.
                 </p>
                 <p>Um diese Anforderungen umzusetzen, sieht forTEXT zwei Lehreinheiten zum manuellen Annotieren vor, von denen wir die erste im Folgenden kurz vorstellen möchten.</p>
@@ -236,14 +186,7 @@
                     <hi rend="italic">Taxonomiebasiertes Annotieren</hi> wird schrittweise gezeigt, wie mithilfe des Annotations- und Analysetools CATMA freie Kommentare in literarischen Texten angebracht sowie analysiert und systematisiert werden können. Die Systematisierung freier Kommentare kann wiederum als Grundlage dienen, um eine Annotationstaxonomie zu entwickeln, die dann für eine noch feinere und zielgerichtetere Analyse des literarischen Textes genutzt werden kann.
                 </p>
                 <p>Das verwendete Programm CATMA ist hierbei in zweifacher Hinsicht auf die forTEXT-Paradigmen abgestimmt: Es bietet eine intuitiv bedienbare Benutzeroberfläche und unterstützt den freien, undogmatischen und genuin interpretativen Zugang zu Texten, während es zugleich Optionen stärkerer Formalisierung bereithält (vgl. Abb. 2).
-                    <note place="foot" xml:id="ftn11" n="11">
-                        <p rend="footnote text"> So hat sich CATMA beispielsweise dem Konzept des 
-                            <hi rend="italic">hermeneutischen Markups</hi> verschrieben – darunter verstehen wir nach Piez Markup das bewusst interpretativ und flexibel ist (vgl. Piez 2010). Auf diese Weise erlaubt CATMA beispielsweise mehrfache und sogar “widersprüchliche” Annotationen derselben Textstelle – dennoch sind die Annotationen im standardisierten TEI-Format exportierbar und somit flexibel nachnutzbar. Diese Markup-Eigenschaften werden im Backend ermöglicht durch Standoff-Markup und die Nutzung von TEI Feature Structures (
-                            <ref target="http://www.tei-c.org/release/doc/tei-p5-doc/de/html/FS.html">
-                                <hi rend="color(1155CC)">http://www.tei-c.org/release/doc/tei-p5-doc/de/html/FS.html</hi>
-                            </ref>).
-                        </p>
-                    </note>
+                    <ref target="ftn11" n="11"/>
                 </p>
                 <figure>
                     <graphic n="1002"
@@ -258,18 +201,64 @@
                 </p>
                 <p>Als zusätzliches Angebot an Literaturwissenschaftler, die für eine etwas stärkere Formalisierung ihres Zugangs offen sind, zeigt das Lehrmodul, welche weiteren Vorteile und Optionen 
                     <hi rend="italic">taxonomiebasiertes</hi> Annotieren mit sich bringt (bspw. bessere Vergleichbarkeit, detailliertere und vereinfachte Analyse, ggf. Reproduzierbarkeit etc.)
-                    <note place="foot" xml:id="ftn12" n="12">
-                        <p rend="footnote text"> Vgl. zu den Vorteilen von Klassifikationssystemen wie Taxonomien und Typologien auch Bailey 1994.</p>
-                    </note> und wie dieses digital umgesetzt werden kann. Diese Herangehensweise kann in der Folge auch die Nützlichkeit noch stärker formalistisch anmutender DH-Techniken plausibilisieren – wie beispielsweise der kollaborativen, guidelinegestützten Annotation
-                    <note place="foot" xml:id="ftn13" n="13">
-                        <p rend="footnote text"> Zur Methode und zum Nutzen kollaborativen Annotierens, siehe auch Gius/Jacke 2015 und Gius/Jacke 2017.</p>
-                    </note> oder der automatisierten Annotation bzw. Informationsextraktion.
+                    <ref target="ftn12" n="12"/> und wie dieses digital umgesetzt werden kann. Diese Herangehensweise kann in der Folge auch die Nützlichkeit noch stärker formalistisch anmutender DH-Techniken plausibilisieren – wie beispielsweise der kollaborativen, guidelinegestützten Annotation
+                    <ref target="ftn13" n="13"/> oder der automatisierten Annotation bzw. Informationsextraktion.
                 </p>
                 <p>Im Lehrmodul zum manuellen digitalen Annotieren sind also die Paradigmen umgesetzt, die auch die weitere Arbeit am forTEXT-Projekt bestimmen sollen: Durch stärkere Orientierung an der traditionell-geisteswissenschaftlichen Arbeitsweise und erleichterten Zugang können digitale Methoden einer breiteren Nutzergemeinschaft nähergebracht werden.</p>
             </div>
         </body>
         <back>
-            <div type="bibliogr">
+         <div type="notes">
+            <note xml:id="ftn1" n="1" rend="footnote text"> Wir werden aufgrund besserer Lesbarkeit im Folgenden nur noch die männliche Form verwenden – unsere Ausführungen beziehen sich aber selbstverständlich dennoch auf alle Geschlechter.</note>
+            <note xml:id="ftn2" n="2" rend="footnote text"> Auf diese persistente Skepsis verweisen beispielsweise auch Fiedler und Weiß in ihrem Tagungsbericht zur DHd-Konferenz 2015 in Graz (vgl. Fiedler/Weiß 2015).</note>
+            <note xml:id="ftn3" n="3" rend="footnote text"> Beispiele hierfür sind u.a. die folgenden Projekte aus dem Bereich der digitalen Literaturwissenschaft: “heureCLÉA”, ein Projekt zur automatischen Annotation von Zeitphänomenen in narrativen Texten (
+                            <ref target="http://heureclea.de">
+                                <hi rend="color(1155CC)">http://www.heureclea.de</hi>
+                            </ref>, vgl. Bögel et al. 2015); “Redewiedergabe. Eine literatur- und sprachwissenschaftliche Korpusanalyse”, ein Projekt zur automatisierten Annotation von Figurenrede (
+                            <ref target="http://www.redewiedergabe.de/">
+                                <hi rend="color(1155CC)">http://www.redewiedergabe.de</hi>
+                            </ref>, vgl. auch Brunner 2015); die “Computational Stylistics Group” (
+                            <ref target="https://sites.google.com/site/computationalstylistics/">
+                                <hi rend="color(1155CC)">https://sites.google.com/site/computationalstylistics</hi>
+                            </ref>, vgl. Rybicki/Eder/Hoover 2016); das “Rhythmicalizer”-Projekt (
+                            <ref target="http://www.rhythmicalizer.net/">
+                                <hi rend="color(1155CC)">http://www.rhythmicalizer.net</hi>
+                            </ref>, vgl. Baumann/Meyer-Sickendiek 2016), das ein Tool zur Erkennung von Prosodie in freien Versen entwickelt; ebenso wie Projekte zur Analyse von Figurennetzwerken wie etwa “Digital Literary Network Analysis” (
+                            <ref target="https://dlina.github.io/about/">
+                                <hi rend="color(1155CC)">https://dlina.github.io/about</hi>
+                            </ref>, vgl. Fischer et al. 2017).
+                        </note>
+            <note xml:id="ftn4" n="4" rend="footnote text"> So betonen beispielsweise Kindt und Köppe, dass literaturwissenschaftliche Interpretationen weniger auf strukturelle Aspekte oder bloßes Sprachverstehen gerichtet sind als vielmehr auf mannigfaltige, komplexe und oft nicht eindeutig umrissene Verstehensziele (vgl. Kindt/Köppe 2008: 12–14).</note>
+            <note xml:id="ftn5" n="5" rend="footnote text"> So sind beispielsweise bestehende Verzeichnisse für Tools zur Textanalyse aufgrund der vornehmlich technisch ausgerichteten Beschreibungen für Geisteswissenschaftler ohne DH-Vorwissen äußerst schwer zugänglich (z.B. TAPoR, 
+                            <ref target="http://www.tapor.ca">
+                                <hi rend="color(1155CC)">http://www.tapor.ca</hi>
+                            </ref>). Einen vielversprechenden Ansatz zur nutzbaren Aufbereitung und Vermittlung digitaler Methoden – allerdings vornehmlich in schulischen Kontexten – stellt das Projekt “Digitalität in den Fachdidaktiken” dar (
+                            <ref target="http://dhd-blog.org/?p=6812">
+                                <hi rend="color(1155CC)">http://dhd-blog.org/?p=6812</hi>
+                            </ref>).
+                        </note>
+            <note xml:id="ftn6" n="6" rend="footnote text"> So basieren zahlreiche DH-Praktiken zur Textanalyse auf der automatischen Verarbeitung von Textoberflächendaten wie Wortfrequenzen, beispielsweise stilometrische Untersuchungen oder Topic Modeling (vgl. Brett 2012).</note>
+            <note xml:id="ftn7" n="7" rend="footnote text"> Der Fragebogen bietet Nutzern zudem die Option, auf fehlende Antwort- oder sogar Fragemöglichkeiten hinzuweisen. Auf diese Weise kann der Fragebogen – und mit ihm forTEXTs Empfehlungssystem – im Laufe des Projekts weiter optimiert werden.</note>
+            <note xml:id="ftn8" n="8" rend="footnote text"> Affiliierte Projekte sind beispielsweise “3DH” (
+                                <ref target="http://www.threedh.net">
+                                    <hi rend="color(1155CC)">http://www.threedh.net</hi>
+                                </ref>) und “SANTA: Shared Task on the Analysis of Narrative levels Through Annotation” (
+                                <ref target="https://sharedtasksinthedh.github.io/">
+                                    <hi rend="color(1155CC)">https://sharedtasksinthedh.github.io/</hi>
+                                </ref>), in deren Rahmen narrative Ebenen in Texten annotiert werden.
+                            </note>
+            <note xml:id="ftn9" n="9" rend="footnote text"> Ein Vorbild hierfür ist der bereits in CATMA integrierte “Query Builder”, mithilfe dessen Nutzer komplexe Abfragen über Text- und Annotationsdaten laufen lassen können, ohne eine Abfragesprache lernen zu müssen.</note>
+            <note xml:id="ftn10" n="10" rend="footnote text"> Vgl. bspw. Bauer/Zirker 2015: Absatz 1.</note>
+            <note xml:id="ftn11" n="11" rend="footnote text"> So hat sich CATMA beispielsweise dem Konzept des 
+                            <hi rend="italic">hermeneutischen Markups</hi> verschrieben – darunter verstehen wir nach Piez Markup das bewusst interpretativ und flexibel ist (vgl. Piez 2010). Auf diese Weise erlaubt CATMA beispielsweise mehrfache und sogar “widersprüchliche” Annotationen derselben Textstelle – dennoch sind die Annotationen im standardisierten TEI-Format exportierbar und somit flexibel nachnutzbar. Diese Markup-Eigenschaften werden im Backend ermöglicht durch Standoff-Markup und die Nutzung von TEI Feature Structures (
+                            <ref target="http://www.tei-c.org/release/doc/tei-p5-doc/de/html/FS.html">
+                                <hi rend="color(1155CC)">http://www.tei-c.org/release/doc/tei-p5-doc/de/html/FS.html</hi>
+                            </ref>).
+                        </note>
+            <note xml:id="ftn12" n="12" rend="footnote text"> Vgl. zu den Vorteilen von Klassifikationssystemen wie Taxonomien und Typologien auch Bailey 1994.</note>
+            <note xml:id="ftn13" n="13" rend="footnote text"> Zur Methode und zum Nutzen kollaborativen Annotierens, siehe auch Gius/Jacke 2015 und Gius/Jacke 2017.</note>
+         </div>
+         <div type="bibliogr">
                 <listBibl>
                     <head>Bibliographie</head>
                     <bibl>Bailey, Kenneth D. (1994): 
@@ -403,6 +392,6 @@
                     </bibl>
                 </listBibl>
             </div>
-        </back>
+      </back>
     </text>
 </TEI>

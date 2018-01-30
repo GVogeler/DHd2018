@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xml:id="LEBHERZ_Daniel_Text_Mining_und_Computersimulation_zur_Analys">
-    <teiHeader>
+   <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Text Mining und Computersimulation zur Analyse autobiographischer Texte: Einflüsse auf das literarische Schaffen Klaus Manns</title>
@@ -91,17 +91,12 @@
          </settingDesc>
       </profileDesc>
     </teiHeader>
-    <text>
+   <text>
         <body>
             <p>„Ist das alles?“ (Mann 1995, S. 151) – Die vorwurfsvoll anmutende (rhetorische) Frage, die Klaus Mann Ende Juni 1933 unter einer Auflistung seiner Werke des zurückliegenden Halbjahrs in seinem Tagebuch notiert, gibt einen Hinweis darauf, wie selbstkritisch sich der Schriftsteller mit dem eigenen Schaffen auseinandersetzt. Angesichts der persönlichen und politischen Umstände sowie der Vielzahl an Kontakten und Aktivitäten, die er in seinem Journal verzeichnet, erscheint es fast etwas überraschend, dass die gut drei Monate nach seiner Emigration erstellte Werkliste immerhin 21 – wenn auch größtenteils kürzere – Texte umfasst. In Anbetracht seiner ständigen Rastlosigkeit stellt sich nicht nur die Frage, wann Klaus Mann überhaupt seiner eigentlichen schriftstellerischen Arbeit nachgeht, sondern auch, welche Faktoren zum Ge- oder Misslingen seines Schaffens beitragen. Wie wirken sich beispielsweise die beinahe allabendlichen Theater-, Kino- und Barbesuche oder die mehr oder weniger regelmäßig eingenommenen Rauschmittel auf seine literarische Produktivität aus? Welche Rolle spielt das tägliche Lektürepensum? Haben die zahlreichen Treffen, Telefonate und Korrespondenzen Einfluss auf seine schriftstellerische Arbeit? Oder erweisen sich die politischen Umstände, Angst, Verzweiflung und Hass gegenüber dem Nationalsozialismus als entscheidendes Vehikel literarischer Produktivität?</p>
             <p>Aufgrund des Umfangs und der Detailgenauigkeit seiner alltäglichen Schilderungen von Gedanken und Aktivitäten – insbesondere auch der teilweise bis auf die Tageszeit genauen Protokollierung seiner Arbeitsprozesse – erscheinen Klaus Manns Tagebücher als idealer Untersuchungsgegenstand zur Beantwortung der aufgeworfenen Fragen. Gerade die Vielzahl und Komplexität der darin enthaltenen Informationen machen es jedoch schwierig, sich potentiellen Faktoren literarischer Produktivität tiefergehend analytisch zu nähern. Um diese große Anzahl an Informationen und deren Zusammenhänge besser bzw. überhaupt untersuchen zu können, sollen im Rahmen von 
                 <hi rend="italic">eXplore!</hi>
-                <note place="foot" xml:id="ftn1" n="1">
-                    <p rend="footnote text">
-                        <hi rend="italic">eXplore!</hi>: 
-                        <hi rend="italic">Computergestützte Modellierung, Analyse und Exploration als Grundlage für eScience in den eHumanities</hi> (Fz: 01UG1606) wird vom Bundesministerium für Bildung und Forschung (BMBF) gefördert.
-                    </p>
-                </note> am Fallbeispiel der Klaus Mann-Tagebücher verschiedene Methoden des Text Mining angewendet werden. Zur Unterstützung und Strukturierung der Analyseprozesse werden Scientific Workflows erstellt und ausgeführt. Auf Basis der mit Text Mining erzielten Ergebnisse sollen Methoden der Computersimulation eingesetzt werden, um die eingangs aufgeworfenen Fragen beantworten zu können (Abb. 1).
+                <ref target="ftn1" n="1"/> am Fallbeispiel der Klaus Mann-Tagebücher verschiedene Methoden des Text Mining angewendet werden. Zur Unterstützung und Strukturierung der Analyseprozesse werden Scientific Workflows erstellt und ausgeführt. Auf Basis der mit Text Mining erzielten Ergebnisse sollen Methoden der Computersimulation eingesetzt werden, um die eingangs aufgeworfenen Fragen beantworten zu können (Abb. 1).
             </p>
             <figure>
                 <graphic n="1001"
@@ -128,7 +123,13 @@
             </p>
         </body>
         <back>
-            <div type="bibliogr">
+         <div type="notes">
+            <note xml:id="ftn1" n="1" rend="footnote text">
+                        <hi rend="italic">eXplore!</hi>: 
+                        <hi rend="italic">Computergestützte Modellierung, Analyse und Exploration als Grundlage für eScience in den eHumanities</hi> (Fz: 01UG1606) wird vom Bundesministerium für Bildung und Forschung (BMBF) gefördert.
+                    </note>
+         </div>
+         <div type="bibliogr">
                 <listBibl>
                     <head>Bibliographie</head>
                     <bibl>
@@ -216,6 +217,6 @@
                     </bibl>
                 </listBibl>
             </div>
-        </back>
+      </back>
     </text>
 </TEI>

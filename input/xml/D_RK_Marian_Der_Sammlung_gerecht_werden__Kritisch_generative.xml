@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xml:id="D_RK_Marian_Der_Sammlung_gerecht_werden__Kritisch_generative">
-    <teiHeader>
+   <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title type="full">
@@ -85,17 +85,13 @@
          </settingDesc>
       </profileDesc>
     </teiHeader>
-    <text>
+   <text>
         <body>
             <div type="div1" rend="DH-Heading1">
                 <head>Einleitung</head>
                 <p>Das Versprechen hinter Digitalisierungsprojekten in sammelnden Institutionen ist oft die Erweiterung des Zugangs zum kulturellen Erbe, sei es für die Forschung oder im Sinne der Vermittlung. Bei kritischer Betrachtung fast aller Benutzerschnittstellen für Sammlungen scheint es aber an Ansätzen zu fehlen, reichhaltige Informationsräume einladend bereitzustellen. Diese Diskrepanz zwischen Digitalisierung von Sammlungen und ihrer digitalen Verfügbarmachung lässt sich dadurch begründen, dass Kultureinrichtungen selten über die nötige Kapazität verfügen, eigenständig Benutzerschnittstellen zu konzipieren und umzusetzen. Die Zielstellung des dreijährigen Forschungsprojektes 
                     <hi rend="italic">Visualisierung kultureller Sammlungen</hi> (VIKUS) an der Fachhochschule Potsdam
-                    <note xml:id="ftn1" place="foot" n="1">
-                        <ref target="https://uclab.fh-potsdam.de/projects/vikus/">https://uclab.fh-potsdam.de/</ref>
-                        <ref target="https://uclab.fh-potsdam.de/projects/vikus/">project/</ref>
-                        <ref target="https://uclab.fh-potsdam.de/projects/vikus/">vikus/</ref>
-                    </note> war die Erforschung graphischer Benutzerschnittstellen zur explorativen Sichtung von Kulturobjekten. Im Projekt wurden in Kooperation mit Kultur- und Technologiepartnern Erkenntnisse zur visuellen Exploration digitalisierter Sammlungen gewonnen (Glinka et al. 2017a), die Entwicklung nachhaltiger Technologielösungen behandelt (Glinka et al. 2017b) und in experimentellen Settings kritisch-generative Methoden erprobt. Zu letzterem zählt die Übertragung der Forschungsfragen in den Kontext eines interdisziplinären Lehrformats, welches wir in unserem Beitrag diskutieren. Wir gehen insbesondere auf den produktiven Zusammenhang zwischen Kritik und Konzeption von Informationsvisualisierungen ein und zeigen auf, welche Potenziale ein bewusster Bruch mit disziplinären Konventionen und Sehgewohnheiten mit sich bringt.
+                    <ref target="ftn1" n="1"/> war die Erforschung graphischer Benutzerschnittstellen zur explorativen Sichtung von Kulturobjekten. Im Projekt wurden in Kooperation mit Kultur- und Technologiepartnern Erkenntnisse zur visuellen Exploration digitalisierter Sammlungen gewonnen (Glinka et al. 2017a), die Entwicklung nachhaltiger Technologielösungen behandelt (Glinka et al. 2017b) und in experimentellen Settings kritisch-generative Methoden erprobt. Zu letzterem zählt die Übertragung der Forschungsfragen in den Kontext eines interdisziplinären Lehrformats, welches wir in unserem Beitrag diskutieren. Wir gehen insbesondere auf den produktiven Zusammenhang zwischen Kritik und Konzeption von Informationsvisualisierungen ein und zeigen auf, welche Potenziale ein bewusster Bruch mit disziplinären Konventionen und Sehgewohnheiten mit sich bringt.
                 </p>
             </div>
             <div type="div1" rend="DH-Heading1">
@@ -161,10 +157,7 @@
                         </figure>
                     </p>
                     <p>Abb. 3: Visualisierung der numismatischen Sammlung des Berliner Münzkabinetts
-                        <note xml:id="ftn2" place="foot" n="2">
-                            <ref target="https://uclab.fh-potsdam.de/coins">https://uclab.fh-potsdam.de/</ref>
-                            <ref target="https://uclab.fh-potsdam.de/coins">coins</ref>
-                        </note> (Flavio Gortana, Daniela Guhlmann, Franziska von Tenspolde).
+                        <ref target="ftn2" n="2"/> (Flavio Gortana, Daniela Guhlmann, Franziska von Tenspolde).
                     </p>
                 </div>
             </div>
@@ -176,7 +169,18 @@
             </div>
         </body>
         <back>
-            <div type="bibliogr">
+         <div type="notes">
+            <note xml:id="ftn1" n="1" place="foot">
+                        <ref target="https://uclab.fh-potsdam.de/projects/vikus/">https://uclab.fh-potsdam.de/</ref>
+                        <ref target="https://uclab.fh-potsdam.de/projects/vikus/">project/</ref>
+                        <ref target="https://uclab.fh-potsdam.de/projects/vikus/">vikus/</ref>
+                    </note>
+            <note xml:id="ftn2" n="2" place="foot">
+                            <ref target="https://uclab.fh-potsdam.de/coins">https://uclab.fh-potsdam.de/</ref>
+                            <ref target="https://uclab.fh-potsdam.de/coins">coins</ref>
+                        </note>
+         </div>
+         <div type="bibliogr">
                 <listBibl>
                     <head>Bibliographie</head>
                     <bibl>
@@ -233,6 +237,6 @@
                     </bibl>
                 </listBibl>
             </div>
-        </back>
+      </back>
     </text>
 </TEI>

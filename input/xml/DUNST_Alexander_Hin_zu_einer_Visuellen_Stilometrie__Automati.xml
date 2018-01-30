@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xml:id="DUNST_Alexander_Hin_zu_einer_Visuellen_Stilometrie__Automati">
-    <teiHeader>
+   <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Hin zu einer Visuellen Stilometrie: Automatische Genre- und Autorunterscheidung in graphischen Narrativen</title>
@@ -82,22 +82,18 @@
          </settingDesc>
       </profileDesc>
     </teiHeader>
-    <text>
+   <text>
         <body>
             <p>1. Einleitung</p>
             <p>Stilometrische Untersuchungen haben eine lange Tradition in der Literaturwissenschaft und erleben mit der Digitalisierung von Textkorpora und Analysemethoden in den letzten drei Jahrzehnten einen erneuten Aufschwung (Holmes und Calle-Martín &amp; Miranda-García). Ähnliche Tendenzen sind in den vergangenen Jahren auch in der Kunstgeschichte zu verzeichnen (Kohle; Qu, Taeb &amp; Hughes; Manovich). Im Gegensatz dazu sind stilometrische Untersuchen visueller Erzählungen noch nicht etabliert.
                 <hi rend="endnote_reference">
-                    <note place="end">
-                        <p rend="endnote text"> Zwar hatte Manovich stilistische Bildanalysen auch auf Manga angewandt. Diese Studien blieben aber weitgehend explorativ und ließen keine Rückschlüsse auf Konzepte wie Autorschaft oder Genre zu (Manovich, Douglas &amp; Zepel). </p>
-                    </note>
+                    
                 </hi> In den Bereich visueller, oder multimodaler, Narrative fallen etwa Comics, Filme und Fernsehserien, aber auch zu einem gewissen Grad Computerspiele, und damit viele der populärsten Erzählformen des 20. und 21. Jahrhunderts. Das Fehlen einschlägiger Forschung gründet einerseits auf die technischen Herausforderungen digitaler Bildanalyse, andererseits auf den Fokus auf qualitative und ideologiekritische Zugänge in großen Teilen der Medien- und Kulturwissenschaft. Auf Basis eines Corpus von 138 graphischen Romanen (Comicbüchern in Romanlänge) stellt unser Vortrag eine Methode zur automatischen Genre- und Autorunterscheidung vor. Weiters erörtern wir die Herausforderungen stilometrischer Methoden für Erzählformen, die Text und Bild kombinieren, und diskutieren abschließend die potenzielle Übertragbarkeit des vorgestellten Zugangs auf andere Medien.
             </p>
             <p>2. Datenbasis &amp; Methode</p>
             <p>Die Basis der Untersuchungen stellt das erste repräsentative Corpus graphischer Romane dar, dass sich derzeit im Aufbau befindet (Dunst, Hartel &amp; Laubrock). Zum Zeitpunkt der Untersuchungen im Mai 2017 waren 160 Volltexte digitalisiert; davon wurden aufgrund mangelnder Scanqualität bei einigen Titeln 138 Bücher mit einer Gesamtmenge von rund 33.000 Seiten für die Corpusstudie herangezogen. Der Fokus auf Bildanalyse ergab sich dabei sowohl aus methodischen als auch aus praktischen Überlegungen: einerseits sind Methoden zur stilometrischen Textanalyse bereits etabliert und werden laufend weiterentwickelt. Viele davon lassen sich direkt auf Comicstext anwenden oder dafür adaptieren. Andererseits bereitet eine zuverlässige, automatisierte Textlokalisierung und -Erkennung in Comics weiterhin Probleme. Damit bleibt derzeit nur der Weg über eine semi-automatische und zeitintensive Textannotation.
                 <hi rend="endnote_reference">
-                    <note place="end">
-                        <p rend="endnote text"> Diese bietet die Beta-Version unseres graphischen XML-Editors an, der unter folgender Adresse frei verfügbar ist: https://groups.uni-paderborn.de/graphic-literature/wp/?page_id=3592.</p>
-                    </note>
+                    
                 </hi> Für größere Korpora bietet sich diese Methode daher nicht an. Drei visuelle Maße stellten die Basis unserer Berechnungen dar. Für all diese Maße wurde das Bild zunächst mithilfe einer linearen Näherung der Luminanz in eine Graustufen-Darstellung des Bildes umgewandelt. 
             </p>
             <list type="unordered">
@@ -208,7 +204,11 @@
             </p>
         </body>
         <back>
-            <div type="bibliogr">
+         <div type="notes">
+            <note rend="endnote text"> Zwar hatte Manovich stilistische Bildanalysen auch auf Manga angewandt. Diese Studien blieben aber weitgehend explorativ und ließen keine Rückschlüsse auf Konzepte wie Autorschaft oder Genre zu (Manovich, Douglas &amp; Zepel). </note>
+            <note rend="endnote text"> Diese bietet die Beta-Version unseres graphischen XML-Editors an, der unter folgender Adresse frei verfügbar ist: https://groups.uni-paderborn.de/graphic-literature/wp/?page_id=3592.</note>
+         </div>
+         <div type="bibliogr">
                 <listBibl>
                     <head>Bibliographie</head>
                     <bibl>5. Bibliographie</bibl>
@@ -232,6 +232,6 @@
                     </bibl>
                 </listBibl>
             </div>
-        </back>
+      </back>
     </text>
 </TEI>

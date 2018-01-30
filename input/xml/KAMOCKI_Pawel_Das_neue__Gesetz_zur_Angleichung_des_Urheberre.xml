@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xml:id="KAMOCKI_Pawel_Das_neue__Gesetz_zur_Angleichung_des_Urheberre">
-    <teiHeader>
+   <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Das neue "Gesetz zur Angleichung des Urheberrechts an die aktuellen Erfordernisse der Wissensgesellschaft" und seine Auswirkungen für Digital Humanities</title>
@@ -100,7 +100,7 @@
          </settingDesc>
       </profileDesc>
     </teiHeader>
-    <text>
+   <text>
         <body>
             <p>Forschungsdaten im Bereich der Digital Humanities sind bekanntlich häufig urheberrechtlich bzw. durch das sui-generis-Recht für Datenbanken geschützt. Dementsprechend ist eine Erhebung und Verwendung der Daten nur rechtlich zulässig, wenn der Rechteinhaber seine Zustimmung erteilt hat oder eine gesetzlich vorgesehene Schrankenregelung eingreift. Die Einholung der notwendigen Lizenzen ist allerdings häufig sehr aufwendig und nicht zuletzt kostspielig; um den mit der Nutzung der Daten verbundenen Aufwand zu verringern, führte der Gesetzgeber nun Schrankenregelungen für die Wissenschaft ein.</p>
             <p>Auf EU-Ebene eröffnete die Urheberrechtsrichtlinie (RL 2001/29/EG) den Mitgliedstaaten die Möglichkeit, Ausnahmeregelungen zu schaffen, um die Vervielfältigung von Werken und ihre öffentliche Zugänglichmachung für nicht-kommerzielle Zwecke zu ermöglichen. Einzige Voraussetzung dafür war die Angabe der jeweiligen Quelle. Eine ähnliche Ausnahmeregelung für Forschungszwecke ist in Art. 9 b der Richtlinie 96/9/EG über den rechtlichen Schutz von Datenbanken vorgesehen; allerdings erlaubt diese lediglich die Entnahme (und nicht die Weiterverwendung) von Daten aus einer der Öffentlichkeit - in welcher Weise auch immer - zur Verfügung gestellten Datenbank.</p>

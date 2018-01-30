@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xml:id="KONLE_Leonard_Analysing_Direct_Speech_in_German_Novels">
-    <teiHeader>
+   <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title type="full">
@@ -106,7 +106,7 @@
          </settingDesc>
       </profileDesc>
     </teiHeader>
-    <text>
+   <text>
         <body>
             <div type="div1" rend="DH-Heading1">
                 <head>
@@ -137,16 +137,11 @@
                     <anchor xml:id="id_docs-internal-guid-68b34743-f5cc-960c-9591-0e3103362c5b"/>
                     <hi rend="color(#000000)">The following experiments are based on three German corpora. The first one is a large corpus containing 4600+ public domain novels including texts from the TextGrid digital library</hi>
                     <hi rend="color(#000000)">
-                        <note xml:id="ftn1" place="foot" n="1">
-                            <ptr target="https://textgrid.de/digitale-bibliothek"/>
-                            <hi rend="color(#006621)"> </hi>
-                        </note>
+                        <ref target="ftn1" n="1"/>
                     </hi>
                     <hi rend="color(#000000)"> and Project Gutenberg</hi>
                     <hi rend="color(#000000)">
-                        <note xml:id="ftn2" place="foot" n="2">
-                            <ref target="https://gutenberg.spiegel.de/">https://gutenberg.spiegel.de</ref>
-                        </note>
+                        <ref target="ftn2" n="2"/>
                     </hi>
                     <hi rend="color(#000000)">. We will refer to this as the Corpus </hi>
                     <hi rend="color(#000000)italic">Public Domain</hi>
@@ -179,11 +174,7 @@
                     <anchor xml:id="id_docs-internal-guid-68b34743-f5cd-a66a-7b59-c12c3e1ae61c"/>The following experiments use both labelled subsets described above, the large 
                     <hi rend="italic">Kerncorpus</hi>
                     <hi rend="italic">
-                        <note xml:id="ftn0" place="foot" n="3">
-                            <p>
-                                <anchor xml:id="id_docs-internal-guid-5e3754e0-f67e-59e2-5068-babb8eab0c70"/> We cannot use the remaining texts for either training or evaluation, as we do not have any reliable source of labels for these texts.
-                            </p>
-                        </note>
+                        <ref target="ftn0" n="3"/>
                     </hi>
                     <hi rend="italic"> </hi>and the smaller 
                     <hi rend="italic">ALB</hi>. For all experiments, quotation marks are removed from the texts. This is done to avoid training models that rely only on the formal style of qualifying direct speech, but also consider implicit signs like the use of first person verbs or speech words.
@@ -316,7 +307,19 @@
             </div>
         </body>
         <back>
-            <div type="bibliogr">
+         <div type="notes">
+            <note xml:id="ftn1" n="1" place="foot">
+                            <ptr target="https://textgrid.de/digitale-bibliothek"/>
+                            <hi rend="color(#006621)"> </hi>
+                        </note>
+            <note xml:id="ftn2" n="2" place="foot">
+                            <ref target="https://gutenberg.spiegel.de/">https://gutenberg.spiegel.de</ref>
+                        </note>
+            <note xml:id="ftn0" n="3">
+                                <anchor xml:id="id_docs-internal-guid-5e3754e0-f67e-59e2-5068-babb8eab0c70"/> We cannot use the remaining texts for either training or evaluation, as we do not have any reliable source of labels for these texts.
+                            </note>
+         </div>
+         <div type="bibliogr">
                 <listBibl>
                     <head>Bibliography</head>
                     <bibl>
@@ -352,6 +355,6 @@
                     </bibl>
                 </listBibl>
             </div>
-        </back>
+      </back>
     </text>
 </TEI>
