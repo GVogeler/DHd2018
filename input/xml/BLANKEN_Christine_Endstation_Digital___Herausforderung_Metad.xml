@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xml:id="BLANKEN_Christine_Endstation_Digital___Herausforderung_Metad">
-    <teiHeader>
+   <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Endstation Digital?! Herausforderung Metadaten und Nachhaltigkeit in musikwissenschaftlichen Datenbanken</title>
@@ -83,7 +83,7 @@
          </settingDesc>
       </profileDesc>
     </teiHeader>
-    <text>
+   <text>
         <body>
             <p rend="paper_abstract">I.</p>
             <p rend="paper_abstract">Ausgangspunkt war eine reine Metadaten-Sammlung zu Werken und Quellen Johann Sebastian Bachs (1999-2008: „Göttinger Bach-Katalog“), die zum Abschluss der ‚Neuen Bach-Ausgabe‘ am Johann Sebastian Bach-Institut Göttingen erfolgte. Dieses Metadatensammlung war 2008 die Basis für den Projektstart von „Bach digital“. Seitdem erfolgte mittels kontinuierlicher Förderung durch die DFG ein mehrstufig angelegter Ausbau:</p>

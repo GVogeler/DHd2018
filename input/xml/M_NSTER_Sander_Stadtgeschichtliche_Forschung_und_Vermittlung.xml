@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xml:id="M_NSTER_Sander_Stadtgeschichtliche_Forschung_und_Vermittlung">
-    <teiHeader>
+   <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Stadtgeschichtliche Forschung und Vermittlung anhand historischer Fotos als Forschungsgegenstand – Ein Zwischenbericht der Nachwuchsgruppe HistStadt4D </title>
@@ -122,7 +122,7 @@
          </settingDesc>
       </profileDesc>
     </teiHeader>
-    <text>
+   <text>
         <body>
             <p rend="ewic-Introduction">1. Einleitung</p>
             <p>Historische Fotografien sowie Pläne sind eine wesentliche Quellengrundlage baugeschichtlicher Forschung (Burke, 2003, Paul, 2006, Wohlfeil, 1986, Pérez-Gómez and Pelletier, 1997) und ebenso wie diese zentrale Gegenstände der Digital Humanities (Kwastek, 2014). Im Zuge von Digitalisierungsvorhaben wurden eine Reihe digitaler Bildarchive errichtet und umfangreiche Fotografie- und Planquellen in derartige Repositorien überführt. Dabei stellt sich jedoch nicht nur die Schwierigkeit, für eine Erforschung relevante und aussagekräftige Quellen zu finden und zu identifizieren, sondern auch, diese zu untersuchen, zu kontextualisieren und zu vergleichen sowie die darin beschriebenen historischen Objekte vorstellbar zu machen. Die durch das BMBF geförderte eHumanities-Nachwuchsgruppe HistStadt4D adressiert anhand stadt- und baugeschichtlicher Forschungsfragen und Vermittlungsanliegen zur Historie der Stadt Dresden die Untersuchung und Entwicklung von methodischen und technologischen Ansätzen, umfangreiche Repositorien historischer Medien und Kontextinformationen räumlich dreidimensional sowie zeitlich zusammenzuführen, zu strukturieren und zu annotieren sowie diese für Wissenschaftler und Öffentlichkeit mittels eines 4D-Browsers sowie einer ortsabhängigen Augmented-Reality-Darstellung als Informationsbasis, Forschungswerkzeug und zur Vermittlung geschichtlichen Wissens nutzbar zu machen. Prototypische Datenbasis stellen dabei ca. 30.000 digitalisierte historische Fotografien und Pläne des historischen Dresdens dar.</p>
@@ -172,7 +172,7 @@
             <p>Welches Resümee lässt sich nach einem Jahr Forschungsarbeit in der Nachwuchsgruppe ziehen? Neben der vorgestellten Forschung in den jeweiligen Untersuchungsgebieten stellt insbesondere die Schaffung von Schnittstellen zwischen diesen Bereichen eine wichtige und kontinuierliche Aufgabe dar. Praktisch bewährt haben sich in unserer Arbeit beispielsweise Elemente wie eine gemeinsame Ergebnisvision, eine engmaschige Abstimmung und ein agiles Arbeitsvorgehen. Vor diesem Hintergrund soll der hier vorgeschlagene Beitrag nicht nur Forschungsergebnisse aufzeigen sondern auch Strategien zur interdisziplinären Gruppenarbeit vorstellen und diskutieren.</p>
         </body>
         <back>
-            <div type="bibliogr">
+         <div type="bibliogr">
                 <listBibl>
                     <head>Bibliographie</head>
                     <bibl rend="EndNote Bibliography">
@@ -324,6 +324,6 @@
                     </bibl>
                 </listBibl>
             </div>
-        </back>
+      </back>
     </text>
 </TEI>

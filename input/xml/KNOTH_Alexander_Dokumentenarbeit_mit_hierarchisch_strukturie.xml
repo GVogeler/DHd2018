@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xml:id="KNOTH_Alexander_Dokumentenarbeit_mit_hierarchisch_strukturie">
-    <teiHeader>
+   <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Dokumentenarbeit mit hierarchisch strukturierten Texten: Eine historisch vergleichende Analyse von Verfassungen</title>
@@ -91,7 +91,7 @@
          </settingDesc>
       </profileDesc>
     </teiHeader>
-    <text>
+   <text>
         <body>
             <div type="div1" rend="DH-Heading1">
                 <head>Einleitung: Verfassungsvergleich als Spiegel staatlichen Wandels?</head>
@@ -208,9 +208,7 @@
                     </figure>
                     <p>Das Beispiel zeigt die politische Kernkategorie, den Bürger, in Version 7 der irländischen Verfassung. Die textuelle Umgebung ist durch Begriffe wie Gesetz (42 mal), Gerichtshof (37 mal) und Präsident (28 mal), die Hinweise dazu liefern in welchen Sinnzusammenhängen der Bürger theamtisiert wird, gekennzeichnet. Die Begriffe Person (26 mal) und Staat (25 mal) weisen darauf hin, dass es sich beim Bürger offenbar tatsächlich um eine Kategorisierung als Person handelt, die wiederum in irgendeiner Beziehung zum Staat steht. Dieser Zusammenhang, die Beziehung von Bürger und Staat kann nun mithilfe von (historischen) Kontextrecherchen und Literatur basierten Konzepten und Theorien genauer untersucht werden. </p>
                     <p>Zur Erstellung der Wortprofile, d.h. für die Anreicherung der Daten mit bspw. Lemmata, POS-Taggs und Dependenzrelationen wurde die Pipeline des DARIAH-DKPro-Wrapper
-                        <note place="foot" xml:id="ftn1" n="1">
-                            <p rend="footnote text"> Im Zuge dieses Entwicklungsschrittes wurden u.a. folgende Tagger und Parser verwendet: Open NLP Segmenter, Mate Tools POS-Tagger, Mate Tools Lemmatizer, Open NLP Chunker, Mate Tools Morphological Analyzer, Hyphenation Annotator, CoreNLP Named Entity Recognizer, Mate Tools Dependency Parser. </p>
-                        </note> des NLP-Toolkits DKPro Core (vgl. Eckart de Castilho und Gurevych (2014)) benutzt. Das ermöglicht die Ausgabe der syntaktischen Relationen, die das gezählte Wort mit anderen Wörtern eingeht, zusammen mit ihren Häufigkeiten (Abbildung 5).
+                        <ref target="ftn1" n="1"/> des NLP-Toolkits DKPro Core (vgl. Eckart de Castilho und Gurevych (2014)) benutzt. Das ermöglicht die Ausgabe der syntaktischen Relationen, die das gezählte Wort mit anderen Wörtern eingeht, zusammen mit ihren Häufigkeiten (Abbildung 5).
                     </p>
                     <figure>
                         <graphic n="1005"
@@ -244,7 +242,10 @@
             </div>
         </body>
         <back>
-            <div type="bibliogr">
+         <div type="notes">
+            <note xml:id="ftn1" n="1" rend="footnote text"> Im Zuge dieses Entwicklungsschrittes wurden u.a. folgende Tagger und Parser verwendet: Open NLP Segmenter, Mate Tools POS-Tagger, Mate Tools Lemmatizer, Open NLP Chunker, Mate Tools Morphological Analyzer, Hyphenation Annotator, CoreNLP Named Entity Recognizer, Mate Tools Dependency Parser. </note>
+         </div>
+         <div type="bibliogr">
                 <listBibl>
                     <head>Bibliographie</head>
                     <bibl>Bibliographie</bibl>
@@ -373,6 +374,6 @@
                     </bibl>
                 </listBibl>
             </div>
-        </back>
+      </back>
     </text>
 </TEI>

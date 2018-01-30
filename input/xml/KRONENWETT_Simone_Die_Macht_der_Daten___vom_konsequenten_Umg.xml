@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xml:id="KRONENWETT_Simone_Die_Macht_der_Daten___vom_konsequenten_Umg">
-    <teiHeader>
+   <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Die Macht der Daten - vom konsequenten Umgang mit Forschungsdaten</title>
@@ -98,7 +98,7 @@
          </settingDesc>
       </profileDesc>
     </teiHeader>
-    <text>
+   <text>
         <body>
             <p rend="heading 3">
                 <hi rend="bold color(434343)">Theorie: Lehrveranstaltung in Kooperation mit nestor</hi>
@@ -129,7 +129,7 @@
             <p>Des Weiteren lässt sich eine hohe Dynamik in diesen Feldern spüren. Schon allein in der stetig steigenden Zahl von Stellenanzeigen, die nach qualifizierten Fachkräften werben, aber auch in der Zahl der Ansätze, Normierungsversuche und Leitlinien, die zu einem bewusst nachhaltigen Umgang mit Daten anhalten sollen. Diese werden sowohl von oben herab (top-down) vorgeschrieben, als auch seitens der betroffenen Institutionen (bottom-up) betrieben. Das Ziel ist allen gemeinsam: der stetig steigenden Zahl von Forschungsdaten Herr zu werden, Forschungsdaten langfristig zu sichern und nachhaltig bereitzustellen.</p>
         </body>
         <back>
-            <div type="bibliogr">
+         <div type="bibliogr">
                 <listBibl>
                     <head>Bibliographie</head>
                     <bibl>
@@ -167,6 +167,6 @@
                     </bibl>
                 </listBibl>
             </div>
-        </back>
+      </back>
     </text>
 </TEI>

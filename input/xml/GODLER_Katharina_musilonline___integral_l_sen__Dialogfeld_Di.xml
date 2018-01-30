@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xml:id="GODLER_Katharina_musilonline___integral_l_sen__Dialogfeld_Di">
-    <teiHeader>
+   <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>musilonline - integral lösen. Dialogfeld Digitale Edition</title>
@@ -107,7 +107,7 @@
          </settingDesc>
       </profileDesc>
     </teiHeader>
-    <text>
+   <text>
         <body>
             <p rend="No Spacing">Ausgangslage</p>
             <p>Digitale Editionen haben sich bereits als geeignete Publikationsform für die Präsentation von umfangreichen Textbeständen im Bereich des kulturellen Erbes etabliert. Für ein so umfangreiches und komplexes textgenetisches Korpus wie Robert Musils literarischen Nachlass und die daran entwickelte Datenstruktur der Klagenfurter Ausgabe stehen jedoch keine fertigen Modelle zur Verfügung. Im Rahmen des Panels soll einerseits diskutiert werden, welche Kriterien eine digitale Edition erfüllen muss, um eine Grundlage zur Erforschung von Robert Musils Gesamtwerk zu erstellen und andererseits, ob die derzeit geltenden Standards zur Langzeitarchivierung, interoperablen Repräsentation und Online-Kommentierung von digitalen Textkorpora noch zeitgemäß sind. </p>
@@ -162,7 +162,7 @@
             </p>
         </body>
         <back>
-            <div type="bibliogr">
+         <div type="bibliogr">
                 <listBibl>
                     <head>Bibliographie</head>
                     <bibl rend="Plain Text">
@@ -248,6 +248,6 @@
                     </bibl>
                 </listBibl>
             </div>
-        </back>
+      </back>
     </text>
 </TEI>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xml:id="KLINGER_Roman_Digitale_Modellierung_von_Figurenkomplexit_t_a">
-    <teiHeader>
+   <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Digitale Modellierung von Figurenkomplexität am Beispiel des Parzival von Wolfram von Eschenbach</title>
@@ -96,7 +96,7 @@
          </settingDesc>
       </profileDesc>
     </teiHeader>
-    <text>
+   <text>
         <body>
             <div type="div1" rend="DH-Heading1">
                 <head>Einleitung</head>
@@ -124,9 +124,7 @@
                     <hi rend="italic">lexikalische</hi> Vielfalt der Kontexte, in denen die jeweilige Figur vorkommt, und (b) entsprechend die 
                     <hi rend="italic">soziale</hi> Vielfalt der Kontexte. Beide Arten von Repräsentationen verwenden als Kontexte die sogenannten 
                     <hi rend="italic">Dreißiger</hi>-Abschnitte (die Unterteilung des ‚Parzival‘ in Abschnitte von 30 Versen nach Karl Lachmann) und greifen nicht auf sprachliche Strukturen innerhalb der Dreißiger wie Wortarten, Syntax, Satzgrenzen oder Anaphern zurück.
-                    <note place="foot" xml:id="ftn1" n="1">
-                        <p rend="footnote text"> Experimente mit kleineren Kontexten lieferten schlechtere Ergebnisse.</p>
-                    </note>
+                    <ref target="ftn1" n="1"/>
                 </p>
                 <p>In der Computerlinguistik werden Kontextvektoren typischerweise miteinander verglichen, um die semantische Ähnlichkeit der Zielwörter zu modellieren und finden breite Anwendung (Pantel und Turney 2010). In unserer Studie betrachten wir stattdessen den 
                     <hi rend="italic">Informationsgehalt</hi> der Kontextvektoren als Prädiktor für die Figurenkomplexität und messen ihn per 
@@ -189,7 +187,10 @@
             </div>
         </body>
         <back>
-            <div type="bibliogr">
+         <div type="notes">
+            <note xml:id="ftn1" n="1" rend="footnote text"> Experimente mit kleineren Kontexten lieferten schlechtere Ergebnisse.</note>
+         </div>
+         <div type="bibliogr">
                 <listBibl>
                     <head>Bibliographie</head>
                     <bibl>
@@ -239,6 +240,6 @@
                     </bibl>
                 </listBibl>
             </div>
-        </back>
+      </back>
     </text>
 </TEI>

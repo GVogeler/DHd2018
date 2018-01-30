@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xml:id="MOELLER_Katrin_Die_Summe_geisteswissenschaftlicher_Methoden_">
-    <teiHeader>
+   <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Die Summe geisteswissenschaftlicher Methoden? Fachspezifisches Datenmanagement als Voraussetzung zukunftsorientierten Forschens</title>
@@ -123,7 +123,7 @@
          </settingDesc>
       </profileDesc>
     </teiHeader>
-    <text>
+   <text>
         <body>
             <div type="div1" rend="DH-Heading1">
                 <head>Zusammenfassung des Vorhabens</head>
@@ -135,19 +135,9 @@
                 <head>Forschungsstand</head>
                 <p>Der digitale Wandel, das Entstehen, Archivieren, Erschließen und Nachnutzen großer Datenbestände verändert wissenschaftliche Forschung in ihren Grundlagen, Arbeitsweisen und Methodiken fundamental (OECD 2007; HRK 2014; RfII 2016; Allianz 2010; DFG 2015). Die zahlreichen Aspekte dieses Wandels beschäftigen Fach-Communities und Fachverbände in umfassender Weise mit Fragen des Datenmanagements, der Lizenzen, Rechte und des Datenschutzes, der technischen und inhaltlichen Langzeitarchivierung sowie Nachnutzung von Daten. Die intensiven Diskussionen um das Datenmanagement sind verbunden mit einem grundlegenden Nachdenken über künftige Aufgaben, Strukturen und Workflows bestehender und sich neu formierender Institutionen oder Akteure und führen zu grundsätzlichen Reflexionen über die notwendige Schaffung verteilter nationaler infrastruktureller Angebote (RfII 2016: 39f.; RfII 2017). In der jüngeren Vergangenheit sind bevorzugt technische Aspekte des Datenmanagements diskutiert worden, wie sie etwa die interoperationale Metadatenhaltung (Bibliotheksparadigma), Probleme der Speicherformate, Speichermedien und Dokumentation in der technischen Langzeitarchivierung über einen Rahmen von zehn Jahren hinaus (Archivparadigma) betreffen (Nestor 2016). Solche Lösungen und Angebote können oft in übergreifenden technischen Strategien gefunden werden, die ein zentrales Aufgabengebiet von Bibliotheken und Archiven umfassen. Wie in den Arbeitsbereichen der digitalen Wissenschaft allgegenwärtig zu beobachten ist, lässt sich dabei eine sukzessive, aber dennoch intensive Spezialisierung und Differenzierung digitaler Erfordernisse und Techniken beobachten. War beispielsweise noch das erste große deutschsprachige Überblickswerk der nestor-Arbeitsgruppe zur Langzeitarchivierung fachübergreifend technisch geprägt (Neuroth 2010), offenbaren die neueren Arbeitsergebnisse eine deutliche Hinwendung zur fachbezogenen Darstellung (Neuroth 2012). Allerdings blieben auch in dieser Hinsicht die Parameter der technischen Langzeitarchivierung aus der Sicht der Archive und Bibliotheken bestimmend. </p>
                 <p>Gleiches lässt sich mit Blick auf die Wissenschaft erkennen, wenn man etwa auf die sich konstituierenden Fachgruppen im Rahmen des Verbandes der Digital Humanities im deutschsprachigen Raum
-                    <note place="foot" xml:id="ftn1" n="1">
-                        <p rend="normal"> Siehe die Arbeitsgruppen des Verbands DHd: 
-                            <ref target="https://dig-hum.de/dhd-ags">
-                                <hi rend="underline color(1155CC)">https://dig-hum.de/dhd-ags</hi>
-                            </ref>.
-                        </p>
-                    </note> oder andere traditionelle Fachverbände mit ihren sich ausdifferenzierenden digitalen Arbeitsweisen/Methoden schaut.
-                    <note place="foot" xml:id="ftn2" n="2">
-                        <p rend="normal"> Vergleiche hier etwa das CfP und die daraus resultierenden Ergebnisse der Tagung: Quellen und Methoden der Geschichtswissenschaft im digitalen Zeitalter. Neue Zugänge für eine etablierte Disziplin, DIGIMET 2017, 25./26.09.2017 in Berlin, URL: http://welt-der-kinder.gei.de/wp-content/uploads/2017/05/CfP-DH-Abschlusstagung-WdK-02.05.2017.pdf.</p>
-                    </note> Intensiv diskutiert wurden solche Themen der fachbezogenen Binnendifferenzierung auch in der Auftaktveranstaltung zum Förderprogramm "'Mixed Methods' in den Geisteswissenschaften?" der VW-Stiftung im Frühsommer 2017, die eine Vielzahl deutschsprachiger Forschungsprojekte im Bereich der Digital Humanities versammelte.
-                    <note place="foot" xml:id="ftn3" n="3">
-                        <p rend="normal"> Dabei nahmen zahlreiche Vertreter der DH-Community in den Geisteswissenschaften teil, die auch über das eigentliche Förderprogramm "Mixed Methods" in den Geisteswissenschaften Projekte durchführen: https://www.volkswagenstiftung.de/fileadmin/downloads/publikationen/20161221_Mixed_Methods_VolkswagenStiftung_Bewilligungen.pdf.</p>
-                    </note>
+                    <ref target="ftn1" n="1"/> oder andere traditionelle Fachverbände mit ihren sich ausdifferenzierenden digitalen Arbeitsweisen/Methoden schaut.
+                    <ref target="ftn2" n="2"/> Intensiv diskutiert wurden solche Themen der fachbezogenen Binnendifferenzierung auch in der Auftaktveranstaltung zum Förderprogramm "'Mixed Methods' in den Geisteswissenschaften?" der VW-Stiftung im Frühsommer 2017, die eine Vielzahl deutschsprachiger Forschungsprojekte im Bereich der Digital Humanities versammelte.
+                    <ref target="ftn3" n="3"/>
                 </p>
                 <p>Um nachhaltig wirksam zu sein, braucht Forschungsdatenmanagement eine enge Anbindung an die Wissenschaft mit ihren spezifischen Problemen und fachlichen Erfordernissen (RfII 2016: 60; RfII 2017: 1f., AG DZ 2017: 3). Nicht in erster Linie der technische Service zur Langzeitarchivierung standardisierter Daten, sondern die fachbezogene Datenkuration und die Tiefenerschließung auf der Basis von Standards sichert die Güte und Qualität von Forschungsdaten und ihre Nachnutzbarkeit für spezifische wissenschaftliche Forschungsprojekte. Qualitätsgerechtes Forschungsdatenmanagement - das auch im analogen Zeitalter den Kern jeder Forschung ausmachte - sichert den wissenschaftlichen Mehrwert von Daten, schafft vielfältige Nutzungsanreize und innerwissenschaftliche Akzeptanz (RfII 2016: 38-40; AG DZ 2017: 2). Im gleichen Maße wie daher die übergreifende Basis technischer Lösungen zur Metadatenhaltung, Lizenzierung und Langzeitarchivierung entwickelt werden muss, sind fachbezogene Standards der Datenkuration, der kontrollierten Vokabularien, der fachbasierten Quellenkritik und Annotation sowie spezialisierte Werkzeuge der fachlichen Datenverarbeitung zur Erzeugung nachhaltiger Datenstrukturen notwendig. Während erstere eher in den Verantwortungsbereich der Bibliotheken und Archive fallen, sind letztere das zentrale Aufgabenfeld der Wissenschaft mit ihren spezifischen Fachgebieten. </p>
                 <p>Hinzu treten die zahlreichen Herausforderungen des geisteswissenschaftlichen Datenmanagements im Unterschied zu natur- und sozialwissenschaftlichen Projekten. Geisteswissenschaftliche Daten bilden in vielen Anwendungsbereichen komplexe Textkorpora mit hochspezialisierten Formen der Transkription, Annotation und der Unterscheidung verschiedener Ebenen von Quellenbegriff, Lemmatisierung, Normalisierung, Standardisierung und Begriffserklärung. Ähnliche komplexe Formen der Erschließung gelten ebenso in eher auf Objekte und Gegenstände bezogene Geisteswissenschaften. Ansätze der einen Diziplin sind (bis heute) nicht ohne weiteres auf eine andere übertragbar bzw. nicht fachübergreifend bekannt. Gleichzeitig ist es Anliegen von Datenzentren übergreifende Standards bzw. Austauschformate zu definieren und zu etablieren, welche die Transparenz und Verschneidung von Daten überhaupt erst einmal ermöglichen.</p>
@@ -180,7 +170,16 @@
             </div>
         </body>
         <back>
-            <div type="bibliogr">
+         <div type="notes">
+            <note xml:id="ftn1" n="1" rend="normal"> Siehe die Arbeitsgruppen des Verbands DHd: 
+                            <ref target="https://dig-hum.de/dhd-ags">
+                                <hi rend="underline color(1155CC)">https://dig-hum.de/dhd-ags</hi>
+                            </ref>.
+                        </note>
+            <note xml:id="ftn2" n="2" rend="normal"> Vergleiche hier etwa das CfP und die daraus resultierenden Ergebnisse der Tagung: Quellen und Methoden der Geschichtswissenschaft im digitalen Zeitalter. Neue Zugänge für eine etablierte Disziplin, DIGIMET 2017, 25./26.09.2017 in Berlin, URL: http://welt-der-kinder.gei.de/wp-content/uploads/2017/05/CfP-DH-Abschlusstagung-WdK-02.05.2017.pdf.</note>
+            <note xml:id="ftn3" n="3" rend="normal"> Dabei nahmen zahlreiche Vertreter der DH-Community in den Geisteswissenschaften teil, die auch über das eigentliche Förderprogramm "Mixed Methods" in den Geisteswissenschaften Projekte durchführen: https://www.volkswagenstiftung.de/fileadmin/downloads/publikationen/20161221_Mixed_Methods_VolkswagenStiftung_Bewilligungen.pdf.</note>
+         </div>
+         <div type="bibliogr">
                 <listBibl>
                     <head>Bibliographie</head>
                     <bibl>
@@ -247,6 +246,6 @@
                     </bibl>
                 </listBibl>
             </div>
-        </back>
+      </back>
     </text>
 </TEI>

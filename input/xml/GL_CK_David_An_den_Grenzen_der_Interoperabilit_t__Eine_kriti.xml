@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xml:id="GL_CK_David_An_den_Grenzen_der_Interoperabilit_t__Eine_kriti">
-    <teiHeader>
+   <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>An den Grenzen der Interoperabilität: Eine kritische Reflexion über digitale Forschungsdaten und -anwendungen in der Online-Edition des Projekts "Die Schule von Salamanca"</title>
@@ -83,7 +83,7 @@
          </settingDesc>
       </profileDesc>
     </teiHeader>
-    <text>
+   <text>
         <body>
             <p rend="DH-Heading2">Einleitung</p>
             <p>Der Beitrag diskutiert kritisch, welche nicht allein arbeitsökonomischen, sondern vor allem intellektuellen, methodologischen und wissenschaftstheoretischen "Kosten" mit der Digitalisierung und dem dadurch etablierten Fokus auf Fragen der Interoperabilität entstehen. Die deutlichen wissenschaftlichen Vorteile von Interoperabilität müssen nämlich einem Umbau (und z.T. Rückbau) in wissenschaftlichen Modellierungen und im Verständnis wissenschaftlicher Erkenntnisvermehrung gegenüber gestellt werden. Dabei wird im Sinne des doppelten Genitivs "Kritik der digitalen Vernunft" sowohl das naheliegende Phänomen diskutiert, dass die digitale Transformation Hoffnungen weckt und Lösungen wissenschaftlich-methodologischer Schwierigkeiten nahelegt, die sich (z.T. erst bei der Implementierung) als wissenschaftlich nicht akzeptabel erweisen, als auch der umgekehrte Fall, dass die digitale Transformation ein kritisches Umdenken in der Ausrichtung der eigenen wissenschaftlichen Arbeit und eine Umorientierung wissenschaftlicher Ambitionen erzwingt.</p>
@@ -114,7 +114,7 @@
             <p>Die hier am Beispiel digitaler Projektarbeit aufgezeigten Probleme etwa einer gesteigerten Spannung zwischen „Interoperabilität und Expressivität“ (Baumann 2011) weisen auf grundlegendere wissenschafts- und erkenntnistheoretische Fragestellungen hin, die nicht zuletzt das Selbstverständnis der Digital Humanities und die mit ihnen verbundenen Hoffnungen berühren: Ist Expertenwissen am Ende vielleicht gar nicht "interoperabel"? Erweisen sich die Möglichkeiten, durch Verknüpfung digitaler Forschungsdaten und ‑anwendungen verschiedenster Kontexte neuartige Einsichten zu generieren, als stark begrenzt? Eine wissenschaftspolitische Pointe des Beitrags besteht so darin, auf die entscheidende Rolle aufmerksam zu machen, die die Erwartung darüber spielt, an welchem Ort – zwischen den Disziplinen oder “tief” in den fachwissenschaftlichen Spezialdiskursen – wissenschaftlicher Fortschritt erzielt wird.</p>
         </body>
         <back>
-            <div type="bibliogr">
+         <div type="bibliogr">
                 <listBibl>
                     <head>Bibliographie</head>
                     <bibl>Fügen Sie hier die von Ihnen benutzten Quellen ein:</bibl>
@@ -205,6 +205,6 @@
                     <bibl>Wolff, Eberhard (2016): "Microservices. Grundlagen flexibler Softwarearchitekturen". Heidelberg: dpunkt.verlag.</bibl>
                 </listBibl>
             </div>
-        </back>
+      </back>
     </text>
 </TEI>

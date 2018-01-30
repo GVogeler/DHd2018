@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xml:id="STEYER_Timo_Peer_to_Peer_statt_Client_Server__Der_Mehrwert_k">
-    <teiHeader>
+   <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Peer-to-Peer statt Client-Server: Der Mehrwert kollegialer Beratung und agiler DH-Treffen</title>
@@ -113,7 +113,7 @@
          </settingDesc>
       </profileDesc>
     </teiHeader>
-    <text>
+   <text>
         <body>
             <p>Ein wesentliches Kennzeichen der Digital Humanities ist ihr hoher Grad an Interdisziplinarität, Vernetzung und Kommunikation. Angesichts ihrer Schnittstellenfunktion und des schnellen technologischen Wandels ist der regelmäßige Austausch zwischen DH-Vorhaben ebenso unerlässlich wie impulsgebend. Aus diesen Gründen finden seit drei Jahren regelmäßige Treffen zwischen den DH-MitarbeiterInnen des Forschungsverbundes Marbach Weimar Wolfenbüttel und der Max Weber Stiftung statt. Beide Institutionen vereinen strukturelle Gemeinsamkeiten: Als Zusammenschlüsse geografisch verteilter Forschungs- und Infrastruktureinrichtungen, die innerhalb der Geisteswissenschaften unterschiedliche wissenschaftliche Schwerpunkte verfolgen, streben beide Verbünde im Bereich der digital gestützten Forschung nach Synergien und Vernetzung. </p>
             <p>Die Treffen werden als Peergroup-Treffen auf operativer Ebene nach dem Ansatz der kollegialen Beratung mit wechselnden Rollen und Formaten, wie z.B. Partnerinterviews, Impulsreferate, Buzzgroups oder Think-Pair-Share, durchgeführt (Tietze 2010). Ursprünglich begonnen als offener Austausch über Fragen des Aufbaus digitaler Infrastrukturen, des Wissenstransfers von fachlicher Expertise und zu aktuellen DH-Einwicklungen rückten durch den systemischen Ansatz zunehmend andere, unerwartete Themenfelder in den Fokus: Bei den DH-Vorhaben in den Verbünden werden vor allem Projektvorhaben initiiert, bei denen eine Konvergenz zwischen digitalen und analogen Forschungsmethoden angestrebt wird. Hieraus entsteht ein Spannungsverhältnis zu den etablierten Organisationstrukturen der Institutionen, die in ihren Abläufen und Strukturen nicht auf multidisziplinäre Projekte mit einem digitalen Anteil ausgerichtet sind. Bei der Übertragung des traditionellen Organisations- und Projektmanagements auf die DH-Projekte ergeben sich folgende Herausforderungen: </p>
@@ -124,7 +124,7 @@
             <p>Das Poster soll zum einen die Funktionen und Impulse präsentieren, die sich durch das Peer-to-Peer Format ergeben haben. Ziel ist es, mit anderen KollegInnen ins Gespräch zu kommen und auch unangenehme Fragen zu diskutieren, etwa warum die DH in bestimmten Projektstrukturen primär mit Sensibilisierung und Legitimation beschäftigt sind. Dabei soll im Sinne der Tagung auch kritisch hinterfragt werden, inwieweit die DH nicht auch selber zu einer Wahrnehmung beitragen, die sie in die Rolle eines technischen Dienstleisters oder der digitalen Wollmilchsau drängt.</p>
         </body>
         <back>
-            <div type="bibliogr">
+         <div type="bibliogr">
                 <listBibl>
                     <head>Bibliographie</head>
                     <bibl>
@@ -144,6 +144,6 @@
                     </bibl>
                 </listBibl>
             </div>
-        </back>
+      </back>
     </text>
 </TEI>

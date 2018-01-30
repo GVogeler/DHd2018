@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xml:id="L_CKER_HERSCHKOWITZ_Johannes_A__Fachspezifische_Herausforder">
-    <teiHeader>
+   <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Fachspezifische Herausforderungen in der Realisierung des webbasierten digitalen Archivs THESPIS.DIGITAL</title>
@@ -83,7 +83,7 @@
          </settingDesc>
       </profileDesc>
     </teiHeader>
-    <text>
+   <text>
         <body>
             <p rend="No Spacing">Ausgehend von Dramen und Libretti des italienischen Dramatikers Giacinto Andrea Cicognini (1606–1649) beschäftigt sich das FWF-Forschungsprojekt „Making of a Repertoire for German Theatre (1650–1730): The Reception of Cicognini“ (Projektleiter Univ.-Prof. Dr. Stefan Hulfeld) mit Theaterrepertoires des deutschsprachigen Wandertheaters im 17. und beginnenden 18. Jahrhundert. Dabei werden vorhandene Daten überprüft und neue (Meta-)Daten zu Dramen und deren Aufführungen generiert. Wandertheaterforschung ist aufgrund einer problematischen Quellenlage und -überlieferung ein höchst komplexes Vorhaben. Informationen zu Aktivitäten der Wandertruppen können über administrative Unterlagen, Rechnungsbücher von Städten und Fürstenhöfen, Theaterzettel, Manuskripte und zeitgenössische Schriften gefunden werden. Seit mehr als einem Jahrhundert sammeln und veröffentlichen Wissenschaftler_innen Daten zu deutschsprachigen Wandertruppen. Diese finden sich in Studien zu einzelnen Wandertruppen, in Arbeiten zu Dramensammlungen/Codices, in Untersuchungen zu einzelnen Spielorten sowie in Darstellungen spezifischer Zeiträume. Problematisch ist hier die Anordnung und Auswertung der genannten Quellen: Unzählige Artikel und Bücher müssen herangezogen werden, um Fehler und Missinterpretationen von zuverlässigen Fakten zu unterscheiden. Für die Überprüfung der Daten werden Bibliotheken und Archive konsultiert, da die entsprechenden Unterlagen nicht über Websites verfügbar sind. Die Entwicklung eines webbasierten Archivs, in der die validierten Daten gesichert werden, ist aufgrund der oben beschriebenen Herausforderungen naheliegend.
                 <lb/>Nähere Informationen zum Forschungsprojekt finden Sie unter 

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xml:id="HANNESSCHL_GER_Vanessa_Menschen_gendern__Einige_Gedanken__be">
-    <teiHeader>
+   <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Menschen gendern? Einige Gedanken über Datenmodellierung zur Erhebung von Geschlechterverteilung anhand der TEI2016 Abstracts App</title>
@@ -83,14 +83,12 @@
          </settingDesc>
       </profileDesc>
     </teiHeader>
-    <text>
+   <text>
         <body>
             <div type="div1" rend="DH-Heading1">
                 <head>Ausgangspunkt: Die TEI2016 Abstacts App</head>
                 <p>Die Abstracts zur TEI Konferenz 2016 wurden via ConfTool eingereicht und anschließend in Microsoft Word und InDesign ediert, um ein gedrucktes Book of Abstracts herzustellen.
-                    <note place="foot" xml:id="ftn1" n="1">
-                        <p rend="footnote text"> Dieser Workflow ist, zugegebenermaßen, einer Konferenz im Bereich der Digital Humanities, und der TEI Konferenz im Besonderen, nicht ganz angemessen; eine Integration etwa des DH-Convalidators hätte den Prozess wesentlich gestrafft. Eingespielte Prozesse und Zeitdruck waren die Hauptgründe für diese Vorgehensweise.</p>
-                    </note> Die InDesign-Datei wurde dann als PDF exportiert und online verfügbar gemacht. Diese beiden Fassungen des Book of Abstracts wurden vor der Konferenz fertiggestellt. Nach der Konferenz wurde die InDesign Datei erneut exportiert, diesmal in XML Format. Diese Datei wurde dann teils manuell, teils automatisiert in Einzeldateien (jedes Abstract als eine Datei) zerlegt, bearbeitet und mit umfangreichen Metadaten versehen, um TEI-P5-Dateien herzustellen. Diese wurden auf GitHub veröffentlicht. Die jeweiligen &lt;teiHeader&gt; wurden mit umfassenden Informationen ausgestattet und detailliert codiert; etwa wurden innerhalb der mit Normdaten (VIAF) angereicherten &lt;editor&gt;- und &lt;author&gt;-Tags konsequent &lt;persName&gt;-, &lt;forename&gt;- und &lt;surname&gt;-Tags eingesetzt. Das stellte sich für die Weiterverarbeitung, Analyse und Visualisierung der Daten später als vorteilhaft heraus.
+                    <ref target="ftn1" n="1"/> Die InDesign-Datei wurde dann als PDF exportiert und online verfügbar gemacht. Diese beiden Fassungen des Book of Abstracts wurden vor der Konferenz fertiggestellt. Nach der Konferenz wurde die InDesign Datei erneut exportiert, diesmal in XML Format. Diese Datei wurde dann teils manuell, teils automatisiert in Einzeldateien (jedes Abstract als eine Datei) zerlegt, bearbeitet und mit umfangreichen Metadaten versehen, um TEI-P5-Dateien herzustellen. Diese wurden auf GitHub veröffentlicht. Die jeweiligen &lt;teiHeader&gt; wurden mit umfassenden Informationen ausgestattet und detailliert codiert; etwa wurden innerhalb der mit Normdaten (VIAF) angereicherten &lt;editor&gt;- und &lt;author&gt;-Tags konsequent &lt;persName&gt;-, &lt;forename&gt;- und &lt;surname&gt;-Tags eingesetzt. Das stellte sich für die Weiterverarbeitung, Analyse und Visualisierung der Daten später als vorteilhaft heraus.
                 </p>
                 <p>Dieses Corpus bildete die Basis für die TEI2016 Abstracts App, in der die Abstracts in der Erstversion über ein Inhaltsverzeichnis, das nach Abstract-Titel oder nach Verfassenden sortiert werden konnte, ansteuerbar waren. Schon in dieser rudimentären Form zeigte sich das Potential der Daten und der Applikation für Auswertungen, die über Struktur und Zusammensetzung der Konferenz und ihrer Beitragenden Auskunft geben würden. Die App wurde daher sowohl im Bereich der Funktionalität als auch auf der Ebene der enthaltenen Daten substantiell weiterentwickelt.</p>
             </div>
@@ -114,7 +112,10 @@
             </div>
         </body>
         <back>
-            <div type="bibliogr">
+         <div type="notes">
+            <note xml:id="ftn1" n="1" rend="footnote text"> Dieser Workflow ist, zugegebenermaßen, einer Konferenz im Bereich der Digital Humanities, und der TEI Konferenz im Besonderen, nicht ganz angemessen; eine Integration etwa des DH-Convalidators hätte den Prozess wesentlich gestrafft. Eingespielte Prozesse und Zeitdruck waren die Hauptgründe für diese Vorgehensweise.</note>
+         </div>
+         <div type="bibliogr">
                 <listBibl>
                     <head>Bibliographie</head>
                     <bibl>Peter Andorfer, Vanessa Hannesschläger (2017): TEI Abstracts 2016. A little application to publish the abstracts of the TEI conference 2016. 
@@ -165,6 +166,6 @@
                     <bibl>Candance West, Don Zimmerman (1987): Doing Gender. In: Gender and Society 1:2, 125–151.</bibl>
                 </listBibl>
             </div>
-        </back>
+      </back>
     </text>
 </TEI>

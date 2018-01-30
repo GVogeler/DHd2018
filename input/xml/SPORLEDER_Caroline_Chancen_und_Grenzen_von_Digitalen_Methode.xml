@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xml:id="SPORLEDER_Caroline_Chancen_und_Grenzen_von_Digitalen_Methode">
-    <teiHeader>
+   <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title type="full">
@@ -122,7 +122,7 @@
          </settingDesc>
       </profileDesc>
     </teiHeader>
-    <text>
+   <text>
         <body>
             <p>
                 <hi rend="color(#000000)">Soziale Medien spielen weltweit im politischen Meinungsbildungsprozess eine immer wichtigere Rolle. Sowohl Onlineangebote von Zeitungen als auch Twitteraccounts von Organisationen oder Personen können quasi in Echtzeit über aktuelle Geschehnisse informieren.</hi>
@@ -143,7 +143,7 @@
             <p>In der dritten Studie geht es um die Unterscheidung von menschlichen und künstlichen Akteuren. Um die potenziellen Auswirkungen von Social Bots auf die politische Meinungsbildung zu quantifizieren ist es notwendig, künstliche Agenten automatisiert erkennen zu können. Bisherige Verfahren (z.B. Varol et al., 2017) können simple Bot-Accounts zuverlässig erkennen, scheitern aber an fortgeschrittenen Bots, die sich nicht mehr offensichtlich von echten Menschen unterscheiden. In einem weiterentwickelten Verfahren analysieren wir speziell Accounts dieser Art. Als Datengrundlage hierfür wird der MIB-Datensatz verwendet (Cresci et al., 2017). Zur Bot-Erkennung wird mit überwachten machinellen Lernverfahren experimentiert. </p>
         </body>
         <back>
-            <div type="bibliogr">
+         <div type="bibliogr">
                 <listBibl>
                     <head>Bibliographie</head>
                     <bibl>
@@ -221,6 +221,6 @@
                     </bibl>
                 </listBibl>
             </div>
-        </back>
+      </back>
     </text>
 </TEI>

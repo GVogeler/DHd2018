@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xml:id="R_DIGER_Jan_Oliver_CorpusExplorer_v2_0___Seminartauglich_in_">
-    <teiHeader>
+   <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>CorpusExplorer v2.0 - Seminartauglich in einem halben Tag</title>
@@ -73,7 +73,7 @@
          </settingDesc>
       </profileDesc>
     </teiHeader>
-    <text>
+   <text>
         <body>
             <div type="div1" rend="DH-Heading1">
                 <head>Grundzüge:</head>
@@ -119,7 +119,7 @@
                </div>
         </body>
         <back>
-            <div type="bibliogr">
+         <div type="bibliogr">
                 <listBibl>
                     <head>Bibliographie</head>
                     <bibl>
@@ -136,6 +136,6 @@
                     </bibl>
                 </listBibl>
             </div>
-        </back>
+      </back>
     </text>
 </TEI>

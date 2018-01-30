@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xml:id="M_LLER_Andreas_Digitized_Inhumanities__Qualitative_Inhaltsan">
-    <teiHeader>
+   <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Digitized Inhumanities: Qualitative Inhaltsanalyse von Hexenprozessakten mit MAXQDA</title>
@@ -74,7 +74,7 @@
          </settingDesc>
       </profileDesc>
     </teiHeader>
-    <text>
+   <text>
         <body>
             <div/>
             <div type="div1" rend="DH-Heading1">
@@ -119,7 +119,7 @@
             </div>
         </body>
         <back>
-            <div type="bibliogr">
+         <div type="bibliogr">
                 <listBibl>
                     <head>Bibliographie</head>
                     <bibl>Behringer, Wolfgang (1995): Weather, Hunger, and Fear. The Origins of the European Witch Prosecutions in Climate, Society, and Mentality. In: German History (13), S. 1–27.</bibl>
@@ -164,6 +164,6 @@
                     <bibl>Wieden, Helge bei der (1981): Rostock zwischen Abhängigkeit und Reichsunmittelbarkeit. In: Roderich Schmidt (Hg.): Pommern und Mecklenburg. Beiträge zur mittelalterlichen Städtegeschichte. Köln: Böhlau, S. 111–132.</bibl>
                 </listBibl>
             </div>
-        </back>
+      </back>
     </text>
 </TEI>

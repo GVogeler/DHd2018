@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xml:id="HODEL_Tobias_Automatic_Text_Recognition__Mit_Transkribus_Tex">
-    <teiHeader>
+   <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Automatic Text Recognition: Mit Transkribus Texterkennung trainieren und anwenden</title>
@@ -89,7 +89,7 @@
          </settingDesc>
       </profileDesc>
     </teiHeader>
-    <text>
+   <text>
         <body>
             <p>Die Aufbereitung und Erkennung von handschriftlichen Dokumenten oder von speziellen Druckschriften ist sowohl für Menschen als auch für Computeralgorithmen eine (technische) Herausforderung. Die Bearbeitung von schriftlichem, insbesondere handschriftlichem Material aber auch früher Drucke wird bislang von spezialisierten Experten durchgeführt, um technisch und qualitativ hochstehende Resultate aus historischen Dokumenten zu erhalten. Zur Erstellung hochwertiger Editionen sind hilfswissenschaftliche Kenntnisse (Paläographie, Editorik), historisches Kontextwissen und technisches Know-how gefragt.</p>
             <p>Im Rahmen des Projekts READ (Recognition and Enrichment of Archival Documents) werden unterschiedliche Aufgaben der Automatisierung (weiter-)entwickelt, um qualitativ gute Ergebnisse mit optimalem Ressourceneinsatz zu erhalten. Ein speziell dafür entwickeltes Tool ist die Software Transkribus und die Transkribus Weboberfläche (öffentliche Vorstellung im November 2017). Beide Ansätze verkoppeln auf unterschiedliche Weise die Arbeit von Expertinnen und maschinelle Erkennleistung. Software und Webservice sind frei verfügbar unter www.transkribus.eu. Im Workshop wird Transkribus vorgestellt und kann durch die Teilnehmenden mit eigenen oder zur Verfügung gestellten Dokumenten getestet werden.</p>
@@ -125,7 +125,7 @@
                 <hi rend="italic"> </hi>30‘
                 <lb/>Aufbau und Funktionieren des Programms, Demonstration des Gebrauchs anhand von Beispielen. Aufzeigen der Möglichkeiten zum Einsatz der Automatisierungen.
                 <hi rend="italic">Selbstständiges Arbeiten der Teilnehmenden mit Transkribus:</hi>
-                <hi rend="italic"></hi>90‘
+                <hi rend="italic"/>90‘
             </p>
             <p>Die Möglichkeiten und Grenzen von Transkribus sollen von den Teilnehmenden (falls gewünscht mit eigenen Dokumenten) selbst ausgetestet werden.</p>
             <p>
@@ -163,12 +163,13 @@
             <p>Tobias Strauß, Institut für Mathematik, Ulmenstraße 69, Universität Rostock, 18051 Rostock, Deutschland; tobias.strauss@uni-rostock.de; (Deep Learning, Information Retrieval und Natural Language Processing).</p>
         </body>
         <back>
-            <div type="bibliogr">
+         <div type="bibliogr">
                 <listBibl>
                     <head>Bibliographie</head>
-                    <bibl><hi rend="bold">Leifert, G., Strauß, T., Grüning, T., Wustlich, W., Labahn, R.,</hi> 2016. Cells in Multidimensional Recurrent Neural Networks. Journal of Machine Learning Research 17, 1-37.</bibl>
+                    <bibl>
+                  <hi rend="bold">Leifert, G., Strauß, T., Grüning, T., Wustlich, W., Labahn, R.,</hi> 2016. Cells in Multidimensional Recurrent Neural Networks. Journal of Machine Learning Research 17, 1-37.</bibl>
                 </listBibl>
             </div>
-        </back>
+      </back>
     </text>
 </TEI>

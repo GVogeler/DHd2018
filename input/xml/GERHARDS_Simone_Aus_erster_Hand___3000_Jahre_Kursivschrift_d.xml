@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xml:id="GERHARDS_Simone_Aus_erster_Hand___3000_Jahre_Kursivschrift_d">
-    <teiHeader>
+   <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Aus erster Hand – 3000 Jahre Kursivschrift der Pharaonenzeit digital analysiert</title>
@@ -114,7 +114,7 @@
          </settingDesc>
       </profileDesc>
     </teiHeader>
-    <text>
+   <text>
         <body>
             <p>Das Projekt 
                 <hi rend="italic">Altägyptische Kursivschriften</hi> (AKU 2015) an der Akademie der Wissenschaften und der Literatur Mainz unter der Leitung von Prof. Dr. Ursula Verhoeven-van Elsbergen (JGU Mainz) in Kooperation mit Prof. Dr. Andrea Rapp (TU Darmstadt) besteht seit April 2015. Ziel ist es, in verschiedenen Modulen im Verlauf von maximal 23 Jahren eine digitale Paläographie zum Hieratischen und zu den Kursivhieroglyphen zu erstellen sowie verschiedene Aspekte der Kursivschrift-Kultur systematisch unter Einbeziehung digitaler Methoden zu untersuchen. 
@@ -143,7 +143,7 @@
             </p>
         </body>
         <back>
-            <div type="bibliogr">
+         <div type="bibliogr">
                 <listBibl>
                     <head>Bibliographie</head>
                     <bibl>
@@ -212,6 +212,6 @@
                     </bibl>
                 </listBibl>
             </div>
-        </back>
+      </back>
     </text>
 </TEI>

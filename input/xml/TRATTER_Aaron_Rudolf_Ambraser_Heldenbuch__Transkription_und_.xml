@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xml:id="TRATTER_Aaron_Rudolf_Ambraser_Heldenbuch__Transkription_und_">
-    <teiHeader>
+   <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Ambraser Heldenbuch: Transkription und wissenschaftliches Datenset</title>
@@ -79,7 +79,7 @@
          </settingDesc>
       </profileDesc>
     </teiHeader>
-    <text>
+   <text>
         <body>
             <p rend="No Spacing">Seit Januar 2017 arbeitet eine Forschungsgruppe an der Universität Innsbruck unter der Leitung von Mario Klarer an dem ÖAW-go!digital-Projekt »Ambraser Heldenbuch: Transkription und wissenschaftliches Datenset«. Das Forschungsprojekt setzt sich zum Ziel, bis zum Jahr 2019 – dem 500. Todestag von Kaiser Maximilian I. – das 
                 <hi rend="italic">Ambraser Heldenbuch (AHB)</hi> (Wien, Österreichische Nationalbibliothek, Cod. Ser. nova 2663) zur Gänze zu transkribieren und als Forschungsdatenset online und offline öffentlich zugänglich zu machen.
@@ -161,7 +161,7 @@
             </p>
         </body>
         <back>
-            <div type="bibliogr">
+         <div type="bibliogr">
                 <listBibl>
                     <head>Bibliographie</head>
                     <bibl rend="No Spacing">Gärtner, Kurt et al., eds. Hartmann von Aue. 
@@ -178,6 +178,6 @@
                     </bibl>
                 </listBibl>
             </div>
-        </back>
+      </back>
     </text>
 </TEI>

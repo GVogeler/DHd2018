@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xml:id="KOUMPIS_Adamantios_Memes_produzieren_digitale_Gef_hle__Die_S">
-    <teiHeader>
+   <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Memes produzieren digitale Gefühle: Die Simpsons deuten Trump-Mania(c)</title>
@@ -89,7 +89,7 @@
          </settingDesc>
       </profileDesc>
     </teiHeader>
-    <text>
+   <text>
         <body>
             <div type="div1" rend="DH-Heading1">
                 <head>Einleitung</head>
@@ -291,7 +291,7 @@
             </div>
         </body>
         <back>
-            <div type="bibliogr">
+         <div type="bibliogr">
                 <listBibl>
                     <head>Bibliographie</head>
                     <bibl>Baccianella, S., Esuli, A., &amp; Sebastiani, F. (2010). 
@@ -324,6 +324,6 @@
                     <bibl>Zhang, L., et al. (2011). Combining Lexicon-based and Learning-based Methods for Twitter Sentiment Analysis. HP Laboratories, Technical Report HPL-2011-89. </bibl>
                 </listBibl>
             </div>
-        </back>
+      </back>
     </text>
 </TEI>

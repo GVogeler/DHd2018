@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xml:id="BECK_Jens_Was_Lesende_denken__Assoziationen_zu_B_chern_in_So">
-    <teiHeader>
+   <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Was Lesende denken: Assoziationen zu Büchern in Sozialen Medien </title>
@@ -89,7 +89,7 @@
          </settingDesc>
       </profileDesc>
     </teiHeader>
-    <text>
+   <text>
         <body>
             <div type="div1" rend="DH-Heading1">
                 <head>Einleitung</head>
@@ -113,9 +113,7 @@
                 </p>
                 <p>UKB-wiki stellt einen herunterladbaren Graphen zur Verfügung, der Wikipedia-Seiten und Links auf andere Wikipedia-Seiten repräsentiert. In einem mitgelieferten Wörterbuch sind Entitäten mit allen möglichen Entitäten (Verweise auf Wikipedia Seiten) aufgeführt. </p>
                 <p>Die auf diese Weise gewonnen Wikipedia-Einträge wurden anschließend hinsichtlich des ontologischen Status der referenzialisierten Entität kategorisiert, also ob es sich um eine reale Person oder fiktionale Figur handelt. Dazu wurde die Wissensbasis DBpedia
-                    <note place="foot" xml:id="ftn1" n="1">
-                        <p>http://wiki.dbpedia.org/</p>
-                    </note> verwendet, die die Daten aus Wikipedia strukturiert und maschinenlesbar kodiert. Da die Disambiguierung Wikipedia-Einträge liefert, können wir anhand dieser die auf den zugehörigen DBpedia-Eintrag zugreifen. Über DBpedia lassen sich neben ontologischen Kategorien  auch andere Eigenschaften extrahieren, die für eine Analyse ggf. interessant sind, etwa Geschlecht oder Relationen zu anderen Figuren.
+                    <ref target="ftn1" n="1"/> verwendet, die die Daten aus Wikipedia strukturiert und maschinenlesbar kodiert. Da die Disambiguierung Wikipedia-Einträge liefert, können wir anhand dieser die auf den zugehörigen DBpedia-Eintrag zugreifen. Über DBpedia lassen sich neben ontologischen Kategorien  auch andere Eigenschaften extrahieren, die für eine Analyse ggf. interessant sind, etwa Geschlecht oder Relationen zu anderen Figuren.
                 </p>
                 <p>Die extrahierten Daten werden zunächst als Tabelle gespeichert und erlauben somit eine flexible weitergehende Verarbeitung, etwa in einem Netzwerk. Eine Zeile der Tabelle besteht aus dem Werktitel, der disambiguierten Entität (Verweis auf Wikipedia Seite), einer Liste der extrahierten Entitäten aus den Reviews, einer Liste von Review-IDs, um nachvollziehen zu können in welchen Reviews der Name erwähnt wird, der Anzahl der Erwähnungen und der Angabe ob es sich um eine Figur handelt oder nicht.</p>
                 <table rend="rules">
@@ -191,18 +189,14 @@
                 <p>Durch diesen Aufbau ergeben sich Kerneigenschaften des Netzwerkes, die bei der Analyse zu beachten sind: Ein Teil der erwähnten Entitäten sind 
                     <hi rend="italic">intra</hi>textuelle Referenzen, d.h. Figuren aus dem jeweiligen Text selbst (Veldhues, 1995). Auch wenn diese keine 
                     <hi rend="italic">inter</hi>textuellen Assoziationen und damit nur sekundäres Extraktionsziel sind, behandeln wir sie als gleichwertige Assoziationen
-                    <note place="foot" xml:id="ftn2" n="2">
-                        <p>Das Filtern von innertextuellen Figuren ist technisch möglich (Beck, 2017), aber zeitaufwändig und für die hier vorgestellte Nutzung als Explorationswerkzeug letztlich unnötig.</p>
-                    </note>. 
+                    <ref target="ftn2" n="2"/>. 
                 </p>
                 <p>Figuren, die in mehr als einem Werk auftauchen (z.B. 
                     <hi rend="italic">Sherlock Holmes</hi> oder 
                     <hi rend="italic">Harry Potter</hi>) bilden eine hoch gewichtete Verbindung zwischen den Texten einer literarischen Reihe, wobei Reihen durch die von ihnen geteilte fiktionale Welt markiert sind. Als gemeinsamer Assoziationsraum sind sie aufgrund der hohen Gewichtung auch angemessen im Netzwerk repräsentiert.
                 </p>
                 <p>Durch die gemeinsame Darstellung der Werke und assoziierten Entitäten ergeben sich -- bei Auswahl eines geeigneten Layout-Algorithmus z.B. in Gephi
-                    <note place="foot" xml:id="ftn3" n="3">
-                        <p>https://gephi.org</p>
-                    </note> -- eng zusammenhängende Gruppen von Werken. Das hier exemplarisch angeführte Resultat eines engen Zusammenhangs repräsentiert jedoch nicht bestimmte Texteigenschaften selbst, sondern lediglich von Leserinnen und Lesern gemeinsam gemachte Zuschreibungen an diese Texte.
+                    <ref target="ftn3" n="3"/> -- eng zusammenhängende Gruppen von Werken. Das hier exemplarisch angeführte Resultat eines engen Zusammenhangs repräsentiert jedoch nicht bestimmte Texteigenschaften selbst, sondern lediglich von Leserinnen und Lesern gemeinsam gemachte Zuschreibungen an diese Texte.
                 </p>
                 <p>Das hier beschriebene Netzwerk wird im Zuge der Konferenz frei zugänglich gemacht.</p>
                 <p>
@@ -218,9 +212,7 @@
             <div type="div1" rend="DH-Heading1">
                 <head>Nächste Schritte</head>
                 <p>Durch den Zugriff auf bisher undenkbar große Rezeptionsdatenmengen erhält die empirische Leseforschung einen sie fundamental erweiternden Impetus, war sie methodisch betrachtet bisher überwiegend auf Fragebögen
-                    <note place="foot" xml:id="ftn4" n="4">
-                        <p>Groeben 1979; Baurmann 1981; Funke 2003; Christmann u. Schreier 2003; Wübben 2009 u.v.m.</p>
-                    </note> und peripheriephysiologische Messungen angewiesen, jüngst gestützt durch bildgebende Verfahren. Computerlinguistische Methoden der Sprach- und Korpusverarbeitung versprechen nicht nur die Analyse unlesbarer Mengen an Rezeptionszeugnissen, sondern auch eine Modellierung leserattribuierter Kontexte literarischer Texte und somit einen ersten Einblick in die bisher unbeantwortete Frage, mit welchem Vorwissen echte Leser eigentlich lesen.
+                    <ref target="ftn4" n="4"/> und peripheriephysiologische Messungen angewiesen, jüngst gestützt durch bildgebende Verfahren. Computerlinguistische Methoden der Sprach- und Korpusverarbeitung versprechen nicht nur die Analyse unlesbarer Mengen an Rezeptionszeugnissen, sondern auch eine Modellierung leserattribuierter Kontexte literarischer Texte und somit einen ersten Einblick in die bisher unbeantwortete Frage, mit welchem Vorwissen echte Leser eigentlich lesen.
                 </p>
                 <p>In diesem Sinne präsentiert das eingereichte Paper erste, jedoch bereits substanzielle Ergebnisse. </p>
                 <p>Die nächsten Schritte leiten sich direkt aus der oben diskutierten Fehleranalyse ab. Zum einen soll die Wissensbasis um fiktionale Figuren aus den Werken erweitert werden (was z.B. über 
@@ -230,7 +222,13 @@
             </div>
         </body>
         <back>
-            <div type="bibliogr">
+         <div type="notes">
+            <note xml:id="ftn1" n="1">http://wiki.dbpedia.org/</note>
+            <note xml:id="ftn2" n="2">Das Filtern von innertextuellen Figuren ist technisch möglich (Beck, 2017), aber zeitaufwändig und für die hier vorgestellte Nutzung als Explorationswerkzeug letztlich unnötig.</note>
+            <note xml:id="ftn3" n="3">https://gephi.org</note>
+            <note xml:id="ftn4" n="4">Groeben 1979; Baurmann 1981; Funke 2003; Christmann u. Schreier 2003; Wübben 2009 u.v.m.</note>
+         </div>
+         <div type="bibliogr">
                 <listBibl>
                     <head>Bibliographie</head>
                     <bibl>
@@ -295,6 +293,6 @@
                     </bibl>
                 </listBibl>
             </div>
-        </back>
+      </back>
     </text>
 </TEI>

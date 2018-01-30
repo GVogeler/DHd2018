@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xml:id="NEOVESKY_Anna_IncipitSearch___Vernetzung_musikwissenschaftli">
-    <teiHeader>
+   <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>IncipitSearch - Vernetzung musikwissenschaftlicher Vorhaben</title>
@@ -80,25 +80,28 @@
          </settingDesc>
       </profileDesc>
     </teiHeader>
-    <text>
+   <text>
         <body>
             <p>Die digitalen Musikwissenschaften konzentrieren sich bis dato vor allem auf die Erstellung digitaler Editionen sowie die Entwicklung von Werkzeugen und Standards für deren Erarbeitung und Publikation. Während die Daten vieler Edition mittlerweile nachhaltig und nachnutzbar zur Verfügung gestellt werden, mangelt es noch an übergreifenden und vernetzenden Datenaggregatoren, die die musikwissenschaftlichen Vorhaben vernetzen. Anders gesagt: Vor lauter Edieren, hat man sich noch zu wenig auf die Zusammenführung der bereits existenten Daten konzentriert. Gerade das wäre jedoch mithilfe der über die Summe der recht heterogenen Datenbestände hinweg normalisierbaren Metadaten gut möglich.</p>
             <p>Die IncipitSearch
-                <note place="foot" xml:id="ftn1" n="1">
-                    <p> Seit Dezember 2017 ist eine BETA-Version der Plattform online unter 
-                        <ref target="https://incipitsearch.adwmainz.net">https://incipitsearch.adwmainz.net</ref> verfügbar.
-                    </p>
-                </note> der Akademie der Wissenschaften und der Literatur | Mainz setzt genau hier an, indem sie musikalische Incipits durchsuchbar macht. Da Incipits einen pragmatischen Ansatz zur Katalogisierung von notierter Musik darstellen, bei dem wenige Anfangstakte einer Partitur transkribiert werden, lassen sich hierüber Editionen, Werkverzeichnisse und Quellenkataloge digitalen wie gedruckten Ursprungs zusammenführen. Ziel eines solchen Ansatzes ist nicht nur die Möglichkeit einer repositorienübergreifenden Suche, denn es lassen sich mithilfe von Incipits sehr wohl auch rudimentäre Aussagen über Spezifika der jeweils referenzierten Musik treffen. Ein erster vergleichender analytischer Blick auf eine breite Datengrundlage ist also ebenfalls möglich.
+                <ref target="ftn1" n="1"/> der Akademie der Wissenschaften und der Literatur | Mainz setzt genau hier an, indem sie musikalische Incipits durchsuchbar macht. Da Incipits einen pragmatischen Ansatz zur Katalogisierung von notierter Musik darstellen, bei dem wenige Anfangstakte einer Partitur transkribiert werden, lassen sich hierüber Editionen, Werkverzeichnisse und Quellenkataloge digitalen wie gedruckten Ursprungs zusammenführen. Ziel eines solchen Ansatzes ist nicht nur die Möglichkeit einer repositorienübergreifenden Suche, denn es lassen sich mithilfe von Incipits sehr wohl auch rudimentäre Aussagen über Spezifika der jeweils referenzierten Musik treffen. Ein erster vergleichender analytischer Blick auf eine breite Datengrundlage ist also ebenfalls möglich.
             </p>
             <p>In erster Linie versteht sich die IncipitSearch jedoch als ein Pendant zu konventionellen thematisch-bibliographischen Katalogen, wie sie in gedruckter Form schon seit Jahrhunderten vorgelegt werden. Man stelle sich vor, man sucht eine Sonate in C auf einem bestimmten Anfangston oder mit einer bestimmten Anfangsmelodie, ohne den Komponisten zu kennen. Nur allein mit dem Titel „Sonate in C“ dürfte man eine unüberschaubare Anzahl an Treffern erzielen. Mittels einer simplen Eingabe der Anfangstöne auf einer Klaviatur jedoch, lässt sich das gesuchte Stück leicht eruieren. Mit RISM hat man ja bereits ein hervorragendes Beispiel für einen solchen Suchansatz, der mit Notenincipits arbeitet.
-                <note place="foot" xml:id="ftn2" n="2">
-                    <p> RISM, zweifellos das etablierteste musikwissenschaftliche Datenrepositorium, bietet bereits die Möglichkeit die dort verzeichneten Manuskripte nach Incipits zu durchsuchen (http://www.rism.info/en/home/newsdetails/select/rism_online_catalog/article/2/music-incipit-searches.html). Die Datenbestände wurden bereits in anderen Projekten nachgenutzt (Van Nuss / Giezeman / Wiering 2017).</p>
-                </note> Gerade eine Zusammenführung verschiedener Datenrepositorien – von Digitalen Werkverzeichnisse, Editionen über Quellenlexika und -sammlungen – wäre mehr als wünschenswert.
+                <ref target="ftn2" n="2"/> Gerade eine Zusammenführung verschiedener Datenrepositorien – von Digitalen Werkverzeichnisse, Editionen über Quellenlexika und -sammlungen – wäre mehr als wünschenswert.
             </p>
             <p>Eine wichtige Voraussetzung für den Erfolg eines solchen Unterfangens ist sowohl die freie Verfügbarkeit der Daten auf Seite der Datenlieferanten als auch die freie Verfügbarkeit der Software auf Seite der Anbieter des Dienstes. Die IncipitSearch ist somit neben ihrer bibliographischen Funktion gleichsam auch ein an die musikwissenschaftlichen Fachcommunity gerichteter Aufruf, ihre Daten nach einem einheitlichen Schema offen zu legen, um Sie für eine Vernetzung in diesem wie auch in weiteren Diensten nachnutzbar zu machen. Dafür wird auf einen bewährten Standard für die Codierung der Incipits gesetzt, nämlich Plaine &amp; Easie Code. Es handelt sich um eine simple, schlanke Transkriptionssprache, die von der International Association of Music Libraries, Archives and Documentation Centres kuratiert wird (Brook / Gould 1964). Da es sich bei Plaine &amp; Easie Code um eine Buchstabennotation handelt sind die Incipits besonders einfach zu codieren.</p>
             <p>Der Dienst IncipitSearch selbst ist als Microservice konzipiert und in Gänze sowie bezogen auf seine einzelnen kapselbaren Bestandteile selbst nachnutzbar (Haft / Neovesky / Reimers 2016). Sein Quellcode ist vollständig MIT-lizensiert offen gelegt auf Github verfügbar.
-                <note place="foot" xml:id="ftn3" n="3">
-                    <p> Zur Softwarekomponente siehe 
+                <ref target="ftn3" n="3"/> Das, eine gute Dokumentation und ein zukünftiges Workshop-Angebot sollen die Zugangsschwelle für potenzielle Nutzer, vor allem seitens der Datenhalter so niedrig wie möglich legen. Damit wird die Voraussetzung für eine Anbindung eigener Daten sowie die Nachnutzung sowohl des Dienstes als auch der Daten mit möglichst geringem Aufwand geschaffen.
+            </p>
+            <p>Mit der IncipitSearch wird den best practices moderner DH folgend, das Potenzial einer Nische genutzt, indem zahlreiche große und kleine, bisher weitestgehend als Inseln dastehende Datenrepositorien der Musik mittels kompakt-gekapselter Software, einer Datenschnittstelle und eines simplen Transkriptionsstandards von Noten-Incipts zusammengeführt werden. Bei der Implementierung weiterer Repositorien setzen wir „community driven“ bewusst auf einen bottom-up-Ansatz, um die Akzeptanz des Dienstes zu stärken und auf Bedürfnisse aus der Community angemessen reagieren zu können. Das Kernpotenzial der Anwendung liegt aber auch in seinen Anforderungen an die Community: Mehr Mut zur Datentransparenz und mehr Mut zur Vernetzung.</p>
+        </body>
+        <back>
+         <div type="notes">
+            <note xml:id="ftn1" n="1"> Seit Dezember 2017 ist eine BETA-Version der Plattform online unter 
+                        <ref target="https://incipitsearch.adwmainz.net">https://incipitsearch.adwmainz.net</ref> verfügbar.
+                    </note>
+            <note xml:id="ftn2" n="2"> RISM, zweifellos das etablierteste musikwissenschaftliche Datenrepositorium, bietet bereits die Möglichkeit die dort verzeichneten Manuskripte nach Incipits zu durchsuchen (http://www.rism.info/en/home/newsdetails/select/rism_online_catalog/article/2/music-incipit-searches.html). Die Datenbestände wurden bereits in anderen Projekten nachgenutzt (Van Nuss / Giezeman / Wiering 2017).</note>
+            <note xml:id="ftn3" n="3"> Zur Softwarekomponente siehe 
                         <ref target="https://github.com/annaneo/incipitSearch">
                             <hi rend="color(1155CC)">https://github.com/annaneo/incipitSearch</hi>
                         </ref> sowie 
@@ -111,13 +114,9 @@
                         <ref target="https://github.com/annaneo/pianoKeyboard">
                             <hi rend="color(1155CC)">https://github.com/annaneo/pianoKeyboard</hi>
                         </ref>. 
-                    </p>
-                </note> Das, eine gute Dokumentation und ein zukünftiges Workshop-Angebot sollen die Zugangsschwelle für potenzielle Nutzer, vor allem seitens der Datenhalter so niedrig wie möglich legen. Damit wird die Voraussetzung für eine Anbindung eigener Daten sowie die Nachnutzung sowohl des Dienstes als auch der Daten mit möglichst geringem Aufwand geschaffen.
-            </p>
-            <p>Mit der IncipitSearch wird den best practices moderner DH folgend, das Potenzial einer Nische genutzt, indem zahlreiche große und kleine, bisher weitestgehend als Inseln dastehende Datenrepositorien der Musik mittels kompakt-gekapselter Software, einer Datenschnittstelle und eines simplen Transkriptionsstandards von Noten-Incipts zusammengeführt werden. Bei der Implementierung weiterer Repositorien setzen wir „community driven“ bewusst auf einen bottom-up-Ansatz, um die Akzeptanz des Dienstes zu stärken und auf Bedürfnisse aus der Community angemessen reagieren zu können. Das Kernpotenzial der Anwendung liegt aber auch in seinen Anforderungen an die Community: Mehr Mut zur Datentransparenz und mehr Mut zur Vernetzung.</p>
-        </body>
-        <back>
-            <div type="bibliogr">
+                    </note>
+         </div>
+         <div type="bibliogr">
                 <listBibl>
                     <head>Bibliographie</head>
                     <bibl>Brook, Barry S. / Gould, Murray. (1964): “Notating Music with Ordinary Typewriter Characters (A Plaine and Easie Code System for Musicke)”, in: Fontes Artis Musicae 11 (3): 142–159. </bibl>
@@ -127,6 +126,6 @@
                     </bibl>
                 </listBibl>
             </div>
-        </back>
+      </back>
     </text>
 </TEI>

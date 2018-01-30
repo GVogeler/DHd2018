@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xml:id="KLEMSTEIN_Franziska_Denkmalpflege_in_der_DDR__Analoge_Netzwe">
-    <teiHeader>
+   <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Denkmalpflege in der DDR. Analoge Netzwerke digital – Chancen und Möglichkeiten</title>
@@ -73,12 +73,10 @@
          </settingDesc>
       </profileDesc>
     </teiHeader>
-    <text>
+   <text>
         <body>
             <p>Die klassische Kunstgeschichte verzichtet noch heute weitestgehend auf die Möglichkeiten, die unsere digitale Welt uns bietet. Zwar werden digitale Werkzeuge bereits vielfältig genutzt, jedoch bisher häufig ohne ausreichende Reflexion und Rückkopplung in die Lehre.
-                <note place="foot" xml:id="ftn1" n="1">
-                    <p rend="footnote text"> Eine Ausnahme bildet in diesem Bereich der „Arbeitskreis digitale Kunstgeschichte“, dessen Mitglieder sich engagiert für einen reflektierten Einsatz digitaler Methoden einsetzen und dies bereits selbst umsetzen.</p>
-                </note>
+                <ref target="ftn1" n="1"/>
             </p>
             <p>Innerhalb meines Dissertationsprojektes zum Thema „Denkmalpflege zwischen System und Gesellschaft – Netzwerke der Denkmalpflege im Sozialismus“ habe ich es mir zum Ziel gesetzt sowohl eine technikgeschichtliche Methode zur Darstellung von Handlungen und Strukturen zu nutzen als auch analoge Netzwerke digital abzubilden.</p>
             <p>Die Zielsetzung ist es, zum einen die Komplexität der denkmalpflegerischen Aufgaben abbilden zu können und zum anderen – und dies ist das Ziel des gesamten Dissertationsprojektes – unzutreffende Verkürzungen und Verallgemeinerungen in Bezug auf die Denkmalpflege in der DDR zu vermeiden, in dem die unterschiedlichen Akteure und Zeitphasen im Zusammenhang mit den konkreten Objekten und der Darstellung des Erfolgs oder Misserfolgs der Denkmalpfleger und Denkmalpflegerinnen innerhalb der DDR erfasst, dargestellt und abgefragt werden können. Fragekomplexe, die hierbei in den Blick genommen werden, sind u.a.: Welche Akteure haben an welchen denkmalpflegerischen Projekten gearbeitet oder waren involviert? Welche Bauaufgaben wurden zu welchen Zeiten besonders stark gefördert, diskutiert, unter Schutz gestellt oder zum Abriss freigegeben? Welche Akteure konnten zu welchem Zeitpunkt erfolgreich Belange der Denkmalpflege umsetzen?</p>
@@ -88,19 +86,13 @@
                 <hi rend="Kommentarzeichen2">)</hi>
                 <hi rend="Fußnotenzeichen2"> Dies erscheint sinnvoll, da die Protagonisten der Denkmalpflege der DDR formale Beziehunge</hi>
                 <hi rend="Kommentarzeichen2">n</hi>
-                <note place="foot" xml:id="ftn2" n="2">
-                    <p rend="footnote text"> Formale Beziehung meint soziale Beziehungen. König lehnt den Netzwerkbegriff ab, da er teilweise „realistisch“ und teilweise modellistisch verwendet wird und es bei der modellistischen Verwendung nichts gibt, was sich nicht in Netze integrieren ließe. Allerdings ist die Netzmetapher bei Akteuren, die formale Beziehungen – also „echte“ Beziehungen im Sinne von sozialen Beziehungen – unterhalten, Königs Ansicht nach durchaus gerechtfertigt, weshalb ich den Netzwerkbegriff innerhalb meines Dissertationsprojekts durchaus für sinnvoll erachte.</p>
-                </note>
+                <ref target="ftn2" n="2"/>
                 <hi rend="Kommentarzeichen2"> </hi>
                 <hi rend="Fußnotenzeichen2">miteinander unterhalten haben, welche die Dynamik innerhalb der scheinbar festen Strukturen, welche das sozialistische System geprägt beziehungsweise festgelegt hat, überhaupt erst möglich werden ließ. </hi>In diesem Sinne möchte ich auch die graphbasierte Datenbank neo4j nutzbar machen und den Netzwerkbegriff nicht nur als Metapher verwenden.
             </p>
             <p>Jeder Teil unseres Lebens wird von zahlreichen Verbindungen geprägt, so auch die institutionellen wie auch persönlichen Netzwerke innerhalb der Denkmalpflege der DDR. Es reicht mir jedoch nicht aus, diese Netzwerke lediglich aufzuzeigen. Vielmehr sollen die vernetzten Informationen (Personen, Dinge, Orte usw.) abgespeichert und durch unterschiedliche Abfragen in ihrer Vielschichtigkeit analysierbar sein. Die Informationen innerhalb eines Netzwerkes sollen dem entsprechend weder ignoriert noch in irgendeiner Weise zusammengefasst, sondern in ihrer Detailliertheit erfasst werden. Mehr noch als „gephi“
-                <note place="foot" xml:id="ftn3" n="3">
-                    <p rend="footnote text"> https://gephi.org/</p>
-                </note>, das vor allem als Visualisierungstool von Netzwerken geeignet ist, bietet die Graph-Datenbank „neo4j“
-                <note place="foot" xml:id="ftn4" n="4">
-                    <p rend="footnote text"> https://neo4j.com/</p>
-                </note> die Möglichkeit wenig strukturierte Daten, die stark vernetzt sind, darzustellen. Im Mittelpunkt sollen dabei die Beziehungen zwischen den Akteuren und den Objekten stehen, sodass hier ein weiterer Vorteil im Hinblick auf relationale Datenbanken zu sehen ist. Auch die flexible Datenmodellierung sowie die relativ benutzerfreundliche Abfragesprache „Cypher“, sind weitere Vorteile im Vergleich zu etablierten RDBM-Systemen.
+                <ref target="ftn3" n="3"/>, das vor allem als Visualisierungstool von Netzwerken geeignet ist, bietet die Graph-Datenbank „neo4j“
+                <ref target="ftn4" n="4"/> die Möglichkeit wenig strukturierte Daten, die stark vernetzt sind, darzustellen. Im Mittelpunkt sollen dabei die Beziehungen zwischen den Akteuren und den Objekten stehen, sodass hier ein weiterer Vorteil im Hinblick auf relationale Datenbanken zu sehen ist. Auch die flexible Datenmodellierung sowie die relativ benutzerfreundliche Abfragesprache „Cypher“, sind weitere Vorteile im Vergleich zu etablierten RDBM-Systemen.
             </p>
             <p>Der Einsatz von neo4j erfolgt derzeit im Hinblick auf die konkreten und innerhalb der Dissertation umfassender dargestellten Fallbeispiele. Auf diese Weise werden sowohl der Mehrwert als auch die Besonderheiten des Einsatzes von „digital tools“ exemplarisch aufgezeigt.</p>
             <p>Hierzu war es zunächst notwendig, die vorhandenen Quellen eingehend zu recherchieren, um sowohl die verschiedenen Akteure zu identifizieren, als auch Fallbeispiele auswählen zu können, die derzeit in neo4j erfasst, dargestellt und analysiert werden. Der derzeitige Stand umfasst dabei den ersten Untersuchungszeitraum vom 1952 bis 1961.</p>
@@ -109,7 +101,13 @@
             <p>Anhand meines Posters möchte ich einerseits die Möglichkeiten aufzeigen, die sich durch die Nutzung digitaler Werkzeuge (gephi und neo4j), besonders im Hinblick auf die Darstellung und Analyse von Netzwerken, ergeben und andererseits einen Vergleich zwischen analogen und digitalen Methoden anstellen.</p>
         </body>
         <back>
-            <div type="bibliogr">
+         <div type="notes">
+            <note xml:id="ftn1" n="1" rend="footnote text"> Eine Ausnahme bildet in diesem Bereich der „Arbeitskreis digitale Kunstgeschichte“, dessen Mitglieder sich engagiert für einen reflektierten Einsatz digitaler Methoden einsetzen und dies bereits selbst umsetzen.</note>
+            <note xml:id="ftn2" n="2" rend="footnote text"> Formale Beziehung meint soziale Beziehungen. König lehnt den Netzwerkbegriff ab, da er teilweise „realistisch“ und teilweise modellistisch verwendet wird und es bei der modellistischen Verwendung nichts gibt, was sich nicht in Netze integrieren ließe. Allerdings ist die Netzmetapher bei Akteuren, die formale Beziehungen – also „echte“ Beziehungen im Sinne von sozialen Beziehungen – unterhalten, Königs Ansicht nach durchaus gerechtfertigt, weshalb ich den Netzwerkbegriff innerhalb meines Dissertationsprojekts durchaus für sinnvoll erachte.</note>
+            <note xml:id="ftn3" n="3" rend="footnote text"> https://gephi.org/</note>
+            <note xml:id="ftn4" n="4" rend="footnote text"> https://neo4j.com/</note>
+         </div>
+         <div type="bibliogr">
                 <listBibl>
                     <head>Bibliographie</head>
                     <bibl>
@@ -123,6 +121,6 @@
                     </bibl>
                 </listBibl>
             </div>
-        </back>
+      </back>
     </text>
 </TEI>

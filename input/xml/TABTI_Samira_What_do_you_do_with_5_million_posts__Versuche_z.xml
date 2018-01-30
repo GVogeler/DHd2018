@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xml:id="TABTI_Samira_What_do_you_do_with_5_million_posts__Versuche_z">
-    <teiHeader>
+   <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>What do you do with 5 million posts? Versuche zum distant reading religiöser Online-Foren</title>
@@ -105,7 +105,7 @@
          </settingDesc>
       </profileDesc>
     </teiHeader>
-    <text>
+   <text>
         <body>
             <div type="div1" rend="DH-Heading1">
                 <head>Einleitung</head>

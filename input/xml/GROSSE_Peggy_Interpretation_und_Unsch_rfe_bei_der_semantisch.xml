@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xml:id="GROSSE_Peggy_Interpretation_und_Unsch_rfe_bei_der_semantisch">
-    <teiHeader>
+   <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Interpretation und Unschärfe bei der semantischen Erschließung von historischen Quellen</title>
@@ -84,18 +84,14 @@
          </settingDesc>
       </profileDesc>
     </teiHeader>
-    <text>
+   <text>
         <body>
             <p rend="DH-Heading3">Einleitung</p>
             <p>Um im Rahmen eines Forschungsprojekts die anfallenden Daten in einer virtuellen Forschungsumgebung semantisch zu erschließen, wird unter Berücksichtigung der Fragestellung sowie der gewählten Bearbeitungsmethode für die formalisierte Erfassung und Darstellung eine Modellierung erarbeitet. Bei der Erschließung historischer Quellen werden Bearbeiter häufig mit inhaltlichen Unschärfen konfrontiert, die in der Regel eine Interpretation der Quellen in Hinblick auf die eigene Fragestellung unter Einbeziehung schon vorhandener Forschungsergebnisse erfordern. </p>
             <p>Es stellt sich folglich das Problem, wie die gewonnenen Forschungsdaten einerseits semantisch erschlossen und formalisiert werden können, um eine möglichst große Vergleichbarkeit der Daten zu gewährleisten, andererseits aber der Vorgang der Interpretation so transparent gehalten werden kann, dass er schließlich auch für Dritte nachvollziehbar bleibt. Das geschilderte Problem beginnt mit der Konzeption und Modellierung der Forschungsumgebung und reicht über die Erfassung durch Projektmitarbeiter bis zur Rezeption und gegebenenfalls Weiterverarbeitung der Daten durch Dritte. </p>
             <p>Im Folgenden soll dieses Problem anhand zweier Projekte erläutert werden, die mit der virtuellen Forschungsumgebung ‚Wissenschaftliche KommunikationsInfrastruktur‘ (WissKI)
-                <note place="foot" xml:id="ftn1" n="1">
-                    <p rend="footnote text"> http://wiss-ki.eu/.</p>
-                </note> arbeiten. WissKI wurde speziell für die Forschung im Bereich des kulturellen Erbes entwickelt und arbeitet mit Linked Open Data sowie Semantic Web-Technologien. Als ‚Semantisches Backend‘ und somit Referenzontologie wird das CIDOC Conceptual Reference Model (CIDOC CRM, ISO21127)
-                <note place="foot" xml:id="ftn2" n="2">
-                    <p rend="footnote text"> http://www.cidoc-crm.org/.</p>
-                </note> des International Council of Museums genutzt (vgl. Doerr/Lampe/Krause 2011, Görz 2011, Hohmann 2011, Hohmann/Schiemann 2013, Hohmann/Fichtner 2015).
+                <ref target="ftn1" n="1"/> arbeiten. WissKI wurde speziell für die Forschung im Bereich des kulturellen Erbes entwickelt und arbeitet mit Linked Open Data sowie Semantic Web-Technologien. Als ‚Semantisches Backend‘ und somit Referenzontologie wird das CIDOC Conceptual Reference Model (CIDOC CRM, ISO21127)
+                <ref target="ftn2" n="2"/> des International Council of Museums genutzt (vgl. Doerr/Lampe/Krause 2011, Görz 2011, Hohmann 2011, Hohmann/Schiemann 2013, Hohmann/Fichtner 2015).
             </p>
             <p rend="DH-Heading3">Erste Fallstudie: Digitale Edition der Posse-Tagebücher</p>
             <p>Das vom Deutschen Zentrum für Kulturgutverluste geförderte Projekt “Kommentierte Online-Edition der fünf Reisetagebücher Hans Posses (1939-1942)” wertet die Reisetagebücher des Kunsthistorikers Hans Posse aus. In seiner Funktion als Sonderbeauftragter Adolf Hitlers war Posse für den Aufbau einer Sammlung für das ‚Führermuseum Linz‘ sowie die Vorbereitung und Umsetzung eines Verteilungsprogramms von NS-Raubkunst auf die Museen im Deutschen Reich zuständig. Da Posse seine Aufzeichnungen meistens vor Ort vornahm, handelt es sich um schwer lesbare Kurznotizen, Listen und Aufzählungen, nur selten um Fließtext. </p>
@@ -110,9 +106,7 @@
             <p>Sowohl die Historizität der Quellen, als auch die Auslegung bzw. Deutung von visuellen und sprachlichen Symbolen durch die Projektmitarbeiter ist mit Unschärfen behaftet, die nur eingeschränkt in einer formularbasierten Erfassung in einer Datenbank für Dritte sichtbar gemacht werden können. Anhand von Bildquellen soll diese Problematik im Folgenden kurz erläutert werden. </p>
             <p>Die Deutung von Bildern erfolgt in mehreren Interpretationsebenen: Zunächst muss sich der Betrachter versichern, was er sieht (Büttner 2014: 12). Doch ist diese erste vordergründig neutrale Auswertung einer Quelle nicht objektiv, sondern kann die individuelle Betrachtung von kulturellen Mustern und subjektiven Erfahrungen geprägt sein (Büttner 2014: 17). Die zweite Interpretationsebene ist die Identifizierung des Themas bzw. des Motivs und des Entstehungskontextes. Hier gilt es die vom Künstler oder Auftraggeber intendierte Funktion und Bedeutung visueller Symbole einzubeziehen bzw. dieser Absicht möglichst nahe zu kommen. Um sich der Intention anzunähern, ist der Entstehungskontext eines Werkes wichtig, der ausgehend von den Forschungsfragen vor allem das entsprechende Friedensereignis betrifft, für das ein Werk geschaffen wurde. Das kann mal explizit (durch Nennung im Text oder Bildbeischriften, Datierung) und mal weniger eindeutig sein. Anders als in einem beschreibenden Text kann der Weg, der zum Eintrag eines Themas oder eines Friedensereignisses im Formular führt, nicht ohne viel Aufwand abgebildet werden, sodass die eingetragene Information immer ein Endprodukt eines Interpretationsvorganges darstellt.</p>
             <p>Auf der Ebene der semantischen Datenmodellierung wurde sowohl bei der Zuweisung von Motiven als auch bei Ereignissen durch die Einbindung eines Zuschreibungsereignisses (attribute assignment) der Vorgang der Interpretation ausgedrückt. Um eine Einheitlichkeit in der Benennung von Motiven und Themen zu erzielen wurde für die standardisierte Erfassung das weitverbreitete Klassifizierungssystem Iconclass hinterlegt.
-                <note place="foot" xml:id="ftn3" n="3">
-                    <p rend="footnote text"> http://www.iconclass.nl/about-iconclass/what-is-iconclass.</p>
-                </note>
+                <ref target="ftn3" n="3"/>
             </p>
             <p>Für die Nachnutzung der Informationen durch Dritte muss erläutert werden, nach welchen Kriterien die Auslegung der Quellen erfolgte und wie dabei vorgegangen wurde. Für die weitere Benutzung zwar standardisierter, aber mit Unschärfen behafteter Daten, braucht es deshalb ein hohes Maß an Reflexion und Kenntnis der in der Erfassung involvierten Fachdisziplinen, um Informationen auswerten und einordnen zu können.</p>
             <p rend="DH-Heading3">Fazit</p>
@@ -121,7 +115,12 @@
             <p>Auch wenn sich durch die semantische Modellierung auf Basis einer standardisierten Ontologie ein in sich logisches System auf Projektebene aufbauen lässt, so stellt sich doch die Frage, inwiefern verschiedene Forschungsumgebungen - trotz ähnlicher Forschungsgegenstände - noch vergleichbar im Sinne des Semantic Web-Gedanken bzw. des Linked Open Data sind. Eine inhaltliche Vergleichbarkeit ist nur bei grundlegenden Konzepten wie Personen, Orten oder Körperschaften gegeben. Für die Bewertung der Inhalte bleibt nach aktuellem Stand die genaue Kenntnis des Kontexts eines Forschungsprojekts unabdingbar.</p>
         </body>
         <back>
-            <div type="bibliogr">
+         <div type="notes">
+            <note xml:id="ftn1" n="1" rend="footnote text"> http://wiss-ki.eu/.</note>
+            <note xml:id="ftn2" n="2" rend="footnote text"> http://www.cidoc-crm.org/.</note>
+            <note xml:id="ftn3" n="3" rend="footnote text"> http://www.iconclass.nl/about-iconclass/what-is-iconclass.</note>
+         </div>
+         <div type="bibliogr">
                 <listBibl>
                     <head>Bibliographie</head>
                     <bibl>
@@ -159,6 +158,6 @@
                     </bibl>
                 </listBibl>
             </div>
-        </back>
+      </back>
     </text>
 </TEI>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xml:id="FISCHER_Frank_Netzwerkanalytischer_Blick_auf_die_Dramen_Anto">
-    <teiHeader>
+   <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title type="full">
@@ -114,7 +114,7 @@
          </settingDesc>
       </profileDesc>
     </teiHeader>
-    <text>
+   <text>
         <body>
             <p>
                 <anchor xml:id="id_docs-internal-guid-9515130d-9a91-cb2d-c815-97a9c9a0094d"/>Die literarische Netzwerkanalyse hat sich in den letzten Jahren zu einer gefragten Methode der digitalen Literaturwissenschaft entwickelt. Dabei rangiert die Größe der Arbeitskorpora im Sinne des »scalable reading« (Martin Mueller) von der Betrachtung von Einzeltexten (Schweizer/Schnegg 1998, Moretti 2011) über kleinere Korpora bis hin zur Untersuchung hunderter oder gar tausender Dramen (Fischer u. a. 2016, Trilcke u. a. 2016, Algee-Hewitt 2017). Dabei zeigt sich auch immer wieder Interesse an bestimmten, etwa autorzentrierten Subkorpora (Wade 2017).
@@ -132,7 +132,7 @@
             </p>
         </body>
         <back>
-            <div type="bibliogr">
+         <div type="bibliogr">
                 <listBibl>
                     <head>Bibliographie</head>
                     <bibl>
@@ -176,6 +176,6 @@
                     </bibl>
                 </listBibl>
             </div>
-        </back>
+      </back>
     </text>
 </TEI>

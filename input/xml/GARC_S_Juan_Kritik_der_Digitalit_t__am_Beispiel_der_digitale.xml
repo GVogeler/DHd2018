@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xml:id="GARC_S_Juan_Kritik_der_Digitalit_t__am_Beispiel_der_digitale">
-    <teiHeader>
+   <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Kritik der Digitalität (am Beispiel der digitalen Textwissenschaft)</title>
@@ -79,7 +79,7 @@
          </settingDesc>
       </profileDesc>
     </teiHeader>
-    <text>
+   <text>
         <body>
             <p>Welche Konsequenzen birgt die Digitalisierung der textbasierten Geisteswissenschaften? Zweifelsohne bringt die computerbetriebene Verarbeitung digital erschlossener Texte einen beachtlichen quantitativen Fortschritt mit sich: in dem Maße, in dem historische Texte digital erschlossen bzw. eine kritische Masse an digital erzeugten Texten zur Verfügung stehen, lassen sich aus den größeren, nun handhabbaren Datenmengen jetzt neues Wissen extrahieren und analysieren, das dieser Masse an Informationen gerecht werden kann. Neben den für das Druckzeitalter typischen akribischen Lektüren (
                 <hi rend="italic">close reading</hi>) gesellen sich jetzt beispielsweise „Lektüren aus der Distanz“ (Moretti: 
@@ -100,7 +100,7 @@
             <p>Dabei ist es bemerkenswert, dass auch diejenigen Geisteswissenschaften, die sich mit der Kunst beschäftigen zunehmend auf die Wissenschaftstheorie positivistischer Prägung rekurrieren. Die Vermittlung des Wissens durch ein Modell führt aber dazu, dass die Sache, die damit erklärt werden soll, gerade nicht mehr erfahren werden muss. Wendet man diese Form der Vermittlung auf genuine Gegenstände der Geisteswissenschaft an, betrachtet man sie als Gegenstände, die zur Ordnung der Natur gehören, also im Grunde als unmittelbare. Das Gegenteil ist aber der Fall, sie sind höchstvermittelt, d.h. sie sind Singulare.</p>
         </body>
         <back>
-            <div type="bibliogr">
+         <div type="bibliogr">
                 <listBibl>
                     <head>Bibliographie</head>
                     <bibl>
@@ -157,6 +157,6 @@
                     </bibl>
                 </listBibl>
             </div>
-        </back>
+      </back>
     </text>
 </TEI>

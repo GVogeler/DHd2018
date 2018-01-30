@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xml:id="B_TTGER_Lucie_Wahrnehmung_und_digitale_Mustererkennung_am_Be">
-    <teiHeader>
+   <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Wahrnehmung und digitale Mustererkennung am Beispiel antiker Terrakottastatuetten</title>
@@ -86,7 +86,7 @@
          </settingDesc>
       </profileDesc>
     </teiHeader>
-    <text>
+   <text>
         <body>
             <p>Sowohl die Informatik als auch die Bild- und Objektwissenschaften nutzen für die Klassifizierung von Objekten und der Bestimmung ihres Ähnlichkeitsgrades Klassifizierungsverfahren und Methoden der Mustererkennung. Während allerdings die Informatik darauf abzielt durch Mustervergleich die Klassifizierung unbekannter Objekte zu automatisieren, dienen Typologien in der Archäologie als Ordnungskriterien für soziokulturelle Fragen, um Informationen über Funktion, Bedeutung oder Produktion zu erfahren. </p>
             <p>Die in der Archäologie angewandten qualitativen Analysen basieren auf einem wissenschaftlichen Konstrukt von Klassifikationskriterien [Adams – Adams 2008]. In Fällen, in denen eine große Anzahl von Artefakten eine ganz ähnliche Form hat, sich aber in gewissen Einzelheiten deutlich unterscheidet, wie bei seriell hergestellten Terrakotta-Figuren, die nachträglich überarbeitet wurden, hat der Begriff der Typologie jedoch seine Grenzen erreicht. In Bezug auf die Wahrnehmung und den Wert der Figuren gibt es zu viele verschiedene Kriterien, die eine Bedeutung tragen. Nur ein statistischer Ansatz, der die Hauptmerkmale in Kombination mit archäologischen Quellen und den intrinsischen ästhetischen Werten (wie Farbe oder Stil) berücksichtigt, kann das Problem lösen.</p>
@@ -111,7 +111,7 @@
             <p>Infolgedessen reicht es nicht aus, die Modelle in einfache geometrische Formen zu zerlegen. Ein vielversprechender Ansatz für Formerkennungsverfahren wird derzeit anhand der neu erstellten Terrakotta-Schemata unter Verwendung verschiedener Verfahren der shape comparison im Bereich 2/3D und machine learning entwickelt und evaluiert. Ziel ist es den Grad der Vereinfachung und Abstraktion nicht nur mit den menschlichen Erkennungs- und Verbreitungsmustern zu verknüpfen, um die unbekannten Objekte inkrementell zu bewerten und zu klassifizieren, sondern auch die in der Archäologie und Kunstgeschichte entwickelten Kategorisierungen zu verwenden. Die 3D-Mustererkennung der Hauptkomponenten (Form, Größe und Farbe) muss daher mit archäologischer Subkategorisierung und geeigneten Formen des maschinellen Lernens einhergehen [Bishop 2006].</p>
         </body>
         <back>
-            <div type="bibliogr">
+         <div type="bibliogr">
                 <listBibl>
                     <head>Bibliographie</head>
                     <bibl>Bibliographie</bibl>
@@ -174,6 +174,6 @@
                     </bibl>
                 </listBibl>
             </div>
-        </back>
+      </back>
     </text>
 </TEI>

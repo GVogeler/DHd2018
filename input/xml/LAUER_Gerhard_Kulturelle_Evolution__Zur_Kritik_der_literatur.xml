@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xml:id="LAUER_Gerhard_Kulturelle_Evolution__Zur_Kritik_der_literatur">
-    <teiHeader>
+   <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Kulturelle Evolution. Zur Kritik der literaturhistorischen Methode</title>
@@ -72,7 +72,7 @@
          </settingDesc>
       </profileDesc>
     </teiHeader>
-    <text>
+   <text>
         <body>
             <p>Zu den Provokationen der Literaturwissenschaft durch die Digital Humanities gehört ihre Arbeit an großen Datenmengen. Nicht das besondere Buch, der Kanon oder der Großschriftsteller, sondern die vielen Bücher und Literaturen sind der ‚andere‘ Gegenstand der computergestützten Literaturwissenschaft. Geradezu typisiert werden Digital Humanities und Distant Reading zusammen genannt. Tatsächlich war (Moretti, 2000) als Kritik an der herkömmlichen Literaturwissenschaft angelegt, genauer an ihrer methodischen Beschränkung, die Vielfalt der Literaturen methodisch in den Griff zu bekommen. Die Kritiker Morettis haben sein Anliegen konzediert, ohne konkrete Vorschläge zu machen, wie mit dem ‚Mengenproblem‘ in der Literaturgeschichtsschreibung besser umgegangen werden könnte (Ross, 2014). Ein radikaler Ansatz, die Geschichte der Literatur anders als bisher zu modellieren, ist der Ansatz der kulturellen Evolution (Lewens, 2013). Meine These lautet: Evolutionäre Modelle und Theorien sind für die Beantwortung literaturhistorische Fragestellung geeignet, besonders um das ‚Mengenproblem‘ in den Griff zu bekommen. Im Folgenden skizziere ich Theorie und Methodologie eines solchen Ansatzes und frage nach den Folgen für ein Fach wie die Literaturgeschichte.</p>
             <p>Wie der Name schon andeutet, verschiebt der Ansatz den Akzent von der Geschichte auf die Evolution. In den Blick rückt nicht weniger als die Menschheitsgeschichte. Der Ansatz kommt denn auch aus der biologischen Anthropologie, nicht aus den geisteswissenschaftlichen Fächern. Das leitende Paradigma ist Darwins Theorie der Evolution. Die Theorie der kulturellen Evolution überträgt dieses Modell auf die Kulturgeschichte der Menschheit. Sie geht von der These aus, dass die Entwicklung der menschlichen Kulturen der gleichen evolutionären Entwicklungslogik folgt, der auch die Natur unterliegt (Mesoudi, 2016). Dabei geht es nicht um eine Analogie, vielmehr lautet die Dual-Heritance-These dieser Theorie, dass die Kultur die Natur des Menschen ist, kulturelle Entwicklungen die Natur des Menschen bis in seine genetische und biologische Veranlagung beeinflussen, wie umgekehrt die Naturgeschichte des Menschen seine Kultur bestimmt (Henrich &amp; McElreath, 2007). So generell angelegt versteht sich kulturelle Evolution als eine Supertheorie, die verspricht, die Sozial- und Geisteswissenschaften mit den biologischen Wissenschaften zusammenzuführen (Mesoudi, Whiten &amp; Laland, 2006; Laubichler &amp; Renn, 2015). Aus der Sicht der Digital Humanities ist die Theorie der kulturellen Evolution daher am extremen Ende des Distant Reading angesiedelt. Statt das einzelne Buch versucht die Theorie die Kultur der Menschheit in den Blick der Untersuchung zu nehmen.</p>
@@ -88,7 +88,7 @@
             <p>Systematisch gewendet heißt das: Eine kulturevolutionäre Literaturgeschichtsschreibung hat ein anderes Gegenstandsfeld, nicht den Viktorianischen Roman, sondern die evolutionäre Logik seiner Entwicklung und die Schreibmuster dieses Genres. Literatur ist kein Werk, sondern Teil von Populationen. Sie benutzt zweitens andere Methodensets als die herkömmliche Literaturgeschichte, aber teilweise auch andere als sie sonst in den Digital Humanities gängig sind. Drittens leistet der Ansatz anderes. Er ist auf Erkenntnisse zur Logik der langen Dauer ausgerichtet. Und viertens rückt der Ansatz die Literaturgeschichte nahe an die Biologie heran mit Folgen für die Theoriebildung und Methodenentwicklung. Die Theorie der kulturellen Evolution ist nicht weniger als ein Ansatz, Digital Humanities als Teil eines größeren Forschungsprogramms zu betreiben. Mein Vortrag ist ein Plädoyer für ein solches Forschungsprogramm einer Literaturgeschichte der langen Dauer.</p>
         </body>
         <back>
-            <div type="bibliogr">
+         <div type="bibliogr">
                 <listBibl>
                     <head>Bibliographie</head>
                     <bibl>
@@ -221,6 +221,6 @@
                     </bibl>
                 </listBibl>
             </div>
-        </back>
+      </back>
     </text>
 </TEI>

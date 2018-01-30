@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xml:id="KLEYMANN_Rabea_Perspektiven_kritischer_Interfaces_f_r_die_Di">
-    <teiHeader>
+   <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Perspektiven kritischer Interfaces für die Digital Humanities im 3DH-Projekt</title>
@@ -89,21 +89,14 @@
          </settingDesc>
       </profileDesc>
     </teiHeader>
-    <text>
+   <text>
         <body>
             <div type="div1" rend="DH-Heading1">
                 <head>Einleitung</head>
                 <p>Eine Haupttätigkeit von LiteraturwissenschaftlerInnen ist die Interpretation von literarischen Texten. Unter „Interpretation“ wird „ein Sprechen oder Schreiben über Texte [verstanden], in dem ihnen auf methodische und argumentierende Weise Bedeutungen zugeschrieben werden“ (Albrecht et. al. 2015: 1). Mit dem Einzug digitaler Methoden in die literaturwissenschaftliche Praxis werden dabei insbesondere die Formen der Bedeutungszuschreibung und -produktion sowie die damit verbundene Frage nach einem Textverstehen zur Disposition gestellt (vgl. Rockwell/Sinclair 2016). Eine wichtige Rolle in der Gestaltung von digitalen Zugängen zur Textinterpretation spielen in diesem Kontext User Interfaces im Allgemeinen und interaktive Visualisierungen im Speziellen. Unter „Interfaces“ verstehen wir die gesamte visuelle Struktur und Bedienlogik einer Software, mit „Visualisierungen“ bezeichnen wir interaktive Teile des Interfaces, die Nutzern auf Daten (in diesem Fall Textdaten) basierende visuelle Repräsentationen zugänglich und diese manipulierbar machen.</p>
                 <p>Die Frage, wie solche Interfaces und Visualisierungen an den Bedürfnissen interpretierender LiteraturwissenschaftlerInnen orientiert sein sollten, um eine Textanalyse und -interpretation sinnvoll zu unterstützen, ist Teil des Forschungsanliegens des Projekts 3DH –
                     <hi rend="italic">Dreidimensionale dynamische Datenvisualisierung und Exploration für Digital Humanities-Forschungen</hi> der Universität Hamburg.
-                    <note place="foot" xml:id="ftn1" n="1">
-                        <p> Das Projekt 
-                            <hi rend="italic">3DH – Dreidimensionale dynamische Datenvisualisierung und Exploration für Digital Humanities-Forschungen</hi> wird in der ersten Projektphase (02/2016 – 01/2019) von der Behörde für Wissenschaft, Forschung und Gleichstellung gefördert. Für weitere Informationen vgl. 
-                            <ref target="http://www.threedh.net">
-                                <hi rend="underline color(1155CC)">www.threedh.net</hi>
-                            </ref> [letzter Zugriff: 07.09.2017].
-                        </p>
-                    </note>
+                    <ref target="ftn1" n="1"/>
                 </p>
                 <p>Vor dem Hintergrund, dass Interfaces und Visualisierungen in den Geisteswissenschaften eine wachsende Relevanz zugesprochen wird, plädieren wir für eine designbasierte kritische Perspektive. Darunter verstehen wir die Einbindung von Methoden aus dem nutzerzentrierten Design in die Tool-Entwicklung. Diese erlauben eine an Nutzerbedürfnissen und -erwartungen orientierte Gestaltung von Interfaces und Visualisierungen. Dieser Ansatz zielt darauf, die Grenzen der klassischen Verfahren der Datenerhebung und -verarbeitung, wie sie bereits von bestehenden Annotationstools (z. B. CATMA; siehe http://catma.de) unterstützt werden, neu auszuloten. </p>
                 <p>Zunächst stellen wir die aus unserer Sicht notwendigen normativen Anforderungen an ein kritisches Interface- und Visualisierungskonzept vor, um dann darzulegen, welche Strategie wir in der Gestaltung und Entwicklung solcher Interfaces und Visualisierungen verfolgen. Im Anschluss werden beispielhaft einzelne Wireframes diskutiert.</p>
@@ -111,9 +104,7 @@
             <div type="div1" rend="DH-Heading1">
                 <head>Grundlagen eines kritischen Interface- und Visualisierungskonzeptes</head>
                 <p>Eine kritische Bestandsaufnahme aktueller Visualisierungstools und -metaphern und deren Anwendung in den Geisteswissenschaften (vgl. Bradley 2008; Drucker 2011, 2014; Gibbs/Owens 2012) führte im 3DH-Projekt zur Formulierung von vier konzeptionellen Postulaten.
-                    <note place="foot" xml:id="ftn2" n="2">
-                        <p> Einige Digital-Humanities-Tools und Forschungsansätze, die auf die Unterstützung von hermeneutischen Prozessen zielen: Pliny und TEASys.</p>
-                    </note> Definiert werden damit die Prinzipien, die einem Interface bzw. einer Visualisierung zugrunde gelegt werden müssen, sofern diese literaturwissenschaftliche Arbeitsprozesse sinnvoll unterstützen sollen. Es handelt sich um die Postulate 
+                    <ref target="ftn2" n="2"/> Definiert werden damit die Prinzipien, die einem Interface bzw. einer Visualisierung zugrunde gelegt werden müssen, sofern diese literaturwissenschaftliche Arbeitsprozesse sinnvoll unterstützen sollen. Es handelt sich um die Postulate 
                 </p>
                 <p>1. des „Two-Way-Screens“: Das Interface soll vom Renderer zum bidirektionalen Instrument werden; </p>
                 <p>2. der „Qualität“: Die Visualisierung soll nicht nur der Repräsentation von Daten fungieren, sondern Möglichkeiten bieten, qualitative Beobachtungen und Aussagen zu tätigen;</p>
@@ -127,27 +118,12 @@
             <div type="div1" rend="DH-Heading1">
                 <head>Annäherung an die literaturwissenschaftliche Arbeitspraxis über nutzerzentrierte Szenarien</head>
                 <p>Mithilfe von Szenarien werden besagte ‚routineförmige Tätigkeiten‘ untersucht und erfassbar gemacht.
-                    <note place="foot" xml:id="ftn3" n="3">
-                        <p> Der Begriff „Szenario“ wird im Projekt in seiner Bedeutung als Methode und essentieller Bestandteil eines nutzerzentrierten Designprozesses nach Rosson/Carroll (2009) verwendet: „Scenarios of use reconcile concreteness and flexibility. [...] Initial scenarios are often extremely rough. They specify a possible design by specifying the tasks users can carry out, but without committing to lower-level details describing how the tasks will be carried out, or how the system will present the functionality for the tasks.”</p>
-                    </note> Kollaborativ wurden bislang drei generische Szenarien konstruiert, die das Spektrum typischer interpretierender Forschungstätigkeiten repräsentieren.
-                    <note place="foot" xml:id="ftn4" n="4">
-                        <p> Szenarien:</p>
-                        <p>(1) Exploration freier Annotationen zwecks Schärfung der literaturwissenschaftlichen Fragestellung</p>
-                        <p>(2) Themenexploration in einem größeren Textkorpus – Topic Modeling</p>
-                        <p>(3) Exploration taxonomiebasierter Annotationen zur Auswertung strukturierter Textanalysen</p>
-                        <p>Während die ursprüngliche Fassung der Szenarien auf den Erfahrungen literaturwissenschaftlicher Forschungstätigkeit im eigenen Team basierte, haben wir diese im Rahmen eines Workshops (5.-7. August 2017) mit Johanna Drucker, Geoffrey Rockwell, Marian Dörk und Evelyn Gius überarbeitet.</p>
-                    </note>
+                    <ref target="ftn3" n="3"/> Kollaborativ wurden bislang drei generische Szenarien konstruiert, die das Spektrum typischer interpretierender Forschungstätigkeiten repräsentieren.
+                    <ref target="ftn4" n="4"/>
                 </p>
                 <p>Die Konzepte erstrecken sich vom klassischen „Close Reading“-Beispiel mit Fokus auf noch nicht taxonomisch gelenkte freie Annotationen und Kommentare bis zum „Distant Reading“-Beispiel unter Anwendung des probabilistischen Verfahrens „Topic Modeling“.</p>
                 <p>Analog zur Konstruktion der Szenarien ist auch der von uns verfolgte nutzerzentrierte Gestaltungsprozess typischerweise durch ein iteratives Vorgehen gekennzeichnet.
-                    <note place="foot" xml:id="ftn5" n="5">
-                        <p> Grundsätzlich lassen sich vier Phasen unterscheiden nach DIN EN ISO 9241-210:</p>
-                        <p>1. Analyse, Beschreibung und Verständnis des Nutzungskontextes</p>
-                        <p>2. Spezifikation der Nutzungsanforderungen</p>
-                        <p>3. Gestaltungslösungen entwerfen</p>
-                        <p>4. Evaluation der entworfenen Gestaltungslösungen aus Nutzerperspektive</p>
-                        <p>Mit jeder Iteration steigt die Komplexität und/oder der Grad ästhetischer Qualität der Entwürfe. Während zu Beginn mit einfachen Handskizzen von Abläufen im Interface gearbeitet wird (Wireframes), kommen später Papierprototypen zum Einsatz, Screendesigns und schließlich auch interaktive Mock-Ups oder sogar Prototypen. Die Evaluation kann ebenfalls unterschiedliche Formen annehmen. Während in frühen Stadien Entwürfe eher informell diskutiert werden oder in Workshops mit Nutzern und Experten aller beteiligten Fachrichtungen ergänzt und erweitert werden, können spätere interaktive Entwurfsformen auch mit Probanden in qualitativen Nutzertests getestet werden. </p>
-                    </note>
+                    <ref target="ftn5" n="5"/>
                 </p>
                 <p>Abbildung 1 zeigt eine Auswahl von Varianten sogenannter „Wireframes“, d.h. von Designskizzen zu einem Interface für die Tätigkeit „Kommentieren“ in dem Szenario „Exploration freier Annotationen zwecks Schärfung der literaturwissenschaftlichen Fragestellung“.</p>
                 <figure>
@@ -176,9 +152,7 @@
                         <anchor xml:id="gjdgxs"/>Aufgabe der Designiterationen von Szenarien und Wireframes wird es sein, für die Überlagerung und Wechselwirkung der routinemäßigen Tätigkeiten in der Gestaltung des Interfaces eine adäquate Entsprechung zu finden.
                     </p>
                     <p>Auf Grundlage der bisher erstellten Wireframes für die drei Szenarien ließen sich zwei Modi des literaturwissenschaftlichen Interpretationsverfahrens ausmachen. Zum einen besteht der Interpretationsprozess aus Tätigkeiten, die primär die analytische, investigative Erforschung des Textes adressieren (Annotieren, Sammeln, Kommentieren).
-                        <note place="foot" xml:id="ftn6" n="6">
-                            <p> Vgl. auch Winkos Ausführungen zur Differenzierung von Textanalyse und -interpretation (2003: 598): “Textanalysen basieren auf sprachlichen, formalen und strukturellen Informationen und greifen in erster Linie auf intratextuelle sowie auf denjenigen Typ extratextueller Kontexte zurück, der zum primären Verständnis vorauszusetzen ist; Interpretationen dagegen setzen Ergebnisse der Textanalyse voraus, und es dominiert tendenziell der Rekurs auf weitergehende, insbesondere inter- und extratextuelle Kontexte. Darüber hinaus sind Hypothesen über die Bedeutung eines Textes in Interpretationen komplexer als in Textanalysen.”</p>
-                        </note> Komplementär dazu verhalten sich zum anderen die argumentativen, vornehmlich synthetisierenden Tätigkeiten der Textinterpretation (Gruppieren, Ordnen, Strukturieren). Um den literaturwissenschaftlichen Arbeitsprozess adäquat unterstützen zu können, so unsere Annahme, müssen Interfaces beide Modi in enger Verschränkung umfassen und stetigen Wechsel zwischen diesen ermöglichen. Abbildung 2 zeigt einen ersten Versuch, die Ebene der Bedeutungsproduktion – von uns als „semantic plane“ bezeichnet – d.h. die Ebene, die analytische und synthetisierende Tätigkeiten umfasst und miteinander verknüpft, in die Interface-Entwürfe zu integrieren.
+                        <ref target="ftn6" n="6"/> Komplementär dazu verhalten sich zum anderen die argumentativen, vornehmlich synthetisierenden Tätigkeiten der Textinterpretation (Gruppieren, Ordnen, Strukturieren). Um den literaturwissenschaftlichen Arbeitsprozess adäquat unterstützen zu können, so unsere Annahme, müssen Interfaces beide Modi in enger Verschränkung umfassen und stetigen Wechsel zwischen diesen ermöglichen. Abbildung 2 zeigt einen ersten Versuch, die Ebene der Bedeutungsproduktion – von uns als „semantic plane“ bezeichnet – d.h. die Ebene, die analytische und synthetisierende Tätigkeiten umfasst und miteinander verknüpft, in die Interface-Entwürfe zu integrieren.
                     </p>
                     <figure>
                         <graphic n="1003"
@@ -193,20 +167,8 @@
                     <head>Flexibilität und Manipulierbarkeit von Visualisierungen</head>
                     <p>Um eine flexiblere Unterstützung des literaturwissenschaftlichen Arbeitsprozesses im Interface zu ermöglichen, ist ferner der Einsatz unterschiedlicher Visualisierungen sinnvoll (vgl. Cheema et al. 2015). Diese sollten vergleichbar sein in ihren Resultaten und ihre Darstellungsform, Interaktivität und der jeweils repräsentierte Datenausschnitt sollte individuell bestimmbar sein. </p>
                     <p>Im Interesse einer Justierbarkeit der Visualisierungen orientieren wir uns an den Visualisierungssystematiken, wie sie Wilkinson mit seinem „Grammar-of-Graphics“-Ansatz vorschlägt (vgl. Wilkinson et al. 2005). Es existieren bereits verschiedene Implementierungen dieses Ansatzes, die es erlauben, die oben genannten Parameter einer Visualisierung mithilfe einer Grammatik beschreibbar und manipulierbar zu machen (vgl. Satyanarayan et al. 2017). In unserem Kontext ist die deklarative Sprache VEGA
-                        <note place="foot" xml:id="ftn7" n="7">
-                            <p> VEGA – A Visualization Grammar: 
-                                <ref target="https://vega.github.io/vega/">
-                                    <hi rend="underline color(1155CC)">https://vega.github.io/vega/</hi>
-                                </ref>
-                            </p>
-                        </note> interessant, die auf der verbreiteten Javascript-Visualisierungsbibliothek D3
-                        <note place="foot" xml:id="ftn8" n="8">
-                            <p> D3 – Data-Driven Documents: 
-                                <ref target="https://d3js.org/">
-                                    <hi rend="underline color(1155CC)">https://d3js.org/</hi>
-                                </ref>
-                            </p>
-                        </note> beruht und es Nutzerinnen und Nutzern ermöglichen würde, ihre Visualisierungsspezifikationen in JSON zu formulieren.
+                        <ref target="ftn7" n="7"/> interessant, die auf der verbreiteten Javascript-Visualisierungsbibliothek D3
+                        <ref target="ftn8" n="8"/> beruht und es Nutzerinnen und Nutzern ermöglichen würde, ihre Visualisierungsspezifikationen in JSON zu formulieren.
                     </p>
                     <p>Im Sinne einer nutzerzentrierten Gestaltung ist es wichtig, diese Funktionalitäten an die unterschiedlichen Vorkenntnisse der Nutzerinnen und Nutzer anpassen zu können. Weniger fortgeschrittene Nutzerinnen und Nutzer sollen stets auf Standardvisualisierungen zurückgreifen können. Unserem Anspruch gemäß steht die Unterstützung des interpretierenden Prozesses als Ganzheit mit dem Interface im Vordergrund.</p>
                 </div>
@@ -218,7 +180,30 @@
             </div>
         </body>
         <back>
-            <div type="bibliogr">
+         <div type="notes">
+            <note xml:id="ftn1" n="1"> Das Projekt 
+                            <hi rend="italic">3DH – Dreidimensionale dynamische Datenvisualisierung und Exploration für Digital Humanities-Forschungen</hi> wird in der ersten Projektphase (02/2016 – 01/2019) von der Behörde für Wissenschaft, Forschung und Gleichstellung gefördert. Für weitere Informationen vgl. 
+                            <ref target="http://www.threedh.net">
+                                <hi rend="underline color(1155CC)">www.threedh.net</hi>
+                            </ref> [letzter Zugriff: 07.09.2017].
+                        </note>
+            <note xml:id="ftn2" n="2"> Einige Digital-Humanities-Tools und Forschungsansätze, die auf die Unterstützung von hermeneutischen Prozessen zielen: Pliny und TEASys.</note>
+            <note xml:id="ftn3" n="3"> Der Begriff „Szenario“ wird im Projekt in seiner Bedeutung als Methode und essentieller Bestandteil eines nutzerzentrierten Designprozesses nach Rosson/Carroll (2009) verwendet: „Scenarios of use reconcile concreteness and flexibility. [...] Initial scenarios are often extremely rough. They specify a possible design by specifying the tasks users can carry out, but without committing to lower-level details describing how the tasks will be carried out, or how the system will present the functionality for the tasks.”</note>
+            <note xml:id="ftn4" n="4"> Szenarien:(1) Exploration freier Annotationen zwecks Schärfung der literaturwissenschaftlichen Fragestellung(2) Themenexploration in einem größeren Textkorpus – Topic Modeling(3) Exploration taxonomiebasierter Annotationen zur Auswertung strukturierter TextanalysenWährend die ursprüngliche Fassung der Szenarien auf den Erfahrungen literaturwissenschaftlicher Forschungstätigkeit im eigenen Team basierte, haben wir diese im Rahmen eines Workshops (5.-7. August 2017) mit Johanna Drucker, Geoffrey Rockwell, Marian Dörk und Evelyn Gius überarbeitet.</note>
+            <note xml:id="ftn5" n="5"> Grundsätzlich lassen sich vier Phasen unterscheiden nach DIN EN ISO 9241-210:1. Analyse, Beschreibung und Verständnis des Nutzungskontextes2. Spezifikation der Nutzungsanforderungen3. Gestaltungslösungen entwerfen4. Evaluation der entworfenen Gestaltungslösungen aus NutzerperspektiveMit jeder Iteration steigt die Komplexität und/oder der Grad ästhetischer Qualität der Entwürfe. Während zu Beginn mit einfachen Handskizzen von Abläufen im Interface gearbeitet wird (Wireframes), kommen später Papierprototypen zum Einsatz, Screendesigns und schließlich auch interaktive Mock-Ups oder sogar Prototypen. Die Evaluation kann ebenfalls unterschiedliche Formen annehmen. Während in frühen Stadien Entwürfe eher informell diskutiert werden oder in Workshops mit Nutzern und Experten aller beteiligten Fachrichtungen ergänzt und erweitert werden, können spätere interaktive Entwurfsformen auch mit Probanden in qualitativen Nutzertests getestet werden. </note>
+            <note xml:id="ftn6" n="6"> Vgl. auch Winkos Ausführungen zur Differenzierung von Textanalyse und -interpretation (2003: 598): “Textanalysen basieren auf sprachlichen, formalen und strukturellen Informationen und greifen in erster Linie auf intratextuelle sowie auf denjenigen Typ extratextueller Kontexte zurück, der zum primären Verständnis vorauszusetzen ist; Interpretationen dagegen setzen Ergebnisse der Textanalyse voraus, und es dominiert tendenziell der Rekurs auf weitergehende, insbesondere inter- und extratextuelle Kontexte. Darüber hinaus sind Hypothesen über die Bedeutung eines Textes in Interpretationen komplexer als in Textanalysen.”</note>
+            <note xml:id="ftn7" n="7"> VEGA – A Visualization Grammar: 
+                                <ref target="https://vega.github.io/vega/">
+                                    <hi rend="underline color(1155CC)">https://vega.github.io/vega/</hi>
+                                </ref>
+                            </note>
+            <note xml:id="ftn8" n="8"> D3 – Data-Driven Documents: 
+                                <ref target="https://d3js.org/">
+                                    <hi rend="underline color(1155CC)">https://d3js.org/</hi>
+                                </ref>
+                            </note>
+         </div>
+         <div type="bibliogr">
                 <listBibl>
                     <head>Bibliographie</head>
                     <bibl>
@@ -351,6 +336,6 @@
                     </bibl>
                 </listBibl>
             </div>
-        </back>
+      </back>
     </text>
 </TEI>

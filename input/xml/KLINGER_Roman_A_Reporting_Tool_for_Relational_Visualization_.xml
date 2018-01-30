@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xml:id="KLINGER_Roman_A_Reporting_Tool_for_Relational_Visualization_">
-    <teiHeader>
+   <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title type="full">
@@ -107,7 +107,7 @@
          </settingDesc>
       </profileDesc>
     </teiHeader>
-    <text>
+   <text>
         <body>
             <div type="div1" rend="DH-Heading">
                 <head>Introduction and Motivation</head>
@@ -115,21 +115,13 @@
                     <hi rend="italic">distant reading</hi> to find patterns and regularities (Moretti, 2005). Network analysis and extraction of information about relations between characters from literary texts is an example for distant reading methods. Such information can not only be helpful for better understanding of character interactions but can also facilitate the comparison of thereof in different texts.
                 </p>
                 <p>Existing tools of text analysis and network visualization such as Voyant
-                    <note xml:id="ftn1" place="foot" n="1">
-                        <ptr target="https://voyant-tools.org/"/>
-                    </note> or Gephi
-                    <note xml:id="ftn2" place="foot" n="2">
-                        <ptr target="https://gephi.org/"/>
-                    </note> are either missing modules for character network analysis or require preliminary steps on data preprocessing from the user and therefore are not easy-to-use for some humanities scholars who lack programming skills. Interactive tools in addition often lack features to ensure reproducibility of results.
+                    <ref target="ftn1" n="1"/> or Gephi
+                    <ref target="ftn2" n="2"/> are either missing modules for character network analysis or require preliminary steps on data preprocessing from the user and therefore are not easy-to-use for some humanities scholars who lack programming skills. Interactive tools in addition often lack features to ensure reproducibility of results.
                 </p>
                 <p>We present our ongoing effort on closing this gap by developing a literary analysis reporting tool 
                     <hi rend="italic">rCAT</hi>
                     <hi rend="italic">
-                        <note xml:id="ftn3" place="foot" n="3">
-                            <ref target="http://www.ims.uni-stuttgart.de/data/rcat">
-                                <hi rend="color(#1155cc)underline">www.ims.uni-stuttgart.de/data/rcat</hi>
-                            </ref>
-                        </note>
+                        <ref target="ftn3" n="3"/>
                     </hi>, whose primary purpose is to provide an easy-to-use, stable, and reusable solution for automatic extraction of relational information from text and to characterize these relationships automatically to provide the user with deeper qualitative insight. We opt for implementation as a web-based reporting tool instead of an interactive tool for two reasons: (1) automatically generated reports in PDF format can serve as a stable foundation for discussion and can be reused in publications and visualizations easily, and (2) the results are clearly connected to the chosen input parameters such that reproducibility of results is ensured.
                 </p>
                 <p>As a use-case study, we apply 
@@ -204,9 +196,7 @@
                 </p>
                 <p>
                     <hi rend="color(#333333) background-color(#ffffff)">T</hi>he tool was developed using Python v.3.6 and the Flask
-                    <note xml:id="ftn4" place="foot" n="4">
-                        <ptr target="http://flask.pocoo.org/"/>
-                    </note> web development framework. The tool outputs a single PDF report. The resulting document contains information from the analysis modules described in the previous section. Network graphs included in the report are generated with 
+                    <ref target="ftn4" n="4"/> web development framework. The tool outputs a single PDF report. The resulting document contains information from the analysis modules described in the previous section. Network graphs included in the report are generated with 
                     <hi rend="italic">graphviz</hi>. Additionally, the tool can generate a CSV file that can be used as input to Gephi. 
                 </p>
             </div>
@@ -276,7 +266,23 @@
             </div>
         </body>
         <back>
-            <div type="bibliogr">
+         <div type="notes">
+            <note xml:id="ftn1" n="1" place="foot">
+                        <ptr target="https://voyant-tools.org/"/>
+                    </note>
+            <note xml:id="ftn2" n="2" place="foot">
+                        <ptr target="https://gephi.org/"/>
+                    </note>
+            <note xml:id="ftn3" n="3" place="foot">
+                            <ref target="http://www.ims.uni-stuttgart.de/data/rcat">
+                                <hi rend="color(#1155cc)underline">www.ims.uni-stuttgart.de/data/rcat</hi>
+                            </ref>
+                        </note>
+            <note xml:id="ftn4" n="4" place="foot">
+                        <ptr target="http://flask.pocoo.org/"/>
+                    </note>
+         </div>
+         <div type="bibliogr">
                 <listBibl>
                     <head>Bibliographie</head>
                     <bibl>Agarwal, A. / Corvalan, A. / Jensen, J. / Rambow, O. (2012): “Social Network Analysis of Alice in Wonderland”, in: CLfL@ NAACL-HLT 88-96.</bibl>
@@ -300,6 +306,6 @@
                     <bibl>West, D.B. (2001): Introduction to graph theory (Vol. 2). Upper Saddle River: Prentice Hall.</bibl>
                 </listBibl>
             </div>
-        </back>
+      </back>
     </text>
 </TEI>

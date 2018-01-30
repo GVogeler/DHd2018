@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xml:id="ERNST_Thomas_Critical_Digital_Cultural_Studies__Digitale_Kul">
-    <teiHeader>
+   <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Critical Digital Cultural Studies: Digitale Kulturwissenschaft und die Kritik des Mem-Begriffs </title>
@@ -75,7 +75,7 @@
          </settingDesc>
       </profileDesc>
     </teiHeader>
-    <text>
+   <text>
         <body>
             <p>Die Digitalisierung hat weltweit nicht nur positive Effekte hervorgebracht, sondern auch vielfach kritisierte Probleme verursacht – man denke nur an die monopolistische Marktmacht intransparenter Firmen der digitalen Information (Google, Facebook), die neuen Formen der Überwachung (Snowden vs. NSA) oder die Popularisierung politischer Öffentlichkeiten und deren Beitrag zu unerwarteten Entwicklungen (Präsident Trump, Brexit, AfD). Während zwar einerseits die digitalen Medien und Kommunikationsverhältnisse den Alltag der meisten europäischen Bürgerinnen und Bürger bestimmen, hat sich andererseits noch keine digitale Kultur etabliert, in der die Bürger auf breiter Ebene kritisch und bewusst mit der Macht von Algorithmen oder den Inhalten Allgemeiner Geschäftsbedingungen umgingen.</p>
             <p>In einer solchen Periode eines umfassenden gesellschaftlichen Medienwandels ist es die Aufgabe einer Digitalen Kulturwissenschaft, die sich neben allgemeinen kulturellen Gegenständen auch mit digitalen Öffentlichkeiten, Medien und Methoden kulturtheoretisch und -analytisch beschäftigt, sowohl innerhalb der Geisteswissenschaften als auch in die Gesellschaft hinein den Stand der digitalen Kultur kritisch zu reflektieren. Dazu gehört die Frage des Ausgleichs zwischen dem Schutz und der Öffnung persönlicher und institutioneller Daten, die Frage nach klarer Zuweisung von Identitäten oder der Möglichkeit der anonymisierten Mediennutzung, nach Formen der kollaborativen digitalen Arbeit und ihrer Regulierung oder nach den Online-Marktverhältnissen und der (Nicht-)Offenlegung von Algorithmen, die öffentliche Massenmedien regulieren – sowie deren Auswirkungen auf unterschiedliche Kulturen. Mit solchen Themen beschäftigen sich intensiv die Medien- und Medienkulturwissenschaften (vgl. Engemann 2003, Lovink 2008, Reichert 2013, Schäfer 2011), aber auch Künstler und Publizisten (Lanier 2014, Morozov 2013) sowie Politiker und politisch Bewegte (Albrecht 2014, Wagner 2017).</p>
@@ -95,7 +95,7 @@
             <p>Die Produktivität einer solchen Engführung von kulturwissenschaftlichen Begriffen der Aufklärung und der kritischen Geisteswissenschaft mit Theoremen, Methoden und Themen der Digital Humanities kann schließlich an einem repräsentativen Beispiel vorgeführt werden. Der Biologe Richard Dawkins führte 1976 den ‚Mem’-Begriff ein, um analog zur Genetik auch die soziokulturelle Evolution begrifflich fassen zu können (vgl. Dawkins 1976). Dieses Konzept hat sich inzwischen auch in den Medien- und Kommunikationswissenschaften sowie teilweise auch in den Kulturwissenschaften durchgesetzt, insbesondere um virale Internetphänomene konzeptionell beschreiben zu können (vgl. u.a. Shifman 2014). Die breite Kritik an der Memtheorie, die unterkomplex sei und viele kultur- und sozialwissenschaftliche Erkenntnisse missachte, kann hier in einer direkten Konfrontation mit der machtkritischen Diskursanalyse Michel Foucaults geleistet werden, die ein wesentlich komplexeres Modell sozialer Entwicklung und Kommunikation zur Verfügung stellt, das über den Diskursbegriff die Produktion, Legitimation und Distribution von Wissen unter den jeweiligen Machtverhältnissen zu beschreiben versucht (Foucault 1995, Foucault 2003). Damit trägt der Vortrag zu einer selbstreflexiven Diskussion einer Erkenntniskategorie der Digital Humanities bei, indem er zwar nicht selbst digitale Methoden oder Daten einsetzt, diese jedoch kulturtheoretisch reflektiert – und somit für eine kulturtheoretische Auseinandersetzung mit ihren Erkenntniskategorien auch innerhalb der Digital Humanities plädiert, die perspektivisch ihre gesellschaftliche Relevanz befördern kann.</p>
         </body>
         <back>
-            <div type="bibliogr">
+         <div type="bibliogr">
                 <listBibl>
                     <head>Bibliographie</head>
                     <bibl>
@@ -172,6 +172,6 @@
                     </bibl>
                 </listBibl>
             </div>
-        </back>
+      </back>
     </text>
 </TEI>

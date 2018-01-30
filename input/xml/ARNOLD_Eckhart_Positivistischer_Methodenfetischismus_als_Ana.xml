@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xml:id="ARNOLD_Eckhart_Positivistischer_Methodenfetischismus_als_Ana">
-    <teiHeader>
+   <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title type="full">
@@ -73,7 +73,7 @@
          </settingDesc>
       </profileDesc>
     </teiHeader>
-    <text>
+   <text>
         <body>
             <p>Entsprechend dem Thema der diesjährigen DhD-Konferenz "Kritik der digitalen Vernunft" möchte ich mich in meinem Vortrag der Kritik fehlgeleiteter digitaler Geisteswissenschaften widmen, und dazu erstens anhand von Beispielen zeigen, wie sich fehlgeleiteter Technikeinsatz in den Geistes- und Sozialwissenschaften darstellt und zweitens Kriterien dafür vorschlagen, nach denen beurteilt werden kann, wann der der Technikeinsatz in den Geistes- und Sozialwissenschaften sinnvoll und wann fehlgeleitet ist. Das dient - so hoffe ich - der besseren Aufklärung unseres digital untersützten Erkenntnisvermögens über sich selbst.</p>
             <p>Es steht außer Frage, dass Computer nützliche Werkzeuge sind, und dass man digitale Methoden in den Geisteswissenschaften auf vielfache Weise gewinnbringend einsetzen kann. Dabei wäre es aber eine Fehleinschätzung zu glauben, dass die Digitaltechnik für die Geisteswissenschaften lediglich ein Hilfsmittel darstellt, die uns erlaubt, bestimmte Forschugsaufgaben in den Geisteswissenschaften schneller und besser zu erledigen, die Ergebnisse leichter zu verbreiten etc. Vielmehr ändert der massive Einsatz von Digitaltechnik auch den Charakter der Wissenschaften: Neue Themenfelder werden erschlossen, andere Fragestellungen als relevant empfunden, andere Verfahrensweisen als mustergültig oder auch nicht (mehr) akzeptabel empfunden und andere Fertigkeiten und Kenntnisse von den Wissenschaftlerinnen und Wissenschaftlern erwartet.</p>
@@ -116,7 +116,7 @@
             </p>
         </body>
         <back>
-            <div type="bibliogr">
+         <div type="bibliogr">
                 <listBibl>
                     <head>Bibliographie</head>
                     <bibl>Beispiele methodenfixierter Forschung in der analytischen Philosophie und Spieltheorie:</bibl>
@@ -152,6 +152,6 @@
                     <bibl>Uskali Mäki / Adrian Walsh / Manuela Fernández Pinto: Scientific Imperialism: Exploring the Boundaries of Interdisciplinarity, Routledge 2017.</bibl>
                 </listBibl>
             </div>
-        </back>
+      </back>
     </text>
 </TEI>

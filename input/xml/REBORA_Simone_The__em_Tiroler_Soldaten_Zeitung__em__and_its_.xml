@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xml:id="REBORA_Simone_The__em_Tiroler_Soldaten_Zeitung__em__and_its_">
-    <teiHeader>
+   <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>The &lt;em&gt;Tiroler Soldaten-Zeitung&lt;/em&gt; and its Authors. A Computer-Aided Search for Robert Musil</title>
+                <title>The <hi rend="italic">Tiroler Soldaten-Zeitung</hi> and its Authors. A Computer-Aided Search for Robert Musil</title>
                 <author>
                     <persName>
                         <surname>Salgaro</surname>
@@ -95,7 +95,7 @@
          </settingDesc>
       </profileDesc>
     </teiHeader>
-    <text>
+   <text>
         <body>
             <p>Robert Musil, one of the most important authors of the twentieth-century German-written literature, fought in the Austrian army at the Italian front. During the First World War, between 1916 and 1917, Musil was chief editor of the 
                 <hi rend="italic">Tiroler Soldaten-Zeitung</hi> in Bozen. This activity has always been a philological problem for Musil scholars, who have not been able to attribute with certainty a range of texts to the author. However, their identification is fundamental in the study of his political thinking. With this paper, we present a new approach, that combines historical and philological research with stylometric methods.
@@ -326,7 +326,7 @@
             </p>
         </body>
         <back>
-            <div type="bibliogr">
+         <div type="bibliogr">
                 <listBibl>
                     <head>Bibliography</head>
                     <bibl>
@@ -410,6 +410,6 @@
                     </bibl>
                 </listBibl>
             </div>
-        </back>
+      </back>
     </text>
 </TEI>
