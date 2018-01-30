@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xml:id="DECLERCK_Thierry_Formalisierung_von_M_rchen">
-    <teiHeader>
+   <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Formalisierung von Märchen</title>
@@ -72,14 +72,12 @@
          </settingDesc>
       </profileDesc>
     </teiHeader>
-    <text>
+   <text>
         <body>
             <div type="div1" rend="DH-Heading1">
                 <head>Introduktion</head>
                 <p>Im Rahmen eines Softwareprojektes
-                    <note place="foot" xml:id="ftn1" n="1">
-                        <p rend="footnote text"> Mit Beiträgen von Anastasija Aman, Stefan Grünewald, Matthias Lindemann, Lisa Schäfer, Natalia Skachkova.</p>
-                    </note>, das sich mit der automatisierten Analyse von Märchen in deutscher Sprache befasst, hat sich die Notwendigkeit ergeben, eine formale Repräsentation von Märchen zu bestimmen, damit die einzelnen Komponente des Systems miteinander integriert werden können.
+                    <ref target="ftn1" n="1"/>, das sich mit der automatisierten Analyse von Märchen in deutscher Sprache befasst, hat sich die Notwendigkeit ergeben, eine formale Repräsentation von Märchen zu bestimmen, damit die einzelnen Komponente des Systems miteinander integriert werden können.
                 </p>
                 <p>Wir beschreiben in diesem Beitrag zum einen, welche Informationen in dieser formalen Repräsentation enthalten sind, und zum anderen, wie diese Informationen in XML bzw. Python konkret codiert werden.</p>
             </div>
@@ -190,7 +188,10 @@
             </div>
         </body>
         <back>
-            <div type="bibliogr">
+         <div type="notes">
+            <note xml:id="ftn1" n="1" rend="footnote text"> Mit Beiträgen von Anastasija Aman, Stefan Grünewald, Matthias Lindemann, Lisa Schäfer, Natalia Skachkova.</note>
+         </div>
+         <div type="bibliogr">
                 <listBibl>
                     <head>Bibliographie</head>
                     <bibl>Propp, Vladimir ; Scott, Laurence (Hrsg.): Morphology of the folktale. 2. überarbeitete Auflage. Austin, TX u.a., 1977</bibl>
@@ -198,6 +199,6 @@
                     <bibl>Nikolina Koleva, Thierry Declerck, and Hans-Ulrich Krieger. 2012. An ontology-based iterative text processing strategy for detecting and recognizing characters in folktales. In Jan Christoph Meister, editor, Digital Humanities 2012 Conference Abstracts, pages 467–470, Hamburg, 7. University of Hamburg, Hamburg University Press</bibl>
                 </listBibl>
             </div>
-        </back>
+      </back>
     </text>
 </TEI>

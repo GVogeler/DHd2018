@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xml:id="DUMONT_Stefan_Ein_Brief___zwei_Perspektiven__Stellenkommenta">
-    <teiHeader>
+   <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Ein Brief – zwei Perspektiven. Stellenkommentare in digitalen Briefeditionen über APIs austauschen</title>
@@ -75,7 +75,7 @@
          </settingDesc>
       </profileDesc>
     </teiHeader>
-    <text>
+   <text>
         <body>
             <p>Vernetzung von Texten und anderen Ressourcen war und ist ein großes Versprechen des digitalen Zeitalters im Allgemeinen, aber auch der digitalen Editionsphilologie im Besonderen. Während man um 2000 darunter noch vorwiegend das manuelle Setzen von einzelnen Links verstand, wurde spätestens seit Beginn dieses Jahrzehnts die automatisierte Verknüpfung in den Blick genommen. So wurde in Portalen, Websites und auch digitalen Editionen (vornehmlich des deutschsprachigen Raums) die automatisierte Verlinkung von Personenregistereinträgen eingeführt, die mit Hilfe der Gemeinsamen Normdatei und von BEACON-Schnittstellen ermöglicht wird. Diese Vernetzung auf Basis von BEACON-Schnittstellen gehört heute zum Standard digitaler Editionen und ist nicht mehr wegzudenken (Stadler 2012). </p>
             <p>Mit den Fortschritten im Internet allgemein wuchs aber seit einigen Jahren der Wunsch, digitale Editionen über solche basalen Verlinkungen hinaus zu verknüpfen. Im Bereich der Briefeditionen z.B. wurde schon recht früh der Wunsch geäußert, Briefe editionsübergreifend durchsuchbar zu machen und zu vernetzen. Basis dafür sollten die in TEI-XML kodierten Briefmetadaten, also die wichtigsten Kopfdaten eines Briefes, sein. Mit Entwicklung des Correspondence Metadata Interchange Format (TEI Correspondence SIG 2015) und des da-rauf aufbauenden Webservices correspSearch (
@@ -103,7 +103,7 @@
             </p>
         </body>
         <back>
-            <div type="bibliogr">
+         <div type="bibliogr">
                 <listBibl>
                     <head>Bibliographie</head>
                     <bibl>
@@ -123,6 +123,6 @@
                     </bibl>
                 </listBibl>
             </div>
-        </back>
+      </back>
     </text>
 </TEI>

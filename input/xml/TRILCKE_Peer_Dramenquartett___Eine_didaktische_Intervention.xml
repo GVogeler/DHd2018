@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xml:id="TRILCKE_Peer_Dramenquartett___Eine_didaktische_Intervention">
-    <teiHeader>
+   <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Dramenquartett – Eine didaktische Intervention</title>
@@ -105,25 +105,26 @@
          </settingDesc>
       </profileDesc>
     </teiHeader>
-    <text>
+   <text>
         <body>
             <p>Ziel dieses Posters ist es, anhand von 32 deutschsprachigen Dramen in die Netzwerkanalyse literarischer Texte einzuführen, eine didaktische Intervention für eine zwar mittlerweile etablierte Methode der literaturwissenschaftlichen Analyse, die aber nicht immer genügend reflektiert wird: Der Errechnung teils komplexer netzwerktheoretischer Maße entspricht nicht immer ein entsprechender Sprung zur Bedeutungsebene. Was bedeutet es zum Beispiel wirklich, dass die durchschnittliche Pfadlänge in Goethes »Faust. Der Tragödie erster Theil« genau 1,79 beträgt? Wenn man jedoch diesen Wert in Beziehung zu entsprechenden Werten anderer Stücke setzt, gewinnt er an komparatistischer Bedeutung. Die Anschaulichkeit der Wert und ihre spielerisch erfahrene Dimensionierung ermöglichen so die Einübung in die strukturalistische Betrachtung von Netzwerken am Beispiel von Dramen, wobei damit zugleich kulturelles Grundwissen über die Strukturation von Netzwerken – immerhin ubiquitäre Gegenstände der sozialen und technischen Welt – erworben werden kann. </p>
             <p>Um den komparatischen Blick im Kontext der literaturwissenschaftlichen Netzwerkanalyse zu schulen, setzen wir mit unserem Poster auf einen Gamification-Ansatz. Anders als bei unserem ersten Experiment in dieser Richtung – der auf der DHd2016 präsentierten Android-App »Play(s)« (vgl. Göbel/Meiners 2016), in deren Mittelpunkt die spielerische Korrektur und Anreicherung unserer Korpusdaten stand –, handelt es sich diesmal um eine nicht-technische Anwendung, die auf spielerische Weise netzwerkanalytisches Datenmaterial explorierbar macht.</p>
             <p>Dabei wird das Posterformat in zweierlei Hinsicht bespielt: Das Poster ist einerseits eine Datenvisualisierung auf Grundlage eines selbst gepflegten größeren Dramenkorpus. Andererseits ist es ein in 32 Teile zerlegbares Dramenquartett, das spielerisch mit den Bedeutungshorizonten verschiedener netzwerktheoretischer Größen bekannt macht und ein Bewusstsein für komparatistische Möglichkeiten trainiert. Dieser Ansatz ist in den Geisteswissenschaften nicht neu, verwiesen sei etwa auf das architekturgeschichtliche Quartettspiel »Plattenbauten. Berliner Betonerzeugnisse« (Mangold u. a. 2001), in dem technische Daten verschiedener Plattenbautypen gegenübergestellt werden (vgl. auch Richter 2006).</p>
             <p>Die Didaxe des Dramenquartetts bezieht sich auf mehrere Dimensionen: eine literaturgeschichtliche, eine quantitative, eine netzwerktheoretische. Die 32 Stücke bilden einen Minimalkanon, der von der Zeit der Gottschedischen Theaterreformen bis in die Moderne reicht. Statt der lexikonartigen Beschreibung eines solchen Kanons (wie etwa im »Dramenlexikon des 18. Jahrhunderts«, Hollmer/Meier 2001), besteht das Beschreibungsinstrument hier in visuellen und quantitativen Werten, die Vergleichbarkeit herstellen – erst dieser Umstand vereint die verschiedenen Karten zu einem kompetitiven Spiel.</p>
             <p>Als visueller Catch der Quartettkarten dient eine Visualisierung des jeweiligen extrahierten sozialen Netzwerks (vgl. Fischer u. a. 2016). Die weiteren Informationen auf den Karten setzen sich aus (Kanonwissen präsentierenden) Metadaten (Autor*in – Titel – Untertitel – Genre – Jahr) und vor allem aus statischen und dynamischen Netzwerkdaten zusammen (Anzahl von Subgraphen – Netzwerkgröße – Netzwerkdichte – Clustering-Koeffizient – Durchschnittliche Pfadlänge – Höchster Degreewert und Name der entsprechenden Figur –), wie sie im Rahmen des dlina-Projekts berechnet wurden.
-                <note place="foot" xml:id="ftn1" n="1">
-                    <p rend="footnote text"> Vgl. das Blog 
-                        <ref target="https://dlina.github.io/">https://dlina.github.io/</ref> und das Github-Repo 
-                        <ref target="https://github.com/dlina">https://github.com/dlina</ref>.
-                    </p>
-                </note> Das Deckblatt enthält eine Einführung zum Projekt und seinen Hintergründen sowie Kurzdefinitionen der auf den einzelnen Karten enthaltenen netzwerktheoretischen Maßzahlen, die damit nicht nur spielerisch erkundet, sondern auch konzeptuell verstanden werden können. 
+                <ref target="ftn1" n="1"/> Das Deckblatt enthält eine Einführung zum Projekt und seinen Hintergründen sowie Kurzdefinitionen der auf den einzelnen Karten enthaltenen netzwerktheoretischen Maßzahlen, die damit nicht nur spielerisch erkundet, sondern auch konzeptuell verstanden werden können. 
             </p>
             <p>Das Poster wird mit unserer Python-Skriptsammlung ›dramavis‹ generiert, die in der neuen Version 0.4 eine entsprechende Funktion erhalten hat (Kittel/Fischer 2017). Für das Konferenzposter haben wir einen Fallback-Kanon zusammengestellt (Stücke von Johann Christoph und Luise Adelgunde Victorie Gottsched, von Gellert, J. E. Schlegel, Caroline Neuber, Klopstock, Lessing, Gerstenberg, Goethe, Lenz, Klinger, Schiller, Kotzebue, Kleist, Zacharias Werner, Müllner, Grillparzer, Grabbe, Büchner, Hebbel, Gustav Freytag, Anzengruber, Arno Holz, Wedekind, Schnitzler, Erich Mühsam). Über eine individualisierbare Kanon-Datei können aber auch eigene Quartette zusammengestellt werden, sodass sich etwa auch epochenspezifische Sets (Dramen der Aufklärung, Dramen der Klassik, Romantische vs. Klassische Dramen, Dramen des Sturm und Drang vs. Dramen des Naturalismus) oder gattungsspezifische Sets erstellen lassen. </p>
             <p>Auf der Konferenz werden wir neben einem Poster, das das didaktisch-interventionistische Konzept veranschaulicht, auch diverse Quartett-Sets präsentieren. </p>
         </body>
         <back>
-            <div type="bibliogr">
+         <div type="notes">
+            <note xml:id="ftn1" n="1" rend="footnote text"> Vgl. das Blog 
+                        <ref target="https://dlina.github.io/">https://dlina.github.io/</ref> und das Github-Repo 
+                        <ref target="https://github.com/dlina">https://github.com/dlina</ref>.
+                    </note>
+         </div>
+         <div type="bibliogr">
                 <listBibl>
                     <head>Bibliographie</head>
                     <bibl>
@@ -154,6 +155,6 @@
                     </bibl>
                 </listBibl>
             </div>
-        </back>
+      </back>
     </text>
 </TEI>

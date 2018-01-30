@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xml:id="ANDORFER_Peter_TEIHencer___Enhance_your_TEI_Documents">
-    <teiHeader>
+   <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>TEIHencer - Enhance your TEI-Documents</title>
@@ -79,7 +79,7 @@
          </settingDesc>
       </profileDesc>
     </teiHeader>
-    <text>
+   <text>
         <body>
             <p>Die Forschungstätigkeiten Georeferencing und Entity Linking sind wichtiger Bestandteil vieler DH-Projekte. Webservices/APIs und Tools versuchen diese Tätigkeiten zu vereinfachen und zu beschleunigen. Eines der bekannteren Tools, wenigstens im deutschsprachigen Raum ist dabei vermutlich der ‘DARIAH-DE Datasheet Editor’[1]. Dieser zeichnet sich durch seine einfache Benutzung aus, sei es was den Datenimport (ausfüllen einer Tabelle oder Hochladen einer CSV-Tabelle) betrifft oder die anschließende Disambiguierung/Verifizierung der vom ‘Getty Thesaurus of Geographic Names’[1] zurückgelieferten Treffer über ein Graphical User Interface. </p>
             <p>Das Projekt TEIHencer greift diese Vorzüge des ‘DARIAH-DE Datasheet Editors’ auf und versucht diese einerseits mit der ‘TEI-Welt’ zu verknüpfen sowie mit GeoNames und der GND zwei alternative Normdaten Ressourcen einzubinden.</p>

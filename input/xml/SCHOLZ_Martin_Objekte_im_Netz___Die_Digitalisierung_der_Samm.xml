@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xml:id="SCHOLZ_Martin_Objekte_im_Netz___Die_Digitalisierung_der_Samm">
-    <teiHeader>
+   <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title type="full">
@@ -94,27 +94,21 @@
          </settingDesc>
       </profileDesc>
     </teiHeader>
-    <text>
+   <text>
         <body>
             <p>Die Friedrich-Alexander-Universität Erlangen-Nürnberg (FAU) entwickelt in Zusammenarbeit mit dem Germanischen Nationalmuseum Nürnberg (GNM) eine gemeinsame Dokumentations- und Digitalisierungsstrategie für die Sammlungen der FAU, um ihre Sicht- und Nutzbarkeit zu erhöhen und sie als bedeutende und noch immer zu wenig genutzte Infrastrukturen für Forschung und Lehre auszubauen. Digitalisierung kommt dabei nicht nur als Methode und praktische Anwendung zum Einsatz, sondern wird ebenso als kritisch zu befragender Gegenstand untersucht. Der Beitrag stellt Hintergrund, Ziele und bisherige Ergebnisse der Zusammenarbeit vor und skizziert Vorgehen und Methodik.</p>
             <div type="div1" rend="DH-Heading">
                 <head>Universitäre Sammlungen als (digitale) Forschungsinfrastrukturen </head>
                 <p>
                     <anchor xml:id="id__m8b44qx4fq23"/>Universitäre Sammlungen erleben in den letzten Jahren eine beachtliche Renaissance. Allein in Deutschland existieren rund 1.000 solcher Sammlungen an über 80 Universitäten, die eine Vielzahl an Dingen und Disziplinen umfassen. Das wissenschaftliche Potenzial universitärer Sammlungen ist enorm, weshalb ihr Ausbau zu Forschungsinfrastrukturen in einer Empfehlung des Wissenschaftsrats von 2011 dringend empfohlen wurde (Wissenschaftsrat 2011). Allerdings sind längst nicht alle Sammlungen und Bestände erfasst, nur gut ein Drittel ist digital zugänglich. Die systematische Erfassung und Erschließung wissenschaftlicher Sammlungen sind jedoch grundlegende Voraussetzungen, um sie möglichst effektiv in Forschung und Lehre einsetzen zu können. Die Vorteile einer digitalen Dokumentation sind dabei inzwischen unbestritten. Der Relevanz universitärer Sammlungen für die Forschung und dem Bedarf nach ihrer Nutz- und Verfügbarkeit stehen häufig nicht nur unzureichende monetäre Mittel und fehlendes Personal entgegen, sondern auch das Fehlen von angemessenen Software-Lösungen und Know-how für eine flächendeckende Digitalisierung und Online-Präsenz. Die Situation der digitalen Dokumentation universitärer Sammlungen hat sich in den vergangenen Jahren zwar erheblich verbessert, die Fortschritte sind allerdings meist auf einzelne Sammlungen begrenzt. Übergreifende Strukturen wurden hingegen kaum entwickelt und haben sich auch nicht ergeben. Zahlreiche Sammlungen wurden ad hoc inventarisiert, jedoch ohne hinreichend standardisierte Erfassung oder weiterführende Digitalisierungsstrategie. Das vom Bundesministerium für Bildung und Forschung geförderte Projekt „Objekte im Netz”
-                    <note xml:id="ftn1" place="foot" n="1">
-                        <anchor xml:id="id_docs-internal-guid-1a4795a4-b97e-fc54-76"/>Das Projekt wird von 2017 bis 2020 gefördert. Mehr Informationen unter: 
-                        <ptr target="http://objekte-im-netz.fau.de/projekt/"/>[letzter Zugriff 10.01.2018].
-                    </note> setzt hier an und entwickelt im Verbund mit dem GNM eine gemeinsame Digitalisierungsstrategie für die Sammlungen der FAU.
+                    <ref target="ftn1" n="1"/> setzt hier an und entwickelt im Verbund mit dem GNM eine gemeinsame Digitalisierungsstrategie für die Sammlungen der FAU.
                 </p>
             </div>
             <div type="div1" rend="DH-Heading">
                 <head>Objekte im Netz - Die Sammlungen der Universität Erlangen-Nürnberg als Testlandschaft </head>
                 <p>
                     <anchor xml:id="id__pbiqy3ysv9ev"/>Die FAU besitzt über 20 Sammlungen
-                    <note xml:id="ftn2" place="foot" n="2">
-                        <anchor xml:id="id_docs-internal-guid-1a4795a4-b97f-c523-6b"/>Informationen zu den Sammlungen der FAU unter 
-                        <ptr target="https://www.fau.de/universitaet/das-ist-die-fau/sammlungen-der-fau/"/>[letzter Zugriff 10.01.2018].
-                    </note> aus den verschiedensten Fachbereichen. Ihre Vielfalt spiegelt sich nicht nur in ihren Objekten, Entstehungskontexten oder Funktionen wider, sondern auch im überaus divergenten Stand ihrer Erfassung sowie in den verschiedenartigen Verfahren ihrer Dokumentation. Sie stellen somit eine ideale Testlandschaft für die exemplarische Entwicklung von fächer- und sammlungsübergreifenden Konzepten zur digitalen Erfassung und Erschließung dar, wie sie der Wissenschaftsrat in seinen Empfehlungen gefordert hat.
+                    <ref target="ftn2" n="2"/> aus den verschiedensten Fachbereichen. Ihre Vielfalt spiegelt sich nicht nur in ihren Objekten, Entstehungskontexten oder Funktionen wider, sondern auch im überaus divergenten Stand ihrer Erfassung sowie in den verschiedenartigen Verfahren ihrer Dokumentation. Sie stellen somit eine ideale Testlandschaft für die exemplarische Entwicklung von fächer- und sammlungsübergreifenden Konzepten zur digitalen Erfassung und Erschließung dar, wie sie der Wissenschaftsrat in seinen Empfehlungen gefordert hat.
                 </p>
                 <p>Das Forschungsprojekt „Objekte im Netz” zielt auf die Entwicklung einer digitalen Infrastruktur, die langfristig eine gesicherte Erfassung und Vernetzung der Bestände der FAU erlaubt sowie deren weitere Sicht- und Nutzbarkeit befördert. Von zentraler Bedeutung sind dabei gemeinsame Erfassungsstandards und -formate sowie eine gemeinsame Software-Lösung und Webpräsenz. Als Ergebnis des Vorhabens werden weiterhin ein allgemeines Konzept zur digitalen Dokumentation sowie eine dazu passende Software zur Verfügung gestellt. Damit dient das Projekt längst nicht nur der infrastrukturellen Verbesserung und Dynamisierung der hiesigen Bestände, sondern bietet weit darüber hinaus auch anderen wissenschaftlichen Sammlungen Werkzeuge und Workflows an, mit deren Hilfe sich heterogene Bestände erfassen, erforschen und vernetzen lassen. Nicht zuletzt strengt das Projekt einen kritischen Dialog über die Herausforderungen, Hindernisse und Folgen der Digitalisierung wissenschaftlicher Sammlungen an und trägt damit zu einem notwendigen Diskurs bei, der bislang nur wenig entwickelt ist und kaum in die digitale Sammlungspraxis einfließt.</p>
             </div>
@@ -125,16 +119,10 @@
                 </p>
                 <p>Vom Ziel einer gemeinsamen digitalen Erfassung, Datenspeicherung und Präsentation leiten sich auch die zentralen Forschungsfragen nach der Tragfähigkeit und Umsetzbarkeit eines gemeinsamen Datenmodells sowie einer abgestimmten Terminologie zur Abbildung der in ihrer Materialität, Funktion und Provenienz heterogenen Sammlungsbestände ab. Dabei werden die Erkenntnisse ausgehend von den oben erwähnten Sammlungen konsequent auf ihre Generizität hin geprüft, um die Anwendbarkeit auf weitere universitäre Sammlungen hin zu gewährleisten.</p>
                 <p>Als technische Grundlage dient die virtuelle Forschungsumgebung „WissKI“ (Wissenschaftliche KommunikationsInfrastruktur), die im Hinblick auf die spezifischen Anforderungen und Eigenarten universitärer Sammlungen – insbesondere in Bezug auf die semantische Wissensrepräsentation (Görz 2011, Hohmann 2011, Hohmann/Schiemann 2013) – anzupassen und auszubauen ist.
-                    <note xml:id="ftn3" place="foot" n="3">
-                        <anchor xml:id="id_docs-internal-guid-1a4795a4-b980-68e4-27"/>Einen Einblick in WissKI gibt die Webseite
-                        <ref target="http://wiss-ki.eu/">http://wiss-ki.eu/</ref>[letzter Zugriff 10.01.2018].
-                    </note> Ihr Einsatz erlaubt die Vernetzung unterschiedlichster Bestände und komplexer Bestandsinformationen sowie weiterer digitaler Ressourcen, aus der sich neue Forschungsfragen und erhebliche Erkenntnispotentiale ergeben können.
+                    <ref target="ftn3" n="3"/> Ihr Einsatz erlaubt die Vernetzung unterschiedlichster Bestände und komplexer Bestandsinformationen sowie weiterer digitaler Ressourcen, aus der sich neue Forschungsfragen und erhebliche Erkenntnispotentiale ergeben können.
                 </p>
                 <p>WissKI erweitert die Idee und Konzepte des Wiki zu einer webbasierten virtuellen Forschungsumgebung, die insbesondere auf die Belange und Besonderheiten der Forschung und Dokumentation von kulturellem Erbe ausgerichtet ist. Das System setzt auf offene Datenformate und Standards, die den Langzeiterhalt der verwalteten Datenbestände sichern. Dazu werden die Technologie des Linked Open Data und des Semantic Web benutzt. Eine Schlüsselrolle kommt hierbei dem dem Conceptual Reference Model
-                    <note xml:id="ftn4" place="foot" n="4">
-                        <anchor xml:id="id_docs-internal-guid-1a4795a4-b981-0225-99"/>Das CIDOC CRM wurde vom International Committee for Documentation als Teil des International Council of Museums (ICOM) als formale Referenzontologie erarbeitet und ist seit 2006 als ISO Norm (ISO 21127) anerkannt. In der „Erlangen CRM“ (URL: 
-                        <ptr target="http://erlangen-crm.org/"/>[letzter Zugriff 10.01.2018]) auf Basis von OWL liegt eine maschinenlesbare Version vor.
-                    </note> (CRM) des ICOM-CIDOC als formaler Referenzontologie zu, gleichermaßen um fach- und sammlungsspezifische Anwendungsontologien erweitert werden kann.
+                    <ref target="ftn4" n="4"/> (CRM) des ICOM-CIDOC als formaler Referenzontologie zu, gleichermaßen um fach- und sammlungsspezifische Anwendungsontologien erweitert werden kann.
                 </p>
                 <p>Die notwendige Weiterentwicklung von WissKI hinsichtlich der Spezifika universitärer Sammlungsbestände sowie den Anforderungen einer objektbezogenen Forschung und Lehre erfolgt dabei weniger technik- als sammlungsgetrieben. Dem entspricht das durchaus aufwendige Vorgehen im Projekt: die avisierte digitale Infrastruktur wird von Sammlungsbeauftragten und Informatikern gemeinsam aufgebaut. Auf diese Weise finden die Belange der einzelnen Sammlungen unmittelbar Eingang in die Entwicklung der Software und benötigten Funktionalitäten. Den Sammlungen kann somit ein digitales Werkzeug zur Verfügung gestellt werden, das nicht bloß die Erfassung ihrer Bestände fördert, sondern darüber hinaus spezifische forschungs- und lehrrelevante Anwendungen ermöglicht sowie betriebliche Abläufe des Sammlungsalltags unterstützt.</p>
                 <p>Das gewählte Vorgehen setzt allerdings eine hohe Bereitschaft der beteiligten Sammlungsbeauftragten voraus, sich eingehend mit oft fachfremden Werkzeugen und Techniken auseinanderzusetzen, im Gegenzug festigt es das Verständnis für die eingesetzten Technologien und Verfahren. Nicht zuletzt bauen die Sammlungen über die beteiligten Mitarbeiterinnen und Mitarbeiter eigene Kompetenzen im Bereich der digitalen Dokumentation auf. Die Herausforderungen der ontologischen Modellierung sowie die fächer- und sammlungsübergreifende Anlage des Projekts führen dabei zu einer vertieften Reflexion über die eigenen Bestände und Sammlungslogiken, aber auch zur Einsicht in die notwendige Standardisierung von Begrifflichkeiten, Werkzeugen und Workflows, wie sie eine übergreifende Digitalisierungs- und Dokumentationsstrategie unbedingt zu berücksichtigen hat.  </p>
@@ -147,7 +135,25 @@
             </div>
         </body>
         <back>
-            <div type="bibliogr">
+         <div type="notes">
+            <note xml:id="ftn1" n="1" place="foot">
+                        <anchor xml:id="id_docs-internal-guid-1a4795a4-b97e-fc54-76"/>Das Projekt wird von 2017 bis 2020 gefördert. Mehr Informationen unter: 
+                        <ptr target="http://objekte-im-netz.fau.de/projekt/"/>[letzter Zugriff 10.01.2018].
+                    </note>
+            <note xml:id="ftn2" n="2" place="foot">
+                        <anchor xml:id="id_docs-internal-guid-1a4795a4-b97f-c523-6b"/>Informationen zu den Sammlungen der FAU unter 
+                        <ptr target="https://www.fau.de/universitaet/das-ist-die-fau/sammlungen-der-fau/"/>[letzter Zugriff 10.01.2018].
+                    </note>
+            <note xml:id="ftn3" n="3" place="foot">
+                        <anchor xml:id="id_docs-internal-guid-1a4795a4-b980-68e4-27"/>Einen Einblick in WissKI gibt die Webseite
+                        <ref target="http://wiss-ki.eu/">http://wiss-ki.eu/</ref>[letzter Zugriff 10.01.2018].
+                    </note>
+            <note xml:id="ftn4" n="4" place="foot">
+                        <anchor xml:id="id_docs-internal-guid-1a4795a4-b981-0225-99"/>Das CIDOC CRM wurde vom International Committee for Documentation als Teil des International Council of Museums (ICOM) als formale Referenzontologie erarbeitet und ist seit 2006 als ISO Norm (ISO 21127) anerkannt. In der „Erlangen CRM“ (URL: 
+                        <ptr target="http://erlangen-crm.org/"/>[letzter Zugriff 10.01.2018]) auf Basis von OWL liegt eine maschinenlesbare Version vor.
+                    </note>
+         </div>
+         <div type="bibliogr">
                 <listBibl>
                     <head>Bibliographie</head>
                     <bibl>Görz, Günther: „WissKI: Semantische Annotation, Wissensverarbeitung und Wissenschaftskommunikation in einer virtuellen Forschungsumgebung” in: Kunstgeschichte, Open Peer Reviewed Journal, urn:nbn:de:bvb:355-kuge-167-7 [letzter Zugriff 10.01.2018].</bibl>
@@ -159,6 +165,6 @@
                     </bibl>
                 </listBibl>
             </div>
-        </back>
+      </back>
     </text>
 </TEI>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xml:id="SCHRADE_Torsten_Research_Software_Engineering_und_Digital_Hu">
-    <teiHeader>
+   <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Research Software Engineering und Digital Humanities. Reflexion, Kartierung, Organisation.</title>
@@ -88,22 +88,11 @@
          </settingDesc>
       </profileDesc>
     </teiHeader>
-    <text>
+   <text>
         <body>
             <p>Software ist in vielen Fällen ein integraler Bestandteil von Forschungsaktivität, so auch in den Digital Humanities zur Bearbeitung von geistes- und kulturwissenschaftlichen Forschungsfragen mit digitalen Methoden. Im weiteren Sinn verstanden reicht das Anwendungsfeld für geisteswissenschaftliche Forschungssoftware von der täglichen Arbeit mit Webbrowsern und Textverarbeitungsprogrammen bis hin zum Einsatz spezialisierter Softwarelösungen, virtueller Forschungsumgebungen oder auch webbasierter Publikations- und Analyseinstrumente für geisteswissenschaftliche Forschungsdaten. Im engeren Sinn verstanden ist Forschungssoftware in den Digital Humanities als Summe spezifischer Komponenten aufzufassen, die unter entwicklerischer Durchdringung der jeweiligen geisteswissenschaftlichen Wissens- und Anwendungsdomäne konzipiert und implementiert werden.</p>
             <p>Zum aktuellen Zeitpunkt finden die Entwicklungsprozesse für Forschungssoftware in den Digital Humanities häufig noch isoliert, unreflektiert, undokumentiert, nicht an gängigen Industriestandards ausgerichtet und insbesondere nicht innerhalb eines organisierten, disziplinspezifischen Rahmens statt. Aus dieser Situation heraus ergibt sich ein eminentes Nachhaltigkeitsproblem für geisteswissenschaftliche Forschungssoftware. Dies verwundert umso mehr, denn während das Bewusstsein für eine nachhaltige Erschließung kultureller Objekte durch die Entwicklung und den Einsatz entsprechender systemneutraler Datenformate und -standards inzwischen als hoch eingeschätzt werden kann, spielt die Ebene der Softwareentwicklung in den Nachhaltigkeitsdiskussionen der Digital Humanities kaum eine Rolle. Während andere Disziplinen wie beispielsweise die Natur- und Ingenieurswissenschaften, aber auch die informatisch geprägten Lebenswissenschaften diese Problematik erkannt und erste Gegenmaßnahmen ergriffen haben, gilt in den Digital Humanities immer noch das schon vor Jahren geprägte Mantra „Data ages like wine, software ages like fish“.
-                <note place="foot" xml:id="ftn1" n="1">
-                    <p> Dies wird bspw. am Programm der letzten internationalen RSE-Konferenz (September 2017, Manchester, 
-                        <ref target="http://rse.ac.uk/conf2017/">
-                            <hi rend="color(1155CC)">http://rse.ac.uk/conf2017/</hi>
-                        </ref>) und der fachlichen Provenienz der Vortragenden deutlich. S.a. die Verteilung der Disziplinen in 
-                        <hi rend="bold">Hettrick, S. et. al </hi>(2014): "UK Research Software Survey 2014"
-                        <hi rend="italic"> [Data set]</hi>, Zenodo, 
-                        <ref target="http://doi.org/10.5281/zenodo.14809">
-                            <hi rend="color(1155CC)">http://doi.org/10.5281/zenodo.14809</hi>
-                        </ref> [letzter Zugriff am 25.09.2017].
-                    </p>
-                </note> Hinzu kommt, dass DH-Softwareentwickler_innen häufig noch als digitale Geisteswissenschaftler_innen 'zweiter Klasse' wahrgenommen werden und deutlich schlechtere Möglichkeiten zur Entfaltung ihrer akademischen Karriere haben – obwohl sie die 'Ermöglichenden' bzw. zentrale Beitragende zum jeweiligen wissenschaftlichen Erkenntnisgewinn sind (vgl. Brett 2017, S. 22).
+                <ref target="ftn1" n="1"/> Hinzu kommt, dass DH-Softwareentwickler_innen häufig noch als digitale Geisteswissenschaftler_innen 'zweiter Klasse' wahrgenommen werden und deutlich schlechtere Möglichkeiten zur Entfaltung ihrer akademischen Karriere haben – obwohl sie die 'Ermöglichenden' bzw. zentrale Beitragende zum jeweiligen wissenschaftlichen Erkenntnisgewinn sind (vgl. Brett 2017, S. 22).
             </p>
             <p>Der 2016 von Simon Hettrick vorgelegte Bericht des 
                 <hi rend="italic">Software Sustainability Institute</hi> kommt in Bezug auf die generellen Voraussetzungen zur Steigerung der Nachhaltigkeit von Forschungssoftware zu folgendem Schluss: „Many researchers know how to code, but few understand the wider set of skills that are needed to develop reliable, reproducible and reusable software. […] software engineering should be incorporated […] at the very start of a research career“. (Hettrick 2016, S. 14). 
@@ -183,7 +172,19 @@
             <p>Alexander Czmiel ist seit 2005 wissenschaftlicher Mitarbeiter bei der TELOTA-Initiative der Berlin-Brandenburgischen Akademie der Wissenschaften und dort für die fachliche Beratung und Umsetzung von Projekten im Bereich der "Digital Humanities" verantwortlich. Seine Forschungsinteressen konzentrieren sich vor allem auf den Bereich der Digitalen Editionen und dort auf Konzepte, Workflows, Standardisierungsmöglichkeiten und Nutzeroberflächen. In diesem Kontext treibt ihn sein einiger Zeit die Nachhaltigkeit der Funktionalitätsschicht Digitaler Editionen um. Seit kurzem beschäftigt er sich zudem mit den Möglichkeiten von Augmented und Virtual Reality in den Digital Humanities.</p>
         </body>
         <back>
-            <div type="bibliogr">
+         <div type="notes">
+            <note xml:id="ftn1" n="1"> Dies wird bspw. am Programm der letzten internationalen RSE-Konferenz (September 2017, Manchester, 
+                        <ref target="http://rse.ac.uk/conf2017/">
+                            <hi rend="color(1155CC)">http://rse.ac.uk/conf2017/</hi>
+                        </ref>) und der fachlichen Provenienz der Vortragenden deutlich. S.a. die Verteilung der Disziplinen in 
+                        <hi rend="bold">Hettrick, S. et. al </hi>(2014): "UK Research Software Survey 2014"
+                        <hi rend="italic"> [Data set]</hi>, Zenodo, 
+                        <ref target="http://doi.org/10.5281/zenodo.14809">
+                            <hi rend="color(1155CC)">http://doi.org/10.5281/zenodo.14809</hi>
+                        </ref> [letzter Zugriff am 25.09.2017].
+                    </note>
+         </div>
+         <div type="bibliogr">
                 <listBibl>
                     <head>Bibliographie</head>
                     <bibl>
@@ -245,6 +246,6 @@
                     </bibl>
                 </listBibl>
             </div>
-        </back>
+      </back>
     </text>
 </TEI>

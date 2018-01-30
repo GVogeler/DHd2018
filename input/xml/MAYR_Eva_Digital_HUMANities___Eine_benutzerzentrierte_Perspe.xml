@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xml:id="MAYR_Eva_Digital_HUMANities___Eine_benutzerzentrierte_Perspe">
-    <teiHeader>
+   <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Digital HUMANities - Eine benutzerzentrierte Perspektive</title>
@@ -87,7 +87,7 @@
          </settingDesc>
       </profileDesc>
     </teiHeader>
-    <text>
+   <text>
         <body>
             <div>
                 <p>Wenn von Digital Humanities (DH) die Rede ist, liegt der Fokus oft auf dem Digitalen, auf den neuen Möglichkeiten, welche die technischen Entwicklungen der letzten Jahre eröffnen. Jedoch sollte bei Digital Humanities nicht primär digital im Vordergrund stehen, sondern die Human- und Geisteswissenschaften, die sich digitaler Methoden zur Unterstützung ihrer wissenschaftlichen Forschung bedienen (vgl. Siemens, 2016). Im Zentrum dieser Forschung stehen trotz digitaler Optionen dennoch die etablierten Fragestellungen der Humanwissenschaften. Technische Entwicklungen können neue Wege der Erkenntnis eröffnen oder bestehende Methoden vereinfachen und erleichtern, doch ohne fundierten ExpertInnen der Geisteswissenschaften in diesem Prozess eine zentrale Rolle zuzugestehen, können digitale Forschungs-Systeme die Bedürfnisse und Zielsetzungen ihrer BenutzerInnen nicht (gut genug) unterstützen und werden auch nicht nachhaltig von diesen aufgenommen.</p>
@@ -140,7 +140,7 @@
             </div>
         </body>
         <back>
-            <div type="bibliogr">
+         <div type="bibliogr">
                 <listBibl>
                     <head>Bibliographie</head>
                     <bibl>Barnum, Carol M. (2008): 
@@ -190,6 +190,6 @@
                     </bibl>
                 </listBibl>
             </div>
-        </back>
+      </back>
     </text>
 </TEI>

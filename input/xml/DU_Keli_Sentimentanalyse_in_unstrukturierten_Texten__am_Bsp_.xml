@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xml:id="DU_Keli_Sentimentanalyse_in_unstrukturierten_Texten__am_Bsp_">
-    <teiHeader>
+   <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Sentimentanalyse in unstrukturierten Texten (am Bsp. literaturgeschichtlicher Rezeptionsanalyse)</title>
@@ -79,7 +79,7 @@
          </settingDesc>
       </profileDesc>
     </teiHeader>
-    <text>
+   <text>
         <body>
             <p>
                 <hi rend="bold underline">Ausgangspunkt</hi>
@@ -94,9 +94,7 @@
                 <hi rend="bold underline">Beispielprojekt: Sentimentanalyse in historischer Literaturkritik</hi>
             </p>
             <p>Bei den angezielten Bewegungsprofilen handelt es sich im Rahmen unseres Forschungsprojekts
-                <note place="foot" xml:id="ftn1" n="1">
-                    <p rend="footnote text"> “Historische Rezeptionsanalyse” (gefördert von der Volkswagenstiftung), Teilprojekt “SentiLitKrit” (Göttingen, 2015-2018).</p>
-                </note> um Zäsuren in der Bewertung literarischer Autoren. Wir untersuchen in einem Pilotprojekt die Rezeption von Literatur in literaturkritischen Zeitschriften des ausgehenden 19. Jahrhunderts mittels einer Sentimentanalyse der Textumgebung von Autorerwähnungen. An einem Testkorpus optimieren wir durch den Vergleich automatisierter mit manuellen Analysen eine an das historische Genre ‘Literaturkritik um 1900’ angepasste Sentimentwortliste.
+                <ref target="ftn1" n="1"/> um Zäsuren in der Bewertung literarischer Autoren. Wir untersuchen in einem Pilotprojekt die Rezeption von Literatur in literaturkritischen Zeitschriften des ausgehenden 19. Jahrhunderts mittels einer Sentimentanalyse der Textumgebung von Autorerwähnungen. An einem Testkorpus optimieren wir durch den Vergleich automatisierter mit manuellen Analysen eine an das historische Genre ‘Literaturkritik um 1900’ angepasste Sentimentwortliste.
             </p>
             <p>
                 <hi rend="bold">1. Literaturwissenschaftliche Fragestellung</hi>
@@ -112,9 +110,7 @@
                 <hi rend="bold">3. Erste Testläufe digitaler Analysen</hi>
             </p>
             <p>Der Volltext des Testkorpus wurde durch NLTK Punkt Sentence Tokenizer
-                <note place="foot" xml:id="ftn2" n="2">
-                    <p rend="footnote text"> http://www.nltk.org/api/nltk.tokenize.html#module-nltk.tokenize.punkt</p>
-                </note> tokenisiert. Mittels des Namensregisters der Anthologie wurden anschließend alle Sätze mit Erwähnung eines Autornamens extrahiert. Jeder Satz wurde in einem manuellen Rating als positiv, neutral oder negativ annotiert. Das Testkorpus umfasst 1731 1-Satz-Textsnippets. Nach der manuellen Annotation sind 505 davon positiv, 909 neutral und 317 negativ. Ausgangsbasis unserer Sentimentwortliste war die deutschsprachige Ressource “SentimentWortschatz” (Remus et al. 2010), die manuell um den im Rating auffällig gewordenen Wortschatz erweitert und um offenkundig unbrauchbare oder überflüssige Wörter gekürzt wurde. Danach erfolgte ein erster Testlauf: 
+                <ref target="ftn2" n="2"/> tokenisiert. Mittels des Namensregisters der Anthologie wurden anschließend alle Sätze mit Erwähnung eines Autornamens extrahiert. Jeder Satz wurde in einem manuellen Rating als positiv, neutral oder negativ annotiert. Das Testkorpus umfasst 1731 1-Satz-Textsnippets. Nach der manuellen Annotation sind 505 davon positiv, 909 neutral und 317 negativ. Ausgangsbasis unserer Sentimentwortliste war die deutschsprachige Ressource “SentimentWortschatz” (Remus et al. 2010), die manuell um den im Rating auffällig gewordenen Wortschatz erweitert und um offenkundig unbrauchbare oder überflüssige Wörter gekürzt wurde. Danach erfolgte ein erster Testlauf: 
             </p>
             <p>Der Grundwert jedes Sentimentworts wurde mit 1 angesetzt. Die Polarität eines Satzes wurde in zwei Schritten festgelegt: Zuerst wurde das Vorkommen der positiven und negativen Sentimentwörter im Satz gezählt. Anschließend wurde die „Aggregation function“ (Abb. 1) für die Berechnung des Sentiment-Werts des Satzes verwendet: „
                 <hi rend="italic">se</hi>
@@ -186,12 +182,8 @@
                 <hi rend="italic">Tab. 1: Ergebnis des ersten Testlaufs</hi>
             </p>
             <p>In einem zweiten Testlauf haben wir eine automatische Klassifikation ausprobiert. Dabei wurden die Anzahl der Sentimentwörter und der Sentiment-Wert eines Satzes als Feature verwendet. Im Verhältnis 80% zu 20% wurden die Daten in einen Trainings- und einen Testdatensatz aufgespalten. Es wurde ein Support Vector Machine (SVM) Modell trainiert; die Evaluation erfolgte als 10-fache Kreuzvalidierung (Cross-Validation). Dadurch verbesserte sich das Ergebnis um ca. 10%: Die Trefferquote der Klassifikation lag bei 57% (+/- 7%).
-                <note place="foot" xml:id="ftn3" n="3">
-                    <p rend="footnote text"> Es wurden zusätzlich Lineare SVM und Gaussian Naive Bayes ausprobiert. Die Trefferquote lag bei 0.56 (+/- 0.05) bzw. 0.56 (+/- 0.07).</p>
-                </note> Wenn man eine Klassifikation nur zwischen positiven und negativen Sätzen durchführt, beträgt die Trefferquote 68% (+/- 10%).
-                <note place="foot" xml:id="ftn4" n="4">
-                    <p rend="footnote text"> Es wurden zusätzlich Logistic Regression, Lineare SVM und Gaussian Naive Bayes ausprobiert. Die Trefferquote lag bei 0.70 (+/- 0.10), 0.70 (+/- 0.11) bzw. 0.70 (+/- 0.11).</p>
-                </note>
+                <ref target="ftn3" n="3"/> Wenn man eine Klassifikation nur zwischen positiven und negativen Sätzen durchführt, beträgt die Trefferquote 68% (+/- 10%).
+                <ref target="ftn4" n="4"/>
             </p>
             <p>Für einen dritten Testlauf wurde die Sentimentwortliste bearbeitet und die Textsnippets wurden einem zweiten manuellen Rating mit mehr als nur 3 Kategorien unterzogen. Insbesondere sollte zwischen tatsächlich neutralen Sätzen (z.B. “X wurde 1826 in Berlin geboren.” = 0) und Sätzen mit (einander ausgleichenden) positiven und negativen Bewertungen (z.B. “Trotz dieser erheblichen Schwächen ist X ein Werk gelungen, das …” = 0,###) unterschieden werden. Auch Problemfälle (wie z.B. erwartbare Artefakte durch Zitation oder Ironie) wurden separiert, um die Analyseergebnisse gesondert evaluieren zu können. Von den 1687 eindeutig positiven, negativen oder neutralen Sätzen wurden 65,6% richtig erkannt (Tab. 2).</p>
             <table rend="rules">
@@ -234,7 +226,13 @@
             <p>In unserer Präsentation werden wir die ausführliche Ergebnisevaluation des dritten Testlaufs vorstellen und die sich stellenden Probleme im Hinblick auf die eingangs dargestellte Zielsetzung diskutieren. Außerdem soll ein erster Probelauf über das inzwischen provisorisch erstellte Satzkorpus aus den “Grenzboten” präsentiert werden, der die angezielte Methodik der diachronen Trenddarstellung illustriert.</p>
         </body>
         <back>
-            <div type="bibliogr">
+         <div type="notes">
+            <note xml:id="ftn1" n="1" rend="footnote text"> “Historische Rezeptionsanalyse” (gefördert von der Volkswagenstiftung), Teilprojekt “SentiLitKrit” (Göttingen, 2015-2018).</note>
+            <note xml:id="ftn2" n="2" rend="footnote text"> http://www.nltk.org/api/nltk.tokenize.html#module-nltk.tokenize.punkt</note>
+            <note xml:id="ftn3" n="3" rend="footnote text"> Es wurden zusätzlich Lineare SVM und Gaussian Naive Bayes ausprobiert. Die Trefferquote lag bei 0.56 (+/- 0.05) bzw. 0.56 (+/- 0.07).</note>
+            <note xml:id="ftn4" n="4" rend="footnote text"> Es wurden zusätzlich Logistic Regression, Lineare SVM und Gaussian Naive Bayes ausprobiert. Die Trefferquote lag bei 0.70 (+/- 0.10), 0.70 (+/- 0.11) bzw. 0.70 (+/- 0.11).</note>
+         </div>
+         <div type="bibliogr">
                 <listBibl>
                     <head>Bibliographie</head>
                     <bibl>
@@ -254,6 +252,6 @@
                     </bibl>
                 </listBibl>
             </div>
-        </back>
+      </back>
     </text>
 </TEI>

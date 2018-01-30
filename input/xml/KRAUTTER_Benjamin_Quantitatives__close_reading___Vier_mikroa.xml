@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xml:id="KRAUTTER_Benjamin_Quantitatives__close_reading___Vier_mikroa">
-    <teiHeader>
+   <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Quantitatives „close reading“? Vier mikroanalytische Methoden der digitalen Dramenanalyse im Vergleich.</title>
@@ -74,7 +74,7 @@
          </settingDesc>
       </profileDesc>
     </teiHeader>
-    <text>
+   <text>
         <body>
             <div type="div1" rend="DH-Heading1">
                 <head>Einführung</head>
@@ -88,29 +88,11 @@
                 <head>Distinktive Figurenrede im Drama?</head>
                 <p>
                     <hi rend="italic">Abbildung 1</hi>
-                    <note place="foot" xml:id="ftn1" n="1">
-                        <p rend="footnote text"> Die Zahlen geben den Akt des Dramas wieder, dem die Figurenrede entnommen ist. 
-                            <hi rend="italic">Abbildung 1</hi> und 
-                            <hi rend="italic">Abbildung 2</hi> wurden mit Hilfe des 
-                            <hi rend="fontstyle01">‚stylo‘-Pakets für R angefertigt (Eder
-                                <hi rend="color(00000A)">, </hi>
-                                <hi rend="color(00000A)">Kestemont</hi>
-                                <hi rend="color(00000A)">, </hi>
-                                <hi rend="color(00000A)">Rybicki</hi>
-                                <hi rend="color(00000A)"> 2013).</hi>
-                            </hi>
-                        </p>
-                    </note> zeigt eine hierarchische Clusteranalyse der wichtigsten Figuren aus Gotthold Ephraim Lessings 
+                    <ref target="ftn1" n="1"/> zeigt eine hierarchische Clusteranalyse der wichtigsten Figuren aus Gotthold Ephraim Lessings 
                     <hi rend="italic">Minna von Barnhelm, oder das Soldatenglück</hi>.
-                    <note place="foot" xml:id="ftn2" n="2">
-                        <p rend="footnote text"> Alle untersuchten Dramen entstammen dem Textgrid Repository.</p>
-                    </note> Die Abbildung setzt die Redeanteile der wichtigsten Dramenfiguren, die gemäß der Aktgrenzen segmentiert wurden, stilometrisch in Relation. Grundlage der Analyse sind die Wortfrequenzlisten, die den Redeäußerungen der einzelnen Figuren entnommen werden. Mit Hilfe von ‚Cosine Delta‘, das zuverlässigere Ergebnisse als ‚Burrows’s‘ oder ‚Argamon’s Delta‘ erzielen sollte (Evert u.a. 2017), wird aus den Wortfrequenzen die relative stilistische Ähnlichkeit der Textpassagen berechnet.
-                    <note place="foot" xml:id="ftn3" n="3">
-                        <p rend="footnote text"> Inwieweit der ohnehin schwer zu fassende Begriff ‚Stil‘ eine gute Wahl ist, um quantitative Methoden wie das Auszählen und vergleichen von Wortlisten zu beschreiben, ist zu diskutieren. Zumal die Vorstellung eines stilistischen Fingerabdrucks falsch zu sein scheint und ‚Autorstil‘ eher auf vielen kleinen Signalen fußt (Jannidis 2014). </p>
-                    </note> Anders als bei Hoover erfolgt die Unterteilung der Figurenrede jedoch nicht nach Segmenten zu je 1500 Wörtern. Stattdessen werden die bereits gegebenen Aktgrenzen des Dramas zur Einteilung herangezogen.
-                    <note place="foot" xml:id="ftn4" n="4">
-                        <p rend="footnote text"> Zum Vergleich: Fields, Bassist und Roper nutzen Blöcke von jeweils nur 200 Wörtern (2017).</p>
-                    </note> Dieses Vorgehen ist weniger artifiziell, da keine künstlich normalisierten Grenzen zu setzen sind. Es ist zugleich hilfreich, um die stilometrischen Ergebnisse anhand der Bedingungen ihres Zustandekommens, etwa der Kopräsenz von Figuren, zu interpretieren. Das Vorgehen hat jedoch zum Nachteil, dass die Segmente keine einheitliche Länge aufweisen und zu kurze Abschnitte aufgrund ihrer geringen Wortzahl aus dem Korpus gestrichen werden mussten.
+                    <ref target="ftn2" n="2"/> Die Abbildung setzt die Redeanteile der wichtigsten Dramenfiguren, die gemäß der Aktgrenzen segmentiert wurden, stilometrisch in Relation. Grundlage der Analyse sind die Wortfrequenzlisten, die den Redeäußerungen der einzelnen Figuren entnommen werden. Mit Hilfe von ‚Cosine Delta‘, das zuverlässigere Ergebnisse als ‚Burrows’s‘ oder ‚Argamon’s Delta‘ erzielen sollte (Evert u.a. 2017), wird aus den Wortfrequenzen die relative stilistische Ähnlichkeit der Textpassagen berechnet.
+                    <ref target="ftn3" n="3"/> Anders als bei Hoover erfolgt die Unterteilung der Figurenrede jedoch nicht nach Segmenten zu je 1500 Wörtern. Stattdessen werden die bereits gegebenen Aktgrenzen des Dramas zur Einteilung herangezogen.
+                    <ref target="ftn4" n="4"/> Dieses Vorgehen ist weniger artifiziell, da keine künstlich normalisierten Grenzen zu setzen sind. Es ist zugleich hilfreich, um die stilometrischen Ergebnisse anhand der Bedingungen ihres Zustandekommens, etwa der Kopräsenz von Figuren, zu interpretieren. Das Vorgehen hat jedoch zum Nachteil, dass die Segmente keine einheitliche Länge aufweisen und zu kurze Abschnitte aufgrund ihrer geringen Wortzahl aus dem Korpus gestrichen werden mussten.
                 </p>
                 <p>Die stilometrische Analyse von 
                     <hi rend="italic">Minna von Barnhelm</hi> zeigt, dass die Ergebnisse, die Hoover sowie Fields, Bassist und Roper für ausgewählte englischsprachige Romane erzielen, nicht unmittelbar auf Lessings Drama übertragbar zu sein scheinen. Es gibt zwar vereinzelte Anzeichen für stilistisch distinktiv angelegte Figurenrede – von der männlichen Hauptfigur Tellheim gruppieren sich Akt 1 und Akt 3 in unmittelbarer Nähe, auf Paul Werner trifft das für Akt 3 und Akt 5 zu. Die Mehrheit der Redesegmente scheint sich allerdings nach einem anderen Kriterium anzuordnen. Besonders deutlich wird dies im obersten Abschnitt der Grafik: Die Redeanteile von Major Tellheim, Minna von Barnhelm, ihrer Kammerjungfrau Franziska und die des Wirts gruppieren sich auf einem zusammenhängenden Ast. Die vier genannten Redesegmente entstammen allesamt dem zweiten Akt des Dramas und ihre Anordnung signalisiert eine gegenseitige Ähnlichkeit in Relation zum Vergleichskorpus. Es gibt weitere Beispiele, die die Aktgrenzen als wichtigen Faktor der Analyseergebnisse plausibilisieren. Die prägnantesten sind diejenigen von Tellheim und Minna in Akt 4 und 5.
@@ -129,9 +111,7 @@
                 <p>Ein einzelnes Dendrogram darf für die Bewertung der Hypothese jedoch nicht mehr sein als ein erstes Indiz, zumal die Segmentierung nicht gemäß einer festen Länge mit vorgegebener Wortanzahl, sondern nach den Aktgrenzen vorgenommen wurde. </p>
                 <p>Um ein potentielles ‚Cherry Picking‘-Problem an dieser Stelle zu vermeiden, ergänzt 
                     <hi rend="italic">Abbildung 2</hi> die Analyse um fünf weitere Dramen, drei von Friedrich Schiller und zwei weitere von Lessing.
-                    <note place="foot" xml:id="ftn5" n="5">
-                        <p rend="footnote text"> Schillers Texte sollen einen Gegenpol zu den Dramen Lessings bieten. Während Lessing dezidiert für die üblichen Rollenfächer des 18. Jahrhunderts schreibt (Harris 1992), entwirft Schiller seine Figuren eher konträr zu den Rollenfächern (Detken 2014).</p>
-                    </note> Betrachtet man die hierarchische Struktur, wird deutlich, dass sowohl das Autorsignal als auch die Texteinheit klar erkennbar bleiben und die Anordnung dahingehend durch die relativ geringen Wortumfänge der Redesegmente nicht negativ beeinflusst wird. 
+                    <ref target="ftn5" n="5"/> Betrachtet man die hierarchische Struktur, wird deutlich, dass sowohl das Autorsignal als auch die Texteinheit klar erkennbar bleiben und die Anordnung dahingehend durch die relativ geringen Wortumfänge der Redesegmente nicht negativ beeinflusst wird. 
                 </p>
                 <p>
                     <graphic n="1002"
@@ -157,12 +137,7 @@
                         url="KRAUTTER_Benjamin_Quantitatives__close_reading___Vier_mikroa-image3.jpeg"/>
                     <hi rend="italic">Abbildung 3</hi>: Redeäußerungen und deren Position, 
                     <hi rend="italic">Minna von Barnhelm</hi>.
-                    <note place="foot" xml:id="ftn6" n="6">
-                        <p rend="footnote text"> Die 
-                            <hi rend="italic">Abbildungen 3 </hi>und 
-                            <hi rend="italic">4 </hi>wurden mit Hilfe des ‚DramaAnalysis‘-Pakets für R erstellt (Reiter, Willand).
-                        </p>
-                    </note>
+                    <ref target="ftn6" n="6"/>
                 </p>
                 <p>Die Tabelle in 
                     <hi rend="italic">Abbildung 3</hi> listet die fünf wichtigsten Figuren aus Lessings 
@@ -170,18 +145,14 @@
                     <hi rend="italic">Abbildung 1</hi>. Die Redesegmente der genannten Akte gruppieren sich dort in unmittelbarer Nähe zueinander, während Tellheims Redeanteile in den Akten 1 und 3 davon deutlich separiert abgetragen sind. In diesen beiden Akten stehen Tellheim und Minna nicht zur gleichen Zeit auf der Bühne. Die stilistische Ähnlichkeit der Figurenrede scheint also in Zusammenhang mit einem strukturellen Merkmal, der gemeinsamen Bühnenpräsenz der Figuren, zu stehen.
                 </p>
                 <p>Um diesen Befund weiter zu spezifizieren, soll eine semantische Wortfeldanalyse die thematische Konzeption der Figurenrede operationalisieren (Willand, Reiter 2017).
-                    <note place="foot" xml:id="ftn7" n="7">
-                        <p rend="footnote text"> Zu diesem Zweck wurden fünf Wörterbücher mit 75 bis 105 Wörtern zu den Themen ‚Liebe‘, ‚Krieg‘, ‚Familie‘, ‚Ratio‘ und ‚Religion‘ erstellt, die dem jeweiligen Wortfeld zugehörig sind und in Dramen zwischen 1770 und 1830 verwendet wurden (Willand, Reiter 2017).</p>
-                    </note>
+                    <ref target="ftn7" n="7"/>
                     <hi rend="italic">Abbildung 4</hi> schlüsselt die Äußerungen der zentralen Figuren nach den Themen ‚Liebe‘, ‚Krieg‘, ‚Familie‘, ‚Ratio‘ und ‚Religion‘ auf. Die Häufigkeiten zeigen deutlich, wie ähnlich die Figurenrede von Minna und Tellheim hinsichtlich der Wortfelder konzipiert ist. Gerade die für Lessings Drama zentralen Themen ‚Liebe‘ und ‚Ratio‘ korrelieren merklich – auch verglichen mit den übrigen Figuren. Die Heatmap in 
                     <hi rend="italic">Abbildung 5</hi> veranschaulicht jedoch, dass dieses thematische Ähnlichkeitsverhältnis der Figurenrede von Minna und Tellheim nur eingeschränkt auf einzelne Akte heruntergebrochen werden kann. Es scheint eher der Fall zu sein, dass die anhand der Wortfelder ablesbaren Rollen von Minna und Tellheim je nach Akt differieren und zugleich weitergegeben werden können. Ein Beispiel hierfür ist der wechselnde Zweifel an einer gemeinsamen Zukunft, der Dialoge von Minna und Tellheim bis zum fünften Akt prägt. Basis der Darstellung sind die die Häufigkeiten der Wortfelder in der Figurenrede auf Ebene einzelner Akte. Die Häufigkeiten werden über die Bestimmung der euklidischen Distanz in ein Ähnlichkeitsverhältnis gesetzt. Demnach sind die nach Wortfeldern ähnlichsten Segmente die Figurenrede von Tellheim aus dem vierten Akt und diejenige von Minna aus dem dritten (euklidische Distanz: 0,001467). Es folgen die Paare Tellheim 5 und Minna 2 (0,002705) sowie Tellheim 1 und Minna 4 (0.003758). 
                 </p>
                 <p>Während also 
                     <hi rend="italic">Abbildung 4 </hi>ein Indiz dafür liefert, dass Stil, Thema und Präsenz der Figuren und ihrer Äußerungen zusammenhängen, zeigt 
                     <hi rend="italic">Abbildung 5</hi> eine gegensätzliche Tendenz – zumindest, wenn man nur die Redesegmente von Tellheim und Minna auf Ebene der einzelnen Akte vergleicht. Ein Grund dafür ist die Skalierung. Fügt man der Distanzberechnung weitere Figurensegmente bei, wird erkennbar, dass etwa auch die Segmente des fünften Akts von Minna und Tellheim thematisch relativ ähnlich erscheinen (0.006024).
-                    <note place="foot" xml:id="ftn8" n="8">
-                        <p rend="footnote text"> Distanzwerte von mehr als 0,01 sind die Norm.</p>
-                    </note>
+                    <ref target="ftn8" n="8"/>
                 </p>
                 <figure>
                     <graphic n="1004"
@@ -205,9 +176,7 @@
                 </p>
                 <p>Die Sentiment-Analyse in 
                     <hi rend="italic">Abbildung 6</hi> gibt den letzten der vier mikroanalytisch genutzten Zugänge zur Dramenbetrachtung wieder. In der Forschung genutzt, um etwa die unterschiedliche Verwendung von Emotionswörtern in Märchen und Romanen zu analysieren (Mohammad 2011), archetypische Stimmungskurven in Romanhandlunge sichtbar zu machen (Jockers 2015) oder zwischenmenschliche Beziehungen in Shakespeares Stücken zu untersuchen (Nalisnick, Baird 2013), wird die Analyse hier eingesetzt, um die Empfindung von Tellheim und Minna anhand ihrer Valenzwerte im fünften Akt zu vergleichen. Die Grafik muss dabei als Annäherung aufgefasst werden, da zwei Dramenfiguren immer versetzt voneinander sprechen. Normalisierung nach Länge der Figurenrede, fast dauerhafte Kopräsenz im fünften Akt und ein gleichzeitiges Abtreten im 14. Auftritt legitimieren die Annäherung gleichwohl. Die eingangs zu vernehmende Diskrepanz der beiden Kurven kann dabei tatsächlich auf das Drama rückbezogen werden: Erst im Verlauf des fünften Akts durchschaut Tellheim das missglückte Trickspiel Minnas, das beide abwechselnd an einer glücklichen Zukunft zweifeln lässt. Im fünften Akt wird diese Spannung gelöst, Minna und Tellheim finden als liebende Partner zusammen. Die Übereinstimmung der beiden Sentiment-Kurven und die positiven Werte zum Ende des fünften Akts sind somit ein bestätigender Befund.
-                    <note place="foot" xml:id="ftn9" n="9">
-                        <p rend="footnote text"> Andere (hier nicht aufgeführte) Auswertungen zeigen allerdings, dass Ähnlichkeitssignale von Sentiment-Analysen nicht mit stilometrischen Analysen oder Wortfeldsemantiken korrelieren müssen. Sentiment-Analysen geben keine Themen wieder, sondern Werte der Empfindung, mit der Figuren über Themen sprechen. Trotz gleicher Themen können somit ganz unterschiedliche Sentiment-Werte entstehen.</p>
-                    </note>
+                    <ref target="ftn9" n="9"/>
                 </p>
                 <p>
                     <graphic n="1006"
@@ -216,9 +185,7 @@
                         rend="inline"
                         url="KRAUTTER_Benjamin_Quantitatives__close_reading___Vier_mikroa-image6.jpeg"/>
                     <hi rend="italic">Abbildung 5</hi>: kumulative Sentiment-Analyse, Minna von Barnhelm Akt 5, Valenz der Redeanteile von Minna und Tellheim.
-                    <note place="foot" xml:id="ftn10" n="10">
-                        <p rend="footnote text"> Erstellt mit Hilfe des ‚syuzhet‘-Pakets für R, das die Valenz auf Ebene des Satzes bestimmt (Jockers). https://github.com/mjockers/syuzhet. Die Auswertung erfolgt mit der deutschen Version des NRC Word-Emotion Association Lexicon. http://saifmohammad.com/WebPages/NRC-Emotion-Lexicon.htm.</p>
-                    </note>
+                    <ref target="ftn10" n="10"/>
                 </p>
             </div>
             <div type="div1" rend="DH-Heading1">

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xml:id="KOCH_Carina_Die_illustrierte_Postkarte_und_die_digitalen_Gei">
-    <teiHeader>
+   <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title type="full">
@@ -75,7 +75,7 @@
          </settingDesc>
       </profileDesc>
     </teiHeader>
-    <text>
+   <text>
         <body>
             <div type="div1">
                 <head>Die Postkarte als Forschungsobjekt</head>
@@ -93,8 +93,8 @@
                     <anchor xml:id="id__y2eexl23bzfo"/>Herausforderungen in der Datenmodellierung
                 </head>
                 <p>Bei der Datenmodellierung steht man vor der Entscheidung, aus welcher Richtung man sich der Beschreibung der Postkarte nähern will. Auf der einen Seite steht die Mitteilung, die Text beinhaltet, der transkribiert, annotiert und angereichert werden kann. Auf der anderen Seite steht das Objekt, das unter spezifischen Gesichtspunkten eingeordnet, bewertet und inventarisiert wird. Dafür bieten sich zwei etablierte Standards an: LIDO und TEI. Letzteres eignet sich speziell für den Zugang über textuelle Inhalte.
-                    <note xml:id="ftn3" place="foot" n="1"> Zur weiteren Beschreibung von Postkarten mit der TEI s. Correspondance-SIG, Burnard, Lou 2014.</note> LIDO ist ein Standardformat, das eigens für die Beschreibung von Kulturerbeobjekten, ihre Klassifikation, Identifikation und Einbindung von in Bezug stehenden Ereignissen (Entstehung, Nutzung, Archivierung, ...), entwickelt wurde. Für tiefere Texterschließungen ist dieser Standard nicht geeignet.
-                    <note xml:id="ftn4" place="foot" n="2"> Obwohl das Element &lt;inscriptionsWrap&gt; für die strukturierte Erfassung von Transkriptionen und Beschreibungen von Markierungen oder Texten etc. definiert ist, ist das nur sehr oberflächlich möglich.</note> Da im Projekt die Beschreibung der Postkarte aus museologischer Sicht im Vordergrund steht und sich das Modellierungskonzept der Events (insb. für Postläufe) anbietet, sind die Daten nach LIDO modelliert und annotiert. Für Transkriptionen handschriftlicher Mitteilungen, die im skalierbaren Modell für spätere Bearbeitungen angedacht sind, ist das Schema um TEI Lite erweitert. Sollte künftig Text detaillierter kodiert werden, als TEI Lite es zuläßt, ist die Textedition in einem separaten TEI-Dokument angedacht.
+                    <ref target="ftn3" n="1"/> LIDO ist ein Standardformat, das eigens für die Beschreibung von Kulturerbeobjekten, ihre Klassifikation, Identifikation und Einbindung von in Bezug stehenden Ereignissen (Entstehung, Nutzung, Archivierung, ...), entwickelt wurde. Für tiefere Texterschließungen ist dieser Standard nicht geeignet.
+                    <ref target="ftn4" n="2"/> Da im Projekt die Beschreibung der Postkarte aus museologischer Sicht im Vordergrund steht und sich das Modellierungskonzept der Events (insb. für Postläufe) anbietet, sind die Daten nach LIDO modelliert und annotiert. Für Transkriptionen handschriftlicher Mitteilungen, die im skalierbaren Modell für spätere Bearbeitungen angedacht sind, ist das Schema um TEI Lite erweitert. Sollte künftig Text detaillierter kodiert werden, als TEI Lite es zuläßt, ist die Textedition in einem separaten TEI-Dokument angedacht.
                 </p>
             </div>
             <div type="div1">
@@ -105,7 +105,11 @@
             </div>
         </body>
         <back>
-            <div type="bibliogr">
+         <div type="notes">
+            <note xml:id="ftn3" n="1" place="foot"> Zur weiteren Beschreibung von Postkarten mit der TEI s. Correspondance-SIG, Burnard, Lou 2014.</note>
+            <note xml:id="ftn4" n="2" place="foot"> Obwohl das Element &lt;inscriptionsWrap&gt; für die strukturierte Erfassung von Transkriptionen und Beschreibungen von Markierungen oder Texten etc. definiert ist, ist das nur sehr oberflächlich möglich.</note>
+         </div>
+         <div type="bibliogr">
                 <listBibl>
                     <head>Bibliographie</head>
                     <bibl>AKON - Ansichtskarten Online der Österreichischen Nationalbibliothek, 
@@ -135,6 +139,6 @@
                     <bibl>Tropper, Eva (2014): Illustrierte Postkarten - ein Format entsteht und verändert sich, in: Tropper, Eva / Starl, Timm (eds.): Format Postkarte - Illustrierte Korrespondenzen, 1900 bis 1936, Wien: new academic press.</bibl>
                 </listBibl>
             </div>
-        </back>
+      </back>
     </text>
 </TEI>

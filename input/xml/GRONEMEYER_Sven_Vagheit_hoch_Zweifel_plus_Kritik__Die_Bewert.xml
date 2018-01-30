@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xml:id="GRONEMEYER_Sven_Vagheit_hoch_Zweifel_plus_Kritik__Die_Bewert">
-    <teiHeader>
+   <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Vagheit hoch Zweifel plus Kritik! Die Bewertung von Widersprüchen in einer digitalen Entzifferungsarbeit der Maya-Hieroglyphen</title>
@@ -123,7 +123,7 @@
          </settingDesc>
       </profileDesc>
     </teiHeader>
-    <text>
+   <text>
         <body>
             <div type="div1" rend="DH-Heading1">
                 <head>Die Hieroglyphenschrift des Klassischen Maya</head>
@@ -184,7 +184,7 @@
             </div>
         </body>
         <back>
-            <div type="bibliogr">
+         <div type="bibliogr">
                 <listBibl>
                     <head>Bibliographie</head>
                     <bibl>
@@ -209,6 +209,6 @@
                     </bibl>
                 </listBibl>
             </div>
-        </back>
+      </back>
     </text>
 </TEI>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xml:id="POLLIN_Christopher__MEDEA__Datenkonsistenz_mittels_Ontologie">
-    <teiHeader>
+   <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title> MEDEA: Datenkonsistenz mittels Ontologie</title>
@@ -80,7 +80,7 @@
          </settingDesc>
       </profileDesc>
     </teiHeader>
-    <text>
+   <text>
         <body>
             <p>Daten werden laut der Vision der ‘High Level Expert Group on Scientiﬁc Data’ in der Zukunft einen Grad an Ausdrucksstärke und Formen der Selbstbeschreibung erhalten, dass sie in die Lage versetzt werden, ihre eigene Infrastruktur zu stellen (Neuroth, Heike / et al. 2012). Auch die Idee des Semantic Web verspricht eine Zukunft in der Maschinen selbständig mit Daten agieren können (Berners-Lee, Tim 2000). Die praktische Realität - gerade für die digitalen Geisteswissenschaften - ist noch eine Andere. Dennoch steckt in den Methoden des Semantic Webs ein Potenzial, das es mit vernünftiger Kritik zu nutzen gilt. 
                 <lb/>Das Projekt MEDEA (Modeling semantically Enriched Digital Edition of Accounts) versucht dies zu verwirklichen, indem an einem kollektiven Standard zu semantischen Anreicherung digitaler Editionen von historischen Rechnungsbüchern gearbeitet wird. Es wird der Frage nachgegangen, inwieweit Methoden des Semantic Webs bei der Erschließung, Analyse und Darstellung historischer Rechnungsbücher helfen können (MEDEA, 2017).
@@ -102,7 +102,7 @@
             </p>
         </body>
         <back>
-            <div type="bibliogr">
+         <div type="bibliogr">
                 <listBibl>
                     <head>Bibliographie</head>
                     <bibl>Berners-Lee, Tim. (2000): Weaving the Web: The Past, Present and Future of the World Wide Web by Its Inventor. London.</bibl>
@@ -121,6 +121,6 @@
                     <bibl>Vogeler, Georg (2016): The Content of Accounts and Registers in their Digital Edition. XML/TEI, Spreadsheets, and Semantic Web Technologies, in: SARNOWSKY, Jürgen (Hg.): Konzeptionelle Überlegungen zur Edition von Rechnungen und Amtsbüchern des späten Mittelalters. Göttingen, 13-41.</bibl>
                 </listBibl>
             </div>
-        </back>
+      </back>
     </text>
 </TEI>

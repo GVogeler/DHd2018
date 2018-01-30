@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
-    xml:id="SPERBERG-MCQUEEN_Kritik_der_digitalen_Vernunft">
-    <teiHeader>
+     xml:id="SPERBERG-MCQUEEN_Kritik_der_digitalen_Vernunft">
+   <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Kritik der digitalen Vernunft</title>
@@ -10,7 +10,7 @@
                         <surname>Sperberg-McQueen</surname>
                         <forename>C. Michael</forename>
                     </persName>
-                    <affiliation></affiliation>
+                    <affiliation/>
                     <email>cmsmcq@blackmesatech.com</email>
                 </author>
             </titleStmt>
@@ -48,10 +48,10 @@
                     <term>Keynote</term>
                 </keywords>
                 <keywords scheme="ConfTool" n="keywords">
-                    <term></term>
+                    <term/>
                 </keywords>
                 <keywords scheme="ConfTool" n="topics">
-                    <term></term>
+                    <term/>
                 </keywords>
             </textClass>
             <settingDesc>
@@ -59,14 +59,14 @@
                 <ab n="paperID">x2</ab>
                 <ab n="session_ID">92</ab>
                 <ab n="session_numberInSession">1</ab>
-                <ab n="session_short"></ab>
+                <ab n="session_short"/>
                 <ab n="session_title">Abschluss von DHd 2018 und Abschluss-Keynote</ab>
                 <ab n="session_start">2018-03-02 14:00</ab>
                 <ab n="session_end">2018-03-02 15:30</ab>
             </settingDesc>
         </profileDesc>
     </teiHeader>
-    <text>
+   <text>
         <body>
             <div type="div1" rend="DH-Heading1">
                 <head>Kritik der digitalen Vernunft</head>
@@ -76,7 +76,8 @@
                 <quote>"Gibt es im Umgang mit digitalen Medien, in der Modellierung,
                 Operationalisierung und Formalisierung der Arbeit mit Computern
                 implizite, stillschweigend akzeptierte Agenden, die einer
-                Reflexion durch einen „Intellectual Criticism“ bedürfen?"</quote></p>
+                Reflexion durch einen „Intellectual Criticism“ bedürfen?"</quote>
+            </p>
                 
                 <p>Wie sähe ein solcher Intellectual Criticism aus?  Worauf könnte er
                 basieren?</p>

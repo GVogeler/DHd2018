@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xml:id="BURCKHARDT_Daniel_Schl_sseldokumente_zur_deutsch_j_dischen_G">
-    <teiHeader>
+   <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Schlüsseldokumente zur deutsch-jüdischen Geschichte: Eine digitale Edition des Instituts für die Geschichte der deutschen Juden</title>
@@ -81,7 +81,7 @@
          </settingDesc>
       </profileDesc>
     </teiHeader>
-    <text>
+   <text>
         <body>
             <p>Die vom Institut für die Geschichte der deutschen Juden (IGdJ) erstellte, seit Juli 2015 von der DFG geförderte und seit September 2016 frei zugängliche zweisprachige (deutsch/englisch) Online-Quellenedition „Hamburger Schlüsseldokumente zur deutsch-jüdischen Geschichte“ (
                 <ref target="http://juedische-geschichte-online.net/">http://juedische-geschichte-online.net/</ref>) wirft am Beispiel von derzeit etwa 75 ausgewählten Quellen thematische Schlaglichter auf zentrale Aspekte der deutsch-jüdischen Geschichte Hamburgs.
@@ -94,7 +94,7 @@
             <p>Unser Poster zeigt die zentralen Eigenschaften der Online-Edition und hilft, den konzeptionellen Rahmen sowie die technische Umsetzung zu verstehen. Es illustriert die Verknüpfung zwischen TEI-Kodierung der Dokumente sowie ihrer Präsentation und Navigation. Es soll damit den konzeptionellen Grundgedanken des Projektes veranschaulichen, das Digitale mit seinen Möglichkeiten ernst zu nehmen, jedoch nicht in Konkurrenz, sondern in Ergänzung zum Analogen.</p>
         </body>
         <back>
-            <div type="bibliogr">
+         <div type="bibliogr">
                 <listBibl>
                     <head>Bibliographie</head>
                     <bibl>
@@ -102,6 +102,6 @@
                     </bibl>
                 </listBibl>
             </div>
-        </back>
+      </back>
     </text>
 </TEI>

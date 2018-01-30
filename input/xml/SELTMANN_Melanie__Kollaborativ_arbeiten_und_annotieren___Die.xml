@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xml:id="SELTMANN_Melanie__Kollaborativ_arbeiten_und_annotieren___Die">
-    <teiHeader>
+   <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title> Kollaborativ arbeiten und annotieren – Die Forschungsinfrastruktur des Spezialforschungsbereichs Deutsch in Österreich </title>
@@ -91,7 +91,7 @@
          </settingDesc>
       </profileDesc>
     </teiHeader>
-    <text>
+   <text>
         <body>
             <p>Der Spezialforschungsbereich (SFB) „Deutsch in Österreich. Variation – Kontakt – Perzeption“ (FWF F 60) beschäftigt sich mit der Vielfalt sowie dem Wandel der deutschen Sprache in Österreich. Dabei behandelt er den Gebrauch und die subjektive Wahrnehmung von deutscher Sprache in Österreich und zeigt Einflüsse durch Kontaktsprachen auf. Der SFB gliedert sich in verschiedene Teilprojekte an vier verschiedenen Institutionen (Universität Wien, Universität Salzburg, Universität Graz und Österreichische Akademie der Wissenschaften), die unterschiedliche Schwerpunkte in den Fokus nehmen.</p>
             <p>Ein Ziel des SFB ist es, die Forschungsansätze und -ergebnisse einem möglichst breiten Publikum einfach und frei zugänglich zu machen. Hierfür ist eine gut durchdachte, funktionale und vor allem flexible Forschungsplattform sowie das Zurverfügungstellen (und die Nutzung) einiger Standards und Best Practices unumgänglich. Zum einen um die Arbeit über die verschiedenen Teilprojekte und Institutionen kollaborativ und einheitlich zu gestalten, zum anderen um den Open Science-Ansatz des Projektes verwirklichen zu können und Daten sowie Forschungsmethoden und -ergebnisse bereitstellen zu können.</p>
@@ -101,7 +101,7 @@
             <p>Auf dem Poster soll neben der Darstellung dieser Plattform genauer auf den Bereich der Annotation eingegangen werden. Da diese auf den verschiedensten linguistischen Ebenen vorgenommen und von einer Vielzahl von WissenschafterInnen erarbeitet wird, muss es zum einen klare Vorgaben geben, wie annotiert werden soll, zum anderen müssen die Annotationen nach einem einheitlichen Schema gebildet werden. Dennoch soll die Flexibilität der Annotationen gewährleistet sein, um wissenschaftliches Arbeiten möglichst effizient gestalten zu können. Dabei werden die Tags zwar mit Hilfe einer m:n-Verknüpfung zwischen Attributen (Tags) und Werten (Antworten) gespeichert, sind aber hierarchisch projizierbar. Somit ist es möglich, dass die verschiedenen Teilprojekte unterschiedlich tief annotieren, aber dennoch auf die Annotationen der anderen Teilprojekte zurückgreifen können. Sie fügen sich zudem bestmöglich in die vorhandene Forschungslandschaft ein, z.B. durch Verwendung gängiger Taggingsysteme (wie Edisyn), um auch SFB-übergreifend leicht nutz-, adaptier- und vergleichbar zu sein.</p>
         </body>
         <back>
-            <div type="bibliogr">
+         <div type="bibliogr">
                 <listBibl>
                     <head>Bibliographie</head>
                     <bibl>Fügen Sie hier die von Ihnen benutzten Quellen ein:</bibl>
@@ -119,6 +119,6 @@
                     </bibl>
                 </listBibl>
             </div>
-        </back>
+      </back>
     </text>
 </TEI>

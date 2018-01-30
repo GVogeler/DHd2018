@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xml:id="BIGALKE_Ben_Personen__und_Figurennetzwerke_in_Fernando_Pesso">
-    <teiHeader>
+   <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title type="full">
@@ -109,7 +109,7 @@
          </settingDesc>
       </profileDesc>
     </teiHeader>
-    <text>
+   <text>
         <body>
             <p>
                 <anchor xml:id="id_docs-internal-guid-8e490a27-f49a-7711-e248-928ba1b461be"/>Im Nachlass des portugiesischen Dichters Fernando Pessoa (1888-1935) finden sich zahlreiche Listen geplanter Publikationen. Diesen stehen nur wenige zu Lebzeiten tatsächlich realisierte Veröffentlichungen gegenüber. Daraus ergibt sich ein Kontrast zwischen der Ebene des Möglichen und des Verwirklichten in der Literatur und Literaturproduktion. Vor diesem Hintergrund entsteht die digitale Edition “Fernando Pessoa. Projekte und Publikationen” und mit ihr die im Folgenden vorgestellte Netzwerkvisualisierung. Mit ihr wird ein Werkzeug zur Verfügung gestellt, das die Exploration des Personen- und Figurenkosmos in Pessoas Publikationsplänen über die Zeit ermöglicht.
@@ -131,20 +131,7 @@
                 </head>
                 <p>
                     <anchor xml:id="id_docs-internal-guid-8e490a27-f49c-42e6-166c-ca013449ed16"/>Die Notizzettel, Seiten aus Notizbüchern und andere Papiere aus Pessoas Nachlass, auf denen er die Pläne für seine Werke handschriftlich oder mit Schreibmaschine geschrieben festgehalten hat, werden in einer Kooperation zwischen dem Institut für Literatur und Tradition (IELT) der Neuen Universität Lissabon und dem Cologne Center for eHumanities (CCeH) der Universität zu Köln digital ediert (Sepúlveda und Henny-Krahmer 2017).
-                    <note xml:id="ftn1" place="foot" n="1">
-                        <anchor xml:id="id_docs-internal-guid-8e490a27-f49c-c13a-f4bb-d8de1386b49c"/>
-                        <hi rend="color(#000000)">Die digitale Edition ist in einer Beta-Version </hi>
-                        <hi rend="color(#000000)">unter </hi>
-                        <ref target="http://www.pessoadigital.pt/">http://www.pessoadigital.pt</ref>
-                        <hi rend="color(#000000)">[letzter Zugriff </hi>
-                        <hi rend="color(#000000)">14</hi>
-                        <hi rend="color(#000000)">. Januar 2018] verfügbar; die Entwicklung wird fortlaufend über GitHub organisiert: </hi>
-                        <ptr target="https://github.com/cceh/pessoa"/>
-                        <hi rend="color(#000000)"> </hi>
-                        <hi rend="color(#000000)">[letzter Zugriff </hi>
-                        <hi rend="color(#000000)">14</hi>
-                        <hi rend="color(#000000)">. Januar 2018]. Zur editorischen Herangehensweise aus digitaler Perspektive vgl. Henny-Krahmer und Sepúlveda 2017.</hi>
-                    </note>
+                    <ref target="ftn1" n="1"/>
                 </p>
                 <p>
                     <anchor xml:id="id_docs-internal-guid-8e490a27-f49d-7839-bab1-35fa69260838"/>Neben den Dokumenten aus dem Nachlass umfasst die digitale Edition auch die zu Lebzeiten von Pessoa publizierten Gedichte. Gegenstand des hier vorgestellten Netzwerkes sind jedoch ausschließlich die Dokumente, auf denen die Figuren und Personen genannt sind und deren Beziehungen ausgehend von ihrer gemeinsamen Erwähnung über die Zeit untersucht werden. Die Dokumente sind in der Edition in TEI codiert, wobei die Namensvorkommen erfasst werden und eine Identifikation der hinter den Namen stehenden Personen und Figuren in einem zentralen Index erfolgt. Transkriptionen und Index bilden zusammen mit den für jedes Dokument festgehaltenen Metadaten die Datengrundlage für das Figuren- und Personennetzwerk, wobei insbesondere die für die Chronologie relevante Datierung zu nennen ist.
@@ -165,16 +152,8 @@
                 </p>
                 <p>
                     <anchor xml:id="id_docs-internal-guid-8e490a27-f49e-8a3a-0167-485dae527d7a"/>Die Netzwerkdaten sind mit Hilfe von XSLT aus den TEI-Dokumenten generiert worden und liegen im JSON-Format vor.
-                    <note xml:id="ftn2" place="foot" n="2">
-                        <anchor xml:id="id_docs-internal-guid-8e490a27-f49e-fc10-0698-53607392896e"/>
-                        <hi rend="color(#000000)"> Die dem Netzwerk zugrunde liegenden Daten sind unter</hi>
-                        <ptr target="https://github.com/cceh/pessoa/tree/master/app/data/network"/>
-                        <hi rend="color(#000000)"> </hi>
-                        <hi rend="color(#000000)">[letzter Zugriff 14. Januar 2018] einsehbar.</hi>
-                    </note> Die interaktive Visualisierung ist mit der Bibliothek D3 erstellt worden, wobei ein Netzwerklayout von Mike Bostock adaptiert und um weitere Funktionalitäten ergänzt wurde.
-                    <note xml:id="ftn3" place="foot" n="3">
-                        <anchor xml:id="id_docs-internal-guid-8e490a27-f49f-b3ab-d62c-5999d7cb0e21"/> Das Ausgangs-Layout von Bostock trägt den Titel “Force Layout with Mousover” (Bostock 2017).
-                    </note> Erweiterungen, die für die vorliegende Anwendung vorgenommen wurden, sind u. a. die Möglichkeit, Teile des Netzwerks ein- und auszublenden (nach Chronologie; Teilnetzwerke für die Verbindungen, die von einzelnen Personen ausgehen; nur Knoten mit oder auch Knoten ohne Verbindungen) sowie Optionen für die Darstellung (Einblenden von Labels; Dichte bzw. Weite der Anzeige des Netzwerks).
+                    <ref target="ftn2" n="2"/> Die interaktive Visualisierung ist mit der Bibliothek D3 erstellt worden, wobei ein Netzwerklayout von Mike Bostock adaptiert und um weitere Funktionalitäten ergänzt wurde.
+                    <ref target="ftn3" n="3"/> Erweiterungen, die für die vorliegende Anwendung vorgenommen wurden, sind u. a. die Möglichkeit, Teile des Netzwerks ein- und auszublenden (nach Chronologie; Teilnetzwerke für die Verbindungen, die von einzelnen Personen ausgehen; nur Knoten mit oder auch Knoten ohne Verbindungen) sowie Optionen für die Darstellung (Einblenden von Labels; Dichte bzw. Weite der Anzeige des Netzwerks).
                 </p>
                 <p>
                     <figure>
@@ -230,25 +209,53 @@
                 </p>
                 <p>
                     <anchor xml:id="id_docs-internal-guid-8e490a27-f4a9-52cf-6e49-a7235fef8be1"/>Methodisch eröffnet die Visualisierung durch das interaktive Element und den höheren Grad der Abstraktion gegenüber den edierten Dokumenten, die in der digitalen Edition studiert werden können, neue Interpretationsspielräume. Dabei ist es jedoch sehr wichtig, die Dokument-, Text- und Datengrundlage sowie die methodischen Wege zum Netzwerk und zur visuellen Darstellung stets im Blick zu behalten. Für diesen Beitrag bieten wir dafür eine Dokumentation an, die direkt mit dem interaktiven Netzwerk verbunden ist.
-                    <note xml:id="ftn4" place="foot" n="4">
+                    <ref target="ftn4" n="4"/> Der Zusammenhang zwischen Quellen und Analyse wird auch dadurch hergestellt, dass die interaktive Visualisierung an die digitale Edition angebunden ist.
+                    <ref target="ftn5" n="5"/>
+                </p>
+            </div>
+        </body>
+        <back>
+         <div type="notes">
+            <note xml:id="ftn1" n="1" place="foot">
+                        <anchor xml:id="id_docs-internal-guid-8e490a27-f49c-c13a-f4bb-d8de1386b49c"/>
+                        <hi rend="color(#000000)">Die digitale Edition ist in einer Beta-Version </hi>
+                        <hi rend="color(#000000)">unter </hi>
+                        <ref target="http://www.pessoadigital.pt/">http://www.pessoadigital.pt</ref>
+                        <hi rend="color(#000000)">[letzter Zugriff </hi>
+                        <hi rend="color(#000000)">14</hi>
+                        <hi rend="color(#000000)">. Januar 2018] verfügbar; die Entwicklung wird fortlaufend über GitHub organisiert: </hi>
+                        <ptr target="https://github.com/cceh/pessoa"/>
+                        <hi rend="color(#000000)"> </hi>
+                        <hi rend="color(#000000)">[letzter Zugriff </hi>
+                        <hi rend="color(#000000)">14</hi>
+                        <hi rend="color(#000000)">. Januar 2018]. Zur editorischen Herangehensweise aus digitaler Perspektive vgl. Henny-Krahmer und Sepúlveda 2017.</hi>
+                    </note>
+            <note xml:id="ftn2" n="2" place="foot">
+                        <anchor xml:id="id_docs-internal-guid-8e490a27-f49e-fc10-0698-53607392896e"/>
+                        <hi rend="color(#000000)"> Die dem Netzwerk zugrunde liegenden Daten sind unter</hi>
+                        <ptr target="https://github.com/cceh/pessoa/tree/master/app/data/network"/>
+                        <hi rend="color(#000000)"> </hi>
+                        <hi rend="color(#000000)">[letzter Zugriff 14. Januar 2018] einsehbar.</hi>
+                    </note>
+            <note xml:id="ftn3" n="3" place="foot">
+                        <anchor xml:id="id_docs-internal-guid-8e490a27-f49f-b3ab-d62c-5999d7cb0e21"/> Das Ausgangs-Layout von Bostock trägt den Titel “Force Layout with Mousover” (Bostock 2017).
+                    </note>
+            <note xml:id="ftn4" n="4" place="foot">
                         <ptr target="http://www.pessoadigital.pt/de/network/documentation"/>
                         <hi rend="color(#000000)"> </hi>
                         <hi rend="color(#000000)">[letzter Zugriff 1</hi>
                         <hi rend="color(#000000)">4</hi>
                         <hi rend="color(#000000)">. Januar 2018].</hi>
-                    </note> Der Zusammenhang zwischen Quellen und Analyse wird auch dadurch hergestellt, dass die interaktive Visualisierung an die digitale Edition angebunden ist.
-                    <note xml:id="ftn5" place="foot" n="5">
+                    </note>
+            <note xml:id="ftn5" n="5" place="foot">
                         <anchor xml:id="id_docs-internal-guid-8e490a27-f4aa-56ab-c855-d2d83cdd3582"/>
                         <hi rend="color(#000000)">Derzeit über den Menüpunkt “Chronologie”, vgl. </hi>
                         <ptr target="http://www.pessoadigital.pt/de/index.html"/>
                         <hi rend="color(#000000)"> </hi>
                         <hi rend="color(#000000)">[letzter Zugriff 14. Januar 2018].</hi>
                     </note>
-                </p>
-            </div>
-        </body>
-        <back>
-            <div type="bibliogr">
+         </div>
+         <div type="bibliogr">
                 <listBibl>
                     <head>Bibliographie</head>
                     <bibl>
@@ -306,6 +313,6 @@
                     </bibl>
                 </listBibl>
             </div>
-        </back>
+      </back>
     </text>
 </TEI>

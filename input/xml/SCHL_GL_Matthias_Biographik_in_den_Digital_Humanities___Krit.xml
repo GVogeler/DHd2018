@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xml:id="SCHL_GL_Matthias_Biographik_in_den_Digital_Humanities___Krit">
-    <teiHeader>
+   <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title type="full">
@@ -108,7 +108,7 @@
          </settingDesc>
       </profileDesc>
     </teiHeader>
-    <text>
+   <text>
         <body>
             <p>
                 <anchor xml:id="id_docs-internal-guid-b0c2a807-f5f0-f0b0-833a-61ef07be7d1f"/>Quantitative Auswertungen gewinnen zunehmend auch in den Geisteswissenschaften an Bedeutung (z. B. Harber 2011). Nicht selten wird mittlerweile auch der Begriff „Big Data“ in Zusammenhang mit den Humanities ganz allgemein verwendet (z. B. gral 2016).  Für solche Analysen wird des Öfteren auf einheitliche Korpora zurückgegriffen (z. B. Wikipedia: Russo et al. 2015), die nicht nur einen standardisierten Zugriff auf tausende Datensätze, sondern auch homogene Metadaten und harmonisierte Vokabulare bieten. Während diese Korpora formal geradezu prädestiniert für Analysen mit den neuen digitalen Tools scheinen, sind die grundlegenden Daten durch die Entstehungsgeschichte der Datensammlungen nicht selten unausgewogen und können mitunter zu falschen Ergebnissen führen. Insbesondere trifft dies auf über einen längeren Zeitraum entstandene Nationalbiographien zu. Trotz dieses offensichtlichen Dilemmas fokussieren Studien meist auf die Zuverlässigkeit der digitalen Tools selbst und weniger auf die Verlässlichkeit der Quellen (z. B. Reinert et al. 2015; Stotz et al. 2015).
@@ -199,7 +199,7 @@
             </div>
         </body>
         <back>
-            <div type="bibliogr">
+         <div type="bibliogr">
                 <listBibl>
                     <head>Bibliographie</head>
                     <bibl>
@@ -272,6 +272,6 @@
                     </bibl>
                 </listBibl>
             </div>
-        </back>
+      </back>
     </text>
 </TEI>

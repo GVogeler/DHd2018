@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xml:id="BLESSING_Andre_NLP_meets_RegNLP_meets_Regesta_Imperii">
-    <teiHeader>
+   <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title type="full">
@@ -83,7 +83,7 @@
          </settingDesc>
       </profileDesc>
     </teiHeader>
-    <text>
+   <text>
         <body>
             <p>Dieser Posterbeitrag veranschaulicht die Interaktion zwischen computerlinguistischen Methoden und Regestenforschung. Es wird eine Anwendung vorgestellt, die bereits in einem graphbasierten Format vorliegendene Regesten webbasiert anzeigt und es erlaubt, Registereinträge im Text zu verorten. Die daraus entstandene Datenbasis hilft dabei neues Wissen zu generieren, so können z.B. Verwandtschaftsbeziehungen automatisch erkannt und in den Regesten-Graph integriert werden.</p>
             <p>Das im Rahmen des Bund-Länder-geförderten Akademienprogramms angesiedelte Grundlagenforschungsprojekt Regesta Imperii erstellt deutschsprachige Inhaltsangaben (sog. Regesten) von Kaiser-, Königs und Papsturkunden, begonnen von Karl dem Großen bis hin zu Kaiser Maximilian. Seit Projektbeginn 2001 wurden 1829 Regesten erstellt und digitalisiert und stehen inzwischen als Volltext im Internet zur Verfügung. Die Publikation der digitalisierten Register befindet sich gerade in Vorbereitung.</p>
@@ -147,7 +147,7 @@
             </p>
         </body>
         <back>
-            <div type="bibliogr">
+         <div type="bibliogr">
                 <listBibl>
                     <head>Bibliographie</head>
                     <bibl>
@@ -186,6 +186,6 @@
                     </bibl>
                 </listBibl>
             </div>
-        </back>
+      </back>
     </text>
 </TEI>

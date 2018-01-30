@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xml:id="EIDE__yvind_Modellieren_durch_mediale_Transformation__Das_Th">
-    <teiHeader>
+   <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Modellieren durch mediale Transformation: Das Theater Brechts in der virtuellen Realität</title>
@@ -87,7 +87,7 @@
          </settingDesc>
       </profileDesc>
     </teiHeader>
-    <text>
+   <text>
         <body>
             <div type="div1" rend="DH-Heading1">
                 <head>Einleitung</head>
@@ -110,9 +110,7 @@
             <div type="div1" rend="DH-Heading1">
                 <head>Virtual Reality und Digital Humanities - Ein Lehrangebot an der Universität zu Köln</head>
                 <p>Das Institut für Digital Humanities bot in der jüngsten Vergangenheit und aktuell eine Folge von unterschiedlichen Lehrveranstaltungen
-                    <note place="foot" xml:id="ftn1" n="1">
-                        <p rend="normal"> Visualisierung mit JavaScript”, “Media Transformation I – Theater als Virtual Reality (VR) Erfahrung“ und “Media Transformation II - Social VR and Interactive Storytelling in Virtual Reality”, durchgeführt im Wintersemester 2016 / 2017 und im anschließenden Sommersemester 2017</p>
-                    </note> an, die von den Studierenden äußerst positiv wahrgenommen, zahlreich belegt und durch praktische Umsetzungen von VR Anwendungen erfolgreich abgeschlossen wurden. Durch den Fokus auf zeitgemäße neue Frameworks wie dem im Folgenden vorgestellten WebVR-Framework 
+                    <ref target="ftn1" n="1"/> an, die von den Studierenden äußerst positiv wahrgenommen, zahlreich belegt und durch praktische Umsetzungen von VR Anwendungen erfolgreich abgeschlossen wurden. Durch den Fokus auf zeitgemäße neue Frameworks wie dem im Folgenden vorgestellten WebVR-Framework 
                     <hi rend="italic">A-Frame</hi> und der Nutzung von 
                     <hi rend="italic">Cardboards</hi> wurde die Einstiegshürde für die Implementation eigener VR-Umgebungen reduziert.
                 </p>
@@ -127,9 +125,7 @@
             <div type="div1" rend="DH-Heading1">
                 <head>Inhalte für virtuelle Realitäten</head>
                 <p>Die Vorstellung, durch das Erleben der Virtuellen Realität vollständig in eine andere Welt einzutauchen und diese als real zu empfinden, wird mit dem Begriff der Immersion beschrieben. Das Konzept der Immersion, wie es im Anwendungsfeld virtueller Welten definiert ist, unterscheidet sich dabei vom Film, der in der Lage ist, eine Szene durch die Aufnahme bewegter Bilder zu spiegeln und die Wirklichkeit für den Zuschauer abzubilden.
-                    <note place="foot" xml:id="ftn2" n="2">
-                        <p rend="normal"> Es existiert eine komplexe Beziehung zwischen Immersion und ästhetischen Konzepten unterschiedlicher künstlerischer Arbeiten, auf die in diesem Kontext nicht ausführlicher eingegangen werden kann. </p>
-                    </note> Der erfahrbare Raum der virtuellen Realität muss nicht notwendig der Erfahrungs- und Wahrnehmungswelt des Anwenders entsprechen. Er ergibt sich auch nicht unmittelbar aus einem möglichst genauen virtuellen Abbild der realen Welt, wenn er für den Nutzer ein immersives Erlebnis erzeugen soll. Eine starke immersive Erfahrung für den Nutzer muss nicht bedeuten, dass dieser den Eindruck gewinnt, sich an einem anderen Ort oder zu einem anderen Zeitpunkt in der bekannten Realität aufzuhalten. Es soll vielmehr der Eindruck entstehen in einer alternativen Realität präsent zu sein, die eben nicht der tatsächlichen Umgebung, der Welt der physischen Gegeben- und Anwesenheit entspricht und diese damit erfahrbar zu machen. Die Immersion ergibt sich einerseits durch Interaktionsmöglichkeiten der NutzerInnen mit der virtuellen Welt, andererseits aus einer vollständigen Beschlagnahmung all ihrer visuellen und gegebenenfalls auch akustischen Eindrücke.
+                    <ref target="ftn2" n="2"/> Der erfahrbare Raum der virtuellen Realität muss nicht notwendig der Erfahrungs- und Wahrnehmungswelt des Anwenders entsprechen. Er ergibt sich auch nicht unmittelbar aus einem möglichst genauen virtuellen Abbild der realen Welt, wenn er für den Nutzer ein immersives Erlebnis erzeugen soll. Eine starke immersive Erfahrung für den Nutzer muss nicht bedeuten, dass dieser den Eindruck gewinnt, sich an einem anderen Ort oder zu einem anderen Zeitpunkt in der bekannten Realität aufzuhalten. Es soll vielmehr der Eindruck entstehen in einer alternativen Realität präsent zu sein, die eben nicht der tatsächlichen Umgebung, der Welt der physischen Gegeben- und Anwesenheit entspricht und diese damit erfahrbar zu machen. Die Immersion ergibt sich einerseits durch Interaktionsmöglichkeiten der NutzerInnen mit der virtuellen Welt, andererseits aus einer vollständigen Beschlagnahmung all ihrer visuellen und gegebenenfalls auch akustischen Eindrücke.
                 </p>
                 <p>Derzeitige VR Hard- und Software zeigt die Grenzen der Immersion durch VR schnell auf. Während beeindruckende Fortschritte gemacht wurden, bleibt das “Gehirn im Tank” vorerst ein nicht erlebbares Gedankenexperiment. Erlebbar sind hingegen Simulationen, Rekonstruktionen, Demonstrationen in Form von Spielen und dreidimensionale Modelle, die für unterschiedliche Zwecke erstellt wurden. Derzeit werden viele unterschiedliche Anwendungskontexte erprobt und erschlossen. Eine zentrale Frage ist dabei: Welche Inhalte könnten sich noch für eine Virtuelle Darstellung eignen und was passiert, wenn Narration oder Geschichten übertragen werden sollen (vgl. Ryan 2015)?</p>
                 <p>Bemüht man an dieser Stelle erneut den Vergleich zum Film und betrachtet Produktionen des noch jungen Mediums zu Beginn des 20. Jahrhunderts, so finden sich Theaterverfilmungen, die belegen, dass massiv gekürzte Stücke als Stofflieferant herhalten mussten. Kino und Theater, beides Orte der darstellenden Kunst, treten im Zeitalter der technischen Reproduzierbarkeit in Konkurrenz zueinander. Sie grenzen sich dabei im Laufe der Zeit einerseits voneinander ab, können sich aber andererseits auch ergänzen, wie Theaterproduktionen zeigen, in denen Film eingesetzt wird. Der Hintergrund dafür war weniger die inhaltliche Übertragung (Theaterstücke als Stoff für das Kino) als die Tatsache, dass der Film damals, im Gegensatz zum Theater, Handlungen und Menschen in ihrer unmittelbaren, “wirklichen” Umgebung zeigen kann (Lang 2006).</p>
@@ -218,7 +214,11 @@
             </div>
         </body>
         <back>
-            <div type="bibliogr">
+         <div type="notes">
+            <note xml:id="ftn1" n="1" rend="normal"> Visualisierung mit JavaScript”, “Media Transformation I – Theater als Virtual Reality (VR) Erfahrung“ und “Media Transformation II - Social VR and Interactive Storytelling in Virtual Reality”, durchgeführt im Wintersemester 2016 / 2017 und im anschließenden Sommersemester 2017</note>
+            <note xml:id="ftn2" n="2" rend="normal"> Es existiert eine komplexe Beziehung zwischen Immersion und ästhetischen Konzepten unterschiedlicher künstlerischer Arbeiten, auf die in diesem Kontext nicht ausführlicher eingegangen werden kann. </note>
+         </div>
+         <div type="bibliogr">
                 <listBibl>
                     <head>Bibliographie</head>
                     <bibl>Fügen Sie hier die von Ihnen benutzten Quellen ein:</bibl>
@@ -328,6 +328,6 @@
                     </bibl>
                 </listBibl>
             </div>
-        </back>
+      </back>
     </text>
 </TEI>

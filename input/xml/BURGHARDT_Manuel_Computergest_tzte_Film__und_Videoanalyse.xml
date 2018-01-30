@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xml:id="BURGHARDT_Manuel_Computergest_tzte_Film__und_Videoanalyse">
-    <teiHeader>
+   <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Computergestützte Film- und Videoanalyse</title>
@@ -112,17 +112,13 @@
          </settingDesc>
       </profileDesc>
     </teiHeader>
-    <text>
+   <text>
         <body>
             <div type="div1" rend="DH-Heading1">
                 <head>Konzeption und Zielsetzung</head>
                 <p>Das Thema Bild- und Bewegtbildanalyse gewinnt auch in der – bis dato stark auf Text fokussierten – Digital Humanities-Community immer mehr an Bedeutung. Vor diesem Hintergrund wurde Anfang des Jahres eine dedizierte DHd-Arbeitsgruppe „Film und Video“
-                    <note place="foot" xml:id="ftn1" n="1">
-                        <p rend="footnote text"> Mehr Informationen unter http://dig-hum.de/ag-film-und-video</p>
-                    </note> gegründet. Nachdem die AG im Juli 2017 bereits ein erstes Symposium zum Thema „Film rechnen – Computergestützte Methoden in der Filmanalyse“
-                    <note place="foot" xml:id="ftn2" n="2">
-                        <p rend="footnote text"> Mehr Informationen unter https://dhregensburg.wordpress.com/2017/07/03/symposium-film-rechnen-computergestuetzte-methoden-in-der-filmanalyse-2/ </p>
-                    </note> in Regensburg abgehalten hat, soll als nächster Schritt ein entsprechendes Panel auf der DHd 2018 in Köln ausgerichtet werden, um in einem größeren Kreis die Grenzen und Möglichkeiten computergestützter Analyseverfahren für Film und Video zu diskutieren.
+                    <ref target="ftn1" n="1"/> gegründet. Nachdem die AG im Juli 2017 bereits ein erstes Symposium zum Thema „Film rechnen – Computergestützte Methoden in der Filmanalyse“
+                    <ref target="ftn2" n="2"/> in Regensburg abgehalten hat, soll als nächster Schritt ein entsprechendes Panel auf der DHd 2018 in Köln ausgerichtet werden, um in einem größeren Kreis die Grenzen und Möglichkeiten computergestützter Analyseverfahren für Film und Video zu diskutieren.
                 </p>
                 <p>Wesentliche Herausforderungen bei der computergestützten Analyse von Film und Video ergeben sich dabei vor allem durch die komplexe mediale Struktur von Bewegtbildern, die sich in einer Vielzahl technischer Formate und einer enormen Bandbreite von Analyseansätzen und -perspektiven niederschlagen. Anders als bspw. für den Bereich Text, gibt es für die Filmanalyse bislang nur wenige etablierte Verfahren und Softwarelösungen zur Erschließung und Verarbeitung von Film- und Videodaten. Wenngleich etablierte Felder aus der Informatik – wie etwa 
                     <hi rend="italic">computer vision</hi> oder 
@@ -201,7 +197,11 @@
             </div>
         </body>
         <back>
-            <div type="bibliogr">
+         <div type="notes">
+            <note xml:id="ftn1" n="1" rend="footnote text"> Mehr Informationen unter http://dig-hum.de/ag-film-und-video</note>
+            <note xml:id="ftn2" n="2" rend="footnote text"> Mehr Informationen unter https://dhregensburg.wordpress.com/2017/07/03/symposium-film-rechnen-computergestuetzte-methoden-in-der-filmanalyse-2/ </note>
+         </div>
+         <div type="bibliogr">
                 <listBibl>
                     <head>Bibliographie</head>
                     <bibl>
@@ -306,6 +306,6 @@
                     </bibl>
                 </listBibl>
             </div>
-        </back>
+      </back>
     </text>
 </TEI>

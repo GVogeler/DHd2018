@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xml:id="STROBEL_Jochen_Zur_Zukunft_der_Digitalen_Briefedition___koop">
-    <teiHeader>
+   <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Zur Zukunft der Digitalen Briefedition – kooperative Lösungen im kulturwissenschaftlichen Forschungsdatenmanagement </title>
@@ -82,7 +82,7 @@
          </settingDesc>
       </profileDesc>
     </teiHeader>
-    <text>
+   <text>
         <body>
             <p>Ausgehend von thesenförmigen Impulsreferaten (
                 <hi rend="bold">jeweils 10 Min., die PPT-Folien werden nach der Tagung publiziert</hi>) sollen editionstheoretische und -technische Fragen diskutiert werden.
@@ -149,7 +149,7 @@
             <p>In der Schlussdiskussion sollen die Impulsreferate diskutiert und ein Fazit gezogen werden. Dabei sind auch forschungspolitische Schlussfolgerungen zu thematisieren. Editionen und insbesondere Briefeditionen sind in der Regel langfristige Projekte und deshalb vor allem an Akademien angesiedelt. Durch die sich verbreiternde Retrodigitalisierung und verfügbare digitale Werkzeuge können Projektlaufzeiten perspektivisch weiter verkürzt und Projektfortschritte transparent in Forschung und Lehre eingebunden werden. Wie groß ist der Bedarf an digitalen Editionen und wie können sie Teil einer Nationalen Forschungsdateninfrastruktur werden? Welche drängenden Fragen sind zeitnah in weiteren Workshops zu besprechen?</p>
         </body>
         <back>
-            <div type="bibliogr">
+         <div type="bibliogr">
                 <listBibl>
                     <head>Bibliographie</head>
                     <bibl>Roland Kamzelak: Empfehlungen zum Umgang mit Editionen im Digitalen Zeitalter, in editio 26 (2012), S. 202–209.</bibl>
@@ -171,6 +171,6 @@
                     </bibl>
                 </listBibl>
             </div>
-        </back>
+      </back>
     </text>
 </TEI>

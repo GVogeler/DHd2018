@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xml:id="HIEBERT_Matthew_Deutsche_Geschichte_Digital__Ergebnisse_der_">
-    <teiHeader>
+   <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Deutsche Geschichte-Digital: Ergebnisse der TEI-Konvertierung und Integration in Pilotprojekten</title>
@@ -91,7 +91,7 @@
          </settingDesc>
       </profileDesc>
     </teiHeader>
-    <text>
+   <text>
         <body>
             <p>Das Deutsche Historische Institut in Washington (DHI) befindet sich in der Entwicklungsphase von " Deutsche Geschichte-
                 <hi rend="italic">Digital</hi> / German History-
@@ -114,7 +114,7 @@
             </p>
         </body>
         <back>
-            <div type="bibliogr">
+         <div type="bibliogr">
                 <listBibl>
                     <head>Bibliographie</head>
                     <bibl>Cohen, Daniel J., and Roy Rosenzweig (2006): 
@@ -177,6 +177,6 @@
                     </bibl>
                 </listBibl>
             </div>
-        </back>
+      </back>
     </text>
 </TEI>

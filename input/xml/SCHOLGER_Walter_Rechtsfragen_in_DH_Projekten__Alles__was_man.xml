@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xml:id="SCHOLGER_Walter_Rechtsfragen_in_DH_Projekten__Alles__was_man">
-    <teiHeader>
+   <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Rechtsfragen in DH-Projekten: Alles, was man wissen muss</title>
@@ -90,7 +90,7 @@
          </settingDesc>
       </profileDesc>
     </teiHeader>
-    <text>
+   <text>
         <body>
             <p>Mit dem Eintritt der Geisteswissenschaften in den digitalen Raum öffnet sich für Forschende auch ein neuer Rechtsraum mit Anforderungen und Problemstellungen, die uns bislang nicht oder nur marginal betroffen haben. </p>
             <p>Dieser Workshop soll die gängigsten Fragen beantworten, die sich aus unterschiedlichen Rechtsbereichen bei der Realisierung von Digitalisierungsvorhaben und digitalen Forschungsprojekten ergeben. Besonders eingegangen wird auf jüngste Entwicklungen und Neuerungen in den Legislaturen speziell der deutschsprachigen Länder, die für die DH von besonderer Relevanz sind (etwa die 
@@ -178,7 +178,7 @@
             <p>Er ist Mitglied in facheinschlägigen Arbeitsgruppen der Digital Humanities Dachverbände und internationaler Projekte (ADHO, DHd, ICARUS, DARIAH) zu rechtlichen Aspekten, digitalen Publikationen und Lehre im Bereich der Digital Humanities.</p>
         </body>
         <back>
-            <div type="bibliogr">
+         <div type="bibliogr">
                 <listBibl>
                     <head>Bibliographie</head>
                     <bibl>
@@ -246,6 +246,6 @@
                     </bibl>
                 </listBibl>
             </div>
-        </back>
+      </back>
     </text>
 </TEI>

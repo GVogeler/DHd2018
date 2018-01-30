@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xml:id="KRUG_Markus_Annotation_and_beyond___Using_ATHEN">
-    <teiHeader>
+   <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title type="full">
@@ -125,17 +125,13 @@
          </settingDesc>
       </profileDesc>
     </teiHeader>
-    <text>
+   <text>
         <body>
             <div/>
             <div type="div1" rend="DH-Heading1">
                 <head>Goals of the workshop</head>
                 <p>The workshop presents ATHEN
-                    <note place="foot" xml:id="ftn1" n="1">
-                        <p>
-                            <ref target="https://gitlab2.informatik.uni-wuerzburg.de/kallimachos/Athen">https://gitlab2.informatik.uni-wuerzburg.de/kallimachos/Athen</ref>
-                        </p>
-                    </note> (<hi rend="bold">A</hi>nnotation and 
+                    <ref target="ftn1" n="1"/> (<hi rend="bold">A</hi>nnotation and 
                     <hi rend="bold">T</hi>ext 
                     <hi rend="bold">H</hi>ighlighting 
                     <hi rend="bold">En</hi>vironment), an extensible desktop-based annotation environment which supports more than just regular annotation. Besides being a general purpose annotation environment, ATHEN supports indexing and querying support of your data as well as the ability to automatically preprocess your data with Meta information. It is especially suited for those who want to extend existing general purpose annotation tools by implementing their own custom features, which cannot be fulfilled by other available annotation environments. On the according gitlab, we provide online tutorials, which demonstrate the use of specific features of ATHEN.
@@ -174,11 +170,7 @@
                     <hi rend="bold">R</hi>ich-
                     <hi rend="bold">C</hi>lient-
                     <hi rend="bold">P</hi>latform (RCP)
-                    <note place="foot" xml:id="ftn2" n="2">
-                        <p rend="footnote text">A web version of ATHEN with its major features is available at: 
-                            <ref target="https://webathen.informatik.uni-wuerzburg.de">https://webathen.informatik.uni-wuerzburg.de</ref>
-                        </p>
-                    </note>. Internally, it is built around Apache UIMA, which means incoming data is automatically converted into the UIMA specific Common Analysis Subject (CAS) architecture. Working with UIMA allows the integration of standalone analysis engines, which can be used to preprocess data and speed up manual annotation. The use of Apache Lucene enables ATHEN to create an index comprising documents, as well as their annotations, which results in queries that can answer questions based on text and meta information in real time. With the ability to execute Apache UIMA Ruta one can even create queries of far higher complexity. On top of that, ATHEN features OWL-Support, which allows the definition of an ontological annotation schema in a machine- readable format. Using Apache UIMA internally allows ATHEN to even address more complicated input. Currently ATHEN supports the annotation of image regions, based on user defined polygons.
+                    <ref target="ftn2" n="2"/>. Internally, it is built around Apache UIMA, which means incoming data is automatically converted into the UIMA specific Common Analysis Subject (CAS) architecture. Working with UIMA allows the integration of standalone analysis engines, which can be used to preprocess data and speed up manual annotation. The use of Apache Lucene enables ATHEN to create an index comprising documents, as well as their annotations, which results in queries that can answer questions based on text and meta information in real time. With the ability to execute Apache UIMA Ruta one can even create queries of far higher complexity. On top of that, ATHEN features OWL-Support, which allows the definition of an ontological annotation schema in a machine- readable format. Using Apache UIMA internally allows ATHEN to even address more complicated input. Currently ATHEN supports the annotation of image regions, based on user defined polygons.
                 </p>
             </div>
             <div type="div1" rend="DH-Heading1">
@@ -220,7 +212,15 @@
             </div>
         </body>
         <back>
-            <div type="bibliogr">
+         <div type="notes">
+            <note xml:id="ftn1" n="1">
+                            <ref target="https://gitlab2.informatik.uni-wuerzburg.de/kallimachos/Athen">https://gitlab2.informatik.uni-wuerzburg.de/kallimachos/Athen</ref>
+                        </note>
+            <note xml:id="ftn2" n="2" rend="footnote text">A web version of ATHEN with its major features is available at: 
+                            <ref target="https://webathen.informatik.uni-wuerzburg.de">https://webathen.informatik.uni-wuerzburg.de</ref>
+                        </note>
+         </div>
+         <div type="bibliogr">
                 <listBibl>
                     <head>Bibliographie</head>
                     <bibl>
@@ -267,6 +267,6 @@
                     </bibl>
                 </listBibl>
             </div>
-        </back>
+      </back>
     </text>
 </TEI>

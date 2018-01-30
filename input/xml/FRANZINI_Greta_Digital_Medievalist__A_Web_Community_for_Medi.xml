@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xml:id="FRANZINI_Greta_Digital_Medievalist__A_Web_Community_for_Medi">
-    <teiHeader>
+   <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Digital Medievalist: A Web Community for Medievalists working with Digital Media</title>
@@ -87,21 +87,12 @@
          </settingDesc>
       </profileDesc>
     </teiHeader>
-    <text>
+   <text>
         <body>
             <p>
                 <hi rend="italic">Digital Medievalist </hi>is an international web community for medievalists working with digital media. Established in 2003 by a group of volunteers
-                <note place="foot" xml:id="ftn1" n="1">
-                    <p rend="footnote text"> Daniel Paul O'Donnell, Peter Baker, James Cummings, Martin Foys, Murray McGillivray, Dot Porter, Roberto Rosselli Del Turco, and Elizabeth Solopova. 
-                        <hi rend="italic">Digital Medievalist</hi>
-                        <hi rend="color(333333)">was founded with direct financial support from the Faculty of Arts and Science at the University of Lethbridge, the Curriculum Redevelopment Centre (now the Teaching Centre) at the University of Lethbridge, the</hi>
-                        <hi rend="italic color(333333)">Image, Text, Sound, and Technology (ITST)</hi>
-                        <hi rend="color(333333)">programme of the Social Sciences and Humanities Research Council of Canada (SSHRC).</hi>
-                    </p>
-                </note> and before the arrival of Facebook and Twitter
-                <note place="foot" xml:id="ftn2" n="2">
-                    <p rend="footnote text"> Facebook was founded in 2004 and Twitter in 2006.</p>
-                </note>, the goal of 
+                <ref target="ftn1" n="1"/> and before the arrival of Facebook and Twitter
+                <ref target="ftn2" n="2"/>, the goal of 
                 <hi rend="italic">Digital Medievalist</hi> would also become that of the popular social networks: to connect people around the world providing them with an exchange platform. But where Facebook and Twitter were driven by relationships, 
                 <hi rend="italic">Digital Medievalist</hi> was driven by interest. 
             </p>
@@ -110,12 +101,7 @@
                 <hi rend="italic">Digital Medievalist</hi> started an homonymous open access scholarly journal, which is still active today, and commissioned the publication of short tutorials on its website to guide interested scholars through the basics of text encoding, web development and manuscript digitisation, to mention but a few. The benefits brought by 
                 <hi rend="italic">Digital Medievalist</hi> became so evident that other, similar web communities began to emerge, such as the 
                 <hi rend="italic">Digital Classicist</hi>
-                <note place="foot" xml:id="ftn3" n="3">
-                    <p rend="footnote text"> For a discussion on the relationship between 
-                        <hi rend="italic">Digital Medievalist</hi> and 
-                        <hi rend="italic">Digital Classicist</hi>, see Bodard and O’Donnell (2008).
-                    </p>
-                </note> (Mahony, 2017) and 
+                <ref target="ftn3" n="3"/> (Mahony, 2017) and 
                 <hi rend="italic">Digital Victorianist</hi>.
             </p>
             <p>Over time, and as new technologies rapidly developed, 
@@ -158,7 +144,20 @@
             <p>The poster will outline the aforementioned activities and will serve as a conversation starter to establish connections with relevant initiatives, start reflection on the role of this and similar activities, collect feedback and continue fostering as wide a geographical coverage as possible. </p>
         </body>
         <back>
-            <div type="bibliogr">
+         <div type="notes">
+            <note xml:id="ftn1" n="1" rend="footnote text"> Daniel Paul O'Donnell, Peter Baker, James Cummings, Martin Foys, Murray McGillivray, Dot Porter, Roberto Rosselli Del Turco, and Elizabeth Solopova. 
+                        <hi rend="italic">Digital Medievalist</hi>
+                        <hi rend="color(333333)">was founded with direct financial support from the Faculty of Arts and Science at the University of Lethbridge, the Curriculum Redevelopment Centre (now the Teaching Centre) at the University of Lethbridge, the</hi>
+                        <hi rend="italic color(333333)">Image, Text, Sound, and Technology (ITST)</hi>
+                        <hi rend="color(333333)">programme of the Social Sciences and Humanities Research Council of Canada (SSHRC).</hi>
+                    </note>
+            <note xml:id="ftn2" n="2" rend="footnote text"> Facebook was founded in 2004 and Twitter in 2006.</note>
+            <note xml:id="ftn3" n="3" rend="footnote text"> For a discussion on the relationship between 
+                        <hi rend="italic">Digital Medievalist</hi> and 
+                        <hi rend="italic">Digital Classicist</hi>, see Bodard and O’Donnell (2008).
+                    </note>
+         </div>
+         <div type="bibliogr">
                 <listBibl>
                     <head>Bibliography</head>
                     <bibl>Bodard, G., O’Donnell, D. (2008) ‘We are all together: On publishing a Digital Classicist issue of the Digital Medievalist journal’, 
@@ -183,6 +182,6 @@
                     </bibl>
                 </listBibl>
             </div>
-        </back>
+      </back>
     </text>
 </TEI>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xml:id="HOFFMANN_Christoph_Science_as_a_Service_">
-    <teiHeader>
+   <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title type="full">
@@ -72,7 +72,7 @@
          </settingDesc>
       </profileDesc>
     </teiHeader>
-    <text>
+   <text>
         <body>
             <p>Einer der am weitesten verbreiteten Ansprüche von Digital Humanities Projekten und Forschungsvorhaben ist jener, nachhaltig nutzbare Daten und Services zu produzieren bzw. zu hinterlassen. Neben archivierbaren Datenformaten und quelloffener Software ist die Einrichtung von REST – APIs eine vielgenutzte Möglichkeit, erstellte Services in anderen Projekten nutzbar zu machen. [1] Der Vorteil solcher Schnittstellen liegt darin, dass die ihnen zugrunde liegenden Technologie (im wesentlichen HTTP) in so gut wie allen Plattformen und Programmiersprachen bereits implementiert ist. So sind sowohl Services als auch Daten welche über eine sauber definierte REST – Schnittstelle zugänglich sind, relativ einfach in einer Vielzahl anderer Projekte zu integrieren. In vielen Bereichen der Software – Entwicklung hat dieser Vorteil dazu geführt dass Service orientierte Softwarearchitektur und ein „API first approach“ immer populärer geworden sind.</p>
             <p>Auch das Austrian Center for Digital Humanities an der Österreichischen Akademie der Wissenschaften hat es sich für die kommenden zwei Jahre zu einer Aufgabe gemacht, die in den vergangenen drei Jahren in einer Vielzahl von Projekten entstandenen Daten und Services in standardisierten REST – Schnittstellen verfügbar zu machen bzw. bereits entstandene Schnittstellen entsprechend aufzubereiten und zu dokumentieren. Hierzu sollen zunächst wiederkehrende, generisch abbildbare Aufgaben in den Workflows identifiziert werden, sodann die Ihnen korrespondierenden, bereits bestehenden, Services für eine Verwendung außerhalb des Projektkontextes abgeändert werden.</p>
@@ -81,7 +81,7 @@
             <p>Das Poster soll zum einen den Katalog und die Sandbox als Tools präsentieren, zum anderen erste Ergebnisse der Standardisierung von APIs zur Diskussion stellen. Eine Debatte zu den oben genannten Fragen soll dem Vorhaben eine noch breitere Grundlage bei der Erstellung des White Papers geben.</p>
         </body>
         <back>
-            <div type="bibliogr">
+         <div type="bibliogr">
                 <listBibl>
                     <head>Bibliographie</head>
                     <bibl>[1] 
@@ -95,6 +95,6 @@
                     </bibl>
                 </listBibl>
             </div>
-        </back>
+      </back>
     </text>
 </TEI>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xml:id="STEINER_Elisabeth_Virtuelle_Ausstellungen_und_Rundg_nge__dig">
-    <teiHeader>
+   <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Virtuelle Ausstellungen und Rundgänge: digitalisiertes Kulturerbe vermitteln und präsentieren</title>
@@ -71,49 +71,23 @@
          </settingDesc>
       </profileDesc>
     </teiHeader>
-    <text>
+   <text>
         <body>
             <div type="div1" rend="DH-Heading1">
                 <head>Ausgangslage</head>
                 <p>Virtuelle Rundgänge, virtuelle Ausstellungen oder virtuelle Touren: Die Begriffe bezeichnen oft ähnliche Vorgehensweisen. Zusätzlich zu strukturierten Suchzugängen werden sie auf den unterschiedlichsten Portalen für digitalisiertes Kulturerbe in der Regel als Ergänzung angeboten. Dazu gehören prominente Beispiele wie die Europeana
-                    <note place="foot" xml:id="ftn1" n="1">
-                        <p rend="footnote text">
-                            <ref target="http://www.europeana.eu/portal/en/exhibitions/foyer">http://www.europeana.eu/portal/en/exhibitions/foyer</ref> (2017-08-09)
-                        </p>
-                    </note>, die Deutsche Digitale Bibliothek
-                    <note place="foot" xml:id="ftn2" n="2">
-                        <p rend="footnote text">
-                            <ref target="https://www.deutsche-digitale-bibliothek.de/content/ausstellungen">https://www.deutsche-digitale-bibliothek.de/content/ausstellungen</ref> (2017-08-09)
-                        </p>
-                    </note> oder zahlreiche Regionalportale im deutschsprachigen Raum (stellvertretend sei Bavarikon
-                    <note place="foot" xml:id="ftn3" n="3">
-                        <p rend="footnote text">
-                            <ref target="https://www.bavarikon.de/topics">https://www.bavarikon.de/topics</ref> (2017-08-09)
-                        </p>
-                    </note> oder Kulturerbe Niedersachsen
-                    <note place="foot" xml:id="ftn4" n="4">
-                        <p rend="footnote text">
-                            <ref target="http://kulturerbe.niedersachsen.de/viewer/kontexte/">http://kulturerbe.niedersachsen.de/viewer/kontexte/</ref> (2017-08-09)
-                        </p>
-                    </note> genannt). Doch auch kommerziellen Anbietern ist das Konzept nicht fremd, wie Google zeigt.
-                    <note place="foot" xml:id="ftn5" n="5">
-                        <p rend="footnote text"> https://www.google.com/culturalinstitute (2017-08-17)</p>
-                    </note> Am häufigsten wird die Bezeichnung (Virtuelle/Digitale) Ausstellung ((
+                    <ref target="ftn1" n="1"/>, die Deutsche Digitale Bibliothek
+                    <ref target="ftn2" n="2"/> oder zahlreiche Regionalportale im deutschsprachigen Raum (stellvertretend sei Bavarikon
+                    <ref target="ftn3" n="3"/> oder Kulturerbe Niedersachsen
+                    <ref target="ftn4" n="4"/> genannt). Doch auch kommerziellen Anbietern ist das Konzept nicht fremd, wie Google zeigt.
+                    <ref target="ftn5" n="5"/> Am häufigsten wird die Bezeichnung (Virtuelle/Digitale) Ausstellung ((
                     <hi rend="italic">virtual/digital) exhibition</hi>) verwendet.
                 </p>
                 <p>Unabhängig von der Begrifflichkeit teilen sich die Umsetzungen meist folgende Merkmale (vgl. auch INDICATE 2012, 17):</p>
                 <list type="unordered">
                     <item>es handelt sich um Sammlungen von Informationen und Quellen/Objekten zu einem bestimmten Thema, einer Periode oder einer Person (oft auch anlassbezogen zu Jubiläen, z.B. Reformation
-                        <note place="foot" xml:id="ftn6" n="6">
-                            <p rend="footnote text">
-                                <ref target="https://bavarikon.de/object/bav:BSB-CMS-0000000000001151">https://bavarikon.de/object/bav:BSB-CMS-0000000000001151</ref> (2017-08-09)
-                            </p>
-                        </note>, Weltkrieg
-                        <note place="foot" xml:id="ftn7" n="7">
-                            <p rend="footnote text">
-                                <ref target="http://wk1.staatsarchiv.at/">http://wk1.staatsarchiv.at/</ref> (2017-08-09)
-                            </p>
-                        </note>, etc.)
+                        <ref target="ftn6" n="6"/>, Weltkrieg
+                        <ref target="ftn7" n="7"/>, etc.)
                     </item>
                     <item>die Quellen werden von Fachleuten kontextualisiert und beschrieben</item>
                     <item>verschiedene Inhalte (Text, Bild, Audio, Video) werden miteinander verbunden</item>
@@ -121,11 +95,7 @@
                     <item>meist gibt es einen vorgegebenen (zumindest bevorzugten) Ablauf der Informationen</item>
                 </list>
                 <p>So vielfältig wie die möglichen Themen der Rundgänge sind die technischen Umsetzungen und Visualisierungen. Zahlreiche Werkzeuge sind für die Erstellung und Darstellung von Virtuellen Ausstellungen verfügbar.
-                    <note place="foot" xml:id="ftn8" n="8">
-                        <p rend="footnote text"> Siehe bspw. 
-                            <ref target="http://oedb.org/ilibrarian/5-free-and-open-source-tools-for-creating-digital-exhibitions/">http://oedb.org/ilibrarian/5-free-and-open-source-tools-for-creating-digital-exhibitions/</ref> (2017-08-09)
-                        </p>
-                    </note> Bei der Auswahl des Werkzeuges sind die gewünschte Funktionalität, Kompatibilität mit bestehender Infrastruktur, Unabhängigkeit von äußeren Quellen wie auch eine möglichst geringe Einarbeitungszeit wichtige Kriterien. Eine Wahrung der Prinzipien der Digital Humanities (vor allem mit Hinblick auf open source Software) ist ebenso wünschenswert.
+                    <ref target="ftn8" n="8"/> Bei der Auswahl des Werkzeuges sind die gewünschte Funktionalität, Kompatibilität mit bestehender Infrastruktur, Unabhängigkeit von äußeren Quellen wie auch eine möglichst geringe Einarbeitungszeit wichtige Kriterien. Eine Wahrung der Prinzipien der Digital Humanities (vor allem mit Hinblick auf open source Software) ist ebenso wünschenswert.
                 </p>
                 <p>Ein Vorbildprojekt ist AthenaPlus, das nicht nur theoretische und methodische Vorarbeit im Bereich Virtuelle Ausstellungen geleistet hat, sondern mit Movio auch ein open source Tool entwickelt hat.</p>
             </div>
@@ -145,7 +115,31 @@
             </div>
         </body>
         <back>
-            <div type="bibliogr">
+         <div type="notes">
+            <note xml:id="ftn1" n="1" rend="footnote text">
+                            <ref target="http://www.europeana.eu/portal/en/exhibitions/foyer">http://www.europeana.eu/portal/en/exhibitions/foyer</ref> (2017-08-09)
+                        </note>
+            <note xml:id="ftn2" n="2" rend="footnote text">
+                            <ref target="https://www.deutsche-digitale-bibliothek.de/content/ausstellungen">https://www.deutsche-digitale-bibliothek.de/content/ausstellungen</ref> (2017-08-09)
+                        </note>
+            <note xml:id="ftn3" n="3" rend="footnote text">
+                            <ref target="https://www.bavarikon.de/topics">https://www.bavarikon.de/topics</ref> (2017-08-09)
+                        </note>
+            <note xml:id="ftn4" n="4" rend="footnote text">
+                            <ref target="http://kulturerbe.niedersachsen.de/viewer/kontexte/">http://kulturerbe.niedersachsen.de/viewer/kontexte/</ref> (2017-08-09)
+                        </note>
+            <note xml:id="ftn5" n="5" rend="footnote text"> https://www.google.com/culturalinstitute (2017-08-17)</note>
+            <note xml:id="ftn6" n="6" rend="footnote text">
+                                <ref target="https://bavarikon.de/object/bav:BSB-CMS-0000000000001151">https://bavarikon.de/object/bav:BSB-CMS-0000000000001151</ref> (2017-08-09)
+                            </note>
+            <note xml:id="ftn7" n="7" rend="footnote text">
+                                <ref target="http://wk1.staatsarchiv.at/">http://wk1.staatsarchiv.at/</ref> (2017-08-09)
+                            </note>
+            <note xml:id="ftn8" n="8" rend="footnote text"> Siehe bspw. 
+                            <ref target="http://oedb.org/ilibrarian/5-free-and-open-source-tools-for-creating-digital-exhibitions/">http://oedb.org/ilibrarian/5-free-and-open-source-tools-for-creating-digital-exhibitions/</ref> (2017-08-09)
+                        </note>
+         </div>
+         <div type="bibliogr">
                 <listBibl>
                     <head>Bibliographie</head>
                     <bibl>AthenaPlus (2015): Digital storytelling and cultural heritage: stakes and opportunities. 
@@ -174,6 +168,6 @@
                     </bibl>
                 </listBibl>
             </div>
-        </back>
+      </back>
     </text>
 </TEI>

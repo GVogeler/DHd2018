@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xml:id="GIUS_Evelyn_hermA__Zur_Rolle_von_Annotationen_in_hermeneutis">
-    <teiHeader>
+   <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>hermA. Zur Rolle von Annotationen in hermeneutischen Prozessen</title>
@@ -154,7 +154,7 @@
          </settingDesc>
       </profileDesc>
     </teiHeader>
-    <text>
+   <text>
         <body>
             <div type="div1" rend="DH-Heading1">
                 <head>Das Projekt hermA</head>
@@ -206,7 +206,7 @@
             </div>
         </body>
         <back>
-            <div type="bibliogr">
+         <div type="bibliogr">
                 <listBibl>
                     <head>Bibliographie</head>
                     <bibl>Chilese, Vivian, und Heinz-Peter Preußer (Hrsg.). 2013. 
@@ -244,6 +244,6 @@
                     </bibl>
                 </listBibl>
             </div>
-        </back>
+      </back>
     </text>
 </TEI>

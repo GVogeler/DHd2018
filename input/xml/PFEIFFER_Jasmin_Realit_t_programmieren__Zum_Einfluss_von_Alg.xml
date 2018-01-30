@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xml:id="PFEIFFER_Jasmin_Realit_t_programmieren__Zum_Einfluss_von_Alg">
-    <teiHeader>
+   <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title type="full">
@@ -76,7 +76,7 @@
          </settingDesc>
       </profileDesc>
     </teiHeader>
-    <text>
+   <text>
         <body>
             <p>Im Mai erregte ein Artikel der Bloggerin Lisa Ringen Aufsehen, der auf die Benachteiligung weiblicher Personen durch den Suchalgorithmus des Netzwerks Xing hinwies: Gibt ein potentieller Auftraggeber bei seiner Suche nach Freiberuflern nicht explizit die weibliche Form der entsprechenden Berufsbezeichnung ein, so werden ihm ausschließlich Profile von Männern in der Ergebnisliste angezeigt. Möchte man eine Freiberuflerin finden, so muss man etwa nach einer „Fotografin“ oder einer „Entwicklerin“ suchen – eine Idee, auf die vermutlich die wenigsten User kommen werden. Wie Ringen richtig schreibt, werden Frauen hierdurch nicht nur benachteiligt, sondern es entsteht auch „der unterschwellige Eindruck, Männer seien die erfolgreicheren, kompetenteren Fotografie-, Beratungs- und Grafik-Spezialisten“ (Ringen 2017). Bezeichnend ist das Statement des Xing-Sprechers Kopka, der, wie die SZ berichtete, betonte, dass ihm das Problem nicht bewusst gewesen sei (Holzki 2017).</p>
             <p>Die Affäre um Xing legt ein Problem offen, das bisher noch unzureichend erforscht und thematisiert worden ist: Computerprogramme stellen keine neutralen mathematischen Gebilde dar, sondern sind, wie Lemire betont, zu wirkungsmächtigen Agenten im sozialen Raum geworden, die die uns umgebende Wirklichkeit beeinflussen und verändern können: „In any case, we have to accept software as an active agent that helps shape our views and our consumption rather than a mere passive tool.“ (Lemire 2016) Die Annäherung der Informationswissenschaften an die Disziplinen der Mathematik und der Naturwissenschaften, die u. a. im Begriff der MINT-Fächer evident wird, hat den Blick auf diese Formen der Einflussnahme verstellt – Tech-Größen wie Mark Zuckerberg und Alexander Nix preisen die angebliche Vorurteilslosigkeit und Neutralität der Algorithmen, und Unternehmen verkaufen die von ihnen entwickelten Computerprogramme als Meilensteine auf dem Weg zu einer neuen Objektivität der durch sie übernommenen Prozesse (vgl. Maschewski / Nosthoff 2017). Auch die Klassifikation von Programmiersprachen als formale Sprachen, die im Vergleich zu natürlichen Sprachen als präziser und eindeutiger betrachtet werden, verstärkt diesen Eindruck. </p>
@@ -106,7 +106,7 @@
             </p>
         </body>
         <back>
-            <div type="bibliogr">
+         <div type="bibliogr">
                 <listBibl>
                     <head>Bibliographie</head>
                     <bibl>
@@ -183,6 +183,6 @@
                     </bibl>
                 </listBibl>
             </div>
-        </back>
+      </back>
     </text>
 </TEI>

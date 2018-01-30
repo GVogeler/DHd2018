@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xml:id="FRIEDRICHS_Kristina_Digitale_Bildrepositorien___wirkliche_Ar">
-    <teiHeader>
+   <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Digitale Bildrepositorien – wirkliche Arbeitserleichterung oder zeitraubend?</title>
@@ -114,7 +114,7 @@
          </settingDesc>
       </profileDesc>
     </teiHeader>
-    <text>
+   <text>
         <body>
             <div>
                 <p>Diese Erfahrung teilen sicher viele: Bei der Suche nach einer bestimmten Abbildung, zum Beispiel nach einem Foto eines Gebäudes, konsultiert man verschiedene Online-Plattformen, doch entweder werden gar keine Treffer ausgegeben oder aber man erhält eine unüberschaubare Flut an Ergebnissen, die leider oftmals nicht relevant für das eigene Suchanliegen sind. So kann die gewünschte Arbeitserleichterung durch digitale Mittel leider fast schon hinderlich wirken.</p>
@@ -154,12 +154,16 @@
             <div type="div1" rend="DH-Heading1">
                 <head>Infos</head>
                 <p>Max. 30 Teilnehmer</p>
-                <p><hi rend="bold">Bitte bringen Sie Ihre eigenen Laptops oder Tablets</hi></p>
-                <p><hi rend="bold">mit, möglichst mit Login in eduroam.</hi></p>
+                <p>
+               <hi rend="bold">Bitte bringen Sie Ihre eigenen Laptops oder Tablets</hi>
+            </p>
+                <p>
+               <hi rend="bold">mit, möglichst mit Login in eduroam.</hi>
+            </p>
             </div>
         </body>
         <back>
-            <div type="bibliogr">
+         <div type="bibliogr">
                 <listBibl>
                     <head>Bibliographie</head>
                     <bibl rend="Citavi Bibliography Entry">
@@ -217,6 +221,6 @@
                     </bibl>
                 </listBibl>
             </div>
-        </back>
+      </back>
     </text>
 </TEI>

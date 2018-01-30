@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xml:id="NASAREK_Robert_Die_Ontologie_historischer_deutschprachiger_B">
-    <teiHeader>
+   <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title type="full">
@@ -85,7 +85,7 @@
          </settingDesc>
       </profileDesc>
     </teiHeader>
-    <text>
+   <text>
         <body>
             <p>Forschungsstand:</p>
             <p>Berufsbezeichnungen sind eine der häufigsten Angaben von individualspezifischen Quellen. Besonders in den Sozial- und Politikwissenschaften, den Geisteswissenschaften und einigen naturwissenschaftlichen Disziplinen (Sozialtopografie, Medizin, Arbeitsmedizin, Epidemiologie etc.) bieten Berufsbezeichnungen einen wichtigen Bezugspunkt sozialstruktureller Analysen. Dazu kommen verschiedene Formen von Berufsklassifikationen zum Einsatz. Während für die Berufswelten des 20./21. Jahrhunderts verschiedene normierte Klassifikationsmodelle als Standard sowohl auf nationaler wie internationaler Ebene existieren, kann die interdisziplinäre Forschung für deutschsprachige, historische Berufe nicht auf ein solches Normsystem zurückgreifen. Insgesamt gibt es bisher keinen gültigen Standard. Zu den renommiertesten und qualitativ hochwertigsten historischen Klassifikationsmodellen gehören bisher die Historical International Standard Classification of Occupations (HISCO) (van Leeuwen et al. 2002), das PST-System der Cambridge Group um Wrigley und Davies (Wrigley 2010). Sie zeichnen sich durch eine theoretisch nachvollziehbare Konzeption der Tätigkeit aus, beinhalten bisher aber kaum deutschsprachige Berufsnamen. Berufsklassifikationssysteme wie zu Altona 1803 (Brandenburg et al.1991) und das Berufsklassifikationsmodell zur Analyse von Bürgerlichkeit von Schüren und Hettling (Schüren 1989, Hettling 1999) liefern Ansätze für deutschsprachige Berufe. Daneben existieren etliche andere, im Zuge der Städteforschung entstandene Systeme, die jedoch eher als Teilaspekt einer Arbeit entstanden sind (bspw. François 1982; Kill 2001; Rödel 1985; Sachse 1987). </p>
@@ -158,7 +158,7 @@
             <p>Hierbei wird über die Vermeidung von epistemischen Fallstricken durch informationstechnische Automatisierung reflektiert und die Effizienzsteigerung digitaler Werkzeuge kritisch betrachtet, aber auch über die neuen Möglichkeiten zur Bewältigung von Big Data und dem dazugehörigen Erkenntnisgewinn referiert.</p>
         </body>
         <back>
-            <div type="bibliogr">
+         <div type="bibliogr">
                 <listBibl>
                     <head>Bibliographie</head>
                     <bibl>
@@ -317,6 +317,6 @@
                     </bibl>
                 </listBibl>
             </div>
-        </back>
+      </back>
     </text>
 </TEI>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xml:id="STADLER_Peter__Storied_Collections___Ein_kritischer_Blick_au">
-    <teiHeader>
+   <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title type="full">
@@ -100,7 +100,7 @@
          </settingDesc>
       </profileDesc>
     </teiHeader>
-    <text>
+   <text>
         <body>
             <p>Der Aufbau von digitalen (Musik)-Editionen und den entsprechenden Online-Publikationen hat sich im wissenschaftlichen Umfeld etabliert und damit Fakten und Muster geschaffen, die nicht notwendigerweise mit den zeitlich parallel entwickelten Theorien kongruent gehen. Das mag zum einen daran liegen, dass die zeitgenössische Theoriebildung selbst nicht einheitlich ist – man vergleiche nur die Idee einer „sozialen Edition“ (Siemens 2011) mit der Debatte um „documentary editing“ (Robinson 2013; Gabler 2010; Pierazzo 2011) oder mit einem „multiplen Textbegriff“ als Grundlage der Edition (Sahle 2013) – zum anderen aber auch an den ganz praktischen Rahmenbedingungen der allermeist als drittmittelgeförderten, zeitlich begrenzten Projekte. </p>
             <p>Es gilt daher, kritisch rückzublicken und zu reflektieren, in welcher Weise die Art der digitalen Erschließung die Erkenntnismöglichkeiten des Nutzers steuert, und ob sich die mit solchen Webpublikationen häufig verbundenen Ideen von „Offenheit“, „Erweiterbarkeit“, „Vernetzung“ und „Nutzerbeteiligung“ in der täglichen Arbeit der Projekte überhaupt realisieren lassen – oder ob diese Ideen nicht sogar teilweise auf zu sehr simplifizierten Voraussetzungen beruhen? </p>
@@ -138,9 +138,7 @@
                 <head>Hoftheater-Projekt</head>
                 <p>Das sog. Hoftheater-Projekt („Entwicklung eines MEI- und TEI-basierten Modells kontextueller Tiefenerschließung von Musikalienbeständen am Beispiel des Detmolder Hoftheaters im 19. Jahrhundert (1825–1875)“) stellt einerseits in traditioneller Weise Informationen zu sehr heterogenen Beständen bereit und verknüpft diese andererseits untereinander in einer Form, die erst durch digitale Mittel möglich ist. D. h. neben der Präsentation von Digitalisaten, Metadaten, Incipits und Textübertragungen, werden die einzelnen Objekte durch die Auszeichnung nicht nur mit Elementen, sondern mit key-Attributen (und wenn möglich mit Normdaten) für Personen, Werke und Rollen miteinander in Verbindung gesetzt.</p>
                 <p>Es entsteht so ein Informationsnetz
-                    <note xml:id="ftn0" place="foot" n="1"> Siehe das Modell auf der Website: 
-                        <ptr target="http://hoftheater-detmold.de/?page_id=1095"/>.
-                    </note>, das unterschiedliche Forschungsinteressen zulässt. Neben den „traditionellen“ Informationen zu den Quellen können Angaben zur Organisation des Theaterbetriebs, zur finanziellen Situation einzelner Personen, zur Theatersituation in den verschiedenen Spielorten etc. abgefragt werden. Die Daten können aber auch Basis soziologischer/historischer Studien werden, indem z. B. die Gehälter am Theater mit denen anderer Berufsgruppen in Beziehung gesetzt werden.
+                    <ref target="ftn0" n="1"/>, das unterschiedliche Forschungsinteressen zulässt. Neben den „traditionellen“ Informationen zu den Quellen können Angaben zur Organisation des Theaterbetriebs, zur finanziellen Situation einzelner Personen, zur Theatersituation in den verschiedenen Spielorten etc. abgefragt werden. Die Daten können aber auch Basis soziologischer/historischer Studien werden, indem z. B. die Gehälter am Theater mit denen anderer Berufsgruppen in Beziehung gesetzt werden.
                 </p>
                 <p>Es ergeben sich u. a. folgende Fragen für einen kritischen Umgang mit diesen Daten:</p>
                 <list type="unordered">
@@ -173,7 +171,12 @@
             </div>
         </body>
         <back>
-            <div type="bibliogr">
+         <div type="notes">
+            <note xml:id="ftn0" n="1" place="foot"> Siehe das Modell auf der Website: 
+                        <ptr target="http://hoftheater-detmold.de/?page_id=1095"/>.
+                    </note>
+         </div>
+         <div type="bibliogr">
                 <listBibl>
                     <head>Bibliographie</head>
                     <bibl>
@@ -206,6 +209,6 @@
                     </bibl>
                 </listBibl>
             </div>
-        </back>
+      </back>
     </text>
 </TEI>

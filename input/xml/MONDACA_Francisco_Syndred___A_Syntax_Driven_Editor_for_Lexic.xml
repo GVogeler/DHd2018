@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xml:id="MONDACA_Francisco_Syndred___A_Syntax_Driven_Editor_for_Lexic">
-    <teiHeader>
+   <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Syndred - A Syntax-Driven Editor for Lexical Resources</title>
@@ -96,19 +96,13 @@
          </settingDesc>
       </profileDesc>
     </teiHeader>
-    <text>
+   <text>
         <body>
             <p>Kontinuierlich steigt die Menge der erzeugten und prozessierten Information und damit der Bedarf an technologisch assistierter bishin zu autonomer Datenverarbeitung. Textuell repräsentierte Inhalte mittels strukturgebender Methoden aufzubereiten ist meist aufwendiger als deren Erzeugung, insofern gewinnt automatische Textprozessierung zunehmend an Bedeutung (Bernstein et al.: 2016).</p>
             <p> </p>
             <p>Mithilfe der formalen Grammatiken RBNF (Rich Backus-Naur Form)
-                <note place="foot" xml:id="ftn1" n="1">
-                    <p> RBNF ist eine EBNF (Extended Backus-Naus Form) Erweiterung um Rich-Text Auszeichnungen.</p>
-                </note> und ABNF (Augmented Backus-Naus Form) können Produktionssysteme im Sinne domänenspezifischer, formaler Sprachen (engl. Domain-Specific Languages) modelliert und auf textuelle Daten angewandt werden: Syndred
-                <note place="foot" xml:id="ftn2" n="2">
-                    <p rend="footnote text">
-                        <hi rend="underline color(386EFF)">https://github.com/spinfo/syndred</hi>
-                    </p>
-                </note> nutzt als Parser konkretisierte Grammatiken zur Abbildung von Texten auf Strukturbäume (engl. Parse Trees), die in vielfältiger Form (z. B. als TEI-Dokumente) persistiert, mittels Treewalkern (Parr 2013: 17ff) für weitere Prozessierung transformiert oder beispielhaft zur Überprüfung formaler Korrektheit unter Berücksichtigung von Merkmalen wie bspw. Schriftgröße, -stil und -farbe eingesetzt werden.
+                <ref target="ftn1" n="1"/> und ABNF (Augmented Backus-Naus Form) können Produktionssysteme im Sinne domänenspezifischer, formaler Sprachen (engl. Domain-Specific Languages) modelliert und auf textuelle Daten angewandt werden: Syndred
+                <ref target="ftn2" n="2"/> nutzt als Parser konkretisierte Grammatiken zur Abbildung von Texten auf Strukturbäume (engl. Parse Trees), die in vielfältiger Form (z. B. als TEI-Dokumente) persistiert, mittels Treewalkern (Parr 2013: 17ff) für weitere Prozessierung transformiert oder beispielhaft zur Überprüfung formaler Korrektheit unter Berücksichtigung von Merkmalen wie bspw. Schriftgröße, -stil und -farbe eingesetzt werden.
             </p>
             <p> </p>
             <p>Wegweisend für die Entwicklung des hier beschriebenen Systems sind die Arbeiten von Wirth und Gutknecht (Gutknecht 1985 bzw. Wirth / Gutknecht 1992: 78ff). Entgegen der Funktionsweise eines Compilers jedoch, der die Analyse des zu übersetzenden Programms meist direkt in Programmcode vornimmt, definiert Syndred textuelle Strukturen anhand domänenspezifischer Grammatiken und bildet sie auf Syntaxgraphen ab.</p>
@@ -118,27 +112,30 @@
             <p>Syndred wartet mit einem Split-View Design auf, welches einerseits das Erstellen und Bearbeiten von Grammatiken und andererseits syntaxkontrolliertes Editieren textueller Inhalte in direkten, visueller Bezug zueinander bringt. Kernkompetenzen der Benutzerschnittstelle sind die Herleitungen von Grammatiken aus textuellen Bestandsdaten oder Rückmeldungen formaler Produktionsregeln zu textuellen Inhalten.</p>
             <p> </p>
             <p>Dezentrales Arbeiten erfordert eine netzwerkbasierte Architektur, idealerweise eine Web-Applikation mit clientseitigem Editor und serverseitigem Parser; Syndred nutzt das auf ReactJS
-                <note place="foot" xml:id="ftn3" n="3">
-                    <p rend="footnote text">
-                        <hi rend="underline color(386EFF)">https://facebook.github.io/react</hi>
-                    </p>
-                </note> basierende Editor-Framework DraftJS
-                <note place="foot" xml:id="ftn4" n="4">
-                    <p rend="footnote text">
-                        <hi rend="underline color(386EFF)">https://draftjs.org</hi>
-                    </p>
-                </note> und kommuniziert im JSON-Format über WebSockets mit einer zentralen, auf Basis des Spring-Frameworks
-                <note place="foot" xml:id="ftn5" n="5">
-                    <p rend="footnote text">
-                        <hi rend="underline color(386EFF)">https://projects.spring.io/spring-framework</hi>
-                    </p>
-                </note> implementierten Java-Applikation. Neben dem Vorteil der Plattformunabhängigkeit ermöglichen die eingesetzten Web-Technologien die zentralisierung der Hardwareleistung wie auch des Speicherbedarfs und sichern gegen Datenverlust ab. Auch garantiert die Bidirektionalität der Client-Server-Verbindung die Kohärenz und Persistenz der kollaborativen Instanzen. Zeitnahe Verfügbarkeit aller für die kollaborative Arbeit mit Syndred notwendigen Ressourcen wird durch einen serverseitigen Cached Thread Pool sichergestellt; aktiven Instanzen wird bei Bedarf ein Parser-Threads zur Verfügung gestellt, der nach Verwendung beendet wird.
+                <ref target="ftn3" n="3"/> basierende Editor-Framework DraftJS
+                <ref target="ftn4" n="4"/> und kommuniziert im JSON-Format über WebSockets mit einer zentralen, auf Basis des Spring-Frameworks
+                <ref target="ftn5" n="5"/> implementierten Java-Applikation. Neben dem Vorteil der Plattformunabhängigkeit ermöglichen die eingesetzten Web-Technologien die zentralisierung der Hardwareleistung wie auch des Speicherbedarfs und sichern gegen Datenverlust ab. Auch garantiert die Bidirektionalität der Client-Server-Verbindung die Kohärenz und Persistenz der kollaborativen Instanzen. Zeitnahe Verfügbarkeit aller für die kollaborative Arbeit mit Syndred notwendigen Ressourcen wird durch einen serverseitigen Cached Thread Pool sichergestellt; aktiven Instanzen wird bei Bedarf ein Parser-Threads zur Verfügung gestellt, der nach Verwendung beendet wird.
             </p>
             <p> </p>
             <p>Syndred ist somit ein Werkzeug zur intuitiven Entwicklung domänenspezifische Sprachen und Überprüfung textueller Inhalte anhand dieser formalen Grammatiken, realisiert als kollaborative Web- Applikation; zusammengenommen ein Meilenstein in der Entwicklung dieser Art von Programmiersprachen.</p>
         </body>
         <back>
-            <div type="bibliogr">
+         <div type="notes">
+            <note xml:id="ftn1" n="1"> RBNF ist eine EBNF (Extended Backus-Naus Form) Erweiterung um Rich-Text Auszeichnungen.</note>
+            <note xml:id="ftn2" n="2" rend="footnote text">
+                        <hi rend="underline color(386EFF)">https://github.com/spinfo/syndred</hi>
+                    </note>
+            <note xml:id="ftn3" n="3" rend="footnote text">
+                        <hi rend="underline color(386EFF)">https://facebook.github.io/react</hi>
+                    </note>
+            <note xml:id="ftn4" n="4" rend="footnote text">
+                        <hi rend="underline color(386EFF)">https://draftjs.org</hi>
+                    </note>
+            <note xml:id="ftn5" n="5" rend="footnote text">
+                        <hi rend="underline color(386EFF)">https://projects.spring.io/spring-framework</hi>
+                    </note>
+         </div>
+         <div type="bibliogr">
                 <listBibl>
                     <head>Bibliographie</head>
                     <bibl>
@@ -173,6 +170,6 @@
                     </bibl>
                 </listBibl>
             </div>
-        </back>
+      </back>
     </text>
 </TEI>

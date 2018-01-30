@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xml:id="P_CKELMANN_Marcus__Entwicklungsstand_im_Projekt__em_Digital_">
-    <teiHeader>
+   <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title type="full">
@@ -118,16 +118,14 @@
          </settingDesc>
       </profileDesc>
     </teiHeader>
-    <text>
+   <text>
         <body>
             <div type="div1" rend="DH-Heading1">
                 <head>Einleitung</head>
                 <p>Das interdisziplinäre Forschungsprojekt 
                     <hi rend="italic">Digital Plato</hi>
                     <hi rend="italic">
-                        <note xml:id="ftn1" place="foot" n="1">Gefördert durch die VolkswagenStiftung. Weitere Informationen auf der Projektseite unter: 
-                            <ptr target="https://digital-plato.org/"/>
-                        </note>
+                        <ref target="ftn1" n="1"/>
                     </hi> untersucht die Rezeption und Nachwirkung des platonischen Werkes in der griechischen Literatur bis in die Spätantike mit einem Fokus auf nicht-wörtlichen Referenzen. Der folgende Beitrag und das dazugehörige Poster geben einen Überblick über die wichtigsten Zwischenergebnisse, die während der zurückliegenden ersten Hälfte der Projektlaufzeit erzielt wurden. Neben der Organisation des Korpus sowie dessen linguistischer Anreicherung, dem Aufbau eines Wortnetzes und die Einbettung in einen Vektorraum, zählen dazu die Erfassung und Kategorisierung bekannter Referenzstellen, die Adaption der CTS zur wortgenauen Referenzierung, die theoretische Annäherung und schließlich die semi-automatische Suche nach neuen Paraphrasen.
                 </p>
             </div>
@@ -174,7 +172,12 @@
             </div>
         </body>
         <back>
-            <div type="bibliogr">
+         <div type="notes">
+            <note xml:id="ftn1" n="1" place="foot">Gefördert durch die VolkswagenStiftung. Weitere Informationen auf der Projektseite unter: 
+                            <ptr target="https://digital-plato.org/"/>
+                        </note>
+         </div>
+         <div type="bibliogr">
                 <listBibl>
                     <head>Bibliographie</head>
                     <bibl>Blackwell, Christopher / Smith, Neel (2014): "The Canonical Text Service (CTS)" 
@@ -198,6 +201,6 @@
                     <bibl>Pöckelmann, Marcus / Ritter, Jörg / Wöckener-Gade, Eva / Schubert, Charlotte (2017): "Paraphrasensuche mittels word2vec und der Word Mover’s Distance im Altgriechischen"in: Digital Classics Online, Band 3, Ausgabe 3, S. 24-36.</bibl>
                 </listBibl>
             </div>
-        </back>
+      </back>
     </text>
 </TEI>
