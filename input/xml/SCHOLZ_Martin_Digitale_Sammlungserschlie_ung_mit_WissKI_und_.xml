@@ -143,5 +143,31 @@
                 <p>s.wagner@gnm.de</p>
             </div>
         </body>
+      <back>
+         <div type="notes">
+            <note xml:id="ftn1" n="1" place="foot"> Vgl. „Empfehlungen zu wissenschaftlichen Sammlungen als Forschungsinfrastrukturen”, Verfügbar unter: 
+                        <ptr target="https://www.wissenschaftsrat.de/download/archiv/10464-11.pdf"/>) [letzter Zugriff: 10. Januar 2018]
+                    </note>
+            <note xml:id="ftn2" n="2" place="foot"> Kennzahlen zu den folgenden Aussagen sind verfügbar unter: 
+                        <ptr target="https://portal.wissenschaftliche-sammlungen.de/kennzahlen"/>/ [letzter Zugriff: 10. Januar 2018]
+                    </note>
+            <note xml:id="ftn3" n="3" place="foot">
+                        <anchor xml:id="id_docs-internal-guid-5392ef94-b962-c408-911e-ec8242784d66"/> siehe Fußnote 1
+                    </note>
+            <note xml:id="ftn4" n="4" place="foot">
+                        <anchor xml:id="id_docs-internal-guid-5392ef94-b963-dc0a-8780-317aedc2ff32"/>Das Projekt wird vom Bundesministerium für Bildung und Forschung von 2017 bis 2020 im Rahmen der Förderlinie „Vernetzen - Erschließen - Forschen. Allianz für universitäre Sammlungen” gefördert. Mehr Informationen unter URL: 
+                        <ptr target="http://objekte-im-netz.fau.de/"/> [letzter Zugriff: 10. Januar 2018]
+                    </note>
+            <note xml:id="ftn0" n="5" place="foot"> WissKI (=„Wissenschaftliche KommunikationsInfrastruktur, URL: 
+                        <ref target="file:///h">http://wiss-ki.eu/</ref>[letzter Zugriff: 10. Januar 2018]) basiert auf dem Open-Source Content Management System Drupal (URL: 
+                        <ref target="file:///h">http://drupal.org/</ref>[letzter Zugriff: 10. Januar 2018]) und wurde in Zusammenarbeit zwischen dem Germanischen Nationalmuseum, Nürnberg, dem Zoologischen Forschungsmuseum Alexander Koenig, Bonn und der Friedrich-Alexander- Universität Erlangen-Nürnberg entwickelt.
+                    </note>
+            <note xml:id="ftn5" n="6" place="foot">
+                        <anchor xml:id="id_docs-internal-guid-5392ef94-b964-6072-0052-3285a497835b"/>Das CIDOC CRM wurde vom International Committee for Documentation als Teil des International Council of Museums (ICOM) als formale Referenzontologie erarbeitet und ist seit 2006 als ISO Norm (ISO 21127) anerkannt. In der „Erlangen CRM“ (URL: 
+                        <ptr target="http://erlangen-crm.org/"/> [letzter Zugriff: 10. Januar 2018]) auf Basis der Web Ontology Language (OWL) liegt eine maschinenlesbare Version vor. Weitere Informationen zum CIDOC CRM unter URL: 
+                        <ptr target="http://cidoc-crm.org/"/> [letzter Zugriff: 10. Januar 2018].
+                    </note>
+         </div>
+      </back>
     </text>
 </TEI>
