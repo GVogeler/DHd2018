@@ -109,118 +109,97 @@
     </teiHeader>
    <text>
         <body>
-            <p rend="No Spacing">Ausgangslage</p>
-            <p>Digitale Editionen haben sich bereits als geeignete Publikationsform für die Präsentation von umfangreichen Textbeständen im Bereich des kulturellen Erbes etabliert. Für ein so umfangreiches und komplexes textgenetisches Korpus wie Robert Musils literarischen Nachlass und die daran entwickelte Datenstruktur der Klagenfurter Ausgabe stehen jedoch keine fertigen Modelle zur Verfügung. Im Rahmen des Panels soll einerseits diskutiert werden, welche Kriterien eine digitale Edition erfüllen muss, um eine Grundlage zur Erforschung von Robert Musils Gesamtwerk zu erstellen und andererseits, ob die derzeit geltenden Standards zur Langzeitarchivierung, interoperablen Repräsentation und Online-Kommentierung von digitalen Textkorpora noch zeitgemäß sind. </p>
-            <p rend="No Spacing">Gegenstand</p>
-            <p>Der umfangreiche literarische Nachlass des österreichischen Schriftstellers Robert Musil umfasst 12.000 Manuskriptseiten und wird bereits seit 1985 digital ediert. Die wichtigsten bisherigen Publikationsetappen markieren die CD-ROM-Ausgabe 
+            <div type="div1" rend="DH-Heading1">
+                <head>Ausgangslage</head>
+                <p>Digitale Editionen haben sich bereits als geeignete Publikationsform für die Präsentation von umfangreichen Textbeständen im Bereich des kulturellen Erbes etabliert. Für ein so umfangreiches und komplexes textgenetisches Korpus wie Robert Musils literarischen Nachlass und die daran entwickelte Datenstruktur der Klagenfurter Ausgabe stehen jedoch keine fertigen Modelle zur Verfügung. Im Rahmen des Panels soll einerseits diskutiert werden, welche Kriterien eine digitale Edition erfüllen muss, um eine Grundlage zur Erforschung von Robert Musils Gesamtwerk zu erstellen und andererseits, ob die derzeit geltenden Standards zur Langzeitarchivierung, interoperablen Repräsentation und Online-Kommentierung von digitalen Textkorpora noch zeitgemäß sind. </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Gegenstand</head>
+                <p>Der umfangreiche literarische Nachlass des österreichischen Schriftstellers Robert Musil umfasst 12.000 Manuskriptseiten und wird bereits seit 1985 digital ediert. Die wichtigsten bisherigen Publikationsetappen markieren die CD-ROM-Ausgabe 
                 <hi rend="italic">Robert Musil: Der literarische Nachlass</hi> (Hg. F. Aspetsberger, K. Eibl, A. Frisé, Rowohlt 1992) und die DVD-Edition Robert Musil: 
                 <hi rend="italic">Klagenfurter Ausgabe. Kommentierte Edition sämtlicher Werke, Briefe und nachgelassener Schriften. Mit Transkriptionen und Faksimiles aller Handschriften</hi> (Hg. W. Fanta, K. Amann, K. Corino, Robert-Musil-Institut/Kärntner Literaturarchiv, AAU Klagenfurt 2009). Um für das Editionsvorhaben, das mittlerweile mehrere Computer-Generationen, System- und Formatwechsel sowie Veränderungen der editorischen Vorgaben und Richtlinien erlebt hat, eine befriedigende und zukunftssichere Lösung zu entwickeln, entsteht am Robert-Musil-Institut/Kärntner Literaturarchiv seit 2016 eine Hybrid-Edition. Sie soll einerseits die Bedürfnisse der LeserInnen und der wissenschaftlichen UserInnen befriedigen, andererseits auch für nachhaltige Verfügbarkeit der Daten sorgen. Die TeilnehmerInnen des vorliegenden Panels präsentieren die einzelnen Lösungsansätze aus theoretischer und methodologischer Sicht in exemplarischer Weise und stellen sie als Best-Practice-Modelle im Bereich des digitalen Edierens zur Diskussion: 
-            </p>
-            <p>a) Die 
-                <hi rend="bold">Hybrid-Edition</hi> setzt sich aus der 
-                <hi rend="italic">Musil-Gesamtausgabe</hi> in 12 Bänden (Salzburg, Jung und Jung, 2016-2022) und dem Internetportal 
-                <hi rend="italic">musilonline</hi> (Prototyp seit 2016: 
-                <ref target="http://www.musilonline.at">www.musilonline.at</ref>) zusammen. Die Buchausgabe enthält einen Lesetext für die literarische Lektüre in leserfreundlicher Ausstattung. 
-                <hi rend="italic">musilonline</hi> wird unter 
-                <hi rend="italic">Musil-Text</hi> die digitale Version des Lesetexts, unter 
-                <hi rend="italic">Archiv</hi> das gesamte textgenetische Dossier (Faksimiles, XML/TEI-Dateien) und unter 
-                <hi rend="italic">Kommentar</hi> neben dem textkritischen bzw. textgenetischen auch einen interdiskursiven Kommentar bieten. Im Kurzvortrag wird die Hybrid-Edition in Hinblick auf ihre medienhistorische Bedeutung, intermediale Funktion, literaturdidaktische Vermittlungsleistung und Leser/User-Orientierung erläutert. (Anke Bosse, Robert-Musil-Institut/Kärntner Literaturarchiv, AAU Klagenfurt)
-            </p>
-            <p>b) Das künftige 
-                <hi rend="bold">Interface</hi> für die literaturwissenschaftliche, insbes. textgenetische Forschung auf 
-                <hi rend="italic">musilonline</hi> soll sich aus folgenden Komponenten zusammensetzen: 
-            </p>
-            <list type="unordered">
-                <item>
-                    <hi rend="italic">Suchmaschinen</hi> (zur Treffergenerierung im edierten Musil-Textkorpus sowie im XML/TEI-ausgezeichneten Text- und Metadatenbereich)
-                </item>
-                <item>
-                    <hi rend="italic">Navigation entlang hypertextueller Verknüpfungen</hi> zwischen ediertem Text, Faksimiles, XML/TEI-Dateien und Kommentarbereich
-                </item>
-                <item>
-                    <hi rend="italic">Bild-Browser</hi> (zum Studium der Originalmanuskripte)
-                </item>
-                <item>
-                    <hi rend="italic">Textdarstellung</hi> (zur visuellen Inszenierung der Textstufen und ‑schichten am Manuskript, aus XML/TEI-Dateien generierte HTML-Lösungen). Diese Funktionen werden derzeit auf der Grundlage von zwei zentralen Manuskriptmappen aus Musils Nachlass entwickelt. 
-                </item>
-            </list>
-            <p>Im Kurzvortrag werden noch keine fertigen Lösungen vorgestellt, sondern es erfolgt ein kritischer Aufriss der Problemlage in Folge der komplexen Struktur von Musils Manuskripten und die Präsentation eines Grundkonzepts an Hand von exemplarischen Ausschnitten aus dem Manuskriptbestand. (Walter Fanta, Robert-Musil-Institut/Kärntner Literaturarchiv, AAU Klagenfurt)</p>
-            <p>c) Die fachgerechte 
-                <hi rend="bold">Speicherung</hi> des gesamten Text- und Metadatenbestands zu Robert Musils autor-autorisierten und nachgelassenen Schriften 
-                <hi rend="bold">via XML/TEI</hi> ist vorgesehen und bereits begonnen worden. Die Manuskripte des Musil-Nachlasses stellen eine besondere Herausforderung für die Textauszeichnung dar, weil sie äußerst komplexe Varianzbeziehungen auf der Ebene der Makrovarianz zwischen den Entwurfsfassungen und der Ebene der Mikrovarianz – Korrekturschichten – enthalten. Es stellt sich heraus, dass die Struktur der großen philosophischen und literarischen Fragmente der Moderne (Nietzsche, Wittgenstein, Musil, Bachmann) den Rahmen sprengt, der von XML/TEI (Baumstruktur) vorgegeben ist. Im Kurzvortrag erfolgt ein Problembericht zu Auszeichnungsschwierigkeiten mit XML/TEI. Im Rahmen des österreichischen Kompetenzzentrums für Digitale Edition (KONDE), sowie mit Hilfe der TEI Guidelines und DariahTeach wurden bereits Lösungen gefunden. In Hinblick auf die Datenkonservierung und –interoperabilität muss aber diskutiert werden, ob XML/TEI für die Langzeitarchivierung des Musil-Nachlasses geeignet ist. (Katharina Godler, Robert-Musil-Institut/Kärntner Literaturarchiv, AAU Klagenfurt)
-            </p>
-            <p>d) Die 
-                <hi rend="bold">Migration</hi> des gesamten Textdaten-Korpus erfolgt aus dem Flatfile des Formats FolioViews der Klagenfurter Ausgabe in das Zielformat XML/TEI. Dabei werden Scripts entwickelt, welche die im Flatfile enthaltenen Kodierungen (Formatierungen und Sprungverknüpfungen von FolioViews) sowie die diakritischen Zeichen der 1992 publizierten Transkription soweit wie möglich automatisch im automatischen Austausch in sachadäquate XML/TEI-Auszeichnungen umsetzen. Der Kurzvortrag erläutert den erreichten Stand und die Probleme dieser Migrationsprozesse; sie bestehen kurz gesagt im Alter der Nachlass-Transkription (entstanden 1984-1990), in der chaotischen Struktur der FolioViews-Infobase mit insgesamt 735.000 Einträgen und ca. 250.000 Verknüpfungen, zahlreichen Redundanzen, Inkonsistenzen, Fehlern und Ergänzungsbedarf. Für die drei Hauptbereiche gedruckte Quellen, Nachlassmanuskripte, Metadaten müssen jeweils eigene Lösungen gefunden werden. (Gerrit Brüning, Goethe-Universität Frankfurt / Freies Deutsches Hochstift)
-            </p>
-            <p>e) Der 
-                <hi rend="bold">interdiskursive Online-Kommentar</hi> auf 
-                <hi rend="italic">musilonline</hi> wird 2018-2022 in einem vom Österreichischen Wissenschaftsfonds (FWF) geförderten Projekt am Robert-Musil-Institut / AAU Klagenfurt entwickelt. Die Grundidee besteht darin, über die herkömmliche (textkritische) Erläuterungsfunktion von Kommentaren hinaus zu wirken, auf der Bedeutungsebene anzusetzen und die Bedeutungsvielfalt in Musils Texten dadurch zu bewahren, dass Interpretamente im Musil-Textkorpus identifiziert und mit den Deutungen der bisherigen Interpretationsliteratur verknüpft werden. Aus der Sicht der Digital Humanities stellt sich die Herausforderung, für die Online-Inszenierung der Diskurse um Musils Texte eine digitale Struktur zu finden, die den heterogenen, teils widersprüchlichen Anforderungen und Erwartungen unterschiedlicher Usergruppen Genüge tut. Im Kurzvortrag wird das Vorhaben mit Fokus auf den Online-Kommentar als Desiderat der Literaturvermittlung exemplarisch skizziert. (Artur Boelderl, Institut für Germanistik, AAU Klagenfurt)
-            </p>
-            <p>Das Panel integriert höchst unterschiedliche Bereiche und Aspekte der Digital Humanities, die sich im Projekt 
-                <hi rend="italic">musilonline</hi> verknüpft finden. Der Stoßrichtung der Tagung, eine 
-                <hi rend="italic">Kritik der digitalen Vernunft</hi> zu formulieren, tragen die geplanten Diskussionsbeiträge in besonderem Maße Rechnung, da nicht in allen Belangen schon mit fertigen Lösungen aufgewartet wird, sondern das Erkennen von Problemen, die Verbesserung etablierter Strukturen, die Suche nach Alternativen und die Erfindung neuer Konzepte im Vordergrund stehen. Die Präsentationen und Diskussionen des Panels reflektieren u.a. auch die neuen editionswissenschaftlichen Forschungsansätze und Best Practices, die im Rahmen des österreichischen Kompetenznetzwerks digitale Edition (KONDE) seit 2017 entwickelt werden.
-            </p>
+                </p>
+                <p>a) Die 
+                    <hi rend="bold">Hybrid-Edition</hi> setzt sich aus der 
+                    <hi rend="italic">Musil-Gesamtausgabe</hi> in 12 Bänden (Salzburg, Jung und Jung, 2016-2022) und dem Internetportal 
+                    <hi rend="italic">musilonline</hi> (Prototyp seit 2016: 
+                    <ref target="http://www.musilonline.at">www.musilonline.at</ref>) zusammen. Die Buchausgabe enthält einen Lesetext für die literarische Lektüre in leserfreundlicher Ausstattung. 
+                    <hi rend="italic">musilonline</hi> wird unter 
+                    <hi rend="italic">Musil-Text</hi> die digitale Version des Lesetexts, unter 
+                    <hi rend="italic">Archiv</hi> das gesamte textgenetische Dossier (Faksimiles, XML/TEI-Dateien) und unter 
+                    <hi rend="italic">Kommentar</hi> neben dem textkritischen bzw. textgenetischen auch einen interdiskursiven Kommentar bieten. Im Kurzvortrag wird die Hybrid-Edition in Hinblick auf ihre medienhistorische Bedeutung, intermediale Funktion, literaturdidaktische Vermittlungsleistung und Leser/User-Orientierung erläutert. (Anke Bosse, Robert-Musil-Institut/Kärntner Literaturarchiv, AAU Klagenfurt)
+                </p>
+                <p>b) Das künftige 
+                    <hi rend="bold">Interface</hi> für die literaturwissenschaftliche, insbes. textgenetische Forschung auf 
+                    <hi rend="italic">musilonline</hi> soll sich aus folgenden Komponenten zusammensetzen: 
+                </p>
+                <list type="unordered">
+                    <item>
+                        <hi rend="italic">Suchmaschinen</hi> (zur Treffergenerierung im edierten Musil-Textkorpus sowie im XML/TEI-ausgezeichneten Text- und Metadatenbereich)
+                    </item>
+                    <item>
+                        <hi rend="italic">Navigation entlang hypertextueller Verknüpfungen</hi> zwischen ediertem Text, Faksimiles, XML/TEI-Dateien und Kommentarbereich
+                    </item>
+                    <item>
+                        <hi rend="italic">Bild-Browser</hi> (zum Studium der Originalmanuskripte)
+                    </item>
+                    <item>
+                        <hi rend="italic">Textdarstellung</hi> (zur visuellen Inszenierung der Textstufen und ‑schichten am Manuskript, aus XML/TEI-Dateien generierte HTML-Lösungen). Diese Funktionen werden derzeit auf der Grundlage von zwei zentralen Manuskriptmappen aus Musils Nachlass entwickelt. 
+                    </item>
+                </list>
+                <p>Im Kurzvortrag werden noch keine fertigen Lösungen vorgestellt, sondern es erfolgt ein kritischer Aufriss der Problemlage in Folge der komplexen Struktur von Musils Manuskripten und die Präsentation eines Grundkonzepts an Hand von exemplarischen Ausschnitten aus dem Manuskriptbestand. (Walter Fanta, Robert-Musil-Institut/Kärntner Literaturarchiv, AAU Klagenfurt)</p>
+                <p>c) Die fachgerechte 
+                    <hi rend="bold">Speicherung</hi> des gesamten Text- und Metadatenbestands zu Robert Musils autor-autorisierten und nachgelassenen Schriften 
+                    <hi rend="bold">via XML/TEI</hi> ist vorgesehen und bereits begonnen worden. Die Manuskripte des Musil-Nachlasses stellen eine besondere Herausforderung für die Textauszeichnung dar, weil sie äußerst komplexe Varianzbeziehungen auf der Ebene der Makrovarianz zwischen den Entwurfsfassungen und der Ebene der Mikrovarianz – Korrekturschichten – enthalten. Es stellt sich heraus, dass die Struktur der großen philosophischen und literarischen Fragmente der Moderne (Nietzsche, Wittgenstein, Musil, Bachmann) den Rahmen sprengt, der von XML/TEI (Baumstruktur) vorgegeben ist. Im Kurzvortrag erfolgt ein Problembericht zu Auszeichnungsschwierigkeiten mit XML/TEI. Im Rahmen des österreichischen Kompetenzzentrums für Digitale Edition (KONDE), sowie mit Hilfe der TEI Guidelines und DariahTeach wurden bereits Lösungen gefunden. In Hinblick auf die Datenkonservierung und –interoperabilität muss aber diskutiert werden, ob XML/TEI für die Langzeitarchivierung des Musil-Nachlasses geeignet ist. (Katharina Godler, Robert-Musil-Institut/Kärntner Literaturarchiv, AAU Klagenfurt)
+                </p>
+                <p>d) Die 
+                    <hi rend="bold">Migration</hi> des gesamten Textdaten-Korpus erfolgt aus dem Flatfile des Formats FolioViews der Klagenfurter Ausgabe in das Zielformat XML/TEI. Dabei werden Scripts entwickelt, welche die im Flatfile enthaltenen Kodierungen (Formatierungen und Sprungverknüpfungen von FolioViews) sowie die diakritischen Zeichen der 1992 publizierten Transkription soweit wie möglich automatisch im automatischen Austausch in sachadäquate XML/TEI-Auszeichnungen umsetzen. Der Kurzvortrag erläutert den erreichten Stand und die Probleme dieser Migrationsprozesse; sie bestehen kurz gesagt im Alter der Nachlass-Transkription (entstanden 1984-1990), in der chaotischen Struktur der FolioViews-Infobase mit insgesamt 735.000 Einträgen und ca. 250.000 Verknüpfungen, zahlreichen Redundanzen, Inkonsistenzen, Fehlern und Ergänzungsbedarf. Für die drei Hauptbereiche gedruckte Quellen, Nachlassmanuskripte, Metadaten müssen jeweils eigene Lösungen gefunden werden. (Gerrit Brüning, Goethe-Universität Frankfurt / Freies Deutsches Hochstift)
+                </p>
+                <p>e) Der 
+                    <hi rend="bold">interdiskursive Online-Kommentar</hi> auf 
+                    <hi rend="italic">musilonline</hi> wird 2018-2022 in einem vom Österreichischen Wissenschaftsfonds (FWF) geförderten Projekt am Robert-Musil-Institut / AAU Klagenfurt entwickelt. Die Grundidee besteht darin, über die herkömmliche (textkritische) Erläuterungsfunktion von Kommentaren hinaus zu wirken, auf der Bedeutungsebene anzusetzen und die Bedeutungsvielfalt in Musils Texten dadurch zu bewahren, dass Interpretamente im Musil-Textkorpus identifiziert und mit den Deutungen der bisherigen Interpretationsliteratur verknüpft werden. Aus der Sicht der Digital Humanities stellt sich die Herausforderung, für die Online-Inszenierung der Diskurse um Musils Texte eine digitale Struktur zu finden, die den heterogenen, teils widersprüchlichen Anforderungen und Erwartungen unterschiedlicher Usergruppen Genüge tut. Im Kurzvortrag wird das Vorhaben mit Fokus auf den Online-Kommentar als Desiderat der Literaturvermittlung exemplarisch skizziert. (Artur Boelderl, Institut für Germanistik, AAU Klagenfurt)
+                </p>
+                <p>Das Panel integriert höchst unterschiedliche Bereiche und Aspekte der Digital Humanities, die sich im Projekt 
+                    <hi rend="italic">musilonline</hi> verknüpft finden. Der Stoßrichtung der Tagung, eine 
+                    <hi rend="italic">Kritik der digitalen Vernunft</hi> zu formulieren, tragen die geplanten Diskussionsbeiträge in besonderem Maße Rechnung, da nicht in allen Belangen schon mit fertigen Lösungen aufgewartet wird, sondern das Erkennen von Problemen, die Verbesserung etablierter Strukturen, die Suche nach Alternativen und die Erfindung neuer Konzepte im Vordergrund stehen. Die Präsentationen und Diskussionen des Panels reflektieren u.a. auch die neuen editionswissenschaftlichen Forschungsansätze und Best Practices, die im Rahmen des österreichischen Kompetenznetzwerks digitale Edition (KONDE) seit 2017 entwickelt werden.
+                </p>
+            </div>
         </body>
         <back>
          <div type="bibliogr">
                 <listBibl>
                     <head>Bibliographie</head>
-                    <bibl rend="Plain Text">
+                    <bibl>
                         <hi rend="bold">Burghart, Marjorie</hi> (2017): 
                         <hi rend="italic">Creating a Scholarly Digital Edition with the Text Encoding Initiative. </hi>Demm: 
                         <ref target="https://www.digitalmanuscripts.eu/digital-editing-of-medieval-texts-a-textbook/">https://www.digitalmanuscripts.eu/digital-editing-of-medieval-texts-a-textbook/</ref> (letzer Zugriff 12. Jänner 2018)
                     </bibl>
-                    <bibl rend="Plain Text">
+                    <bibl>
                         <hi rend="bold">Burnard, Lou</hi> (2014): 
                         <hi rend="italic">What Is the Text Encoding Initiative? How to Add Intelligent Markup to Digital Resources</hi>. Encyclopédie Numérique. Marseille: OpenEdition Press: 
                         <ref target="http://books.openedition.org/oep/426">http://books.openedition.org/oep/426</ref> (Letzter Zugriff 12. Jänner 2018)
                     </bibl>
-                    <bibl rend="Plain Text">
+                    <bibl>
                         <hi rend="bold">Fanta, Walter</hi> (2016): 
-                        <hi rend="italic">
-                            <hi rend="italic">"</hi>
-                        </hi>Editionsgeschichte.
-                        <hi rend="italic">
-                            <hi rend="italic">",</hi>
-                        </hi> in: 
-                        <hi rend="bold">Nübel, Birgit 
-                            <hi rend="normalweight">/ </hi>Wolf, Norbert Christian
-                            <hi rend="normalweight">:</hi>
-                        </hi>
+                        <hi rend="italic">"Editionsgeschichte.",</hi>in: 
+                        <hi rend="bold">Nübel, Birgit/ </hi>Wolf, Norbert Christian:
                         <hi rend="italic">Robert-Musil-Handbuch</hi>. Berlin: Walter de Gruyter, S. 799-810.
                     </bibl>
-                    <bibl rend="Plain Text">
+                    <bibl>
                         <hi rend="bold">Fanta, Walter</hi> (2016): 
-                        <hi rend="italic">
-                            <hi rend="italic">"</hi>
-                        </hi>Nachlass.
-                        <hi rend="italic">
-                            <hi rend="italic">",</hi>
-                        </hi> in: 
-                        <hi rend="bold">Nübel, Birgit
-                            <hi rend="normalweight"> /</hi> Wolf, Norbert Christian 
-                            <hi rend="normalweight">(eds):</hi>
+                        <hi rend="italic">"Nachlass.",</hi>in: 
+                        <hi rend="bold">Nübel, Birgit/ Wolf, Norbert Christian (eds):
                         </hi>
                         <hi rend="italic">Robert-Musil-Handbuch</hi>. Berlin: Walter de Gruyter, S. 470-497.
                     </bibl>
-                    <bibl rend="Plain Text">
+                    <bibl>
                         <hi rend="bold">Fanta, Walter</hi> (2010): 
-                        <hi rend="italic">
-                            <hi rend="italic">"</hi>
-                        </hi>Robert Musil – Klagenfurter Ausgabe.
-                        <hi rend="italic">
-                            <hi rend="italic">",</hi>
-                        </hi> in: 
+                        <hi rend="italic">"Robert Musil – Klagenfurter Ausgabe.",</hi>in: 
                         <hi rend="italic">editio</hi>, S. 117-148.
                     </bibl>
-                    <bibl rend="Plain Text">
+                    <bibl>
                         <hi rend="bold">Fanta, Walter</hi> (2011): 
-                        <hi rend="italic">
-                            <hi rend="italic">"</hi>
-                        </hi>Zur Immortalität elektronischer Korpora am Beispiel der Musil-Edition.
-                        <hi rend="italic">
-                            <hi rend="italic">",</hi>
-                        </hi> in: 
+                        <hi rend="italic">"Zur Immortalität elektronischer Korpora am Beispiel der Musil-Edition.",</hi>in: 
                         <hi rend="bold">Braungart, Georg / Gendolla, Peter</hi> /
                         <hi rend="bold"> Jannidis, Fotis</hi> (eds): 
                         <hi rend="italic">Jahrbuch für Computerphilologie online: </hi>
@@ -228,12 +207,7 @@
                     </bibl>
                     <bibl rend="Plain Text">
                         <hi rend="bold">Fanta, Walter</hi> (2008): 
-                        <hi rend="italic">
-                            <hi rend="italic">"</hi>
-                        </hi>Das Zögern vor dem letzten Schritt. Zur digitalen Edition von Robert Musils „Mann ohne Eigenschaften“
-                        <hi rend="italic">
-                            <hi rend="italic">",</hi>
-                        </hi> in: 
+                        <hi rend="italic">"Das Zögern vor dem letzten Schritt. Zur digitalen Edition von Robert Musils „Mann ohne Eigenschaften",</hi> in: 
                         <hi rend="bold">Golz, Jochen</hi> /
                         <hi rend="bold"> Koltes, Manfred</hi> (eds.): 
                         <hi rend="italic">Autoren und Redaktoren als Editoren - Tagung der Arbeitsgemeinschaft für germanistische Edition an der Klassik Stiftung Weimar</hi>, Tübingen: Max Niemeyer Verlag, S. 342-352
