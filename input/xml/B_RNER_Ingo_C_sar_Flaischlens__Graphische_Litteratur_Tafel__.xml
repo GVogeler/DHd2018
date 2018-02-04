@@ -164,34 +164,34 @@
          <div type="bibliogr">
                 <listBibl>
                     <head>Bibliographie</head>
-                    <bibl>Flaischlen, Cäsar (1890): 
+                    <bibl><hi rend="bold">Flaischlen, Cäsar </hi>(1890): 
                         <hi rend="italic">Graphische Litteratur-Tafel. Die deutsche Litteratur und der Einfluß fremder Litteraturen auf ihren Verlauf vom Beginn der schriftlichen Ueberlieferung an bis heute in graphischer Darstellung</hi>. Berlin: Behr's Verlag.
                     </bibl>
-                    <bibl>Hölter, Achim (2005): „Überlegungen zu Raffaels Parnass-Fresko als Kanonbild“ in: Heimböckel, Dieter / Werlein, Uwe (eds.): 
+                    <bibl><hi rend="bold">Hölter, Achim </hi>(2005): „Überlegungen zu Raffaels Parnass-Fresko als Kanonbild“ in: Heimböckel, Dieter / Werlein, Uwe (eds.): 
                         <hi rend="italic">Der Bildhunger der Literatur. Festschrift für Gunter E. Grimm</hi>. Würzburg 51-68.
                     </bibl>
-                    <bibl>Hölter, Achim / Schmitz-Emans, Monika (eds.) (2013): 
+                    <bibl><hi rend="bold">Hölter, Achim / Schmitz-Emans, Monika (eds.) </hi>(2013): 
                         <hi rend="italic">Literaturgeschichte und Bildmedien.</hi> Heidelberg: Synchron.
                     </bibl>
-                    <bibl>Kohlstock, Manuel (2004): 
+                    <bibl><hi rend="bold">Kohlstock, Manuel </hi>(2004): 
                         <hi rend="italic">Kartographie. Eine Einführung.</hi> Stuttgart: UTB.
                     </bibl>
-                    <bibl>Lima, Manuel (2014): 
+                    <bibl><hi rend="bold">Lima, Manuel </hi>(2014): 
                         <hi rend="italic">The Book of Trees. Visualizing Branches of Knowledge</hi>. New York: Princeton Architectural Press.
                     </bibl>
-                    <bibl>Moretti, Franco (2007): 
+                    <bibl><hi rend="bold">Moretti, Franco </hi>(2007): 
                         <hi rend="italic">Graphs, Maps, Trees. Abstract Models for Literary History</hi>. London, New York: Verso.
                     </bibl>
-                    <bibl>openCV: 
+                    <bibl><hi rend="bold">openCV</hi>: 
                         <hi rend="italic">Open Source Computer Vision Library</hi>. http://opencv.org [letzter Zugriff 24. September 2017].
                     </bibl>
-                    <bibl>Rosenberg, Daniel / Grafton, Anthony (2010): 
+                    <bibl><hi rend="bold">Rosenberg, Daniel / Grafton, Anthony </hi>(2010): 
                         <hi rend="italic">Cartographies of Time</hi>. New York: Princeton Architectural Press.
                     </bibl>
-                    <bibl>Strass, Friedrich (1803): 
+                    <bibl><hi rend="bold">Strass, Friedrich </hi>(1803): 
                         <hi rend="italic">Der Strom Der Zeiten.</hi> http://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~281767~90054624 [letzter Zugriff 24. September 2017].
                     </bibl>
-                    <bibl>TEI Consortium (2017). 
+                    <bibl><hi rend="bold">TEI Consortium </hi>(2017). 
                         <hi rend="italic">TEI P5 – Guidelines for Electronic Text Encoding and Interchange. Version 3.2.0.</hi> http://www.tei-c.org/release/doc/tei-p5-doc/en/html/index.html [letzter Zugriff 25. September 2017].
                     </bibl>
                 </listBibl>

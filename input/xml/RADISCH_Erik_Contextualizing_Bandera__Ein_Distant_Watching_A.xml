@@ -95,7 +95,7 @@
     </teiHeader>
    <text>
         <body>
-            <div type="div1">
+            <div type="div1" rend="DH-Heading1">
                 <head>Einleitung</head>
                 <p>Zahlreiche geisteswissenschaftliche Projekte im Kontext der Digital Humanities sind textlastig. Ein Grund dafür ist das breite Spektrum an etablierten Verfahren, das für solche Fragestellungen zur Verfügung steht. Aus der Perspektive der Kulturwissenschaften ergibt sich hier ein 
                     <hi rend="italic">desideratum</hi>; schließlich widmen sich diese der (menschlichen) Kultur in ihrer ganzen Bandbreite und decken kulturelle Äußerungen im weitesten Sinne ab, die unterschiedlichste Medien, physische Artefakte und performative Handlungen mit einschließen. Zwar ist es eingeschränkt möglich, kulturelle Phänomene zu transkribieren, also in textuelle Form zu bringen, was aber kaum automatisierbar ist und Informationsverluste birgt. Native Ansätze, welche auf jeweils spezifische Eigenschaften des zu untersuchenden Phänomens eingehen, erscheinen deshalb vielversprechend.
@@ -109,7 +109,7 @@
                 </p>
                 <p>Diese Ausweitung des methodischen Repertoires auf Bilder bzw. Videos ermöglicht den Kulturwissenschaften quantitative Perspektiven auf Malerei, Photographie und Film. Auch Objekte oder performative Handlungen können über Bild- bzw. Videodokumentationen einer quantitativen kulturwissenschaftlichen Analyse zugeführt werden. Diese quantitative methodische Innovation muss allerdings durch eine qualitative ergänzt werden. Die vorliegende Studie setzt sich zum Ziel, diese Innovationen anzustoßen.</p>
             </div>
-            <div type="div1">
+            <div type="div1" rend="DH-Heading1">
                 <head>
                     <anchor xml:id="id__z5hlghbfndhs"/>MultiPath Network
                 </head>
@@ -126,7 +126,7 @@
                     <hi rend="italic">COCO</hi>-Korpus (Lin et al. 2014) vortrainiert und erkennt alltägliche Dinge (Katzen, Flugzeuge, Speisen, usw.). Wie kleine explorative Experimente gezeigt haben, ist es notwendig, auf dem allgemeinen Training aufbauend eigene Trainingsläufe für jene visuellen Symbole zu entwickeln und durchzuführen, die uns für die konkrete kulturwissenschaftliche Fragestellung interessieren. Dies bedeutet einen hohen Aufwand an Rechenzeit und verlangt spezialisierte Hardware; dafür lassen sich RCNNs dann aber auf jegliche Arten von Symbolen oder andere visuell unterscheidbare Merkmale trainieren und können zu deren Identifizierung eingesetzt werden.
                 </p>
             </div>
-            <div type="div1">
+            <div type="div1" rend="DH-Heading1">
                 <head>
                     <anchor xml:id="id__i2db6zyjnf8h"/>Stepan Bandera
                 </head>
@@ -139,7 +139,7 @@
                     <hi rend="italic">Distant Watchings</hi> mitbedacht werden kann, ist sowohl aus qualitativer als auch als quantitativer Sicht zu klären.
                 </p>
             </div>
-            <div type="div1">
+            <div type="div1" rend="DH-Heading1">
                 <head>
                     <anchor xml:id="id__nizhii8hfbqs"/>Methode
                 </head>
@@ -238,7 +238,7 @@
                     </figure>
                 </p>
             </div>
-            <div type="div1">
+            <div type="div1" rend="DH-Heading1">
                 <head>
                     <anchor xml:id="id__o8go9q59jw3e"/>Zusammenfassung, Ausblick, Kritische Reflexion
                 </head>
@@ -257,7 +257,6 @@
                         <hi rend="bold">Burghardt, M. / Wolff, C. </hi>(2016). “Digital Humanities in Bewegung. Ansätze für die computergestützte Filmanalyse” in 
                         <hi rend="italic">DHd 2016: Book of Abstracts,</hi> 108-112.
                         <ref target="http://www.digitalicons.org/wp-content/uploads/issue12/files/2014/11/DI12_2_Fredheim.pdf">
-                            <hi rend="color(#1155cc)"> </hi>
                         </ref>
                     </bibl>
                     <bibl>
@@ -268,7 +267,6 @@
                         <hi rend="bold">Fredheim, R. / Howanitz, G. / Makhortykh, M.</hi> (2014). “Scraping the Monumental: Stepan Bandera through the Lens of Quantitative Memory Studies” in 
                         <hi rend="italic">Digital Icons</hi> 12 (2014), 25-53.
                         <ref target="http://www.digitalicons.org/wp-content/uploads/issue12/files/2014/11/DI12_2_Fredheim.pdf">
-                            <hi rend="color(#1155cc)"> </hi>
                         </ref>
                         <ptr target="http://www.digitalicons.org/wp-content/uploads/issue12/files/2014/11/DI12_2_Fredheim.pdf"/>[letzer Zugriff 11. September 2017].
                     </bibl>
@@ -293,8 +291,7 @@
                     <bibl>
                         <hi rend="bold">Lecun, Y. / Bottou, L. / Bengio, Y. / Haffner, P.</hi> (1998): “Gradient-based learning applied to document recognition” in: 
                         <hi rend="italic">Proceedings of the IEEE</hi>, 86(11): 2278–2324 doi:
-                        <ref target="https://doi.org/10.1109/5.726791">
-                            <hi rend="color(#1155cc)">10.1109/5.726791</hi>
+                        <ref target="https://doi.org/10.1109/5.726791">https://doi.org/10.1109/5.726791
                         </ref>.
                     </bibl>
                     <bibl>

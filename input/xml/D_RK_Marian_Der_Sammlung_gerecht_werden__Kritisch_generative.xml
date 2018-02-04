@@ -140,24 +140,24 @@
                     <p>
                         <figure>
                             <graphic url="D_RK_Marian_Der_Sammlung_gerecht_werden__Kritisch_generative-10000201000009C4000003157F581F65A453A63E.png"/>
+                            <head>Abb. 1: Biographische Textdaten der Berliner Klassik,BBAW (Sebastian Schuth, Tatjana Tšernõhh, Andreas Waleczek, Alexander Zöller).</head>
                         </figure>
                     </p>
-                    <p>Abb. 1: Biographische Textdaten der Berliner Klassik,BBAW (Sebastian Schuth, Tatjana Tšernõhh, Andreas Waleczek, Alexander Zöller).</p>
                     <p>Ein Projekt zur ostasiatischen Porzellansammlung der SPSG hatte zum Ziel, sowohl die Exploration der Bestände aus wissenschaftlichem Interesse zu unterstützen als auch kontextualisierende Narrative über die Entstehung der Objekte und der Sammlung anzubieten (siehe Abb. 2). Statt ausschließlich Informationen zu den Objekten in Form von Bild- und Metadaten zugrunde zu legen, haben die Studierenden gemeinsam mit den Kuratorinnen der Sammlung illustrierende Inhalte textuell und visuell erarbeitet, wodurch sie eine Vermittlungsebene in die wissenschaftlich erschlossenen Sammlungsdaten integrierten.</p>
                     <p>
                         <figure>
                             <graphic url="D_RK_Marian_Der_Sammlung_gerecht_werden__Kritisch_generative-10000201000009C40000030486B8736C1F4B3C94.png"/>
+                            <head>Abb. 2: Narrative und explorative Visualisierung einer Porzellansammlung der SPSG (Jana Klausberger, Mark-Jan Bludau, Swann Nowak, Constantin Eichstaedt).</head>
                         </figure>
                     </p>
-                    <p>Abb. 2: Narrative und explorative Visualisierung einer Porzellansammlung der SPSG (Jana Klausberger, Mark-Jan Bludau, Swann Nowak, Constantin Eichstaedt).</p>
                     <p>Eine interaktive Visualisierung des Münzkabinetts zeigt, wie das Loslösen von Darstellungskonventionen dazu beitragen kann, auf spielerische Art Erkenntnisse aus einem für Laien eher schwer zugänglichen Bestand zu gewinnen (siehe Abb. 3). Sowohl im physischen Ausstellungskontext als auch im Datenbankinterface werden Münzen zumeist in rigiden Tableaus dargestellt. Die Projektgruppe näherte sich dem numismatischen Bestand über ihren alltäglichen Blick auf das Material, nämlich über physische Haufen unterschiedlicher Münzen, in denen das Einzelstück zunächst untergeht. Die daraus resultierende Visualisierungsumgebung erlaubt es, aus haptisch anmutenden Arrangements über verschiedene Darstellungsmodi die Sammlung als Ganzes nach verschiedenen Merkmalen zu filtern und zu sortieren. Es können Zusammenhänge zwischen Prägungsort, Material, zeitlichen Verläufen und anderen Facetten in verschiedenen organischen Layouts untersucht werden.</p>
                     <p>
                         <figure>
                             <graphic url="D_RK_Marian_Der_Sammlung_gerecht_werden__Kritisch_generative-10000201000009C400000301D4672A4DA2907AC0.png"/>
+                            <head>Abb. 3: Visualisierung der numismatischen Sammlung des Berliner Münzkabinetts
+                                <ref target="ftn2" n="2"/> (Flavio Gortana, Daniela Guhlmann, Franziska von Tenspolde).
+                            </head>
                         </figure>
-                    </p>
-                    <p>Abb. 3: Visualisierung der numismatischen Sammlung des Berliner Münzkabinetts
-                        <ref target="ftn2" n="2"/> (Flavio Gortana, Daniela Guhlmann, Franziska von Tenspolde).
                     </p>
                 </div>
             </div>
@@ -171,68 +171,39 @@
         <back>
          <div type="notes">
             <note xml:id="ftn1" n="1" place="foot">
-                        <ref target="https://uclab.fh-potsdam.de/projects/vikus/">https://uclab.fh-potsdam.de/</ref>
-                        <ref target="https://uclab.fh-potsdam.de/projects/vikus/">project/</ref>
-                        <ref target="https://uclab.fh-potsdam.de/projects/vikus/">vikus/</ref>
+                        <ref target="https://uclab.fh-potsdam.de/projects/vikus/">https://uclab.fh-potsdam.de/project/vikus/</ref>
                     </note>
             <note xml:id="ftn2" n="2" place="foot">
-                            <ref target="https://uclab.fh-potsdam.de/coins">https://uclab.fh-potsdam.de/</ref>
-                            <ref target="https://uclab.fh-potsdam.de/coins">coins</ref>
+                            <ref target="https://uclab.fh-potsdam.de/coins">https://uclab.fh-potsdam.de/coins</ref>
                         </note>
          </div>
          <div type="bibliogr">
                 <listBibl>
                     <head>Bibliographie</head>
-                    <bibl>
-                        <hi rend="bold">Chen, K</hi>
-                        <hi rend="bold">o</hi>
-                        <hi rend="bold">-L</hi>
-                        <hi rend="bold">e</hi>
-                        <hi rend="bold"> / Dörk, M</hi>
-                        <hi rend="bold">arian</hi>
-                        <hi rend="bold"> / Dade-Robertson, M</hi>
-                        <hi rend="bold">artyn</hi> (2014): „Exploring the promises and potentials of visual archive interfaces“. In: Proceedings of the 2014 iConference. iSchools.
+                    <bibl><hi rend="bold">Chen, Ko-Le / Dörk, Marian / Dade-Robertson, Martyn</hi> (2014): „Exploring the promises and potentials of visual archive interfaces“. In: Proceedings of the 2014 iConference. iSchools.
                     </bibl>
-                    <bibl>
-                        <hi rend="bold">Drucker, Johanna</hi> (2013): „Performative Materiality and Theoretical Approaches to Interface“. In: DHQ: Digital Humanities Quarterly, 7(1). 
+                    <bibl><hi rend="bold">Drucker, Johanna</hi> (2013): „Performative Materiality and Theoretical Approaches to Interface“. In: DHQ: Digital Humanities Quarterly, 7(1). 
                         <ptr target="http://www.digitalhumanities.org/dhq/vol/7/1/000143/000143.html"/> [letzter Zugriff 25. September 2017].
                     </bibl>
                     <bibl>
-                        <hi rend="bold">Glinka, K</hi>
-                        <hi rend="bold">atrin /</hi>
-                        <hi rend="bold"> Pietsch, C</hi>
-                        <hi rend="bold">hristopher /</hi>
-                        <hi rend="bold"> Dörk, M</hi>
-                        <hi rend="bold">arian</hi> (2017a): „Past visions and reconciling views: Visualizing time, texture and themes in cultural collections“. In: DHQ: Digital Humanities Quarterly, 11(2). 
+                        <hi rend="bold">Glinka, Katrin / Pietsch, Christopher / Dörk, Marian</hi> (2017a): „Past visions and reconciling views: Visualizing time, texture and themes in cultural collections“. In: DHQ: Digital Humanities Quarterly, 11(2). 
                         <ptr target="http://www.digitalhumanities.org/dhq/vol/11/2/000290/000290.html"/> [letzter Zugriff 25. September 2017].
                     </bibl>
                     <bibl>
-                        <hi rend="bold">Glinka, K</hi>
-                        <hi rend="bold">atrin /</hi>
-                        <hi rend="bold"> Pietsch, C</hi>
-                        <hi rend="bold">hristopher /</hi>
-                        <hi rend="bold"> Dörk, M</hi>
-                        <hi rend="bold">arian</hi> (2017b). „Von sammlungsspezifischen Visualisierungen zu nachnutzbaren Werkzeugen“. In: Konferenzband zur DHd 2017 Bern - Digitale Nachhaltigkeit.
+                        <hi rend="bold">Glinka, Katrin / Pietsch, Christopher / Dörk, Marian</hi> (2017b). „Von sammlungsspezifischen Visualisierungen zu nachnutzbaren Werkzeugen“. In: Konferenzband zur DHd 2017 Bern - Digitale Nachhaltigkeit.
                     </bibl>
                     <bibl>
-                        <hi rend="bold">Moretti, F</hi>
-                        <hi rend="bold">ranco</hi> (2005). Graphs, Maps, Trees: Abstract models for a literary history. Verso.
+                        <hi rend="bold">Moretti, Franco</hi> (2005). Graphs, Maps, Trees: Abstract models for a literary history. Verso.
                     </bibl>
                     <bibl>
-                        <hi rend="bold">Kreiseler, S</hi>
-                        <hi rend="bold">arah /</hi>
-                        <hi rend="bold"> Brüggemann, V</hi>
-                        <hi rend="bold">iktoria /</hi>
-                        <hi rend="bold"> Dörk, M</hi>
-                        <hi rend="bold">arian</hi> (2017). „Tracing exploratory modes in digital collections of museum web sites using reverse information architecture“. In: First Monday, 22(4). 
+                        <hi rend="bold">Kreiseler, Sarah / Brüggemann, Viktoria / Dörk, Marian</hi> (2017). „Tracing exploratory modes in digital collections of museum web sites using reverse information architecture“. In: First Monday, 22(4). 
                         <ptr target="http://firstmonday.org/ojs/index.php/fm/article/view/6984"/> [letzter Zugriff 25. September 2017].
                     </bibl>
                     <bibl>
                         <hi rend="bold">Yamaoka, So / Manovich, Lev / Douglass, Jeremy / Kuester, Falko</hi> (2011). „Cultural analytics in large-scale visualization environments“. In: Computer, 44(12):39–48.
                     </bibl>
                     <bibl>
-                        <hi rend="bold">Whitelaw, M</hi>
-                        <hi rend="bold">itchell</hi> (2015). „Generous interfaces for digital cultural collections“. digital humanities quarterly, 9(1). 
+                        <hi rend="bold">Whitelaw, Mitchell</hi> (2015). „Generous interfaces for digital cultural collections“. digital humanities quarterly, 9(1). 
                         <ptr target="http://www.digitalhumanities.org/dhq/vol/9/1/000205/000205.html"/> [letzter Zugriff 25. September 2017].
                     </bibl>
                 </listBibl>

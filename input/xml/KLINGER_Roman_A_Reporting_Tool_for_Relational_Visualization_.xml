@@ -109,7 +109,7 @@
     </teiHeader>
    <text>
         <body>
-            <div type="div1" rend="DH-Heading">
+            <div type="div1" rend="DH-Heading1">
                 <head>Introduction and Motivation</head>
                 <p>The emergence of computational methods of text processing has created new paradigms of research in literary studies in recent years (Jockers &amp; Underwood, 2016), for instance 
                     <hi rend="italic">distant reading</hi> to find patterns and regularities (Moretti, 2005). Network analysis and extraction of information about relations between characters from literary texts is an example for distant reading methods. Such information can not only be helpful for better understanding of character interactions but can also facilitate the comparison of thereof in different texts.
@@ -130,7 +130,7 @@
                     <hi rend="italic">Werther</hi> in 1774.
                 </p>
             </div>
-            <div type="div1" rend="DH-Heading">
+            <div type="div1" rend="DH-Heading1">
                 <head>
                     <anchor xml:id="id__92ac5kpawoaz"/>Previous Work
                 </head>
@@ -141,7 +141,7 @@
                 </p>
                 <p>Building on graph theory extensively elaborated in the past fifty years (e.g., Bondy and Murty, 1976 or West, 2001), our work is similar to Beveridge &amp; Shan (2016), in particular, in terms of the weighted degree measure, and to Park et al. (2012), in terms of distance measure for detecting closely related characters in a text.</p>
             </div>
-            <div type="div1" rend="DH-Heading">
+            <div type="div1" rend="DH-Heading1">
                 <head>
                     <anchor xml:id="id__8b2r3yxu7toy"/>Methods
                 </head>
@@ -155,14 +155,14 @@
                 <p>We define the closeness of relationship between two characters using a 
                     <hi rend="italic">distance measure</hi>
                     <hi rend="italic">dist</hi>
-                    <hi rend="sub italic">X</hi>
+                    <hi rend="italic">X</hi>
                     <hi rend="italic">(p,q)</hi>, where 
                     <hi rend="italic">p</hi> and 
                     <hi rend="italic">q</hi> are the strings corresponding to these characters and 
                     <hi rend="italic">X</hi> is the number of tokens between them (Park et al., 2012). In addition, we introduce the 
                     <hi rend="italic">context measure</hi>
                     <hi rend="italic">cont</hi>
-                    <hi rend="sub italic">Y</hi>
+                    <hi rend="italic">Y</hi>
                     <hi rend="italic">(p,q)</hi>, where 
                     <hi rend="italic">p </hi>and 
                     <hi rend="italic">q</hi> are the strings corresponding to these characters and 
@@ -174,18 +174,18 @@
                     <hi rend="italic">G=(V,E)</hi>, where 
                     <hi rend="italic">V</hi> are the vertices, each vertex corresponding to one character, and each edge 
                     <hi rend="italic">E=(V</hi>
-                    <hi rend="sub italic">i,</hi>
+                    <hi rend="italic">i,</hi>
                     <hi rend="italic">,V</hi>
-                    <hi rend="sub italic">j</hi>
+                    <hi rend="italic">j</hi>
                     <hi rend="italic">)</hi> corresponding to relations between pairs of characters. We output the following measures for each character node: 
                     <hi rend="italic">degree</hi>, 
                     <hi rend="italic">edge weight</hi>, 
                     <hi rend="italic">weighted degree </hi>and 
                     <hi rend="italic">density</hi>. The degree is the number of edges occurring with a given vertex. The edge weight, 
                     <hi rend="italic">w</hi>
-                    <hi rend="sub italic">i,j</hi> ≥ 0, is defined as the number of interactions between the vertices V
-                    <hi rend="sub italic">i</hi> and V
-                    <hi rend="sub italic">j</hi>. The weighted degree is the sum of weights of the edges occurring with a vertex 
+                    <hi rend="italic">i,j</hi> ≥ 0, is defined as the number of interactions between the vertices V
+                    <hi rend="italic">i</hi> and V
+                    <hi rend="italic">j</hi>. The weighted degree is the sum of weights of the edges occurring with a vertex 
                     <hi rend="italic">i</hi>. Density is the ratio of occurring edges between two vertices and all possible vertex pairs.
                 </p>
                 <p>Word clouds are an approach to visualize the vocabulary of a text. The size of one word corresponds to its frequency. We use two different kinds of word clouds: For each character in the character list, we show word clouds based on the context of a window size 
@@ -194,13 +194,12 @@
                 <p>We plot the timeline of multiple predefined world fields (specified by word lists) in the text. This feature is helpful in representing how certain fields (
                     <hi rend="italic">e.g.</hi>, concepts, emotions) develop throughout the narrative (Kim et al., 2017).
                 </p>
-                <p>
-                    <hi rend="color(#333333) background-color(#ffffff)">T</hi>he tool was developed using Python v.3.6 and the Flask
+                <p>The tool was developed using Python v.3.6 and the Flask
                     <ref target="ftn4" n="4"/> web development framework. The tool outputs a single PDF report. The resulting document contains information from the analysis modules described in the previous section. Network graphs included in the report are generated with 
                     <hi rend="italic">graphviz</hi>. Additionally, the tool can generate a CSV file that can be used as input to Gephi. 
                 </p>
             </div>
-            <div type="div1" rend="DH-Heading">
+            <div type="div1" rend="DH-Heading1">
                 <head>
                     <anchor xml:id="id__j13murs3z0ou"/>Use-case Demonstration
                 </head>
@@ -257,7 +256,7 @@
                     </figure>
                 </p>
                 <p>The word field development can highlight the prevalence of individual emotion domains across the text. The accumulation of the negative emotion words (Wut,Trauer, Furcht) towards the end suggests, for example, that Goethe’s novel has no “happy ending”. The striking rash on “Freude”, however, captures the last happy hours Werther spends with Lotte in the second part of the narration before he kills himself.</p>
-                <div type="div2">
+                <div type="div2" rend="DH-Heading2">
                     <head>
                         <anchor xml:id="id__6d0nxh3f2e6m"/>Future Work
                     </head>
@@ -275,7 +274,7 @@
                     </note>
             <note xml:id="ftn3" n="3" place="foot">
                             <ref target="http://www.ims.uni-stuttgart.de/data/rcat">
-                                <hi rend="color(#1155cc)underline">www.ims.uni-stuttgart.de/data/rcat</hi>
+                                <hi rend="underline">www.ims.uni-stuttgart.de/data/rcat</hi>
                             </ref>
                         </note>
             <note xml:id="ftn4" n="4" place="foot">
@@ -285,25 +284,25 @@
          <div type="bibliogr">
                 <listBibl>
                     <head>Bibliographie</head>
-                    <bibl>Agarwal, A. / Corvalan, A. / Jensen, J. / Rambow, O. (2012): “Social Network Analysis of Alice in Wonderland”, in: CLfL@ NAACL-HLT 88-96.</bibl>
-                    <bibl>Agarwal, A. / Kotalwar, A. / Rambow, O. (2013): “Automatic Extraction of Social Networks from Literary Text. A Case Study on Alice in Wonderland”, in: IJCNLP 1202-1208.</bibl>
-                    <bibl>Beveridge, A. / Shan, J., 2016: “Network of thrones”, in: Math Horizons, 23(4): 18-22.</bibl>
-                    <bibl>Bondy, J.A. / Murty, U.S.R. (1976): Graph theory with applications (Vol. 290). London: Macmillan.</bibl>
-                    <bibl>Burrows, J.F. (1987): “Word-patterns and story-shapes: The statistical analysis of narrative style”, in: Literary &amp; Linguistic Computing, 2(2): 61-70.</bibl>
-                    <bibl>Elson, D.K. / Dames, N. / McKeown, K.R. (2010): “Extracting social networks from literary fiction”, in: Proceedings of the 48th annual meeting of the association for computational linguistics 138-147. Association for Computational Linguistics.</bibl>
-                    <bibl>Heuser, R., F. Moretti / E. Steiner (2016): The Emotions of London. Technical report. Stanford University. Pamphlets of the Stanford Literary Lab.</bibl>
-                    <bibl>Jayannavar, P. / Agarwal, A. / Ju, M. and Rambow, O. (2015): “Validating Literary Theories Using Automatic Social Network Extraction”, in CLfL@ NAACL-HLT 32-41.</bibl>
-                    <bibl>Jockers, M.L. / Underwood, T. (2016): “Text‐Mining the Humanities”, in: Schreibman, Susan / Siemens, Ray / Unsworth, John (eds.): A New Companion to Digital Humanities 291-306.</bibl>
-                    <bibl>Kim, E. / Padó, S. / Klinger, R. (2017): “Investigating the Relationship between Literary Genres and Emotional Plot Development”, in: Proceedings of the Joint SIGHUM Workshop on Computational Linguistics for Cultural Heritage, Social Sciences, Humanities and Literature 17-26.</bibl>
-                    <bibl>Klinger, R. / Sulliya S.S. / Reiter N. (2016): “Automatic Emotion Detection for Quantitative Literary Studies -- A Case Study on Kafka's ‘Das Schloss’ and ‘Amerika’”, in: Digital Humanities (DH), Conference Abstracts, Kraków, Poland, 2016.</bibl>
-                    <bibl>Michel, J.B. / Shen, Y.K. / Aiden, A.P. / Veres, A. / Gray, M.K. / Pickett, J.P. / Hoiberg, D. / Clancy, D. / Norvig, P. / Orwant, J. / Pinker, S. (2011): “Quantitative analysis of culture using millions of digitized books”, in: science, 331(6014) 176-182.</bibl>
-                    <bibl>Moretti, F. (2005): Graphs, maps, trees: abstract models for a literary history. Verso.</bibl>
-                    <bibl>Moretti, F. (2011). Network theory, plot analysis. Stanford Literary Lab Pamphlet Series 2. Available at: https://litlab.stanford.edu/LiteraryLabPamphlet2.pdf</bibl>
-                    <bibl>Murr, S. / Barth, F. (2017): Digital Analysis of the Literary Reception of J.W. v. Goethe’s ‘Die Leiden des jungen Werthers’, in: Digital Humanities (DH), Conference Abstracts, Montreal, Canada 2017.</bibl>
-                    <bibl>Nalisnick, E.T. / Baird, H.S. (2013): “Extracting sentiment networks from Shakespeare's plays”, in: Document Analysis and Recognition (ICDAR), 2013 12th International Conference on IEEE 758-762.</bibl>
-                    <bibl>Park, G.M. / Kim, S.H. / Cho, H.G. (2013): “Structural analysis on social network constructed from characters in literature texts”, in: Journal of Computers, 8(9): 2442-2447.</bibl>
-                    <bibl>Rydberg-Cox, J., (2011): “Social networks and the language of greek tragedy”, in: Journal of the Chicago Colloquium on Digital Humanities and Computer Science (Vol. 1, No. 3).</bibl>
-                    <bibl>West, D.B. (2001): Introduction to graph theory (Vol. 2). Upper Saddle River: Prentice Hall.</bibl>
+                    <bibl><hi rend="bold">Agarwal, A. / Corvalan, A. / Jensen, J. / Rambow, O. </hi>(2012): “Social Network Analysis of Alice in Wonderland”, in: CLfL@ NAACL-HLT 88-96.</bibl>
+                    <bibl><hi rend="bold">Agarwal, A. / Kotalwar, A. / Rambow, O. </hi>(2013): “Automatic Extraction of Social Networks from Literary Text. A Case Study on Alice in Wonderland”, in: IJCNLP 1202-1208.</bibl>
+                    <bibl><hi rend="bold">Beveridge, A. / Shan, J., </hi>(2016): “Network of thrones”, in: Math Horizons, 23(4): 18-22.</bibl>
+                    <bibl><hi rend="bold">Bondy, J.A. / Murty, U.S.R. </hi>(1976): Graph theory with applications (Vol. 290). London: Macmillan.</bibl>
+                    <bibl><hi rend="bold">Burrows, J.F. </hi>(1987): “Word-patterns and story-shapes: The statistical analysis of narrative style”, in: Literary &amp; Linguistic Computing, 2(2): 61-70.</bibl>
+                    <bibl><hi rend="bold">Elson, D.K. / Dames, N. / McKeown, K.R. </hi>(2010): “Extracting social networks from literary fiction”, in: Proceedings of the 48th annual meeting of the association for computational linguistics 138-147. Association for Computational Linguistics.</bibl>
+                    <bibl><hi rend="bold">Heuser, R., F. Moretti / E. Steiner </hi>(2016): The Emotions of London. Technical report. Stanford University. Pamphlets of the Stanford Literary Lab.</bibl>
+                    <bibl><hi rend="bold">Jayannavar, P. / Agarwal, A. / Ju, M. and Rambow, O. </hi>(2015): “Validating Literary Theories Using Automatic Social Network Extraction”, in CLfL@ NAACL-HLT 32-41.</bibl>
+                    <bibl><hi rend="bold">Jockers, M.L. / Underwood, T. </hi>(2016): “Text‐Mining the Humanities”, in: Schreibman, Susan / Siemens, Ray / Unsworth, John (eds.): A New Companion to Digital Humanities 291-306.</bibl>
+                    <bibl><hi rend="bold">Kim, E. / Padó, S. / Klinger, R. </hi>(2017): “Investigating the Relationship between Literary Genres and Emotional Plot Development”, in: Proceedings of the Joint SIGHUM Workshop on Computational Linguistics for Cultural Heritage, Social Sciences, Humanities and Literature 17-26.</bibl>
+                    <bibl><hi rend="bold">Klinger, R. / Sulliya S.S. / Reiter N. </hi>(2016): “Automatic Emotion Detection for Quantitative Literary Studies -- A Case Study on Kafka's ‘Das Schloss’ and ‘Amerika’”, in: Digital Humanities (DH), Conference Abstracts, Kraków, Poland, 2016.</bibl>
+                    <bibl><hi rend="bold">Michel, J.B. / Shen, Y.K. / Aiden, A.P. / Veres, A. / Gray, M.K. / Pickett, J.P. / Hoiberg, D. / Clancy, D. / Norvig, P. / Orwant, J. / Pinker, S. </hi>(2011): “Quantitative analysis of culture using millions of digitized books”, in: science, 331(6014) 176-182.</bibl>
+                    <bibl><hi rend="bold">Moretti, F. </hi>(2005): Graphs, maps, trees: abstract models for a literary history. Verso.</bibl>
+                    <bibl><hi rend="bold">Moretti, F. </hi>(2011). Network theory, plot analysis. Stanford Literary Lab Pamphlet Series 2. Available at: https://litlab.stanford.edu/LiteraryLabPamphlet2.pdf</bibl>
+                    <bibl><hi rend="bold">Murr, S. / Barth, F. </hi>(2017): Digital Analysis of the Literary Reception of J.W. v. Goethe’s ‘Die Leiden des jungen Werthers’, in: Digital Humanities (DH), Conference Abstracts, Montreal, Canada 2017.</bibl>
+                    <bibl><hi rend="bold">Nalisnick, E.T. / Baird, H.S. </hi>(2013): “Extracting sentiment networks from Shakespeare's plays”, in: Document Analysis and Recognition (ICDAR), 2013 12th International Conference on IEEE 758-762.</bibl>
+                    <bibl><hi rend="bold">Park, G.M. / Kim, S.H. / Cho, H.G. </hi>(2013): “Structural analysis on social network constructed from characters in literature texts”, in: Journal of Computers, 8(9): 2442-2447.</bibl>
+                    <bibl><hi rend="bold">Rydberg-Cox, J., </hi>(2011): “Social networks and the language of greek tragedy”, in: Journal of the Chicago Colloquium on Digital Humanities and Computer Science (Vol. 1, No. 3).</bibl>
+                    <bibl><hi rend="bold">West, D.B. </hi>(2001): Introduction to graph theory (Vol. 2). Upper Saddle River: Prentice Hall.</bibl>
                 </listBibl>
             </div>
       </back>
