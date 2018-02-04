@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="HODEL_Tobias_Automatic_Text_Recognition__Mit_Transkribus_Tex">
-   <teiHeader>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+    xml:id="HODEL_Tobias_Automatic_Text_Recognition__Mit_Transkribus_Tex">
+    <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Automatic Text Recognition: Mit Transkribus Texterkennung trainieren und anwenden</title>
@@ -36,14 +36,14 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-            <t:publisher xmlns:t="http://www.tei-c.org/ns/1.0">Georg Vogeler, im Auftrag des Verbands Digital Humanities im deutschaprachigen Raum e.V.</t:publisher>
-            <t:address xmlns:t="http://www.tei-c.org/ns/1.0">
-               <t:addrLine>Universität Graz</t:addrLine>
-               <t:addrLine>Zentrum für Informationsmodellierung - Austrian Centre for Digital Humanities</t:addrLine>
-               <t:addrLine>Elisabethstraße 59/III</t:addrLine>
-               <t:addrLine>8010 Graz</t:addrLine>
-            </t:address>
-         </publicationStmt>
+                <t:publisher xmlns:t="http://www.tei-c.org/ns/1.0">Georg Vogeler, im Auftrag des Verbands Digital Humanities im deutschaprachigen Raum e.V.</t:publisher>
+                <t:address xmlns:t="http://www.tei-c.org/ns/1.0">
+                    <t:addrLine>Universität Graz</t:addrLine>
+                    <t:addrLine>Zentrum für Informationsmodellierung - Austrian Centre for Digital Humanities</t:addrLine>
+                    <t:addrLine>Elisabethstraße 59/III</t:addrLine>
+                    <t:addrLine>8010 Graz</t:addrLine>
+                </t:address>
+            </publicationStmt>
             <sourceDesc>
                 <p>Converted from a Word document </p>
             </sourceDesc>
@@ -78,22 +78,91 @@
                     <term>Manuskript</term>
                 </keywords>
             </textClass>
-        <settingDesc>
-            <ab n="conference">DHd2018 - "Kritik der Digitalen Vernunft", Köln</ab>
-            <ab n="paperID">103</ab>
-            <ab n="session_ID">6</ab>
-            <ab n="session_numberInSession">1</ab>
-            <ab n="session_short">Workshop_1a</ab>
-            <ab n="session_start">2018-02-26 14:00</ab>
-            <ab n="session_end">2018-02-26 15:30</ab>
-         </settingDesc>
-      </profileDesc>
-    </teiHeader>
+            <settingDesc>
+                <ab n="conference">DHd2018 - "Kritik der Digitalen Vernunft", Köln</ab>
+                <ab n="paperID">103</ab>
+                <ab n="session_ID">6</ab>
+                <ab n="session_numberInSession">1</ab>
+                <ab n="session_short">Workshop_1a</ab>
+                <ab n="session_start">2018-02-26 14:00</ab>
+                <ab n="session_end">2018-02-26 15:30</ab>
+            </settingDesc>
+        </profileDesc>
+   </teiHeader>
    <text>
         <body>
             <p>Die Aufbereitung und Erkennung von handschriftlichen Dokumenten oder von speziellen Druckschriften ist sowohl für Menschen als auch für Computeralgorithmen eine (technische) Herausforderung. Die Bearbeitung von schriftlichem, insbesondere handschriftlichem Material aber auch früher Drucke wird bislang von spezialisierten Experten durchgeführt, um technisch und qualitativ hochstehende Resultate aus historischen Dokumenten zu erhalten. Zur Erstellung hochwertiger Editionen sind hilfswissenschaftliche Kenntnisse (Paläographie, Editorik), historisches Kontextwissen und technisches Know-how gefragt.</p>
             <p>Im Rahmen des Projekts READ (Recognition and Enrichment of Archival Documents) werden unterschiedliche Aufgaben der Automatisierung (weiter-)entwickelt, um qualitativ gute Ergebnisse mit optimalem Ressourceneinsatz zu erhalten. Ein speziell dafür entwickeltes Tool ist die Software Transkribus und die Transkribus Weboberfläche (öffentliche Vorstellung im November 2017). Beide Ansätze verkoppeln auf unterschiedliche Weise die Arbeit von Expertinnen und maschinelle Erkennleistung. Software und Webservice sind frei verfügbar unter www.transkribus.eu. Im Workshop wird Transkribus vorgestellt und kann durch die Teilnehmenden mit eigenen oder zur Verfügung gestellten Dokumenten getestet werden.</p>
             <p>Transkribus unterstützt alle Prozesse vom Import der Bilder über die Identifikation der Textblöcke und Zeilen, die zu einer detaillierten Verlinkung zwischen Text und Bild führt, sowie die Transkription und Annotation der Handschrift bis zum Export der gewonnen Daten in standardisierten Formaten.</p>
+
+            <div type="div2" rend="DH-Heading2">
+                <head>Workflow in Transkribus</head>
+                <p>Um Texte zu transkribieren oder zu edieren, müssen digitale Bilder hochgeladen und danach mit Layouterkennungswerkzeugen bearbeitet werden. Die Analyse des Layouts kann automatisiert geschehen, wobei die manuelle Kontrolle und falls nötig die Nachbearbeitung im Moment noch sinnvoll ist.</p>
+                <p>Dokumente können entweder automatisch mit bereits bestehenden ATR-Modellen (Automatic Text Recognition) erkannt werden oder die Transkription erfolgt händisch und kann danach zum Training neuer Modelle genutzt werden. Insbesondere für die Bearbeitung großer Dokumentenkorpora, die in ähnlichen Handschriften verfasst wurden, lassen sich bereits heute Effizienzgewinne und Vereinfachungen erzielen.</p>
+                <p>Aufbauend auf den Transkriptionen ist es möglich eine Vielzahl von Auszeichnungen und Annotationen innerhalb des Textes, aber auch darüber hinaus für Einzeldokumente und ganze Dokumentenbestände anzulegen. Neben der Anreicherung der Dokumente mit Metadaten (Identifikation von Personen, Orten und Sachwörtern) ist somit auch die Möglichkeit der Herstellung von Bestandsbeschreibungen und der Hinterlegung von Transkriptions- und Editionsvorschriften gegeben.</p>
+            </div>
+            <div type="div2" rend="DH-Heading2">
+                <head>Ausgabeformate</head>
+                <p>Für den Export stehen unterschiedliche Formate und Ausgabeformen zur Verfügung. So ist es möglich XML-Dateien zu exportieren, die den Vorgaben der TEI entsprechen. Ausgehend davon können komplexe digitale Editionen erstellt werden, die jedoch im Unterschied zu den meisten herkömmlichen Editionen eine enge Verzahnung mit den verwendeten Bilddateien aufweisen. Dadurch werden Editionen ermöglicht, die den transkribierten Text in der Zusammenschau mit der faksimilierten Vorlage sichtbar machen. Daneben sind auch Ausgaben als Druckdaten (PDF) oder zur Weiterbearbeitung für Textverarbeitungsprogramme (DOCX) implementiert. Schließlich ist auch ein Export im PAGE-Format (zur Anzeige in Viewern für OCR gelesene Dokumente, Pletschacher, 2010) sowie als METS (Metadata Encoding and Transmission) möglich.</p>
+            </div>
+            <div type="div2" rend="DH-Heading2">
+                <head>Zielpublikum</head>
+                <p>Die Plattform ist für unterschiedliche Gruppen konzipiert. Einerseits für GeisteswissenschaftlerINNEN, die selbst Transkriptionen und Editionen historischer Dokumente erstellen möchten. Andererseits richtet sich die Plattform an Archive, Bibliotheken und andere Erinnerungsinstitutionen, die handschriftliche Dokumente in ihren Sammlungen aufbewahren und ein Interesse an der Aufbereitung des Materials haben. Angesprochen werden sollen auch Studierende der Geistes-, Archiv- und Bibliothekswissenschaften mit einem Interesse an der Transkription historischer Handschriften.</p>
+                <p>Das Ziel, eine robuste und technisch hochstehende Automatisierung von Layout- und Handschriftenerkennung, lässt sich nur durch die enge Zusammenarbeit zwischen GeisteswissenschaftlerINNEn und ComputerspezialistINNen mit unterschiedlichen Voraussetzungen und Ansprüchen an Datenqualität und Herstellung von Transkriptionen erreichen. Die Algorithmen werden somit nicht nur bis zu einem Status als 
+                    <hi rend="italic">proof-of-concept</hi> erarbeitet, sondern bis zur Praxistauglichkeit verfeinert und in grösseren Forschungs- und Aufbewahrungsumgebungen getestet und verbessert. Die ComputerwissenschaftlerINNEN sind entsprechend ebenfalls ein wichtiges Zielpublikum, wobei bei ihnen weniger die Nutzung der Plattform als das Beisteuern von Software(teilen) anvisiert wird. 
+                </p>
+                <p>Die Speicherung der Dokumente erfolgt in der Cloud, gehostet auf Servern der Universität Innsbruck. Die importierten Daten bleiben auch während der Bearbeitung unverändert im Dateisystem liegen und werden ergänzt durch METS und PAGE XML. Alle bearbeiteten Dokumente und Daten bleiben somit in den unterschiedlichen Bearbeitungsstadien nicht nur lokal verfügbar, sondern können für andere Transkribusnutzerinnen und -nutzer freigegeben werden. Dank elaboriertem
+                    <hi rend="italic"> user-management </hi>ist die Zuteilung von Rollen möglich. 
+                </p>
+                <p>Die eingespeisten Dokumente und Daten bleiben privat und vor dem Zugriff Dritter geschützt. Von Projektseite können vorgenommene Arbeitsschritte zwecks besserem Verständnis der ausgeführten Arbeiten und letztlich der Verbesserung der Produkte ausgewertet werden.</p>
+                <p>Die Erkennprozesse werden serverseitig durchgeführt, sodass die Ressourcen auf den lokalen Rechnern nicht strapaziert werden. Transkribus ist mit JAVA und SWT programmiert und kann daher plattformunabhängig (Windows, Mac, Linux) genutzt werden.</p>
+            </div>
+            <div type="div2" rend="DH-Heading2">
+                <head>Ein- und Ausblicke im Workshop</head>
+                <p>Der Workshop richtet sich sowohl an GeisteswissenschaftlerINNEN als auch an ComputerwissenschaftlerINNEN, wobei vorwiegend die Tools und Möglichkeiten von Transkribus präsentiert werden.</p>
+                <p>Zwei zentrale Forschungsaspekte aus READ werden im Rahmen des Workshops durch Experten vorgestellt:</p>
+                <p>Einerseits das technische Verfahren des Automatic Text Recognition mit rekurrenten neuronalen Netzen (Leifert et al. 2016). Dabei wird kurz in die Trainings- und Auswertungsmechanismen mit neuronalen Netzen eingeführt und Möglichkeiten der Auswertung demonstriert.</p>
+                <p>Andererseits wird die Erkennung von komplexen Layouts, insbesondere Tabellen, erklärt und neueste technische Lösungen vorgestellt.</p>
+            </div>
+            <div type="div2" rend="DH-Heading2">
+                <head>Programm/Ablauf des Workshops</head>
+                <list type="unordered">
+                    <item><hi rend="italic">Begrüßung und Informationen zum Projekt READ</hi> (Tobias Hodel, Zürich): 20‘
+                        <lb/>Überblick über Ziele und Fortschritte im Rahmen des von der EU geförderten Projekts.</item>
+                    <item>
+                        <hi rend="italic">Machine Learning und automatisierte Text Erkennung</hi> (Tobias Strauß, Rostock): 30‘
+                        <lb/>Einführung und Erklärung zum Einsatz neuronaler Netze bei der Texterkennung
+                    </item>
+                    <item>
+                        <hi rend="italic">Einführung in Transkribus</hi>
+                        <hi rend="italic"> </hi>30‘
+                        <lb/>Aufbau und Funktionieren des Programms, Demonstration des Gebrauchs anhand von Beispielen. Aufzeigen der Möglichkeiten zum Einsatz der Automatisierungen.
+                    </item>
+                    <item>
+                        <hi rend="italic">Selbstständiges Arbeiten der Teilnehmenden mit Transkribus:</hi>
+                        <hi rend="italic"> </hi>90‘
+                    </item>
+                    <item>Die Möglichkeiten und Grenzen von Transkribus sollen von den Teilnehmenden (falls gewünscht mit eigenen Dokumenten) selbst ausgetestet werden.</item>
+                    <item>
+                        <hi rend="italic">Layout Analyse: Tabellen und andere schwierige Formen</hi>
+                        <hi rend="italic"> </hi>(Markus Diem, Wien): 30‘
+                        <lb/>Ein über Transkribus hinausgehender Teil des Projekts beschäftigt sich mit 
+                        <hi rend="italic">computer vision</hi>. Ziel ist es, auch komplexe Strukturen korrekt als Layout zu erkennen, um die automatisierte Texterkennung überhaupt zu ermöglichen. Tabellen gehören in dem Bereich zu den schwierigsten Formen der Texterkennung.
+                    </item>
+                    <item>
+                        <hi rend="italic">Diskussion über Vor- und Nachteile der Software:</hi> 30‘
+                        <lb/>Inklusive Evaluation des Tools und der Veranstaltung. Feedbacks werden eingeholt, zur Verbesserung der Software und Webtools (usability, Umfang und Leistung der Automatisierungen etc.).
+                    </item>
+                    <item>Nach Interesse der Teilnehmenden werden während des Workshops Kurzinputs zu folgenden Themen angeboten:
+                        <list type="ordered">
+                            <item>Matching von Text und Bild (bspw. aus bestehenden Transkriptionen),</item> 
+                            <item>Transkribus Learn (e-Learningumgebung), </item>
+                            <item>Crowdsourcing-Infrastruktur, </item>
+                            <item>ScanTent und DocScan (Fotografieren eigener Dokumente mit Android App).</item>
+                        </list>
+                    </item>
+                </list>
+        </div>
         <hi rend="bold">Workflow in Transkribus</hi>
             <p>Um Texte zu transkribieren oder zu edieren, müssen digitale Bilder hochgeladen und danach mit Layouterkennungswerkzeugen bearbeitet werden. Die Analyse des Layouts kann automatisiert geschehen, wobei die manuelle Kontrolle und falls nötig die Nachbearbeitung im Moment noch sinnvoll ist.</p>
             <p>Dokumente können entweder automatisch mit bereits bestehenden ATR-Modellen (Automatic Text Recognition) erkannt werden oder die Transkription erfolgt händisch und kann danach zum Training neuer Modelle genutzt werden. Insbesondere für die Bearbeitung großer Dokumentenkorpora, die in ähnlichen Handschriften verfasst wurden, lassen sich bereits heute Effizienzgewinne und Vereinfachungen erzielen.</p>
@@ -145,9 +214,9 @@
                 <lb/>- ScanTent und DocScan (Fotografieren eigener Dokumente mit Android App).
             </p>
             <p>Während des gesamten Workshops stehen drei wissenschaftliche Mitarbeitende des Projekts für Fragen und Auskünfte zur Verfügung. 
-                <hi rend="bold">Tobias Hodel</hi>
+                <hi rend="bold">Tobias Hodel (</hi>
                 <ref target="mailto:tobias.hodel@ji.zh.ch)">
-                    (tobias.hodel@ji.zh.ch)
+                    <hi rend="bold">tobias.hodel@ji.zh.ch)</hi>
                 </ref>
                 <hi rend="bold"> nimmt bereits im Vorfeld gerne Dokumente oder Projektideen an, damit sich die Veranstalter bereits vor dem Workshop Gedanken zu möglichen technischen Umsetzungen machen können.</hi>
             </p>
@@ -166,6 +235,7 @@
          <div type="bibliogr">
                 <listBibl>
                     <head>Bibliographie</head>
+                    <bibl>Leifert, G., Strauß, T., Grüning, T., Wustlich, W., Labahn, R., 2016. Cells in Multidimensional Recurrent Neural Networks. Journal of Machine Learning Research 17, 1-37.</bibl>
                     <bibl>
                   <hi rend="bold">Leifert, G., Strauß, T., Grüning, T., Wustlich, W., Labahn, R.,</hi> 2016. Cells in Multidimensional Recurrent Neural Networks. Journal of Machine Learning Research 17, 1-37.</bibl>
                 </listBibl>

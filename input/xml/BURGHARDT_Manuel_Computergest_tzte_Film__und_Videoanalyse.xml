@@ -198,8 +198,8 @@
         </body>
         <back>
          <div type="notes">
-            <note xml:id="ftn1" n="1" rend="footnote text"> Mehr Informationen unter http://dig-hum.de/ag-film-und-video</note>
-            <note xml:id="ftn2" n="2" rend="footnote text"> Mehr Informationen unter https://dhregensburg.wordpress.com/2017/07/03/symposium-film-rechnen-computergestuetzte-methoden-in-der-filmanalyse-2/ </note>
+            <note xml:id="ftn1" n="1"> Mehr Informationen unter http://dig-hum.de/ag-film-und-video</note>
+            <note xml:id="ftn2" n="2"> Mehr Informationen unter https://dhregensburg.wordpress.com/2017/07/03/symposium-film-rechnen-computergestuetzte-methoden-in-der-filmanalyse-2/ </note>
          </div>
          <div type="bibliogr">
                 <listBibl>
@@ -208,9 +208,7 @@
                         <hi rend="bold">Anonymus</hi> (2016): 
                         <hi rend="italic">MovieBarcodes</hi>. 
                         <ref target="http://moviebarcode.tumblr.com/">
-                            <hi rend="Internetlink">
-                                <hi rend="color(0000FF)">http://moviebarcode.tumblr.com/</hi>
-                            </hi>
+                            http://moviebarcode.tumblr.com/
                         </ref>
                     </bibl>
                     <bibl>
@@ -218,9 +216,7 @@
                         <hi rend="bold">Dillon</hi> (2015): 
                         <hi rend="italic">Spectrum</hi>. 
                         <ref target="http://dillonbaker.com/spectrum/">
-                            <hi rend="Internetlink">
-                                <hi rend="color(0000FF)">http://dillonbaker.com/spectrum/</hi>
-                            </hi>
+                            http://dillonbaker.com/spectrum/
                         </ref>
                     </bibl>
                     <bibl>
@@ -232,9 +228,7 @@
                         <hi rend="bold">Brodbeck, Frederic</hi> (2011): 
                         <hi rend="italic">Film Data Visualization</hi>. 
                         <ref target="http://cinemetrics.fredericbrodbeck.de/">
-                            <hi rend="Internetlink">
-                                <hi rend="color(0000FF)">http://cinemetrics.fredericbrodbeck.de/</hi>
-                            </hi>
+                           http://cinemetrics.fredericbrodbeck.de/
                         </ref>
                     </bibl>
                     <bibl>
@@ -248,9 +242,7 @@
                     <bibl>
                         <hi rend="bold">Casey, Michael</hi> (2014): “ACTION: Audiovisual Cinematic Toolbox for Interactive Object-based Media Navigation”. 
                         <ref target="http://aum.dartmouth.edu/~action/index.html">
-                            <hi rend="Internetlink">
-                                <hi rend="color(0000FF)">http://aum.dartmouth.edu/~action/index.html</hi>
-                            </hi>
+                           http://aum.dartmouth.edu/~action/index.html
                         </ref>
                     </bibl>
                     <bibl>
@@ -260,9 +252,7 @@
                     <bibl>
                         <hi rend="bold">Flückiger, Barbara</hi> (2015): „FilmColors“. 
                         <ref target="https://filmcolors.org/">
-                            <hi rend="Internetlink">
-                                <hi rend="color(0000FF)">https://filmcolors.org/</hi>
-                            </hi>
+                           https://filmcolors.org/
                         </ref>
                     </bibl>
                     <bibl>

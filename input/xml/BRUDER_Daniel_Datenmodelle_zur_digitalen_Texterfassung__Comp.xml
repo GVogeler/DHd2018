@@ -122,22 +122,26 @@
                     <p>
                         <figure>
                             <graphic url="BRUDER_Daniel_Datenmodelle_zur_digitalen_Texterfassung__Comp-10000201000004BC0000013C2C948493.png"/>
-                        </figure>These four different readings derived from mechanical re-combination potentially are not intended and to be reduced to specific readings only.
+                        </figure>
+                        <p>These four different readings derived from mechanical re-combination potentially are not intended and to be reduced to specific readings only.</p>
                     </p>
                     <p>
                         <figure>
                             <graphic url="BRUDER_Daniel_Datenmodelle_zur_digitalen_Texterfassung__Comp-100002010000048C000000D02F5C458C.png"/>
-                        </figure>Constraining these combinatorial permutations cannot be done in general ways within the mono-hierarchical tree data model. The tree model exposes a general limitation – even without the prevalence of overlapping structures.
+                        </figure>
+                        <p>Constraining these combinatorial permutations cannot be done in general ways within the mono-hierarchical tree data model. The tree model exposes a general limitation – even without the prevalence of overlapping structures.</p>
                     </p>
                     <p>
                         <figure>
                             <graphic url="BRUDER_Daniel_Datenmodelle_zur_digitalen_Texterfassung__Comp-100002010000045E000001E8B4A5A17E.png"/>
-                        </figure>While interconnecting nodes across the tree’s boundaries by (ab-)using attributes is syntactically possible it nevertheless makes the data idiosyncratic on semantic level, i.e. project-specific rules are introduced and must individually be followed when working with the data.
+                        </figure>
+                        <p>While interconnecting nodes across the tree’s boundaries by (ab-)using attributes is syntactically possible it nevertheless makes the data idiosyncratic on semantic level, i.e. project-specific rules are introduced and must individually be followed when working with the data.</p>
                     </p>
                     <p>
                         <figure>
                             <graphic url="BRUDER_Daniel_Datenmodelle_zur_digitalen_Texterfassung__Comp-10000201000004BA000002160FBA5023.png"/>
-                        </figure>These interconnections to constrain the combinatorics to specific readings cannot formally be made part of the tree structure itself. To build a tree, any node in the tree must have exactly one parent. A different data model and data structure is necessary to model more than one parent for one node, namely the data model of the graph.
+                        </figure>
+                        <p>These interconnections to constrain the combinatorics to specific readings cannot formally be made part of the tree structure itself. To build a tree, any node in the tree must have exactly one parent. A different data model and data structure is necessary to model more than one parent for one node, namely the data model of the graph.</p>
                     </p>
                     <p>
                         <figure>
@@ -151,18 +155,21 @@
                     <p>
                         <figure>
                             <graphic url="BRUDER_Daniel_Datenmodelle_zur_digitalen_Texterfassung__Comp-10000201000004B4000001104AB5DE41.png"/>
-                        </figure>Corresponding serialisation using XML and the segmentation method (TEI Consortium 2016d):
+                        </figure>
                     </p>
+                    <p>Corresponding serialisation using XML and the segmentation method (TEI Consortium 2016d):</p>
                     <p>
                         <figure>
                             <graphic url="BRUDER_Daniel_Datenmodelle_zur_digitalen_Texterfassung__Comp-10000201000004A800000186D676681C.png"/>
-                        </figure>The necessary interconnection and recombination of fragmented nodes cannot be modelled within the tree structure in general ways:
+                        </figure>
                     </p>
+                    <p>The necessary interconnection and recombination of fragmented nodes cannot be modelled within the tree structure in general ways:</p>
                     <p>
                         <figure>
                             <graphic url="BRUDER_Daniel_Datenmodelle_zur_digitalen_Texterfassung__Comp-10000201000004960000018CF71AE149.png"/>
-                        </figure>Another representation shows how one node in the tree is made the child of two parents:
+                        </figure>
                     </p>
+                    <p>Another representation shows how one node in the tree is made the child of two parents:</p>
                     <p>
                         <figure>
                             <graphic url="BRUDER_Daniel_Datenmodelle_zur_digitalen_Texterfassung__Comp-100002010000040A0000012A52D7B195.png"/>
@@ -195,69 +202,69 @@
          <div type="bibliogr">
                 <listBibl>
                     <head>Bibliography</head>
-                    <bibl>Banski, Piotr, and Adam Przepiórkowski. 2009. “Stand-Off TEI Annotation: The Case of the National Corpus of P
+                    <bibl><hi rend="bold">Banski, Piotr, and Adam Przepiórkowski. </hi>2009. “Stand-Off TEI Annotation: The Case of the National Corpus of P
                         <hi rend="italic">olish.” In Proceedings of the Third Linguistic Annotati</hi>on Workshop, 64–67. Association for Computational Linguistics.
                     </bibl>
-                    <bibl>Barnard, David T, Lou Burnard, Jean-Pierre Gaspart, Lynne A Price, CM Sperberg-McQueen, and Giovanni Battista Varile. 1995. “Hierarchical Encoding of Text: Technical Problems and SGML Solutions.” In 
+                    <bibl><hi rend="bold">Barnard, David T, Lou Burnard, Jean-Pierre Gaspart, Lynne A Price, CM Sperberg-McQueen, and Giovanni Battista Varile. </hi>1995. “Hierarchical Encoding of Text: Technical Problems and SGML Solutions.” In 
                         <hi rend="italic">Text Encoding Initiative</hi>, 211–31. Springer.
                     </bibl>
-                    <bibl>Dekhtyar, Alex, and Ionut E Iacob. 2005. “A Framework for Management of Concurrent XML Markup.” 
+                    <bibl><hi rend="bold">Dekhtyar, Alex, and Ionut E Iacob. </hi>2005. “A Framework for Management of Concurrent XML Markup.” 
                         <hi rend="italic">Data &amp; Knowledge Engineering</hi> 52 (2). Elsevier:185–208.
                     </bibl>
-                    <bibl>DeRose, Steven J., David G. Durand, Elli Mylonas, and Allen H. Renear. 1990. “What is text, really.” 
+                    <bibl><hi rend="bold">DeRose, Steven J., David G. Durand, Elli Mylonas, and Allen H. Renear. </hi>1990. “What is text, really.” 
                         <hi rend="italic">Journal of Computing in Higher Education</hi> 1 (2). Springer Nature:3–26. 
                         <ptr target="https://doi.org/10.1007/bf02941632"/>.
                     </bibl>
-                    <bibl>Di Iorio, Angelo, Silvio Peroni, and Fabio Vitali. 2010. “Handling markup overlaps using OWL.” In 
+                    <bibl><hi rend="bold">Di Iorio, Angelo, Silvio Peroni, and Fabio Vitali. </hi>2010. “Handling markup overlaps using OWL.” In 
                         <hi rend="italic">Knowledge Engineering and Management by the Masses</hi>, 391–400. Springer.
                     </bibl>
-                    <bibl>Di Iorio, Angelo, Silvio Peroni, and Fabio Vitali. 2011. “A Semantic Web Approach to Everyday Overlapping Markup.” 
+                    <bibl><hi rend="bold">Di Iorio, Angelo, Silvio Peroni, and Fabio Vitali. </hi>2011. “A Semantic Web Approach to Everyday Overlapping Markup.” 
                         <hi rend="italic">Journal of the American Society for Information Science and Technology</hi> 62 (9). Wiley Online Library:1696–1716.
                     </bibl>
-                    <bibl>Dipper, Stefanie. 2005. “XML-Based Stand-Off Representation and Exploitation of Multi-Level Linguistic Annotation.” In 
+                    <bibl><hi rend="bold">Dipper, Stefanie. </hi>2005. “XML-Based Stand-Off Representation and Exploitation of Multi-Level Linguistic Annotation.” In 
                         <hi rend="italic">Berliner XML Tage</hi>, 39–50.
                     </bibl>
-                    <bibl>Durusau, Patrick, and M Brook O'Donnell. 2002. “Concurrent Markup for XML Documents.” In 
+                    <bibl><hi rend="bold">Durusau, Patrick, and M Brook O'Donnell. </hi>2002. “Concurrent Markup for XML Documents.” In 
                         <hi rend="italic">Proc. XML Europe</hi>.
                     </bibl>
-                    <bibl>Götze, Michael, and Stefanie Dipper. 2006. “ANNIS: Complex Multilevel Annotations in a Linguistic Database.” In 
+                    <bibl><hi rend="bold">Götze, Michael, and Stefanie Dipper. </hi>2006. “ANNIS: Complex Multilevel Annotations in a Linguistic Database.” In 
                         <hi rend="italic">Proceedings of the 5</hi>
                         <hi rend="sup italic">th</hi>
                         <hi rend="italic"> Workshop on NLP and XML: Multi-Dimensional Markup in Natural Language Processing</hi>, 61–64. Association for Computational Linguistics.
                     </bibl>
-                    <bibl>Hanrahan, Elise. 2015. “Over-Tagging with XML in Digital Scholarly Editions.” In 
+                    <bibl><hi rend="bold">Hanrahan, Elise. </hi>2015. “Over-Tagging with XML in Digital Scholarly Editions.” In 
                         <hi rend="italic">DHd2015 Conference – von Daten Zu Erkenntnissen. Book of Abstracts.</hi>, edited by Various, 162–65. Graz, Austria.
                     </bibl>
-                    <bibl>Huitfeldt, Claus. 1994. “Multi-Dimensional Texts in a One-Dimensional Medium.” 
+                    <bibl><hi rend="bold">Huitfeldt, Claus. </hi>1994. “Multi-Dimensional Texts in a One-Dimensional Medium.” 
                         <hi rend="italic">Computers and the Humanities</hi> 28 (4-5). Springer:235–41.
                     </bibl>
-                    <bibl>Huitfeldt, Claus, and CM Sperberg-McQueen. 2001. “TexMECS: An Experimental Markup Meta-Language for Complex Documents.” 
+                    <bibl><hi rend="bold">Huitfeldt, Claus, and CM Sperberg-McQueen. </hi>2001. “TexMECS: An Experimental Markup Meta-Language for Complex Documents.” 
                         <hi rend="italic">URL Http://Www. Hit. Uib. No/Claus/Mlcd/Papers/Texmecs. Html</hi>.
                     </bibl>
-                    <bibl>Kuczera, Andreas. 2016. “Digital Editions Beyond Xml – Graph-Based Digital Editions.” In 
+                    <bibl><hi rend="bold">Kuczera, Andreas. </hi>2016. “Digital Editions Beyond Xml – Graph-Based Digital Editions.” In 
                         <hi rend="italic">Proceedings of the 3</hi>
                         <hi rend="sup italic">rd</hi>
                         <hi rend="italic"> Histoinformatics Workshop on Computational History (Histoinformatics 2016)</hi>, edited by Johannes Preiser-Kappeller Marten Düring Adam Jatowt.
                     </bibl>
-                    <bibl>Peroni, Silvio, Fabio Vitali, and Angelo Di Iorio. 2009. “Towards markup support for full GODDAGs and beyond: the EARMARK approach.” 
+                    <bibl><hi rend="bold">Peroni, Silvio, Fabio Vitali, and Angelo Di Iorio. </hi>2009. “Towards markup support for full GODDAGs and beyond: the EARMARK approach.” 
                         <ptr target="https://doi.org/10.4242/BalisageVol3.Peroni01"/>.
                     </bibl>
-                    <bibl>Renear, Allen H, Elli Mylonas, and David Durand. 1993. “Refining Our Notion of What Text Really Is: The Problem of Overlapping Hierarchies.” Oxford University Press.</bibl>
+                    <bibl><hi rend="bold">Renear, Allen H, Elli Mylonas, and David Durand. </hi>1993. “Refining Our Notion of What Text Really Is: The Problem of Overlapping Hierarchies.” Oxford University Press.</bibl>
                     <bibl>Schmidt, Desmond. 2014. “Towards an Interoperable Digital Scholarly Edition.” 
                         <hi rend="italic">Journal of the Text Encoding Initiative</hi>, no. 7. Text Encoding Initiative Consortium.
                     </bibl>
-                    <bibl>Schmidt, Desmond, and Robert Colomb. 2009. “A Data Structure for Representing Multi-Version Texts Online.” 
+                    <bibl><hi rend="bold">Schmidt, Desmond, and Robert Colomb. </hi>2009. “A Data Structure for Representing Multi-Version Texts Online.” 
                         <hi rend="italic">International Journal of Human-Computer Studies</hi> 67 (6). Elsevier:497–514.
                     </bibl>
-                    <bibl>Schmidt, Thomas, Christian Chiarcos, Timm Lehmberg, Georg Rehm, Andreas Witt, and Erhard Hinrichs. 2006. “Avoiding Data Graveyards: From Heterogeneous Data Collected in Multiple Research Projects to Sustainable Linguistic Resources.” In 
+                    <bibl><hi rend="bold">Schmidt, Thomas, Christian Chiarcos, Timm Lehmberg, Georg Rehm, Andreas Witt, and Erhard Hinrichs. </hi>2006. “Avoiding Data Graveyards: From Heterogeneous Data Collected in Multiple Research Projects to Sustainable Linguistic Resources.” In 
                         <hi rend="italic">6</hi>
                         <hi rend="sup italic">th</hi>
                         <hi rend="italic"> E-Meld Workshop, Ypsilanti</hi>.
                     </bibl>
-                    <bibl>Sperberg-McQueen, C Michael, and Claus Huitfeldt. 2000. “GODDAG: A Data Structure for Overlapping Hierarchies.” In 
+                    <bibl><hi rend="bold">Sperberg-McQueen, C Michael, and Claus Huitfeldt. </hi>2000. “GODDAG: A Data Structure for Overlapping Hierarchies.” In 
                         <hi rend="italic">Digital Documents: Systems and Principles</hi>, 139–60. Springer.
                     </bibl>
-                    <bibl>TEI Consortium. 2016a. “A Gentle Introduction to XML” In 
+                    <bibl><hi rend="bold">TEI Consortium. </hi>2016a. “A Gentle Introduction to XML” In 
                         <hi rend="italic">TEI P5: Guidelines for Electronic Text Encoding and Interchange</hi>, by TEI Consortium, Version 3.2.0. Last updated on 10th July 2017, revision 0fcf651. 
                         <ptr target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/SG.html#SG152"/>.
                     </bibl>
@@ -273,10 +280,10 @@
                         <hi rend="italic">TEI P5: Guidelines for Electronic Text Encoding and Interchange</hi>, by TEI Consortium, Version 3.2.0. Last updated on 10th July 2017, revision 0fcf651. 
                         <ptr target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/NH.html"/>.
                     </bibl>
-                    <bibl>Tennison, Jeni, and Wendell Piez. 2002. “The Layered Markup and Annotation Language (LMNL).” In 
+                    <bibl><hi rend="bold">Tennison, Jeni, and Wendell Piez. </hi>2002. “The Layered Markup and Annotation Language (LMNL).” In 
                         <hi rend="italic">Extreme Markup Languages</hi>.
                     </bibl>
-                    <bibl>Witt, Andreas. 2007. “Guideline: Multiple Hierarchies.” In 
+                    <bibl><hi rend="bold">Witt, Andreas. </hi>2007. “Guideline: Multiple Hierarchies.” In 
                         <hi rend="italic">Dagstuhl Seminar Proceedings</hi>. Schloss Dagstuhl-Leibniz-Zentrum für Informatik.
                     </bibl>
                 </listBibl>
