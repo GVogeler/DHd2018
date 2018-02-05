@@ -130,15 +130,15 @@
                 <item>Inwiefern nehmen wir überhaupt auf verschiedene Erkenntnisinteressen Rücksicht?</item>
             </list>
             <p>Wenn dies auch Fragen sind, die z. T. alle Geisteswissenschaften betreffen, so sollen sie doch in dem vorgeschlagenen Panel aus Sicht der speziellen Anforderung der Musikwissenschaft betrachtet werden. Hierzu werden drei verschiedene musikwissenschaftliche digitale Projekte (Weber-Gesamtausgabe, Hoftheater-Projekt und Beethovens Werkstatt) ihren bisherigen Umgang mit den Standards und den digitalen Möglichkeiten kritisch erläutern. Ergänzt werden diese Überlegungen durch die kritische Reflexion der technischen Bedingungen von Partizipation und Konsistenz der Daten (Zentrum Musik – Edition – Medien). </p>
-            <div type="div1">
+            <div type="div1" rend="DH-Heading1">
                 <head>Weber-Gesamtausgabe</head>
                 <p>Die digitale Edition der Schriften, Tagebücher und Schriften Carl Maria von Webers wurde 2011 der Öffentlichkeit vorgestellt und seitdem – sowohl in der TEI-Auszeichnung als auch in der HTML-Darstellung – kontinuierlich weiterentwickelt und angepasst. Erst im letzten Jahr z.B. wurden dabei „Themenkommentare“ ergänzt als Versuch, die inzwischen über 27.000 verfügbaren Dokumente stärker narrativ einzubetten bzw. zu verknüpfen. Grundsätzlich bleibt aber das Dilemma, dass ein starker Fokus auf der Standardisierung und Normalisierung der Auszeichnung liegt – das ermöglicht zwar auf einer globalen Ebene das Vernetzen mit anderen Repositorien z.B. durch GND-Beacon oder correspSearch und demonstriert somit die Möglichkeiten und Anschlussfähigkeiten digitaler Editionen, aus dem Blick geraten dabei aber oft die Besonderheiten (und Unsicherheiten) lokaler Phänomene.</p>
             </div>
-            <div type="div1">
+            <div type="div1" rend="DH-Heading1">
                 <head>Hoftheater-Projekt</head>
                 <p>Das sog. Hoftheater-Projekt („Entwicklung eines MEI- und TEI-basierten Modells kontextueller Tiefenerschließung von Musikalienbeständen am Beispiel des Detmolder Hoftheaters im 19. Jahrhundert (1825–1875)“) stellt einerseits in traditioneller Weise Informationen zu sehr heterogenen Beständen bereit und verknüpft diese andererseits untereinander in einer Form, die erst durch digitale Mittel möglich ist. D. h. neben der Präsentation von Digitalisaten, Metadaten, Incipits und Textübertragungen, werden die einzelnen Objekte durch die Auszeichnung nicht nur mit Elementen, sondern mit key-Attributen (und wenn möglich mit Normdaten) für Personen, Werke und Rollen miteinander in Verbindung gesetzt.</p>
                 <p>Es entsteht so ein Informationsnetz
-                    <ref target="ftn0" n="1"/>, das unterschiedliche Forschungsinteressen zulässt. Neben den „traditionellen“ Informationen zu den Quellen können Angaben zur Organisation des Theaterbetriebs, zur finanziellen Situation einzelner Personen, zur Theatersituation in den verschiedenen Spielorten etc. abgefragt werden. Die Daten können aber auch Basis soziologischer/historischer Studien werden, indem z. B. die Gehälter am Theater mit denen anderer Berufsgruppen in Beziehung gesetzt werden.
+                    <ref target="ftn1" n="1"/>, das unterschiedliche Forschungsinteressen zulässt. Neben den „traditionellen“ Informationen zu den Quellen können Angaben zur Organisation des Theaterbetriebs, zur finanziellen Situation einzelner Personen, zur Theatersituation in den verschiedenen Spielorten etc. abgefragt werden. Die Daten können aber auch Basis soziologischer/historischer Studien werden, indem z. B. die Gehälter am Theater mit denen anderer Berufsgruppen in Beziehung gesetzt werden.
                 </p>
                 <p>Es ergeben sich u. a. folgende Fragen für einen kritischen Umgang mit diesen Daten:</p>
                 <list type="unordered">
@@ -147,13 +147,13 @@
                     <item>die XML-Dateien stehen innerhalb der Anwendung zur Verfügung, können aber nicht frei heruntergeladen werden</item>
                 </list>
             </div>
-            <div type="div1">
+            <div type="div1" rend="DH-Heading1">
                 <head>
                     <anchor xml:id="id_docs-internal-guid-ffcc83ad-baf4-ca21-fbcf-05ebb14f388b"/>Beethovens Werkstatt
                 </head>
                 <p>Die Zielsetzung der in „Beethovens Werkstatt“ entwickelten VideApp ist es, die Erkenntnisse und Beobachtungen des Projekts zur Textgenese ausgewählter Werke Beethovens möglichst direkt sichtbar zu machen, also eine Vermittlungsform zu finden, die jenseits verbaler Erläuterungen einen möglichst unmittelbaren und nachvollziehbaren Zugang zu den Inhalten bietet. Dabei zeigt sich, dass die Menge der zu treffenden Aussagen, verbunden mit der Neuartigkeit dieser Vermittlungsformen, leicht zu Orientierungsschwierigkeiten des Benutzers führt: Nicht immer erschließen sich gut gemeinte Funktionen so schnell wie erhofft, und besonders spannende Beobachtungen gehen in der Fülle an Details unter. Eine vor Jahren im Kontext des Edirom-Projekts entstandene, aber nie umgesetzte Idee aufgreifend versucht das Projekt daher inzwischen, dem Benutzer besonders relevante Aspekte der Editionen über geführte „Touren“ nahezubringen, ohne dessen eigenständige vertiefende Auseinandersetzung mit den Materialien einzuschränken.</p>
             </div>
-            <div type="div1">
+            <div type="div1" rend="DH-Heading1">
                 <head>ZenMEM</head>
                 <p>Im Verbundprojekt „Zentrum Musik – Edition – Medien“ (ZenMEM) beschäftigen sich Wissenschaftler/-innen der Universität Paderborn, der Hochschule für Musik Detmold und der Hochschule Ostwestfalen-Lippe mit den Veränderungen und den neuen Möglichkeiten beim Übergang von analogen zu digitalen Musik- und Medieneditionen. </p>
                 <p>Unbestritten sind an dieser Stelle die vielen Vorteile und Mehrwerte einer digitalen Edition gegenüber der klassischen, analogen Edition in Buchform. Die Digitalisierung von Musikeditionen schafft aber gleichzeitig auch ganz neue Problemstellungen und Herausforderungen. Im Projekt durchgeführte problemzentrierte Leitfadeninterviews mit Editoren zeigten bspw. deutlich das Spannungsfeld zwischen Offenheit und Abgeschlossenheit insbesondere bei der (Nach-)Nutzung:</p>
@@ -172,7 +172,7 @@
         </body>
         <back>
          <div type="notes">
-            <note xml:id="ftn0" n="1" place="foot"> Siehe das Modell auf der Website: 
+            <note xml:id="ftn1" n="1" place="foot"> Siehe das Modell auf der Website: 
                         <ptr target="http://hoftheater-detmold.de/?page_id=1095"/>.
                     </note>
          </div>
@@ -200,11 +200,7 @@
                         <hi rend="italic">Social</hi> Edition: An Approach to Understanding the Electronic Scholarly Edition in the Context of New and Emerging Social Media“, in: Literary and linguistic computing 27/4 (2012): 445–461
                     </bibl>
                     <bibl>
-                        <hi rend="color(#000000)bold">Wiering, Frans / Crawford, Tim / Lewis, David</hi>
-                        <hi rend="color(#000000)"> </hi>
-                        <hi rend="color(#000000)">(2006): „Digital Critical Editions of Music. A Multidimensional Model“, Methods Network Expert Seminar „Modern Methods for Musico</hi>
-                        <hi rend="color(#000000)">logy“</hi>
-                        <hi rend="color(#000000)">,online unter </hi>
+                        <hi rend="bold">Wiering, Frans / Crawford, Tim / Lewis, David</hi>(2006): „Digital Critical Editions of Music. A Multidimensional Model“, Methods Network Expert Seminar „Modern Methods for Musicology“, online unter 
                         <ptr target="http://www.methodsnetwork.ac.uk/redist/pdf/wiering.pdf"/>
                     </bibl>
                 </listBibl>

@@ -125,10 +125,10 @@
                         height="3.314347222222222cm"
                         rend="inline"
                         url="BOENIG_Matthias_Ground_Truth__Grundwahrheit_oder_Ad_Hoc_L_su-image1.png"/>
+                    <head>Abbildung: Gegenüberstellung eines Modells eines Forschungsprozesses aus der empirischen Sozialforschung
+                        <ref target="ftn3" n="3"/> und dessen Anwendung auf den Prozess der automatischen Texterfassung
+                    </head>
                 </figure>
-                <p>Abbildung : Gegenüberstellung eines Modells eines Forschungsprozesses aus der empirischen Sozialforschung
-                    <ref target="ftn3" n="3"/> und dessen Anwendung auf den Prozess der automatischen Texterfassung
-                </p>
                 <p>Unter Ground Truth wird in diesem Kontext die Dokumentation ausgewählter Merkmale (Zeichen, Zeilen, Absätze, Spalten, Abbildungen, usw.) des Textes in Form einer digitalen Transkription verstanden. Dabei ist je nach Anwendung zwischen allgemeineren Referenz- und spezifischeren Trainingsdaten zu unterscheiden.</p>
                 <p>Die Volltext-Digitalisierung von Archiv- und Bibliotheksbeständen, größeren Dokumentsammlungen oder Korpora wird heute von unterschiedlichen Seiten verfolgt: So werden beispielsweise seit 2005 massenhaft Bibliotheksbestände von Google im Rahmen von öffentlich-privaten Partnerschaften sowohl als Bild als auch als Text digitalisiert. Daneben unterstützen Stiftungen, Fördereinrichtungen wie die DFG sowie die Haushaltsmittel der Institutionen die Digitalisierungen im Rahmen spezifischer Projekte. Im Ergebnis dieser Digitalisierungsbemühungen stehen Volltextsammlungen höchst unterschiedlicher Qualität, Vollständigkeit, Interoperabilität und Nachnutzbarkeit.</p>
                 <p>Mit der OCR-D-Initiative wird erstmals versucht, die technischen und organisatorischen Grundlagen dafür zu schaffen, einen breiten heterogenen Bestand von Drucken aus dem 16. – 18. Jahrhundert vollständig und einheitlich in elektronischen Volltext umzuwandeln und frei zur Verfügung zu stellen. Unter Einbeziehung einzelner Modulprojekte wird vom DFG-geförderten Koordinierungsprojekt
@@ -153,8 +153,7 @@
                 <p>3. Um diesem sehr breiten Anspruch gerecht zu werden, reicht eine Akklamation, dass diese oder jene Sammlung von Daten als Ground Truth bezeichnet und genutzt werden kann, nicht aus. Es bedarf hingegen eines Ground-Truth-Konzepts. Dieses Konzept dokumentiert sowohl dessen inneren Aufbau als auch dessen Erstellung. Damit können im Bereich der Texterfassung beispielsweise folgende Punkte im Umgang mit Ground Truth erreicht werden:</p>
                 <list type="ordered">
                     <item>(weitere) Reduktion bzw. Standardisierung der Freiheitsgrade bei der Transkription (z. B. langes s, Ligaturen, Zeilenumbruch)</item>
-                    <item>weitergehende Operationalisierung der Überprüfbarkeit der Validität
-                        <lb/>der Transkription
+                    <item>weitergehende Operationalisierung der Überprüfbarkeit der Validität der Transkription
                     </item>
                     <item>Ergänzung von (weiteren) Anweisungen zum Umgang mit koordinatenbasierten Phänomenen</item>
                 </list>
@@ -226,19 +225,19 @@
         </body>
         <back>
          <div type="notes">
-            <note xml:id="ftn1" n="1" rend="footnote text"> Vgl. dazu These 1.1: „Die Digital Humanities bereichern die traditionellen Geisteswissenschaften konzeptionell und methodisch - ihre Werkzeuge und Verfahren ergänzen das „Wie“ unserer Praxis um 
+            <note xml:id="ftn1" n="1"> Vgl. dazu These 1.1: „Die Digital Humanities bereichern die traditionellen Geisteswissenschaften konzeptionell und methodisch - ihre Werkzeuge und Verfahren ergänzen das „Wie“ unserer Praxis um 
                             <hi rend="italic">eine empirisch ausgerichtete Epistemologie.</hi>“ [Thesenpapier des Fachverbands „Digital Humanities im deutschsprachigen Raum“ 2014]
                         </note>
-            <note xml:id="ftn2" n="2" rend="footnote text"> siehe [Schnell, Hill, Esser 2011: 4]</note>
-            <note xml:id="ftn3" n="3" rend="footnote text"> siehe Fußnote 2</note>
-            <note xml:id="ftn4" n="4" rend="footnote text"> OCR-D: Koordinierungsprojekt zur Weiterentwicklung von Verfahren der Optical Character Recognition (OCR), http://www.ocr-d.de/.</note>
-            <note xml:id="ftn5" n="5" rend="footnote text"> „Es werden weitere korpusbasierte Analysen angestrebt. Diese erfordern aber eine Voraussetzung: Im Zuge der ‚digitale[n] Wende‘ [Schöch 2014: 130] ist es weiterhin wünschenswert und erforderlich, dass immer mehr literarische Texte digital zur Verfügung stehen oder diese durch leichte und praktikable Verfahren der Texterkennung (OCR, optical character recognition) digitalisierbar gemacht werden können.“ [Mihm 2016: 200]</note>
-            <note xml:id="ftn6" n="6" rend="footnote text"> „Dass die von uns einbezogenen Online-Repositorien hinsichtlich der editionsphilologischen Textqualität variieren ist ein hinzunehmendes Übel, dem wir zum einen pragmatisch (Wahl der bestmöglichen verfügbaren Ausgabe; Ziel, die Fehlermarge unter 2% zu halten), zum anderen unter Hinweis auf die flexible Struktur des Korpus (Austausch durch eine qualitativ hochwertigere Version ist möglich) begegnen. Durch die nahtlose Dokumentation des Korpus wird zudem die nötige Transparenz gewährleistet um auch Nachnutzern flexible Kontrolle der Daten zu ermöglichen.“ [Herrmann-Wolf, Lauer 2016: 159]</note>
-            <note xml:id="ftn7" n="7" rend="footnote text"> Page Analysis and Ground Truth Elements, siehe http://www.primaresearch.org/publications/ICPR2010_Pletschacher_PAGE und https://github.com/PRImA-Research-Lab/PAGE-XML.</note>
-            <note xml:id="ftn8" n="8" rend="footnote text"> Vgl. https://www.digitisation.eu/tools-resources/image-and-ground-truth-resources/.</note>
-            <note xml:id="ftn9" n="9" rend="footnote text"> ISO/IEC-Standard 19757-3:2006</note>
-            <note xml:id="ftn10" n="10" rend="footnote text"> Deutsches Textarchiv, DTA-Basisformat, http://www.deutschestextarchiv.de/doku/basisformat/.</note>
-            <note xml:id="ftn11" n="11" rend="footnote text"> Vgl. z.B. https://rdmorganiser.github.io/</note>
+            <note xml:id="ftn2" n="2"> siehe [Schnell, Hill, Esser 2011: 4]</note>
+            <note xml:id="ftn3" n="3"> siehe Fußnote 2</note>
+            <note xml:id="ftn4" n="4"> OCR-D: Koordinierungsprojekt zur Weiterentwicklung von Verfahren der Optical Character Recognition (OCR), http://www.ocr-d.de/.</note>
+            <note xml:id="ftn5" n="5"> „Es werden weitere korpusbasierte Analysen angestrebt. Diese erfordern aber eine Voraussetzung: Im Zuge der ‚digitale[n] Wende‘ [Schöch 2014: 130] ist es weiterhin wünschenswert und erforderlich, dass immer mehr literarische Texte digital zur Verfügung stehen oder diese durch leichte und praktikable Verfahren der Texterkennung (OCR, optical character recognition) digitalisierbar gemacht werden können.“ [Mihm 2016: 200]</note>
+            <note xml:id="ftn6" n="6"> „Dass die von uns einbezogenen Online-Repositorien hinsichtlich der editionsphilologischen Textqualität variieren ist ein hinzunehmendes Übel, dem wir zum einen pragmatisch (Wahl der bestmöglichen verfügbaren Ausgabe; Ziel, die Fehlermarge unter 2% zu halten), zum anderen unter Hinweis auf die flexible Struktur des Korpus (Austausch durch eine qualitativ hochwertigere Version ist möglich) begegnen. Durch die nahtlose Dokumentation des Korpus wird zudem die nötige Transparenz gewährleistet um auch Nachnutzern flexible Kontrolle der Daten zu ermöglichen.“ [Herrmann-Wolf, Lauer 2016: 159]</note>
+            <note xml:id="ftn7" n="7"> Page Analysis and Ground Truth Elements, siehe http://www.primaresearch.org/publications/ICPR2010_Pletschacher_PAGE und https://github.com/PRImA-Research-Lab/PAGE-XML.</note>
+            <note xml:id="ftn8" n="8"> Vgl. https://www.digitisation.eu/tools-resources/image-and-ground-truth-resources/.</note>
+            <note xml:id="ftn9" n="9"> ISO/IEC-Standard 19757-3:2006</note>
+            <note xml:id="ftn10" n="10"> Deutsches Textarchiv, DTA-Basisformat, http://www.deutschestextarchiv.de/doku/basisformat/.</note>
+            <note xml:id="ftn11" n="11"> Vgl. z.B. https://rdmorganiser.github.io/</note>
          </div>
          <div type="bibliogr">
                 <listBibl>

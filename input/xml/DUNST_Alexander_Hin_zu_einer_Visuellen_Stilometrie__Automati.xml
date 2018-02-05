@@ -84,150 +84,155 @@
     </teiHeader>
    <text>
         <body>
-            <p>1. Einleitung</p>
-            <p>Stilometrische Untersuchungen haben eine lange Tradition in der Literaturwissenschaft und erleben mit der Digitalisierung von Textkorpora und Analysemethoden in den letzten drei Jahrzehnten einen erneuten Aufschwung (Holmes und Calle-Martín &amp; Miranda-García). Ähnliche Tendenzen sind in den vergangenen Jahren auch in der Kunstgeschichte zu verzeichnen (Kohle; Qu, Taeb &amp; Hughes; Manovich). Im Gegensatz dazu sind stilometrische Untersuchen visueller Erzählungen noch nicht etabliert.
-                <hi rend="endnote_reference">
-                    
-                </hi> In den Bereich visueller, oder multimodaler, Narrative fallen etwa Comics, Filme und Fernsehserien, aber auch zu einem gewissen Grad Computerspiele, und damit viele der populärsten Erzählformen des 20. und 21. Jahrhunderts. Das Fehlen einschlägiger Forschung gründet einerseits auf die technischen Herausforderungen digitaler Bildanalyse, andererseits auf den Fokus auf qualitative und ideologiekritische Zugänge in großen Teilen der Medien- und Kulturwissenschaft. Auf Basis eines Corpus von 138 graphischen Romanen (Comicbüchern in Romanlänge) stellt unser Vortrag eine Methode zur automatischen Genre- und Autorunterscheidung vor. Weiters erörtern wir die Herausforderungen stilometrischer Methoden für Erzählformen, die Text und Bild kombinieren, und diskutieren abschließend die potenzielle Übertragbarkeit des vorgestellten Zugangs auf andere Medien.
-            </p>
-            <p>2. Datenbasis &amp; Methode</p>
-            <p>Die Basis der Untersuchungen stellt das erste repräsentative Corpus graphischer Romane dar, dass sich derzeit im Aufbau befindet (Dunst, Hartel &amp; Laubrock). Zum Zeitpunkt der Untersuchungen im Mai 2017 waren 160 Volltexte digitalisiert; davon wurden aufgrund mangelnder Scanqualität bei einigen Titeln 138 Bücher mit einer Gesamtmenge von rund 33.000 Seiten für die Corpusstudie herangezogen. Der Fokus auf Bildanalyse ergab sich dabei sowohl aus methodischen als auch aus praktischen Überlegungen: einerseits sind Methoden zur stilometrischen Textanalyse bereits etabliert und werden laufend weiterentwickelt. Viele davon lassen sich direkt auf Comicstext anwenden oder dafür adaptieren. Andererseits bereitet eine zuverlässige, automatisierte Textlokalisierung und -Erkennung in Comics weiterhin Probleme. Damit bleibt derzeit nur der Weg über eine semi-automatische und zeitintensive Textannotation.
-                <hi rend="endnote_reference">
-                    
-                </hi> Für größere Korpora bietet sich diese Methode daher nicht an. Drei visuelle Maße stellten die Basis unserer Berechnungen dar. Für all diese Maße wurde das Bild zunächst mithilfe einer linearen Näherung der Luminanz in eine Graustufen-Darstellung des Bildes umgewandelt. 
-            </p>
-            <list type="unordered">
-                <item>Median der Helligkeit einer Seite: der mittlere Grauton aller Pixel eines Bildes</item>
-                <item>Shannon-Entropie: Entsprechend der Shannon-Entropie aus der Informationstheorie: 
-                    <formula>
-                        <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
-                            <mi xmlns="http://www.w3.org/1998/Math/MathML">H</mi>
-                            <mfenced xmlns="http://www.w3.org/1998/Math/MathML" separators="|">
-                                <mrow>
-                                    <mi>X</mi>
-                                </mrow>
-                            </mfenced>
-                            <mo xmlns="http://www.w3.org/1998/Math/MathML">≔</mo>
-                            <mi xmlns="http://www.w3.org/1998/Math/MathML"> </mi>
-                            <mo xmlns="http://www.w3.org/1998/Math/MathML">-</mo>
-                            <msubsup xmlns="http://www.w3.org/1998/Math/MathML">
-                                <mo>∑</mo>
-                                <mrow>
-                                    <mi>i</mi>
-                                    <mo>=</mo>
-                                    <mn>1</mn>
-                                </mrow>
-                                <mrow>
-                                    <mi>n</mi>
-                                </mrow>
-                            </msubsup>
-                            <mrow xmlns="http://www.w3.org/1998/Math/MathML">
-                                <mi>P</mi>
-                                <mfenced separators="|">
+            <div type="div1" rend="DH-Heading1">
+                <head>1. Einleitung</head>
+                <p>Stilometrische Untersuchungen haben eine lange Tradition in der Literaturwissenschaft und erleben mit der Digitalisierung von Textkorpora und Analysemethoden in den letzten drei Jahrzehnten einen erneuten Aufschwung (Holmes und Calle-Martín &amp; Miranda-García). Ähnliche Tendenzen sind in den vergangenen Jahren auch in der Kunstgeschichte zu verzeichnen (Kohle; Qu, Taeb &amp; Hughes; Manovich). Im Gegensatz dazu sind stilometrische Untersuchen visueller Erzählungen noch nicht etabliert. In den Bereich visueller, oder multimodaler, Narrative fallen etwa Comics, Filme und Fernsehserien, aber auch zu einem gewissen Grad Computerspiele, und damit viele der populärsten Erzählformen des 20. und 21. Jahrhunderts. Das Fehlen einschlägiger Forschung gründet einerseits auf die technischen Herausforderungen digitaler Bildanalyse, andererseits auf den Fokus auf qualitative und ideologiekritische Zugänge in großen Teilen der Medien- und Kulturwissenschaft. Auf Basis eines Corpus von 138 graphischen Romanen (Comicbüchern in Romanlänge) stellt unser Vortrag eine Methode zur automatischen Genre- und Autorunterscheidung vor. Weiters erörtern wir die Herausforderungen stilometrischer Methoden für Erzählformen, die Text und Bild kombinieren, und diskutieren abschließend die potenzielle Übertragbarkeit des vorgestellten Zugangs auf andere Medien.
+                </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>2. Datenbasis &amp; Methode</head>
+                <p>Die Basis der Untersuchungen stellt das erste repräsentative Corpus graphischer Romane dar, dass sich derzeit im Aufbau befindet (Dunst, Hartel &amp; Laubrock). Zum Zeitpunkt der Untersuchungen im Mai 2017 waren 160 Volltexte digitalisiert; davon wurden aufgrund mangelnder Scanqualität bei einigen Titeln 138 Bücher mit einer Gesamtmenge von rund 33.000 Seiten für die Corpusstudie herangezogen. Der Fokus auf Bildanalyse ergab sich dabei sowohl aus methodischen als auch aus praktischen Überlegungen: einerseits sind Methoden zur stilometrischen Textanalyse bereits etabliert und werden laufend weiterentwickelt. Viele davon lassen sich direkt auf Comicstext anwenden oder dafür adaptieren. Andererseits bereitet eine zuverlässige, automatisierte Textlokalisierung und -Erkennung in Comics weiterhin Probleme. Damit bleibt derzeit nur der Weg über eine semi-automatische und zeitintensive Textannotation. Für größere Korpora bietet sich diese Methode daher nicht an. Drei visuelle Maße stellten die Basis unserer Berechnungen dar. Für all diese Maße wurde das Bild zunächst mithilfe einer linearen Näherung der Luminanz in eine Graustufen-Darstellung des Bildes umgewandelt. 
+                </p>
+                <list type="unordered">
+                    <item>Median der Helligkeit einer Seite: der mittlere Grauton aller Pixel eines Bildes</item>
+                    <item>Shannon-Entropie: Entsprechend der Shannon-Entropie aus der Informationstheorie: 
+                        <formula>
+                            <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML">H</mi>
+                                <mfenced xmlns="http://www.w3.org/1998/Math/MathML" separators="|">
                                     <mrow>
-                                        <msub>
-                                            <mrow>
-                                                <mi>x</mi>
-                                            </mrow>
-                                            <mrow>
-                                                <mi>i</mi>
-                                            </mrow>
-                                        </msub>
+                                        <mi>X</mi>
                                     </mrow>
                                 </mfenced>
-                                <mi>*</mi>
-                                <mi> </mi>
-                                <msub>
+                                <mo xmlns="http://www.w3.org/1998/Math/MathML">≔</mo>
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML"> </mi>
+                                <mo xmlns="http://www.w3.org/1998/Math/MathML">-</mo>
+                                <msubsup xmlns="http://www.w3.org/1998/Math/MathML">
+                                    <mo>∑</mo>
                                     <mrow>
-                                        <mi>l</mi>
-                                        <mi>o</mi>
-                                        <mi>g</mi>
+                                        <mi>i</mi>
+                                        <mo>=</mo>
+                                        <mn>1</mn>
                                     </mrow>
                                     <mrow>
-                                        <mn>2</mn>
+                                        <mi>n</mi>
                                     </mrow>
-                                </msub>
-                                <mo>(</mo>
-                                <mi>P</mi>
-                                <mfenced separators="|">
-                                    <mrow>
-                                        <msub>
-                                            <mrow>
-                                                <mi>x</mi>
-                                            </mrow>
-                                            <mrow>
-                                                <mi>i</mi>
-                                            </mrow>
-                                        </msub>
-                                    </mrow>
-                                </mfenced>
-                                <mo>)</mo>
-                            </mrow>
-                        </mml:math>
-                    </formula> . Hierbei ist die betrachtete Nachricht X die Liste aller Helligkeitswerte/Grautöne eines jeden Pixels. Ein schwarz-weiß Bild hat eine Entropie zwischen 0 und 1 (da es nur ‚binäre’ Informationen (schwarz oder weiß) enthält). Die höchste Entropie (den höchsten Informationsgehalt) hat ein Bild, in dem alle Graustufen möglichst gleich verteilt vorkommen.
-                </item>
-                <item>Anzahl der Flächen: Hierzu wird das Bild in fünf binäre Bilder aufgeteilt, entsprechend fünf unterschiedlicher Helligkeitsstufen. Das Bild B
-                    <hi rend="subscript">i</hi> zur Helligkeitsstufe H
-                    <hi rend="subscript">i</hi> enthält an den Stellen ein Bit „1“, an denen das Originalbild ein Pixel der Helligketisstufe H
-                    <hi rend="subscript">i</hi> enthält. Anschließend werden alle zusammenhängenden Flächen von 1-Bits gezählt und für alle fünf Helligkeitsstufen aufaddiert.
-                </item>
-            </list>
-            <p>Im Anschluss an die Kalkulation dieser Grundmaße berechneten wir aus den Ergebnissen pro Seite die Mediane für jedes einzelne der 138 Werke. Um stilistische Abweichungen innerhalb eines Werkes zu messen, berechneten wir die Standardabweichung von den drei Maßen. Um die stilistische Entwicklung innerhalb eines Werkes zu berechnen, wurden in einem ersten Schritt manuell Inhalts- von Funktionsseiten getrennt und letztere von der Kalkulation ausgeschlossen. Hierzu betrachten wir die Kurvenverläufe der drei visuellen Maße über alle Seiten eines graphischen Romans. Für jedes visuelle Maß ermittelten wir: die Anzahl Extrema je 100 Seiten, die Standardabweichung aller Messwerte, die Standardabweichung innerhalb der lokalen Minima bzw. Maxima, die Regelmäßigkeit einer Kurve (also die Standardabweichung des Abstands in Seiten zweier aufeinanderfolgender Extrema) und eine Klassifikation des Kurven-Beginns und -Endes (die erste/letzte Seite hat einen größeren/kleineren Messwert als die nächste/vorherige Seite). Letztere Berechnungen für die stilistische Entwicklung ergaben sieben Werte je Maß, also insgesamt 21 Ergebnisse pro graphischem Roman. Diese reduzierten wir mit Hilfe von skalierter Hauptkomponentenanalyse (Principal Component Analysis [PCA]). Die errechneten Maße zogen wir im Anschluss für die Analyse folgender literatur-, bzw. kulturwissenschaftlicher Konzepte heran: Genre, Autorschaft, und Publikationsformat. Aus Zeitgründen stellen wir hier nur Teilergebnisse für die ersten beiden Kategorien vor.</p>
-            <p>3. Ergebnisse &amp; Diskussion</p>
-            <p>3.a. Genre</p>
-            <p>Unser Korpus enthält sowohl fiktionale als auch nicht-fiktionale Texte, die trotz dieser Unterschiede oftmals als graphische Romane bezeichnet werden. Tatsächlich erscheint es sinnvoller hier von graphischen Narrativen zu sprechen. Dabei handelts es sich um durchgehende Erzählungen im Medium Comics, die sich an ein erwachsenes Publikum wenden und einen Umfang von mehr als 64 Seiten haben, womit sie sich vom traditionellen Seitenformat von Comicbüchern abheben. Einzelnen Büchern wurde auf Basis von Klappentexten, Verlagsinformaionen und Zusammenfassungen eines der folgenden Genres zugewiesen: Graphic Novel, Graphic Memoir, andere nicht-fiktionale Texte (Sachbücher). Texte, denen die Subgenres Superhelden, Science Fiction, Märchen, Fantasy, Mystery und Horror zugewiesen wurden, fassten wir in der Sammelkategorie Graphic Fantasy zusammen. Eine kleine Zahl an Texten, die unter keine dieser Klassifikationen fielen, fassten wir unter dem Begriff „miscellaneous“. Die Ergebnisse der Untersuchen wurden mit Hilfe von Welch Two Sample T-Tests mit p&lt;0,05 auf ihre statistische Signifikanz untersucht.</p>
-            <p> Dabei zeigte sich, dass sich die Genres Graphic Novel, Graphic Memoir und Graphic Fantasy signifikant voneinander unterscheiden. Im speziellen zeichnen sich graphische Romane und Memoiren durch einen deutlich regelmäßigeren visuellen Stil aus. Titel mit der niedrigsten Anzahl an Flächen und niedriger Standardabweichung von der durchschnittlichen Helligkeit gehören meist zu diesen beiden Genres. Graphische Memoiren sind außerdem deutlich heller als die Erzählungen, die wir unter Graphic Fantasy zusammengefasst hatten. Illustration 1 zeigt, dass sich auch eine historische Entwicklung nachweisen lässt. So werden graphische Memoiren seit Mitte des letzten Jahrzehnts deutlich heller – eine Entwicklung, die möglicherweise durch die beispielgebende Wirkung von mittlerweile kanonischen Titeln wie Alison Bechdels 
-                <hi rend="italic">Fun Home</hi> bedingt ist.
-            </p>
-            <figure>
-                <graphic n="1001"
-                     width="16.37115cm"
-                     height="10.24976388888889cm"
-                     rend="inline"
-                     url="DUNST_Alexander_Hin_zu_einer_Visuellen_Stilometrie__Automati-image1.jpeg"/>
-            </figure>
-            <p>Illustration 1: Historische Entwicklung der durchschnittlichen Helligkeit per Genre</p>
-            <p>3.b. Autorschaft</p>
-            <p>Ähnlich wie im Fall der Genreunterscheidungen zeigten sich signifikante visuelle Unterschiede zwischen unterschiedlichen Autoren. Illustration 2 visualisiert die stilistische Handschrift von Künstlern, die mir mehr als drei Titeln in unserem Corpus vertreten sind. Jene, die einen von Werk zu Werk vergleichsweise konstanten Stil bevorzugen, nehmen dabei eine kleinere Fläche in der Matrix ein. Darunter fallen etwa die bekannten Autoren Jason Lutes, Chester Brown und der japanische Manga-Autor Ozamu Tezuka. Hingegen nehmen Frank Miller, Dave McKean und David Mazzuchelli aufgrund ihrer visuellen Bandbreite eine größere Fläche im stilistischen Raum (Manovichs „style space“) graphischer Erzählungen ein. Die Einbeziehung von Tezuka zeigt als Testfall aber auch die momentanen Grenzen dieser Methode auf. Die verwendeten Maße erlauben keine Differenzierung zwischen dem angloamerikanischen graphischen Roman und dem japanischen Manga, zwei Erzählformen, die trotz gegenseitiger Beeinflussung deutliche stilistische Unterschiede aufweisen.</p>
-            <figure>
-                <graphic n="1002"
-                     width="16.68865cm"
-                     height="13.680152777777778cm"
-                     rend="inline"
-                     url="DUNST_Alexander_Hin_zu_einer_Visuellen_Stilometrie__Automati-image2.jpeg"/>
-            </figure>
-            <p>Illustration 2: PCA stilistischer Handschrift von Comicsautoren</p>
-            <p>4. Zusammenfassung &amp; Ausblick</p>
-            <p>In diesem Vortrag haben wir automatische Bildanalysen vorgestellt, die stilometrische Unterscheidungen zwischen Genres und Autoren auf den Bereich visueller Erzählungen übertragen. Dazu ist anzumerken, dass sich dieser Zugang in einem experimentellen Stadium befindet. So werden wir demnächst zusätzliche visuelle Maße zu den hier verwendeten erproben. In einem ersten Schritt ist dabei an Farbigkeitsmaße gedacht. Die Datenbasis wird mit Fortschreiten der Retrodigitalisierung unseres Corpus auf rund 250 Werke erweitert. Bei den Genreunterscheidungen hat sich die relativ aufwändige Berechnung der internen Entwicklung eines Werkes als wenig aussagekräftig herausgestellt. Allerdings fließt diese bei den Autorenunterscheidungen in die PCA ein. Auch die Genrekategorien bedürfen einer weiteren Verfeinerung: bei Versuchen, die interne Kohärenz der Genres zu berechnen (Distanzmaße vom Zentroiden eines Clusters) hat sich die Sammelkategorie Graphic Fantasy als weniger kohärent als eine zufällige Vergleichsgruppe herausgestellt. Hier sollten bei neuerlichen Berechnungen Subgenres wie Superheldennarrative herangezogen werden. Als graphische Kunstwerke, die von Hand gezeichnet werden, unterscheiden sich Comics deutlich von Filmen, Fernsehserien, aber auch von Computerspielen. Dennoch birgt die hier präsentierte Methode unserer Meinung nach Potenzial für diese Medien, da Fragen zur Stilistik von Genre und Autorschaft auch dort eine Rolle spielen. So könnte etwa erforscht werden, ob sich das Genre des Film Noir tatächlich stilistische Kohärenz aufweist, oder ob sich komplexe Qualitätsserien wie 
+                                </msubsup>
+                                <mrow xmlns="http://www.w3.org/1998/Math/MathML">
+                                    <mi>P</mi>
+                                    <mfenced separators="|">
+                                        <mrow>
+                                            <msub>
+                                                <mrow>
+                                                    <mi>x</mi>
+                                                </mrow>
+                                                <mrow>
+                                                    <mi>i</mi>
+                                                </mrow>
+                                            </msub>
+                                        </mrow>
+                                    </mfenced>
+                                    <mi>*</mi>
+                                    <mi> </mi>
+                                    <msub>
+                                        <mrow>
+                                            <mi>l</mi>
+                                            <mi>o</mi>
+                                            <mi>g</mi>
+                                        </mrow>
+                                        <mrow>
+                                            <mn>2</mn>
+                                        </mrow>
+                                    </msub>
+                                    <mo>(</mo>
+                                    <mi>P</mi>
+                                    <mfenced separators="|">
+                                        <mrow>
+                                            <msub>
+                                                <mrow>
+                                                    <mi>x</mi>
+                                                </mrow>
+                                                <mrow>
+                                                    <mi>i</mi>
+                                                </mrow>
+                                            </msub>
+                                        </mrow>
+                                    </mfenced>
+                                    <mo>)</mo>
+                                </mrow>
+                            </mml:math>
+                        </formula> . Hierbei ist die betrachtete Nachricht X die Liste aller Helligkeitswerte/Grautöne eines jeden Pixels. Ein schwarz-weiß Bild hat eine Entropie zwischen 0 und 1 (da es nur ‚binäre’ Informationen (schwarz oder weiß) enthält). Die höchste Entropie (den höchsten Informationsgehalt) hat ein Bild, in dem alle Graustufen möglichst gleich verteilt vorkommen.
+                    </item>
+                    <item>Anzahl der Flächen: Hierzu wird das Bild in fünf binäre Bilder aufgeteilt, entsprechend fünf unterschiedlicher Helligkeitsstufen. Das Bild B
+                        <hi rend="subscript">i</hi> zur Helligkeitsstufe H
+                        <hi rend="subscript">i</hi> enthält an den Stellen ein Bit „1“, an denen das Originalbild ein Pixel der Helligketisstufe H
+                        <hi rend="subscript">i</hi> enthält. Anschließend werden alle zusammenhängenden Flächen von 1-Bits gezählt und für alle fünf Helligkeitsstufen aufaddiert.
+                    </item>
+                </list>
+                <p>Im Anschluss an die Kalkulation dieser Grundmaße berechneten wir aus den Ergebnissen pro Seite die Mediane für jedes einzelne der 138 Werke. Um stilistische Abweichungen innerhalb eines Werkes zu messen, berechneten wir die Standardabweichung von den drei Maßen. Um die stilistische Entwicklung innerhalb eines Werkes zu berechnen, wurden in einem ersten Schritt manuell Inhalts- von Funktionsseiten getrennt und letztere von der Kalkulation ausgeschlossen. Hierzu betrachten wir die Kurvenverläufe der drei visuellen Maße über alle Seiten eines graphischen Romans. Für jedes visuelle Maß ermittelten wir: die Anzahl Extrema je 100 Seiten, die Standardabweichung aller Messwerte, die Standardabweichung innerhalb der lokalen Minima bzw. Maxima, die Regelmäßigkeit einer Kurve (also die Standardabweichung des Abstands in Seiten zweier aufeinanderfolgender Extrema) und eine Klassifikation des Kurven-Beginns und -Endes (die erste/letzte Seite hat einen größeren/kleineren Messwert als die nächste/vorherige Seite). Letztere Berechnungen für die stilistische Entwicklung ergaben sieben Werte je Maß, also insgesamt 21 Ergebnisse pro graphischem Roman. Diese reduzierten wir mit Hilfe von skalierter Hauptkomponentenanalyse (Principal Component Analysis [PCA]). Die errechneten Maße zogen wir im Anschluss für die Analyse folgender literatur-, bzw. kulturwissenschaftlicher Konzepte heran: Genre, Autorschaft, und Publikationsformat. Aus Zeitgründen stellen wir hier nur Teilergebnisse für die ersten beiden Kategorien vor.</p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>3. Ergebnisse &amp; Diskussion</head>
+                <div type="div2" rend="DH-Heading2">
+                    <head>3.a. Genre</head>
+                    <p>Unser Korpus enthält sowohl fiktionale als auch nicht-fiktionale Texte, die trotz dieser Unterschiede oftmals als graphische Romane bezeichnet werden. Tatsächlich erscheint es sinnvoller hier von graphischen Narrativen zu sprechen. Dabei handelts es sich um durchgehende Erzählungen im Medium Comics, die sich an ein erwachsenes Publikum wenden und einen Umfang von mehr als 64 Seiten haben, womit sie sich vom traditionellen Seitenformat von Comicbüchern abheben. Einzelnen Büchern wurde auf Basis von Klappentexten, Verlagsinformaionen und Zusammenfassungen eines der folgenden Genres zugewiesen: Graphic Novel, Graphic Memoir, andere nicht-fiktionale Texte (Sachbücher). Texte, denen die Subgenres Superhelden, Science Fiction, Märchen, Fantasy, Mystery und Horror zugewiesen wurden, fassten wir in der Sammelkategorie Graphic Fantasy zusammen. Eine kleine Zahl an Texten, die unter keine dieser Klassifikationen fielen, fassten wir unter dem Begriff „miscellaneous“. Die Ergebnisse der Untersuchen wurden mit Hilfe von Welch Two Sample T-Tests mit p&lt;0,05 auf ihre statistische Signifikanz untersucht.</p>
+                    <p> Dabei zeigte sich, dass sich die Genres Graphic Novel, Graphic Memoir und Graphic Fantasy signifikant voneinander unterscheiden. Im speziellen zeichnen sich graphische Romane und Memoiren durch einen deutlich regelmäßigeren visuellen Stil aus. Titel mit der niedrigsten Anzahl an Flächen und niedriger Standardabweichung von der durchschnittlichen Helligkeit gehören meist zu diesen beiden Genres. Graphische Memoiren sind außerdem deutlich heller als die Erzählungen, die wir unter Graphic Fantasy zusammengefasst hatten. Illustration 1 zeigt, dass sich auch eine historische Entwicklung nachweisen lässt. So werden graphische Memoiren seit Mitte des letzten Jahrzehnts deutlich heller – eine Entwicklung, die möglicherweise durch die beispielgebende Wirkung von mittlerweile kanonischen Titeln wie Alison Bechdels 
+                        <hi rend="italic">Fun Home</hi> bedingt ist.
+                    </p>
+                    <figure>
+                        <graphic n="1001"
+                             width="16.37115cm"
+                             height="10.24976388888889cm"
+                             rend="inline"
+                             url="DUNST_Alexander_Hin_zu_einer_Visuellen_Stilometrie__Automati-image1.jpeg"/>
+                        <head>Illustration 1: Historische Entwicklung der durchschnittlichen Helligkeit per Genre</head>
+                    </figure>
+                </div>
+                <div type="div2" rend="DH-Heading2">   
+                    <head>3.b. Autorschaft</head>
+                    <p>Ähnlich wie im Fall der Genreunterscheidungen zeigten sich signifikante visuelle Unterschiede zwischen unterschiedlichen Autoren. Illustration 2 visualisiert die stilistische Handschrift von Künstlern, die mir mehr als drei Titeln in unserem Corpus vertreten sind. Jene, die einen von Werk zu Werk vergleichsweise konstanten Stil bevorzugen, nehmen dabei eine kleinere Fläche in der Matrix ein. Darunter fallen etwa die bekannten Autoren Jason Lutes, Chester Brown und der japanische Manga-Autor Ozamu Tezuka. Hingegen nehmen Frank Miller, Dave McKean und David Mazzuchelli aufgrund ihrer visuellen Bandbreite eine größere Fläche im stilistischen Raum (Manovichs „style space“) graphischer Erzählungen ein. Die Einbeziehung von Tezuka zeigt als Testfall aber auch die momentanen Grenzen dieser Methode auf. Die verwendeten Maße erlauben keine Differenzierung zwischen dem angloamerikanischen graphischen Roman und dem japanischen Manga, zwei Erzählformen, die trotz gegenseitiger Beeinflussung deutliche stilistische Unterschiede aufweisen.</p>
+                    <figure>
+                        <graphic n="1002"
+                             width="16.68865cm"
+                             height="13.680152777777778cm"
+                             rend="inline"
+                             url="DUNST_Alexander_Hin_zu_einer_Visuellen_Stilometrie__Automati-image2.jpeg"/>
+                        <head>Illustration 2: PCA stilistischer Handschrift von Comicsautoren</head>
+                    </figure>
+                   </div>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>4. Zusammenfassung &amp; Ausblick</head>
+                <p>In diesem Vortrag haben wir automatische Bildanalysen vorgestellt, die stilometrische Unterscheidungen zwischen Genres und Autoren auf den Bereich visueller Erzählungen übertragen. Dazu ist anzumerken, dass sich dieser Zugang in einem experimentellen Stadium befindet. So werden wir demnächst zusätzliche visuelle Maße zu den hier verwendeten erproben. In einem ersten Schritt ist dabei an Farbigkeitsmaße gedacht. Die Datenbasis wird mit Fortschreiten der Retrodigitalisierung unseres Corpus auf rund 250 Werke erweitert. Bei den Genreunterscheidungen hat sich die relativ aufwändige Berechnung der internen Entwicklung eines Werkes als wenig aussagekräftig herausgestellt. Allerdings fließt diese bei den Autorenunterscheidungen in die PCA ein. Auch die Genrekategorien bedürfen einer weiteren Verfeinerung: bei Versuchen, die interne Kohärenz der Genres zu berechnen (Distanzmaße vom Zentroiden eines Clusters) hat sich die Sammelkategorie Graphic Fantasy als weniger kohärent als eine zufällige Vergleichsgruppe herausgestellt. Hier sollten bei neuerlichen Berechnungen Subgenres wie Superheldennarrative herangezogen werden. Als graphische Kunstwerke, die von Hand gezeichnet werden, unterscheiden sich Comics deutlich von Filmen, Fernsehserien, aber auch von Computerspielen. Dennoch birgt die hier präsentierte Methode unserer Meinung nach Potenzial für diese Medien, da Fragen zur Stilistik von Genre und Autorschaft auch dort eine Rolle spielen. So könnte etwa erforscht werden, ob sich das Genre des Film Noir tatächlich stilistische Kohärenz aufweist, oder ob sich komplexe Qualitätsserien wie 
                 <hi rend="italic">The Wire</hi> oder 
                 <hi rend="italic">The Sopranos</hi> visuell von anderen TV-Erzählungen unterscheiden.
-            </p>
+                </p>
+            </div>
         </body>
         <back>
          <div type="notes">
-            <note rend="endnote text"> Zwar hatte Manovich stilistische Bildanalysen auch auf Manga angewandt. Diese Studien blieben aber weitgehend explorativ und ließen keine Rückschlüsse auf Konzepte wie Autorschaft oder Genre zu (Manovich, Douglas &amp; Zepel). </note>
-            <note rend="endnote text"> Diese bietet die Beta-Version unseres graphischen XML-Editors an, der unter folgender Adresse frei verfügbar ist: https://groups.uni-paderborn.de/graphic-literature/wp/?page_id=3592.</note>
+            <note rend="endnote text">Zwar hatte Manovich stilistische Bildanalysen auch auf Manga angewandt. Diese Studien blieben aber weitgehend explorativ und ließen keine Rückschlüsse auf Konzepte wie Autorschaft oder Genre zu (Manovich, Douglas &amp; Zepel). </note>
+            <note rend="endnote text">Diese bietet die Beta-Version unseres graphischen XML-Editors an, der unter folgender Adresse frei verfügbar ist: https://groups.uni-paderborn.de/graphic-literature/wp/?page_id=3592.</note>
          </div>
          <div type="bibliogr">
                 <listBibl>
                     <head>Bibliographie</head>
-                    <bibl>5. Bibliographie</bibl>
-                    <bibl>Calle-Martin, J. &amp; A. Miranda-García (2012). „Stylometry and Authorship Attribution: Introduction to the Special Issue“, 
+                    <bibl><hi rend="bold">Calle-Martin, J. &amp; A. Miranda-García </hi>(2012). „Stylometry and Authorship Attribution: Introduction to the Special Issue“, 
                         <hi rend="italic">Stylometry and Authorship Attribution</hi>, special issue of 
                         <hi rend="italic">English Studies</hi> 93-3: 251-58.
                     </bibl>
-                    <bibl>Dunst, A., R. Hartel &amp; J. Laubrock (2017). „The Graphic Narrative Corpus (GNC): Design, Annotation, and Analysis for the Digital Humanities” 
+                    <bibl><hi rend="bold">Dunst, A., R. Hartel &amp; J. Laubrock </hi>(2017). „The Graphic Narrative Corpus (GNC): Design, Annotation, and Analysis for the Digital Humanities” 
                         <hi rend="italic">Proceedings of the 14th IAPR International Conference on Document Analysis and Recognition (ICDAR 2017)</hi> [im Druck].
                     </bibl>
-                    <bibl>Holmes, D (1998). „The Evolution of Stylometry in Humaninities Scholarship“ 
+                    <bibl><hi rend="bold">Holmes, D </hi>(1998). „The Evolution of Stylometry in Humaninities Scholarship“ 
                         <hi rend="italic">Literary and Linguistic Computing</hi> 13-3: 111-17.
                     </bibl>
-                    <bibl>Kohle, H. (2013). 
+                    <bibl><hi rend="bold">Kohle, H. </hi>(2013). 
                         <hi rend="italic">Digitale Bildwissenschaft</hi>. Glückstadt: VWH.
                     </bibl>
-                    <bibl>Manovich, L. (2011) “Style Space: How to Compare Image Sets and Follow their Evolution”, http://manovich.net/index.php/projects/style-space.</bibl>
-                    <bibl>Manovich, L., J. Douglas, T. Zepel (2011). „How to Compare One Million Images“, http://manovich.net/index.php/projects/how-to-compare.</bibl>
-                    <bibl>Qi, Hanchao, Armeen Taeb &amp; Shannon M. Hughes, „Visual stylometry using background selection and wavelet-HMT-based Fisher information distances for attribution and dating of impressionist paintings” 
+                    <bibl><hi rend="bold">Manovich, L. </hi>(2011) “Style Space: How to Compare Image Sets and Follow their Evolution”, http://manovich.net/index.php/projects/style-space.</bibl>
+                    <bibl><hi rend="bold">Manovich, L., J. Douglas, T. Zepel </hi>(2011). „How to Compare One Million Images“, http://manovich.net/index.php/projects/how-to-compare.</bibl>
+                    <bibl><hi rend="bold">Qi, Hanchao, Armeen Taeb &amp; Shannon M. Hughes </hi>, „Visual stylometry using background selection and wavelet-HMT-based Fisher information distances for attribution and dating of impressionist paintings” 
                         <hi rend="italic">Signal Processing</hi> 93-3 (2013): 541-53.
                     </bibl>
                 </listBibl>

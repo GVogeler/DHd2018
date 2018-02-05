@@ -126,7 +126,8 @@
                     <figure>
                         <graphic url="SCH_CH_Christof_Burrows_Zeta__Varianten_und_Evaluation-1000020100000522000003CDE24B21AB28677D48.png"/>
                         <head>Abbildung 1: Scatterplot der Wörter in zwei Textgruppen (französische Komödien und Tragödien): “document proportions” der Wörter in zwei Textgruppen (x- und y-Achse) und resultierende Zeta-Werte (Distanz von der Diagonale).</head>
-                    </figure>Eine bekannte Implementierung von Zeta existiert im stylo-Paket für Rin der Funktion "oppose()" (Eder et al. 2016). Abbildung 2 zeigt für ein Beispiel die Ergebnisdarstellung in der hier verwendeten “pyzeta”-Implementierung.
+                    </figure>
+                    <p>Eine bekannte Implementierung von Zeta existiert im stylo-Paket für Rin der Funktion "oppose()" (Eder et al. 2016). Abbildung 2 zeigt für ein Beispiel die Ergebnisdarstellung in der hier verwendeten “pyzeta”-Implementierung. </p>
                 </p>
                 <p>
                     <figure>
@@ -135,14 +136,14 @@
                     </figure>
                 </p>
                 <p>Anwendungsbeispiele von Zeta gibt es in der Shakespeare-Forschung (Craig und Kinney 2009), der modernen englischsprachigen Literatur (Hoover 2010; Weidman und O’Sullivan 2017) und der Romanistik (Schöch im Druck). In der zuletzt genannten Arbeit zum französischen Theater der Klassik und Aufklärung konnte nicht nur die erwartbare, klare Differenzierung von Komödien und Tragödien gezeigt werden. Vielmehr wurde auch die spezifische Verortung der Tragikomödien deutlich, die nicht als Mischform zwischen Komödien und Tragödien zu verstehen sind, sondern eine besondere Affinität zur Tragödie aufweisen (Abbildung 3). </p>
-            </div>
-            <div type="div1" rend="DH-Heading1">
-                <head>
                     <figure>
                         <graphic url="SCH_CH_Christof_Burrows_Zeta__Varianten_und_Evaluation-100002010000063C000004940268170BBB0FF291.png"/>
                         <head>Abbildung 3: Hauptkomponentenanalyse auf Grundlage der 50 Wörter, die für Komödien und Tragödien die höchsten Zeta-Werte erhalten. Komödien in rot, Tragödien in blau, Tragikomödien in grün. Quelle: Schöch im Druck.</head>
-                    </figure>Varianten von Zeta
-                </head>
+                    </figure>
+            </div>
+            <div type="div2" rend="DH-Heading2">
+                <head>Varianten von Zeta</head>
+                
                 <p>Ausgehend von der ursprünglichen Formulierung von Zeta durch Burrows als Subtraktion der “document proportions” lassen sich mehrere Faktoren identifizieren, die zur Formulierung von Varianten von Zeta geeignet erscheinen: </p>
                 <list type="ordered">
                     <item>Statt “document proportions” werden relative Häufigkeiten verwendet; </item>
@@ -150,6 +151,7 @@
                     <item>Statt nicht-transformierter Werte wird eine log2-Transformation der Werte vorgenommen.</item>
                 </list>
                 <p>Die Kombination dieser Faktoren ergibt 8 Varianten von Zeta (Tabelle 1). </p>
+            </div>
                 <table rend="frame" xml:id="Table1">
                     <row>
                         <cell/>
@@ -180,7 +182,6 @@
                 </table>
                 <p>Tabelle 1: Übersicht über die getesteten Varianten von Zeta. Die Variante mit Label „sd0“ entspricht Burrows‘ Zeta. </p>
                 <p>Einige der Varianten sind mathematisch gut motivierbar und versprechen, den oben genannten Nachteil der begrenzten Werte für bestimmte Wörter auszugleichen und damit Zeta zu verbessern, es wurden aber alle implementiert und auf zwei Datensätzen evaluiert.</p>
-            </div>
             <div type="div1" rend="DH-Heading1">
                 <head>Datensätze</head>
                 <p>Es wurden zwei unterschiedliche Korpora verwendet. Erstens ein Korpus aus der textbox-Sammlung (Schöch et al. 2017), das Romane enthält, die zwischen 1880 und 1940 veröffentlicht wurden: jeweils 24 Texte aus Spanien und aus Lateinamerika (ca. 2,8 Millionen Tokens). Zweitens, ein Teil der Sammlung 
@@ -197,7 +198,8 @@
                         <figure>
                             <graphic url="SCH_CH_Christof_Burrows_Zeta__Varianten_und_Evaluation-10000201000004DA000003E7A211FD835E2ECF8D.png"/>
                             <head>Abbildung 4: Dendrogramm auf Grundlage einer Cluster Analyse der Zeta-Werte für die 8 Zeta-Varianten (Théâtre-classique-Datensatz; 500 distinktive Wörter; Ward-Verfahren).</head>
-                        </figure>Abbildung 4 zeigt, dass der wichtigste Faktor für die Unterschiedlichkeit der Varianten ist, ob subtrahiert oder dividiert wird (zwei Haupt-Cluster). Die beiden anderen Variablen spielen eine viel kleinere Rolle. (Die Ergebnisse weiterer Analysen, u.a. auf Basis der RBO-Ähnlichkeit (“ranked biased order”, Webber et al. 2010), werden aus Platzgründen hier nicht diskutiert.)
+                        </figure>
+                        <p>Abbildung 4 zeigt, dass der wichtigste Faktor für die Unterschiedlichkeit der Varianten ist, ob subtrahiert oder dividiert wird (zwei Haupt-Cluster). Die beiden anderen Variablen spielen eine viel kleinere Rolle. (Die Ergebnisse weiterer Analysen, u.a. auf Basis der RBO-Ähnlichkeit (“ranked biased order”, Webber et al. 2010), werden aus Platzgründen hier nicht diskutiert.)</p>
                     </p>
                 </div>
                 <div type="div2" rend="DH-Heading2">
@@ -230,8 +232,7 @@
                         </row>
                     </table>
                     <p>
-                        <hi rend="italic">T</hi>
-                        <hi rend="italic">abelle 2: Klassifikationsergebnisse bei Verwendung einer linearen SVM, trainiert auf den 40 am höchsten gerankten Wörtern verschiedener Maße im Vergleich zur Baseline. Alle Werte sind der Durchschnitt einer dreifachen Kreuzvalidierung.</hi>
+                        <hi rend="italic">Tabelle 2: Klassifikationsergebnisse bei Verwendung einer linearen SVM, trainiert auf den 40 am höchsten gerankten Wörtern verschiedener Maße im Vergleich zur Baseline. Alle Werte sind der Durchschnitt einer dreifachen Kreuzvalidierung.</hi>
                     </p>
                 </div>
             </div>
@@ -248,109 +249,67 @@
                 <listBibl>
                     <head>Bibliographie</head>
                     <bibl>
-                        <hi rend="color(#000000)bold">Bortz, Jürgen, and Christof Schuster</hi>
-                        <hi rend="color(#000000)"> (2010). </hi>
-                        <hi rend="color(#000000)italic">Statistik für Human- und Sozialwissenschaftler</hi>
-                        <hi rend="color(#000000)">. 7. Auflage. Berlin: Springer.</hi>
+                        <hi rend="bold">Bortz, Jürgen, and Christof Schuster</hi> (2010). 
+                        <hi rend="italic">Statistik für Human- und Sozialwissenschaftler</hi>. 7. Auflage. Berlin: Springer.
                     </bibl>
                     <bibl>
-                        <hi rend="color(#000000)bold">Burrows, John</hi>
-                        <hi rend="color(#000000)"> (2007). “All the Way Through: Testing for Authorship in Different Frequency Strata.” </hi>
-                        <hi rend="color(#000000)italic">Literary and Linguistic Computing</hi>
-                        <hi rend="color(#000000)"> </hi>
-                        <hi rend="color(#000000)">22, no. 1: 27–47. doi:10.1093/llc/fqi067.</hi>
+                        <hi rend="bold">Burrows, John</hi> (2007). “All the Way Through: Testing for Authorship in Different Frequency Strata.” 
+                        <hi rend="italic">Literary and Linguistic Computing</hi> 22, no. 1: 27–47. doi:10.1093/llc/fqi067.
                     </bibl>
                     <bibl>
-                        <hi rend="color(#000000)bold">Craig, Hugh, and Arthur F. Kinney</hi>
-                        <hi rend="color(#000000)">, eds. (2009). </hi>
-                        <hi rend="color(#000000)italic">Shakespeare, Computers, and the Mystery of Authorship</hi>
-                        <hi rend="color(#000000)">. 1st ed. Cambridge University Press.</hi>
+                        <hi rend="bold">Craig, Hugh, and Arthur F. Kinney</hi>, eds. (2009). 
+                        <hi rend="italic">Shakespeare, Computers, and the Mystery of Authorship</hi>. 1st ed. Cambridge University Press.
                     </bibl>
                     <bibl>
-                        <hi rend="color(#000000)bold">Eder, Maciej, Mike Kestemont, and Jan Rybicki</hi>
-                        <hi rend="color(#000000)"> (2016). “Stylometry with R: A Package for Computational Text Analysis.” </hi>
-                        <hi rend="color(#000000)italic">The R Journal</hi>
-                        <hi rend="color(#000000)"> </hi>
-                        <hi rend="color(#000000)">16, no. 1: 1–15.</hi>
+                        <hi rend="bold">Eder, Maciej, Mike Kestemont, and Jan Rybicki</hi>(2016). “Stylometry with R: A Package for Computational Text Analysis.” 
+                        <hi rend="italic">The R Journal</hi> 16, no. 1: 1–15.
                     </bibl>
                     <bibl>
                         <hi rend="bold">Fièvre, Paul</hi>, ed. (2007-2013). “Théâtre classique.” Paris: Université Paris-IV Sorbonne. http://www.theatre-classique.fr.
                     </bibl>
                     <bibl>
-                        <hi rend="color(#000000)bold">Gries, Stefan Th.</hi>
-                        <hi rend="color(#000000)"> (2008). “Dispersions and Adjusted Frequencies in Corpora.” </hi>
-                        <hi rend="color(#000000)italic">International Journal of Corpus Linguistics</hi>
-                        <hi rend="color(#000000)"> </hi>
-                        <hi rend="color(#000000)">13, no. 4: 403–37. doi:10.1075/ijcl.13.4.02gri.</hi>
+                        <hi rend="bold">Gries, Stefan Th.</hi> (2008). “Dispersions and Adjusted Frequencies in Corpora.” 
+                        <hi rend="italic">International Journal of Corpus Linguistics</hi> 13, no. 4: 403–37. doi:10.1075/ijcl.13.4.02gri.
                     </bibl>
                     <bibl>
-                        <hi rend="color(#000000)bold">Heiden, Serge</hi>
-                        <hi rend="color(#000000)"> (2010). “The TXM Platform: Building Open-Source Textual Analysis Software Compatible with the TEI Encoding Scheme.” In </hi>
-                        <hi rend="color(#000000)italic">24th Pacific Asia Conference on Language, Information and Computation - PACLIC24</hi>
-                        <hi rend="color(#000000)">, edited by Ryo Otoguro, Kiyoshi Ishikawa, Hiroshi Umemoto, Kei Yoshimoto, and Yasunari Harada, 389–98. Sendai: Waseda University. https://halshs.archives-ouvertes.fr/halshs-00549764/en.</hi>
+                        <hi rend="bold">Heiden, Serge</hi> (2010). “The TXM Platform: Building Open-Source Textual Analysis Software Compatible with the TEI Encoding Scheme.” In 
+                        <hi rend="italic">24th Pacific Asia Conference on Language, Information and Computation - PACLIC24</hi>, edited by Ryo Otoguro, Kiyoshi Ishikawa, Hiroshi Umemoto, Kei Yoshimoto, and Yasunari Harada, 389–98. Sendai: Waseda University. https://halshs.archives-ouvertes.fr/halshs-00549764/en.
                     </bibl>
                     <bibl>
-                        <hi rend="color(#000000)bold">Hoover, David L.</hi>
-                        <hi rend="color(#000000)"> (2010). “Teasing out Authorship and Style with T-Tests and Zeta.” In </hi>
-                        <hi rend="color(#000000)italic">Digital Humanities Conference</hi>
-                        <hi rend="color(#000000)">. London: ADHO. http://dh2010.cch.kcl.ac.uk/academic-programme/abstracts/papers/html/ab-658.html.</hi>
+                        <hi rend="bold">Hoover, David L.</hi> (2010). “Teasing out Authorship and Style with T-Tests and Zeta.” In 
+                        <hi rend="italic">Digital Humanities Conference</hi>. London: ADHO. http://dh2010.cch.kcl.ac.uk/academic-programme/abstracts/papers/html/ab-658.html.
                     </bibl>
                     <bibl>
-                        <hi rend="color(#000000)bold">Kilgarriff, Adam</hi>
-                        <hi rend="color(#000000)"> (2001). “Comparing Corpora.” </hi>
-                        <hi rend="color(#000000)italic">International Journal of Corpus Linguistics</hi>
-                        <hi rend="color(#000000)"> </hi>
-                        <hi rend="color(#000000)">6, no. 1: 97–133. doi:10.1075/ijcl.6.1.05kil.</hi>
+                        <hi rend="bold">Kilgarriff, Adam</hi> (2001). “Comparing Corpora.” 
+                        <hi rend="italic">International Journal of Corpus Linguistics</hi> 6, no. 1: 97–133. doi:10.1075/ijcl.6.1.05kil.
                     </bibl>
                     <bibl>
-                        <hi rend="color(#000000)bold">Lijffijt, Jefrey, Terttu Nevalainen, Tanja Säily, Panagiotis Papapetrou, Kai Puolamäki, and Heikki Mannila</hi>
-                        <hi rend="color(#000000)"> (2014). “Significance Testing of Word Frequencies in Corpora.” </hi>
-                        <hi rend="color(#000000)italic">Digital Scholarship in the Humanities</hi>
-                        <hi rend="color(#000000)"> </hi>
-                        <hi rend="color(#000000)">31, no. 2: 374–97. doi:10.1093/llc/fqu064.</hi>
+                        <hi rend="bold">Lijffijt, Jefrey, Terttu Nevalainen, Tanja Säily, Panagiotis Papapetrou, Kai Puolamäki, and Heikki Mannila</hi> (2014). “Significance Testing of Word Frequencies in Corpora.” 
+                        <hi rend="italic">Digital Scholarship in the Humanities</hi> 31, no. 2: 374–97. doi:10.1093/llc/fqu064.
                     </bibl>
                     <bibl>
-                        <hi rend="color(#000000)bold">Rayson, Paul, and R. Garside</hi>
-                        <hi rend="color(#000000)"> (2000). “Comparing Corpora Using Frequency Profiling.” In </hi>
-                        <hi rend="color(#000000)italic">Proceedings of the Workshop on Comparing Corpora</hi>
-                        <hi rend="color(#000000)">, 1–6. Hong Kong: ACM.</hi>
+                        <hi rend="bold">Rayson, Paul, and R. Garside</hi> (2000). “Comparing Corpora Using Frequency Profiling.” In 
+                        <hi rend="italic">Proceedings of the Workshop on Comparing Corpora</hi>, 1–6. Hong Kong: ACM.
                     </bibl>
                     <bibl>
-                        <hi rend="color(#000000)bold">Robertson, Stephen</hi>
-                        <hi rend="color(#000000)"> (2004). “Understanding Inverse Document Frequency: On Theoretical Arguments for IDF.” </hi>
-                        <hi rend="color(#000000)italic">Journal of Documentation</hi>
-                        <hi rend="color(#000000)"> </hi>
-                        <hi rend="color(#000000)">60, no. 5 : 503–20.</hi>
+                        <hi rend="bold">Robertson, Stephen</hi> (2004). “Understanding Inverse Document Frequency: On Theoretical Arguments for IDF.” 
+                        <hi rend="italic">Journal of Documentation</hi> 60, no. 5 : 503–20.
                     </bibl>
                     <bibl>
-                        <hi rend="color(#000000)bold">Schöch, Christof</hi>
-                        <hi rend="color(#000000)"> (im Druck). “Zeta für die kontrastive Analyse literarischer Texte. Theorie, Implementierung, Fallstudie.” In </hi>
-                        <hi rend="color(#000000)italic">Quantitative Verfahren in der Literaturwissenschaft. Von einer Scientia Quantitatis zu den Digital Humanities</hi>
-                        <hi rend="color(#000000)">, edited by Andrea Albrecht, Sandra Richter, Marcel Lepper, Marcus Willand, and Toni Bernhart. Berlin: de Gruyter. https://cligs.hypotheses.org/files/2017/09/Schoech_2017-preprint_Zeta-fuer-die-kontrastive-Analyse.pdf.</hi>
+                        <hi rend="bold">Schöch, Christof</hi> (im Druck). “Zeta für die kontrastive Analyse literarischer Texte. Theorie, Implementierung, Fallstudie.” In 
+                        <hi rend="italic">Quantitative Verfahren in der Literaturwissenschaft. Von einer Scientia Quantitatis zu den Digital Humanities</hi>, edited by Andrea Albrecht, Sandra Richter, Marcel Lepper, Marcus Willand, and Toni Bernhart. Berlin: de Gruyter. https://cligs.hypotheses.org/files/2017/09/Schoech_2017-preprint_Zeta-fuer-die-kontrastive-Analyse.pdf.
                     </bibl>
                     <bibl>
-                        <hi rend="color(#000000)bold">Schöch, Christof, José Calvo Tello, Ulrike Henny-Krahmer, and Stefanie Popp</hi>
-                        <hi rend="color(#000000)"> (</hi>
-                        <hi rend="color(#000000)">angenommen</hi>
-                        <hi rend="color(#000000)">). “The CLiGS Textbox: Building and Using Collections of Literary Texts in Romance Languages Encoded in XML-TEI.” </hi>
-                        <hi rend="color(#000000)italic">Journal of the Text Encoding Initiative</hi>
-                        <hi rend="color(#000000)">. </hi>
-                        <hi rend="color(#000000)">http://</hi>
-                        <hi rend="color(#000000)">cligs.hypotheses.org/files/2017/09/Schoech-et-al_2017_Textbox.pdf.</hi>
+                        <hi rend="bold">Schöch, Christof, José Calvo Tello, Ulrike Henny-Krahmer, and Stefanie Popp</hi> (angenommen). “The CLiGS Textbox: Building and Using Collections of Literary Texts in Romance Languages Encoded in XML-TEI.” 
+                        <hi rend="italic">Journal of the Text Encoding Initiative</hi> http://cligs.hypotheses.org/files/2017/09/Schoech-et-al_2017_Textbox.pdf.
                     </bibl>
                     <bibl>
-                        <hi rend="color(#000000)bold">Scott, Mike</hi>
-                        <hi rend="color(#000000)"> (1997). “PC Analysis of Key Words and Key Key Words.” </hi>
-                        <hi rend="color(#000000)italic">System</hi>
-                        <hi rend="color(#000000)"> </hi>
-                        <hi rend="color(#000000)">25, no. 2: 233–45.</hi>
+                        <hi rend="bold">Scott, Mike</hi> (1997). “PC Analysis of Key Words and Key Key Words.” 
+                        <hi rend="italic">System</hi> 25, no. 2: 233–45.
                     </bibl>
                     <bibl>
-                        <hi rend="color(#000000)bold">Webber, William, Alistair Moffat, and Justin Zobe</hi>
-                        <hi rend="color(#000000)"> (2010)l. “A Similarity Measure for Indefinite Rankings.” </hi>
-                        <hi rend="color(#000000)italic">ACM Trans. Inf. Syst.</hi>
-                        <hi rend="color(#000000)"> </hi>
-                        <hi rend="color(#000000)">28, no. 4: 20:1–20:38. doi:10.1145/1852102.1852106.</hi>
+                        <hi rend="bold">Webber, William, Alistair Moffat, and Justin Zobel</hi> (2010). “A Similarity Measure for Indefinite Rankings.” 
+                        <hi rend="italic">ACM Trans. Inf. Syst.</hi> 28, no. 4: 20:1–20:38. doi:10.1145/1852102.1852106.
                     </bibl>
                 </listBibl>
             </div>

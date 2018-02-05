@@ -117,7 +117,8 @@
                 <p>
                     <figure>
                         <graphic url="FISCHER_Frank__Liebe_und_Tod_in_der_Deutschen_Nationalbiblio-100000000000032000000258EB09BF3712618D9C.png"/>
-                    </figure>Abbildung 1: Fünf verschieden qualifizierte Subdatensätze des DNB-Katalogs in zeitlicher Verteilung.
+                        <head>Abbildung 1: Fünf verschieden qualifizierte Subdatensätze des DNB-Katalogs in zeitlicher Verteilung.</head>
+                    </figure>
                 </p>
             </div>
             <div type="div1" rend="DH-Heading1">
@@ -436,12 +437,14 @@
                 <p>
                     <figure>
                         <graphic url="FISCHER_Frank__Liebe_und_Tod_in_der_Deutschen_Nationalbiblio-1000000000000320000002588354496A458DC01A.png"/>
-                    </figure>Abbildung 2: Vorkommen ausgewählter Wörter in Romantiteln im zeitlichen Verlauf (absolut).
+                        <head>Abbildung 2: Vorkommen ausgewählter Wörter in Romantiteln im zeitlichen Verlauf (absolut).</head>
+                    </figure>
                 </p>
                 <p>
                     <figure>
                         <graphic url="FISCHER_Frank__Liebe_und_Tod_in_der_Deutschen_Nationalbiblio-1000000000000320000002582D3B4403ADB68D41.png"/>
-                    </figure>Abbildung 3: Vorkommen ausgewählter Wörter in Romantiteln im zeitlichen Verlauf (relativ).
+                        <head>Abbildung 3: Vorkommen ausgewählter Wörter in Romantiteln im zeitlichen Verlauf (relativ).</head>
+                    </figure>
                 </p>
             </div>
             <div type="div1" rend="DH-Heading1">
@@ -451,7 +454,8 @@
                 <p>
                     <figure>
                         <graphic url="FISCHER_Frank__Liebe_und_Tod_in_der_Deutschen_Nationalbiblio-1000000000000320000002588593112BE8F98C35.png"/>
-                    </figure>Abbildung 4: Entwicklung der mittleren Seitenanzahl pro Jahr seit 1913.
+                        <head>Abbildung 4: Entwicklung der mittleren Seitenanzahl pro Jahr seit 1913.</head>
+                    </figure>
                 </p>
             </div>
             <div type="div1" rend="DH-Heading1">

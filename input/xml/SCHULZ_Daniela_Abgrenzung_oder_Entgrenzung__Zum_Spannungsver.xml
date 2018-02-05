@@ -98,8 +98,7 @@
                 <lb/>Spätmittelalters / Historische Hilfswissenschaften (Westfälische Wilhelms-Universität Münster)
             </p>
             <p>Prof. Dr. Andrea Stieldorf, Institut für Geschichtswissenschaft, Abteilung für Historische Hilfswissenschaften und Archivkunde, Rheinische Friedrich-Wilhelms-Universität Bonn</p>
-            <p>Prof. Dr. Georg Vogeler, 
-                <hi rend="st">Zentrum für Informationsmodellierung in den Geisteswissenschaften, Karl-Franzens-Universität Graz</hi>
+            <p>Prof. Dr. Georg Vogeler, Zentrum für Informationsmodellierung in den Geisteswissenschaften, Karl-Franzens-Universität Graz
             </p>
             <p>Der geplante Ablauf ist wie folgt: </p>
             <p>
@@ -113,9 +112,24 @@
         </body>
         <back>
          <div type="notes">
-            <note xml:id="ftn1" n="1" rend="footnote text"> http://www.hgw.geschichte.uni-muenchen.de/ueber_uns/faecher/fachinformatik/index.html</note>
-            <note xml:id="ftn2" n="2"> Die innerdeutsche Verteilung gestaltet sich entsprechend recht übersichtlich: 1. Ruprecht-Karls-Universität Heidelberg (Früheres Mittelalter und historische Grundwissenschaften), 2. Eberhard-Karls-Universität Tübingen (Geschichtliche Landeskunde und Historische Hilfswissenschaften), 3. Otto-Friedrich-Universität Bamberg (Historische Grundwissenschaften), 4. Friedrich-Alexander-Universität Erlangen-Nürnberg (Mittelalterliche Geschichte und Historische Hilfswissenschaften), 5. Ludwig-Maximilians-Universität München (Historische Grundwissenschaften und Historische Medienkunde), 6. Universität Passau (Mittelalterliche Geschichte und historische Hilfswissenschaften), 7. Universität Regensburg (Historische Hilfswissenschaften), 8. Julius-Maximilians-Universität Würzburg (Mittelalterliche Geschichte und historische Hilfswissenschaften), 9. Christian-Albrechts-Universität zu Kiel (Mittelalterliche Geschichte und historische Hilfswissenschaften), 10. Ruhr-Universität Bochum (Historische Hilfswissenschaften), 11. Rheinische Friedrich-Wilhelms-Universität Bonn (Historische Hilfswissenschaften und Archivkunde), 12. Universität zu Köln (Historische Hilfswissenschaften)</note>
-            <note xml:id="ftn3" n="3" rend="footnote text"> Das Gleiche gilt auch für die schon zahlreich verfügbaren Tools zu deren vereinfachten Be- oder Verarbeitung.</note>
+            <note xml:id="ftn1" n="1"> http://www.hgw.geschichte.uni-muenchen.de/ueber_uns/faecher/fachinformatik/index.html</note>
+            <note xml:id="ftn2" n="2"> Die innerdeutsche Verteilung gestaltet sich entsprechend recht übersichtlich: 
+                <list type="ordered">
+                    <item>Ruprecht-Karls-Universität Heidelberg (Früheres Mittelalter und historische Grundwissenschaften) </item>
+                    <item>Eberhard-Karls-Universität Tübingen (Geschichtliche Landeskunde und Historische Hilfswissenschaften)</item>
+                    <item>Otto-Friedrich-Universität Bamberg (Historische Grundwissenschaften)</item> 
+                    <item>Friedrich-Alexander-Universität Erlangen-Nürnberg (Mittelalterliche Geschichte und Historische Hilfswissenschaften)</item>
+                    <item>Ludwig-Maximilians-Universität München (Historische Grundwissenschaften und Historische Medienkunde)</item>
+                    <item>Universität Passau (Mittelalterliche Geschichte und historische Hilfswissenschaften)</item>
+                    <item>Universität Regensburg (Historische Hilfswissenschaften)</item>
+                    <item>Julius-Maximilians-Universität Würzburg (Mittelalterliche Geschichte und historische Hilfswissenschaften)</item>
+                    <item>Christian-Albrechts-Universität zu Kiel (Mittelalterliche Geschichte und historische Hilfswissenschaften)</item>
+                    <item>Ruhr-Universität Bochum (Historische Hilfswissenschaften)</item>
+                    <item>Rheinische Friedrich-Wilhelms-Universität Bonn (Historische Hilfswissenschaften und Archivkunde)</item>
+                    <item>Universität zu Köln (Historische Hilfswissenschaften)</item>
+                </list>
+            </note>
+            <note xml:id="ftn3" n="3"> Das Gleiche gilt auch für die schon zahlreich verfügbaren Tools zu deren vereinfachten Be- oder Verarbeitung.</note>
             <note xml:id="ftn4" n="4"> Exemplarisch können hier – neben der noch aktuellen Ausschreibung einer (wenn auch befristeten) W2 Professur für „Historische Grundwissenschaften unter besonderer Berücksichtigung der Digital Humanities“ – auch der Zusammenschluss historisch arbeitender Wissenschaftler|inne|n zur „Arbeitsgemeinschaft Historische Grundwissenschaften“ (AHiG, 
                         <ref target="https://www.ahigw.de/">https://www.ahigw.de/</ref>) genannt werden, sowie die Gründung des „Netzwerk Historische Grundwissenschaften“ (NHG, 
                         <ref target="https://www.ahigw.de/nachwuchsnetzwerk/">https://www.ahigw.de/nachwuchsnetzwerk/</ref>). Bei letzterem handelt es sich um einen Zusammenschluss von Nachwuchswissenschaftler|inn|en verschiedener Disziplinen und Qualifikationsstufen, die neben der Organisation einer jährlichen Konferenz mit grundwissenschaftlicher Ausrichtung, auch auf anderen Wegen versuchen, sich produktiv in die aktuellen Diskussionen einzuschalten und Entwicklungen voran zu treiben – so z.B. auch mit der Organisation dieses Panels. 
@@ -127,22 +141,22 @@
                     <bibl>Arbeitsstelle Kleine Fächer, Fachstandort der Historischen Hilfswissenschaften. URL: 
                         <ref target="http://www.kleinefaecher.de/historische-hilfswissenschaften/">http://www.kleinefaecher.de/historische-hilfswissenschaften/</ref> [letzter Zugriff 24.09.2017]
                     </bibl>
-                    <bibl>Hiltmann, Torsten (2015): „Hilfswissenschaften in Zeiten der Digitalisierung“, in: H-Soz-Kult, 14.12.2015. URL: 
+                    <bibl><hi rend="bold">Hiltmann, Torsten</hi> (2015): „Hilfswissenschaften in Zeiten der Digitalisierung“, in: H-Soz-Kult, 14.12.2015. URL: 
                         <ref target="file:///C:\Users\Daniela\AppData\Local\Temp\www.hsozkult.de\debate\id\diskussionen-2936">www.hsozkult.de/debate/id/diskussionen-2936</ref> [letzter Zugriff 24.09.2017]
                     </bibl>
-                    <bibl>Rehbein, Malte (2015): „Digitalisierung braucht Historiker/innen, die sie beherrschen, nicht beherrscht“, in: H-Soz-Kult, 27.11.2015. URL: 
+                    <bibl><hi rend="bold">Rehbein, Malte</hi> (2015): „Digitalisierung braucht Historiker/innen, die sie beherrschen, nicht beherrscht“, in: H-Soz-Kult, 27.11.2015. URL: 
                         <ref target="http://www.hsozkult.de/debate/id/diskussionen-2905">www.hsozkult.de/debate/id/diskussionen-2905</ref> [letzter Zugriff 24.09.2017]
                     </bibl>
-                    <bibl>Sahle, Patrick (2015): „Digital Humanities? Gibt’s doch gar nicht! in: Grenzen und Möglichkeiten der Digital Humanities (Sonderband der Zeitschrift für digitale Geisteswissenschaften 1). DOI: 
-                        <ref target="http://dx.doi.org/10.17175/sb001_004">10.17175/sb001_004</ref> [letzter Zugriff 13.01.2017]
+                    <bibl><hi rend="bold">Sahle, Patrick</hi> (2015): „Digital Humanities? Gibt’s doch gar nicht! in: Grenzen und Möglichkeiten der Digital Humanities (Sonderband der Zeitschrift für digitale Geisteswissenschaften 1). DOI: 
+                        <ref target="http://dx.doi.org/10.17175/sb001_004">http://dx.doi.org/10.17175/sb001_004</ref> [letzter Zugriff 13.01.2017]
                     </bibl>
-                    <bibl>Sahle, Patrick (2016): „Zur Professoralisierung der Digital Humanities“, in: DHd-Blog, 23. März 2016. URL: 
+                    <bibl><hi rend="bold">Sahle, Patrick</hi> (2016): „Zur Professoralisierung der Digital Humanities“, in: DHd-Blog, 23. März 2016. URL: 
                         <ref target="http://dhd-blog.org/?p=6174">http://dhd-blog.org/?p=6174</ref> [letzter Zugriff 24.09.2017]
                     </bibl>
-                    <bibl>Vogeler, Georg (2015): „Digitale Quellenkritik in der Forschungspraxis“, in: H-Soz-Kult, 28.11.2015. URL: 
+                    <bibl><hi rend="bold">Vogeler, Georg</hi> (2015): „Digitale Quellenkritik in der Forschungspraxis“, in: H-Soz-Kult, 28.11.2015. URL: 
                         <ref target="http://www.hsozkult.de/debate/id/diskussionen-2893">www.hsozkult.de/debate/id/diskussionen-2893</ref> [letzter Zugriff 24.09.2017]
                     </bibl>
-                    <bibl>Schlotheuber, Eva / Bösch, Frank (2015): „Quellenkritik im digitalen Zeitalter. Die Historischen Grundwissenschaften als zentrale Kompetenz der Geschichtswissenschaft und benachbarter Fächer“, in: H-Soz-Kult, 15.11.2015. URL: 
+                    <bibl><hi rend="bold">Schlotheuber, Eva / Bösch, Frank</hi> (2015): „Quellenkritik im digitalen Zeitalter. Die Historischen Grundwissenschaften als zentrale Kompetenz der Geschichtswissenschaft und benachbarter Fächer“, in: H-Soz-Kult, 15.11.2015. URL: 
                         <ref target="file:///C:\Users\User\sciebo\Veranstaltungen\DHd2018\www.hsozkult.de\text\id\texte-2890">www.hsozkult.de/text/id/texte-2890</ref> [letzter Zugriff 24.09.2017]
                     </bibl>
                 </listBibl>

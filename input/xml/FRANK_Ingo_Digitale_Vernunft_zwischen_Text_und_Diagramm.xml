@@ -83,7 +83,7 @@
             <div type="div1" rend="DH-Heading1">
                 <head>Einleitung</head>
                 <p>Mit meinem Vortrag möchte ich zu einer Kritik der digitalen Methoden beitragen. Gegenwärtige Forschung im Bereich der Digital Humanities konzentriert sich vorwiegend auf den Einsatz quantitativer digitaler Methoden. Ich betrachte diesen Schwerpunkt auf ‘Big Data’, ‘Distant Reading’ und die Beschränkung auf statistische Verfahren zur Erklärung geisteswissenschaftlicher Phänomene kritisch. In einer methodologischen Kritik der digitalen Geisteswissenschaften werde ich dazu aus wissenschaftstheoretischer Perspektive anhand Beispielen historischer Forschung die Grenzen der quantitativen Ansätze aufzeigen, um dann Möglichkeiten vorzustellen, wie qualitative Methoden im Sinne eines 
-                    <emph>Augmenting Human(ist) Intellect</emph>-Ansatzes (Engelbart 1962) digital unterstützt und erweitert werden sollten.
+                   <hi rend="bold">Augmenting Human(ist) Intellect</hi>-Ansatzes (Engelbart 1962) digital unterstützt und erweitert werden sollten.
                 </p>
             </div>
             <div type="div1" rend="DH-Heading1">
@@ -91,60 +91,55 @@
                 <p>Als erstes werde ich die Methoden der Digital Humanities mit Hilfe der NeMO (NeDiMAH Methods Ontology) wissenschaftstheoretisch verorten (Abb. 1).</p>
                 <figure>
                 	<graphic url="FRANK_Ingo_Digitale_Vernunft_zwischen_Text_und_Diagramm-10000201000003BE000002F0F0A4ECD2.png"/>
-			            <p>
-                  <hi rend="bold">Abb. 1</hi>: NeMO (NeDiMAH Methods Ontology) zur Modellierung von Forschungsprozessen, digitalen Methoden, Werkzeugen, Ressourcen (Dokumente, Forschungsdaten, etc.) usw. (aus Benardou et al. 2010)</p>
+                    <head><hi rend="bold">Abb. 1</hi>: NeMO (NeDiMAH Methods Ontology) zur Modellierung von Forschungsprozessen, digitalen Methoden, Werkzeugen, Ressourcen (Dokumente, Forschungsdaten, etc.) usw. (aus Benardou et al. 2010)</head>
 		          </figure>
 		          <p>NeMO dient als Rahmen zum Aufbau einer Taxonomie digitaler Methoden und Werkzeuge. Ein erster Schritt dazu ist die Unterscheidung zwischen quantitativen und qualitativen Methoden. Da diese Unterscheidung auf methodischer Ebene und nicht etwa auf epistemologischer oder theoretischer Ebene erfolgt, erscheint die gängige scharfe Trennung in quantitative und qualitative Forschung nicht gerechtfertigt. Auf Ebene der Epistemologie muß man bei einer bestimmten erkenntnistheoretischen Position bleiben und kann dabei qualitative und quantitative Methoden kombinieren, ohne daß das methodologisch problematisch wäre (Crotty 1998). Bei digitaler Forschung kommt es auf den Ansatz der formalen Modellierung von Forschungsgegenständen an. Formale Modellierung bildet den Kern der Digital Humanities und ist Voraussetzung um überhaupt digital transformierte Foschungsmethoden einsetzen zu können – egal ob quantitativ oder qualitativ. Man könnte daher anstatt von 
-                    <emph>digitalen</emph> Methoden besser von 
-                    <emph>formalen</emph> bzw. 
-                    <emph>formalisierbaren</emph> Methoden sprechen. Im Vortrag werde ich mich auf ‘Digital Mapmaking’ als Methode konzentrierten, die den Einsatz von Diagrammen zur qualitativen Forschung umfaßt. Um den Mehrwert von diagrammatischer Darstellung zu zeigen, werde ich auf Beispiele aus der Sozialgeschichte zurückgreifen. Skocpols “States and Revolutions: A Comparative Analysis of France, Russia, and China” (Skocpol 1979) eignet sich sehr gut, um zu zeigen, daß Text nicht ausreicht, um die komplexen kausalen Narrative, die zu sozialen Revolutionen führen, gut nachvollziehbar zu repräsentieren. In der methodologischen Forschung dazu wird sogar argumentiert (Mahoney 1999; George / Bennett 2005), daß die Darstellung der kausalen Prozesse in diagrammatischer Form notwendig ist, um die kausalen Zusammenhänge in der Präsentation der Forschungsergebnisse explizit zu machen und darüber hinaus den Forschungsprozess selbst durch den Zwang zur Formalisierung zu unterstützen. Am Beispiel Skocpols vergleichender Studie werde ich demonstrieren, wie die Methoden QCA (Qualitative Comparative Analysis) und Process Tracing in den Digital Humanities durch den Einsatz von geeigneten diagrammatischen ‚Denkwerkzeugen‘ wie Hypertext-Karten, Fuzzy Cognitive Maps und Dynamischer Netzwerkanalyse unterstützt und erweitert werden können.
+                    <hi rend="bold">digitalen</hi> Methoden besser von 
+                    <hi rend="bold">formalen</hi> bzw. 
+                    <hi rend="bold">formalisierbaren</hi> Methoden sprechen. Im Vortrag werde ich mich auf ‘Digital Mapmaking’ als Methode konzentrierten, die den Einsatz von Diagrammen zur qualitativen Forschung umfaßt. Um den Mehrwert von diagrammatischer Darstellung zu zeigen, werde ich auf Beispiele aus der Sozialgeschichte zurückgreifen. Skocpols “States and Revolutions: A Comparative Analysis of France, Russia, and China” (Skocpol 1979) eignet sich sehr gut, um zu zeigen, daß Text nicht ausreicht, um die komplexen kausalen Narrative, die zu sozialen Revolutionen führen, gut nachvollziehbar zu repräsentieren. In der methodologischen Forschung dazu wird sogar argumentiert (Mahoney 1999; George / Bennett 2005), daß die Darstellung der kausalen Prozesse in diagrammatischer Form notwendig ist, um die kausalen Zusammenhänge in der Präsentation der Forschungsergebnisse explizit zu machen und darüber hinaus den Forschungsprozess selbst durch den Zwang zur Formalisierung zu unterstützen. Am Beispiel Skocpols vergleichender Studie werde ich demonstrieren, wie die Methoden QCA (Qualitative Comparative Analysis) und Process Tracing in den Digital Humanities durch den Einsatz von geeigneten diagrammatischen ‚Denkwerkzeugen‘ wie Hypertext-Karten, Fuzzy Cognitive Maps und Dynamischer Netzwerkanalyse unterstützt und erweitert werden können.
                 </p>
             </div>
             <div type="div1" rend="DH-Heading1">
                 <head>Beispiele</head>
                 <p>Um überhaupt sinnvoll von ‚digitalen‘ Methoden reden zu können, muß der Aspekt der formalen Modellierung als zentral erachtet werden. Formalisierung ist die Voraussetzung für die „Mechanisierung angeblich geistiger Tätigkeiten“ (Brauer et al. 1989). Piotrowski (2016) definiert Digital Humanities wie folgt: “The digital humanities study the means and methods of constructing formal models in the humanities.” Ein Modell ist dabei als Repräsentation eines geisteswissenschaftlichen Untersuchungsgegenstands zu verstehen und ‚formal‘ bedeutet 
-                    <emph>logisch kohärent</emph>, 
-                    <emph>nicht mehrdeutig</emph> und 
-                    <emph>explizit</emph> (Piotrowski 2016).
+                    <hi rend="bold">logisch kohärent</hi>, 
+                    <hi rend="bold">nicht mehrdeutig</hi> und 
+                    <hi rend="bold">explizit</hi> (Piotrowski 2016).
                 </p>
                 <p>Mir geht es im folgenden um digitale Methoden des ‘Mapmaking’:</p>
                 <quote>[Mapmaking] is a combinatorial method, for it involves mapping information gathered from other sources: generally secondary data or surveys, though texts are another possibility. It must thus reflect the strengths and weaknesses of its sources of data. As with hermeneutics, mapmaking involves a set of techniques beyond those involved in the methods it draws upon. Its obvious strength lies in terms of spatiality. There are, quite simply, some spatial movements that cannot be properly visualized nor comprehended without recourse to maps […] (Szostak 2004)</quote>
                 <p>Dazu kann mit NeMO Quellen- und Archivmaterial, das zur Erstellung von Karten herangezogen wird, formal erfaßt werden, was im Kontext von Digital Libraries und Forschungsdatenmanagement relevant ist.</p>
                 <p>Einführen werde ich 
-                    <emph>Digital Mapmaking</emph> mit einem für die Geschichtswissenschaft naheliegenden Diagrammtyp (Champagne 2016): Zeitleisten. Synchronoptische Visualisierungen (Abb. 2) dienen der Kontextualisierung großer Datenmengen aus verschiedenen Quellen und ermöglichen die Generierung von Hypothesen durch Abduktion (Frank 2017a). Eine Erklärung – z. B. in Form der Beschreibung eines sozialen Mechanismus, der ein historisches Ereignis hervorbringt – kann jedoch nur durch weiterführende Forschung gefunden werden.
+                    <hi rend="bold">Digital Mapmaking</hi> mit einem für die Geschichtswissenschaft naheliegenden Diagrammtyp (Champagne 2016): Zeitleisten. Synchronoptische Visualisierungen (Abb. 2) dienen der Kontextualisierung großer Datenmengen aus verschiedenen Quellen und ermöglichen die Generierung von Hypothesen durch Abduktion (Frank 2017a). Eine Erklärung – z. B. in Form der Beschreibung eines sozialen Mechanismus, der ein historisches Ereignis hervorbringt – kann jedoch nur durch weiterführende Forschung gefunden werden.
                 </p>
 		          <figure>
                 	<graphic url="FRANK_Ingo_Digitale_Vernunft_zwischen_Text_und_Diagramm-1000000000000780000004B059252319.png"/>
-			            <p>
-                  <hi rend="bold">Abb. 2</hi>: Parallele Zeitleisten in der Zeitkarte aus der Digitalen Edition (Behrendt et al. 2010) von Peters’ Synchronoptischer Weltgeschichte (Peters / Peters 1952) als ‚Hypothesen-Generator‘</p>
+		              <head><hi rend="bold">Abb. 2</hi>: Parallele Zeitleisten in der Zeitkarte aus der Digitalen Edition (Behrendt et al. 2010) von Peters’ Synchronoptischer Weltgeschichte (Peters / Peters 1952) als ‚Hypothesen-Generator‘</head>
 		          </figure>
                 <p>Im weiteren Verlauf werde ich zeigen, wie Visualisierungsansätze nicht nur 
-                    <emph>explorative </emph>Analyse unterstützen können, sondern wie sie darüber hinaus auch die Möglichkeiten zur 
-                    <emph>Erklärung</emph> historischer Ereignisse erweitern können. Sehr gut veranschaulicht werden kann ein solcher Ansatz mit den diagrammatischen Darstellungen der kausalen Narrative in Skocpols Theorie sozialer Revolutionen (Skocpol 1979).
+                    <hi rend="bold">explorative </hi>Analyse unterstützen können, sondern wie sie darüber hinaus auch die Möglichkeiten zur 
+                    <hi rend="bold">Erklärung</hi> historischer Ereignisse erweitern können. Sehr gut veranschaulicht werden kann ein solcher Ansatz mit den diagrammatischen Darstellungen der kausalen Narrative in Skocpols Theorie sozialer Revolutionen (Skocpol 1979).
                 </p>
                 <p>Goertz und Mahoney (2005) argumentieren, daß “a failure to appropriately conceptualize levels and relationships between levels” zu vielen Fehlinterpretationen von Skocpols Theorie geführt haben. George und Bennett (2005) empfehlen tatsächlich “diagrams to present clearly the argument of causal narratives, to make the causal claim more explicit”. Um die laut Goertz und Mahoney (2005) oft in den Interpretationen vorkommende Verwechslung von Kausalität und Konstitution zu vermeiden, eignet sich zur Darstellung von 
-                    <emph>Two-Level Theories</emph> der Einsatz von Diagrammen (Abb. 3):
+                    <hi rend="bold">Two-Level Theories</hi> der Einsatz von Diagrammen (Abb. 3):
                 </p>
                 <quote>For example, the examination of an ontological relationship between levels allows the analyst to explore the specific defining properties of the basic-level concepts that actually affect the outcome of interest. In this case of an ontological relationship, the specific properties identified in the secondary level are “mechanisms” that explain why the basic-level variables have the effects they do. (Goertz / Mahoney 2005)</quote>
 		          <figure>
                 	<graphic url="FRANK_Ingo_Digitale_Vernunft_zwischen_Text_und_Diagramm-10000201000004F70000028543BCF57B.png"/>
-                	<p>
-                  <hi rend="bold">Abb. 3</hi>: Diagramm für Two-Level Theories zu Ursachen und Konstitution sozialer Revolutionen (aus Goertz / Mahoney 2005)</p>
+                	<head><hi rend="bold">Abb. 3</hi>: Diagramm für Two-Level Theories zu Ursachen und Konstitution sozialer Revolutionen (aus Goertz / Mahoney 2005)</head>
 		          </figure>
                 <p>Im Rückentext des Geschichtstheorie-Lehrbuchs von Kolmer (2008) steht dazu treffend: „Wer sich nicht von der Beredsamkeit der Historiker blenden lassen will, muss das Gerüst entdecken können, das ihre Erzählungen trägt.“ Meine Idee ist nun, die kausalen Narrative nicht nur als Diagramme zu visualisieren, sondern die historischen Narrative der komplexen kausalen Zusammenhänge als Hypertext zu modellieren. Der Mehrwert dieses 
-                    <emph>Hypertext Mapping</emph>-Ansatzes wird durch einen weiteren Verweis auf Szostak (2004) deutlich: “Mapmaking can give unique insight into spatial and temporal aspects of causal systems (among other things).”
+                    <hi rend="bold">Hypertext Mapping</hi>-Ansatzes wird durch einen weiteren Verweis auf Szostak (2004) deutlich: “Mapmaking can give unique insight into spatial and temporal aspects of causal systems (among other things).”
                 </p>
                 <p>Offensichtlich bietet die diagrammatische Visualisierung (Abb. 4) von Mahoney (1999) deutliche Vorteile bei der Darstellung der komplexen kausalen Zusammenhänge und erleichtert dadurch das genaue Nachvollziehen und Verstehen der historischen Vorgänge, die zum Zusammenbruch des französischen Staates führten, erheblich.</p>
 		          <figure>
                 	<graphic url="FRANK_Ingo_Digitale_Vernunft_zwischen_Text_und_Diagramm-10000201000004FE0000055E9944B38E.png"/>
-                	<p>
-                  <hi rend="bold">Abb. 4</hi>: Diagramm des kausalen Narrativs über den Prozess des Zusammenbruchs eines Staates (aus Mahoney 1999)</p>
+                	<head><hi rend="bold">Abb. 4</hi>: Diagramm des kausalen Narrativs über den Prozess des Zusammenbruchs eines Staates (aus Mahoney 1999)</head>
 		          </figure>
                 <p>Allerdings berücksichtigt das Diagramm nach Mahoney (1999) keine komplexen Rückkopplungsschleifen zwischen Ereignissen und außerdem fehlt die Darstellung der Gewichtung einzelner Ereignisse und die Möglichkeit, die Details der kausalen Prozesse zu erfassen. Diese vernachlässigten Aspekte könnten durch Causal Loop Diagrams (siehe Beispiel in Abb. 5) oder Fuzzy Cognitive Maps (Carvalho 2013) oder auch Dynamische Netzwerkanalyse (Lemercier 2015b) modelliert werden.</p>
 		          <figure>
                 	<graphic url="FRANK_Ingo_Digitale_Vernunft_zwischen_Text_und_Diagramm-10000201000003F100000301B9301622.png"/>
-			            <p>
-                  <hi rend="bold">Abb. 5</hi>: Causal Loop Diagram des Konflikts zwischen der polnischen Regierung und Solidarność (aus Coleman et al. 2006)</p>
+			            <head><hi rend="bold">Abb. 5</hi>: Causal Loop Diagram des Konflikts zwischen der polnischen Regierung und Solidarność (aus Coleman et al. 2006)</head>
 		          </figure>
                 <p>Die ersten fünf von Mahoney (1999) aus Skocpol (1979) extrahierten kausalen Faktoren, sollen zur Veranschaulichung einer zusätzlichen Möglichkeit zur expliziten Strukturierung mit Hypertext Maps ausreichen:</p>
                 <list type="ordered">
@@ -160,8 +155,8 @@
             <div type="div1" rend="DH-Heading1">
                 <head>Ergebnisse</head>
                 <p>Die ‚digitale Vernunft‘ erfordert es schließlich, daß geisteswissenschaftliches 
-                    <emph>Erklären</emph> bzw. 
-                    <emph>Verstehen</emph> (von Wright 1971) in einem angemessen methodologischen (Schützeichel 2015) und ontologischen Rahmen (Little 2010) abläuft. Mechanistische Erklärung bietet ein explanatorischen Rahmenwerk, um z. B. die verschiedenen ‚Ismen‘ der Politikwissenschaft zu vereinen (Bennett 2013).
+                    <hi rend="bold">Erklären</hi> bzw. 
+                    <hi rend="bold">Verstehen</hi> (von Wright 1971) in einem angemessen methodologischen (Schützeichel 2015) und ontologischen Rahmen (Little 2010) abläuft. Mechanistische Erklärung bietet ein explanatorischen Rahmenwerk, um z. B. die verschiedenen ‚Ismen‘ der Politikwissenschaft zu vereinen (Bennett 2013).
                 </p>
                 <p>Die Relevanz von Digital Mapmaking als Hilfsmittel zur Erklärung historischer Ereignisse zeigt sich insbesondere beim Einsatz von Hypertext Maps zur Strukturierung von historischen Narrativen. Historische Narrative können dabei durchaus als mechanistische Erklärungen historischer Ereignisse aufgefaßt werden (Glennan 2010). Analog zum Periodensystem chemischer Elemente kann ein diagrammatischer Hypertext auf Lücken im theoretisch fundierten Gerüst eines kausalen Narrativs hinweisen, um diese durch Methoden wie Process Tracing (Bennett 2010) zu füllen. Zusätzlich zu mechanistischer Erklärung unterstützt Hypertext multiperspektivische Erklärung historischer Ereignisse (Shaw 2013; Jensen 2013; Krameritsch 2009).</p>
                 <p>Die Ergebnisse bringt schließlich ein erneuter Blick in die Hypertext-Geschichte auf den Punkt: “Linearity was never an option for historical writing; hypertextuality can make complex structure concrete, clear and responsive to both the author and the reader.” (Eastgate Systems 2005)</p>
