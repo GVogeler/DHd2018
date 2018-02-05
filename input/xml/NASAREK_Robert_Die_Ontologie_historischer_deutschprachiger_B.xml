@@ -87,75 +87,78 @@
     </teiHeader>
    <text>
         <body>
-            <p>Forschungsstand:</p>
-            <p>Berufsbezeichnungen sind eine der häufigsten Angaben von individualspezifischen Quellen. Besonders in den Sozial- und Politikwissenschaften, den Geisteswissenschaften und einigen naturwissenschaftlichen Disziplinen (Sozialtopografie, Medizin, Arbeitsmedizin, Epidemiologie etc.) bieten Berufsbezeichnungen einen wichtigen Bezugspunkt sozialstruktureller Analysen. Dazu kommen verschiedene Formen von Berufsklassifikationen zum Einsatz. Während für die Berufswelten des 20./21. Jahrhunderts verschiedene normierte Klassifikationsmodelle als Standard sowohl auf nationaler wie internationaler Ebene existieren, kann die interdisziplinäre Forschung für deutschsprachige, historische Berufe nicht auf ein solches Normsystem zurückgreifen. Insgesamt gibt es bisher keinen gültigen Standard. Zu den renommiertesten und qualitativ hochwertigsten historischen Klassifikationsmodellen gehören bisher die Historical International Standard Classification of Occupations (HISCO) (van Leeuwen et al. 2002), das PST-System der Cambridge Group um Wrigley und Davies (Wrigley 2010). Sie zeichnen sich durch eine theoretisch nachvollziehbare Konzeption der Tätigkeit aus, beinhalten bisher aber kaum deutschsprachige Berufsnamen. Berufsklassifikationssysteme wie zu Altona 1803 (Brandenburg et al.1991) und das Berufsklassifikationsmodell zur Analyse von Bürgerlichkeit von Schüren und Hettling (Schüren 1989, Hettling 1999) liefern Ansätze für deutschsprachige Berufe. Daneben existieren etliche andere, im Zuge der Städteforschung entstandene Systeme, die jedoch eher als Teilaspekt einer Arbeit entstanden sind (bspw. François 1982; Kill 2001; Rödel 1985; Sachse 1987). </p>
-            <p>Aufgrund des hohen personellen Aufwands werden Systematiken häufig induktiv entwickelt und die Einordnung der Berufe (Abklären des genauen historischen Tätigkeitsprofils; Zuordnung zur richtigen Beschreibungsform der Berufsklassifizierung) gar nicht durchgeführt bzw. nicht dokumentiert. Daher entwickeln Forschungsprojekte jeweils neue Klassifizierungsmodelle, was eine Vielzahl nicht vergleichbarer Ergebnisse und für das einzelne Projekt ein enorm zeitaufwendiges Verfahren produziert. Dies schmälert den wissenschaftlichen Mehrwert, da die Ergebnisse von sozialstrukturellen Aussagen und Analysen letztlich nicht reproduzierbar sind. Zudem unterbleibt bei solchen Vorhaben sowohl eine konzeptionelle als auch eine direkte Anbindung an moderne Klassifikationsmodelle, da diese keine unmittelbare „Schnittstelle“ zu historischer Beruflichkeit bieten.</p>
-            <p>Mit der Ontologie deutschsprachiger Berufs- und Amtsbezeichnungen möchten wir diese Lücke schließen und eine Berufssystematik für historische, deutschsprachige Berufe entwickeln, die sowohl an die (modernen) Klassifikationssysteme anknüpfen (Klassifikation der Berufe 2010: Wiemer et al. 2011) als auch die deutschen Berufsbezeichnungen für internationale, historische Klassifikationssysteme (HISCO, PST) anschlussfähig macht und die sowohl als maschinenlesbare Ontologie als auch mittels eines Webservice für einen individuellen Zugriff genutzt werden kann. </p>
-            <p>Ziel des Projekts</p>
-            <p>Ziel des Projektes ist es einen nationalen Standard zur Normierung und multiperspektivischen Klassifizierung von deutschsprachigen, historischen Berufsbezeichnungen zu entwickeln und als webbasierte, offene Ressource für die Nachnutzung in Forschungsprojekten und für Infrastrukturen des Forschungsdatenmanagements zur Verfügung stellen. Der hohe Mehrwert für die wissenschaftliche Analyse und die enorme Arbeitserleichterung sollte erheblich dazu beitragen, auf positive Weise tatsächlich einen anreizbildenden Standard zu etablieren, zumal dieser dann auch international anschlussfähig sein wird. Da sich die meisten Klassifizierungsmodelle auf Berufssysteme des 19./20. Jahrhundert konzentrieren, möchten wir diese Systematiken um Beruflichkeit der Frühen Neuzeit und des Spätmittelalters erweitern. Im Einzelnen umfasst dieser Service:</p>
-            <list type="unordered">
-                <item>Einen Standard zur Normierung von deutschsprachigen Berufsbezeichnungen. Dazu stehen ca. 200.000 Varianten von historischen Berufsschreibungen zur Verfügung, die sich in ca. 20.000 normierte Einheitsbezeichnungen zusammenfassen lassen. Dieser enorme Korpus ist Ergebnis jahrelanger eigener Datenproduktionen und Kooperationen mit qualitativ hochrangigen Projekten. Im Gegensatz zu vielen Handbüchern, Lexika und anderen gedruckten Kompendien (Ebener 2015; Gerholz 2005; Haemmerle 1933; Molle 1975; Palla 2014; Puchner / Stadler 1935; Reith 1991; Ulm-Sanford 1975) werden die Originalschreibungen der Varianten erhalten. Dies ermöglicht einen hohen Mehrwert für interdisziplinäre Zugriffe z.B. linguistische und etymologische Analysen, aber auch für den technischen Vorgang der Normierung und Zuweisung der Kodierung in einer Vielzahl von Erschließungsprojekten. Damit bietet das Werkzeug eine außerordentliche gute Grundlage, zur Erschließung (Lemmatisierung und Kodierung) von textuellen Quellen jeder Art.</item>
-                <item>Um die Klassifizierung zu erleichtern, wie auch einen Informationsverlust durch die Klassifizierung zu verhindern, werden alle Berufsbezeichnungen zunächst in kategorial geordnete semantische Einheiten aufgetrennt. Dies erleichtert erheblich die Nutzbarkeit des Angebots für unterschiedlichste Anforderungen. Diese semantische Trennung und Normierung der Namenseinheiten ermöglicht später eine individuell flexible inhaltliche Auswahl verschiedener logischer Einheiten (Topic Modeling) nach eigenen Prinzipien. In unserem Vortrag möchten wir die Logik dieses Modells erläutern und dem Fachpublikum zur Diskussion stellen, um Anregungen für eine interdisziplinär optimal zu nutzende Methode zu erhalten. Diese Vorgehensweise unterscheidet das Projekt von allen anderen rein auf ID-Identifikatoren zugeschnittenen Verfahren und macht es wesentlich flexibler und breiter für verschiedenste Bedürfnisse geistes- und sozialwissenschaftlicher Forschung anwendbar. Bei herkömmlichen Verfahren kann lediglich über eine fest zugewiesene ID-Nummer auf den verschiedenen Ebenen des Kodierungssystems klassifiziert und sortiert werden. In dem hier vorgeschlagenen Modell erfolgt zusätzlich auch auf der semantischen Ebene die Möglichkeit zum intuitiven Systematisieren, Anordnen und Auswählen. Dies gilt auch für alle weiteren Informationen (Geschlecht, Herrschaft, Rechtsbeziehungen, Ruhestand, Karriere etc.), die mit typisch frühneuzeitlichen, quellenbasierten Berufsbezeichnungen einhergehen und in moderne Berufssystematiken meist keinen Eingang finden. Moderne Klassifikationssysteme für frühneuzeitliche Berufsnamen sind daher tendenziell mit einem sehr hohen Informationsdefizit belastet und können unter Umständen in ahistorischen Analysen enden.</item>
-            </list>
-            <figure>
-                <graphic n="1001"
-                     width="15.156533333333334cm"
-                     height="8.128594444444444cm"
-                     rend="inline"
-                     url="NASAREK_Robert_Die_Ontologie_historischer_deutschprachiger_B-image1.jpg"/>
-            </figure>
-            <list type="unordered">
-                <item>Zur Klassifizierung von Berufen werden aus zeittypischen Lexika des 17./18. Jahrhunderts Tätigkeitsbeschreibungen abstrahiert, welche die Anforderungsprofile und Kompetenzen einzelner Berufe definieren. Sie dienen dem Abgleich mit modernen Tätigkeitsprofilen und erlauben erstmals überhaupt eine tätigkeitsgenaue Zuordnung historischer Berufe. Im Vortrag möchten wir zeigen, welche Möglichkeiten zur Systematisierung und Kategorisierung Lexika der frühen Neuzeit bieten und welche inhaltlichen Anknüpfungspunkte sie für moderne Klassifikationssysteme liefern. Dieser Aspekt bietet zudem hervorragende Möglichkeiten zur fachwissenschaftlichen Analyse, werden auf diese Weise doch Definitionskriterien frühneuzeitlicher Beruflichkeit überhaupt ermittelt und mittels einer logischen Auszeichnung auffindbar und auswertbar (xml/TEI). Wir möchten zeigen, welche Probleme dabei auftreten und welche Lösungsansätze wir hierfür entwickelt haben.</item>
-            </list>
-            <figure>
-                <graphic n="1002"
-                     width="14.657916666666667cm"
-                     height="8.246694444444444cm"
-                     rend="inline"
-                     url="NASAREK_Robert_Die_Ontologie_historischer_deutschprachiger_B-image2.jpeg"/>
-            </figure>
-            <p>Weitere Ziel des Projektes (aber nicht unmittelbar unseres Vortrages, auch wenn wir auf die einzelnen Punkte sicherlich hinweisen) sind zudem folgende Punkte:</p>
-            <list type="unordered">
-                <item>Die Tätigkeitsprofile ermöglichen die nachvollziehbare, transparente Einordnung von Berufsbezeichnungen zum bereits existierenden englischsprachigen Berufsklassifizierungssystems HISCO. Momentan gibt es in HISCO lediglich 1.306 deutschsprachige Berufsbezeichnungen. Die Daten wurden nicht von einem Muttersprachler kodiert, weshalb viele Zuordnungen korrigiert werden müssten. Die Kodierung von HISCO ermöglicht das Mapping weiterer historischer Klassifikationsmodelle wie HISCLASS oder PST. Da HISCO moderne Beruflichkeit misst, ist eine Erweiterung und Präzisierung für die Berufe der Frühen Neuzeit unerlässlich (van Leeuwen et al. 2002; HISCO Tree Of Occupational Groups [http://historyofwork.iisg.nl/major.php]).</item>
-                <item>Zudem werden die Einheitsbezeichnungen der KldB 2010 zugeordnet. Sie bieten nicht nur einen Zugriff auf (weitere) moderne Berufsklassifikationsmodelle, sondern durch den theoretischen Perspektivwechsel auch eine Systematisierung nach Anforderungsprofilen (Wiemer 2011).</item>
-                <item>Die offenen Daten ermöglichen es Nutzern, transkribierte, quellenbasierte Originalberufsbezeichnungen zu normalisieren und automatisiert in ein ausgewähltes Kodierungssystem zu überführen. Ein Usecase wäre bspw. ein Forschungsprojekt, welches eine Netzwerkanalyse durch Heiratsverbindungen vornimmt. Der Beruf bietet hier häufig den einzigen Hinweis auf die sozialstrukturelle Dimension von Gruppen. Über das Werkzeug können die Daten in einem gewünschten Klassifizierungsmodell ausgegeben werden, indem die Originalschreibungen der Berufe in das Tool geladen und automatisiert kodiert werden. </item>
-                <item>Varianten die keine automatisierte Kodierung beinhalten, können anschließend recherchiert und kodiert und in das Kompendium übertragen werden. Das Werkzeug ist damit beliebig erweiterbar. Das Projekt entwickelt ein Geschäftsmodell, wie solche Daten als Teil eines Serviceangebots nachkodiert und integriert werden können. Als Teil der langfristigen Infrastruktureinrichtung DARIAH soll die Ontologie der Berufe durch die Niedersächsische Staats- und Universitätsbibliothek auf Dauer angeboten werden.</item>
-            </list>
-            <p>Zwischenergebnisse</p>
-            <list type="unordered">
-                <item>Im Bereich der Berufssegmentierung wurde ein Prototyp eines Datenschemas entwickelt, um die Berufe in adäquate Informationseinheiten aufzutrennen. </item>
-                <item>Der Informationsgehalt der Lexika bezogen auf berufskundliche Informationen wurde tiefergehend untersucht und erste Aussagen können darüber getroffen werden. </item>
-            </list>
-            <figure>
-                <graphic n="1003"
-                     width="14.4cm"
-                     height="4.992069444444445cm"
-                     rend="inline"
-                     url="NASAREK_Robert_Die_Ontologie_historischer_deutschprachiger_B-image3.png"/>
-            </figure>
-            <p>
-                <pb/>
-            </p>
-            <p rend="List Paragraph">Des Weiteren ist ein erstes Netzwerk von Autorenschaften und Informationsflüssen nachweisbar.</p>
-            <figure>
-                <graphic n="1004"
-                     width="16.002cm"
-                     height="10.852327777777777cm"
-                     rend="inline"
-                     url="NASAREK_Robert_Die_Ontologie_historischer_deutschprachiger_B-image4.png"/>
-            </figure>
-            <list type="unordered">
-                <item>Die Taxonomie der Klassifikationssysteme von HISCO und der KldB 2010 wurden ausführlich untersucht und erste Ansätze einer eigenen Systematik können vorgestellt werden.</item>
-                <item>Mehrere Workflowalternativen von der Quelle bis zum Ergebnis der Inhaltsanalyse wurden erprobt, bewertet und können mit ihren Vor- und Nachteilen präsentiert werden. An dieser Stelle platziert sich am deutlichsten die „Kritik an der digitalen Vernunft“, vor allem in Bezug auf die 
-                    <list type="unordered">
-                        <item>Arbeit mit OCR-Erkennung (am Beispiel der OCR-Programmsammlung „ocropy“) </item>
-                        <item>dem Pre- und Postprocessing von Quellendigitalisaten (im Sinne von Ordnerstrukturen und Bildaufarbeitung) </item>
-                        <item>XML vs. QDA-gestützten hermeneutischen Verfahren der Inhaltsanalyse (zur Implementierung und Weiterverarbeitung der Ergebnisse und Daten) und</item>
-                        <item>der Nutzung von Objekt- oder relationalen Datenbanken zur Datenverwaltung und Verarbeitung. </item>
-                    </list>
-                </item>
-            </list>
-            <p>Hierbei wird über die Vermeidung von epistemischen Fallstricken durch informationstechnische Automatisierung reflektiert und die Effizienzsteigerung digitaler Werkzeuge kritisch betrachtet, aber auch über die neuen Möglichkeiten zur Bewältigung von Big Data und dem dazugehörigen Erkenntnisgewinn referiert.</p>
+            <div type="div1" rend="DH-Heading1">
+                 <head>Forschungsstand:</head>
+                 <p>Berufsbezeichnungen sind eine der häufigsten Angaben von individualspezifischen Quellen. Besonders in den Sozial- und Politikwissenschaften, den Geisteswissenschaften und einigen naturwissenschaftlichen Disziplinen (Sozialtopografie, Medizin, Arbeitsmedizin, Epidemiologie etc.) bieten Berufsbezeichnungen einen wichtigen Bezugspunkt sozialstruktureller Analysen. Dazu kommen verschiedene Formen von Berufsklassifikationen zum Einsatz. Während für die Berufswelten des 20./21. Jahrhunderts verschiedene normierte Klassifikationsmodelle als Standard sowohl auf nationaler wie internationaler Ebene existieren, kann die interdisziplinäre Forschung für deutschsprachige, historische Berufe nicht auf ein solches Normsystem zurückgreifen. Insgesamt gibt es bisher keinen gültigen Standard. Zu den renommiertesten und qualitativ hochwertigsten historischen Klassifikationsmodellen gehören bisher die Historical International Standard Classification of Occupations (HISCO) (van Leeuwen et al. 2002), das PST-System der Cambridge Group um Wrigley und Davies (Wrigley 2010). Sie zeichnen sich durch eine theoretisch nachvollziehbare Konzeption der Tätigkeit aus, beinhalten bisher aber kaum deutschsprachige Berufsnamen. Berufsklassifikationssysteme wie zu Altona 1803 (Brandenburg et al.1991) und das Berufsklassifikationsmodell zur Analyse von Bürgerlichkeit von Schüren und Hettling (Schüren 1989, Hettling 1999) liefern Ansätze für deutschsprachige Berufe. Daneben existieren etliche andere, im Zuge der Städteforschung entstandene Systeme, die jedoch eher als Teilaspekt einer Arbeit entstanden sind (bspw. François 1982; Kill 2001; Rödel 1985; Sachse 1987). </p>
+                 <p>Aufgrund des hohen personellen Aufwands werden Systematiken häufig induktiv entwickelt und die Einordnung der Berufe (Abklären des genauen historischen Tätigkeitsprofils; Zuordnung zur richtigen Beschreibungsform der Berufsklassifizierung) gar nicht durchgeführt bzw. nicht dokumentiert. Daher entwickeln Forschungsprojekte jeweils neue Klassifizierungsmodelle, was eine Vielzahl nicht vergleichbarer Ergebnisse und für das einzelne Projekt ein enorm zeitaufwendiges Verfahren produziert. Dies schmälert den wissenschaftlichen Mehrwert, da die Ergebnisse von sozialstrukturellen Aussagen und Analysen letztlich nicht reproduzierbar sind. Zudem unterbleibt bei solchen Vorhaben sowohl eine konzeptionelle als auch eine direkte Anbindung an moderne Klassifikationsmodelle, da diese keine unmittelbare „Schnittstelle“ zu historischer Beruflichkeit bieten.</p>
+                 <p>Mit der Ontologie deutschsprachiger Berufs- und Amtsbezeichnungen möchten wir diese Lücke schließen und eine Berufssystematik für historische, deutschsprachige Berufe entwickeln, die sowohl an die (modernen) Klassifikationssysteme anknüpfen (Klassifikation der Berufe 2010: Wiemer et al. 2011) als auch die deutschen Berufsbezeichnungen für internationale, historische Klassifikationssysteme (HISCO, PST) anschlussfähig macht und die sowohl als maschinenlesbare Ontologie als auch mittels eines Webservice für einen individuellen Zugriff genutzt werden kann. </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Ziel des Projekts</head>
+                 <p>Ziel des Projektes ist es einen nationalen Standard zur Normierung und multiperspektivischen Klassifizierung von deutschsprachigen, historischen Berufsbezeichnungen zu entwickeln und als webbasierte, offene Ressource für die Nachnutzung in Forschungsprojekten und für Infrastrukturen des Forschungsdatenmanagements zur Verfügung stellen. Der hohe Mehrwert für die wissenschaftliche Analyse und die enorme Arbeitserleichterung sollte erheblich dazu beitragen, auf positive Weise tatsächlich einen anreizbildenden Standard zu etablieren, zumal dieser dann auch international anschlussfähig sein wird. Da sich die meisten Klassifizierungsmodelle auf Berufssysteme des 19./20. Jahrhundert konzentrieren, möchten wir diese Systematiken um Beruflichkeit der Frühen Neuzeit und des Spätmittelalters erweitern. Im Einzelnen umfasst dieser Service:</p>
+                 <list type="unordered">
+                     <item>Einen Standard zur Normierung von deutschsprachigen Berufsbezeichnungen. Dazu stehen ca. 200.000 Varianten von historischen Berufsschreibungen zur Verfügung, die sich in ca. 20.000 normierte Einheitsbezeichnungen zusammenfassen lassen. Dieser enorme Korpus ist Ergebnis jahrelanger eigener Datenproduktionen und Kooperationen mit qualitativ hochrangigen Projekten. Im Gegensatz zu vielen Handbüchern, Lexika und anderen gedruckten Kompendien (Ebener 2015; Gerholz 2005; Haemmerle 1933; Molle 1975; Palla 2014; Puchner / Stadler 1935; Reith 1991; Ulm-Sanford 1975) werden die Originalschreibungen der Varianten erhalten. Dies ermöglicht einen hohen Mehrwert für interdisziplinäre Zugriffe z.B. linguistische und etymologische Analysen, aber auch für den technischen Vorgang der Normierung und Zuweisung der Kodierung in einer Vielzahl von Erschließungsprojekten. Damit bietet das Werkzeug eine außerordentliche gute Grundlage, zur Erschließung (Lemmatisierung und Kodierung) von textuellen Quellen jeder Art.</item>
+                     <item>Um die Klassifizierung zu erleichtern, wie auch einen Informationsverlust durch die Klassifizierung zu verhindern, werden alle Berufsbezeichnungen zunächst in kategorial geordnete semantische Einheiten aufgetrennt. Dies erleichtert erheblich die Nutzbarkeit des Angebots für unterschiedlichste Anforderungen. Diese semantische Trennung und Normierung der Namenseinheiten ermöglicht später eine individuell flexible inhaltliche Auswahl verschiedener logischer Einheiten (Topic Modeling) nach eigenen Prinzipien. In unserem Vortrag möchten wir die Logik dieses Modells erläutern und dem Fachpublikum zur Diskussion stellen, um Anregungen für eine interdisziplinär optimal zu nutzende Methode zu erhalten. Diese Vorgehensweise unterscheidet das Projekt von allen anderen rein auf ID-Identifikatoren zugeschnittenen Verfahren und macht es wesentlich flexibler und breiter für verschiedenste Bedürfnisse geistes- und sozialwissenschaftlicher Forschung anwendbar. Bei herkömmlichen Verfahren kann lediglich über eine fest zugewiesene ID-Nummer auf den verschiedenen Ebenen des Kodierungssystems klassifiziert und sortiert werden. In dem hier vorgeschlagenen Modell erfolgt zusätzlich auch auf der semantischen Ebene die Möglichkeit zum intuitiven Systematisieren, Anordnen und Auswählen. Dies gilt auch für alle weiteren Informationen (Geschlecht, Herrschaft, Rechtsbeziehungen, Ruhestand, Karriere etc.), die mit typisch frühneuzeitlichen, quellenbasierten Berufsbezeichnungen einhergehen und in moderne Berufssystematiken meist keinen Eingang finden. Moderne Klassifikationssysteme für frühneuzeitliche Berufsnamen sind daher tendenziell mit einem sehr hohen Informationsdefizit belastet und können unter Umständen in ahistorischen Analysen enden.</item>
+                 </list>
+                 <figure>
+                     <graphic n="1001"
+                          width="15.156533333333334cm"
+                          height="8.128594444444444cm"
+                          rend="inline"
+                          url="NASAREK_Robert_Die_Ontologie_historischer_deutschprachiger_B-image1.jpg"/>
+                 </figure>
+                 <list type="unordered">
+                     <item>Zur Klassifizierung von Berufen werden aus zeittypischen Lexika des 17./18. Jahrhunderts Tätigkeitsbeschreibungen abstrahiert, welche die Anforderungsprofile und Kompetenzen einzelner Berufe definieren. Sie dienen dem Abgleich mit modernen Tätigkeitsprofilen und erlauben erstmals überhaupt eine tätigkeitsgenaue Zuordnung historischer Berufe. Im Vortrag möchten wir zeigen, welche Möglichkeiten zur Systematisierung und Kategorisierung Lexika der frühen Neuzeit bieten und welche inhaltlichen Anknüpfungspunkte sie für moderne Klassifikationssysteme liefern. Dieser Aspekt bietet zudem hervorragende Möglichkeiten zur fachwissenschaftlichen Analyse, werden auf diese Weise doch Definitionskriterien frühneuzeitlicher Beruflichkeit überhaupt ermittelt und mittels einer logischen Auszeichnung auffindbar und auswertbar (xml/TEI). Wir möchten zeigen, welche Probleme dabei auftreten und welche Lösungsansätze wir hierfür entwickelt haben.</item>
+                 </list>
+                 <figure>
+                     <graphic n="1002"
+                          width="14.657916666666667cm"
+                          height="8.246694444444444cm"
+                          rend="inline"
+                          url="NASAREK_Robert_Die_Ontologie_historischer_deutschprachiger_B-image2.jpeg"/>
+                 </figure>
+                 <p>Weitere Ziel des Projektes (aber nicht unmittelbar unseres Vortrages, auch wenn wir auf die einzelnen Punkte sicherlich hinweisen) sind zudem folgende Punkte:</p>
+                 <list type="unordered">
+                     <item>Die Tätigkeitsprofile ermöglichen die nachvollziehbare, transparente Einordnung von Berufsbezeichnungen zum bereits existierenden englischsprachigen Berufsklassifizierungssystems HISCO. Momentan gibt es in HISCO lediglich 1.306 deutschsprachige Berufsbezeichnungen. Die Daten wurden nicht von einem Muttersprachler kodiert, weshalb viele Zuordnungen korrigiert werden müssten. Die Kodierung von HISCO ermöglicht das Mapping weiterer historischer Klassifikationsmodelle wie HISCLASS oder PST. Da HISCO moderne Beruflichkeit misst, ist eine Erweiterung und Präzisierung für die Berufe der Frühen Neuzeit unerlässlich (van Leeuwen et al. 2002; HISCO Tree Of Occupational Groups [http://historyofwork.iisg.nl/major.php]).</item>
+                     <item>Zudem werden die Einheitsbezeichnungen der KldB 2010 zugeordnet. Sie bieten nicht nur einen Zugriff auf (weitere) moderne Berufsklassifikationsmodelle, sondern durch den theoretischen Perspektivwechsel auch eine Systematisierung nach Anforderungsprofilen (Wiemer 2011).</item>
+                     <item>Die offenen Daten ermöglichen es Nutzern, transkribierte, quellenbasierte Originalberufsbezeichnungen zu normalisieren und automatisiert in ein ausgewähltes Kodierungssystem zu überführen. Ein Usecase wäre bspw. ein Forschungsprojekt, welches eine Netzwerkanalyse durch Heiratsverbindungen vornimmt. Der Beruf bietet hier häufig den einzigen Hinweis auf die sozialstrukturelle Dimension von Gruppen. Über das Werkzeug können die Daten in einem gewünschten Klassifizierungsmodell ausgegeben werden, indem die Originalschreibungen der Berufe in das Tool geladen und automatisiert kodiert werden. </item>
+                     <item>Varianten die keine automatisierte Kodierung beinhalten, können anschließend recherchiert und kodiert und in das Kompendium übertragen werden. Das Werkzeug ist damit beliebig erweiterbar. Das Projekt entwickelt ein Geschäftsmodell, wie solche Daten als Teil eines Serviceangebots nachkodiert und integriert werden können. Als Teil der langfristigen Infrastruktureinrichtung DARIAH soll die Ontologie der Berufe durch die Niedersächsische Staats- und Universitätsbibliothek auf Dauer angeboten werden.</item>
+                 </list>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Zwischenergebnisse</head>
+                <list type="unordered">
+                    <item>Im Bereich der Berufssegmentierung wurde ein Prototyp eines Datenschemas entwickelt, um die Berufe in adäquate Informationseinheiten aufzutrennen. </item>
+                    <item>Der Informationsgehalt der Lexika bezogen auf berufskundliche Informationen wurde tiefergehend untersucht und erste Aussagen können darüber getroffen werden. </item>
+                </list>
+                <figure>
+                    <graphic n="1003"
+                         width="14.4cm"
+                         height="4.992069444444445cm"
+                         rend="inline"
+                         url="NASAREK_Robert_Die_Ontologie_historischer_deutschprachiger_B-image3.png"/>
+                </figure>
+                <p rend="List Paragraph">Des Weiteren ist ein erstes Netzwerk von Autorenschaften und Informationsflüssen nachweisbar.</p>
+                <figure>
+                    <graphic n="1004"
+                         width="16.002cm"
+                         height="10.852327777777777cm"
+                         rend="inline"
+                         url="NASAREK_Robert_Die_Ontologie_historischer_deutschprachiger_B-image4.png"/>
+                </figure>
+                <list type="unordered">
+                    <item>Die Taxonomie der Klassifikationssysteme von HISCO und der KldB 2010 wurden ausführlich untersucht und erste Ansätze einer eigenen Systematik können vorgestellt werden.</item>
+                    <item>Mehrere Workflowalternativen von der Quelle bis zum Ergebnis der Inhaltsanalyse wurden erprobt, bewertet und können mit ihren Vor- und Nachteilen präsentiert werden. An dieser Stelle platziert sich am deutlichsten die „Kritik an der digitalen Vernunft“, vor allem in Bezug auf die 
+                        <list type="unordered">
+                            <item>Arbeit mit OCR-Erkennung (am Beispiel der OCR-Programmsammlung „ocropy“) </item>
+                            <item>dem Pre- und Postprocessing von Quellendigitalisaten (im Sinne von Ordnerstrukturen und Bildaufarbeitung) </item>
+                            <item>XML vs. QDA-gestützten hermeneutischen Verfahren der Inhaltsanalyse (zur Implementierung und Weiterverarbeitung der Ergebnisse und Daten) und</item>
+                            <item>der Nutzung von Objekt- oder relationalen Datenbanken zur Datenverwaltung und Verarbeitung. </item>
+                        </list>
+                    </item>
+                </list>
+                <p>Hierbei wird über die Vermeidung von epistemischen Fallstricken durch informationstechnische Automatisierung reflektiert und die Effizienzsteigerung digitaler Werkzeuge kritisch betrachtet, aber auch über die neuen Möglichkeiten zur Bewältigung von Big Data und dem dazugehörigen Erkenntnisgewinn referiert.</p>
+            </div>
         </body>
         <back>
          <div type="bibliogr">

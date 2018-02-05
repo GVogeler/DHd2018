@@ -107,9 +107,7 @@
                     <hi rend="italic">flat characters</hi>, die in erster Linie auf ihre Funktion für das Handlungsgefüge hin konstruiert werden und nicht die Tiefe moderner Individuen erreichen (vgl. zusammenfassend Schulz 2012). Im Widerspruch hierzu hat die mediävistische Literaturwissenschaft aber auch herausgestellt, dass die Konstruktion komplexer Figuren zu den grundlegenden Gestaltungsprinzipien mittelhochdeutscher Texte gehören kann. 
                 </p>
                 <p>Als Paradefall für Figurenkomplexität kann der um 1200/1210 abgefasste Artusroman ‚Parzival‘ angesehen 
-                    <hi rend="italic">
-                        <hi rend="italic">werden</hi>
-                    </hi>, dessen Autor Wolfram von Eschenbach im Prolog das Konzept eines ‚gemischten‘, nicht eindeutig als gut oder böse bewerteten Menschentypus entwirft, von dem er im Folgenden handeln will. Dementsprechend lassen sich im ‚Parzival‘ immer wieder Figuren finden, die nicht dem Ideal (nach ihm sind adelige Protagonisten nicht nur politisch mächtig, sondern zum Beispiel auch ethisch gut und körperlich schön) entsprechen, sondern in ihrer Darstellung widersprüchlich erscheinen und daher als komplex angesehen werden können.
+                        <hi rend="italic">werden</hi>, dessen Autor Wolfram von Eschenbach im Prolog das Konzept eines ‚gemischten‘, nicht eindeutig als gut oder böse bewerteten Menschentypus entwirft, von dem er im Folgenden handeln will. Dementsprechend lassen sich im ‚Parzival‘ immer wieder Figuren finden, die nicht dem Ideal (nach ihm sind adelige Protagonisten nicht nur politisch mächtig, sondern zum Beispiel auch ethisch gut und körperlich schön) entsprechen, sondern in ihrer Darstellung widersprüchlich erscheinen und daher als komplex angesehen werden können.
                 </p>
                 <p>Im Folgenden schlagen wir eine Methodik vor, mit der diese Einschätzungen der hermeneutischen Forschung digital modelliert und überprüft werden kann.</p>
             </div>
@@ -188,7 +186,7 @@
         </body>
         <back>
          <div type="notes">
-            <note xml:id="ftn1" n="1" rend="footnote text"> Experimente mit kleineren Kontexten lieferten schlechtere Ergebnisse.</note>
+            <note xml:id="ftn1" n="1">Experimente mit kleineren Kontexten lieferten schlechtere Ergebnisse.</note>
          </div>
          <div type="bibliogr">
                 <listBibl>

@@ -94,8 +94,7 @@
                 <p>Hier wird nun ein System für die Nachhaltigkeit von Webpublikationen entworfen. Es verbindet die Daten mit der Präsentationsschicht und kann mithilfe einer projektspezifischen, archivierbaren Konfiguration über eine Schnittstelle gesteuert werden. Durch den Einsatz einer solchen Schnittstelle können Webpublikationen inklusive der entsprechenden Funktionalitäten aus den Forschungsdaten reproduziert werden.
                     <ref target="ftn6" n="6"/> Digitale Editionen unterscheiden sich technisch zwar zurzeit noch stark voneinander (Robinson 2016), der hier gemachte Vorschlag und das sich anschließende Software-Beispiel zeigen daher, wo es schon jetzt Möglichkeiten zur Standardisierung gibt und wie diese aussehen könnten. 
                 </p>
-                <p>Vorbild für das System ist der erfolgreiche IIIF-Standard, der zu einem ähnlichen Zweck für Bilder eingeführt wurde (Cramer 2011). Der IIIF-Standard sieht eine Aufteilung von Server- und Clientstruktur vor, und als Austauschformat fungiert eine Manifest-Datei. Übertragen auf Digitale Editionen heißt dies, dass eine archivierbare Manifestdatei notwendige Definitionen festhält, mit denen es einem Viewer möglich ist, die vollständige Präsentation und Funktionalität der jeweiligen digitalen Edition herzustellen.
-                    <ref target="ftn7" n="7"/>
+                <p>Vorbild für das System ist der erfolgreiche IIIF-Standard, der zu einem ähnlichen Zweck für Bilder eingeführt wurde (Cramer 2011). Der IIIF-Standard sieht eine Aufteilung von Server- und Clientstruktur vor, und als Austauschformat fungiert eine Manifest-Datei. Übertragen auf Digitale Editionen heißt dies, dass eine archivierbare Manifestdatei notwendige Definitionen festhält, mit denen es einem Viewer möglich ist, die vollständige Präsentation und Funktionalität der jeweiligen digitalen Edition herzustellen.<ref target="ftn7" n="7"/>
                 </p>
                 <div type="div2" rend="DH-Heading2">
                     <head>Manifestdatei</head>
@@ -224,82 +223,113 @@
                         height="16.272747222222222cm"
                         rend="inline"
                         url="FECHNER_Martin_Eine_nachhaltige_Pr_sentationsschicht_f_r_dig-image1.gif"/>
+                    <head>Abbildung 1: Manifestdatei des Prototyps</head>
                 </figure>
-                <p>Abbildung 1: Manifestdatei des Prototyps</p>
             </div>
             <div type="div1" rend="DH-Heading1">
                 <head>Fazit</head>
                 <p>Hier wird die Entwicklung einer neuen Standardschnittstelle vorgeschlagen, um die Nachhaltigkeit digitaler Editionen zu verbessern. Denn es braucht für die Langzeitarchivierung digitaler Editionen auch eine Standardisierung ihrer Funktionalitäten. Editionen sind zwar sehr unterschiedlich, doch mit dem hier beschriebenen Interface und dem zugehörigen Austauschformat wird beispielhaft ein praktikabler Ansatz vorgestellt, um diese Lücke zu schließen. Eine Weiterentwicklung des hier gemachten Entwurfs und die Integration weiterer Standards unter Einbindung unterschiedlicher Editionsprojekte kann in Zukunft die Unabhängigkeit digitaler Editionen von einzelnen technischen Systemen erhöhen und unterstützt damit die Langzeitarchivierung.</p>
-                <p rend="DH-BibliographyHeading">Literatur</p>
-                <p rend="DH-BibliographyHeading">Bibliographie</p>
-                <p>
+            </div>
+        </body>
+        <back>
+            <div type="notes">
+                <note xml:id="ftn1" n="1">
+                    Ziele von Editionen finden sich bei (Förderkriterien 2015, Eggert 2016, Ralle 2016 und Sahle 2016).
+                </note>
+                <note xml:id="ftn2" n="2">
+                    Für die Forschungsdaten selbst ist die Langzeitarchivierung grundsätzlich gelöst. Digitalen Editionen wird jedoch nur geringe Zuverlässigkeit zugeschrieben  (Pierazzo 2015: 169).
+                </note>
+                <note xml:id="ftn3" n="3">
+                    So wird das Format der Text Encoding Initiative (TEI) verbreitet eingesetzt, das nur ein erster Schritt zur Standardisierung ist (Holmes 2017). Weitere Standards und Identifikatoren sind etwa die GND für Personen, GeoNames-IDs für Orte oder der Canocical Text Service (CTS) für Zitationen, das DITA- oder DocBook-Format für (technische) Dokumentationen. Als Langzeitarchivierungsformat für Metadaten gibt es etwa LMER (Steinke 2005).
+                </note>
+                <note xml:id="ftn4" n="4">
+                    Gute Ansätze einer Präsentationsoberfläche für Einzeldokumente bietet der "teiPublisher", der auf dem Datenformat ODD aufbaut (Meier 2017, Meier/Turska 2016 und Turska et al. 2016). 
+                </note>
+                <note xml:id="ftn5" n="5">
+                    Die Benutzbarkeit digitaler Editionen leidet unter mangelnden Interfaces (Robinson 2016). Pierazzo sieht es als Nachteil, dass viele digitale Editionen unterschiedliche User Interfaces besitzen, hält aber eine zukünftige Angleichung für wahrscheinlich (Pierazzo 2015: 162).
+                </note>
+                <note xml:id="ftn6" n="6">
+                    Es gibt dabei sehr unterschiedliche Anforderungen, die an die Präsentation digitaler Editionen gestellt werden (Shillingsburg 2016, Ralle 2016: 154f. und Sahle 2014).
+                </note>
+                <note xml:id="ftn7" n="7">
+                    Für die Langzeitarchivierung könnte eine Kompatibilität der Manifestdatei etwa mit LMER hergestellt werden (Steinke 2005).
+                </note>
+                <note xml:id="ftn8" n="8">
+                    TEI-Dokumente können etwa mit ODD zur Einzelpräsentation transformiert werden (Meier 2017).
+                </note>
+                <note xml:id="ftn9" n="9">
+                    Externe Daten können auch in eine "Standalone" Version überführt werden (Holmes 2017).
+                </note>
+            </div>
+            <div type="bibliogr">
+                <head>Bibliographie</head>
+                <bibl>
                     <hi rend="bold">Cramer, Tom</hi> (2011): The International Image Interoperability Framework (IIIF): Laying the Foundation for Common Services, Integrated Resources and a Marketplace of Tools for Scholars Worldwide. Blogpost. URL: 
                     <ref target="https://www.cni.org/topics/information-access-retrieval/international-image-interoperability-framework">https://www.cni.org/topics/information-access-retrieval/international-image-interoperability-framework</ref>
-                </p>
-                <p>
+                </bibl>
+                <bibl>
                     <hi rend="bold">Dumont, Stefan / Fechner, Martin</hi> (2014): “Bridging the Gap: Greater Usability for TEI encoding”, in: Journal of the Text Encoding Initiative 8. URL: 
                     <ref target="http://jtei.revues.org/1242">http://jtei.revues.org/1242</ref>
-                </p>
-                <p>
+                </bibl>
+                <bibl>
                     <hi rend="bold">Eggert, Paul</hi> (2016): “The reader-oriented scholarly edition”, in: Digital Scholarship in the Humanities 31, 4: 797–810. DOI: 
                     <ref target="https://doi.org/10.1093/llc/fqw043">10.1093/llc/fqw043</ref>
-                </p>
-                <p>Förderkriterien für wissenschaftliche Editionen in der Literaturwissenschaft. In: Informationen für Geistes- und Sozialwissenschaftler/innen (11) 2015.</p>
-                <p>
+                </bibl>
+                <bibl>Förderkriterien für wissenschaftliche Editionen in der Literaturwissenschaft. In: Informationen für Geistes- und Sozialwissenschaftler/innen (11) 2015.</bibl>
+                <bibl>
                     <hi rend="bold">Holmes, Martin</hi> (2017): “Whatever happened to interchange?” In: Digital Scholarship in the Humanities 32, suppl_1: i63–i68. DOI: 
                     <ref target="https://doi.org/10.1093/llc/fqw048">10.1093/llc/fqw048</ref>
-                </p>
-                <p>
+                </bibl>
+                <bibl>
                     <hi rend="bold">Meier, Wolfgang</hi> (2017): teiPublisher. The instant publishing toolbox. Version v2.2.0, Stand 8. September 2017. URL: 
                     <ref target="http://teipublisher.com/index.html">http://teipublisher.com/index.html</ref>
-                </p>
-                <p>
+                </bibl>
+                <bibl>
                     <hi rend="bold">Meier, Wolfgang / Turska, Magdalena</hi> (2016): “TEI Processing Model Toolbox: Power To The Editor”, in: Digital Humanities 2016: Conference Abstracts: 936. URL: 
                     <ref target="http://dh2016.adho.org/abstracts/401">http://dh2016.adho.org/abstracts/401</ref>
-                </p>
-                <p>
+                </bibl>
+                <bibl>
                     <hi rend="bold">Pempe, Wolfgang</hi> (2012): „Geisteswissenschaften“, in: Langzeitarchivierung von Forschungsdaten: Eine Bestandsaufnahme. Hg. v. Heike Neuroth et al., Version 1.0, Stand 2012: 137-159. URN: 
                     <ref target="http://www.nestor.sub.uni-goettingen.de/bestandsaufnahme/index.php">urn:nbn:de:0008-2012031401</ref>
-                </p>
-                <p>
+                </bibl>
+                <bibl>
                     <hi rend="bold">Pierazzo, Elena</hi> (2015): Digital Scholarly Editing: Theories, Models and Methods. Abingdon, England.
-                </p>
-                <p>
+                </bibl>
+                <bibl>
                     <hi rend="bold">Porter, Dot</hi> (2016): "What is an edition anyway?" My Keynote for the Digital Scholarly Editions as Interfaces conference, University of Graz. Blogpost, in: Dot Porter Digital. URL: 
                     <ref target="http://www.deporterdigital.org/?p=309">http://www.deporterdigital.org/?p=309</ref>
-                </p>
-                <p>
+                </bibl>
+                <bibl>
                     <hi rend="bold">Ralle, Inga Hanna</hi> (2016): „Maschinenlesbar – menschenlesbar. Über die grundlegende Ausrichtung der Edition“, in: Editio 30, 1: 144-156. DOI: 
                     <ref target="https://doi.org/10.1515/editio-2016-0009">10.1515/editio-2016-0009</ref>
-                </p>
-                <p>
+                </bibl>
+                <bibl>
                     <hi rend="bold">Robinson, Peter M. W.</hi> (2016): “Project-based digital humanities and social, digital, and scholarly editions”, in:
-                    <hi rend="al-author-name"> </hi>
                     <hi rend="italic">Digital Scholarship in the Humanities</hi> 31, 4: 875–889. DOI: 
                     <ref target="https://doi.org/10.1093/llc/fqw020">10.1093/llc/fqw020</ref>
-                </p>
-                <p>
+                </bibl>
+                <bibl>
                     <hi rend="bold">Sahle, Patrik</hi> (2014): Kriterienkatalog für die Besprechung digitaler Editionen. Version 1.1, Stand Juni 2014. URL: 
                     <ref target="https://www.i-d-e.de/publikationen/weitereschriften/kriterien-version-1-1/">https://www.i-d-e.de/publikationen/weitereschriften/kriterien-version-1-1/</ref>
-                </p>
-                <p>
+                </bibl>
+                <bibl>
                     <hi rend="bold">Sahle, Patrik</hi> (2016): “What is a Scholarly Digital Edition?” In: Digital Scholarly Editing: Theories and Practices: 19-40. DOI: 
                     <ref target="http://doi.org/10.11647/obp.0095.02">10.11647/obp.0095.02</ref>
-                </p>
-                <p>
+                </bibl>
+                <bibl>
                     <hi rend="bold">Shillingsburg, Peter</hi> (2016): “Reliable social scholarly editing”, in: 
                     <hi rend="italic">Digital Scholarship in the Humanities</hi> 31, 4: 890–897. DOI: 
                     <ref target="https://doi.org/10.1093/llc/fqw044">10.1093/llc/fqw044</ref>
-                </p>
-                <p>
+                </bibl>
+                <bibl>
                     <hi rend="bold">Steinke, Tobias</hi> (Redaktion) (2005): LMER Langzeitarchivierungsmetadaten für elektronische Ressourcen.Version 1.2, Stand 7. April 2005. URN: 
                     <ref target="http://d-nb.info/97511087x/34">urn:nbn:de:1111-2005041102</ref>
-                </p>
-                <p>
+                </bibl>
+                <bibl>
                     <hi rend="bold">Turska, Magdalena / Cummings, James / Rahtz, Sebastian</hi> (2016): Challenging the Myth of Presentation in Digital Editions, in: Journal of the Text Encoding Initiative 9. DOI: 
                     <ref target="http://doi.org/10.4000/jtei.1453">10.4000/jtei.1453</ref>
-                </p>
+                </bibl>
             </div>
-        </body>
+        </back>
     </text>
 </TEI>
