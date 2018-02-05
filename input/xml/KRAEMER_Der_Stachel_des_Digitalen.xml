@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+    xml:id="KRAEMER_Der_Stachel_des_Digitalen">
+   <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Der ‚Stachel des Digitalen‘ -  ein Anreiz zur Selbstreflexion in den Geisteswissenschaften?</title>
+                <author>
+                    <persName>
+                        <surname>Krämer</surname>
+                        <forename>Sybille</forename>
+                    </persName>
+                    <affiliation>Freie Universität Berlin, Deutschland, Institut für Philosophie</affiliation>
+                    <email></email>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2018-02-05T17:44:00Z</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <t:publisher xmlns:t="http://www.tei-c.org/ns/1.0">Georg Vogeler, im Auftrag des Verbands Digital Humanities im deutschaprachigen Raum e.V.</t:publisher>
+                <t:address xmlns:t="http://www.tei-c.org/ns/1.0">
+                    <t:addrLine>Universität Graz</t:addrLine>
+                    <t:addrLine>Zentrum für Informationsmodellierung - Austrian Centre for Digital Humanities</t:addrLine>
+                    <t:addrLine>Elisabethstraße 59/III</t:addrLine>
+                    <t:addrLine>8010 Graz</t:addrLine>
+                </t:address>
+            </publicationStmt>
+            <sourceDesc>
+                <p>via E-Mail from the author</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.17">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Keynote</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term/>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term/>
+                </keywords>
+            </textClass>
+            <settingDesc>
+                <ab n="conference">DHd2018 - "Kritik der Digitalen Vernunft", Köln</ab>
+                <ab n="paperID">x2</ab>
+                <ab n="session_ID">92</ab>
+                <ab n="session_numberInSession">1</ab>
+                <ab n="session_short"/>
+                <ab n="session_title">Abschluss von DHd 2018 und Abschluss-Keynote</ab>
+                <ab n="session_start">2018-03-02 14:00</ab>
+                <ab n="session_end">2018-03-02 15:30</ab>
+            </settingDesc>
+        </profileDesc>
+    </teiHeader>
+   <text>
+        <body>
+            <div type="div1" rend="DH-Heading1">
+                <p>
+                    Geht es um eine Kritik an der digitalen Vernunft? Oder kann die ‚digitale Vernunft‘ ihrerseits eine kritische Perspektive eröffnen, insofern ‚der Stachel‘ ihrer Praktiken das Selbstverständnis von Geisteswissenschaften herausfordert?  Die leitende Idee ist, dass ein Nachdenken über die ‚strukturentdeckenden ‘, über ‚datengetriebene‘ algorithmische Forschungsverfahren der Digital Humanities die Geistes- und Kulturwissenschaften anregen kann (oder anregen sollte) zu einer Metareflexion, durch welche auch die Verfahrensweisen ‚herkömmlicher‘ geistes- und kulturwissenschaftlicher Forschungsarbeit neu beleuchtet werden. Der dabei eingenommene methodische Gesichtspunkt ist ein praxeologischer: Was eine Wissenschaft ist, zeigt sich im Insgesamt ihres Forschungs-, Lehr- und Vermittlungshandelns.
+                </p>
+                <p>
+                    Alle Geistes- und Kulturwissenschaften zielen darauf, etwas das Texten, Bildern, Artefakten implizit ist, explizit zu machen – ob nun durch traditionelle Interpretation oder algorithmische Datenanalyse. Doch bereits diese Unterscheidung von ‚Interpretation‘ und ‚Datenanalyse‘ hinkt, denn es gibt weder rohe Daten noch material- und texturunabhängige Interpretationen. Doch wenn das so ist: Warum sollte eine maschinelle – im Idealfall statistisch-empirische - Auswertung großer Datenbestände die herkömmlichen geisteswissenschaftlichen Verfahrensweisen in neuem Licht erscheinen lassen?
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>
