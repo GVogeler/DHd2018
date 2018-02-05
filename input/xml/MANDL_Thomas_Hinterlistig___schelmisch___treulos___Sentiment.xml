@@ -122,10 +122,8 @@
                         height="7.7434722222222225cm"
                         rend="inline"
                         url="MANDL_Thomas_Hinterlistig___schelmisch___treulos___Sentiment-image1.png"/>
+                    <head>Abbildung 1: Kollokationen in AntConc</head>
                 </figure>
-                <p>
-                    <hi rend="italic">Abbildung 1: Kollokationen in AntConc</hi>
-                </p>
             </div>
             <div type="div1" rend="DH-Heading1">
                 <head>Ergebnisse</head>
@@ -141,8 +139,8 @@
                         height="9.389708333333333cm"
                         rend="inline"
                         url="MANDL_Thomas_Hinterlistig___schelmisch___treulos___Sentiment-image2.png"/>
+                    <head>Abbildung 2: Cluster zum Wortfeld Jude/Judentum</head>
                 </figure>
-                <p>Abbildung 2: Cluster zum Wortfeld Jude/Judentum</p>
                 <p>Insgesamt wurden 225 einmalig auftretende meinungstragende Begriffe gefunden. Von diesen sind nur 44% in einer aktuellen Liste des Deutschen vorhanden (Sentiment Wortschatz der Universität Leipzig). Zwar ist die verwendete Liste deutlich länger und aus umfangreicheren Studien hervorgegangen, doch allein dieser Vergleich zeigt, dass das historische Vokabular sich deutlich unterscheidet. Nicht enthalten sind beispielsweise: verachtet, zerstreut, unkünstlerisch oder halsstarrig.</p>
                 <p>Auffällig ist, dass im historischen Korpus deutlich mehr meinungstragende Substantive enthalten sind als im aktuellen Korpus, in dem Adjektive überwiegen. Dies müsste weiter untersucht werden. Möglicherweise wurden Substantive mit spezifischen Zielen wie etwa einer oberflächlichen Objektivierung eingesetzt. Beispiele für Substantive sind: Zarenwahnsinn, Blitzesschnelle, Engherzigkeit oder Schlappe. </p>
                 <p>Die vorläufigen Ergebnisse zeigen, dass nur eine Verknüpfung des iterativen Einsatzes analoger manueller und digitaler automatischer Methoden verschiedene Perspektiven auf Texte einnehmen kann und zu sinnvollen Ergebnissen führen kann. Dies fordert auch Stephen Ramsay unter dem Schlagwort Algorithmic Criticism (Ramsay 2008). </p>

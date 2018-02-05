@@ -129,37 +129,37 @@
          <div type="notes">
             <note xml:id="ftn1" n="1"> Vgl. 
                         <ref target="https://www.suub.uni-bremen.de/ueber-uns/projekte/alte-zeitungen/">
-                            <hi rend="underline color(1155CC)">https://www.suub.uni-bremen.de/ueber-uns/projekte/alte-zeitungen/</hi>
+                            <hi rend="underline">https://www.suub.uni-bremen.de/ueber-uns/projekte/alte-zeitungen/</hi>
                         </ref> [letzter Zugriff 14. Januar 2018]
                     </note>
             <note xml:id="ftn2" n="2"> Vgl. 
                         <ref target="http://zefys.staatsbibliothek-berlin.de/">
-                            <hi rend="underline color(1155CC)">http://zefys.staatsbibliothek-berlin.de/</hi>
+                            <hi rend="underline">http://zefys.staatsbibliothek-berlin.de/</hi>
                         </ref> [letzter Zugriff 14. Januar 2018]
                     </note>
             <note xml:id="ftn3" n="3"> Vgl. 
                         <ref target="http://digitale-sammlungen.ulb.uni-bonn.de/ulbbnz/date/list/229854">
-                            <hi rend="underline color(1155CC)">http://digitale-sammlungen.ulb.uni-bonn.de/ulbbnz/date/list/229854</hi>
+                            <hi rend="underline">http://digitale-sammlungen.ulb.uni-bonn.de/ulbbnz/date/list/229854</hi>
                         </ref> [letzter Zugriff 14. Januar 2018]
                     </note>
             <note xml:id="ftn4" n="4"> Vgl. 
                         <ref target="http://anno.onb.ac.at/">
-                            <hi rend="underline color(1155CC)">http://anno.onb.ac.at/</hi>
+                            <hi rend="underline">http://anno.onb.ac.at/</hi>
                         </ref> [letzter Zugriff 14. Januar 2018]
                     </note>
             <note xml:id="ftn5" n="5"> Vgl. 
                         <ref target="http://www.europeana-newspapers.eu/">
-                            <hi rend="underline color(1155CC)">http://www.europeana-newspapers.eu/</hi>
+                            <hi rend="underline">http://www.europeana-newspapers.eu/</hi>
                         </ref> [letzter Zugriff 14. Januar 2018]
                     </note>
             <note xml:id="ftn6" n="6"> Vgl. 
                         <ref target="https://kw.uni-paderborn.de/institut-fuer-germanistik-und-vergleichende-literaturwissenschaft/germanistische-und-allgemeine-sprachwissenschaft/schuster/forschung/projekte/der-hamburgische-unpartheyische-correspondent-volltextdigitalisierung/">
-                            <hi rend="underline color(1155CC)">https://kw.uni-paderborn.de/institut-fuer-germanistik-und-vergleichende-literaturwissenschaft/germanistische-und-allgemeine-sprachwissenschaft/schuster/forschung/projekte/der-hamburgische-unpartheyische-correspondent-volltextdigitalisierung/</hi>
+                            <hi rend="underline">https://kw.uni-paderborn.de/institut-fuer-germanistik-und-vergleichende-literaturwissenschaft/germanistische-und-allgemeine-sprachwissenschaft/schuster/forschung/projekte/der-hamburgische-unpartheyische-correspondent-volltextdigitalisierung/</hi>
                         </ref> [letzter Zugriff 14. Januar 2018]
                     </note>
             <note xml:id="ftn7" n="7"> Vgl. 
                         <ref target="http://repos.ids-mannheim.de/mkhz-beschreibung.html">
-                            <hi rend="underline color(1155CC)">http://repos.ids-mannheim.de/mkhz-beschreibung.html</hi>
+                            <hi rend="underline">http://repos.ids-mannheim.de/mkhz-beschreibung.html</hi>
                         </ref> [letzter Zugriff 14.01.2018]
                     </note>
             <note xml:id="ftn8" n="8"> Vgl. etwa die Einrichtung einer “Special Interest Group Newspapers” bei der TEI-Konferenz 2016 in Wien, das CLARIN-Vernetzungstreffen “Working with Digital Collections of Newspapers” 2016 in Leuven oder das “Transatlantic Digitised Newspaper Symposion” 2017 in London. </note>
@@ -177,45 +177,45 @@
          <div type="bibliogr">
                 <listBibl>
                     <head>Bibliographie</head>
-                    <bibl>ANNO – AustriaN Newspapers Online. 
+                    <bibl><hi rend="bold">ANNO – AustriaN Newspapers Online. </hi> 
                         <ref target="http://anno.onb.ac.at/">
                             <hi rend="underline color(1155CC)">http://anno.onb.ac.at/</hi>
                         </ref> [letzter Zugriff 14. Januar 2018]
                     </bibl>
-                    <bibl>Harald Burger / Luginbühl, Martin (2015): Mediensprache , Berlin / Boston, 2015, 39-45.</bibl>
-                    <bibl>Reisner, Andrea / Schiemer, Alfred (2016): „Das Wien(n)erische Diarium und die Entstehung der periodischen Presse“ in: 
+                    <bibl><hi rend="bold">Harald Burger / Luginbühl, Martin </hi>(2015): Mediensprache , Berlin / Boston, 2015, 39-45.</bibl>
+                    <bibl><hi rend="bold">Reisner, Andrea / Schiemer, Alfred </hi>(2016): „Das Wien(n)erische Diarium und die Entstehung der periodischen Presse“ in: 
                         <hi rend="italic">Österreichische Mediengeschichte 1</hi>: 87-112.
                     </bibl>
-                    <bibl>Digitalisierung der vollständigen deutschsprachigen Zeitungsbestände des 17. Jahrhunderts der Staats- und Universitätsbilbiothek Bremen: 
+                    <bibl><hi rend="bold">Digitalisierung der vollständigen deutschsprachigen Zeitungsbestände des 17. Jahrhunderts der Staats- und Universitätsbilbiothek Bremen</hi>: 
                         <ref target="https://www.suub.uni-bremen.de/ueber-uns/projekte/alte-zeitungen/">https://www.suub.uni-bremen.de/ueber-uns/projekte/alte-zeitungen/</ref> [letzter Zugriff 14. Januar 2018]
                     </bibl>
-                    <bibl>Europeana Newspapers: 
+                    <bibl><hi rend="bold">Europeana Newspapers</hi>: 
                         <ref target="http://www.europeana-newspapers.eu/">
                             <hi rend="underline color(1155CC)">http://www.europeana-newspapers.eu/</hi>
                         </ref> [letzter Zugriff 14. Januar 2018]
                     </bibl>
-                    <bibl>Mannheimer Korpus für Historische Zeitungen und Zeitschriften in COSMAS II: 
+                    <bibl><hi rend="bold">Mannheimer Korpus für Historische Zeitungen und Zeitschriften in COSMAS II</hi>: 
                         <ref target="http://repos.ids-mannheim.de/mkhz-beschreibung.html">
                             <hi rend="underline color(1155CC)">http://repos.ids-mannheim.de/mkhz-beschreibung.html</hi>
                         </ref> [letzter Zugriff 14. Januar 2018]
                     </bibl>
-                    <bibl>Newspapers Sammlung der Universitäts- und Landesbibliothek Bonn: 
+                    <bibl><hi rend="bold">Newspapers Sammlung der Universitäts- und Landesbibliothek Bonn</hi>: 
                         <ref target="http://digitale-sammlungen.ulb.uni-bonn.de/ulbbnz/date/list/229854">
                             <hi rend="underline color(1155CC)">http://digitale-sammlungen.ulb.uni-bonn.de/ulbbnz/date/list/229854</hi>
                         </ref> [letzter Zugriff 14. Januar 2018]
                     </bibl>
-                    <bibl>Projekt „Volltextdigitalisierung der Staats- und Gelehrte[n] Zeitung des Hamburgischen Unpartheyischen Correspondenten und ihrer Vorläufer (1712-1848): 
+                    <bibl><hi rend="bold">Projekt „Volltextdigitalisierung der Staats- und Gelehrte[n] Zeitung des Hamburgischen Unpartheyischen Correspondenten und ihrer Vorläufer (1712-1848)</hi>: 
                         <ref target="https://kw.uni-paderborn.de/institut-fuer-germanistik-und-vergleichende-literaturwissenschaft/germanistische-und-allgemeine-sprachwissenschaft/schuster/forschung/projekte/der-hamburgische-unpartheyische-correspondent-volltextdigitalisierung/">
                             <hi rend="underline color(1155CC)">https://kw.uni-paderborn.de/institut-fuer-germanistik-und-vergleichende-literaturwissenschaft/germanistische-und-allgemeine-sprachwissenschaft/schuster/forschung/projekte/der-hamburgische-unpartheyische-correspondent-volltextdigitalisierung/</hi>
                         </ref> [letzter Zugriff 14. Januar 2018]
                     </bibl>
-                    <bibl>Resch, Claudia / Schopper, Daniel / Hannesschläger, Vanessa / Wohlfarter, Eva / Mader, Anna / Fischer, Nora (2016): Wienerisches Diarium Digital: Unlocking a historic newspaper for interdisciplinary studies with the TEI Guidelines. 
+                    <bibl><hi rend="bold">Resch, Claudia / Schopper, Daniel / Hannesschläger, Vanessa / Wohlfarter, Eva / Mader, Anna / Fischer, Nora </hi>(2016): Wienerisches Diarium Digital: Unlocking a historic newspaper for interdisciplinary studies with the TEI Guidelines. 
                         <ref target="https://goo.gl/a9SmLk">
                             <hi rend="underline color(1155CC)">https://goo.gl/a9SmLk</hi>
                         </ref>
                     </bibl>
-                    <bibl>Schuster, Britt-Marie / Wille, Manuel (2016): Von der Kanzlei- zur Bügersprache? Textsortengeschichtliche Betrachtungen zur „Staats- und gelehrten Zeitung des Hamburgischen unpartheyischen Correspondenten“ im 18. Jahrhundert in: Jahrbuch für Kommunikationsgeschichte 17 Stuttgart: Franz Steiner Verlag 7-29.</bibl>
-                    <bibl>ZEFYS Das Zeitungsinformationssystem der Staatsbibliothek zu Berlin: 
+                    <bibl><hi rend="bold">Schuster, Britt-Marie / Wille, Manuel </hi>(2016): Von der Kanzlei- zur Bügersprache? Textsortengeschichtliche Betrachtungen zur „Staats- und gelehrten Zeitung des Hamburgischen unpartheyischen Correspondenten“ im 18. Jahrhundert in: Jahrbuch für Kommunikationsgeschichte 17 Stuttgart: Franz Steiner Verlag 7-29.</bibl>
+                    <bibl><hi rend="bold">ZEFYS Das Zeitungsinformationssystem der Staatsbibliothek zu Berlin</hi>: 
                         <ref target="http://zefys.staatsbibliothek-berlin.de/">http://zefys.staatsbibliothek-berlin.de/</ref> [letzter Zugriff 14. Januar 2018]
                     </bibl>
                 </listBibl>

@@ -83,10 +83,7 @@
                 <head>Einleitung</head>
                 <p>Durch die wachsende Menge an digitalen Daten im Bereich Digital Humanities bedarf es zunehmend der Arbeit von Datenkuratoren. Aufgrund der ständigen Steigerung der Zahl und des Umfangs der zu verarbeitenden Quellen ist jedoch der übliche Modus Operandi der Datenkuratoren (manuelle Konversionen und konsekutive Anpassungen) untragbar geworden.</p>
                 <p>Dieser Vortrag stellt eine neue Methode für die Kuration digitaler Daten vor, die auf den Prinzipien der funktionalen Programmierung, der unix-Tools und der XML-Technologien basiert. Diese Methode wurde vom Cologne Center for eHumanities der Universität zu Köln seit 2014 im Rahmen des Lazarus-Projekts (CCeH 2014) und danach in verschiedenen anderen DH-Projekten angewendet.</p>
-                <p>Die Besonderheit dieser Methode besteht in der 
-                    <hi rend="background-color(#ffffff)">Auf</hi>
-                    <hi rend="background-color(#ffffff)">g</hi>
-                    <hi rend="background-color(#ffffff)">liederung </hi>des Kurationsprozesses in eine Pipeline von Miniprogrammen, von denen jedes einzelne einen präzisen Schritt des Kurationsprozesses darstellt. Wird ein Fehler in den resultierenden Dateien bemerkt, kann ein neuer Schritt geschrieben werden und in die Kette eingebaut werden, oder die existierenden Schritte korrigiert werden. Anschließend wird die Kurationspipeline neu laufen gelassen.
+                <p>Die Besonderheit dieser Methode besteht in der Aufgliederung des Kurationsprozesses in eine Pipeline von Miniprogrammen, von denen jedes einzelne einen präzisen Schritt des Kurationsprozesses darstellt. Wird ein Fehler in den resultierenden Dateien bemerkt, kann ein neuer Schritt geschrieben werden und in die Kette eingebaut werden, oder die existierenden Schritte korrigiert werden. Anschließend wird die Kurationspipeline neu laufen gelassen.
                 </p>
                 <p>Der Hauptgrundsatz lautet: Keine Datei wird „manuell“ modifiziert, jede Operation muss von einem Miniprogramm ausgeführt werden.</p>
                 <p>Konsequenz dieses Grundsatzes und Hauptvorteil der vorgestellten Methode ist, dass die ganze Arbeit des Kurators — mitsamt seiner Entscheidungen und seiner bevorzugten Arbeitsweisen — in dieser Pipeline von Miniprogrammen dokumentiert ist und in sie eingebettet ist. Des weiteren sind der Kurationsprozess und seine Ergebnisse einfach zu reproduzieren und zu verifizieren. Das führt zu einer besseren Nachvollziehbarkeit der Kurationsarbeit, auch wenn die Kuration von einem Team durchgeführt wird.</p>
@@ -113,7 +110,7 @@
                 <p>In dieser Methode ist jeder Arbeitsschritt formell durch ein sehr kleines Programm beschrieben, das in einer funktionalen und deklarativen Programmiersprache implementiert ist und im Durchschnitt aus weniger als 15 Instruktionen besteht. In dieser Art sind sehr unterschiedliche Schritte implementiert, z.B. die Normalisierung der Lemmata, die Behebung von technischen Fehlern, die Integration von externen Quellen.</p>
                 <p>Diese Programme, die die Schritte der Kurationsarbeit darstellen, sind im Sinne einer Pipeline organisiert, d.h. der Output des einen ist der Input eines anderen. Die Kuratoren erklären, welches die kommenden Schritte sind und welche Abhängigkeiten zwischen den einzelnen Schritten bestehen (z.B. dass die Umwandlungsschritte dem Abrufschritt folgen sollen). Der folgende Abschnitt enthält verschiedene konkrete Beispiele von Kurationspipelines und Schritten/Miniprogrammen.</p>
                 <p>Alle diese Schritte sind reine 
-                    <hi rend="italic">idempotente</hi>Funktionen, d.h. dass ihr Ergebnis nur von den Input-Daten anhängig ist. Konkret bedeutet das, dass man die Kurationspipelinemehrmals durchlaufen kann, und immer das gleiche Ergebnis erhält. Dies steht im Gegensatz zu den klassischen Skript-basierten Methoden.
+                    <hi rend="italic">idempotente</hi> Funktionen, d.h. dass ihr Ergebnis nur von den Input-Daten anhängig ist. Konkret bedeutet das, dass man die Kurationspipelinemehrmals durchlaufen kann, und immer das gleiche Ergebnis erhält. Dies steht im Gegensatz zu den klassischen Skript-basierten Methoden.
                 </p>
             </div>
             <div type="div1" rend="DH-Heading1">
@@ -121,12 +118,7 @@
                 <p>In der Essenz bedeutet das konkret, dass der Kurationworkflow, der im Lazaruz-Projekt und in anderen folgenden CCeH-Projekten benutzt wurde, aus drei großen Komponenten besteht:</p>
                 <list type="ordered">
                     <item>Die Makefiles. Ein Makefile ist eine Datei, die den gesamten Kurationsprozess mittels des unix-Tools make steuert. Der Makefile erklärt, wie man eine Datei X (genannt 
-                        <emph>Ta</emph>
-                        <emph>rget</emph>) durch die Dateien A, B und C (genannt 
-                        <emph>A</emph>
-                        <emph>b</emph>
-                        <emph>hängigkeiten von X</emph>) herstellen kann. Im Fall des Cologne-Sanskrit-Lexicon-Projekts erklären die Makefiles wie man die target TEI-Deteien herstellen und testen kann, d.h. wo man die originalen Dateien mit den Sanskrit-Wörterbüchern finden kann, wie man sie herunterladen kann, wie man den Konversionprozess durch die Konversionspipelines 
-                        <hi rend="background-color(#d0f0c0)">durchführen</hi> kann usw.
+                        <hi rend="bold">Target</hi>) durch die Dateien A, B und C (genannt <hi rend="bold">Abhängigkeiten von X</hi>) herstellen kann. Im Fall des Cologne-Sanskrit-Lexicon-Projekts erklären die Makefiles wie man die target TEI-Deteien herstellen und testen kann, d.h. wo man die originalen Dateien mit den Sanskrit-Wörterbüchern finden kann, wie man sie herunterladen kann, wie man den Konversionprozess durch die Konversionspipelines durchführen kann usw.
                     </item>
                     <item>Die Konversionspipelines. Jede Pipeline ist für die Konversion bestimmter Dateien verantwortlich und besteht aus verschieden Schritten. Jeder Schritt ist implementiert durch eine XSLT-Transformation (die funktionalen Miniprogramme, wie oben erwähnt). Die Pipelines selbst sind XProc-basierte XML-Pipelines (Walsh 2007).</item>
                     <item>DieTests. Verschiedeneautomatisierte Schematron-basierte Tests kontrollieren, dass die hergestelltenDateien valide sind, dass keine altenschon behobenen Fehler erneut eingepflegt werden, sowie dass keine Informationen verloren gehen.</item>
@@ -145,8 +137,7 @@
                 <p>
                     <figure>
                         <graphic url="BARABUCCI_Gioele__Funktionale_und_deklarative_Programmierung-100002010000043A0000028C0EC3C5249F2F569F.png"/>
-                        <head>
-                            <lb/>Abbildung 1: Makefile für die Kuration des Monier Wörterbuches. In den ersten Zeilen werden verschiedene Parameter eingerichtet. Dann werden die Abhängigkeiten der target-Datei monier.tei beschrieben. Schließlich wird das Kommando eingerichtet, das man benötigt, um die target-Datei herzustellen.
+                        <head>Abbildung 1: Makefile für die Kuration des Monier Wörterbuches. In den ersten Zeilen werden verschiedene Parameter eingerichtet. Dann werden die Abhängigkeiten der target-Datei monier.tei beschrieben. Schließlich wird das Kommando eingerichtet, das man benötigt, um die target-Datei herzustellen.
                         </head>
                     </figure>
                 </p>
@@ -158,16 +149,14 @@
                 <p>
                     <figure>
                         <graphic url="BARABUCCI_Gioele__Funktionale_und_deklarative_Programmierung-100002010000065B00000464726B40CC8DBDA3AE.png"/>
-                        <head>
-                            <lb/>Abbildung 2: Ein Miniprogramm. Dieser Schritt korrigiert nur einen bestimmten Fehler.
+                        <head>Abbildung 2: Ein Miniprogramm. Dieser Schritt korrigiert nur einen bestimmten Fehler.
                         </head>
                     </figure>
                 </p>
                 <p>
                     <figure>
                         <graphic url="BARABUCCI_Gioele__Funktionale_und_deklarative_Programmierung-100002010000045E000001847ACA3C93EEDF27A8.png"/>
-                        <head>
-                            <lb/>Abbildung 3: Auszug aus der Haupt-TEI-Transformation. Da die vorherigen Schritte die kleinen Fehler schon behoben haben, kann diese Transformation kurz und bündig sein.
+                        <head>Abbildung 3: Auszug aus der Haupt-TEI-Transformation. Da die vorherigen Schritte die kleinen Fehler schon behoben haben, kann diese Transformation kurz und bündig sein.
                         </head>
                     </figure>
                 </p>
@@ -187,10 +176,7 @@
                     <item>Eine methodologische Kohärenz kann über Jahre hinweg beibehalten werden, auch wenn neue Kuratoren diese Daten verwalten werden.</item>
                     <item>Dank der Speicherung verschiedener Schritte in Versioning-Systemen wie Git, kann man sehen, wie der Kurationsprozess entwickelt worden ist.</item>
                 </list>
-                <p>Die Hauptregel dieser Methode, dass keine Datei „manuell“ modifiziert wird und alles durch Miniprogramme ausgeführt wird, garantiert, dass jede Operation 
-                    <hi rend="background-color(#ffffff)">an </hi>
-                    <hi rend="background-color(#ffffff)">den </hi>
-                    <hi rend="background-color(#ffffff)">gegebenen Daten</hi> klar definiert und ausdrücklich formuliert ist.
+                <p>Die Hauptregel dieser Methode, dass keine Datei „manuell“ modifiziert wird und alles durch Miniprogramme ausgeführt wird, garantiert, dass jede Operation an den gegebenen Daten klar definiert und ausdrücklich formuliert ist.
                 </p>
             </div>
             <div type="div1" rend="DH-Heading1">
@@ -202,28 +188,27 @@
             </div>
             <div type="div1" rend="DH-Heading1">
                 <head>Verwandte Arbeiten</head>
-                <p>Für die Kuration digitaler Daten wurde oft ein einfachererWorkflow vorgeschlagen: die Daten ändern und danach die Ergebnisse in einem Git-Repositorium speichern. (Reeve 2016, Crowley et at. 2017). Die Idee der Befürworter dieses Workflows ist, dass die Speichrung des Datenstatuses nach jedem Arbeitsschritt den Kurationsprozess adäquat widerspiegeln. Das greift jedoch zu kurz. Git speichert nur 
-                    <emph>was</emph> geändert wurde, nicht mit welcher Absicht eine Änderung durchgeführt wurde. Natürlich könnten diese Absichten und die entsprechenden Begründungen in einer Commit-Nachricht beschrieben werden, aber oft sind sie es nicht und in jedem Fall können Commit-Nachrichten nicht so präzise wie ein Stück Code sein. Des weiteren löst die Änderungen mithilfe von Git nachzuvollziehen nicht die Probleme, welche entstehen, wenn die originalen Daten verändert werden: In diesem Fall muss die ganze Arbeit von vorne begonnen werden.
+                <p>Für die Kuration digitaler Daten wurde oft ein einfachererWorkflow vorgeschlagen: die Daten ändern und danach die Ergebnisse in einem Git-Repositorium speichern. (Reeve 2016, Crowley et at. 2017). Die Idee der Befürworter dieses Workflows ist, dass die Speichrung des Datenstatuses nach jedem Arbeitsschritt den Kurationsprozess adäquat widerspiegeln. Das greift jedoch zu kurz. Git speichert nur was geändert wurde, nicht mit welcher Absicht eine Änderung durchgeführt wurde. Natürlich könnten diese Absichten und die entsprechenden Begründungen in einer Commit-Nachricht beschrieben werden, aber oft sind sie es nicht und in jedem Fall können Commit-Nachrichten nicht so präzise wie ein Stück Code sein. Des weiteren löst die Änderungen mithilfe von Git nachzuvollziehen nicht die Probleme, welche entstehen, wenn die originalen Daten verändert werden: In diesem Fall muss die ganze Arbeit von vorne begonnen werden.
                 </p>
                 <p>Workflows wie der in diesem Beitrag beschriebene, in welchen die Hauptaufgabe der Kuratoren ist, Pipelines zu schreiben, finden sich häufig in der Informatik (Doltra &amp; Löh 2008; Schoen &amp; Perry 2014) und in der Physik (Peng 2009).</p>
-                <p>Diese sind auch im Bereich Digital Scholarly Editingvorgeschlagen worden, z.B. von van Zundert (2016) oder Barabucci und Fischer (2017).</p>
+                <p>Diese sind auch im Bereich Digital Scholarly Editing vorgeschlagen worden, z.B. von van Zundert (2016) oder Barabucci und Fischer (2017).</p>
             </div>
         </body>
         <back>
          <div type="bibliogr">
                 <listBibl>
                     <head>Bibliographie</head>
-                    <bibl>Barabucci, Gioele / Fischer, Franz (2017): „The formalization of textual criticism: bridging the gap between automated collation and edited critical texts“, in: Advances in Digital Scholarly Editing: Papers presented at the DiXiT conferences in The Hague, Cologne, and Antwerp. Sidestone Press.</bibl>
-                    <bibl>CCeH (2014). „sanskrit-dict-to-tei: TEI-fy existing Sanskrit dictionaries.“, https://github.com/cceh/sanskrit-dict-to-tei (Das Repository wird im Laufe des Jahres 2018 veröffentlicht werden).</bibl>
-                    <bibl>Crowley, Ronan / Reeve, Jonathan / Schäuble, Johannes (2017). open-editions/corpus-joyce-ulysses-tei: Zenodo release (Version v0.1.1). Zenodo. 10.5281/zenodo.583139</bibl>
-                    <bibl>Dolstra, Eelco / Löh, Andres (2008). „NixOS: A purely functional Linux distribution“, in: ACM Sigplan Notices, 43(9): 367-378.</bibl>
-                    <bibl>Duvall, Paul M. / Matyas, Steve / Glover, Andrew (2007). „Continuous integration: improving software quality and reducing risk“. Pearson Education.</bibl>
-                    <bibl>Flanders, Julia / Muñoz, Trevor (2017). „An Introduction to Humanities Data Curation“, http://guide.dhcuration.org/contents/intro/ [letzter Zugriff 2018-01-10].</bibl>
-                    <bibl>Peng, Roger D (2009). „Reproducible research and biostatistics“, in: Biostatistics, 10(3): 405-408.</bibl>
-                    <bibl>Reeve, Jonathan (2016). „Git-Lit: an Application of Distributed Version Control Technology toward the Creation of 50,000 Digital Scholarly Editions“, in: Digital Humanities 2016: Conference Abstracts. Jagiellonian University &amp; Pedagogical University, Kraków, pp. 657-658.</bibl>
-                    <bibl>Schoen, Seth / Perry, Mike (2014). „Why and how of reproducible builds: Distrusting our own infrastructure for safer software releases“, https://air.mozilla.org/why-and-how-of-reproducible-builds-distrusting-our-own-infrastructure-for-safer-software-releases/ [letzter Zugriff 2018-01-10].</bibl>
-                    <bibl>Walsh, Norman (2007). „XProc: An XML pipeline language“ in: XML Prague 2007.</bibl>
-                    <bibl>van Zundert, Joris J. (2016). „Close Reading and Slow Programming — Computer Code as Digital Scholarly Edition.“, in: ESTS 2016.</bibl>
+                    <bibl><hi rend="bold">Barabucci, Gioele / Fischer, Franz </hi>(2017): „The formalization of textual criticism: bridging the gap between automated collation and edited critical texts“, in: Advances in Digital Scholarly Editing: Papers presented at the DiXiT conferences in The Hague, Cologne, and Antwerp. Sidestone Press.</bibl>
+                    <bibl><hi rend="bold">CCeH </hi>(2014). „sanskrit-dict-to-tei: TEI-fy existing Sanskrit dictionaries.“, https://github.com/cceh/sanskrit-dict-to-tei (Das Repository wird im Laufe des Jahres 2018 veröffentlicht werden).</bibl>
+                    <bibl><hi rend="bold">Crowley, Ronan / Reeve, Jonathan / Schäuble, Johannes </hi>(2017). open-editions/corpus-joyce-ulysses-tei: Zenodo release (Version v0.1.1). Zenodo. 10.5281/zenodo.583139</bibl>
+                    <bibl><hi rend="bold">Dolstra, Eelco / Löh, Andres </hi>(2008). „NixOS: A purely functional Linux distribution“, in: ACM Sigplan Notices, 43(9): 367-378.</bibl>
+                    <bibl><hi rend="bold">Duvall, Paul M. / Matyas, Steve / Glover, Andrew </hi>(2007). „Continuous integration: improving software quality and reducing risk“. Pearson Education.</bibl>
+                    <bibl><hi rend="bold">Flanders, Julia / Muñoz, Trevor </hi>(2017). „An Introduction to Humanities Data Curation“, http://guide.dhcuration.org/contents/intro/ [letzter Zugriff 2018-01-10].</bibl>
+                    <bibl><hi rend="bold">Peng, Roger D </hi>(2009). „Reproducible research and biostatistics“, in: Biostatistics, 10(3): 405-408.</bibl>
+                    <bibl><hi rend="bold">Reeve, Jonathan </hi>(2016). „Git-Lit: an Application of Distributed Version Control Technology toward the Creation of 50,000 Digital Scholarly Editions“, in: Digital Humanities 2016: Conference Abstracts. Jagiellonian University &amp; Pedagogical University, Kraków, pp. 657-658.</bibl>
+                    <bibl><hi rend="bold">Schoen, Seth / Perry, Mike </hi>(2014). „Why and how of reproducible builds: Distrusting our own infrastructure for safer software releases“, https://air.mozilla.org/why-and-how-of-reproducible-builds-distrusting-our-own-infrastructure-for-safer-software-releases/ [letzter Zugriff 2018-01-10].</bibl>
+                    <bibl><hi rend="bold">Walsh, Norman </hi>(2007). „XProc: An XML pipeline language“ in: XML Prague 2007.</bibl>
+                    <bibl><hi rend="bold">van Zundert, Joris J. </hi>(2016). „Close Reading and Slow Programming — Computer Code as Digital Scholarly Edition.“, in: ESTS 2016.</bibl>
                 </listBibl>
             </div>
       </back>

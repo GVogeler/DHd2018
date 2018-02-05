@@ -114,9 +114,7 @@
                 <p>Das konkrete methodische Vorgehen, das hier als „Dokumentenarbeit“ zur Korpuserstellung bezeichnet wird, gliedert sich in drei Schritte: das Zusammenstellen der Ausgangsdaten als HTML-Dateien, die Transformation der Ausgangsdaten in das XML-Format sowie die eigentliche Auszeichnung der Ausgangsdaten mit Metadaten zur Modellierung der Struktur. </p>
                 <p>Entgegen der Annahme, dass derart politisch relevante Dokumente wie Verfassungen als elektronische Ausgangsdaten vorliegen sollten, müssen diese zunächst hergestellt und in ein bearbeitbares Datenformat transformiert werden. Zwar finden sich aktuelle Verfassungen als elektronisch veröffentlichte Ressourcen bspw. in den Rechtsdatenbanken und -portalen der jeweiligen Staaten, im deutschen Fall bspw. „Juris“.Es existiert jedoch kein lückenloser, chronologischer Verlauf, aus dem sich alle Änderungen computergestützt entnehmen ließen. </p>
                 <p>Auf der Seite 
-                    <ref target="http://www.verfassungen.org/">
-                        <hi rend="Internet_Link">www.verfassungen.org</hi>
-                    </ref> lassen sich die meisten Verfassungen online (auf Deutsch) abrufen und downloaden. Zudem beinhalten die dortigen Dokumente farblich abgesetzte Änderungen in Textform und nicht etwa als Kommentar oder gesonderte Liste sowie jeweils Totalrevisionen als separate Dokumente. Diese Dokumente werden dann mit offiziell veröffentlichen Verfassungen abgeglichen, um gegebenenfalls inhaltliche Fehler aufzuspüren und zu beheben. Anschließend werden die Daten manuell bereinigt und standardisiert, d.h. nicht benötigte Beschreibungen der Autor*innen der Webseiten oder andere irrelevante Informationen werden entfernt. Diese Dokumente bilden sodann die Grundlage für das Korpus. Die einzelnen Verfassungen beinhalten eine Fülle an textlichen Ergänzungen, Streichungen und anderweitigen textlichen Veränderungen, die einerseits schwer zu identifizieren sind und andererseits nicht chronologisch sortiert, sondern der Texthierarchie folgend vorliegen. Aus diesen Gründen wird zuerst eine Ausgangsverfassung des Jahres 2011, also dem Ende des Untersuchungszeitraums, erstellt, um ausgehend davon jede weitere Änderung als eigenständige, nicht offizielle, „Phantom-Verfassung“ zu rekonstruieren. Durch diesen iterativen, historischen Rekonstruktionsprozess wird schließlich die Datengrundlage geschaffen. 
+                    <ref target="http://www.verfassungen.org/">www.verfassungen.org</ref> lassen sich die meisten Verfassungen online (auf Deutsch) abrufen und downloaden. Zudem beinhalten die dortigen Dokumente farblich abgesetzte Änderungen in Textform und nicht etwa als Kommentar oder gesonderte Liste sowie jeweils Totalrevisionen als separate Dokumente. Diese Dokumente werden dann mit offiziell veröffentlichen Verfassungen abgeglichen, um gegebenenfalls inhaltliche Fehler aufzuspüren und zu beheben. Anschließend werden die Daten manuell bereinigt und standardisiert, d.h. nicht benötigte Beschreibungen der Autor*innen der Webseiten oder andere irrelevante Informationen werden entfernt. Diese Dokumente bilden sodann die Grundlage für das Korpus. Die einzelnen Verfassungen beinhalten eine Fülle an textlichen Ergänzungen, Streichungen und anderweitigen textlichen Veränderungen, die einerseits schwer zu identifizieren sind und andererseits nicht chronologisch sortiert, sondern der Texthierarchie folgend vorliegen. Aus diesen Gründen wird zuerst eine Ausgangsverfassung des Jahres 2011, also dem Ende des Untersuchungszeitraums, erstellt, um ausgehend davon jede weitere Änderung als eigenständige, nicht offizielle, „Phantom-Verfassung“ zu rekonstruieren. Durch diesen iterativen, historischen Rekonstruktionsprozess wird schließlich die Datengrundlage geschaffen. 
                 </p>
                 <p>Die Verfassungen liegen zunächst als HTML-Dokumente, mit einer sehr flachen Dokumentenstruktur vor. Die zu entwickelnde Analysesoftware benötigt jedoch ein Datenformat, das Metadaten mit Dokumentendaten assoziieren kann. Dem aktuellen Entwicklungsstand entsprechend verwenden wir ein XML-Format (Bubenhofer und Scharloth, 2015). </p>
                 <p>Deshalb wird im nächsten Schritt der HTML-Code mittels eines XSL-Skripts (Extensible Stylesheet Language) in das technische XML Format (vgl. XML Schema 2001; XQuery 2002; XSLT 1999) überführt und formatiert. Bei XSL bzw. XSLT handelt es sich um eine Programmiersprache zur Transformation (und Formatierung) von XML Derivaten – in unserem Fall die HTML-Dateien – in XML Dokumente. Das XML Format eignet sich in erster Linie dafür, die informationsarmen Ausgangsdaten mit Metadaten (z.B. Attribute, Codes oder Variablen) zur systematischen Beschreibung der Strukturen und der Inhalte anzureichern. Bspw. ließe sich das Ausgangsdatum „Herbert“ mit dem Attribut „Vorname“ verknüpfen und so systematisch alle Vornamen erschließen. </p>
@@ -243,12 +241,11 @@
         </body>
         <back>
          <div type="notes">
-            <note xml:id="ftn1" n="1" rend="footnote text"> Im Zuge dieses Entwicklungsschrittes wurden u.a. folgende Tagger und Parser verwendet: Open NLP Segmenter, Mate Tools POS-Tagger, Mate Tools Lemmatizer, Open NLP Chunker, Mate Tools Morphological Analyzer, Hyphenation Annotator, CoreNLP Named Entity Recognizer, Mate Tools Dependency Parser. </note>
+            <note xml:id="ftn1" n="1"> Im Zuge dieses Entwicklungsschrittes wurden u.a. folgende Tagger und Parser verwendet: Open NLP Segmenter, Mate Tools POS-Tagger, Mate Tools Lemmatizer, Open NLP Chunker, Mate Tools Morphological Analyzer, Hyphenation Annotator, CoreNLP Named Entity Recognizer, Mate Tools Dependency Parser. </note>
          </div>
          <div type="bibliogr">
                 <listBibl>
                     <head>Bibliographie</head>
-                    <bibl>Bibliographie</bibl>
                     <bibl>
                         <hi rend="bold">Boli-Bennett, John</hi> (1979): 
                         <hi rend="italic">The Ideology of Expanding State Authority in National Constitutions, 1870-1970, in: Meyer, John W. / Michael Thomas Hannan (eds.): National development and the world system: educational, economic and political change. Chicago: University of Chicago Press 222-237. </hi>
@@ -263,8 +260,7 @@
                         <hi rend="italic"> in: Zeitschrift für germanistische Linguistik, 43.1.</hi>
                     </bibl>
                     <bibl>
-                        <hi rend="bold">Eckart de Castilho, Richard / Gurevych, Iryna</hi> (2014): 
-                        <hi rend="Strong_Emphasis">A broad-coverage collection of portable NLP components for building shareable analysis pipelines</hi>. In: 
+                        <hi rend="bold">Eckart de Castilho, Richard / Gurevych, Iryna</hi> (2014): A broad-coverage collection of portable NLP components for building shareable analysis pipelines. In: 
                         <hi rend="italic">Proceedings of the Workshop on Open Infrastructures and Analysis Frameworks for HLT (OIAF4HLT) at COLING 2014</hi>, 1-11, Dublin, Ireland.
                     </bibl>
                     <bibl>
@@ -355,21 +351,17 @@
                     </bibl>
                     <bibl>
                         <hi rend="bold">„XML Schema”. World Wide Web Consortium (W3C)</hi>
-                        <ref target="http://www.w3c.org/XML/Schema">
-                            <hi rend="Internet_Link">http://www.w3c.org/XML/Schema</hi>
-                        </ref>
-                        <hi rend="italic">, </hi>[letzter Zugriff] 10.09.2017).
+                        <ref target="http://www.w3c.org/XML/Schema">http://www.w3c.org/XML/Schema</ref>, 
+                        [letzter Zugriff] 10.09.2017).
                     </bibl>
                     <bibl>
                         <hi rend="bold">„XQuery 1.0: An XML Query Language“. World Wide Web Consortium (W3C) </hi>
-                        <ref target="http://www.w3.org/TR/xquery">
-                            <hi rend="Internet_Link">http://www.w3.org/TR/xquery</hi>
+                        <ref target="http://www.w3.org/TR/xquery">http://www.w3.org/TR/xquery
                         </ref> [letzter Zugriff 10.09.17]. 
                     </bibl>
                     <bibl>
                         <hi rend="bold">„XSL Transformation Version 1.0“. World Wide Web Consortium (W3C)</hi>
-                        <ref target="http://www.w3c.org/TR/xslt">
-                            <hi rend="Internet_Link">http://www.w3c.org/TR/xslt</hi>
+                        <ref target="http://www.w3c.org/TR/xslt">http://www.w3c.org/TR/xslt
                         </ref> [letzter Zugriff 10.09.17].
                     </bibl>
                 </listBibl>

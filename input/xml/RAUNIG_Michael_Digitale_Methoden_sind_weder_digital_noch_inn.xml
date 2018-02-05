@@ -116,12 +116,14 @@
             <div type="div1" rend="DH-Heading1">
                 <head>Mehrwert und Ausblick</head>
                 <p>Im Gegensatz zu ihrem methodologischen Beitrag sind Mehrwert – wenngleich auch der Begriff „Mehrwert“ zu problematisieren ist, wie Brandhofer (2017) verdeutlicht – und Potenziale des Einsatzes digitaler Technologien zum Lernen und Lehren jedoch unbestritten. Diese umfassen</p>
-                <p>1. die erleichterte Herstellung, unkomplizierte Verbreitung und Verfügbarkeit von Forschungs- und Lehrinhalten (nicht nur, aber besonders im Sinn von „Open Educational Resources“), damit verbunden auch die Erschließung neuer Zielgruppen,</p>
-                <p>2. die Automatisierung bzw. maschinelle Unterstützung bestimmter Arbeitsschritte und Prozesse, wobei die durch Computerunterstützung erzielte Komplexität und Kapazität bestimmter Faktoren die menschlichen („analogen“) Grenzen überschreiten kann,</p>
-                <p>3. eine Tendenz zu kollaborativen (ortsunabhängigen und synchronen) Arbeitsweisen, Offenheit, Austausch und Partizipation („Science 2.0“, „Open Science“),</p>
-                <p>4. die Ent-Professionalisierung bzw. Demokratisierung sowohl der Produktion als auch der Nutzung von wissenschaftlichen Daten und Werkzeugen (was umgekehrt jedoch auch eine Reihe von nicht traditionell-wissenschaftlichen Fertigkeiten und Tätigkeiten bedingt) sowie</p>
-                <p>5. eine Pluralität von Werkzeugen und Möglichkeiten zur Ausübung wissenschaftlich-methodischer Praktiken.</p>
-                <p>Die (gewiss nicht vollständig) angeführten Effekte der Nutzung digitaler Medien in der wissenschaftlichen und unterrichtlichen Arbeit sind auch dasjenige, was ihren innovativen Charakter ausmacht und eine „Digitalisierung“ von Wissenschaft und Hochschule begrüßenswert macht. Innovative Methoden ergeben sich daraus jedoch keine.</p>
+                <list type="ordered">
+                   <item>die erleichterte Herstellung, unkomplizierte Verbreitung und Verfügbarkeit von Forschungs- und Lehrinhalten (nicht nur, aber besonders im Sinn von „Open Educational Resources“), damit verbunden auch die Erschließung neuer Zielgruppen,</item>
+                   <item>die Automatisierung bzw. maschinelle Unterstützung bestimmter Arbeitsschritte und Prozesse, wobei die durch Computerunterstützung erzielte Komplexität und Kapazität bestimmter Faktoren die menschlichen („analogen“) Grenzen überschreiten kann,</item>
+                   <item>eine Tendenz zu kollaborativen (ortsunabhängigen und synchronen) Arbeitsweisen, Offenheit, Austausch und Partizipation („Science 2.0“, „Open Science“),</item>
+                   <item>die Ent-Professionalisierung bzw. Demokratisierung sowohl der Produktion als auch der Nutzung von wissenschaftlichen Daten und Werkzeugen (was umgekehrt jedoch auch eine Reihe von nicht traditionell-wissenschaftlichen Fertigkeiten und Tätigkeiten bedingt) sowie</item>
+                   <item>eine Pluralität von Werkzeugen und Möglichkeiten zur Ausübung wissenschaftlich-methodischer Praktiken.</item>
+                </list>
+                    <p>Die (gewiss nicht vollständig) angeführten Effekte der Nutzung digitaler Medien in der wissenschaftlichen und unterrichtlichen Arbeit sind auch dasjenige, was ihren innovativen Charakter ausmacht und eine „Digitalisierung“ von Wissenschaft und Hochschule begrüßenswert macht. Innovative Methoden ergeben sich daraus jedoch keine.</p>
                 <p>Im Anschluss an die Vorstellung der Thesen versucht der Vortrag, diese mit aktuellen Beispielen innovativer „digitaler“ Methoden und Arbeitsgebiete unter Fokussierung der Medienpädagogik und -didaktik zu illustrieren bzw. zu untermauern. Die Perspektive der Autorin / des Autors in dieser Auseinandersetzung ist – aufbauend auf eine klassische geisteswissenschaftliche Sozialisierung – mediendidaktisch bzw. bildungstechnologisch motiviert. Empirische Gegenbeispiele (insbesondere aus den Digital Humanities) und konzeptuelle Gegenthesen sind höchst willkommen; Ziel ist es letztlich, die Berechtigung des Begriffs der „digitalen Methoden“ zu problematisieren und diesen in der Medientheorie und reflektierten Auseinandersetzung mit „digitalen Medien“ entsprechend zu verorten.</p>
             </div>
         </body>
@@ -130,7 +132,7 @@
                 <listBibl>
                     <head>Bibliographie</head>
                     <bibl>
-                        <hi rend="bold">Brandhofer, Gerhard</hi> (2017): „Zur Problematik des Begriffes #Mehrwert“. 
+                        <hi rend="bold">Brandhofer, Gerhard</hi> (2017): „Zur Problematik des Begriffes Mehrwert“. 
                         <ref target="http://www.brandhofer.cc/mehrwert/">http://www.brandhofer.cc/mehrwert/</ref> [letzter Zugriff 19. September 2017].
                     </bibl>
                     <bibl>

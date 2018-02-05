@@ -84,7 +84,7 @@
                 <head>1. Thema</head>
                 <p>Dieser Beitrag stellt anhand eines konkreten Fallbeispiels eine Methode zur inhaltlichen Analyse von heterogenen Textkorpora vor. Das Verfahren entstand im Rahmen einer Dissertation im Fach Musikwissenschaft und operiert einerseits mit X‑Technologien, andererseits bezieht es geisteswissenschaftliche Ansätze mit ein. Der Bezug zum Tagungsthema besteht vor allem in dem Unterfangen, eine Brücke zwischen digitalem Material und hermeneutischen Analyseansätzen zu schlagen.</p>
                 <p>Das Vorhaben befasste sich mit der 
-                    <emph>Messa da Requiem</emph> des italienischen Komponisten Giuseppe Verdi (1813–1901). Dieses geistliche Werk für Chor, großes Orchester und vier Solisten stellt eine Ausnahme in dem Schaffen des Opernkomponisten dar. Gewidmet ist es dem italienischen Schriftsteller Alessandro Manzoni, der ein Zeitgenosse und Freund Verdis war (vgl. Schweikert 2013) und 1873 verstarb. Das deshalb so genannte "Manzoni-Requiem" verbreitete sich schnell und mit großem Erfolg in ganz Europa, vor allem in Frankreich, Österreich und (kurze Zeit später) auch im Deutschen Reich.
+                    <hi rend="bold">Messa da Requiem</hi> des italienischen Komponisten Giuseppe Verdi (1813–1901). Dieses geistliche Werk für Chor, großes Orchester und vier Solisten stellt eine Ausnahme in dem Schaffen des Opernkomponisten dar. Gewidmet ist es dem italienischen Schriftsteller Alessandro Manzoni, der ein Zeitgenosse und Freund Verdis war (vgl. Schweikert 2013) und 1873 verstarb. Das deshalb so genannte "Manzoni-Requiem" verbreitete sich schnell und mit großem Erfolg in ganz Europa, vor allem in Frankreich, Österreich und (kurze Zeit später) auch im Deutschen Reich.
                 </p>
                 <p>Der Fokus der Analyse liegt auf der deutschsprachigen Musikkritik im Zeitraum der Erstaufführungen (1874–1878). Mit Hinweis auf den oft emotionalen und bildhaften Charakter der Musik wurde das Werk vor allem im Deutschen Reich abschätzig beurteilt: Ein Kritiker aus Köln meinte beispielsweise, das Werk sei "kein Requiem nach deutscher Art" (August Guckeisen, Kölnische Zeitung, 12.12.1875). Diese dichotomische Abgrenzung einer "deutschen Art" gegen eine "italienische Art" ist nicht nur als Reflex von Wagnerismus und reichsdeutschem Kulturkampf zu interpretieren, sondern auch im Kontext romantischer Kirchenmusikästhetik und des zeitgenössischen Realismusbegriffs zu verstehen (vgl. Kirsch 2013). Darüber hinaus regten sich aber gerade auch in Österreich solche Stimmen, die dem geforderten "deutschen Ernst" nur wenig abgewinnen konnten und für mehr Emotionalität in der geistlichen Musik plädierten. Auch gegenwärtig führt die Ambivalenz des Werkes, das zwischen spiritueller und szenischer Musik changiert, immer wieder zu Diskussionen hinsichtlich der "richtigen" Interpretation. Das Nachdenken über historische Auffassungen und Begriffsbildungen gibt uns die Möglichkeit, unsere aktuellen Positionen und deren Ursprünge zu hinterfragen. Dies bildet den Ausgangspunkt der Untersuchung.</p>
             </div>
@@ -103,7 +103,8 @@
                     <p>
                         <figure>
                             <graphic url="ROEDER_Torsten_Horizontales_Lesen__Das__Verdi_Requiem__und_d-1000000000000431000003439DF6B0D0A0614BEE.png"/>
-                        </figure>(Abbildung 1: Übersicht aller Spielorte, die im deutschsprachigen Raum erwähnt wurden)
+                            <head>(Abbildung 1: Übersicht aller Spielorte, die im deutschsprachigen Raum erwähnt wurden)</head>
+                        </figure>
                     </p>
                 </div>
                 <div type="div2" rend="DH-Heading2">
@@ -113,7 +114,8 @@
                     <p>
                         <figure>
                             <graphic url="ROEDER_Torsten_Horizontales_Lesen__Das__Verdi_Requiem__und_d-10000000000003A20000023D9BE1018A369BFE1E.png"/>
-                        </figure>(Abbildung 2: Kontexte für "Mors stupebit")
+                            <head>(Abbildung 2: Kontexte für "Mors stupebit")</head>
+                        </figure>
                     </p>
                     <p>Aus geisteswissenschaftlicher Perspektive genügt bereits diese Aufstellung, die ich hier "semantische Sichtachse" nennen möchte, um ein Spektrum von unterschiedlichen Positionen aufzuzeigen, in das auch die Haltungen der nicht näher bekannten Autoren mit einfließen. Vergleicht man die hier gezeigte Sichtachse zum "Mors stupebit" mit der Sichtachse des fast überall bewunderten "Agnus Dei", kommt ein Kontrast zwischen einer idealisierenden und einer realistischen Repräsentation des Todes deutlich zum Vorschein. Weitere aufschlussreiche Sichtachsen können beispielsweise zu Vergleichswerken (etwa die Requiem-Kompositionen von Mozart oder Cherubini), Komponistennamen (im Sinne einer stilistischen Referenz) und auch zu Schlagwörtern wie z. B. "Realismus" erzeugt werden.</p>
                     <p>Der Zweck dieses Verfahrens ist es also, mithilfe der Textdatenbank vergleichbare Kontexte innerhalb des Korpus zu finden und diese gegenüberzustellen. Die komparative Analyse der Einzelkontexte eröffnet die Möglichkeit, übergreifende Rezeptionsmuster zu identifizieren. Ich bezeichne das hier rein metaphorisch als "horizontales Lesen" (in vager Anlehnung an den Begriff des "distant reading", vgl. Moretti 2016), da es die Texte gleichwertig nebeneinander anordnet und weniger den einzelnen Text, sondern mehr gemeinsame Bezugspunkte im gesamten Korpus betrachtet. Auf der Grundlage dieser vergleichbaren Extrakte könnte übrigens der erste, zunächst verworfene Ansatz wieder ins Spiel kommen – dies ist jedoch Zukunftsmusik.</p>
@@ -130,21 +132,21 @@
          <div type="bibliogr">
                 <listBibl>
                     <head>Bibliographie</head>
-                    <bibl>Kirsch, Winfried (2013): "Kirchenmusikreform, Cäcilianismus und Palestrina-Renaissance", in: Wolfgang Hochstein und Christoph Krummacher (eds.): 
-                        <emph>Geschichte der Kirchenmusik</emph>, Bd. 3, Laaber: Laaber 56–71.
+                    <bibl><hi rend="bold">Kirsch, Winfried </hi>(2013): "Kirchenmusikreform, Cäcilianismus und Palestrina-Renaissance", in: Wolfgang Hochstein und Christoph Krummacher (eds.): 
+                    Geschichte der Kirchenmusik, Bd. 3, Laaber: Laaber 56–71.
                     </bibl>
-                    <bibl>Kreuzer, Gundula (2005): "Oper im Kirchengewande"? Verdi’s Requiem and the Anxieties of the Young German Empire, in: Journal of the American Musicological Society 58,2: 399–450.</bibl>
-                    <bibl>Moretti, Franco (2016): 
-                        <emph>Distant Reading</emph>, Konstanz: Konstanz University Press.
+                    <bibl><hi rend="bold">Kreuzer, Gundula </hi>(2005): "Oper im Kirchengewande"? Verdi’s Requiem and the Anxieties of the Young German Empire, in: Journal of the American Musicological Society 58,2: 399–450.</bibl>
+                    <bibl><hi rend="bold">Moretti, Franco </hi>(2016): 
+                    Distant Reading, Konstanz: Konstanz University Press.
                     </bibl>
-                    <bibl>Schöch, Christof (2013): "Big? Smart? Clean? Messy? Data in the Humanities", in: 
-                        <emph>Journal of Digital Humanities</emph> 2, No. 3: 2–13.
+                    <bibl><hi rend="bold">Schöch, Christof </hi>(2013): "Big? Smart? Clean? Messy? Data in the Humanities", in: 
+                    Journal of Digital Humanities 2, No. 3: 2–13.
                     </bibl>
-                    <bibl>Schweikert, Uwe (2013): Messa da Requiem, in: Anselm Gerhard and Uwe Schweikert (eds.): 
-                        <emph>Verdi-Handbuch</emph>, Kassel: Bärenreiter; Stuttgart/Weimar: Metzler (2., überarb. und erw. Auflage) 557–565.
+                    <bibl><hi rend="bold">Schweikert, Uwe </hi>(2013): Messa da Requiem, in: Anselm Gerhard and Uwe Schweikert (eds.): 
+                    Verdi-Handbuch, Kassel: Bärenreiter; Stuttgart/Weimar: Metzler (2., überarb. und erw. Auflage) 557–565.
                     </bibl>
-                    <bibl>Sponheuer, Bernd (2001): "Über das ›Deutsche‹ in der Musik. Versuch einer idealtypischen Rekonstruktion", in: Hermann Danuser / Herfried Münkler (eds.): 
-                        <emph>Deutsche Meister – böse Geister? Nationale Selbstfindung in der Musik</emph>, Schliengen: Edition Argus 123–150.
+                    <bibl><hi rend="bold">Sponheuer, Bernd </hi>(2001): "Über das ›Deutsche‹ in der Musik. Versuch einer idealtypischen Rekonstruktion", in: Hermann Danuser / Herfried Münkler (eds.): 
+                        Deutsche Meister – böse Geister? Nationale Selbstfindung in der Musik, Schliengen: Edition Argus 123–150.
                     </bibl>
                 </listBibl>
             </div>
