@@ -168,6 +168,23 @@
                         <ptr target="http://cidoc-crm.org/"/> [letzter Zugriff: 10. Januar 2018].
                     </note>
          </div>
+          <div type="bibliogr">
+              <listBibl>
+                  <head>Bibliographie</head>
+                  <bibl> 
+                      <hi rend="italic">Definition of the CIDOC Conceptual Reference Model: Version 5.0.4.</hi>, autor. durch die CIDOC CMR Special Interest Group (SIG), 2011.
+                      <ptr target="http://www.cidoc-crm.org/sites/default/files/cidoc_crm_version_5.0.4.pdf"/>) [letzter Zugriff 25.09.2017].
+                  </bibl>
+                  <bibl>Görz, Günther: „WissKI: Semantische Annotation, Wissensverarbeitung und Wissenschaftskommunikation in einer virtuellen Forschungsumgebung” in: Kunstgeschichte, Open Peer Reviewed Journal, urn:nbn:de:bvb:355-kuge-167-7 [letzter Zugriff 10.01.2018].</bibl>
+                  <bibl>Hohmann, Georg (2011): „Die Anwendung von Ontologien zur Wissensrepräsentation und -kommunikation im Bereich des Kulturellen Erbes” in: Schomburg, Silke u.a. (eds.): Digitale Wissenschaft. Stand und Entwicklung digital vernetzter Forschung in Deutschland. Köln: Hochschulbibliothekszentrum NRW 33-39.</bibl>
+                  <bibl>Hohmann, Georg / Schiemann, Bernhard (2013): „An Ontology-Based Communication System for Cultural Heritage. Approach and Progress of the WissKI Project” in: Hans Bock u.a. (eds.): Scientific Computing and Cultural Heritage. Berlin: Springer 127-135.</bibl>
+                  <bibl>Hohmann, Georg/Fichtner, Mark. Chancen und Herausforderungen in der praktischen Anwendung von Ontologien für das Kulturerbe. In: Digitales Kulturerbe. Bewahrung und Zugänglichkeit in der wissenschaftlichen Praxis. Vol. Kulturelle Überlieferung – digital. Karlsruhe 2015. S. 115-128.</bibl>
+                  <bibl>Wissenschaftsrat (2011): 
+                      <hi rend="italic">Empfehlungen zu wissenschaftlichen Sammlungen als Forschungsinfrastrukturen</hi>. Berlin 
+                      <ptr target="https://www.wissenschaftsrat.de/download/archiv/10464-11.pdf"/>) [letzter Zugriff 25.09.2017].
+                  </bibl>
+              </listBibl>
+          </div>
       </back>
     </text>
 </TEI>

@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="SPERBERG-MCQUEEN_Kritik_der_digitalen_Vernunft">
+    xml:id="KRAEMER_Der_Stachel_des_Digitalen">
    <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Kritik der digitalen Vernunft</title>
+                <title>Der ‚Stachel des Digitalen‘ -  ein Anreiz zur Selbstreflexion in den Geisteswissenschaften?</title>
                 <author>
                     <persName>
-                        <surname>Sperberg-McQueen</surname>
-                        <forename>C. Michael</forename>
+                        <surname>Krämer</surname>
+                        <forename>Sybille</forename>
                     </persName>
-                    <affiliation/>
-                    <email>cmsmcq@blackmesatech.com</email>
+                    <affiliation>Freie Universität Berlin, Deutschland, Institut für Philosophie</affiliation>
+                    <email></email>
                 </author>
             </titleStmt>
             <editionStmt>
                 <edition>
-                    <date>2018-01-25T07:44:00Z</date>
+                    <date>2018-02-05T17:44:00Z</date>
                 </edition>
             </editionStmt>
             <publicationStmt>
@@ -69,33 +69,12 @@
    <text>
         <body>
             <div type="div1" rend="DH-Heading1">
-                <!--<head>Kritik der digitalen Vernunft</head>-->
-                
-                <p>Die Organisatoren der Tagung stellen den Teilnehmern die Frage<lb/>
-                
-                <quote>"Gibt es im Umgang mit digitalen Medien, in der Modellierung,
-                Operationalisierung und Formalisierung der Arbeit mit Computern
-                implizite, stillschweigend akzeptierte Agenden, die einer
-                Reflexion durch einen „Intellectual Criticism“ bedürfen?"</quote>
-            </p>
-                
-                <p>Wie sähe ein solcher Intellectual Criticism aus?  Worauf könnte er
-                basieren?</p>
-                
-                <p>In den drei großen Kritiken der reinen Vernunft, der praktischen
-                Vernunft, und der Urteilskraft hat Kant eine 'kopernikanische
-                Revolution' in der Philosophie mit dem Postulat eingeleitet, unsere
-                Erkenntnis richte sich nicht nach den Dingen, sondern die Dinge
-                richten sich nach unserer Erkenntnis: d.h. nach den apriorischen
-                Formen der Anschauung und nach den vorgegebenen Begriffen des
-                Verstandes (die Kategorient).</p>
-                
-                <p>Gibt es apriorische Formen, die den zu bearbeitenden Stoff der
-                digitalen Vernunft bestimmen, ähnlich wie Zeit und Raum die
-                menschliche Anschauung bestimmen?  Gibt es vorgegebene Begriffe, die
-                aller digitalen Vernunftarbeit zu Grunde liegen?  Wie verhält es sich
-                im digitalen Raum mit der Eigenverantwortung und der Autonomie, die
-                nach Kant das Wesen der Aufklärung und der Freiheit ausmachen?</p>
+                <p>
+                    Geht es um eine Kritik an der digitalen Vernunft? Oder kann die ‚digitale Vernunft‘ ihrerseits eine kritische Perspektive eröffnen, insofern ‚der Stachel‘ ihrer Praktiken das Selbstverständnis von Geisteswissenschaften herausfordert?  Die leitende Idee ist, dass ein Nachdenken über die ‚strukturentdeckenden ‘, über ‚datengetriebene‘ algorithmische Forschungsverfahren der Digital Humanities die Geistes- und Kulturwissenschaften anregen kann (oder anregen sollte) zu einer Metareflexion, durch welche auch die Verfahrensweisen ‚herkömmlicher‘ geistes- und kulturwissenschaftlicher Forschungsarbeit neu beleuchtet werden. Der dabei eingenommene methodische Gesichtspunkt ist ein praxeologischer: Was eine Wissenschaft ist, zeigt sich im Insgesamt ihres Forschungs-, Lehr- und Vermittlungshandelns.
+                </p>
+                <p>
+                    Alle Geistes- und Kulturwissenschaften zielen darauf, etwas das Texten, Bildern, Artefakten implizit ist, explizit zu machen – ob nun durch traditionelle Interpretation oder algorithmische Datenanalyse. Doch bereits diese Unterscheidung von ‚Interpretation‘ und ‚Datenanalyse‘ hinkt, denn es gibt weder rohe Daten noch material- und texturunabhängige Interpretationen. Doch wenn das so ist: Warum sollte eine maschinelle – im Idealfall statistisch-empirische - Auswertung großer Datenbestände die herkömmlichen geisteswissenschaftlichen Verfahrensweisen in neuem Licht erscheinen lassen?
+                </p>
             </div>
         </body>
     </text>
