@@ -32,7 +32,7 @@
                 <author>
                     <persName>
                         <surname>Tiberius</surname>
-                        <forename>Carol</forename>
+                        <forename>Carole</forename>
                     </persName>
                     <affiliation>Instituut voor Nederlandse Lexicologie, Niederlande</affiliation>
                     <email>carole.tiberius@inl.nl</email>
@@ -63,11 +63,83 @@
                 </author>
                 <author>
                     <persName>
+                        <surname>Varadi</surname>
+                        <forename>Tamas</forename>
+                    </persName>
+                    <affiliation>Magyar Tudományos Akadémia,Ungarn</affiliation>
+                    <email>varadi@nytud.hu</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Koeva</surname>
+                        <forename>Svetla</forename>
+                    </persName>
+                    <affiliation>Institute for Bulgarian Language, Bulgarien</affiliation>
+                    <email>svetla@dcl.bas.bg</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Costa</surname>
+                        <forename>Rute</forename>
+                    </persName>
+                    <affiliation>Universidade Nova de Lisboa, Portugal</affiliation>
+                    <email>rute.costa@fcsh.unl.pt</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Kernerman</surname>
+                        <forename>Ilan</forename>
+                    </persName>
+                    <affiliation>K Dictionaries Ltd., Israel</affiliation>
+                    <email>ilan@kdictionaries.com</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Monachini</surname>
+                        <forename>Monica</forename>
+                    </persName>
+                    <affiliation>Consiglio Nazionale delle Ricerche, Italien</affiliation>
+                        <email>monica.monachini@ilc.cnr.it</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Trap-Jensen</surname>
+                        <forename>Lars</forename>
+                    </persName>
+                    <affiliation>Det Danske Sprog- og Litteraturselskab, Dänmark</affiliation>
+                    <email>ltj@dsl.dk</email>
+                </author>
+                <author>
+                    <persName>
                         <surname>Pedersen</surname>
                         <forename>Bolette S.</forename>
                     </persName>
                     <affiliation>Kobenhavns Universitet, Dänemark</affiliation>
                     <email>vnb282@ku.dk</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Hildenbrandt</surname>
+                        <forename>Vera</forename>
+                    </persName>
+                    <affiliation>Universität Trier, Deutschland</affiliation>
+                    <email>hildenbr@uni-trier.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Kallas</surname>
+                        <forename>Jelena</forename>
+                    </persName>
+                    <affiliation>Eesti Keele Instituut, Estland</affiliation>
+                    <email>jelena.kallas@eki.ee</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Porta-Zamorano</surname>
+                        <forename>Jordi</forename>
+                    </persName>
+                    <affiliation>Real Academia Española; Spanien</affiliation>
+                    <email>porta@rae.es</email>
                 </author>
             </titleStmt>
             <editionStmt>

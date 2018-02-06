@@ -104,7 +104,6 @@
          <div type="bibliogr">
                 <listBibl>
                     <head>Bibliographie</head>
-                    <bibl>Fügen Sie hier die von Ihnen benutzten Quellen ein:</bibl>
                     <bibl>
                         <hi rend="bold">Merkel, Dirk </hi>(2014): „Docker: Lightweight Linux Containers for Consistent Development and Deployment“, in: 
                         <hi rend="italic">Linux J.</hi> 239 http://www.linuxjournal.com/content/docker-lightweight-linux-containers-consistent-development-and-deployment [letzter Zugriff: 25. September 2017].

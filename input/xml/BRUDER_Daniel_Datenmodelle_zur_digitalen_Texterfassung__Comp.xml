@@ -5,7 +5,7 @@
         <fileDesc>
             <titleStmt>
                 <title type="full">
-                    <title type="main">Datenmodelle zur digitalen Texterfassung: Complex XML im Gegensatz zu Graph-Strukturen</title>
+                    <title type="main">Data models for Digital Editions: Complex XML versus Graph structures</title>
                     <title type="sub"/>
                 </title>
                 <author>
@@ -15,6 +15,14 @@
                     </persName>
                     <affiliation>University of Cambridge, Vereinigtes Königreich</affiliation>
                     <email>dmb77@cam.ac.uk</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Teufel</surname>
+                        <forename>Simone</forename>
+                    </persName>
+                    <affiliation>University of Cambridge, Vereinigtes Königreich</affiliation>
+                    <email>sht25@cl.cam.ac.uk</email>
                 </author>
             </titleStmt>
             <editionStmt>
