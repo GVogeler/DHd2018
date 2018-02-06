@@ -545,7 +545,7 @@
   <xsl:variable name="header_and_footer">
     <fo:static-content flow-name="before-even">
       <xsl:call-template name="header_and_footer-even"/>
-      <fo:block><xsl:call-template name="page_header"/>Digital Humanities im deutschsprachigen Raum 2016</fo:block>
+      <fo:block><xsl:call-template name="page_header"/>Digital Humanities im deutschsprachigen Raum 2018</fo:block>
     </fo:static-content>
     <fo:static-content flow-name="after-even">
       <xsl:call-template name="header_and_footer-even"/>
@@ -553,7 +553,7 @@
     </fo:static-content>
     <fo:static-content flow-name="before-odd">
       <xsl:call-template name="header_and_footer-odd"/>
-      <fo:block><xsl:call-template name="page_header"/>Digital Humanities im deutschsprachigen Raum 2016</fo:block>
+      <fo:block><xsl:call-template name="page_header"/>Digital Humanities im deutschsprachigen Raum 2018</fo:block>
     </fo:static-content>
     <fo:static-content flow-name="after-odd">
       <xsl:call-template name="header_and_footer-odd"/>
