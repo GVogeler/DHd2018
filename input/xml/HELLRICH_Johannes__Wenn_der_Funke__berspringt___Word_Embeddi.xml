@@ -94,23 +94,23 @@
                 <head>Einleitung</head>
                 <p>Das moderne Verständnis von Elektrizität fußt auf wissenschaftlichen Entdeckungen des 17. und 18. Jahrhunderts, die die technische Nutzbarmachung ab dem 19. Jahrhundert ermöglichten. Unsere Studie wendet state-of-the-art Methoden der distributionellen diachronen Semantik an, um dies anhand des damit einhergehenden Wandels der Wortsemantik von 
                     <hi rend="italic">Elektrizität, electricity, elektrisch, electrical, Funken </hi>und 
-                    <hi rend="italic">spark</hi> nachzuvollziehen. 
-                    <ref target="ftn1" n="1"/> Im Fokus liegt die Entwicklung der menschlichen Wahrnehmung eines Phänomens, das zuerst als nur schwer begreifliche Naturerscheinung galt, bevor es durch wissenschaftliche Experimente zu einer erklärten Kraft und einem unverzichtbaren Teil des menschlichen Alltags wurde. Wir sind von anderen Studien zur Entwicklung wissenschaftlicher Konzepte (Hall u.a. 2008; Mimno 2012; Fankhauer u.a. 2016; Schumann 2016) inspiriert, die die Entwicklung von Wortgruppen beschreiben (vgl. etwa Topic Modelling nach Blei u.a. (2003)). Dagegen untersuchen wir einzelne Wörter, um differenzierte Aussagen zur Entwicklung des Konzepts Elektrizität machen zu können, das insbesondere in seinem frühen Untersuchungsstadium noch stark fluktuiert.
+                    <hi rend="italic">spark</hi> nachzuvollziehen.<ref target="ftn1" n="1"/> 
+                    Im Fokus liegt die Entwicklung der menschlichen Wahrnehmung eines Phänomens, das zuerst als nur schwer begreifliche Naturerscheinung galt, bevor es durch wissenschaftliche Experimente zu einer erklärten Kraft und einem unverzichtbaren Teil des menschlichen Alltags wurde. Wir sind von anderen Studien zur Entwicklung wissenschaftlicher Konzepte (Hall u.a. 2008; Mimno 2012; Fankhauer u.a. 2016; Schumann 2016) inspiriert, die die Entwicklung von Wortgruppen beschreiben (vgl. etwa Topic Modelling nach Blei u.a. (2003)). Dagegen untersuchen wir einzelne Wörter, um differenzierte Aussagen zur Entwicklung des Konzepts Elektrizität machen zu können, das insbesondere in seinem frühen Untersuchungsstadium noch stark fluktuiert.
                 </p>
             </div>
             <div type="div1" rend="DH-Heading1">
                 <head>Methoden</head>
-                <p>Die von uns verwendeten Verfahren der distributionellen Semantik basieren auf der strukturalistischen Annahme, dass die Semantik von Wörtern über die typischerweise in ihrer Nähe stehenden Wörter approximiert werden kann, prägnant zusammengefasst: “You shall know a word by the company it keeps!” (Firth 1957: 11). Zur Durchführung unserer Experimente nutzen wir JeSemE
-                    <ref target="ftn2" n="2"/> (Hellrich u. Hahn 2017b). JeSemE basiert auf Word Embeddings, einer state-of-the-art distributionellen Methode zur Messung von Wortähnlichkeit. Word Embeddings sind niedrigdimensionale
-                    <ref target="ftn3" n="3"/> Vektorrepräsentationen, die die Semantik von Wörtern anhand aller Kontexte repräsentieren, in denen Wörter in einem Korpus beobachtet wurden. Somit benötigen sie keinerlei manuell erstellte Wissensbasis (Wörterbücher oder Ontologien), sondern nur Korpora. Der populärste Algorithmus zur Erzeugung von Word Embeddings ist word2vec (Mikolov u.a. 2013), jedoch kommt in JeSemE stattdessen SVD
+                <p>Die von uns verwendeten Verfahren der distributionellen Semantik basieren auf der strukturalistischen Annahme, dass die Semantik von Wörtern über die typischerweise in ihrer Nähe stehenden Wörter approximiert werden kann, prägnant zusammengefasst: “You shall know a word by the company it keeps!” (Firth 1957: 11). Zur Durchführung unserer Experimente nutzen wir JeSemE<ref target="ftn2" n="2"/> 
+                    (Hellrich u. Hahn 2017b). JeSemE basiert auf Word Embeddings, einer state-of-the-art distributionellen Methode zur Messung von Wortähnlichkeit. Word Embeddings sind niedrigdimensionale<ref target="ftn3" n="3"/> 
+                    Vektorrepräsentationen, die die Semantik von Wörtern anhand aller Kontexte repräsentieren, in denen Wörter in einem Korpus beobachtet wurden. Somit benötigen sie keinerlei manuell erstellte Wissensbasis (Wörterbücher oder Ontologien), sondern nur Korpora. Der populärste Algorithmus zur Erzeugung von Word Embeddings ist word2vec (Mikolov u.a. 2013), jedoch kommt in JeSemE stattdessen SVD
                     <hi rend="subscript">PPMI</hi> (Levy u.a. 2015) zur Anwendung. Grund für diese Entscheidung ist dessen hohe Reliabilität, wohingegen mit word2vec durchgeführte Experimente nur bedingt wiederholbar sind (Hellrich u. Hahn 2017a). Durch Word Embeddings, die mit Texten aufeinanderfolgender Zeitabschnitte trainiert wurden, kann die diachrone semantische Entwicklung von Wörtern nachvollzogen werden, indem man die zum jeweiligen Zeitpunkt ähnlichsten Wörter ermittelt (Kim u.a. 2014; Kulkarni u.a. 2015; Hamilton u.a. 2016; Hellrich u. Hahn 2016; Jo 2016). Außerdem kann JeSemE anhand der statistischen Maße PPMI (Bullinaria u.a. 2007) und ᵪ
                     <hi rend="superscript">2</hi> (vgl. etwa Manning u. Schütze (1999)) die spezifischsten Kontextwörter eines Worts identifizieren, also Wörter, die häufiger in seiner Nähe stehen, als auf Grund zufälliger Prozesse zu erwarten wäre. Letzteres dient als Plausibilitätscheck für die mittels Word Embeddings ermittelte Ähnlichkeit.
                 </p>
             </div>
             <div type="div1" rend="DH-Heading1">
                 <head>Korpora</head>
-                <p>Die beiden von uns untersuchten Korpora sind das Kernkorpus des Deutschen Textarchivs (DTA; Geyken (2013)), das deutschsprachige Sachtexte und literarische Texte des 17. bis 19. Jahrhunderts sammelt, und das Royal Society Corpus (RSC; Kermes u.a. (2016)), das die ersten beiden Jahrhunderte der „Philosophical Transactions of the Royal Society of London“ (1665–1869, älteste wissenschaftliche Zeitschrift in englischer Sprache) beinhaltet. Tabelle 1 zeigt die Kerndaten der von JeSemE prozessierten Korpora, dabei wurden die Korpora in Zeitabschnitte mit ähnlichen Textmengen unterteilt
-                    <ref target="ftn4" n="4"/>. Beide Korpora sind mit Informationen zur orthographischen Normalisierung und Lemmatisierung annotiert, die von uns genutzt wurde. 
+                <p>Die beiden von uns untersuchten Korpora sind das Kernkorpus des Deutschen Textarchivs (DTA; Geyken (2013)), das deutschsprachige Sachtexte und literarische Texte des 17. bis 19. Jahrhunderts sammelt, und das Royal Society Corpus (RSC; Kermes u.a. (2016)), das die ersten beiden Jahrhunderte der „Philosophical Transactions of the Royal Society of London“ (1665–1869, älteste wissenschaftliche Zeitschrift in englischer Sprache) beinhaltet. Tabelle 1 zeigt die Kerndaten der von JeSemE prozessierten Korpora, dabei wurden die Korpora in Zeitabschnitte mit ähnlichen Textmengen unterteilt.<ref target="ftn4" n="4"/> 
+                    Beide Korpora sind mit Informationen zur orthographischen Normalisierung und Lemmatisierung annotiert, die von uns genutzt wurde. 
                 </p>
                 <figure>
                     <graphic n="1001"
@@ -130,8 +130,8 @@
                     <hi rend="italic">Elektrizität</hi> und 
                     <hi rend="italic">electricity</hi> zu rechnen, die weg von beobachteten Naturphänomenen und hin zu kontrollierten Experimenten und systematisch erfassten Grundsätzen führt (Home 2016: 368–71). Wir testeten diese Hypothese, indem wir mittels JeSemE die Ähnlichkeit der beiden Wörter zu anderen bestimmten, die im historischen naturwissenschaftlichen Diskurs relevant waren.
                 </p>
-                <p>Die Abbildungen
-                    <ref target="ftn5" n="5"/> 1 und 2 zeigen diese Entwicklung für 
+                <p>Die Abbildungen<ref target="ftn5" n="5"/> 
+                    1 und 2 zeigen diese Entwicklung für 
                     <hi rend="italic">electricity</hi> im Englischen und 
                     <hi rend="italic">Elektrizität</hi> im Deutschen. Die Ergebnisse entsprechen der Hypothese, 
                     <hi rend="italic">electricity</hi> wird den mit Experimentalaufbauten verbundenen Wörtern 
@@ -160,11 +160,11 @@
                         height="6.637866666666667cm"
                         rend="inline"
                         url="HELLRICH_Johannes__Wenn_der_Funke__berspringt___Word_Embeddi-image3.png"/>
-                </figure>
-                <p>
+                <head>
                     <hi rend="italic">Abbildung </hi>
                     <hi rend="italic"> 2: Ähnlichkeit ausgewählter Wörter zu ‚Elektrizität’ im DTA.</hi>
-                </p>
+                </head>
+                </figure>
                 <p>Die Analyse spezifischer Kontextwörter (mittels normalisiertem ᵪ
                     <hi rend="superscript">2</hi>) weist auf einen engen Zusammenhang mit elektrischen Ladungen in DTA und RSC hin, wie in Abbildungen 3 für das RSC gezeigt. Dabei werden 
                     <hi rend="italic">vitreous</hi> [‚gläsern‘] und 

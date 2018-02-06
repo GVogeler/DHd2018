@@ -134,8 +134,7 @@
             <div type="div1" rend="DH-Heading1">
                 <head>Corpus and Resources</head>
                 <p>
-                    <anchor xml:id="id_docs-internal-guid-68b34743-f5cc-960c-9591-0e3103362c5b"/>The following experiments are based on three German corpora. The first one is a large corpus containing 4600+ public domain novels including texts from the TextGrid digital library
-                        <ref target="ftn1" n="1"/>and Project Gutenberg<ref target="ftn2" n="2"/>. We will refer to this as the Corpus 
+                    <anchor xml:id="id_docs-internal-guid-68b34743-f5cc-960c-9591-0e3103362c5b"/>The following experiments are based on three German corpora. The first one is a large corpus containing 4600+ public domain novels including texts from the TextGrid digital library<ref target="ftn1" n="1"/>and Project Gutenberg<ref target="ftn2" n="2"/>. We will refer to this as the Corpus 
                     <hi rend="italic">Public Domain</hi>, PD. The second one contains 800+ texts of current popular genres like romance, crime or science-fiction (Corpus 
                     <hi rend="italic">Low Brow</hi>, LB). Finally, we use a corpus with 200 novels nominated for the 
                     <hi rend="italic">German Book Prize</hi> or the 
@@ -159,11 +158,8 @@
                 <head>Experiments</head>
                 <p>
                     <anchor xml:id="id_docs-internal-guid-68b34743-f5cd-a66a-7b59-c12c3e1ae61c"/>The following experiments use both labelled subsets described above, the large 
-                    <hi rend="italic">Kerncorpus</hi>
-                    <hi rend="italic">
-                        <ref target="ftn3" n="3"/>
-                    </hi>
-                    <hi rend="italic"> </hi>and the smaller 
+                    <hi rend="italic">Kerncorpus<ref target="ftn3" n="3"/></hi>
+                    and the smaller 
                     <hi rend="italic">ALB</hi>. For all experiments, quotation marks are removed from the texts. This is done to avoid training models that rely only on the formal style of qualifying direct speech, but also consider implicit signs like the use of first person verbs or speech words.
                 </p>
                 <p>We conducted experiments on two different levels, starting with a sentence classification task, which is then refined to detect direct speech on word-level.</p>
@@ -201,7 +197,7 @@
                     </p>
                     <p>
                         <figure>
-                            <graphic url="https://lh6.googleusercontent.com/5LwTt5-PTd2T5Q4_SgpNLAkmLjcFtZjsJ-2duHd-E3Z4z5HGh7RjaPLE4QJVc1RcCwk9tG4Mt_8TreTwxju-JmdIcR_1EAvw7BJBepuMDMWERY9Gyk6I6i61nUwY4YHHrJyZjeve"/>
+                            <graphic url="KONLE_Leonard_Analysing_Direct_Speech_in_German_Novels-fig1.png"/>
                             <head>
                                 <lb/>Figure 1: Architecture of recurrent network to detect direct speech.
                             </head>
@@ -225,7 +221,7 @@
                             <cell rend="color(#000000)">
                                 <lb/>
                                 <figure>
-                                    <graphic url="https://lh4.googleusercontent.com/sVQJdGAFG_HNiz9YW-w3G2MiSnKJeHhQ2ChM8kMtATdHunjK1PEp4OiTezVOC4T7x0QPUjgHqadu9HoB5-19BUrVfNo8II_eKXybKeTJeTpkH1o_GqzqWYC14cM4i0lr_tLhmRmo"/>
+                                    <graphic url="KONLE_Leonard_Analysing_Direct_Speech_in_German_Novels-fig2.png"/>
                                     <head>
                                         <lb/>Figure 2: Ratio of direct speech in German novels from 1800 – 1900.
                                     </head>
@@ -244,7 +240,7 @@
                         <row>
                             <cell rend="center color(#000000)">
                                 <figure>
-                                    <graphic url="https://lh5.googleusercontent.com/wySMdpqmFsU3zKA7MfZmgxZqEzkGZpQqJC0ZjDjSG0LYa_9lwNRyvqw09OExJE8SEFEwfjnVP427SPm0lL78sEsooOoXLsgHEugvOFn3_zcNBZj0YtJx4SkkRgJMK2PqUH0k_t6a"/>
+                                    <graphic url="KONLE_Leonard_Analysing_Direct_Speech_in_German_Novels-fig3.png"/>
                                     <head>
                                         <lb/>Figure 3: Number of provided novels per year.
                                     </head>
@@ -262,7 +258,7 @@
                         <row>
                             <cell rend="color(#000000)">
                                 <figure>
-                                    <graphic url="https://lh3.googleusercontent.com/gu2pT1QJCEYw87McQtM67zsynoL5trAJoz3f1s5iPTFA6FxefTEkP3-3WGqnr0Gg9-a-KgQE7BTMgPbhJI5cliZdk6OHq154aqJZiTncW2nn07hEx2w-eA1Cl03Bs17homxmXuzZ"/>
+                                    <graphic url="KONLE_Leonard_Analysing_Direct_Speech_in_German_Novels-fig4.png"/>
                                     <head>
                                         <lb/>Figure 4: Ratio of direct speech in German low and high brow novels after 1945.
                                     </head>

@@ -96,8 +96,7 @@
         <body>
             <div type="div1" rend="DH-Heading1">
                 <head>Einleitung</head>
-                <p>Inwieweit verändert der Einsatz digitaler Verfahren die sozialwissenschaftliche Forschung? Diese Frage lässt sich am Beispiel der Digitalisierung des Zettelkastens Niklas Luhmanns stellen, die im Rahmen des Forschungsprojektes “Niklas Luhmann - Theorie als Passion. Wissenschaftliche Erschließung und Edition des Nachlasses”
-                    <ref target="ftn1" n="1"/> erfolgt. Das Langzeitvorhaben (2015-2030), in dem die Fakultät für Soziologie der Universität Bielefeld mit dem Cologne Center for eHumanities kooperiert, wird im Akademienprogramm durch die Nordrhein-Westfälische Akademie der Wissenschaft und der Künste gefördert.
+                <p>Inwieweit verändert der Einsatz digitaler Verfahren die sozialwissenschaftliche Forschung? Diese Frage lässt sich am Beispiel der Digitalisierung des Zettelkastens Niklas Luhmanns stellen, die im Rahmen des Forschungsprojektes “Niklas Luhmann - Theorie als Passion. Wissenschaftliche Erschließung und Edition des Nachlasses”<ref target="ftn1" n="1"/> erfolgt. Das Langzeitvorhaben (2015-2030), in dem die Fakultät für Soziologie der Universität Bielefeld mit dem Cologne Center for eHumanities kooperiert, wird im Akademienprogramm durch die Nordrhein-Westfälische Akademie der Wissenschaft und der Künste gefördert.
                 </p>
                 <p>
                     <anchor xml:id="id_docs-internal-guid-ce2a7059-eb15-47db-4f93-5d5743b8acf1"/>Luhmann (1927-1998) zählt zu den bedeutendsten Soziologen des 20. Jahrhunderts. Im Laufe seiner 35-jährigen Forschungstätigkeit entwickelte er eine universale Sozial- und Gesellschaftstheorie, die er in annähernd fünfzig Monographien und 500 Aufsätzen publiziert hat. Als Basis für diese erstaunliche Produktivität diente Luhmann ein Zettelkasten, den er über vierzig Jahre lang systematisch gefüllt und gepflegt hat. Im Zuge der seit 2015 laufenden Nachlasserschließung wurden die ca. 90.0000 Zettel digitalisiert, in einem zweiten Schritt werden sie nun transkribiert und fachwissenschaftlich editiert sowie in eine Internetpräsentation überführt. Ziel dieses Prozesses ist zunächst eine digitale Reproduktion des Zettelkastens, die aber zugleich die Möglichkeiten der modernen digitalen Technik nutzt, um die nicht linear strukturierte Sammlung lesbar und ihre Genese nachvollziehbar zu machen. Indem die Digitalisierung über die reine Reproduktion hinausgeht, macht sie den Kasten selbst zu einem Forschungsobjekt.
@@ -107,8 +106,8 @@
                 <head>Der (analoge) Zettelkasten Niklas Luhmanns</head>
                 <p>Die Zettelsammlung ist durch vier Merkmale gekennzeichnet, deren Kombination das besondere theoretische Kreativitätspotential der Sammlung begründet:</p>
                 <p>(a)
-                    <hi rend="bold">Nichthierarchische Ordnungsstruktur</hi>
-                    : Luhmann verzichtet weitgehend auf eine vorher festgelegte
+                    <hi rend="bold">Nichthierarchische Ordnungsstruktur</hi>:
+                    Luhmann verzichtet weitgehend auf eine vorher festgelegte
                     <anchor xml:id="id_docs-internal-guid-ce2a7059-eb16-6c0a-bf59-50e58b325c41"/>
                     systematische Ordnung der Sammlung; diese ist primär ein historisches Produkt seiner Lektüre- und Forschungsinteressen. Aufgrund seines spezifischen Einstellprinzips führt die jeweilige thematische Erstfestlegung nämlich nicht zu einer monothematischen Reihung von Zetteln: Die für den Zettelkasten konstitutive Idee ist, dass
                     <hi rend="bold">ein Zettel thematisch</hi> nur in irgendeiner Weise an den
@@ -136,12 +135,11 @@
                     <p>Der Anlage des Zettelkastens folgend verstehen wir die Zettel als semantisch freie Einheiten und erzeugen für jede Zettelseite eine XML-TEI-Datei, in der die Transkription des Zettelinhalts erfolgt. Der Kopf (&lt;teiHeader&gt;) bietet Raum für Metainformationen, in einem umfangreichen Anhang zur Transkription (&lt;back&gt;) betten wir den Zettel in das Zettelnetzwerk ein. Wir unterscheiden mehrere Navigationswege durch den Kasten: Erstens eine physische Navigation in der von Zettelvorderseite zu folgender Vorderseite gesprungen wird. Zweitens geht es um übergeordnete Gliederungsverläufe. In einer dritten Navigation modellieren wir logische Abfolgen. In Form von Sprungzielen wird hier der nächste, in einem Gedankenstrang folgende Zettel angegeben, dabei werden von Luhmann eingeschobene Zettel zunächst ausgeblendet. Diese Abfolgen werden in eigenen Feldern klassifiziert und explizit gemacht.</p>
                     <p>
                         <figure>
-                            <graphic url="https://lh4.googleusercontent.com/uB_gHj5D2tuxIl0CAKJA1bO4N6bkHdrMxHFtD5YMWh75GKWSobJHz55uOI5VQgnkVQCJZNyZfwHJhbPH7BqGu6gBmNvME6HzeukumoP7LZsU_0SI770lzRfL9mPprgCf1x4pNbTV"/>
-                            <head>Abbildung 1: Ausschnitt aus der oXygen-Arbeitsoberfläche zur Transkription und Bearbeitung von Zettelseiten. (Zettel 1-5B1c)Zettel-Framework Vernetzung.png</head>
+                            <graphic url="GOEDEL_Martina_Digitale_Differenz__Luhmanns_Zettelkasten_als-abb1.png"/>
+                            <head>Abbildung 1: Ausschnitt aus der oXygen-Arbeitsoberfläche zur Transkription und Bearbeitung von Zettelseiten (Zettel 1-5B1c).</head>
                         </figure>
                     </p>
-                    <p>Um den Fachwissenschaftlern die Arbeit mit den XML-Texten zu erleichtern, arbeiten wir mit dem Author-Mode des oXygen XML-Editors.
-                        <ref target="ftn2" n="2"/> Die von uns für die Zetteltranskription und Einbettung in das Netzwerk entwickelte Arbeitsoberfläche setzt im Verknüpfungsanhang auf fest eingerichtete Standardfelder, in die die Editoren IDs vorausliegender Zettel eintragen. Auf Basis dieser Einträge - die im Arbeitsprozess einer stetigen Weiterbearbeitung unterliegen - ergänzen wir über Skripte die Verbindung zu den davor liegenden Zetteln, um für die Portalnavigation beide Richtungen anbieten zu können.
+                    <p>Um den Fachwissenschaftlern die Arbeit mit den XML-Texten zu erleichtern, arbeiten wir mit dem Author-Mode des oXygen XML-Editors.<ref target="ftn2" n="2"/> Die von uns für die Zetteltranskription und Einbettung in das Netzwerk entwickelte Arbeitsoberfläche setzt im Verknüpfungsanhang auf fest eingerichtete Standardfelder, in die die Editoren IDs vorausliegender Zettel eintragen. Auf Basis dieser Einträge - die im Arbeitsprozess einer stetigen Weiterbearbeitung unterliegen - ergänzen wir über Skripte die Verbindung zu den davor liegenden Zetteln, um für die Portalnavigation beide Richtungen anbieten zu können.
                     </p>
                     <p>Für die Transkription selbst stellen wir im Framework ein Mixed-Content Feld zur Verfügung, in dem weitere Textphänomene und von Luhmanns selbst explizit formulierte Zettelverweise über Buttons ausgezeichnet werden können.</p>
                 </div>
@@ -151,25 +149,23 @@
                     <p>Innerhalb der Transkription sind Schlagwörter, bibliographische Angaben, Personennamen und vor allem Verweise zu anderen Zetteln verlinkt. Außerdem ist eine facettierte Volltext-Suche (z.B. nach Schlagworten oder bibliographischen Angaben) über vom Benutzer definierbare Bereiche des Zettelkastens möglich.</p>
                     <p>
                         <figure>
-                            <graphic url="https://lh5.googleusercontent.com/hOaTZrZDa_eL6oPhm3fGAXnKKVMTug-Gc6saRKvS65-DM-9Fj65LwKQ2mKCh-s-HtsejMRxngUGtiPYibDrfQfE5JZuzJRIMrtYfwlXXM1sINmEUY8SwuTEWk7N4hOgKs2kCR6Rq"/>
+                            <graphic url="GOEDEL_Martina_Digitale_Differenz__Luhmanns_Zettelkasten_als-abb2.png"/>
                             <head>Abbildung 2: Ansicht eines Zettels im Forschungsportal</head>
                         </figure>
                     </p>
-                    <p>Neben optimierten Darstellungen für einzelne Zettelseiten gibt es Visualisierungen, die größere Bereiche des Kastens abdecken. Dazu zählt eine Visualisierung der im Rahmen der Edition erstellten inhaltlich-logischen Einordnungs- und Navigationsstruktur des Zettelkastens (siehe Abbildung 3), sowie ein Arc Diagram
-                        <ref target="ftn3" n="3"/> zur Darstellung von Zettelverweisen innerhalb verschiedener Bereiche (siehe Abbildung 4), um die Dichte der Vernetzung innerhalb und zwischen den verschiedenen Abteilungen des Zettelkastens zu verdeutlichen.
+                    <p>Neben optimierten Darstellungen für einzelne Zettelseiten gibt es Visualisierungen, die größere Bereiche des Kastens abdecken. Dazu zählt eine Visualisierung der im Rahmen der Edition erstellten inhaltlich-logischen Einordnungs- und Navigationsstruktur des Zettelkastens (siehe Abbildung 3), sowie ein Arc Diagram<ref target="ftn3" n="3"/> zur Darstellung von Zettelverweisen innerhalb verschiedener Bereiche (siehe Abbildung 4), um die Dichte der Vernetzung innerhalb und zwischen den verschiedenen Abteilungen des Zettelkastens zu verdeutlichen.
                     </p>
-                    <p>Die Datenaufbereitung der TEI-XML-Dateien geschieht jeweils über im Rahmen des Projekts entwickelte Node.js-Skripte
-                        <ref target="ftn4" n="4"/>, bevor die Visualisierungen mit der JavaScript-Bibliothek D3.js<ref target="ftn5" n="5"/> erstellt werden.
+                    <p>Die Datenaufbereitung der TEI-XML-Dateien geschieht jeweils über im Rahmen des Projekts entwickelte Node.js-Skripte<ref target="ftn4" n="4"/>, bevor die Visualisierungen mit der JavaScript-Bibliothek D3.js<ref target="ftn5" n="5"/> erstellt werden.
                     </p>
                     <p>
                         <figure>
-                            <graphic url="https://lh5.googleusercontent.com/6IUdqOX_Ix0yQbDQ7vg5G3pzu0aZBKkagPzWfoUctvaM5ck2yyXoAsfrJHtJh42TSFyMMA3HaDB2xh9m09lDcwOEKhTllUBVAuFl0szo4EFDUkquDolc1Fb5s-ySd734oqIKkaw1"/>
-                            <head>Abbildung 3: Ausschnitt einer Visualisierung der im Rahmen der Edition erstellten inhaltlich-logischen Einordnungs- und Navigationsstruktur des digitalen Zettelkastens.BranchView Screenshot für DHd 2018.png</head>
+                            <graphic url="GOEDEL_Martina_Digitale_Differenz__Luhmanns_Zettelkasten_als-abb3.png"/>
+                            <head>Abbildung 3: Ausschnitt einer Visualisierung der im Rahmen der Edition erstellten inhaltlich-logischen Einordnungs- und Navigationsstruktur des digitalen Zettelkastens.</head>
                         </figure>
                     </p>
                     <p>
                         <figure>
-                            <graphic url="https://lh3.googleusercontent.com/d2fDbOPy7XiAf9IdbKIeAscvQ6nO5mi3AO5TBwADaGwi0gnlU78vuiHx4-cvkSyg3xDWikGGG52C08kZwZRyXB8fHl4c1coU-4XieXYG7kwHa9lheUxnFM4yXu4WsF2GxOIBdmtl"/>
+                            <graphic url="GOEDEL_Martina_Digitale_Differenz__Luhmanns_Zettelkasten_als-abb4.png"/>
                             <head>Abbildung 4: Visualisierung der internen Zettelverweise des ersten Auszugs von Zettelkasten I (ca. 3300 Zettel). Man erkennt die deutlichen Unterschiede der Vernetzungsdichte innerhalb und zwischen den 21 Abteilungen.</head>
                         </figure>
                     </p>
