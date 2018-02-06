@@ -88,16 +88,14 @@
     </teiHeader>
    <text>
         <body>
-            <p>Eigennamenerkennung (NER) ist im Bereich der maschinellen Sprachverarbeitung bereits viel behandelt worden. Eine Übersicht hierzu findet sich bei Nadeau und Sekine (2007). In den Digital Humanities dient die Erkennung von benannten Entitäten der Identifikation zentraler Akteure und Elemente in Texten, welche unter anderem die Grundlage für tiefergehende Analysen bezüglich Beziehungen, Strukturen und Emotionen in diesen Texten bilden. Jannidis et al. (2015) thematisieren allerdings, dass die reine NER beispielsweise für eine Analyse von Figurennetzwerken in literarischen Texten unzureichend ist, da dabei nur Figurenreferenzen durch konkrete Namensnennung erfasst werden. Um spezifisch auf die Bedürfnisse von Textanalysen im Kontext der Digital Humanities einzugehen, wurden im „Center for Reflected Text Analytics“ (CRETA) (Kuhn et al. 2016) der Universität Stuttgart Annotationsrichtlinien entworfen, die über die Annotation reiner Eigennamen hinausgehen und sich auf verschiedenartige Entitätsreferenzen in deutschsprachigen Texten unterschiedlicher Genres fokussieren
-                <hi rend="Footnote_Anchor">
-                    <ref target="ftn1" n="1"/>
-                </hi>. So wird beispielsweise das Appellativ 
-                <hi rend="italic">the indians</hi> als Entität erfasst, obwohl die Referenz nicht mit Namen spezifiziert wird. Ein Bespiel für den Mehrwert der Annotation solcher Entitätsreferenzen findet sich bei Blessing et al. (2017). Um die Übertragbarkeit der Richtlinien nicht nur zwischen verschiedenen Textsorten, sondern auch sprachübergreifend zu evaluieren, stellen wir unser Projekt mit dem Ziel der Annotation von Erzähltexten in englischer Sprache vor. Ausgehend von der durch CRETA geschaffenen Grundlage teilt sich unser Projekt in drei Phasen auf: die manuelle Annotation und Überprüfung der Übertragbarkeit der CRETA-Richtlinien auf die gegebene Textsorte, die Automatisierung der Entitätserkennung und die Einbindung der Entitäten in eine literaturwissenschaftliche Analyse.
+            <p>Eigennamenerkennung (NER) ist im Bereich der maschinellen Sprachverarbeitung bereits viel behandelt worden. Eine Übersicht hierzu findet sich bei Nadeau und Sekine (2007). In den Digital Humanities dient die Erkennung von benannten Entitäten der Identifikation zentraler Akteure und Elemente in Texten, welche unter anderem die Grundlage für tiefergehende Analysen bezüglich Beziehungen, Strukturen und Emotionen in diesen Texten bilden. Jannidis et al. (2015) thematisieren allerdings, dass die reine NER beispielsweise für eine Analyse von Figurennetzwerken in literarischen Texten unzureichend ist, da dabei nur Figurenreferenzen durch konkrete Namensnennung erfasst werden. Um spezifisch auf die Bedürfnisse von Textanalysen im Kontext der Digital Humanities einzugehen, wurden im „Center for Reflected Text Analytics“ (CRETA) (Kuhn et al. 2016) der Universität Stuttgart Annotationsrichtlinien entworfen, die über die Annotation reiner Eigennamen hinausgehen und sich auf verschiedenartige Entitätsreferenzen in deutschsprachigen Texten unterschiedlicher Genres fokussieren.<ref target="ftn1" n="1"/>
+                So wird beispielsweise das Appellativ 
+                <hi rend="italic">the indians</hi> als Entität erfasst, obwohl die Referenz nicht mit Namen spezifiziert wird. 
             </p>
-            <p>Als Textgrundlage dient eine Sammlung von englischsprachigen Captivity Narratives
-                <hi rend="Footnote_Anchor">
-                    <ref target="ftn2" n="2"/>
-                </hi>. Diese Erzählungen aus dem 18. Jahrhundert handeln von Erfahrungen weißer Siedler in Nordamerika, die in indianische Gefangenschaft geraten. Zunächst wurden in sieben Texten im Gesamtumfang von 71.526 Wörtern 5.163 Entitäten identifiziert und mit den von CRETA erarbeiteten Kategorien (Personen, Orte, Organisationen, Ereignisse, Werke und abstrakte Konzepte) annotiert. Im Verlauf dieser Annotationsphase wurden die CRETA Richtlinien an die speziellen Gegebenheiten der Textsorte angepasst, die in Bezug auf die Erwähnung von Personen und Orten einige Besonderheiten aufweist. Auffällig ist beispielsweise, dass Personen in vielen Fällen in Gruppen, oftmals auch ohne spezifische Namen, erwähnt werden. Um diese Nennungen dennoch zu erfassen, wird die Begrenzung auf Eigen- und Gattungsnamen aufgehoben und um Formen wie 
+                <p>Ein Beispiel für den Mehrwert der Annotation solcher Entitätsreferenzen findet sich bei Blessing et al. (2017). Um die Übertragbarkeit der Richtlinien nicht nur zwischen verschiedenen Textsorten, sondern auch sprachübergreifend zu evaluieren, stellen wir unser Projekt mit dem Ziel der Annotation von Erzähltexten in englischer Sprache vor. Ausgehend von der durch CRETA geschaffenen Grundlage teilt sich unser Projekt in drei Phasen auf: die manuelle Annotation und Überprüfung der Übertragbarkeit der CRETA-Richtlinien auf die gegebene Textsorte, die Automatisierung der Entitätserkennung und die Einbindung der Entitäten in eine literaturwissenschaftliche Analyse.
+            </p>
+            <p>Als Textgrundlage dient eine Sammlung von englischsprachigen Captivity Narratives.<ref target="ftn2" n="2"/>
+                Diese Erzählungen aus dem 18. Jahrhundert handeln von Erfahrungen weißer Siedler in Nordamerika, die in indianische Gefangenschaft geraten. Zunächst wurden in sieben Texten im Gesamtumfang von 71.526 Wörtern 5.163 Entitäten identifiziert und mit den von CRETA erarbeiteten Kategorien (Personen, Orte, Organisationen, Ereignisse, Werke und abstrakte Konzepte) annotiert. Im Verlauf dieser Annotationsphase wurden die CRETA Richtlinien an die speziellen Gegebenheiten der Textsorte angepasst, die in Bezug auf die Erwähnung von Personen und Orten einige Besonderheiten aufweist. Auffällig ist beispielsweise, dass Personen in vielen Fällen in Gruppen, oftmals auch ohne spezifische Namen, erwähnt werden. Um diese Nennungen dennoch zu erfassen, wird die Begrenzung auf Eigen- und Gattungsnamen aufgehoben und um Formen wie 
                 <hi rend="italic">some, others</hi> oder 
                 <hi rend="italic">a few</hi> erweitert. Zudem werden Orte häufig anhand von Landschaftsmerkmalen und nur selten mit konkreten Ortsnamen benannt. Dementsprechend bilden solche Nennungen (z.B. 
                 <hi rend="italic">the river</hi> oder 
@@ -116,18 +114,19 @@
                      height="9.567333333333334cm"
                      rend="inline"
                      url="KESSLER_Linda_Entit_ten_im_Fokus_am_Beispiel_von_Captivity_N-image1.jpg"/>
+            <head>Abbildung 1: Ergebnisse der Cluster-Analyse: <hi rend="italic">Indianer</hi>
+            </head>
             </figure>
-            <p>Abbildung 1: Ergebnisse der Cluster-Analyse: 
-                <hi rend="italic">Indianer</hi>
-            </p>
             <p>
-                <graphic n="1002"
+                <figure>
+                    <graphic n="1002"
                      width="12.784666666666666cm"
                      height="9.072716666666667cm"
                      rend="inline"
                      url="KESSLER_Linda_Entit_ten_im_Fokus_am_Beispiel_von_Captivity_N-image2.jpg"/>
-                <lb/>Abbildung 2: Ergebnisse der Cluster-Analyse: 
-                <hi rend="italic">Andere</hi>
+                <head>Abbildung 2: Ergebnisse der Cluster-Analyse: <hi rend="italic">Andere</hi>
+                </head> 
+                </figure>
             </p>
         </body>
         <back>
