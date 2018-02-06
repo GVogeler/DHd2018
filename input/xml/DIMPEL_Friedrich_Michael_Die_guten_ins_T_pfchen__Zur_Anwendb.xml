@@ -83,9 +83,6 @@
                 <p>Beim Delta-Test berechnet man aus den Wortfrequenzen für ein Korpus jeweils die zugehörigen Z-Werte. Beim Vergleich von zwei Wortformen aus zwei Texten wird die Differenz der jeweiligen Z-Werte gebildet und der Betrag dieser Differenz genommen. Delta ist schließlich der Mittelwert der absoluten Z-Wert-Differenzen für alle Wortformen.</p>
                 <figure>
                     <graphic n="1001"
-                        width="14.87128888888889cm"
-                        height="6.890744444444445cm"
-                        rend="inline"
                         url="DIMPEL_Friedrich_Michael_Die_guten_ins_T_pfchen__Zur_Anwendb-image1.png"/>
                     <head>Abb. 1: Ratetext-Z-Werte (blau) sowie Z-Wert-Differenzen Ratetext–Autor-Vergleichstext (orange)</head>
                 </figure>
@@ -93,9 +90,6 @@
                 <p>Man könnte A) den Verdacht haben, dass Wortformen bei hohen blauen Balken „gut“ sind, um einen Text von Distraktortexten zu unterscheiden, da hohe Z-Werte auf erhebliche Abweichung von den übrigen Korpusfrequenzen hindeuten. Man könnte auch B) den Verdacht haben, dass Wortformen bei hohen orangen Balken „schlecht“ für die Autorerkennung sind: Unterschiede zwischen dem Ratetext und Autor-Vergleichstext (also Unterschiede von zwei Texten des gleichen Autors) sollten eher niedrig sein, damit die Erkennung funktioniert. Allerdings sind bei hohen blauen Balken relativ oft auch hohe orange Balken vorhanden – auch in anderen Tests (Dimpel 2017b). Dieses Diagramm erlaubt also keine Aussage darüber, welche Wortformen gut für die Autorerkennung sind; hohe Z-Werte allein erlauben noch keine Aussage darüber, ob ein Wort hier gut geeignet ist, um einen Autor zu charakterisieren.</p>
                 <figure>
                     <graphic n="1002"
-                        width="16.038869444444444cm"
-                        height="7.431752777777778cm"
-                        rend="inline"
                         url="DIMPEL_Friedrich_Michael_Die_guten_ins_T_pfchen__Zur_Anwendb-image2.png"/>
                     <head>Abb. 2: Z-Wert-Differenzen Ratetext–Autor-Vergleichstext (orange: Wolframs ‚Parzival‘– Wolframs ‚Willehalm‘) und Z-Wert-Differenzen Ratetext–Distraktortext (grau: Wolframs ‚Parzival‘ – Konrads ‚Partonopier‘)</head>
                 </figure>
@@ -110,15 +104,12 @@
                 <p>Die stilometrische Analyse ist in mehrfacher Hinsicht eine Herausforderung: Eine gattungsübergreifende Attribution ist mangels anderer Vergleichstexte nötig (nach Schöch 2014 wäre eine Gattungsmischung möglichst zu meiden). In Konrads Oevre herrscht eine Vielfalt an Themen, Frivoles wie in der ‚Halben Birne‘ ist eher selten – auch im einzigen anderen Märentext Konrads: im ‚Herzmäre‘ bleibt die Liebe unerfüllt, es kommt zum doppelten Minnetod. Zudem ist die ‚Halbe Birne‘ recht kurz: sehr gute Quoten erreicht Delta ab 5.000 Wortformen in einer Bag-of-Words (vgl. Abb. 3 sowie Eder 2013a und Eder 2013b).</p>
                 <figure>
                     <graphic n="1003"
-                        width="15.444611111111112cm"
-                        height="10.600972222222222cm"
-                        rend="inline"
                         url="DIMPEL_Friedrich_Michael_Die_guten_ins_T_pfchen__Zur_Anwendb-image3.png"/>
-                    <head>Abb. 3; zum Setting vgl. Dimpel 2018.</head>
+                    <head>Abb. 3: zum Setting vgl. Dimpel 2018.</head>
                 </figure>
                 <p>Die ‚Halbe Birne‘ enthält jedoch nur 2.469 Wortformen. Wenn man nun die ‚Birne‘ gegen ein Konrad-Korpus testet, kann man entweder die Wörter mit hoher Level-2-Differenz, die einer Erkennung von Konrad entgegenstehen, aus der Liste der untersuchten Most-Frequent-Words (MFWs) streichen. Oder man kann eine Positivliste mit „guten“ Wörtern bevorzugt verwenden – Wörter mit hoher positiver Level-2-Differenz.</p>
-                <p>Vorab wird das Verfahren validiert: In einer Ermittlungsgruppe (vier Konrad-Texte) werden „gute“ und „schlechte“ Wörter identifiziert.
-                    <ref target="ftn1" n="1"/> In einer Kontrollgruppe (vier andere Konrad-Texte) zeigt sich, dass die Erkennungsquote durch dieses Verfahren bei Bag-of-Words mit 2.000 Wortformen steigt – beim bevorzugten Verwenden „guter“ Wörtern stärker als beim Aussortieren der „schlechten“. Danach werden alle acht Konrad-Texte erneut zur Bildung der Listen der „guten“ und „schlechten“ Wortformen herangezogen. Als geeignete Parameter haben sich gezeigt:
+                <p>Vorab wird das Verfahren validiert: In einer Ermittlungsgruppe (vier Konrad-Texte) werden „gute“ und „schlechte“ Wörter identifiziert.<ref target="ftn1" n="1"/> 
+                    In einer Kontrollgruppe (vier andere Konrad-Texte) zeigt sich, dass die Erkennungsquote durch dieses Verfahren bei Bag-of-Words mit 2.000 Wortformen steigt – beim bevorzugten Verwenden „guter“ Wörtern stärker als beim Aussortieren der „schlechten“. Danach werden alle acht Konrad-Texte erneut zur Bildung der Listen der „guten“ und „schlechten“ Wortformen herangezogen. Als geeignete Parameter haben sich gezeigt:
                 </p>
                 <p>„Gute Wörter“: Level-2-Differenzen &gt;+2,31 in 6 von 7 Ermittlungsgruppen-Ratetexten, 304 items</p>
                 <p>„Schlechte Wörter“: Level-2-Differenzen &lt;-1,2 in 2 von 7 Ermittlungsgruppen-Ratetexten, 174 items</p>
