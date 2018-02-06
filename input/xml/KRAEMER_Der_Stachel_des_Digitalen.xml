@@ -11,7 +11,7 @@
                         <forename>Sybille</forename>
                     </persName>
                     <affiliation>Freie Universität Berlin, Deutschland, Institut für Philosophie</affiliation>
-                    <email></email>
+                    <email>sybkram@zedat.fu-berlin.de</email>
                 </author>
             </titleStmt>
             <editionStmt>
@@ -55,14 +55,14 @@
                 </keywords>
             </textClass>
             <settingDesc>
-                <ab n="conference">DHd2018 - "Kritik der Digitalen Vernunft", Köln</ab>
-                <ab n="paperID">x2</ab>
-                <ab n="session_ID">92</ab>
+                <ab n="conference">DHd2018 – "Kritik der Digitalen Vernunft", Köln</ab>
+                <ab n="paperID">x1</ab>
+                <ab n="session_ID">82</ab>
                 <ab n="session_numberInSession">1</ab>
                 <ab n="session_short"/>
-                <ab n="session_title">Abschluss von DHd 2018 und Abschluss-Keynote</ab>
-                <ab n="session_start">2018-03-02 14:00</ab>
-                <ab n="session_end">2018-03-02 15:30</ab>
+                <ab n="session_title">Eröffnung von DHd 2018 und Eröffnungs-Keynote</ab>
+                <ab n="session_start">2018-02-27 17:45</ab>
+                <ab n="session_end"> 2018-02-27 19:15</ab>
             </settingDesc>
         </profileDesc>
     </teiHeader>
