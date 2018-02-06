@@ -71,7 +71,6 @@
     </teiHeader>
    <text>
         <body>
-            <div/>
             <div type="div1" rend="DH-Heading1">
                 <head>Einführung</head>
                 <p>Im Bereich digital basierter Untersuchungen wird zunehmend eine Verzahnung quantitativen und qualitativen Arbeitens gefordert. In der konkreten Arbeit der Korpusanalyse wird aus dieser scheinbaren Dichotomie jedoch schnell eine Methodenvielfalt, denn gerade durch Kombinationen verschiedener Perspektiven auf die Daten werden unterschiedliche Phänomene greifbar und entfaltet sich das volle Potential quantitativ-qualitativen Arbeitens. Das hier präsentierte Poster soll dies an einem konkreten Beispiel veranschaulichen.</p>
@@ -85,7 +84,7 @@
             <div type="div1" rend="DH-Heading1">
                 <head>Korpus- und Analysegrundlage </head>
                 <p>Der hier präsentierten Studie liegen drei Teilkorpora des 17. Jahrhunderts aus dem Deutschen Textarchiv (2017) zugrunde: </p>
-                <list type="ordered">
+                <list type="unordered">
                     <item>Prosaische Erbauungsliteratur: 25 Bände (10 Autoren, 10.501 Seiten)</item>
                     <item>Funeralschriften: 334 Schriften (14.316 Seiten)</item>
                     <item>Referenzkorpus: 187 Bände verschiedener Textsorten (60.798 Seiten)</item>
@@ -102,16 +101,16 @@
                         height="8.403166666666667cm"
                         rend="inline"
                         url="HAAF_Susanne__Perspektiven_auf_ein_Korpus__Kombinationen_qua-image1.png"/>
+                    <head>Abb. 1: Relative Häufigkeiten je 1 Mio. Token und deren Verteilung in den drei untersuchten Korpora für das Merkmal „Marginalie“</head>
                 </figure>
-                <p>Abb. 1: Relative Häufigkeiten je 1 Mio. Token und deren Verteilung in den drei untersuchten Korpora für das Merkmal „Marginalie“</p>
                 <figure>
                     <graphic n="1002"
                         width="11.77925cm"
                         height="8.787694444444444cm"
                         rend="inline"
                         url="HAAF_Susanne__Perspektiven_auf_ein_Korpus__Kombinationen_qua-image2.png"/>
+                    <head>Abb. 2: Relative Häufigkeiten je 1 Mio. Token und deren Verteilung in den drei untersuchten Korpora für das Merkmal „Horizontale Trennlinie“</head>
                 </figure>
-                <p>Abb. 2: Relative Häufigkeiten je 1 Mio. Token und deren Verteilung in den drei untersuchten Korpora für das Merkmal „Horizontale Trennlinie“</p>
                 <p>Weiterhin konnten im gegebenen Kontext (4) auch Merkmale mit geringeren Häufigkeiten relevant sein, und schließlich ist nicht zuletzt (5) auch der Ort, an dem ein Merkmal im Dokument auftritt, zu berücksichtigen. Beide Aspekte (4 und 5) zeigen sich z.B. am Merkmal der Liste, die in den erbaulichen Prosawerken erwartungsgemäß selten, aber relativ regelmäßig auftritt, und zwar in Form von Registern am Buchbeginn oder Buchende (in tei:front oder tei:back).</p>
                 <p>Methodisch zeigte sich also, dass für eine adäquate Beurteilung der untersuchten Merkmale verschiedene Blickwinkel notwendig sind. Das Poster veranschaulicht anhand der erwähnten und weiterer Beispiele diese genannten methodischen Aspekte.</p>
                 <p>Inhaltlich führte die Untersuchung zutage, dass z.B. Merkmale, die den Zugang zum Text erleichtern und Hilfe zur Orientierung im Text geben, für die erbaulichen Textsorten relevant sind (Näheres vgl. Haaf (in Vorber.)). </p>
