@@ -88,39 +88,13 @@
         <body>
             <div type="div1" rend="DH-Heading">
                 <head>Introduction</head>
-                <p>
-                    <hi rend="background-color(#ffffff)">A project on Georgian Epigraphy</hi>
-                    <hi rend="background-color(#ffffff)">
-                        <ref target="ftn1" n="1"/>
-                    </hi>
-                    <hi rend="background-color(#ffffff)"> in the context of which this article is grounded brought our attention to two phenomena which seem inseparably intertwined with the epigraphic record: abbreviations and gaps. </hi>
-                    <hi rend="background-color(#ffffff)">I</hi>n Old Georgian, abbreviations are very prominent and yet very heterogeneous. That is more so than in other (historical) languages. One finds many abbreviations for the same word, compare Boeder (1987).
-                    <hi rend="background-color(#ffffff)"> </hi>
-                    <hi rend="background-color(#ffffff)">In this article, </hi>
-                    <hi rend="background-color(#ffffff)">we assess the research question why this is </hi>
-                    <hi rend="background-color(#ffffff)">so by trying</hi>
-                    <hi rend="background-color(#ffffff)"> to</hi>
-                    <hi rend="background-color(#ffffff)"> highlight properties of Old Georgian abbreviations, which can </hi>
-                    <hi rend="background-color(#ffffff)">also </hi>
-                    <hi rend="background-color(#ffffff)">be used as an aid to read them. </hi>
-                    <hi rend="background-color(#ffffff)">We use Old Georgian abbreviations in inscriptions and manuscripts from the Titus web-site, Gippert (1995) </hi>
-                    <hi rend="background-color(#ffffff)">under more </hi>
-                    <hi rend="background-color(#ffffff)">entered within the Georgian National Corpus</hi>
-                    <hi rend="background-color(#ffffff)">
-                        <ref target="ftn2" n="2"/>
-                    </hi>
-                    <hi rend="background-color(#ffffff)">. </hi>
-                    <hi rend="background-color(#ffffff)">In order to take a somewhat wider perspective and enable data hungry technologies to aid in the analyses of the aforementioned phenomena</hi>
-                    <hi rend="background-color(#ffffff)">
-                        <ref target="ftn3" n="3"/>
-                    </hi>
-                    <hi rend="background-color(#ffffff)">, we decided to compare the Georgian record with one of the largest digital epigraphic records available, classical Latin,</hi>
-                    <hi rend="background-color(#ffffff)"> for which we use data from the Epigraphic database Heidelberg</hi>
-                    <hi rend="background-color(#ffffff)">
-                        <ref target="ftn4" n="4"/>
-                    </hi>
-                    <hi rend="background-color(#ffffff)">: last accessed December 2016. </hi>
-                    <hi rend="background-color(#ffffff)">The Latin data is several orders of magnitude larger than the Georgian one. While Latin contains roughly 70,000 inscriptions, Georgian features 91, so we decided to additionally analyse abbreviations in Old Georgian manuscripts. We ended up with roughly 4,000 abbreviations for Old Georgian (roughly 1,100 from the inscriptions) and roughly 170,000 for Latin.</hi>
+                <p>A project on Georgian Epigraphy
+                    <ref target="ftn1" n="1"/>
+                     in the context of which this article is grounded brought our attention to two phenomena which seem inseparably intertwined with the epigraphic record: abbreviations and gaps. In Old Georgian, abbreviations are very prominent and yet very heterogeneous. That is more so than in other (historical) languages. One finds many abbreviations for the same word, compare Boeder (1987). In this article, we assess the research question why this is so by trying to highlight properties of Old Georgian abbreviations, which can also be used as an aid to read them. We use Old Georgian abbreviations in inscriptions and manuscripts from the Titus web-site, Gippert (1995) under more entered within the Georgian National Corpus
+                        <ref target="ftn2" n="2"/>.
+                    In order to take a somewhat wider perspective and enable data hungry technologies to aid in the analyses of the aforementioned phenomena
+                        <ref target="ftn3" n="3"/>, we decided to compare the Georgian record with one of the largest digital epigraphic records available, classical Latin, for which we use data from the Epigraphic database Heidelberg
+                        <ref target="ftn4" n="4"/>: last accessed December 2016. The Latin data is several orders of magnitude larger than the Georgian one. While Latin contains roughly 70,000 inscriptions, Georgian features 91, so we decided to additionally analyse abbreviations in Old Georgian manuscripts. We ended up with roughly 4,000 abbreviations for Old Georgian (roughly 1,100 from the inscriptions) and roughly 170,000 for Latin.
                 </p>
                 <p>There are several partly overlapping typologies of abbreviations, compare Marchand (1969); Kreidler (1979); McArthur (1988); McArthur and McArthur (1992); Rúa (2004); Driscoll (2009). (Carroll, 2003, p.205) remarks: ”Unfortunately, universally accepted standards for many abbreviations and acronyms do not exist”.</p>
             </div>
@@ -184,13 +158,8 @@
                 <p>
                     <figure>
                         <graphic url="HOENEN_Armin_Principles_Aiding_in_Reading_Abbreviations_in_O-100002010000034A0000033B62AD3E37.png"/>
-                    </figure>Figure 1: Letter position incidence in abbreviations. First row: for words of length 5 (24, 569 data points in Latin and 401 in Old Georgian). Second row: for words of length 4 to 
-                    <hi rend="background-color(#ffffff)">11 </hi>
-                    <hi rend="background-color(#ffffff)">(overlay)</hi>
-                    <hi rend="background-color(#ffffff)">. </hi>
-                    <hi rend="background-color(#ffffff)">In the upper left graphic, for all abbreviated words of length 5</hi>
-                    <hi rend="background-color(#ffffff)"> </hi>
-                    <hi rend="background-color(#ffffff)">in Latin, the first letter was always present in the abbreviation, the second in roughly 30% of the cases, the third in slightly less cases, the fourth and fifth almost never. In Old Georgian, an alternation with 2 dominant patterns appears: one for shorter words with probably one suffix and one for words with 2 suffixes which then have more letters towards the relative middle.</hi>
+                        <head>Figure 1: Letter position incidence in abbreviations. First row: for words of length 5 (24, 569 data points in Latin and 401 in Old Georgian). Second row: for words of length 4 to 11 (overlay). In the upper left graphic, for all abbreviated words of length 5 in Latin, the first letter was always present in the abbreviation, the second in roughly 30% of the cases, the third in slightly less cases, the fourth and fifth almost never. In Old Georgian, an alternation with 2 dominant patterns appears: one for shorter words with probably one suffix and one for words with 2 suffixes which then have more letters towards the relative middle.</head>
+                    </figure>
                 </p>
             </div>
             <div type="div1" rend="DH-Heading">
@@ -198,8 +167,7 @@
                 <p>Now, we look at how many vowels and consonants are retained in abbreviations, see Table 2. As one can see, in all contexts the ratio of vowels in the abbreviations is clearly lower than in the extensions. Information theory, see for instance Shannon (1948) provides a stable basis for the interpretation of these results. a) the class of vowels is smaller than the class of consonants and b) vowels are much more frequent not only because of a) but also because they occur in syllable nuclei and consequently a single vowel, yet not a single consonant can constitute a syllable.
                     <ref target="ftn5" n="5"/>
                     <ref target="ftn6" n="6"/> Thus, vowels are less informative and hence more easily guessable than consonants. Finally, we analysed our larger Latin data in more detail. We extract the frequency based rankings of letters and test their correlation with the ranking through probability of being retained in an abbreviation. The Spearman rank correlation suggests, that there is a significant correlation between the frequency of a consonant and its probability to be retained in an abbreviation (p-value = 0.002655, ρ 0.622807). For vowels p is above 0.01, and ρ is negative at −0.2 suggesting that for vowels, which are all quite frequent, there is no clear effect. Carreiras et al. (2009) find that vowels do not yield priming effects for recognition in opposition to consonants, which would nicely align with this finding. Thus, an inf
-                    <hi rend="background-color(#ffffff)">requent consonant grapheme is more probably </hi>
-                    <hi rend="background-color(#ffffff)">retained. One may deduct that consonants that are left out - if any - are more frequent than the ones retained. Knowing this and knowing that the first portion of the word root is probably represented in the abbreviation decreases the number of possible interpretations ideally by this token helping to decipher abbreviations.</hi>
+                    requent consonant grapheme is more probably retained. One may deduct that consonants that are left out - if any - are more frequent than the ones retained. Knowing this and knowing that the first portion of the word root is probably represented in the abbreviation decreases the number of possible interpretations ideally by this token helping to decipher abbreviations.
                 </p>
                 <table rend="frame" xml:id="Table2">
                     <row>
@@ -246,13 +214,10 @@
             </div>
             <div type="div1" rend="DH-Heading">
                 <head>
-                    <hi rend="background-color(#ffffff)">Possibilities for the </hi>
-                    <hi rend="background-color(#ffffff)">Abbreviator</hi>
+                    Possibilities for the Abbreviator
                 </head>
                 <p>
-                    <hi rend="background-color(#ffffff)">Reading abbreviations may be understood even better when taking their generation into account. O</hi>
-                    <hi rend="background-color(#ffffff)">ne hypothesis assumes, that someone, who wants to abbreviate a word, holds in mind all possible abbreviations and chooses from them. We try to validate this, counting all </hi>
-                    <hi rend="background-color(#ffffff)">possible abbreviations per word length given suspension and contraction. This can also help estimate algorithmic complexity</hi> in abbreviating.
+                    Reading abbreviations may be understood even better when taking their generation into account. One hypothesis assumes, that someone, who wants to abbreviate a word, holds in mind all possible abbreviations and chooses from them. We try to validate this, counting all possible abbreviations per word length given suspension and contraction. This can also help estimate algorithmic complexity in abbreviating.
                 </p>
                 <p>As we have empirically observed but not explicitly stated so far and implicitly assumed, a condition for a valid abbreviation may be that the indices of the letters must maintain ascending order, or, in other words, the original sequence of the letters is not permuted. If so, for each word length 
                     <hi rend="italic">w </hi>and abbreviation length 
@@ -264,7 +229,7 @@
                     <hi rend="italic">
                         <ref target="ftn7" n="7"/>
                     </hi>
-                    <hi rend="italic"> </hi>possible abbreviations, since for each distinct combination only one can maintain the ascending order of elements. Now in order for understanding how many possible abbreviations there are for each word we need to add up values for all different 
+                    possible abbreviations, since for each distinct combination only one can maintain the ascending order of elements. Now in order for understanding how many possible abbreviations there are for each word we need to add up values for all different 
                     <hi rend="italic">a</hi>, where
                     <hi rend="italic"> a &lt; w</hi>.
                     <ref target="ftn8" n="8"/>
@@ -280,9 +245,7 @@
                 <p>In case of a contraction, one fixes the first and the last letter. Then again, results are halved with one letter long abbreviations excluded, hence the sum relates to 
                     <hi rend="italic">w</hi> by 2^{w-2} − 1. For a word of length 15 still 8,191 possibilities would be left. 
                 </p>
-                <p>Numbers remain so high towards the end of the scale that it seems improbable that someone who abbreviates a word be aware of all of the possibilities simulateneously at decision time. One also sees that contraction is quite effective in restricting possible abbreviations and might thus considerably speed-up abbreviating
-                    <hi rend="background-color(#ffffff)"> </hi>
-                    <hi rend="background-color(#ffffff)">and decipherment/reading of abbreviations</hi>.
+                <p>Numbers remain so high towards the end of the scale that it seems improbable that someone who abbreviates a word be aware of all of the possibilities simulateneously at decision time. One also sees that contraction is quite effective in restricting possible abbreviations and might thus considerably speed-up abbreviating and decipherment/reading of abbreviations.
                 </p>
                 <table rend="frame" xml:id="Table3">
                     <row>
@@ -432,9 +395,8 @@
         <back>
          <div type="notes">
             <note xml:id="ftn1" n="1" place="foot">
-                            <hi rend="background-color(#ffffff)"> </hi>
                             <ref target="https://www.cedifor.de/en/cedifor/current-pilot-projects/pilot-projects/digitale-erschliessung-epigraphischer-denkmaeler/">
-                                <hi rend="background-color(#ffffff)">https://www.cedifor.de/en/cedifor/current-pilot-projects/pilot-projects/digitale-erschliessung-epigraphischer-denkmaeler</hi>
+                                https://www.cedifor.de/en/cedifor/current-pilot-projects/pilot-projects/digitale-erschliessung-epigraphischer-denkmaeler
                             </ref>
                         </note>
             <note xml:id="ftn2" n="2" place="foot">

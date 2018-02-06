@@ -106,10 +106,12 @@
                 <p>Eine kritische Bestandsaufnahme aktueller Visualisierungstools und -metaphern und deren Anwendung in den Geisteswissenschaften (vgl. Bradley 2008; Drucker 2011, 2014; Gibbs/Owens 2012) führte im 3DH-Projekt zur Formulierung von vier konzeptionellen Postulaten.
                     <ref target="ftn2" n="2"/> Definiert werden damit die Prinzipien, die einem Interface bzw. einer Visualisierung zugrunde gelegt werden müssen, sofern diese literaturwissenschaftliche Arbeitsprozesse sinnvoll unterstützen sollen. Es handelt sich um die Postulate 
                 </p>
-                <p>1. des „Two-Way-Screens“: Das Interface soll vom Renderer zum bidirektionalen Instrument werden; </p>
-                <p>2. der „Qualität“: Die Visualisierung soll nicht nur der Repräsentation von Daten fungieren, sondern Möglichkeiten bieten, qualitative Beobachtungen und Aussagen zu tätigen;</p>
-                <p>3. der „Parallaxe“: Die visuelle und epistemische Multiperspektivität einer Visualisierung soll gestärkt werden;</p>
-                <p>4. der „Diskursivität“: Durch geeignete visuelle Erscheinungsformen und -verfahren soll die Generierung, Diskussion und Kritik von Hypothesen gefördert werden.</p>
+                <list type="ordered">
+                    <item>des „Two-Way-Screens“: Das Interface soll vom Renderer zum bidirektionalen Instrument werden; </item>
+                    <item>der „Qualität“: Die Visualisierung soll nicht nur der Repräsentation von Daten fungieren, sondern Möglichkeiten bieten, qualitative Beobachtungen und Aussagen zu tätigen;</item>
+                    <item>der „Parallaxe“: Die visuelle und epistemische Multiperspektivität einer Visualisierung soll gestärkt werden;</item>
+                    <item>der „Diskursivität“: Durch geeignete visuelle Erscheinungsformen und -verfahren soll die Generierung, Diskussion und Kritik von Hypothesen gefördert werden.</item>
+                </list>
                 <p>Die normativen Anforderungen an ein reflektiertes Interface- und Visualisierungskonzept rekurrieren auf die spezifischen Eigenschaften eines literaturwissenschaftlichen Arbeitsprozesses. Dieser folgt keinem finiten Set von methodischen Regeln oder Verfahrensweisen. Vielmehr tritt die Textanalyse und -interpretation als komplexer epistemisch und ästhetisch geformter sowie zirkulär organisierter Prozess auf, der sich als in hohem Maße subjektiv und kontextsensitiv erweist (vgl. Winko 2015: 486). </p>
                 <p>Für die praktische Entwicklung literaturwissenschaftlicher Interfaces und Visualisierungen gehen wir von zwei Annahmen aus. </p>
                 <p>Die Komplexität des Interpretationsprozesses kann erstens auf eine Reihe von grundlegenden „routineförmige[n] Tätigkeiten“ (Albrecht et al. 2015: 2) bzw. „scholarly primitives“ (Unsworth 2000) zurückgeführt werden, die iterativ von LiteraturwissenschaftlerInnen zur Bedeutungszuweisung durchgeführt werden. Diese routineförmigen Tätigkeiten sind „oftmals nicht vollständig durch explizierbare Regeln oder Methoden bestimmt, sondern [beruhen] in hohem Maße auf implizitem Wissen und Können“ (Albrecht et al. 2015: 2).</p>
@@ -132,6 +134,7 @@
                         height="11.567583333333333cm"
                         rend="inline"
                         url="KLEYMANN_Rabea_Perspektiven_kritischer_Interfaces_f_r_die_Di-image1.png"/>
+                    <head>Abb.1: Wireframes für ein Interface zur Funktion „Kommentieren“ in dem Szenario „Exploration freier Annotationen zwecks Schärfung der literaturwissenschaftlichen Fragestellung“.</head>
                 </figure>
                 <figure>
                     <graphic n="1002"
@@ -140,7 +143,6 @@
                         rend="inline"
                         url="KLEYMANN_Rabea_Perspektiven_kritischer_Interfaces_f_r_die_Di-image2.png"/>
                 </figure>
-                <p>Abb.1: Wireframes für ein Interface zur Funktion „Kommentieren“ in dem Szenario „Exploration freier Annotationen zwecks Schärfung der literaturwissenschaftlichen Fragestellung“.</p>
                 <p>In der Abbildung wird der Entwicklungsstand der visuellen Gestaltung dieser Tätigkeit zu zwei verschiedenen Zeitpunkten sichtbar. Der untere Wireframe präsentiert einen fortgeschrittenen Stand. Die Wireframes illustrieren die Verschränkung einzelner Tätigkeiten, die im Szenario beschrieben werden. Hier sieht man etwa den Zusammenhang zwischen den Tätigkeiten „Annotieren“ und „Kommentieren“ dargestellt, in dem Sinne, dass ein Kommentar in der Regel (wenn auch nicht immer) einer Annotation zugeordnet ist, die eine diskrete Position im Text besitzt, also häufig nicht isoliert von der Tätigkeit des Annotierens betrachtet werden kann.</p>
             </div>
             <div type="div1" rend="DH-Heading1">
@@ -160,8 +162,8 @@
                            height="11.655219444444445cm"
                            rend="inline"
                            url="KLEYMANN_Rabea_Perspektiven_kritischer_Interfaces_f_r_die_Di-image3.png"/>
+                        <head>Abb.2: Versuch der Integration der „semantic plane“ über die vom User vollzogene Positionierung von Elementen.</head>
                     </figure>
-                    <p>Abb.2: Versuch der Integration der „semantic plane“ über die vom User vollzogene Positionierung von Elementen.</p>
                 </div>
                 <div type="div2" rend="DH-Heading2">
                     <head>Flexibilität und Manipulierbarkeit von Visualisierungen</head>
@@ -184,7 +186,7 @@
             <note xml:id="ftn1" n="1"> Das Projekt 
                             <hi rend="italic">3DH – Dreidimensionale dynamische Datenvisualisierung und Exploration für Digital Humanities-Forschungen</hi> wird in der ersten Projektphase (02/2016 – 01/2019) von der Behörde für Wissenschaft, Forschung und Gleichstellung gefördert. Für weitere Informationen vgl. 
                             <ref target="http://www.threedh.net">
-                                <hi rend="underline color(1155CC)">www.threedh.net</hi>
+                                <hi rend="underline">www.threedh.net</hi>
                             </ref> [letzter Zugriff: 07.09.2017].
                         </note>
             <note xml:id="ftn2" n="2"> Einige Digital-Humanities-Tools und Forschungsansätze, die auf die Unterstützung von hermeneutischen Prozessen zielen: Pliny und TEASys.</note>
@@ -194,12 +196,12 @@
             <note xml:id="ftn6" n="6"> Vgl. auch Winkos Ausführungen zur Differenzierung von Textanalyse und -interpretation (2003: 598): “Textanalysen basieren auf sprachlichen, formalen und strukturellen Informationen und greifen in erster Linie auf intratextuelle sowie auf denjenigen Typ extratextueller Kontexte zurück, der zum primären Verständnis vorauszusetzen ist; Interpretationen dagegen setzen Ergebnisse der Textanalyse voraus, und es dominiert tendenziell der Rekurs auf weitergehende, insbesondere inter- und extratextuelle Kontexte. Darüber hinaus sind Hypothesen über die Bedeutung eines Textes in Interpretationen komplexer als in Textanalysen.”</note>
             <note xml:id="ftn7" n="7"> VEGA – A Visualization Grammar: 
                                 <ref target="https://vega.github.io/vega/">
-                                    <hi rend="underline color(1155CC)">https://vega.github.io/vega/</hi>
+                                    <hi rend="underline">https://vega.github.io/vega/</hi>
                                 </ref>
                             </note>
             <note xml:id="ftn8" n="8"> D3 – Data-Driven Documents: 
                                 <ref target="https://d3js.org/">
-                                    <hi rend="underline color(1155CC)">https://d3js.org/</hi>
+                                    <hi rend="underline">https://d3js.org/</hi>
                                 </ref>
                             </note>
          </div>
@@ -222,14 +224,14 @@
                         <hi rend="bold">Cheema, Muhammad F. / Jänicke, Stefan / Franzini, Greta / Scheuermann, Gerik</hi> (2015): “On Close and Distant Reading in Digital Humanities: A Survey and Future Challenges“, in: 
                         <hi rend="italic">Eurographics Conference on Visualization</hi> (EuroVis) - STARs 83-103. 
                         <ref target="https://www.informatik.uni-leipzig.de/~stjaenicke/Survey.pdf">
-                            <hi rend="underline color(1155CC)">https://www.informatik.uni-leipzig.de/~stjaenicke/Survey.pdf </hi>
+                            <hi rend="underline">https://www.informatik.uni-leipzig.de/~stjaenicke/Survey.pdf </hi>
                         </ref>[letzter Zugriff: 10.09.2017]
                     </bibl>
                     <bibl>
                         <hi rend="bold">Drucker, Johanna</hi> (2011): “Humanities Approaches to Graphical Display”, in: 
                         <hi rend="italic">DH Quarterly</hi>, 5(1).
                         <ref target="http://digitalhumanities.org/dhq/vol/5/1/000091/000091.html">
-                            <hi rend="underline color(1155CC)">http://digitalhumanities.org/dhq/vol/5/1/000091/000091.html</hi>
+                            <hi rend="underline">http://digitalhumanities.org/dhq/vol/5/1/000091/000091.html</hi>
                         </ref> [letzter Zugriff: 20.09.2017]
                     </bibl>
                     <bibl>
@@ -277,7 +279,7 @@
                         <hi rend="italic">Symposium on Humanities Computing: formal methods, experimental practice.</hi> King’s College London, 2000.
                         <ref target="http://people.brandeis.edu/%7Eunsworth/Kings.5-00/primitives.html"> </ref>
                         <ref target="http://people.brandeis.edu/%7Eunsworth/Kings.5-00/primitives.html">
-                            <hi rend="underline color(1155CC)">http://people.brandeis.edu/~unsworth/Kings.5-00/primitives.html</hi>
+                            <hi rend="underline">http://people.brandeis.edu/~unsworth/Kings.5-00/primitives.html</hi>
                         </ref>.[letzter Zugriff: 18.09.2017]
                     </bibl>
                     <bibl>
@@ -294,44 +296,44 @@
                     </bibl>
                     <bibl>3DH 
                         <ref target="http://www.threedh.net">
-                            <hi rend="underline color(1155CC)">http://www.threedh.net</hi>
+                            <hi rend="underline">http://www.threedh.net</hi>
                         </ref>
                     </bibl>
                     <bibl>CATMA 
                         <ref target="http://www.catma.de">
-                            <hi rend="underline color(1155CC)">http://www.catma.de</hi>
+                            <hi rend="underline">http://www.catma.de</hi>
                         </ref>
                     </bibl>
                     <bibl>D3 – Data-Driven Documents: 
                         <ref target="https://d3js.org/">
-                            <hi rend="underline color(1155CC)">https://d3js.org/</hi>
+                            <hi rend="underline">https://d3js.org/</hi>
                         </ref>
                     </bibl>
                     <bibl>forTEXT 
                         <ref target="http://www.fortext.net">
-                            <hi rend="underline color(1155CC)">http://www.fortext.net</hi>
+                            <hi rend="underline">http://www.fortext.net</hi>
                         </ref>
                     </bibl>
                     <bibl>hermA 
                         <ref target="https://www.korpuslab.uni-hamburg.de/projekte/herma.html">
-                            <hi rend="underline color(1155CC)">https://www.korpuslab.uni-hamburg.de/projekte/herma.html</hi>
+                            <hi rend="underline">https://www.korpuslab.uni-hamburg.de/projekte/herma.html</hi>
                         </ref>
                     </bibl>
                     <bibl>heureCLÉA 
                         <ref target="http://heureclea.de">
-                            <hi rend="underline color(1155CC)">http://www.heureclea.de</hi>
+                            <hi rend="underline">http://www.heureclea.de</hi>
                         </ref>
                     </bibl>
                     <bibl>Pliny http://pliny.cch.kcl.ac.uk/</bibl>
                     <bibl>TEASys http://www.annotation.es.uni-tuebingen.de/?page_id=200</bibl>
                     <bibl>VEGA – A Visualization Grammar: 
                         <ref target="https://vega.github.io/vega/">
-                            <hi rend="underline color(1155CC)">https://vega.github.io/vega/</hi>
+                            <hi rend="underline">https://vega.github.io/vega/</hi>
                         </ref>
                     </bibl>
                     <bibl>
                         <ref target="http://www.procontext.com/aktuelles/2010/03/iso-9241210-prozess-zur-entwicklung-gebrauchstauglicher-interaktiver-systeme-veroeffentlicht.html">
-                            <hi rend="underline color(1155CC)">http://www.procontext.com/aktuelles/2010/03/iso-9241210-prozess-zur-entwicklung-gebrauchstauglicher-interaktiver-systeme-veroeffentlicht.html</hi>
+                            <hi rend="underline">http://www.procontext.com/aktuelles/2010/03/iso-9241210-prozess-zur-entwicklung-gebrauchstauglicher-interaktiver-systeme-veroeffentlicht.html</hi>
                         </ref> [letzter Zugriff: 18.09.2017]
                     </bibl>
                 </listBibl>

@@ -97,8 +97,7 @@
                 </p>
                 <p>Tiefere Annotationen, insbesondere für Sprachen außerhalb der Europäischen Sprachfamilie oder für historische Sprachen, dagegen gestalten sich problematischer. Häufig jedoch wird die Verwendung bereits etablierter Annotationstools trotzdem bevorzugt, weil diese eine reibungslose Integration mit weiteren Analyse- und Visualisierungs-Tools wie z.B. 
                     <hi rend="italic">ANNIS</hi> (Krause &amp; Zeldes 2016) versprechen. In diesem Beitrag werden wir zeigen, dass die Entwicklung dedizierter Annotationswerkzeuge dann als Lösung in Betracht gezogen werden kann, wenn gleichzeitig Schnittstellen (z.B. zu Analyse-Tools) entwickelt werden, die die Neuentwicklung wiederum an vorhandene Software und Infrastrukturen anbinden. Auf diese Weise können die Nachteile einer Neuentwicklung unter Gesichtspunkten der nachhaltigen Entwicklung von Forschungssoftware gegenüber der Anpassung bestehender Tools - bei gleichzeitiger Ermöglichung eines spezialisierten Anwendungsfalles - weitgehend abgeschwächt werden. Der Vorteil eines solchen Verfahrens ist die Realisierung eines Annotationsmodells, das exakt den Besonderheiten der Sprache entspricht. 
-                    <anchor xml:id="id_docs-internal-guid-26467f60-f67e-25d0-ff59-7f8f2e91845b"/>Insbesondere für diachrone Analysen ist es häufig nötig, dass man eine sehr detaillierte Modellierung der morphologischen, syntaktischen und semantischen Merkmale vornimmt, da die Unterschiede häufig nur im Detail reflektiert sind.
-                    <hi rend="color(#1155cc)"> </hi>Im Einzelnen werden wir die Entwicklung des 
+                    <anchor xml:id="id_docs-internal-guid-26467f60-f67e-25d0-ff59-7f8f2e91845b"/>Insbesondere für diachrone Analysen ist es häufig nötig, dass man eine sehr detaillierte Modellierung der morphologischen, syntaktischen und semantischen Merkmale vornimmt, da die Unterschiede häufig nur im Detail reflektiert sind. Im Einzelnen werden wir die Entwicklung des 
                     <hi rend="italic">GeTa</hi>-Annotationstools, eines Mehrebenenannotationswerkzeugs für die Altäthiopische Sprache, und dessen Integration mit dem Such- und Visualisierungsframework 
                     <hi rend="italic">ANNIS</hi> darstellen.
                 </p>
@@ -222,25 +221,19 @@
         </body>
         <back>
          <div type="notes">
-            <note xml:id="ftn1" n="1" place="foot">
+            <note xml:id="ftn1" n="1">
                         <ptr target="https://www.traces.uni-hamburg.de/"/>.
-                    </note>
-            <note xml:id="ftn2" n="2" place="foot"> "Fidal" ist der Terminus technicus für das äthiopische Silbenalphabet.</note>
-            <note xml:id="ftn3" n="3" place="foot">
+            </note>
+            <note xml:id="ftn2" n="2"> "Fidal" ist der Terminus technicus für das äthiopische Silbenalphabet.</note>
+            <note xml:id="ftn3" n="3">
                         <ptr target="https://github.com/korpling/pepperModules-ANNISModules/"/>.
-                    </note>
+            </note>
          </div>
          <div type="bibliogr">
                 <listBibl>
                     <head>Bibliographie</head>
                     <bibl>
-                        <hi rend="bold">Bollmann, </hi>
-                        <hi rend="bold">Marcel / </hi>
-                        <hi rend="bold">Petran, Florian / Dipper, Stefanie / Krasselt, </hi>
-                        <hi rend="bold">Julia</hi>
-                        <hi rend="bold"> </hi>(2014): „
-                        <emph>CorA: A web-based annotation tool for historical and other non-standard language data“, </emph>
-                        <emph>i</emph>n: 
+                        <hi rend="bold">Bollmann, Marcel / Petran, Florian / Dipper, Stefanie / Krasselt, Julia</hi> (2014): „CorA: A web-based annotation tool for historical and other non-standard language data“, in: 
                         <hi rend="italic">Proceedings of the 8th Workshop on Language Technology for Cultural Heritage, Social Sciences, and Humanities (LaTeCH)</hi>. Gothenburg, Sweden: 86-90.
                     </bibl>
                     <bibl>
@@ -248,8 +241,7 @@
                         <ptr target="http://doi.org/10.5281/zenodo.1146985"/>
                     </bibl>
                     <bibl>
-                        <hi rend="bold">Druskat, </hi>
-                        <hi rend="bold">Stephan</hi> (2017): „Pepper Grinder (Version 0.1.7)“. Zenodo. DOI: 10.5281/zenodo.1041735. 
+                        <hi rend="bold">Druskat, Stephan</hi> (2017): „Pepper Grinder (Version 0.1.7)“. Zenodo. DOI: 10.5281/zenodo.1041735. 
                         <ptr target="https://doi.org/10.5281/zenodo.1041735"/>
                     </bibl>
                     <bibl>
@@ -257,20 +249,7 @@
                         <hi rend="italic">Proceedings of the Tenth International Conference on Language Resources and Evaluation (LREC 2016):</hi> 23–28.
                     </bibl>
                     <bibl>
-                        <hi rend="bold">Eckart de Castilho, R</hi>
-                        <hi rend="bold">ichard / </hi>
-                        <hi rend="bold">Mújdricza-Maydt, É</hi>
-                        <hi rend="bold">va /</hi>
-                        <hi rend="bold"> Yimam, S</hi>
-                        <hi rend="bold">eid Muhie /</hi>
-                        <hi rend="bold"> Hartmann, S</hi>
-                        <hi rend="bold">ilvana / </hi>
-                        <hi rend="bold">Gurevych, I</hi>
-                        <hi rend="bold">ryna /</hi>
-                        <hi rend="bold"> Frank, A</hi>
-                        <hi rend="bold">nette / </hi>
-                        <hi rend="bold">Biemann, C</hi>
-                        <hi rend="bold">hris</hi> (2016): „A Web-based Tool for the Integrated Annotation of Semantic and Syntactic Structures“, in: 
+                        <hi rend="bold">Eckart de Castilho, Richard / Mújdricza-Maydt, Éva / Yiman, Seid Muhie / Hartmann, Silvana / Gurevych, Iryna / Frank, Anette / Biemann, Chris</hi> (2016): „A Web-based Tool for the Integrated Annotation of Semantic and Syntactic Structures“, in: 
                         <hi rend="italic">Proceedings of the LT4DH workshop at COLING 2016, Osaka, Japan: </hi>76-84.
                     </bibl>
                     <bibl>

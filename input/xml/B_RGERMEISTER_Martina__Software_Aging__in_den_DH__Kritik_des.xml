@@ -165,10 +165,7 @@
                         <hi rend="italic">GitHub</hi>.
                     </head>
                     <p>Sowohl Entwicklung als auch Dokumentation erfolgen über ein öffentliches 
-                        <hi rend="italic">GitHub</hi>-Repository
-                        <hi rend="Footnote_Anchor">
-                            <ref target="ftn2" n="2"/>
-                        </hi>. Die dadurch verfügbaren Möglichkeiten der Versionsverwaltung, des Bugtracking und des Code Review werden genutzt, um die Qualität des Codes zu verbessern und diesen transparent und nachvollziehbar zu entwickeln.
+                        <hi rend="italic">GitHub</hi>-Repository<ref target="ftn2" n="2"/>. Die dadurch verfügbaren Möglichkeiten der Versionsverwaltung, des Bugtracking und des Code Review werden genutzt, um die Qualität des Codes zu verbessern und diesen transparent und nachvollziehbar zu entwickeln.
                     </p>
                 </div>
                 <div type="div2" rend="DH-Heading2">
@@ -177,17 +174,14 @@
                 </div>
                 <div type="div2" rend="DH-Heading2">
                     <head>Refactoring von HTML und CSS.</head>
-                    <p>Die Verwendung eines auf den Konzepten von Material Design
-                        <hi rend="Footnote_Anchor">
-                            <ref target="ftn3" n="3"/>
-                        </hi> basierenden CSS-Frameworks garantiert ein konsistentes Gesamtdesign von 
+                    <p>Die Verwendung eines auf den Konzepten von Material Design<ref target="ftn3" n="3"/> basierenden CSS-Frameworks garantiert ein konsistentes Gesamtdesign von 
                         <hi rend="italic">monasterium.net</hi>. Teile des Benutzerinterfaces werden dadurch modularisiert und leichter anpassbar. Die Verwendung eines Präprozessors und das Einführen einer Namenskonvention sollen die Wartbarkeit, das Auffinden von Fehlern und die Umsetzung neuer Features erleichtern.
                     </p>
                 </div>
                 <div type="div2" rend="DH-Heading2">
                     <head>Entwicklung einer RESTful API zwischen Client und Datenbank.</head>
                     <p>Die zukünftige Kommunikation zwischen Client und Datenbank übernimmt eine neudefinierte REST-API. 
-                        <hi rend="color(00000A)">Die Datenabfrage aus der XML-Datenbank erfolgt noch per XQuery, zurückgeliefert werden wahlweise in XML oder JSON serialisierte Daten. Diese Form des Reengineerings gewährt eine definierte, standardisierte Verarbeitungsweise sowie die Weiternutzung und Kombination multipler Datenquellen. </hi>Die Abstraktion von Datenbank, Programmlogik und Benutzeroberfläche erleichtert so in Zukunft deren entkoppelte Anpassung oder Austausch.
+                       Die Datenabfrage aus der XML-Datenbank erfolgt noch per XQuery, zurückgeliefert werden wahlweise in XML oder JSON serialisierte Daten. Diese Form des Reengineerings gewährt eine definierte, standardisierte Verarbeitungsweise sowie die Weiternutzung und Kombination multipler Datenquellen. Die Abstraktion von Datenbank, Programmlogik und Benutzeroberfläche erleichtert so in Zukunft deren entkoppelte Anpassung oder Austausch.
                     </p>
                 </div>
             </div>
@@ -204,9 +198,9 @@
         </body>
         <back>
          <div type="notes">
-            <note xml:id="ftn1" n="1" rend="footnote text"> Stack Overflow ist eine Online Community, zur gegenseitigen Unterstützung und zur Wissensgenerierung bei Fragen zur Softwareentwicklung: stackoverflow.com</note>
-            <note xml:id="ftn2" n="2" rend="Footnote"> github.com/icaruseu/mom-ca</note>
-            <note xml:id="ftn3" n="3" rend="Footnote"> material.io/guidelines/</note>
+            <note xml:id="ftn1" n="1"> Stack Overflow ist eine Online Community, zur gegenseitigen Unterstützung und zur Wissensgenerierung bei Fragen zur Softwareentwicklung: stackoverflow.com</note>
+            <note xml:id="ftn2" n="2"> github.com/icaruseu/mom-ca</note>
+            <note xml:id="ftn3" n="3"> material.io/guidelines/</note>
          </div>
          <div type="bibliogr">
                 <listBibl>
@@ -224,41 +218,32 @@
                         <hi rend="bold">Demeyer, Serge / Ducasse, Stéphane / Nierstrasz, Oscar</hi> (2013): 
                         <hi rend="italic">Object-Oriented Reengineering Patterns</hi>. Bern: Square Bracket Associates. 
                         <ref target="http://scg.unibe.ch/download/oorp/OORP.pdf">http://scg.unibe.ch/download/oorp/OORP.pdf</ref>
-                        <hi rend="Hyperlink"> </hi>
-                        <hi rend="ng-binding">[letzter Zugriff 24. September 2017].</hi>
+                        [letzter Zugriff 24. September 2017].
                     </bibl>
                     <bibl>
                         <hi rend="bold">Engels, Gregor et al. </hi>(2009) "Design for Future: Legacy-Probleme von morgen vermeidbar?", in: 
-                        <hi rend="italic">Informatik Spektrum </hi>32, 5: 393-397. 
-                        <hi rend="Internet_Link">https://doi.org/10.1007/s00287-009-0356-3</hi> [letzter Zugriff 24. September 2017].
+                        <hi rend="italic">Informatik Spektrum </hi>32, 5: 393-397. https://doi.org/10.1007/s00287-009-0356-3 [letzter Zugriff 24. September 2017].
                     </bibl>
                     <bibl>
                         <hi rend="bold">Godfrey, Michael W. / German, Daniel M.</hi> (2008): “The Past, Present, and Future of Software Evolution”, in: 
                         <hi rend="italic">Proceedings of the 2008 Frontiers of Software Maintenance.</hi>
                     </bibl>
                     <bibl>New York: IEEE 129-138. 
-                        <ref target="https://doi.org/10.1109/FOSM.2008.4659256">https://doi.org/10.1109/FOSM.2008.4659256</ref>
-                        <hi rend="ng-binding">[letzter Zugriff 24. September 2017].</hi>
+                        <ref target="https://doi.org/10.1109/FOSM.2008.4659256">https://doi.org/10.1109/FOSM.2008.4659256</ref> [letzter Zugriff 24. September 2017].
                     </bibl>
                     <bibl>
                         <hi rend="bold">Goltz, Ursula et al.</hi> (2015): “Design for future: managed software evolution”, in: 
-                        <hi rend="italic">Computer Science - Research and Development 30, 3-4</hi>: 321-331. 
-                        <hi rend="Hyperlink">https://doi.org/10.1007/s00450-014-0273-9</hi>
-                        <hi rend="ng-binding">[letzter Zugriff 24. September 2017].</hi>
+                        <hi rend="italic">Computer Science - Research and Development 30, 3-4</hi>: 321-331. https://doi.org/10.1007/s00450-014-0273-9 [letzter Zugriff 24. September 2017].
                     </bibl>
                     <bibl>
                         <hi rend="bold">Harold, Rusty Elliotte</hi> (2008): 
-                        <hi rend="italic">Refactoring HTML. Improving the Design of Existing Web Applications</hi>. 
-                        <hi rend="ng-binding">Upper Saddle River, NJ: Addison-Wesley.</hi>
+                        <hi rend="italic">Refactoring HTML. Improving the Design of Existing Web Applications</hi>. Upper Saddle River, NJ: Addison-Wesley.
                     </bibl>
                     <bibl>
                         <hi rend="bold">Hattrick, Simon</hi> (2016): Research Software Sustainability. Report on a Knowledge Exchange Workshop. JISC:
-                    </bibl>
-                    <bibl>
-                        <ref target="http://repository.jisc.ac.uk/6332/1/Research_Software_Sustainability_Report_on_KE_Workshop_Feb_2016_FINAL.pdf">
-                            <hi rend="Internet_Link">http://repository.jisc.ac.uk/6332/1/Research_Software_Sustainability_Report_on_KE_Workshop_Feb_2016_FINAL.pdf</hi>
-                        </ref>
-                        <hi rend="ng-binding">[letzter Zugriff 24. September 2017].</hi>
+                        <ref target="http://repository.jisc.ac.uk/6332/1/Research_Software_Sustainability_Report_on_KE_Workshop_Feb_2016_FINAL.pdf">http://repository.jisc.ac.uk/6332/1/Research_Software_Sustainability_Report_on_KE_Work
+                            shop_Feb_2016_FINAL.pdf
+                        </ref> [letzter Zugriff 24. September 2017].
                     </bibl>
                     <bibl>
                         <hi rend="bold">Kasper, Dominik / Grüntgens, Max</hi> (2017): “Nachhaltige Konzeptionsmethoden für Digital Humanities Projekte am Beispiel der Goethe-Propyläen“, in: 
@@ -267,16 +252,8 @@
                     </bibl>
                     <bibl>
                         <hi rend="bold">Lehman, Meir M.</hi> (1980): “Programs, life cycles, and laws of software evolution”, in: 
-                        <hi rend="italic">Proceedings of the IEEE </hi>
-                        <hi rend="ng-binding">
-                            <hi rend="italic">68</hi>
-                        </hi>
-                        <hi rend="ng-scope">
-                            <hi rend="italic">, 9</hi>: 
-                        </hi>1060
-                        <hi rend="ng-binding">-1076. </hi>
-                        <ref target="https://doi.org/10.1109/PROC.1980.11805">https://doi.org/10.1109/PROC.1980.11805</ref>
-                        <hi rend="ng-binding"> [letzter Zugriff 24. September 2017].</hi>
+                        <hi rend="italic">Proceedings of the IEEE 68, 9: 1060-1076.</hi><ref target="https://doi.org/10.1109/PROC.1980.11805">https://doi.org/10.1109/PROC.1980.11805</ref>
+                        [letzter Zugriff 24. September 2017].
                     </bibl>
                     <bibl>
                         <hi rend="bold">Mazinanian, Davood / Tsantalis, Nikolaos</hi> (2017): “CCSDev: Refactoring duplication in Cascading Style Sheets”, in: 
@@ -286,8 +263,7 @@
                     <bibl>
                         <hi rend="bold">Paech, Barbara et al.</hi> (2016): “Empirische Forschung zu Software-Evolution”, in: 
                         <hi rend="italic">Informatik Spektrum 39, 3</hi>: 186-193. 
-                        <ref target="https://doi.org/10.1007/s00287-015-0910-0">
-                            <hi rend="Internet_Link">https://doi.org/10.1007/s00287-015-0910-0</hi>
+                        <ref target="https://doi.org/10.1007/s00287-015-0910-0">https://doi.org/10.1007/s00287-015-0910-0
                         </ref> [letzter Zugriff 24. September 2017].
                     </bibl>
                     <bibl>

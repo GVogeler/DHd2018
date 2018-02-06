@@ -167,7 +167,7 @@
             </div>
         </body>
         <back>
-         <div type="bibliogr">
+            <div type="bibliogr">
                 <listBibl>
                     <head>Bibliographie</head>
                     <bibl>
@@ -182,22 +182,16 @@
                         <hi rend="italic">Literary and Linguistic Computing</hi> 29(4):488–510, 1093/llc/fqu050
                     </bibl>
                     <bibl>
-                        <hi rend="bold">Mihalcea, Rada /  Chklovski, Timothy / Kilgarriff, Adam</hi> (2004): “The Senseval-3 English Lexical Sample Task
-                        <hi rend="bold">”.</hi> In 
+                        <hi rend="bold">Mihalcea, Rada /  Chklovski, Timothy / Kilgarriff, Adam</hi> (2004): “The Senseval-3 English Lexical Sample Task”. In 
                         <hi rend="italic">Proceedings of SENSEVAL-3, the Third International Workshop on the Evaluation of Systems for the Semantic Analysis of Text</hi>, Barcelona, Spain.
                     </bibl>
                     <bibl>
-                        <hi rend="bold">Nakov, Preslav / Rosenthal, Sara / Kozareva, Zornitsa / Stoyanov, Veselin / Ritter, Alan / Wilson, Theresa</hi> (2013): “SemEval-2013 Task 2: Sentiment Analysis in Twitter”
-                        <hi rend="bold">.</hi>  In 
+                        <hi rend="bold">Nakov, Preslav / Rosenthal, Sara / Kozareva, Zornitsa / Stoyanov, Veselin / Ritter, Alan / Wilson, Theresa</hi> (2013): “SemEval-2013 Task 2: Sentiment Analysis in Twitter”. In 
                         <hi rend="italic">Proceedings of the Seventh International Workshop on Semantic Evaluation, SemEval ‘13</hi>, Atlanta, Georgia, USA.
                     </bibl>
                     <bibl>
-                        <hi rend="bold color(272727)">Reiter, Nils / Gius, Evelyn / Strötgen, Jannik / Willand, Marcus</hi>
-                        <hi rend="color(272727)"> (2017): “A Shared Task for a Shared Goal - Systematic Annotation of Literary Texts</hi>
-                        <hi rend="bold color(272727)">”</hi>
-                        <hi rend="color(272727)">. In </hi>
-                        <hi rend="italic color(272727)">Digital Humanities 2017: Conference Abstracts</hi>
-                        <hi rend="color(272727)">, Montreal, Canada.</hi>
+                        <hi rend="bold">Reiter, Nils / Gius, Evelyn / Strötgen, Jannik / Willand, Marcus</hi> (2017): “A Shared Task for a Shared Goal - Systematic Annotation of Literary Texts
+                        ”. In <hi rend="italic">Digital Humanities 2017: Conference Abstracts</hi>, Montreal, Canada.
                     </bibl>
                     <bibl>
                         <lb/>
