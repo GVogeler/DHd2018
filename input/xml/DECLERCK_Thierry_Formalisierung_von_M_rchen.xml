@@ -188,37 +188,33 @@
             <div type="div1" rend="DH-Heading1">
                 <head>XML-Repräsentation</head>
                 <p>Die oben beschriebenen Informationen lassen sich im XML-Format darstellen. Dabei wird eine XML-Baumstruktur genutzt, um die Hierarchie der verschiedenen Objekte zu repräsentieren. Das Wurzelelement des Dokuments hat stets den Bezeichner Tale und die Attribute „title“ und „annotator“, welche Titel und den Namen des Annotators des jeweiligen Märchens enthalten:</p>
-                <p rend="DH-Heading3">
-                    <hi rend="bold">
-                        <hi rend="normalweight">1</hi>: 
-                    </hi>Struktur des Tale-Wurzelelements (Beispiel).
-                </p>
-                <p rend="western">&lt;Tale title="Froschkönig" annotator="Lisa Schäfer"&gt; ... &lt;/Tale&gt;</p>
-                <p>Diesem Element untergeordnet sind die Elemente Characters, Locations und Text. Das Characters-Element enthält Character-Subelemente, die jeweils die gesammelten Informationen für einen Charakter speichern:</p>
-                <p rend="DH-Heading3">
-                    <hi rend="bold">
-                        <hi rend="normalweight">2</hi>: 
-                    </hi>Struktur des Characters-Elements (Beispiel).
-                </p>
-                <p rend="western">&lt;Character id="ch1" name="Frosch" age="adult" gender="male" type="animal_monster" subtype="small" attitude="neutral" archetype="hero"&gt; &lt;/Character&gt;</p>
-                <p>Analog dazu enthält das Locations-Element untergeordnete Location-Elemente, die jeweils einen Ort codieren:</p>
-                <p rend="DH-Heading3">
-                    <hi rend="bold">3: </hi>Struktur des Locations-Elements (Beispiel).
-                </p>
-                <p rend="western">&lt;Location id="loc1" type="WALD"&gt; &lt;/Location&gt;</p>
-                <p>Das Text-Element enthält schließlich den eigentlichen Märchentext. Dieser ist auf die verschiedenen Szenen – repräsentiert durch Szene-Elemente – aufgeteilt, welche wiederum die verschiedenen Dialogakte (Dialog-Elemente) enthalten:</p>
-                <p rend="DH-Heading3">
-                    <hi rend="bold">4: </hi>Struktur des Text- und Szene-Elemente (Beispiel).
-                </p>
-                <p rend="western">&lt;Text&gt;&lt;Scene id="s2" time="t2" location="loc1" characters="ch1,ch2" propp_functions="d|e" propp_subfunctions="D7|E10" transition="gehen"&gt;</p>
-                <p rend="western">...</p>
-                <p rend="western">&lt;Dialogue id="d5" time="t2.4" speaker="ch2" receiver="ch1"&gt; Ach, du bist’s, alter Wasserpatscher, &lt;/Dialogue&gt;</p>
-                <p rend="western">...</p>
-                <p rend="western">&lt;/Scene&gt;&lt;/Text&gt;</p>
-                <p>Beim Entwurf des XML-Schemas wurde besonders Wert auf Übersichtlichkeit und Leserlichkeit gelegt. Trotz der Vielzahl der kodierten Informationen sind die resultierenden XML-Dateien daher vergleichsweise kompakt; so besteht die XML-Repräsentation des (vergleichsweise langen) Märchens „
-                    <hi rend="italic">Hänsel und Gretel“ </hi>bspw. nur aus 226 Zeilen.
-                </p>
-                <p>Diese XML Repräsentation basiert auf und erweitert das Annotation Schema, das in (Scheidel &amp; Declerck, 2010) beschrieben wird.</p>
+                <div type="div2" rend="DH-Heading2">
+                    <head>1: Struktur des Tale-Wurzelelements (Beispiel).</head>
+                    <p>&lt;Tale title="Froschkönig" annotator="Lisa Schäfer"&gt; ... &lt;/Tale&gt;</p>
+                    <p>Diesem Element untergeordnet sind die Elemente Characters, Locations und Text. Das Characters-Element enthält Character-Subelemente, die jeweils die gesammelten Informationen für einen Charakter speichern:</p>
+                </div>
+                <div type="div2" rend="DH-Heading2">
+                    <head>2: Struktur des Characters-Elements (Beispiel).</head>
+                    <p>&lt;Character id="ch1" name="Frosch" age="adult" gender="male" type="animal_monster" subtype="small" attitude="neutral" archetype="hero"&gt; &lt;/Character&gt;</p>
+                    <p>Analog dazu enthält das Locations-Element untergeordnete Location-Elemente, die jeweils einen Ort codieren:</p>
+                </div>
+                <div type="div2" rend="DH-Heading2">
+                    <head>3: Struktur des Locations-Elements (Beispiel).</head>
+                    <p>&lt;Location id="loc1" type="WALD"&gt; &lt;/Location&gt;</p>
+                    <p>Das Text-Element enthält schließlich den eigentlichen Märchentext. Dieser ist auf die verschiedenen Szenen – repräsentiert durch Szene-Elemente – aufgeteilt, welche wiederum die verschiedenen Dialogakte (Dialog-Elemente) enthalten:</p>
+                </div>
+                <div type="div2" rend="DH-Heading2">    
+                    <head>4: Struktur des Text- und Szene-Elemente (Beispiel).</head>
+                    <p>&lt;Text&gt;&lt;Scene id="s2" time="t2" location="loc1" characters="ch1,ch2" propp_functions="d|e" propp_subfunctions="D7|E10" transition="gehen"&gt;</p>
+                    <p>...</p>
+                    <p>&lt;Dialogue id="d5" time="t2.4" speaker="ch2" receiver="ch1"&gt; Ach, du bist’s, alter Wasserpatscher, &lt;/Dialogue&gt;</p>
+                    <p>...</p>
+                    <p>&lt;/Scene&gt;&lt;/Text&gt;</p>
+                    <p>Beim Entwurf des XML-Schemas wurde besonders Wert auf Übersichtlichkeit und Leserlichkeit gelegt. Trotz der Vielzahl der kodierten Informationen sind die resultierenden XML-Dateien daher vergleichsweise kompakt; so besteht die XML-Repräsentation des (vergleichsweise langen) Märchens „
+                        <hi rend="italic">Hänsel und Gretel“ </hi>bspw. nur aus 226 Zeilen.
+                    </p>
+                    <p>Diese XML Repräsentation basiert auf und erweitert das Annotation Schema, das in (Scheidel &amp; Declerck, 2010) beschrieben wird.</p>
+                </div>
             </div>
             <div type="div1" rend="DH-Heading1">
                 <head>Python-Repräsentation</head>
@@ -234,9 +230,9 @@
          <div type="bibliogr">
                 <listBibl>
                     <head>Bibliographie</head>
-                    <bibl>Propp, Vladimir ; Scott, Laurence (Hrsg.): Morphology of the folktale. 2. überarbeitete Auflage. Austin, TX u.a., 1977</bibl>
-                    <bibl>Antonia Scheidel and Thierry Declerck. 2010. Apftml - augmented proppian fairy tale markup language. In Sándor Dar´anyi and Piroska Lendvai, editors, First International AMICUS Workshop on Automated Motif Discovery in Cultural Heritage and Scientific Communication Texts. Szeged University.</bibl>
-                    <bibl>Nikolina Koleva, Thierry Declerck, and Hans-Ulrich Krieger. 2012. An ontology-based iterative text processing strategy for detecting and recognizing characters in folktales. In Jan Christoph Meister, editor, Digital Humanities 2012 Conference Abstracts, pages 467–470, Hamburg, 7. University of Hamburg, Hamburg University Press</bibl>
+                    <bibl><hi rend="bold">Propp, Vladimir ; Scott, Laurence </hi>(Hrsg.): Morphology of the folktale. 2. überarbeitete Auflage. Austin, TX u.a., 1977</bibl>
+                    <bibl><hi rend="bold">Antonia Scheidel and Thierry Declerck. </hi>2010. Apftml - augmented proppian fairy tale markup language. In Sándor Dar´anyi and Piroska Lendvai, editors, First International AMICUS Workshop on Automated Motif Discovery in Cultural Heritage and Scientific Communication Texts. Szeged University.</bibl>
+                    <bibl><hi rend="bold">Nikolina Koleva, Thierry Declerck, and Hans-Ulrich Krieger</hi>. 2012. An ontology-based iterative text processing strategy for detecting and recognizing characters in folktales. In Jan Christoph Meister, editor, Digital Humanities 2012 Conference Abstracts, pages 467–470, Hamburg, 7. University of Hamburg, Hamburg University Press</bibl>
                 </listBibl>
             </div>
       </back>

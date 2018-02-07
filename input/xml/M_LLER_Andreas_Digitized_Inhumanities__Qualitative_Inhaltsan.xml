@@ -101,11 +101,14 @@
             <div type="div1" rend="DH-Heading1">
                 <head>Mehrwert und Problematik der digitalen Methodik</head>
                 <p>Durch die Anwendung der Software MAXQDA eröffnen sich neue analytische Möglichkeiten von großem Mehrwert. Durch die Zuordnung von verschiedenen Textabschnitten in analytische Kategorien wird es nicht nur möglich die Kategorien qualitativ auszuwerten, sondern auch Visualisierungen und Quantifizierungen zu erzeugen. Als ein Beispiel wird hier das Dokumentenvergleichsdiagramm herausgegriffen:
-                    <graphic n="1001"
-                        width="16.007291666666667cm"
-                        height="9.498541666666666cm"
-                        rend="inline"
-                        url="M_LLER_Andreas_Digitized_Inhumanities__Qualitative_Inhaltsan-image1.jpeg"/> Die Zeilen bilden hier die einzelnen Dokumente ab, die Spalten die einzelnen Absätze des Textes. Hierdurch wird die thematische Struktur der Texte sichtbar, ähnlich einem „Topic Modelling“ wobei hier jedoch die Zuordnung manuell erfolgt. Ein Vorteil dieses Zugangs ist seine starke Nähe zum Forschungsgegenstand. Ein Klick auf eine der farbigen Flächen (z.B. eine thematische „Lücke“) führt in der Software sofort zurück in die entsprechende Textstelle. MAXQDA ist damit nicht nur eine Möglichkeit zur Ergebnispräsentation sondern auch ein analytisches Tool.
+                    <figure>
+                        <graphic n="1001"
+                            width="14.234583333333333cm"
+                            height="9.498541666666666cm"
+                            rend="inline"
+                            url="M_LLER_Andreas_Digitized_Inhumanities__Qualitative_Inhaltsan-image1.jpeg"/> 
+                        <head>Die Zeilen bilden hier die einzelnen Dokumente ab, die Spalten die einzelnen Absätze des Textes. Hierdurch wird die thematische Struktur der Texte sichtbar, ähnlich einem „Topic Modelling“ wobei hier jedoch die Zuordnung manuell erfolgt. Ein Vorteil dieses Zugangs ist seine starke Nähe zum Forschungsgegenstand. Ein Klick auf eine der farbigen Flächen (z.B. eine thematische „Lücke“) führt in der Software sofort zurück in die entsprechende Textstelle. MAXQDA ist damit nicht nur eine Möglichkeit zur Ergebnispräsentation sondern auch ein analytisches Tool.</head>
+                    </figure>
                 </p>
                 <p>Das textnahe Arbeiten mit analytischen Kategorien ist vor allem für die qualitative Forschung ein großer Mehrwert. Die Kategorien sowie ihre Zuordnung zum Text werden dabei vom Forschenden selbst festgelegt und ein Rückbezug in den Originaltext ist zu jedem Zeitpunkt möglich. Zu den problematischen Aspekten in der Arbeit mit einem Kategoriensystem zählt jedoch, dass Textteile, die außerhalb der eigenen analytischen Kategorien liegen, leicht aus dem Fokus geraten und der Blick für die Grundgesamtheit des Texts verloren gehen kann. </p>
             </div>
@@ -122,46 +125,46 @@
          <div type="bibliogr">
                 <listBibl>
                     <head>Bibliographie</head>
-                    <bibl>Behringer, Wolfgang (1995): Weather, Hunger, and Fear. The Origins of the European Witch Prosecutions in Climate, Society, and Mentality. In: German History (13), S. 1–27.</bibl>
-                    <bibl>Behringer, Wolfgang (1997): Hexenverfolgung in Bayern. Volksmagie, Glaubenseifer und Staatsräson in der Frühen Neuzeit. 3. Aufl. München: R. Oldenbourg.</bibl>
-                    <bibl>Behringer, Wolfgang (2004a): Geschichte der Hexenforschung. In: Sönke Lorenz (Hg.): Wider alle Hexerei und Teufelswerk. Die Europäische Hexenverfolgung und ihre Auswirkungen auf Südwestdeutschland. Ostfildern: Thorbecke, S. 485–668.</bibl>
-                    <bibl>Behringer, Wolfgang (2004b): Witches and witch-hunts. A global history. Cambridge, UK, Malden, MA: Polity Press.</bibl>
-                    <bibl>Behringer, Wolfgang (2010a): A cultural history of climate. Cambridge: Polity Press.</bibl>
-                    <bibl>Behringer, Wolfgang (Hg.) (2010b): Hexen und Hexenprozesse in Deutschland. 7. Aufl. München: Dt. Taschenbuch-Verl.</bibl>
-                    <bibl>Berelson, Bernard (1952): Content analysis in communication research. Glencoe: Free Press.</bibl>
-                    <bibl>Clark, Stuart (1999): Thinking with demons. The idea of witchcraft in early modern Europe. Oxford: Oxford Univ. Press.</bibl>
-                    <bibl>Dillinger, Johannes (1999): "Böse Leute". Hexenverfolgungen in Schwäbisch-Österreich und Kurtrier im Vergleich. Trier: Spee.</bibl>
-                    <bibl>Dillinger, Johannes (2007): Hexen und Magie. Eine historische Einführung. Frankfurt/Main: Campus-Verl.</bibl>
-                    <bibl>Dillinger, Johannes (2013): Kinder im Hexenprozess. Magie und Kindheit in der Frühen Neuzeit. Stuttgart: Steiner.</bibl>
-                    <bibl>Dorn-Haag, Verena (2015): Hexerei und Magie im Strafrecht. Historische und dogmatische Aspekte. Tübingen: Mohr Siebeck.</bibl>
-                    <bibl>Flossmann, Ursula; Putschögl, Gerhard (1987): Hexenprozesse. Seminar zur Geschichte der Strafrechtspflege. Linz: Universitätsverlag R. Trauner.</bibl>
-                    <bibl>Goodare, Julian (2016): The European witch-hunt. London, New York: Routledge Taylor &amp; Francis Group.</bibl>
-                    <bibl>Ignatieff, Nathalie (2009): Hexenprozesse in Hainburg 1617/18. Diplomarbeit. Universität Wien, Wien.</bibl>
-                    <bibl>Kuckartz, Udo (2014): Qualitative Inhaltsanalyse. Methoden, Praxis, Computerunterstützung. 2. Auflage. Weinheim, Basel: Beltz Juventa.</bibl>
-                    <bibl>Landsteiner, Erich (1999): The Crisis of Wine Production in Late Sixteenth-Century Central Europe. Climatic Causes and Economic Consequences. In: Climatic Change (43), S. 323–334.</bibl>
-                    <bibl>Landsteiner, Erich (2001): Trübselige Zeit? Auf der Suche nach den wirtschaftlichen und sozialen Dimensionen des Klimawandels im späten 16. Jahrhundert. In: Österreichische Zeitschrift für Geschichtswissenschaften 12 (2), S. 79–116.</bibl>
-                    <bibl>Landsteiner, Erich; Weigl, Andreas (2001): „Sonsten finden wir die Sachen sehr übel aufm Landt beschaffen“. Krieg und lokale Gesellschaft in Niederösterreich (1618-1621). In: Benigna von Krusenstjern (Hg.): Zwischen Alltag und Katastrophe. Der Dreißigjährige Krieg aus der Nähe. 2. Aufl. Göttingen: Vandenhoeck &amp; Ruprecht, S. 229–270.</bibl>
-                    <bibl>Lang, Ines (2008): "Das zeichen hab er ihr mitt der prezen ins rechte wang vor 16 jahrn geben […]". zwei Hexenprozesse im Hainburg des Jahres 1624. Diplomarbeit. Universität Wien, Wien.</bibl>
-                    <bibl>Levack, Brian (1995): Hexenjagd. Die Geschichte der Hexenverfolgungen in Europa. München: Beck.</bibl>
-                    <bibl>Lorenz, Sönke (1982): Aktenversendung und Hexenprozeß. Dargestellt am Beispiel der Juristenfakultäten Rostock und Greifswald (1570/82 - 1630). Frankfurt am Main: Lang.</bibl>
-                    <bibl>Lorenz, Sönke (2004): Der Hexenprozess. In: Sönke Lorenz (Hg.): Wider alle Hexerei und Teufelswerk. Die Europäische Hexenverfolgung und ihre Auswirkungen auf Südwestdeutschland. Ostfildern: Thorbecke, S. 131–154.</bibl>
-                    <bibl>Mayring, Philipp (2015): Qualitative Inhaltsanalyse. Grundlagen und Techniken. 12. Auflage. Weinheim, Basel: Beltz Juventa.</bibl>
-                    <bibl>Midelfort, Hans Christian Erik (1968): Recent Witch Hunting Research, or Where Do We Go from Here? In: The Papers of the Bibliographical Society of America 62 (3), S. 373–420.</bibl>
-                    <bibl>Midelfort, Hans Christian Erik (1972): Witch hunting in southwestern Germany, 1562-1684. The social and intellectual foundations. Stanford, Calif.: Stanford University Press.</bibl>
-                    <bibl>Midelfort, Hans Christian Erik (1995): Alte Fragen und neue Methoden in der Geschichte des Hexenwahns. In: Sönke Lorenz (Hg.): Hexenverfolgung. Beiträge zur Forschung unter besonderer Berücksichtigung des südwestdeutschen Raumes. Würzburg: Königshausen und Neumann.</bibl>
-                    <bibl>Moeller, Katrin (2007): Dass Willkür über Recht ginge. Hexenverfolgung in Mecklenburg im 16. und 17. Jahrhundert. Bielefeld: Verl. für Regionalgeschichte.</bibl>
-                    <bibl>Münch, Ernst (2003a): Rostocks Aufstieg zur Stadtkommune. Von den Anfängen bis 1265. In: Karsten Schröder (Hg.): In deinen Mauern herrsche Eintracht und allgemeines Wohlergehen. Eine Geschichte der Stadt Rostock von ihren Ursprüngen bis zum Jahre 1990. Rostock: Koch, S. 12–28.</bibl>
-                    <bibl>Münch, Ernst (2003b): Zwischen Reformation und Dreißigjährigem Krieg. 1532 bis 1648. In: Karsten Schröder (Hg.): In deinen Mauern herrsche Eintracht und allgemeines Wohlergehen. Eine Geschichte der Stadt Rostock von ihren Ursprüngen bis zum Jahre 1990. Rostock: Koch, S. 53–92.</bibl>
-                    <bibl>Neugebauer-Wölk, Monika (2003): Wege aus dem Dschungel. Betrachtungen zur Hexenforschung. In: Geschichte und Gesellschaft (29), S. 316–347.</bibl>
-                    <bibl>Raser, Dorothea (1987): Zauberei und Hexenprozesse in Niederösterreich. Diplomarbeit. Universität Wien, Wien.</bibl>
-                    <bibl>Schild, Wolfgang (1994): Hexenglaube, Hexenbegriff und Hexenphantasie. In: Sönke Lorenz (Hg.): Hexen und Hexenverfolgung im deutschen Südwesten. Volkskundliche Veröffentlichungen des Badische Landesmuseums Karlsruhe. Ostfildern: Hatje Cantz Verl., S. 20–31.</bibl>
-                    <bibl>Schormann, Gerhard (1981): Hexenprozesse in Deutschland. Göttingen: Vandenhoeck &amp; Ruprecht.</bibl>
-                    <bibl>Schulze, Winfried (1993): Untertanenrevolten, Hexenverfolgung und "kleine Eiszeit". Eine Krisenzeit um 1600? In: Bernd Roeck (Hg.): Venedig und Oberdeutschland in der Renaissance. Beziehungen zwischen Kunst und Wirtschaft. Sigmaringen: Thorbecke, S. 290–309.</bibl>
-                    <bibl>Utz Tremp, Kathrin (2008): Von der Häresie zur Hexerei. "wirkliche" und imaginäre Sekten im Spätmittelalter. Hannover: Hahnsche Buchhandlung.</bibl>
-                    <bibl>Venjakob, Judith (2017): Der Hexenflug in der frühneuzeitlichen Druckgrafik. Entstehung, Rezeption und Symbolik eines Bildtypus. Petersberg: Michael Imhof Verlag.</bibl>
-                    <bibl>Voltmer, Rita (2006): Vom getrübten Blick auf die frühneuzeitlichen Hexenverfolgungen. Versuch einer Klärung. In: Gnostika. Zeitschrift für Wissenschaft und Esoterik 11, S. 45–58.</bibl>
-                    <bibl>Voltmer, Rita (2015): Stimmen der Frauen? Gerichtsakten und Gender Studies am Beispiel der Hexenforschung. In: Johanna Blume, Jennifer Moos und Anne Conrad (Hg.): Frauen, Männer, Queer. Ansätze und Perspektiven aus der historischen Genderforschung. St. Ingbert: Röhrig Universitätsverlag, S. 19–46.</bibl>
-                    <bibl>Wieden, Helge bei der (1981): Rostock zwischen Abhängigkeit und Reichsunmittelbarkeit. In: Roderich Schmidt (Hg.): Pommern und Mecklenburg. Beiträge zur mittelalterlichen Städtegeschichte. Köln: Böhlau, S. 111–132.</bibl>
+                    <bibl><hi rend="bold">Behringer, Wolfgang </hi>(1995): Weather, Hunger, and Fear. The Origins of the European Witch Prosecutions in Climate, Society, and Mentality. In: German History (13), S. 1–27.</bibl>
+                    <bibl><hi rend="bold">Behringer, Wolfgang </hi>(1997): Hexenverfolgung in Bayern. Volksmagie, Glaubenseifer und Staatsräson in der Frühen Neuzeit. 3. Aufl. München: R. Oldenbourg.</bibl>
+                    <bibl><hi rend="bold">Behringer, Wolfgang </hi>(2004a): Geschichte der Hexenforschung. In: Sönke Lorenz (Hg.): Wider alle Hexerei und Teufelswerk. Die Europäische Hexenverfolgung und ihre Auswirkungen auf Südwestdeutschland. Ostfildern: Thorbecke, S. 485–668.</bibl>
+                    <bibl><hi rend="bold">Behringer, Wolfgang </hi>(2004b): Witches and witch-hunts. A global history. Cambridge, UK, Malden, MA: Polity Press.</bibl>
+                    <bibl><hi rend="bold">Behringer, Wolfgang </hi>(2010a): A cultural history of climate. Cambridge: Polity Press.</bibl>
+                    <bibl><hi rend="bold">Behringer, Wolfgang (Hg.) </hi>(2010b): Hexen und Hexenprozesse in Deutschland. 7. Aufl. München: Dt. Taschenbuch-Verl.</bibl>
+                    <bibl><hi rend="bold">Berelson, Bernard </hi>(1952): Content analysis in communication research. Glencoe: Free Press.</bibl>
+                    <bibl><hi rend="bold">Clark, Stuart </hi>(1999): Thinking with demons. The idea of witchcraft in early modern Europe. Oxford: Oxford Univ. Press.</bibl>
+                    <bibl><hi rend="bold">Dillinger, Johannes </hi>(1999): "Böse Leute". Hexenverfolgungen in Schwäbisch-Österreich und Kurtrier im Vergleich. Trier: Spee.</bibl>
+                    <bibl><hi rend="bold">Dillinger, Johannes </hi>(2007): Hexen und Magie. Eine historische Einführung. Frankfurt/Main: Campus-Verl.</bibl>
+                    <bibl><hi rend="bold">Dillinger, Johannes </hi>(2013): Kinder im Hexenprozess. Magie und Kindheit in der Frühen Neuzeit. Stuttgart: Steiner.</bibl>
+                    <bibl><hi rend="bold">Dorn-Haag, Verena </hi>(2015): Hexerei und Magie im Strafrecht. Historische und dogmatische Aspekte. Tübingen: Mohr Siebeck.</bibl>
+                    <bibl><hi rend="bold">Flossmann, Ursula; Putschögl, Gerhard </hi>(1987): Hexenprozesse. Seminar zur Geschichte der Strafrechtspflege. Linz: Universitätsverlag R. Trauner.</bibl>
+                    <bibl><hi rend="bold">Goodare, Julian </hi>(2016): The European witch-hunt. London, New York: Routledge Taylor &amp; Francis Group.</bibl>
+                    <bibl><hi rend="bold">Ignatieff, Nathalie </hi>(2009): Hexenprozesse in Hainburg 1617/18. Diplomarbeit. Universität Wien, Wien.</bibl>
+                    <bibl><hi rend="bold">Kuckartz, Udo </hi>(2014): Qualitative Inhaltsanalyse. Methoden, Praxis, Computerunterstützung. 2. Auflage. Weinheim, Basel: Beltz Juventa.</bibl>
+                    <bibl><hi rend="bold">Landsteiner, Erich </hi>(1999): The Crisis of Wine Production in Late Sixteenth-Century Central Europe. Climatic Causes and Economic Consequences. In: Climatic Change (43), S. 323–334.</bibl>
+                    <bibl><hi rend="bold">Landsteiner, Erich </hi>(2001): Trübselige Zeit? Auf der Suche nach den wirtschaftlichen und sozialen Dimensionen des Klimawandels im späten 16. Jahrhundert. In: Österreichische Zeitschrift für Geschichtswissenschaften 12 (2), S. 79–116.</bibl>
+                    <bibl><hi rend="bold">Landsteiner, Erich; Weigl, Andreas </hi>(2001): „Sonsten finden wir die Sachen sehr übel aufm Landt beschaffen“. Krieg und lokale Gesellschaft in Niederösterreich (1618-1621). In: Benigna von Krusenstjern (Hg.): Zwischen Alltag und Katastrophe. Der Dreißigjährige Krieg aus der Nähe. 2. Aufl. Göttingen: Vandenhoeck &amp; Ruprecht, S. 229–270.</bibl>
+                    <bibl><hi rend="bold">Lang, Ines </hi>(2008): "Das zeichen hab er ihr mitt der prezen ins rechte wang vor 16 jahrn geben […]". zwei Hexenprozesse im Hainburg des Jahres 1624. Diplomarbeit. Universität Wien, Wien.</bibl>
+                    <bibl><hi rend="bold">Levack, Brian </hi>(1995): Hexenjagd. Die Geschichte der Hexenverfolgungen in Europa. München: Beck.</bibl>
+                    <bibl><hi rend="bold">Lorenz, Sönke </hi>(1982): Aktenversendung und Hexenprozeß. Dargestellt am Beispiel der Juristenfakultäten Rostock und Greifswald (1570/82 - 1630). Frankfurt am Main: Lang.</bibl>
+                    <bibl><hi rend="bold">Lorenz, Sönke </hi>(2004): Der Hexenprozess. In: Sönke Lorenz (Hg.): Wider alle Hexerei und Teufelswerk. Die Europäische Hexenverfolgung und ihre Auswirkungen auf Südwestdeutschland. Ostfildern: Thorbecke, S. 131–154.</bibl>
+                    <bibl><hi rend="bold">Mayring, Philipp </hi>(2015): Qualitative Inhaltsanalyse. Grundlagen und Techniken. 12. Auflage. Weinheim, Basel: Beltz Juventa.</bibl>
+                    <bibl><hi rend="bold">Midelfort, Hans Christian Erik </hi>(1968): Recent Witch Hunting Research, or Where Do We Go from Here? In: The Papers of the Bibliographical Society of America 62 (3), S. 373–420.</bibl>
+                    <bibl><hi rend="bold">Midelfort, Hans Christian Erik </hi>(1972): Witch hunting in southwestern Germany, 1562-1684. The social and intellectual foundations. Stanford, Calif.: Stanford University Press.</bibl>
+                    <bibl><hi rend="bold">Midelfort, Hans Christian Erik </hi>(1995): Alte Fragen und neue Methoden in der Geschichte des Hexenwahns. In: Sönke Lorenz (Hg.): Hexenverfolgung. Beiträge zur Forschung unter besonderer Berücksichtigung des südwestdeutschen Raumes. Würzburg: Königshausen und Neumann.</bibl>
+                    <bibl><hi rend="bold">Moeller, Katrin </hi>(2007): Dass Willkür über Recht ginge. Hexenverfolgung in Mecklenburg im 16. und 17. Jahrhundert. Bielefeld: Verl. für Regionalgeschichte.</bibl>
+                    <bibl><hi rend="bold">Münch, Ernst </hi>(2003a): Rostocks Aufstieg zur Stadtkommune. Von den Anfängen bis 1265. In: Karsten Schröder (Hg.): In deinen Mauern herrsche Eintracht und allgemeines Wohlergehen. Eine Geschichte der Stadt Rostock von ihren Ursprüngen bis zum Jahre 1990. Rostock: Koch, S. 12–28.</bibl>
+                    <bibl><hi rend="bold">Münch, Ernst </hi>(2003b): Zwischen Reformation und Dreißigjährigem Krieg. 1532 bis 1648. In: Karsten Schröder (Hg.): In deinen Mauern herrsche Eintracht und allgemeines Wohlergehen. Eine Geschichte der Stadt Rostock von ihren Ursprüngen bis zum Jahre 1990. Rostock: Koch, S. 53–92.</bibl>
+                    <bibl><hi rend="bold">Neugebauer-Wölk, Monika </hi>(2003): Wege aus dem Dschungel. Betrachtungen zur Hexenforschung. In: Geschichte und Gesellschaft (29), S. 316–347.</bibl>
+                    <bibl><hi rend="bold">Raser, Dorothea </hi>(1987): Zauberei und Hexenprozesse in Niederösterreich. Diplomarbeit. Universität Wien, Wien.</bibl>
+                    <bibl><hi rend="bold">Schild, Wolfgang </hi>(1994): Hexenglaube, Hexenbegriff und Hexenphantasie. In: Sönke Lorenz (Hg.): Hexen und Hexenverfolgung im deutschen Südwesten. Volkskundliche Veröffentlichungen des Badische Landesmuseums Karlsruhe. Ostfildern: Hatje Cantz Verl., S. 20–31.</bibl>
+                    <bibl><hi rend="bold">Schormann, Gerhard </hi>(1981): Hexenprozesse in Deutschland. Göttingen: Vandenhoeck &amp; Ruprecht.</bibl>
+                    <bibl><hi rend="bold">Schulze, Winfried </hi>(1993): Untertanenrevolten, Hexenverfolgung und "kleine Eiszeit". Eine Krisenzeit um 1600? In: Bernd Roeck (Hg.): Venedig und Oberdeutschland in der Renaissance. Beziehungen zwischen Kunst und Wirtschaft. Sigmaringen: Thorbecke, S. 290–309.</bibl>
+                    <bibl><hi rend="bold">Utz Tremp, Kathrin </hi>(2008): Von der Häresie zur Hexerei. "wirkliche" und imaginäre Sekten im Spätmittelalter. Hannover: Hahnsche Buchhandlung.</bibl>
+                    <bibl><hi rend="bold">Venjakob, Judith </hi>(2017): Der Hexenflug in der frühneuzeitlichen Druckgrafik. Entstehung, Rezeption und Symbolik eines Bildtypus. Petersberg: Michael Imhof Verlag.</bibl>
+                    <bibl><hi rend="bold">Voltmer, Rita </hi>(2006): Vom getrübten Blick auf die frühneuzeitlichen Hexenverfolgungen. Versuch einer Klärung. In: Gnostika. Zeitschrift für Wissenschaft und Esoterik 11, S. 45–58.</bibl>
+                    <bibl><hi rend="bold">Voltmer, Rita </hi>(2015): Stimmen der Frauen? Gerichtsakten und Gender Studies am Beispiel der Hexenforschung. In: Johanna Blume, Jennifer Moos und Anne Conrad (Hg.): Frauen, Männer, Queer. Ansätze und Perspektiven aus der historischen Genderforschung. St. Ingbert: Röhrig Universitätsverlag, S. 19–46.</bibl>
+                    <bibl><hi rend="bold">Wieden, Helge bei der </hi>(1981): Rostock zwischen Abhängigkeit und Reichsunmittelbarkeit. In: Roderich Schmidt (Hg.): Pommern und Mecklenburg. Beiträge zur mittelalterlichen Städtegeschichte. Köln: Böhlau, S. 111–132.</bibl>
                 </listBibl>
             </div>
       </back>

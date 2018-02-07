@@ -87,118 +87,82 @@
     </teiHeader>
    <text>
         <body>
-            <p>
-                <hi rend="color(#000000)bold">Die Ausgangslage: Diskrepanz zwischen Anspruch und Wirklichkeit</hi>
-            </p>
-            <p>
-                <hi rend="color(#000000)">In den letzten Jahren wurden vermehrt digitale Services und Ressourcen entwickelt, die EinzelforscherInnen, aber auch Projektgruppen in der Arbeit mit digitalen Methoden, der Generierung, dem Forschungsdatenmanagement und in toto bei der Transformation von Arbeitsprozessen in das digitale Medium unterstützen sollen. Signifikante Bestandteile des Research Data Lifecycles können bereits über digitale Angebote abgedeckt werden (Puhl et. al. 2015). Ein wesentliches Ziel, welches mit dem Aufbau der digitalen Infrastrukturen verfolgt wird, ist, dass auch diejenigen Forschungsvorhaben davon profitieren sollen, in denen keine oder nur geringe technischen Kenntnisse oder eine DH-Unterstützung vorhanden sind. Aktuell besteht zwischen Anspruch und Wirklichkeit aber noch eine Diskrepanz: Auf der einen Seite scheint mittlerweile die Mehrheit der WissenschaftlerInnen den Nutzen von Normdaten, Integration ihrer Forschungsdaten in Suchmaschinen oder die Visualisierungen ihrer Daten in Forschungsumgebungen zu erkennen. Auf der anderen Seite steht aber die Kritik, dass die oftmals propagierte einfache und intuitive Nutzung der digitalen Angebote nicht vorhanden ist. Der Mehrwert, den die Services den eher auf ein analoges Projektergebnis ausgerichteten Projekten bieten, steht in keinem effizienten Verhältnis von Aufwand und Ertrag. Auch Schulungsvideos oder Workshops sind häufig zu unspezifisch oder nicht auf die vorhandenen Daten anwendbar. </hi>
-            </p>
-            <p>
-                <hi rend="color(#000000)bold">Der Usecase: ein frühneuzeitlicher Auktionskatalog</hi>
-            </p>
-            <p>
-                <hi rend="color(#000000)">Als Usecase dient das Forschungsprojekt “Erschließung frühneuzeitlicher Auktionskataloge” des Forschungsverbundes Marbach Weimar Wolfenbüttel (MWW) (Autorenbibliotheken). Die aus einem Auktionskatalog von 1670 rekonstruierte Gelehrtenbibliothek gehörte dem Chiliasten Benedikt Bahnsen (gest. 1669). Der aus Norddeutschland stammende und nach Amsterdam emigrierte Bahnsen war als Verleger, Buchhändler und Bücheragent, Mathematiker und Rechenmeister tätig. In diesem Projekt wurden in einer Excel-Tabelle alle Losnummern, d.h. Titel des Katalogs, erfasst. Die Tiefenerschließung umfasst die bibliographischen Angaben der verzeichneten Bücher, Normdaten zu Personen und Werken, Geodaten für die Druckorte sowie Links zu Digitalisaten und in Nachweissysteme. Mit der Erschließung wird dem Alleinstellungsmerkmal dieser Bibliothek Rechnung getragen, bei der es sich um das umfangreichste Einzelrepositorium für nonkonformes und heterodoxes Schrifttum handeln dürfte (Beyer et. al. 2017, 43–70). </hi>
-            </p>
-            <p>
-                <hi rend="color(#000000)">Zwar verfügt das Projekt durch die Zusammenarbeit mit den DH-MitarbeiterInnen des Forschungsverbundes über eine eigene Datenbank und eine Präsentation im WWW (Auktionskataloge). Aber begonnen hatte das Projekt ohne deren Unterstützung und genau die in dieser Phase in einer Exceltabelle erhobenen Daten sollen für den Usecase mit DARIAH-DE verwendet werden.</hi>
-            </p>
-            <p>
-                <hi rend="color(#000000)bold">Die Werkzeuge: DARIAH-DE-Dienste</hi>
-            </p>
-            <p>
-                <hi rend="color(#000000)">Innerhalb von DARIAH-DE, einem digitalen Forschungsinfrastrukturprojekt für die Geistes- und Kulturwissenschaften, wurde eine </hi>
-                <hi rend="color(#000000)italic">Data Federation Architecture</hi>
-                <hi rend="color(#000000)"> (</hi>
-                <hi rend="color(#000000)italic">DFA</hi>
-                <hi rend="color(#000000)">) entwickelt (Gradl / Henrich / Plutte 2015; Gradl / Henrich 2016). Unter diesem Begriff sind mehrere modulare Komponenten gebündelt, die für sich alleine oder im Zusammenspiel genutzt werden können. Davon nutzt der hier skizzierte Workflow für den Usecase das jüngst in die Produktivphase übergegangene </hi>
-                <hi rend="color(#000000)italic">DARIAH-DE-Repository</hi>
-                <hi rend="color(#000000)"> zum Speichern und persistenten Adressieren der Forschungsdaten, die </hi>
-                <hi rend="color(#000000)italic">Collection Registry</hi>
-                <hi rend="color(#000000)"> zum Verzeichnen der Datensammlung mitsamt Schnittstelle, um die Daten in die </hi>
-                <hi rend="color(#000000)italic">Generic Search</hi>
-                <hi rend="color(#000000)"> zu integrieren und wiederauffindbar und somit nachnutzbar zu machen.</hi>
-            </p>
-            <p>
-                <hi rend="color(#000000)">Für viele der in den verschiedenen Schritten eines Data Research Lifecycles anfallenden Aufgaben können also Komponenten der </hi>
-                <hi rend="color(#000000)italic">DFA</hi>
-                <hi rend="color(#000000)"> zum Einsatz kommen (vgl. Abb. 1). Die </hi>
-                <hi rend="color(#000000)italic">DFA</hi>
-                <hi rend="color(#000000)"> deckt aber nicht alle Schritte eines Forschungsprozesses und damit letztlich auch des Research Data Lifecycles ab. So bleibt der Abschnitt der Analyse oder Visualisierung offen, allerdings gibt in den digitalen Geisteswis</hi>
-                <hi rend="color(#000000)">senschaften hinreichend andere Tools, die diese Lücke zielgerichtet füllen können, zumal die häufig projektspezifischen Anforderungen hier kaum von einer generischen Lösung erfüllt werden können. </hi>
-            </p>
-            <p>
-                <hi rend="color(#000000)">Für den Praxistest wird zur Visualisierung der räumlich-zeitlichen Daten ein ebenfalls aus dem DARIAH-DE-Projekt stammendes Tool verwendet, der </hi>
-                <hi rend="color(#000000)italic">Geo-Browser</hi>
-                <hi rend="color(#000000)"> (Kollatz 2016).</hi>
-            </p>
-            <p>
-                <hi rend="color(#000000)bold">Der Test: Von der grauen Theorie in die blaue DARIAH-DE-Praxis</hi>
-            </p>
-            <p>Der Diskrepanz zwischen Wunsch und Wirklichkeit, zwischen Sinnhaftigkeit und Aufwand 
-                <hi rend="color(#000000)">möchte sich diese Postereinreichung annehmen und überprüfen, wie exemplarische Forschungsdaten aus einem „analogen“, nicht von vornherein mit einer DH-Komponente geplanten Projekt in verschiedene Komponenten der Infrastruktur von DARIAH-DE integriert werden können.</hi>
-            </p>
-            <p>
-                <hi rend="color(#000000)">Ziel ist es, dabei den Aufwand und die erforderlichen Kenntnisse zu evaluieren, die eine erfolgreiche Integration der Forschungsdaten bedingen. Die DARIAH-DE-Dienste eignen sich besonders für diesen Test, da sich die DARIAH-DE-Angebote ausdrücklich an EinzelforscherInnen richten (DARIAH-DE in Kürze). </hi>
-            </p>
-            <p>
-                <hi rend="color(#000000)">Zwar handelt es sich nicht um eine belastbare empirische Studie, doch der mit den Projektbeteiligten durchgeführte Usecase hat dennoch aufgrund seines prototypischen Charakters richtungsweisende Bedeutung.</hi>
-            </p>
+            <div type="div1" rend="DH-Heading1">
+                <head>Die Ausgangslage: Diskrepanz zwischen Anspruch und Wirklichkeit
+                </head>
+                <p>In den letzten Jahren wurden vermehrt digitale Services und Ressourcen entwickelt, die EinzelforscherInnen, aber auch Projektgruppen in der Arbeit mit digitalen Methoden, der Generierung, dem Forschungsdatenmanagement und in toto bei der Transformation von Arbeitsprozessen in das digitale Medium unterstützen sollen. Signifikante Bestandteile des Research Data Lifecycles können bereits über digitale Angebote abgedeckt werden (Puhl et. al. 2015). Ein wesentliches Ziel, welches mit dem Aufbau der digitalen Infrastrukturen verfolgt wird, ist, dass auch diejenigen Forschungsvorhaben davon profitieren sollen, in denen keine oder nur geringe technischen Kenntnisse oder eine DH-Unterstützung vorhanden sind. Aktuell besteht zwischen Anspruch und Wirklichkeit aber noch eine Diskrepanz: Auf der einen Seite scheint mittlerweile die Mehrheit der WissenschaftlerInnen den Nutzen von Normdaten, Integration ihrer Forschungsdaten in Suchmaschinen oder die Visualisierungen ihrer Daten in Forschungsumgebungen zu erkennen. Auf der anderen Seite steht aber die Kritik, dass die oftmals propagierte einfache und intuitive Nutzung der digitalen Angebote nicht vorhanden ist. Der Mehrwert, den die Services den eher auf ein analoges Projektergebnis ausgerichteten Projekten bieten, steht in keinem effizienten Verhältnis von Aufwand und Ertrag. Auch Schulungsvideos oder Workshops sind häufig zu unspezifisch oder nicht auf die vorhandenen Daten anwendbar. 
+                </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">   
+                <head>Der Usecase: ein frühneuzeitlicher Auktionskatalog</head>
+                <p>Als Usecase dient das Forschungsprojekt “Erschließung frühneuzeitlicher Auktionskataloge” des Forschungsverbundes Marbach Weimar Wolfenbüttel (MWW) (Autorenbibliotheken). Die aus einem Auktionskatalog von 1670 rekonstruierte Gelehrtenbibliothek gehörte dem Chiliasten Benedikt Bahnsen (gest. 1669). Der aus Norddeutschland stammende und nach Amsterdam emigrierte Bahnsen war als Verleger, Buchhändler und Bücheragent, Mathematiker und Rechenmeister tätig. In diesem Projekt wurden in einer Excel-Tabelle alle Losnummern, d.h. Titel des Katalogs, erfasst. Die Tiefenerschließung umfasst die bibliographischen Angaben der verzeichneten Bücher, Normdaten zu Personen und Werken, Geodaten für die Druckorte sowie Links zu Digitalisaten und in Nachweissysteme. Mit der Erschließung wird dem Alleinstellungsmerkmal dieser Bibliothek Rechnung getragen, bei der es sich um das umfangreichste Einzelrepositorium für nonkonformes und heterodoxes Schrifttum handeln dürfte (Beyer et. al. 2017, 43–70). 
+                </p>
+                <p>Zwar verfügt das Projekt durch die Zusammenarbeit mit den DH-MitarbeiterInnen des Forschungsverbundes über eine eigene Datenbank und eine Präsentation im WWW (Auktionskataloge). Aber begonnen hatte das Projekt ohne deren Unterstützung und genau die in dieser Phase in einer Exceltabelle erhobenen Daten sollen für den Usecase mit DARIAH-DE verwendet werden.
+                </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Die Werkzeuge: DARIAH-DE-Dienste</head>
+                <p>Innerhalb von DARIAH-DE, einem digitalen Forschungsinfrastrukturprojekt für die Geistes- und Kulturwissenschaften, wurde eine
+                    <hi rend="italic">Data Federation Architecture</hi> (DFA) entwickelt (Gradl / Henrich / Plutte 2015; Gradl / Henrich 2016). Unter diesem Begriff sind mehrere modulare Komponenten gebündelt, die für sich alleine oder im Zusammenspiel genutzt werden können. Davon nutzt der hier skizzierte Workflow für den Usecase das jüngst in die Produktivphase übergegangene
+                    <hi rend="italic">DARIAH-DE-Repository</hi> zum Speichern und persistenten Adressieren der Forschungsdaten, die
+                    <hi rend="italic">Collection Registry</hi> zum Verzeichnen der Datensammlung mitsamt Schnittstelle, um die Daten in die
+                    <hi rend="italic">Generic Search</hi> zu integrieren und wiederauffindbar und somit nachnutzbar zu machen.
+                </p>
+                <p>Für viele der in den verschiedenen Schritten eines Data Research Lifecycles anfallenden Aufgaben können also Komponenten der
+                    <hi rend="italic">DFA</hi> zum Einsatz kommen (vgl. Abb. 1). Die 
+                    <hi rend="italic">DFA</hi> deckt aber nicht alle Schritte eines Forschungsprozesses und damit letztlich auch des Research Data Lifecycles ab. So bleibt der Abschnitt der Analyse oder Visualisierung offen, allerdings gibt in den digitalen Geisteswissenschaften hinreichend andere Tools, die diese Lücke zielgerichtet füllen können, zumal die häufig projektspezifischen Anforderungen hier kaum von einer generischen Lösung erfüllt werden können.
+                </p>
+                <p>Für den Praxistest wird zur Visualisierung der räumlich-zeitlichen Daten ein ebenfalls aus dem DARIAH-DE-Projekt stammendes Tool verwendet, der 
+                    <hi rend="italic">Geo-Browser</hi> (Kollatz 2016).
+                </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Der Test: Von der grauen Theorie in die blaue DARIAH-DE-Praxis</head>
+                <p>Der Diskrepanz zwischen Wunsch und Wirklichkeit, zwischen Sinnhaftigkeit und Aufwand möchte sich diese Postereinreichung annehmen und überprüfen, wie exemplarische Forschungsdaten aus einem „analogen“, nicht von vornherein mit einer DH-Komponente geplanten Projekt in verschiedene Komponenten der Infrastruktur von DARIAH-DE integriert werden können.
+                </p>
+                <p>Ziel ist es, dabei den Aufwand und die erforderlichen Kenntnisse zu evaluieren, die eine erfolgreiche Integration der Forschungsdaten bedingen. Die DARIAH-DE-Dienste eignen sich besonders für diesen Test, da sich die DARIAH-DE-Angebote ausdrücklich an EinzelforscherInnen richten (DARIAH-DE in Kürze).
+                </p>
+                <p>Zwar handelt es sich nicht um eine belastbare empirische Studie, doch der mit den Projektbeteiligten durchgeführte Usecase hat dennoch aufgrund seines prototypischen Charakters richtungsweisende Bedeutung.
+                </p>
+            </div>
         </body>
         <back>
          <div type="bibliogr">
                 <listBibl>
                     <head>Bibliographie</head>
                     <bibl>
-                        <hi rend="color(#000000)bold">Auktionskataloge</hi>
-                        <hi rend="color(#000000)">: </hi>
-                        <ptr target="http://dev.hab.de/auktionskataloge"/>
-                        <hi rend="color(#000000)">[letzter Zugriff 11.09.2017].</hi>
+                        <hi rend="bold">Auktionskataloge</hi>: 
+                        <ptr target="http://dev.hab.de/auktionskataloge"/>[letzter Zugriff 11.09.2017].
                     </bibl>
                     <bibl>
-                        <hi rend="color(#000000)bold">Autorenbibliotheken</hi>
-                        <hi rend="color(#000000)">: </hi>
-                        <ref target="http://www.mww-forschung.de/forschungsprojekte/autorenbibliotheken/?menuopen=1">
-                            <hi rend="color(#1155cc)">http://www.mww-forschung.de/forschungsprojekte/autorenbibliotheken</hi>
-                        </ref>
-                        <hi rend="color(#000000)">[letzter Zugriff 11.09.2017].</hi>
+                        <hi rend="bold">Autorenbibliotheken</hi>: 
+                        <ref target="http://www.mww-forschung.de/forschungsprojekte/autorenbibliotheken/?menuopen=1">http://www.mww-forschung.de/forschungsprojekte/autorenbibliotheken
+                        </ref>[letzter Zugriff 11.09.2017].
                     </bibl>
                     <bibl>
-                        <hi rend="color(#000000)bold">Beyer, Hartmut et.al. </hi>
-                        <hi rend="color(#000000)">(2017): “Bibliotheken im Buch: Die Erschließung von privaten Büchersammlungen der Frühneuzeit über Auktionskataloge”, in: Busch, Hannah / Fischer, Franz und Sahle, Patrick (Hrsg.): Kodikologie und Paläographie im digitalen Zeitalter 4 (Codicology and Palaeography in the Digital Age). Norderstedt: Books on Demand 43–70.</hi>
+                        <hi rend="bold">Beyer, Hartmut et.al. </hi>(2017): “Bibliotheken im Buch: Die Erschließung von privaten Büchersammlungen der Frühneuzeit über Auktionskataloge”, in: Busch, Hannah / Fischer, Franz und Sahle, Patrick (Hrsg.): Kodikologie und Paläographie im digitalen Zeitalter 4 (Codicology and Palaeography in the Digital Age). Norderstedt: Books on Demand 43–70.
                     </bibl>
                     <bibl>
-                        <hi rend="color(#000000)bold">DARIAH-DE in Kürze</hi>
-                        <hi rend="color(#000000)">: </hi>
-                        <ptr target="https://de.dariah.eu/dariah-de-in-kurze"/>
-                        <hi rend="color(#000000)">[letzter Zugriff 11.09.2017].</hi>
+                        <hi rend="bold">DARIAH-DE in Kürze</hi>: 
+                        <ptr target="https://de.dariah.eu/dariah-de-in-kurze"/> [letzter Zugriff 11.09.2017].
                     </bibl>
                     <bibl>
-                        <hi rend="color(#000000)bold">Gradl, Tobias / Henrich, Andreas / Plutte, Christoph</hi>
-                        <hi rend="color(#000000)"> (2015): “Heterogene Daten in den Digital Humanities: Eine Architektur zur forschungsorientierten Föderation von Kollektionen”, in: Baum, Constanze / Stäcker, Thomas (Hrsg.): Grenzen und Möglichkeiten der Digital Humanities (= Sonderband der Zeitschrift für digitale Geisteswissenschaften, 1). text/html Format. DOI: </hi>
-                        <ref target="http://dx.doi.org/10.17175/sb001_020">
-                            <hi rend="color(#1155cc)">10.17175/sb001_020</hi>
-                        </ref>
-                        <hi rend="color(#000000)">.</hi>
+                        <hi rend="bold">Gradl, Tobias / Henrich, Andreas / Plutte, Christoph</hi> (2015): “Heterogene Daten in den Digital Humanities: Eine Architektur zur forschungsorientierten Föderation von Kollektionen”, in: Baum, Constanze / Stäcker, Thomas (Hrsg.): Grenzen und Möglichkeiten der Digital Humanities (= Sonderband der Zeitschrift für digitale Geisteswissenschaften, 1). text/html Format. DOI: 
+                        <ref target="http://dx.doi.org/10.17175/sb001_020">http://dx.doi.org/10.17175/sb001_020
+                        </ref>.
                     </bibl>
                     <bibl>
-                        <hi rend="color(#000000)bold">Gradl, Tobias / Henrich, Andreas</hi>
-                        <hi rend="color(#000000)"> (2016): “Die DARIAH-DE Föderationsarchitektur. Datenintegration im Spannungsfeld forschungsspezifischer und domänenübergreifender Anforderungen”, in: Neuroth, Heike et al. (Hrsg.): Bibliothek – Forschung und Praxis 40 (2): 222–228. DOI: </hi>
-                        <ptr target="https://doi.org/10.1515/bfp-2016-0027"/>
-                        <hi rend="color(#000000)">.</hi>
+                        <hi rend="bold">Gradl, Tobias / Henrich, Andreas</hi> (2016): “Die DARIAH-DE Föderationsarchitektur. Datenintegration im Spannungsfeld forschungsspezifischer und domänenübergreifender Anforderungen”, in: Neuroth, Heike et al. (Hrsg.): Bibliothek – Forschung und Praxis 40 (2): 222–228. DOI: 
+                        <ptr target="https://doi.org/10.1515/bfp-2016-0027"/>.
                     </bibl>
                     <bibl>
-                        <hi rend="color(#000000)bold">Kollatz, Thomas</hi>
-                        <hi rend="color(#000000)"> (2016): “Raum-Zeit-Analysen mit Geo-Browser und Datasheet-Editor”, in: Neuroth, Heike et al. (Hrsg.): Bibliothek – Forschung und Praxis 40 (2): 229–233. </hi>
-                        <ptr target="https://doi.org/10.1515/bfp-2016-0032"/>
-                        <hi rend="color(#000000)">.</hi>
+                        <hi rend="bold">Kollatz, Thomas</hi> (2016): “Raum-Zeit-Analysen mit Geo-Browser und Datasheet-Editor”, in: Neuroth, Heike et al. (Hrsg.): Bibliothek – Forschung und Praxis 40 (2): 229–233. 
+                        <ptr target="https://doi.org/10.1515/bfp-2016-0032"/>.
                     </bibl>
                     <bibl>
-                        <hi rend="color(#000000)bold">Puhl, Johanna et. al. </hi>
-                        <hi rend="color(#000000)">(2015): Diskussion und Definition eines Research Data LifeCycle für die digitalen Geisteswissenschaften (= DARIAH-DE Working Papers Nr. 11). Göttingen: DARIAH-DE. URN:</hi>
-                        <ref target="http://nbn-resolving.de/urn:nbn:de:gbv:7-dariah-2015-4-4">
-                            <hi rend="color(#1155cc)">urn:nbn:de:gbv:7-dariah-2015-4-4</hi>
-                        </ref>
-                        <hi rend="color(#000000)">.</hi>
+                        <hi rend="bold">Puhl, Johanna et. al. </hi>(2015): Diskussion und Definition eines Research Data LifeCycle für die digitalen Geisteswissenschaften (= DARIAH-DE Working Papers Nr. 11). Göttingen: DARIAH-DE. URN:
+                        <ref target="http://nbn-resolving.de/urn:nbn:de:gbv:7-dariah-2015-4-4">http://nbn-resolving.de/urn:nbn:de:gbv:7-dariah-2015-4-4
+                        </ref>.
                     </bibl>
                 </listBibl>
             </div>

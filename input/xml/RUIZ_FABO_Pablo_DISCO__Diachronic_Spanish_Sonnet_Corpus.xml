@@ -95,11 +95,8 @@
         <body>
             <div type="div1" rend="DH-Heading1">
                 <head>Introduction</head>
-                <p>
-                    <hi rend="italic">This poster presents a corpus of 19th-century sonnets in Spanish in XML-TEI (685 authors, 2677 sonnets). It includes well-known authors, but also less canonized authors. Texts and authors are enriched with identifiers and metadata. See </hi>
-                    <ref target="https://github.com/pruizf/disco">
-                        <hi rend="italic">https://github.com/pruizf/disco</hi>
-                    </ref>
+                <p>This poster presents a corpus of 19th-century sonnets in Spanish in XML-TEI (685 authors, 2677 sonnets). It includes well-known authors, but also less canonized authors. Texts and authors are enriched with identifiers and metadata. See 
+                    <ref target="https://github.com/pruizf/disco"><hi rend="italic">https://github.com/pruizf/disco</hi></ref>
                 </p>
                 <p>A fundamental difficulty for Digital Humanities studies on Spanish literature is a scarcity of digital resources (Agenjo, 2015). </p>
                 <p>Some resources do however exist. BiDTEA (Gago Jover et al, 2015), ADMYTE (Marcos Marin and Faulhaber, 1992), ReMetCa (González-Blanco and Rodríguez, 2014) and PoeMetCa (Escribano et al, 2016) have digitized Spanish Medieval texts. Navarro-Colorado et al. (2015) presented the Corpus of Spanish Golden-Age Sonnets.</p>

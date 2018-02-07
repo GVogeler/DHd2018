@@ -114,8 +114,8 @@
                      height="9.567333333333334cm"
                      rend="inline"
                      url="KESSLER_Linda_Entit_ten_im_Fokus_am_Beispiel_von_Captivity_N-image1.jpg"/>
-            <head>Abbildung 1: Ergebnisse der Cluster-Analyse: <hi rend="italic">Indianer</hi>
-            </head>
+                <head>Abbildung 1: Ergebnisse der Cluster-Analyse: Indianer
+                </head>
             </figure>
             <p>
                 <figure>
@@ -124,27 +124,27 @@
                      height="9.072716666666667cm"
                      rend="inline"
                      url="KESSLER_Linda_Entit_ten_im_Fokus_am_Beispiel_von_Captivity_N-image2.jpg"/>
-                <head>Abbildung 2: Ergebnisse der Cluster-Analyse: <hi rend="italic">Andere</hi>
-                </head> 
+                    <head>Abbildung 2: Ergebnisse der Cluster-Analyse: Andere
+                    </head> 
                 </figure>
             </p>
         </body>
         <back>
          <div type="notes">
-            <note xml:id="ftn1" n="1" rend="footnote text"> Die Annotationsrichtlinien können eingesehen werden unter 
+            <note xml:id="ftn1" n="1"> Die Annotationsrichtlinien können eingesehen werden unter 
                             <ref target="https://www.creta.uni-stuttgart.de/cute/datenmaterial/annotationsrichtlinien-1-1/">https://www.creta.uni-stuttgart.de/cute/datenmaterial/annotationsrichtlinien-1-1/</ref>, abgerufen am 24.08.2017.
                         </note>
-            <note xml:id="ftn2" n="2" rend="Fußnotentext1"> Wir danken Herrn Prof. Dr. Marc Priewe und den Mitarbeiter/innen der Professur für amerikanische Literatur und Kultur an der Universität Stuttgart </note>
+            <note xml:id="ftn2" n="2"> Wir danken Herrn Prof. Dr. Marc Priewe und den Mitarbeiter/innen der Professur für amerikanische Literatur und Kultur an der Universität Stuttgart </note>
          </div>
          <div type="bibliogr">
                 <listBibl>
                     <head>Bibliographie</head>
-                    <bibl>Blessing, Andre / Echelmeyer, Nora / John, Markus / Reiter, Nils (2017): “An End-to-end Environment for Research Question-Driven Entity Extraction and Network Analysis”, in: 
+                    <bibl><hi rend="bold">Blessing, Andre / Echelmeyer, Nora / John, Markus / Reiter, Nils </hi>(2017): “An End-to-end Environment for Research Question-Driven Entity Extraction and Network Analysis”, in: 
                         <hi rend="italic">Proceedings of the Joint SIGHUM Workshop on Computational Linguistics for Cultural Heritage, Social Sciences, Humanities and Literature</hi>, 57–67, Vancouver, Canada. Association for Computational Linguistics.
                     </bibl>
-                    <bibl>Jannidis, Fotis / Krug, Markus / Toepfer, Martin / Puppe, Frank / Reger, Isabelle / Weimer, Lukas (2015): “Automatische Erkennung von Figuren in deutschsprachigen Romanen“. Abstract für die DHd 2015 in Graz.</bibl>
-                    <bibl>Kuhn, Jonas / Alexiadou, Artemis / Braun, Manuel / Ertl, Thomas / Holtz, Sabine / Kantner, Catleen, . . . Zittel, Claus (2016): “CRETA (Centrum für reflektierte Textanalyse) – Fachübergreifende Methodenentwicklung in den Digital Humanities“. Abstract für die DHd 2016 in Leipzig.</bibl>
-                    <bibl>Nadeau, David / Sekine, Satoshi (2007): “A survey of named entity recognition and classification. 
+                    <bibl><hi rend="bold">Jannidis, Fotis / Krug, Markus / Toepfer, Martin / Puppe, Frank / Reger, Isabelle / Weimer, Lukas </hi>(2015): “Automatische Erkennung von Figuren in deutschsprachigen Romanen“. Abstract für die DHd 2015 in Graz.</bibl>
+                    <bibl><hi rend="bold">Kuhn, Jonas / Alexiadou, Artemis / Braun, Manuel / Ertl, Thomas / Holtz, Sabine / Kantner, Catleen, . . . Zittel, Claus </hi>(2016): “CRETA (Centrum für reflektierte Textanalyse) – Fachübergreifende Methodenentwicklung in den Digital Humanities“. Abstract für die DHd 2016 in Leipzig.</bibl>
+                    <bibl><hi rend="bold">Nadeau, David / Sekine, Satoshi </hi>(2007): “A survey of named entity recognition and classification. 
                         <hi rend="italic">Linguisticae Investigationes”</hi>, 
                         <hi rend="italic">30</hi>, 3-26.
                     </bibl>

@@ -145,13 +145,13 @@
                 <p>
                     <lb/>Sobald die Neuinventarisierung abgeschlossen ist (voraussichtlich Mitte 2018), wird der Katalog auf unserem zukünftigen Projektportal (
                     <ref target="https://classicmayan.org/">
-                        <hi rend="color(1155CC)">https://classicmayan.org/</hi>
+                        <hi rend="underline">https://classicmayan.org/</hi>
                     </ref>) publiziert und die RDF-Daten über einen SPARQL-Endpoint zugänglich gemacht. Zusätzlich werden die Daten auch im TextGrid Repository (
                     <ref target="https://textgridrep.org/">
-                        <hi rend="color(1155CC)">https://textgridrep.org/</hi>
+                        <hi rend="underline">https://textgridrep.org/</hi>
                     </ref>) veröffentlicht, wo sie mittels einer OAI-PMH Schnittstelle auch für externe Nutzer abrufbar sind. Die Dokumentation des digitalen Zeichenkatalogs ist unter 
                     <ref target="http://idiom-projekt.de/catalogue">
-                        <hi rend="color(1155CC)">http://idiom-projekt.de/catalogue</hi>
+                        <hi rend="underline">http://idiom-projekt.de/catalogue</hi>
                     </ref> erreichbar.
                 </p>
             </div>

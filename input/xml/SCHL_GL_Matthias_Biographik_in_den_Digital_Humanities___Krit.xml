@@ -113,18 +113,15 @@
             <p>
                 <anchor xml:id="id_docs-internal-guid-b0c2a807-f5f0-f0b0-833a-61ef07be7d1f"/>Quantitative Auswertungen gewinnen zunehmend auch in den Geisteswissenschaften an Bedeutung (z. B. Harber 2011). Nicht selten wird mittlerweile auch der Begriff „Big Data“ in Zusammenhang mit den Humanities ganz allgemein verwendet (z. B. gral 2016).  Für solche Analysen wird des Öfteren auf einheitliche Korpora zurückgegriffen (z. B. Wikipedia: Russo et al. 2015), die nicht nur einen standardisierten Zugriff auf tausende Datensätze, sondern auch homogene Metadaten und harmonisierte Vokabulare bieten. Während diese Korpora formal geradezu prädestiniert für Analysen mit den neuen digitalen Tools scheinen, sind die grundlegenden Daten durch die Entstehungsgeschichte der Datensammlungen nicht selten unausgewogen und können mitunter zu falschen Ergebnissen führen. Insbesondere trifft dies auf über einen längeren Zeitraum entstandene Nationalbiographien zu. Trotz dieses offensichtlichen Dilemmas fokussieren Studien meist auf die Zuverlässigkeit der digitalen Tools selbst und weniger auf die Verlässlichkeit der Quellen (z. B. Reinert et al. 2015; Stotz et al. 2015).
             </p>
-            <p>
-                <lb/>
-                <hi rend="color(#000000)">Die Posterpräsentation bietet eine exemplarische Korpusanalyse der digitalen Fassung des 1946 gegründeten und seit 1954 (seit 2009 auch online) erscheinenden </hi>
-                <hi rend="color(#000000)italic">Österreichische Biographische Lexikon 1815–1950.</hi>
-                <hi rend="color(#000000)"> </hi>
-                <hi rend="color(#000000)">Dieses enthält in 14 Bänden (68 Lieferungen) über 18.000 Biographien. Es wird dadurch die oftmals vernachlässigte Unausgewogenheit einer auf den ersten Blick einheitlich wirkenden Quelle diskutiert.</hi>
+            <p>Die Posterpräsentation bietet eine exemplarische Korpusanalyse der digitalen Fassung des 1946 gegründeten und seit 1954 (seit 2009 auch online) erscheinenden
+                <hi rend="italic">Österreichische Biographische Lexikon 1815–1950.</hi>
+                Dieses enthält in 14 Bänden (68 Lieferungen) über 18.000 Biographien. Es wird dadurch die oftmals vernachlässigte Unausgewogenheit einer auf den ersten Blick einheitlich wirkenden Quelle diskutiert.
             </p>
-            <div type="div1">
+            <div type="div1" rend="DH-Heading1">
                 <head>
                     <anchor xml:id="id_docs-internal-guid-b0c2a807-f5f1-321e-07f8-a8ce2f86845f"/>Analyse der vorläufigen Ergebnisse
                 </head>
-                <div type="div2">
+                <div type="div2" rend="DH-Heading2">
                     <head>
                         <anchor xml:id="id_docs-internal-guid-b0c2a807-f5f2-9e08-5e50-c848454649bf"/>1. Informationsdichte
                     </head>
@@ -139,7 +136,7 @@
                         <anchor xml:id="id_docs-internal-guid-b0c2a807-f5f6-cb71-b473-6a10978ead54"/>Diese Entwicklung lässt sich anhand der Werkgenese bzw. der Geschichte des Lexikons erklären. Nach den ursprünglichen Plänen sollte das ÖBL drei bis vier Bände an Kurzbiographien umfassen. Die ab 1946 verfassten Biographien der ersten fünf Lieferungen – gesammelt im ersten Band, 1957 erschienen – sind allesamt nach diesem Konzept entstanden. Aus methodischen Gründen wurde der Ursprungsplan jedoch bereits in den 1950er-Jahren als unbrauchbar verworfen. Die Österreichische Akademie der Wissenschaften entschied sich für die Gestaltung eines umfangreichen Nachschlagewerkes (Reitterer 1998) wodurch die durchschnittliche Länge der Biographien deutlich anstieg.
                     </p>
                 </div>
-                <div type="div2">
+                <div type="div2" rend="DH-Heading2">
                     <head>2. Die geographische Verteilung der Geburtsorte der biographierten Personen</head>
                     <p>Die geographische Verteilung der Biographierten nach Geburtsorten ist nicht ausgewogen. Verglichen wurden die erste Lieferung des ÖBL (1954) mit den Lieferungen 62-66 (2010–2015); beide Stichproben enthalten etwa gleich viele Biographien (Abb. 2. und 3.).</p>
                     <p>
@@ -158,7 +155,7 @@
                         <anchor xml:id="id_docs-internal-guid-b0c2a807-f5f9-4b03-05d5-0b540481654e"/>Die Kronländer der westlichen Reichshälfte der Monarchie (u. a. die Nachfolgestaaten Österreich und Tschechien) sind in der ersten Lieferung gegenüber der östlichen Reichshälfte (auf den Abbildungen die Nachfolgestaaten Ungarn, Slowakei, Rumänien [Siebenbürgen], Kroatien) deutlich bevorzugt. Die Verteilung der Geburtsorte in den Lieferungen 62–66 zeigt hingegen ein wesentlich ausgeglicheneres Bild. Die Diskrepanz resultiert aus den ursprünglichen Aufnahmekriterien des ÖBL, die zeitlich und räumlich, einerseits nach kulturhistorischen Gesichtspunkten, andererseits jedoch staatsrechtlich definiert wurden (Obermayer-Marnach 1957). Bei der Aufnahme von Personen fokussierte man zwar auf den gesamten Raum des ehemaligen Habsburgerreiches, allerdings mit der Einschränkung, dass nach dem Ausgleich (1867) auf dem Gebiet der Länder der Ungarischen Krone geborene Personen – von wenigen Ausnahmen abgesehen – nicht in das Lexikon aufgenommen wurden.
                     </p>
                 </div>
-                <div type="div2">
+                <div type="div2" rend="DH-Heading2">
                     <head>3. Anteil weiblicher Persönlichkeiten im ÖBL</head>
                     <p>Der Anteil weiblicher Biographierter hat sich über die mehr als siebzig Jahre lange Geschichte des Lexikons kaum verändert (Abb. 4.).</p>
                     <p>
@@ -178,10 +175,7 @@
                     </p>
                     <p>
                         <anchor xml:id="id_docs-internal-guid-b0c2a807-f5fb-81fc-acd2-7851a59dfc10"/>
-                        <hi rend="color(#000000) background-color(#ffffff)">Der relativ geringe Anteil an Frauen lässt sich durch den Berichtszeitrahmen des ÖBL, allen voran jedoch durch den Schwerpunkt 19. Jahrhundert erklären. Als Beispiel sei hier lediglich darauf verwiesen, dass in der Monarchie Frauen die Möglichkeit des Studiums großteils verwehrt blieb (Heindl, Tichy 1993). Anteilsmäßig findet man die meisten Frauen in der Berufsgruppe </hi>
-                        <hi rend="color(#000000)">„</hi>
-                        <hi rend="color(#000000) background-color(#ffffff)">Diverse</hi>
-                        <hi rend="color(#000000)">“, in der u. a. die Mitglieder des Kaiserhauses erfasst werden (Abb. 6.).</hi>
+                        Der relativ geringe Anteil an Frauen lässt sich durch den Berichtszeitrahmen des ÖBL, allen voran jedoch durch den Schwerpunkt 19. Jahrhundert erklären. Als Beispiel sei hier lediglich darauf verwiesen, dass in der Monarchie Frauen die Möglichkeit des Studiums großteils verwehrt blieb (Heindl, Tichy 1993). Anteilsmäßig findet man die meisten Frauen in der Berufsgruppe „Diverse“, in der u. a. die Mitglieder des Kaiserhauses erfasst werden (Abb. 6.).
                     </p>
                     <p>
                         <figure>
@@ -191,7 +185,7 @@
                     </p>
                 </div>
             </div>
-            <div type="div1">
+            <div type="div1" rend="DH-Heading1">
                 <head>
                     <anchor xml:id="id_docs-internal-guid-b0c2a807-f5fc-7d38-494c-54dedc81ef45"/>Conclusio
                 </head>
@@ -204,71 +198,47 @@
                     <head>Bibliographie</head>
                     <bibl>
                         <anchor xml:id="id_docs-internal-guid-b0c2a807-f5ef-626d-ec3e-ff3349eac417"/>
-                        <hi rend="color(#000000)italic">Österreichisches Biographisches Lexikon 1815–1950</hi>
-                        <hi rend="color(#000000)">. Wien: Böhlau Verlag, Verlag der Österreichischen Akademie der Wissenschaften, 1954ff.; Online-Ausgabe:</hi>
+                        <hi rend="bold">Österreichisches Biographisches Lexikon 1815–1950</hi>. Wien: Böhlau Verlag, Verlag der Österreichischen Akademie der Wissenschaften, 1954ff.; Online-Ausgabe:
                         <ref target="http://www.biographien.ac.at/">
-                            <hi rend="color(#000000)"> </hi>
                         </ref>
                         <ref target="http://www.biographien.ac.at/">
                             <hi rend="color(#1155cc)underline">www.biographien.ac.at</hi>
-                        </ref>
-                        <hi rend="color(#000000)">, Zugriff: 14.12.2017.</hi>
+                        </ref>, Zugriff: 14.12.2017.
                     </bibl>
-                    <bibl>
-                        <hi rend="color(#000000)">Haber, P. (2011): „Neue – digitale – Wege für die Geschichtswissenschaft?: Die Rückkehr der Zahlen und Daten“. In: </hi>
-                        <hi rend="color(#000000)italic">Neue Zürcher Zeitung</hi>
-                        <hi rend="color(#000000)">, 2.1.2011.</hi>
+                    <bibl><hi rend="bold">Haber, P. </hi>(2011): „Neue – digitale – Wege für die Geschichtswissenschaft?: Die Rückkehr der Zahlen und Daten“. In: 
+                        <hi rend="italic">Neue Zürcher Zeitung</hi>, 2.1.2011.
                     </bibl>
-                    <bibl>
-                        <hi rend="color(#000000)">gral (2016): „Big Data in den Geschichtswissenschaften“. In: </hi>
-                        <hi rend="color(#000000)italic">Die Presse</hi>
-                        <hi rend="color(#000000)">, 4.4.2016.</hi>
+                    <bibl><hi rend="bold">gral </hi>(2016): „Big Data in den Geschichtswissenschaften“. In:
+                        <hi rend="italic">Die Presse</hi>, 4.4.2016.
                     </bibl>
-                    <bibl>
-                        <hi rend="color(#000000)">
-                            <lb/>Russo, I.; Caselli, T.; Monachini, M. (2015): „Extracting and Visualising Biographical Events
-                        </hi>
-                        <hi rend="color(#000000)">from Wikipedia“. In: S. ter Braake et al. (eds.), </hi>
-                        <hi rend="color(#000000)italic">BD2015. Biographical Data in a Digital World 2015. Proceedings of the 1st Conference on Biographical Data in a Digital World</hi>
-                        <hi rend="color(#000000)">, Amsterdam, 111–115.</hi>
+                    <bibl><hi rend="bold">Russo, I.; Caselli, T.; Monachini, M. </hi>(2015): „Extracting and Visualising Biographical Events
+                        from Wikipedia“. In: S. ter Braake et al. (eds.),
+                        <hi rend="italic">BD2015. Biographical Data in a Digital World 2015. Proceedings of the 1st Conference on Biographical Data in a Digital World</hi>, Amsterdam, 111–115.
                     </bibl>
-                    <bibl>
-                        <hi rend="color(#000000)">Reinert, M.; Schrott, M.; Ebneth, B. et al. (2015): „From Biographies to Data Curation – The Making of www.deutsche-biographie.de“. In: S. ter Braake et al. (eds.), </hi>
-                        <hi rend="color(#000000)italic">BD2015</hi>
-                        <hi rend="color(#000000)">, 13–19.</hi>
+                    <bibl><hi rend="bold">Reinert, M.; Schrott, M.; Ebneth, B. et al. </hi>(2015): „From Biographies to Data Curation – The Making of www.deutsche-biographie.de“. In: S. ter Braake et al. (eds.),
+                        <hi rend="italic">BD2015</hi>, 13–19.
                     </bibl>
-                    <bibl>
-                        <hi rend="color(#000000)">Stotz, S.; Stuß, V.; Reinert M.; Schrott M. (2015): „Interpersonal Relations in Biographical Dictionaries. A Case Study“. In: Serge ter Braake et al. (eds.), </hi>
-                        <hi rend="color(#000000)italic">BD2015</hi>
-                        <hi rend="color(#000000)">, 74–80.</hi>
+                    <bibl><hi rend="bold">Stotz, S.; Stuß, V.; Reinert M.; Schrott M. </hi>(2015): „Interpersonal Relations in Biographical Dictionaries. A Case Study“. In: Serge ter Braake et al. (eds.),
+                        <hi rend="italic">BD2015</hi>, 74–80.
                     </bibl>
-                    <bibl>
-                        <hi rend="color(#000000)">Gruber, Ch.; Feigl, R. (2009): „Von der Karteikarte zum biografischen Informationsmanagementsystem: Neue Wege am Institut Österreichisches Biographisches Lexikon und biographische Dokumentation“. In: M. Schattkowsky, F. Metasch (eds.), </hi>
-                        <hi rend="color(#000000)italic">Biografische Lexika im Internet: Internationale Tagung der „Sächsischen Biografie“ in Dresden (30. und 31. Mai 2008)</hi>
-                        <hi rend="color(#000000)">, Bausteine aus dem Institut für Sächsische Geschichte und Volkskunde 14, Dresden, 55–75.</hi>
+                    <bibl><hi rend="bold">Gruber, Ch.; Feigl, R. </hi>(2009): „Von der Karteikarte zum biografischen Informationsmanagementsystem: Neue Wege am Institut Österreichisches Biographisches Lexikon und biographische Dokumentation“. In: M. Schattkowsky, F. Metasch (eds.), 
+                        <hi rend="italic">Biografische Lexika im Internet: Internationale Tagung der „Sächsischen Biografie“ in Dresden (30. und 31. Mai 2008)</hi>
+                        , Bausteine aus dem Institut für Sächsische Geschichte und Volkskunde 14, Dresden, 55–75.
                     </bibl>
-                    <bibl>
-                        <hi rend="color(#000000)">Reitterer, H. (1998): „Österreichisches Biographisches Lexikon und biographische Dokumentation“. In: Csendes P., Lebensaft E. (eds.), </hi>
-                        <hi rend="color(#000000)italic">Traditionelle und zukunftsorientierte Ansätze biographischer Forschung und Lexikographie</hi>
-                        <hi rend="color(#000000)">, ÖBL – Schriftenreihe 4, Wien, 42–46.</hi>
+                    <bibl><hi rend="bold">Reitterer, H. </hi>(1998): „Österreichisches Biographisches Lexikon und biographische Dokumentation“. In: Csendes P., Lebensaft E. (eds.),
+                        <hi rend="italic">Traditionelle und zukunftsorientierte Ansätze biographischer Forschung und Lexikographie</hi>
+                        , ÖBL – Schriftenreihe 4, Wien, 42–46.
                     </bibl>
-                    <bibl>
-                        <hi rend="color(#000000)">Obermayer-Marnach E. (1957): „Einleitung“. In: </hi>
-                        <hi rend="color(#000000)italic">Österreichisches Biographisches Lexikon 1815–1950</hi>
-                        <hi rend="color(#000000)">, Bd. 1, X–XV.</hi>
+                    <bibl><hi rend="bold">Obermayer-Marnach E. </hi>(1957): „Einleitung“. In:
+                        <hi rend="italic">Österreichisches Biographisches Lexikon 1815–1950</hi>, Bd. 1, X–XV.
                     </bibl>
-                    <bibl>
-                        <hi rend="color(#000000)">Latzke W. (1960): „Österreichisches Biographisches Lexikon 1815–1950, Bd. 1. und 2.“. In: </hi>
-                        <hi rend="color(#000000)italic">Archivalische Zeitschrift</hi>
-                        <hi rend="color(#000000)"> </hi>
-                        <hi rend="color(#000000)">56, 1960, 143–145.</hi>
+                    <bibl><hi rend="bold">Latzke W. </hi>(1960): „Österreichisches Biographisches Lexikon 1815–1950, Bd. 1. und 2.“. In:
+                        <hi rend="italic">Archivalische Zeitschrift</hi>
+                        56, 1960, 143–145.
                     </bibl>
-                    <bibl>
-                        <lb/>
-                        <hi rend="color(#000000)">Heindl, W.; Tichy, M, eds. (1993): „</hi>
-                        <hi rend="color(#000000)italic">»Durch Erkenntnis zu Freiheit und Glück …«. Frauen an der Universität Wien (ab 1897)</hi>
-                        <hi rend="color(#000000)">“</hi>
-                        <hi rend="color(#000000)">, Schriftenreihe des Universitätsarchivs, Universität Wien 5, Wien.</hi>
+                    <bibl><hi rend="bold">Heindl, W.; Tichy, M, eds. </hi>(1993): „
+                        <hi rend="italic">»Durch Erkenntnis zu Freiheit und Glück …«. Frauen an der Universität Wien (ab 1897)</hi>
+                        , Schriftenreihe des Universitätsarchivs, Universität Wien 5, Wien.
                     </bibl>
                 </listBibl>
             </div>

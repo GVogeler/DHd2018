@@ -102,26 +102,22 @@
                     </note>
             <note xml:id="ftn2" n="2"> RISM, zweifellos das etablierteste musikwissenschaftliche Datenrepositorium, bietet bereits die Möglichkeit die dort verzeichneten Manuskripte nach Incipits zu durchsuchen (http://www.rism.info/en/home/newsdetails/select/rism_online_catalog/article/2/music-incipit-searches.html). Die Datenbestände wurden bereits in anderen Projekten nachgenutzt (Van Nuss / Giezeman / Wiering 2017).</note>
             <note xml:id="ftn3" n="3"> Zur Softwarekomponente siehe 
-                        <ref target="https://github.com/annaneo/incipitSearch">
-                            <hi rend="color(1155CC)">https://github.com/annaneo/incipitSearch</hi>
+                        <ref target="https://github.com/annaneo/incipitSearch">https://github.com/annaneo/incipitSearch
                         </ref> sowie 
-                        <ref target="https://github.com/digicademy/incipitSearch">
-                            <hi rend="color(1155CC)">https://github.com/digicademy/incipitSearch</hi>
+                        <ref target="https://github.com/digicademy/incipitSearch">https://github.com/digicademy/incipitSearch
                         </ref> für die Webplattform. Für die Anzeige der Incipits kommt die vom RISM-Schweiz entwickelte Programmbibliothek Verovio zum Einsatz: 
-                        <ref target="https://github.com/rism-ch/verovio">
-                            <hi rend="color(1155CC)">https://github.com/rism-ch/verovio</hi>
+                        <ref target="https://github.com/rism-ch/verovio">https://github.com/rism-ch/verovio
                         </ref>. Um eine komfortable Noteneingabe zu ermöglichen wurde eigens ein JavaScript-PianoKeyboard entwickelt: 
-                        <ref target="https://github.com/annaneo/pianoKeyboard">
-                            <hi rend="color(1155CC)">https://github.com/annaneo/pianoKeyboard</hi>
+                        <ref target="https://github.com/annaneo/pianoKeyboard">https://github.com/annaneo/pianoKeyboard
                         </ref>. 
                     </note>
          </div>
          <div type="bibliogr">
                 <listBibl>
                     <head>Bibliographie</head>
-                    <bibl>Brook, Barry S. / Gould, Murray. (1964): “Notating Music with Ordinary Typewriter Characters (A Plaine and Easie Code System for Musicke)”, in: Fontes Artis Musicae 11 (3): 142–159. </bibl>
-                    <bibl>Haft, Michael / Neovesky, Anna / Reimers, Gabriel (2016): „Digitale Nachhaltigkeit von Forschungsdaten durch Microservices.“, in: FORGE 2016. Forschungsdaten in den Geisteswissenschaften: Conference Abstract: 23 -24. </bibl>
-                    <bibl>Van Nuss, Jelmer / Giezeman, Geert-Jan, Wiering, Frans (2017). „Melody retrieval and composer attribution using sequence alignment on RISM incipits.”, in: Proceedings of the International Conference on Technologies for Music Notation and Representation. Universidade da Coruña: 79–90 
+                    <bibl><hi rend="bold">Brook, Barry S. / Gould, Murray. </hi>(1964): “Notating Music with Ordinary Typewriter Characters (A Plaine and Easie Code System for Musicke)”, in: Fontes Artis Musicae 11 (3): 142–159. </bibl>
+                    <bibl><hi rend="bold">Haft, Michael / Neovesky, Anna / Reimers, Gabriel </hi>(2016): „Digitale Nachhaltigkeit von Forschungsdaten durch Microservices.“, in: FORGE 2016. Forschungsdaten in den Geisteswissenschaften: Conference Abstract: 23 -24. </bibl>
+                    <bibl><hi rend="bold">Van Nuss, Jelmer / Giezeman, Geert-Jan, Wiering, Frans </hi>(2017). „Melody retrieval and composer attribution using sequence alignment on RISM incipits.”, in: Proceedings of the International Conference on Technologies for Music Notation and Representation. Universidade da Coruña: 79–90 
                         <ref target="http://doi.org/10.5281/zenodo.924135">http://doi.org/10.5281/zenodo.924135</ref> [letzter Zugriff 12. Januar 2018].
                     </bibl>
                 </listBibl>

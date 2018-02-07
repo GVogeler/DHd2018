@@ -124,100 +124,86 @@
     </teiHeader>
    <text>
         <body>
-            <p>
-                <hi rend="color(#000000)">Soziale Medien spielen weltweit im politischen Meinungsbildungsprozess eine immer wichtigere Rolle. Sowohl Onlineangebote von Zeitungen als auch Twitteraccounts von Organisationen oder Personen können quasi in Echtzeit über aktuelle Geschehnisse informieren.</hi>
-                <hi rend="color(#000000)"> </hi>
-                <hi rend="color(#000000)">Die Kommentar- und Replyfunktionen bieten zudem einen digitalen Ort für den öffentlichen Austausch. Damit können auch ‚normale’ Nutzer ganz gezielt Nachrichten wie auch persönliche Kommentare oder Gerüchte in einem Ausmaß verbreiten wie es im vor-digitalen Zeitalter kaum möglich war. Das Entstehen eines vollkommen neuen digitalen Kommunikationsraumes, der sowohl Grenzen überschreitet als auch potenziell neue Grenzen schafft („Echokammern“) kann zum einen positiv im Sinne einer Demokratisierung öffentlicher Meinungsbildung gewertet werden (Mossberger et al. 2007), birgt aber auch Risiken (Mancini, 2013, Sarcinelli, 2014).</hi>
+            <p>Soziale Medien spielen weltweit im politischen Meinungsbildungsprozess eine immer wichtigere Rolle. Sowohl Onlineangebote von Zeitungen als auch Twitteraccounts von Organisationen oder Personen können quasi in Echtzeit über aktuelle Geschehnisse informieren.
+                Die Kommentar- und Replyfunktionen bieten zudem einen digitalen Ort für den öffentlichen Austausch. Damit können auch ‚normale’ Nutzer ganz gezielt Nachrichten wie auch persönliche Kommentare oder Gerüchte in einem Ausmaß verbreiten wie es im vor-digitalen Zeitalter kaum möglich war. Das Entstehen eines vollkommen neuen digitalen Kommunikationsraumes, der sowohl Grenzen überschreitet als auch potenziell neue Grenzen schafft („Echokammern“) kann zum einen positiv im Sinne einer Demokratisierung öffentlicher Meinungsbildung gewertet werden (Mossberger et al. 2007), birgt aber auch Risiken (Mancini, 2013, Sarcinelli, 2014).
             </p>
             <p>Die Analyse der Rolle von Sozialen Medien im öffentlichen Meinungsbildungsprozess ist inzwischen ein aktives Forschungsfeld (z.B. Törnberg &amp; Törnberg, 2016, Eilders, 2013). Für eine umfassende Auswertung des Datenmaterials sind jedoch mächtige Analyseverfahren notwendig (Sentimentanalyse, Netzwerkanalyse, Diskursanalyse, Bot-Erkennung etc.), die zur Zeit noch nicht in adäquatem Maß zur Verfügung stehen (s. Mohammad et al., 2015). So ist zum Beispiel die Sentimentanalyse relativ gut erforscht, beschränkt sich aber in der Regel auf das Englische sowie auf die Textsorte „Rezension“. In drei Pilotstudien haben wir untersucht, mit welchem Aufwand sich Methoden der Sentimentanalyse und Bot-Erkennung auf neue Sprachen anpassen lassen und wo mögliche Grenzen dieser Verfahren liegen. Im weiteren Projektverlauf, soll ergründet werden, inwieweit sich Prozesse der öffentlichen Meinungsbildung in sozialen Medien mit den zur Zeit zur Verfügung stehenden Verfahren nachvollziehen lassen. Die Pilotstudien untersuchen den öffentlichen Diskurs im Kontext von Wahlen und decken zwei verschiedene Sprachen (französisch, deutsch) und Textsorten (Kommentare auf Nachrichtenseiten, Tweets) ab und variieren hinsichtlich der ausgewerteten Datenmenge und Herangehensweise (gemischt qualitativ-quantitative stilistische Auswertung vs. primär quantitative Polaritätsanalyse vs. Bot-Erkennung).</p>
-            <p>Pilotstudie 1: Sentimentanalyse zur Bundestagswahl</p>
-            <p>In der ersten Studie stehen Tweets zur Bundestagswahl (BTW) im Vordergrund, für die ein Sentimenttagger entwickelt wurde, um das in den Tweets ausgedrückte Sentiment im Hinblick auf Themen, Parteien und Personen zu analysieren. Zwischen Mai und September 2017 wurden mehr als 5.4 Millionen Tweets gesammelt und nach Schlagworten und Hashtags zur BTW und zu den Parteien gefiltert. 600 Tweets wurden von 3 AnnotatorInnen manuell als `positiv', `negativ', 'neutral' oder 'irrelevant' (kein Bezug zur Bundestagswahl) klassifiziert. Um die Anforderungen eines (bisher nicht verfügbaren) Twitter-Sentimenttaggers für das Deutsche im Hinblick auf die Fragestellung zu ermitteln, wurden in einer Vorstudie 100 Tweets von fünf AnnotatorInnen auf ihr Sentiment hin untersucht. Dabei wurde deutlich, dass das Sentiment zum Teil aus dem Kontext inferiert werden muss (z.B. angehängte Bilder), was besonders die automatische Analyse erschwert. Zudem werden oft mehrere Sentiments ausgedrückt werden (s. Mohammad, 2016). Das Inter-Annotator-Agreement für alle 3 AnnotatorInnen lag bei 61% (94,5% bei Übereinstimmung von 2 AnnotatorInnen). Eine Sichtung der annotierten Daten zeigt, dass Tweets zur BTW überwiegend sentiment-behaftet sind (91%) und negatives Sentiment vorherrscht (81% neg., 10% pos, 9% neut). Für den Sentimenttagger wurden verschiedene überwachte maschinelle Lernverfahren auf den annotierten Daten trainiert und getestet (10-fache Kreuzvalidierung). Verwendet wurden dabei Unigramme sowie weitere Informationen wie das Vorkommen von Emoticons oder bestimmten Satzzeichen. Der beste Klassifikator (Naive Bayes) erreichte 71% F-Score (69% Prec., 75% Rec.). Besonders indikativ für negatives Sentiment in unserem Datenset sind die Unigramme „Schulz“ und „Merkel“, während positives Sentiment durch „!“ angezeigt wird. Hier ist sicher eine weitergehende Analyse notwendig.</p>
-            <p>Pilotstudie 2: Französische Präsidentschaftswahl</p>
-            <p>
-                <hi rend="color(#000000)">In einer gemischt qualitativ-quantitativen Analyse der französischen Präsidentschaftswahl wurden Kommentare unter Onlineartikeln der französischen Tageszeitung </hi>
-                <hi rend="color(#000000)italic">Le Monde</hi>
-                <hi rend="color(#000000)"> im Zeitraum zwischen dem ersten (23.04.2017) und dem zweiten (07.05.2017) Wahltag manuell und automatisch analysiert. Hierfür wurden zunächst themenähnliche Artikel ausgewählt, die sich mit den zwei Präsidentschaftskandidaten der zweiten Wahlrunde befassten. Für die weitere Analyse wurden sechs repräsentative Onlineartikel und die zugehörigen Userkommentare ausgewählt. Diese ausgewählten Textdateien wurden mithilfe der Topic Modelling Software MALLET</hi>
-                <hi rend="color(#000000)"> auf ihre Hauptthemen hin analysiert. Als Trainingsdaten für das Topic Modelling wurden ähnliche Onlineartikel anderer Zeitungen und Wahlprogramme der zwei Hauptparteien der zweiten Wahlrunde verwendet. Da es auch für das Französische keinen frei verfügbaren Sentimenttagger gibt, wurde ein regelbasiertes System entwickelt, dass auf einer Kombination von verschiedenen Sentimentlexika beruht, u.a. auch multi-linguale Ressourcen (NRC Emotion Lexicon, Mohammad &amp; Turney, 2013), die auf der einen Seite die Datengrundlage vergrößern, auf der anderen Seite aber auch potenziell Fehler (z.B. fehlerhafte Übersetzungen, Lesartenambiguitäten) beitragen. </hi>
-            </p>
-            <p>Pilotstudie 3: Erkennung von Social Bots</p>
-            <p>In der dritten Studie geht es um die Unterscheidung von menschlichen und künstlichen Akteuren. Um die potenziellen Auswirkungen von Social Bots auf die politische Meinungsbildung zu quantifizieren ist es notwendig, künstliche Agenten automatisiert erkennen zu können. Bisherige Verfahren (z.B. Varol et al., 2017) können simple Bot-Accounts zuverlässig erkennen, scheitern aber an fortgeschrittenen Bots, die sich nicht mehr offensichtlich von echten Menschen unterscheiden. In einem weiterentwickelten Verfahren analysieren wir speziell Accounts dieser Art. Als Datengrundlage hierfür wird der MIB-Datensatz verwendet (Cresci et al., 2017). Zur Bot-Erkennung wird mit überwachten machinellen Lernverfahren experimentiert. </p>
+            <div type="div2" rend="DH-Heading2">
+                <head>Pilotstudie 1: Sentimentanalyse zur Bundestagswahl</head>
+                <p>In der ersten Studie stehen Tweets zur Bundestagswahl (BTW) im Vordergrund, für die ein Sentimenttagger entwickelt wurde, um das in den Tweets ausgedrückte Sentiment im Hinblick auf Themen, Parteien und Personen zu analysieren. Zwischen Mai und September 2017 wurden mehr als 5.4 Millionen Tweets gesammelt und nach Schlagworten und Hashtags zur BTW und zu den Parteien gefiltert. 600 Tweets wurden von 3 AnnotatorInnen manuell als `positiv', `negativ', 'neutral' oder 'irrelevant' (kein Bezug zur Bundestagswahl) klassifiziert. Um die Anforderungen eines (bisher nicht verfügbaren) Twitter-Sentimenttaggers für das Deutsche im Hinblick auf die Fragestellung zu ermitteln, wurden in einer Vorstudie 100 Tweets von fünf AnnotatorInnen auf ihr Sentiment hin untersucht. Dabei wurde deutlich, dass das Sentiment zum Teil aus dem Kontext inferiert werden muss (z.B. angehängte Bilder), was besonders die automatische Analyse erschwert. Zudem werden oft mehrere Sentiments ausgedrückt werden (s. Mohammad, 2016). Das Inter-Annotator-Agreement für alle 3 AnnotatorInnen lag bei 61% (94,5% bei Übereinstimmung von 2 AnnotatorInnen). Eine Sichtung der annotierten Daten zeigt, dass Tweets zur BTW überwiegend sentiment-behaftet sind (91%) und negatives Sentiment vorherrscht (81% neg., 10% pos, 9% neut). Für den Sentimenttagger wurden verschiedene überwachte maschinelle Lernverfahren auf den annotierten Daten trainiert und getestet (10-fache Kreuzvalidierung). Verwendet wurden dabei Unigramme sowie weitere Informationen wie das Vorkommen von Emoticons oder bestimmten Satzzeichen. Der beste Klassifikator (Naive Bayes) erreichte 71% F-Score (69% Prec., 75% Rec.). Besonders indikativ für negatives Sentiment in unserem Datenset sind die Unigramme „Schulz“ und „Merkel“, während positives Sentiment durch „!“ angezeigt wird. Hier ist sicher eine weitergehende Analyse notwendig.</p>
+            </div>
+            <div type="div2" rend="DH-Heading2">
+                <head>Pilotstudie 2: Französische Präsidentschaftswahl</head>
+                <p>In einer gemischt qualitativ-quantitativen Analyse der französischen Präsidentschaftswahl wurden Kommentare unter Onlineartikeln der französischen Tageszeitung
+                <hi rend="italic">Le Monde</hi>
+                 im Zeitraum zwischen dem ersten (23.04.2017) und dem zweiten (07.05.2017) Wahltag manuell und automatisch analysiert. Hierfür wurden zunächst themenähnliche Artikel ausgewählt, die sich mit den zwei Präsidentschaftskandidaten der zweiten Wahlrunde befassten. Für die weitere Analyse wurden sechs repräsentative Onlineartikel und die zugehörigen Userkommentare ausgewählt. Diese ausgewählten Textdateien wurden mithilfe der Topic Modelling Software MALLET
+                 auf ihre Hauptthemen hin analysiert. Als Trainingsdaten für das Topic Modelling wurden ähnliche Onlineartikel anderer Zeitungen und Wahlprogramme der zwei Hauptparteien der zweiten Wahlrunde verwendet. Da es auch für das Französische keinen frei verfügbaren Sentimenttagger gibt, wurde ein regelbasiertes System entwickelt, dass auf einer Kombination von verschiedenen Sentimentlexika beruht, u.a. auch multi-linguale Ressourcen (NRC Emotion Lexicon, Mohammad &amp; Turney, 2013), die auf der einen Seite die Datengrundlage vergrößern, auf der anderen Seite aber auch potenziell Fehler (z.B. fehlerhafte Übersetzungen, Lesartenambiguitäten) beitragen.
+                </p>
+            </div>
+            <div type="div2" rend="DH-Heading2">
+                <head>Pilotstudie 3: Erkennung von Social Bots</head>
+                <p>In der dritten Studie geht es um die Unterscheidung von menschlichen und künstlichen Akteuren. Um die potenziellen Auswirkungen von Social Bots auf die politische Meinungsbildung zu quantifizieren ist es notwendig, künstliche Agenten automatisiert erkennen zu können. Bisherige Verfahren (z.B. Varol et al., 2017) können simple Bot-Accounts zuverlässig erkennen, scheitern aber an fortgeschrittenen Bots, die sich nicht mehr offensichtlich von echten Menschen unterscheiden. In einem weiterentwickelten Verfahren analysieren wir speziell Accounts dieser Art. Als Datengrundlage hierfür wird der MIB-Datensatz verwendet (Cresci et al., 2017). Zur Bot-Erkennung wird mit überwachten machinellen Lernverfahren experimentiert. </p>
+            </div>
         </body>
         <back>
          <div type="bibliogr">
                 <listBibl>
                     <head>Bibliographie</head>
                     <bibl>
-                        <hi rend="color(#000000)bold">Cresci, Stefano / Di Pietro, Roberto / Petrocchi, Marinella / Spognardi, Angelo / Tesconi, Maurizio </hi>
-                        <hi rend="color(#000000)">(2017): „The Paradigm-Shift of Social Spambots: Evidence, Theories, and Tools for the Arms Race.“ in: </hi>
+                        <hi rend="bold">Cresci, Stefano / Di Pietro, Roberto / Petrocchi, Marinella / Spognardi, Angelo / Tesconi, Maurizio </hi>
+                        (2017): „The Paradigm-Shift of Social Spambots: Evidence, Theories, and Tools for the Arms Race.“ in:
                         <emph>
-                            <hi rend="color(#000000)italic">Proceedings of the 26th International Conference on World Wide Web Companion</hi>
+                            <hi rend="italic">Proceedings of the 26th International Conference on World Wide Web Companion</hi>
                         </emph>
-                        <hi rend="color(#000000)italic"> (WWW '17 Companion).</hi>
+                        <hi rend="italic"> (WWW '17 Companion).</hi>
                     </bibl>
                     <bibl>
-                        <hi rend="color(#000000)bold">Eilders, Christiane</hi>
-                        <hi rend="color(#000000)"> (2013): „Öffentliche Meinungsbildung in Online-Umgebungen. Zur Zentralität der normativen Perspektive in der politischen Kommunikationsforschung.“ In: Karmasin, M. et al. (Eds.): </hi>
-                        <hi rend="color(#000000)italic">Normativität in der Kommunikationswissenschaft</hi>
-                        <hi rend="color(#000000)">, Wiesbaden: Springer, 329-351.</hi>
+                        <hi rend="bold">Eilders, Christiane</hi>
+                         (2013): „Öffentliche Meinungsbildung in Online-Umgebungen. Zur Zentralität der normativen Perspektive in der politischen Kommunikationsforschung.“ In: Karmasin, M. et al. (Eds.):
+                        <hi rend="italic">Normativität in der Kommunikationswissenschaft</hi>, Wiesbaden: Springer, 329-351.
                     </bibl>
                     <bibl>
-                        <hi rend="color(#000000)bold">Mancini, Paolo</hi>
-                        <hi rend="color(#000000)"> (2013): "Media Fragmentation, Party System, and Democracy." </hi>
-                        <hi rend="color(#000000)italic">The International Journal of Press/Politics</hi>
-                        <hi rend="color(#000000)"> 18 (1): 43-60.</hi>
+                        <hi rend="bold">Mancini, Paolo</hi>
+                         (2013): "Media Fragmentation, Party System, and Democracy."
+                        <hi rend="italic">The International Journal of Press/Politics</hi> 18 (1): 43-60.
                     </bibl>
                     <bibl>
-                        <hi rend="color(#000000)bold">Mohammad, Saif</hi>
-                        <hi rend="color(#000000)"> (2016): „A Practical Guide to Sentiment Annotation: Challenges and Solutions.“ in: </hi>
-                        <hi rend="color(#000000)italic">Proceedings of the NAACL 2016 Workshop on Computational Approaches to Subjectivity, Sentiment, and Social Media (WASSA)</hi>
-                        <hi rend="color(#000000)">, June 2014, San Diego, California.</hi>
+                        <hi rend="bold">Mohammad, Saif</hi>
+                         (2016): „A Practical Guide to Sentiment Annotation: Challenges and Solutions.“ in:
+                        <hi rend="italic">Proceedings of the NAACL 2016 Workshop on Computational Approaches to Subjectivity, Sentiment, and Social Media (WASSA)</hi>, June 2014, San Diego, California.
                     </bibl>
                     <bibl>
-                        <hi rend="color(#000000)bold">Mohammad, Saif / Kiritchenko, Svetlana / Zhu, Xiaodan / Martinet, Joel</hi>
-                        <hi rend="color(#000000)"> (2015): „Sentiment, Emotion, Purpose, and Style in Electoral Tweets“, in: </hi>
-                        <hi rend="color(#000000)italic">Information Processing &amp; Management, </hi>
-                        <hi rend="color(#000000)">51:4, 480–499.</hi>
+                        <hi rend="bold">Mohammad, Saif / Kiritchenko, Svetlana / Zhu, Xiaodan / Martinet, Joel</hi>
+                         (2015): „Sentiment, Emotion, Purpose, and Style in Electoral Tweets“, in: 
+                        <hi rend="italic">Information Processing &amp; Management, </hi>51:4, 480–499.
                     </bibl>
                     <bibl>
-                        <hi rend="color(#000000)bold">Mohammad, Saif / Turney, Peter</hi>
-                        <hi rend="color(#000000)">(2013): </hi>
-                        <hi rend="color(#000000)">Crowdsourcing a Word-Emotion Association Lexicon</hi>
-                        <hi rend="color(#000000)bold">,</hi>
-                        <hi rend="color(#000000)"> </hi>
-                        <emph>
-                            <hi rend="color(#000000)">Computational Intelligence,</hi>
-                        </emph>
-                        <hi rend="color(#000000)"> 29 (3), 436-465, 2013.</hi>
+                        <hi rend="bold">Mohammad, Saif / Turney, Peter</hi>
+                        (2013): Crowdsourcing a Word-Emotion Association Lexicon, Computational Intelligence, 29 (3), 436-465, 2013.
                     </bibl>
                     <bibl>
-                        <hi rend="color(#000000)bold">Mossberger, Karen / Tolbert, Caroline J. / McNeal, Ramona S.</hi>
-                        <hi rend="color(#000000)"> (2007): </hi>
-                        <hi rend="color(#000000)italic">Digital Citizenship. The Internet, Society, and Participation,</hi>
-                        <hi rend="color(#000000)"> Cambridge MA/London: MIT Press.</hi>
+                        <hi rend="bold">Mossberger, Karen / Tolbert, Caroline J. / McNeal, Ramona S.</hi>
+                         (2007): 
+                        <hi rend="italic">Digital Citizenship. The Internet, Society, and Participation,</hi> Cambridge MA/London: MIT Press.
                     </bibl>
                     <bibl>
-                        <hi rend="color(#000000)bold">Sarcinelli, Ulrich</hi>
-                        <hi rend="color(#000000)italic"> (2014): „</hi>
-                        <hi rend="color(#000000)">Von der Bewirtschaftung der Aufmerksamkeit zur simulativen Demokratie?“ in: </hi>
-                        <hi rend="color(#000000)italic">Zeitschrift für Politikwissenschaft 24 (3), 329 - 339.</hi>
+                        <hi rend="bold">Sarcinelli, Ulrich</hi> (2014): „Von der Bewirtschaftung der Aufmerksamkeit zur simulativen Demokratie?“ in:
+                        <hi rend="italic">Zeitschrift für Politikwissenschaft 24 (3), 329 - 339.</hi>
                     </bibl>
                     <bibl>
-                        <hi rend="color(#000000)bold">Schmid, Helmut</hi>
-                        <hi rend="color(#000000)italic"> (1994): </hi>
-                        <hi rend="color(#000000)">„Probabilistic Part-of-Speech Tagging Using Decision Trees.“</hi>
-                        <hi rend="color(#000000)italic"> in: Proceedings of International Conference on New Methods in Language Processing, Manchester, UK. </hi>
+                        <hi rend="bold">Schmid, Helmut</hi>
+                        <hi rend="italic"> (1994): </hi>„Probabilistic Part-of-Speech Tagging Using Decision Trees.“
+                        <hi rend="italic"> in: Proceedings of International Conference on New Methods in Language Processing, Manchester, UK. </hi>
                     </bibl>
                     <bibl>
-                        <hi rend="color(#000000)bold">Törnberg, Anton / Törnberg, Petter</hi>
-                        <hi rend="color(#000000)"> (2016): „Combining CDA and topic modeling: Analyzing discursive connections between Islamophobia and anti-feminism on an online forum“, in:</hi>
-                        <hi rend="color(#000000)italic"> Discourse and Society </hi>
-                        <hi rend="color(#000000)">27:4, 401-422.</hi>
+                        <hi rend="bold">Törnberg, Anton / Törnberg, Petter</hi>
+                         (2016): „Combining CDA and topic modeling: Analyzing discursive connections between Islamophobia and anti-feminism on an online forum“, in:
+                        <hi rend="italic"> Discourse and Society </hi> 27:4, 401-422.
                     </bibl>
                     <bibl>
-                        <hi rend="color(#000000)bold">Varol, Onur / Ferrara, Emilio / Davis, Clayton A. / Menczer, Filippo / Flammini, Alessandro</hi>
-                        <hi rend="color(#000000)bold italic"> </hi>
-                        <hi rend="color(#000000)">(2017): „Online Human-Bot Interactions: Detection, Estimation, and Characterization.“ in:</hi>
-                        <hi rend="color(#000000)italic"> Proceedings of ICWSM'17</hi>
+                        <hi rend="bold">Varol, Onur / Ferrara, Emilio / Davis, Clayton A. / Menczer, Filippo / Flammini, Alessandro</hi>
+                        (2017): „Online Human-Bot Interactions: Detection, Estimation, and Characterization.“ in:
+                        <hi rend="italic"> Proceedings of ICWSM'17</hi>
                     </bibl>
                 </listBibl>
             </div>

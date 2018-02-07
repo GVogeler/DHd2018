@@ -117,63 +117,42 @@
          <div type="bibliogr">
                 <listBibl>
                     <head>Bibliographie</head>
-                    <bibl>Cohen, Daniel J., and Roy Rosenzweig (2006): 
+                    <bibl><hi rend="bold">Cohen, Daniel J., and Roy Rosenzweig </hi>(2006): 
                         <hi rend="italic">Digital History: A Guide to Gathering, Preserving, and Presenting the Past on the Web. </hi>Philadelphia: University of Pennsylvania Press.
                     </bibl>
-                    <bibl>Cohen, Daniel J., Michael Frisch, Patrick Gallagher, Steven Mintz, Kirsten Sword, Amy Murrell Taylor, William G. Thomas III, and William J. Turkel (2008): “Interchange: The Promise of Digital History.” 
+                    <bibl><hi rend="bold">Cohen, Daniel J., Michael Frisch, Patrick Gallagher, Steven Mintz, Kirsten Sword, Amy Murrell Taylor, William G. Thomas III, and William J. Turkel </hi>(2008): “Interchange: The Promise of Digital History.” 
                         <hi rend="italic">Journal of American History</hi>, volume 95, issue 2, 452-491.
                     </bibl>
-                    <bibl rend="footnote text">“Diskussionsforum: Historische Grundwissenschaften und die digitale Herausforderung.” From H-Soz-Kult, November 15, 2015 (
+                    <bibl><hi rend="bold">“Diskussionsforum: Historische Grundwissenschaften und die digitale Herausforderung.” </hi>From H-Soz-Kult, November 15, 2015 (
                         <ref target="http://www.hsozkult.de/text/id/texte-2890">http://www.hsozkult.de/text/id/texte-2890</ref>).
                     </bibl>
-                    <bibl>Fiedler, Norman and Werthmann, Antonina and Stuehrberg, Maik and Schonefeld, Oliver and Bingel, Joachim and Witt, Andreas (2014): Research infrastructures in non-university research facilities. Research paper. Mannheim: Institute for German Language, 2014. 116 S.</bibl>
-                    <bibl>Hiebert, Matthew, Lässig, Simone and Witt, Andreas (2017): German history-digital: A platform for transnational historical knowledge co-creation. In: Digital Humanities 2017, Conference Abstracts, McGill University &amp; Université de Montréal Montréal, Canada August 8-11, 2017. Montréal: McGill University &amp; Université de Montréal, 2017. p. 269-271</bibl>
-                    <bibl>Hiebert, Matthew, Bowen, W. R., and Siemens, R.G (2015): “Implementing a social knowledge creation environment.” Scholarly and Research Communication, 6(3).</bibl>
-                    <bibl>Mandi
-                        <hi rend="ff5">ć</hi>
-                        <hi rend="italic">,</hi> Slobodan (2005): 
+                    <bibl><hi rend="bold">Fiedler, Norman and Werthmann, Antonina and Stuehrberg, Maik and Schonefeld, Oliver and Bingel, Joachim and Witt, Andreas </hi>(2014): Research infrastructures in non-university research facilities. Research paper. Mannheim: Institute for German Language, 2014. 116 S.</bibl>
+                    <bibl><hi rend="bold">Hiebert, Matthew, Lässig, Simone and Witt, Andreas </hi>(2017): German history-digital: A platform for transnational historical knowledge co-creation. In: Digital Humanities 2017, Conference Abstracts, McGill University &amp; Université de Montréal Montréal, Canada August 8-11, 2017. Montréal: McGill University &amp; Université de Montréal, 2017. p. 269-271</bibl>
+                    <bibl><hi rend="bold">Hiebert, Matthew, Bowen, W. R., and Siemens, R.G </hi>(2015): “Implementing a social knowledge creation environment.” Scholarly and Research Communication, 6(3).</bibl>
+                    <bibl><hi rend="bold">Mandić, Slobodan </hi>(2005): 
                         <hi rend="italic">Computerization and Historiography 1995-2005</hi>. Belgrade: Belgrade Historical Society.
                     </bibl>
-                    <bibl>McCullough, Kelly, and James Retallack (2013): “Digital History Anthologies on the Web: German History in Documents and Images.” 
+                    <bibl><hi rend="bold">McCullough, Kelly, and James Retallack </hi>(2013): “Digital History Anthologies on the Web: German History in Documents and Images.” 
                         <hi rend="italic">Central European History</hi>, volume 46, 346-361.
                     </bibl>
-                    <bibl>Ngai, Mae M (2012): “The Future of the Discipline: The Promise and Perils of Transnational History.” 
+                    <bibl><hi rend="bold">Ngai, Mae M </hi>(2012): “The Future of the Discipline: The Promise and Perils of Transnational History.” 
                         <hi rend="italic">Perspectives on History</hi>, December 2012 (
                         <ref target="https://www.historians.org/publications-and-directories/perspectives-on-history/december-2012/the-future-of-the-discipline/promises-and-perils-of-transnational-history">https://www.historians.org/publications-and-directories/perspectives-on-history/december-2012/the-future-of-the-discipline/promises-and-perils-of-transnational-history</ref>).
                     </bibl>
-                    <bibl>Patel, Kiran Klaus (2010): “
-                        <hi rend="doc_title">Transnational History</hi>.” In 
-                        <hi rend="en">
-                            <hi rend="italic">European </hi>
-                            <hi rend="italic">History</hi>
-                            <hi rend="italic"> Online</hi> (EGO), published by the Institute of European History (IEG). Mainz, 
-                        </hi>
-                        <hi rend="publicationsdate">2010</hi> (
-                        <ref target="http://www.ieg-ego.eu/patelk-2010-en">http://www.ieg-ego.eu/
-                            <hi rend="unique">
-                                <hi rend="underline color(0000FF)">patelk-2010</hi>
-                            </hi>-
-                            <hi rend="articlelanguage">
-                                <hi rend="underline color(0000FF)">en</hi>
-                            </hi>
-                        </ref>).
+                    <bibl><hi rend="bold">Patel, Kiran Klaus </hi>(2010): “Transnational History.” In <hi rend="italic">European History Online</hi> (EGO), published by the Institute of European History (IEG). Mainz, 2010 (<ref target="http://www.ieg-ego.eu/patelk-2010-en">http://www.ieg-ego.eu/patelk-2010-en</ref>).
                     </bibl>
-                    <bibl>Patel, Kiran Klaus (2011): “Zeitgeschichte im digitalen Zeitalter: Neue und alte Herausforderungen.” 
+                    <bibl><hi rend="bold">Patel, Kiran Klaus </hi>(2011): “Zeitgeschichte im digitalen Zeitalter: Neue und alte Herausforderungen.” 
                         <hi rend="italic">Vierteljahrshefte für Zeitgeschichte</hi>, volume 59, issue 3, July, 331-51.
                     </bibl>
-                    <bibl>Putnam, Lara (2016): “The Transnational and the Text-Searchable: Digitized Sources and the Shadows They Cast.” 
+                    <bibl><hi rend="bold">Putnam, Lara </hi>(2016): “The Transnational and the Text-Searchable: Digitized Sources and the Shadows They Cast.” 
                         <hi rend="italic">The American Historical Review</hi>, volume 121, issue 2, April, 377-402. 
                     </bibl>
-                    <bibl>Sahle, Patrick (
-                        <hi rend="st">2013):</hi>
+                    <bibl><hi rend="bold">Sahle, Patrick </hi>(2013):
                         <hi rend="italic">Digital Editionsformen</hi>. 
-                        <hi rend="st">
                             <hi rend="italic">Zum Umgang mit der Überlieferung unter den Bedingungen des Medienwandels. </hi>Volume 3 (Norderstedt).
-                        </hi>
                     </bibl>
-                    <bibl>Thomas, William G., III (2016): “Renegotiating the Archive: Scholarly Practice in the Digital Age.” (
-                        <ref target="http://railroads.unl.edu/blog/?p=1195">http://railroads.unl.edu/blog/?p=1195</ref>
-                        <hi rend="Hyperlink">)</hi>. 
+                    <bibl><hi rend="bold">Thomas, William G., III </hi>(2016): “Renegotiating the Archive: Scholarly Practice in the Digital Age.” 
+                        (<ref target="http://railroads.unl.edu/blog/?p=1195">http://railroads.unl.edu/blog/?p=1195</ref>). 
                     </bibl>
                 </listBibl>
             </div>

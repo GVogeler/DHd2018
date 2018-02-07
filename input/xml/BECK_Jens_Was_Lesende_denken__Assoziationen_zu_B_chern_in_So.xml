@@ -200,13 +200,14 @@
                 </p>
                 <p>Das hier beschriebene Netzwerk wird im Zuge der Konferenz frei zugänglich gemacht.</p>
                 <p>
-                    <graphic n="1001"
-                        width="15.927916666666667cm"
-                        height="10.900833333333333cm"
-                        rend="inline"
-                        url="BECK_Jens_Was_Lesende_denken__Assoziationen_zu_B_chern_in_So-image1.png"/>
-                    <hi rend="bold">Abbildung 1</hi>: Assoziationen zu Conan Doyles 
-                    <hi rend="italic">The Hound of the Baskervilles</hi>, extrahiert aus den Reviews von Benutzern. Die Abbildung zeigt zur Illustration sämtliche assoziierte Entitäten, unabhängig von der Häufigkeit.
+                    <figure>
+                        <graphic n="1001"
+                            width="15.927916666666667cm"
+                            height="10.900833333333333cm"
+                            rend="inline"
+                            url="BECK_Jens_Was_Lesende_denken__Assoziationen_zu_B_chern_in_So-image1.png"/>
+                        <head>Abbildung 1: Assoziationen zu Conan Doyles The Hound of the Baskervilles, extrahiert aus den Reviews von Benutzern. Die Abbildung zeigt zur Illustration sämtliche assoziierte Entitäten, unabhängig von der Häufigkeit.</head>
+                    </figure>
                 </p>
             </div>
             <div type="div1" rend="DH-Heading1">
