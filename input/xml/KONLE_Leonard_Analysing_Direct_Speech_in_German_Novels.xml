@@ -216,59 +216,31 @@
                 </p>
                 <div type="div2" rend="DH-Heading2">
                     <head>Direct speech in 19th Century Fiction</head>
-                    <table rend="frame" xml:id="Table3">
-                        <row>
-                            <cell rend="color(#000000)">
-                                <lb/>
                                 <figure>
                                     <graphic url="KONLE_Leonard_Analysing_Direct_Speech_in_German_Novels-fig2.png"/>
                                     <head>
                                         <lb/>Figure 2: Ratio of direct speech in German novels from 1800 – 1900.
                                     </head>
                                 </figure>
-                            </cell>
-                        </row>
-                        <row>
-                            <cell/>
-                        </row>
-                    </table>
                     <p>
                         <anchor xml:id="id_docs-internal-guid-68b34743-f5cf-6193-7f0a-062338eea011"/>Figure 2 shows the ratio of direct speech in German novels from 1800 till 1900 based on the texts from Corpus 
                         <hi rend="italic">PD</hi>. The regression line indicates a decline of direct speech over time; at the same time, we can observe a decrease of variance. The strong variations between certain years, especially in the early 19th century, are caused by low numbers of provided texts (see Fig. 3). For instance, the peak in 1805 can be explained by the first publication of Denis Diderots ”Herrn Rameaus Neffe”, a philosophical dialogue-based novel.
                     </p>
-                    <table rend="frame" xml:id="Table4">
-                        <row>
-                            <cell rend="center color(#000000)">
                                 <figure>
                                     <graphic url="KONLE_Leonard_Analysing_Direct_Speech_in_German_Novels-fig3.png"/>
                                     <head>
                                         <lb/>Figure 3: Number of provided novels per year.
                                     </head>
                                 </figure>
-                            </cell>
-                        </row>
-                        <row>
-                            <cell/>
-                        </row>
-                    </table>
                 </div>
                 <div type="div2" rend="DH-Heading2">
                     <head>Distribution of direct speech in low and high brow literature</head>
-                    <table rend="frame" xml:id="Table5">
-                        <row>
-                            <cell rend="color(#000000)">
                                 <figure>
                                     <graphic url="KONLE_Leonard_Analysing_Direct_Speech_in_German_Novels-fig4.png"/>
                                     <head>
                                         <lb/>Figure 4: Ratio of direct speech in German low and high brow novels after 1945.
                                     </head>
                                 </figure>
-                            </cell>
-                        </row>
-                        <row>
-                            <cell/>
-                        </row>
-                    </table>
                     <p>
                         <anchor xml:id="id_docs-internal-guid-68b34743-f5cf-f881-8f33-e5d9f49c797b"/>There is an assumption in literary studies that a huge amount of direct speech is an indicator of low brow fiction. Figure 4 shows the ratio of direct speech between Corpus 
                         <hi rend="italic">LB</hi> and 

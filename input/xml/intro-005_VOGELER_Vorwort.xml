@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
-    xml:id="VOGELER_Vorwort">
+    xml:id="intro-005_VOGELER_Vorwort">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -32,13 +32,30 @@
                 <p>Born digital</p>
             </sourceDesc>
         </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="original" n="category">
+                    <term>Intro</term>
+                </keywords>
+                <keywords scheme="original" n="subcategory">
+                    <term>Vorwort</term>
+                </keywords>
+                <keywords scheme="original" n="topic">
+                    <term></term>
+                </keywords>
+                <keywords scheme="original" n="keywords">
+                    <term></term>
+                </keywords>
+            </textClass>
+        </profileDesc>
     </teiHeader>
-    <text>
+    <text type="intro" n="single">
         <body>
             <div>
                 <p>Das „Book of Abstracts“ war in der jungen Tradition der DHd zunächst eher ein Nebenprodukt des Bewerbungsprozesses. Die Professionalisierung unserer Disziplin hat nun dazu geführt, dass für die DHd 2018 in Köln die Ansprüche an die Qualität der Beiträge gestiegen sind. Damit geht einher, dass die Vorschläge immer mehr ihre guten Ideen mit den üblichen Argumentationsmustern und äußeren Formen wissenschaftlichen Arbeitens entwickeln, also die Standards einer wissenschaftlichen Publikation erfüllen. Das „Book of Abstracts“ wird also klassischen „Conference Proceedings“ immer ähnlicher. Das ist eine zu begrüßende Entwicklung. Sie trägt hoffentlich auch dazu bei, die auf der DHd 2018 vorgestellten Forschungsergebnisse im weiteren wissenschaftlichen Diskurs zu aufzugreifen und zu referenzieren.</p>
                 <p>Ein solcher Status hat auch etwas mit einer gründlichen Redaktion der Texte zu tun. Diese haben die Kölner Patrick Helling, Claes Neuefeind und Dana Persch geleistet. Sie haben die Vielfalt der TEI-Kodierungen, die der DHconvalidator aus der Vielfalt der eingereichten Dateiformatierungen erzeugte, angeglichen und daraus ein PDF erzeugt. Für die technische Abwicklung konnten Sie auf die Vorarbeiten der Leipziger Kolleginnen und Kollegen aufbauen. Ihrer aller Arbeit ist in diesem Band und in einem github-Repository (<ref target="https://github.com/GVogeler/DHd2018">https://github.com/GVogeler/DHd2018</ref>) dokumentiert. Ihnen gebührt deshalb ganz ausdrücklicher Dank!</p>
-                <dateline>Graz, Februar 2018</dateline>
+                <p>&#160;</p>
+                <dateline>Graz, Februar 2018</dateline><lb/>
                 <signed>Georg Vogeler<lb/>Vorsitzender des Programmkomitees</signed>
             </div>
         </body>
