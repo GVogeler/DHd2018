@@ -161,7 +161,7 @@
 
   <xsl:template name="superscript">
     <xsl:attribute name="vertical-align">super</xsl:attribute>
-    <xsl:attribute name="font-size">8pt</xsl:attribute>
+    <xsl:attribute name="font-size">6pt</xsl:attribute>
   </xsl:template>
 
   <xsl:template name="subscript">
@@ -1556,9 +1556,9 @@
       <xsl:when test="starts-with(@target, 'ftn')">
         <fo:inline><xsl:call-template name="superscript"/>
           <xsl:value-of select="@n"/>
-          <xsl:text> </xsl:text>
+          <xsl:text></xsl:text>
         <xsl:apply-templates/>
-        <xsl:text> </xsl:text></fo:inline>
+        <xsl:text></xsl:text></fo:inline>
       </xsl:when>
       <xsl:when test="starts-with(@target, 'http')">
         <xsl:text> </xsl:text>
@@ -1577,9 +1577,9 @@
       <xsl:when test="starts-with(@target, 'ftn')">
         <fo:inline><xsl:call-template name="superscript"/>
           <xsl:value-of select="@n"/>
-          <xsl:text> </xsl:text>
+          <xsl:text></xsl:text>
           <xsl:apply-templates/>
-          <xsl:text> </xsl:text></fo:inline>
+          <xsl:text></xsl:text></fo:inline>
       </xsl:when>
       <xsl:when test="starts-with(@target, 'http')">
         <xsl:text> </xsl:text>
