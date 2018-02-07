@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://jetson.unl.edu/cdrh/schemas/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xmt="http://www.cch.kcl.ac.uk/xmod/tei/1.0" xml:id="intro-001">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="nodisplay">Title Page</title>
+      </titleStmt>
+      <publicationStmt>
+        <t:publisher xmlns:t="http://www.tei-c.org/ns/1.0">Georg Vogeler, im Auftrag des Verbands Digital Humanities im deutschaprachigen Raum e.V.</t:publisher>
+        <t:address xmlns:t="http://www.tei-c.org/ns/1.0">
+          <t:addrLine>Universität Graz</t:addrLine>
+          <t:addrLine>Zentrum für Informationsmodellierung - Austrian Centre for Digital Humanities</t:addrLine>
+          <t:addrLine>Elisabethstraße 59/III</t:addrLine>
+          <t:addrLine>8010 Graz</t:addrLine>
+        </t:address>
+      </publicationStmt>
+      <sourceDesc>
+        <p>No source: created in electronic format.</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <textClass>
+        <keywords scheme="original" n="category">
+          <term>Intro</term>
+        </keywords>
+        <keywords scheme="original" n="subcategory">
+          <term></term>
+        </keywords>
+        <keywords scheme="original" n="topic">
+          <term></term>
+        </keywords>
+        <keywords scheme="original" n="keywords">
+          <term></term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change>
+        <date/>
+        <name/>
+        <desc/>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text type="intro" n="single">
+    <body>
+      <div>
+        <p n="intro_text_center">
+          Digital Humanities im deutschsprachigen Raum (DHd)<lb/>
+        </p>
+      </div>
+      <div>
+        <head n="intro_head_large_center">DHd 2018</head>
+        <head n="intro_head_medium_center">Kritik der digitalen Vernunft</head>
+        <p>&#160;</p>
+        <head n="intro_head_medium_italic_center">Konferenzabstracts</head>
+        <p>&#160;</p>
+        <head n="intro_head_medium_center">Universität zu Köln</head>
+        <head n="intro_head_medium_center">26. Februar bis 2. März 2018</head>
+      </div>
+    </body>
+  </text>
+</TEI>
