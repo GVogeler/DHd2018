@@ -100,33 +100,32 @@
     </teiHeader>
    <text>
         <body>
-            <p rend="heading 3">
-                <hi rend="bold color(434343)">Theorie: Lehrveranstaltung in Kooperation mit nestor</hi>
-            </p>
-            <p>Der vorgeschlagene Beitrag in der Kategorie "Poster" veranschaulicht ausgewählte Inhalte und Ergebnisse, welche im Rahmen einer Lehrveranstaltung zum Thema "Forschungsdatenmanagement und Langzeitarchivierung" (FDM und LZA) von den TeilnehmerInnen erarbeitet und präsentiert wurden. Die Übung wurde im Sommersemester 2017 am Institut für Digital Humanities (Historisch-Kulturwissenschaftliche Informationsverarbeitung) an der Universität zu Köln in Kooperation mit nestor (Network of Expertise in long-term Storage and availability of digital Resources in Germany), dem Kompetenznetzwerk für Langzeitarchivierung und Langzeitverfügbarkeit digitaler Ressourcen in Deutschland, durchgeführt (Lehrveranstaltung 2017; Nestor 2017).</p>
-            <p rend="heading 3">Praxis: Experten aus dem FDM- und LZA-Sektor</p>
-            <p>In weiterer Zusammenarbeit mit insgesamt sieben externen FDM- und LZA-Experten aus der Praxis (u.a. von GESIS, Hochschulbibliothekszentrum NRW (HBZ), Data Center for the Humanities (DCH), Forschungsdatenzentrum IANUS, Stiftung Rheinisch-Westfälisches Wirtschaftsarchiv zu Köln (RWWA)) wurden anhand konkreter Beispiele und Anwendungsfälle Fragen erörtert und Probleme dargestellt, wie Forschungsdaten nachhaltig bereitgestellt und langfristig gesichert werden können und welche Arbeitsabläufe dabei notwendig sind. In diesem Kontext wurde besonders ein Blick auf die sich derzeit etablierenden Data Professional Berufe geworfen (z.B. Data Librarian, Data Curator, Data Archivist, Data Manager, Data Scientist, Data Journalist etc.) sowie ihre jeweiligen Aufgabenprofile mit den eingeladenen Fachleuten diskutiert.</p>
-            <p>
-                <hi rend="color(434343)">Aufgabe: Kurzartikel für neue nestor-Publikationsreihe</hi>
-            </p>
-            <p>Vor diesem Hintergrund wählten die TeilnehmerInnen im Laufe der Lehrveranstaltung ein theoretisches oder praxisnahes Thema aus dem FDM- bzw. LZA-Bereich und verfassten dazu einen Beitrag, welcher in der neu entstandenen studentischen Kurzartikelreihe von nestor veröffentlicht werden wird. Von den insgesamt 20 Artikeln, deren Themenbreite von der digitalen Sicherung archäologischer Rekonstruktionen bis hin zur Transformation XML-basierter Daten reicht, werden im vorgeschlagenen Tagungsbeitrag ausgewählte Beispiele vorgestellt und visualisiert.</p>
-            <p>Beispiel: ”Informationserlebnis als Reiseerlebnis? Ein Vergleich eines Informationsinfrastrukturverbundes mit einem öffentlichen Personennahverkehrsverbund”</p>
-            <p>Sehr deutlich wird der derzeitige Zustand des Forschungsdatenmanagements, wenn man ihn mit einem öffentlichen Personennahverkehrsverbund (wie der Verkehrsverbund Rhein-Sieg, 
-                <ref target="http://www.vrsinfo.de">
-                    <hi rend="color(1155CC)">www.vrsinfo.de</hi>
-                </ref>) vergleicht. Bis zum 1. September 1987 existierten im Nahverkehr um Köln redundante Verbindungen, die nur teilweise aufeinander abgestimmt waren - viele Verkehrsbetriebe leisteten nebeneinander ihren Dienst. Mit dem Verkehrsverbund war es möglich, Angebote aufeinander abzustimmen und Ortsverbindungen besser zu koordinieren. Eine ähnliche Entwicklung im Forschungsdatenmanagement wird in diesem Aufsatz vorgeschlagen, mit Verweis auf die Nationale Forschungsdateninfrastruktur (NFDI) (Rat 2016).
-            </p>
-            <figure>
-                <graphic n="1001"
-                     width="16.002cm"
-                     height="11.311819444444444cm"
-                     rend="inline"
-                     url="KRONENWETT_Simone_Die_Macht_der_Daten___vom_konsequenten_Umg-image1.png"/>
-            </figure>
-            <p>Bildquelle: Eigene Darstellung</p>
-            <p>Zusammenfassung</p>
-            <p>Es bleibt festzuhalten, dass die Digital Humanities ein sehr weites und schwer ab- und eingrenzbares Feld darstellen. Hiervon sind Forschungsdatenmanagement und Langzeitarchivierung nur zwei - augenscheinlich kleine - Themenbereiche, die ihrerseits heterogener kaum sein können. Diese Heterogenität begründet sich in der Mannigfaltigkeit der Daten und kommt in der Vielfalt der Themenbereiche und Tätigkeitsfelder zum Ausdruck. Dies wurde in der Lehrveranstaltung an zahlreichen Fallbeispielen deutlich und spiegelt sich erneut in den eingereichten Studierendenbeiträgen wider.</p>
-            <p>Des Weiteren lässt sich eine hohe Dynamik in diesen Feldern spüren. Schon allein in der stetig steigenden Zahl von Stellenanzeigen, die nach qualifizierten Fachkräften werben, aber auch in der Zahl der Ansätze, Normierungsversuche und Leitlinien, die zu einem bewusst nachhaltigen Umgang mit Daten anhalten sollen. Diese werden sowohl von oben herab (top-down) vorgeschrieben, als auch seitens der betroffenen Institutionen (bottom-up) betrieben. Das Ziel ist allen gemeinsam: der stetig steigenden Zahl von Forschungsdaten Herr zu werden, Forschungsdaten langfristig zu sichern und nachhaltig bereitzustellen.</p>
+            <div type="div1" rend="DH-Heading1">
+                <head>Theorie: Lehrveranstaltung in Kooperation mit nestor</head>
+                <p>Der vorgeschlagene Beitrag in der Kategorie "Poster" veranschaulicht ausgewählte Inhalte und Ergebnisse, welche im Rahmen einer Lehrveranstaltung zum Thema "Forschungsdatenmanagement und Langzeitarchivierung" (FDM und LZA) von den TeilnehmerInnen erarbeitet und präsentiert wurden. Die Übung wurde im Sommersemester 2017 am Institut für Digital Humanities (Historisch-Kulturwissenschaftliche Informationsverarbeitung) an der Universität zu Köln in Kooperation mit nestor (Network of Expertise in long-term Storage and availability of digital Resources in Germany), dem Kompetenznetzwerk für Langzeitarchivierung und Langzeitverfügbarkeit digitaler Ressourcen in Deutschland, durchgeführt (Lehrveranstaltung 2017; Nestor 2017).</p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Praxis: Experten aus dem FDM- und LZA-Sektor</head>
+                <p>In weiterer Zusammenarbeit mit insgesamt sieben externen FDM- und LZA-Experten aus der Praxis (u.a. von GESIS, Hochschulbibliothekszentrum NRW (HBZ), Data Center for the Humanities (DCH), Forschungsdatenzentrum IANUS, Stiftung Rheinisch-Westfälisches Wirtschaftsarchiv zu Köln (RWWA)) wurden anhand konkreter Beispiele und Anwendungsfälle Fragen erörtert und Probleme dargestellt, wie Forschungsdaten nachhaltig bereitgestellt und langfristig gesichert werden können und welche Arbeitsabläufe dabei notwendig sind. In diesem Kontext wurde besonders ein Blick auf die sich derzeit etablierenden Data Professional Berufe geworfen (z.B. Data Librarian, Data Curator, Data Archivist, Data Manager, Data Scientist, Data Journalist etc.) sowie ihre jeweiligen Aufgabenprofile mit den eingeladenen Fachleuten diskutiert.</p>
+                <p>Aufgabe: Kurzartikel für neue nestor-Publikationsreihe
+                </p>
+                <p>Vor diesem Hintergrund wählten die TeilnehmerInnen im Laufe der Lehrveranstaltung ein theoretisches oder praxisnahes Thema aus dem FDM- bzw. LZA-Bereich und verfassten dazu einen Beitrag, welcher in der neu entstandenen studentischen Kurzartikelreihe von nestor veröffentlicht werden wird. Von den insgesamt 20 Artikeln, deren Themenbreite von der digitalen Sicherung archäologischer Rekonstruktionen bis hin zur Transformation XML-basierter Daten reicht, werden im vorgeschlagenen Tagungsbeitrag ausgewählte Beispiele vorgestellt und visualisiert.</p>
+                <p>Beispiel: ”Informationserlebnis als Reiseerlebnis? Ein Vergleich eines Informationsinfrastrukturverbundes mit einem öffentlichen Personennahverkehrsverbund”</p>
+                <p>Sehr deutlich wird der derzeitige Zustand des Forschungsdatenmanagements, wenn man ihn mit einem öffentlichen Personennahverkehrsverbund (wie der Verkehrsverbund Rhein-Sieg, 
+                    <ref target="http://www.vrsinfo.de">www.vrsinfo.de</ref>) vergleicht. Bis zum 1. September 1987 existierten im Nahverkehr um Köln redundante Verbindungen, die nur teilweise aufeinander abgestimmt waren - viele Verkehrsbetriebe leisteten nebeneinander ihren Dienst. Mit dem Verkehrsverbund war es möglich, Angebote aufeinander abzustimmen und Ortsverbindungen besser zu koordinieren. Eine ähnliche Entwicklung im Forschungsdatenmanagement wird in diesem Aufsatz vorgeschlagen, mit Verweis auf die Nationale Forschungsdateninfrastruktur (NFDI) (Rat 2016).
+                </p>
+                <figure>
+                    <graphic n="1001"
+                         width="16.002cm"
+                         height="11.311819444444444cm"
+                         rend="inline"
+                         url="KRONENWETT_Simone_Die_Macht_der_Daten___vom_konsequenten_Umg-image1.png"/>
+                    <head>Bildquelle: Eigene Darstellung</head>
+                </figure>
+                <p>Zusammenfassung</p>
+                <p>Es bleibt festzuhalten, dass die Digital Humanities ein sehr weites und schwer ab- und eingrenzbares Feld darstellen. Hiervon sind Forschungsdatenmanagement und Langzeitarchivierung nur zwei - augenscheinlich kleine - Themenbereiche, die ihrerseits heterogener kaum sein können. Diese Heterogenität begründet sich in der Mannigfaltigkeit der Daten und kommt in der Vielfalt der Themenbereiche und Tätigkeitsfelder zum Ausdruck. Dies wurde in der Lehrveranstaltung an zahlreichen Fallbeispielen deutlich und spiegelt sich erneut in den eingereichten Studierendenbeiträgen wider.</p>
+                <p>Des Weiteren lässt sich eine hohe Dynamik in diesen Feldern spüren. Schon allein in der stetig steigenden Zahl von Stellenanzeigen, die nach qualifizierten Fachkräften werben, aber auch in der Zahl der Ansätze, Normierungsversuche und Leitlinien, die zu einem bewusst nachhaltigen Umgang mit Daten anhalten sollen. Diese werden sowohl von oben herab (top-down) vorgeschrieben, als auch seitens der betroffenen Institutionen (bottom-up) betrieben. Das Ziel ist allen gemeinsam: der stetig steigenden Zahl von Forschungsdaten Herr zu werden, Forschungsdaten langfristig zu sichern und nachhaltig bereitzustellen.</p>
+            </div>
         </body>
         <back>
          <div type="bibliogr">
@@ -134,32 +133,25 @@
                     <head>Bibliographie</head>
                     <bibl>
                         <hi rend="bold">Büttner, Stephan / Hobohm, Hans-Christoph / Müller, Lars</hi> (Hrsg.) (2011): “Handbuch Forschungsdatenmanagement”, Bad Honnef: Bock + Herchen, 
-                        <ref target="http://www.forschungsdatenmanagement.de/">
-                            <hi rend="color(1155CC)">http://www.forschungsdatenmanagement.de/</hi>
-                        </ref>  [zuletzt aufgerufen am 20.09.2017]
+                        <ref target="http://www.forschungsdatenmanagement.de/">http://www.forschungsdatenmanagement.de/</ref> [zuletzt aufgerufen am 20.09.2017]
                     </bibl>
                     <bibl>
                         <hi rend="bold">Lehrveranstaltung “Forschungsdatenmanagement und Langzeitarchivierung”</hi> (2017), Universität zu Köln, Institut für Digital Humanities (Historisch-Kulturwissenschaftliche Informationsverarbeitung), Sommersemester 2017, Homepage, 
-                        <ref target="http://www.lehre.jan-wieners.de/sosem17-fdm-lza/">
-                            <hi rend="color(1155CC)">http://www.lehre.jan-wieners.de/sosem17-fdm-lza/</hi>
-                        </ref> [zuletzt aufgerufen am 20.09.2017]
+                        <ref target="http://www.lehre.jan-wieners.de/sosem17-fdm-lza/">http://www.lehre.jan-wieners.de/sosem17-fdm-lza/</ref> [zuletzt aufgerufen am 20.09.2017]
                     </bibl>
                     <bibl>
                         <hi rend="bold">Nestor</hi> (Network of Expertise in long-term Storage and availability of digital Resources in Germany) (2017), Homepage, 
-                        <ref target="http://www.langzeitarchivierung.de/Subsites/nestor/DE/Home/home_node.html">
-                            <hi rend="color(1155CC)">http://www.langzeitarchivierung.de/Subsites/nestor/DE/Home/home_node.html</hi>
+                        <ref target="http://www.langzeitarchivierung.de/Subsites/nestor/DE/Home/home_node.html">http://www.langzeitarchivierung.de/Subsites/nestor/DE/Home/home_node.html
                         </ref>, [zuletzt aufgerufen am 22.09.2017]
                     </bibl>
                     <bibl>
                         <hi rend="bold">Neuroth, Heike / Strathmann, Stefan / Oßwald, Achim et al. </hi>(Hrsg.) (2012): “Langzeitarchivierung von Forschungsdaten. Eine Bestandsaufnahme”, Version 1.0, Boizenburg: Verlag Werner Hülsbuch, 
-                        <ref target="http://nestor.sub.uni-goettingen.de/bestandsaufnahme/">
-                            <hi rend="color(1155CC)">http://nestor.sub.uni-goettingen.de/bestandsaufnahme/</hi>
+                        <ref target="http://nestor.sub.uni-goettingen.de/bestandsaufnahme/">http://nestor.sub.uni-goettingen.de/bestandsaufnahme/
                         </ref> [zuletzt aufgerufen am 20.09.2017]
                     </bibl>
                     <bibl>
                         <hi rend="bold">Rat für Informationsinfrastrukturen</hi> (2016): “Leistung aus Vielfalt. Empfehlungen zu Strukturen, Prozessen und Finanzierung des Forschungsdatenmanagements in Deutschland”, Göttingen, 
-                        <ref target="http://www.rfii.de/?wpdmdl=1998">
-                            <hi rend="color(1155CC)">http://www.rfii.de/?wpdmdl=1998</hi>
+                        <ref target="http://www.rfii.de/?wpdmdl=1998">http://www.rfii.de/?wpdmdl=1998
                         </ref> [zuletzt aufgerufen am 20.09.2017]
                     </bibl>
                     <bibl>

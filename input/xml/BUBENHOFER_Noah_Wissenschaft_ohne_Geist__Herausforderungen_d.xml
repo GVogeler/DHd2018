@@ -108,27 +108,27 @@
          <div type="bibliogr">
                 <listBibl>
                     <head>Bibliographie</head>
-                    <bibl rend="Literaturverzeichnis1">Bubenhofer, Noah (im Druck a): Wenn „Linguistik“ in „Korpuslinguistik“ bedeutungslos wird. Vier Thesen zur Zukunft der Korpuslinguistik. In: Osnabrücker Beiträge zur Sprachtheorie (OBST).</bibl>
-                    <bibl rend="Literaturverzeichnis1">Bubenhofer, Noah (im Druck b): Visual Linguistics: Plädoyer für ein neues Forschungsfeld. In: Bubenhofer, Noah / Kupietz, Marc (Hg.): Visualisierung sprachlicher Daten. Heidelberg: HeiUP.</bibl>
-                    <bibl rend="Literaturverzeichnis1">Büttner, Andreas / Dimpel, Friedrich Michael / Evert, Stefan / Jannidis, Fotis / Pielström, Steffen / Proisl, Thomas / Reger, Isabella / Schöch, Christof / Vitt, Thorsten (2017): »Delta« in der stilometrischen Autorschaftsattribution. In: Zeitschrift für digitale Geisteswissenschaften. text/html Format. DOI: 10.17175/2017_006.</bibl>
-                    <bibl rend="Literaturverzeichnis1">Honneth, Axel (2016): Denaturierung der Lebenswelt. Vom dreifachen Nutzen der Geisteswissenschaften. In: Panteos, A./Rojek, T. (Hrsg.): 
+                    <bibl><hi rend="bold">Bubenhofer, Noah </hi>(im Druck a): Wenn „Linguistik“ in „Korpuslinguistik“ bedeutungslos wird. Vier Thesen zur Zukunft der Korpuslinguistik. In: Osnabrücker Beiträge zur Sprachtheorie (OBST).</bibl>
+                    <bibl><hi rend="bold">Bubenhofer, Noah </hi>(im Druck b): Visual Linguistics: Plädoyer für ein neues Forschungsfeld. In: Bubenhofer, Noah / Kupietz, Marc (Hg.): Visualisierung sprachlicher Daten. Heidelberg: HeiUP.</bibl>
+                    <bibl><hi rend="bold">Büttner, Andreas / Dimpel, Friedrich Michael / Evert, Stefan / Jannidis, Fotis / Pielström, Steffen / Proisl, Thomas / Reger, Isabella / Schöch, Christof / Vitt, Thorsten </hi>(2017): »Delta« in der stilometrischen Autorschaftsattribution. In: Zeitschrift für digitale Geisteswissenschaften. text/html Format. DOI: 10.17175/2017_006.</bibl>
+                    <bibl><hi rend="bold">Honneth, Axel </hi>(2016): Denaturierung der Lebenswelt. Vom dreifachen Nutzen der Geisteswissenschaften. In: Panteos, A./Rojek, T. (Hrsg.): 
                         <hi rend="italic">Texte zur Theorie der Geisteswissenschaften</hi>, 
                         <hi rend="italic">Reclams Universal-Bibliothek</hi>. Stuttgart : Reclam, S. 283–315
                     </bibl>
-                    <bibl rend="Literaturverzeichnis1">Krämer, Sybille (2016): 
+                    <bibl><hi rend="bold">Krämer, Sybille </hi>(2016): 
                         <hi rend="italic">Figuration, Anschauung, Erkenntnis: Grundlinien einer Diagrammatologie.</hi> Frankfurt/Main: Suhrkamp Verlag.
                     </bibl>
-                    <bibl rend="Literaturverzeichnis1">Nakov, Preslav/Ritter, Alan/Rosenthal, Sara/Stoyanov, Veselin/Sebastiani, Fabrizio (2016): SemEval-2016 Task 4: Sentiment Analysis in Twitter. In: 
+                    <bibl><hi rend="bold">Nakov, Preslav/Ritter, Alan/Rosenthal, Sara/Stoyanov, Veselin/Sebastiani, Fabrizio </hi>(2016): SemEval-2016 Task 4: Sentiment Analysis in Twitter. In: 
                         <hi rend="italic">Proceedings of the 10th International Workshop on Semantic Evaluation</hi>, 
                         <hi rend="italic">SemEval ’16</hi>. San Diego, California : Association for Computational Linguistics.
                     </bibl>
-                    <bibl rend="Literaturverzeichnis1">Siegel, Steffen (2009): 
+                    <bibl><hi rend="bold">Siegel, Steffen </hi>(2009): 
                         <hi rend="italic">Tabula: Figuren der Ordnung um 1600</hi>. Berlin / Boston : Akademie-Verlag.
                     </bibl>
-                    <bibl rend="Literaturverzeichnis1">Stamatatos, Efstathios (2009): A Survey of Modern Authorship Attribution Methods. In: 
+                    <bibl><hi rend="bold">Stamatatos, Efstathios </hi>(2009): A Survey of Modern Authorship Attribution Methods. In: 
                         <hi rend="italic">J. Am. Soc. Inf. Sci. Technol.</hi> Bd. 60, Nr. 3, S. 538–556
                     </bibl>
-                    <bibl rend="Literaturverzeichnis1">Steinseifer, Martin (2013): Texte sehen – Diagrammatologische Impulse für die Textlinguistik. In: 
+                    <bibl><hi rend="bold">Steinseifer, Martin </hi>(2013): Texte sehen – Diagrammatologische Impulse für die Textlinguistik. In: 
                         <hi rend="italic">Zeitschrift für germanistische Linguistik</hi> Bd. 41, Nr. 1, S. 8–39
                     </bibl>
                 </listBibl>

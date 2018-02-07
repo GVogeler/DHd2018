@@ -216,10 +216,10 @@
          <div type="bibliogr">
                 <listBibl>
                     <head>Bibliographie</head>
-                    <bibl>Schreibman, Susan / Ray Siemens, John Unsworth. ed. (2004): A Companion to Digital Humanites. Oxford: Blackwell.</bibl>
-                    <bibl>Oldman, Dominic /Doerr, Martin/ Gradmann, Stefan (2016): "Zen and the Art of Linked Data: New Strategies for a Semantc Web of Humanist Knowledge", in: Susan Schreibman/Ray Siemens/John Unsworth e. (2016): A New Companion to Digital Humanites, 2nd Editon. 2012. Oxford: Wiley-Blackwell</bibl>
-                    <bibl>Navigli Roberto / Ponzeto Simone P. (2012): "BabelNet: The Automatc Constructon, Evaluaton and Applicaton of a Wide-Coverage Multlingual Semantc Network", in: Artificial Intelligence, 193, Elsevier, 2012, pp. 217-250.</bibl>
-                    <bibl>McCrae,  John / Aguado-de-Cea, Guadalupe / Buitelaar, Paul / Cimiano, Philipp / Declerck, Thierry / Gómez-Pérez, Asunción / Gracia, Jorge / Hollink, Laura /Montel-Ponsoda, Elena / Spohr, Dennis / Wunner, Tobias (2012): "Interchanging lexical resources on the Semantc Web", in: Language Resources and Evaluaton, 46(6), pp 701-709, (2012).</bibl>
+                    <bibl><hi rend="bold">Schreibman, Susan / Ray Siemens, John Unsworth. ed. </hi>(2004): A Companion to Digital Humanites. Oxford: Blackwell.</bibl>
+                    <bibl><hi rend="bold">Oldman, Dominic /Doerr, Martin/ Gradmann, Stefan </hi>(2016): "Zen and the Art of Linked Data: New Strategies for a Semantc Web of Humanist Knowledge", in: Susan Schreibman/Ray Siemens/John Unsworth e. (2016): A New Companion to Digital Humanites, 2nd Editon. 2012. Oxford: Wiley-Blackwell</bibl>
+                    <bibl><hi rend="bold">Navigli Roberto / Ponzeto Simone P. </hi>(2012): "BabelNet: The Automatc Constructon, Evaluaton and Applicaton of a Wide-Coverage Multlingual Semantc Network", in: Artificial Intelligence, 193, Elsevier, 2012, pp. 217-250.</bibl>
+                    <bibl><hi rend="bold">McCrae,  John / Aguado-de-Cea, Guadalupe / Buitelaar, Paul / Cimiano, Philipp / Declerck, Thierry / Gómez-Pérez, Asunción / Gracia, Jorge / Hollink, Laura /Montel-Ponsoda, Elena / Spohr, Dennis / Wunner, Tobias </hi>(2012): "Interchanging lexical resources on the Semantc Web", in: Language Resources and Evaluaton, 46(6), pp 701-709, (2012).</bibl>
                 </listBibl>
             </div>
       </back>

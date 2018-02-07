@@ -133,16 +133,13 @@
                 <div type="div2" rend="DH-Heading2">
                     <head>Korpus und Datenaufbereitung</head>
                     <p>In dieser Arbeit wurde ein Korpus bestehend aus 452 Liedtexten mit einem Umfang von 133.045 Tokens untersucht, die Bob Dylan zwischen den Jahren 1962 und 2016 auf Studio-Alben veröffentlicht hat. Die Liedtexte und Metainformationen wie etwa Titel, Album und Jahr stammen von der Plattform 
-                        <hi rend="italic">LyricsWikia</hi>
-                        <ref target="ftn1" n="1"/>. Da es sich bei 
+                        <hi rend="italic">LyricsWikia</hi><ref target="ftn1" n="1"/>. Da es sich bei 
                         <hi rend="italic">LyricsWikia</hi> um ein community-gestütztes Projekt handelt, erfolgte vorab ein stichprobenartiger Abgleich einzelner Lieder mit den offiziellen Texten nach 
                         <?biblio ADDIN CSL_CITATION { "citationItems" : [ { "id" : "ITEM-1", "itemData" : { "ISBN" : "9781451648768", "abstract" : "Simon & Schuster hardcover edition. Includes index. This collection contains Bob Dylan's lyrics, from his first album, Bob Dylan, to 2012's Tempest. Bob Dylan -- The freewheelin' Bob Dylan -- The times they are a-changin' -- Another side of Bob Dylan -- Bringing it all back home -- Highway 61 revisited -- Blonde on blonde -- John Wesley Harding -- Nashville skyline -- Self portrait -- New morning -- The basement tapes -- Pat Garrett & Billy the Kid -- Planet waves -- Blood on the tracks -- Desire -- Street legal -- Slow train coming -- Saved -- Shot of love -- Infidels -- Empire burlesque -- Knocked out loaded -- Down in the groove -- Oh mercy -- Under the red sky -- Time out of mind -- \"Love and theft\" -- Modern times -- Together through life -- Tempest.", "author" : [ { "dropping-particle" : "", "family" : "Dylan", "given" : "Bob", "non-dropping-particle" : "", "parse-names" : false, "suffix" : "" } ], "id" : "ITEM-1", "issued" : { "date-parts" : [ [ "2016" ] ] }, "number-of-pages" : "679", "publisher" : "Simon & Schuster", "publisher-place" : "New York", "title" : "The lyrics: 1961-2012", "type" : "book" }, "uris" : [ "http://www.mendeley.com/documents/?uuid=9cc32a94-9b6b-3b51-a81b-ef38129e8570" ] } ], "mendeley" : { "formattedCitation" : "(Dylan 2016)", "manualFormatting" : "Dylan (2016)", "plainTextFormattedCitation" : "(Dylan 2016)", "previouslyFormattedCitation" : "(Dylan 2016)" }, "properties" : { "noteIndex" : 0 }, "schema" : "https://github.com/citation-style-language/schema/raw/master/csl-citation.json" }?>, wobei keinerlei Abweichungen festgestellt werden konnten. 
                     </p>
                     <p>Das Korpus wurde weiterhin mit Methoden der Computerlinguistik aufbereitet, insbesondere unter Verwendung des 
-                        <hi rend="italic">Python Natural Language Toolkits</hi> (NLTK
-                        <ref target="ftn2" n="2"/>). Die Verarbeitung des Korpus umfasst die grundlegende Lemmatisierung mit dem 
-                        <hi rend="italic">WordNet-Lemmatizer</hi> (Teil des NLTK) und eine Stoppwortbereinigung (NLTK-Stoppwortliste für Englisch mit eigener Erweiterung
-                        <ref target="ftn3" n="3"/>) sowie die Wortartenannotation mithilfe des 
+                        <hi rend="italic">Python Natural Language Toolkits</hi> (NLTK<ref target="ftn2" n="2"/>). Die Verarbeitung des Korpus umfasst die grundlegende Lemmatisierung mit dem 
+                        <hi rend="italic">WordNet-Lemmatizer</hi> (Teil des NLTK) und eine Stoppwortbereinigung (NLTK-Stoppwortliste für Englisch mit eigener Erweiterung<ref target="ftn3" n="3"/>) sowie die Wortartenannotation mithilfe des 
                         <hi rend="italic">Stanford Log-linear Part-of-Speech-Taggers</hi>
                         <?biblio ADDIN CSL_CITATION { "citationItems" : [ { "id" : "ITEM-1", "itemData" : { "DOI" : "10.3115/1073445.1073478", "abstract" : "We present a new part-of-speech tagger that demonstrates the following ideas: (i) explicit use of both preceding and following tag contexts via a dependency network representation, (ii) broad use of lexical features, including jointly conditioning on multiple consecutive words, (iii) effective use of priors in conditional loglinear models, and (iv) \ufb01ne-grained modeling of unknown word features. Using these ideas together, the resulting tagger gives a 97.24% accuracy on the Penn Treebank WSJ, an error reduction of 4.4% on the best previous single automatically learned tagging result", "author" : [ { "dropping-particle" : "", "family" : "Toutanova", "given" : "Kristina", "non-dropping-particle" : "", "parse-names" : false, "suffix" : "" }, { "dropping-particle" : "", "family" : "Klein", "given" : "Dan", "non-dropping-particle" : "", "parse-names" : false, "suffix" : "" }, { "dropping-particle" : "", "family" : "Manning", "given" : "Christopher D", "non-dropping-particle" : "", "parse-names" : false, "suffix" : "" } ], "container-title" : "Proceedings of the 2003 Conference of the North American Chapter of the Association for Computational Linguistics on Human Language Technology - Volume 1 (NAACL '03),", "id" : "ITEM-1", "issued" : { "date-parts" : [ [ "2003" ] ] }, "note" : "NULL", "page" : "252-259", "title" : "Feature-rich part-of-speech tagging with a cyclic dependency network", "type" : "article-journal" }, "uris" : [ "http://www.mendeley.com/documents/?uuid=52a7cd62-5322-3e6b-b133-3b9229721a06" ] } ], "mendeley" : { "formattedCitation" : "(Toutanova et al. 2003)", "plainTextFormattedCitation" : "(Toutanova et al. 2003)", "previouslyFormattedCitation" : "(Toutanova et al. 2003)" }, "properties" : { "noteIndex" : 0 }, "schema" : "https://github.com/citation-style-language/schema/raw/master/csl-citation.json" }?>. Da Dylan in seinen Texten häufig umgangssprachliche Formulierungen wie etwa verkürzte Gerundformen (bspw. „savin“, „swimmin“) verwendet, wurde für den POS-Tagger ein Modell verwendet, welches auf der Grundlage von Twitter-Texten trainiert wurde und gute Ergebnisse für Texte mit nicht-standardisiertem Vokabular und Slang liefert 
                         <?biblio ADDIN CSL_CITATION { "citationItems" : [ { "id" : "ITEM-1", "itemData" : { "ISSN" : "13138502", "abstract" : "Part-of-speech information is a pre-requisite in many NLP algorithms. However, Twitter text is difficult to part-of-speech tag: it is noisy, with linguistic errors and idiosyncratic style. We present a detailed error analysis of existing taggers, motivating a series of tagger augmentations which are demonstrated to improve performance. We identify and evaluate techniques for improving English part-of-speech tagging performance in this genre. Further, we present a novel approach to system combination for the case where available taggers use different tagsets, based on voteconstrained bootstrapping with unlabeled data. Coupled with assigning prior probabilities to some tokens and handling of unknown words and slang, we reach 88.7% tagging accuracy (90.5% on development data). This is a new high in PTB-compatible tweet part-of-speech tagging, reducing token error by 26.8% and sentence error by 12.2%. The model, training data and tools are made available.", "author" : [ { "dropping-particle" : "", "family" : "Derczynski", "given" : "Leon", "non-dropping-particle" : "", "parse-names" : false, "suffix" : "" }, { "dropping-particle" : "", "family" : "Ritter", "given" : "Alan", "non-dropping-particle" : "", "parse-names" : false, "suffix" : "" }, { "dropping-particle" : "", "family" : "Clark", "given" : "Sam", "non-dropping-particle" : "", "parse-names" : false, "suffix" : "" }, { "dropping-particle" : "", "family" : "Bontcheva", "given" : "Kalina", "non-dropping-particle" : "", "parse-names" : false, "suffix" : "" } ], "container-title" : "Proceedings of the Recent Advances in Natural Language Processing", "id" : "ITEM-1", "issue" : "September", "issued" : { "date-parts" : [ [ "2013" ] ] }, "note" : "NULL", "page" : "198-206", "title" : "Twitter part-of-speech tagging for all: Overcoming sparse and noisy data", "type" : "article-journal" }, "uris" : [ "http://www.mendeley.com/documents/?uuid=da458a49-791e-3108-b4c5-fecd4eff7ef3" ] } ], "mendeley" : { "formattedCitation" : "(Derczynski et al. 2013)", "plainTextFormattedCitation" : "(Derczynski et al. 2013)", "previouslyFormattedCitation" : "(Derczynski et al. 2013)" }, "properties" : { "noteIndex" : 0 }, "schema" : "https://github.com/citation-style-language/schema/raw/master/csl-citation.json" }?>.
@@ -155,11 +152,7 @@
                         <p>Ein etabliertes Verfahren, um aus einem Korpus spezifische Wörter zu extrahieren, ist ein direkter Korpusvergleich mit dem 
                             <hi rend="italic">Log-Likelihood</hi>-Test 
                             <?biblio ADDIN CSL_CITATION { "citationItems" : [ { "id" : "ITEM-1", "itemData" : { "ISSN" : "09505849", "abstract" : "This paper describes a method of comparing corpora which uses frequency profiling. The method can be used to discover key words in the corpora which differentiate one corpus from another. Using annotated corpora, it can be applied to discover key grammatical or word-sense categories. This can be used as a quick way in to find the differences between the corpora and is shown to have applications in the study of social differentiation in the use of English vocabulary, profiling of learner English and document analysis in the software engineering process.", "author" : [ { "dropping-particle" : "", "family" : "Rayson", "given" : "Paul", "non-dropping-particle" : "", "parse-names" : false, "suffix" : "" }, { "dropping-particle" : "", "family" : "Garside", "given" : "Roger", "non-dropping-particle" : "", "parse-names" : false, "suffix" : "" } ], "container-title" : "Proceedings of the workshop on Comparing Corpora", "id" : "ITEM-1", "issued" : { "date-parts" : [ [ "2000" ] ] }, "page" : "1-6", "title" : "Comparing corpora using frequency profiling", "type" : "article-journal" }, "uris" : [ "http://www.mendeley.com/documents/?uuid=7709fc6d-48f1-38a5-bea3-b64510b6b5d6" ] } ], "mendeley" : { "formattedCitation" : "(Rayson & Garside 2000)", "plainTextFormattedCitation" : "(Rayson & Garside 2000)", "previouslyFormattedCitation" : "(Rayson & Garside 2000)" }, "properties" : { "noteIndex" : 0 }, "schema" : "https://github.com/citation-style-language/schema/raw/master/csl-citation.json" }?>, der sich zum Vergleich von Korpora unterschiedlicher Größe besonders eignet (Rayson, Berridge, &amp; Francis, 2004). Damit können Wörter, die im untersuchten Korpus mit einem signifikanten Frequenzunterschied zum Referenzkorpus auftreten, als Schlagworte betrachtet werden. Dies kann besonders aussagekräftige Ergebnisse liefern, wenn zusätzlich eine POS-Filterung erfolgt, womit sich beispielsweise signifikante Nomen oder Verben eines Korpus berechnen lassen. Darüber hinaus wurde eine Berechnung von N-Grammen in Form von Bi- und Trigrammen umgesetzt. Die berechneten N-Gramme lassen sich in der Web-App unter der Wahl eines Assoziationsmaßes, wie dem 
-                            <hi rend="italic">Chi Quadrat</hi>-Test, dem 
-                            <hi rend="italic">Jaccard</hi>-Test, dem 
-                            <hi rend="italic">Poisson-Stirling</hi>-Test, dem 
-                            <hi rend="italic">Likelihood Ratio</hi>-Test sowie dem 
-                            <hi rend="italic">Pointwise Mutual Information</hi>-Test anzeigen. Dabei liefert jedes Verfahren zur N-Gramm-Berechnung eigene spezifische Ergebnisse. Dieser Freiraum wird ganz bewusst erhalten, um die verschiedenen Facetten eines Texts, die ein Assoziationsmaße jeweils anzeigt, für die spätere Datenanalyse nutzen zu können.
+                            <hi rend="italic">Chi Quadrat-Test, dem Jaccard-Test, dem Poisson-Stirling-Test, dem Likelihood Ratio-Test sowie dem Pointwise Mutual Information-Test</hi> anzeigen. Dabei liefert jedes Verfahren zur N-Gramm-Berechnung eigene spezifische Ergebnisse. Dieser Freiraum wird ganz bewusst erhalten, um die verschiedenen Facetten eines Texts, die ein Assoziationsmaße jeweils anzeigt, für die spätere Datenanalyse nutzen zu können.
                         </p>
                     </div>
                     <div type="div3" rend="DH-Heading3">
@@ -170,59 +163,24 @@
                             <?biblio ADDIN CSL_CITATION { "citationItems" : [ { "id" : "ITEM-1", "itemData" : { "URL" : "http://www.anc.org/data/anc-second-release/frequency-data/", "accessed" : { "date-parts" : [ [ "2017", "3", "10" ] ] }, "author" : [ { "dropping-particle" : "", "family" : "American National Corpus Project", "given" : "", "non-dropping-particle" : "", "parse-names" : false, "suffix" : "" } ], "id" : "ITEM-1", "issued" : { "date-parts" : [ [ "2015" ] ] }, "title" : "American National Corpus. Frequency Data", "type" : "webpage" }, "uris" : [ "http://www.mendeley.com/documents/?uuid=c15fb51a-9fd2-4142-a7df-b4faa0edad15" ] } ], "mendeley" : { "formattedCitation" : "(American National Corpus Project 2015a)", "manualFormatting" : "(vgl. American National Corpus Project 2015a)", "plainTextFormattedCitation" : "(American National Corpus Project 2015a)", "previouslyFormattedCitation" : "(American National Corpus Project 2015a)" }, "properties" : { "noteIndex" : 0 }, "schema" : "https://github.com/citation-style-language/schema/raw/master/csl-citation.json" }?> und eignet sich dadurch in besonderer Weise als Vergleichskorpus für Dylans Texte, die wie bereits beschrieben einen hohen Anteil umgangssprachlicher Formulierungen und Slang-Ausdrücke enthalten.
                         </p>
                         <p>Beim Korpusvergleich kann entweder das gesamte Dylan-Korpus mit dem Referenzkorpus verglichen werden, oder mit den jeweiligen Dylan-Subkorpora, also bspw. all seinen Texten aus den 1970er-Jahren oder aus der ersten Schaffensperiode „Becoming Bob Dylan“ (1960-1964). Ein Vergleich der einzelnen Dylan-Subkorpora zum Gesamtwerk ist ebenso möglich. Letztere Option wird z.B. genutzt, um anhand jeweils signifikanter Wörter die einzelnen Schaffensperioden nach Brown (2014) zu überprüfen und damit die grundsätzliche Eignung solch quantitativer Verfahren zur Identifikation thematischer Verschiebungen zu untersuchen. Die Ergebnisse dieses Korpusvergleichs sind, zusammen mit allen anderen Ergebnissen der angewandten Analyseverfahren, in einer interaktiven Webanwendung über unterschiedliche Visualisierungen (Balkendiagramm, 
-                            <hi rend="italic">treemap, wordcloud, </hi>Tabelle
-                            <hi rend="italic">) </hi>für weitere Interpretationen zugänglich
-                            <ref target="ftn4" n="4"/>. Wie schon bei den Assoziationsmaßen, so gilt auch hier, dass jede Visualisierungsform eine bestimmte Perspektive auf die Berechnungsergebnisse eröffnet.
+                            <hi rend="italic">treemap, wordcloud, Tabelle</hi>) für weitere Interpretationen zugänglich<ref target="ftn4" n="4"/>. Wie schon bei den Assoziationsmaßen, so gilt auch hier, dass jede Visualisierungsform eine bestimmte Perspektive auf die Berechnungsergebnisse eröffnet.
                         </p>
                     </div>
                 </div>
             </div>
             <div type="div1" rend="DH-Heading1">
                 <head>Ergebnisse</head>
-                <p>Im direkten Vergleich des gesamten Dylan-Korpus (1962-2016) mit dem OANC-Referenzkorpus treten einige interessante, signifikant-häufige Wörter im Werk Dylans hervor. Die von Bob Dylan verwendeten Adjektive erzeugen in der Gesamtschau tendenziell eher eine bedrückende Stimmung (
-                    <hi rend="italic">blind</hi>, 
-                    <hi rend="italic">weary</hi>, 
-                    <hi rend="italic">lonely</hi>, 
-                    <hi rend="italic">drunken</hi>, 
-                    <hi rend="italic">scared</hi>, 
-                    <hi rend="italic">restless</hi>, 
-                    <hi rend="italic">ragged</hi>). Bei den Substantiven mischen sich unter viele Personen- und Ortsnamen auch religiöse Begriffe (
-                    <hi rend="italic">soul</hi>, 
-                    <hi rend="italic">heaven</hi>, 
-                    <hi rend="italic">devil</hi>, 
-                    <hi rend="italic">eden</hi>, 
-                    <hi rend="italic">prayer</hi>, 
-                    <hi rend="italic">paradise</hi>). Viele der übrigen Begriffe sind erwartungsgemäß typisch für Folk-Musik (
-                    <hi rend="italic">levee</hi>, 
-                    <hi rend="italic">rooster</hi>, 
-                    <hi rend="italic">train</hi>), was sich wiederum durch die Wahl des Referenzkorpus, das verschiedenartige mündliche Textquellen enthält, erklären lässt (Rayson, Berridge, &amp; Francis, 2004: 8).
+                <p>Im direkten Vergleich des gesamten Dylan-Korpus (1962-2016) mit dem OANC-Referenzkorpus treten einige interessante, signifikant-häufige Wörter im Werk Dylans hervor. Die von Bob Dylan verwendeten Adjektive erzeugen in der Gesamtschau tendenziell eher eine bedrückende Stimmung (<hi rend="italic">blind, weary, lonely, drunken, scared, restless, ragged</hi>). Bei den Substantiven mischen sich unter viele Personen- und Ortsnamen auch religiöse Begriffe (<hi rend="italic">soul, heaven, devil, eden, prayer, paradise</hi>). Viele der übrigen Begriffe sind erwartungsgemäß typisch für Folk-Musik (<hi rend="italic">levee, rooster, train</hi>), was sich wiederum durch die Wahl des Referenzkorpus, das verschiedenartige mündliche Textquellen enthält, erklären lässt (Rayson, Berridge, &amp; Francis, 2004: 8).
                 </p>
-                <p>Die Analyse signifikant-häufiger Wörter für die einzelnen Schaffensphasen Dylans liefert Ergebnisse mit hoher Aussagekraft. So fällt etwa für die Phase „The Changing of the Guard" (1978-1981), in der sich Dylan dem Christentum hinwendet, auf, dass das Vokabular tatsächlich viele christliche Motive aufweist (
-                    <hi rend="italic">lord</hi>, 
-                    <hi rend="italic">Jesus</hi>, 
-                    <hi rend="italic">devil</hi>, 
-                    <hi rend="italic">altar</hi>, 
-                    <hi rend="italic">faith</hi>, 
-                    <hi rend="italic">confession</hi>, 
-                    <hi rend="italic">grace</hi>, 
-                    <hi rend="italic">power</hi>, 
-                    <hi rend="italic">serve</hi>). Insgesamt nimmt der Anteil an „düsterem“ Vokabular in dieser Phase ab, verschwindet jedoch nicht komplett (bspw. 
-                    <hi rend="italic">shot</hi>, 
-                    <hi rend="italic">destruction</hi>). Der Anteil an hoffnungsvollen Wörtern nimmt hingegen zu (bspw. 
-                    <hi rend="italic">beginning</hi>, 
-                    <hi rend="italic">ready</hi>, 
-                    <hi rend="italic">arise</hi>, 
-                    <hi rend="italic">wake</hi>, 
-                    <hi rend="italic">thank</hi>). Bei den übrigen Schaffensphasen fallen die Ergebnisse jedoch mitunter wesentlich weniger deutlich aus.
+                <p>Die Analyse signifikant-häufiger Wörter für die einzelnen Schaffensphasen Dylans liefert Ergebnisse mit hoher Aussagekraft. So fällt etwa für die Phase „The Changing of the Guard" (1978-1981), in der sich Dylan dem Christentum hinwendet, auf, dass das Vokabular tatsächlich viele christliche Motive aufweist (<hi rend="italic">lord, Jesus, devil, altar, faith, confession, grace, power, serve</hi>). Insgesamt nimmt der Anteil an „düsterem“ Vokabular in dieser Phase ab, verschwindet jedoch nicht komplett (bspw. 
+                    <hi rend="italic">shot, destruction</hi>). Der Anteil an hoffnungsvollen Wörtern nimmt hingegen zu (bspw. 
+                    <hi rend="italic">beginning, ready, arise, wake, thank</hi>). Bei den übrigen Schaffensphasen fallen die Ergebnisse jedoch mitunter wesentlich weniger deutlich aus.
                 </p>
                 <p>Ein differenziertes Bild ergibt sich für die N-Gramm-Analyse, was einerseits der Vielfalt an verfügbaren Methoden zur Berechnung 
                     <?biblio ADDIN CSL_CITATION { "citationItems" : [ { "id" : "ITEM-1", "itemData" : { "DOI" : "10.1073/pnas.141413598", "ISBN" : "0027-8424 (Print)", "ISSN" : "00278424", "PMID" : "11447261", "abstract" : "You shall know a word by the company it keeps! With this slogan, Firth (1957) drew attention to a fact that language scholars had intuitively known for a long time: In natural language, words are not combined randomly into phrases and sentences, con- strained only by the rules of syntax. The particular ways in which they go together are a rich and important source of information both about language and about the world we live in. In the 1930s, J. R. Firth coined the term collocations for such char- acteristic, or habitual word combinations (as he called them). While Firth used to be lamentably vague about his precise understanding of this concept (cf. Lehr 1996, 21), the term itself and the general idea behind it that collocations correspond to some conventional way of saying things (Manning and Sch\u00fctze 1999, 151) were eagerly taken up by researchers in various fields, leading to the serious terminolog- ical confusion that surrounds the concept of collocations today. As Choueka puts it: even though any two lexicographers would agree that once upon a time, hit the road and similar idioms are collocations, they would most certainly disagree on al- most anything else (Choueka 1988, 4). Feel free to replace lexicographers with any profession that is concerned with language data.", "author" : [ { "dropping-particle" : "", "family" : "Evert", "given" : "Stefan", "non-dropping-particle" : "", "parse-names" : false, "suffix" : "" } ], "container-title" : "Unpublished doctoral dissertation Institut fur maschinelle Sprachverarbeitung Universitat Stuttgart", "id" : "ITEM-1", "issue" : "August 2004", "issued" : { "date-parts" : [ [ "2005" ] ] }, "page" : "353", "title" : "The Statistics of Word Cooccurrences Word Pairs and Collocations", "type" : "article-journal", "volume" : "98" }, "uris" : [ "http://www.mendeley.com/documents/?uuid=e52dba4e-b6c7-397b-80f2-2d1387b62d02" ] } ], "mendeley" : { "formattedCitation" : "(Evert 2005)", "plainTextFormattedCitation" : "(Evert 2005)", "previouslyFormattedCitation" : "(Evert 2005)" }, "properties" : { "noteIndex" : 5 }, "schema" : "https://github.com/citation-style-language/schema/raw/master/csl-citation.json" }?> und andererseits den unterschiedlichen N-Gramm-Längen geschuldet ist. Die Ergebnisse für Bigramme mit Hilfe des 
                     <hi rend="italic">Pointwise-Mutual-Information</hi>-Tests (PMI) erschienen dabei am geeignetsten, um die thematischen Schwerpunkte von Dylans Schaffensphasen nach 
                     <?biblio ADDIN CSL_CITATION { "citationItems" : [ { "id" : "ITEM-1", "itemData" : { "ISBN" : "9780810884205", "abstract" : "\"With each year, new books appear on Bob Dylan, attesting to his continuing importance as a major figure in American music and culture. Bob Dylan: American Troubadour is the first book on Dylan to look at his entire career, from his first album to his most recent, Tempest, released 50 years later in 2012. In a brief compass, Brown provides insightful critical commentary on Dylan's entire corpus, placing full scope of Dylan's career in the context of its times in order to assess the relationship of Dylan's music to contemporary American culture. Each chapter addresses a particular phase of Dylan's career, taking its cue from events in Dylan's life and from the collective experiences that shaped the times. As the artist who famously proclaimed \"the times, they are a-changin',\" Dylan was never static as an artist, his music altering as the times changed. In Bob Dylan: American Troubadour, Donald Brown follows the shifting versions of Dylan, from his songs of conscientious social involvement to more personal exploratory songs; from his influential rock albums of the mid-'60s to his adaptations of Country music; from his three very different tours in the 1970s to his \"born again\" period as a proselytizer for Christ, to his frustrations as a recording and performing artist in the 1980s; from his retrospective importance in the Nineties to the refreshingly vital albums he has been producing in the 21st century. Bob Dylan: American Troubadour will engage not only Dylan fans and students of his work but those interested American popular music, history, and culture.\"--Back cover. Becoming Bob Dylan (1960-1964) -- Electric Dylan (1965-1966) -- Rural glory -- Take me as I am (1968-1973) -- Back in the rain (1974-1978) -- The changing of the guard (1978-1981) -- Rock and roll dreams (1983-1990) -- Good enough for now (1989-1997) -- Bob Dylan revisited (2000-2012).", "author" : [ { "dropping-particle" : "", "family" : "Brown", "given" : "Donald", "non-dropping-particle" : "", "parse-names" : false, "suffix" : "" } ], "collection-title" : "Tempo, a rowman and littlefield music series on rock, pop, and culture", "id" : "ITEM-1", "issued" : { "date-parts" : [ [ "2014" ] ] }, "number-of-pages" : "267", "publisher" : "Rowman & Littlefield", "publisher-place" : "Lanham, Md. [u.a.]", "title" : "Bob Dylan: American troubadour", "type" : "book" }, "uris" : [ "http://www.mendeley.com/documents/?uuid=979f2336-35d8-300e-b66e-5220580dc90c" ] } ], "mendeley" : { "formattedCitation" : "(Brown 2014)", "manualFormatting" : "Brown (2014)", "plainTextFormattedCitation" : "(Brown 2014)", "previouslyFormattedCitation" : "(Brown 2014)" }, "properties" : { "noteIndex" : 5 }, "schema" : "https://github.com/citation-style-language/schema/raw/master/csl-citation.json" }?> nachzuvollziehen. So findet das PMI-Verfahren im Subkorpus der Phase „The Changing of the Guard“ (1978-1981) Bigramme wie 
-                    <hi rend="italic">close prayer</hi>, 
-                    <hi rend="italic">name lucifer</hi>, 
-                    <hi rend="italic">jesus good, jesus bone</hi> oder 
-                    <hi rend="italic">arise upon</hi>, die eindeutig religiöse Bezüge in Dylans Texten dieser Phase veranschaulichen. Generell fällt jedoch die Dominanz von Refrain-Versen in den Liedern bedeutend ins Gewicht (z.B. 
+                    <hi rend="italic">close prayer, name lucifer, jesus good, jesus bone oder arise upon</hi>, die eindeutig religiöse Bezüge in Dylans Texten dieser Phase veranschaulichen. Generell fällt jedoch die Dominanz von Refrain-Versen in den Liedern bedeutend ins Gewicht (z.B. 
                     <hi rend="italic">knock heaven door</hi>), was die Qualität der Ergebnisse insbesondere bei den Trigrammen beeinflusst. 
                 </p>
             </div>
@@ -274,8 +232,7 @@
                         <hi rend="italic">Unpublished doctoral dissertation Institut fur maschinelle Sprachverarbeitung Universitat Stuttgart</hi> 98: August 2004, 353. http://en.scientificcommons.org/19948039 [Letzter Zugriff 3. März 2017].
                     </bibl>
                     <bibl>
-                        <hi rend="bold">Fell, Michael</hi> / 
-                        <hi rend="bold">Sporleder, Caroline</hi> (2014): "Lyrics-based Analysis and Classification of Music", in: 
+                        <hi rend="bold">Fell, Michael / Sporleder, Caroline </hi>(2014): "Lyrics-based Analysis and Classification of Music", in: 
                         <hi rend="italic">International Conference on Computational Linguistics</hi> 25: 23–29, 620–631.
                     </bibl>
                     <bibl>
@@ -283,14 +240,11 @@
                         <hi rend="italic">Bob Dylan - Literaturnobelpreisträger wider Willen</hi>. Deutschlandradio Kultur. http://www.deutschlandradiokultur.de/bob-dylan-literaturnobelpreistraeger-wider-willen.1005.de.html?dram:article_id=373494 [Letzter Zugriff 7. März 2017].
                     </bibl>
                     <bibl>
-                        <hi rend="bold">Rayson, Paul</hi> / 
-                        <hi rend="bold">Garside, Roger</hi> (2000): "Comparing corpora using frequency profiling", in: 
+                        <hi rend="bold">Rayson, Paul / Garside, Roger </hi>(2000): "Comparing corpora using frequency profiling", in: 
                         <hi rend="italic">Proceedings of the workshop on Comparing Corpora</hi> 1–6.
                     </bibl>
                     <bibl>
-                        <hi rend="bold">Rayson, Paul </hi>/
-                        <hi rend="bold"> Berridge, Damon </hi>/
-                        <hi rend="bold"> Francis, Brian</hi> (2004): "Extending the Cochran rule for the comparison of word frequencies between corpora", in: 
+                        <hi rend="bold">Rayson, Paul / Berridge, Damon / Francis, Brian </hi>(2004): "Extending the Cochran rule for the comparison of word frequencies between corpora", in: 
                         <hi rend="italic">JADT 2004: 7es Journées internationales d’Analyse statistique des Données Textuelles:</hi> 1–12.
                     </bibl>
                     <bibl>
@@ -298,14 +252,11 @@
                         <hi rend="italic">Bob Dylan und die sechziger Jahre: Aufbruch und Abkehr</hi>. Frankfurt am Main: Fischer Taschenbuch Verlag.
                     </bibl>
                     <bibl>
-                        <hi rend="bold">Sippl, Colin </hi>/
-                        <hi rend="bold"> Burghardt, Manuel </hi>/
-                        <hi rend="bold"> Wolff, Christian / Mielke, Bettina </hi>(2016): Korpusbasierte Analyse österreichischer Parlamentsreden. In: 
+                        <hi rend="bold">Sippl, Colin / Burghardt, Manuel / Wolff, Christian / Mielke, Bettina </hi>(2016): Korpusbasierte Analyse österreichischer Parlamentsreden. In: 
                         <hi rend="italic">Netzwerke: Tagungsband des 19. Int. Rechtsinformatik Symposions IRIS 2016: 25.- 7. Feb. 2016, Univ. Salzburg, S. 139-148.</hi>
                     </bibl>
                     <bibl>
-                        <hi rend="bold">Suzuki, Takafumi</hi> / 
-                        <hi rend="bold">Hosoya, Mai</hi> (2014): "Computational Stylistic Analysis of Popular Songs of Japanese Female Singer-songwriters", in: 
+                        <hi rend="bold">Suzuki, Takafumi / Hosoya, Mai </hi>(2014): "Computational Stylistic Analysis of Popular Songs of Japanese Female Singer-songwriters", in: 
                         <hi rend="italic">Digital Humanities Quarterly</hi> 8: 1, .
                     </bibl>
                     <bibl>
@@ -313,20 +264,15 @@
                         <hi rend="italic">Der Nobelpreis in Literatur des Jahres 2016</hi>.
                     </bibl>
                     <bibl>
-                        <hi rend="bold">Taylor, Jeff</hi> / 
-                        <hi rend="bold">Israelson, Chad</hi> (2015): 
+                        <hi rend="bold">Taylor, Jeff / Israelson, Chad </hi>(2015): 
                         <hi rend="italic">The Political World of Bob Dylan: Freedom and Justice, Power and Sin</hi>. New York: Palgrave Macmillan.
                     </bibl>
                     <bibl>
-                        <hi rend="bold">Toutanova, Kristina</hi> / 
-                        <hi rend="bold">Klein, Dan</hi> / 
-                        <hi rend="bold">Manning, Christopher D</hi> (2003): "Feature-rich part-of-speech tagging with a cyclic dependency network", in: 
+                        <hi rend="bold">Toutanova, Kristina / Klein, Dan / Manning, Christopher D </hi>(2003): "Feature-rich part-of-speech tagging with a cyclic dependency network", in: 
                         <hi rend="italic">Proceedings of the 2003 Conference of the North American Chapter of the Association for Computational Linguistics on Human Language Technology - Volume 1 (NAACL ’03),</hi> 252–259. http://nlp.stanford.edu/~manning/papers/tagging.pdf [Letzter Zugriff 3. März 2017].
                     </bibl>
                     <bibl>
-                        <hi rend="bold">Wissolik, Richard David</hi> / 
-                        <hi rend="bold">McGrath, Scott.</hi> / 
-                        <hi rend="bold">Colaianne, A. J.</hi> (1994): 
+                        <hi rend="bold">Wissolik, Richard David / McGrath, Scott. / Colaianne, A. J. </hi>(1994): 
                         <hi rend="italic">Bob Dylan’s words: a critical dictionary and commentary</hi>. Greensburg, PA: Eadmer Press.
                     </bibl>
                 </listBibl>

@@ -129,8 +129,7 @@
                     <head>Bibliographie</head>
                     <bibl>
                         <hi rend="bold">Fischer, Frank / Göbel, Mathias / Kampkaspar, Dario / Kittel, Christopher / Trilcke, Peer </hi>(2016): “Distant-Reading Showcase. 200 Years of Literary Network Data at a Glance”, DHd2016, Leipzig. DOI: &lt;
-                        <ref target="https://dx.doi.org/10.6084/m9.figshare.3101203.v1">
-                            <hi rend="color(1155CC)">https://dx.doi.org/10.6084/m9.figshare.3101203.v1</hi>
+                        <ref target="https://dx.doi.org/10.6084/m9.figshare.3101203.v1">https://dx.doi.org/10.6084/m9.figshare.3101203.v1
                         </ref>&gt;.
                     </bibl>
                     <bibl>
@@ -141,8 +140,7 @@
                     </bibl>
                     <bibl>
                         <hi rend="bold">Kittel Christopher / Fischer, Frank</hi>: “dramavis v0.4” (September 2017). Repo: &lt;
-                        <ref target="https://github.com/lehkost/dramavis">
-                            <hi rend="color(1155CC)">https://github.com/lehkost/dramavis</hi>
+                        <ref target="https://github.com/lehkost/dramavis">https://github.com/lehkost/dramavis
                         </ref>&gt;.
                     </bibl>
                     <bibl>

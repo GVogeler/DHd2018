@@ -196,34 +196,34 @@
         <back>
             <div type="notes">
                 <note xml:id="ftn1" n="1">
-                    
+                    Die Zahlen geben den Akt des Dramas wieder, dem die Figurenrede entnommen ist. Abbildung 1 und Abbildung 2 wurden mit Hilfe des ‚stylo'-Pakets für R angefertigt (Eder, Kestemont, Rybicki 2013).
                 </note>
                 <note xml:id="ftn2" n="2">
-                    
+                    Alle untersuchten Dramen entstammen dem Textgrid Repository.
                 </note>
                 <note xml:id="ftn3" n="3">
-                    
+                    Inwieweit der ohnehin schwer zu fassende Begriff ‚Stil' eine gute Wahl ist, um quantitative Methoden wie das Auszählen und vergleichen von Wortlisten zu beschreiben, ist zu diskutieren. Zumal die Vorstellung eines stilistischen Fingerabdrucks falsch zu sein scheint und ‚Autorstil' eher auf vielen kleinen Signalen fußt (Jannidis 2014). 
                 </note>
                 <note xml:id="ftn4" n="4">
-                    
+                    Zum Vergleich: Fields, Bassist und Roper nutzen Blöcke von jeweils nur 200 Wörtern (2017).
                 </note>
                 <note xml:id="ftn5" n="5">
-                    
+                    Schillers Texte sollen einen Gegenpol zu den Dramen Lessings bieten. Während Lessing dezidiert für die üblichen Rollenfächer des 18. Jahrhunderts schreibt (Harris 1992), entwirft Schiller seine Figuren eher konträr zu den Rollenfächern (Detken 2014).
                 </note>
                 <note xml:id="ftn6" n="6">
-                    
+                    Die Abbildungen 3 und 4 wurden mit Hilfe des ‚DramaAnalysis'-Pakets für R erstellt (Reiter, Willand).
                 </note>
                 <note xml:id="ftn7" n="7">
-                    
+                    Zu diesem Zweck wurden fünf Wörterbücher mit 75 bis 105 Wörtern zu den Themen ‚Liebe', ‚Krieg', ‚Familie', ‚Ratio' und ‚Religion' erstellt, die dem jeweiligen Wortfeld zugehörig sind und in Dramen zwischen 1770 und 1830 verwendet wurden (Willand, Reiter 2017).
                 </note>
                 <note xml:id="ftn8" n="8">
-                    
+                    Distanzwerte von mehr als 0,01 sind die Norm.
                 </note>
                 <note xml:id="ftn9" n="9">
-                    
+                    Andere (hier nicht aufgeführte) Auswertungen zeigen allerdings, dass Ähnlichkeitssignale von Sentiment-Analysen nicht mit stilometrischen Analysen oder Wortfeldsemantiken korrelieren müssen. Sentiment-Analysen geben keine Themen wieder, sondern Werte der Empfindung, mit der Figuren über Themen sprechen. Trotz gleicher Themen können somit ganz unterschiedliche Sentiment-Werte entstehen.
                 </note>
                 <note xml:id="ftn10" n="10">
-                    
+                    Erstellt mit Hilfe des ‚syuzhet'-Pakets für R, das die Valenz auf Ebene des Satzes bestimmt (Jockers). https://github.com/mjockers/syuzhet. Die Auswertung erfolgt mit der deutschen Version des NRC Word-Emotion Association Lexicon. http://saifmohammad.com/WebPages/NRC-Emotion-Lexicon.htm.
                 </note>
             </div>
             <div type="bibliogr">

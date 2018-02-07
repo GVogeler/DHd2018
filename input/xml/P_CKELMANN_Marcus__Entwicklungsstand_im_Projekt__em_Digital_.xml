@@ -5,7 +5,7 @@
         <fileDesc>
             <titleStmt>
                 <title type="full">
-                    <title type="main"> Entwicklungsstand im Projekt &lt;em&gt;Digital Plato&lt;/em&gt;</title>
+                    <title type="main">Entwicklungsstand im Projekt <hi rend="italic">Digital Plato</hi></title>
                     <title type="sub"/>
                 </title>
                 <author>
@@ -123,9 +123,7 @@
             <div type="div1" rend="DH-Heading1">
                 <head>Einleitung</head>
                 <p>Das interdisziplinäre Forschungsprojekt 
-                    <hi rend="italic">Digital Plato</hi>
-                    <hi rend="italic">
-                        <ref target="ftn1" n="1"/>
+                    <hi rend="italic">Digital Plato<ref target="ftn1" n="1"/>
                     </hi> untersucht die Rezeption und Nachwirkung des platonischen Werkes in der griechischen Literatur bis in die Spätantike mit einem Fokus auf nicht-wörtlichen Referenzen. Der folgende Beitrag und das dazugehörige Poster geben einen Überblick über die wichtigsten Zwischenergebnisse, die während der zurückliegenden ersten Hälfte der Projektlaufzeit erzielt wurden. Neben der Organisation des Korpus sowie dessen linguistischer Anreicherung, dem Aufbau eines Wortnetzes und die Einbettung in einen Vektorraum, zählen dazu die Erfassung und Kategorisierung bekannter Referenzstellen, die Adaption der CTS zur wortgenauen Referenzierung, die theoretische Annäherung und schließlich die semi-automatische Suche nach neuen Paraphrasen.
                 </p>
             </div>
@@ -180,25 +178,25 @@
          <div type="bibliogr">
                 <listBibl>
                     <head>Bibliographie</head>
-                    <bibl>Blackwell, Christopher / Smith, Neel (2014): "The Canonical Text Service (CTS)" 
+                    <bibl><hi rend="bold">Blackwell, Christopher / Smith, Neel </hi>(2014): "The Canonical Text Service (CTS)" 
                         <ptr target="http://cite-architecture.github.io/cts/"/> [letzter Zugriff 18. September 2017].
                     </bibl>
-                    <bibl>Bohnet, Bernd / Nivre, Joakim (2012): "A Transition-Based System for Joint Part-of-Speech Tagging and Labeled Non-Projective Dependency Parsing" in: 
+                    <bibl><hi rend="bold">Bohnet, Bernd / Nivre, Joakim </hi>(2012): "A Transition-Based System for Joint Part-of-Speech Tagging and Labeled Non-Projective Dependency Parsing" in: 
                         <hi rend="italic">Proceedings of the 2012 Joint Conference on Empirical Methods in Natural Language Processing and Computational Natural Language Learning</hi>: 1455-1465.
                     </bibl>
-                    <bibl>Crane, Gregory (1991): "Generating and parsing classical greek" in: 
+                    <bibl><hi rend="bold">Crane, Gregory </hi>(1991): "Generating and parsing classical greek" in: 
                         <hi rend="italic">Literary and Linguistic Computing</hi> 6(4):243–245.
                     </bibl>
-                    <bibl>Kath, Roxana / Keilholz, Franz / Klinker, Fabian / Pöckelmann, Marcus / Rücker, Michaela / Švitek, Mihael / Wöckener-Gade, Eva / Yu, Xiaozhou (2017): "Paraphrasenerkennung im Projekt Digital Plato" in: 
+                    <bibl><hi rend="bold">Kath, Roxana / Keilholz, Franz / Klinker, Fabian / Pöckelmann, Marcus / Rücker, Michaela / Švitek, Mihael / Wöckener-Gade, Eva / Yu, Xiaozhou </hi>(2017): "Paraphrasenerkennung im Projekt Digital Plato" in: 
                         <hi rend="italic">Tagungsband der 4. Jahrestagung der Digital Humanities im deutschsprachigen Raum</hi>: 266-270.
                     </bibl>
-                    <bibl>Kusner, Matt J. / Sun, Yu / Kolkin, Nicholas I. / Weinberger, Kilian Q. (2015): "From Word Embeddings To Document Distances" in: 
+                    <bibl><hi rend="bold">Kusner, Matt J. / Sun, Yu / Kolkin, Nicholas I. / Weinberger, Kilian Q. </hi>(2015): "From Word Embeddings To Document Distances" in: 
                         <hi rend="italic">Proceedings of the 32. International Conference on Machine Learning</hi>: 957–966.
                     </bibl>
-                    <bibl>Mikolov, Tomas / Sutskever, Ilya / Chen, Kai / Corrado, Greg S. / Dean, Jeff (2013): "Distributed representations of words and phrases and their compositionality" in: 
+                    <bibl><hi rend="bold">Mikolov, Tomas / Sutskever, Ilya / Chen, Kai / Corrado, Greg S. / Dean, Jeff </hi>(2013): "Distributed representations of words and phrases and their compositionality" in: 
                         <hi rend="italic">Advances in Neural Information Processing Systems</hi> 26: 3111–3119.
                     </bibl>
-                    <bibl>Pöckelmann, Marcus / Ritter, Jörg / Wöckener-Gade, Eva / Schubert, Charlotte (2017): "Paraphrasensuche mittels word2vec und der Word Mover’s Distance im Altgriechischen"in: Digital Classics Online, Band 3, Ausgabe 3, S. 24-36.</bibl>
+                    <bibl><hi rend="bold">Pöckelmann, Marcus / Ritter, Jörg / Wöckener-Gade, Eva / Schubert, Charlotte </hi>(2017): "Paraphrasensuche mittels word2vec und der Word Mover’s Distance im Altgriechischen"in: Digital Classics Online, Band 3, Ausgabe 3, S. 24-36.</bibl>
                 </listBibl>
             </div>
       </back>
