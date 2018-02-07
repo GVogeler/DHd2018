@@ -488,7 +488,7 @@
 
   <xsl:template name="figure">
     <xsl:attribute name="content-height">scale-to-fit</xsl:attribute>
-    <xsl:attribute name="content-width">3.25in</xsl:attribute>
+    <xsl:attribute name="content-width">3.15in</xsl:attribute>
     <xsl:attribute name="scaling">non-uniform</xsl:attribute>
     <xsl:attribute name="font-family"><xsl:value-of select="$main_font"/></xsl:attribute>
   </xsl:template>
