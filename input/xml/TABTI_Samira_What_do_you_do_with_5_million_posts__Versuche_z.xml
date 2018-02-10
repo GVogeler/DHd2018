@@ -237,5 +237,47 @@
                 </figure>
             </div>
         </body>
+       <back>
+           <div type="bibliogr">
+               <listBibl>
+                   <head>Bibliographie</head>
+                   <bibl><hi rend="bold">Becker, Carmen </hi>(2009): “Gaining Knowledge: Salafi Activism in German and 
+                       Dutch Online Forums” in:  Masaryk University Journal of Law and 
+                       Technology 3 (1): 79–98.</bibl>
+                   <bibl>
+                       <hi rend="bold">Blei, David M./Andrew Y. Ng/Michael I. Jordan </hi>(2003): “Latent Dirichlet 
+                       Allocation,” J. Mach. Learn. Res., vol. 3, no. 4–5, pp. 993–1022.
+                   </bibl>
+                   <bibl>
+                       <hi rend="bold">Le,Quoc V./ Tomas Mikolov </hi>(2014): “Distributed Representations of 
+                       Sentences and Documents” in: International Conference on Machine 
+                       Learning - ICML 2014, vol. 32, pp. 1188–1196.
+                   </bibl>
+                   <bibl>
+                       <hi rend="bold">Neumaier, Anna </hi>(2016): Religion@home? Religionsbezogene 
+                       Online-Plattformen Und Ihre Nutzung: Eine Untersuchung Zu Neuen Formen 
+                       Gegenwärtiger Religiosität. Religion in Der Gesellschaft 39.
+                   </bibl>
+                   <bibl>
+                       <hi rend="bold">Pang-Ning, Tan/Michael, Steinbach/Vipin, Kumar </hi>(2006): Introduction to 
+                       data mining
+                   </bibl>
+                   <bibl>
+                       <hi rend="bold">Pfahler, Lukas/Katharina, Morik/Frederik, Elwert/Samira, Tabti/Volkhard, 
+                       Krech </hi>(2017): “Learning Low-Rank Document Embeddings with Weighted 
+                       Nuclear Norm Regularization” in: Proceedings of the 4th DSAA
+                   </bibl>
+                   <bibl>
+                       <hi rend="bold">Robertson, Stephen </hi>(2004) “Understanding inverse document frequency: on 
+                       theoretical arguments for IDF,” in:  J. Doc., vol. 60, no. 5, pp. 
+                       503–520.
+                   </bibl>
+                   <bibl>
+                       <hi rend="bold">Roy, Olivier </hi>(2010): Heilige Einfalt: Über Die Politischen Gefahren 
+                       Entwurzelter Religionen. München.
+                   </bibl>
+               </listBibl>
+           </div>
+       </back>
     </text>
 </TEI>

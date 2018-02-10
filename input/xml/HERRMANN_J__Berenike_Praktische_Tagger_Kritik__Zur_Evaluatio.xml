@@ -107,8 +107,7 @@
                              height="8.536988888888889cm"
                              rend="inline"
                              url="HERRMANN_J__Berenike_Praktische_Tagger_Kritik__Zur_Evaluatio-image1.png"/>
-                        <head>Abbildung 1: 
-                            <hi rend="italic">Screenshot POS-Annotationstool (Ausschnitt)</hi>
+                        <head>Abbildung 1: Screenshot POS-Annotationstool (Ausschnitt)
                         </head>
                     </figure>
                     <p>Dem automatischen wie händischen Tagging lag das Tagset des STTS (Schiller et al. 1999) zugrunde. Wo angezeigt, wurden im Projekt zusätzliche Regeln für der Handhabung des STTS-Manuals vereinbart und dokumentiert. Hierzu gehört auch u.a. die systematische Einbindung eines korpusbasierten Wörterbuchs (http://www.duden.de/) bei Eigennamen und Fremdwörtern.</p>
@@ -125,9 +124,6 @@
                     <head>Ergebnisse</head>
                     <p>Die Ergebnisse in Tabelle 1 basieren für Phase I auf den finalen Annotationen und für Phase II zum momentanen Zeitpunkt auf etwa der Hälfte der finalen Annotation. Sie zeigen für 
                         <hi rend="italic">moot</hi> verglichen mit dem Referenzstandard eine Gesamtgenauigkeit von 90,16% (TreeTagger 80,88%; MarMoT 83,99%; Perceptron 79,75%). Dies ist eine niedrige Gesamtgenauigkeit gemessen an 98,6% zur modernen Standardvarietät (Brants 2000), entspricht aber in etwa den von Scheible et al. (2011) für das Frühneuhochdeutsche erhobenen 91,6%.
-                    </p>
-                    <p>Tabelle 1: 
-                        <hi rend="italic">Genauigkeit der Tagger bzgl. Coder (Mittelwert über Coder vor Diskussion) und Referenzstandard (nach Diskussion) in Prozent</hi>
                     </p>
                     <table rend="rules">
                         <row>
@@ -187,6 +183,9 @@
                             <cell rend="DH-Default">79,76</cell>
                         </row>
                     </table>
+                     <p>Tabelle 1: 
+                         <hi rend="italic">Genauigkeit der Tagger bzgl. Coder (Mittelwert über Coder vor Diskussion) und Referenzstandard (nach Diskussion) in Prozent</hi>
+                     </p>
                     <p>*Es handelt sich nicht um den Mittelwert von Phase I und II sondern um eine gewichtete Statistik, die die unterschiedlichen Stichprobengrößen (zum Zeitpunkt der Rechnung) einbezieht.</p>
                     <p>Die Übereinstimmung zwischen Codern vor der Diskussion und Referenzstandard ist hingegen vergleichsweise hoch, auch wenn sie in der zweiten Tagging-Phase etwas abfällt (
                         <hi rend="italic">Agreement</hi> Phase I = 95,47 – 98,13%, 
@@ -198,9 +197,6 @@
                     <p>Obwohl die Gesamtergebnisse noch ausstehen, könnte der Unterschied zwischen den Phasen tentativ damit erklärt werden, dass Phase II mehr problematische Tags annotiert, die eine niedrigere Distribution haben und im per-Satz-Tagging seltener auftreten. Für die einzelnen POS-Kategorien variiert die Genauigkeit zwischen 0% und 100%, wobei 
                         <hi rend="italic">moot</hi> die höchste mittlere Genauigkeit (Mittelwert = 88,65%) und niedrigste Streuung (Standardabweichung = 17,25) aufweist (TreeTagger = 67,05 ± 28,52, MarMoT = 73,41 ± 27,49, Perceptron = 62,66 ± 31,37). Eine detaillierte Analyse der einzelnen POS-Tag-Kategorien zeigt, dass 
                         <hi rend="italic">moot</hi> in den meisten, aber nicht allen, POS-Kategorien die besten Ergebnisse erzielt (vgl. Tabelle 2).
-                    </p>
-                    <p>Tabelle 2: 
-                        <hi rend="italic">Genauigkeit einiger STTS-Tags über Tagger (in Prozent)</hi>
                     </p>
                     <table rend="rules">
                         <row>
@@ -246,6 +242,9 @@
                             <cell rend="DH-Default">91,67</cell>
                         </row>
                     </table>
+                     <p>Tabelle 2: 
+                         <hi rend="italic">Genauigkeit einiger STTS-Tags über Tagger (in Prozent)</hi>
+                     </p>
                  </div>
             </div>
             <div type="div1" rend="DH-Heading1">

@@ -78,51 +78,49 @@
             <p>Seit der letzten Präsidentschaftswahl in den Vereinigten Staaten und der Verbreitung rechten Gedankenguts in Europa stellt sich für Forscher die interessante und wichtige Frage nach dem “Warum?”. Phänomene wie die Verbreitung radikaler, eigentlich unbeliebter Meinungen werden in der Presse mit Social Media und ihren technisch bedingten Dynamiken in Verbindung gebracht. Daneben sind es aber auch die auf das Diskursverhalten bezogenen Normen und strategisches Verhalten, die die Entwicklung des Meinungsbildes in Massendiskussionen prägen.</p>
             <p>Die sozialpsychologische Persuasionsforschung untersucht die Determinanten der Überzeugung auf der Mikroebene von Kleingruppen. Opinion Dynamics - Simulationsmodelle hingegen befassen sich mit der Verbindung der Mikroebene zur Makroebene: mit bewusst einfach konzeptualisierten Agenten als “Black Box”, deren simple Botschaftenübertragungen interagieren und zu emergenten Meinungsverteilungen und -dynamiken führen. Um theoretische Konzepte der Überzeugung von Individuen aggregierend auf Massendynamiken der Meinungslandschaft beziehen zu können, werden in diesem Projekt entscheidungstheoretische Modelle der Soziologie und Persuasionsforschung mit Opinion Dynamics - Simulationen verbunden (Agentenbasiertes Modell).</p>
             <p>Das agentenbasierte Modell stattet Agenten mit einer kognitiven Architektur aus, die auf Dual Process - Modellen der Meinungsbildung und der strategischen Handlungswahl basiert. Dual Process - Modelle repräsentieren Entscheidungen in zwei Modi: einem langsamen, elaborierten Modus und einem schnellen, heuristischen Modus. Im Modell “wollen” alle Agenten eine homogene Meinungslandschaft erzeugen und verfolgen dabei abhängig von ihrer Energie und Involvierung innerhalb der zwei Modi verschiedene Sender- und Empfängerstrategien. Die Agenten interagieren auf typischen Netzwerktypen mit verschiedener Parametrisierung. Eine geplante Erweiterung ist die eines Parameters für Modi der Botschaftenübertragung, die an typische Social Media - Mechanismen (etwa Filtering) angelehnt sind. Das Modell kann somit potenziell typische Dynamiken des Meinungsaustauschs nachbilden und auf problematische Konstellationen hinweisen, etwa im Sinne einer Verbreitung radikaler Meinungen oder der Bildung nicht mehr interagierender Fraktionen. Dem Diskurs externes Wissen, dass unter Umständen im Sinne einer “fake news” bewusst falsch dargestellt wird, kann in diesem Modell nicht abgebildet werden.</p>
-            <p>
-                <hi rend="bold">Dual Process - Framework für das Opinion Dynamics - Modell</hi>
-            </p>
+            <div type="div1" rend="DH-Heading1">
+                <head>Dual Process - Framework für das Opinion Dynamics - Modell</head>
+            
             <p>Das entwickelte Modell baut auf Dual Process - Modellen der Persuasionsforschung und der handlungstheoretisch orientierten Soziologie auf. Das soziologische Modell der Frame-Selektion (Kroneberg 2010, Esser 1996) konzeptualisiert “bewusstes” Entscheiden und “unbewusstes” Verhalten in einem Rational Choice - Metaframework: Ob Informationen und Handlungsmöglichkeiten rational verarbeitet oder anhand sozial geteilter Frames und Skripte automatisch-spontan ausgewählt werden, hängt von der vorhandenen Energie und der Einordenbarkeit der Situation in durch Erfahrung gebildete Klassen ab. Das Elaboration-Likelihood-Modell (Petty und Cacioppo 1986) und das Systematic-Heuristic-Model (Chaiken und Eagly 1989) aus der Sozialpsychologie sehen die Verarbeitung persuasiver Botschaften ebenfalls auf zwei Wegen, bedingt durch Energie und Involviertheit: Verarbeitung der argumentativen Struktur (systematisch) und Orientierung an Sender- und Botschaftenattributen (heuristisch).</p>
             <p>Das vorliegende Modell integriert diese Sichtweisen zu einem handlungstheoretischen Blick auf Massendiskurse: Individuen maximieren die Meinungsähnlichkeit in ihrer Umgebung und minimieren den aus ihrem Handeln resultierenden Energieverlust. Agenten wählen entweder kalkulierend-strategisch oder normbezogen-automatisch Aktionen der Botschaftenrezeption und -produktion, um die Meinungsähnlichkeit in ihrer Umgebung zu maximieren. Lokale Diskussionsnormen bilden sich situationsabhängig als automatisch-spontan gewählte Handlungen durch wiederholte rationale Wahl im Sinne des Reinforcement Learning.</p>
-            <p>Computermodell</p>
-            <p>Das Computermodell basiert auf Bounded Confidence – Modellen (Deffuant et al. 2000, Hegselmann/Krause 2002): Agenten verfügen über eine Ziffer als “Meinung” und passen ihre Meinungen um einen parameterabhängigen Grad an und zwar abhängig davon, dass die Differenz der Meinungen den Wert eines Confidence-Parameters unterschreitet. Diese Agenteninteraktion wird im vorliegenden Modell erweitert: Agenten rezipieren Botschaften entweder im systematischen Modus oder im heuristischen Modus. Der systematische Modus ist dem klassischen Bounded Confidence - Modell im Ablauf gleich. Im heuristischen Modus hängt die Änderung der Agentenmeinung von Senderattributen wie Degree, der Ähnlichkeit von diskreten Agenteneigenschaften und der Ähnlichkeit der gesendeten Meinung zu Nachbarschaftsmeinungen ab. Agenten können Meinungen unverändert senden oder sie an die Botschaften des Empfängers geringfügig anpassen, wobei beide Varianten mit zusätzlichen Referenzen auf Botschaftenqualitäten (Popularität, Meinungsähnlichkeit zu Rezipientenpeers u.a.) versehen werden können.</p>
-            <p>Alle Entscheidungen werden über die Maximierung von Nutzenfunktionen im rc-Modus oder die automatische Wahl im as-Modus getroffen. Der as-Modus der Handlungswahl wird mittels eines mit einem adaptiven k-means-Clusteralgorithmus gekoppelten Q-Learning-Algorithmus implementiert (Karimpanal und Wilhelm 2017, Wen u.a. 2006). Kann eine neue “Situation” (Vektor aus Umgebungsparametern) nicht eindeutig einem bereits bekannten Cluster zugeordnet werden, wird sie im rc-Modus verarbeitet. Momentane Energie und Involviertheit (Energieinvestition über Zeit) sind bei der Moduswahl jedes Entscheidungsschritts weitere Parameter, was zu realistischen Mustern aktiven und passiven Verhaltens führen sollte.</p>
-            <p>
-                <hi rend="bold">Projektfortschritt</hi>
-            </p>
-            <p>Das Modell ist zurzeit im Java-Framework Repast Symphony mit voller Funktionalität des rc-Modus implementiert. Das geplante Poster wird die Ziele des Projekts, die Funktionsweise des Computermodells sowie erste Analysergebnisse vorstellen.</p>
+                <div type="div2" rend="DH-Heading2">
+                    <head>Computermodell</head>
+                    <p>Das Computermodell basiert auf Bounded Confidence – Modellen (Deffuant et al. 2000, Hegselmann/Krause 2002): Agenten verfügen über eine Ziffer als “Meinung” und passen ihre Meinungen um einen parameterabhängigen Grad an und zwar abhängig davon, dass die Differenz der Meinungen den Wert eines Confidence-Parameters unterschreitet. Diese Agenteninteraktion wird im vorliegenden Modell erweitert: Agenten rezipieren Botschaften entweder im systematischen Modus oder im heuristischen Modus. Der systematische Modus ist dem klassischen Bounded Confidence - Modell im Ablauf gleich. Im heuristischen Modus hängt die Änderung der Agentenmeinung von Senderattributen wie Degree, der Ähnlichkeit von diskreten Agenteneigenschaften und der Ähnlichkeit der gesendeten Meinung zu Nachbarschaftsmeinungen ab. Agenten können Meinungen unverändert senden oder sie an die Botschaften des Empfängers geringfügig anpassen, wobei beide Varianten mit zusätzlichen Referenzen auf Botschaftenqualitäten (Popularität, Meinungsähnlichkeit zu Rezipientenpeers u.a.) versehen werden können.</p>
+                    <p>Alle Entscheidungen werden über die Maximierung von Nutzenfunktionen im rc-Modus oder die automatische Wahl im as-Modus getroffen. Der as-Modus der Handlungswahl wird mittels eines mit einem adaptiven k-means-Clusteralgorithmus gekoppelten Q-Learning-Algorithmus implementiert (Karimpanal und Wilhelm 2017, Wen u.a. 2006). Kann eine neue “Situation” (Vektor aus Umgebungsparametern) nicht eindeutig einem bereits bekannten Cluster zugeordnet werden, wird sie im rc-Modus verarbeitet. Momentane Energie und Involviertheit (Energieinvestition über Zeit) sind bei der Moduswahl jedes Entscheidungsschritts weitere Parameter, was zu realistischen Mustern aktiven und passiven Verhaltens führen sollte.</p>
+                </div>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Projektfortschritt</head>
+                <p>Das Modell ist zurzeit im Java-Framework Repast Symphony mit voller Funktionalität des rc-Modus implementiert. Das geplante Poster wird die Ziele des Projekts, die Funktionsweise des Computermodells sowie erste Analysergebnisse vorstellen.</p>
+            </div>
         </body>
         <back>
          <div type="bibliogr">
                 <listBibl>
                     <head>Bibliographie</head>
-                    <bibl>Chaiken, Shelly / Eagly, Alice H. Eagly (1989): “Heuristic and Systematic Information Processing Within and Beyond the Persuasion Context.” In: Uleman, J.S. / Bargh, J.A.: 
-                        <hi rend="italic">Unintended Thought. </hi>New York: Gilford,
-                        <hi rend="italic"> </hi>212–52.
+                    <bibl><hi rend="bold">Chaiken, Shelly / Eagly, Alice H. Eagly </hi>(1989): “Heuristic and Systematic Information Processing Within and Beyond the Persuasion Context.” In: Uleman, J.S. / Bargh, J.A.: 
+                        <hi rend="italic">Unintended Thought. </hi>New York: Gilford, 212–52.
                     </bibl>
-                    <bibl>Deffuant, Guillaume / Neau, David / Amblard, Frederic / Weisbuch, Gérard (2000): „Mixing Beliefs among interacting agents.“ 
+                    <bibl><hi rend="bold">Deffuant, Guillaume / Neau, David / Amblard, Frederic / Weisbuch, Gérard </hi>(2000): „Mixing Beliefs among interacting agents.“ 
                         <hi rend="italic">Advances in Complex Systems 3</hi> (1-4): 87-98.
                     </bibl>
-                    <bibl>Esser, Hartmut. (1996): “Die Definition der Situation.” 
-                        <hi rend="italic">Kölner Zeitschrift </hi>
-                        <hi rend="italic">f</hi>
-                        <hi rend="italic">ür Soziologie </hi>
-                        <hi rend="italic">u</hi>
-                        <hi rend="italic">nd Sozialpsychologie</hi> 48 (2): 1–34.
+                    <bibl><hi rend="bold">Esser, Hartmut. </hi>(1996): “Die Definition der Situation.” 
+                        <hi rend="italic">Kölner Zeitschrift für Soziologie und Sozialpsychologie</hi> 48 (2): 1–34.
                     </bibl>
-                    <bibl>Hegselmann, Rainer / Krause, Ulrich (2002): “Opinion dynamics and bounded confidence. Models, Analysis and Simulation.” 
+                    <bibl><hi rend="bold">Hegselmann, Rainer / Krause, Ulrich </hi>(2002): “Opinion dynamics and bounded confidence. Models, Analysis and Simulation.” 
                         <hi rend="italic">Journal of Artificial Societies and Social Simulation 5 (3). URL: http://jasss.soc.surrey.ac.uk/5/3/2.html.</hi>
                     </bibl>
-                    <bibl>Karimpanal, Thommen George, / Wilhelm, Erik (2017): “Identification and Off-Policy Learning of Multiple Objectives Using Adaptive Clustering.” 
+                    <bibl><hi rend="bold">Karimpanal, Thommen George, / Wilhelm, Erik </hi>(2017): “Identification and Off-Policy Learning of Multiple Objectives Using Adaptive Clustering.” 
                         <hi rend="italic">Neurocomputing</hi> 263: 39-47.
                     </bibl>
-                    <bibl>Kohle, Hubertus (2017): “Digitale Rekonstruktion und Simulation”. In: Jannidis, Fotis / Kohle, Hubertus (eds.): 
+                    <bibl><hi rend="bold">Kohle, Hubertus </hi>(2017): “Digitale Rekonstruktion und Simulation”. In: Jannidis, Fotis / Kohle, Hubertus (eds.): 
                         <hi rend="italic">Digital Humanities. Eine Einführung</hi>. Stuttgart: J.B. Metzler, 315-327.
                     </bibl>
-                    <bibl>Kroneberg, Clemens. 2010. “Das Modell Der Frame-Selektion: Grundlagen Und Soziologische Anwendung Einer Integrativen Handlungstheorie.” PhD, Universität Mannheim.</bibl>
-                    <bibl>Petty, Richard E., und John T. Cacioppo. 1986. “The Elaboration Likelihood Model of Persuasion.” In: 
+                    <bibl><hi rend="bold">Kroneberg, Clemens. </hi>(2010): “Das Modell Der Frame-Selektion: Grundlagen Und Soziologische Anwendung Einer Integrativen Handlungstheorie.” PhD, Universität Mannheim.</bibl>
+                    <bibl><hi rend="bold">Petty, Richard E., und John T. Cacioppo. </hi>(1986): “The Elaboration Likelihood Model of Persuasion.” In: 
                         <hi rend="italic">Advances in Experimental Social Psychology</hi> 19: 123–205.
                     </bibl>
-                    <bibl>Wen, Feng / Chen, Zonghai / Zhuo, Rui / Zhou, Guangming (2006): “Reinforcement Learning Method of Continuous State Adaptively Discretized Based on K-Means Clustering.” 
+                    <bibl><hi rend="bold">Wen, Feng / Chen, Zonghai / Zhuo, Rui / Zhou, Guangming </hi>(2006): “Reinforcement Learning Method of Continuous State Adaptively Discretized Based on K-Means Clustering.” 
                         <hi rend="italic">Control and Decision</hi> 21 (2): 143-146.
                     </bibl>
                 </listBibl>

@@ -120,8 +120,7 @@
                 <head>Hintergrund</head>
                 <p>Das Projekt `Linked Open Dictionaries' (LiODi, 2015-2020) ist eine vom Bundesministerium für Bildung und Forschung (BMBF) finanzierte eHumanities-Forschungsgruppe, die daran arbeitet, einen nutzerorientierten Zugang zu LOD-Technologien in den Sprachwissenschaften zu entwickeln und diesen in Einzelstudien zum Sprachkontakt im Kaukasus zu demonstrieren. Ein wichtiges Element dafür sind Lehnwortuntersuchungen, und in morphologisch reichen Sprachen ist es möglich, dass eine flektierte Form Gegenstand der Entlehnung war. Diese automatisch gestützt generieren und identifizieren zu können, erfordert einen morphologischen Generator, der auch über unvollständige Daten hinweg generalisieren, und beispielsweise Paradigmen komplettieren kann. Hierfür stellt die Universal Morphology derzeit Standardressourcen bereit, auf die hin Softwareimplementierungen optimiert werden, etwa im Rahmen aktueller SIGMORPHON Shared Tasks (Cotterell et al., 2016).</p>
                 <p>
-                    <hi rend="bold">Universal Morphology</hi> (
-                    <hi rend="italic">Unimorph, </hi>
+                    <hi rend="bold">Universal Morphology</hi> (<hi rend="italic">Unimorph, </hi>
                     <ref target="http://unimorph.github.io/">http://unimorph.github.io/</ref>) ist ein aktuelles Communityproject zur Erfassung und automatischen Generierung der Flexionsmorphologie unterschiedlichster Sprachen. Ziel ist sowohl die Entwicklung von Vollformenwörterbüchern, deren Einsatz zur Annotation, weshalb Unimorph auf Kompatibilität mit den Universal Dependencies (
                     <ref target="http://universaldependencies.org/">http://universaldependencies.org/</ref>) angelegt ist, aber auch der Aufbau einer Referenzressource zur Entwicklung morphologischer Analyse- und Generierungskomponenten innerhalb der Sprach
                     <hi rend="italic">technologie</hi>. Die sprach

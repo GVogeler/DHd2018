@@ -168,15 +168,15 @@
          <div type="bibliogr">
                 <listBibl>
                     <head>Bibliographie</head>
-                    <bibl>Boschung, Urs et al. (eds.): Repertorium zu Albrecht von Hallers Korrespondenz 1724-1777 (Studia Halleriana VII), Basel: Schwabe 2006.</bibl>
-                    <bibl>Dumont, Stefan et al.: correspSearch, URL: http://correspsearch.net (14.1.2018).</bibl>
-                    <bibl>Flückiger, Daniel / Stuber, Martin: Vom System zum Akteur. Personenorientierte Datenbanken für Archiv und Forschung, in: Kirchhofer, André et al. (eds.), Nachhaltige Geschichte. Festschrift für Christian Pfister, Zürich: Chronos 2009, S. 253-269.</bibl>
-                    <bibl>Sonntag, Otto (ed.): The Albrecht von Haller-Gerlach Adolph von Münchhausen Correspondence, Digitale Edition, Bern 2018 (in Vorbereitung).</bibl>
-                    <bibl>Steinke, Hubert: Archive databases as advanced research tools: the Haller Project, in: Monti, Maria Teresa (ed.), Antonio Vallisneri. L'edizione del testo scientifico d'età moderna, Firenze: Olschki 2003, S. 191–204.</bibl>
-                    <bibl>Steinke, Hubert / Profos, Claudia: Bibliographia Halleriana: Verzeichnis der Schriften von und über Albrecht von Haller (Studia Halleriana VIII), Basel: Schwabe 2004.</bibl>
-                    <bibl>Stuber, Martin: Findmittel und Forschungsinstrument zugleich. Die Datenbank des Berner Haller-Projekts, in: Arbido 14, 1999, S. 5-10.</bibl>
-                    <bibl>Stuber, Martin / Hächler, Stefan / Lienhard, Luc (eds.): Hallers Netz. Ein europäischer Gelehrtenbriefwechsel zur Zeit der Aufklärung, Schwabe: Basel 2005.</bibl>
-                    <bibl>Vogeler, Georg et al.: prosopogrAPhI, URL: https://github.com/GVogeler/prosopogrAPhI (14.1.2018).</bibl>
+                    <bibl><hi rend="bold">Boschung, Urs et al. </hi>(eds.): Repertorium zu Albrecht von Hallers Korrespondenz 1724-1777 (Studia Halleriana VII), Basel: Schwabe 2006.</bibl>
+                    <bibl><hi rend="bold">Dumont, Stefan</hi> et al.: correspSearch, URL: http://correspsearch.net (14.1.2018).</bibl>
+                    <bibl><hi rend="bold">Flückiger, Daniel / Stuber, Martin</hi>: Vom System zum Akteur. Personenorientierte Datenbanken für Archiv und Forschung, in: Kirchhofer, André et al. (eds.), Nachhaltige Geschichte. Festschrift für Christian Pfister, Zürich: Chronos 2009, S. 253-269.</bibl>
+                    <bibl><hi rend="bold">Sonntag, Otto </hi>(ed.): The Albrecht von Haller-Gerlach Adolph von Münchhausen Correspondence, Digitale Edition, Bern 2018 (in Vorbereitung).</bibl>
+                    <bibl><hi rend="bold">Steinke, Hubert</hi>: Archive databases as advanced research tools: the Haller Project, in: Monti, Maria Teresa (ed.), Antonio Vallisneri. L'edizione del testo scientifico d'età moderna, Firenze: Olschki 2003, S. 191–204.</bibl>
+                    <bibl><hi rend="bold">Steinke, Hubert / Profos, Claudia</hi>: Bibliographia Halleriana: Verzeichnis der Schriften von und über Albrecht von Haller (Studia Halleriana VIII), Basel: Schwabe 2004.</bibl>
+                    <bibl><hi rend="bold">Stuber, Martin</hi>: Findmittel und Forschungsinstrument zugleich. Die Datenbank des Berner Haller-Projekts, in: Arbido 14, 1999, S. 5-10.</bibl>
+                    <bibl><hi rend="bold">Stuber, Martin / Hächler, Stefan / Lienhard, Luc </hi>(eds.): Hallers Netz. Ein europäischer Gelehrtenbriefwechsel zur Zeit der Aufklärung, Schwabe: Basel 2005.</bibl>
+                    <bibl><hi rend="bold">Vogeler, Georg </hi>et al.: prosopogrAPhI, URL: https://github.com/GVogeler/prosopogrAPhI (14.1.2018).</bibl>
                 </listBibl>
             </div>
       </back>
