@@ -118,52 +118,44 @@
          <div type="bibliogr">
                 <listBibl>
                     <head>Bibliographie</head>
-                    <bibl>Peter Andorfer, Vanessa Hannesschläger (2017): TEI Abstracts 2016. A little application to publish the abstracts of the TEI conference 2016. 
-                        <ref target="http://tei2016app.acdh.oeaw.ac.at/">
-                            <hi rend="color(1155CC)">http://tei2016app.acdh.oeaw.ac.at/</hi>
+                    <bibl><hi rend="bold">Peter Andorfer, Vanessa Hannesschläger </hi>(2017): TEI Abstracts 2016. A little application to publish the abstracts of the TEI conference 2016. 
+                        <ref target="http://tei2016app.acdh.oeaw.ac.at/">http://tei2016app.acdh.oeaw.ac.at/
                         </ref>
                     </bibl>
-                    <bibl>Judith Butler (1988): Performative Acts and Gender Constitution: An Essay in Phenomenology and Feminist Theory. In: Theatre Journal 40:4, 519–531.</bibl>
-                    <bibl>Judith Butler (2010): Performative Agency. In: Journal of Cultural Economy 3:2, 147–161.</bibl>
-                    <bibl>Genderchecker. 
-                        <ref target="http://genderchecker.com/">
-                            <hi rend="color(1155CC)">http://genderchecker.com/</hi>
+                    <bibl><hi rend="bold">Judith Butler </hi>(1988): Performative Acts and Gender Constitution: An Essay in Phenomenology and Feminist Theory. In: Theatre Journal 40:4, 519–531.</bibl>
+                    <bibl><hi rend="bold">Judith Butler </hi>(2010): Performative Agency. In: Journal of Cultural Economy 3:2, 147–161.</bibl>
+                    <bibl><hi rend="bold">Genderchecker</hi>: 
+                        <ref target="http://genderchecker.com/">http://genderchecker.com/
                         </ref>
                     </bibl>
-                    <bibl>genderize.io: Determine the gender of a first name. 
-                        <ref target="https://genderize.io/">
-                            <hi rend="color(1155CC)">https://genderize.io/</hi>
+                    <bibl><hi rend="bold">genderize.io: Determine the gender of a first name</hi>. 
+                        <ref target="https://genderize.io/">https://genderize.io/
                         </ref>
                     </bibl>
-                    <bibl>Vanessa Hannesschläger, Daniel Schopper (Hg.) (2017): TEI Conference and Members’ Meeting 2016. Book of Abstracts [XML/TEI files]. 
-                        <ref target="https://github.com/acdh-oeaw/TEI2016abstracts">
-                            <hi rend="color(1155CC)">https://github.com/acdh-oeaw/TEI2016abstracts</hi>
+                    <bibl><hi rend="bold">Vanessa Hannesschläger, Daniel Schopper (Hg.) </hi>(2017): TEI Conference and Members’ Meeting 2016. Book of Abstracts [XML/TEI files]. 
+                        <ref target="https://github.com/acdh-oeaw/TEI2016abstracts">https://github.com/acdh-oeaw/TEI2016abstracts
                         </ref>
                     </bibl>
-                    <bibl>Stefan Hirschauer (1994): Die soziale Fortpflanzung der Zwei-Geschlechtlichkeit. In: Kölner Zeitschrift für Soziologie und Sozialpsychologie 46:4, 668–692.</bibl>
-                    <bibl>Stefan Hirschauer (2001): Das Vergessen des Geschlechts: Zur Praxeologie einer Kategorie sozialer Ordnung. In: Kölner Zeitschrift für Soziologie und Sozialpsychologie (Sonderheft 41), 208–235.</bibl>
-                    <bibl>Mark Kantrowitz (1997): Name Corpus: List of Male, Female, and Pet names. CMU Artificial Intelligence Repository. 
-                        <ref target="http://www.cs.cmu.edu/afs/cs/project/ai-repository/ai/areas/nlp/corpora/names/">
-                            <hi rend="color(1155CC)">http://www.cs.cmu.edu/afs/cs/project/ai-repository/ai/areas/nlp/corpora/names/</hi>
+                    <bibl><hi rend="bold">Stefan Hirschauer </hi>(1994): Die soziale Fortpflanzung der Zwei-Geschlechtlichkeit. In: Kölner Zeitschrift für Soziologie und Sozialpsychologie 46:4, 668–692.</bibl>
+                    <bibl><hi rend="bold">Stefan Hirschauer </hi>(2001): Das Vergessen des Geschlechts: Zur Praxeologie einer Kategorie sozialer Ordnung. In: Kölner Zeitschrift für Soziologie und Sozialpsychologie (Sonderheft 41), 208–235.</bibl>
+                    <bibl><hi rend="bold">Mark Kantrowitz </hi>(1997): Name Corpus: List of Male, Female, and Pet names. CMU Artificial Intelligence Repository. 
+                        <ref target="http://www.cs.cmu.edu/afs/cs/project/ai-repository/ai/areas/nlp/corpora/names/">http://www.cs.cmu.edu/afs/cs/project/ai-repository/ai/areas/nlp/corpora/names/
                         </ref>
                     </bibl>
-                    <bibl>Natural Language Toolkit (NLTK). 
-                        <ref target="http://www.nltk.org/">
-                            <hi rend="color(1155CC)">http://www.nltk.org/</hi>
+                    <bibl><hi rend="bold">Natural Language Toolkit </hi>(NLTK). 
+                        <ref target="http://www.nltk.org/">http://www.nltk.org/
                         </ref>
                     </bibl>
-                    <bibl>Susanne Oelkers (2003): Naming gender. Empirische Untersuchungen zur phonologischen Struktur von Vornamen im Deutschen. Frankfurt a. M.: Lang.</bibl>
-                    <bibl>TEI Consortium (2017): TEI P5: Guidelines for Electronic Text Encoding and Interchange. 
-                        <ref target="http://www.tei-c.org/release/doc/tei-p5-doc/en/Guidelines.pdf">
-                            <hi rend="color(1155CC)">http://www.tei-c.org/release/doc/tei-p5-doc/en/Guidelines.pdf</hi>
+                    <bibl><hi rend="bold">Susanne Oelkers </hi>(2003): Naming gender. Empirische Untersuchungen zur phonologischen Struktur von Vornamen im Deutschen. Frankfurt a. M.: Lang.</bibl>
+                    <bibl><hi rend="bold">TEI Consortium </hi>(2017): TEI P5: Guidelines for Electronic Text Encoding and Interchange. 
+                        <ref target="http://www.tei-c.org/release/doc/tei-p5-doc/en/Guidelines.pdf">http://www.tei-c.org/release/doc/tei-p5-doc/en/Guidelines.pdf
                         </ref>
                     </bibl>
-                    <bibl>Virtual International Authority File (VIAF). 
-                        <ref target="https://viaf.org/">
-                            <hi rend="color(1155CC)">https://viaf.org/</hi>
+                    <bibl><hi rend="bold">Virtual International Authority File </hi>(VIAF). 
+                        <ref target="https://viaf.org/">https://viaf.org/
                         </ref>
                     </bibl>
-                    <bibl>Candance West, Don Zimmerman (1987): Doing Gender. In: Gender and Society 1:2, 125–151.</bibl>
+                    <bibl><hi rend="bold">Candance West, Don Zimmerman </hi>(1987): Doing Gender. In: Gender and Society 1:2, 125–151.</bibl>
                 </listBibl>
             </div>
       </back>

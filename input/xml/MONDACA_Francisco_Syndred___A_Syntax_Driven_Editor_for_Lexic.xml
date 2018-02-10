@@ -123,16 +123,16 @@
          <div type="notes">
             <note xml:id="ftn1" n="1"> RBNF ist eine EBNF (Extended Backus-Naus Form) Erweiterung um Rich-Text Auszeichnungen.</note>
             <note xml:id="ftn2" n="2" rend="footnote text">
-                        <hi rend="underline color(386EFF)">https://github.com/spinfo/syndred</hi>
+                        <hi rend="underline">https://github.com/spinfo/syndred</hi>
                     </note>
             <note xml:id="ftn3" n="3" rend="footnote text">
-                        <hi rend="underline color(386EFF)">https://facebook.github.io/react</hi>
+                        <hi rend="underline">https://facebook.github.io/react</hi>
                     </note>
             <note xml:id="ftn4" n="4" rend="footnote text">
-                        <hi rend="underline color(386EFF)">https://draftjs.org</hi>
+                        <hi rend="underline">https://draftjs.org</hi>
                     </note>
             <note xml:id="ftn5" n="5" rend="footnote text">
-                        <hi rend="underline color(386EFF)">https://projects.spring.io/spring-framework</hi>
+                        <hi rend="underline">https://projects.spring.io/spring-framework</hi>
                     </note>
          </div>
          <div type="bibliogr">
@@ -155,13 +155,11 @@
                         <hi rend="italic">The Definitive ANTLR 4 Reference</hi>. Pragmatic Bookshelf: Dallas Texas.
                     </bibl>
                     <bibl>
-                        <hi rend="bold">Wirth, Niklaus</hi> (1986
-                        <hi rend="superscript">4</hi>): 
+                        <hi rend="bold">Wirth, Niklaus</hi> (1986<hi rend="superscript">4</hi>): 
                         <hi rend="italic">Compilerbau</hi>. Teubner: Stuttgart.
                     </bibl>
                     <bibl>
-                        <hi rend="bold">Wirth, Niklaus</hi> (2000
-                        <hi rend="superscript">5</hi>): 
+                        <hi rend="bold">Wirth, Niklaus</hi> (2000<hi rend="superscript">5</hi>): 
                         <hi rend="italic">Algorithmen und Datenstrukturen</hi>. Teubner: Stuttgart.
                     </bibl>
                     <bibl>

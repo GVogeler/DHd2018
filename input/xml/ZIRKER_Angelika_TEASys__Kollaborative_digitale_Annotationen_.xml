@@ -125,7 +125,7 @@
          <div type="bibliogr">
                 <listBibl>
                     <head>Bibliographie</head>
-                    <bibl rend="Works Cited">
+                    <bibl>
                         <hi rend="bold">Bauer, Matthias / Zirker, Angelika</hi> (2015): “Whipping Boys Explained: Literary Annotation and Digital Humanities.” in: 
                         <hi rend="italic">Literary Studies in the Digital Age: An Evolving Anthology</hi>. 
                         <ref target="https://dlsanthology.mla.hcommons.org/whipping-boys-explained-literary-annotation-and-digital-humanities/">https://dlsanthology.mla.hcommons.org/whipping-boys-explained-literary-annotation-and-digital-humanities/</ref> [letzter Zugriff 23. September 2017].
@@ -134,7 +134,7 @@
                         <hi rend="bold">Bauer, Matthias / Zirker, Angelika</hi> (2017a): “TEASys (Tübingen Explanatory Annotations System): Die erklärende Annotation literarischer Texte in den Digital Humanities.” in: 
                         <hi rend="italic">DHd2017: Digitale Nachhaltigkeit. Konferenzabstracts </hi>274-276.
                     </bibl>
-                    <bibl rend="Works Cited">
+                    <bibl>
                         <hi rend="bold">Bauer, Matthias / Zirker, Angelika</hi> (2017b): “Explanatory Annotation of Literary Texts and the Reader: Seven Types of Problems.” in: 
                         <hi rend="italic">IJHAC</hi> 11.2: 212-232.
                     </bibl>
