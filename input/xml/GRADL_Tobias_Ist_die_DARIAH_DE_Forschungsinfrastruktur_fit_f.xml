@@ -200,8 +200,10 @@
                             Um aus der potenziellen Menge zurückgegebener Einträge ein Intervall zu berechnen, werden Kommandos aus dem math Funktionsraum verwendet:
                         </p>
                         <p>
-                            <hi rend="italic">BeginMin = math.min(@Response.Item.Resource.Timespan.Begin.At);
-                                <lb/>EndMax = math.max(@Response.Item.Resource.Timespan.End.At);
+                            <hi rend="italic">BeginMin = math.min
+                                (@Response.Item.Resource.Timespan.Begin.At);
+                                <lb/>EndMax = math.max
+                                (@Response.Item.Resource.Timespan.End.At);
                             </hi>
                         </p>
                         <p>Hierdurch wird in den Daten exakt ein Zeitintervall hinterlegt, welches der gewünschten Semantik [frühester Begin, spätestes Ende] der Zeitangabe entspricht.</p>

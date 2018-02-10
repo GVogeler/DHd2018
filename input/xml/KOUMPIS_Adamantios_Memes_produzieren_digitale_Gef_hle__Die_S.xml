@@ -108,22 +108,18 @@
                         height="4.732161111111111cm"
                         rend="inline"
                         url="KOUMPIS_Adamantios_Memes_produzieren_digitale_Gef_hle__Die_S-image1.jpg"/>
+                    <head>Abbildung 1: Simpson Prediction<ref target="ftn1" n="1"/>
+                    </head>
                 </figure>
-                <p>
-                    <hi rend="italic">Abbildung 1: Simpson Prediction</hi>
-                    <hi rend="italic superscript">1</hi>
-                </p>
                 <figure>
                     <graphic n="1002"
                         width="7.097538888888889cm"
                         height="4.060472222222222cm"
                         rend="inline"
                         url="KOUMPIS_Adamantios_Memes_produzieren_digitale_Gef_hle__Die_S-image2.jpg"/>
+                    <head>Abbildung 2: Donald Trump's First 100 Days In Office | Season 28 | THE SIMPSONS<ref target="ftn2" n="2"/>
+                    </head>
                 </figure>
-                <p>
-                    <hi rend="italic">Abbildung 2: Donald Trump's First 100 Days In Office | Season 28 | THE SIMPSONS</hi>
-                    <hi rend="italic superscript">2</hi>
-                </p>
             </div>
             <div type="div1" rend="DH-Heading1">
                 <head>Forschungsstand</head>
@@ -174,8 +170,7 @@
                 <p>Das Ziel dieser Sentiment Analyse ist die 
                     <hi rend="italic">Bestimmung der emotionalen Färbungen der einzelnen Tweets</hi> und in weiterer Folge die 
                     <hi rend="italic">Ermittlung der generellen Stimmungshaltung der Diskussionen</hi> bezüglich des Statischen im Vergleich zum bewegten Bild. Die Datenerhebung der einzelnen Tweet-Ströme (Tweets + Retweets) erfolgt über die Twitter API mit Hilfe des Web-Tools 
-                    <hi rend="italic">„FollowTheHashtag“</hi>
-                    <hi rend="superscript"> 3</hi>. Die Datensätze werden direkt in Microsoft Excel exportiert und dort weiterverarbeitet. Zur Grundgesamtheit gehören alle Tweets (exkl. Retweets) die im Zuge der US-Präsidentschaftswahl oder im Zuge der Ersten 100 Tage nach Amtsantritt von D. Trump via Twitter weltweit abgesetzt wurden und beide Hashtags 
+                    <hi rend="italic">„FollowTheHashtag“</hi><ref target="ftn3" n="3"/>. Die Datensätze werden direkt in Microsoft Excel exportiert und dort weiterverarbeitet. Zur Grundgesamtheit gehören alle Tweets (exkl. Retweets) die im Zuge der US-Präsidentschaftswahl oder im Zuge der Ersten 100 Tage nach Amtsantritt von D. Trump via Twitter weltweit abgesetzt wurden und beide Hashtags 
                     <hi rend="italic">„#thesimpsons“</hi> und 
                     <hi rend="italic">„#trump“</hi> beinhalten. Retweets werden bei der vorliegenden Sentiment Analyse nicht berücksichtigt, da diese keine neuen Aussagen, Meinungen oder Emotionen enthalten, sondern lediglich eine intendierte Wiederholung eines vorangegangenen Tweets darstellen.
                 </p>
@@ -203,8 +198,7 @@
                     <hi rend="italic">interrogativ</hi> kategorisiert. Interrogativsätze fließen nicht in die Auswertung ein, da dieser Satztyp keine informativen Meinungen, sondern lediglich Fragestellungen zum Thema oder zu vorausgehenden Tweets ausdrückt.
                 </p>
                 <p>Danach folgt die Betrachtung der Wortebene, wobei nun alle Wörter mit emotionaler Stimmung aus den textuellen Einheiten extrahiert werden. Die Gewichtung der Stimmung jedes dieser Wörter wird mit Hilfe des Wörterbuchs 
-                    <hi rend="italic">„SentiWordNet 3.0“</hi> bestimmt. Für die einzelnen Abfragen aus dem Wörterbuch wird der freie Programmcode
-                    <hi rend="superscript">4</hi> von 
+                    <hi rend="italic">„SentiWordNet 3.0“</hi> bestimmt. Für die einzelnen Abfragen aus dem Wörterbuch wird der freie Programmcode<ref target="ftn4" n="4"/> von 
                     <hi rend="italic">Petter Törnberg</hi> adaptiert. Nach der Abfrage aller Gewichte erfolgt die Auswertung der Daten. Hierzu wird der 
                     <hi rend="italic">„Score“</hi> je Tweet (bestehend aus einzelnen bzw. mehreren Sätzen) durch die Summe der einzelnen Gewichte der Stimmungen der Wörter der textuellen Einheiten eines Tweets ermittelt. 
                 </p>
@@ -265,63 +259,52 @@
                     </item>
                 </list>
             </div>
-            <div type="div1" rend="DH-Heading1">
-                <head>Fußnoten </head>
-                <p>1</p>
-                <p> Quelle Abbildung 1: 
-                    <hi rend="italic">https://img.buzzfeed.com/buzzfeed-static/static/201611/9/16/asset/buzzfeed-prod-fastlane02/sub-buzz18441-1478727536-5.png?downsize=715:*&amp;outputformat=auto&amp;output-quality=auto</hi> (zuletzt aufgerufen: 
-                </p>
-                <p>30.06.2017) </p>
-                <p>2</p>
-                <p> Quelle Abbildung 2: </p>
-                <p>
-                    <hi rend="italic">https://www.youtube.com/watch?v=Qo3fT0xPeHs</hi>
-                </p>
-                <p>(zuletzt aufgerufen: 30.06.2017) </p>
-                <p>3 </p>
-                <p>
-                    <hi rend="italic">http://www.followthehashtag.com/</hi> (zuletzt 
-                </p>
-                <p>aufgerufen: 26.07.2017) </p>
-                <p>4</p>
-                <p> Programmcode verfügbar unter GNU General Public License. Quelle: 
-                    <hi rend="italic">https://github.com/mserrate/twitter-streamingapp/blob/master/twitter-stormtopology/src/main/java/analysis/SentiWordNet.java</hi>
-                </p>
-                <p>(zuletzt aufgerufen: 30.06.2017) </p>
-            </div>
         </body>
         <back>
+         <div type="notes">
+             <note xml:id="ftn1" n="1">Quelle Abbildung 1: 
+                 <hi rend="italic">https://img.buzzfeed.com/buzzfeed-static/static/201611/9/16/asset/buzzfeed-prod-fastlane02/sub-buzz18441-1478727536-5.png?downsize=715:*&amp;outputformat=auto&amp;output-quality=auto</hi> (zuletzt aufgerufen: 30.06.2017) 
+             </note>
+             <note xml:id="ftn2" n="2">Quelle Abbildung 2: 
+                 <hi rend="italic">https://www.youtube.com/watch?v=Qo3fT0xPeHs</hi> (zuletzt aufgerufen: 30.06.2017)
+             </note>
+             <note xml:id="ftn3" n="3">
+                 <hi rend="italic">http://www.followthehashtag.com/</hi> (zuletzt aufgerufen: 26.07.2017)
+             </note>
+             <note xml:id="ftn4" n="4">Programmcode verfügbar unter GNU General Public License. Quelle: 
+                 <hi rend="italic">https://github.com/mserrate/twitter-streamingapp/blob/master/twitter-stormtopology/src/main/java/analysis/SentiWordNet.java</hi> (zuletzt aufgerufen: 30.06.2017) 
+             </note>
+         </div>
          <div type="bibliogr">
                 <listBibl>
                     <head>Bibliographie</head>
-                    <bibl>Baccianella, S., Esuli, A., &amp; Sebastiani, F. (2010). 
+                    <bibl><hi rend="bold">Baccianella, S., Esuli, A., &amp; Sebastiani, F. </hi>(2010). 
                         <hi rend="italic">SentiWordNet 3.0: An Enhanced Lexical Resource for Sentiment Analysis and Opinion Mining.</hi> LREC, Vol. 10, S. 2200-2204. 
                     </bibl>
-                    <bibl rend="wl_literaturquelle">Brooke, J.; Tofiloski, M.; Taboada, M.: Crosslinguistic sentiment analysis: From english to spanish. In: Proceedings of the 7th International Conference on Recent Advances in Natural Language Processing, Borovets, Bulgaria, 2009, S. 50–54.</bibl>
-                    <bibl>Friedkin, N.E. &amp; Johnsen, E.C. (1990) 
+                    <bibl><hi rend="bold">Brooke, J.; Tofiloski, M.; Taboada, M.</hi>: Crosslinguistic sentiment analysis: From english to spanish. In: Proceedings of the 7th International Conference on Recent Advances in Natural Language Processing, Borovets, Bulgaria, 2009, S. 50–54.</bibl>
+                    <bibl><hi rend="bold">Friedkin, N.E. &amp; Johnsen, E.C. </hi>(1990) 
                         <hi rend="italic">Social influence and opinions</hi>. J. Math. Soc. 15. pp. 193 – 206. 
                     </bibl>
-                    <bibl>Kennedy, A.; Inkpen, D.: Sentiment Classification of Movie and Product Reviews Using Contextual Valence Shifters. In: Computational Intelligence 22 (2006), Nr. 2, S. 110–125.</bibl>
-                    <bibl>Liu, B. (2010). 
+                    <bibl><hi rend="bold">Kennedy, A.; Inkpen, D.</hi>: Sentiment Classification of Movie and Product Reviews Using Contextual Valence Shifters. In: Computational Intelligence 22 (2006), Nr. 2, S. 110–125.</bibl>
+                    <bibl><hi rend="bold">Liu, B. </hi>(2010):
                         <hi rend="italic">„Sentiment Analysis: A Multifaceted Problem“. IEEE Intelligent Systems, </hi>S. 76-80. 
                     </bibl>
-                    <bibl>Marx, K. &amp; Weidacher, G. (2014). 
+                    <bibl><hi rend="bold">Marx, K. &amp; Weidacher, G. </hi>(2014). 
                         <hi rend="italic">Internetlinguistik. Ein Lehr- und Arbeitsbuch.</hi> Tübingen: Narr. 
                     </bibl>
-                    <bibl>Shifman, L. (2013). 
+                    <bibl><hi rend="bold">Shifman, L. </hi>(2013). 
                         <hi rend="italic">Memes in Digital Culture.</hi> MA: MIT Press. 
                     </bibl>
-                    <bibl>Singh, T. und Kumari, M. (2016). 
+                    <bibl><hi rend="bold">Singh, T. und Kumari, M. </hi>(2016). 
                         <hi rend="italic">Role of Text Pre-processing in Twitter Sentiment Analysis.</hi> Procedia Computer Science, 89, 549-554. 
                     </bibl>
-                    <bibl>Spitzberg, B. H. (2014). 
-                        <hi rend="italic">Toward A Model of Meme Diffusion (M3D).</hi> Communication 
+                    <bibl><hi rend="bold">Spitzberg, B. H. </hi>(2014). 
+                        <hi rend="italic">Toward A Model of Meme Diffusion (M3D).</hi> Communication Theory 24. S. 311–339. 
                     </bibl>
-                    <bibl>Theory 24. S. 311–339. </bibl>
-                    <bibl>Wilson, T., Wiebe, J., &amp; Hoffmann, P. (2005). 
+                    <bibl><hi rend="bold">Wilson, T., Wiebe, J., &amp; Hoffmann, P. </hi>(2005). 
                         <hi rend="italic">Recognizing contextual polarity in phrase-level sentiment analysis.</hi> In: Proceedings of the conference on human language technology and empirical methods in natural language processing. S. 347–354. 
                     </bibl>
-                    <bibl>Zhang, L., et al. (2011). Combining Lexicon-based and Learning-based Methods for Twitter Sentiment Analysis. HP Laboratories, Technical Report HPL-2011-89. </bibl>
+                    <bibl><hi rend="bold">Zhang, L., et al. </hi>(2011). Combining Lexicon-based and Learning-based Methods for Twitter Sentiment Analysis. HP Laboratories, Technical Report HPL-2011-89. </bibl>
                 </listBibl>
             </div>
       </back>

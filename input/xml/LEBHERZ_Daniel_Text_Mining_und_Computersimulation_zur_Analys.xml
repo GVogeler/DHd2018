@@ -134,86 +134,41 @@
                     <head>Bibliographie</head>
                     <bibl>
                         <hi rend="bold">Bonabeau, Eric </hi>(2002):
-                        <hi rend="bold"> “</hi>Agent-based modeling: Methods and techniques for simulating human systems” in: 
+                        “Agent-based modeling: Methods and techniques for simulating human systems” in: 
                         <hi rend="italic">Proceedings of the National Academy of Sciences</hi>, 99(suppl 3):7280– 7287 
                     </bibl>
                     <bibl>
-                        <hi rend="bold">Davidsson, Paul</hi> (2002): 
-                        <hi rend="italic">
-                            <hi rend="italic">"Agent based social simulation"</hi>
-                            <hi rend="italic">in: </hi>Journal of Artificial Societies and Social Simulation
-                            <hi rend="italic"> 5(1):</hi>
-                        </hi>
+                        <hi rend="bold">Davidsson, Paul</hi> (2002): "Agent based social simulation"
+                            in: <hi rend="italic">Journal of Artificial Societies and Social Simulation</hi> 5(1):
                         <ref target="http://jasss.soc.surrey.ac.uk/5/1/7.html">http://jasss.soc.surrey.ac.uk/5/1/7.html</ref>
-                        <hi rend="italic">
-                            <hi rend="italic">[</hi>
-                            <hi rend="italic">letzter</hi>
-                            <hi rend="italic">Zugriff</hi>
-                            <hi rend="italic">11</hi>
-                            <hi rend="italic">. </hi>
-                            <hi rend="italic">Januar</hi>
-                            <hi rend="italic"> 2017]</hi>
-                        </hi>
+                        [letzter Zugriff 11.Januar 2017]
                     </bibl>
                     <bibl>
                         <hi rend="bold">Gilbert, Nigel</hi> (2007): 
-                        <hi rend="italic">
                             <hi rend="italic">"Computational social science: Agent-based social simulation"</hi>
-                            <hi rend="italic">in: </hi>
-                            <hi rend="italic">Amblard</hi>
-                            <hi rend="italic">, Frédéric / Phan, Dennis (eds</hi>.): Agent-based Modelling and Simulation in the Social and Human Sciences
-                            <hi rend="italic">. </hi>
-                            <hi rend="italic">Oxford: The </hi>
-                            <hi rend="italic">Bardwell</hi>
-                            <hi rend="italic"> Press 115-133.</hi>
-                        </hi>
+                            in: Amblard, Frédéric / Phan, Dennis (eds.): Agent-based Modelling and Simulation in the Social and Human Sciences.
+                            Oxford: The Bardwell Press 115-133.
                     </bibl>
                     <bibl>
                         <hi rend="bold">Kohle, Hubertus</hi> (2017): 
-                        <hi rend="italic">
                             <hi rend="italic">"Digitale Rekonstruktion und Simulation"</hi>
-                            <hi rend="italic">in: </hi>
-                            <hi rend="italic">Jannidis</hi>
-                            <hi rend="italic">, Fotis / Kohle, Hubertus / Rehbein, Malte (</hi>
-                            <hi rend="italic">eds</hi>
-                            <hi rend="italic">.): </hi>Digital Humanities: Eine Einführung. 
-                            <hi rend="italic">Stuttgart: </hi>
-                            <hi rend="italic">J.</hi>
-                            <hi rend="italic">B.Metzler</hi>
-                            <hi rend="italic"> 315-327.</hi>
-                        </hi>
+                            in: Jannidis, Fotis / Kohle, Hubertus / Rehbein, Malte (eds.): Digital Humanities: Eine Einführung. 
+                            Stuttgart: J. B.Metzler 315-327.
                     </bibl>
                     <bibl>
-                        <hi rend="bold">Law, Averill M.
-                            <hi rend="normalweight"> (2015): </hi>
-                            <hi rend="italic normalweight">Simulation </hi>
-                            <hi rend="italic normalweight">Modeling</hi>
-                            <hi rend="italic normalweight"> and Analysis.</hi>
-                            <hi rend="normalweight"> 5. </hi>
-                            <hi rend="normalweight">Auflage</hi>
-                            <hi rend="normalweight">. Tucson: McGraw Hill Education.</hi>
-                        </hi>
+                        <hi rend="bold">Law, Averill M.</hi> (2015): 
+                            Simulation Modeling and Analysis. 5.Auflage. Tucson: McGraw Hill Education.
                     </bibl>
                     <bibl>
-                        <hi rend="bold">Mann, Klaus
-                            <hi rend="normalweight"> (1995): </hi>
-                            <hi rend="italic normalweight">Tagebücher 1931 – 1933</hi>
-                            <hi rend="normalweight">. Reinbek: Rowohlt.</hi>
-                        </hi>
+                        <hi rend="bold">Mann, Klaus</hi> (1995): Tagebücher 1931 – 1933. Reinbek: Rowohlt.
                     </bibl>
                     <bibl>
-                        <hi rend="bold">Richter, Michael M. / Weber, Rosina O. 
-                            <hi rend="normalweight">(2013): </hi>
-                            <hi rend="italic normalweight">Case-Based Reasoning: A Textbook.</hi>
-                            <hi rend="normalweight"> Berlin: Springer.</hi>
-                        </hi>
+                        <hi rend="bold">Richter, Michael M. / Weber, Rosina O. </hi>(2013): 
+                            Case-Based Reasoning: A Textbook. Berlin: Springer.
                     </bibl>
                     <bibl>
-                        <hi rend="bold">Taylor, Ian J. / Deelman, Ewa / Gannon, Dennis B. / Shields, Matthew
-                            <hi rend="normalweight"> (2014): </hi>
-                            <hi rend="italic normalweight">Workflows for e-Science: Scientific Workflows for Grids.</hi>
-                            <hi rend="normalweight">London: Springer</hi>
-                        </hi>
+                        <hi rend="bold">Taylor, Ian J. / Deelman, Ewa / Gannon, Dennis B. / Shields, Matthew</hi> (2014): 
+                            Workflows for e-Science: Scientific Workflows for Grids.London: Springer
                     </bibl>
                 </listBibl>
             </div>

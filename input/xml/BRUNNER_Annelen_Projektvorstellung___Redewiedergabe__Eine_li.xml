@@ -111,17 +111,17 @@
     </teiHeader>
    <text>
         <body>
-            <div type="div1" rend="DH-Heading">
+            <div type="div1" rend="DH-Heading1">
                 <head>Einführung</head>
                 <p>Das laufende DFG-Projekt „Redewiedergabe“ stellt einen Anwendungsfall quantitativer Sprach- und Literaturwissenschaft dar und beschäftigt sich mit dem Phänomen „Redewiedergabe“ auf der Grundlage großer Datenmengen. Zu diesem Zweck wird zum einen ein Korpus manuell mit Redewiedergabeformen annotiert, zum anderen werden Verfahren zur automatischen Erkennung des Phänomens entwickelt. Ziel ist es, Forschungsfragen nach der Entwicklung von Redewiedergabe vor allem im 19. Jahrhundert zu beantworten. </p>
                 <p>Das Poster präsentiert einen Überblick über das Gesamtprojekt sowie erste Projektergebnisse.</p>
             </div>
-            <div type="div1" rend="DH-Heading">
+            <div type="div1" rend="DH-Heading1">
                 <head>Stand der Forschung</head>
                 <p>Sowohl aus linguistischer als auch aus literaturwissenschaftlicher Perspektive ist Redewiedergabe ein interessantes Phänomen. Die Art und Weise, wie die Figurenstimme in die Erzählung eingebunden ist, steht in engem Zusammenhang mit Erzählweise und -haltung, sowie der Konstruktion der erzählten Welt. Folglich wird dem Phänomen in der Erzählforschung viel Aufmerk­samkeit geschenkt und es liegen zahlreiche systematische Analysen vor (vgl. z.B. Genette 1998; Martínez / Scheffel 2007). Zu Phänomenen wie der erlebten Rede, dem Bewusstseinsstrom usw. gibt es eine umfangreiche Spezialforschung (Überblick bei McHale 2014). Aus linguistischer Perspektive ist Redewiedergabe vor allem in Bezug auf den Funktionswandel des Konjunktivs im Zusammenhang mit seinem Auftreten in indirekter Rede untersucht worden (vgl. z.B. Übersicht in Ágel 2000). In geringem Umfang sind auch Redewiedergabeverben und ihr Verhältnis zur wiedergegebenen Rede in das Blickfeld der Forschung gerückt (eine kurze Synopse bei Fritz 2005).</p>
                 <p>Ein Vorbild für die ausführliche, manuelle Annotation von Redewiedergabe ist v.a. Semino / Short 2004. Implementierungen der automatischen Erkennung stammen vor allem aus dem Bereich der Computerlinguistik und werden oft als Vorverarbeitungsschritt für andere Anwendungen durchgeführt (z.B. Wissensextraktion, Sprechererkennung oder dem Aufbau von sozialen Netzwerken literarischer Figuren, vgl. z.B. Krestel / Bergler / Witte 2008; Elson / Dames / McKeown 2010; Iosif / Mishra 2014). Eine literaturwissenschaftlich motivierte Anwendung ist die Untersuchung von Schöch et al. 2016 zur Erkennung von direkter Wiedergabe in französischen Romantexten. Die wichtigste Vorarbeit für das vorgestellte Projekt ist die Studie Brunner 2015, auf deren Ergebnissen es aufbaut. In dieser Studie wurde ein Korpus von 13 Erzähltexten manuell annotiert und Prototypen für die automatische Erkennung (sowohl regelbasiert als auch mit Hilfe von maschinellem Lernen) wurden entwickelt und ausgewertet.</p>
             </div>
-            <div type="div1" rend="DH-Heading">
+            <div type="div1" rend="DH-Heading1">
                 <head>Datengrundlage, Methodik und Ziele</head>
                 <p>Das Untersuchungskorpus umfasst die Jahre 1840-1920 und enthält sowohl fiktionale als auch nicht-fiktionale Texte. Der nicht-fiktionale Teil setzt sich zusammen aus Texten des „Mannheimer Korpus Historischer Zeitungen und Zeitschriften“ und der Zeitschrift „Die Grenzboten“ (digitalisiert durch die Staats- und Universitätsbibliothek Bremen), der fiktionale Teil aus Erzählungen der Sammlung der Digitalen Bibliothek (textgrid). So sind sowohl Beobachtungen von Entwicklungen über die Zeit hinweg als auch Vergleiche zwischen Textsorten möglich.</p>
                 <p>Auszüge aus den Texten werden manuell annotiert. Das in Brunner 2015 vorgestellte und an Kategoriensystemen der Literaturwissenschaft orientierte Annotationssystem wurde für das Projekt erweitert und präzisiert. Es unterscheidet zwischen Wiedergabe von gesprochener Sprache, von Schrift und von Gedanken sowie den Typen direkte Wiedergabe (
@@ -130,8 +130,7 @@
                     <hi rend="italic">Er sprach über das Mittagessen.</hi>) und freie indirekte Wiedergabe ('erlebte Rede') (
                     <hi rend="italic">Wo sollte er jetzt nur etwas zu essen bekommen?</hi>). Attribute spezifizieren die Annotation (z.B. Verschachtelungstiefe) und markieren Sonderfälle (z.B. nicht-faktische Wiedergabe). Zusätzlich werden Sprecher, Rahmenformeln und die redeeinleitenden Verben bzw. Nomen markiert. 
                 </p>
-                <p>Die Annotatoren arbeiten mit dem im Projekt Kallimachos (
-                    <ref target="http://www.kallimachos.de/">www.kallimachos.de</ref>) von Markus Krug entwickelten Eclipse-basierten Annotationswerkzeug ATHEN (
+                <p>Die Annotatoren arbeiten mit dem im Projekt Kallimachos (<ref target="http://www.kallimachos.de/">www.kallimachos.de</ref>) von Markus Krug entwickelten Eclipse-basierten Annotationswerkzeug ATHEN (
                     <ptr target="https://gitlab2.informatik.uni-wuerzburg.de/kallimachos/Athen"/>), für welches eine spezielle Annotationsoberfläche für Redewiedergabeformen implementiert wurde. Es werden, zumindest in Teilen, Mehrfachannotationen durchgeführt und Annotatorenvergleiche angestellt. 
                 </p>
                 <p>Die zweite Projektphase, welche zum Einreichungszeitpunkt dieses Posters gerade beginnt, umfasst die Entwicklung eines automatischen Erkenners für Redewiedergabeformen. Hierbei dient das manuell annotierte Material als Test- und Trainingsmaterial. Die in Brunner 2015 implementierten Prototypen dienen als Ausgangspunkt, die Implementierung erfolgt unter Nutzung des UIMA-Frameworks sowie in Python. Geplant ist eine Verbesserung des maschinellen Lernens durch Optimierung der Attributauswahl sowie Tests mit verschiedenen Lernalgorithmen (RandomForest, SVM, eventuell Conditional Random Fields und Deep Learning) und verschiedenen Parametereinstellungen. Auch regelbasierte Ansätze sollen weiter verfolgt werden, eventuell auf Grundlage einer aufwendigeren Vorverarbeitung (z.B. Parsing). Zudem ist eine Ergänzung und Verfeinerung einer Liste von Wörtern geplant, die auf Redewiedergabe hinweisen, welche sich bereits in Brunner 2015 als wertvolles Werkzeug bei der automatischen Erkennung erwiesen hat.</p>
@@ -152,10 +151,8 @@
                         <hi rend="italic">Automatische Erkennung von Redewiedergabe.</hi> Ein Beitrag zur quantitativen Narratologie (= Narratologia 47). Berlin / Boston: de Gruyter. 
                     </bibl>
                     <bibl>
-                        <hi rend="color(#0d0d0d)bold">Elson, David K. / Dames, Nicholas J. / McKeown, Kathleen</hi>
-                        <hi rend="color(#0d0d0d)"> (2010): "Extracting Social Networks from Literary Fiction", in: </hi>
-                        <hi rend="color(#0d0d0d)italic">Proceedings of the 48th Annual Meeting of the Association for Computational Linguistics</hi>
-                        <hi rend="color(#0d0d0d)"> 138-147.</hi>
+                        <hi rend="bold">Elson, David K. / Dames, Nicholas J. / McKeown, Kathleen</hi> (2010): "Extracting Social Networks from Literary Fiction", in: 
+                       <hi rend="italic">Proceedings of the 48th Annual Meeting of the Association for Computational Linguistics</hi> 138-147.
                     </bibl>
                     <bibl>
                         <hi rend="bold">Fritz, Gerd</hi> (2005): 
@@ -166,36 +163,26 @@
                         <hi rend="italic">Die Erzählung.</hi> München: Wilhelm Fink.
                     </bibl>
                     <bibl>
-                        <hi rend="color(#0d0d0d)bold">Iosif, Elias / Mishra, Taniya</hi>
-                        <hi rend="color(#0d0d0d)"> (2014): "From Speaker Identification to Affective Analysis: A Multi-Step System from Analyzing Children's Stories", in: </hi>
-                        <hi rend="color(#0d0d0d)italic">Proceedings of the Third Workshop on Computational Linguistics for Literature</hi>
-                        <hi rend="color(#0d0d0d)"> 40-49.</hi>
+                        <hi rend="bold">Iosif, Elias / Mishra, Taniya</hi> (2014): "From Speaker Identification to Affective Analysis: A Multi-Step System from Analyzing Children's Stories", in: 
+                       <hi rend="italic">Proceedings of the Third Workshop on Computational Linguistics for Literature</hi> 40-49.
                     </bibl>
                     <bibl>
-                        <hi rend="color(#0d0d0d)bold">Krestel, Ralf / Bergler, Sabine / Witte, René</hi>
-                        <hi rend="color(#0d0d0d)"> (2008): "Minding the Source: Automatic Tagging of Reported Speech in Newspaper Articles", in: </hi>
-                        <hi rend="color(#0d0d0d)italic">Proceedings of the Sixth International Language Resources and Evaluation Conference</hi>
-                        <hi rend="color(#0d0d0d)"> </hi>
-                        <hi rend="color(#0d0d0d)italic">(LREC 2008) </hi>
-                        <hi rend="color(#0d0d0d)">2823-2828.</hi>
+                        <hi rend="bold">Krestel, Ralf / Bergler, Sabine / Witte, René</hi> (2008): "Minding the Source: Automatic Tagging of Reported Speech in Newspaper Articles", in: 
+                       <hi rend="italic">Proceedings of the Sixth International Language Resources and Evaluation Conference</hi>
+                       <hi rend="italic">(LREC 2008) </hi>2823-2828.
                     </bibl>
                     <bibl>
                         <hi rend="bold">Martínez, Matías / Scheffel, Michael</hi> (2007): 
                         <hi rend="italic">Einführung in die Erzähltheorie.</hi> München: C. H. Beck.
                     </bibl>
                     <bibl>
-                        <hi rend="color(#0d0d0d)bold">McHale, Brian</hi>
-                        <hi rend="color(#0d0d0d)"> (2014): "Speech Representation" in: Hühn, Peter / Pier, John / Schmid, Wolf / Schönert, Jörg (eds.): </hi>
-                        <hi rend="color(#0d0d0d)italic">The living handbook of narratology.</hi>
-                        <hi rend="color(#0d0d0d)"> Hamburg: Hamburg University Press 434-446 </hi>
-                        <ptr target="http://www.lhn.uni-hamburg.de/article/speech-representation"/> [letzter Zugriff 18. September 2017]
-                        <hi rend="color(#0d0d0d)">.</hi>
+                       <hi rend="bold">McHale, Brian</hi> (2014): "Speech Representation" in: Hühn, Peter / Pier, John / Schmid, Wolf / Schönert, Jörg (eds.): 
+                       <hi rend="italic">The living handbook of narratology.</hi> Hamburg: Hamburg University Press 434-446 
+                       <ptr target="http://www.lhn.uni-hamburg.de/article/speech-representation"/> [letzter Zugriff 18. September 2017].
                     </bibl>
                     <bibl>
-                        <hi rend="color(#0d0d0d)bold">Schöch, Christof / Schlör, Daniel / Popp, Stefanie / Brunner, Annelen / Henny, Ulrike / Calvo Tello, José </hi>
-                        <hi rend="color(#0d0d0d)">(2016): "Straight talk! Automatic Recognition of Direct Speech in Nineteenth-century French Novels", in: </hi>
-                        <hi rend="color(#0d0d0d)italic">Conference Abstracts. Jagiellonian University &amp; Pedagogical University</hi>
-                        <hi rend="color(#0d0d0d)"> 346-353.</hi>
+                        <hi rend="bold">Schöch, Christof / Schlör, Daniel / Popp, Stefanie / Brunner, Annelen / Henny, Ulrike / Calvo Tello, José </hi>(2016): "Straight talk! Automatic Recognition of Direct Speech in Nineteenth-century French Novels", in: 
+                       <hi rend="italic">Conference Abstracts. Jagiellonian University &amp; Pedagogical University</hi> 346-353.
                     </bibl>
                     <bibl>
                         <hi rend="bold">Semino, Elena / Short, Mick</hi> (2004): 

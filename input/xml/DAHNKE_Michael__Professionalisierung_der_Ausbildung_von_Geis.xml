@@ -5,13 +5,13 @@
         <fileDesc>
             <titleStmt>
                 <title type="full">
-                    <title type="main"> Professionalisierung der Ausbildung von Geisteswissenschaftlern in der Digitalisierung von Texten</title>
+                    <title type="main">Professionalisierung der Ausbildung von Geisteswissenschaftlern in der Digitalisierung von Texten</title>
                     <title type="sub"/>
-                    <title type="sub">2.1. Rechtliche Grundlagen der Bilddigitalisierung</title>
+                    <!--  <title type="sub">2.1. Rechtliche Grundlagen der Bilddigitalisierung</title>
                     <title type="sub">2.2. Suche nach vorhandenen Digitalisaten beziehungsweise deren Erstellung</title>
                     <title type="sub">2.3. Aufbereitung der Digitalisate für das OCR</title>
                     <title type="sub">2.4. OCR</title>
-                    <title type="sub">2.5. Auszeichnung/Anreicherung</title>
+                    <title type="sub">2.5. Auszeichnung/Anreicherung</title> -->
                 </title>
                 <author>
                     <persName>
@@ -150,35 +150,35 @@
          <div type="bibliogr">
                 <listBibl>
                     <head>Bibliographie</head>
-                    <bibl>Corbach, Almuth: 
+                    <bibl><hi rend="bold">Corbach, Almuth</hi>: 
                         <hi rend="italic">Bestandsschonendes Digitalisieren von schriftlichem Kulturgut</hi>. In: Digital und analog. Die beiden Archivwelten. 46. Rheinischer Archivtag. Ratingen 21.-22. Juni 2012.
                     </bibl>
-                    <bibl>Jannidis, Fotis/Hubertus Kohle/Malte Rehbein [Hrsg.]: 
+                    <bibl><hi rend="bold">Jannidis, Fotis/Hubertus Kohle/Malte Rehbein </hi>[Hrsg.]: 
                         <hi rend="italic">Digital Humanities. Eine Einführung</hi>. Springer-Verlag GmbH Deutschland, 2017.
                     </bibl>
-                    <bibl>Kneißl, Michael: 
+                    <bibl><hi rend="bold">Kneißl, Michael</hi>: 
                         <hi rend="italic">Scannen wie die Profis : Text- und Bildvorlagen perfekt digitalisieren</hi>. München: DTV. (2)2002.
                     </bibl>
-                    <bibl>Loewenheim, Ulrich/Adolf Dietz/Gerhard Schricker: 
+                    <bibl><hi rend="bold">Loewenheim, Ulrich/Adolf Dietz/Gerhard Schricker</hi>: 
                         <hi rend="italic">Urheberrecht</hi>. Kommentar. München: Beck. (4)2010.
                     </bibl>
-                    <bibl>Reul, Christian/Christoph Wick/Uwe Springmann/Frank Puppe: 
+                    <bibl><hi rend="bold">Reul, Christian/Christoph Wick/Uwe Springmann/Frank Puppe</hi>: 
                         <hi rend="italic">Transfer Learning for OCRopus Model Training on Early Printed Books</hi>. In: 
                         <hi rend="italic">Zeitschrift für Bibliothekskultur</hi>. Bd. 5, Nr. 1 (2017).
                     </bibl>
-                    <bibl>Springmann, Uwe: 
+                    <bibl><hi rend="bold">Springmann, Uwe</hi>: 
                         <hi rend="italic">A high accuracy OCR method to convert early printings into digital text. A Tutorial</hi>. 
                         <hi rend="italic">Center for Information and Language Processing (CIS)</hi>. LMU. München. 2015. S. 9.
                     </bibl>
-                    <bibl>Springmann, Uwe: 
+                    <bibl><hi rend="bold">Springmann, Uwe</hi>: 
                         <hi rend="italic">OCR für alte Drucke</hi>. 
                         <hi rend="italic">Informatik-Spektrum</hi>. 39(6):459–462. 2016.
                     </bibl>
-                    <bibl>Vogeler, Georg: 
+                    <bibl><hi rend="bold">Vogeler, Georg</hi>: 
                         <hi rend="italic">Die Text Encoding Initiative (TEI) als Werkzeug des Urkundeneditors – Erfahrungen und Desiderate</hi>. In: Fees, Irmgard Prof. Dr.; Hotz, Benedikt; Schönfeld, Benjamin (Hrsg.): 
                         <hi rend="italic">Papsturkundenforschung zwischen internationaler Vernetzung und Digitalisierung. Neue Zugangsweisen zur europäischen Schriftgeschichte</hi>. Göttingen. 2015.
                     </bibl>
-                    <bibl>Weitzmann, John H./Paul Klimpel: Rechtliche Rahmenbedingungen für Digitalisierungsprojekte von Gedächtnisinstitutionen. Berlin: Zuse Institute Berlin. digiS – Servicestelle Digitalisierung Berlin. (3)2016.</bibl>
+                    <bibl><hi rend="bold">Weitzmann, John H./Paul Klimpel</hi>: Rechtliche Rahmenbedingungen für Digitalisierungsprojekte von Gedächtnisinstitutionen. Berlin: Zuse Institute Berlin. digiS – Servicestelle Digitalisierung Berlin. (3)2016.</bibl>
                 </listBibl>
             </div>
       </back>

@@ -120,15 +120,12 @@
                 <anchor xml:id="id_docs-internal-guid-9515130d-9a91-cb2d-c815-97a9c9a0094d"/>Die literarische Netzwerkanalyse hat sich in den letzten Jahren zu einer gefragten Methode der digitalen Literaturwissenschaft entwickelt. Dabei rangiert die Größe der Arbeitskorpora im Sinne des »scalable reading« (Martin Mueller) von der Betrachtung von Einzeltexten (Schweizer/Schnegg 1998, Moretti 2011) über kleinere Korpora bis hin zur Untersuchung hunderter oder gar tausender Dramen (Fischer u. a. 2016, Trilcke u. a. 2016, Algee-Hewitt 2017). Dabei zeigt sich auch immer wieder Interesse an bestimmten, etwa autorzentrierten Subkorpora (Wade 2017).
             </p>
             <p>In diesem Kontext siedelt sich auch unser Posterprojekt an, in dessen Mittelpunkt die extrahierten Netzwerkdaten zu den Stücken des russischen Dramatikers Anton Tschechow (1860–1904) stehen. Die Datengrundlage bildet das von uns aufgebaute und betriebene Russian Drama Corpus (RusDraCor), das es sich zur Aufgabe gestellt hat, russischsprachige Stücke in der Zeitspanne zwischen den 1740er-Jahren (Sumarokow, Lomonossow u. a.) und den 1930er-Jahren (mit Texten von Autoren wie Majakowski oder Gorki) im TEI-Format zur Verfügung zu stellen (Fischer u. a. 2017). Neben Large-Scale-Analysen zur strukturellen Evolution des russischen Dramas ergibt sich so auch die Möglichkeit zur Betrachtung von nach verschiedenen Kriterien portionierten Teilkorpora, etwa der Stücke einzelner Autoren.</p>
-            <p>
-                <hi rend="color(#000000)">Anton Tschechow gehört zu den meistgespielten russischen Dramatikern, dessen Werke bis heute inszeniert werden, gerade auch an deutschsprachigen Bühnen, vor allem seine vier letzten Stücke, »Die Möwe«, »Onkel Wanja«, »Drei Schwestern« und »Der Kirschgarten«. Von der Figurenkonstellation her haben diese Werke einen hohen Wiedererkennungswert: Es gibt keine wirklichen Protagonisten; die Redeanteile und Gesprächssituationen sind relativ gleichmäßig über eine Gruppe von Figuren verteilt. Dies zeigt sich sofort auch in den Netzwerkgraphen: Die Knoten (von denen jeder für eine Figur des jeweiligen Dramas steht) bilden einen </hi>
-                <hi rend="color(#000000)italic">character space</hi>
-                <hi rend="color(#000000)">, der bei der Visualisierung einem Polyeder gleicht. Die einzigen Figuren, die nicht am gemeinsamen Gesprächskreis teilhaben, sind die Diener und sonstige Gehilfen, deren Redeanteile sich auf Dialoge mit ihren direkten Weisungsbefugten beschränken. Dieses Sichtbarwerden der sozialen Zweiteilung des Dramenpersonals ist eine der Leistungen der Netzwerkvisualisierung. Zieht man die Werkchronologie als Größe hinzu, wird außerdem deutlich, wie sich die für Tschechow typischen Personenkonstellationen allmählich herausbilden, ab den frühen Stücken »An der Landstraße« (1884), »Iwanow« (1887) und »Der Waldteufel« (1889), über mehrere Kurzdramen oder Etüden wie »Der Bär« </hi>
-                <hi rend="color(#000000)">(1888), »Tragödie wider Willen« (1889) oder »Das Jubiläum« (1891), bis 1895 mit der »Möwe« die typische Tschechow’sche Charakterkonstellation gefunden ist.</hi>
+            <p>Anton Tschechow gehört zu den meistgespielten russischen Dramatikern, dessen Werke bis heute inszeniert werden, gerade auch an deutschsprachigen Bühnen, vor allem seine vier letzten Stücke, »Die Möwe«, »Onkel Wanja«, »Drei Schwestern« und »Der Kirschgarten«. Von der Figurenkonstellation her haben diese Werke einen hohen Wiedererkennungswert: Es gibt keine wirklichen Protagonisten; die Redeanteile und Gesprächssituationen sind relativ gleichmäßig über eine Gruppe von Figuren verteilt. Dies zeigt sich sofort auch in den Netzwerkgraphen: Die Knoten (von denen jeder für eine Figur des jeweiligen Dramas steht) bilden einen<hi rend="italic">character space</hi>
+                , der bei der Visualisierung einem Polyeder gleicht. Die einzigen Figuren, die nicht am gemeinsamen Gesprächskreis teilhaben, sind die Diener und sonstige Gehilfen, deren Redeanteile sich auf Dialoge mit ihren direkten Weisungsbefugten beschränken. Dieses Sichtbarwerden der sozialen Zweiteilung des Dramenpersonals ist eine der Leistungen der Netzwerkvisualisierung. Zieht man die Werkchronologie als Größe hinzu, wird außerdem deutlich, wie sich die für Tschechow typischen Personenkonstellationen allmählich herausbilden, ab den frühen Stücken »An der Landstraße« (1884), »Iwanow« (1887) und »Der Waldteufel« (1889), über mehrere Kurzdramen oder Etüden wie »Der Bär«
+                (1888), »Tragödie wider Willen« (1889) oder »Das Jubiläum« (1891), bis 1895 mit der »Möwe« die typische Tschechow’sche Charakterkonstellation gefunden ist.
             </p>
             <p>Die Beschaffenheit des Russian Drama Corpus erlaubt es, quantitative Analysen auch zugeschnitten auf bestimmte Figurengruppen zu beschränken, etwa gesondert nach Geschlecht oder sozialem Status. Bereits eine simple Worthäufigkeitsanalyse kann so etwa zeigen, dass weibliche und männliche Rollen in Tschechow-Stücken von den Redeanteilen und dem Vernetzungsgrad her vergleichbar sind (anders als etwa bei allen anderen Autoren im Korpus). Diese Verteilungsdiagramme sowie netzwerktheoretische Werte wie Dichte, Diameter, Clustering-Koeffizient und Average Path Length ergänzen die chronologisch sortierten Netzwerkvisualisierungen.</p>
-            <p>
-                <hi rend="color(#000000)">Die im Poster geschaffene Übersicht über alle Tschechow-Dramen hat auch enzyklopädischen Charakter, enthält sie doch etwa alle Figuren im Kontext ihres Auftretens im Tschechow’schen Dramenkosmos. Der netzwerkanalytische Blick ist somit durchaus geeignet, als Brücke zur inhaltlichen Auseinandersetzung mit den Werken Tschechows zu dienen.</hi>
+            <p>Die im Poster geschaffene Übersicht über alle Tschechow-Dramen hat auch enzyklopädischen Charakter, enthält sie doch etwa alle Figuren im Kontext ihres Auftretens im Tschechow’schen Dramenkosmos. Der netzwerkanalytische Blick ist somit durchaus geeignet, als Brücke zur inhaltlichen Auseinandersetzung mit den Werken Tschechows zu dienen.
             </p>
         </body>
         <back>
@@ -137,42 +134,31 @@
                     <head>Bibliographie</head>
                     <bibl>
                         <anchor xml:id="id_docs-internal-guid-9515130d-9a96-6284-e0d7-bd41dcbbf445"/>
-                        <hi rend="color(#000000)bold">Algee-Hewitt, Mark</hi>
-                        <hi rend="color(#000000)"> </hi>
-                        <hi rend="color(#000000)">(2017): Distributed Character: Quantitative Models of the English Stage, 1500–1920. DH2017, Montréal. URL: &lt;</hi>
+                        <hi rend="bold">Algee-Hewitt, Mark</hi> (2017): Distributed Character: Quantitative Models of the English Stage, 1500–1920. DH2017, Montréal. URL: &lt;
                         <ptr target="https://dh2017.adho.org/abstracts/103/103.pdf"/>
-                        <hi rend="color(#000000)">&gt;.</hi>
+                        &gt;.
                     </bibl>
                     <bibl>
-                        <hi rend="color(#000000)bold">Fischer, Frank; Göbel, Mathias; Kampkaspar, Dario; Kittel, Christopher; Meiners, Hanna-Lena; Trilcke, Peer; Vogel, Andreas</hi>
-                        <hi rend="color(#000000)"> </hi>
-                        <hi rend="color(#000000)">(2016): Distant-Reading Showcase. 200 Years of Literary Network Data at a Glance. DHd2016, Leipzig. DOI: &lt;</hi>
+                        <hi rend="bold">Fischer, Frank; Göbel, Mathias; Kampkaspar, Dario; Kittel, Christopher; Meiners, Hanna-Lena; Trilcke, Peer; Vogel, Andreas</hi> (2016): Distant-Reading Showcase. 200 Years of Literary Network Data at a Glance. DHd2016, Leipzig. DOI: &lt;
                         <ptr target="https://dx.doi.org/10.6084/m9.figshare.3101203.v1"/>
-                        <hi rend="color(#000000)">&gt;.</hi>
+                        &gt;.
                     </bibl>
                     <bibl>
-                        <hi rend="color(#000000)bold">Fischer, Frank; Orlova, Tatyana; Skorinkin, Danil; Palchikov, German; Tyshkevich, Natasha</hi>
-                        <hi rend="color(#000000)"> </hi>
-                        <hi rend="color(#000000)">(2017): Introducing RusDraCor – A TEI-Encoded Russian Drama Corpus for the Digital Literary Studies. CORPORA2017, St. Petersburg. Abstractband, S. 28–31.</hi>
+                        <hi rend="bold">Fischer, Frank; Orlova, Tatyana; Skorinkin, Danil; Palchikov, German; Tyshkevich, Natasha</hi> (2017): Introducing RusDraCor – A TEI-Encoded Russian Drama Corpus for the Digital Literary Studies. CORPORA2017, St. Petersburg. Abstractband, S. 28–31.
                     </bibl>
                     <bibl>
-                        <hi rend="color(#000000)bold">Schweizer, Thomas; Schnegg, Michael</hi>
-                        <hi rend="color(#000000)"> </hi>
-                        <hi rend="color(#000000)">(1998): Die soziale Struktur der »Simple Storys«. Eine Netzwerkanalyse. URL: &lt;</hi>
+                        <hi rend="bold">Schweizer, Thomas; Schnegg, Michael</hi> (1998): Die soziale Struktur der »Simple Storys«. Eine Netzwerkanalyse. URL: &lt;
                         <ptr target="https://www.ethnologie.uni-hamburg.de/pdfs-de/michael-schnegg/simple-stories-publikation-michael-schnegg.pdf"/>
-                        <hi rend="color(#000000)">&gt;.</hi>
+                        &gt;.
                     </bibl>
                     <bibl>
-                        <hi rend="color(#000000)bold">Trilcke, Peer; Fischer, Frank; Göbel, Mathias; Kampkaspar, Dario; Kittel, Christopher</hi>
-                        <hi rend="color(#000000)"> </hi>
-                        <hi rend="color(#000000)">(2016): Dramen als ›small worlds‹? Netzwerkdaten zur Geschichte und Typologie deutschsprachiger Dramen 1730–1930. DHd2016, Leipzig. URL: &lt;</hi>
+                        <hi rend="bold">Trilcke, Peer; Fischer, Frank; Göbel, Mathias; Kampkaspar, Dario; Kittel, Christopher</hi> (2016): Dramen als ›small worlds‹? Netzwerkdaten zur Geschichte und Typologie deutschsprachiger Dramen 1730–1930. DHd2016, Leipzig. URL: &lt;
                         <ptr target="http://www.dhd2016.de/abstracts/vorträge-060.html"/>
-                        <hi rend="color(#000000)">&gt;.</hi>
+                        &gt;.
                     </bibl>
-                    <bibl>
-                        <hi rend="color(#000000)">Wade, Karen (2017): Jane Austen’s Social Networks. In: The Sea of Books, 4. Juli 2017. URL: &lt;</hi>
+                    <bibl><hi rend="bold">Wade, Karen </hi>(2017): Jane Austen’s Social Networks. In: The Sea of Books, 4. Juli 2017. URL: &lt;
                         <ptr target="https://theseaofbooks.com/2017/07/04/jane-austens-social-networks/"/>
-                        <hi rend="color(#000000)">&gt;.</hi>
+                        &gt;.
                     </bibl>
                 </listBibl>
             </div>

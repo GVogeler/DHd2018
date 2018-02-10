@@ -142,28 +142,28 @@
          <div type="bibliogr">
                 <listBibl>
                     <head>Bibliographie</head>
-                    <bibl>AthenaPlus (2015): Digital storytelling and cultural heritage: stakes and opportunities. 
+                    <bibl><hi rend="bold">AthenaPlus </hi>(2015): Digital storytelling and cultural heritage: stakes and opportunities. 
                         <ref target="http://www.athenaplus.eu/index.php?en/207/digital-storytelling">http://www.athenaplus.eu/index.php?en/207/digital-storytelling</ref> [letzter Zugriff 22. August 2017]
                     </bibl>
-                    <bibl>AthenaPlus (2016): Metadata for the description of digital exhibitions: the DEMES element set. Version 1.0. 
+                    <bibl><hi rend="bold">AthenaPlus </hi>(2016): Metadata for the description of digital exhibitions: the DEMES element set. Version 1.0. 
                         <ref target="http://www.athenaplus.eu/index.php?en/206/demes">http://www.athenaplus.eu/index.php?en/206/demes</ref> [letzter Zugriff 22. August 2017]
                     </bibl>
-                    <bibl>AthenaPlus: Movio. 
+                    <bibl><hi rend="bold">AthenaPlus</hi>: Movio. 
                         <ref target="http://www.athenaplus.eu/index.php?en/211/movio">http://www.athenaplus.eu/index.php?en/211/movio</ref>) 
                     </bibl>
-                    <bibl>Geisteswissenschaftliches Asset Management System – GAMS. 
+                    <bibl><hi rend="bold">Geisteswissenschaftliches Asset Management System – GAMS</hi>. 
                         <ref target="http://gams.uni-graz.at">http://gams.uni-graz.at</ref> [letzter Zugriff 22. August 2017]
                     </bibl>
-                    <bibl>INDICATE (2012): Handbook on virtual exhibitions and virtual performances. Version 1.0. 
+                    <bibl><hi rend="bold">INDICATE </hi>(2012): Handbook on virtual exhibitions and virtual performances. Version 1.0. 
                         <ref target="http://www.indicate-project.org/getFile.php?id=412">http://www.indicate-project.org/getFile.php?id=412</ref> [letzter Zugriff 22. August 2017]
                     </bibl>
-                    <bibl>Kultur- und Wissenschaftserbe Steiermark. 
+                    <bibl><hi rend="bold">Kultur- und Wissenschaftserbe Steiermark</hi>. 
                         <ref target="http://www.kulturerbe-stmk.at">http://www.kulturerbe-stmk.at</ref> [letzter Zugriff 22. August 2017]
                     </bibl>
-                    <bibl>Repositorium Steirisches Wissenschaftserbe. 
+                    <bibl><hi rend="bold">Repositorium Steirisches Wissenschaftserbe</hi>. 
                         <ref target="https://wissenschaftserbe.uni-graz.at/">https://wissenschaftserbe.uni-graz.at/</ref> [letzter Zugriff 22. August 2017]
                     </bibl>
-                    <bibl>StoryMapJS. 
+                    <bibl><hi rend="bold">StoryMapJS</hi>. 
                         <ref target="https://storymap.knightlab.com/">https://storymap.knightlab.com/</ref> [letzter Zugriff 22. August 2017]
                     </bibl>
                 </listBibl>
