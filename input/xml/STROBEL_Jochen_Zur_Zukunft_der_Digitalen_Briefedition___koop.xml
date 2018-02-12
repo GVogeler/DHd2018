@@ -4,7 +4,7 @@
    <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Zur Zukunft der Digitalen Briefedition – kooperative Lösungen im kulturwissenschaftlichen Forschungsdatenmanagement </title>
+                <title>Zur Zukunft der Digitalen Briefedition – kooperative Lösungen im kulturwissenschaftlichen Forschungsdaten-management </title>
                 <author>
                     <persName>
                         <surname>Strobel</surname>
@@ -84,8 +84,7 @@
     </teiHeader>
    <text>
         <body>
-            <p>Ausgehend von thesenförmigen Impulsreferaten (
-                <hi rend="bold">jeweils 10 Min., die PPT-Folien werden nach der Tagung publiziert</hi>) sollen editionstheoretische und -technische Fragen diskutiert werden.
+            <p>Ausgehend von thesenförmigen Impuls-referaten (<hi rend="bold">jeweils 10 Min., die PPT-Folien werden nach der Tagung publiziert</hi>) sollen editionstheoretische und -technische Fragen diskutiert werden.
             </p>
             <div type="div1" rend="DH-Heading1">
                 <head>Block 1 Impulse (90 Minuten) 14:00 – 15:30 Uhr</head>
@@ -102,7 +101,7 @@
             </div>
             <div type="div1" rend="DH-Heading1">
                 <head>Block 2 Diskussion, Fazit, Ausblick (90 Minuten) 16:00 – 17:30 Uhr</head>
-                <p>Diskussion der Impulsreferate und der fachlichen und förderpolitischen Schlussfolgerungen (Moderation: Thomas Bürger, Jochen Strobel)</p>
+                <p>Diskussion der Impulsreferate und der fach-lichen und förderpolitischen Schlussfolgerungen (Moderation: Thomas Bürger, Jochen Strobel)</p>
                 <p><hi rend="bold">Block 1: 14:00 – 15:30 Uhr</hi></p>
                 <list type="ordered">
                     <item>Einführung (Thomas Bürger, Jochen Strobel)
@@ -157,7 +156,7 @@
                         <ref target="http://www.mww-forschung.de/blog/blogdetail/wie-sieht-die-digitale-edition-der-zukunft-aus-herr-kamzelak/?tx_news_pi1%5Bcontroller%5D=News&amp;tx_news_pi1%5Baction%5D=detail">http://www.mww-forschung.de/blog/blogdetail/wie-sieht-die-digitale-edition-der-zukunft-aus-herr-kamzelak/?tx_news_pi1%5Bcontroller%5D=News&amp;tx_news_pi1%5Baction%5D=detail</ref> (30.8.2017)
                     </bibl>
                     <bibl>
-                        <ref target="abschnitt4">http://dhd-wp.hab.de/?q=ag-text#abschnitt4</ref> (30.8.2017)
+                        <ref target="http://dhd-wp.hab.de/?q=ag-text#abschnitt4">http://dhd-wp.hab.de/?q=ag-text#abschnitt4</ref> (30.8.2017)
                     </bibl>
                     <bibl>
                         <ref target="http://www.dfg.de/download/pdf/foerderung/grundlagen_dfg_foerderung/informationen_fachwissenschaften/geisteswissenschaften/foerderkriterien_editionen_literaturwissenschaft.pdf">http://www.dfg.de/download/pdf/foerderung/grundlagen_dfg_foerderung/informationen_fachwissenschaften/geisteswissenschaften/foerderkriterien_editionen_literaturwissenschaft.pdf</ref> (30.8.2017)
