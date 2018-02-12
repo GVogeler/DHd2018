@@ -467,6 +467,7 @@
 
   <xsl:template name="underline">
     <xsl:attribute name="font-style">italic</xsl:attribute>
+    <xsl:attribute name="text-decoration">underline</xsl:attribute>
   </xsl:template>
 
   <xsl:template name="smallcaps">
