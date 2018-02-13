@@ -7,11 +7,6 @@
                 <title type="full">
                     <title type="main">Professionalisierung der Ausbildung von Geisteswissenschaftlern in der Digitalisierung von Texten</title>
                     <title type="sub"/>
-                    <!--  <title type="sub">2.1. Rechtliche Grundlagen der Bilddigitalisierung</title>
-                    <title type="sub">2.2. Suche nach vorhandenen Digitalisaten beziehungsweise deren Erstellung</title>
-                    <title type="sub">2.3. Aufbereitung der Digitalisate für das OCR</title>
-                    <title type="sub">2.4. OCR</title>
-                    <title type="sub">2.5. Auszeichnung/Anreicherung</title> -->
                 </title>
                 <author>
                     <persName>
@@ -110,28 +105,43 @@
                     <item>die Anreicherung der Digitalisate und des generierten Rohtextes – im Idealfall einer diplomatische Transkription – mit Metadaten, sowie</item>
                     <item>die inhaltliche Auszeichnung des generierten Rohtextes.</item>
                 </list>
-                <p>Um den Teilnehmern den typischen Arbeitsablauf der Textdigitalisierung möglichst stringent und ohne thematische Abschweifungen vorzuführen, werden sie zuerst intensiv mit den juristischen Grundlagen der Bilddigitalisierung vertraut gemacht. Dazu gehören</p>
-                <list type="ordered">
-                    <item>die Vorstellung des UrhG beziehungsweise speziell der § 60d und 60g UrhG in der novellierten Fassung des UrhWissG 2017,</item>
-                    <item>die Unterscheidung zwischen Immaterial- und Materialgüterrecht und was daraus für die Digitalisierung zweidimensionaler Objekte folgt,</item>
-                    <item>die Persönlichkeitsrechte des Urhebers und weiterer Betroffener sowie</item>
-                    <item>der Umgang mit Werken, die unter der Creative Commons Lizenz stehen und die Möglichkeit, diese selbst zu benutzen.</item>
-                </list>
-                <p>Am Anfang der Transformation vom gedruckten zum digitalen Corpus steht die Suche nach möglicherweise bereits vorhandenen Digitalisaten. Diese Suche setzt neben nicht DH-spezifischen Kenntnissen der Erschließung das Wissen um Metadaten zu digitalen Bildformaten voraus. Die Vertreter der Zielgruppe müssen in dieser Situation wissen, dass beispielsweise die Chancen eines erfolgreichen OCR mit einem JPEG mit 72 dpi deutlich geringer sind als mit einem unkomprimierten TIFF, True Color und 300 dpi. Sollte er schließlich feststellen, dass ihm Digitalisate in der gewünschten Form nicht zugänglich sind, bedarf er der Kenntnisse zu digitalen Bildformaten genauso, um im nächsten Schritt erfolgreich den Scan selbst durchzuführen oder nach seinen Vorgaben durchführen zu lassen.</p>
-                <p>Ausgehend von den skizzierten Anforderungen werden den Vertretern der Zielgruppe in der Veranstaltung die Grundlagen der Bilddigitalisierung nahe gebracht. Vertieft wird hier auf das menschliche Sehen und die Farbreproduktion, die Entstehung digitaler Bilder (Rastergraphik, optische und interpolierte Auflösung, Farbtiefe), Farbräume, Color-Management-Systeme, verschiedene Graphikspeicherformate, Speichermedien und verschiedene Scannertypen eingegangen. Auch für die Berücksichtigung konservatorischer Aspekte werden die Teilnehmer sensibilisiert.</p>
-                <p>Die Forschung im Bereich OCR, insbesondere auf Inkunabeln und Wiegendrucken, sowie die eigene Praxis des Autors belegen die Bedeutung einer vorherigen Aufbereitung der Digitalisate für das OCR, der darum entsprechend Platz in der Veranstaltung eingeräumt wird (Springmann 2015: 9). Als Tätigkeiten sind hier in der Reihenfolge ihrer Ausführung die Bereinigung und anschließende Binarisierung der Digitalisate, deren Segmentierung in einzelne Textabschnitte und schließlich einzelne Textzeilen sowie die Transkription (›ground truth‹) einer Anzahl der Textzeilen zu nennen. Die gesamte Aufbereitung der Digitalisate für das OCR führen die Vertreter der Zielgruppe in der Veranstaltung selbst an ausgewähltem Trainingsmaterial durch. Nach der Teilnahme an der Veranstaltung sollen sie auch diesen Arbeitsschritt selbständig erledigen und Arbeitsergebnisse anderer in diesem Bereich beurteilen können.</p>
-                <p>Entsprechend der zunehmenden Speziali-sierung des Digitalisierungszentrums der UB Würzburg ist es erstens wünschenswert, in der Lehrveranstaltung besonders auf das Training eigener Modelle beispielsweise mit 
+                <div type="div2" rend="DH-Heading2">
+                    <head>2.1. Rechtliche Grundlagen der Bilddigitalisierung</head>
+                    <p>Um den Teilnehmern den typischen Arbeitsablauf der Textdigitalisierung möglichst stringent und ohne thematische Abschweifungen vorzuführen, werden sie zuerst intensiv mit den juristischen Grundlagen der Bilddigitalisierung vertraut gemacht. Dazu gehören</p>
+                    <list type="ordered">
+                        <item>die Vorstellung des UrhG beziehungsweise speziell der § 60d und 60g UrhG in der novellierten Fassung des UrhWissG 2017,</item>
+                        <item>die Unterscheidung zwischen Immaterial- und Materialgüterrecht und was daraus für die Digitalisierung zweidimensionaler Objekte folgt,</item>
+                        <item>die Persönlichkeitsrechte des Urhebers und weiterer Betroffener sowie</item>
+                        <item>der Umgang mit Werken, die unter der Creative Commons Lizenz stehen und die Möglichkeit, diese selbst zu benutzen.</item>
+                    </list>
+                </div>
+                <div type="div2" rend="DH-Heading2">
+                    <head>2.2. Suche nach vorhandenen Digitalisaten beziehungsweise deren Erstellung</head>
+                    <p>Am Anfang der Transformation vom gedruckten zum digitalen Corpus steht die Suche nach möglicherweise bereits vorhandenen Digitalisaten. Diese Suche setzt neben nicht DH-spezifischen Kenntnissen der Erschließung das Wissen um Metadaten zu digitalen Bildformaten voraus. Die Vertreter der Zielgruppe müssen in dieser Situation wissen, dass beispielsweise die Chancen eines erfolgreichen OCR mit einem JPEG mit 72 dpi deutlich geringer sind als mit einem unkomprimierten TIFF, True Color und 300 dpi. Sollte er schließlich feststellen, dass ihm Digitalisate in der gewünschten Form nicht zugänglich sind, bedarf er der Kenntnisse zu digitalen Bildformaten genauso, um im nächsten Schritt erfolgreich den Scan selbst durchzuführen oder nach seinen Vorgaben durchführen zu lassen.</p>
+                    <p>Ausgehend von den skizzierten Anforderungen werden den Vertretern der Zielgruppe in der Veranstaltung die Grundlagen der Bilddigitalisierung nahe gebracht. Vertieft wird hier auf das menschliche Sehen und die Farbreproduktion, die Entstehung digitaler Bilder (Rastergraphik, optische und interpolierte Auflösung, Farbtiefe), Farbräume, Color-Management-Systeme, verschiedene Graphikspeicherformate, Speichermedien und verschiedene Scannertypen eingegangen. Auch für die Berücksichtigung konservatorischer Aspekte werden die Teilnehmer sensibilisiert.</p>
+                </div>
+                <div type="div2" rend="DH-Heading2">
+                    <head>2.3. Aufbereitung der Digitalisate für das OCR</head>
+                    <p>Die Forschung im Bereich OCR, insbesondere auf Inkunabeln und Wiegendrucken, sowie die eigene Praxis des Autors belegen die Bedeutung einer vorherigen Aufbereitung der Digitalisate für das OCR, der darum entsprechend Platz in der Veranstaltung eingeräumt wird (Springmann 2015: 9). Als Tätigkeiten sind hier in der Reihenfolge ihrer Ausführung die Bereinigung und anschließende Binarisierung der Digitalisate, deren Segmentierung in einzelne Textabschnitte und schließlich einzelne Textzeilen sowie die Transkription (›ground truth‹) einer Anzahl der Textzeilen zu nennen. Die gesamte Aufbereitung der Digitalisate für das OCR führen die Vertreter der Zielgruppe in der Veranstaltung selbst an ausgewähltem Trainingsmaterial durch. Nach der Teilnahme an der Veranstaltung sollen sie auch diesen Arbeitsschritt selbständig erledigen und Arbeitsergebnisse anderer in diesem Bereich beurteilen können.</p>
+                </div>
+                <div type="div2" rend="DH-Heading2">
+                    <head>2.4. OCR</head>
+                    <p>Entsprechend der zunehmenden Speziali-sierung des Digitalisierungszentrums der UB Würzburg ist es erstens wünschenswert, in der Lehrveranstaltung besonders auf das Training eigener Modelle beispielsweise mit 
                     <ref target="https://github.com/tmbdev/ocropy">
                         <hi rend="italic">OCRopus</hi>
                     </ref> einzugehen. Zweitens soll ein Arbeitsablauf für die Digitalisierung eigener Texte vorgestellt werden, der von den Vertretern der Zielgruppe selbständig mit möglichst geringem technischen Aufwand realisierbar ist. Diese Form der Digitalisierung von Texten soll als handhabbares Mittel zum Zweck wahrgenommen werden.
-                </p>
-                <p>Schließlich wird in diesem Zusammenhang auf die Frage nach dem Zeitpunkt der Normalisierung des mit dem OCR erstellten Textes eingegangen. Soll bereits mit dem OCR ein normalisierter Text erstellt werden und wenn ja, nach welchen Regeln? Ist also beispielsweise von der verwendeten OCR-Software das Schaft-s bereits automatisch als Rund-s zu lernen und anschließend zu transkribieren? Oder soll das Ergebnis des OCR graphisch so dicht wie möglich am Original bleiben und normalisierende Eingriffe erst hinterher erfolgen?</p>
-                <p>Nach dem OCR wird erst die Notwendigkeit der Auszeichnung sowohl der Digitalisate mit Metadaten als auch des Rohtextes erläutert, die die Teilnehmer dann auch selbst vornehmen sollen. Für den extrahierten Rohtext gilt das in zweifacher Hinsicht: Erstens sind ihm Metadaten hinzuzufügen, welche die spätere, eindeutige Identifikation des Werkes und dessen Auffindbarkeit ermöglichen. Zweitens muss der Text strukturiert mit inhaltsbezogenen Elementen angereichert werden.</p>
-                <p>Konkret sind bei der digitalen Repräsentation eines Romans beispielsweise die Figuren, Orte, Zeitpunkte und gegebenenfalls weitere signifikante Entitäten im Text für das spätere, automatisierte Retrieval zu kodieren. Andere Anforderungen stellen digitalierte Transkriptionen gesprochener Sprache und wiederum andere die Erstellung einer Urkundenedition (Vogeler 2015). Für die visuelle Präsentation, beispielsweise auf einem Webportal, sind textstrukturierende Merkmale wie die Einteilung nach Kapiteln, Abschnitten, Fußnoten etc. zu kennzeichnen. Dem unterschiedlichen Kenntnisstand der Teilnehmer geschuldet muss hier vor der Vorstellung der TEI Guidelines zuvor zweifelsohne XML dargestellt werden. Wie ausführlich daneben 
+                    </p>
+                    <p>Schließlich wird in diesem Zusammenhang auf die Frage nach dem Zeitpunkt der Normalisierung des mit dem OCR erstellten Textes eingegangen. Soll bereits mit dem OCR ein normalisierter Text erstellt werden und wenn ja, nach welchen Regeln? Ist also beispielsweise von der verwendeten OCR-Software das Schaft-s bereits automatisch als Rund-s zu lernen und anschließend zu transkribieren? Oder soll das Ergebnis des OCR graphisch so dicht wie möglich am Original bleiben und normalisierende Eingriffe erst hinterher erfolgen?</p>
+                </div>
+                <div type="div2" rend="DH-Heading2">
+                    <head>2.5. Auszeichnung/Anreicherung</head>
+                    <p>Nach dem OCR wird erst die Notwendigkeit der Auszeichnung sowohl der Digitalisate mit Metadaten als auch des Rohtextes erläutert, die die Teilnehmer dann auch selbst vornehmen sollen. Für den extrahierten Rohtext gilt das in zweifacher Hinsicht: Erstens sind ihm Metadaten hinzuzufügen, welche die spätere, eindeutige Identifikation des Werkes und dessen Auffindbarkeit ermöglichen. Zweitens muss der Text strukturiert mit inhaltsbezogenen Elementen angereichert werden.</p>
+                    <p>Konkret sind bei der digitalen Repräsentation eines Romans beispielsweise die Figuren, Orte, Zeitpunkte und gegebenenfalls weitere signifikante Entitäten im Text für das spätere, automatisierte Retrieval zu kodieren. Andere Anforderungen stellen digitalierte Transkriptionen gesprochener Sprache und wiederum andere die Erstellung einer Urkundenedition (Vogeler 2015). Für die visuelle Präsentation, beispielsweise auf einem Webportal, sind textstrukturierende Merkmale wie die Einteilung nach Kapiteln, Abschnitten, Fußnoten etc. zu kennzeichnen. Dem unterschiedlichen Kenntnisstand der Teilnehmer geschuldet muss hier vor der Vorstellung der TEI Guidelines zuvor zweifelsohne XML dargestellt werden. Wie ausführlich daneben 
                     <ref target="http://dublincore.org/">Dublin Core</ref> und bibliotheksspezifische Formate (MARC21) thematisiert werden, ist noch nicht entschieden. Wieviel Zeit für weiterführende Themen wie 
                     <ref target="http://www.datacommunitydc.org/blog/2013/04/a-survey-of-stochastic-and-gazetteer-based-approaches-for-named-entity-recognition">Named Entity Recognition</ref>, 
                     <ref target="http://www.persid.org/downloads/PI-intro-2010-09-22.pdf">PID</ref> und Normdaten wie GND bleibt, muß ebenfalls die Praxis weisen.
-                </p>
+                    </p>
+                </div>
             </div>
             <div type="div1" rend="DH-Heading1">
                 <head>Forschungsbezug und Weiterentwicklung</head>
