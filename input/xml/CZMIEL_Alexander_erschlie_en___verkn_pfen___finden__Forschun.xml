@@ -130,5 +130,50 @@
             <p>Der Digitale Wissensspeicher ist unter der Adresse http://wissensspeicher.bbaw.de für den öffentlichen Zugriff erreichbar. Damit bietet der Wissensspeicher eine exemplarische Lösung für einen Katalog heterogener, digitaler geisteswissenschaftlicher Ressourcen, die zentral aggregiert und über eine Volltextsuche verfügbar gemacht werden. Dass es sich dabei nicht nur um digitale Ressourcen der BBAW handeln muss, liegt auf der Hand. Damit auch Sammlungen anderer Projekte und Institutionen von der Entwicklung des Wissensspeichers profitieren können, wurden Guidelines mit strukturellen und inhaltlichen Mindestanforderungen, die Ressourcen und Metadaten für die Aufnahme erfüllen müssen bzw. Schnittstellenbeschreibungen für vom Wissensspeicher unterstützte Formate bereitgestellt. Damit werden niedrigschwellige Zielvorgaben für die (technische) Qualität der in den Wissensspeicher aufzunehmenden Ressourcen mit ihren Metadaten formuliert. Zu den unterstützten Formaten gehören u.a. HTML-Websites, XML-basierte Ressourcen, PDF-Dokumente und institutionelle Repositorien sowie jede Form von Daten, die in der vom Wissensspeicher definierten Form eines XML-Exports ausgeliefert werden können (z.B. relationale Datenbanken oder NoSQL-Datenbanken). </p>
             <p>Das große Spektrum unterschiedlicher Erscheinungsformen digitaler Ressourcen in den Geisteswissenschaften kann somit vom Wissensspeicher verarbeitet und integriert werden. Durch die projektübergreifende Volltextsuche in allen verzeichneten Sammlungen sowie die miteinander vernetzten Metadaten verbessert der Digitale Wissensspeicher die Auffindbarkeit, Sichtbarkeit und damit die Nutzbarkeit von Digital-Humanities-Projekten und digitalen Forschungsergebnissen.</p>
         </body>
+       <back>
+           <div type="bibliogr">
+               <listBibl>
+                   <bibl>
+                       <hi rend="bold">Chen, Ko-le, Marian Dörk und Martyn Dade-Robertson</hi>: „Exploring the 
+                       Promises and Potentials of Visual Archive Interfaces.“ In IConference 
+                       2014 Proceedings, 735–41. iSchools, 2014. https://doi.org/10.9776/14348. 
+                   </bibl>
+                   <bibl>
+                       <hi rend="bold">Glinka, Katrin, Christopher Pietsch und Marian Dörk</hi>: „Past Visions and 
+                       Reconciling Views: Visualizing Time, Texture and Themes in Cultural 
+                       Collections.“ digital humanities quarterly 11, Nr. 2 (27. Februar 2017). 
+                       http://www.digitalhumanities.org/dhq/vol/11/2/000290/000290.html; 
+                       abgerufen am 14.12.2017.
+                   </bibl>
+                   <bibl>
+                       <hi rend="bold">Horch, Andrea, Holger Kett und Anette Weisbecker</hi>: „Semantische 
+                       Suchsysteme für das Internet. Architekturen und Komponenten semantischer 
+                       Suchmaschinen.“ Stuttgart: Fraunhofer Verlag, 2013.
+                   </bibl>
+                   <bibl>
+                       <hi rend="bold">McMurry, Julie A., Nick Juty, Niklas Blomberg, Tony Burdett, Tom Conlin, 
+                       Nathalie Conte, Mélanie Courtot u. a.</hi>: „Identifiers for the 21st 
+                       century: How to design, provision, and reuse persistent identifiers to 
+                       maximize utility and impact of life science data.“ PLOS Biology 15, Nr. 
+                       6 (29. Juni 2017): e2001414. https://doi.org/10.1371/journal.pbio.2001414.
+                   </bibl>
+                   <bibl>
+                       <hi rend="bold">Voß, Jakob</hi>: „Was sind eigentlich Daten?“ LIBREAS. Library Ideas, Nr. 23 
+                       (2013). http://libreas.eu/ausgabe23/02voss/; abgerufen am 14.12.2017.
+                   </bibl>
+                   <bibl>
+                       <hi rend="bold">Ward, David, Jim Hahn und Kirsten Feist</hi>: „Autocomplete as Research Tool: 
+                       A Study on Providing Search Suggestions.“ Information Technology and 
+                       Libraries 31, Nr. 4 (11. Dezember 2012). 
+                       https://doi.org/10.6017/ital.v31i4.1930.
+                   </bibl>
+                   <bibl>
+                       <hi rend="bold">Woutersen-Windhouwer, Saskia (Hrsg.)</hi>: „Enhanced Publications: Linking 
+                       Publications and Research Data in Digital Repositories.“ Amsterdam: 
+                       Amsterdam Univ. Press, 2009.
+                   </bibl>
+               </listBibl>
+           </div>
+       </back>
     </text>
 </TEI>
