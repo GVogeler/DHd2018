@@ -1338,7 +1338,9 @@
               <fo:leader leader-pattern="dots"/>
               <xsl:for-each select="current-group()">
                 <fo:basic-link internal-destination="{parent::persName/parent::author/@n}">
-                  <fo:page-number-citation ref-id="{parent::persName/parent::author/@n}"/><xsl:if test="position() != last()"><xsl:text>,</xsl:text></xsl:if>
+                  <xsl:text> </xsl:text>
+                  <fo:page-number-citation ref-id="{parent::persName/parent::author/@n}"/>
+                  <xsl:if test="position() != last()"><xsl:text>, </xsl:text></xsl:if>
                 </fo:basic-link>
               </xsl:for-each>
             </fo:block>
