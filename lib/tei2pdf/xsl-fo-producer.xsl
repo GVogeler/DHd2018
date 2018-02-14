@@ -444,13 +444,13 @@
 
   <!-- only included for top level lists, not for sub lists -->
   <xsl:template name="list_margins">
-    <xsl:attribute name="space-before">.2in</xsl:attribute>
-    <xsl:attribute name="space-after">.2in</xsl:attribute>
-    <xsl:attribute name="margin-bottom">.2in</xsl:attribute>
+    <xsl:attribute name="space-before">.1in</xsl:attribute>
+    <xsl:attribute name="space-after">.1in</xsl:attribute>
+    <xsl:attribute name="margin-bottom">.1in</xsl:attribute>
   </xsl:template>
 
   <xsl:template name="list">
-    <xsl:attribute name="margin-left">1.6em</xsl:attribute>
+    <xsl:attribute name="margin-left">0.4em</xsl:attribute>
     <xsl:attribute name="font-family"><xsl:value-of select="$main_font"/></xsl:attribute>
   </xsl:template>
 
