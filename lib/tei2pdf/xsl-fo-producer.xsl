@@ -285,7 +285,6 @@
   </xsl:template>
 
 
-
   <!-- heads -->
 
   <xsl:template name="head">
@@ -498,7 +497,6 @@
   <xsl:template name="figure_head">
     <xsl:attribute name="font-style">italic</xsl:attribute>
     <xsl:attribute name="font-family"><xsl:value-of select="$main_font"/></xsl:attribute>
-    
     <xsl:attribute name="margin-left">.1in</xsl:attribute>
     <xsl:attribute name="space-before">.1in</xsl:attribute>
     <xsl:attribute name="space-after">.1in</xsl:attribute>
@@ -510,6 +508,22 @@
     <xsl:attribute name="space-before">.1in</xsl:attribute>
     <xsl:attribute name="space-after">.1in</xsl:attribute>
   </xsl:template>
+
+<!-- Spezialfall: Bild in Tabelle -->
+  <xsl:template name="figure_container_table">
+    <xsl:attribute name="text-align">center</xsl:attribute>
+    <xsl:attribute name="font-family"><xsl:value-of select="$main_font"/></xsl:attribute>
+  </xsl:template>
+  
+  <xsl:template name="figure_table">
+    <xsl:attribute name="content-height">0.8in</xsl:attribute>
+    <xsl:attribute name="content-width">scale-to-fit</xsl:attribute>
+    <xsl:attribute name="text-align">center</xsl:attribute>
+    <xsl:attribute name="font-family"><xsl:value-of select="$main_font"/></xsl:attribute>
+  </xsl:template>
+  
+  
+
 
   <xsl:template name="code">
     <xsl:attribute name="font-family"><xsl:value-of select="$monospace_font"/></xsl:attribute>
@@ -953,7 +967,8 @@
 
                 <!-- Text -->
                 <xsl:for-each select="text/body/div">
-                  <fo:block text-align="justify" text-align-last="left">
+                  <fo:block text-align="justify" text-align-last="left" hyphenate="true"
+                    language="de">
                     <xsl:call-template name="text"/>
                     <xsl:apply-templates/>
                   </fo:block>
@@ -1025,7 +1040,8 @@
                 </fo:block>
 
                 <!-- Text -->
-                <fo:block text-align="justify" text-align-last="left">
+                <fo:block text-align="justify" text-align-last="left" hyphenate="true"
+                  language="de">
                   <xsl:call-template name="text"/>
                   <xsl:apply-templates select="text"/>
                 </fo:block>
@@ -1097,8 +1113,9 @@
                 </fo:block>
 
                 <!-- Text -->
-                  <fo:block text-align="justify" text-align-last="left">
-                    <xsl:call-template name="text"/>
+                <fo:block text-align="justify" text-align-last="left" hyphenate="true"
+                  language="de">
+                  <xsl:call-template name="text"/>
                     <xsl:apply-templates select="text"/>
                   </fo:block>
               </xsl:if>
@@ -1169,7 +1186,8 @@
                 </fo:block>
 
                 <!-- Text -->
-                <fo:block text-align="justify" text-align-last="left">
+                <fo:block text-align="justify" text-align-last="left" hyphenate="true"
+                  language="de">
                   <xsl:call-template name="text"/>
                   <xsl:apply-templates select="text"/>
                 </fo:block>
@@ -1241,7 +1259,8 @@
                 </fo:block>
 
                 <!-- Text -->
-                <fo:block text-align="justify" text-align-last="left">
+                <fo:block text-align="justify" text-align-last="left" hyphenate="true"
+                  language="de">
                   <xsl:call-template name="text"/>
                   <xsl:apply-templates select="text"/>
                 </fo:block>
@@ -1312,7 +1331,8 @@
                 </fo:block>
 
                 <!-- Text -->
-                <fo:block text-align="justify" text-align-last="left">
+                <fo:block text-align="justify" text-align-last="left" hyphenate="true"
+                  language="de">
                   <xsl:call-template name="text"/>
                   <xsl:apply-templates select="text"/>
                 </fo:block>
@@ -1717,6 +1737,16 @@
 
         </fo:block>
       </xsl:when>
+      <xsl:when test="graphic/@n='1002'">
+        <fo:block>
+          <xsl:call-template name="figure_container_table"/>
+          <fo:external-graphic>
+            <xsl:attribute name="src"><xsl:text>../../../input/images/</xsl:text><xsl:value-of select="graphic/@url"/></xsl:attribute>
+            <xsl:call-template name="figure_table"/>
+          </fo:external-graphic>
+          
+        </fo:block>
+      </xsl:when>
       <xsl:otherwise>
         <fo:block>
           <xsl:call-template name="figure_container"/>
@@ -1743,7 +1773,7 @@
         <xsl:call-template name="subsubhead"/><xsl:apply-templates select="."/></fo:block>
       </xsl:for-each>
 
-      <fo:table>
+    <fo:table>
         <xsl:choose>
           <xsl:when test="@n='text_smaller'">
             <xsl:call-template name="table_smaller"/>
