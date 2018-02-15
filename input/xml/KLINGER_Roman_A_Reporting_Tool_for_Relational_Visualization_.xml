@@ -208,7 +208,7 @@
                     <hi rend="italic">Die Leiden des jungen Werther</hi> by Johann Wolfgang Goethe with the following parameters: X=8, Y=5, stop words removed (previous work focused on this analysis without rCAT, 
                     <hi rend="italic">cf. </hi>Murr, 2017).
                 </p>
-                <p>In Goethe's epistolary novel, the protagonist Werther describes his unhappy love for Lotte, who is engaged to Albert. The characteristic triangular relationship in the novel arises from this constellation (protagonist ⎼ beloved woman ⎼ antagonist). With 
+                <p>In Goethe's epistolary novel, the protagonist Werther describes his unhappy love for Lotte, who is engaged to Albert. The characteristic triangular relationship in the novel arises from this constellation (protagonist - beloved woman - antagonist). With 
                     <hi rend="italic">rCAT</hi> we expect to identify and characterize this relationship. Figures 1 and 2 show a sample network analysis output (tables are shown only partly).
                 </p>
                 <p>The protagonist Werther shows a degree of 21, which is the number of characters with whom he interacts. The closest relationship measured by edge weight (Figure 2) is observed between Werther and Lotte (81 interactions). The antagonist Albert has a low degree of 3. However, his weighted degree is 36 (third highest after Werther and Lotte), which confirms his important role in the triangular relationship.</p>
