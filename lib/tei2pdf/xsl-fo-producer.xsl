@@ -967,7 +967,11 @@
 
                 <!-- Text -->
                 <xsl:for-each select="text/body/div">
-                  <fo:block text-align="justify" text-align-last="left" hyphenate="true"
+                  <fo:block text-align="justify" text-align-last="left" 
+                    hyphenate="true"
+                    hyphenation-push-character-count="3"
+                    hyphenation-remain-character-count="2"
+                    hyphenation-ladder-count="3"
                     language="de">
                     <xsl:call-template name="text"/>
                     <xsl:apply-templates/>
@@ -1040,7 +1044,11 @@
                 </fo:block>
 
                 <!-- Text -->
-                <fo:block text-align="justify" text-align-last="left" hyphenate="true"
+                <fo:block text-align="justify" text-align-last="left" 
+                  hyphenate="true"
+                  hyphenation-push-character-count="3"
+                  hyphenation-remain-character-count="2"
+                  hyphenation-ladder-count="3"
                   language="de">
                   <xsl:call-template name="text"/>
                   <xsl:apply-templates select="text"/>
@@ -1113,7 +1121,11 @@
                 </fo:block>
 
                 <!-- Text -->
-                <fo:block text-align="justify" text-align-last="left" hyphenate="true"
+                <fo:block text-align="justify" text-align-last="left" 
+                  hyphenate="true"
+                  hyphenation-push-character-count="3"
+                  hyphenation-remain-character-count="2"
+                  hyphenation-ladder-count="3"
                   language="de">
                   <xsl:call-template name="text"/>
                     <xsl:apply-templates select="text"/>
@@ -1186,7 +1198,11 @@
                 </fo:block>
 
                 <!-- Text -->
-                <fo:block text-align="justify" text-align-last="left" hyphenate="true"
+                <fo:block text-align="justify" text-align-last="left" 
+                  hyphenate="true"
+                  hyphenation-push-character-count="3"
+                  hyphenation-remain-character-count="2"
+                  hyphenation-ladder-count="3"
                   language="de">
                   <xsl:call-template name="text"/>
                   <xsl:apply-templates select="text"/>
@@ -1259,7 +1275,11 @@
                 </fo:block>
 
                 <!-- Text -->
-                <fo:block text-align="justify" text-align-last="left" hyphenate="true"
+                <fo:block text-align="justify" text-align-last="left" 
+                  hyphenate="true"
+                  hyphenation-push-character-count="3"
+                  hyphenation-remain-character-count="2"
+                  hyphenation-ladder-count="3"
                   language="de">
                   <xsl:call-template name="text"/>
                   <xsl:apply-templates select="text"/>
@@ -1331,7 +1351,11 @@
                 </fo:block>
 
                 <!-- Text -->
-                <fo:block text-align="justify" text-align-last="left" hyphenate="true"
+                <fo:block text-align="justify" text-align-last="left" 
+                  hyphenate="true"
+                  hyphenation-push-character-count="3"
+                  hyphenation-remain-character-count="2"
+                  hyphenation-ladder-count="3"
                   language="de">
                   <xsl:call-template name="text"/>
                   <xsl:apply-templates select="text"/>

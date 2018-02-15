@@ -126,7 +126,7 @@
                 </div>
                 <div type="div2" rend="DH-Heading2">
                     <head>2.4. OCR</head>
-                    <p>Entsprechend der zunehmenden Speziali-sierung des Digitalisierungszentrums der UB Würzburg ist es erstens wünschenswert, in der Lehrveranstaltung besonders auf das Training eigener Modelle beispielsweise mit 
+                    <p>Entsprechend der zunehmenden Spezialisierung des Digitalisierungszentrums der UB Würzburg ist es erstens wünschenswert, in der Lehrveranstaltung besonders auf das Training eigener Modelle beispielsweise mit 
                     <ref target="https://github.com/tmbdev/ocropy">
                         <hi rend="italic">OCRopus</hi>
                     </ref> einzugehen. Zweitens soll ein Arbeitsablauf für die Digitalisierung eigener Texte vorgestellt werden, der von den Vertretern der Zielgruppe selbständig mit möglichst geringem technischen Aufwand realisierbar ist. Diese Form der Digitalisierung von Texten soll als handhabbares Mittel zum Zweck wahrgenommen werden.
@@ -145,7 +145,7 @@
             </div>
             <div type="div1" rend="DH-Heading1">
                 <head>Forschungsbezug und Weiterentwicklung</head>
-                <p>Die eine Stärke der Würzburger Lehr-veranstaltung ist die Praxisorientierung, der nach der zweitägigen Einführung noch stärker mit einer drei Tage dauernden Übung Rechnung getragen wird. Bei dieser werden die Vertreter der Zielgruppe mit vorbereiteten Scans selbständig die genannten Arbeitsschritte von der Bereinigung und anschließenden Binarisierung über die Segmentierung und Transkription, dem OCR bis zum anschließenden Auszeichnen beziehungsweise der Anreicherung des digitalen Corpus mit den nötigen Metadaten vornehmen.</p>
+                <p>Die eine Stärke der Würzburger Lehrveranstaltung ist die Praxisorientierung, der nach der zweitägigen Einführung noch stärker mit einer drei Tage dauernden Übung Rechnung getragen wird. Bei dieser werden die Vertreter der Zielgruppe mit vorbereiteten Scans selbständig die genannten Arbeitsschritte von der Bereinigung und anschließenden Binarisierung über die Segmentierung und Transkription, dem OCR bis zum anschließenden Auszeichnen beziehungsweise der Anreicherung des digitalen Corpus mit den nötigen Metadaten vornehmen.</p>
                 <p>Unverzichtbar für die gesamte Ausbildung im DH-Bereich ist neben dem Praxisbezug die Orientierung am neuesten Stand der Forschung in allen Teilbereichen. Dem wird bei der skizzierten Lehrveranstaltung erstens durch die Forschung einzelner Mitglieder des Digitalisierungszentrums als die Veranstaltung verantwortende Abteilung Rechnung getragen (1. Reul/Wick/Springmann/Puppe: 2017. 2. Springmann: 2016. 459–462). Zweitens ist die enge Zusammenarbeit des Digitalisierungszentrums mit dem Lehrstuhl für Informatik VI der Universität Würzburg zu nennen.</p>
                 <p>Denkbare Erweiterungen für eine zukünftig breiter angelegte Lehrveranstaltung der beschriebenen Art sind die Vorstellung a) des OCR von Handschriften, beispielsweise in der Kooperation mit einer 
                     <ref target="https://transkribus.eu/wikiDe/index.php/Hauptseite">Transkribus</ref> anwendenden Institution, idealerweise der 
@@ -190,7 +190,7 @@
                         <hi rend="italic">Die Text Encoding Initiative (TEI) als Werkzeug des Urkundeneditors – Erfahrungen und Desiderate</hi>. In: Fees, Irmgard Prof. Dr.; Hotz, Benedikt; Schönfeld, Benjamin (Hrsg.): 
                         <hi rend="italic">Papsturkundenforschung zwischen internationaler Vernetzung und Digitalisierung. Neue Zugangsweisen zur europäischen Schriftgeschichte</hi>. Göttingen. 2015.
                     </bibl>
-                    <bibl><hi rend="bold">Weitzmann, John H. / Paul Klimpel</hi>: Rechtliche Rahmenbedingungen für Digitalisierungsprojekte von Gedächtnis-institutionen. Berlin: Zuse Institute Berlin. digiS – Servicestelle Digitalisierung Berlin. (3)2016.</bibl>
+                    <bibl><hi rend="bold">Weitzmann, John H. / Paul Klimpel</hi>: Rechtliche Rahmenbedingungen für Digitalisierungsprojekte von Gedächtnisinstitutionen. Berlin: Zuse Institute Berlin. digiS – Servicestelle Digitalisierung Berlin. (3)2016.</bibl>
                 </listBibl>
             </div>
       </back>
