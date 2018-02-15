@@ -53,23 +53,21 @@
           DHConvalidators in eine TEI konforme XML-Datei konvertiert.<lb/>
         </p>
         <p n="intro_text">
-          Koordination der Publikation: Patrick Helling, Claes Neuefeind<lb/>
-          Korrektur der Auszeichnung und der Bibliographie:<lb/>
-          &#160;&#160;&#160;&#160;&#160;Dana Persch, Patrick Helling, Claes Neuefeind<lb/>
+          Herausgeber: Georg Vogeler<lb/>
+          Korrektur der Auszeichnungen:<lb/>
+          &#160;&#160;&#160;&#160;&#160;Dana Persch, Claes Neuefeind, Patrick Helling<lb/>
           Konvertierung TEI nach PDF: Claes Neuefeind<lb/> 
-          &#160;&#160;&#160;&#160;&#160;https://github.com/https://github.com/GVogeler/DHd2018<lb/>
-          Konvertierungs-Skripte: Aramís Concepción Durán<lb/>
-          &#160;&#160;&#160;&#160;&#160;https://github.com/aramiscd/dhd2016-boa.git<lb/>
-          TEI to PDF scripts: Karin Dalziel<lb/>
+          &#160;&#160;&#160;&#160;&#160;https://github.com/GVogeler/DHd2018<lb/>
+          unter Verwendung der Konversionsskripte von Karin Dalziel<lb/>
           &#160;&#160;&#160;&#160;&#160;https://github.com/karindalziel/TEI-to-PDF<lb/>
-          Konferenz-Logo: Anja Neuefeind<lb/>
-          Umschlaggestaltung: XXX<lb/>
+          und der bearbeiteten Version von Aramís Concepción Durán<lb/>
+          &#160;&#160;&#160;&#160;&#160;https://github.com/aramiscd/dhd2016-boa.git<lb/>
+          Konferenz-Logo und Umschlaggestaltung: Anja Neuefeind<lb/>
         </p>
         <p n="intro_text">
           Online verfügbar: http://dhd2018.uni-koeln.de/<lb/>
         </p>
-        <p n="intro_text"><!--<seg n="ISBN">ISBN GOES HERE (controlled by XSLT)</seg><lb/>-->
-        copyright XXX</p>
+        <p n="intro_text"><!--<seg n="ISBN">ISBN GOES HERE (controlled by XSLT)</seg><lb/>--></p>
       </div>
     </body>
   </text>
