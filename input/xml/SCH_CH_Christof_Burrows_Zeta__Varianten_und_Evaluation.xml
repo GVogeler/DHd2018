@@ -155,8 +155,8 @@
                 <table rend="frame" xml:id="Table1">
                     <row>
                         <cell/>
-                        <cell cols="2" rend="center bold">document proportions</cell>
-                        <cell cols="2" rend="center bold">relative Häufigkeiten</cell>
+                        <cell colspan="2" rend="center bold">document proportions</cell>
+                        <cell colspan="2" rend="center bold">relative Häufigkeiten</cell>
                     </row>
                     <row>
                         <cell/>
