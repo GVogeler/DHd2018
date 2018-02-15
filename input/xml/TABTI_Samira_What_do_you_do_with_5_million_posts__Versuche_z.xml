@@ -148,9 +148,6 @@
                         <cell rend="DH-Default">Thema 1</cell>
                         <cell rend="DH-Default">Thema 2</cell>
                         <cell rend="DH-Default">Thema 3</cell>
-                        <cell rend="DH-Default">Thema 4</cell>
-                        <cell rend="DH-Default">Thema 5</cell>
-                        <cell rend="DH-Default">Thema 6</cell>
                     </row>
                     <row>
                         <cell rend="DH-Default">
@@ -186,6 +183,15 @@
                             <p>vater</p>
                             <p>mahram</p>
                         </cell>
+                    </row>
+                </table>
+                <table rend="rules">
+                    <row>
+                        <cell rend="DH-Default">Thema 4</cell>
+                        <cell rend="DH-Default">Thema 5</cell>
+                        <cell rend="DH-Default">Thema 6</cell>
+                    </row>
+                    <row>
                         <cell rend="DH-Default">
                             <p>staat</p>
                             <p>demokratie</p>
