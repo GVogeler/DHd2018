@@ -799,6 +799,12 @@
       <!-- Table of Contents -->
       <fo:page-sequence master-reference="Single">
         <fo:flow flow-name="xsl-region-body">
+          
+          <fo:block keep-with-next="always">
+            <xsl:call-template name="head"/>
+            <xsl:text>Inhaltsverzeichnis</xsl:text>
+          </fo:block>
+          
           <xsl:for-each select="//TEI">
             <!-- Controlled by individual templates below, gives section headers for TOC -->
 
@@ -834,7 +840,6 @@
 
                     <fo:block text-align-last="justify">
                       <xsl:call-template name="toc_author"/>
-
                       <fo:inline-container inline-progression-dimension="79.9%">
                         <fo:block>
                           <xsl:for-each select="teiHeader[1]/fileDesc[1]/titleStmt[1]/author/persName[1]">
@@ -847,6 +852,7 @@
                               <xsl:if test="position() != last()"><xsl:text>; </xsl:text></xsl:if>
                             </fo:inline>
                           </xsl:for-each>
+                          <xsl:text> </xsl:text>
                           <fo:leader leader-pattern="dots"/>
                         </fo:block>
                       </fo:inline-container>
@@ -864,7 +870,42 @@
 
             </xsl:if>
           </xsl:for-each>
+          
+          <!-- Autorenindex in TOC -->
+            <fo:block keep-with-next="always">
+              <xsl:call-template name="subhead"/>
+              <xsl:text>Anhang</xsl:text>
+            </fo:block>
+          
+          <fo:block text-align-last="justify">
+            <xsl:call-template name="text"/>
+            <!-- 
+            <xsl:attribute name="margin-left">1em</xsl:attribute>
+             -->
+            <fo:inline-container inline-progression-dimension="82.5%">
+              <fo:block>
+                  <fo:inline>
+                    <xsl:text>Index der Autorinnen und Autoren</xsl:text>
+                  </fo:inline>
+                <xsl:text> </xsl:text>
+                <fo:leader leader-pattern="dots"/>
+                  <xsl:text> &#160;&#160;</xsl:text>
+              </fo:block>
+            </fo:inline-container>
+            
+            <fo:inline-container inline-progression-dimension="19.9%" vertical-align="bottom">
+              <fo:block>
+                <fo:basic-link internal-destination="{generate-id()}">
+                  <fo:page-number-citation  letter-spacing="0" ref-id="{generate-id()}"/> 
+                </fo:basic-link>              
+              </fo:block>
+            </fo:inline-container>
+            
+          </fo:block>
+          
         </fo:flow>
+        
+        
       </fo:page-sequence>
 
       <!-- Reviewers -->
@@ -1369,7 +1410,7 @@
       <!-- Autorinnen -->
       <fo:page-sequence master-reference="Double">
         <fo:flow flow-name="xsl-region-body">
-          <fo:block>
+          <fo:block id="{generate-id()}">
             <xsl:call-template name="head"/>
             <xsl:text>Index der Autorinnen und Autoren</xsl:text>
           </fo:block>
@@ -1379,7 +1420,8 @@
 
             <fo:block text-align-last="justify">
               <xsl:call-template name="text"/>
-              <xsl:value-of select="parent::persName"/><xsl:text> </xsl:text>
+              <xsl:value-of select="parent::persName/surname"/><xsl:text>, </xsl:text>
+              <xsl:value-of select="parent::persName/forename"/><xsl:text> </xsl:text>
               <fo:leader leader-pattern="dots"/>
               <xsl:for-each select="current-group()">
                 <fo:basic-link internal-destination="{parent::persName/parent::author/@n}">
