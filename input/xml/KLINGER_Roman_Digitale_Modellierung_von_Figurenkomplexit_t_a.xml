@@ -121,8 +121,7 @@
                     <hi rend="italic">entitätsbasierte Kontextvektoren</hi>, berechnet über Eigennamen in den Kontexten. Dabei misst (a) die 
                     <hi rend="italic">lexikalische</hi> Vielfalt der Kontexte, in denen die jeweilige Figur vorkommt, und (b) entsprechend die 
                     <hi rend="italic">soziale</hi> Vielfalt der Kontexte. Beide Arten von Repräsentationen verwenden als Kontexte die sogenannten 
-                    <hi rend="italic">Dreißiger</hi>-Abschnitte (die Unterteilung des ‚Parzival‘ in Abschnitte von 30 Versen nach Karl Lachmann) und greifen nicht auf sprachliche Strukturen innerhalb der Dreißiger wie Wortarten, Syntax, Satzgrenzen oder Anaphern zurück.
-                    <ref target="ftn1" n="1"/>
+                    <hi rend="italic">Dreißiger</hi>-Abschnitte (die Unterteilung des ‚Parzival‘ in Abschnitte von 30 Versen nach Karl Lachmann) und greifen nicht auf sprachliche Strukturen innerhalb der Dreißiger wie Wortarten, Syntax, Satzgrenzen oder Anaphern zurück.<ref target="ftn1" n="1"/>
                 </p>
                 <p>In der Computerlinguistik werden Kontextvektoren typischerweise miteinander verglichen, um die semantische Ähnlichkeit der Zielwörter zu modellieren und finden breite Anwendung (Pantel und Turney 2010). In unserer Studie betrachten wir stattdessen den 
                     <hi rend="italic">Informationsgehalt</hi> der Kontextvektoren als Prädiktor für die Figurenkomplexität und messen ihn per 

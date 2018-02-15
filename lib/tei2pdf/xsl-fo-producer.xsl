@@ -1737,7 +1737,7 @@
 
         </fo:block>
       </xsl:when>
-      <xsl:when test="graphic/@n='1002'">
+      <xsl:when test="graphic/@n='in_table'">
         <fo:block>
           <xsl:call-template name="figure_container_table"/>
           <fo:external-graphic>
