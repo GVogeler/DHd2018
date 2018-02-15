@@ -104,11 +104,11 @@
                                         <mi>X</mi>
                                     </mrow>
                                 </mfenced>
-                                <mo xmlns="http://www.w3.org/1998/Math/MathML">≔</mo>
+                                <mo xmlns="http://www.w3.org/1998/Math/MathML">:</mo>
                                 <mi xmlns="http://www.w3.org/1998/Math/MathML"> </mi>
                                 <mo xmlns="http://www.w3.org/1998/Math/MathML">-</mo>
                                 <msubsup xmlns="http://www.w3.org/1998/Math/MathML">
-                                    <mo>∑</mo>
+                                    <mo>Σ</mo>
                                     <mrow>
                                         <mi>i</mi>
                                         <mo>=</mo>
