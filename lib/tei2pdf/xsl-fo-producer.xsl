@@ -439,7 +439,7 @@
 
   <xsl:template name="list-item-body">
     <xsl:attribute name="margin-left">.05in</xsl:attribute>
-    <xsl:attribute name="text-indent">-0.8em</xsl:attribute>
+    <xsl:attribute name="text-indent">-1.2em</xsl:attribute>
     <xsl:attribute name="font-family"><xsl:value-of select="$main_font"/></xsl:attribute>
   </xsl:template>
 
@@ -1544,7 +1544,7 @@
         <xsl:call-template name="list-item-body"/>
         <fo:block text-align="left">
           <xsl:if test="parent::list/@type='unordered'">
-            <xsl:text>•&#160;&#160;</xsl:text>
+            <xsl:text>•&#160;&#160;&#160;</xsl:text>
           </xsl:if>
           <xsl:if test="parent::list/@type='ordered'">
             <xsl:number/><xsl:text>.&#160;&#160;</xsl:text>

@@ -170,8 +170,11 @@
                              <item>Offene Lizenzen für Forschung und Bildung</item>
                              <item>Lizenzierungswerkzeuge  </item>
                          </list>
-                         <p rend="DH-Heading3">2. Block (16:00-17:30)</p>
-                         <p>Datenschutzrecht</p>
+                        <!-- <p rend="DH-Heading3">2. Block (16:00-17:30)</p>-->
+                </div>
+                <div type="div3" rend="DH-Heading3">
+                    <head>2. Block (16:00-17:30)</head>
+                    <p>Datenschutzrecht</p>
                          <list type="unordered">
                              <item>Begrifflichkeiten</item>
                              <item>Dauer</item>
@@ -183,10 +186,10 @@
                              <item>Diensteanbieter: Definitionen und Pflichten</item>
                              <item>Impressum und Offenlegung</item>
                          </list>
+                <p>Fragen und Diskussion</p>
                 </div>
             </div>
             <div type="div2" rend="DH-Heading2">
-                <p>Fragen und Diskussion</p>
                 <head>Vortragende</head>
                 <div type="div3" rend="DH-Heading3">
                     <head>Vanessa Hannesschläger </head>
