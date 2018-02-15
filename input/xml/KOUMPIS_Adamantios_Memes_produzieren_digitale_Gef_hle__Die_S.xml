@@ -143,7 +143,7 @@
                     <hi rend="italic">Liu Bing</hi> besteht eine Meinung aus einem 5-Tupel: 
                 </p>
                 <p>
-                    <hi rend="italic">opinion = </hi>(𝑒, 𝑎, 𝑠, ℎ, 𝑡) 
+                    <hi rend="italic">opinion = (e,a,s,h,t)</hi> 
                 </p>
                 <p>Wobei 
                     <hi rend="italic">e eine Entität (Objekt)</hi>, 
@@ -202,7 +202,7 @@
                     <hi rend="italic">Petter Törnberg</hi> adaptiert. Nach der Abfrage aller Gewichte erfolgt die Auswertung der Daten. Hierzu wird der 
                     <hi rend="italic">„Score“</hi> je Tweet (bestehend aus einzelnen bzw. mehreren Sätzen) durch die Summe der einzelnen Gewichte der Stimmungen der Wörter der textuellen Einheiten eines Tweets ermittelt. 
                 </p>
-                <p>𝑠𝑐𝑜𝑟𝑒 = 𝑠𝑐𝑜𝑟𝑒(𝑝𝑜𝑠(𝑊𝑜𝑟𝑡)) + 𝑠𝑐𝑜𝑟𝑒(𝑛𝑒𝑔(𝑊𝑜𝑟𝑡)) </p>
+                <p><hi rend="italic">score = score(pos(Wort)) + score(neg(Wort))</hi></p>
                 <p>Wobei 
                     <hi rend="italic">score(pos(Wort))</hi> die Summe der Scores aller positiven Gewichte der relevanten Wörter eines Tweets enthält. 
                 </p>
