@@ -424,11 +424,12 @@
   </xsl:template>
 
   <xsl:template name="p_inlist">
-    <xsl:attribute name="space-before">.2in</xsl:attribute>
-    <xsl:attribute name="space-after">.2in</xsl:attribute>
-    <xsl:attribute name="margin-left">-1.6em</xsl:attribute>
-    <xsl:attribute name="margin-bottom">.2in</xsl:attribute>
+    <xsl:attribute name="space-before">.1in</xsl:attribute>
+    <xsl:attribute name="space-after">.1in</xsl:attribute>
+   <!-- <xsl:attribute name="margin-left">-1.6em</xsl:attribute>
+   -->
     <xsl:attribute name="text-indent">0em</xsl:attribute>
+    <xsl:attribute name="margin-bottom">.1in</xsl:attribute>
     <xsl:attribute name="font-family"><xsl:value-of select="$main_font"/></xsl:attribute>
   </xsl:template>
 
@@ -437,20 +438,20 @@
   </xsl:template>
 
   <xsl:template name="list-item-body">
-    <xsl:attribute name="margin-left">.2in</xsl:attribute>
-    <xsl:attribute name="text-indent">-1.6em</xsl:attribute>
+    <xsl:attribute name="margin-left">.05in</xsl:attribute>
+    <xsl:attribute name="text-indent">-0.8em</xsl:attribute>
     <xsl:attribute name="font-family"><xsl:value-of select="$main_font"/></xsl:attribute>
   </xsl:template>
 
   <!-- only included for top level lists, not for sub lists -->
   <xsl:template name="list_margins">
-    <xsl:attribute name="space-before">.2in</xsl:attribute>
-    <xsl:attribute name="space-after">.2in</xsl:attribute>
-    <xsl:attribute name="margin-bottom">.2in</xsl:attribute>
+    <xsl:attribute name="space-before">.1in</xsl:attribute>
+    <xsl:attribute name="space-after">.1in</xsl:attribute>
+    <xsl:attribute name="margin-bottom">.1in</xsl:attribute>
   </xsl:template>
 
   <xsl:template name="list">
-    <xsl:attribute name="margin-left">1.6em</xsl:attribute>
+    <xsl:attribute name="margin-left">0.4em</xsl:attribute>
     <xsl:attribute name="font-family"><xsl:value-of select="$main_font"/></xsl:attribute>
   </xsl:template>
 
@@ -467,7 +468,7 @@
 
   <xsl:template name="underline">
     <xsl:attribute name="font-style">italic</xsl:attribute>
-    <xsl:attribute name="text-decoration">underline</xsl:attribute>
+    <!--<xsl:attribute name="text-decoration">underline</xsl:attribute>-->
   </xsl:template>
 
   <xsl:template name="smallcaps">
@@ -1338,7 +1339,9 @@
               <fo:leader leader-pattern="dots"/>
               <xsl:for-each select="current-group()">
                 <fo:basic-link internal-destination="{parent::persName/parent::author/@n}">
-                  <fo:page-number-citation ref-id="{parent::persName/parent::author/@n}"/><xsl:if test="position() != last()"><xsl:text>,</xsl:text></xsl:if>
+                  <xsl:text> </xsl:text>
+                  <fo:page-number-citation ref-id="{parent::persName/parent::author/@n}"/>
+                  <xsl:if test="position() != last()"><xsl:text>, </xsl:text></xsl:if>
                 </fo:basic-link>
               </xsl:for-each>
             </fo:block>
@@ -1541,7 +1544,7 @@
         <xsl:call-template name="list-item-body"/>
         <fo:block text-align="left">
           <xsl:if test="parent::list/@type='unordered'">
-            <xsl:text>•&#160;&#160;&#160;&#160;&#160;</xsl:text>
+            <xsl:text>•&#160;&#160;</xsl:text>
           </xsl:if>
           <xsl:if test="parent::list/@type='ordered'">
             <xsl:number/><xsl:text>.&#160;&#160;</xsl:text>
@@ -1754,7 +1757,7 @@
             <fo:table-row>
               <xsl:for-each select="cell">
                 <fo:table-cell><xsl:call-template name="cell"/>
-                <fo:block>
+                  <fo:block text-align="left">
                   <xsl:if test="ancestor::table[@n='text_smaller']"><xsl:call-template name="text_smaller"/></xsl:if>
                   <xsl:apply-templates select="."/>
                 </fo:block>
