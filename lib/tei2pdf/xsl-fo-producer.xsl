@@ -448,7 +448,7 @@
   </xsl:template>
 
   <xsl:template name="list-item-body">
-    <xsl:attribute name="margin-left">.05in</xsl:attribute>
+    <xsl:attribute name="margin-left">.1in</xsl:attribute>
     <xsl:attribute name="text-indent">-1.2em</xsl:attribute>
     <xsl:attribute name="font-family"><xsl:value-of select="$main_font"/></xsl:attribute>
   </xsl:template>
