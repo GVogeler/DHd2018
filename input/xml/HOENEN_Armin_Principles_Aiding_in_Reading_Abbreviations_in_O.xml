@@ -317,7 +317,8 @@
                         <cell>9/1/0</cell>
                         <cell>36/8/1</cell>
                         <cell>84/28/7 </cell>
-                        <cell>126/56/21 </cell>
+                        <cell>126/56/
+                            21 </cell>
                         <cell>126/70/35 </cell>
                     </row>
                     <row>
@@ -325,7 +326,8 @@
                         <cell>10/1/0</cell>
                         <cell>45/9/1</cell>
                         <cell>120/36/8</cell>
-                        <cell>210/84/28</cell>
+                        <cell>210/84/
+                            28</cell>
                         <cell>252/126/56</cell>
                     </row>
                 </table>
@@ -413,7 +415,7 @@
                 </table>
                 <p>Table 3: Numbers of possible abbreviations per word length / when first letter is fixed / when first and last letters are fixed. Rows have word length, columns abbreviation length.</p>
             </div>
-            <div type="div1" rend="DH-Heading">
+            <div type="div1" rend="DH-Heading1">
                 <head>Discussion and Conclusion</head>
                 <p>Various analyses (not only the presented) conducted have shown two properties of abbreviations which can help understand and read Old Georgian and Latin abbreviations.</p>
                 <list type="ordered">

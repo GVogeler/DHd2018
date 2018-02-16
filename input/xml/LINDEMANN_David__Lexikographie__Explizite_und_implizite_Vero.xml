@@ -180,21 +180,25 @@
                         </cell>
                     </row>
                     <row>
+                        <cell/>
                         <cell>DSH (ex LLC):
                             <ref target="https://academic.oup.com/dsh">https://academic.oup.com/dsh</ref> / 886
                         </cell>
                     </row>
                     <row>
+                        <cell/>
                         <cell>TEI Journal of the Text Encoding Initiative:
                             <ref target="http://jtei.revues.org/">http://jtei.revues.org</ref> / 63
                         </cell>
                     </row>
                     <row>
+                        <cell/>
                         <cell>Digital Studies/Le champ numerique: 
                             <ptr target="https://www.digitalstudies.org/"/> / 152
                         </cell>
                     </row>
                     <row>
+                        <cell/>
                         <cell>Blackwell Companion to DH: Schreibman et al. (ed.) 2004 / 37</cell>
                     </row>
                     <row>
@@ -207,29 +211,35 @@
                         </cell>
                     </row>
                     <row>
+                        <cell/>
                         <cell>Lexikos: 
                             <ptr target="http://lexikos.journals.ac.za/pub"/> / 376
                         </cell>
                     </row>
                     <row>
+                        <cell/>
                         <cell>Dictionaries (Journal of the DSNA): 
                             <ptr target="https://muse.jhu.edu/journal/540"/> / 257
                         </cell>
                     </row>
                     <row>
+                        <cell/>
                         <cell>Euralex: 
                             <ptr target="https://euralex.org/publications/"/> / 782
                         </cell>
                     </row>
                     <row>
+                        <cell/>
                         <cell>eLex: 
                             <ptr target="https://elex.link/"/> / 202
                         </cell>
                     </row>
                     <row>
+                        <cell/>
                         <cell>HSK 5/4: Gouws et al. (ed.) 2013 / 110</cell>
                     </row>
                     <row>
+                        <cell/>
                         <cell>The Routledge Handbook of Lexicography: Fuertes-Olivera (ed.) 2018 / 47</cell>
                     </row>
                 </table>

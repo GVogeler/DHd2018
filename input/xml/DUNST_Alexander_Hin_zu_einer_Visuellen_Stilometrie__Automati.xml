@@ -97,70 +97,9 @@
                     <item>Median der Helligkeit einer Seite: der mittlere Grauton aller Pixel eines Bildes</item>
                     <item>Shannon-Entropie: Entsprechend der Shannon-Entropie aus der Informationstheorie: 
                         <formula>
-                            <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
-                                <mi xmlns="http://www.w3.org/1998/Math/MathML">H</mi>
-                                <mfenced xmlns="http://www.w3.org/1998/Math/MathML" separators="|">
-                                    <mrow>
-                                        <mi>X</mi>
-                                    </mrow>
-                                </mfenced>
-                                <mo xmlns="http://www.w3.org/1998/Math/MathML">:</mo>
-                                <mi xmlns="http://www.w3.org/1998/Math/MathML"> </mi>
-                                <mo xmlns="http://www.w3.org/1998/Math/MathML">-</mo>
-                                <msubsup xmlns="http://www.w3.org/1998/Math/MathML">
-                                    <mo>Σ</mo>
-                                    <mrow>
-                                        <mi>i</mi>
-                                        <mo>=</mo>
-                                        <mn>1</mn>
-                                    </mrow>
-                                    <mrow>
-                                        <mi>n</mi>
-                                    </mrow>
-                                </msubsup>
-                                <mrow xmlns="http://www.w3.org/1998/Math/MathML">
-                                    <mi>P</mi>
-                                    <mfenced separators="|">
-                                        <mrow>
-                                            <msub>
-                                                <mrow>
-                                                    <mi>x</mi>
-                                                </mrow>
-                                                <mrow>
-                                                    <mi>i</mi>
-                                                </mrow>
-                                            </msub>
-                                        </mrow>
-                                    </mfenced>
-                                    <mi>*</mi>
-                                    <mi> </mi>
-                                    <msub>
-                                        <mrow>
-                                            <mi>l</mi>
-                                            <mi>o</mi>
-                                            <mi>g</mi>
-                                        </mrow>
-                                        <mrow>
-                                            <mn>2</mn>
-                                        </mrow>
-                                    </msub>
-                                    <mo>(</mo>
-                                    <mi>P</mi>
-                                    <mfenced separators="|">
-                                        <mrow>
-                                            <msub>
-                                                <mrow>
-                                                    <mi>x</mi>
-                                                </mrow>
-                                                <mrow>
-                                                    <mi>i</mi>
-                                                </mrow>
-                                            </msub>
-                                        </mrow>
-                                    </mfenced>
-                                    <mo>)</mo>
-                                </mrow>
-                            </mml:math>
+                            <hi rend="italic">
+                            H(X) := -Σ<hi rend="subscript">i=1</hi><hi rend="superscript">n</hi> P(x<hi rend="subscript">i</hi>) * log<hi rend="subscript">2</hi>(P(x<hi rend="subscript">i</hi>))
+                            </hi>
                         </formula> . Hierbei ist die betrachtete Nachricht X die Liste aller Helligkeitswerte/Grautöne eines jeden Pixels. Ein schwarz-weiß Bild hat eine Entropie zwischen 0 und 1 (da es nur ‚binäre’ Informationen (schwarz oder weiß) enthält). Die höchste Entropie (den höchsten Informationsgehalt) hat ein Bild, in dem alle Graustufen möglichst gleich verteilt vorkommen.
                     </item>
                     <item>Anzahl der Flächen: Hierzu wird das Bild in fünf binäre Bilder aufgeteilt, entsprechend fünf unterschiedlicher Helligkeitsstufen. Das Bild B

@@ -159,7 +159,7 @@
                     <head>Abbildung 2: Ähnlichkeit ausgewählter Wörter zu ‚Elektrizität’ im DTA.
                     </head>
                 </figure>
-                <p>Die Analyse spezifischer Kontextwörter (mittels normalisiertem ᵪ
+                <p>Die Analyse spezifischer Kontextwörter (mittels normalisiertem x
                     <hi rend="superscript">2</hi>) weist auf einen engen Zusammenhang mit elektrischen Ladungen in DTA und RSC hin, wie in Abbildungen 3 für das RSC gezeigt. Dabei werden 
                     <hi rend="italic">vitreous</hi> [‚gläsern‘] und 
                     <hi rend="italic">resinous</hi> [‚harzig‘] in den historischen Texten entsprechend ihrer elektrischen Eigenschaften synonym zu 
@@ -216,7 +216,7 @@
                 <p>Durch die Anwendung von state-of-the-art Methoden der distributionellen diachronen Semantik konnten wir unsere Hypothese zur Entwicklung des Verständnisses von Elektrizität, weg von einem in der Natur beobachteten Phänomen und hin zu etwas im Labor Erzeugtem, das mit anderen Phänomenen wie Magnetismus kombiniert untersucht wird, bestätigen. Dazu erkundeten wir die semantische Entwicklung der Wörter 
                     <hi rend="italic">Elektrizität, electricity, elektrisch, electrical, Funken </hi>und 
                     <hi rend="italic">spark</hi> mittels des SVD
-                    <hi rend="subscript">PPMI </hi>Word Embedding Verfahrens und des statistischen Maßes ᵪ
+                    <hi rend="subscript">PPMI </hi>Word Embedding Verfahrens und des statistischen Maßes x
                     <hi rend="superscript">2</hi>. Die Bestätigung unserer Erwartung, die auf dem wissenschaftsgeschichtlichen Forschungsstand basiert, sehen wir als Hinweis für die methodologische Eignung unserer Herangehensweise. 
                 </p>
                 <p>Wir konnten JeSemE erfolgreich zur Bestätigung bereits bestehender Thesen, die auf close-reading-Methoden aufbauen, einsetzen. Wir hoffen, darauf aufbauend Arbeitsabläufe zu entwickeln, die einen gezielten Zugang zu forschungsrelevanten Texten innerhalb umfangreicher Textkorpora wie historische Fachzeitschriften ermöglichen und somit close und distant reading (vgl. Moretti (2013)) verbinden. Die Analyse der Bedeutungsentwicklung über lange Zeiträume und mehrere internationale Korpora hinweg eröffnet neue Forschungsperspektiven, durch die bisher unzugängliche Eigenheiten oder Veränderungen erkennbar werden. Offen bleibt die Frage, wie unsere fokussierte Betrachtung von Einzelwörtern am besten mit der abstrakteren Analyse von Konzepten — dem in der aktuellen Forschung dominierenden Ansatz — verbunden werden kann.</p>
