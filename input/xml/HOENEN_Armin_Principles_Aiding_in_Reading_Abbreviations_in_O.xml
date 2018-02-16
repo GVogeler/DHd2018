@@ -319,7 +319,8 @@
                         <cell>84/28/7 </cell>
                         <cell>126/56/
                             21 </cell>
-                        <cell>126/70/35 </cell>
+                        <cell>126/70/
+                            35 </cell>
                     </row>
                     <row>
                         <cell>10</cell>
@@ -328,7 +329,8 @@
                         <cell>120/36/8</cell>
                         <cell>210/84/
                             28</cell>
-                        <cell>252/126/56</cell>
+                        <cell>252/126/
+                            56</cell>
                     </row>
                 </table>
                 <table rend="frame" xml:id="Table3_2">
@@ -386,7 +388,8 @@
                         <cell/>
                         <cell/>
                         <cell/>
-                        <cell>126/63/31 </cell>
+                        <cell>126/63/
+                            31 </cell>
                     </row>
                     <row>
                         <cell>8</cell>
@@ -394,7 +397,8 @@
                         <cell>8/7/6 </cell>
                         <cell/>
                         <cell/>
-                        <cell>254/127/63 </cell>
+                        <cell>254/127/
+                            63 </cell>
                     </row>
                     <row>
                         <cell>9</cell>
@@ -402,15 +406,19 @@
                         <cell>36/28/21 </cell>
                         <cell>9/8/7 </cell>
                         <cell/>
-                        <cell>510/255/127 </cell>
+                        <cell>510/255/
+                            127 </cell>
                     </row>
                     <row>
                         <cell>10</cell>
-                        <cell>210/126/70</cell>
-                        <cell>120/84/56</cell>
+                        <cell>210/126/
+                            70</cell>
+                        <cell>120/84/
+                            56</cell>
                         <cell>45/36/28</cell>
                         <cell>10/9/8</cell>
-                        <cell>1022/511/255</cell>
+                        <cell>1022/511
+                            /255</cell>
                     </row>
                 </table>
                 <p>Table 3: Numbers of possible abbreviations per word length / when first letter is fixed / when first and last letters are fixed. Rows have word length, columns abbreviation length.</p>
