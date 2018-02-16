@@ -173,14 +173,17 @@
   <!-- static level -->
   <xsl:template name="header_and_footer-even">
     <xsl:attribute name="color">#aaa</xsl:attribute>
-    <xsl:if test="$output = 'pdf'">
-      <xsl:attribute name="text-align">right</xsl:attribute>
+     <xsl:if test="$output = 'pdf'">
+      <xsl:attribute name="text-align">center</xsl:attribute>
     </xsl:if>
   </xsl:template>
 
   <xsl:template name="header_and_footer-odd">
     <xsl:attribute name="color">#aaa</xsl:attribute>
     <xsl:attribute name="text-align">right</xsl:attribute>
+    <xsl:if test="$output = 'pdf'">
+      <xsl:attribute name="text-align">center</xsl:attribute>
+    </xsl:if>
   </xsl:template>
 
   <!-- block level -->
