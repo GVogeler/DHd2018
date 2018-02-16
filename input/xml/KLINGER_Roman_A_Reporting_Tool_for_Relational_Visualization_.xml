@@ -184,7 +184,7 @@
                     <hi rend="italic">weighted degree </hi>and 
                     <hi rend="italic">density</hi>. The degree is the number of edges occurring with a given vertex. The edge weight, 
                     <hi rend="italic">w</hi>
-                    <hi rend="italic">i,j</hi> ≥ 0, is defined as the number of interactions between the vertices V
+                        <hi rend="italic">i,j</hi><hi rend="math"> ≥ </hi>0, is defined as the number of interactions between the vertices V
                     <hi rend="italic">i</hi> and V
                     <hi rend="italic">j</hi>. The weighted degree is the sum of weights of the edges occurring with a vertex 
                     <hi rend="italic">i</hi>. Density is the ratio of occurring edges between two vertices and all possible vertex pairs.
