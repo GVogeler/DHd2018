@@ -332,6 +332,14 @@
     <xsl:attribute name="space-after">.2in</xsl:attribute>
   </xsl:template>
 
+  <xsl:template name="subsubsubsubhead">
+    <xsl:attribute name="font-family"><xsl:value-of select="$main_font"/></xsl:attribute>
+    <xsl:attribute name="font-size">12pt</xsl:attribute>
+    <xsl:attribute name="color">black</xsl:attribute>
+    <xsl:attribute name="space-before">.2in</xsl:attribute>
+    <xsl:attribute name="space-after">.2in</xsl:attribute>
+  </xsl:template>
+  
   <xsl:template name="text_bigger">
     <xsl:attribute name="font-family"><xsl:value-of select="$main_font"/></xsl:attribute>
     <xsl:attribute name="font-size">14pt</xsl:attribute>
@@ -1591,6 +1599,12 @@
       </xsl:when>
       <xsl:when test="ancestor::figure">
         <xsl:apply-templates/>
+      </xsl:when>
+      <xsl:when test="ancestor::div[@type='div2']">
+        <fo:block>
+          <xsl:call-template name="subsubsubsubhead"/>
+          <xsl:apply-templates/>
+        </fo:block>
       </xsl:when>
       <xsl:otherwise>
         <fo:block keep-with-next="always"  text-align="left">
