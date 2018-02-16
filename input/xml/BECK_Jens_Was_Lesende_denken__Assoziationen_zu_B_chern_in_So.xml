@@ -127,9 +127,14 @@
                     </row>
                     <row>
                         <cell rend="DH-Default">The Hound of the Baskervilles</cell>
-                        <cell rend="DH-Default">Agatha_Christie</cell>
-                        <cell rend="DH-Default">christie, agatha_christie, agatha_christy</cell>
-                        <cell rend="DH-Default">470784120, …, 188608568</cell>
+                        <cell rend="DH-Default">Agatha_
+                            Christie</cell>
+                        <cell rend="DH-Default">christie, agatha_
+                            christie, agatha_
+                            christy</cell>
+                        <cell rend="DH-Default">4707841
+                            20, …, 1886
+                            08568</cell>
                         <cell rend="DH-Default">20</cell>
                         <cell rend="DH-Default">False</cell>
                     </row>
@@ -137,7 +142,8 @@
                         <cell rend="DH-Default">The Hound of the Baskervilles</cell>
                         <cell rend="DH-Default">Spock</cell>
                         <cell rend="DH-Default">spock</cell>
-                        <cell rend="DH-Default">42971473</cell>
+                        <cell rend="DH-Default">429714
+                            73</cell>
                         <cell rend="DH-Default">1</cell>
                         <cell rend="DH-Default">True</cell>
                     </row>
@@ -145,7 +151,9 @@
                         <cell rend="DH-Default">The Hound of the Baskervilles</cell>
                         <cell rend="DH-Default">Robert_Downey,_Jr.</cell>
                         <cell rend="DH-Default">robert_downey_jr, robert_downey</cell>
-                        <cell rend="DH-Default">1077543609, …, 1250976986</cell>
+                        <cell rend="DH-Default">107754
+                            3609, …, 125
+                            0976986</cell>
                         <cell rend="DH-Default">18</cell>
                         <cell rend="DH-Default">False</cell>
                     </row>
@@ -153,7 +161,8 @@
                         <cell rend="DH-Default">The Hound of the Baskervilles</cell>
                         <cell rend="DH-Default">Ann_Radcliffe</cell>
                         <cell rend="DH-Default">ann_radcliffe</cell>
-                        <cell rend="DH-Default">435380655</cell>
+                        <cell rend="DH-Default">435380
+                            655</cell>
                         <cell rend="DH-Default">1</cell>
                         <cell rend="DH-Default">False</cell>
                     </row>
