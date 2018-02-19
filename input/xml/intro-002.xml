@@ -62,12 +62,12 @@
           &#160;&#160;&#160;&#160;&#160;https://github.com/karindalziel/TEI-to-PDF<lb/>
           und der bearbeiteten Version von Aramís Concepción Durán<lb/>
           &#160;&#160;&#160;&#160;&#160;https://github.com/aramiscd/dhd2016-boa.git<lb/>
-          Konferenz-Logo und Umschlaggestaltung: Anja Neuefeind<lb/>
+          Konferenz-Logo: Anja Neuefeind<lb/>
         </p>
         <p n="intro_text">
           Online verfügbar: http://dhd2018.uni-koeln.de/<lb/>
         </p>
-        <p n="intro_text"><!--<seg n="ISBN">ISBN GOES HERE (controlled by XSLT)</seg><lb/>--></p>
+        <p n="intro_text"><seg n="ISBN">ISBN GOES HERE (controlled by XSLT)</seg><lb/></p>
       </div>
     </body>
   </text>
