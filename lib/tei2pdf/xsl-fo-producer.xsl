@@ -12,7 +12,7 @@
   <!--<xsl:preserve-space elements="bibl"/>-->
 
   <!-- Two outputs are: print or pdf. This adjusts colors (for headers), margins, and a few other small things -->
-  <xsl:variable name="output">print</xsl:variable>
+  <xsl:variable name="output">pdf</xsl:variable>
 
   <!-- Print paper ID's: yes or no -->
   <xsl:variable name="id">no</xsl:variable>
@@ -273,7 +273,7 @@
   </xsl:template>
 
   <xsl:template name="figure_container_intro">
-    <xsl:attribute name="space-before">.1in</xsl:attribute>
+    <xsl:attribute name="space-before">2.1in</xsl:attribute>
     <xsl:attribute name="space-after">.2in</xsl:attribute>
     <xsl:attribute name="text-align">center</xsl:attribute>
     <xsl:attribute name="font-family"><xsl:value-of select="$main_font"/></xsl:attribute>
@@ -294,6 +294,14 @@
     <xsl:attribute name="font-family"><xsl:value-of select="$main_font"/></xsl:attribute>
   </xsl:template>
 
+  <xsl:template name="logo_intro">
+    <xsl:attribute name="content-height">scale-to-fit</xsl:attribute>
+    <xsl:attribute name="content-width">5in</xsl:attribute>
+    <xsl:attribute name="scaling">non-uniform</xsl:attribute>
+    <xsl:attribute name="text-align">center</xsl:attribute>
+    <xsl:attribute name="font-family"><xsl:value-of select="$main_font"/></xsl:attribute>
+  </xsl:template>
+  
   <!-- heads -->
 
   <xsl:template name="head">
@@ -1924,10 +1932,10 @@
   <xsl:template match="seg[@n='ISBN']">
     <xsl:choose>
       <xsl:when test="$output = 'print'">
-        <xsl:text>ISBN 978-3-941379-05-3</xsl:text>
+        <xsl:text>ISBN 978-3-946275-01-5</xsl:text>
       </xsl:when>
       <xsl:otherwise>
-        <xsl:text>ISBN 978-3-941379-05-3</xsl:text>
+        <xsl:text>ISBN 978-3-946275-01-5</xsl:text>
       </xsl:otherwise>
     </xsl:choose>
   </xsl:template>
@@ -1938,8 +1946,9 @@
         <fo:block>
           <xsl:call-template name="figure_container_intro"/>
           <fo:external-graphic>
-            <xsl:attribute name="src"><xsl:text>../../../input/images/logo_bw.jpg</xsl:text></xsl:attribute>
-            <xsl:call-template name="figure_intro"/>
+<!--            <xsl:attribute name="src"><xsl:text>../../../input/images/logo_bw.jpg</xsl:text></xsl:attribute>-->
+            <xsl:attribute name="src"><xsl:text>../../../input/images/logo_DHd2018.jpg</xsl:text></xsl:attribute>
+            <xsl:call-template name="logo_intro"/>
           </fo:external-graphic>
         </fo:block>
       </xsl:when>
@@ -1947,8 +1956,9 @@
         <fo:block>
           <xsl:call-template name="figure_container_intro"/>
           <fo:external-graphic>
-            <xsl:attribute name="src"><xsl:text>../../../input/images/logo_color.jpg</xsl:text></xsl:attribute>
-            <xsl:call-template name="figure_intro"/>
+<!--            <xsl:attribute name="src"><xsl:text>../../../input/images/logo_color.jpg</xsl:text></xsl:attribute>-->
+            <xsl:attribute name="src"><xsl:text>../../../input/images/logo_DHd2018.jpg</xsl:text></xsl:attribute>
+            <xsl:call-template name="logo_intro"/>
           </fo:external-graphic>
         </fo:block>
       </xsl:otherwise>
@@ -1961,7 +1971,7 @@
         <fo:block>
           <xsl:call-template name="logo_container_intro"/>
           <fo:external-graphic>
-            <xsl:attribute name="src"><xsl:text>../../../input/images/logos_förderer.jpg</xsl:text></xsl:attribute>
+            <xsl:attribute name="src"><xsl:text>../../../input/images/logos_foerderer.jpg</xsl:text></xsl:attribute>
             <xsl:call-template name="figure_intro"/>
           </fo:external-graphic>
         </fo:block>
@@ -1970,7 +1980,7 @@
         <fo:block>
           <xsl:call-template name="logo_container_intro"/>
           <fo:external-graphic>
-            <xsl:attribute name="src"><xsl:text>../../../input/images/logos_förderer.jpg</xsl:text></xsl:attribute>
+            <xsl:attribute name="src"><xsl:text>../../../input/images/logos_foerderer.jpg</xsl:text></xsl:attribute>
             <xsl:call-template name="figure_intro"/>
           </fo:external-graphic>
         </fo:block>
