@@ -12,7 +12,7 @@
   <!--<xsl:preserve-space elements="bibl"/>-->
 
   <!-- Two outputs are: print or pdf. This adjusts colors (for headers), margins, and a few other small things -->
-  <xsl:variable name="output">pdf</xsl:variable>
+  <xsl:variable name="output">print</xsl:variable>
 
   <!-- Print paper ID's: yes or no -->
   <xsl:variable name="id">no</xsl:variable>
@@ -273,20 +273,26 @@
   </xsl:template>
 
   <xsl:template name="figure_container_intro">
-    <xsl:attribute name="space-before">1in</xsl:attribute>
+    <xsl:attribute name="space-before">.1in</xsl:attribute>
     <xsl:attribute name="space-after">.2in</xsl:attribute>
     <xsl:attribute name="text-align">center</xsl:attribute>
     <xsl:attribute name="font-family"><xsl:value-of select="$main_font"/></xsl:attribute>
   </xsl:template>
 
+  <xsl:template name="logo_container_intro">
+    <xsl:attribute name="space-before">2.1in</xsl:attribute>
+    <xsl:attribute name="space-after">.2in</xsl:attribute>
+    <xsl:attribute name="text-align">center</xsl:attribute>
+    <xsl:attribute name="font-family"><xsl:value-of select="$main_font"/></xsl:attribute>
+  </xsl:template>
+  
   <xsl:template name="figure_intro">
     <xsl:attribute name="content-height">scale-to-fit</xsl:attribute>
-    <xsl:attribute name="content-width">5in</xsl:attribute>
+    <xsl:attribute name="content-width">8in</xsl:attribute>
     <xsl:attribute name="scaling">non-uniform</xsl:attribute>
     <xsl:attribute name="text-align">center</xsl:attribute>
     <xsl:attribute name="font-family"><xsl:value-of select="$main_font"/></xsl:attribute>
   </xsl:template>
-
 
   <!-- heads -->
 
@@ -794,11 +800,27 @@
                   </xsl:for-each>
                 </fo:block>
                 <!-- Text -->
+                
+                <xsl:choose>
+                  <xsl:when test="descendant::keywords[@n='subcategory']/term[1] = 'Vorwort'">
+                    <fo:block text-align="justify" text-align-last="left" 
+                      hyphenate="true"
+                      hyphenation-push-character-count="3"
+                      hyphenation-remain-character-count="2"
+                      hyphenation-ladder-count="3"
+                      language="de">
+                      <xsl:call-template name="text"/>
+                      <xsl:apply-templates select="text"/>
+                    </fo:block>
+                  </xsl:when>
+                 <xsl:otherwise>
                 <fo:block>
                   <xsl:call-template name="text"/>
                   <xsl:apply-templates select="text"/>
                 </fo:block>
-
+                 </xsl:otherwise>
+                </xsl:choose>
+                
               </fo:flow>
             </fo:page-sequence>
 
@@ -1933,4 +1955,27 @@
     </xsl:choose>
   </xsl:template>
 
+  <xsl:template match="seg[@n='book_figure_logos']">
+    <xsl:choose>
+      <xsl:when test="$output = 'print'">
+        <fo:block>
+          <xsl:call-template name="logo_container_intro"/>
+          <fo:external-graphic>
+            <xsl:attribute name="src"><xsl:text>../../../input/images/logos_förderer.jpg</xsl:text></xsl:attribute>
+            <xsl:call-template name="figure_intro"/>
+          </fo:external-graphic>
+        </fo:block>
+      </xsl:when>
+      <xsl:otherwise>
+        <fo:block>
+          <xsl:call-template name="logo_container_intro"/>
+          <fo:external-graphic>
+            <xsl:attribute name="src"><xsl:text>../../../input/images/logos_förderer.jpg</xsl:text></xsl:attribute>
+            <xsl:call-template name="figure_intro"/>
+          </fo:external-graphic>
+        </fo:block>
+      </xsl:otherwise>
+    </xsl:choose>
+  </xsl:template>
+  
 </xsl:stylesheet>
