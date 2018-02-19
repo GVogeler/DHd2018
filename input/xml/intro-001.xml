@@ -47,7 +47,7 @@
     <body>
       <div>
         <p n="intro_text_center">
-          Digital Humanities im deutschsprachigen Raum (DHd)<lb/>
+          5. Tagung des Verbands Digital Humanities im deutschsprachigen Raum e.V.<lb/>
         </p>
       </div>
       <div>
@@ -58,6 +58,8 @@
         <p>&#160;</p>
         <head n="intro_head_medium_center">Universität zu Köln</head>
         <head n="intro_head_medium_center">26. Februar bis 2. März 2018</head>
+
+        <p n="intro_text_center"> <seg n="book_figure_logos">LOGOS GO HERE (controlled by XSLT because of different print/PDF versions)</seg></p>
       </div>
     </body>
   </text>

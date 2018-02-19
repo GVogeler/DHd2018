@@ -273,21 +273,35 @@
   </xsl:template>
 
   <xsl:template name="figure_container_intro">
-    <xsl:attribute name="space-before">1in</xsl:attribute>
+    <xsl:attribute name="space-before">2.1in</xsl:attribute>
     <xsl:attribute name="space-after">.2in</xsl:attribute>
     <xsl:attribute name="text-align">center</xsl:attribute>
     <xsl:attribute name="font-family"><xsl:value-of select="$main_font"/></xsl:attribute>
   </xsl:template>
 
+  <xsl:template name="logo_container_intro">
+    <xsl:attribute name="space-before">2.1in</xsl:attribute>
+    <xsl:attribute name="space-after">.2in</xsl:attribute>
+    <xsl:attribute name="text-align">center</xsl:attribute>
+    <xsl:attribute name="font-family"><xsl:value-of select="$main_font"/></xsl:attribute>
+  </xsl:template>
+  
   <xsl:template name="figure_intro">
+    <xsl:attribute name="content-height">scale-to-fit</xsl:attribute>
+    <xsl:attribute name="content-width">8in</xsl:attribute>
+    <xsl:attribute name="scaling">non-uniform</xsl:attribute>
+    <xsl:attribute name="text-align">center</xsl:attribute>
+    <xsl:attribute name="font-family"><xsl:value-of select="$main_font"/></xsl:attribute>
+  </xsl:template>
+
+  <xsl:template name="logo_intro">
     <xsl:attribute name="content-height">scale-to-fit</xsl:attribute>
     <xsl:attribute name="content-width">5in</xsl:attribute>
     <xsl:attribute name="scaling">non-uniform</xsl:attribute>
     <xsl:attribute name="text-align">center</xsl:attribute>
     <xsl:attribute name="font-family"><xsl:value-of select="$main_font"/></xsl:attribute>
   </xsl:template>
-
-
+  
   <!-- heads -->
 
   <xsl:template name="head">
@@ -794,11 +808,27 @@
                   </xsl:for-each>
                 </fo:block>
                 <!-- Text -->
+                
+                <xsl:choose>
+                  <xsl:when test="descendant::keywords[@n='subcategory']/term[1] = 'Vorwort'">
+                    <fo:block text-align="justify" text-align-last="left" 
+                      hyphenate="true"
+                      hyphenation-push-character-count="3"
+                      hyphenation-remain-character-count="2"
+                      hyphenation-ladder-count="3"
+                      language="de">
+                      <xsl:call-template name="text"/>
+                      <xsl:apply-templates select="text"/>
+                    </fo:block>
+                  </xsl:when>
+                 <xsl:otherwise>
                 <fo:block>
                   <xsl:call-template name="text"/>
                   <xsl:apply-templates select="text"/>
                 </fo:block>
-
+                 </xsl:otherwise>
+                </xsl:choose>
+                
               </fo:flow>
             </fo:page-sequence>
 
@@ -1902,10 +1932,10 @@
   <xsl:template match="seg[@n='ISBN']">
     <xsl:choose>
       <xsl:when test="$output = 'print'">
-        <xsl:text>ISBN 978-3-941379-05-3</xsl:text>
+        <xsl:text>ISBN 978-3-946275-01-5</xsl:text>
       </xsl:when>
       <xsl:otherwise>
-        <xsl:text>ISBN 978-3-941379-05-3</xsl:text>
+        <xsl:text>ISBN 978-3-946275-01-5</xsl:text>
       </xsl:otherwise>
     </xsl:choose>
   </xsl:template>
@@ -1916,8 +1946,9 @@
         <fo:block>
           <xsl:call-template name="figure_container_intro"/>
           <fo:external-graphic>
-            <xsl:attribute name="src"><xsl:text>../../../input/images/logo_bw.jpg</xsl:text></xsl:attribute>
-            <xsl:call-template name="figure_intro"/>
+<!--            <xsl:attribute name="src"><xsl:text>../../../input/images/logo_bw.jpg</xsl:text></xsl:attribute>-->
+            <xsl:attribute name="src"><xsl:text>../../../input/images/logo_DHd2018.jpg</xsl:text></xsl:attribute>
+            <xsl:call-template name="logo_intro"/>
           </fo:external-graphic>
         </fo:block>
       </xsl:when>
@@ -1925,12 +1956,36 @@
         <fo:block>
           <xsl:call-template name="figure_container_intro"/>
           <fo:external-graphic>
-            <xsl:attribute name="src"><xsl:text>../../../input/images/logo_color.jpg</xsl:text></xsl:attribute>
-            <xsl:call-template name="figure_intro"/>
+<!--            <xsl:attribute name="src"><xsl:text>../../../input/images/logo_color.jpg</xsl:text></xsl:attribute>-->
+            <xsl:attribute name="src"><xsl:text>../../../input/images/logo_DHd2018.jpg</xsl:text></xsl:attribute>
+            <xsl:call-template name="logo_intro"/>
           </fo:external-graphic>
         </fo:block>
       </xsl:otherwise>
     </xsl:choose>
   </xsl:template>
 
+  <xsl:template match="seg[@n='book_figure_logos']">
+    <xsl:choose>
+      <xsl:when test="$output = 'print'">
+        <fo:block>
+          <xsl:call-template name="logo_container_intro"/>
+          <fo:external-graphic>
+            <xsl:attribute name="src"><xsl:text>../../../input/images/logos_foerderer.jpg</xsl:text></xsl:attribute>
+            <xsl:call-template name="figure_intro"/>
+          </fo:external-graphic>
+        </fo:block>
+      </xsl:when>
+      <xsl:otherwise>
+        <fo:block>
+          <xsl:call-template name="logo_container_intro"/>
+          <fo:external-graphic>
+            <xsl:attribute name="src"><xsl:text>../../../input/images/logos_foerderer.jpg</xsl:text></xsl:attribute>
+            <xsl:call-template name="figure_intro"/>
+          </fo:external-graphic>
+        </fo:block>
+      </xsl:otherwise>
+    </xsl:choose>
+  </xsl:template>
+  
 </xsl:stylesheet>
