@@ -115,8 +115,7 @@
                     <hi rend="italic">Waverley</hi> von Walter Scott für den historischen Roman) oder besonders gute Vertreter einer Gattung sind (z. B. Goethes 
                     <hi rend="italic">Wilhelm Meisters Lehrjahre</hi>). Es kann dann andere Vertreter geben, bei denen die für die Gattung als prototypisch angesehenen Merkmale nicht so stark ausgeprägt sind, die aber trotzdem der entsprechenden Textgruppe zuzuordnen sind. Kritik am Klassenkonzept äußert schon Vivas (1968), später u. a. Hempfer (2010). Neuere Gattungstheorien haben daher u. a. Wittgensteins Konzept der Familienähnlichkeit (Weitz 1956, Fowler 1982, Fishelov 1991) und die in der Kognitionspsychologie entwickelte Prototypentheorie (Rosch 1973) als alternative Modelle der Kategorisierung aufgegriffen.
                 </p>
-                <p>In den Digital Humanities gibt es bereits einige Untersuchungen zu literarischen Gattungen, bei denen jedoch üblicherweise die Annahme zugrunde liegt, dass Gattungen als Klassen im logischen Sinn zu verstehen sind (Calvo Tello et al. 2017, Hettinger el al. 2016a, Hettinger et al. 2016b, Schöch et al. 2016, Schöch 2015, Schöch 2013).
-                    <ref target="ftn1" n="1"/>
+                <p>In den Digital Humanities gibt es bereits einige Untersuchungen zu literarischen Gattungen, bei denen jedoch üblicherweise die Annahme zugrunde liegt, dass Gattungen als Klassen im logischen Sinn zu verstehen sind (Calvo Tello et al. 2017, Hettinger el al. 2016a, Hettinger et al. 2016b, Schöch et al. 2016, Schöch 2015, Schöch 2013).<ref target="ftn1" n="1"/>
                 </p>
                 <p>Im vorliegenden Beitrag wird exemplarisch dargestellt, inwiefern es möglich ist, das Prototypenmodell zu verwenden, um Einsichten in die Anordnung maschinell gruppierter Texte zu gewinnen, die über den klassischen Ansatz der Klassifikation nicht möglich wären. Der Beitrag leistet damit zum einen, einen konkreten Vorschlag für die Formalisierung des Prototypen-Ansatzes für gattungsstilistische Untersuchungen zu machen. Zum anderen zielt er darauf, durch die Berücksichtigung der internen Strukturierung von Gattungskategorien eine bessere Anbindung der computergestützten Verfahren an literaturgeschichtliche Forschungsergebnisse zu ermöglichen.</p>
             </div>
@@ -125,8 +124,7 @@
                 <p>
                     <hi rend="bold italic">Korpus.</hi> Die Analyse wurde an 80 hispanoamerikanischen Romanen von 51 AutorInnen getestet, welche fünf verschiedenen Untergattungen zugeordnet sind: dem historischen Roman, dem Liebesroman, dem kostumbristischen Roman, dem Gaucho-Roman und dem Antisklaverei-Roman. Der historische Roman, der Liebesroman und der kostumbristische Roman sind im Hispanoamerika des 19. Jahrhunderts verbreitete Untergattungen (Janik 2008: 60-77) mit europäischen Vorläufern und Vorbildern. Der Gaucho-Roman und der Antisklaverei-Roman sind Romantypen, die in Hispanoamerika entstanden sind und nur in bestimmten Regionen vorkommen. Für alle fünf Untergattungen wird angenommen, dass sie vor allem auf einer inhaltlichen Ebene definiert sind (Álamo Felices 2011, Lichtblau 1959: 121-135, Rivas 1990).
                 </p>
-                <p>Für die Zuordnung der Romane zu den verschiedenen Untergattungen wurde einschlägige Sekundärliteratur ausgewertet. Abb. 1 und 2 zeigen die Verteilung der Romane über die Zeit nach Untergattungen sowie nach Ländern. Bestandteil des Korpus sind neben hispanoamerikanischen Romanen auch fünf Texte aus Spanien sowie je ein Text aus England und Frankreich (in spanischer Übersetzung), welche aufgrund ihres Prototypen-Status einbezogen wurden. Das Korpus umfasst insgesamt 2,3 Mio. Token.
-                    <ref target="ftn2" n="2"/>
+                <p>Für die Zuordnung der Romane zu den verschiedenen Untergattungen wurde einschlägige Sekundärliteratur ausgewertet. Abb. 1 und 2 zeigen die Verteilung der Romane über die Zeit nach Untergattungen sowie nach Ländern. Bestandteil des Korpus sind neben hispanoamerikanischen Romanen auch fünf Texte aus Spanien sowie je ein Text aus England und Frankreich (in spanischer Übersetzung), welche aufgrund ihres Prototypen-Status einbezogen wurden. Das Korpus umfasst insgesamt 2,3 Mio. Token.<ref target="ftn2" n="2"/>
                 </p>
                 <p>
                     <figure>
@@ -143,8 +141,8 @@
                             <lb/>Abbildung 2: Verteilung der Romane über die Jahrzehnte und nach Ländern
                         </head>
                     </figure>
-                    <hi rend="bold italic">Definition von Prototypen.</hi> Für jede der fünf Untergattungen wurde mindestens ein zur Untergattung gehörender Roman als Prototyp festgelegt.
-                    <ref target="ftn3" n="3"/> Es wird zunächst also nicht die Idee vom Prototypen als dem durchschnittlichen Vertreter einer Kategorie verfolgt, sondern der Ansatz, dass ein oder mehrere bestimmte Exemplare einen besonderen, prototypischen Status haben. Ob ein Text eine Vorbild- oder Höhepunkt-Funktion innerhalb einer bestimmten Gattung hat, ist letztlich eine Frage der Perspektive und der Korpuszusammenstellung. Folgende Prototypen sind für die fünf Untergattungen gesetzt worden, wobei es für den kostumbristischen Roman eine ganze Reihe in Frage kommender Prototypen gibt:
+                    <hi rend="bold italic">Definition von Prototypen.</hi> Für jede der fünf Untergattungen wurde mindestens ein zur Untergattung gehörender Roman als Prototyp festgelegt.<ref target="ftn3" n="3"/> 
+                    Es wird zunächst also nicht die Idee vom Prototypen als dem durchschnittlichen Vertreter einer Kategorie verfolgt, sondern der Ansatz, dass ein oder mehrere bestimmte Exemplare einen besonderen, prototypischen Status haben. Ob ein Text eine Vorbild- oder Höhepunkt-Funktion innerhalb einer bestimmten Gattung hat, ist letztlich eine Frage der Perspektive und der Korpuszusammenstellung. Folgende Prototypen sind für die fünf Untergattungen gesetzt worden, wobei es für den kostumbristischen Roman eine ganze Reihe in Frage kommender Prototypen gibt:
                 </p>
                 <table rend="frame" xml:id="Tabelle2">
                     <head>Tabelle 1: Untergattungen und die für sie gesetzten Prototypen</head>
@@ -157,8 +155,7 @@
                         <cell>Historischer Roman</cell>
                         <cell>
                             <list type="unordered">
-                                <item>Waverley o hace sesenta años (Walter Scott, 1814)
-                                    <ref target="ftn4" n="4"/>
+                                <item>Waverley o hace sesenta años (Walter Scott, 1814)<ref target="ftn4" n="4"/>
                                 </item>
                             </list>
                         </cell>
@@ -168,8 +165,7 @@
                         <cell>Liebesroman</cell>
                         <cell>
                             <list type="unordered">
-                                <item>Julia o la nueva Eloísa (Jean-Jacques Rousseau, 1761)
-                                    <ref target="ftn5" n="5"/>
+                                <item>Julia o la nueva Eloísa (Jean-Jacques Rousseau, 1761)<ref target="ftn5" n="5"/>
                                 </item>
                             </list>
                         </cell>
@@ -214,8 +210,7 @@
                 <p>
                     <hi rend="bold italic">Methoden.</hi> Um die für die Untergattungen relevanten Strukturen auf unterschiedlichen textlichen Ebenen zu analysieren und zu modellieren, wurden Topic Modelling und eine Analyse der häufigsten Wörter (MFW) angewandt.
                 </p>
-                <p>Das Topic Modeling (vgl. Blei 2012) wurde mit MALLET
-                    <ref target="ftn6" n="6"/> mit für das Korpus geeigneten Vorverarbeitungsschritten und Parametern durchgeführt (Lemmatisierung, Beschränkung auf Substantive, Segmentlänge von 1000 Wörtern, 30 Topics, 5000 Iterationen, Optimierung alle 10 Iterationen) und die Ergebnisse anschließend für die einzelnen Romane wieder aggregiert. Abb. 3 zeigt ein Beispiel-Topic aus dem entstandenen Modell:
+                <p>Das Topic Modeling (vgl. Blei 2012) wurde mit MALLET<ref target="ftn6" n="6"/> mit für das Korpus geeigneten Vorverarbeitungsschritten und Parametern durchgeführt (Lemmatisierung, Beschränkung auf Substantive, Segmentlänge von 1000 Wörtern, 30 Topics, 5000 Iterationen, Optimierung alle 10 Iterationen) und die Ergebnisse anschließend für die einzelnen Romane wieder aggregiert. Abb. 3 zeigt ein Beispiel-Topic aus dem entstandenen Modell:
                 </p>
                 <p>
                     <figure>
@@ -223,8 +218,8 @@
                         <head>
                             <lb/>Abbildung 3: Beispiel-Topic: carta-alma-corazón (Brief-Seele-Herz)
                         </head>
-                    </figure>Im Ergebnis erhält man für jedes Topic in jedem Roman einen bestimmten Wahrscheinlichkeitswert; ein Roman ist durch die Reihe seiner einzelnen Topic-Wahrscheinlichkeiten repräsentiert. Anschließend sind die Ähnlichkeiten zwischen den Topic-Verteilungen der Romane mit der Kosinus-Ähnlichkeit berechnet worden.
-                    <ref target="ftn7" n="7"/> Darauf aufbauend konnten die Ähnlichkeiten aller Romane untereinander ermittelt werden, so auch zwischen einzelnen Vertretern einer Roman-Untergattung und den jeweiligen Prototypen.
+                    </figure>Im Ergebnis erhält man für jedes Topic in jedem Roman einen bestimmten Wahrscheinlichkeitswert; ein Roman ist durch die Reihe seiner einzelnen Topic-Wahrscheinlichkeiten repräsentiert. Anschließend sind die Ähnlichkeiten zwischen den Topic-Verteilungen der Romane mit der Kosinus-Ähnlichkeit berechnet worden.<ref target="ftn7" n="7"/> 
+                    Darauf aufbauend konnten die Ähnlichkeiten aller Romane untereinander ermittelt werden, so auch zwischen einzelnen Vertretern einer Roman-Untergattung und den jeweiligen Prototypen.
                 </p>
                 <p>Die zweite Dokument-Repräsentation wurde auf Basis der 10.000 häufigsten Wörter (MFW) in den Roman-Volltexten erstellt (nicht lemmatisiert, gewichtet mit TF-IDF, maximale Dokument-Frequenz von 90 %). Anhand dieser beiden Repräsentationen kann überprüft werden, welche Merkmale zentral für die Abbildung von Gattungsunterschieden zwischen den Texten sind.</p>
                 <p>
@@ -266,7 +261,7 @@
                     <figure>
                         <graphic url="HENNY_KRAHMER_Ulrike_Alternative_Gattungstheorien__Das_Proto-10000201000003B100000399FA113EC7EDF435D7.png"/>
                         <head>
-                            <lb/>Abbildung 8: Heatmap mit Topic-Distanzen aller Romane untereinander, Prototypen sind heller gefärbt
+                            <lb/>Abbildung 8: Heatmap mit Topic-Ähnlichkeiten aller Romane untereinander, Prototypen sind heller gefärbt
                         </head>
                     </figure>
                 </p>
@@ -274,7 +269,7 @@
                     <figure>
                         <graphic url="HENNY_KRAHMER_Ulrike_Alternative_Gattungstheorien__Das_Proto-10000201000003B1000003963E13444257C5C7D0.png"/>
                         <head>
-                            <lb/>Abbildung 9: Heatmap mit Distanzen der 10.000 MFW aller Romane untereinander
+                            <lb/>Abbildung 9: Heatmap mit Ähnlichkeiten der 10.000 MFW aller Romane untereinander
                         </head>
                     </figure>Die Heatmap auf der Grundlage der 10.000 MFW zeigt eine größere Homogenität für die kostumbristischen und historischen Romane, während die Antisklaverei-, Gaucho- und Liebesromane hier weniger Nähe zueinander aufweisen. Auch die historischen und kostumbristischen Romane untereinander weisen größere Ähnlichkeiten hinsichtlich ihrer MFW auf. Möglicherweise sind bei beiden Untergattungen spezifisches Vokabular oder stilistische Aspekte für die Gattungszugehörigkeit wichtiger. Besonders für die kostumbristischen Romane, in denen bei der Beschreibung regionaler und lokaler Gegebenheiten auch die Nachahmung von Dialekten und Umgangssprache eine Rolle spielt, ist diese Erklärung schlüssig. In einem auf Substantive beschränkten und lemmatisierten Korpus, wie es in das Topic-Modeling eingegangen ist, können solche Besonderheiten nicht aufgefangen werden.
                 </p>
