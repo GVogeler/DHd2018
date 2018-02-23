@@ -6,6 +6,9 @@ sax_jar=lib/SaxonHE9-8-0-7J/saxon9he.jar
 # locate FOP base directory
 fop_lib=lib/fop-2.1
 
+# for hyphenation, you will also need 'offo hyphenation binaries': 
+# simply place 'fop-hyph.jar' in 'fop/lib' 
+
 # additional options for FOP processing (sent to the java process)
 #   -d64: optimization for 64 bit processor
 #   -Xmx3000m: sets the maximum available memory allocation pool to 3000 MB
@@ -27,4 +30,4 @@ final_xml=output/Book_Corpus.xml
 # further options that may be useful
 
 # cleanup transitional files when finished
-#cleanup=true
+cleanup=true
