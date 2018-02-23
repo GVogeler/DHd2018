@@ -1932,10 +1932,10 @@
   <xsl:template match="seg[@n='ISBN']">
     <xsl:choose>
       <xsl:when test="$output = 'print'">
-        <xsl:text>ISBN 978-3-946275-01-5</xsl:text>
+        <xsl:text>ISBN 978-3-946275-02-2</xsl:text>
       </xsl:when>
       <xsl:otherwise>
-        <xsl:text>ISBN 978-3-946275-01-5</xsl:text>
+        <xsl:text>ISBN 978-3-946275-02-2</xsl:text>
       </xsl:otherwise>
     </xsl:choose>
   </xsl:template>
